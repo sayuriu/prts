@@ -1,4 +1,16 @@
 @use 'sass:math';
+@import '../../anims';
+
+@keyframes slide-up {
+	0% {
+		opacity: 0;
+		transform: translateY(4vh);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
 
 $header-height: math.div(81px, 1080px) * 100vh;
 
@@ -9,6 +21,13 @@ $header-height: math.div(81px, 1080px) * 100vh;
 	height: calc(100vh - #{$header-height});
 	width: 100vw;
 	pointer-events: none;
+	opacity: 0;
+	animation:
+		slide-up
+		0.5s
+		$forceful
+		0.1s
+		forwards;
 }
 
 p {
