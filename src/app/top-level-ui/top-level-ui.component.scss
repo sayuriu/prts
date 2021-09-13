@@ -1,0 +1,500 @@
+@use 'sass:math';
+@import '../../anims';
+
+$header-margin-top: math.div(81px, 1080px) * 100vh;
+$header-height: math.div(117px, 1080px) * 100vh;
+
+$emblem-margin-left: math.div(79px, 1920px) * 100vw;
+$emblem-width: math.div(177px, 1920px) * 100vw;
+
+:host[state='default'] {
+	--headerMargin_Top: #{$header-margin-top};
+	--headerHeight: #{math.div(117px, 1080px) * 100vh};
+	--header_Emblem_Foreground: var(--globalForegroundInverse);
+	--header_Background_Color: transparent;
+	--header_Background_Transition: background 0.3s #{$forceful} 0.05s;
+
+	--clockMargin: 1em;
+
+	--logoMarginLeft: calc(50vw - 25vh);
+
+	--leftContainer_Polygon_MarginLeft: 0;
+	--leftContainer_Triangle_MarginBottom: 0;
+}
+
+:host[state='asNavigation'] {
+	--headerMargin_Top: 0;
+	--headerHeight: #{math.div(81px, 1080px) * 100vh};
+	--header_Emblem_Foreground: var(--globalForeground);
+	--header_Background_Color: var(--globalForegroundInverse);
+	--header_Background_Transition: background 0.3s #{$forceful} 0.2s;
+
+	--clockMargin: calc(var(--headerHeight) + 1em);
+
+	--logoMarginLeft: calc(100vw - 26vh);
+
+	--leftContainer_Polygon_MarginLeft: -50%;
+	--leftContainer_Triangle_MarginBottom: -#{math.div(361px, 833px) * 100%};
+}
+
+:host[state='hidden'] {
+
+}
+
+@keyframes fade-in {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.FullscreenToggle {
+	position: absolute;
+	height: 20px;
+	width: 20px;
+	border: 0px;
+	background: hsl(0, 0%, 0%);
+	background: var(--globalForegroundInverse);
+	z-index: 999;
+}
+
+p.Clock {
+	position: absolute;
+	z-index: 1;
+	opacity: 0;
+	font-weight: 300;
+	right: 3%;
+	margin-top: var(--clockMargin);
+	text-align: center;
+	font-family: JetBrains Mono;
+
+	background: var(--globalForegroundInverse);
+	color: var(--globalForeground);
+
+	transition: margin 0.3s $forceful 0.1s;
+
+	@keyframes blinker {
+		50% {
+			opacity: 1;
+		}
+	}
+
+	@keyframes clock-fade-in {
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+	}
+
+	animation:
+		clock-fade-in
+		0.5s
+		2.2s
+		forwards;
+
+	// blinker
+	// 	2.5s
+	// 	1s
+	// 	infinite;
+	// animation:
+	// 	name
+	// 	duration
+	// 	timing-function
+	// 	delay
+	// 	iteration-count
+	// 	direction
+	// 	fill-mode;
+
+	transition: 0.5s $forceful;
+	transition-delay: 0.1s;
+	// transition: background, color 0.5s ease;
+	&:hover {
+		transform: translate(-3%, 10%);
+		box-shadow: 4px -4px 3px var(--RISquareShadowHover);
+	}
+	z-index: 2;
+}
+
+.Header {
+	transition: margin 0.5s $forceful,
+				height 0.5s $forceful,
+				var(--header_Background_Transition);
+	position: absolute;
+	background: var(--header_Background_Color);
+	width: 100vw;
+	height: var(--headerHeight);
+	margin-top: var(--headerMargin_Top);
+	z-index: 1;
+
+	@mixin emblemSlideAnim(
+		$name,
+		$initalTransform: translateX(20%),
+		$targetTransform: translateX(0%),
+	) {
+		@keyframes #{$name} {
+			0% {
+				opacity: 0;
+				transform: $initalTransform;
+			}
+			50% {
+				opacity: 1;
+			}
+			100% {
+				opacity: 1;
+				transform: $targetTransform;
+			}
+		}
+	}
+
+	.PRTS_Emblem {
+		height: 100%;
+		width: $emblem-width;
+		margin-left: $emblem-margin-left;
+		@include emblemSlideAnim(emblem-slidefromleft);
+		@include emblemSlideAnim(
+			emblem-slideup,
+			translateY(20%),
+			translateY(0%)
+		);
+		@include emblemSlideAnim(
+			emblem-slidedown,
+			translateY(-20%),
+			translateY(0%)
+		);
+
+		.PRTS_SVG {
+			fill: var(--header_Emblem_Foreground);
+			display: block;
+			height: 100%;
+			opacity: 0;
+			transition: fill 0.5s ease-in-out,
+						stroke 0.5s ease-in-out;
+			animation:
+				fade-in
+				0.5s
+				forwards;
+			animation-timing-function: none;
+			animation-delay: 0.8s;
+
+			#Emblem_TopLine,
+			#Emblem_BottomLine {
+				stroke: var(--header_Emblem_Foreground);
+			}
+
+			#Emblem_Name,
+			#Emblem_Desc1,
+			#Emblem_Desc2,
+			#Emblem_BottomLine {
+				opacity: 0;
+				animation-delay: 0.6s;
+				animation-duration: 1s;
+				animation-fill-mode: forwards;
+				animation-timing-function: $forceful;
+			}
+
+			#Emblem_Name,
+			#Emblem_Desc1 {
+				animation-name: emblem-slidefromleft;
+			}
+			#Emblem_Desc2 {
+				animation-name: emblem-slideup;
+			}
+			#Emblem_BottomLine {
+				animation-name: emblem-slideup;
+				animation-delay: 0.7s;
+			}
+		}
+	}
+}
+
+// may need optimization
+.RI_LogoContainer {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	height: 50vh;
+	width: 50vh;
+	left: var(--logoMarginLeft);
+	top: 25vh;
+
+	transition: 0.5s cubic-bezier(0.38, 0.2, 0.05, 0.88),
+				left 0.5s $forceful;
+	#RI_LogoImage {
+		@keyframes fadein {
+			0% {
+				transform:
+					translateY(30%);
+				opacity: 0;
+				animation-timing-function: ease-out;
+			}
+			50% {
+				filter: brightness(50%);
+				transform:
+					translateY(30%);
+				opacity: 0.6;
+				animation-timing-function: $forceful;
+			}
+			100% {
+				transform:
+					translateY(0%);
+				filter: brightness(50%);
+				opacity: 1;
+			}
+		}
+
+		opacity: 0;
+		height: 100%;
+		width: 100%;
+		animation:
+			fadein
+			0.7s
+			forwards
+			1.2s;
+		// animation-delay: 1.2s;
+		// animation-duration: 0.7s;
+	}
+	&:hover {
+		filter:
+			brightness(var(--logoHoverBrightness))
+			drop-shadow(0 10px 1px var(--logoHoverShadowColor));
+		transform: translateY(-4%);
+	}
+}
+
+.BottomBoxContainer {
+	$RI_box-hitbox-scale: 1.2;
+	$RI-boxcontainer-width: math.div(332px, 1920px) * $RI_box-hitbox-scale * 100%;
+	$RI-boxcontainer-height: math.div(505px, 1080px) * $RI_box-hitbox-scale * 100%;
+
+	position: sticky;
+	width: $RI-boxcontainer-width;
+	height: $RI-boxcontainer-height;
+	left: 100%;
+	top: 100%;
+
+	.BottomBoxContent {
+		position: sticky;
+		float: right;
+		top: 100%;
+		width: math.div(1, $RI_box-hitbox-scale) * 100%;
+		height: math.div(1, $RI_box-hitbox-scale) * 100%;
+
+		@keyframes blink-slidein {
+			0% {
+				opacity: 0;
+				transform: translateX(15%);
+				transition: none;
+				animation: none;
+			}
+			50% {
+				opacity: 1;
+				transform: translateX(15%);
+				animation-timing-function: $forceful-2;
+				// animation-timing-function: $sudden;
+			}
+			80%,
+			100% {
+				opacity: 1;
+				transform: translateX(0%);
+			}
+		}
+
+		.BottomTriangle {
+			position: absolute;
+			right: 0;
+			width: 100%;
+			height: 100%;
+			transition: 0.25s $forceful;
+
+			#shape {
+				width: inherit;
+				height: inherit;
+				bottom: 0;
+				clip-path: polygon(0% 100%, 100% 0%, 100% 100%);
+				background: var(--RITriangleColor);
+				overflow: hidden;
+
+				opacity: 0;
+				animation:
+					blink-slidein
+					1s
+					1.3s
+					forwards;
+			}
+			&:hover {
+				transform: translate(15%, 15%);
+			}
+		}
+
+		.TextPlaceholder {
+			position: absolute;
+			display: flex;
+			align-items: center;
+			width: calc(13rem + 34px);
+			height: 2.5rem;
+			right: 0%;
+			bottom: 2rem;
+			z-index: 100;
+
+			.TextArea {
+				width: 100%;
+				height: 100%;
+				margin-bottom: 17%;
+				margin-left: 4%;
+				opacity: 0;
+				animation:
+					blink-slidein
+					forwards;
+				animation-delay: 1.5s;
+				animation-duration: 0.8s;
+
+				.Text {
+					text-transform: uppercase;
+					letter-spacing: -0.055em;
+					font-weight: 300;
+					font-size: 26px;
+					line-height: 29px;
+					z-index: 1;
+					color: var(--globalForegroundInverse);
+					transition: 0.25s $forceful;
+
+					&:hover {
+						transform:
+							translateY(-20%);
+						text-shadow: 4px 10px 4px var(--RISquareShadowHover);
+					}
+				}
+			}
+			.ThemeToggle {
+				height: 100%;
+				width: 40px;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				opacity: 0;
+				animation:
+					blink-slidein
+					forwards;
+				animation-delay: 1.4s;
+				animation-duration: 0.8s;
+
+				#button {
+					cursor: pointer;
+					border: 0px;
+					height: 23px;
+					width: 23px;
+					transform: translateX(25%);
+					background-color: var(--globalForegroundInverse);
+					background-image: var(--globalForegroundInverse);
+					// transition: 0.2s $forceful;
+					transition: all 0.2s ease;
+
+					&:hover {
+						transform: translateX(10%) rotate(45deg);
+						height: 28px;
+						width: 28px;
+						box-shadow: 4px 4px 4px var(--RISquareShadowHover);
+						background-image: linear-gradient(135deg, var(--globalForegroundInverse) 50%, var(--globalForeground) 50%);
+						// border-bottom: 28px solid #000;
+						// border-left: 28px solid transparent;
+					}
+					&:active {
+						background: var(--globalForegroundInverse);
+						box-shadow: 4px 4px 4px var(--RISquareShadowActive);
+					}
+				}
+			}
+		}
+	}
+}
+
+.LeftBoxContainer {
+	$left-boxcontainer-width: math.div(444px, 1920px) * 100%;
+	position: sticky;
+	height: 100vh;
+	bottom: 0%;
+	width: $left-boxcontainer-width;
+	float: left;
+
+	transition: 0.2s $forceful,
+				all 0.4s $forceful;
+
+	#polygon {
+		@keyframes leftpolygon-slidein {
+			0% {
+				background: transparent;
+				animation-timing-function: ease;
+				animation-duration: 0.2s;
+			}
+			30% {
+				width: 200%;
+				background: var(--leftPolygonForegroundInverse);
+				animation-timing-function: $forceful;
+				animation-duration: 0.8s;
+			}
+			100% {
+				width: 100%;
+				transition: all 1s ease;
+				background: var(--leftPolygonForeground);
+			}
+		}
+		position: absolute;
+		margin-left: var(--leftContainer_Polygon_MarginLeft);
+
+		height: 100%;
+		width: 200%;
+		bottom: 0%;
+
+		transition: width 0.2s $forceful,
+					margin 0.4s $forceful;
+
+		animation:
+			leftpolygon-slidein
+			1.2s
+			0.35s
+			forwards;
+		clip-path: polygon(0% 0%, 0% 100%, 50% 100%, 100% 0%);
+	}
+
+	#triangle {
+		@keyframes lefttriangle-slidein {
+			0% {
+				background: transparent;
+				animation-timing-function: ease;
+				animation-duration: 0.2s;
+			}
+			50% {
+				opacity: 1;
+				transform:
+					translateY(20%);
+				background: var(--leftTriangleForeground);
+			}
+			100% {
+				opacity: 1;
+				transform:
+					translateY(0%);
+				background: var(--leftTriangleForeground);
+			}
+		}
+
+		position: absolute;
+		height: math.div(833px, 1080px) * 100%;
+		width: math.div(401px, 444px) * 100%;
+		bottom: 0%;
+		clip-path: polygon(0% 0%, 0% 100%, 100% 100%);
+		opacity: 0;
+
+		transition: margin 0.4s $forceful;
+		margin-bottom: var(--leftContainer_Triangle_MarginBottom);
+
+		animation:
+			lefttriangle-slidein
+			forwards;
+		animation-delay: 0.5s;
+		animation-duration: 1s;
+	}
+}

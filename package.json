@@ -1,12 +1,13 @@
 {
   "name": "prts",
-  "version": "0.0.0",
+  "version": "0.1.23b",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "dev": "ng serve prts --port=3000"
   },
   "private": true,
   "dependencies": {

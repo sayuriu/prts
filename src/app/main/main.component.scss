@@ -1,0 +1,16 @@
+@use 'sass:math';
+
+$header-height: math.div(81px, 1080px) * 100vh;
+
+.container {
+	// link -> AppTopUI.Header
+	position: absolute;
+	top: #{$header-height};
+	height: calc(100vh - #{$header-height});
+	width: 100vw;
+	pointer-events: none;
+}
+
+p {
+	pointer-events: all;
+}

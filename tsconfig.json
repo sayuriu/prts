@@ -3,6 +3,11 @@
   "compileOnSave": false,
   "compilerOptions": {
     "baseUrl": "./",
+    "paths": {
+      "@services/*": ["./src/services/*"],
+      "@utils/*": ["./src/utils/*"]
+    },
+
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
     "strict": true,
