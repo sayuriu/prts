@@ -6,4 +6,4 @@ This is just an another Arknights toolbox, built in Angular and was designed wit
 <br>
 This also serves as a study project for myself, to get better understanding about Angular and web dev in general.
 
-Current version: 0.1.23b
+Current version: 0.1.24b-091321
