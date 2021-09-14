@@ -1,6 +1,7 @@
 import { Component, ElementRef, OnInit, OnChanges } from '@angular/core';
 import { Router, RouterOutlet } from '@angular/router';
 import { query, transition, trigger } from '@angular/animations';
+import { fader } from '@utils/anims';
 
 import { ErrorService } from '../services/error.service';
 
@@ -10,9 +11,7 @@ import { ErrorService } from '../services/error.service';
   	styleUrls: ['./app.component.scss'],
 
 	animations: [
-		trigger('routeAnimations', [
-
-		])
+		fader,
 	],
 })
 export class AppComponent implements OnInit {

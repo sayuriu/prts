@@ -9,10 +9,16 @@ const routes: Routes = [
   {
     path: '',
     component: BlankComponent,
+    data: {
+      animation: 'DefaultPage'
+    }
   },
   {
     path: 'main',
     component: HomePage,
+    data: {
+      animation: 'HomePage'
+    }
   },
   {
     path: '**',

@@ -2,7 +2,7 @@ import { Component, OnInit, ElementRef } from '@angular/core';
 import { Router, Event } from '@angular/router';
 import Theme from '@utils/ThemeManager';
 
-const generateTimeString = () => `://${new Date().toISOString().substr(0, 19)}`;
+const generateTimeString = () => `://${new Date().toISOString().substr(0, 21)}`;
 
 @Component({
 	selector: 'app-top-level-ui',

@@ -18,6 +18,8 @@ $emblem-margin-left: math.div(79px, 1920px) * 100vw;
 	--header_Background_Color: transparent;
 	--header_Background_Transition: background 0.3s #{$forceful} 0.05s;
 
+	--header_Emblem_SVG_AnimDelay: 0.6s;
+	--header_Emblem_SVG_AnimDelay_Extra: 0s;
 	--header_Emblem_SVG_TopLine_StaticTransform: translateX(0%);
 	--header_Emblem_SVG_TopLine_Static_Scale: 1;
 	--header_Emblem_SVG_TopLine_Anim_InitTransform: translateX(0%);
@@ -58,6 +60,8 @@ $emblem-margin-left: math.div(79px, 1920px) * 100vw;
 	--header_Emblem_Width: 500px;
 	--header_Emblem_Foreground: var(--globalForeground);
 
+	--header_Emblem_SVG_AnimDelay: 0s;
+	--header_Emblem_SVG_AnimDelay_Extra: 0.1s;
 	--header_Emblem_SVG_TopLine_StaticTransform: translate(88%, 30%);
 	--header_Emblem_SVG_TopLine_Static_Scale: 1.2;
 	--header_Emblem_SVG_TopLine_Anim_InitTransform: translateY(-20%);
@@ -68,12 +72,12 @@ $emblem-margin-left: math.div(79px, 1920px) * 100vw;
 	--header_Emblem_SVG_Name_Anim_InitTransform: translateY(-10%);
 
 	--header_Emblem_SVG_Desc1_StaticTransform: translate(88%, -38%);
-	--header_Emblem_SVG_Desc1_StaticScale: 1.22;
+	--header_Emblem_SVG_Desc1_StaticScale: 1.25;
 	--header_Emblem_SVG_Desc1_StaticMargin_Left: var(--header_Emblem_Width);
 	--header_Emblem_SVG_Desc1_Anim_InitTransform: translateX(20%);
 
 	--header_Emblem_SVG_Desc2_StaticTransform: translate(89%, -38%);
-	--header_Emblem_SVG_Desc2_Static_Scale: 1.2;
+	--header_Emblem_SVG_Desc2_Static_Scale: 1.24;
 	--header_Emblem_SVG_Desc2_Anim_InitTransform: translateY(30%);
 
 	--header_Emblem_SVG_BottomLine_StaticTransform: translate(88%, -35%);
@@ -227,7 +231,12 @@ p.Clock {
 						var(--header_Emblem_SVG_TopLine_Anim_InitTransform),
 						translate(0)
 					);
-					animation: emblem-topLine 1s $forceful 0.6s forwards;
+					animation:
+						emblem-topLine
+						1s
+						$forceful
+						var(--header_Emblem_SVG_AnimDelay)
+						forwards;
 				}
 			}
 			.PRTS_SVG_N {
@@ -252,7 +261,12 @@ p.Clock {
 						var(--header_Emblem_SVG_Name_Anim_InitTransform),
 						translate(0)
 					);
-					animation: emblem-name 1s $forceful 0.6s forwards;
+					animation:
+						emblem-name
+						1s
+						$forceful
+						var(--header_Emblem_SVG_AnimDelay)
+						forwards;
 					opacity: 0;
 				}
 			}
@@ -274,7 +288,12 @@ p.Clock {
 						translate(0)
 					);
 					opacity: 0;
-					animation: emblem-desc1 1s $forceful 0.6s forwards;
+					animation:
+						emblem-desc1
+						1s
+						$forceful
+						calc(var(--header_Emblem_SVG_AnimDelay) + var(--header_Emblem_SVG_AnimDelay_Extra))
+						forwards;
 				}
 			}
 			.PRTS_SVG_D2 {
@@ -296,7 +315,11 @@ p.Clock {
 						var(--header_Emblem_SVG_Desc2_Anim_InitTransform),
 						translate(0)
 					);
-					animation: emblem-desc2 1s $forceful 0.6s forwards;
+					animation:
+						emblem-desc2
+						1s $forceful
+						var(--header_Emblem_SVG_AnimDelay)
+						forwards;
 				}
 			}
 			.PRTS_SVG_BL {
@@ -319,7 +342,12 @@ p.Clock {
 						var(--header_Emblem_SVG_BottomLine_Anim_InitTransform),
 						var(--header_Emblem_SVG_BottomLine_Anim_TargetTransform)
 					);
-					animation: emblem-bottomLine 1s $forceful 0.6s forwards;
+					animation:
+						emblem-bottomLine
+						1s
+						$forceful
+						calc(var(--header_Emblem_SVG_AnimDelay) + var(--header_Emblem_SVG_AnimDelay_Extra))
+						forwards;
 				}
 			}
 		}
