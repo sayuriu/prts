@@ -17,8 +17,8 @@ $header-height: math.div(81px, 1080px) * 100vh;
 .container {
 	// link -> AppTopUI.Header
 	position: absolute;
-	top: #{$header-height};
-	height: calc(100vh - #{$header-height});
+	top: 75px;
+	height: calc(100vh - 75px);
 	width: 100vw;
 	pointer-events: none;
 	opacity: 0;

@@ -10,29 +10,35 @@ $emblem-margin-left: math.div(79px, 1920px) * 100vw;
 	--fullscreenToggle_Foreground: var(--globalForegroundInverse);
 
 	--headerMargin_Top: #{$header-margin-top};
-	--headerHeight: #{math.div(117px, 1080px) * 100vh};
+	--headerHeight: 117px;
 
 	--header_Emblem_MarginLeft: #{math.div(79px, 1920px) * 100vw};
-	--header_Emblem_Width: #{math.div(177px, 1920px) * 100vw};
+	--header_Emblem_Width: 177px;
 	--header_Emblem_Foreground: var(--globalForegroundInverse);
 	--header_Background_Color: transparent;
 	--header_Background_Transition: background 0.3s #{$forceful} 0.05s;
 
-	--header_Emblem_SVG_TopLine_InitTransform: translateX(0%);
-	--header_Emblem_SVG_TopLine_TargetTransform: translateX(0%);
-	--header_Emblem_SVG_TopLine_Scale: 1;
-	--header_Emblem_SVG_Name_InitTransform: translateX(20%);
-	--header_Emblem_SVG_Name_TargetTransform: translateX(0%);
-	--header_Emblem_SVG_Name_Scale: 1;
-	--header_Emblem_SVG_Desc1_InitTransform: translateX(20%);
-	--header_Emblem_SVG_Desc1_TargetTransform: translateX(0%);
-	--header_Emblem_SVG_Desc1_Scale: 1;
-	--header_Emblem_SVG_Desc2_InitTransform: translateY(20%);
-	--header_Emblem_SVG_Desc2_TargetTransform: translateY(0%);
-	--header_Emblem_SVG_Desc2_Scale: 1;
-	--header_Emblem_SVG_BottomLine_InitTransform: translateY(20%);
-	--header_Emblem_SVG_BottomLine_TargetTransform: translateY(0%);
-	--header_Emblem_SVG_BottomLine_Scale: 1;
+	--header_Emblem_SVG_TopLine_StaticTransform: translateX(0%);
+	--header_Emblem_SVG_TopLine_Static_Scale: 1;
+	--header_Emblem_SVG_TopLine_Anim_InitTransform: translateX(0%);
+
+	--header_Emblem_SVG_Name_StaticTransform: translateX(0%);
+	--header_Emblem_SVG_Name_Static_Scale: 1;
+	--header_Emblem_SVG_Name_Static_MarginLeft: 0px;
+	--header_Emblem_SVG_Name_Anim_InitTransform: translateX(20%);
+
+	--header_Emblem_SVG_Desc1_StaticTransform: translateX(0%);
+	--header_Emblem_SVG_Desc1_StaticScale: 1;
+	--header_Emblem_SVG_Desc1_Anim_InitTransform: translateX(20%);
+
+	--header_Emblem_SVG_Desc2_StaticTransform: translate(0.5%, 0%);
+	--header_Emblem_SVG_Desc2_Static_Scale: 1;
+	--header_Emblem_SVG_Desc2_Anim_InitTransform: translateY(20%);
+
+	--header_Emblem_SVG_BottomLine_StaticTransform: translateY(-5%);
+	--header_Emblem_SVG_BottomLine_Static_Scale: 1;
+	--header_Emblem_SVG_BottomLine_Anim_InitTransform: translateY(20%);
+	--header_Emblem_SVG_BottomLine_Anim_TargetTransform: translateY(-20%);
 
 	--clockMargin: 1em;
 
@@ -46,28 +52,34 @@ $emblem-margin-left: math.div(79px, 1920px) * 100vw;
 	--fullscreenToggle_Foreground: var(--globalForeground);
 
 	--headerMargin_Top: 0;
-	--headerHeight: #{math.div(81px, 1080px) * 100vh};
+	--headerHeight: 75px;
 
 	--header_Emblem_MarginLeft: #{math.div(19px, 1920px) * 100vw};
-	--header_Emblem_Width: #{math.div(367px, 1920px) * 100vw};
-	// --header_Emblem_Width: #{math.div(177px, 1920px) * 100vw};
+	--header_Emblem_Width: 500px;
 	--header_Emblem_Foreground: var(--globalForeground);
 
-	--header_Emblem_SVG_TopLine_InitTransform: translate(39%, 23%);
-	--header_Emblem_SVG_TopLine_TargetTransform: translate(39%, 23%);
-	--header_Emblem_SVG_TopLine_Scale: 1.2;
-	--header_Emblem_SVG_Name_InitTransform: translate(-90%, 13.5%);
-	--header_Emblem_SVG_Name_TargetTransform: translate(-80%, 13.5%);
-	--header_Emblem_SVG_Name_Scale: 1.15;
-	--header_Emblem_SVG_Desc1_InitTransform: translate(38%, -25%);
-	--header_Emblem_SVG_Desc1_TargetTransform: translate(38%, -45%);
-	--header_Emblem_SVG_Desc1_Scale: 1.22;
-	--header_Emblem_SVG_Desc2_InitTransform: translate(40%, -15%);
-	--header_Emblem_SVG_Desc2_TargetTransform: translate(40%, -42%);
-	--header_Emblem_SVG_Desc2_Scale: 1.2;
-	--header_Emblem_SVG_BottomLine_InitTransform: translate(39%, 0%);
-	--header_Emblem_SVG_BottomLine_TargetTransform: translate(39%, -42%);
-	--header_Emblem_SVG_BottomLine_Scale: 1.2;
+	--header_Emblem_SVG_TopLine_StaticTransform: translate(88%, 30%);
+	--header_Emblem_SVG_TopLine_Static_Scale: 1.2;
+	--header_Emblem_SVG_TopLine_Anim_InitTransform: translateY(-20%);
+
+	--header_Emblem_SVG_Name_StaticTransform: translate(-10%, 22%);
+	--header_Emblem_SVG_Name_Static_Scale: 1.3;
+	--header_Emblem_SVG_Name_Static_MarginLeft: 14px;
+	--header_Emblem_SVG_Name_Anim_InitTransform: translateY(-10%);
+
+	--header_Emblem_SVG_Desc1_StaticTransform: translate(88%, -38%);
+	--header_Emblem_SVG_Desc1_StaticScale: 1.22;
+	--header_Emblem_SVG_Desc1_StaticMargin_Left: var(--header_Emblem_Width);
+	--header_Emblem_SVG_Desc1_Anim_InitTransform: translateX(20%);
+
+	--header_Emblem_SVG_Desc2_StaticTransform: translate(89%, -38%);
+	--header_Emblem_SVG_Desc2_Static_Scale: 1.2;
+	--header_Emblem_SVG_Desc2_Anim_InitTransform: translateY(30%);
+
+	--header_Emblem_SVG_BottomLine_StaticTransform: translate(88%, -35%);
+	--header_Emblem_SVG_BottomLine_Static_Scale: 1.2;
+	--header_Emblem_SVG_BottomLine_Anim_InitTransform: translateY(20%);
+	--header_Emblem_SVG_BottomLine_Anim_TargetTransform: translateY(-20%);
 
 	--header_Background_Color: var(--globalForegroundInverse);
 	--header_Background_Transition: background 0.3s #{$forceful} 0.2s;
@@ -98,6 +110,7 @@ $emblem-margin-left: math.div(79px, 1920px) * 100vw;
 	height: 20px;
 	width: 20px;
 	border: 0px;
+	bottom: 0;
 	transition: background 0.5s ease;
 	background: var(--fullscreenToggle_Foreground);
 	z-index: 999;
@@ -143,18 +156,8 @@ p.Clock {
 		// 2.7s
 		// infinite;
 
-	// animation:
-	// 	name
-	// 	duration
-	// 	timing-function
-	// 	delay
-	// 	iteration-count
-	// 	direction
-	// 	fill-mode;
-
 	transition: 0.5s $forceful;
 	transition-delay: 0.1s;
-	// transition: background, color 0.5s ease;
 	&:hover {
 		transform: translate(-3%, 10%);
 		box-shadow: 4px -4px 3px var(--RISquareShadowHover);
@@ -197,114 +200,127 @@ p.Clock {
 				100% {
 					opacity: 1;
 					transform: $targetTransform scale(#{$scale});
-					transition: stroke 0.5s ease-in-out,
-								transform 0.5s $forceful;
 				}
 			}
 		}
 
 		.PRTS_SVG {
-			fill: var(--header_Emblem_Foreground);
-			position: relative;
-			display: block;
-			float: left;
+			width: var(--header_Emblem_Width);
 			height: 100%;
-			width: 100%;
-			opacity: 0;
-			animation:
-				fade-in
-				0.5s
-				forwards;
-			animation-timing-function: none;
-			animation-delay: 0.8s;
+			position: absolute;
 
-			#Emblem_Name,
-			#Emblem_Desc1,
-			#Emblem_Desc2,
-			#Emblem_BottomLine {
-				opacity: 1;
-				animation-delay: 0.6s;
-				animation-duration: 1s;
-				animation-fill-mode: forwards;
-				animation-timing-function: $forceful;
-			}
-
-			#Emblem_TopLine {
-				// @include emblemSlideAnim(
-				// 	emblem-top,
-				// 	var(--header_Emblem_SVG_TopLine_InitTransform),
-				// 	var(--header_Emblem_SVG_TopLine_TargetTransform),
-				// 	var(--header_Emblem_SVG_TopLine_Scale)
-				// );
-				// animation-name: emblem-top;
-				transition: stroke 0.5s ease-in-out,
-							transform 0.5s $forceful;
+			.PRTS_SVG_TL {
+				height: 100%;
+				position: absolute;
 				stroke: var(--header_Emblem_Foreground);
 				transform:
-					var(--header_Emblem_SVG_TopLine_TargetTransform)
-					scale(var(--header_Emblem_SVG_TopLine_Scale));
+					var(--header_Emblem_SVG_TopLine_StaticTransform)
+					scale(var(--header_Emblem_SVG_TopLine_Static_Scale));
+				transition:
+					stroke 0.5s ease-in-out,
+					width 0.5s $forceful,
+					transform 0.5s $forceful;
+				#etl_line {
+					opacity: 0;
+					@include emblemSlideAnim(
+						emblem-topLine,
+						var(--header_Emblem_SVG_TopLine_Anim_InitTransform),
+						translate(0)
+					);
+					animation: emblem-topLine 1s $forceful 0.6s forwards;
+				}
 			}
-			#Emblem_Name {
-				// @include emblemSlideAnim(
-				// 	emblem-name,
-				// 	var(--header_Emblem_SVG_Name_InitTransform),
-				// 	var(--header_Emblem_SVG_Name_TargetTransform),
-				// 	var(--header_Emblem_SVG_Name_Scale)
-				// );
-				// animation-name: emblem-name;
-				transition: fill 0.5s ease-in-out,
-							transform 0.5s $forceful;
+			.PRTS_SVG_N {
+				height: 100%;
+				position: absolute;
+				fill: var(--header_Emblem_Foreground);
+				margin-left: var(--header_Emblem_SVG_Name_Static_MarginLeft, 3px);
+				transition:
+					fill 0.5s ease-in-out,
+					margin 0.5s ease-in-out,
+					width 0.5s $forceful,
+					transform 0.5s $forceful;
 				transform:
-					var(--header_Emblem_SVG_Name_TargetTransform)
-					scale(var(--header_Emblem_SVG_Name_Scale));
+					var(--header_Emblem_SVG_Name_StaticTransform)
+					scale(var(--header_Emblem_SVG_Name_Static_Scale));
+
+				#en_path {
+					width: 100%;
+					height: 100%;
+					@include emblemSlideAnim(
+						emblem-name,
+						var(--header_Emblem_SVG_Name_Anim_InitTransform),
+						translate(0)
+					);
+					animation: emblem-name 1s $forceful 0.6s forwards;
+					opacity: 0;
+				}
 			}
-			#Emblem_Desc1 {
-				// @include emblemSlideAnim(
-				// 	emblem-desc1,
-				// 	var(--header_Emblem_SVG_Desc1_InitTransform),
-				// 	var(--header_Emblem_SVG_Desc1_TargetTransform),
-				// 	var(--header_Emblem_SVG_Desc1_Scale)
-				// );
-				// animation-name: emblem-desc1;
-				transition: fill 0.5s ease-in-out,
-							transform 0.5s $forceful;
+			.PRTS_SVG_D1 {
+				height: 100%;
+				position: absolute;
+				fill: var(--header_Emblem_Foreground);
+				transition:
+					fill 0.5s ease-in-out,
+					width 0.5s $forceful,
+					transform 0.5s $forceful;
 				transform:
-					var(--header_Emblem_SVG_Desc1_TargetTransform)
-					scale(var(--header_Emblem_SVG_Desc1_Scale));
+					var(--header_Emblem_SVG_Desc1_StaticTransform)
+					scale(var(--header_Emblem_SVG_Desc1_StaticScale));
+				#ed1_path {
+					@include emblemSlideAnim(
+						emblem-desc1,
+						var(--header_Emblem_SVG_Desc1_Anim_InitTransform),
+						translate(0)
+					);
+					opacity: 0;
+					animation: emblem-desc1 1s $forceful 0.6s forwards;
+				}
 			}
-			#Emblem_Desc2 {
+			.PRTS_SVG_D2 {
+				height: 100%;
+				position: absolute;
+				fill: var(--header_Emblem_Foreground);
+				transition:
+					fill 0.5s ease-in-out,
+					width 0.5s $forceful,
+					transform 0.5s $forceful;
+				transform:
+				var(--header_Emblem_SVG_Desc2_StaticTransform)
+				scale(var(--header_Emblem_SVG_Desc2_Static_Scale));
+
 				#ed2_path {
+					opacity: 0;
 					@include emblemSlideAnim(
 						emblem-desc2,
-						var(--header_Emblem_SVG_Desc2_InitTransform),
-						var(--header_Emblem_SVG_Desc2_TargetTransform),
-						var(--header_Emblem_SVG_Desc2_Scale)
+						var(--header_Emblem_SVG_Desc2_Anim_InitTransform),
+						translate(0)
 					);
-					animation-name: emblem-desc2;
+					animation: emblem-desc2 1s $forceful 0.6s forwards;
 				}
-				transition: fill 0.5s ease-in-out,
-							transform 0.5s $forceful;
-				transform:
-					var(--header_Emblem_SVG_Desc2_TargetTransform)
-					scale(var(--header_Emblem_SVG_Desc2_Scale));
 			}
-			#Emblem_BottomLine {
+			.PRTS_SVG_BL {
+				height: 100%;
+				position: absolute;
+				stroke: var(--header_Emblem_Foreground);
+				left: 0%;
+				bottom: -24%;
+				transition:
+					stroke 0.5s ease-in-out,
+					width 0.5s $forceful,
+					transform 0.5s $forceful;
+				transform:
+					var(--header_Emblem_SVG_BottomLine_StaticTransform)
+					scale(var(--header_Emblem_SVG_BottomLine_Static_Scale));
 				#ebl_line {
+					opacity: 0;
 					@include emblemSlideAnim(
 						emblem-bottomLine,
-						var(--header_Emblem_SVG_BottomLine_InitTransform),
-						var(--header_Emblem_SVG_BottomLine_TargetTransform),
-						var(--header_Emblem_SVG_BottomLine_Scale)
+						var(--header_Emblem_SVG_BottomLine_Anim_InitTransform),
+						var(--header_Emblem_SVG_BottomLine_Anim_TargetTransform)
 					);
-					animation-name: emblem-bottomLine;
-					animation-delay: 0.7s;
+					animation: emblem-bottomLine 1s $forceful 0.6s forwards;
 				}
-				transition: stroke 0.5s ease-in-out,
-						transform 0.5s $forceful;
-				stroke: var(--header_Emblem_Foreground);
-				transform:
-					var(--header_Emblem_SVG_BottomLine_TargetTransform)
-					scale(var(--header_Emblem_SVG_BottomLine_Scale));
 			}
 		}
 	}
