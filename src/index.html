@@ -8,23 +8,13 @@
 </head>
 <body>
   <p id="LOAD_STATUS"
-    style="
-      font-family: JetBrains Mono;
-      color: azure;
-      position: absolute;
-      background: #000;
-      width: 100vw;
-      height: 100vh;
-      margin: 0;
-      transition: opacity 0.5s ease-out;
-      opacity: 1;
-      z-index: 999;
-    "
+    style="font-family:JetBrains Mono;font-size:60px;color:azure;position:absolute;display:flex;justify-content:center;align-items:center;background:#000;width:100vw;height:100vh;margin:0;transition:opacity 0.5s ease-out;opacity:1;z-index:999;"
   >
     [LOADING]
   </p>
-  <app-root id="AppRoot">
-
-  </app-root>
+  <app-root id="AppRoot"></app-root>
 </body>
+<script defer id="Script_ThemeBootstrap_Min">
+const a={light:{foreground:'#fff',foregroundInverse:'#000'},dark:{foreground:'#000',foregroundInverse:'#fff'}},d=localStorage.getItem('theme')||'light',e=document.getElementById('LOAD_STATUS'),f=b(d);function b(c){return a[c]??null;}document.documentElement.setAttribute('theme', d);e.style.background=f.foreground;e.style.color=f.foregroundInverse;
+</script>
 </html>

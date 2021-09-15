@@ -16,7 +16,7 @@ $emblem-margin-left: math.div(79px, 1920px) * 100vw;
 	--header_Emblem_Width: 177px;
 	--header_Emblem_Foreground: var(--globalForegroundInverse);
 	--header_Background_Color: transparent;
-	--header_Background_Transition: background 0.3s #{$forceful} 0.05s;
+	--header_Background_AnimDelay: 0.05s;
 
 	--header_Emblem_SVG_AnimDelay: 0.6s;
 	--header_Emblem_SVG_AnimDelay_Extra: 0s;
@@ -86,7 +86,7 @@ $emblem-margin-left: math.div(79px, 1920px) * 100vw;
 	--header_Emblem_SVG_BottomLine_Anim_TargetTransform: translateY(-20%);
 
 	--header_Background_Color: var(--globalForegroundInverse);
-	--header_Background_Transition: background 0.3s #{$forceful} 0.2s;
+	--header_Background_AnimDelay: 0.2s;
 
 	--clockMargin: calc(var(--headerHeight) + 1em);
 
@@ -172,7 +172,7 @@ p.Clock {
 .Header {
 	transition: margin 0.5s $forceful,
 				height 0.5s $forceful,
-				var(--header_Background_Transition);
+				background 0.3s #{$forceful} var(--header_Background_AnimDelay);
 	position: absolute;
 	background: var(--header_Background_Color);
 	width: 100vw;
