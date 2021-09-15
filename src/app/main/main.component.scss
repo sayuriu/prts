@@ -4,7 +4,7 @@
 @keyframes slide-up {
 	0% {
 		opacity: 0;
-		transform: translateY(4vh);
+		transform: translateY(10vh);
 	}
 	100% {
 		opacity: 1;
@@ -22,19 +22,155 @@ $header-height: math.div(81px, 1080px) * 100vh;
 	width: 100vw;
 	pointer-events: none;
 	opacity: 0;
-	background: red;
+	background: transparent;
 	animation:
 		slide-up
 		0.5s
-		$forceful
-		0s
+		// $forceful
+		cubic-bezier(1, 0.25, 0, 1.01)
 		forwards;
 	display: flex;
-	justify-content: center;
+	justify-content: space-evenly;
 	align-items: center;
+	// background: red;
+
+	@keyframes slide {
+		0% {
+			opacity: 0;
+			transform: translateY(20%);
+		}
+		100% {
+			opacity: 1;
+			transform: translateY(0);
+		}
+	}
+
+	#id {
+		position: absolute;
+		top: 0;
+	}
+
+	.info-message {
+		font-family: JetBrains Mono;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 5rem;
+		height: 80vh;
+		width: 45vw;
+		background: white;
+		opacity: 0;
+		animation: slide 0.5s $forceful 0.2s forwards;
+	}
+	//TODO: Add img as child container
+	.menu-list {
+		margin: 0;
+		padding: 0;
+		pointer-events: visible;
+		width: 650px;
+		height: 72vh;
+		right: 79px;
+		z-index: 0;
+		background:hsl(0, 0%, 24%);
+		opacity: 0;
+		animation: slide 0.5s $forceful 0.2s forwards;
+
+		overflow-x: hidden;
+		overflow-y: auto;
+
+		div {
+			width: 99%;
+			height: 200px;
+			border: 1px solid black;
+			overflow: hidden;
+			margin-bottom: 2rem;
+			position: relative;
+
+			opacity: 0;
+			counter-increment: listIndex;
+			animation: slide 0.5s $forceful calc(0.5s + var(--order) * 0.1s) forwards;
+			img {
+				cursor: pointer;
+				max-width: 100%;
+				position: relative;
+				z-index: 0;
+			}
+
+			#not-available,
+			#name,
+			#desc {
+				font-family: JetBrains Mono;
+				position: absolute;
+				z-index: 1;
+				margin: 0;
+			}
+
+			#name {
+				top: 0;
+				font-size: 5rem;
+				letter-spacing: -0.055em;
+				background: hsla(0, 0%, 0%, 0.459);
+				color: hsla(0, 0%, 100%, 0.425);
+				font-weight: 200;
+			}
+
+			#desc {
+				padding-left: 0.5rem;
+				bottom: 0;
+				height: 2rem;
+				width: 100%;
+				font-size: 1.5rem;
+				line-height: 2rem;
+				background: hsla(0, 0%, 0%, 0.459);
+			}
+
+			#count {
+				font-family: JetBrains Mono;
+				position: absolute;
+				margin: 0;
+				right: 0;
+				height: 100%;
+				width: 20%;
+				font-size: 16rem;
+				line-height: 90%;
+				opacity: 0.3;
+				z-index: 2;
+				text-align: center;
+			}
+
+			#not-available {
+				position: absolute;
+				right:50%;
+			}
+
+			#cross-deny {
+				position: absolute;
+				height: 100%;
+				right: 5%;
+				top: 0;
+				z-index: 1;
+				opacity: 0.5;
+			}
+		}
+
+		div:last-child {
+			margin: 0;
+		}
+
+		&::-webkit-scrollbar {
+
+		}
+		&::-webkit-scrollbar-track {
+			opacity: 0;
+		}
+		&::-webkit-scrollbar-corner {
+
+		}
+	}
 }
 
 p {
 	pointer-events: all;
-	font-size: 50px;
+	// font-size: 50px;
+	color: var(--globalForegroundInverse);
 }

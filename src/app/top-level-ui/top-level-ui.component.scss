@@ -45,6 +45,7 @@ $emblem-margin-left: math.div(79px, 1920px) * 100vw;
 	--clockMargin: 1em;
 
 	--logoMarginLeft: calc(50vw - 25vh);
+	--logoLeftTransitionDelay: 0.2s;
 
 	--leftContainer_Polygon_MarginLeft: 0;
 	--leftContainer_Triangle_MarginBottom: 0;
@@ -91,6 +92,7 @@ $emblem-margin-left: math.div(79px, 1920px) * 100vw;
 	--clockMargin: calc(var(--headerHeight) + 1em);
 
 	--logoMarginLeft: calc(100vw - 26vh);
+	--logoLeftTransitionDelay: 0s;
 
 	--leftContainer_Polygon_MarginLeft: -50%;
 	--leftContainer_Triangle_MarginBottom: -#{math.div(361px, 833px) * 100%};
@@ -172,7 +174,7 @@ p.Clock {
 .Header {
 	transition: margin 0.5s $forceful,
 				height 0.5s $forceful,
-				background 0.3s #{$forceful} var(--header_Background_AnimDelay);
+				background 0.3s #{$forceful-2} var(--header_Background_AnimDelay);
 	position: absolute;
 	background: var(--header_Background_Color);
 	width: 100vw;
@@ -360,14 +362,14 @@ p.Clock {
 	position: absolute;
 	display: flex;
 	justify-content: center;
-	height: 50vh;
+	height: auto;
 	width: 50vh;
 	left: var(--logoMarginLeft);
 	top: 25vh;
 	cursor: pointer;
 
 	transition: 0.5s cubic-bezier(0.38, 0.2, 0.05, 0.88),
-				left 0.5s $forceful;
+				left 0.5s $forceful var(--logoLeftTransitionDelay);
 	#RI_LogoImage {
 		@keyframes fadein {
 			0% {
@@ -416,6 +418,7 @@ p.Clock {
 	$RI-boxcontainer-height: math.div(505px, 1080px) * $RI_box-hitbox-scale * 100%;
 
 	position: sticky;
+	pointer-events: none;
 	width: $RI-boxcontainer-width;
 	height: $RI-boxcontainer-height;
 	left: 100%;
@@ -455,6 +458,7 @@ p.Clock {
 			width: 100%;
 			height: 100%;
 			transition: 0.25s $forceful;
+			pointer-events: all;
 
 			#shape {
 				width: inherit;
@@ -497,6 +501,7 @@ p.Clock {
 					forwards;
 				animation-delay: 1.5s;
 				animation-duration: 0.8s;
+				pointer-events: all;
 
 				.Text {
 					text-transform: uppercase;
@@ -527,6 +532,7 @@ p.Clock {
 					forwards;
 				animation-delay: 1.4s;
 				animation-duration: 0.8s;
+				pointer-events: all;
 				z-index: 999;
 
 				#button {
