@@ -67,5 +67,19 @@ export const fader =
 					})
 				)
 			])
-		])
+		]),
+		transition('void => DefaultPage', [
+			query(':enter', style({
+				opacity: 0
+			})),
+			query(':enter',
+				animate(
+					'500ms ease',
+					style({
+						opacity: 0
+					})
+				)
+			),
+			query(':enter', animateChild()),
+		]),
   	]);

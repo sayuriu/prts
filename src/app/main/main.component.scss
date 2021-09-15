@@ -29,8 +29,12 @@ $header-height: math.div(81px, 1080px) * 100vh;
 		$forceful
 		0s
 		forwards;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 p {
 	pointer-events: all;
+	font-size: 50px;
 }

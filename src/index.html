@@ -7,6 +7,24 @@
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
-  <app-root id="AppRoot"></app-root>
+  <p id="LOAD_STATUS"
+    style="
+      font-family: JetBrains Mono;
+      color: azure;
+      position: absolute;
+      background: #000;
+      width: 100vw;
+      height: 100vh;
+      margin: 0;
+      transition: opacity 0.5s ease-out;
+      opacity: 1;
+      z-index: 999;
+    "
+  >
+    [LOADING]
+  </p>
+  <app-root id="AppRoot">
+
+  </app-root>
 </body>
 </html>

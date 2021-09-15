@@ -22,7 +22,13 @@ export class AppComponent implements OnInit {
 		)
 	{}
 
-	ngOnInit() {}
+	ngOnInit() {
+		const loadingText = document.getElementById('LOAD_STATUS');
+		setTimeout(() => {
+			(loadingText as HTMLElement).style.opacity = '0';
+			(loadingText as HTMLElement).style.zIndex = '-1';
+		}, 200);
+	}
 
 	prepareOutlet(outlet: RouterOutlet) {
 		return outlet && outlet.activatedRouteData && outlet.activatedRouteData.animation;

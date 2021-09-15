@@ -186,6 +186,7 @@ p.Clock {
 		margin-left: var(--header_Emblem_MarginLeft);
 		transition: margin 0.5s $forceful,
 					width 0.5s ease-in-out;
+		pointer-events: none;
 
 		@mixin emblemSlideAnim(
 			$name,
@@ -419,6 +420,7 @@ p.Clock {
 	height: $RI-boxcontainer-height;
 	left: 100%;
 	top: 100%;
+	z-index: 2;
 
 	.BottomBoxContent {
 		position: sticky;
@@ -525,6 +527,7 @@ p.Clock {
 					forwards;
 				animation-delay: 1.4s;
 				animation-duration: 0.8s;
+				z-index: 999;
 
 				#button {
 					cursor: pointer;
