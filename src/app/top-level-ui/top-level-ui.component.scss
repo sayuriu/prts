@@ -86,6 +86,8 @@ $emblem-margin-left: math.div(79px, 1920px) * 100vw;
 	--header_Emblem_SVG_BottomLine_Anim_InitTransform: translateY(20%);
 	--header_Emblem_SVG_BottomLine_Anim_TargetTransform: translateY(-20%);
 
+	--header_Emblem_ToHome_HoverForeground: var(--globalForeground);
+
 	--header_Background_Color: var(--globalForegroundInverse);
 	--header_Background_AnimDelay: 0.2s;
 
@@ -176,7 +178,7 @@ p.Clock {
 	transition: margin 0.5s $forceful,
 				height 0.5s $forceful,
 				background 0.3s #{$forceful-2} var(--header_Background_AnimDelay);
-	position: absolute;
+	position: relative;
 	background: var(--header_Background_Color);
 	width: 100vw;
 	height: var(--headerHeight);
@@ -184,12 +186,14 @@ p.Clock {
 	z-index: 1;
 
 	.PRTS_Emblem {
+		position: relative;
 		height: 100%;
 		width: var(--header_Emblem_Width);
 		margin-left: var(--header_Emblem_MarginLeft);
 		transition: margin 0.5s $forceful,
 					width 0.5s ease-in-out;
 		pointer-events: none;
+		z-index: 0;
 
 		@mixin emblemSlideAnim(
 			$name,
@@ -209,6 +213,23 @@ p.Clock {
 					opacity: 1;
 					transform: $targetTransform scale(#{$scale});
 				}
+			}
+		}
+
+		#toHomePage {
+			position: absolute;
+			width: 65%;
+			height: 100%;
+			z-index: 2;
+			pointer-events: all;
+			cursor: pointer;
+
+			opacity: 0;
+			transition: 0.3s ease-in-out;
+
+			&:hover {
+				background: var(--header_Emblem_ToHome_HoverForeground);
+				opacity:  0.178;
 			}
 		}
 

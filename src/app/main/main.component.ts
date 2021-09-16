@@ -18,6 +18,7 @@ export class MainComponent implements OnInit {
 const menuOptions: MenuItems[] = [
 	{
 		name: 'Combat',
+		routerTarget: '/combat',
 		CSSTargetAccessor: 'combat',
 		associatedBackgoundURL: 'G1_Thumbnail.png',
 		description: 'Know your enemies before fighting them.',
@@ -25,6 +26,7 @@ const menuOptions: MenuItems[] = [
 	},
 	{
 		name: 'Op. Info',
+		routerTarget: '/operators',
 		CSSTargetAccessor: 'opInfo',
 		associatedBackgoundURL: 'G3_Thumbnail.png',
 		description: 'Details of our operators.',
@@ -32,6 +34,7 @@ const menuOptions: MenuItems[] = [
 	},
 	{
 		name: 'Recruitment',
+		routerTarget: '/recruit-sim',
 		CSSTargetAccessor: 'recruit',
 		associatedBackgoundURL: 'G2_Thumbnail.png',
 		description: 'Try your luck?',
@@ -56,6 +59,7 @@ const menuOptions: MenuItems[] = [
 interface MenuItems {
 	name: string;
 	CSSTargetAccessor?: string;
+	routerTarget?: string;
 	// from assets/img/menu folder
 	associatedBackgoundURL?: string;
 	description: string;
