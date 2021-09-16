@@ -51,6 +51,7 @@ $header-height: math.div(81px, 1080px) * 100vh;
 	}
 
 	.info-message {
+		border: 1px solid black;
 		font-family: JetBrains Mono;
 		display: flex;
 		justify-content: center;
@@ -63,110 +64,271 @@ $header-height: math.div(81px, 1080px) * 100vh;
 		animation: slide 0.5s $forceful 0.2s forwards;
 	}
 	//TODO: Add img as child container
-	.menu-list {
+	#menu-list {
 		margin: 0;
 		padding: 0;
 		pointer-events: visible;
+		// border: 3px solid red;
 		width: 650px;
-		height: 72vh;
+		height: 75vh;
 		right: 79px;
 		z-index: 0;
-		background:hsl(0, 0%, 24%);
+		// background:hsl(0, 0%, 24%);
 		opacity: 0;
-		animation: slide 0.5s $forceful 0.2s forwards;
 
-		overflow-x: hidden;
-		overflow-y: auto;
+		@keyframes slide-menu {
+			0% {
+				opacity: 0;
+				transform: translateY(20%);
+				overflow: hidden;
+			}
+			100% {
+				opacity: 1;
+				transform: translateY(0);
+				overflow-y: auto;
+			}
+		}
+		animation: slide-menu 0.5s $forceful 0.2s forwards;
 
-		div {
+		.menu-item {
 			width: 99%;
-			height: 200px;
-			border: 1px solid black;
+			height: 210px;
+			// border: 1px solid black;
 			overflow: hidden;
-			margin-bottom: 2rem;
+			margin-bottom: 1.6rem;
 			position: relative;
-
 			opacity: 0;
 			counter-increment: listIndex;
 			animation: slide 0.5s $forceful calc(0.5s + var(--order) * 0.1s) forwards;
-			img {
-				cursor: pointer;
-				max-width: 100%;
-				position: relative;
-				z-index: 0;
-			}
 
-			#not-available,
-			#name,
-			#desc {
-				font-family: JetBrains Mono;
-				position: absolute;
-				z-index: 1;
+			&:last-child {
 				margin: 0;
 			}
 
-			#name {
-				top: 0;
-				font-size: 5rem;
-				letter-spacing: -0.055em;
-				background: hsla(0, 0%, 0%, 0.459);
-				color: hsla(0, 0%, 100%, 0.425);
-				font-weight: 200;
+			#hitbox {
+				#text,
+				#base,
+				#thumbnail-container {
+					width: 91%;
+					height: calc((1 - 1 / 20) * 100%);
+					position: absolute;
+					right: 0;
+				}
+
+				#thumbnail-container {
+					overflow: hidden;
+					#thumbnail {
+						width: 100%;
+						height: 100%;
+						position: absolute;
+						right: 0;
+						transition: filter 0.2s ease-in-out,
+									transform 0.5s $forceful 0.2s;
+					}
+				}
+
+				#base {
+					z-index: 0;
+					overflow: hidden;
+					#count {
+						color: #fff;
+						font-family: JetBrains Mono;
+						position: absolute;
+						margin: 0;
+						right: 2%;
+						height: 100%;
+						width: 20%;
+						font-size: 16rem;
+						line-height: 90%;
+						opacity: 0.3;
+						z-index: 2;
+						text-align: center;
+					}
+
+					#not-available {
+						position: absolute;
+						right:50%;
+					}
+
+					#cross-deny {
+						position: absolute;
+						height: 100%;
+						right: 5%;
+						top: -10%;
+						z-index: 1;
+						opacity: 0.6;
+
+						transition: right 1s cubic-bezier(0.42, 0, 0.22, 0.99);
+					}
+				}
+
+				#shapes {
+					width: 100%;
+					height: 100%;
+					z-index: 1;
+					position: absolute;
+					right: 0;
+					pointer-events: all;
+
+
+					.hover-clickable,
+					.hover-static {
+						z-index: -1;
+						position: absolute;
+					}
+
+					#hover-left,
+					#hover-left-arrow,
+					#hover-right {
+						position: absolute;
+						transition: transform 0.3s $forceful;
+					}
+
+					#hover-right {
+						height: 96.5%;
+						width: 20%;
+						right: 0;
+					}
+
+					#hover-left {
+						height: 100%;
+						left: 0;
+					}
+
+					#hover-left-arrow {
+						height: 25%;
+						top: 36%;
+						left: 2%;
+
+						transition: transform 0.5s $forceful;
+						transform: translate(0);
+
+						@keyframes slide-horizontal {
+							34% {
+								transform: translateX(-40%);
+								transition: transform 0.5s $forceful;
+							}
+							67% {
+								transform: translateX(40%);
+							}
+							100% {
+								transform: translateX(0%);
+							}
+						}
+					}
+				}
+
+				#text {
+					z-index: 2;
+					overflow: hidden;
+					#not-available,
+					#name,
+					#desc {
+						font-family: JetBrains Mono;
+						position: absolute;
+						z-index: 1;
+						margin: 0;
+					}
+
+					#name {
+						top: 0;
+						font-size: 3rem;
+						letter-spacing: -0.07em;
+						background: hsla(0, 0%, 0%, 0);
+						color: hsl(0, 0%, 100%);
+						opacity: 0.4;
+						font-weight: 100;
+
+						transition:
+							left 0.5s $forceful,
+							background 0.5s $forceful,
+							font-size 0.5s $forceful,
+							opacity 0.5s ease-in-out;
+					}
+
+					#desc {
+						padding-left: 0.5rem;
+						bottom: 0;
+						height: 2rem;
+						width: 100%;
+						font-size: 1.5rem;
+						line-height: 2.1rem;
+						background: hsla(0, 0%, 0%, 0.459);
+						color: #fff;
+						font-style: italic;
+
+						transform: translateY(100%);
+						transition: transform 0.4s $forceful 0.2s;
+					}
+				}
+
+				&:hover {
+					#thumbnail-container {
+						#thumbnail {
+							filter: blur(1.2px);
+						}
+					}
+					#base {
+						#count {
+							opacity: 1;
+						}
+						#cross-deny {
+							right: -6%;
+						}
+					}
+					#shapes {
+						.hover-clickable#hover-left-arrow {
+							animation: slide-horizontal 1s $forceful infinite;
+						}
+						.hover-clickable#hover-left {
+							transform: scale(1.05) translateX(2%);
+						}
+						.hover-clickable#hover-right {
+							transform: translateX(20%);
+						}
+					}
+					#text {
+						#name {
+							background: hsla(0, 0%, 0%);
+							left: 0;
+							opacity: 1;
+							font-size: 4.8rem;
+						}
+
+						#desc {
+							transform: translateY(0);
+						}
+					}
+				}
+
+				.hitbox-overlay {
+					width: 100%;
+					height: 100%;
+					z-index: 4;
+					pointer-events: all;
+				}
 			}
-
-			#desc {
-				padding-left: 0.5rem;
-				bottom: 0;
-				height: 2rem;
-				width: 100%;
-				font-size: 1.5rem;
-				line-height: 2rem;
-				background: hsla(0, 0%, 0%, 0.459);
-			}
-
-			#count {
-				font-family: JetBrains Mono;
-				position: absolute;
-				margin: 0;
-				right: 0;
-				height: 100%;
-				width: 20%;
-				font-size: 16rem;
-				line-height: 90%;
-				opacity: 0.3;
-				z-index: 2;
-				text-align: center;
-			}
-
-			#not-available {
-				position: absolute;
-				right:50%;
-			}
-
-			#cross-deny {
-				position: absolute;
-				height: 100%;
-				right: 5%;
-				top: 0;
-				z-index: 1;
-				opacity: 0.5;
-			}
-		}
-
-		div:last-child {
-			margin: 0;
-		}
-
-		&::-webkit-scrollbar {
-
-		}
-		&::-webkit-scrollbar-track {
-			opacity: 0;
-		}
-		&::-webkit-scrollbar-corner {
-
 		}
 	}
+
+	#menu-list::-webkit-scrollbar {
+		width: 0;
+// 		height: 100%;
+// 		z-index: 0;
+	}
+// 	#menu-list::-webkit-scrollbar-track {
+// 		opacity: 1;
+// 		border-radius: 10px;
+// 		color: red;
+// 	}
+// 	#menu-list::-webkit-scrollbar-thumb {
+// 		color: red;
+// 	}
+// 	#menu-list:focus-within {
+// 		&::-webkit-scrollbar-thumb {
+//
+// 		}
+// 	}
 }
 
 p {

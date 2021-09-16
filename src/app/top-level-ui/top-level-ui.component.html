@@ -70,17 +70,18 @@
      	<div id="shape"></div>
       	<div id="shadow"></div>
     </div>
-    <div class="TextPlaceholder">
-		<div class="ThemeToggle">
-			<button id="button" (click)="ToggleTheme()"></button>
-		</div>
-		<div class="TextArea">
-			<p class="Text" [ngStyle]="{'pointer-events': currentRouteURL === '/' ? '' : 'none'}">
-				<b>Rhodes</b> Island
-			</p>
-		</div>
-    </div>
   </div>
+</div>
+
+<div class="TextPlaceholder">
+	<div class="ThemeToggle">
+		<button id="button" (click)="ToggleTheme()"></button>
+	</div>
+	<div class="TextArea">
+		<p class="Text" [ngStyle]="{'pointer-events': currentRouteURL === '/' ? '' : 'none'}">
+			<b>Rhodes</b> Island
+		</p>
+	</div>
 </div>
 
 <div class="LeftBoxContainer">

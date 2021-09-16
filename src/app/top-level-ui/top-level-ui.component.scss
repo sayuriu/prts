@@ -131,6 +131,7 @@ p.Clock {
 	margin-top: var(--clockMargin);
 	text-align: center;
 	font-family: JetBrains Mono;
+	font-weight: normal;
 
 	background: var(--globalForegroundInverse);
 	color: var(--globalForeground);
@@ -408,7 +409,7 @@ p.Clock {
 		filter:
 			brightness(var(--logoHoverBrightness))
 			drop-shadow(0 10px 1px var(--logoHoverShadowColor));
-		transform: translateY(-4%);
+		transform: translateY(-2%);
 	}
 }
 
@@ -423,7 +424,7 @@ p.Clock {
 	height: $RI-boxcontainer-height;
 	left: 100%;
 	top: 100%;
-	z-index: 2;
+	z-index: 0;
 
 	.BottomBoxContent {
 		position: sticky;
@@ -479,86 +480,90 @@ p.Clock {
 				transform: translate(15%, 15%);
 			}
 		}
+	}
+}
 
-		.TextPlaceholder {
-			position: absolute;
-			display: flex;
-			align-items: center;
-			width: calc(13rem + 34px);
-			height: 2.5rem;
-			right: 0%;
-			bottom: 2rem;
-			z-index: 100;
+.TextPlaceholder {
+	position: absolute;
+	display: flex;
+	align-items: center;
+	width: calc(13rem + 34px);
+	height: 2.5rem;
+	right: 0%;
+	bottom: 2rem;
+	z-index: 100;
 
-			.TextArea {
-				width: 100%;
-				height: 100%;
-				margin-bottom: 17%;
-				margin-left: 4%;
-				opacity: 0;
-				animation:
-					blink-slidein
-					forwards;
-				animation-delay: 1.5s;
-				animation-duration: 0.8s;
-				pointer-events: all;
+	.TextArea {
+		width: 100%;
+		height: 100%;
+		margin-bottom: 17%;
+		margin-left: 4%;
+		opacity: 0;
+		animation:
+			blink-slidein
+			forwards;
+		animation-delay: 1.5s;
+		animation-duration: 0.8s;
+		pointer-events: all;
 
-				.Text {
-					text-transform: uppercase;
-					letter-spacing: -0.055em;
-					font-weight: 300;
-					font-size: 26px;
-					line-height: 29px;
-					z-index: 1;
-					color: var(--globalForegroundInverse);
-					transition: 0.25s $forceful;
+		.Text {
+			text-transform: uppercase;
+			letter-spacing: -0.055em;
+			font-weight: 100;
+			font-size: 26px;
+			line-height: 29px;
+			z-index: 1;
+			color: var(--globalForegroundInverse);
+			transition: 0.25s $forceful;
 
-					&:hover {
-						transform:
-							translateY(-20%);
-						text-shadow: 4px 10px 4px var(--RISquareShadowHover);
-					}
-				}
+			&:hover {
+				transform:
+					translateY(-20%);
+				text-shadow: 4px 10px 4px var(--RISquareShadowHover);
 			}
-			.ThemeToggle {
-				height: 100%;
-				width: 40px;
-				display: flex;
-				flex-direction: column;
-				justify-content: center;
-				opacity: 0;
-				animation:
-					blink-slidein
-					forwards;
-				animation-delay: 1.4s;
-				animation-duration: 0.8s;
-				pointer-events: all;
-				z-index: 999;
 
-				#button {
-					cursor: pointer;
-					border: 0px;
-					height: 23px;
-					width: 23px;
-					transform: translateX(25%);
-					background-color: var(--globalForegroundInverse);
-					// transition: 0.2s $forceful;
-					transition: all 0.2s ease;
+			& b {
+				font-weight: bold;
+			}
+		}
+	}
+	.ThemeToggle {
+		height: 100%;
+		width: 40px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		opacity: 0;
+		animation:
+			blink-slidein
+			forwards;
+		animation-delay: 1.4s;
+		animation-duration: 0.8s;
+		pointer-events: all;
+		z-index: 999;
 
-					&:hover {
-						transform: translateX(10%) rotate(45deg);
-						height: 28px;
-						width: 28px;
-						box-shadow: 4px 4px 4px var(--RISquareShadowHover);
-						background-image: linear-gradient(135deg, var(--globalForegroundInverse) 50%, var(--globalForeground) 50%);
-						// border-bottom: 28px solid #000;
-						// border-left: 28px solid transparent;
-					}
-					&:active {
-						background: var(--globalForegroundInverse);
-						box-shadow: 4px 4px 4px var(--RISquareShadowActive);
-					}
-				}
+		#button {
+			cursor: pointer;
+			border: 0px;
+			height: 23px;
+			width: 23px;
+			transform: translateX(25%);
+			background-color: var(--globalForegroundInverse);
+			// transition: 0.2s $forceful;
+			transition: all 0.2s ease;
+
+			&:hover {
+				transform: translateX(10%) rotate(45deg);
+				height: 28px;
+				width: 28px;
+				box-shadow: 4px 4px 4px var(--RISquareShadowHover);
+				background-image: linear-gradient(135deg, var(--globalForegroundInverse) 50%, var(--globalForeground) 50%);
+				// border-bottom: 28px solid #000;
+				// border-left: 28px solid transparent;
+			}
+			&:active {
+				background: var(--globalForegroundInverse);
+				box-shadow: 4px 4px 4px var(--RISquareShadowActive);
 			}
 		}
 	}

@@ -37,20 +37,20 @@ const menuOptions: MenuItems[] = [
 		description: 'Try your luck?',
 		available: true,
 	},
-	{
-		name: 'Extra',
-		CSSTargetAccessor: 'extra',
-		associatedBackgoundURL: '',
-		description: 'Coming soon!',
-		available: false,
-	},
-	{
-		name: 'Extra',
-		CSSTargetAccessor: 'extra_2',
-		associatedBackgoundURL: '',
-		description: 'Coming soon!',
-		available: false,
-	},
+	// {
+	// 	name: 'Extra',
+	// 	CSSTargetAccessor: 'extra',
+	// 	associatedBackgoundURL: '',
+	// 	description: 'Coming soon!',
+	// 	available: true,
+	// },
+	// {
+	// 	name: 'Extra',
+	// 	CSSTargetAccessor: 'extra_2',
+	// 	associatedBackgoundURL: '',
+	// 	description: 'Coming soon!',
+	// 	available: false,
+	// },
 ]
 
 interface MenuItems {

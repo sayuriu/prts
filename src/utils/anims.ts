@@ -56,9 +56,11 @@ export const fader =
 					position: 'absolute',
 					opacity: 1,
 					left: 0,
+					'animation-direction': 'reverse',
 				})
 			]),
 			query(':leave', [
+				animateChild(),
 				animate(
 					'0.5s cubic-bezier(0.88,-0.07, 0.22, 1.01)',
 					style({

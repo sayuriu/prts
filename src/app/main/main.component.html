@@ -1,6 +1,7 @@
 <style>
 	p {
 		font-family: JetBrains Mono;
+		font-weight: normal;
 	}
 </style>
 <div class="container">
@@ -8,22 +9,45 @@
 	<div class="info-message">
 		[INFO_BOX]
 	</div>
-	<ul class="menu-list">
+	<ul id="menu-list">
 		<div *ngFor="let menu of currentMenuOptions; let i = index"
-			class="{{menu.CSSTargetAccessor}}"
+			class="menu-item"
 			[ngStyle]="{
-				'filter': menu.available ? '' : 'grayscale(100%)',
-				'pointer-events':  menu.available ? '' : 'none',
-				'cursor': menu.available ? '' : 'not-allowed'
+				'filter': menu.available ? '' : 'grayscale(100%)'
 			}"
 			style="--order: {{i + 1}};"
 		>
-			<p id="count">{{i}}</p>
-			<p id="not-available" *ngIf="!menu.available">NOT_AVAILABLE</p>
-			<img id="cross-deny" *ngIf="!menu.available" src="../assets/img/menu/Cross.svg"/>
-			<img id="thumbnail" *ngIf="menu.associatedBackgoundURL" src="../assets/img/menu/{{menu.associatedBackgoundURL}}"/>
-			<h6 id="name">{{menu.name.toUpperCase()}}</h6>
-			<p id="desc">{{menu.description}}</p>
+			<div
+				id="hitbox"
+				[ngStyle]="{
+					'cursor': menu.available ? 'pointer' : 'not-allowed'
+				}"
+			>
+				<div id="thumbnail-container">
+					<div id="thumbnail"
+					[ngStyle]="{
+						'background' : menu.associatedBackgoundURL ? '' : 'hsl(0, 0%, 50%)',
+						'background-image': 'url(../../assets/img/menu/' + menu.associatedBackgoundURL + ')',
+						'background-size': 'cover'
+					}">
+				</div>
+				</div>
+				<div id="base">
+					<!-- <p id="count">{{i}}</p> -->
+					<!-- <p id="not-available" *ngIf="!menu.available">NOT_AVAILABLE</p> -->
+					<img id="cross-deny" *ngIf="!menu.available" src="../assets/img/menu/Cross.svg"/>
+				</div>
+				<div id="shapes">
+					<img [ngClass]="{ 'hover-clickable': menu.available, 'hover-static': !menu.available }" id="hover-left" src="../assets/img/menu/Hover_Left.png">
+					<img [ngClass]="{ 'hover-clickable': menu.available, 'hover-static': !menu.available }" id="hover-left-arrow" src="../assets/img/menu/Small_Arrow.png">
+					<img [ngClass]="{ 'hover-clickable': menu.available, 'hover-static': !menu.available }" id="hover-right" src="../assets/img/menu/Hover_Right.png">
+				</div>
+				<div id="text">
+					<h6 id="name">{{menu.name.toUpperCase()}}</h6>
+					<p id="desc">{{menu.available ? menu.description : 'Coming soon!'}}</p>
+				</div>
+				<div id="hitbox-overlay"></div>
+			</div>
 		</div>
 	</ul>
 </div>

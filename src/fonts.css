@@ -1,17 +1,148 @@
+/* #region JetBrains */
 @font-face {
 	font-family: JetBrains Mono;
-	src: url(assets/fonts/JetBrainsMonoNL-Regular.ttf) format("truetype");
+	src: url(assets/fonts/JetBrainsMono-ExtraLight.ttf) format("truetype");
+	font-style: normal;
+	font-weight: 100;
+}
+@font-face {
+	font-family: JetBrains Mono;
+	src: url(assets/fonts/JetBrainsMono-Light.ttf) format("truetype");
+	font-style: normal;
+	font-weight: 200;
+}
+@font-face {
+	font-family: JetBrains Mono;
+	src: url(assets/fonts/JetBrainsMono-Thin.ttf) format("truetype");
+	font-style: normal;
+	font-weight: 300;
+}
+@font-face {
+	font-family: JetBrains Mono;
+	src: url(assets/fonts/JetBrainsMono-Medium.ttf) format("truetype");
+	font-style: normal;
+	font-weight: 500;
+}
+@font-face {
+	font-family: JetBrains Mono;
+	src: url(assets/fonts/JetBrainsMono-Bold.ttf) format("truetype");
+	font-style: normal;
+	font-weight: bold;
+}
+@font-face {
+	font-family: JetBrains Mono;
+	src: url(assets/fonts/JetBrainsMono-ExtraBold.ttf) format("truetype");
+	font-style: normal;
+	font-weight: bolder;
+}
+@font-face {
+	font-family: JetBrains Mono;
+	src: url(assets/fonts/JetBrainsMono-Regular.ttf) format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+/* italics */
+@font-face {
+	font-family: JetBrains Mono;
+	src: url(assets/fonts/JetBrainsMonoNL-ExtraLightItalic.ttf) format("truetype");
+	font-style: italic;
+	font-weight: 100;
+}
+@font-face {
+	font-family: JetBrains Mono;
+	src: url(assets/fonts/JetBrainsMono-LightItalic.ttf) format("truetype");
+	font-style: italic;
+	font-weight: 200;
+}
+@font-face {
+	font-family: JetBrains Mono;
+	src: url(assets/fonts/JetBrainsMono-ThinItalic.ttf) format("truetype");
+	font-style: italic;
+	font-weight: 300;
+}
+@font-face {
+	font-family: JetBrains Mono;
+	src: url(assets/fonts/JetBrainsMono-MediumItalic.ttf) format("truetype");
+	font-style: italic;
+	font-weight: 500;
+}
+@font-face {
+	font-family: JetBrains Mono;
+	src: url(assets/fonts/JetBrainsMono-BoldItalic.ttf) format("truetype");
+	font-style: italic;
+	font-weight: bold;
+}
+@font-face {
+	font-family: JetBrains Mono;
+	src: url(assets/fonts/JetBrainsMono-ExtraBoldItalic.ttf) format("truetype");
+	font-style: italic;
+	font-weight: bolder;
+}
+@font-face {
+	font-family: JetBrains Mono;
+	src: url(assets/fonts/JetBrainsMono-Italic.ttf) format("truetype");
+	font-style: italic;
+	font-weight: normal;
+}
+/* #endregion */
+
+/* #region Bender */
+@font-face {
+	font-family: Bender;
+	src: url(assets/fonts/Bender-Light.otf) format("opentype");
+
+	font-weight: lighter;
+	font-style: normal;
+}
+@font-face {
+	font-family: Bender;
+	src: url(assets/fonts/Bender-Bold.otf) format("opentype");
+
+	font-weight: bold;
+	font-style: normal;
+}
+@font-face {
+	font-family: Bender;
+	src: url(assets/fonts/Bender.otf) format("opentype");
+
+	font-weight: normal;
+	font-style: normal;
 }
 
 @font-face {
 	font-family: Bender;
-	src: url(assets/fonts/Bender.otf) format("opentype");
-}
+	src: url(assets/fonts/Bender-LightItalic.otf) format("opentype");
 
+	font-weight: 100;
+	font-style: italic;
+}
+@font-face {
+	font-family: Bender;
+	src: url(assets/fonts/Bender-BoldItalic.otf) format("opentype");
+
+	font-weight: bold;
+	font-style: italic;
+}
+@font-face {
+	font-family: Bender;
+	src: url(assets/fonts/Bender-Italic.otf) format("opentype");
+
+	font-weight: normal;
+	font-style: italic;
+}
+/* #endregion */
+
+/* #region Momcake */
 @font-face {
 	font-family: Momcake;
 	src: url(assets/fonts/Momcake-Thin.otf) format("opentype");
 }
+@font-face {
+	font-family: Momcake;
+	src: url(assets/fonts/Momcake-Thin.otf) format("opentype");
+}
+/* #endregion */
 
 @font-face {
 	font-family: Y1452018;

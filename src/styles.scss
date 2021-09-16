@@ -1,5 +1,6 @@
 html,
 body {
+	will-change: contents;
 	font-family: Bender, Momcake, JetBrains Mono;
 	position: fixed;
 	width: 100vw;
