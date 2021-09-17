@@ -1,4 +1,5 @@
 @use 'sass:math';
+@import '../../../anims';
 
 $notifboxHeight: math.div(291px, 1080px) * 100vh;
 $notifboxWidth: math.div(1042px, 1920px) * 100vw;
@@ -61,5 +62,31 @@ $alert1_Height: math.div(74px, 291px) * 100%;
 				line-height: 99px;
 			}
 		}
+	}
+
+	#hint {
+		position: absolute;
+		top: 70px;
+		left: 5%;
+		font-size: 1.2rem;
+		font-family: JetBrains Mono;
+		font-weight: 100;
+		letter-spacing: -0.05rem;
+		color: var(--globalForeground);
+		background: var(--globalForegroundInverse);
+		opacity: 0;
+
+		@keyframes hint-slide-up {
+			from {
+				opacity: 0;
+				transform: translateY(20%);
+			}
+			to {
+				opacity: 1;
+				transform: translateY(0);
+			}
+		}
+
+		animation: hint-slide-up 0.7s $forceful 2s forwards;
 	}
 }
