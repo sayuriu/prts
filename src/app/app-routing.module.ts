@@ -54,15 +54,15 @@ const routes: Routes = [
 		// component: RecruitPage,
 		children: [
 			{
-				path: ':id',
+				path: ':banner-name',
 				component: BlankComponent,
-				// component: OperatorsPage,
+				// component: RecruitPage->Banner,
 			},
 			{
-				path: ':name',
+				path: 'std',
 				component: BlankComponent,
-				// component: OperatorsPage,
-			},
+				// component: RecruitPage->Std,
+			}
 		],
 	},
 	{ path: 'combat',
