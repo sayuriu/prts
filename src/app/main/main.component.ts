@@ -22,7 +22,7 @@ const menuOptions: MenuItems[] = [
 		CSSTargetAccessor: 'combat',
 		associatedBackgoundURL: 'G1_Thumbnail.png',
 		description: 'Know your enemies before fighting them.',
-		available: true,
+		available: false,
 	},
 	{
 		name: 'Op. Info',
@@ -38,7 +38,7 @@ const menuOptions: MenuItems[] = [
 		CSSTargetAccessor: 'recruit',
 		associatedBackgoundURL: 'G2_Thumbnail.png',
 		description: 'Try your luck?',
-		available: true,
+		available: false,
 	},
 	// {
 	// 	name: 'Extra',

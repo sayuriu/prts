@@ -1,0 +1,36 @@
+struct >
+	#Home
+	main
+	combat
+		|-maps
+		|	|-:name
+		|-enemies
+			|-:id
+	characters -> operators
+	operators
+		|-:name
+		|-:id
+	recruitment (Standalone JS App)
+		|-:banner-name
+		|-all
+		|-std
+
+	#API
+	api
+	|- combat
+	|	|-maps
+	|	|	|-:name
+	|	|-enemies
+	|		|-:id
+	|- characters -> operators
+	|- operators
+	|	|-:name
+	|	|-:id
+	|- recruitment
+		|-:banner-name
+
+
+struct path
+	operators	-> /operators
+	|-:name 	-> /operators/:name (var)
+	|-:id		-> /operators/:id (var)
