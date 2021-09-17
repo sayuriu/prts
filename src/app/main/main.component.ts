@@ -25,11 +25,11 @@ const menuOptions: MenuItems[] = [
 		available: false,
 	},
 	{
-		name: 'Op. Info',
+		name: 'Operators',
 		routerTarget: '/operators',
 		CSSTargetAccessor: 'opInfo',
 		associatedBackgoundURL: 'G3_Thumbnail.png',
-		description: 'Details of our operators.',
+		description: 'Details of operators / factions.',
 		available: false,
 	},
 	{
