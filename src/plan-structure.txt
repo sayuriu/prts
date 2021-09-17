@@ -11,8 +11,8 @@ struct >
 		|-:name
 		|-:id
 	recruitment (Standalone JS App)
-		|-:banner-name
-		|-all
+		|-:banner-name (gacha)
+		|-all (gacha)
 		|-std
 
 	#API
@@ -27,7 +27,9 @@ struct >
 	|	|-:name
 	|	|-:id
 	|- recruitment
-		|-:banner-name
+	|	|-:banner-name
+	|- materials
+		|-:material-id
 
 
 struct path
