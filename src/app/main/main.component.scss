@@ -193,6 +193,7 @@ $header-height: math.div(81px, 1080px) * 100vh;
 					#hover-left {
 						height: 100%;
 						left: 0;
+						filter: brightness(300%);
 					}
 
 					#hover-left-arrow {

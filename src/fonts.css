@@ -137,10 +137,12 @@
 @font-face {
 	font-family: Momcake;
 	src: url(assets/fonts/Momcake-Thin.otf) format("opentype");
+	font-weight: normal;
 }
 @font-face {
 	font-family: Momcake;
-	src: url(assets/fonts/Momcake-Thin.otf) format("opentype");
+	src: url(assets/fonts/Momcake-Bold.otf) format("opentype");
+	font-weight: bold;
 }
 /* #endregion */
 

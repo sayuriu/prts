@@ -5,6 +5,7 @@
 <div class="Header">
 	<div class="PRTS_Emblem">
 		<div id="toHomePage" *ngIf="currentRouteURL !== '/'" routerLink='/'></div>
+		<div id="toHomePage" *ngIf="currentRouteURL !== '/' && currentRouteURL !== '/main'" routerLink='/main'></div>
 		<div class="PRTS_SVG">
 			<svg class="PRTS_SVG_TL" width="177" height="111" viewBox="0 0 177 111" fill="none" xmlns="http://www.w3.org/2000/svg">
 				<g id="etl_line">
