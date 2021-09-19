@@ -21,14 +21,14 @@ $header-height: math.div(81px, 1080px) * 100vh;
 	height: calc(100vh - 75px);
 	width: 100vw;
 	pointer-events: none;
-	opacity: 1;
+	opacity: 0;
 	background: transparent;
-	// animation:
-	// 	slide-up
-	// 	0.5s
-	// 	// $forceful
-	// 	cubic-bezier(1, 0.25, 0, 1.01)
-	// 	forwards;
+	animation:
+		slide-up
+		0.5s
+		// $forceful
+		cubic-bezier(1, 0.25, 0, 1.01)
+		forwards;
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
@@ -50,18 +50,25 @@ $header-height: math.div(81px, 1080px) * 100vh;
 		top: 0;
 	}
 
-	.info-message {
+	.info-message-container {
+		margin-left: 5vw;
 		border: 1px solid black;
 		font-family: JetBrains Mono;
 		display: flex;
 		justify-content: center;
+		position: relative;
 		align-items: center;
-		font-size: 5rem;
+		font-size: 1rem;
 		height: 80vh;
 		width: 45vw;
 		background: white;
 		opacity: 0;
 		animation: slide 0.5s $forceful 0.2s forwards;
+
+		#polygon-overlay,
+		#info-message {
+			position: absolute;
+		}
 	}
 	//TODO: Add img as child container
 	#menu-list {

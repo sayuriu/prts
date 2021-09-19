@@ -3,11 +3,14 @@
   "extends": "./tsconfig.json",
   "compilerOptions": {
     "outDir": "./out-tsc/app",
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
     "types": [],
     "baseUrl": "./",
     "paths": {
       "@services/*": ["./src/services/*"],
-      "@utils/*": ["./src/utils/*"]
+      "@utils/*": ["./src/utils/*"],
+      "@root/*": ["./*"]
     },
   },
   "files": [

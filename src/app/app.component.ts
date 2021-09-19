@@ -1,7 +1,7 @@
-import { Component, ElementRef, OnInit, OnChanges } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { Router, RouterOutlet } from '@angular/router';
-import { query, transition, trigger } from '@angular/animations';
-import { fader, slideBetween } from '@utils/anims';
+import { fader } from '@utils/anims';
+import { version } from '@utils/version';
 
 import { ErrorService } from '../services/error.service';
 
@@ -17,6 +17,7 @@ import { ErrorService } from '../services/error.service';
 })
 export class AppComponent implements OnInit {
 
+	@Input() readonly appVersion = version;
 	constructor(
 			private errorService: ErrorService,
 			public router: Router,

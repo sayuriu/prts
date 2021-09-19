@@ -6,8 +6,12 @@
 </style>
 <div class="container">
 	<p id="id">[APP_CONTAINER]</p>
-	<div class="info-message">
-		[INFO_BOX]
+	<div class="info-message-container">
+		<div id="polygon-overlay"></div>
+		<div id="info-message">
+			<h1><strong>Welcome to PRTS Analysis OS!</strong></h1>
+			<p><i></i></p>
+		</div>
 	</div>
 	<ul id="menu-list">
 		<div *ngFor="let menu of currentMenuOptions; let i = index"
