@@ -18,7 +18,7 @@ import { TopLevelUIComponent } from './top-level-ui/top-level-ui.component';
     TopLevelUIComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     BrowserAnimationsModule,
     AppRoutingModule
   ],

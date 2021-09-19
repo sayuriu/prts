@@ -11,8 +11,8 @@ import { ErrorService } from '../services/error.service';
   	styleUrls: ['./app.component.scss'],
 
 	animations: [
-		// fader,
-		slideBetween,
+		fader,
+		// slideBetween,
 	],
 })
 export class AppComponent implements OnInit {
@@ -33,18 +33,30 @@ export class AppComponent implements OnInit {
 }
 
 const AnimUtilities = {
-	removeLoadStatus: () => {
+	currentInterval: null,
+	evt: new Event('load_status'),
+	removeLoadStatus()
+	{
 		const loadingText = document.getElementById('LOAD_STATUS');
+		loadingText?.setAttribute('status', 'idle');
+		this.emitUpdate();
 		setTimeout(() => {
 			(loadingText as HTMLElement).style.opacity = '0';
 			(loadingText as HTMLElement).style.zIndex = '-1';
 		}, 200);
 	},
-	assertLoadStatus: () => {
+	assertLoadStatus()
+	{
 		const loadingText = document.getElementById('LOAD_STATUS');
+		loadingText?.setAttribute('status', 'busy');
+		this.emitUpdate();
 		setTimeout(() => {
 			(loadingText as HTMLElement).style.opacity = '1';
 			(loadingText as HTMLElement).style.zIndex = '999';
 		}, 200);
+	},
+	emitUpdate()
+	{
+		document.dispatchEvent(this.evt);
 	}
 }

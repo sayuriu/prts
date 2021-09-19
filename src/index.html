@@ -15,14 +15,12 @@
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body style="display:fixed">
-  <p id="LOAD_STATUS"
+  <p id="LOAD_STATUS" status="loading"
     style="font-family:JetBrains Mono;font-size:60px;color:azure;position:absolute;display:flex;justify-content:center;align-items:center;background:#000;width:100vw;height:100vh;margin:0;transition:opacity 0.5s ease-out;opacity:1;z-index:999;"
-  >
-    [LOADING]
-  </p>
+  ></p>
   <app-root id="AppRoot"></app-root>
 </body>
-<script defer id="Script_ThemeBootstrap_Min">
-const a={light:{foreground:'#fff',foregroundInverse:'#000'},dark:{foreground:'#000',foregroundInverse:'#fff'}},d=localStorage.getItem('theme')||'light',e=document.getElementById('LOAD_STATUS'),f=b(d);function b(c){return a[c]??null;}document.documentElement.setAttribute('theme', d);e.style.background=f.foreground;e.style.color=f.foregroundInverse;
+<script defer id="Script_Bootstrap_Min">
+const _$0=setInterval,_$1=clearInterval,_=document,a=localStorage,b='getItem',c='getElementById',d='addEventListener',e='documentElement',f='setAttribute',g='getAttribute',h='style',i='background',j='color',k='textContent',l='repeat',m={light: {foreground:'#fff',foregroundInverse:'#000'},dark:{foreground:'#000',foregroundInverse:'#fff'}},n=300,o='>_LOADING',p='<!--';function q(r){return m[r]??null}const s=a[b]('theme')||'light',t=_[c]('LOAD_STATUS'),u=q(s);_[e][f]('theme',s);t[h][i]=u.foreground;t[h][j]=u.foregroundInverse;let v=1;function w(){const wa=_[c]('LOAD_STATUS');wa[k]=o+'.'.repeat(v);if(v===3)v=0;v++;};let z=_$0(w, n);_[d]('load_status',function(){const _d =_[c]('LOAD_STATUS'),_e=_d[g]('status');if(_e === 'loading')z=_$0(w, n);else{_d[k]=p;_$1(z);z=null;}});
 </script>
 </html>

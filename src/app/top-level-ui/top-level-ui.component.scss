@@ -180,8 +180,8 @@ $emblem-margin-left: math.div(79px, 1920px) * 100vw;
 					height 0.5s $forceful,
 					background 0.3s #{$forceful-2} var(--header_Background_AnimDelay);
 		position: relative;
-		// background: var(--header_Background_Color);
-		background: transparent;
+		background: var(--header_Background_Color);
+		// background: transparent;
 		width: 100vw;
 		height: var(--headerHeight);
 		margin-top: var(--headerMargin_Top);
