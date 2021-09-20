@@ -21,7 +21,7 @@ noscript {
 @media only screen and (max-width: 750px) {
 	#dialog-box {
 		top: 0;
-		--dilog-height: 250px;
+		--dilog-height: 275px;
 		p {
 			margin-left: 2.5em;
 		}
@@ -78,14 +78,41 @@ div#alert {
 			line-height: 1.5rem;
 			undl {
 				text-decoration: underline;
+				@keyframes undl-highlight {
+					100%{
+						color: var(--globalForeground);
+						background: var(--globalForegroundInverse)
+					}
+				}
+				animation: undl-highlight 0.8s $forceful 1.2s forwards;
 			}
 			a {
+				@keyframes a-highlight {
+					0% {
+						background: var(--globalForegroundInverse);
+					}
+					100%{
+						background: hsl(214, 100%, 42%);
+					}
+				}
+				animation: a-highlight 0.8s $forceful 2.5s forwards;
 				color: var(--globalForeground);
 				background: var(--globalForegroundInverse);
 				text-decoration: none;
 			}
 			opacity: 0;
 			animation: slide-right 1s $forceful 0.4s forwards;
+
+			&::after {
+				content: '<<';
+				opacity: 0;
+				@keyframes blink {
+					50% {
+						opacity: 1;
+					}
+				}
+				animation: slide-right 0.5s ease 3s alternate infinite;
+			}
 		}
 	}
 	#img {
