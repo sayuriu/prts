@@ -35,7 +35,7 @@ export class AppComponent implements OnInit {
 
 const AnimUtilities = {
 	currentInterval: null,
-	evt: new Event('load_status'),
+	evt: new Event('LOAD_STATUS'),
 	removeLoadStatus()
 	{
 		const loadingText = document.getElementById('LOAD_STATUS');

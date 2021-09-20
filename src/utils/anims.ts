@@ -11,13 +11,13 @@ export const slideBetween = trigger('routeAnimations', [
 			position: 'absolute',
 			top: 0,
 			opacity: 0,
-			transform: 'translateY(5vh)'
+			transform: 'translateY(5vh)',
 		})),
 		query(':leave', style({
 			position: 'absolute',
 			top: 0,
 			opacity: 1,
-			transform: 'translateY(0)'
+			transform: 'translateY(0)',
 		})),
 
 		group([
@@ -27,7 +27,7 @@ export const slideBetween = trigger('routeAnimations', [
 					style({
 						opacity: 0,
 						transform: 'translateY(5vh)',
-					})
+					}),
 				),
 			]),
 			query(':enter', [
@@ -37,12 +37,10 @@ export const slideBetween = trigger('routeAnimations', [
 						position: 'absolute',
 						opacity: 1,
 						transform: 'translateY(0)',
-					})
+					}),
 				),
 			]),
 		]),
 		query(':enter', animateChild({ delay: 200 })),
 	])
-])
-
-type Style = "*" | { [key: string]: string | number; }
+]);
