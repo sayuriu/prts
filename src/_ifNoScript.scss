@@ -7,10 +7,21 @@ noscript {
 	height: auto;
 }
 
+@keyframes slide-right {
+	0% {
+		opacity: 0;
+		transform: translateX(-20%);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
 @media only screen and (max-width: 750px) {
 	#dialog-box {
 		top: 0;
-		height: auto;
+		--dilog-height: 250px;
 		p {
 			margin-left: 2.5em;
 		}
@@ -19,7 +30,7 @@ noscript {
 @media only screen and (min-width: 750px) {
 	#dialog-box {
 		top: calc(50% - 100px);
-		height: 200px;
+		--dilog-height: 200px;
 		p {
 			margin-left: 5em;
 		}
@@ -32,6 +43,15 @@ div#alert {
 
 	#dialog-box {
 		width: 100vw;
+		@keyframes expands {
+			0% {
+				height: 0;
+			}
+			100% {
+				height: var(--dilog-height);
+			}
+		}
+		animation: expands 0.5s $forceful forwards;
 		position: absolute;
 		z-index: 1;
 		background: var(--globalForeground);
@@ -45,6 +65,8 @@ div#alert {
 				color: var(--globalForeground);
 				font-weight: 100;
 			}
+			opacity: 0;
+			animation: slide-right 1s $forceful 0.2s forwards;
 		}
 		p {
 			letter-spacing: -0.055em;
@@ -57,6 +79,8 @@ div#alert {
 				background: var(--globalForegroundInverse);
 				text-decoration: none;
 			}
+			opacity: 0;
+			animation: slide-right 1s $forceful 0.4s forwards;
 		}
 	}
 	#img {
