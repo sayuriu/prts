@@ -59,11 +59,16 @@ div#alert {
 			h {
 				background: var(--globalForegroundInverse);
 				color: var(--globalForeground);
+				z-index: 1;
 			}
 			strong {
 				background: red;
+				position: relative;
 				color: var(--globalForeground);
 				font-weight: 100;
+				z-index: 0;
+				opacity: 0;
+				animation: slide-right 0.8s $forceful 0.7s forwards;
 			}
 			opacity: 0;
 			animation: slide-right 1s $forceful 0.2s forwards;
