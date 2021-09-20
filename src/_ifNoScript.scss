@@ -1,0 +1,105 @@
+@import 'anims';
+
+noscript {
+	font-family: JetBrains Mono;
+	font-size: 1rem;
+	width: 100vw;
+	height: auto;
+}
+
+@media only screen and (max-width: 750px) {
+	#dialog-box {
+		top: 0;
+		height: auto;
+		p {
+			margin-left: 2.5em;
+		}
+	}
+}
+@media only screen and (min-width: 750px) {
+	#dialog-box {
+		top: calc(50% - 100px);
+		height: 200px;
+		p {
+			margin-left: 5em;
+		}
+	}
+}
+
+div#alert {
+	width: 100vw;
+	height: 100vh;
+
+	#dialog-box {
+		width: 100vw;
+		position: absolute;
+		z-index: 1;
+		background: var(--globalForeground);
+		h1 {
+			h {
+				background: var(--globalForegroundInverse);
+				color: var(--globalForeground);
+			}
+			strong {
+				background: red;
+				color: var(--globalForeground);
+				font-weight: 100;
+			}
+		}
+		p {
+			letter-spacing: -0.055em;
+			line-height: 1.5rem;
+			undl {
+				text-decoration: underline;
+			}
+			a {
+				color: var(--globalForeground);
+				background: var(--globalForegroundInverse);
+				text-decoration: none;
+			}
+		}
+	}
+	#img {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		background-color: var(--globalForegroundInverse);
+
+		@mixin cross-slide($name, $targetRight, $targetOpacity: 1) {
+			@keyframes #{$name} {
+				0% {
+					opacity: 0;
+					right: 0;
+				}
+				100% {
+					opacity: #{$targetOpacity};
+					right: #{$targetRight};
+				}
+			}
+		}
+
+		svg#cross_p,
+		svg#cross_s {
+			position: absolute;
+			bottom: 20%;
+			right: 0;
+			transform: scale(3);
+			filter: brightness(80%);
+		}
+
+		svg#cross_p {
+			bottom: 5%;
+			@include cross-slide(cross-p, 5%);
+			z-index: 1;
+			opacity: 0;
+			animation: cross-p 0.5s $forceful forwards;
+		}
+		svg#cross_s {
+			bottom: 5%;
+			@include cross-slide(cross-s, 4%, 0.4);
+			z-index: 0;
+			opacity: 0;
+			animation: cross-s 0.5s $forceful 0.2s forwards;
+		}
+	}
+}

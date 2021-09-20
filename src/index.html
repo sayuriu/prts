@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
+  <title>PRTS Analysis OS</title>
   <meta charset="utf-8">
   <meta property="og:title" content="PRTS">
   <meta property="og:description" content="Just an another Arknights toolbox. Currently in developement.">
@@ -15,6 +16,29 @@
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body style="display:fixed">
+  <noscript>
+    <div id="alert">
+      <div id=dialog-box>
+        <h1><h>Malfunction detected:</h> <strong>FATAL://<b>NO_SCRIPT</b></strong></h1>
+        <p>
+          PRTS requires JavaScript enabled for critical utilities to run (theme management, animations and page navigations, etc...)<br>
+          Try <undl>enabling JavaScript and reloading the page.</undl><br>
+          As for how to do it, you can check
+            <a href="https://support.clio.com/hc/en-us/articles/360040902634-How-to-Enable-JavaScript-in-Your-Web-Browser">here</a>.
+        </p>
+      </div>
+      <div id="img">
+        <svg id="cross_p" width="75" height="69" viewBox="0 0 75 69" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M7 4L68 65M7 4L68 65" stroke="white" stroke-width="12"/>
+          <path d="M7 65.0174L68 4" stroke="white" stroke-width="12"/>
+        </svg>
+        <svg id="cross_s" width="75" height="69" viewBox="0 0 75 69" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M7 4L68 65M7 4L68 65" stroke="white" stroke-width="12"/>
+          <path d="M7 65.0174L68 4" stroke="white" stroke-width="12"/>
+        </svg>
+      </div>
+    </div>
+  </noscript>
   <p id="LOAD_STATUS" status="loading"
     style="font-family:JetBrains Mono;font-size:60px;color:azure;position:absolute;display:flex;justify-content:center;align-items:center;background:#000;width:100vw;height:100vh;margin:0;transition:opacity 0.5s ease-out;opacity:1;z-index:999;"
   ></p>
