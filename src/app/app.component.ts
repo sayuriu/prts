@@ -1,6 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { Router, RouterOutlet } from '@angular/router';
-import { fader } from '@utils/anims';
+import { slideBetween } from '@utils/anims';
 import { version } from '@utils/version';
 
 import { ErrorService } from '../services/error.service';
@@ -11,8 +11,8 @@ import { ErrorService } from '../services/error.service';
   	styleUrls: ['./app.component.scss'],
 
 	animations: [
-		fader,
-		// slideBetween,
+		// fader,
+		slideBetween,
 	],
 })
 export class AppComponent implements OnInit {

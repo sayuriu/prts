@@ -21,14 +21,8 @@ $header-height: math.div(81px, 1080px) * 100vh;
 	height: calc(100vh - 75px);
 	width: 100vw;
 	pointer-events: none;
-	opacity: 0;
+	opacity: 1;
 	background: transparent;
-	animation:
-		slide-up
-		0.5s
-		// $forceful
-		cubic-bezier(1, 0.25, 0, 1.01)
-		forwards;
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
