@@ -1,9 +1,10 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { Router, RouterOutlet } from '@angular/router';
+
 import { slideBetween } from '@utils/anims';
 import { version } from '@utils/version';
-
-import { ErrorService } from '../services/error.service';
+import { ErrorService } from '@services/error.service';
+import type { BrowserWindow } from '@interfaces/common';
 
 @Component({
   	selector: 'app-root',
@@ -11,13 +12,11 @@ import { ErrorService } from '../services/error.service';
   	styleUrls: ['./app.component.scss'],
 
 	animations: [
-		// fader,
 		slideBetween,
 	],
 })
 export class AppComponent implements OnInit {
 
-	@Input() readonly appVersion = version;
 	constructor(
 			private errorService: ErrorService,
 			public router: Router,
@@ -26,6 +25,7 @@ export class AppComponent implements OnInit {
 
 	ngOnInit() {
 		AnimUtilities.removeLoadStatus();
+		(window as BrowserWindow).__env.AppVersion = version;
 	}
 
 	prepareOutlet(outlet: RouterOutlet) {

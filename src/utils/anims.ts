@@ -32,15 +32,15 @@ export const slideBetween = trigger('routeAnimations', [
 			]),
 			query(':enter', [
 				animate(
-					'0.5s 0.2s cubic-bezier(0.88,-0.07, 0.22, 1.01)',
+					'0.5s 0.1s cubic-bezier(0.88,-0.07, 0.22, 1.01)',
 					style({
 						position: 'absolute',
 						opacity: 1,
 						transform: 'translateY(0)',
 					}),
 				),
+				animateChild({ delay: 400 }),
 			]),
 		]),
-		query(':enter', animateChild({ delay: 200 })),
 	])
 ]);

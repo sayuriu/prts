@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { BrowserWindow } from '@utils/interfaces/common';
 
 @Component({
 	selector: 'app-home',
@@ -7,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MainComponent implements OnInit {
 
+	readonly appVersion = (window as BrowserWindow).__env.AppVersion;
 	currentMenuOptions = menuOptions;
 	constructor() {}
 
