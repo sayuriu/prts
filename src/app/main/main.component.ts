@@ -4,7 +4,7 @@ import { BrowserWindow } from '@utils/interfaces/common';
 @Component({
 	selector: 'app-home',
 	templateUrl: './main.component.html',
-	styleUrls: ['./main.component.scss']
+	styleUrls: ['./main.component.scss'],
 })
 export class MainComponent implements OnInit {
 

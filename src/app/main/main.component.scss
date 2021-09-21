@@ -45,31 +45,129 @@ $header-height: math.div(81px, 1080px) * 100vh;
 
 	.info-message-container {
 		margin-left: 5vw;
-		border: 1px solid black;
+		border: 1px solid var(--globalForegroundInverse);
 		font-family: JetBrains Mono;
 		display: flex;
 		justify-content: center;
 		position: relative;
-		align-items: center;
 		font-size: 1rem;
 		height: 80vh;
 		width: 45vw;
-		background: white;
+		background: var(--globalForeground);
 		opacity: 0;
 		animation: slide 0.5s $forceful 0.2s forwards;
+		justify-content: flex-start;
+		overflow: hidden;
 
 		#polygon-overlay,
-		#info-message {
+		#info-message,
+		#app-info {
 			position: absolute;
 		}
+
+		#polygon-overlay
+		{
+			width: 100%;
+			height: 100%;
+			background: transparent;
+			z-index: 0;
+		}
+		#info-message {
+			width: calc(100% - 2rem);
+			height: 100%;
+			z-index: 1;
+
+			#message-title {
+				margin-left: 2rem;
+				margin-bottom: 0;
+				letter-spacing: -0.1rem;
+				color: var(--globalForegroundInverse);
+			}
+
+			#app-version-number
+			{
+				margin-left: 2rem;
+				pointer-events: all;
+				text-decoration: none;
+				color: hsl(0, 0%, 55%);
+				transition:
+					background 0.2s $forceful,
+					color 0.2s $forceful;
+
+				&:hover {
+					color: var(--globalForeground);
+					background: var(--globalForegroundInverse);
+				}
+
+			}
+
+			#message-content {
+				display: flex;
+				height: calc(100% - 6.95rem);
+				flex-direction: column;
+				position: relative;
+				justify-content: space-between;
+				#infomation {
+					margin-left: 2rem;
+
+				}
+				#update-logs {
+					width: calc(100% + 2rem);
+					height: 3rem;
+					position: relative;
+					border-top: 1px dashed var(--globalForegroundInverse);
+					tag {
+						position: absolute;
+						top: -0.7rem;
+						left: 0.5rem;
+						color: var(--globalForeground);
+						background: var(--globalForegroundInverse);
+					}
+					content {
+						position: absolute;
+						width: 100%;
+						height: 100%;
+						top: 1rem;
+						overflow-y: auto;
+
+						text {
+							margin-left: 1rem;
+						}
+					}
+				}
+			}
+		}
+		#app-info {
+			width: 100%;
+			z-index: 2;
+			border-top: 1px dashed var(--globalForegroundInverse);
+			bottom: 0;
+			display: flex;
+			justify-content: space-between;
+			pointer-events: all;
+			background: var(--globalForegroundInverse);
+
+			a {
+				margin: 0 1em;
+				text-decoration: none;
+				color: var(--globalForeground);
+				transition:
+					background 0.2s $forceful,
+					color 0.2s $forceful;
+
+				&:hover {
+					color: var(--globalForegroundInverse);
+					background: var(--globalForeground);
+				}
+			};
+		}
 	}
-	//TODO: Add img as child container
 	#menu-list {
 		margin: 0;
 		padding: 0;
 		pointer-events: visible;
 		// border: 3px solid red;
-		width: clamp(#{math.div(650px, 1920px) * 100vw}, 650px, 650px);
+		width: max(#{math.div(650px, 1920px) * 100vw});
 		height: 75vh;
 		right: 79px;
 		z-index: 0;

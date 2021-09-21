@@ -10,10 +10,32 @@
 		<div id="polygon-overlay"></div>
 		<div id="info-message">
 			<h1 id="message-title"><strong>Welcome to PRTS Analysis OS!</strong></h1>
-			<p id="version-number"><i>Version {{appVersion}}</i></p>
-			<p id="message-content">
-				://UPDATE_NOTES
-			</p>
+			<a id="app-version-number"
+				href="https://github.com/sayuriu/prts"
+				title="External: Link to this project's Git repo."
+				target="_blank"
+			>
+				<i>Version {{appVersion}} ->></i>
+			</a>
+			<div id="message-content">
+				<p id="infomation">
+					Features are not yet availabale, but stay tuned for updates!
+				</p>
+				<p id="update-logs">
+					<tag>update_logs#latest</tag>
+					<content>
+						<text>
+							://UPDATE_NOTES [maybe coming soon via git hooks]<br>
+						</text>
+					</content>
+				</p>
+			</div>
+		</div>
+		<div id="app-info">
+			<a id="app-external"
+				href="https://github.com/sayuriu"
+				title="External: Link to this project's creator page."
+			>@sayuriu -></a>
 		</div>
 	</div>
 	<ul id="menu-list">
