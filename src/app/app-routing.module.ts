@@ -4,39 +4,41 @@ import { RouterModule, Routes } from '@angular/router';
 import { NotFoundComponent } from './errors/not-found/not-found.component';
 import { BlankComponent } from './blank/blank.component';
 import { MainComponent as HomePage } from './main/main.component';
+import { OperatorsComponent } from './features/operators/operators.component';
 
 const routes: Routes = [
 	{
 		path: '',
 		component: BlankComponent,
 		data: {
-		animation: 'DefaultPage'
+			animation: 'DefaultPage'
 		}
 	},
 	{
 		path: 'main',
 		component: HomePage,
 		data: {
-		animation: 'HomePage'
+			animation: 'HomePage'
 		}
 	},
 	{ path: 'operators',
-		// component: OperatorsPage,
+		component: OperatorsComponent,
+		data: { animation: 'OperatorsPage' },
 		children: [
 			{
 				path: ':id',
-				component: BlankComponent,
-				// component: OperatorsPage,
+				component: OperatorsComponent,
+				data: { animation: 'OperatorsPage' },
 			},
 			{
 				path: ':name',
-				component: BlankComponent,
-				// component: OperatorsPage,
+				component: OperatorsComponent,
+				data: { animation: 'OperatorsPage' },
 			},
 		],
 	},
 	{ path: 'characters',
-		// component: OperatorsPage,
+		component: BlankComponent,
 		children: [
 			{
 				path: ':id',

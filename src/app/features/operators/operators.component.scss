@@ -1,0 +1,14 @@
+@use 'sass:math';
+
+.container {
+	position: absolute;
+	top: 75px;
+	left: #{math.div(430px, 1920px) * 70vw};
+	height: calc(100vh - 75px);
+	width: calc(100vw - #{math.div(420px, 1920px) * 70vw} - 26vh);
+	pointer-events: none;
+	opacity: 1;
+	background: var(--globalForeground);
+	border: 2px dashed var(--globalForegroundInverse);
+	overflow-y: auto;
+}

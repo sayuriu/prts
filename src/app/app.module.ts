@@ -8,6 +8,9 @@ import { NotFoundComponent } from './errors/not-found/not-found.component';
 import { BlankComponent } from './blank/blank.component';
 import { MainComponent } from './main/main.component';
 import { TopLevelUIComponent } from './top-level-ui/top-level-ui.component';
+import { OperatorsComponent } from './features/operators/operators.component';
+import { CombatComponent } from './features/combat/combat.component';
+import { RecruitmentComponent } from './features/recruitment/recruitment.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +18,10 @@ import { TopLevelUIComponent } from './top-level-ui/top-level-ui.component';
     NotFoundComponent,
     BlankComponent,
     MainComponent,
-    TopLevelUIComponent
+    TopLevelUIComponent,
+    OperatorsComponent,
+    CombatComponent,
+    RecruitmentComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
