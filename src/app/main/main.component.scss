@@ -61,10 +61,19 @@ $header-height: math.div(81px, 1080px) * 100vh;
 
 		#polygon-overlay,
 		#info-message,
-		#app-info {
+		#app-info,
+		#mascot {
 			position: absolute;
 		}
 
+		#mascot {
+			aspect-ratio: 623 / 813;
+			width: clamp(200px, 35% ,250px);
+			bottom: 10px;
+			right: 0;
+			filter: brightness(var(--mascotImgBrightness));
+			opacity: 0.6;
+		}
 		#polygon-overlay
 		{
 			width: 100%;

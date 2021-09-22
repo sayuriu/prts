@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { BrowserWindow } from '@utils/interfaces/common';
 
 @Component({
@@ -10,6 +10,7 @@ export class MainComponent implements OnInit {
 
 	readonly appVersion = (window as BrowserWindow).__env.AppVersion;
 	currentMenuOptions = menuOptions;
+	currentTheme = document.documentElement.getAttribute('theme');
 	constructor() {}
 
 	ngOnInit(): void {

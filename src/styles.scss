@@ -15,43 +15,4 @@ main {
 	position: relative;
 }
 
-:root,
-html[theme='light'] {
-	--globalForeground: 			hsl(0, 0%, 100%);
-	--globalForegroundInverse: 		hsl(0, 0%, 0%);
-	// logo
-	--logoHoverBrightness: 			0%;
-	--logoHoverShadowColor: 		hsla(0, 0%, 0%, 0.25);
-
-	// bottom right
-	--RITriangleColor: 				hsla(0, 0%, 75%, 0.44);
-
-		// inherit -> RIText:hover
-	--RISquareShadowHover:			hsla(0, 0%, 0%, 0.6);
-	// --RISquareBGActive:				hsl(0, 0%, 100%);
-	--RISquareShadowActive:			hsla(0, 0%, 100%, 0.6);
-
-	// left
-	--leftPolygonForeground: 		hsla(0, 0%, 94%, 0.66);
-	--leftPolygonForegroundInverse: hsl(0, 0%, 0%);
-	--leftTriangleForeground: 		hsla(0, 0%, 0%, 0.66);
-	pointer-events: all;
-}
-
-html[theme='dark'] {
-	--globalForeground: 			hsl(0, 0%, 0%);
-	--globalForegroundInverse: 		hsl(0, 0%, 100%);
-	--logoHoverBrightness: 			200%;
-	--logoHoverShadowColor: 		hsla(0, 0%, 100%, 0.25);
-	--RITriangleColor: 				hsla(0, 0%, 28%, 0.44);
-	--RISquareShadowHover:			hsla(0, 0%, 100%, 0.6);
-	--RISquareShadowActive:			hsla(0, 0%, 0%, 0.6);
-	--leftPolygonForeground:		hsla(0, 0%, 17%, 0.66);
-	--leftPolygonForegroundInverse: hsl(0, 0%, 100%);
-	--leftTriangleForeground: 		hsla(0, 0%, 100%, 0.66);
-}
-
-:root {
-	transition: 0.2s ease-in-out;
-	background: var(--globalForeground);
-}
+@import 'styles/themes/root';
