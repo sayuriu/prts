@@ -1,0 +1,201 @@
+def:prts-ui@ui-tree
+exec-direction:down
+
+tree >
+	root:
+		TopLevelUI
+		AppContainer
+		-------------------abstract ----------------
+			Container
+				OperatorInfoBox
+					:base
+					SideMenu
+						SideMenuItem
+					Scrollbox
+					Content
+						Header(#defaultState Presist, #state NonFocus)
+							:base
+							OpInfo.Name.Main
+							OpInfo.Name.Alt
+							OpInfo.ID[3 (when NonFocus: 2)]
+						Body
+							:base
+							@View
+
+				OperatorImgPreview
+					CharImgArea
+						:base
+						CharImgFrame
+							CharImg
+							OpInfo.Stats.Elite.Icon
+							OpInfo.Faction
+						SideCharImgMenu > Opt.
+
+					SpriteImgArea
+						:base
+						SpriteFrame
+							SpriteName
+							SpriteImg
+							SpriteButton:ChangePerspective
+
+						SideSpriteImgMenu > Opt.
+
+@View > @StandaloneComponent
+	MAIN_INFO extends @WithOverlay
+		BasicInfo
+			FactionIcon
+			:row
+				0 @position[RarityStar···Gender·Position]
+					RarityStar
+						Frame
+							Img
+					[@TextField Gender]
+					[@TextField Position]
+				1
+					[@TextField Role]
+				2
+					[@TextField Trait]
+
+		ClassProfession
+			:text['CLASS_PROFESSION']
+			TrustBonus (inherit @TextField)
+			ClassDisplay
+				:row
+					0 as Class.Main
+						image (inherit @Icon)
+						:text[OpInfo.Class.Main.Text]
+					1 as Class.Sub
+						image (inherit @Icon)
+						:text[OpInfo.Class.Sub.Text]
+			Potential
+				:row loop (for [@potential in @potentials, index])
+					:int [index]
+						image (inherit @Icon)[@potential.Image]
+						:text[(index in OpInfo.Potential).text]
+
+		Talents
+			:text['TALENTS']
+			Toggles
+				Elite
+					Elite_1 (inherit @ToggleButton)
+					Elite_2 (inherit @ToggleButton)
+				Potential (only visible if OpInfo.Potential has items)
+					loop (for [index in iterator])
+						Pot[index] (inherit @ToggleButton) -> (index in OpInfo.Potential)
+			@Fields
+			:row loop (for [@talent in @talents, index])
+				:int [index]
+					:base
+					:text[index]
+					Name
+						talent.Name
+						talent.Rank
+					Description
+						:text[talent.Description]
+			DetailsExpand (only visible when click)
+				:base
+				text['Details']
+				loop (for [index in iterator])
+					@Fields
+						:text[Details[index].paramName]
+						:text[Details[index].paramValue]
+
+	SKILLS extends @WithOverlay
+		:row
+			Combat
+				:base
+				InteractMenu[sizeof OpInfo.Skills.Combat]
+					@SkillDisplay (#defaultState NonFocus, #state Focus)
+
+			Infrastructure
+				Toggles
+					Elite (inherit @ToggleButton)
+				:row loop (for [@skill in OpInfo.Skills.Base])
+					Header @postition inline[Img·Name···Traits]
+						:img[skill.Img]
+						:text[skill.Name]
+						:text[skill.Traits]
+					Description
+						:text[skill.Description]
+
+	STATS extends @WithOverlay
+		:text['STATS']
+		Level
+		Characteristics
+		BottomGroup
+
+
+@ViewTemplate > SkillInfoDefault
+	:text[%'SKILL_{index}']
+	Skill.Img
+
+@ViewTemplate > SkillDisplay
+	#state:NonFocus extends @SkillInfoDefault
+	#state:Focus extends @SkillInfoDefault
+		Header
+			Skill.Img
+			@group
+				Skill.Name
+				@position inline[ChargeType·TriggerType·Duration]
+					[@TextField Skill.ChargeType]
+					[@TextField Skill.TriggerType]
+					[@TextField Skill.Duration]
+		Description
+			:base
+			:text[Skill.currentLevel]
+			Skill.Description
+		BottomGroup
+			:column
+				0 as Range
+					:text
+					[@table Skill.RangeMatrix]
+				1
+					:row
+						0 [@TextField & Slider SkillSlider]
+
+						1 @inline
+							[@TextField Skill.InitialSP]
+							[@TextField Skill.Cost]
+
+						2 [hover-expand 'Details']
+							loop (for [index in iterator])
+								@Fields
+									:text[Details[index].paramName]
+									:text[Details[index].paramValue]
+
+						3 as Requirements
+							Header @inline
+								:text['Requirements']
+								Skill.Requirements.Rank
+							Body @inline @position [Time··Mats]
+								Time (visible if Skill.Requirements.Time)
+									:img[Clock]
+									:text[Skill.Requirements.Time]
+
+								loop (for [@skillmats in Skill.Requirements.Materials])
+									:img[@matRarity skillmats.rarity]
+									:img[@matName skillmats.name]
+									:text[skillmats.amount]
+
+@ViewTemplate
+	> WithOverlay:
+		Overlays
+			@Hover
+
+	> TextField:
+		Frame
+			Label
+				:base
+				:text
+			Value
+				:base
+				:text
+
+	> Icon:
+		Frame
+			:base
+			:img
+
+	> ToggleButton: (#defaultState NonFocus, #state Focus)
+		:img
+		:text(only visible when Focus)

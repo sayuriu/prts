@@ -85,7 +85,7 @@
 					<img [ngClass]="{ 'hover-clickable': menu.available, 'hover-static': !menu.available }" id="hover-right" src="../assets/img/menu/Hover_Right.png">
 				</div>
 				<div id="text">
-					<h6 id="name">{{menu.name.toUpperCase()}}</h6>
+					<h6 id="name">{{menu.name.toUpperCase() + '&#8201;'}}</h6>
 					<p id="desc">{{menu.available ? menu.description : 'Coming soon!'}}</p>
 				</div>
 				<div id="hitbox-overlay">

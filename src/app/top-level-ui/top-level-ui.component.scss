@@ -59,7 +59,7 @@ $emblem-margin-left: math.div(79px, 1920px) * 100vw;
 
 	--header_Emblem_MarginLeft: #{math.div(19px, 1920px) * 100vw};
 	--header_Emblem_Width: 500px;
-	--header_Emblem_Foreground: var(--globalForeground);
+	--header_Emblem_Foreground: var(--emblemForeground, var(--globalForeground));
 
 	--header_Emblem_SVG_AnimDelay: 0s;
 	--header_Emblem_SVG_AnimDelay_Extra: 0.1s;
