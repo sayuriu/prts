@@ -1,6 +1,6 @@
 let i = 1,
 dur = 300,
-string_l = '>_LOADING',
+string_l = 'LOADING',
 string_d = '<!--',
 intervalFunc = function(){
 	const text = document.getElementById('LOAD_STATUS');
