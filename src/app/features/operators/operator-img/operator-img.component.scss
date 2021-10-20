@@ -1,0 +1,27 @@
+#op-img-main {
+	position: relative;
+	width: 100%;
+	height: 75%;
+	#img-option-menu {
+		position: absolute;
+		right: 100%;
+		bottom: 0;
+		width: 12.5%;
+		height: 30%;
+		background: rgb(100, 0, 0);
+	}
+}
+#op-img-sprites {
+	position: relative;
+	width: 100%;
+	height: 25%;
+
+	#sprite-option-menu {
+		position: absolute;
+		right: 100%;
+		top: 0;
+		height: 90%;
+		width: 12.5%;
+		background: white;
+	}
+}

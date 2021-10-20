@@ -15,15 +15,22 @@ export class TopLevelUIComponent implements OnInit {
 	}
 
 	currentTime = generateTimeString();
-	currentTheme = 'light';
+	ActiveClockInv!: number | null;
 	ngOnInit() {
-		this.InitClock();
+		this.StartClock();
 		this.InitTheme();
 		this.startRouteListener();
 	}
-	private InitClock() {
-		setInterval(() => this.currentTime = generateTimeString());
+	private StartClock() {
+		this.ActiveClockInv = setInterval(() => this.currentTime = generateTimeString());
 	}
+	private PauseClock()
+	{
+		clearInterval(this.ActiveClockInv as number);
+		this.ActiveClockInv = null;
+	}
+
+	currentTheme = '';
 	private InitTheme() {
 		this.currentTheme = Theme.Load();
 	}
@@ -31,6 +38,7 @@ export class TopLevelUIComponent implements OnInit {
 	{
 		this.currentTheme = Theme.Switch(this.currentTheme);
 	}
+
 	ToggleFullscreen() {
 		const root = document.documentElement;
 		(!document.fullscreenElement ?
@@ -39,7 +47,7 @@ export class TopLevelUIComponent implements OnInit {
 		)?.catch((e) => { console.log(e); alert('Failed to request fullscreen.\nCheck console for details.') });
 	}
 
-	UIAlignmentState: ControlState = 'default';
+	UIAlignmentState: UIAlignmentState = 'default';
 	currentRouteURL!: string;
 	startRouteListener()
 	{
@@ -48,20 +56,53 @@ export class TopLevelUIComponent implements OnInit {
 		this.router.events.subscribe(evt => this.handleRouteChange(false, evt));
 	}
 
+	clockAlignmentState: UIAlignmentState = 'default';
 	handleRouteChange(initOnFirst = false, routeEvent?: Event)
 	{
 		if (!initOnFirst && this.router.url === this.currentRouteURL) return;
 		this.currentRouteURL = this.router.url;
-		if (this.currentRouteURL === '/') this.UIAlignmentState = 'default';
-		else this.UIAlignmentState = 'asNavigation';
+		if (this.currentRouteURL === '/') {
+			this.UIAlignmentState = 'default';
+			this.clockAlignmentState = 'default';
+		}
+		else
+		{
+			if (this.currentRouteURL !== '/main')
+			{
+				this.clockAlignmentState = 'hidden';
+				this.PauseClock();
+			}
+			else
+			{
+				this.StartClock();
+				this.clockAlignmentState = 'default';
+			}
+			this.UIAlignmentState = 'asNavigation';
+		}
 		//TODO: if error, state is hidden
-		UpdateTopLevelUI(this.UIAlignmentState, this.eleRef.nativeElement)
+		UpdateManyElementStates([
+			{
+				ele: this.eleRef.nativeElement,
+				state: this.UIAlignmentState,
+			},
+			{
+				ele: document.getElementById('Clock') as HTMLElement,
+				state: this.clockAlignmentState,
+			}
+		])
 	}
 }
 
-type ControlState = 'default' | 'asNavigation' | 'hidden';
+type UIAlignmentState = 'default' | 'asNavigation' | 'hidden';
+type KnownAlignmentStates =  UIAlignmentState;
 
-function UpdateTopLevelUI(state: ControlState, element: HTMLElement)
+function UpdateManyElementStates(queries: {ele: HTMLElement, state: KnownAlignmentStates}[])
 {
-	element.setAttribute('state', state);
+	for (const { ele, state } of queries)
+		UpdateElementState(state, ele);
+}
+
+function UpdateElementState(state: KnownAlignmentStates, element: HTMLElement)
+{
+	element?.setAttribute('state', state);
 }

@@ -1,17 +1,9 @@
-<div class="container" style="font-family: JetBrains Mono; color:var(--globalForegroundInverse); pointer-events: all;">
-	<h1>Operator Info</h1>
-	What to include: ><br>
-	op <
-		<br>name
-		<br>class + subclass
-		<br>sex
-		<br>faction
-		<br>trait
-		<br>bio
-
-		<br>visuals -> char img, portrait(e0/1/2)
-		<br>skill
-
-	<br>link: visuals:anim_sprite <-> skill
-	<br>ooga
+<div id="container">
+	<div id="img-area">
+		<app-operator-img [opName]="lastVisitedOp"></app-operator-img>
+	</div>
+	<div id="info-area">
+		<app-operator-info-area *ngIf="lastVisitedOp" [opName]="lastVisitedOp"></app-operator-info-area>
+		<app-operator-picker-area *ngIf="!lastVisitedOp"></app-operator-picker-area>
+	</div>
 </div>

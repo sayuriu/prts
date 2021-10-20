@@ -249,9 +249,10 @@ $header-height: math.div(81px, 1080px) * 100vh;
 
 		// TODO
 		//! This line dosen't work
-		//! #app-info:hover ~ #info-message #message-content #mascot
-		#info-message #app-version-number:hover ~ #message-content #mascot,
-		#info-message #message-content #mascot:hover
+		#app-info:hover ~ #info-message #message-content #mascot,
+
+		// #info-message #message-content #mascot:hover,
+		#info-message #app-version-number:hover ~ #message-content #mascot
 		{
 			#portrait {
 				transform: rotate(0);
@@ -397,6 +398,7 @@ $header-height: math.div(81px, 1080px) * 100vh;
 						height: 96.5%;
 						width: 20%;
 						right: 0;
+						transition: transform 0.7s $forceful;
 					}
 
 					#hover-left {

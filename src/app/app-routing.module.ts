@@ -21,38 +21,13 @@ const routes: Routes = [
 			animation: 'HomePage'
 		}
 	},
-	{ path: 'operators',
+	{
+		path: 'operators',
 		component: OperatorsComponent,
 		data: { animation: 'OperatorsPage' },
-		children: [
-			{
-				path: ':id',
-				component: OperatorsComponent,
-				data: { animation: 'OperatorsPage' },
-			},
-			{
-				path: ':name',
-				component: OperatorsComponent,
-				data: { animation: 'OperatorsPage' },
-			},
-		],
 	},
-	{ path: 'characters',
-		component: BlankComponent,
-		children: [
-			{
-				path: ':id',
-				component: BlankComponent,
-				// component: OperatorsPage,
-			},
-			{
-				path: ':name',
-				component: BlankComponent,
-				// component: OperatorsPage,
-			},
-		],
-	},
-	{ path: 'recruit-sim',
+	{
+		path: 'recruit-sim',
 		// component: RecruitPage,
 		children: [
 			{
@@ -67,7 +42,8 @@ const routes: Routes = [
 			}
 		],
 	},
-	{ path: 'combat',
+	{
+		path: 'combat',
 		// component: CombatPage
 		children: [
 			{

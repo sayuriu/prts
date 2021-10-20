@@ -1,14 +1,22 @@
 @use 'sass:math';
 
-.container {
+#container {
+	$width: calc(100vw - 25vh - 250px);
 	position: absolute;
 	top: 75px;
-	left: #{math.div(430px, 1920px) * 70vw};
 	height: calc(100vh - 75px);
-	width: calc(100vw - #{math.div(420px, 1920px) * 70vw} - 26vh);
-	pointer-events: none;
-	opacity: 1;
-	background: var(--globalForeground);
-	border: 2px dashed var(--globalForegroundInverse);
-	overflow-y: auto;
+	width: #{$width};
+	left: calc(100vw - #{$width} - 25vh - 5px);
+	background: red;
+	display: flex;
+	#img-area {
+		height: 100%;
+		width: 40%;
+		background: hsla(0, 0%, 100%, 0.3)
+	}
+	#info-area {
+		height: 100%;
+		width: 60%;
+		background: hsla(0, 0%, 0%, 0.3)
+	}
 }

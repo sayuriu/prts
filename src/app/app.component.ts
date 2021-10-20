@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router, RouterOutlet } from '@angular/router';
 
-import { anims } from '@utils/anims';
+import { anims } from '@utils/Anims';
 import { version } from '@utils/version';
 import { ErrorService } from '@services/error.service';
 import type { BrowserWindow } from '@interfaces/common';

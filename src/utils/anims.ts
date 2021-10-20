@@ -15,13 +15,13 @@ const _slideUpDown = [
 		top: 0,
 		opacity: 0,
 		transform: 'translateY(5vh)',
-	})),
+	}), { optional: true }),
 	query(':leave', style({
 		position: 'absolute',
 		top: 0,
 		opacity: 1,
 		transform: 'translateY(0)',
-	})),
+	}), { optional: true }),
 
 	group([
 		query(':leave', [
@@ -56,6 +56,7 @@ function toLeftOrRight(direction: 'left' | 'right')
 		query(':enter', style({
 			position: 'absolute',
 			top: 0,
+			right: 0,
 			opacity: 0,
 			transform: `translateX(${EnterXOffset})`,
 		})),
@@ -118,7 +119,7 @@ export const anims = trigger('routeAnimations', [
 
 function defineMultipleTransitions(anim: AnimationsMetadata, transitionExprs: string[])
 {
-	let out = [];
+	const out = [];
 	for (const transitionExpr of transitionExprs)
 		out.push(transition(transitionExpr, anim));
 	return out;

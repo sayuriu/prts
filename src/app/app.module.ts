@@ -11,6 +11,9 @@ import { TopLevelUIComponent } from './top-level-ui/top-level-ui.component';
 import { OperatorsComponent } from './features/operators/operators.component';
 import { CombatComponent } from './features/combat/combat.component';
 import { RecruitmentComponent } from './features/recruitment/recruitment.component';
+import { OperatorImgComponent } from './features/operators/operator-img/operator-img.component';
+import { OperatorInfoAreaComponent } from './features/operators/operator-info-area/operator-info-area.component';
+import { OperatorPickerAreaComponent } from './features/operators/operator-picker-area/operator-picker-area.component';
 
 @NgModule({
   declarations: [
@@ -21,12 +24,15 @@ import { RecruitmentComponent } from './features/recruitment/recruitment.compone
     TopLevelUIComponent,
     OperatorsComponent,
     CombatComponent,
-    RecruitmentComponent
+    RecruitmentComponent,
+    OperatorImgComponent,
+    OperatorInfoAreaComponent,
+    OperatorPickerAreaComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
     BrowserAnimationsModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent, TopLevelUIComponent],

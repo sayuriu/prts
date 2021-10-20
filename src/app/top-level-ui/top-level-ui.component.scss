@@ -125,21 +125,35 @@ $emblem-margin-left: math.div(79px, 1920px) * 100vw;
 		z-index: 999;
 	}
 
-	p.Clock {
+	#Clock {
 		position: absolute;
 		z-index: 1;
 		opacity: 0;
 		font-weight: 300;
-		right: 3%;
+		right: var(--clockAbsRight);
 		margin-top: var(--clockMargin);
 		text-align: center;
 		font-family: JetBrains Mono;
 		font-weight: normal;
 
-		background: var(--globalForegroundInverse);
-		color: var(--globalForeground);
+		transition:
+			background 2s ease 0.5s,
+			color 2s ease 0.5s,
+			right 2s $forceful;
 
-		transition: margin 0.3s $forceful 0.1s;
+		&[state='default'] {
+			background: var(--globalForegroundInverse);
+			color: var(--globalForeground);
+			--clockAbsRight: 3%;
+		}
+		&[state='hidden'] {
+			background: transparent;
+			color: transparent;
+			--clockAbsRight: 3%;
+			pointer-events: none;
+			content: '';
+			// --clockAbsRight: 2%;
+		}
 
 		@keyframes blinker {
 			50% {
@@ -530,6 +544,7 @@ $emblem-margin-left: math.div(79px, 1920px) * 100vw;
 			pointer-events: all;
 
 			.Text {
+				font-family: Bender;
 				text-transform: uppercase;
 				letter-spacing: -0.055em;
 				font-weight: 100;
