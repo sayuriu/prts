@@ -70,6 +70,7 @@ export class TopLevelUIComponent implements OnInit {
 			if (this.currentRouteURL !== '/main')
 			{
 				this.clockAlignmentState = 'hidden';
+				this.currentTime = '';
 				this.PauseClock();
 			}
 			else
