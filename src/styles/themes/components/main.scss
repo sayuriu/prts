@@ -1,2 +1,8 @@
-html[theme="light"] { --mascotImgBrightness: 0% }
-html[theme="dark"] { --mascotImgBrightness: 100% }
+html[theme="light"] {
+	--mascotImgBrightness: 0%;
+	--authorForeground: rgb(14, 77, 102);
+}
+html[theme="dark"] {
+	--mascotImgBrightness: 100%;
+	--authorForeground: skyblue ;
+}

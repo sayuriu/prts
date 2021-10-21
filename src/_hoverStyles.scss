@@ -1,18 +1,19 @@
-@mixin hover-std($position: lower, $maxWidth: 80%) {
+@mixin hover-std($position: lower, $maxWidth: 80%, $leftMargin: 15px) {
 	$offsetYInit: calc(100% + 20px);
 	$offsetYTarget: calc(100% + 10px);
-	@debug #{attr(data-title)};
 	&[data-title]::after {
 		content: attr(data-title);
 		font-style: italic;
-		font-weight: 300;
+		font-weight: 400;
 		position: absolute;
+		width: #{$maxWidth};
 		max-width: #{$maxWidth};
 		opacity: 0;
-		border: 1px dashed var(--globalForegroundInverse);
+		border: 2px dashed var(--globalForegroundInverse);
+		filter: drop-shadow(2px, 4px, 2px, var(--globalForegroundInverse));
 		pointer-events: none;
 		z-index: 999;
-		left: 15px;
+		left: #{$leftMargin};
 		@if $position == upper {
 			bottom: #{$offsetYInit};
 		}
@@ -21,7 +22,6 @@
 		}
 
 		padding: 0.25em;
-
 		transition: all 0.3s $forceful 0.2s;
 	}
 

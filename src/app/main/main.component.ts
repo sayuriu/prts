@@ -18,7 +18,7 @@ export class MainComponent implements OnInit {
 	constructor() {}
 
 	ngOnInit(): void {
-		this.getLatestCommit(true);
+		this.getLatestCommit();
 	}
 
 	commitString!: string;
@@ -32,7 +32,7 @@ export class MainComponent implements OnInit {
 			i++;
 		}, 200);
 	}
-	async getLatestCommit(force = false)
+	async getLatestCommit(force = false, update = false)
 	{
 		const inv = this.startAwaitAnim();
 		let message = await GitUtils.loadFromCache();
@@ -44,16 +44,21 @@ export class MainComponent implements OnInit {
 			const res = await GitUtils.fetchRecentRepo();
 			if (res)
 			{
-				console.log(res);
+				const ngTag = document.getElementById('latest-commit-text')?.attributes[0].localName;
 				const { sha, author: { name, date, url: auURL, username }, url, message: cMessage } = res;
 				message = [
-					`<commit-time data-title="${new Date(date).toUTCString()}">${date}</commit-time>`,
+					`<commit-time ${ngTag} data-title="${new Date(date).toUTCString()}">${date.substr(0, 11)}<i style="filter: brightness(30%);font-weight: 200;">${date.substr(11, date.length)}</i></commit-time>`,
 					`&nbsp;`,
-					`<a href=${auURL && username ? `"${url}" data-title="External: ${username}'s Git profile." target="_blank"` : `"#"`}>${name}</a>`,
-					`&#8201;|&#8201;`,
-					`<commit-hash><a href="${url}" data-title="External: Jump to commit's page." target="_blank">${sha.substr(0, 7)}</a>&#8201;</commit-hash>`,
+					`<a ${ngTag}
+						id="commit-author"
+						href=${auURL && username ? `"${auURL}"
+						data-title="Go to ${username}'s Git profile ->"
+						target="_blank"
+					` : `"#"`}>${name}</a>`,
+					`<t style="font-weight:200">&#8201;|&#8201;</t>`,
+					`<a ${ngTag} id="commit-hash" href="${url}" data-title="Go to commit's page ->" target="_blank"><i style="filter: brightness(30%);font-weight: 200;">${sha.substr(0, 7)}</i></a>&#8201;`,
 					`&nbsp;`,
-					`<commit-message>${cMessage}</commit-message>`
+					`<commit-message ${ngTag}>${cMessage}</commit-message>`
 				].join('');
 				setTimeout(() => {
 					clearInterval(inv);

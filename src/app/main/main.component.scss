@@ -137,7 +137,7 @@ $header-height: math.div(81px, 1080px) * 100vh;
 					color: var(--globalForeground);
 					background: var(--globalForegroundInverse);
 				}
-				@include hover-std();
+				@include hover-std($position: lower, $maxWidth: 32ch);
 				i {
 					@keyframes blink-inverse {
 						10%,
@@ -150,7 +150,7 @@ $header-height: math.div(81px, 1080px) * 100vh;
 							background: var(--globalForegroundInverse);
 						}
 					}
-					animation: blink-inverse 1s $forceful 2s;
+					animation: blink-inverse 1s $forceful 1s;
 				}
 			}
 
@@ -181,7 +181,7 @@ $header-height: math.div(81px, 1080px) * 100vh;
 				}
 				#update-logs {
 					width: calc(100% + 2rem);
-					height: 3rem;
+					height: 2rem;
 					position: absolute;
 					bottom: 0%;
 					z-index: 1;
@@ -206,28 +206,43 @@ $header-height: math.div(81px, 1080px) * 100vh;
 						width: 100%;
 						height: 100%;
 						top: 1rem;
-						overflow-y: auto;
 						z-index: 1;
 
 						text {
 							margin-left: 1rem;
 							z-index: 1;
 							font-family: JetBrains Mono NL;
-
+							display: flex;
+							flex-direction: row;
+							commit-time, a { position: relative; font-family: JetBrains Mono; }
 							commit-time {
-								@include hover-std();
+								i {
+									font-weight:200;
+									filter: brightness(30%);
+								}
+								@include hover-std($position: upper, $maxWidth: 29ch, $leftMargin: -5%);
 							}
-
 							a {
+								&:any-link {
+									color: var(--globalForegroundInverse);
+								}
+								&#commit-author {
+									&:any-link {
+										color: var(--authorForeground);
+									}
+									@include hover-std($position: upper, $maxWidth: 350%, $leftMargin: -100%);
+								}
+								&#commit-hash {
+									@include hover-std($position: upper, $maxWidth: 22ch, $leftMargin: -100%);
+								}
 								text-decoration: none;
-								@include hover-std($position: upper);
 							}
 						}
 					}
 				}
 				#mascot {
 					width: clamp(200px, 35% ,250px);
-					bottom: calc(3rem);
+					bottom: calc(2rem);
 					// right: -2%;
 					right: 0%;
 					filter: brightness(var(--mascotImgBrightness));
