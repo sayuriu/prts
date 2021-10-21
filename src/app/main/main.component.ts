@@ -18,7 +18,7 @@ export class MainComponent implements OnInit {
 	constructor() {}
 
 	ngOnInit(): void {
-		this.getLatestCommit(true);
+		this.getLatestCommit();
 	}
 
 	commitString!: string;
