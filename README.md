@@ -8,4 +8,4 @@ This also serves as a study project for myself, to get better understanding abou
 
 *Current version:* `0.1.29b-102221`<br>
 You can check the live site [here.](https://prts.vercel.app)<br>
-*\*Note that it won't be displayed correctly on devices that have viewport size smaller than `1400px x 800px.`*
+*\*Note that it won't be displayed correctly on devices that have viewport size smaller than `1400px x 800px`.*

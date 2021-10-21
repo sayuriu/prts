@@ -18,7 +18,7 @@ export class MainComponent implements OnInit {
 	constructor() {}
 
 	ngOnInit(): void {
-		this.getLatestCommit();
+		this.loadCommit();
 	}
 
 	commitString!: string;
@@ -32,15 +32,15 @@ export class MainComponent implements OnInit {
 			i++;
 		}, 200);
 	}
-	async getLatestCommit(force = false)
+	async loadCommit(force = false)
 	{
-		const inv = this.startAwaitAnim();
 		const ngTag = document.getElementById('latest-commit-text')?.attributes[0].localName!;
 		const data = GitUtils.loadFromCache();
 		if (data && !force)
 			document.getElementById('latest-commit-text')!.innerHTML = (await GitUtils.generateHTML(data as Tuple7Array))(ngTag);
 		else
 		{
+			const inv = this.startAwaitAnim();
 			const res = await GitUtils.fetchRecentRepo();
 			if (res)
 			{
@@ -48,7 +48,7 @@ export class MainComponent implements OnInit {
 				setTimeout(async () => {
 					clearInterval(inv);
 					document.getElementById('latest-commit-text')!.innerHTML = (await GitUtils.generateHTML([cMessage, date, sha, url, name, username, auURL] as Tuple7Array))(ngTag) as string;
-				}, 2000);
+				}, 1500);
 				// this.commitString = message;
 				GitUtils.saveMultipleCacheStorageAttr([
 					['LastRefresh', new Date().toISOString()],
@@ -61,7 +61,8 @@ export class MainComponent implements OnInit {
 					['AuthorURL', new String(auURL).valueOf()]
 				]);
 				setTimeout(() => {
-					GitUtils.deleteCache()
+					GitUtils.deleteCache();
+					this.loadCommit();
 				}, GitUtils.CACHE_TIMEOUT_MS);
 				return;
 			}
@@ -104,7 +105,7 @@ class GitUtils {
 		const
 			cMessage = GitUtils.loadCacheStorageAttr('Message')!,
 			cDate = GitUtils.loadCacheStorageAttr('Date')!,
-			cTimestamp = GitUtils.loadCacheStorageAttr('LoadTimestamp')!,
+			cTimestamp = GitUtils.loadCacheStorageAttr('LastRefresh')!,
 			cHash = GitUtils.loadCacheStorageAttr('Hash')!,
 			cURL = GitUtils.loadCacheStorageAttr('URL')!,
 			cAuthorName = GitUtils.loadCacheStorageAttr('AuthorName')!,
