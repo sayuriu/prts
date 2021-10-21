@@ -63,7 +63,7 @@ export class MainComponent implements OnInit {
 						target="_blank"
 					><i style="filter: brightness(30%);font-weight: 200;">${sha.substr(0, 7)}</i></a>&#8201;`,
 					`&nbsp;`,
-					`<commit-message ${ngTag} data-title="${cMessage.toString()}">${cMessage.length > 44 ? cMessage.substr(0, 41) + '...' : cMessage}</commit-message>`
+					`<commit-message ${ngTag} ${cMessage.length > 44 ? `data-title="${cMessage.toString()}" .overflow` : ''}>${cMessage.length > 44 ? cMessage.substr(0, 41) + '...' : cMessage}</commit-message>`
 				].join('');
 				setTimeout(() => {
 					clearInterval(inv);

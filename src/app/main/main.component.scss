@@ -222,7 +222,7 @@ $header-height: math.div(81px, 1080px) * 100vh;
 								}
 								@include hover-std($position: upper, $maxWidth: 29ch, $leftMargin: -5%);
 							}
-							commit-message {
+							commit-message.overflow {
 								@include hover-std($position: upper, $maxWidth: 120%, $leftMargin: -8ch);
 							}
 							a {
