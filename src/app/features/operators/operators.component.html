@@ -3,6 +3,12 @@
 		<app-operator-img [opName]="lastVisitedOp"></app-operator-img>
 	</div>
 	<div id="info-area">
+		<header [ngClass]="lastVisitedOp ? 'header-full' : 'header-collapsed'">
+			<picker-title *ngIf="!lastVisitedOp">Pick an operator!</picker-title>
+			<op-info-header *ngIf="lastVisitedOp">
+
+			</op-info-header>
+		</header>
 		<app-operator-info-area *ngIf="lastVisitedOp" [opName]="lastVisitedOp"></app-operator-info-area>
 		<app-operator-picker-area *ngIf="!lastVisitedOp"></app-operator-picker-area>
 	</div>

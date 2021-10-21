@@ -1,7 +1,7 @@
 let i = 1,
 dur = 300,
 string_l = 'LOADING',
-string_d = '<!--',
+string_d = 'READY',
 intervalFunc = function(){
 	const text = document.getElementById('LOAD_STATUS');
 	const status = text.getAttribute('status');

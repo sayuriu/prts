@@ -1,0 +1,46 @@
+@mixin hover-std($position: lower, $maxWidth: 80%) {
+	$offsetYInit: calc(100% + 20px);
+	$offsetYTarget: calc(100% + 10px);
+	@debug #{attr(data-title)};
+	&[data-title]::after {
+		content: attr(data-title);
+		font-style: italic;
+		font-weight: 300;
+		position: absolute;
+		max-width: #{$maxWidth};
+		opacity: 0;
+		border: 1px dashed var(--globalForegroundInverse);
+		pointer-events: none;
+		z-index: 999;
+		left: 15px;
+		@if $position == upper {
+			bottom: #{$offsetYInit};
+		}
+		@else if $position == lower {
+			top: #{$offsetYInit};
+		}
+
+		padding: 0.25em;
+
+		transition: all 0.3s $forceful 0.2s;
+	}
+
+	&:hover {
+		color: var(--globalForeground);
+		background: var(--globalForegroundInverse);
+
+		&[data-title]::after {
+			opacity: 1;
+			@if $position == upper {
+				bottom: #{$offsetYTarget};
+			}
+			@else if $position == lower {
+				top: #{$offsetYTarget};
+			}
+
+			color: var(--globalForegroundInverse);
+			background: var(--globalForeground);
+			transition: all 0.5s $forceful 0.5s;
+		}
+	}
+}

@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { DOCUMENT } from '@angular/common';
+import { Component, ElementRef, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
@@ -8,10 +9,18 @@ import { Router } from '@angular/router';
 })
 export class OperatorsComponent implements OnInit {
 
-	constructor(private router: Router) { }
+	constructor(private router: Router, private ele: ElementRef) { }
 
+	headerString!: string;
 	ngOnInit(): void {
 		this.lastVisitedOp = this.loadOperator();
+		if (!this.lastVisitedOp)
+		{
+			document.getElementById('info-area')?.setAttribute('picked', '');
+			this.headerString = 'Choose a character!'
+		}
+		else
+			document.getElementById('info-area')?.setAttribute('picked', this.lastVisitedOp)
 	}
 
 	lastVisitedOp!: string | null;
@@ -25,5 +34,4 @@ export class OperatorsComponent implements OnInit {
 	{
 		return this.router.parseUrl(this.router.url).queryParamMap.get(param);
 	}
-
 }

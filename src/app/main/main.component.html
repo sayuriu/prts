@@ -12,8 +12,8 @@
 			<h1 id="message-title"><strong>Welcome to PRTS Analysis OS!</strong></h1>
 			<a id="app-version-number"
 				href="https://github.com/sayuriu/prts"
-				title="External: Link to this project's Git repo."
 				target="_blank"
+				data-title="Link to this project's Git repo."
 			>
 				<i>Version {{appVersion}} |></i>
 			</a>
@@ -36,8 +36,8 @@
 				<p id="update-logs">
 					<tag>update_logs#latest</tag>
 					<content>
-						<text>
-							://UPDATE_NOTES [maybe coming soon via git hooks]<br>
+						<text id="latest-commit-text">
+							{{commitString}}
 						</text>
 					</content>
 				</p>
