@@ -214,13 +214,16 @@ $header-height: math.div(81px, 1080px) * 100vh;
 							font-family: JetBrains Mono NL;
 							display: flex;
 							flex-direction: row;
-							commit-time, a { position: relative; font-family: JetBrains Mono; }
+							commit-time, commit-message, a { position: relative; font-family: JetBrains Mono; }
 							commit-time {
 								i {
 									font-weight:200;
 									filter: brightness(30%);
 								}
 								@include hover-std($position: upper, $maxWidth: 29ch, $leftMargin: -5%);
+							}
+							commit-message {
+								@include hover-std($position: upper, $maxWidth: 120%, $leftMargin: -8ch);
 							}
 							a {
 								&:any-link {

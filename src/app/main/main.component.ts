@@ -32,7 +32,7 @@ export class MainComponent implements OnInit {
 			i++;
 		}, 200);
 	}
-	async getLatestCommit(force = false, update = false)
+	async getLatestCommit(force = false)
 	{
 		const inv = this.startAwaitAnim();
 		let message = await GitUtils.loadFromCache();
@@ -51,14 +51,19 @@ export class MainComponent implements OnInit {
 					`&nbsp;`,
 					`<a ${ngTag}
 						id="commit-author"
-						href=${auURL && username ? `"${auURL}"
+						href=${auURL && username ? `"${auURL}"` : `"#"`}
 						data-title="Go to ${username}'s Git profile ->"
 						target="_blank"
-					` : `"#"`}>${name}</a>`,
+					>${name}</a>`,
 					`<t style="font-weight:200">&#8201;|&#8201;</t>`,
-					`<a ${ngTag} id="commit-hash" href="${url}" data-title="Go to commit's page ->" target="_blank"><i style="filter: brightness(30%);font-weight: 200;">${sha.substr(0, 7)}</i></a>&#8201;`,
+					`<a ${ngTag}
+						id="commit-hash"
+						href="${url}"
+						data-title="Go to commit's page ->"
+						target="_blank"
+					><i style="filter: brightness(30%);font-weight: 200;">${sha.substr(0, 7)}</i></a>&#8201;`,
 					`&nbsp;`,
-					`<commit-message ${ngTag}>${cMessage}</commit-message>`
+					`<commit-message ${ngTag} data-title="${cMessage.toString()}">${cMessage.length > 44 ? cMessage.substr(0, 41) + '...' : cMessage}</commit-message>`
 				].join('');
 				setTimeout(() => {
 					clearInterval(inv);
