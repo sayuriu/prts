@@ -1,0 +1,10 @@
+filter-menu {
+	position: relative;
+	width: 100%;
+	max-height: 100%;
+	#filter-menu-toggle {
+		position: absolute;
+		left: 100%;
+		bottom: 100%;
+	}
+}

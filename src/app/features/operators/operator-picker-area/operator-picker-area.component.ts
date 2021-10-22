@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class OperatorPickerAreaComponent implements OnInit {
 
-  constructor() { }
+	constructor() { }
 
-  ngOnInit(): void {
-  }
+	ngOnInit(): void {
 
+	}
+
+	filterVisible = true;
+	ToggleFilterMenu()
+	{
+		this.filterVisible = !this.filterVisible;
+	}
 }

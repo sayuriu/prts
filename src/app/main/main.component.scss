@@ -102,15 +102,6 @@ $header-height: math.div(81px, 1080px) * 100vh;
 			height: 100%;
 			z-index: 1;
 
-			@keyframes spawn {
-				from {
-					opacity: 0;
-				}
-				to {
-					opacity: 1;
-				}
-			}
-
 			#message-title {
 				margin-left: 2rem;
 				margin-bottom: 0;

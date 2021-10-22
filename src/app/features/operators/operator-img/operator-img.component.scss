@@ -2,22 +2,27 @@
 	position: relative;
 	width: 100%;
 	height: 75%;
+	background: hsl(0, 0%, 9%);
 	z-index: 1;
+
 	img-option-menu,
 	sprite-option-menu {
 		position: absolute;
 		right: 100%;
 		height: 30%;
 		width: 12.5%;
+		border-right: 2px solid var(--globalForegroundInverse);
 	}
 
 	img-option-menu {
 		bottom: 0;
-		background: rgb(100, 0, 0);
+		background: hsl(0, 0%, 9%);
+		border-bottom: 2px dashed var(--globalForegroundInverse);
 	}
 	sprite-option-menu {
 		top: 100%;
-		background: white;
+		background: hsl(0, 0%, 77%);
+		border-top: 2px dashed var(--globalForegroundInverse);
 	}
 	img-area {
 		height: 105%;
@@ -25,7 +30,7 @@
 		right: 0;
 		top: 0;
 		position: absolute;
-		background: rgba(145, 0, 0, 0.4);
+		background: transparent;
 	}
 }
 #op-img-sprites {
@@ -33,4 +38,11 @@
 	width: 100%;
 	height: 25%;
 	z-index: 0;
+	background: hsl(0, 0%, 77%);
+
+	sprite-area {
+		width: 100%;
+		height: 100%;
+
+	}
 }

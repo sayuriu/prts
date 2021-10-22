@@ -1,9 +1,14 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { AppearDisappear, slideRtL } from '@utils/anims';
 
 @Component({
   selector: 'app-operator-img',
   templateUrl: './operator-img.component.html',
-  styleUrls: ['./operator-img.component.scss']
+  styleUrls: ['./operator-img.component.scss'],
+  animations: [
+    // AppearDisappear,
+    slideRtL,
+  ]
 })
 export class OperatorImgComponent implements OnInit {
 
@@ -12,6 +17,7 @@ export class OperatorImgComponent implements OnInit {
   @Input() opName!: string | null
 
   ngOnInit(): void {
+
   }
 
 }

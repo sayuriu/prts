@@ -14,7 +14,7 @@ export class MainComponent implements OnInit {
 
 	readonly appVersion = (window as BrowserWindow).__env.AppVersion;
 	currentMenuOptions = menuOptions;
-	currentTheme = document.documentElement.getAttribute('theme');
+
 	constructor() {}
 
 	ngOnInit(): void {
@@ -32,11 +32,11 @@ export class MainComponent implements OnInit {
 			i++;
 		}, 200);
 	}
-	async loadCommit(force = false)
+	async loadCommit(fetchNewest = false)
 	{
 		const ngTag = document.getElementById('latest-commit-text')?.attributes[0].localName!;
 		const data = GitUtils.loadFromCache();
-		if (data && !force)
+		if (data && !fetchNewest)
 			document.getElementById('latest-commit-text')!.innerHTML = (await GitUtils.generateHTML(data as Tuple7Array))(ngTag);
 		else
 		{

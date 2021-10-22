@@ -1,8 +1,8 @@
-<div id="op-img-main" style="background: url(../../../../assets/img/diagonal.png)">
+<div id="op-img-main" [ngStyle]="opName ? null : {background: 'url(../../../../assets/img/diagonal.png)'}">
 	<img-area>
 
 	</img-area>
-	<div id="img-side-menu">
+	<div id="img-side-menu" *ngIf="opName" @slideRtL>
 		<img-option-menu>
 
 		</img-option-menu>
@@ -11,7 +11,7 @@
 		</sprite-option-menu>
 	</div>
 </div>
-<div id="op-img-sprites" style="background: url(../../../../assets/img/diagonal.png); filter: brightness(50%);">
+<div id="op-img-sprites" [ngStyle]="opName ? null : {background: 'url(../../../../assets/img/diagonal.png)', filter: 'brightness(50%)'}">
 	<sprite-area>
 
 	</sprite-area>

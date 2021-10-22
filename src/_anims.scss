@@ -3,3 +3,12 @@ $forceful-2: cubic-bezier(0.98, 0, 0, 1.01);
 $accelerate: cubic-bezier(1, 0.25, 0, 1.01);
 $sudden: (0, 1.04, 0, 1.04);
 $slide-main: 0.25s $forceful;
+
+@keyframes spawn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}

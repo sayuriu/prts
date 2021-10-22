@@ -17,7 +17,7 @@ const trust_bonuses = {
 	def: 'DEF +40',
 }
 
-const op: Operator = {
+export const op: Operator = {
 	overview: {
 		names: {
 			en: 'Saileach',

@@ -1,11 +1,15 @@
-import { DOCUMENT } from '@angular/common';
 import { Component, ElementRef, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { AppearDisappear } from '@utils/anims';
+import { op as Saileach } from './op-Saileach.mockadata';
 
 @Component({
   selector: 'app-feature-operators',
   templateUrl: './operators.component.html',
-  styleUrls: ['./operators.component.scss']
+  styleUrls: ['./operators.component.scss'],
+  animations: [
+	AppearDisappear
+  ]
 })
 export class OperatorsComponent implements OnInit {
 

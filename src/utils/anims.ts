@@ -2,12 +2,26 @@ import { animate, animateChild, trigger, group, transition, query, style, sequen
 
 type AnimationsMetadata = (AnimationStyleMetadata | AnimationQueryMetadata | AnimationGroupMetadata)[];
 
+function defineMultipleTransitions(anim: AnimationsMetadata, transitionExprs: string[])
+{
+	const out = [];
+	for (const transitionExpr of transitionExprs)
+		out.push(transition(transitionExpr, anim));
+	return out;
+}
+
 const commonContainerStyle = style({
 	position: 'absolute',
 	top: '0',
 	left: '0',
 });
 
+class AnimationFunctions
+{
+	static readonly Forceful = 'cubic-bezier(0.88,-0.07, 0.22, 1.01)';
+}
+
+// #region routeAnims
 const _slideUpDown = [
 	commonContainerStyle,
 	query(':enter', style({
@@ -26,7 +40,7 @@ const _slideUpDown = [
 	group([
 		query(':leave', [
 			animate(
-				'0.5s cubic-bezier(0.88,-0.07, 0.22, 1.01)',
+				'0.5s ' + AnimationFunctions.Forceful,
 				style({
 					opacity: 0,
 					transform: 'translateY(5vh)',
@@ -35,7 +49,7 @@ const _slideUpDown = [
 		], { optional: true }),
 		query(':enter', [
 			animate(
-				'0.5s 0.1s cubic-bezier(0.88,-0.07, 0.22, 1.01)',
+				'0.5s 0.1s ' + AnimationFunctions.Forceful,
 				style({
 					position: 'absolute',
 					opacity: 1,
@@ -46,7 +60,6 @@ const _slideUpDown = [
 		], { optional: true }),
 	]),
 ]
-
 function toLeftOrRight(direction: 'left' | 'right')
 {
 	const EnterXOffset = direction === 'left' ? '50vw' : '-50vw';
@@ -89,7 +102,7 @@ function toLeftOrRight(direction: 'left' | 'right')
 		]),
 	]
 }
-export const anims = trigger('routeAnimations', [
+export const routeAnims = trigger('routeAnimations', [
 	...defineMultipleTransitions(
 		toLeftOrRight('left'),
 		[
@@ -116,11 +129,47 @@ export const anims = trigger('routeAnimations', [
 	),
 
 ]);
+// #endregion
 
-function defineMultipleTransitions(anim: AnimationsMetadata, transitionExprs: string[])
-{
-	const out = [];
-	for (const transitionExpr of transitionExprs)
-		out.push(transition(transitionExpr, anim));
-	return out;
-}
+// #region commonAnims
+export const AppearDisappear = function(){
+	const animFunc = '250ms'
+	return trigger('AppearDisappear', [
+		transition(':enter', [
+			style({ opacity: 0 }),
+			animate(animFunc, style({ opacity: 1 })),
+		]),
+		transition(':leave', [
+			  animate(animFunc,  style({ opacity: 0 })),
+		]),
+	]);
+}()
+export const slideRtL = function(){
+	const animFunc = '250ms ' + AnimationFunctions.Forceful;
+	return trigger('slideRtL', [
+		transition(':enter', [
+			style({
+				// position: 'absolute',
+				opacity: 0,
+				right: 'calc(100% - 20px)',
+			}),
+			animate(animFunc, style({
+				opacity: 1,
+				right: '100%',
+			}))
+		]),
+		transition(':leave', [
+			style({
+				// position: 'absolute',
+				opacity: 1,
+				right: '100%',
+			}),
+			animate(animFunc, style({
+				opacity: 0,
+				right: 'calc(100% - 20px)',
+			}))
+		])
+	]);
+}()
+
+// #endregion
