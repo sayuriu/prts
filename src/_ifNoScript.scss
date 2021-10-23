@@ -21,7 +21,7 @@ noscript {
 @media only screen and (max-width: 750px) {
 	#dialog-box {
 		top: 0;
-		--dilog-height: 275px;
+		--dialog-height: 275px;
 		p {
 			margin-left: 2.5em;
 		}
@@ -30,7 +30,7 @@ noscript {
 @media only screen and (min-width: 750px) {
 	#dialog-box {
 		top: calc(50% - 100px);
-		--dilog-height: 200px;
+		--dialog-height: 200px;
 		p {
 			margin-left: 5em;
 		}
@@ -40,6 +40,7 @@ noscript {
 div#alert {
 	width: 100vw;
 	height: 100vh;
+	background: black;
 
 	#dialog-box {
 		width: 100vw;
@@ -48,23 +49,23 @@ div#alert {
 				height: 0;
 			}
 			100% {
-				height: var(--dilog-height);
+				height: var(--dialog-height);
 			}
 		}
 		animation: expands 0.5s $forceful forwards;
 		position: absolute;
 		z-index: 1;
-		background: var(--globalForeground);
+		background: hsl(210, 13%, 92%);
 		h1 {
 			h {
-				background: var(--globalForegroundInverse);
-				color: var(--globalForeground);
+				background: black;
+				color: hsl(210, 13%, 92%);
 				z-index: 1;
 			}
 			strong {
 				background: red;
 				position: relative;
-				color: var(--globalForeground);
+				color: white;
 				font-weight: 100;
 				z-index: 0;
 				opacity: 0;
@@ -80,8 +81,8 @@ div#alert {
 				text-decoration: underline;
 				@keyframes undl-highlight {
 					100%{
-						color: var(--globalForeground);
-						background: var(--globalForegroundInverse)
+						color: hsl(210, 13%, 92%);
+						background: black;
 					}
 				}
 				animation: undl-highlight 0.8s $forceful 1.2s forwards;
@@ -89,15 +90,17 @@ div#alert {
 			a {
 				@keyframes a-highlight {
 					0% {
-						background: var(--globalForegroundInverse);
+						background: hsl(210, 13%, 92%);
+						color: black;
 					}
 					100%{
 						background: hsl(214, 100%, 42%);
+						color: hsl(210, 13%, 92%);
 					}
 				}
 				animation: a-highlight 0.8s $forceful 2.5s forwards;
-				color: var(--globalForeground);
-				background: var(--globalForegroundInverse);
+				color: black;
+				background: hsl(210, 13%, 92%);
 				text-decoration: none;
 			}
 			opacity: 0;
