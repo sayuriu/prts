@@ -35,6 +35,7 @@ $alert1_Height: math.div(74px, 291px) * 100%;
 			flex-direction: column;
 			#text {
 				font-size: #{$_404textHeight};
+				font-family: Bender;
 				text-align: center;
 				color: white;
 			}

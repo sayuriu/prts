@@ -151,14 +151,14 @@ div#alert {
 			@include cross-slide(cross-p, 5%);
 			z-index: 1;
 			opacity: 0;
-			animation: cross-p 0.5s $forceful 0.1s forwards;
+			animation: cross-p 0.5s $forceful 0.3s forwards;
 		}
 		svg#cross_s {
 			bottom: 5%;
 			@include cross-slide(cross-s, 4%, 0.4);
 			z-index: 0;
 			opacity: 0;
-			animation: cross-s 0.7s $forceful 0.1s forwards;
+			animation: cross-s 0.7s $forceful 0.3s forwards;
 		}
 	}
 }
