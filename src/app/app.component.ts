@@ -26,6 +26,13 @@ export class AppComponent implements OnInit {
 	ngOnInit() {
 		AnimUtilities.removeLoadStatus();
 		(window as BrowserWindow).__env.AppVersion = version;
+
+		document.addEventListener('mousemove', (event) => {
+			if (window.location.href.includes('inspect')) {
+				console.warn('You are in development mode.\n' +
+					'Please do not open dev tools in production mode.');
+			}
+		});
 	}
 
 	prepareOutlet(outlet: RouterOutlet) {

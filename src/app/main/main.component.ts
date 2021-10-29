@@ -37,7 +37,9 @@ export class MainComponent implements OnInit {
 		const ngTag = document.getElementById('latest-commit-text')?.attributes[0].localName!;
 		const data = GitUtils.loadFromCache();
 		if (data && !fetchNewest)
+		{
 			document.getElementById('latest-commit-text')!.innerHTML = (await GitUtils.generateHTML(data as Tuple7Array))(ngTag);
+		}
 		else
 		{
 			const inv = this.startAwaitAnim();
@@ -61,8 +63,7 @@ export class MainComponent implements OnInit {
 					['AuthorURL', new String(auURL).valueOf()]
 				]);
 				setTimeout(() => {
-					GitUtils.deleteCache();
-					this.loadCommit();
+					this.loadCommit(true);
 				}, GitUtils.CACHE_TIMEOUT_MS);
 				return;
 			}
