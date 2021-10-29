@@ -1,0 +1,754 @@
+{
+    "name": "クリフハート",
+    "description": "<@ba.kw>強制移動</>スキルを所持\n遠距離マスにも配置可能",
+    "canUseGeneralPotentialItem": true,
+    "potentialItemId": "p_char_173_slchan",
+    "nationId": "kjerag",
+    "groupId": "karlan",
+    "teamId": null,
+    "displayNumber": "JC06",
+    "tokenKey": null,
+    "appellation": "Cliffheart",
+    "position": "MELEE",
+    "tagList": [
+        "強制移動",
+        "火力"
+    ],
+    "itemUsage": "ロドス特殊オペレーター・クリフハート、登山家の粘り強さと戦士の鋭さを備えている。",
+    "itemDesc": "ピッケルに当たってしまったら痛いぞ。",
+    "itemObtainApproach": "人材募集",
+    "isNotObtainable": false,
+    "isSpChar": false,
+    "maxPotentialLevel": 5,
+    "rarity": 4,
+    "profession": "SPECIAL",
+    "trait": null,
+    "phases": [
+        {
+            "characterPrefabKey": "char_173_slchan",
+            "rangeId": "2-2",
+            "maxLevel": 50,
+            "attributesKeyFrames": [
+                {
+                    "level": 1,
+                    "data": {
+                        "maxHp": 852,
+                        "atk": 329,
+                        "def": 148,
+                        "magicResistance": 0,
+                        "cost": 11,
+                        "blockCnt": 2,
+                        "moveSpeed": 1,
+                        "attackSpeed": 100,
+                        "baseAttackTime": 1.8,
+                        "respawnTime": 70,
+                        "hpRecoveryPerSec": 0,
+                        "spRecoveryPerSec": 1,
+                        "maxDeployCount": 1,
+                        "maxDeckStackCnt": 0,
+                        "tauntLevel": 0,
+                        "massLevel": 0,
+                        "baseForceLevel": 0,
+                        "stunImmune": false,
+                        "silenceImmune": false,
+                        "sleepImmune": false
+                    }
+                },
+                {
+                    "level": 50,
+                    "data": {
+                        "maxHp": 1152,
+                        "atk": 471,
+                        "def": 219,
+                        "magicResistance": 0,
+                        "cost": 11,
+                        "blockCnt": 2,
+                        "moveSpeed": 1,
+                        "attackSpeed": 100,
+                        "baseAttackTime": 1.8,
+                        "respawnTime": 70,
+                        "hpRecoveryPerSec": 0,
+                        "spRecoveryPerSec": 1,
+                        "maxDeployCount": 1,
+                        "maxDeckStackCnt": 0,
+                        "tauntLevel": 0,
+                        "massLevel": 0,
+                        "baseForceLevel": 0,
+                        "stunImmune": false,
+                        "silenceImmune": false,
+                        "sleepImmune": false
+                    }
+                }
+            ],
+            "evolveCost": null
+        },
+        {
+            "characterPrefabKey": "char_173_slchan",
+            "rangeId": "3-2",
+            "maxLevel": 70,
+            "attributesKeyFrames": [
+                {
+                    "level": 1,
+                    "data": {
+                        "maxHp": 1152,
+                        "atk": 471,
+                        "def": 219,
+                        "magicResistance": 0,
+                        "cost": 13,
+                        "blockCnt": 2,
+                        "moveSpeed": 1,
+                        "attackSpeed": 100,
+                        "baseAttackTime": 1.8,
+                        "respawnTime": 70,
+                        "hpRecoveryPerSec": 0,
+                        "spRecoveryPerSec": 1,
+                        "maxDeployCount": 1,
+                        "maxDeckStackCnt": 0,
+                        "tauntLevel": 0,
+                        "massLevel": 0,
+                        "baseForceLevel": 0,
+                        "stunImmune": false,
+                        "silenceImmune": false,
+                        "sleepImmune": false
+                    }
+                },
+                {
+                    "level": 70,
+                    "data": {
+                        "maxHp": 1497,
+                        "atk": 612,
+                        "def": 289,
+                        "magicResistance": 0,
+                        "cost": 13,
+                        "blockCnt": 2,
+                        "moveSpeed": 1,
+                        "attackSpeed": 100,
+                        "baseAttackTime": 1.8,
+                        "respawnTime": 70,
+                        "hpRecoveryPerSec": 0,
+                        "spRecoveryPerSec": 1,
+                        "maxDeployCount": 1,
+                        "maxDeckStackCnt": 0,
+                        "tauntLevel": 0,
+                        "massLevel": 0,
+                        "baseForceLevel": 0,
+                        "stunImmune": false,
+                        "silenceImmune": false,
+                        "sleepImmune": false
+                    }
+                }
+            ],
+            "evolveCost": [
+                {
+                    "id": "3281",
+                    "count": 4,
+                    "type": "MATERIAL"
+                },
+                {
+                    "id": "30012",
+                    "count": 6,
+                    "type": "MATERIAL"
+                },
+                {
+                    "id": "30032",
+                    "count": 3,
+                    "type": "MATERIAL"
+                }
+            ]
+        },
+        {
+            "characterPrefabKey": "char_173_slchan",
+            "rangeId": "3-2",
+            "maxLevel": 80,
+            "attributesKeyFrames": [
+                {
+                    "level": 1,
+                    "data": {
+                        "maxHp": 1497,
+                        "atk": 612,
+                        "def": 289,
+                        "magicResistance": 0,
+                        "cost": 13,
+                        "blockCnt": 2,
+                        "moveSpeed": 1,
+                        "attackSpeed": 100,
+                        "baseAttackTime": 1.8,
+                        "respawnTime": 70,
+                        "hpRecoveryPerSec": 0,
+                        "spRecoveryPerSec": 1,
+                        "maxDeployCount": 1,
+                        "maxDeckStackCnt": 0,
+                        "tauntLevel": 0,
+                        "massLevel": 0,
+                        "baseForceLevel": 0,
+                        "stunImmune": false,
+                        "silenceImmune": false,
+                        "sleepImmune": false
+                    }
+                },
+                {
+                    "level": 80,
+                    "data": {
+                        "maxHp": 1970,
+                        "atk": 765,
+                        "def": 340,
+                        "magicResistance": 0,
+                        "cost": 13,
+                        "blockCnt": 2,
+                        "moveSpeed": 1,
+                        "attackSpeed": 100,
+                        "baseAttackTime": 1.8,
+                        "respawnTime": 70,
+                        "hpRecoveryPerSec": 0,
+                        "spRecoveryPerSec": 1,
+                        "maxDeployCount": 1,
+                        "maxDeckStackCnt": 0,
+                        "tauntLevel": 0,
+                        "massLevel": 0,
+                        "baseForceLevel": 0,
+                        "stunImmune": false,
+                        "silenceImmune": false,
+                        "sleepImmune": false
+                    }
+                }
+            ],
+            "evolveCost": [
+                {
+                    "id": "3283",
+                    "count": 3,
+                    "type": "MATERIAL"
+                },
+                {
+                    "id": "30044",
+                    "count": 6,
+                    "type": "MATERIAL"
+                },
+                {
+                    "id": "30083",
+                    "count": 13,
+                    "type": "MATERIAL"
+                }
+            ]
+        }
+    ],
+    "skills": [
+        {
+            "skillId": "skchr_slchan_1",
+            "overridePrefabKey": null,
+            "overrideTokenKey": null,
+            "levelUpCostCond": [
+                {
+                    "unlockCond": {
+                        "phase": 2,
+                        "level": 1
+                    },
+                    "lvlUpTime": 28800,
+                    "levelUpCost": [
+                        {
+                            "id": "3303",
+                            "count": 5,
+                            "type": "MATERIAL"
+                        },
+                        {
+                            "id": "30104",
+                            "count": 3,
+                            "type": "MATERIAL"
+                        },
+                        {
+                            "id": "30083",
+                            "count": 2,
+                            "type": "MATERIAL"
+                        }
+                    ]
+                },
+                {
+                    "unlockCond": {
+                        "phase": 2,
+                        "level": 1
+                    },
+                    "lvlUpTime": 57600,
+                    "levelUpCost": [
+                        {
+                            "id": "3303",
+                            "count": 6,
+                            "type": "MATERIAL"
+                        },
+                        {
+                            "id": "30024",
+                            "count": 3,
+                            "type": "MATERIAL"
+                        },
+                        {
+                            "id": "30104",
+                            "count": 5,
+                            "type": "MATERIAL"
+                        }
+                    ]
+                },
+                {
+                    "unlockCond": {
+                        "phase": 2,
+                        "level": 1
+                    },
+                    "lvlUpTime": 86400,
+                    "levelUpCost": [
+                        {
+                            "id": "3303",
+                            "count": 10,
+                            "type": "MATERIAL"
+                        },
+                        {
+                            "id": "30135",
+                            "count": 4,
+                            "type": "MATERIAL"
+                        },
+                        {
+                            "id": "30034",
+                            "count": 4,
+                            "type": "MATERIAL"
+                        }
+                    ]
+                }
+            ],
+            "unlockCond": {
+                "phase": 0,
+                "level": 1
+            }
+        },
+        {
+            "skillId": "skchr_slchan_2",
+            "overridePrefabKey": null,
+            "overrideTokenKey": null,
+            "levelUpCostCond": [
+                {
+                    "unlockCond": {
+                        "phase": 2,
+                        "level": 1
+                    },
+                    "lvlUpTime": 28800,
+                    "levelUpCost": [
+                        {
+                            "id": "3303",
+                            "count": 5,
+                            "type": "MATERIAL"
+                        },
+                        {
+                            "id": "30014",
+                            "count": 3,
+                            "type": "MATERIAL"
+                        },
+                        {
+                            "id": "30093",
+                            "count": 4,
+                            "type": "MATERIAL"
+                        }
+                    ]
+                },
+                {
+                    "unlockCond": {
+                        "phase": 2,
+                        "level": 1
+                    },
+                    "lvlUpTime": 57600,
+                    "levelUpCost": [
+                        {
+                            "id": "3303",
+                            "count": 6,
+                            "type": "MATERIAL"
+                        },
+                        {
+                            "id": "30034",
+                            "count": 3,
+                            "type": "MATERIAL"
+                        },
+                        {
+                            "id": "30014",
+                            "count": 6,
+                            "type": "MATERIAL"
+                        }
+                    ]
+                },
+                {
+                    "unlockCond": {
+                        "phase": 2,
+                        "level": 1
+                    },
+                    "lvlUpTime": 86400,
+                    "levelUpCost": [
+                        {
+                            "id": "3303",
+                            "count": 10,
+                            "type": "MATERIAL"
+                        },
+                        {
+                            "id": "30115",
+                            "count": 4,
+                            "type": "MATERIAL"
+                        },
+                        {
+                            "id": "30064",
+                            "count": 3,
+                            "type": "MATERIAL"
+                        }
+                    ]
+                }
+            ],
+            "unlockCond": {
+                "phase": 1,
+                "level": 1
+            }
+        }
+    ],
+    "talents": [
+        {
+            "candidates": [
+                {
+                    "unlockCondition": {
+                        "phase": 1,
+                        "level": 1
+                    },
+                    "requiredPotentialRank": 0,
+                    "prefabKey": "1",
+                    "name": "雪境の狩人",
+                    "description": "敵をブロックしていない時、攻撃力、防御力+6%",
+                    "rangeId": null,
+                    "blackboard": [
+                        {
+                            "key": "atk",
+                            "value": 0.06
+                        },
+                        {
+                            "key": "def",
+                            "value": 0.06
+                        }
+                    ]
+                },
+                {
+                    "unlockCondition": {
+                        "phase": 1,
+                        "level": 1
+                    },
+                    "requiredPotentialRank": 4,
+                    "prefabKey": "1",
+                    "name": "雪境の狩人",
+                    "description": "敵をブロックしていない時、攻撃力、防御力+8%<@ba.talpu>(+2%)</>",
+                    "rangeId": null,
+                    "blackboard": [
+                        {
+                            "key": "atk",
+                            "value": 0.08
+                        },
+                        {
+                            "key": "def",
+                            "value": 0.08
+                        }
+                    ]
+                },
+                {
+                    "unlockCondition": {
+                        "phase": 2,
+                        "level": 1
+                    },
+                    "requiredPotentialRank": 0,
+                    "prefabKey": "1",
+                    "name": "雪境の狩人",
+                    "description": "敵をブロックしていない時、攻撃力、防御力+12%",
+                    "rangeId": null,
+                    "blackboard": [
+                        {
+                            "key": "atk",
+                            "value": 0.12
+                        },
+                        {
+                            "key": "def",
+                            "value": 0.12
+                        }
+                    ]
+                },
+                {
+                    "unlockCondition": {
+                        "phase": 2,
+                        "level": 1
+                    },
+                    "requiredPotentialRank": 4,
+                    "prefabKey": "1",
+                    "name": "雪境の狩人",
+                    "description": "敵をブロックしていない時、攻撃力、防御力+14%<@ba.talpu>(+2%)</>",
+                    "rangeId": null,
+                    "blackboard": [
+                        {
+                            "key": "atk",
+                            "value": 0.14
+                        },
+                        {
+                            "key": "def",
+                            "value": 0.14
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "potentialRanks": [
+        {
+            "type": 0,
+            "description": "コスト-1",
+            "buff": {
+                "attributes": {
+                    "abnormalFlags": null,
+                    "abnormalImmunes": null,
+                    "abnormalAntis": null,
+                    "abnormalCombos": null,
+                    "abnormalComboImmunes": null,
+                    "attributeModifiers": [
+                        {
+                            "attributeType": 4,
+                            "formulaItem": 0,
+                            "value": -1,
+                            "loadFromBlackboard": false,
+                            "fetchBaseValueFromSourceEntity": false
+                        }
+                    ]
+                }
+            },
+            "equivalentCost": null
+        },
+        {
+            "type": 0,
+            "description": "再配置時間-4秒",
+            "buff": {
+                "attributes": {
+                    "abnormalFlags": null,
+                    "abnormalImmunes": null,
+                    "abnormalAntis": null,
+                    "abnormalCombos": null,
+                    "abnormalComboImmunes": null,
+                    "attributeModifiers": [
+                        {
+                            "attributeType": 21,
+                            "formulaItem": 0,
+                            "value": -4,
+                            "loadFromBlackboard": false,
+                            "fetchBaseValueFromSourceEntity": false
+                        }
+                    ]
+                }
+            },
+            "equivalentCost": null
+        },
+        {
+            "type": 0,
+            "description": "攻撃速度+8",
+            "buff": {
+                "attributes": {
+                    "abnormalFlags": null,
+                    "abnormalImmunes": null,
+                    "abnormalAntis": null,
+                    "abnormalCombos": null,
+                    "abnormalComboImmunes": null,
+                    "attributeModifiers": [
+                        {
+                            "attributeType": 7,
+                            "formulaItem": 0,
+                            "value": 8,
+                            "loadFromBlackboard": false,
+                            "fetchBaseValueFromSourceEntity": false
+                        }
+                    ]
+                }
+            },
+            "equivalentCost": null
+        },
+        {
+            "type": 1,
+            "description": "素質強化",
+            "buff": null,
+            "equivalentCost": null
+        },
+        {
+            "type": 0,
+            "description": "コスト-1",
+            "buff": {
+                "attributes": {
+                    "abnormalFlags": null,
+                    "abnormalImmunes": null,
+                    "abnormalAntis": null,
+                    "abnormalCombos": null,
+                    "abnormalComboImmunes": null,
+                    "attributeModifiers": [
+                        {
+                            "attributeType": 4,
+                            "formulaItem": 0,
+                            "value": -1,
+                            "loadFromBlackboard": false,
+                            "fetchBaseValueFromSourceEntity": false
+                        }
+                    ]
+                }
+            },
+            "equivalentCost": null
+        }
+    ],
+    "favorKeyFrames": [
+        {
+            "level": 0,
+            "data": {
+                "maxHp": 0,
+                "atk": 0,
+                "def": 0,
+                "magicResistance": 0,
+                "cost": 0,
+                "blockCnt": 0,
+                "moveSpeed": 0,
+                "attackSpeed": 0,
+                "baseAttackTime": 0,
+                "respawnTime": 0,
+                "hpRecoveryPerSec": 0,
+                "spRecoveryPerSec": 0,
+                "maxDeployCount": 0,
+                "maxDeckStackCnt": 0,
+                "tauntLevel": 0,
+                "massLevel": 0,
+                "baseForceLevel": 0,
+                "stunImmune": false,
+                "silenceImmune": false,
+                "sleepImmune": false
+            }
+        },
+        {
+            "level": 50,
+            "data": {
+                "maxHp": 0,
+                "atk": 70,
+                "def": 0,
+                "magicResistance": 0,
+                "cost": 0,
+                "blockCnt": 0,
+                "moveSpeed": 0,
+                "attackSpeed": 0,
+                "baseAttackTime": 0,
+                "respawnTime": 0,
+                "hpRecoveryPerSec": 0,
+                "spRecoveryPerSec": 0,
+                "maxDeployCount": 0,
+                "maxDeckStackCnt": 0,
+                "tauntLevel": 0,
+                "massLevel": 0,
+                "baseForceLevel": 0,
+                "stunImmune": false,
+                "silenceImmune": false,
+                "sleepImmune": false
+            }
+        }
+    ],
+    "allSkillLvlup": [
+        {
+            "unlockCond": {
+                "phase": 0,
+                "level": 1
+            },
+            "lvlUpCost": [
+                {
+                    "id": "3301",
+                    "count": 4,
+                    "type": "MATERIAL"
+                }
+            ]
+        },
+        {
+            "unlockCond": {
+                "phase": 0,
+                "level": 1
+            },
+            "lvlUpCost": [
+                {
+                    "id": "3301",
+                    "count": 4,
+                    "type": "MATERIAL"
+                },
+                {
+                    "id": "30011",
+                    "count": 10,
+                    "type": "MATERIAL"
+                }
+            ]
+        },
+        {
+            "unlockCond": {
+                "phase": 0,
+                "level": 1
+            },
+            "lvlUpCost": [
+                {
+                    "id": "3302",
+                    "count": 6,
+                    "type": "MATERIAL"
+                },
+                {
+                    "id": "30022",
+                    "count": 3,
+                    "type": "MATERIAL"
+                }
+            ]
+        },
+        {
+            "unlockCond": {
+                "phase": 1,
+                "level": 1
+            },
+            "lvlUpCost": [
+                {
+                    "id": "3302",
+                    "count": 6,
+                    "type": "MATERIAL"
+                },
+                {
+                    "id": "30032",
+                    "count": 5,
+                    "type": "MATERIAL"
+                }
+            ]
+        },
+        {
+            "unlockCond": {
+                "phase": 1,
+                "level": 1
+            },
+            "lvlUpCost": [
+                {
+                    "id": "3302",
+                    "count": 6,
+                    "type": "MATERIAL"
+                },
+                {
+                    "id": "30083",
+                    "count": 4,
+                    "type": "MATERIAL"
+                }
+            ]
+        },
+        {
+            "unlockCond": {
+                "phase": 1,
+                "level": 1
+            },
+            "lvlUpCost": [
+                {
+                    "id": "3303",
+                    "count": 6,
+                    "type": "MATERIAL"
+                },
+                {
+                    "id": "30093",
+                    "count": 2,
+                    "type": "MATERIAL"
+                },
+                {
+                    "id": "30013",
+                    "count": 4,
+                    "type": "MATERIAL"
+                }
+            ]
+        }
+    ]
+}

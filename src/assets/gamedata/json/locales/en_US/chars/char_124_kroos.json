@@ -1,0 +1,502 @@
+{
+    "name": "Kroos",
+    "description": "Attacks aerial enemies first",
+    "canUseGeneralPotentialItem": true,
+    "potentialItemId": "p_char_124_kroos",
+    "nationId": "rhodes",
+    "groupId": null,
+    "teamId": "reserve1",
+    "displayNumber": "PA12",
+    "tokenKey": null,
+    "appellation": " ",
+    "position": "RANGED",
+    "tagList": [
+        "DPS"
+    ],
+    "itemUsage": "Kroos, Sniper Operator of Rhodes Island, will interrupt the enemies' attacks with her crossbow.",
+    "itemDesc": "She is always aiming at her target.",
+    "itemObtainApproach": "Recruitment & Headhunting",
+    "isNotObtainable": false,
+    "isSpChar": false,
+    "maxPotentialLevel": 5,
+    "rarity": 2,
+    "profession": "SNIPER",
+    "trait": null,
+    "phases": [
+        {
+            "characterPrefabKey": "char_124_kroos",
+            "rangeId": "3-1",
+            "maxLevel": 40,
+            "attributesKeyFrames": [
+                {
+                    "level": 1,
+                    "data": {
+                        "maxHp": 545,
+                        "atk": 154,
+                        "def": 52,
+                        "magicResistance": 0,
+                        "cost": 9,
+                        "blockCnt": 1,
+                        "moveSpeed": 1,
+                        "attackSpeed": 100,
+                        "baseAttackTime": 1,
+                        "respawnTime": 70,
+                        "hpRecoveryPerSec": 0,
+                        "spRecoveryPerSec": 1,
+                        "maxDeployCount": 1,
+                        "maxDeckStackCnt": 0,
+                        "tauntLevel": 0,
+                        "massLevel": 0,
+                        "baseForceLevel": 0,
+                        "stunImmune": false,
+                        "silenceImmune": false,
+                        "sleepImmune": false
+                    }
+                },
+                {
+                    "level": 40,
+                    "data": {
+                        "maxHp": 826,
+                        "atk": 258,
+                        "def": 88,
+                        "magicResistance": 0,
+                        "cost": 9,
+                        "blockCnt": 1,
+                        "moveSpeed": 1,
+                        "attackSpeed": 100,
+                        "baseAttackTime": 1,
+                        "respawnTime": 70,
+                        "hpRecoveryPerSec": 0,
+                        "spRecoveryPerSec": 1,
+                        "maxDeployCount": 1,
+                        "maxDeckStackCnt": 0,
+                        "tauntLevel": 0,
+                        "massLevel": 0,
+                        "baseForceLevel": 0,
+                        "stunImmune": false,
+                        "silenceImmune": false,
+                        "sleepImmune": false
+                    }
+                }
+            ],
+            "evolveCost": null
+        },
+        {
+            "characterPrefabKey": "char_124_kroos",
+            "rangeId": "3-3",
+            "maxLevel": 55,
+            "attributesKeyFrames": [
+                {
+                    "level": 1,
+                    "data": {
+                        "maxHp": 826,
+                        "atk": 258,
+                        "def": 88,
+                        "magicResistance": 0,
+                        "cost": 11,
+                        "blockCnt": 1,
+                        "moveSpeed": 1,
+                        "attackSpeed": 100,
+                        "baseAttackTime": 1,
+                        "respawnTime": 70,
+                        "hpRecoveryPerSec": 0,
+                        "spRecoveryPerSec": 1,
+                        "maxDeployCount": 1,
+                        "maxDeckStackCnt": 0,
+                        "tauntLevel": 0,
+                        "massLevel": 0,
+                        "baseForceLevel": 0,
+                        "stunImmune": false,
+                        "silenceImmune": false,
+                        "sleepImmune": false
+                    }
+                },
+                {
+                    "level": 55,
+                    "data": {
+                        "maxHp": 1060,
+                        "atk": 375,
+                        "def": 126,
+                        "magicResistance": 0,
+                        "cost": 11,
+                        "blockCnt": 1,
+                        "moveSpeed": 1,
+                        "attackSpeed": 100,
+                        "baseAttackTime": 1,
+                        "respawnTime": 70,
+                        "hpRecoveryPerSec": 0,
+                        "spRecoveryPerSec": 1,
+                        "maxDeployCount": 1,
+                        "maxDeckStackCnt": 0,
+                        "tauntLevel": 0,
+                        "massLevel": 0,
+                        "baseForceLevel": 0,
+                        "stunImmune": false,
+                        "silenceImmune": false,
+                        "sleepImmune": false
+                    }
+                }
+            ],
+            "evolveCost": []
+        }
+    ],
+    "skills": [
+        {
+            "skillId": "skchr_kroos_1",
+            "overridePrefabKey": null,
+            "overrideTokenKey": null,
+            "levelUpCostCond": [],
+            "unlockCond": {
+                "phase": 0,
+                "level": 1
+            }
+        }
+    ],
+    "talents": [
+        {
+            "candidates": [
+                {
+                    "unlockCondition": {
+                        "phase": 1,
+                        "level": 1
+                    },
+                    "requiredPotentialRank": 0,
+                    "prefabKey": "1",
+                    "name": "Targeting - Primary",
+                    "description": "When attacking, has a 10% chance to increase the current damage of that attack to 150%",
+                    "rangeId": null,
+                    "blackboard": [
+                        {
+                            "key": "prob",
+                            "value": 0.1
+                        },
+                        {
+                            "key": "atk_scale",
+                            "value": 1.5
+                        }
+                    ]
+                },
+                {
+                    "unlockCondition": {
+                        "phase": 1,
+                        "level": 1
+                    },
+                    "requiredPotentialRank": 4,
+                    "prefabKey": "1",
+                    "name": "Targeting - Primary",
+                    "description": "When attacking, has a 10% chance to increase the current damage of that attack to 160% <@ba.talpu>(+10%)</>",
+                    "rangeId": null,
+                    "blackboard": [
+                        {
+                            "key": "prob",
+                            "value": 0.1
+                        },
+                        {
+                            "key": "atk_scale",
+                            "value": 1.6
+                        }
+                    ]
+                },
+                {
+                    "unlockCondition": {
+                        "phase": 1,
+                        "level": 55
+                    },
+                    "requiredPotentialRank": 0,
+                    "prefabKey": "1",
+                    "name": "Targeting - Primary",
+                    "description": "When attacking, has a 20% chance to increase the current damage of that attack to 150%",
+                    "rangeId": null,
+                    "blackboard": [
+                        {
+                            "key": "prob",
+                            "value": 0.2
+                        },
+                        {
+                            "key": "atk_scale",
+                            "value": 1.5
+                        }
+                    ]
+                },
+                {
+                    "unlockCondition": {
+                        "phase": 1,
+                        "level": 55
+                    },
+                    "requiredPotentialRank": 4,
+                    "prefabKey": "1",
+                    "name": "Targeting - Primary",
+                    "description": "When attacking, has a 20% chance to increase the current damage of that attack to 160% <@ba.talpu>(+10%)</>",
+                    "rangeId": null,
+                    "blackboard": [
+                        {
+                            "key": "prob",
+                            "value": 0.2
+                        },
+                        {
+                            "key": "atk_scale",
+                            "value": 1.6
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "potentialRanks": [
+        {
+            "type": 0,
+            "description": "DP Cost -1",
+            "buff": {
+                "attributes": {
+                    "abnormalFlags": null,
+                    "abnormalImmunes": null,
+                    "abnormalAntis": null,
+                    "abnormalCombos": null,
+                    "abnormalComboImmunes": null,
+                    "attributeModifiers": [
+                        {
+                            "attributeType": 4,
+                            "formulaItem": 0,
+                            "value": -1,
+                            "loadFromBlackboard": false,
+                            "fetchBaseValueFromSourceEntity": false
+                        }
+                    ]
+                }
+            },
+            "equivalentCost": null
+        },
+        {
+            "type": 0,
+            "description": "Redeployment Time -4 sec",
+            "buff": {
+                "attributes": {
+                    "abnormalFlags": null,
+                    "abnormalImmunes": null,
+                    "abnormalAntis": null,
+                    "abnormalCombos": null,
+                    "abnormalComboImmunes": null,
+                    "attributeModifiers": [
+                        {
+                            "attributeType": 21,
+                            "formulaItem": 0,
+                            "value": -4,
+                            "loadFromBlackboard": false,
+                            "fetchBaseValueFromSourceEntity": false
+                        }
+                    ]
+                }
+            },
+            "equivalentCost": null
+        },
+        {
+            "type": 0,
+            "description": "ATK +21",
+            "buff": {
+                "attributes": {
+                    "abnormalFlags": null,
+                    "abnormalImmunes": null,
+                    "abnormalAntis": null,
+                    "abnormalCombos": null,
+                    "abnormalComboImmunes": null,
+                    "attributeModifiers": [
+                        {
+                            "attributeType": 1,
+                            "formulaItem": 0,
+                            "value": 21,
+                            "loadFromBlackboard": false,
+                            "fetchBaseValueFromSourceEntity": false
+                        }
+                    ]
+                }
+            },
+            "equivalentCost": null
+        },
+        {
+            "type": 1,
+            "description": "Improves Talent",
+            "buff": null,
+            "equivalentCost": null
+        },
+        {
+            "type": 0,
+            "description": "DP Cost -1",
+            "buff": {
+                "attributes": {
+                    "abnormalFlags": null,
+                    "abnormalImmunes": null,
+                    "abnormalAntis": null,
+                    "abnormalCombos": null,
+                    "abnormalComboImmunes": null,
+                    "attributeModifiers": [
+                        {
+                            "attributeType": 4,
+                            "formulaItem": 0,
+                            "value": -1,
+                            "loadFromBlackboard": false,
+                            "fetchBaseValueFromSourceEntity": false
+                        }
+                    ]
+                }
+            },
+            "equivalentCost": null
+        }
+    ],
+    "favorKeyFrames": [
+        {
+            "level": 0,
+            "data": {
+                "maxHp": 0,
+                "atk": 0,
+                "def": 0,
+                "magicResistance": 0,
+                "cost": 0,
+                "blockCnt": 0,
+                "moveSpeed": 0,
+                "attackSpeed": 0,
+                "baseAttackTime": 0,
+                "respawnTime": 0,
+                "hpRecoveryPerSec": 0,
+                "spRecoveryPerSec": 0,
+                "maxDeployCount": 0,
+                "maxDeckStackCnt": 0,
+                "tauntLevel": 0,
+                "massLevel": 0,
+                "baseForceLevel": 0,
+                "stunImmune": false,
+                "silenceImmune": false,
+                "sleepImmune": false
+            }
+        },
+        {
+            "level": 50,
+            "data": {
+                "maxHp": 0,
+                "atk": 50,
+                "def": 0,
+                "magicResistance": 0,
+                "cost": 0,
+                "blockCnt": 0,
+                "moveSpeed": 0,
+                "attackSpeed": 0,
+                "baseAttackTime": 0,
+                "respawnTime": 0,
+                "hpRecoveryPerSec": 0,
+                "spRecoveryPerSec": 0,
+                "maxDeployCount": 0,
+                "maxDeckStackCnt": 0,
+                "tauntLevel": 0,
+                "massLevel": 0,
+                "baseForceLevel": 0,
+                "stunImmune": false,
+                "silenceImmune": false,
+                "sleepImmune": false
+            }
+        }
+    ],
+    "allSkillLvlup": [
+        {
+            "unlockCond": {
+                "phase": 0,
+                "level": 1
+            },
+            "lvlUpCost": [
+                {
+                    "id": "3301",
+                    "count": 1,
+                    "type": "MATERIAL"
+                }
+            ]
+        },
+        {
+            "unlockCond": {
+                "phase": 0,
+                "level": 1
+            },
+            "lvlUpCost": [
+                {
+                    "id": "3301",
+                    "count": 2,
+                    "type": "MATERIAL"
+                },
+                {
+                    "id": "30061",
+                    "count": 1,
+                    "type": "MATERIAL"
+                }
+            ]
+        },
+        {
+            "unlockCond": {
+                "phase": 0,
+                "level": 1
+            },
+            "lvlUpCost": [
+                {
+                    "id": "3302",
+                    "count": 1,
+                    "type": "MATERIAL"
+                },
+                {
+                    "id": "30012",
+                    "count": 2,
+                    "type": "MATERIAL"
+                }
+            ]
+        },
+        {
+            "unlockCond": {
+                "phase": 1,
+                "level": 1
+            },
+            "lvlUpCost": [
+                {
+                    "id": "3302",
+                    "count": 1,
+                    "type": "MATERIAL"
+                },
+                {
+                    "id": "30022",
+                    "count": 2,
+                    "type": "MATERIAL"
+                }
+            ]
+        },
+        {
+            "unlockCond": {
+                "phase": 1,
+                "level": 1
+            },
+            "lvlUpCost": [
+                {
+                    "id": "3302",
+                    "count": 1,
+                    "type": "MATERIAL"
+                },
+                {
+                    "id": "30093",
+                    "count": 1,
+                    "type": "MATERIAL"
+                }
+            ]
+        },
+        {
+            "unlockCond": {
+                "phase": 1,
+                "level": 1
+            },
+            "lvlUpCost": [
+                {
+                    "id": "3303",
+                    "count": 2,
+                    "type": "MATERIAL"
+                },
+                {
+                    "id": "30103",
+                    "count": 1,
+                    "type": "MATERIAL"
+                }
+            ]
+        }
+    ]
+}

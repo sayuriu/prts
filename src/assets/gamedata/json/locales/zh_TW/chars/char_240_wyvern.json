@@ -1,0 +1,469 @@
+{
+    "name": "香草",
+    "description": "能夠阻擋兩個敵人",
+    "canUseGeneralPotentialItem": true,
+    "potentialItemId": "p_char_240_wyvern",
+    "nationId": "columbia",
+    "groupId": "blacksteel",
+    "teamId": null,
+    "displayNumber": "BS04",
+    "tokenKey": null,
+    "appellation": "Vanilla",
+    "position": "MELEE",
+    "tagList": [
+        "費用回復"
+    ],
+    "itemUsage": "黑鋼先鋒幹員香草，將用其專業技術為團隊打開戰場。",
+    "itemDesc": "遇見野生生物的時候請不要讓她處理。",
+    "itemObtainApproach": "招募尋訪",
+    "isNotObtainable": false,
+    "isSpChar": false,
+    "maxPotentialLevel": 5,
+    "rarity": 2,
+    "profession": "PIONEER",
+    "trait": null,
+    "phases": [
+        {
+            "characterPrefabKey": "char_240_wyvern",
+            "rangeId": "1-1",
+            "maxLevel": 40,
+            "attributesKeyFrames": [
+                {
+                    "level": 1,
+                    "data": {
+                        "maxHp": 711,
+                        "atk": 168,
+                        "def": 128,
+                        "magicResistance": 0,
+                        "cost": 9,
+                        "blockCnt": 2,
+                        "moveSpeed": 1,
+                        "attackSpeed": 100,
+                        "baseAttackTime": 1.05,
+                        "respawnTime": 70,
+                        "hpRecoveryPerSec": 0,
+                        "spRecoveryPerSec": 1,
+                        "maxDeployCount": 1,
+                        "maxDeckStackCnt": 0,
+                        "tauntLevel": 0,
+                        "massLevel": 0,
+                        "baseForceLevel": 0,
+                        "stunImmune": false,
+                        "silenceImmune": false,
+                        "sleepImmune": false
+                    }
+                },
+                {
+                    "level": 40,
+                    "data": {
+                        "maxHp": 1016,
+                        "atk": 248,
+                        "def": 184,
+                        "magicResistance": 0,
+                        "cost": 9,
+                        "blockCnt": 2,
+                        "moveSpeed": 1,
+                        "attackSpeed": 100,
+                        "baseAttackTime": 1.05,
+                        "respawnTime": 70,
+                        "hpRecoveryPerSec": 0,
+                        "spRecoveryPerSec": 1,
+                        "maxDeployCount": 1,
+                        "maxDeckStackCnt": 0,
+                        "tauntLevel": 0,
+                        "massLevel": 0,
+                        "baseForceLevel": 0,
+                        "stunImmune": false,
+                        "silenceImmune": false,
+                        "sleepImmune": false
+                    }
+                }
+            ],
+            "evolveCost": null
+        },
+        {
+            "characterPrefabKey": "char_240_wyvern",
+            "rangeId": "1-1",
+            "maxLevel": 55,
+            "attributesKeyFrames": [
+                {
+                    "level": 1,
+                    "data": {
+                        "maxHp": 1016,
+                        "atk": 248,
+                        "def": 184,
+                        "magicResistance": 0,
+                        "cost": 11,
+                        "blockCnt": 2,
+                        "moveSpeed": 1,
+                        "attackSpeed": 100,
+                        "baseAttackTime": 1.05,
+                        "respawnTime": 70,
+                        "hpRecoveryPerSec": 0,
+                        "spRecoveryPerSec": 1,
+                        "maxDeployCount": 1,
+                        "maxDeckStackCnt": 0,
+                        "tauntLevel": 0,
+                        "massLevel": 0,
+                        "baseForceLevel": 0,
+                        "stunImmune": false,
+                        "silenceImmune": false,
+                        "sleepImmune": false
+                    }
+                },
+                {
+                    "level": 55,
+                    "data": {
+                        "maxHp": 1270,
+                        "atk": 355,
+                        "def": 240,
+                        "magicResistance": 0,
+                        "cost": 11,
+                        "blockCnt": 2,
+                        "moveSpeed": 1,
+                        "attackSpeed": 100,
+                        "baseAttackTime": 1.05,
+                        "respawnTime": 70,
+                        "hpRecoveryPerSec": 0,
+                        "spRecoveryPerSec": 1,
+                        "maxDeployCount": 1,
+                        "maxDeckStackCnt": 0,
+                        "tauntLevel": 0,
+                        "massLevel": 0,
+                        "baseForceLevel": 0,
+                        "stunImmune": false,
+                        "silenceImmune": false,
+                        "sleepImmune": false
+                    }
+                }
+            ],
+            "evolveCost": []
+        }
+    ],
+    "skills": [
+        {
+            "skillId": "skchr_wyvern_1",
+            "overridePrefabKey": null,
+            "overrideTokenKey": null,
+            "levelUpCostCond": [],
+            "unlockCond": {
+                "phase": 0,
+                "level": 1
+            }
+        }
+    ],
+    "talents": [
+        {
+            "candidates": [
+                {
+                    "unlockCondition": {
+                        "phase": 1,
+                        "level": 1
+                    },
+                    "requiredPotentialRank": 0,
+                    "prefabKey": "1",
+                    "name": "攻擊提升",
+                    "description": "攻擊力+4%",
+                    "rangeId": null,
+                    "blackboard": [
+                        {
+                            "key": "atk",
+                            "value": 0.04
+                        }
+                    ]
+                },
+                {
+                    "unlockCondition": {
+                        "phase": 1,
+                        "level": 55
+                    },
+                    "requiredPotentialRank": 0,
+                    "prefabKey": "1",
+                    "name": "攻擊提升",
+                    "description": "攻擊力+8%",
+                    "rangeId": null,
+                    "blackboard": [
+                        {
+                            "key": "atk",
+                            "value": 0.08
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "potentialRanks": [
+        {
+            "type": 0,
+            "description": "部署費用-1",
+            "buff": {
+                "attributes": {
+                    "abnormalFlags": null,
+                    "abnormalImmunes": null,
+                    "abnormalAntis": null,
+                    "abnormalCombos": null,
+                    "abnormalComboImmunes": null,
+                    "attributeModifiers": [
+                        {
+                            "attributeType": 4,
+                            "formulaItem": 0,
+                            "value": -1,
+                            "loadFromBlackboard": false,
+                            "fetchBaseValueFromSourceEntity": false
+                        }
+                    ]
+                }
+            },
+            "equivalentCost": null
+        },
+        {
+            "type": 0,
+            "description": "再部署時間-4秒",
+            "buff": {
+                "attributes": {
+                    "abnormalFlags": null,
+                    "abnormalImmunes": null,
+                    "abnormalAntis": null,
+                    "abnormalCombos": null,
+                    "abnormalComboImmunes": null,
+                    "attributeModifiers": [
+                        {
+                            "attributeType": 21,
+                            "formulaItem": 0,
+                            "value": -4,
+                            "loadFromBlackboard": false,
+                            "fetchBaseValueFromSourceEntity": false
+                        }
+                    ]
+                }
+            },
+            "equivalentCost": null
+        },
+        {
+            "type": 0,
+            "description": "攻擊力+20",
+            "buff": {
+                "attributes": {
+                    "abnormalFlags": null,
+                    "abnormalImmunes": null,
+                    "abnormalAntis": null,
+                    "abnormalCombos": null,
+                    "abnormalComboImmunes": null,
+                    "attributeModifiers": [
+                        {
+                            "attributeType": 1,
+                            "formulaItem": 0,
+                            "value": 20,
+                            "loadFromBlackboard": false,
+                            "fetchBaseValueFromSourceEntity": false
+                        }
+                    ]
+                }
+            },
+            "equivalentCost": null
+        },
+        {
+            "type": 0,
+            "description": "再部署時間-6秒",
+            "buff": {
+                "attributes": {
+                    "abnormalFlags": null,
+                    "abnormalImmunes": null,
+                    "abnormalAntis": null,
+                    "abnormalCombos": null,
+                    "abnormalComboImmunes": null,
+                    "attributeModifiers": [
+                        {
+                            "attributeType": 21,
+                            "formulaItem": 0,
+                            "value": -6,
+                            "loadFromBlackboard": false,
+                            "fetchBaseValueFromSourceEntity": false
+                        }
+                    ]
+                }
+            },
+            "equivalentCost": null
+        },
+        {
+            "type": 0,
+            "description": "部署費用-1",
+            "buff": {
+                "attributes": {
+                    "abnormalFlags": null,
+                    "abnormalImmunes": null,
+                    "abnormalAntis": null,
+                    "abnormalCombos": null,
+                    "abnormalComboImmunes": null,
+                    "attributeModifiers": [
+                        {
+                            "attributeType": 4,
+                            "formulaItem": 0,
+                            "value": -1,
+                            "loadFromBlackboard": false,
+                            "fetchBaseValueFromSourceEntity": false
+                        }
+                    ]
+                }
+            },
+            "equivalentCost": null
+        }
+    ],
+    "favorKeyFrames": [
+        {
+            "level": 0,
+            "data": {
+                "maxHp": 0,
+                "atk": 0,
+                "def": 0,
+                "magicResistance": 0,
+                "cost": 0,
+                "blockCnt": 0,
+                "moveSpeed": 0,
+                "attackSpeed": 0,
+                "baseAttackTime": 0,
+                "respawnTime": 0,
+                "hpRecoveryPerSec": 0,
+                "spRecoveryPerSec": 0,
+                "maxDeployCount": 0,
+                "maxDeckStackCnt": 0,
+                "tauntLevel": 0,
+                "massLevel": 0,
+                "baseForceLevel": 0,
+                "stunImmune": false,
+                "silenceImmune": false,
+                "sleepImmune": false
+            }
+        },
+        {
+            "level": 50,
+            "data": {
+                "maxHp": 0,
+                "atk": 50,
+                "def": 0,
+                "magicResistance": 0,
+                "cost": 0,
+                "blockCnt": 0,
+                "moveSpeed": 0,
+                "attackSpeed": 0,
+                "baseAttackTime": 0,
+                "respawnTime": 0,
+                "hpRecoveryPerSec": 0,
+                "spRecoveryPerSec": 0,
+                "maxDeployCount": 0,
+                "maxDeckStackCnt": 0,
+                "tauntLevel": 0,
+                "massLevel": 0,
+                "baseForceLevel": 0,
+                "stunImmune": false,
+                "silenceImmune": false,
+                "sleepImmune": false
+            }
+        }
+    ],
+    "allSkillLvlup": [
+        {
+            "unlockCond": {
+                "phase": 0,
+                "level": 1
+            },
+            "lvlUpCost": [
+                {
+                    "id": "3301",
+                    "count": 1,
+                    "type": "MATERIAL"
+                }
+            ]
+        },
+        {
+            "unlockCond": {
+                "phase": 0,
+                "level": 1
+            },
+            "lvlUpCost": [
+                {
+                    "id": "3301",
+                    "count": 2,
+                    "type": "MATERIAL"
+                },
+                {
+                    "id": "30021",
+                    "count": 1,
+                    "type": "MATERIAL"
+                }
+            ]
+        },
+        {
+            "unlockCond": {
+                "phase": 0,
+                "level": 1
+            },
+            "lvlUpCost": [
+                {
+                    "id": "3302",
+                    "count": 1,
+                    "type": "MATERIAL"
+                },
+                {
+                    "id": "30032",
+                    "count": 1,
+                    "type": "MATERIAL"
+                }
+            ]
+        },
+        {
+            "unlockCond": {
+                "phase": 1,
+                "level": 1
+            },
+            "lvlUpCost": [
+                {
+                    "id": "3302",
+                    "count": 1,
+                    "type": "MATERIAL"
+                },
+                {
+                    "id": "30042",
+                    "count": 2,
+                    "type": "MATERIAL"
+                }
+            ]
+        },
+        {
+            "unlockCond": {
+                "phase": 1,
+                "level": 1
+            },
+            "lvlUpCost": [
+                {
+                    "id": "3302",
+                    "count": 1,
+                    "type": "MATERIAL"
+                },
+                {
+                    "id": "30053",
+                    "count": 1,
+                    "type": "MATERIAL"
+                }
+            ]
+        },
+        {
+            "unlockCond": {
+                "phase": 1,
+                "level": 1
+            },
+            "lvlUpCost": [
+                {
+                    "id": "3303",
+                    "count": 2,
+                    "type": "MATERIAL"
+                },
+                {
+                    "id": "30063",
+                    "count": 1,
+                    "type": "MATERIAL"
+                }
+            ]
+        }
+    ]
+}

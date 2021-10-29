@@ -1,0 +1,508 @@
+{
+    "name": "스카디의 시본",
+    "description": "공격 범위를 스카디 더 커럽팅 하트 공격 범위의 연장선으로 간주한다.",
+    "canUseGeneralPotentialItem": true,
+    "potentialItemId": "",
+    "nationId": null,
+    "groupId": null,
+    "teamId": null,
+    "displayNumber": null,
+    "tokenKey": null,
+    "appellation": "Skadi's seaborn",
+    "position": "ALL",
+    "tagList": null,
+    "itemUsage": null,
+    "itemDesc": null,
+    "itemObtainApproach": null,
+    "isNotObtainable": false,
+    "isSpChar": false,
+    "maxPotentialLevel": 0,
+    "rarity": 5,
+    "profession": "TOKEN",
+    "trait": {
+        "candidates": [
+            {
+                "unlockCondition": {
+                    "phase": 0,
+                    "level": 1
+                },
+                "requiredPotentialRank": 0,
+                "blackboard": [
+                    {
+                        "key": "attack@atk_to_hp_recovery_ratio",
+                        "value": 0.1
+                    }
+                ],
+                "overrideDescripton": "공격 범위를 스카디 더 커럽팅 하트 공격 범위의 연장선으로 간주한다.",
+                "prefabKey": "-1",
+                "rangeId": null
+            }
+        ]
+    },
+    "phases": [
+        {
+            "characterPrefabKey": "token_10017_skadi2_dedant",
+            "rangeId": "x-4",
+            "maxLevel": 50,
+            "attributesKeyFrames": [
+                {
+                    "level": 1,
+                    "data": {
+                        "maxHp": 100,
+                        "atk": 100,
+                        "def": 0,
+                        "magicResistance": 0,
+                        "cost": 5,
+                        "blockCnt": 0,
+                        "moveSpeed": 1,
+                        "attackSpeed": 100,
+                        "baseAttackTime": 1,
+                        "respawnTime": 30,
+                        "hpRecoveryPerSec": 0,
+                        "spRecoveryPerSec": 1,
+                        "maxDeployCount": 1,
+                        "maxDeckStackCnt": 0,
+                        "tauntLevel": 0,
+                        "massLevel": 0,
+                        "baseForceLevel": 0,
+                        "stunImmune": false,
+                        "silenceImmune": false,
+                        "sleepImmune": false
+                    }
+                },
+                {
+                    "level": 50,
+                    "data": {
+                        "maxHp": 100,
+                        "atk": 100,
+                        "def": 0,
+                        "magicResistance": 0,
+                        "cost": 5,
+                        "blockCnt": 0,
+                        "moveSpeed": 1,
+                        "attackSpeed": 100,
+                        "baseAttackTime": 1,
+                        "respawnTime": 30,
+                        "hpRecoveryPerSec": 0,
+                        "spRecoveryPerSec": 1,
+                        "maxDeployCount": 1,
+                        "maxDeckStackCnt": 0,
+                        "tauntLevel": 0,
+                        "massLevel": 0,
+                        "baseForceLevel": 0,
+                        "stunImmune": false,
+                        "silenceImmune": false,
+                        "sleepImmune": false
+                    }
+                }
+            ],
+            "evolveCost": null
+        },
+        {
+            "characterPrefabKey": "token_10017_skadi2_dedant",
+            "rangeId": "x-4",
+            "maxLevel": 80,
+            "attributesKeyFrames": [
+                {
+                    "level": 1,
+                    "data": {
+                        "maxHp": 100,
+                        "atk": 100,
+                        "def": 0,
+                        "magicResistance": 0,
+                        "cost": 5,
+                        "blockCnt": 0,
+                        "moveSpeed": 1,
+                        "attackSpeed": 100,
+                        "baseAttackTime": 1,
+                        "respawnTime": 30,
+                        "hpRecoveryPerSec": 0,
+                        "spRecoveryPerSec": 1,
+                        "maxDeployCount": 1,
+                        "maxDeckStackCnt": 0,
+                        "tauntLevel": 0,
+                        "massLevel": 0,
+                        "baseForceLevel": 0,
+                        "stunImmune": false,
+                        "silenceImmune": false,
+                        "sleepImmune": false
+                    }
+                },
+                {
+                    "level": 80,
+                    "data": {
+                        "maxHp": 100,
+                        "atk": 100,
+                        "def": 0,
+                        "magicResistance": 0,
+                        "cost": 5,
+                        "blockCnt": 0,
+                        "moveSpeed": 1,
+                        "attackSpeed": 100,
+                        "baseAttackTime": 1,
+                        "respawnTime": 30,
+                        "hpRecoveryPerSec": 0,
+                        "spRecoveryPerSec": 1,
+                        "maxDeployCount": 1,
+                        "maxDeckStackCnt": 0,
+                        "tauntLevel": 0,
+                        "massLevel": 0,
+                        "baseForceLevel": 0,
+                        "stunImmune": false,
+                        "silenceImmune": false,
+                        "sleepImmune": false
+                    }
+                }
+            ],
+            "evolveCost": null
+        },
+        {
+            "characterPrefabKey": "token_10017_skadi2_dedant",
+            "rangeId": "x-4",
+            "maxLevel": 90,
+            "attributesKeyFrames": [
+                {
+                    "level": 1,
+                    "data": {
+                        "maxHp": 100,
+                        "atk": 100,
+                        "def": 0,
+                        "magicResistance": 0,
+                        "cost": 5,
+                        "blockCnt": 0,
+                        "moveSpeed": 1,
+                        "attackSpeed": 100,
+                        "baseAttackTime": 1,
+                        "respawnTime": 30,
+                        "hpRecoveryPerSec": 0,
+                        "spRecoveryPerSec": 1,
+                        "maxDeployCount": 1,
+                        "maxDeckStackCnt": 0,
+                        "tauntLevel": 0,
+                        "massLevel": 0,
+                        "baseForceLevel": 0,
+                        "stunImmune": false,
+                        "silenceImmune": false,
+                        "sleepImmune": false
+                    }
+                },
+                {
+                    "level": 90,
+                    "data": {
+                        "maxHp": 100,
+                        "atk": 100,
+                        "def": 0,
+                        "magicResistance": 0,
+                        "cost": 5,
+                        "blockCnt": 0,
+                        "moveSpeed": 1,
+                        "attackSpeed": 100,
+                        "baseAttackTime": 1,
+                        "respawnTime": 30,
+                        "hpRecoveryPerSec": 0,
+                        "spRecoveryPerSec": 1,
+                        "maxDeployCount": 1,
+                        "maxDeckStackCnt": 0,
+                        "tauntLevel": 0,
+                        "massLevel": 0,
+                        "baseForceLevel": 0,
+                        "stunImmune": false,
+                        "silenceImmune": false,
+                        "sleepImmune": false
+                    }
+                }
+            ],
+            "evolveCost": null
+        }
+    ],
+    "skills": [
+        {
+            "skillId": "sktok_skadi2_1",
+            "overridePrefabKey": null,
+            "overrideTokenKey": null,
+            "levelUpCostCond": [
+                {
+                    "unlockCond": {
+                        "phase": 2,
+                        "level": 1
+                    },
+                    "lvlUpTime": 0,
+                    "levelUpCost": null
+                },
+                {
+                    "unlockCond": {
+                        "phase": 2,
+                        "level": 1
+                    },
+                    "lvlUpTime": 0,
+                    "levelUpCost": null
+                },
+                {
+                    "unlockCond": {
+                        "phase": 2,
+                        "level": 1
+                    },
+                    "lvlUpTime": 0,
+                    "levelUpCost": null
+                }
+            ],
+            "unlockCond": {
+                "phase": 0,
+                "level": 1
+            }
+        },
+        {
+            "skillId": "sktok_skadi2_2",
+            "overridePrefabKey": null,
+            "overrideTokenKey": null,
+            "levelUpCostCond": [
+                {
+                    "unlockCond": {
+                        "phase": 2,
+                        "level": 1
+                    },
+                    "lvlUpTime": 0,
+                    "levelUpCost": null
+                },
+                {
+                    "unlockCond": {
+                        "phase": 2,
+                        "level": 1
+                    },
+                    "lvlUpTime": 0,
+                    "levelUpCost": null
+                },
+                {
+                    "unlockCond": {
+                        "phase": 2,
+                        "level": 1
+                    },
+                    "lvlUpTime": 0,
+                    "levelUpCost": null
+                }
+            ],
+            "unlockCond": {
+                "phase": 1,
+                "level": 1
+            }
+        },
+        {
+            "skillId": "sktok_skadi2_3",
+            "overridePrefabKey": null,
+            "overrideTokenKey": null,
+            "levelUpCostCond": [
+                {
+                    "unlockCond": {
+                        "phase": 2,
+                        "level": 1
+                    },
+                    "lvlUpTime": 0,
+                    "levelUpCost": null
+                },
+                {
+                    "unlockCond": {
+                        "phase": 2,
+                        "level": 1
+                    },
+                    "lvlUpTime": 0,
+                    "levelUpCost": null
+                },
+                {
+                    "unlockCond": {
+                        "phase": 2,
+                        "level": 1
+                    },
+                    "lvlUpTime": 0,
+                    "levelUpCost": null
+                }
+            ],
+            "unlockCond": {
+                "phase": 2,
+                "level": 1
+            }
+        }
+    ],
+    "talents": [
+        {
+            "candidates": [
+                {
+                    "unlockCondition": {
+                        "phase": 1,
+                        "level": 1
+                    },
+                    "requiredPotentialRank": 0,
+                    "prefabKey": "1",
+                    "name": null,
+                    "description": "-",
+                    "rangeId": "x-4",
+                    "blackboard": [
+                        {
+                            "key": "duration",
+                            "value": 15
+                        }
+                    ]
+                },
+                {
+                    "unlockCondition": {
+                        "phase": 2,
+                        "level": 1
+                    },
+                    "requiredPotentialRank": 0,
+                    "prefabKey": "1",
+                    "name": null,
+                    "description": "-",
+                    "rangeId": "x-4",
+                    "blackboard": [
+                        {
+                            "key": "duration",
+                            "value": 25
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "candidates": [
+                {
+                    "unlockCondition": {
+                        "phase": 2,
+                        "level": 1
+                    },
+                    "requiredPotentialRank": 0,
+                    "prefabKey": "2",
+                    "name": null,
+                    "description": "-",
+                    "rangeId": "x-4",
+                    "blackboard": [
+                        {
+                            "key": "skadi2_t_2[atk][1].atk",
+                            "value": 0.06
+                        },
+                        {
+                            "key": "skadi2_t_2[atk][2].atk",
+                            "value": 0.15
+                        }
+                    ]
+                },
+                {
+                    "unlockCondition": {
+                        "phase": 2,
+                        "level": 1
+                    },
+                    "requiredPotentialRank": 4,
+                    "prefabKey": "2",
+                    "name": null,
+                    "description": "-",
+                    "rangeId": "x-4",
+                    "blackboard": [
+                        {
+                            "key": "skadi2_t_2[atk][1].atk",
+                            "value": 0.09
+                        },
+                        {
+                            "key": "skadi2_t_2[atk][2].atk",
+                            "value": 0.18
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "potentialRanks": [],
+    "favorKeyFrames": [
+        {
+            "level": 0,
+            "data": {
+                "maxHp": 0,
+                "atk": 0,
+                "def": 0,
+                "magicResistance": 0,
+                "cost": 0,
+                "blockCnt": 0,
+                "moveSpeed": 0,
+                "attackSpeed": 0,
+                "baseAttackTime": 0,
+                "respawnTime": 0,
+                "hpRecoveryPerSec": 0,
+                "spRecoveryPerSec": 0,
+                "maxDeployCount": 0,
+                "maxDeckStackCnt": 0,
+                "tauntLevel": 0,
+                "massLevel": 0,
+                "baseForceLevel": 0,
+                "stunImmune": false,
+                "silenceImmune": false,
+                "sleepImmune": false
+            }
+        },
+        {
+            "level": 50,
+            "data": {
+                "maxHp": 0,
+                "atk": 0,
+                "def": 0,
+                "magicResistance": 0,
+                "cost": 0,
+                "blockCnt": 0,
+                "moveSpeed": 0,
+                "attackSpeed": 0,
+                "baseAttackTime": 0,
+                "respawnTime": 0,
+                "hpRecoveryPerSec": 0,
+                "spRecoveryPerSec": 0,
+                "maxDeployCount": 0,
+                "maxDeckStackCnt": 0,
+                "tauntLevel": 0,
+                "massLevel": 0,
+                "baseForceLevel": 0,
+                "stunImmune": false,
+                "silenceImmune": false,
+                "sleepImmune": false
+            }
+        }
+    ],
+    "allSkillLvlup": [
+        {
+            "unlockCond": {
+                "phase": 0,
+                "level": 1
+            },
+            "lvlUpCost": null
+        },
+        {
+            "unlockCond": {
+                "phase": 0,
+                "level": 1
+            },
+            "lvlUpCost": null
+        },
+        {
+            "unlockCond": {
+                "phase": 0,
+                "level": 1
+            },
+            "lvlUpCost": null
+        },
+        {
+            "unlockCond": {
+                "phase": 1,
+                "level": 1
+            },
+            "lvlUpCost": null
+        },
+        {
+            "unlockCond": {
+                "phase": 1,
+                "level": 1
+            },
+            "lvlUpCost": null
+        },
+        {
+            "unlockCond": {
+                "phase": 1,
+                "level": 1
+            },
+            "lvlUpCost": null
+        }
+    ]
+}

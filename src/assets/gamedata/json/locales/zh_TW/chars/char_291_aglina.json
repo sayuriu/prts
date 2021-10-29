@@ -1,0 +1,872 @@
+{
+    "name": "安潔莉娜",
+    "description": "攻擊造成<@ba.kw>法術傷害</>，並對敵人造成短暫的<@ba.kw>停頓</>",
+    "canUseGeneralPotentialItem": true,
+    "potentialItemId": "p_char_291_aglina",
+    "nationId": "siracusa",
+    "groupId": null,
+    "teamId": null,
+    "displayNumber": "SR02",
+    "tokenKey": null,
+    "appellation": "Angelina",
+    "position": "RANGED",
+    "tagList": [
+        "減速",
+        "輸出",
+        "支援"
+    ],
+    "itemUsage": "羅德島輔助幹員、信使安潔莉娜，很想用自己奇妙的源石技藝為你提供協助。",
+    "itemDesc": "資歷尚淺，潛力無限。",
+    "itemObtainApproach": "招募尋訪",
+    "isNotObtainable": false,
+    "isSpChar": false,
+    "maxPotentialLevel": 5,
+    "rarity": 5,
+    "profession": "SUPPORT",
+    "trait": {
+        "candidates": [
+            {
+                "unlockCondition": {
+                    "phase": 0,
+                    "level": 1
+                },
+                "requiredPotentialRank": 0,
+                "blackboard": [
+                    {
+                        "key": "sluggish",
+                        "value": 0.8
+                    }
+                ],
+                "overrideDescripton": null,
+                "prefabKey": null,
+                "rangeId": null
+            }
+        ]
+    },
+    "phases": [
+        {
+            "characterPrefabKey": "char_291_aglina",
+            "rangeId": "y-2",
+            "maxLevel": 50,
+            "attributesKeyFrames": [
+                {
+                    "level": 1,
+                    "data": {
+                        "maxHp": 629,
+                        "atk": 228,
+                        "def": 53,
+                        "magicResistance": 15,
+                        "cost": 14,
+                        "blockCnt": 1,
+                        "moveSpeed": 1,
+                        "attackSpeed": 100,
+                        "baseAttackTime": 1.9,
+                        "respawnTime": 70,
+                        "hpRecoveryPerSec": 0,
+                        "spRecoveryPerSec": 1,
+                        "maxDeployCount": 1,
+                        "maxDeckStackCnt": 0,
+                        "tauntLevel": 0,
+                        "massLevel": 0,
+                        "baseForceLevel": 0,
+                        "stunImmune": false,
+                        "silenceImmune": false,
+                        "sleepImmune": false
+                    }
+                },
+                {
+                    "level": 50,
+                    "data": {
+                        "maxHp": 863,
+                        "atk": 336,
+                        "def": 77,
+                        "magicResistance": 15,
+                        "cost": 14,
+                        "blockCnt": 1,
+                        "moveSpeed": 1,
+                        "attackSpeed": 100,
+                        "baseAttackTime": 1.9,
+                        "respawnTime": 70,
+                        "hpRecoveryPerSec": 0,
+                        "spRecoveryPerSec": 1,
+                        "maxDeployCount": 1,
+                        "maxDeckStackCnt": 0,
+                        "tauntLevel": 0,
+                        "massLevel": 0,
+                        "baseForceLevel": 0,
+                        "stunImmune": false,
+                        "silenceImmune": false,
+                        "sleepImmune": false
+                    }
+                }
+            ],
+            "evolveCost": null
+        },
+        {
+            "characterPrefabKey": "char_291_aglina",
+            "rangeId": "y-2",
+            "maxLevel": 80,
+            "attributesKeyFrames": [
+                {
+                    "level": 1,
+                    "data": {
+                        "maxHp": 863,
+                        "atk": 336,
+                        "def": 77,
+                        "magicResistance": 20,
+                        "cost": 16,
+                        "blockCnt": 1,
+                        "moveSpeed": 1,
+                        "attackSpeed": 100,
+                        "baseAttackTime": 1.9,
+                        "respawnTime": 70,
+                        "hpRecoveryPerSec": 0,
+                        "spRecoveryPerSec": 1,
+                        "maxDeployCount": 1,
+                        "maxDeckStackCnt": 0,
+                        "tauntLevel": 0,
+                        "massLevel": 0,
+                        "baseForceLevel": 0,
+                        "stunImmune": false,
+                        "silenceImmune": false,
+                        "sleepImmune": false
+                    }
+                },
+                {
+                    "level": 80,
+                    "data": {
+                        "maxHp": 1108,
+                        "atk": 449,
+                        "def": 100,
+                        "magicResistance": 20,
+                        "cost": 16,
+                        "blockCnt": 1,
+                        "moveSpeed": 1,
+                        "attackSpeed": 100,
+                        "baseAttackTime": 1.9,
+                        "respawnTime": 70,
+                        "hpRecoveryPerSec": 0,
+                        "spRecoveryPerSec": 1,
+                        "maxDeployCount": 1,
+                        "maxDeckStackCnt": 0,
+                        "tauntLevel": 0,
+                        "massLevel": 0,
+                        "baseForceLevel": 0,
+                        "stunImmune": false,
+                        "silenceImmune": false,
+                        "sleepImmune": false
+                    }
+                }
+            ],
+            "evolveCost": [
+                {
+                    "id": "3271",
+                    "count": 5,
+                    "type": "MATERIAL"
+                },
+                {
+                    "id": "30052",
+                    "count": 7,
+                    "type": "MATERIAL"
+                },
+                {
+                    "id": "30022",
+                    "count": 4,
+                    "type": "MATERIAL"
+                }
+            ]
+        },
+        {
+            "characterPrefabKey": "char_291_aglina",
+            "rangeId": "y-2",
+            "maxLevel": 90,
+            "attributesKeyFrames": [
+                {
+                    "level": 1,
+                    "data": {
+                        "maxHp": 1108,
+                        "atk": 449,
+                        "def": 100,
+                        "magicResistance": 25,
+                        "cost": 16,
+                        "blockCnt": 1,
+                        "moveSpeed": 1,
+                        "attackSpeed": 100,
+                        "baseAttackTime": 1.9,
+                        "respawnTime": 70,
+                        "hpRecoveryPerSec": 0,
+                        "spRecoveryPerSec": 1,
+                        "maxDeployCount": 1,
+                        "maxDeckStackCnt": 0,
+                        "tauntLevel": 0,
+                        "massLevel": 0,
+                        "baseForceLevel": 0,
+                        "stunImmune": false,
+                        "silenceImmune": false,
+                        "sleepImmune": false
+                    }
+                },
+                {
+                    "level": 90,
+                    "data": {
+                        "maxHp": 1385,
+                        "atk": 542,
+                        "def": 120,
+                        "magicResistance": 25,
+                        "cost": 16,
+                        "blockCnt": 1,
+                        "moveSpeed": 1,
+                        "attackSpeed": 100,
+                        "baseAttackTime": 1.9,
+                        "respawnTime": 70,
+                        "hpRecoveryPerSec": 0,
+                        "spRecoveryPerSec": 1,
+                        "maxDeployCount": 1,
+                        "maxDeckStackCnt": 0,
+                        "tauntLevel": 0,
+                        "massLevel": 0,
+                        "baseForceLevel": 0,
+                        "stunImmune": false,
+                        "silenceImmune": false,
+                        "sleepImmune": false
+                    }
+                }
+            ],
+            "evolveCost": [
+                {
+                    "id": "3273",
+                    "count": 4,
+                    "type": "MATERIAL"
+                },
+                {
+                    "id": "30125",
+                    "count": 4,
+                    "type": "MATERIAL"
+                },
+                {
+                    "id": "30024",
+                    "count": 5,
+                    "type": "MATERIAL"
+                }
+            ]
+        }
+    ],
+    "skills": [
+        {
+            "skillId": "skchr_aglina_1",
+            "overridePrefabKey": null,
+            "overrideTokenKey": null,
+            "levelUpCostCond": [
+                {
+                    "unlockCond": {
+                        "phase": 2,
+                        "level": 1
+                    },
+                    "lvlUpTime": 28800,
+                    "levelUpCost": [
+                        {
+                            "id": "3303",
+                            "count": 6,
+                            "type": "MATERIAL"
+                        },
+                        {
+                            "id": "30064",
+                            "count": 3,
+                            "type": "MATERIAL"
+                        },
+                        {
+                            "id": "30043",
+                            "count": 4,
+                            "type": "MATERIAL"
+                        }
+                    ]
+                },
+                {
+                    "unlockCond": {
+                        "phase": 2,
+                        "level": 1
+                    },
+                    "lvlUpTime": 57600,
+                    "levelUpCost": [
+                        {
+                            "id": "3303",
+                            "count": 12,
+                            "type": "MATERIAL"
+                        },
+                        {
+                            "id": "30094",
+                            "count": 4,
+                            "type": "MATERIAL"
+                        },
+                        {
+                            "id": "30074",
+                            "count": 9,
+                            "type": "MATERIAL"
+                        }
+                    ]
+                },
+                {
+                    "unlockCond": {
+                        "phase": 2,
+                        "level": 1
+                    },
+                    "lvlUpTime": 86400,
+                    "levelUpCost": [
+                        {
+                            "id": "3303",
+                            "count": 15,
+                            "type": "MATERIAL"
+                        },
+                        {
+                            "id": "30125",
+                            "count": 6,
+                            "type": "MATERIAL"
+                        },
+                        {
+                            "id": "30024",
+                            "count": 5,
+                            "type": "MATERIAL"
+                        }
+                    ]
+                }
+            ],
+            "unlockCond": {
+                "phase": 0,
+                "level": 1
+            }
+        },
+        {
+            "skillId": "skchr_aglina_2",
+            "overridePrefabKey": null,
+            "overrideTokenKey": null,
+            "levelUpCostCond": [
+                {
+                    "unlockCond": {
+                        "phase": 2,
+                        "level": 1
+                    },
+                    "lvlUpTime": 28800,
+                    "levelUpCost": [
+                        {
+                            "id": "3303",
+                            "count": 6,
+                            "type": "MATERIAL"
+                        },
+                        {
+                            "id": "30074",
+                            "count": 4,
+                            "type": "MATERIAL"
+                        },
+                        {
+                            "id": "30053",
+                            "count": 8,
+                            "type": "MATERIAL"
+                        }
+                    ]
+                },
+                {
+                    "unlockCond": {
+                        "phase": 2,
+                        "level": 1
+                    },
+                    "lvlUpTime": 57600,
+                    "levelUpCost": [
+                        {
+                            "id": "3303",
+                            "count": 12,
+                            "type": "MATERIAL"
+                        },
+                        {
+                            "id": "30104",
+                            "count": 4,
+                            "type": "MATERIAL"
+                        },
+                        {
+                            "id": "30084",
+                            "count": 7,
+                            "type": "MATERIAL"
+                        }
+                    ]
+                },
+                {
+                    "unlockCond": {
+                        "phase": 2,
+                        "level": 1
+                    },
+                    "lvlUpTime": 86400,
+                    "levelUpCost": [
+                        {
+                            "id": "3303",
+                            "count": 15,
+                            "type": "MATERIAL"
+                        },
+                        {
+                            "id": "30115",
+                            "count": 6,
+                            "type": "MATERIAL"
+                        },
+                        {
+                            "id": "30024",
+                            "count": 6,
+                            "type": "MATERIAL"
+                        }
+                    ]
+                }
+            ],
+            "unlockCond": {
+                "phase": 1,
+                "level": 1
+            }
+        },
+        {
+            "skillId": "skchr_aglina_3",
+            "overridePrefabKey": null,
+            "overrideTokenKey": null,
+            "levelUpCostCond": [
+                {
+                    "unlockCond": {
+                        "phase": 2,
+                        "level": 1
+                    },
+                    "lvlUpTime": 28800,
+                    "levelUpCost": [
+                        {
+                            "id": "3303",
+                            "count": 6,
+                            "type": "MATERIAL"
+                        },
+                        {
+                            "id": "30084",
+                            "count": 4,
+                            "type": "MATERIAL"
+                        },
+                        {
+                            "id": "30063",
+                            "count": 4,
+                            "type": "MATERIAL"
+                        }
+                    ]
+                },
+                {
+                    "unlockCond": {
+                        "phase": 2,
+                        "level": 1
+                    },
+                    "lvlUpTime": 57600,
+                    "levelUpCost": [
+                        {
+                            "id": "3303",
+                            "count": 12,
+                            "type": "MATERIAL"
+                        },
+                        {
+                            "id": "30014",
+                            "count": 4,
+                            "type": "MATERIAL"
+                        },
+                        {
+                            "id": "30094",
+                            "count": 9,
+                            "type": "MATERIAL"
+                        }
+                    ]
+                },
+                {
+                    "unlockCond": {
+                        "phase": 2,
+                        "level": 1
+                    },
+                    "lvlUpTime": 86400,
+                    "levelUpCost": [
+                        {
+                            "id": "3303",
+                            "count": 15,
+                            "type": "MATERIAL"
+                        },
+                        {
+                            "id": "30115",
+                            "count": 6,
+                            "type": "MATERIAL"
+                        },
+                        {
+                            "id": "30074",
+                            "count": 7,
+                            "type": "MATERIAL"
+                        }
+                    ]
+                }
+            ],
+            "unlockCond": {
+                "phase": 2,
+                "level": 1
+            }
+        }
+    ],
+    "talents": [
+        {
+            "candidates": [
+                {
+                    "unlockCondition": {
+                        "phase": 1,
+                        "level": 1
+                    },
+                    "requiredPotentialRank": 0,
+                    "prefabKey": "1",
+                    "name": "加速力場",
+                    "description": "全場友方單位攻速+3",
+                    "rangeId": null,
+                    "blackboard": [
+                        {
+                            "key": "attack_speed",
+                            "value": 3
+                        }
+                    ]
+                },
+                {
+                    "unlockCondition": {
+                        "phase": 1,
+                        "level": 1
+                    },
+                    "requiredPotentialRank": 5,
+                    "prefabKey": "1",
+                    "name": "加速力場",
+                    "description": "全場友方單位攻速+4<@ba.talpu>（+1）</>",
+                    "rangeId": null,
+                    "blackboard": [
+                        {
+                            "key": "attack_speed",
+                            "value": 4
+                        }
+                    ]
+                },
+                {
+                    "unlockCondition": {
+                        "phase": 2,
+                        "level": 1
+                    },
+                    "requiredPotentialRank": 0,
+                    "prefabKey": "1",
+                    "name": "加速力場",
+                    "description": "全場友方單位攻速+7",
+                    "rangeId": null,
+                    "blackboard": [
+                        {
+                            "key": "attack_speed",
+                            "value": 7
+                        }
+                    ]
+                },
+                {
+                    "unlockCondition": {
+                        "phase": 2,
+                        "level": 1
+                    },
+                    "requiredPotentialRank": 5,
+                    "prefabKey": "1",
+                    "name": "加速力場",
+                    "description": "全場友方單位攻速+8<@ba.talpu>（+1）</>",
+                    "rangeId": null,
+                    "blackboard": [
+                        {
+                            "key": "attack_speed",
+                            "value": 8
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "candidates": [
+                {
+                    "unlockCondition": {
+                        "phase": 2,
+                        "level": 1
+                    },
+                    "requiredPotentialRank": 0,
+                    "prefabKey": "2",
+                    "name": "兼職工作",
+                    "description": "技能未開啟時，全場友方單位每秒回復20點生命",
+                    "rangeId": null,
+                    "blackboard": [
+                        {
+                            "key": "hp_recovery_per_sec",
+                            "value": 20
+                        }
+                    ]
+                },
+                {
+                    "unlockCondition": {
+                        "phase": 2,
+                        "level": 1
+                    },
+                    "requiredPotentialRank": 2,
+                    "prefabKey": "2",
+                    "name": "兼職工作",
+                    "description": "技能未開啟時，全場友方單位每秒回復25<@ba.talpu>（+5）</>點生命",
+                    "rangeId": null,
+                    "blackboard": [
+                        {
+                            "key": "hp_recovery_per_sec",
+                            "value": 25
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "potentialRanks": [
+        {
+            "type": 0,
+            "description": "部署費用-1",
+            "buff": {
+                "attributes": {
+                    "abnormalFlags": null,
+                    "abnormalImmunes": null,
+                    "abnormalAntis": null,
+                    "abnormalCombos": null,
+                    "abnormalComboImmunes": null,
+                    "attributeModifiers": [
+                        {
+                            "attributeType": 4,
+                            "formulaItem": 0,
+                            "value": -1,
+                            "loadFromBlackboard": false,
+                            "fetchBaseValueFromSourceEntity": false
+                        }
+                    ]
+                }
+            },
+            "equivalentCost": null
+        },
+        {
+            "type": 1,
+            "description": "第二天賦效果增強",
+            "buff": null,
+            "equivalentCost": null
+        },
+        {
+            "type": 0,
+            "description": "攻擊力+25",
+            "buff": {
+                "attributes": {
+                    "abnormalFlags": null,
+                    "abnormalImmunes": null,
+                    "abnormalAntis": null,
+                    "abnormalCombos": null,
+                    "abnormalComboImmunes": null,
+                    "attributeModifiers": [
+                        {
+                            "attributeType": 1,
+                            "formulaItem": 0,
+                            "value": 25,
+                            "loadFromBlackboard": false,
+                            "fetchBaseValueFromSourceEntity": false
+                        }
+                    ]
+                }
+            },
+            "equivalentCost": null
+        },
+        {
+            "type": 0,
+            "description": "部署費用-1",
+            "buff": {
+                "attributes": {
+                    "abnormalFlags": null,
+                    "abnormalImmunes": null,
+                    "abnormalAntis": null,
+                    "abnormalCombos": null,
+                    "abnormalComboImmunes": null,
+                    "attributeModifiers": [
+                        {
+                            "attributeType": 4,
+                            "formulaItem": 0,
+                            "value": -1,
+                            "loadFromBlackboard": false,
+                            "fetchBaseValueFromSourceEntity": false
+                        }
+                    ]
+                }
+            },
+            "equivalentCost": null
+        },
+        {
+            "type": 1,
+            "description": "第一天賦效果增強",
+            "buff": null,
+            "equivalentCost": null
+        }
+    ],
+    "favorKeyFrames": [
+        {
+            "level": 0,
+            "data": {
+                "maxHp": 0,
+                "atk": 0,
+                "def": 0,
+                "magicResistance": 0,
+                "cost": 0,
+                "blockCnt": 0,
+                "moveSpeed": 0,
+                "attackSpeed": 0,
+                "baseAttackTime": 0,
+                "respawnTime": 0,
+                "hpRecoveryPerSec": 0,
+                "spRecoveryPerSec": 0,
+                "maxDeployCount": 0,
+                "maxDeckStackCnt": 0,
+                "tauntLevel": 0,
+                "massLevel": 0,
+                "baseForceLevel": 0,
+                "stunImmune": false,
+                "silenceImmune": false,
+                "sleepImmune": false
+            }
+        },
+        {
+            "level": 50,
+            "data": {
+                "maxHp": 0,
+                "atk": 75,
+                "def": 0,
+                "magicResistance": 0,
+                "cost": 0,
+                "blockCnt": 0,
+                "moveSpeed": 0,
+                "attackSpeed": 0,
+                "baseAttackTime": 0,
+                "respawnTime": 0,
+                "hpRecoveryPerSec": 0,
+                "spRecoveryPerSec": 0,
+                "maxDeployCount": 0,
+                "maxDeckStackCnt": 0,
+                "tauntLevel": 0,
+                "massLevel": 0,
+                "baseForceLevel": 0,
+                "stunImmune": false,
+                "silenceImmune": false,
+                "sleepImmune": false
+            }
+        }
+    ],
+    "allSkillLvlup": [
+        {
+            "unlockCond": {
+                "phase": 0,
+                "level": 1
+            },
+            "lvlUpCost": [
+                {
+                    "id": "3301",
+                    "count": 5,
+                    "type": "MATERIAL"
+                }
+            ]
+        },
+        {
+            "unlockCond": {
+                "phase": 0,
+                "level": 1
+            },
+            "lvlUpCost": [
+                {
+                    "id": "3301",
+                    "count": 5,
+                    "type": "MATERIAL"
+                },
+                {
+                    "id": "30051",
+                    "count": 6,
+                    "type": "MATERIAL"
+                },
+                {
+                    "id": "30011",
+                    "count": 4,
+                    "type": "MATERIAL"
+                }
+            ]
+        },
+        {
+            "unlockCond": {
+                "phase": 0,
+                "level": 1
+            },
+            "lvlUpCost": [
+                {
+                    "id": "3302",
+                    "count": 8,
+                    "type": "MATERIAL"
+                },
+                {
+                    "id": "30062",
+                    "count": 3,
+                    "type": "MATERIAL"
+                }
+            ]
+        },
+        {
+            "unlockCond": {
+                "phase": 1,
+                "level": 1
+            },
+            "lvlUpCost": [
+                {
+                    "id": "3302",
+                    "count": 8,
+                    "type": "MATERIAL"
+                },
+                {
+                    "id": "30012",
+                    "count": 5,
+                    "type": "MATERIAL"
+                },
+                {
+                    "id": "30062",
+                    "count": 3,
+                    "type": "MATERIAL"
+                }
+            ]
+        },
+        {
+            "unlockCond": {
+                "phase": 1,
+                "level": 1
+            },
+            "lvlUpCost": [
+                {
+                    "id": "3302",
+                    "count": 8,
+                    "type": "MATERIAL"
+                },
+                {
+                    "id": "30043",
+                    "count": 6,
+                    "type": "MATERIAL"
+                }
+            ]
+        },
+        {
+            "unlockCond": {
+                "phase": 1,
+                "level": 1
+            },
+            "lvlUpCost": [
+                {
+                    "id": "3303",
+                    "count": 8,
+                    "type": "MATERIAL"
+                },
+                {
+                    "id": "30053",
+                    "count": 3,
+                    "type": "MATERIAL"
+                },
+                {
+                    "id": "30073",
+                    "count": 6,
+                    "type": "MATERIAL"
+                }
+            ]
+        }
+    ]
+}

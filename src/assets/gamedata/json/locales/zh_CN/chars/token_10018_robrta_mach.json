@@ -1,0 +1,393 @@
+{
+    "name": "全自动造型仪",
+    "description": "部署后为前方一名友方近战单位提供防护支援（持续数秒）",
+    "canUseGeneralPotentialItem": true,
+    "potentialItemId": "",
+    "nationId": null,
+    "groupId": null,
+    "teamId": null,
+    "displayNumber": null,
+    "tokenKey": null,
+    "appellation": "Making-up Machine",
+    "position": "ALL",
+    "tagList": null,
+    "itemUsage": null,
+    "itemDesc": null,
+    "itemObtainApproach": null,
+    "isNotObtainable": false,
+    "isSpChar": false,
+    "maxPotentialLevel": 0,
+    "rarity": 3,
+    "profession": "TOKEN",
+    "subProfessionId": "notchar1",
+    "trait": {
+        "candidates": [
+            {
+                "unlockCondition": {
+                    "phase": 0,
+                    "level": 1
+                },
+                "requiredPotentialRank": 0,
+                "blackboard": [],
+                "overrideDescripton": "部署后为一名友方近战单位提供防护支援（持续15秒）",
+                "prefabKey": null,
+                "rangeId": null
+            },
+            {
+                "unlockCondition": {
+                    "phase": 1,
+                    "level": 1
+                },
+                "requiredPotentialRank": 0,
+                "blackboard": [],
+                "overrideDescripton": "部署后为一名友方近战单位提供防护支援（持续25秒）",
+                "prefabKey": null,
+                "rangeId": null
+            },
+            {
+                "unlockCondition": {
+                    "phase": 2,
+                    "level": 1
+                },
+                "requiredPotentialRank": 0,
+                "blackboard": [],
+                "overrideDescripton": "部署后为一名友方近战单位提供防护支援（持续25秒）",
+                "prefabKey": null,
+                "rangeId": null
+            }
+        ]
+    },
+    "phases": [
+        {
+            "characterPrefabKey": "token_10018_robrta_mach",
+            "rangeId": "1-1",
+            "maxLevel": 45,
+            "attributesKeyFrames": [
+                {
+                    "level": 1,
+                    "data": {
+                        "maxHp": 100,
+                        "atk": 100,
+                        "def": 0,
+                        "magicResistance": 0,
+                        "cost": 5,
+                        "blockCnt": 0,
+                        "moveSpeed": 1,
+                        "attackSpeed": 100,
+                        "baseAttackTime": 1,
+                        "respawnTime": 15,
+                        "hpRecoveryPerSec": 0,
+                        "spRecoveryPerSec": 1,
+                        "maxDeployCount": 3,
+                        "maxDeckStackCnt": 3,
+                        "tauntLevel": 0,
+                        "massLevel": 0,
+                        "baseForceLevel": 0,
+                        "stunImmune": false,
+                        "silenceImmune": false,
+                        "sleepImmune": false
+                    }
+                },
+                {
+                    "level": 45,
+                    "data": {
+                        "maxHp": 100,
+                        "atk": 100,
+                        "def": 0,
+                        "magicResistance": 0,
+                        "cost": 5,
+                        "blockCnt": 0,
+                        "moveSpeed": 1,
+                        "attackSpeed": 100,
+                        "baseAttackTime": 1,
+                        "respawnTime": 15,
+                        "hpRecoveryPerSec": 0,
+                        "spRecoveryPerSec": 1,
+                        "maxDeployCount": 3,
+                        "maxDeckStackCnt": 3,
+                        "tauntLevel": 0,
+                        "massLevel": 0,
+                        "baseForceLevel": 0,
+                        "stunImmune": false,
+                        "silenceImmune": false,
+                        "sleepImmune": false
+                    }
+                }
+            ],
+            "evolveCost": null
+        },
+        {
+            "characterPrefabKey": "token_10018_robrta_mach",
+            "rangeId": "1-1",
+            "maxLevel": 60,
+            "attributesKeyFrames": [
+                {
+                    "level": 1,
+                    "data": {
+                        "maxHp": 100,
+                        "atk": 100,
+                        "def": 0,
+                        "magicResistance": 0,
+                        "cost": 5,
+                        "blockCnt": 0,
+                        "moveSpeed": 1,
+                        "attackSpeed": 100,
+                        "baseAttackTime": 1,
+                        "respawnTime": 15,
+                        "hpRecoveryPerSec": 0,
+                        "spRecoveryPerSec": 1,
+                        "maxDeployCount": 3,
+                        "maxDeckStackCnt": 3,
+                        "tauntLevel": 0,
+                        "massLevel": 0,
+                        "baseForceLevel": 0,
+                        "stunImmune": false,
+                        "silenceImmune": false,
+                        "sleepImmune": false
+                    }
+                },
+                {
+                    "level": 60,
+                    "data": {
+                        "maxHp": 100,
+                        "atk": 100,
+                        "def": 0,
+                        "magicResistance": 0,
+                        "cost": 5,
+                        "blockCnt": 0,
+                        "moveSpeed": 1,
+                        "attackSpeed": 100,
+                        "baseAttackTime": 1,
+                        "respawnTime": 15,
+                        "hpRecoveryPerSec": 0,
+                        "spRecoveryPerSec": 1,
+                        "maxDeployCount": 3,
+                        "maxDeckStackCnt": 3,
+                        "tauntLevel": 0,
+                        "massLevel": 0,
+                        "baseForceLevel": 0,
+                        "stunImmune": false,
+                        "silenceImmune": false,
+                        "sleepImmune": false
+                    }
+                }
+            ],
+            "evolveCost": null
+        },
+        {
+            "characterPrefabKey": "token_10018_robrta_mach",
+            "rangeId": "1-1",
+            "maxLevel": 70,
+            "attributesKeyFrames": [
+                {
+                    "level": 1,
+                    "data": {
+                        "maxHp": 100,
+                        "atk": 100,
+                        "def": 0,
+                        "magicResistance": 0,
+                        "cost": 5,
+                        "blockCnt": 0,
+                        "moveSpeed": 1,
+                        "attackSpeed": 100,
+                        "baseAttackTime": 1,
+                        "respawnTime": 15,
+                        "hpRecoveryPerSec": 0,
+                        "spRecoveryPerSec": 1,
+                        "maxDeployCount": 3,
+                        "maxDeckStackCnt": 3,
+                        "tauntLevel": 0,
+                        "massLevel": 0,
+                        "baseForceLevel": 0,
+                        "stunImmune": false,
+                        "silenceImmune": false,
+                        "sleepImmune": false
+                    }
+                },
+                {
+                    "level": 70,
+                    "data": {
+                        "maxHp": 100,
+                        "atk": 100,
+                        "def": 0,
+                        "magicResistance": 0,
+                        "cost": 5,
+                        "blockCnt": 0,
+                        "moveSpeed": 1,
+                        "attackSpeed": 100,
+                        "baseAttackTime": 1,
+                        "respawnTime": 15,
+                        "hpRecoveryPerSec": 0,
+                        "spRecoveryPerSec": 1,
+                        "maxDeployCount": 3,
+                        "maxDeckStackCnt": 3,
+                        "tauntLevel": 0,
+                        "massLevel": 0,
+                        "baseForceLevel": 0,
+                        "stunImmune": false,
+                        "silenceImmune": false,
+                        "sleepImmune": false
+                    }
+                }
+            ],
+            "evolveCost": null
+        }
+    ],
+    "skills": [
+        {
+            "skillId": "sktok_robrta",
+            "overridePrefabKey": null,
+            "overrideTokenKey": null,
+            "levelUpCostCond": [],
+            "unlockCond": {
+                "phase": 0,
+                "level": 1
+            }
+        },
+        {
+            "skillId": "sktok_robrta",
+            "overridePrefabKey": null,
+            "overrideTokenKey": null,
+            "levelUpCostCond": [],
+            "unlockCond": {
+                "phase": 0,
+                "level": 1
+            }
+        }
+    ],
+    "talents": [
+        {
+            "candidates": [
+                {
+                    "unlockCondition": {
+                        "phase": 0,
+                        "level": 1
+                    },
+                    "requiredPotentialRank": 0,
+                    "prefabKey": "1",
+                    "name": null,
+                    "description": "-",
+                    "rangeId": null,
+                    "blackboard": [
+                        {
+                            "key": "def",
+                            "value": 0.1
+                        },
+                        {
+                            "key": "duration",
+                            "value": 15
+                        }
+                    ]
+                },
+                {
+                    "unlockCondition": {
+                        "phase": 0,
+                        "level": 1
+                    },
+                    "requiredPotentialRank": 4,
+                    "prefabKey": "1",
+                    "name": null,
+                    "description": "-",
+                    "rangeId": null,
+                    "blackboard": [
+                        {
+                            "key": "def",
+                            "value": 0.13
+                        },
+                        {
+                            "key": "duration",
+                            "value": 15
+                        }
+                    ]
+                },
+                {
+                    "unlockCondition": {
+                        "phase": 1,
+                        "level": 1
+                    },
+                    "requiredPotentialRank": 0,
+                    "prefabKey": "1",
+                    "name": null,
+                    "description": "-",
+                    "rangeId": null,
+                    "blackboard": [
+                        {
+                            "key": "def",
+                            "value": 0.2
+                        },
+                        {
+                            "key": "duration",
+                            "value": 25
+                        }
+                    ]
+                },
+                {
+                    "unlockCondition": {
+                        "phase": 1,
+                        "level": 1
+                    },
+                    "requiredPotentialRank": 4,
+                    "prefabKey": "1",
+                    "name": null,
+                    "description": "-",
+                    "rangeId": null,
+                    "blackboard": [
+                        {
+                            "key": "def",
+                            "value": 0.23
+                        },
+                        {
+                            "key": "duration",
+                            "value": 25
+                        }
+                    ]
+                },
+                {
+                    "unlockCondition": {
+                        "phase": 2,
+                        "level": 1
+                    },
+                    "requiredPotentialRank": 0,
+                    "prefabKey": "1+",
+                    "name": null,
+                    "description": "-",
+                    "rangeId": null,
+                    "blackboard": [
+                        {
+                            "key": "def",
+                            "value": 0.3
+                        },
+                        {
+                            "key": "duration",
+                            "value": 25
+                        }
+                    ]
+                },
+                {
+                    "unlockCondition": {
+                        "phase": 2,
+                        "level": 1
+                    },
+                    "requiredPotentialRank": 4,
+                    "prefabKey": "1+",
+                    "name": null,
+                    "description": "-",
+                    "rangeId": null,
+                    "blackboard": [
+                        {
+                            "key": "def",
+                            "value": 0.33
+                        },
+                        {
+                            "key": "duration",
+                            "value": 25
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "potentialRanks": [],
+    "favorKeyFrames": null,
+    "allSkillLvlup": []
+}

@@ -1,0 +1,180 @@
+{
+    "name": "L-44 'Gramophone'",
+    "description": "Attacks the enemy with the highest Max HP first",
+    "canUseGeneralPotentialItem": true,
+    "potentialItemId": "",
+    "nationId": null,
+    "groupId": null,
+    "teamId": null,
+    "displayNumber": null,
+    "tokenKey": null,
+    "appellation": " ",
+    "position": "NONE",
+    "tagList": null,
+    "itemUsage": null,
+    "itemDesc": null,
+    "itemObtainApproach": null,
+    "isNotObtainable": false,
+    "isSpChar": false,
+    "maxPotentialLevel": 0,
+    "rarity": 0,
+    "profession": "TRAP",
+    "trait": null,
+    "phases": [
+        {
+            "characterPrefabKey": "trap_014_tower",
+            "rangeId": "x-2",
+            "maxLevel": 30,
+            "attributesKeyFrames": [
+                {
+                    "level": 1,
+                    "data": {
+                        "maxHp": 100,
+                        "atk": 0,
+                        "def": 0,
+                        "magicResistance": 0,
+                        "cost": 5,
+                        "blockCnt": 0,
+                        "moveSpeed": 1,
+                        "attackSpeed": 100,
+                        "baseAttackTime": 1.5,
+                        "respawnTime": 7,
+                        "hpRecoveryPerSec": 0,
+                        "spRecoveryPerSec": 1,
+                        "maxDeployCount": 1,
+                        "maxDeckStackCnt": 0,
+                        "tauntLevel": 0,
+                        "massLevel": 0,
+                        "baseForceLevel": 0,
+                        "stunImmune": false,
+                        "silenceImmune": false,
+                        "sleepImmune": false
+                    }
+                },
+                {
+                    "level": 30,
+                    "data": {
+                        "maxHp": 100,
+                        "atk": 0,
+                        "def": 0,
+                        "magicResistance": 0,
+                        "cost": 5,
+                        "blockCnt": 0,
+                        "moveSpeed": 1,
+                        "attackSpeed": 100,
+                        "baseAttackTime": 1.5,
+                        "respawnTime": 7,
+                        "hpRecoveryPerSec": 0,
+                        "spRecoveryPerSec": 1,
+                        "maxDeployCount": 1,
+                        "maxDeckStackCnt": 0,
+                        "tauntLevel": 0,
+                        "massLevel": 0,
+                        "baseForceLevel": 0,
+                        "stunImmune": false,
+                        "silenceImmune": false,
+                        "sleepImmune": false
+                    }
+                }
+            ],
+            "evolveCost": null
+        }
+    ],
+    "skills": [
+        {
+            "skillId": "sktok_tower",
+            "overridePrefabKey": null,
+            "overrideTokenKey": null,
+            "levelUpCostCond": [],
+            "unlockCond": {
+                "phase": 0,
+                "level": 1
+            }
+        }
+    ],
+    "talents": [
+        {
+            "candidates": [
+                {
+                    "unlockCondition": {
+                        "phase": 0,
+                        "level": 1
+                    },
+                    "requiredPotentialRank": 0,
+                    "prefabKey": "1",
+                    "name": null,
+                    "description": null,
+                    "rangeId": null,
+                    "blackboard": []
+                }
+            ]
+        },
+        {
+            "candidates": [
+                {
+                    "unlockCondition": {
+                        "phase": 0,
+                        "level": 1
+                    },
+                    "requiredPotentialRank": 0,
+                    "prefabKey": "2",
+                    "name": null,
+                    "description": null,
+                    "rangeId": null,
+                    "blackboard": []
+                }
+            ]
+        },
+        {
+            "candidates": [
+                {
+                    "unlockCondition": {
+                        "phase": 0,
+                        "level": 1
+                    },
+                    "requiredPotentialRank": 0,
+                    "prefabKey": "3",
+                    "name": null,
+                    "description": null,
+                    "rangeId": null,
+                    "blackboard": []
+                }
+            ]
+        },
+        {
+            "candidates": [
+                {
+                    "unlockCondition": {
+                        "phase": 0,
+                        "level": 1
+                    },
+                    "requiredPotentialRank": 0,
+                    "prefabKey": "4",
+                    "name": null,
+                    "description": null,
+                    "rangeId": null,
+                    "blackboard": []
+                }
+            ]
+        },
+        {
+            "candidates": [
+                {
+                    "unlockCondition": {
+                        "phase": 0,
+                        "level": 1
+                    },
+                    "requiredPotentialRank": 0,
+                    "prefabKey": "5",
+                    "name": null,
+                    "description": null,
+                    "rangeId": null,
+                    "blackboard": []
+                }
+            ]
+        }
+    ],
+    "potentialRanks": [],
+    "favorKeyFrames": null,
+    "allSkillLvlup": []
+}

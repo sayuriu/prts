@@ -1,0 +1,116 @@
+{
+    "name": "High-Energy Originium Bomb",
+    "description": "Can be targeted by enemy <@ba.kw>ranged attacks</>",
+    "canUseGeneralPotentialItem": true,
+    "potentialItemId": "",
+    "nationId": null,
+    "groupId": null,
+    "teamId": null,
+    "displayNumber": null,
+    "tokenKey": null,
+    "appellation": " ",
+    "position": "NONE",
+    "tagList": null,
+    "itemUsage": null,
+    "itemDesc": null,
+    "itemObtainApproach": null,
+    "isNotObtainable": false,
+    "isSpChar": false,
+    "maxPotentialLevel": 0,
+    "rarity": 0,
+    "profession": "TRAP",
+    "trait": null,
+    "phases": [
+        {
+            "characterPrefabKey": "trap_033_sbomb",
+            "rangeId": "x-6",
+            "maxLevel": 30,
+            "attributesKeyFrames": [
+                {
+                    "level": 1,
+                    "data": {
+                        "maxHp": 2000,
+                        "atk": 4000,
+                        "def": 0,
+                        "magicResistance": 0,
+                        "cost": 10,
+                        "blockCnt": 0,
+                        "moveSpeed": 1,
+                        "attackSpeed": 100,
+                        "baseAttackTime": 1,
+                        "respawnTime": 25,
+                        "hpRecoveryPerSec": 0,
+                        "spRecoveryPerSec": 1,
+                        "maxDeployCount": 1,
+                        "maxDeckStackCnt": 0,
+                        "tauntLevel": 0,
+                        "massLevel": 0,
+                        "baseForceLevel": 0,
+                        "stunImmune": false,
+                        "silenceImmune": false,
+                        "sleepImmune": false
+                    }
+                },
+                {
+                    "level": 30,
+                    "data": {
+                        "maxHp": 2000,
+                        "atk": 4000,
+                        "def": 0,
+                        "magicResistance": 0,
+                        "cost": 10,
+                        "blockCnt": 0,
+                        "moveSpeed": 1,
+                        "attackSpeed": 100,
+                        "baseAttackTime": 1,
+                        "respawnTime": 25,
+                        "hpRecoveryPerSec": 0,
+                        "spRecoveryPerSec": 1,
+                        "maxDeployCount": 1,
+                        "maxDeckStackCnt": 0,
+                        "tauntLevel": 0,
+                        "massLevel": 0,
+                        "baseForceLevel": 0,
+                        "stunImmune": false,
+                        "silenceImmune": false,
+                        "sleepImmune": false
+                    }
+                }
+            ],
+            "evolveCost": null
+        }
+    ],
+    "skills": [
+        {
+            "skillId": "sktok_sbomb",
+            "overridePrefabKey": null,
+            "overrideTokenKey": null,
+            "levelUpCostCond": [],
+            "unlockCond": {
+                "phase": 0,
+                "level": 1
+            }
+        }
+    ],
+    "talents": [
+        {
+            "candidates": [
+                {
+                    "unlockCondition": {
+                        "phase": 0,
+                        "level": 1
+                    },
+                    "requiredPotentialRank": 0,
+                    "prefabKey": "1",
+                    "name": null,
+                    "description": "-",
+                    "rangeId": null,
+                    "blackboard": []
+                }
+            ]
+        }
+    ],
+    "potentialRanks": [],
+    "favorKeyFrames": null,
+    "allSkillLvlup": []
+}

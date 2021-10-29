@@ -1,0 +1,939 @@
+{
+    "name": "헬라그",
+    "description": "치료 대상으로 판정되지 않으며, 매 회 공격을 통해 자신의 HP를 <@ba.kw>{value}</> 회복한다",
+    "canUseGeneralPotentialItem": true,
+    "potentialItemId": "p_char_188_helage",
+    "nationId": "ursus",
+    "groupId": null,
+    "teamId": null,
+    "displayNumber": "AZ01",
+    "tokenKey": null,
+    "appellation": "Hellagur",
+    "position": "MELEE",
+    "tagList": [
+        "딜러",
+        "생존형"
+    ],
+    "itemUsage": "아자젤의 가드 오퍼레이터 헬라그는 선견지명을 발휘하여 당신과 함께 전략적인 목표를 달성하고자 할 것입니다.",
+    "itemDesc": "무기를 휘두른다 한들, 칼날은 아래로 쳐지기만 할 뿐. 수련을 게을리 할 틈은 없다.",
+    "itemObtainApproach": "인재 채용",
+    "isNotObtainable": false,
+    "isSpChar": false,
+    "maxPotentialLevel": 5,
+    "rarity": 5,
+    "profession": "WARRIOR",
+    "trait": {
+        "candidates": [
+            {
+                "unlockCondition": {
+                    "phase": 0,
+                    "level": 1
+                },
+                "requiredPotentialRank": 0,
+                "blackboard": [
+                    {
+                        "key": "value",
+                        "value": 30
+                    }
+                ],
+                "overrideDescripton": "치료 대상으로 판정되지 않으며, 매 회 공격을 통해 자신의 HP를 <@ba.kw>{value}</> 회복한다 (1차 정예화 시 갱신)",
+                "prefabKey": null,
+                "rangeId": null
+            },
+            {
+                "unlockCondition": {
+                    "phase": 1,
+                    "level": 1
+                },
+                "requiredPotentialRank": 0,
+                "blackboard": [
+                    {
+                        "key": "value",
+                        "value": 50
+                    }
+                ],
+                "overrideDescripton": "치료 대상으로 판정되지 않으며, 매 회 공격을 통해 자신의 HP를 <@ba.kw>{value}</> 회복한다 (2차 정예화 시 갱신)",
+                "prefabKey": null,
+                "rangeId": null
+            },
+            {
+                "unlockCondition": {
+                    "phase": 2,
+                    "level": 1
+                },
+                "requiredPotentialRank": 0,
+                "blackboard": [
+                    {
+                        "key": "value",
+                        "value": 70
+                    }
+                ],
+                "overrideDescripton": "치료 대상으로 판정되지 않으며, 매 회 공격을 통해 자신의 HP를 <@ba.kw>{value}</> 회복한다",
+                "prefabKey": null,
+                "rangeId": null
+            }
+        ]
+    },
+    "phases": [
+        {
+            "characterPrefabKey": "char_188_helage",
+            "rangeId": "1-1",
+            "maxLevel": 50,
+            "attributesKeyFrames": [
+                {
+                    "level": 1,
+                    "data": {
+                        "maxHp": 1568,
+                        "atk": 340,
+                        "def": 160,
+                        "magicResistance": 0,
+                        "cost": 22,
+                        "blockCnt": 1,
+                        "moveSpeed": 1,
+                        "attackSpeed": 100,
+                        "baseAttackTime": 1.2,
+                        "respawnTime": 70,
+                        "hpRecoveryPerSec": 0,
+                        "spRecoveryPerSec": 1,
+                        "maxDeployCount": 1,
+                        "maxDeckStackCnt": 0,
+                        "tauntLevel": 0,
+                        "massLevel": 0,
+                        "baseForceLevel": 0,
+                        "stunImmune": false,
+                        "silenceImmune": false,
+                        "sleepImmune": false
+                    }
+                },
+                {
+                    "level": 50,
+                    "data": {
+                        "maxHp": 2179,
+                        "atk": 486,
+                        "def": 220,
+                        "magicResistance": 0,
+                        "cost": 22,
+                        "blockCnt": 1,
+                        "moveSpeed": 1,
+                        "attackSpeed": 100,
+                        "baseAttackTime": 1.2,
+                        "respawnTime": 70,
+                        "hpRecoveryPerSec": 0,
+                        "spRecoveryPerSec": 1,
+                        "maxDeployCount": 1,
+                        "maxDeckStackCnt": 0,
+                        "tauntLevel": 0,
+                        "massLevel": 0,
+                        "baseForceLevel": 0,
+                        "stunImmune": false,
+                        "silenceImmune": false,
+                        "sleepImmune": false
+                    }
+                }
+            ],
+            "evolveCost": null
+        },
+        {
+            "characterPrefabKey": "char_188_helage",
+            "rangeId": "1-1",
+            "maxLevel": 80,
+            "attributesKeyFrames": [
+                {
+                    "level": 1,
+                    "data": {
+                        "maxHp": 2179,
+                        "atk": 486,
+                        "def": 220,
+                        "magicResistance": 0,
+                        "cost": 24,
+                        "blockCnt": 1,
+                        "moveSpeed": 1,
+                        "attackSpeed": 100,
+                        "baseAttackTime": 1.2,
+                        "respawnTime": 70,
+                        "hpRecoveryPerSec": 0,
+                        "spRecoveryPerSec": 1,
+                        "maxDeployCount": 1,
+                        "maxDeckStackCnt": 0,
+                        "tauntLevel": 0,
+                        "massLevel": 0,
+                        "baseForceLevel": 0,
+                        "stunImmune": false,
+                        "silenceImmune": false,
+                        "sleepImmune": false
+                    }
+                },
+                {
+                    "level": 80,
+                    "data": {
+                        "maxHp": 2868,
+                        "atk": 632,
+                        "def": 283,
+                        "magicResistance": 0,
+                        "cost": 24,
+                        "blockCnt": 1,
+                        "moveSpeed": 1,
+                        "attackSpeed": 100,
+                        "baseAttackTime": 1.2,
+                        "respawnTime": 70,
+                        "hpRecoveryPerSec": 0,
+                        "spRecoveryPerSec": 1,
+                        "maxDeployCount": 1,
+                        "maxDeckStackCnt": 0,
+                        "tauntLevel": 0,
+                        "massLevel": 0,
+                        "baseForceLevel": 0,
+                        "stunImmune": false,
+                        "silenceImmune": false,
+                        "sleepImmune": false
+                    }
+                }
+            ],
+            "evolveCost": [
+                {
+                    "id": "3221",
+                    "count": 5,
+                    "type": "MATERIAL"
+                },
+                {
+                    "id": "30022",
+                    "count": 10,
+                    "type": "MATERIAL"
+                },
+                {
+                    "id": "30012",
+                    "count": 6,
+                    "type": "MATERIAL"
+                }
+            ]
+        },
+        {
+            "characterPrefabKey": "char_188_helage",
+            "rangeId": "1-1",
+            "maxLevel": 90,
+            "attributesKeyFrames": [
+                {
+                    "level": 1,
+                    "data": {
+                        "maxHp": 2868,
+                        "atk": 632,
+                        "def": 283,
+                        "magicResistance": 0,
+                        "cost": 26,
+                        "blockCnt": 1,
+                        "moveSpeed": 1,
+                        "attackSpeed": 100,
+                        "baseAttackTime": 1.2,
+                        "respawnTime": 70,
+                        "hpRecoveryPerSec": 0,
+                        "spRecoveryPerSec": 1,
+                        "maxDeployCount": 1,
+                        "maxDeckStackCnt": 0,
+                        "tauntLevel": 0,
+                        "massLevel": 0,
+                        "baseForceLevel": 0,
+                        "stunImmune": false,
+                        "silenceImmune": false,
+                        "sleepImmune": false
+                    }
+                },
+                {
+                    "level": 90,
+                    "data": {
+                        "maxHp": 3825,
+                        "atk": 762,
+                        "def": 334,
+                        "magicResistance": 0,
+                        "cost": 26,
+                        "blockCnt": 1,
+                        "moveSpeed": 1,
+                        "attackSpeed": 100,
+                        "baseAttackTime": 1.2,
+                        "respawnTime": 70,
+                        "hpRecoveryPerSec": 0,
+                        "spRecoveryPerSec": 1,
+                        "maxDeployCount": 1,
+                        "maxDeckStackCnt": 0,
+                        "tauntLevel": 0,
+                        "massLevel": 0,
+                        "baseForceLevel": 0,
+                        "stunImmune": false,
+                        "silenceImmune": false,
+                        "sleepImmune": false
+                    }
+                }
+            ],
+            "evolveCost": [
+                {
+                    "id": "3223",
+                    "count": 4,
+                    "type": "MATERIAL"
+                },
+                {
+                    "id": "30125",
+                    "count": 4,
+                    "type": "MATERIAL"
+                },
+                {
+                    "id": "30034",
+                    "count": 7,
+                    "type": "MATERIAL"
+                }
+            ]
+        }
+    ],
+    "skills": [
+        {
+            "skillId": "skchr_helage_1",
+            "overridePrefabKey": null,
+            "overrideTokenKey": null,
+            "levelUpCostCond": [
+                {
+                    "unlockCond": {
+                        "phase": 2,
+                        "level": 1
+                    },
+                    "lvlUpTime": 28800,
+                    "levelUpCost": [
+                        {
+                            "id": "3303",
+                            "count": 8,
+                            "type": "MATERIAL"
+                        },
+                        {
+                            "id": "30024",
+                            "count": 4,
+                            "type": "MATERIAL"
+                        },
+                        {
+                            "id": "30103",
+                            "count": 5,
+                            "type": "MATERIAL"
+                        }
+                    ]
+                },
+                {
+                    "unlockCond": {
+                        "phase": 2,
+                        "level": 1
+                    },
+                    "lvlUpTime": 57600,
+                    "levelUpCost": [
+                        {
+                            "id": "3303",
+                            "count": 12,
+                            "type": "MATERIAL"
+                        },
+                        {
+                            "id": "30054",
+                            "count": 4,
+                            "type": "MATERIAL"
+                        },
+                        {
+                            "id": "30034",
+                            "count": 7,
+                            "type": "MATERIAL"
+                        }
+                    ]
+                },
+                {
+                    "unlockCond": {
+                        "phase": 2,
+                        "level": 1
+                    },
+                    "lvlUpTime": 86400,
+                    "levelUpCost": [
+                        {
+                            "id": "3303",
+                            "count": 15,
+                            "type": "MATERIAL"
+                        },
+                        {
+                            "id": "30135",
+                            "count": 6,
+                            "type": "MATERIAL"
+                        },
+                        {
+                            "id": "30044",
+                            "count": 5,
+                            "type": "MATERIAL"
+                        }
+                    ]
+                }
+            ],
+            "unlockCond": {
+                "phase": 0,
+                "level": 1
+            }
+        },
+        {
+            "skillId": "skchr_helage_2",
+            "overridePrefabKey": null,
+            "overrideTokenKey": null,
+            "levelUpCostCond": [
+                {
+                    "unlockCond": {
+                        "phase": 2,
+                        "level": 1
+                    },
+                    "lvlUpTime": 28800,
+                    "levelUpCost": [
+                        {
+                            "id": "3303",
+                            "count": 8,
+                            "type": "MATERIAL"
+                        },
+                        {
+                            "id": "30034",
+                            "count": 4,
+                            "type": "MATERIAL"
+                        },
+                        {
+                            "id": "30013",
+                            "count": 8,
+                            "type": "MATERIAL"
+                        }
+                    ]
+                },
+                {
+                    "unlockCond": {
+                        "phase": 2,
+                        "level": 1
+                    },
+                    "lvlUpTime": 57600,
+                    "levelUpCost": [
+                        {
+                            "id": "3303",
+                            "count": 12,
+                            "type": "MATERIAL"
+                        },
+                        {
+                            "id": "30064",
+                            "count": 3,
+                            "type": "MATERIAL"
+                        },
+                        {
+                            "id": "30044",
+                            "count": 6,
+                            "type": "MATERIAL"
+                        }
+                    ]
+                },
+                {
+                    "unlockCond": {
+                        "phase": 2,
+                        "level": 1
+                    },
+                    "lvlUpTime": 86400,
+                    "levelUpCost": [
+                        {
+                            "id": "3303",
+                            "count": 15,
+                            "type": "MATERIAL"
+                        },
+                        {
+                            "id": "30125",
+                            "count": 6,
+                            "type": "MATERIAL"
+                        },
+                        {
+                            "id": "30044",
+                            "count": 4,
+                            "type": "MATERIAL"
+                        }
+                    ]
+                }
+            ],
+            "unlockCond": {
+                "phase": 1,
+                "level": 1
+            }
+        },
+        {
+            "skillId": "skchr_helage_3",
+            "overridePrefabKey": null,
+            "overrideTokenKey": null,
+            "levelUpCostCond": [
+                {
+                    "unlockCond": {
+                        "phase": 2,
+                        "level": 1
+                    },
+                    "lvlUpTime": 28800,
+                    "levelUpCost": [
+                        {
+                            "id": "3303",
+                            "count": 8,
+                            "type": "MATERIAL"
+                        },
+                        {
+                            "id": "30044",
+                            "count": 4,
+                            "type": "MATERIAL"
+                        },
+                        {
+                            "id": "30023",
+                            "count": 4,
+                            "type": "MATERIAL"
+                        }
+                    ]
+                },
+                {
+                    "unlockCond": {
+                        "phase": 2,
+                        "level": 1
+                    },
+                    "lvlUpTime": 57600,
+                    "levelUpCost": [
+                        {
+                            "id": "3303",
+                            "count": 12,
+                            "type": "MATERIAL"
+                        },
+                        {
+                            "id": "30074",
+                            "count": 4,
+                            "type": "MATERIAL"
+                        },
+                        {
+                            "id": "30054",
+                            "count": 8,
+                            "type": "MATERIAL"
+                        }
+                    ]
+                },
+                {
+                    "unlockCond": {
+                        "phase": 2,
+                        "level": 1
+                    },
+                    "lvlUpTime": 86400,
+                    "levelUpCost": [
+                        {
+                            "id": "3303",
+                            "count": 15,
+                            "type": "MATERIAL"
+                        },
+                        {
+                            "id": "30125",
+                            "count": 6,
+                            "type": "MATERIAL"
+                        },
+                        {
+                            "id": "30094",
+                            "count": 5,
+                            "type": "MATERIAL"
+                        }
+                    ]
+                }
+            ],
+            "unlockCond": {
+                "phase": 2,
+                "level": 1
+            }
+        }
+    ],
+    "talents": [
+        {
+            "candidates": [
+                {
+                    "unlockCondition": {
+                        "phase": 0,
+                        "level": 1
+                    },
+                    "requiredPotentialRank": 0,
+                    "prefabKey": "1",
+                    "name": "달이 차면 별이 진다",
+                    "description": "감소 된 HP에 따라 공격 속도가 상승 (50% HP 감소 시 최대 공격 속도 50 상승 가능)",
+                    "rangeId": null,
+                    "blackboard": [
+                        {
+                            "key": "min_attack_speed",
+                            "value": 50
+                        },
+                        {
+                            "key": "max_attack_speed",
+                            "value": 0
+                        },
+                        {
+                            "key": "max_hp_ratio",
+                            "value": 1
+                        },
+                        {
+                            "key": "min_hp_ratio",
+                            "value": 0.5
+                        }
+                    ]
+                },
+                {
+                    "unlockCondition": {
+                        "phase": 1,
+                        "level": 1
+                    },
+                    "requiredPotentialRank": 0,
+                    "prefabKey": "1",
+                    "name": "달이 차면 별이 진다",
+                    "description": "감소 된 HP에 따라 공격 속도가 상승 (60% HP 감소 시 최대 공격 속도 75 상승 가능)",
+                    "rangeId": null,
+                    "blackboard": [
+                        {
+                            "key": "min_attack_speed",
+                            "value": 75
+                        },
+                        {
+                            "key": "max_attack_speed",
+                            "value": 0
+                        },
+                        {
+                            "key": "max_hp_ratio",
+                            "value": 1
+                        },
+                        {
+                            "key": "min_hp_ratio",
+                            "value": 0.4
+                        }
+                    ]
+                },
+                {
+                    "unlockCondition": {
+                        "phase": 2,
+                        "level": 1
+                    },
+                    "requiredPotentialRank": 0,
+                    "prefabKey": "1",
+                    "name": "달이 차면 별이 진다",
+                    "description": "감소 된 HP에 따라 공격 속도가 상승 (70% HP 감소 시 최대 공격 속도 100 상승 가능)",
+                    "rangeId": null,
+                    "blackboard": [
+                        {
+                            "key": "min_attack_speed",
+                            "value": 100
+                        },
+                        {
+                            "key": "max_attack_speed",
+                            "value": 0
+                        },
+                        {
+                            "key": "max_hp_ratio",
+                            "value": 1
+                        },
+                        {
+                            "key": "min_hp_ratio",
+                            "value": 0.3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "candidates": [
+                {
+                    "unlockCondition": {
+                        "phase": 2,
+                        "level": 1
+                    },
+                    "requiredPotentialRank": 0,
+                    "prefabKey": "2",
+                    "name": "운주유악",
+                    "description": "적을 저지하고 있지 않을 때 매초마다 60 HP 회복",
+                    "rangeId": null,
+                    "blackboard": [
+                        {
+                            "key": "hp_recovery_per_sec",
+                            "value": 60
+                        }
+                    ]
+                },
+                {
+                    "unlockCondition": {
+                        "phase": 2,
+                        "level": 1
+                    },
+                    "requiredPotentialRank": 4,
+                    "prefabKey": "2",
+                    "name": "운주유악",
+                    "description": "적을 저지하고 있지 않을 때 매초마다 70 HP<@ba.talpu>(+10)</> 회복",
+                    "rangeId": null,
+                    "blackboard": [
+                        {
+                            "key": "hp_recovery_per_sec",
+                            "value": 70
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "potentialRanks": [
+        {
+            "type": 0,
+            "description": "배치 코스트 -1",
+            "buff": {
+                "attributes": {
+                    "abnormalFlags": null,
+                    "abnormalImmunes": null,
+                    "abnormalAntis": null,
+                    "abnormalCombos": null,
+                    "abnormalComboImmunes": null,
+                    "attributeModifiers": [
+                        {
+                            "attributeType": 4,
+                            "formulaItem": 0,
+                            "value": -1,
+                            "loadFromBlackboard": false,
+                            "fetchBaseValueFromSourceEntity": false
+                        }
+                    ]
+                }
+            },
+            "equivalentCost": null
+        },
+        {
+            "type": 0,
+            "description": "재배치 시간 -4초",
+            "buff": {
+                "attributes": {
+                    "abnormalFlags": null,
+                    "abnormalImmunes": null,
+                    "abnormalAntis": null,
+                    "abnormalCombos": null,
+                    "abnormalComboImmunes": null,
+                    "attributeModifiers": [
+                        {
+                            "attributeType": 21,
+                            "formulaItem": 0,
+                            "value": -4,
+                            "loadFromBlackboard": false,
+                            "fetchBaseValueFromSourceEntity": false
+                        }
+                    ]
+                }
+            },
+            "equivalentCost": null
+        },
+        {
+            "type": 0,
+            "description": "공격력 +26",
+            "buff": {
+                "attributes": {
+                    "abnormalFlags": null,
+                    "abnormalImmunes": null,
+                    "abnormalAntis": null,
+                    "abnormalCombos": null,
+                    "abnormalComboImmunes": null,
+                    "attributeModifiers": [
+                        {
+                            "attributeType": 1,
+                            "formulaItem": 0,
+                            "value": 26,
+                            "loadFromBlackboard": false,
+                            "fetchBaseValueFromSourceEntity": false
+                        }
+                    ]
+                }
+            },
+            "equivalentCost": null
+        },
+        {
+            "type": 1,
+            "description": "제2재능 강화",
+            "buff": null,
+            "equivalentCost": null
+        },
+        {
+            "type": 0,
+            "description": "배치 코스트 -1",
+            "buff": {
+                "attributes": {
+                    "abnormalFlags": null,
+                    "abnormalImmunes": null,
+                    "abnormalAntis": null,
+                    "abnormalCombos": null,
+                    "abnormalComboImmunes": null,
+                    "attributeModifiers": [
+                        {
+                            "attributeType": 4,
+                            "formulaItem": 0,
+                            "value": -1,
+                            "loadFromBlackboard": false,
+                            "fetchBaseValueFromSourceEntity": false
+                        }
+                    ]
+                }
+            },
+            "equivalentCost": null
+        }
+    ],
+    "favorKeyFrames": [
+        {
+            "level": 0,
+            "data": {
+                "maxHp": 0,
+                "atk": 0,
+                "def": 0,
+                "magicResistance": 0,
+                "cost": 0,
+                "blockCnt": 0,
+                "moveSpeed": 0,
+                "attackSpeed": 0,
+                "baseAttackTime": 0,
+                "respawnTime": 0,
+                "hpRecoveryPerSec": 0,
+                "spRecoveryPerSec": 0,
+                "maxDeployCount": 0,
+                "maxDeckStackCnt": 0,
+                "tauntLevel": 0,
+                "massLevel": 0,
+                "baseForceLevel": 0,
+                "stunImmune": false,
+                "silenceImmune": false,
+                "sleepImmune": false
+            }
+        },
+        {
+            "level": 50,
+            "data": {
+                "maxHp": 400,
+                "atk": 70,
+                "def": 0,
+                "magicResistance": 0,
+                "cost": 0,
+                "blockCnt": 0,
+                "moveSpeed": 0,
+                "attackSpeed": 0,
+                "baseAttackTime": 0,
+                "respawnTime": 0,
+                "hpRecoveryPerSec": 0,
+                "spRecoveryPerSec": 0,
+                "maxDeployCount": 0,
+                "maxDeckStackCnt": 0,
+                "tauntLevel": 0,
+                "massLevel": 0,
+                "baseForceLevel": 0,
+                "stunImmune": false,
+                "silenceImmune": false,
+                "sleepImmune": false
+            }
+        }
+    ],
+    "allSkillLvlup": [
+        {
+            "unlockCond": {
+                "phase": 0,
+                "level": 1
+            },
+            "lvlUpCost": [
+                {
+                    "id": "3301",
+                    "count": 5,
+                    "type": "MATERIAL"
+                }
+            ]
+        },
+        {
+            "unlockCond": {
+                "phase": 0,
+                "level": 1
+            },
+            "lvlUpCost": [
+                {
+                    "id": "3301",
+                    "count": 5,
+                    "type": "MATERIAL"
+                },
+                {
+                    "id": "30031",
+                    "count": 6,
+                    "type": "MATERIAL"
+                },
+                {
+                    "id": "30041",
+                    "count": 4,
+                    "type": "MATERIAL"
+                }
+            ]
+        },
+        {
+            "unlockCond": {
+                "phase": 0,
+                "level": 1
+            },
+            "lvlUpCost": [
+                {
+                    "id": "3302",
+                    "count": 8,
+                    "type": "MATERIAL"
+                },
+                {
+                    "id": "30042",
+                    "count": 4,
+                    "type": "MATERIAL"
+                }
+            ]
+        },
+        {
+            "unlockCond": {
+                "phase": 1,
+                "level": 1
+            },
+            "lvlUpCost": [
+                {
+                    "id": "3302",
+                    "count": 8,
+                    "type": "MATERIAL"
+                },
+                {
+                    "id": "30052",
+                    "count": 4,
+                    "type": "MATERIAL"
+                },
+                {
+                    "id": "30012",
+                    "count": 5,
+                    "type": "MATERIAL"
+                }
+            ]
+        },
+        {
+            "unlockCond": {
+                "phase": 1,
+                "level": 1
+            },
+            "lvlUpCost": [
+                {
+                    "id": "3302",
+                    "count": 8,
+                    "type": "MATERIAL"
+                },
+                {
+                    "id": "30083",
+                    "count": 6,
+                    "type": "MATERIAL"
+                }
+            ]
+        },
+        {
+            "unlockCond": {
+                "phase": 1,
+                "level": 1
+            },
+            "lvlUpCost": [
+                {
+                    "id": "3303",
+                    "count": 8,
+                    "type": "MATERIAL"
+                },
+                {
+                    "id": "30093",
+                    "count": 4,
+                    "type": "MATERIAL"
+                },
+                {
+                    "id": "30013",
+                    "count": 5,
+                    "type": "MATERIAL"
+                }
+            ]
+        }
+    ]
+}

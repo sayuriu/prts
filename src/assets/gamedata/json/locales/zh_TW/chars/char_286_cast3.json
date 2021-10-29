@@ -1,0 +1,327 @@
+{
+    "name": "Castle-3",
+    "description": "能夠阻擋一個敵人，且不受<@ba.kw>部署數量</>限制，但再部署時間極長",
+    "canUseGeneralPotentialItem": false,
+    "potentialItemId": "p_char_286_cast3",
+    "nationId": "rhodes",
+    "groupId": null,
+    "teamId": null,
+    "displayNumber": "RCX3",
+    "tokenKey": null,
+    "appellation": "Castle-3",
+    "position": "MELEE",
+    "tagList": [
+        "支援"
+    ],
+    "itemUsage": "羅德島近衛機器人Castle-3，被工程師可露希爾派遣來執行戰地作戰任務。",
+    "itemDesc": "他知道自己是一台機器人。",
+    "itemObtainApproach": "招募尋訪",
+    "isNotObtainable": false,
+    "isSpChar": false,
+    "maxPotentialLevel": 5,
+    "rarity": 0,
+    "profession": "WARRIOR",
+    "trait": null,
+    "phases": [
+        {
+            "characterPrefabKey": "char_286_cast3",
+            "rangeId": "1-1",
+            "maxLevel": 30,
+            "attributesKeyFrames": [
+                {
+                    "level": 1,
+                    "data": {
+                        "maxHp": 862,
+                        "atk": 221,
+                        "def": 63,
+                        "magicResistance": 0,
+                        "cost": 3,
+                        "blockCnt": 1,
+                        "moveSpeed": 1,
+                        "attackSpeed": 100,
+                        "baseAttackTime": 1.5,
+                        "respawnTime": 200,
+                        "hpRecoveryPerSec": 0,
+                        "spRecoveryPerSec": 1,
+                        "maxDeployCount": 1,
+                        "maxDeckStackCnt": 0,
+                        "tauntLevel": 0,
+                        "massLevel": 0,
+                        "baseForceLevel": 0,
+                        "stunImmune": false,
+                        "silenceImmune": false,
+                        "sleepImmune": false
+                    }
+                },
+                {
+                    "level": 30,
+                    "data": {
+                        "maxHp": 1106,
+                        "atk": 316,
+                        "def": 90,
+                        "magicResistance": 0,
+                        "cost": 3,
+                        "blockCnt": 1,
+                        "moveSpeed": 1,
+                        "attackSpeed": 100,
+                        "baseAttackTime": 1.5,
+                        "respawnTime": 200,
+                        "hpRecoveryPerSec": 0,
+                        "spRecoveryPerSec": 1,
+                        "maxDeployCount": 1,
+                        "maxDeckStackCnt": 0,
+                        "tauntLevel": 0,
+                        "massLevel": 0,
+                        "baseForceLevel": 0,
+                        "stunImmune": false,
+                        "silenceImmune": false,
+                        "sleepImmune": false
+                    }
+                }
+            ],
+            "evolveCost": null
+        }
+    ],
+    "skills": [],
+    "talents": [
+        {
+            "candidates": [
+                {
+                    "unlockCondition": {
+                        "phase": 0,
+                        "level": 1
+                    },
+                    "requiredPotentialRank": 0,
+                    "prefabKey": "1",
+                    "name": "戰術整理·I",
+                    "description": "部署後10秒內所有友方【近戰位】單位的攻擊力和防禦力+10%",
+                    "rangeId": null,
+                    "blackboard": [
+                        {
+                            "key": "duration",
+                            "value": 10
+                        },
+                        {
+                            "key": "atk",
+                            "value": 0.1
+                        },
+                        {
+                            "key": "def",
+                            "value": 0.1
+                        }
+                    ]
+                },
+                {
+                    "unlockCondition": {
+                        "phase": 0,
+                        "level": 1
+                    },
+                    "requiredPotentialRank": 1,
+                    "prefabKey": "1",
+                    "name": "戰術整理·II",
+                    "description": "部署後12秒內所有友方【近戰位】單位的攻擊力和防禦力+12%",
+                    "rangeId": null,
+                    "blackboard": [
+                        {
+                            "key": "duration",
+                            "value": 12
+                        },
+                        {
+                            "key": "atk",
+                            "value": 0.12
+                        },
+                        {
+                            "key": "def",
+                            "value": 0.12
+                        }
+                    ]
+                },
+                {
+                    "unlockCondition": {
+                        "phase": 0,
+                        "level": 1
+                    },
+                    "requiredPotentialRank": 2,
+                    "prefabKey": "1",
+                    "name": "戰術整理·III",
+                    "description": "部署後14秒內所有友方【近戰位】單位的攻擊力和防禦力+14%",
+                    "rangeId": null,
+                    "blackboard": [
+                        {
+                            "key": "duration",
+                            "value": 14
+                        },
+                        {
+                            "key": "atk",
+                            "value": 0.14
+                        },
+                        {
+                            "key": "def",
+                            "value": 0.14
+                        }
+                    ]
+                },
+                {
+                    "unlockCondition": {
+                        "phase": 0,
+                        "level": 1
+                    },
+                    "requiredPotentialRank": 3,
+                    "prefabKey": "1",
+                    "name": "戰術整理·IV",
+                    "description": "部署後16秒內所有友方【近戰位】單位的攻擊力和防禦力+16%",
+                    "rangeId": null,
+                    "blackboard": [
+                        {
+                            "key": "duration",
+                            "value": 16
+                        },
+                        {
+                            "key": "atk",
+                            "value": 0.16
+                        },
+                        {
+                            "key": "def",
+                            "value": 0.16
+                        }
+                    ]
+                },
+                {
+                    "unlockCondition": {
+                        "phase": 0,
+                        "level": 1
+                    },
+                    "requiredPotentialRank": 4,
+                    "prefabKey": "1",
+                    "name": "戰術整理·V",
+                    "description": "部署後18秒內所有友方【近戰位】單位的攻擊力和防禦力+18%",
+                    "rangeId": null,
+                    "blackboard": [
+                        {
+                            "key": "duration",
+                            "value": 18
+                        },
+                        {
+                            "key": "atk",
+                            "value": 0.18
+                        },
+                        {
+                            "key": "def",
+                            "value": 0.18
+                        }
+                    ]
+                },
+                {
+                    "unlockCondition": {
+                        "phase": 0,
+                        "level": 1
+                    },
+                    "requiredPotentialRank": 5,
+                    "prefabKey": "1",
+                    "name": "戰術整理·VI",
+                    "description": "部署後20秒內所有友方【近戰位】單位的攻擊力和防禦力+20%",
+                    "rangeId": null,
+                    "blackboard": [
+                        {
+                            "key": "duration",
+                            "value": 20
+                        },
+                        {
+                            "key": "atk",
+                            "value": 0.2
+                        },
+                        {
+                            "key": "def",
+                            "value": 0.2
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "potentialRanks": [
+        {
+            "type": 1,
+            "description": "天賦效果加強",
+            "buff": null,
+            "equivalentCost": null
+        },
+        {
+            "type": 1,
+            "description": "天賦效果加強",
+            "buff": null,
+            "equivalentCost": null
+        },
+        {
+            "type": 1,
+            "description": "天賦效果加強",
+            "buff": null,
+            "equivalentCost": null
+        },
+        {
+            "type": 1,
+            "description": "天賦效果加強",
+            "buff": null,
+            "equivalentCost": null
+        },
+        {
+            "type": 1,
+            "description": "天賦效果加強",
+            "buff": null,
+            "equivalentCost": null
+        }
+    ],
+    "favorKeyFrames": [
+        {
+            "level": 0,
+            "data": {
+                "maxHp": 0,
+                "atk": 0,
+                "def": 0,
+                "magicResistance": 0,
+                "cost": 0,
+                "blockCnt": 0,
+                "moveSpeed": 0,
+                "attackSpeed": 0,
+                "baseAttackTime": 0,
+                "respawnTime": 0,
+                "hpRecoveryPerSec": 0,
+                "spRecoveryPerSec": 0,
+                "maxDeployCount": 0,
+                "maxDeckStackCnt": 0,
+                "tauntLevel": 0,
+                "massLevel": 0,
+                "baseForceLevel": 0,
+                "stunImmune": false,
+                "silenceImmune": false,
+                "sleepImmune": false
+            }
+        },
+        {
+            "level": 50,
+            "data": {
+                "maxHp": 200,
+                "atk": 60,
+                "def": 0,
+                "magicResistance": 0,
+                "cost": 0,
+                "blockCnt": 0,
+                "moveSpeed": 0,
+                "attackSpeed": 0,
+                "baseAttackTime": 0,
+                "respawnTime": 0,
+                "hpRecoveryPerSec": 0,
+                "spRecoveryPerSec": 0,
+                "maxDeployCount": 0,
+                "maxDeckStackCnt": 0,
+                "tauntLevel": 0,
+                "massLevel": 0,
+                "baseForceLevel": 0,
+                "stunImmune": false,
+                "silenceImmune": false,
+                "sleepImmune": false
+            }
+        }
+    ],
+    "allSkillLvlup": []
+}

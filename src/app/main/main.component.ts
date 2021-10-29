@@ -38,7 +38,7 @@ export class MainComponent implements OnInit {
 		const data = GitUtils.loadFromCache();
 		if (data && !fetchNewest)
 		{
-			document.getElementById('latest-commit-text')!.innerHTML = (await GitUtils.generateHTML(data as Tuple7Array))(ngTag);
+			document.getElementById('latest-commit-text')!.innerHTML = GitUtils.generateHTML(data as Tuple7Array<string>)(ngTag);
 		}
 		else
 		{
@@ -49,7 +49,7 @@ export class MainComponent implements OnInit {
 				const { sha, author: { name, date, url: auURL, username }, url, message: cMessage } = res;
 				setTimeout(async () => {
 					clearInterval(inv);
-					document.getElementById('latest-commit-text')!.innerHTML = (await GitUtils.generateHTML([cMessage, date, sha, url, name, username, auURL] as Tuple7Array))(ngTag) as string;
+					document.getElementById('latest-commit-text')!.innerHTML = GitUtils.generateHTML([cMessage, date, sha, url, name, username, auURL] as Tuple7Array<string>)(ngTag) as string;
 				}, 1500);
 				// this.commitString = message;
 				GitUtils.saveMultipleCacheStorageAttr([
@@ -75,7 +75,7 @@ export class MainComponent implements OnInit {
 
 }
 
-type Tuple7Array = [string, string, string, string, string, string, string];
+type Tuple7Array<T> = [T, T, T, T, T, T, T];
 
 class GitUtils {
 	static readonly CACHE_TIMEOUT_MS = 600000;
@@ -118,11 +118,11 @@ class GitUtils {
 			const age = Date.now() - new Date(cTimestamp).getTime();
 			if (Number.isNaN(age) || age > GitUtils.CACHE_TIMEOUT_MS)
 				return null;
-			return [ cMessage, cDate, cHash, cURL, cAuthorName, cAuthorUsrname, cAuthorURL ] as Tuple7Array;
+			return [ cMessage, cDate, cHash, cURL, cAuthorName, cAuthorUsrname, cAuthorURL ] as Tuple7Array<string>;
 		}
 		return null;
 	}
-	static async generateHTML(data: Tuple7Array)
+	static generateHTML(data: Tuple7Array<string>)
 	{
 		const [cMessage, cDate, cHash, cURL, cAuthorName, cAuthorUsrname, cAuthorURL] = data;
 		return (ngTag: string) => [

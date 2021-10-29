@@ -1,0 +1,351 @@
+{
+    "name": "THRM-EX",
+    "description": "공격을 진행하지 않고,  <@ba.kw>배치 인원 수</> 제약을 받지 않으나,  재배치 시간이 매우 길다",
+    "canUseGeneralPotentialItem": false,
+    "potentialItemId": "p_char_376_therex",
+    "nationId": "rhodes",
+    "groupId": null,
+    "teamId": null,
+    "displayNumber": "RCX4",
+    "tokenKey": null,
+    "appellation": "Thermal-EX",
+    "position": "MELEE",
+    "tagList": [
+        "누커"
+    ],
+    "itemUsage": "로도스 아일랜드 스페셜리스트 로봇 Thermal-EX (약칭 THRM-EX). 엔지니어 클로저가 전장에서의 전투 임무를 위해 파견하였습니다.",
+    "itemDesc": "그도 자신이 로봇이라는 사실을 인지하고 있다.",
+    "itemObtainApproach": "인재 채용",
+    "isNotObtainable": false,
+    "isSpChar": false,
+    "maxPotentialLevel": 5,
+    "rarity": 0,
+    "profession": "SPECIAL",
+    "trait": null,
+    "phases": [
+        {
+            "characterPrefabKey": "char_376_therex",
+            "rangeId": "x-4",
+            "maxLevel": 30,
+            "attributesKeyFrames": [
+                {
+                    "level": 1,
+                    "data": {
+                        "maxHp": 1154,
+                        "atk": 208,
+                        "def": 354,
+                        "magicResistance": 50,
+                        "cost": 3,
+                        "blockCnt": 0,
+                        "moveSpeed": 1,
+                        "attackSpeed": 100,
+                        "baseAttackTime": 0.93,
+                        "respawnTime": 200,
+                        "hpRecoveryPerSec": 0,
+                        "spRecoveryPerSec": 1,
+                        "maxDeployCount": 1,
+                        "maxDeckStackCnt": 0,
+                        "tauntLevel": 0,
+                        "massLevel": 0,
+                        "baseForceLevel": 0,
+                        "stunImmune": false,
+                        "silenceImmune": false,
+                        "sleepImmune": false
+                    }
+                },
+                {
+                    "level": 30,
+                    "data": {
+                        "maxHp": 1443,
+                        "atk": 260,
+                        "def": 443,
+                        "magicResistance": 50,
+                        "cost": 3,
+                        "blockCnt": 0,
+                        "moveSpeed": 1,
+                        "attackSpeed": 100,
+                        "baseAttackTime": 0.93,
+                        "respawnTime": 200,
+                        "hpRecoveryPerSec": 0,
+                        "spRecoveryPerSec": 1,
+                        "maxDeployCount": 1,
+                        "maxDeckStackCnt": 0,
+                        "tauntLevel": 0,
+                        "massLevel": 0,
+                        "baseForceLevel": 0,
+                        "stunImmune": false,
+                        "silenceImmune": false,
+                        "sleepImmune": false
+                    }
+                }
+            ],
+            "evolveCost": null
+        }
+    ],
+    "skills": [],
+    "talents": [
+        {
+            "candidates": [
+                {
+                    "unlockCondition": {
+                        "phase": 0,
+                        "level": 1
+                    },
+                    "requiredPotentialRank": 0,
+                    "prefabKey": "1",
+                    "name": "지연 기폭 I",
+                    "description": "배치되고 3초 후, 주위 8칸 내의 모든 적에게 공격력 300%의 물리 대미지를 주고, 8초간 <$ba.fragile>취약</> 상태(피격 대미지 10% 상승)로 만든 뒤, 자신은 전장에서 강제 퇴각한다",
+                    "rangeId": null,
+                    "blackboard": [
+                        {
+                            "key": "interval",
+                            "value": 3
+                        },
+                        {
+                            "key": "damage_by_atk_scale",
+                            "value": 3
+                        },
+                        {
+                            "key": "weak[limit]",
+                            "value": 8
+                        },
+                        {
+                            "key": "damage_scale",
+                            "value": 1.1
+                        }
+                    ]
+                },
+                {
+                    "unlockCondition": {
+                        "phase": 0,
+                        "level": 1
+                    },
+                    "requiredPotentialRank": 1,
+                    "prefabKey": "1",
+                    "name": "지연 기폭 II",
+                    "description": "배치되고 3초 후, 주위 8칸 내의 모든 적에게 공격력 320%의 물리 대미지를 주고, 8초간 <$ba.fragile>취약</> 상태(피격 대미지 18% 상승)로 만든 뒤, 자신은 전장에서 강제 퇴각한다",
+                    "rangeId": null,
+                    "blackboard": [
+                        {
+                            "key": "interval",
+                            "value": 3
+                        },
+                        {
+                            "key": "damage_by_atk_scale",
+                            "value": 3.2
+                        },
+                        {
+                            "key": "weak[limit]",
+                            "value": 8
+                        },
+                        {
+                            "key": "damage_scale",
+                            "value": 1.18
+                        }
+                    ]
+                },
+                {
+                    "unlockCondition": {
+                        "phase": 0,
+                        "level": 1
+                    },
+                    "requiredPotentialRank": 2,
+                    "prefabKey": "1",
+                    "name": "지연 기폭 III",
+                    "description": "배치되고 3초 후, 주위 8칸 내의 모든 적에게 공격력 340%의 물리 대미지를 주고, 8초간 <$ba.fragile>취약</> 상태(피격 대미지 21% 상승)로 만든 뒤, 자신은 전장에서 강제 퇴각한다",
+                    "rangeId": null,
+                    "blackboard": [
+                        {
+                            "key": "interval",
+                            "value": 3
+                        },
+                        {
+                            "key": "damage_by_atk_scale",
+                            "value": 3.4
+                        },
+                        {
+                            "key": "weak[limit]",
+                            "value": 8
+                        },
+                        {
+                            "key": "damage_scale",
+                            "value": 1.21
+                        }
+                    ]
+                },
+                {
+                    "unlockCondition": {
+                        "phase": 0,
+                        "level": 1
+                    },
+                    "requiredPotentialRank": 3,
+                    "prefabKey": "1",
+                    "name": "지연 기폭 IV",
+                    "description": "배치되고 3초 후, 주위 8칸 내의 모든 적에게 공격력 360%의 물리 대미지를 주고, 8초간 <$ba.fragile>취약</> 상태(피격 대미지 24% 상승)로 만든 뒤, 자신은 전장에서 강제 퇴각한다",
+                    "rangeId": null,
+                    "blackboard": [
+                        {
+                            "key": "interval",
+                            "value": 3
+                        },
+                        {
+                            "key": "damage_by_atk_scale",
+                            "value": 3.6
+                        },
+                        {
+                            "key": "weak[limit]",
+                            "value": 8
+                        },
+                        {
+                            "key": "damage_scale",
+                            "value": 1.24
+                        }
+                    ]
+                },
+                {
+                    "unlockCondition": {
+                        "phase": 0,
+                        "level": 1
+                    },
+                    "requiredPotentialRank": 4,
+                    "prefabKey": "1",
+                    "name": "지연 기폭 V",
+                    "description": "배치되고 3초 후, 주위 8칸 내의 모든 적에게 공격력 380%의 물리 대미지를 주고, 8초간 <$ba.fragile>취약</> 상태(피격 대미지 27% 상승)로 만든 뒤, 자신은 전장에서 강제 퇴각한다",
+                    "rangeId": null,
+                    "blackboard": [
+                        {
+                            "key": "interval",
+                            "value": 3
+                        },
+                        {
+                            "key": "damage_by_atk_scale",
+                            "value": 3.8
+                        },
+                        {
+                            "key": "weak[limit]",
+                            "value": 8
+                        },
+                        {
+                            "key": "damage_scale",
+                            "value": 1.27
+                        }
+                    ]
+                },
+                {
+                    "unlockCondition": {
+                        "phase": 0,
+                        "level": 1
+                    },
+                    "requiredPotentialRank": 5,
+                    "prefabKey": "1",
+                    "name": "지연 기폭 VI",
+                    "description": "배치되고 3초 후, 주위 8칸 내의 모든 적에게 공격력 400%의 물리 대미지를 주고, 8초간 <$ba.fragile>취약</> 상태(피격 대미지 30% 상승)로 만든 뒤, 자신은 전장에서 강제 퇴각한다",
+                    "rangeId": null,
+                    "blackboard": [
+                        {
+                            "key": "interval",
+                            "value": 3
+                        },
+                        {
+                            "key": "damage_by_atk_scale",
+                            "value": 4
+                        },
+                        {
+                            "key": "weak[limit]",
+                            "value": 8
+                        },
+                        {
+                            "key": "damage_scale",
+                            "value": 1.3
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "potentialRanks": [
+        {
+            "type": 1,
+            "description": "재능 강화",
+            "buff": null,
+            "equivalentCost": null
+        },
+        {
+            "type": 1,
+            "description": "재능 강화",
+            "buff": null,
+            "equivalentCost": null
+        },
+        {
+            "type": 1,
+            "description": "재능 강화",
+            "buff": null,
+            "equivalentCost": null
+        },
+        {
+            "type": 1,
+            "description": "재능 강화",
+            "buff": null,
+            "equivalentCost": null
+        },
+        {
+            "type": 1,
+            "description": "재능 강화",
+            "buff": null,
+            "equivalentCost": null
+        }
+    ],
+    "favorKeyFrames": [
+        {
+            "level": 0,
+            "data": {
+                "maxHp": 0,
+                "atk": 0,
+                "def": 0,
+                "magicResistance": 0,
+                "cost": 0,
+                "blockCnt": 0,
+                "moveSpeed": 0,
+                "attackSpeed": 0,
+                "baseAttackTime": 0,
+                "respawnTime": 0,
+                "hpRecoveryPerSec": 0,
+                "spRecoveryPerSec": 0,
+                "maxDeployCount": 0,
+                "maxDeckStackCnt": 0,
+                "tauntLevel": 0,
+                "massLevel": 0,
+                "baseForceLevel": 0,
+                "stunImmune": false,
+                "silenceImmune": false,
+                "sleepImmune": false
+            }
+        },
+        {
+            "level": 50,
+            "data": {
+                "maxHp": 0,
+                "atk": 90,
+                "def": 0,
+                "magicResistance": 0,
+                "cost": 0,
+                "blockCnt": 0,
+                "moveSpeed": 0,
+                "attackSpeed": 0,
+                "baseAttackTime": 0,
+                "respawnTime": 0,
+                "hpRecoveryPerSec": 0,
+                "spRecoveryPerSec": 0,
+                "maxDeployCount": 0,
+                "maxDeckStackCnt": 0,
+                "tauntLevel": 0,
+                "massLevel": 0,
+                "baseForceLevel": 0,
+                "stunImmune": false,
+                "silenceImmune": false,
+                "sleepImmune": false
+            }
+        }
+    ],
+    "allSkillLvlup": []
+}
