@@ -1,0 +1,26 @@
+{
+	"itemId": "3113",
+	"name": "Carbon Brick",
+	"description": "Light and highly pure, it possesses excellent workability, and is instrumental to the success of our operations.",
+	"rarity": 2,
+	"iconId": "MTL_BASE_SL2",
+	"overrideBkg": null,
+	"stackIconId": null,
+	"sortId": 200007,
+	"usage": "A carbon brick used for the facility development of Rhodes Island.",
+	"obtainApproach": null,
+	"classifyType": "NORMAL",
+	"itemType": "MATERIAL",
+	"stageDropList": [
+		{
+			"stageId": "wk_armor_1",
+			"occPer": "ALWAYS"
+		}
+	],
+	"buildingProductList": [
+		{
+			"roomType": "WORKSHOP",
+			"formulaId": "4"
+		}
+	]
+}

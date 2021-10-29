@@ -1,0 +1,30 @@
+{
+	"itemId": "30064",
+	"name": "개량 장치",
+	"description": "독자적으로 개조를 거듭한 장치. 용량을 최대한으로 확장했다. 성능이 대폭 향상되었으나 안정성은 약간 떨어졌다. 제작자의 사활을 건 열의와 집착이 절실하게 느껴진다.",
+	"rarity": 3,
+	"iconId": "MTL_SL_BOSS4",
+	"overrideBkg": null,
+	"stackIconId": null,
+	"sortId": 100016,
+	"usage": "최고급 기계장치. 바이폴라 나노플레이크 칩의 재료 중 하나로써, 각종 강화에 사용된다. ",
+	"obtainApproach": null,
+	"classifyType": "MATERIAL",
+	"itemType": "MATERIAL",
+	"stageDropList": [
+		{
+			"stageId": "main_04-10",
+			"occPer": "SOMETIMES"
+		},
+		{
+			"stageId": "main_07-07",
+			"occPer": "SOMETIMES"
+		}
+	],
+	"buildingProductList": [
+		{
+			"roomType": "WORKSHOP",
+			"formulaId": "21"
+		}
+	]
+}

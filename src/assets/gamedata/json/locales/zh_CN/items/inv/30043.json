@@ -1,0 +1,66 @@
+{
+	"itemId": "30043",
+	"name": "异铁组",
+	"description": "加工过程中，多块异铁在极少数非人为因素影响下，偶然产生的异铁组合，硬度下降，纯度进一步上升。",
+	"rarity": 2,
+	"iconId": "MTL_SL_IRON3",
+	"overrideBkg": null,
+	"stackIconId": null,
+	"sortId": 100029,
+	"usage": "珍贵的工业材料。可用于多种强化场合，也常作为制造站合成项目的原料。",
+	"obtainApproach": null,
+	"classifyType": "MATERIAL",
+	"itemType": "MATERIAL",
+	"stageDropList": [
+		{
+			"stageId": "act9mini_06",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "act15d0_08",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "act13d0_08",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "act10d5_06",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "act9d0_08",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "main_02-08",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_05-05",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_06-09",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_07-16",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_09-15",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "sub_04-1-1",
+			"occPer": "OFTEN"
+		}
+	],
+	"buildingProductList": [
+		{
+			"roomType": "WORKSHOP",
+			"formulaId": "26"
+		}
+	]
+}

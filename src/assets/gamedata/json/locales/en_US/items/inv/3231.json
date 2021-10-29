@@ -1,0 +1,26 @@
+{
+	"itemId": "3231",
+	"name": "Defender Chip",
+	"description": "A material obtained after hard training. It seems to be especially helpful for rookie Defender Operators.",
+	"rarity": 2,
+	"iconId": "MTL_ASC_TNK1",
+	"overrideBkg": null,
+	"stackIconId": null,
+	"sortId": 400020,
+	"usage": "A memory chip that records special trainings. Can be used to Promote Defender Operators.",
+	"obtainApproach": null,
+	"classifyType": "MATERIAL",
+	"itemType": "MATERIAL",
+	"stageDropList": [
+		{
+			"stageId": "pro_a_1",
+			"occPer": "ALWAYS"
+		}
+	],
+	"buildingProductList": [
+		{
+			"roomType": "WORKSHOP",
+			"formulaId": "39"
+		}
+	]
+}

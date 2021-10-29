@@ -1,0 +1,31 @@
+{
+	"medalId": "medal_player_recruitcount_03",
+	"medalName": "公開求人勲章・Ⅲ",
+	"medalType": "playerMedal",
+	"slotId": 13,
+	"preMedalIdList": [],
+	"rarity": 2,
+	"template": "RecruitCount",
+	"unlockParam": [
+		"300"
+	],
+	"getMethod": "公開求人を300回行う。",
+	"description": "貴殿は素晴らしい人材を広く招集した。\n所属オペレーターの伝手を使えば、オペレーター候補者も倍に増えるだろう。",
+	"advancedMedal": null,
+	"originMedal": null,
+	"activeTime": -1,
+	"getTime": -1,
+	"medalRewardGroup": [
+		{
+			"groupId": "default",
+			"slotId": -1,
+			"itemList": [
+				{
+					"id": "voucher_recruitR5_pick2",
+					"count": 1,
+					"type": "VOUCHER_PICK"
+				}
+			]
+		}
+	]
+}

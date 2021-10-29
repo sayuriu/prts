@@ -1,0 +1,26 @@
+{
+	"itemId": "3282",
+	"name": "中級特殊SoC",
+	"description": "特訓で頑張って手に入れた素材。まるでだんだん成長してきた特殊オペレーターを特別に助けてくれるかのようだ。",
+	"rarity": 3,
+	"iconId": "MTL_ASC_SPC2",
+	"overrideBkg": null,
+	"stackIconId": null,
+	"sortId": 400017,
+	"usage": "応用訓練プログラムを記録した集積回路。特殊オペレーターの昇進に必要。",
+	"obtainApproach": null,
+	"classifyType": "MATERIAL",
+	"itemType": "MATERIAL",
+	"stageDropList": [
+		{
+			"stageId": "pro_d_1",
+			"occPer": "ALWAYS"
+		}
+	],
+	"buildingProductList": [
+		{
+			"roomType": "WORKSHOP",
+			"formulaId": "54"
+		}
+	]
+}

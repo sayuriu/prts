@@ -1,0 +1,30 @@
+{
+	"itemId": "30034",
+	"name": "上級エステル",
+	"description": "精練後の材料。商品としての主な顧客は原材料に厳しい組織と研究機関。もしかすると次世代素材の試金石と言えるのかもしれない。",
+	"rarity": 3,
+	"iconId": "MTL_SL_RUSH4",
+	"overrideBkg": null,
+	"stackIconId": null,
+	"sortId": 100020,
+	"usage": "工業での製造に不可欠な上級エステル。昇進やスキル強化に必要な素材。",
+	"obtainApproach": null,
+	"classifyType": "MATERIAL",
+	"itemType": "MATERIAL",
+	"stageDropList": [
+		{
+			"stageId": "main_03-08",
+			"occPer": "SOMETIMES"
+		},
+		{
+			"stageId": "main_06-04",
+			"occPer": "SOMETIMES"
+		}
+	],
+	"buildingProductList": [
+		{
+			"roomType": "WORKSHOP",
+			"formulaId": "30"
+		}
+	]
+}

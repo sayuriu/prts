@@ -1,0 +1,26 @@
+{
+	"itemId": "3212",
+	"name": "中級先鋒SoC",
+	"description": "特訓で頑張って手に入れた素材。まるでだんだん成長してきた先鋒オペレーターを特別に助けてくれるかのようだ。",
+	"rarity": 3,
+	"iconId": "MTL_ASC_PIO2",
+	"overrideBkg": null,
+	"stackIconId": null,
+	"sortId": 400010,
+	"usage": "応用訓練プログラムを記録した集積回路。先鋒オペレーターの昇進に必要。",
+	"obtainApproach": null,
+	"classifyType": "MATERIAL",
+	"itemType": "MATERIAL",
+	"stageDropList": [
+		{
+			"stageId": "pro_c_1",
+			"occPer": "ALWAYS"
+		}
+	],
+	"buildingProductList": [
+		{
+			"roomType": "WORKSHOP",
+			"formulaId": "51"
+		}
+	]
+}

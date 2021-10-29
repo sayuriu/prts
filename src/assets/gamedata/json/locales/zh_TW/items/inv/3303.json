@@ -1,0 +1,26 @@
+{
+	"itemId": "3303",
+	"name": "技巧概要·卷3",
+	"description": "記錄著幹員們所需的專家級技藝，需要特定領域長久的經驗累積才能一窺其中的奧妙。",
+	"rarity": 3,
+	"iconId": "MTL_SKILL3",
+	"overrideBkg": null,
+	"stackIconId": null,
+	"sortId": 80001,
+	"usage": "記載了專家技巧的書籍，用於升級幹員技能。",
+	"obtainApproach": null,
+	"classifyType": "MATERIAL",
+	"itemType": "MATERIAL",
+	"stageDropList": [
+		{
+			"stageId": "wk_fly_1",
+			"occPer": "ALWAYS"
+		}
+	],
+	"buildingProductList": [
+		{
+			"roomType": "WORKSHOP",
+			"formulaId": "38"
+		}
+	]
+}

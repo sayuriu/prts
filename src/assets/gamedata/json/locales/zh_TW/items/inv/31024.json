@@ -1,0 +1,34 @@
+{
+	"itemId": "31024",
+	"name": "熾合金塊",
+	"description": "由熾合金進一步加工得到的合金材料。歷經複雜的工業處理，保證了一定溫度下固液混合態的穩定，在尖端電子工業的產品研發中有著無可替代的作用。",
+	"rarity": 3,
+	"iconId": "MTL_SL_IAM4",
+	"overrideBkg": null,
+	"stackIconId": null,
+	"sortId": 100038,
+	"usage": "產量稀少的電子工業用特殊高熔點合金。可用於多種強化場合。",
+	"obtainApproach": null,
+	"classifyType": "MATERIAL",
+	"itemType": "MATERIAL",
+	"stageDropList": [
+		{
+			"stageId": "main_06-11",
+			"occPer": "SOMETIMES"
+		},
+		{
+			"stageId": "main_08-07",
+			"occPer": "SOMETIMES"
+		},
+		{
+			"stageId": "sub_05-4-2",
+			"occPer": "SOMETIMES"
+		}
+	],
+	"buildingProductList": [
+		{
+			"roomType": "WORKSHOP",
+			"formulaId": "55"
+		}
+	]
+}

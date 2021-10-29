@@ -1,0 +1,30 @@
+{
+	"itemId": "30044",
+	"name": "異鐵塊",
+	"description": "在極為苛刻的條件下，由多套異鐵組熔鑄成型的異鐵塊。已知異鐵材料中最為穩定也最為稀少的形式，作為原材料，足以打破現有製品運用領域的疆界。",
+	"rarity": 3,
+	"iconId": "MTL_SL_IRON4",
+	"overrideBkg": null,
+	"stackIconId": null,
+	"sortId": 100028,
+	"usage": "價值高昂的工業材料。可用於多種強化場合，也常作為製作聚合劑的原料之一。",
+	"obtainApproach": null,
+	"classifyType": "MATERIAL",
+	"itemType": "MATERIAL",
+	"stageDropList": [
+		{
+			"stageId": "main_05-05",
+			"occPer": "SOMETIMES"
+		},
+		{
+			"stageId": "sub_04-1-1",
+			"occPer": "SOMETIMES"
+		}
+	],
+	"buildingProductList": [
+		{
+			"roomType": "WORKSHOP",
+			"formulaId": "27"
+		}
+	]
+}

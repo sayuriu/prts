@@ -1,0 +1,26 @@
+{
+	"itemId": "3303",
+	"name": "Skill Summary - 3",
+	"description": "It records high level skills needed by Operators. It takes a depth of experience in relevant fields to understand them.",
+	"rarity": 3,
+	"iconId": "MTL_SKILL3",
+	"overrideBkg": null,
+	"stackIconId": null,
+	"sortId": 80001,
+	"usage": "A book that records advanced tactics. Can be used to upgrade Operator skills.",
+	"obtainApproach": null,
+	"classifyType": "MATERIAL",
+	"itemType": "MATERIAL",
+	"stageDropList": [
+		{
+			"stageId": "wk_fly_1",
+			"occPer": "ALWAYS"
+		}
+	],
+	"buildingProductList": [
+		{
+			"roomType": "WORKSHOP",
+			"formulaId": "38"
+		}
+	]
+}

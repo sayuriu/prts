@@ -1,0 +1,30 @@
+{
+	"itemId": "31034",
+	"name": "結晶回路",
+	"description": "現代の源石電子工業の要となる装置。テラの諸国で使用される電子機器の大部分に組み込まれている。結晶回路を大量に使用していることも、テラにおける工業の現代化が進んでいることを示している。",
+	"rarity": 3,
+	"iconId": "MTL_SL_OC4",
+	"overrideBkg": null,
+	"stackIconId": null,
+	"sortId": 100041,
+	"usage": "源石工業において重要な部品。昇進やスキル強化に必要な素材。結晶制御装置を製作する際に使用される。",
+	"obtainApproach": null,
+	"classifyType": "MATERIAL",
+	"itemType": "MATERIAL",
+	"stageDropList": [
+		{
+			"stageId": "main_08-13",
+			"occPer": "SOMETIMES"
+		},
+		{
+			"stageId": "sub_05-4-3",
+			"occPer": "SOMETIMES"
+		}
+	],
+	"buildingProductList": [
+		{
+			"roomType": "WORKSHOP",
+			"formulaId": "58"
+		}
+	]
+}

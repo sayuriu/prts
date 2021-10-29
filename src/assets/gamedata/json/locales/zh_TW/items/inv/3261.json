@@ -1,0 +1,26 @@
+{
+	"itemId": "3261",
+	"name": "醫療晶片",
+	"description": "透過努力特訓得來的素材，似乎能對資歷尚淺的醫療幹員有特別的幫助。",
+	"rarity": 2,
+	"iconId": "MTL_ASC_MED1",
+	"overrideBkg": null,
+	"stackIconId": null,
+	"sortId": 400022,
+	"usage": "透過記錄特殊訓練獲得的存儲晶片，有助於滿足醫療幹員在晉升時的強化需要。",
+	"obtainApproach": null,
+	"classifyType": "MATERIAL",
+	"itemType": "MATERIAL",
+	"stageDropList": [
+		{
+			"stageId": "pro_a_1",
+			"occPer": "ALWAYS"
+		}
+	],
+	"buildingProductList": [
+		{
+			"roomType": "WORKSHOP",
+			"formulaId": "40"
+		}
+	]
+}

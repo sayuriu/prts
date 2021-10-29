@@ -1,0 +1,30 @@
+{
+	"itemId": "30054",
+	"name": "아케톤 팩",
+	"description": "엔지니어 오퍼레이터들의 민감한 처리를 거쳐야만 얻을 수 있는 대량의 실험용 불안정성 케톤 제제. 고급 공업 재료인 만큼 아주 조심스럽게 다루어야 한다.",
+	"rarity": 3,
+	"iconId": "MTL_SL_KETONE4",
+	"overrideBkg": null,
+	"stackIconId": null,
+	"sortId": 100032,
+	"usage": "대량의 공업용 유기 화합물. 제조소에서 합성 재료로 쓰이며 각종 강화에 사용된다.",
+	"obtainApproach": null,
+	"classifyType": "MATERIAL",
+	"itemType": "MATERIAL",
+	"stageDropList": [
+		{
+			"stageId": "main_04-05",
+			"occPer": "SOMETIMES"
+		},
+		{
+			"stageId": "main_05-08",
+			"occPer": "SOMETIMES"
+		}
+	],
+	"buildingProductList": [
+		{
+			"roomType": "WORKSHOP",
+			"formulaId": "24"
+		}
+	]
+}

@@ -1,0 +1,26 @@
+{
+	"itemId": "3212",
+	"name": "先锋芯片组",
+	"description": "通过努力特训得来的素材，似乎能对日渐成熟的先锋干员有特别的指导。",
+	"rarity": 3,
+	"iconId": "MTL_ASC_PIO2",
+	"overrideBkg": null,
+	"stackIconId": null,
+	"sortId": 400010,
+	"usage": "通过记录特殊训练获得的存储芯片组，有助于满足先锋干员在晋升时的强化需要。",
+	"obtainApproach": null,
+	"classifyType": "MATERIAL",
+	"itemType": "MATERIAL",
+	"stageDropList": [
+		{
+			"stageId": "pro_c_1",
+			"occPer": "ALWAYS"
+		}
+	],
+	"buildingProductList": [
+		{
+			"roomType": "WORKSHOP",
+			"formulaId": "51"
+		}
+	]
+}

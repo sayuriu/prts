@@ -1,0 +1,34 @@
+{
+	"itemId": "2002",
+	"name": "初級作戦記録",
+	"description": "劣悪な環境下での行動は命を落とす可能性がある。もし十分な準備が出来れば、助かる命が増えるかもしれない。\n多くの戦闘の映像と詳細なデータを分析した資料が記録されている。3時間のこぼれ話とインタビューのおまけつき。",
+	"rarity": 2,
+	"iconId": "sprite_exp_card_t2",
+	"overrideBkg": null,
+	"stackIconId": "sprite_exp_card_stack_t2",
+	"sortId": 70003,
+	"usage": "作戦映像を記録した情報記憶装置。使用するとオペレーターの経験値が少し増加する。",
+	"obtainApproach": null,
+	"classifyType": "MATERIAL",
+	"itemType": "CARD_EXP",
+	"stageDropList": [
+		{
+			"stageId": "wk_kc_1",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "main_03-05",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "sub_02-10",
+			"occPer": "ALWAYS"
+		}
+	],
+	"buildingProductList": [
+		{
+			"roomType": "MANUFACTURE",
+			"formulaId": "2"
+		}
+	]
+}

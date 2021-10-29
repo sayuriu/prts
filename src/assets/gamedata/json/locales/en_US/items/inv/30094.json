@@ -1,0 +1,30 @@
+{
+	"itemId": "30094",
+	"name": "Grindstone Pentahydrate",
+	"description": "Compared to normal Grindstone, this tool has an even more stable structure. It is highly non-reactive.",
+	"rarity": 3,
+	"iconId": "MTL_SL_PG2",
+	"overrideBkg": null,
+	"stackIconId": null,
+	"sortId": 100008,
+	"usage": "An advanced grindstone used in the finish machining of weapon parts. Can be used for a variety of upgrades and the synthesis of D32 Steel.",
+	"obtainApproach": null,
+	"classifyType": "MATERIAL",
+	"itemType": "MATERIAL",
+	"stageDropList": [
+		{
+			"stageId": "main_04-08",
+			"occPer": "SOMETIMES"
+		},
+		{
+			"stageId": "main_07-15",
+			"occPer": "SOMETIMES"
+		}
+	],
+	"buildingProductList": [
+		{
+			"roomType": "WORKSHOP",
+			"formulaId": "16"
+		}
+	]
+}

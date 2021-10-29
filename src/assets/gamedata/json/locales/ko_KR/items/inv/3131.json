@@ -1,0 +1,21 @@
+{
+	"itemId": "3131",
+	"name": "초급건설자재",
+	"description": "시설을 건축할 때 적절한 처리가 이루어지지 않으면 하중을 받는 부위가 무너져 돌이킬 수 없는 사고가 벌어질 수 있다. 시공 전에 보강재를 충분히 활용하여 방의 안전을 확보하자.",
+	"rarity": 1,
+	"iconId": "MTL_BASE_SYNTH1",
+	"overrideBkg": null,
+	"stackIconId": null,
+	"sortId": 200005,
+	"usage": "기본적인 건축자재. 로도스 아일랜드의 기반시설 건설에 사용된다.",
+	"obtainApproach": "작전 0-11, 1-1 첫 클리어 보상",
+	"classifyType": "NORMAL",
+	"itemType": "MATERIAL",
+	"stageDropList": [],
+	"buildingProductList": [
+		{
+			"roomType": "WORKSHOP",
+			"formulaId": "1"
+		}
+	]
+}

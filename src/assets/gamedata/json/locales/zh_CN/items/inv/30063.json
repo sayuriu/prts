@@ -1,0 +1,58 @@
+{
+	"itemId": "30063",
+	"name": "全新装置",
+	"description": "一套全新装配而成的装置，通过重构同类型装置的结构，主板原本一直存在的空间紧张的问题得到了解决，当然启动时的能耗要求也变高了。",
+	"rarity": 2,
+	"iconId": "MTL_SL_BOSS3",
+	"overrideBkg": null,
+	"stackIconId": null,
+	"sortId": 100017,
+	"usage": "收缴来的全新机械装置，可用于多种强化场合，也常作为制造站合成项目的原料。",
+	"obtainApproach": null,
+	"classifyType": "MATERIAL",
+	"itemType": "MATERIAL",
+	"stageDropList": [
+		{
+			"stageId": "act18d3_09",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "main_03-04",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_04-10",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_05-10",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_06-14",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_07-07",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_07-13",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_08-14",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_09-08",
+			"occPer": "OFTEN"
+		}
+	],
+	"buildingProductList": [
+		{
+			"roomType": "WORKSHOP",
+			"formulaId": "20"
+		}
+	]
+}

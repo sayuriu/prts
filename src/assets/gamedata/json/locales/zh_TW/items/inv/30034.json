@@ -1,0 +1,30 @@
+{
+	"itemId": "30034",
+	"name": "聚酸酯塊",
+	"description": "精煉提純後的材料。作為商品，主要面向的客戶是對原材料有極高要求的組織和科研機構。也許會成為新一代材料的試金石也說不定哦。",
+	"rarity": 3,
+	"iconId": "MTL_SL_RUSH4",
+	"overrideBkg": null,
+	"stackIconId": null,
+	"sortId": 100020,
+	"usage": "工業製造所需的成塊聚酸酯，可用於多種強化場合，也常作為製造站合成專案的原料。",
+	"obtainApproach": null,
+	"classifyType": "MATERIAL",
+	"itemType": "MATERIAL",
+	"stageDropList": [
+		{
+			"stageId": "main_03-08",
+			"occPer": "SOMETIMES"
+		},
+		{
+			"stageId": "main_06-04",
+			"occPer": "SOMETIMES"
+		}
+	],
+	"buildingProductList": [
+		{
+			"roomType": "WORKSHOP",
+			"formulaId": "30"
+		}
+	]
+}

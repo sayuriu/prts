@@ -1,0 +1,49 @@
+{
+	"itemId": "act17d0_token_form",
+	"name": "罗德岛物资配给证书",
+	"description": "证书上有着负责人的签名、防伪标志、以及干员所需调配物资和原因的详细记录。在核实这三点后，负责物资调配的干员会收取随证书附上的票卷，将物资分发给外勤干员。",
+	"rarity": 4,
+	"iconId": "act17d0_token_form",
+	"overrideBkg": null,
+	"stackIconId": null,
+	"sortId": -10000,
+	"usage": "罗德岛为外勤干员颁发的配给证书，附有票卷，可在罗德岛本舰、各地罗德岛分部及安全屋兑换资源。",
+	"obtainApproach": "活动关卡掉落、活动任务获得",
+	"classifyType": "NONE",
+	"itemType": "ACTIVITY_ITEM",
+	"stageDropList": [
+		{
+			"stageId": "act17d0_01",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "act17d0_02",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "act17d0_03",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "act17d0_04",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "act17d0_05",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "act17d0_06",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "act17d0_07",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "act17d0_08",
+			"occPer": "ALWAYS"
+		}
+	],
+	"buildingProductList": []
+}

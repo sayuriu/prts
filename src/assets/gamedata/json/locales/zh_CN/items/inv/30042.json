@@ -1,0 +1,90 @@
+{
+	"itemId": "30042",
+	"name": "异铁",
+	"description": "在少数惰化流程中，异铁碎片偶尔会产生相变，聚合为异铁。一般认为达到此量级的异铁产物才是异铁较为稳定的形态。",
+	"rarity": 1,
+	"iconId": "MTL_SL_IRON2",
+	"overrideBkg": null,
+	"stackIconId": null,
+	"sortId": 100030,
+	"usage": "罕见的工业材料。可用于多种强化场合，也常作为制造站合成项目的原料。",
+	"obtainApproach": null,
+	"classifyType": "MATERIAL",
+	"itemType": "MATERIAL",
+	"stageDropList": [
+		{
+			"stageId": "act18d0_04",
+			"occPer": "ALMOST"
+		},
+		{
+			"stageId": "act7d5_04",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "act9d0_04",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "act10d5_04",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "act12d0_05",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "act13d5_05",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "act16d5_07",
+			"occPer": "ALMOST"
+		},
+		{
+			"stageId": "act4d0_04",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "a001_03",
+			"occPer": "ALMOST"
+		},
+		{
+			"stageId": "act18d3_06",
+			"occPer": "ALMOST"
+		},
+		{
+			"stageId": "main_09-14",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_08-12",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "main_07-09",
+			"occPer": "ALMOST"
+		},
+		{
+			"stageId": "main_06-01",
+			"occPer": "ALMOST"
+		},
+		{
+			"stageId": "main_05-07",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "main_02-01",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "sub_03-2-1",
+			"occPer": "ALWAYS"
+		}
+	],
+	"buildingProductList": [
+		{
+			"roomType": "WORKSHOP",
+			"formulaId": "25"
+		}
+	]
+}

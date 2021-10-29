@@ -1,0 +1,50 @@
+{
+	"itemId": "2003",
+	"name": "중급작전기록",
+	"description": "열악한 환경에서는 조금만 잘못된 행동을 해도 목숨을 잃기 쉽다. 만약 준비가 충분하다면 살아날 기회가 늘어날지도 모른다.\n훌륭한 전투의 각종 명장면이 다수 기록되어 있다. 카메라맨의 사인도 들어있다.",
+	"rarity": 3,
+	"iconId": "sprite_exp_card_t3",
+	"overrideBkg": null,
+	"stackIconId": "sprite_exp_card_stack_t3",
+	"sortId": 70002,
+	"usage": "작전 영상을 기록한 정보 기억장치. 오퍼레이터의 경험치를 많이 증가시킨다.",
+	"obtainApproach": null,
+	"classifyType": "MATERIAL",
+	"itemType": "CARD_EXP",
+	"stageDropList": [
+		{
+			"stageId": "wk_kc_1",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "main_04-03",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "main_07-11",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "main_08-06",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "sub_06-1-1",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "sub_04-3-3",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "sub_05-3-2",
+			"occPer": "ALWAYS"
+		}
+	],
+	"buildingProductList": [
+		{
+			"roomType": "MANUFACTURE",
+			"formulaId": "3"
+		}
+	]
+}

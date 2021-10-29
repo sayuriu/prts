@@ -1,0 +1,31 @@
+{
+	"medalId": "medal_player_recruitcount_05",
+	"medalName": "公开招募奖章·V",
+	"medalType": "playerMedal",
+	"slotId": 16,
+	"preMedalIdList": [],
+	"rarity": 4,
+	"template": "RecruitCount",
+	"unlockParam": [
+		"1000"
+	],
+	"getMethod": "进行1000次公开招募",
+	"description": "您惜才如命。\n沙中不仅有黄金，还有秘密、财富、以及干员。",
+	"advancedMedal": null,
+	"originMedal": null,
+	"displayTime": -1,
+	"expireTimes": [],
+	"medalRewardGroup": [
+		{
+			"groupId": "default",
+			"slotId": -1,
+			"itemList": [
+				{
+					"id": "voucher_recruitR5_pick2",
+					"count": 1,
+					"type": "VOUCHER_PICK"
+				}
+			]
+		}
+	]
+}

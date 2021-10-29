@@ -1,0 +1,30 @@
+{
+	"itemId": "30044",
+	"name": "Oriron Block",
+	"description": "An Oriron block fused with multiple Oriron Clusters under extremely harsh conditions. As the most stable and rarest form of Oriron, it can be used in all manners of industrial production.",
+	"rarity": 3,
+	"iconId": "MTL_SL_IRON4",
+	"overrideBkg": null,
+	"stackIconId": null,
+	"sortId": 100028,
+	"usage": "An expensive industrial material. Can be used for a variety of upgrades and the synthesis of Polymerization Preparation.",
+	"obtainApproach": null,
+	"classifyType": "MATERIAL",
+	"itemType": "MATERIAL",
+	"stageDropList": [
+		{
+			"stageId": "main_05-05",
+			"occPer": "SOMETIMES"
+		},
+		{
+			"stageId": "sub_04-1-1",
+			"occPer": "SOMETIMES"
+		}
+	],
+	"buildingProductList": [
+		{
+			"roomType": "WORKSHOP",
+			"formulaId": "27"
+		}
+	]
+}

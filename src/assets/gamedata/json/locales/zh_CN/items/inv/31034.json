@@ -1,0 +1,30 @@
+{
+	"itemId": "31034",
+	"name": "晶体电路",
+	"description": "现代源石电子产业的核心产品，常见于泰拉诸国使用的大量电子产品中，晶体电路的大量使用也是泰拉工业现代化的体现。",
+	"rarity": 3,
+	"iconId": "MTL_SL_OC4",
+	"overrideBkg": null,
+	"stackIconId": null,
+	"sortId": 100041,
+	"usage": "重要的源石工业材料，可用于多种强化场合，是制作源石晶体单元的基础元件。",
+	"obtainApproach": null,
+	"classifyType": "MATERIAL",
+	"itemType": "MATERIAL",
+	"stageDropList": [
+		{
+			"stageId": "main_08-13",
+			"occPer": "SOMETIMES"
+		},
+		{
+			"stageId": "sub_05-4-3",
+			"occPer": "SOMETIMES"
+		}
+	],
+	"buildingProductList": [
+		{
+			"roomType": "WORKSHOP",
+			"formulaId": "58"
+		}
+	]
+}

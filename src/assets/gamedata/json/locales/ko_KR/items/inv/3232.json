@@ -1,0 +1,26 @@
+{
+	"itemId": "3232",
+	"name": "디펜더 칩셋",
+	"description": "특별 훈련의 성과로 획득한 재료. 경험이 어느 정도 쌓인 디펜더 오퍼레이터에게 도움이 될 것으로 보인다.",
+	"rarity": 3,
+	"iconId": "MTL_ASC_TNK2",
+	"overrideBkg": null,
+	"stackIconId": null,
+	"sortId": 400012,
+	"usage": "특별 훈련 기록을 통해 획득할 수 있는 메모리 칩셋. 조건을 달성한 디펜더 오퍼레이터의 정예화에 쓰인다.",
+	"obtainApproach": null,
+	"classifyType": "MATERIAL",
+	"itemType": "MATERIAL",
+	"stageDropList": [
+		{
+			"stageId": "pro_a_1",
+			"occPer": "ALWAYS"
+		}
+	],
+	"buildingProductList": [
+		{
+			"roomType": "WORKSHOP",
+			"formulaId": "47"
+		}
+	]
+}

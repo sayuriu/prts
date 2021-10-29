@@ -1,0 +1,30 @@
+{
+	"itemId": "30024",
+	"name": "Sugar Lump",
+	"description": "A nice, finely processed sugar lump commonly used for potion production. Do not taste test it! This is not food and is not to be sold as food! EVER!",
+	"rarity": 3,
+	"iconId": "MTL_SL_STRG4",
+	"overrideBkg": null,
+	"stackIconId": null,
+	"sortId": 100024,
+	"usage": "A large amount of sugar produced by assembly line. Can be used for a variety of upgrades and for production in the Factory.",
+	"obtainApproach": null,
+	"classifyType": "MATERIAL",
+	"itemType": "MATERIAL",
+	"stageDropList": [
+		{
+			"stageId": "main_04-02",
+			"occPer": "SOMETIMES"
+		},
+		{
+			"stageId": "main_05-02",
+			"occPer": "SOMETIMES"
+		}
+	],
+	"buildingProductList": [
+		{
+			"roomType": "WORKSHOP",
+			"formulaId": "33"
+		}
+	]
+}

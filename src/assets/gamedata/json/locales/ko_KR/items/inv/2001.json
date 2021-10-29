@@ -1,0 +1,34 @@
+{
+	"itemId": "2001",
+	"name": "기초작전기록",
+	"description": "열악한 환경에서는 조금만 잘못된 행동을 해도 목숨을 잃기 쉽다. 만약 준비가 충분하다면 살아날 기회가 늘어날지도 모른다.\n몇 차례의 전투를 녹화한 영상이다.",
+	"rarity": 1,
+	"iconId": "sprite_exp_card_t1",
+	"overrideBkg": null,
+	"stackIconId": "sprite_exp_card_stack_t1",
+	"sortId": 70004,
+	"usage": "작전 영상을 기록한 정보 기억장치. 오퍼레이터의 경험치를 아주 조금 증가시킨다.",
+	"obtainApproach": null,
+	"classifyType": "MATERIAL",
+	"itemType": "CARD_EXP",
+	"stageDropList": [
+		{
+			"stageId": "wk_kc_1",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "sub_02-03",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "main_00-10",
+			"occPer": "ALWAYS"
+		}
+	],
+	"buildingProductList": [
+		{
+			"roomType": "MANUFACTURE",
+			"formulaId": "1"
+		}
+	]
+}

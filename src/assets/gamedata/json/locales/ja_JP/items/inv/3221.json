@@ -1,0 +1,26 @@
+{
+	"itemId": "3221",
+	"name": "初級前衛SoC",
+	"description": "特訓で頑張って手に入れた素材。まるで経験がまだ浅い前衛オペレーターを特別に助けてくれるかのようだ。",
+	"rarity": 2,
+	"iconId": "MTL_ASC_GRD1",
+	"overrideBkg": null,
+	"stackIconId": null,
+	"sortId": 400019,
+	"usage": "基本訓練プログラムを記録した集積回路。前衛オペレーターの昇進に必要。",
+	"obtainApproach": null,
+	"classifyType": "MATERIAL",
+	"itemType": "MATERIAL",
+	"stageDropList": [
+		{
+			"stageId": "pro_d_1",
+			"occPer": "ALWAYS"
+		}
+	],
+	"buildingProductList": [
+		{
+			"roomType": "WORKSHOP",
+			"formulaId": "45"
+		}
+	]
+}

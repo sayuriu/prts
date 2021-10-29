@@ -1,0 +1,54 @@
+{
+	"itemId": "30063",
+	"name": "中級装置",
+	"description": "最新のデバイスセット。同型のデバイスの構造のリファクタリングを通して、ドライブの容量問題を解決した。当然起動時のエネルギー消費も高くなった。",
+	"rarity": 2,
+	"iconId": "MTL_SL_BOSS3",
+	"overrideBkg": null,
+	"stackIconId": null,
+	"sortId": 100017,
+	"usage": "押収した最新式のデバイス。昇進やスキル強化に必要な素材。",
+	"obtainApproach": null,
+	"classifyType": "MATERIAL",
+	"itemType": "MATERIAL",
+	"stageDropList": [
+		{
+			"stageId": "act18d3_09",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "main_03-04",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_04-10",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_05-10",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_06-14",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_07-07",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_07-13",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_08-14",
+			"occPer": "OFTEN"
+		}
+	],
+	"buildingProductList": [
+		{
+			"roomType": "WORKSHOP",
+			"formulaId": "20"
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"itemId": "30024",
+	"name": "포도당 팩",
+	"description": "아주 매력적으로 정제된 포도당 덩어리. 보통은 약을 만드는 데 쓰인다. 가공하기 전에 몰래 먹지 않도록 주의할 것! 식용이 아니므로 식품으로서 판매하는 일이 있어선 안 된다! 절대로!",
+	"rarity": 3,
+	"iconId": "MTL_SL_STRG4",
+	"overrideBkg": null,
+	"stackIconId": null,
+	"sortId": 100024,
+	"usage": "공장에서 생산된 대량의 포도당. 제조소에서 합성 재료로 쓰이며 각종 강화에 사용된다.",
+	"obtainApproach": null,
+	"classifyType": "MATERIAL",
+	"itemType": "MATERIAL",
+	"stageDropList": [
+		{
+			"stageId": "main_04-02",
+			"occPer": "SOMETIMES"
+		},
+		{
+			"stageId": "main_05-02",
+			"occPer": "SOMETIMES"
+		}
+	],
+	"buildingProductList": [
+		{
+			"roomType": "WORKSHOP",
+			"formulaId": "33"
+		}
+	]
+}

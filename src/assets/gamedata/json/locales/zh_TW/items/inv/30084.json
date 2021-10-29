@@ -1,0 +1,34 @@
+{
+	"itemId": "30084",
+	"name": "三水錳礦",
+	"description": "少有廠家願意用於生產工業催化劑的珍貴金屬礦物。所制催化劑壽命極長，能夠多次反覆利用並汽提再生，然而複雜的加工工序令多數廠商望而卻步。",
+	"rarity": 3,
+	"iconId": "MTL_SL_MANGANESE2",
+	"overrideBkg": null,
+	"stackIconId": null,
+	"sortId": 100006,
+	"usage": "用於提煉冶煉用的金屬礦物。可用於多種強化場合，也常作為製作D32鋼的原料之一。",
+	"obtainApproach": null,
+	"classifyType": "MATERIAL",
+	"itemType": "MATERIAL",
+	"stageDropList": [
+		{
+			"stageId": "main_04-07",
+			"occPer": "SOMETIMES"
+		},
+		{
+			"stageId": "main_06-02",
+			"occPer": "SOMETIMES"
+		},
+		{
+			"stageId": "main_08-11",
+			"occPer": "SOMETIMES"
+		}
+	],
+	"buildingProductList": [
+		{
+			"roomType": "WORKSHOP",
+			"formulaId": "17"
+		}
+	]
+}

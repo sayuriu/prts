@@ -1,0 +1,66 @@
+{
+	"itemId": "30033",
+	"name": "中級エステル",
+	"description": "更に一歩加工を進めた材料。標準仕様に対応しており、広く市場のニーズに応えられる。特殊な材料に加工して用いられる。",
+	"rarity": 2,
+	"iconId": "MTL_SL_RUSH3",
+	"overrideBkg": null,
+	"stackIconId": null,
+	"sortId": 100021,
+	"usage": "工業での製造に不可欠な中級エステル。昇進やスキル強化に必要な素材。",
+	"obtainApproach": null,
+	"classifyType": "MATERIAL",
+	"itemType": "MATERIAL",
+	"stageDropList": [
+		{
+			"stageId": "act18d0_06",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "act16d5_09",
+			"occPer": "ALMOST"
+		},
+		{
+			"stageId": "act15d5_07",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "act13d5_07",
+			"occPer": "ALMOST"
+		},
+		{
+			"stageId": "act10d5_05",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "act4d0_05",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "main_02-06",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_03-08",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_05-03",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "main_06-04",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_07-03",
+			"occPer": "USUAL"
+		}
+	],
+	"buildingProductList": [
+		{
+			"roomType": "WORKSHOP",
+			"formulaId": "29"
+		}
+	]
+}

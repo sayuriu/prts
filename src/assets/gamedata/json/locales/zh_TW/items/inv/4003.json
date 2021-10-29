@@ -1,0 +1,33 @@
+{
+	"itemId": "4003",
+	"name": "合成玉",
+	"description": "由至純源石加工而來，混合了其他礦物以後的源石產物。以前僅能當作一些傳導元件使用，現在卻逐漸成為人事交互關係中令人信服的象徵物。",
+	"rarity": 4,
+	"iconId": "DIAMOND_SHD",
+	"overrideBkg": null,
+	"stackIconId": "DIAMOND_SHD_STACK",
+	"sortId": 10002,
+	"usage": "合成物質。常用於招募幹員。",
+	"obtainApproach": null,
+	"classifyType": "NORMAL",
+	"itemType": "DIAMOND_SHD",
+	"stageDropList": [
+		{
+			"stageId": "camp_01",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "camp_02",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "camp_03",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "camp_r_01",
+			"occPer": "ALWAYS"
+		}
+	],
+	"buildingProductList": []
+}

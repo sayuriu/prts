@@ -1,0 +1,30 @@
+{
+	"itemId": "30094",
+	"name": "上級砥石",
+	"description": "通常の砥石に比べて、物質構造が更に安定している素材。他の物質との化学反応が極めて起こりにくい。",
+	"rarity": 3,
+	"iconId": "MTL_SL_PG2",
+	"overrideBkg": null,
+	"stackIconId": null,
+	"sortId": 100008,
+	"usage": "武器のパーツへの精密な加工に用いられる質のいい研磨石。昇進やスキル強化に必要な素材。D32鋼の原料にも用いられる。",
+	"obtainApproach": null,
+	"classifyType": "MATERIAL",
+	"itemType": "MATERIAL",
+	"stageDropList": [
+		{
+			"stageId": "main_04-08",
+			"occPer": "SOMETIMES"
+		},
+		{
+			"stageId": "main_07-15",
+			"occPer": "SOMETIMES"
+		}
+	],
+	"buildingProductList": [
+		{
+			"roomType": "WORKSHOP",
+			"formulaId": "16"
+		}
+	]
+}

@@ -1,0 +1,58 @@
+{
+	"itemId": "30043",
+	"name": "이철 번들",
+	"description": "가공 과정에서 인적 요인 외의 다른 원인으로 우연히 이철이 조합된 것. 이철 중에서도 극히 소수의 이철만 결정이 될 수 있으며, 일반적인 이철에 비교할 때 경도는 낮으나 높은 순도를 자랑한다.",
+	"rarity": 2,
+	"iconId": "MTL_SL_IRON3",
+	"overrideBkg": null,
+	"stackIconId": null,
+	"sortId": 100029,
+	"usage": "매우 희귀한 공업 재료. 제조소에서 합성 재료로 쓰이며 각종 강화에 사용된다.",
+	"obtainApproach": null,
+	"classifyType": "MATERIAL",
+	"itemType": "MATERIAL",
+	"stageDropList": [
+		{
+			"stageId": "act15d0_08",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "act13d0_08",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "act9d0_08",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "act10d5_06",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_02-08",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_05-05",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_06-09",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_07-16",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "sub_04-1-1",
+			"occPer": "OFTEN"
+		}
+	],
+	"buildingProductList": [
+		{
+			"roomType": "WORKSHOP",
+			"formulaId": "26"
+		}
+	]
+}

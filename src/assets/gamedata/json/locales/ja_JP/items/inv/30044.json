@@ -1,0 +1,30 @@
+{
+	"itemId": "30044",
+	"name": "上級異鉄",
+	"description": "極めて厳しい条件下で、大量の中級異鉄で鋳造した異鉄のインゴット。異鉄素材の中でも最も安定していて最も希少な形状。原材料としては、従来の素材の運用領域の枠を超えるほどの代物。",
+	"rarity": 3,
+	"iconId": "MTL_SL_IRON4",
+	"overrideBkg": null,
+	"stackIconId": null,
+	"sortId": 100028,
+	"usage": "値段が高騰している工業材料。昇進やスキル強化に必要な素材。融合剤の原料にも用いられる。",
+	"obtainApproach": null,
+	"classifyType": "MATERIAL",
+	"itemType": "MATERIAL",
+	"stageDropList": [
+		{
+			"stageId": "main_05-05",
+			"occPer": "SOMETIMES"
+		},
+		{
+			"stageId": "sub_04-1-1",
+			"occPer": "SOMETIMES"
+		}
+	],
+	"buildingProductList": [
+		{
+			"roomType": "WORKSHOP",
+			"formulaId": "27"
+		}
+	]
+}

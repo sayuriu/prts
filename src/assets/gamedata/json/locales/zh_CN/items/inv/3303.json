@@ -1,0 +1,26 @@
+{
+	"itemId": "3303",
+	"name": "技巧概要·卷3",
+	"description": "记录着干员们所需的专家级技艺，需要特定领域长久的经验积累才能一窥其中的奥妙。",
+	"rarity": 3,
+	"iconId": "MTL_SKILL3",
+	"overrideBkg": null,
+	"stackIconId": null,
+	"sortId": 80001,
+	"usage": "记载了专家技巧的书籍，用于升级干员技能。",
+	"obtainApproach": null,
+	"classifyType": "MATERIAL",
+	"itemType": "MATERIAL",
+	"stageDropList": [
+		{
+			"stageId": "wk_fly_1",
+			"occPer": "ALWAYS"
+		}
+	],
+	"buildingProductList": [
+		{
+			"roomType": "WORKSHOP",
+			"formulaId": "38"
+		}
+	]
+}

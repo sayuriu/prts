@@ -1,0 +1,37 @@
+{
+	"itemId": "act4d0_intelligencepoint",
+	"name": "情報データ",
+	"description": "任務のフィードバックは勿論のこと、戦利品収集、材料研究、論文交流や戦場の清掃など、ロドスの効率的な情報システムは絶えず動作しており、各種作戦行動中に多岐にわたる情報を収集している。それぞれ計算し出される結論をまとめると、ブラックボックスの外の人間は、既に量子化された数値を見れば良い、ということになる。",
+	"rarity": 4,
+	"iconId": "act4d0_intelligencepoint",
+	"overrideBkg": null,
+	"stackIconId": null,
+	"sortId": -10000,
+	"usage": "ロドス情報処理システムの基礎データ値。収集することで調査進度がはかどる。",
+	"obtainApproach": "期間限定ドロップ",
+	"classifyType": "NONE",
+	"itemType": "ACTIVITY_ITEM",
+	"stageDropList": [
+		{
+			"stageId": "act4d0_01",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "act4d0_02",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "act4d0_03",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "act4d0_04",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "act4d0_05",
+			"occPer": "ALWAYS"
+		}
+	],
+	"buildingProductList": []
+}

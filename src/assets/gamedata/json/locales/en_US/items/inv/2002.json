@@ -1,0 +1,34 @@
+{
+	"itemId": "2002",
+	"name": "Frontline Battle Record",
+	"description": "In such a hostile environment, every operation has the potential for a loss of life. We may be able to save more people if we are well prepared.\nA video record of several battles, with detailed statistical analysis, plus 3 hours of additional materials and interviews.",
+	"rarity": 2,
+	"iconId": "sprite_exp_card_t2",
+	"overrideBkg": null,
+	"stackIconId": "sprite_exp_card_stack_t2",
+	"sortId": 70003,
+	"usage": "A device that stores battle videos. Gives Operators a moderate amount of EXP.",
+	"obtainApproach": null,
+	"classifyType": "MATERIAL",
+	"itemType": "CARD_EXP",
+	"stageDropList": [
+		{
+			"stageId": "wk_kc_1",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "main_03-05",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "sub_02-10",
+			"occPer": "ALWAYS"
+		}
+	],
+	"buildingProductList": [
+		{
+			"roomType": "MANUFACTURE",
+			"formulaId": "2"
+		}
+	]
+}

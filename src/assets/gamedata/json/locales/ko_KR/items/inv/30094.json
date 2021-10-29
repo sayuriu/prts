@@ -1,0 +1,30 @@
+{
+	"itemId": "30094",
+	"name": "고급연마석",
+	"description": "일반적인 연마석보다 더욱 안정된 물질 구조를 가진 연마석. 다른 물질과 화학반응을 일으킬 확률은 매우 낮다.",
+	"rarity": 3,
+	"iconId": "MTL_SL_PG2",
+	"overrideBkg": null,
+	"stackIconId": null,
+	"sortId": 100008,
+	"usage": "무기 부품을 정밀하게 가공하는 데 이용되는 질 좋은 연마석. D32강의 재료 중 하나로써, 각종 강화에 사용된다. ",
+	"obtainApproach": null,
+	"classifyType": "MATERIAL",
+	"itemType": "MATERIAL",
+	"stageDropList": [
+		{
+			"stageId": "main_04-08",
+			"occPer": "SOMETIMES"
+		},
+		{
+			"stageId": "main_07-15",
+			"occPer": "SOMETIMES"
+		}
+	],
+	"buildingProductList": [
+		{
+			"roomType": "WORKSHOP",
+			"formulaId": "16"
+		}
+	]
+}

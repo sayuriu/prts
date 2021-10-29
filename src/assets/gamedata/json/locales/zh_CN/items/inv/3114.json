@@ -1,0 +1,26 @@
+{
+	"itemId": "3114",
+	"name": "碳素组",
+	"description": "大量的碳素资源。每一块砖都饱含着燃烧的工业之魂。",
+	"rarity": 3,
+	"iconId": "MTL_BASE_SL3",
+	"overrideBkg": null,
+	"stackIconId": null,
+	"sortId": 200006,
+	"usage": "一组碳素砖，用于开发罗德岛的基础设施。",
+	"obtainApproach": null,
+	"classifyType": "NORMAL",
+	"itemType": "MATERIAL",
+	"stageDropList": [
+		{
+			"stageId": "wk_armor_1",
+			"occPer": "ALWAYS"
+		}
+	],
+	"buildingProductList": [
+		{
+			"roomType": "WORKSHOP",
+			"formulaId": "5"
+		}
+	]
+}

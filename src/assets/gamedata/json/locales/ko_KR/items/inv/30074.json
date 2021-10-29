@@ -1,0 +1,34 @@
+{
+	"itemId": "30074",
+	"name": "화이트 호스 콜",
+	"description": "로식 콜을 정제 및 가공하여 만들어낸 물질. 생산법을 발견한 제조사의 이름에서 따온 명칭이다. 매우 긴박한 환경에서 아주 고차원적인 수준의 구조로 전환된다는 특징이 실험을 통해 밝혀졌다.",
+	"rarity": 3,
+	"iconId": "MTL_SL_ALCOHOL2",
+	"overrideBkg": null,
+	"stackIconId": null,
+	"sortId": 100004,
+	"usage": "매우 작은 유기 화합물. 바이폴라 나노플레이크 칩의 재료 중 하나로써, 각종 강화에 사용된다. ",
+	"obtainApproach": null,
+	"classifyType": "MATERIAL",
+	"itemType": "MATERIAL",
+	"stageDropList": [
+		{
+			"stageId": "main_04-04",
+			"occPer": "SOMETIMES"
+		},
+		{
+			"stageId": "main_07-04",
+			"occPer": "SOMETIMES"
+		},
+		{
+			"stageId": "main_08-02",
+			"occPer": "SOMETIMES"
+		}
+	],
+	"buildingProductList": [
+		{
+			"roomType": "WORKSHOP",
+			"formulaId": "18"
+		}
+	]
+}

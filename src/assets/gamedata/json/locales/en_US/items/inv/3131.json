@@ -1,0 +1,21 @@
+{
+	"itemId": "3131",
+	"name": "Light Building Material",
+	"description": "Room modification causes irreversible damage to load bearing parts if not handled properly. Please use building materials before commencing modification in order to guarantee the integrity of the room.",
+	"rarity": 1,
+	"iconId": "MTL_BASE_SYNTH1",
+	"overrideBkg": null,
+	"stackIconId": null,
+	"sortId": 200005,
+	"usage": "A basic construction material used for the facility development of Rhodes Island.",
+	"obtainApproach": "Dropped from the first clear of 0-11, 1-1",
+	"classifyType": "NORMAL",
+	"itemType": "MATERIAL",
+	"stageDropList": [],
+	"buildingProductList": [
+		{
+			"roomType": "WORKSHOP",
+			"formulaId": "1"
+		}
+	]
+}

@@ -1,0 +1,34 @@
+{
+	"itemId": "31014",
+	"name": "중합젤",
+	"description": "젤을 원재료로 수많은 실험과 테스트를 반복하여 탄생한 인공 재료. 고압력 환경에서도 안정적으로 성질을 유지하여, 일부 하이테크놀러지에서도 매우 중요한 위치를 차지한다.",
+	"rarity": 3,
+	"iconId": "MTL_SL_PGEL4",
+	"overrideBkg": null,
+	"stackIconId": null,
+	"sortId": 100036,
+	"usage": "초고강도 가소성 재료. 다양한 강화 용도로 쓰인다.",
+	"obtainApproach": null,
+	"classifyType": "MATERIAL",
+	"itemType": "MATERIAL",
+	"stageDropList": [
+		{
+			"stageId": "main_07-06",
+			"occPer": "SOMETIMES"
+		},
+		{
+			"stageId": "main_08-16",
+			"occPer": "SOMETIMES"
+		},
+		{
+			"stageId": "sub_05-4-1",
+			"occPer": "SOMETIMES"
+		}
+	],
+	"buildingProductList": [
+		{
+			"roomType": "WORKSHOP",
+			"formulaId": "56"
+		}
+	]
+}

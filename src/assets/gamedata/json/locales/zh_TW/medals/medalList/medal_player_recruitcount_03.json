@@ -1,0 +1,31 @@
+{
+	"medalId": "medal_player_recruitcount_03",
+	"medalName": "公開招募獎章·III",
+	"medalType": "playerMedal",
+	"slotId": 12,
+	"preMedalIdList": [],
+	"rarity": 2,
+	"template": "RecruitCount",
+	"unlockParam": [
+		"300"
+	],
+	"getMethod": "進行300次公開招募",
+	"description": "您廣招英才。\n從幹員的人際關係入手，能夠成為幹員的人便會成倍增加。",
+	"advancedMedal": null,
+	"originMedal": null,
+	"activeTime": -1,
+	"getTime": -1,
+	"medalRewardGroup": [
+		{
+			"groupId": "default",
+			"slotId": -1,
+			"itemList": [
+				{
+					"id": "voucher_recruitR5_pick2",
+					"count": 1,
+					"type": "VOUCHER_PICK"
+				}
+			]
+		}
+	]
+}

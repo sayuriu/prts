@@ -1,0 +1,26 @@
+{
+	"itemId": "3302",
+	"name": "アーツ学Ⅱ",
+	"description": "オペレーターに不可欠なアーツについて書かれており、時間を費やして深く読み、実践することでようやく物にできる。",
+	"rarity": 2,
+	"iconId": "MTL_SKILL2",
+	"overrideBkg": null,
+	"stackIconId": null,
+	"sortId": 80002,
+	"usage": "アーツ理論の中級教科書。スキル強化に必要な素材。",
+	"obtainApproach": null,
+	"classifyType": "MATERIAL",
+	"itemType": "MATERIAL",
+	"stageDropList": [
+		{
+			"stageId": "wk_fly_1",
+			"occPer": "ALWAYS"
+		}
+	],
+	"buildingProductList": [
+		{
+			"roomType": "WORKSHOP",
+			"formulaId": "37"
+		}
+	]
+}

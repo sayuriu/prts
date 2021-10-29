@@ -1,0 +1,31 @@
+{
+	"medalId": "medal_player_recruitcount_05",
+	"medalName": "공개모집 훈장·V",
+	"medalType": "playerMedal",
+	"slotId": 15,
+	"preMedalIdList": [],
+	"rarity": 4,
+	"template": "RecruitCount",
+	"unlockParam": [
+		"1000"
+	],
+	"getMethod": "공개모집 1000회 진행",
+	"description": "인재들을 목숨과도 같이 아끼시는군요.\n사막에는 황금 뿐만 아니라, 비밀과, 금은보화와, 오퍼레이터가 숨겨져 있습니다.",
+	"advancedMedal": null,
+	"originMedal": null,
+	"activeTime": -1,
+	"getTime": -1,
+	"medalRewardGroup": [
+		{
+			"groupId": "default",
+			"slotId": -1,
+			"itemList": [
+				{
+					"id": "voucher_recruitR5_pick2",
+					"count": 1,
+					"type": "VOUCHER_PICK"
+				}
+			]
+		}
+	]
+}

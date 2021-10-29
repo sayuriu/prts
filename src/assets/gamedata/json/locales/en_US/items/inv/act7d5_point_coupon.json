@@ -1,0 +1,41 @@
+{
+	"itemId": "act7d5_point_coupon",
+	"name": "Canteen Soup Ticket",
+	"description": "The Rhodes Island Logistics Departmen issued this meal voucher during an event as an incentive to complete a series of missions. During the trial period, it will be distributed according to the number of missions completed or to operation results.",
+	"rarity": 4,
+	"iconId": "act7d5_point_coupon",
+	"overrideBkg": null,
+	"stackIconId": null,
+	"sortId": -10000,
+	"usage": "A food voucher issued by the Rhodes Island Logistics Department, redeemable at the cafeteria for a limited time for a variety of special meals.",
+	"obtainApproach": "Limited Event Drop",
+	"classifyType": "NONE",
+	"itemType": "ACTIVITY_ITEM",
+	"stageDropList": [
+		{
+			"stageId": "act7d5_01",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "act7d5_02",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "act7d5_03",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "act7d5_04",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "act7d5_05",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "act7d5_06",
+			"occPer": "ALWAYS"
+		}
+	],
+	"buildingProductList": []
+}

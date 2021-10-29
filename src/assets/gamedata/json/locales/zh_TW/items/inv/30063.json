@@ -1,0 +1,50 @@
+{
+	"itemId": "30063",
+	"name": "全新裝置",
+	"description": "一套全新裝配而成的裝置，透過重構同類型裝置的結構，主機板原本一直存在的空間緊張的問題得到了解決，當然啟動時的能耗要求也變高了。",
+	"rarity": 2,
+	"iconId": "MTL_SL_BOSS3",
+	"overrideBkg": null,
+	"stackIconId": null,
+	"sortId": 100017,
+	"usage": "收繳來的全新機械裝置，可用於多種強化場合，也常作為製造站合成專案的原料。",
+	"obtainApproach": null,
+	"classifyType": "MATERIAL",
+	"itemType": "MATERIAL",
+	"stageDropList": [
+		{
+			"stageId": "main_03-04",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_04-10",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_05-10",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_06-14",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_07-07",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_07-13",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_08-14",
+			"occPer": "OFTEN"
+		}
+	],
+	"buildingProductList": [
+		{
+			"roomType": "WORKSHOP",
+			"formulaId": "20"
+		}
+	]
+}

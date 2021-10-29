@@ -1,0 +1,62 @@
+{
+	"itemId": "30013",
+	"name": "Orirock Cluster",
+	"description": "Compressed from Orirock Cubes, it can be formed naturally. It is a fragile material, but industrial technology has made it possible to produce complete Orirock Clusters now. People often mistake it for an ordinary cluster of rocks.",
+	"rarity": 2,
+	"iconId": "MTL_SL_G3",
+	"overrideBkg": null,
+	"stackIconId": null,
+	"sortId": 100013,
+	"usage": "A conglomerate rock mined from the ground. Can be used for a variety of upgrades and for production in the Factory.",
+	"obtainApproach": null,
+	"classifyType": "MATERIAL",
+	"itemType": "MATERIAL",
+	"stageDropList": [
+		{
+			"stageId": "act18d3_07",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "act16d5_10",
+			"occPer": "ALMOST"
+		},
+		{
+			"stageId": "act12d0_06",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "main_02-04",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_04-06",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_05-01",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_06-05",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "main_07-01",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_07-05",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "main_08-03",
+			"occPer": "OFTEN"
+		}
+	],
+	"buildingProductList": [
+		{
+			"roomType": "WORKSHOP",
+			"formulaId": "35"
+		}
+	]
+}

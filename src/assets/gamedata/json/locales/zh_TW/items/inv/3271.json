@@ -1,0 +1,26 @@
+{
+	"itemId": "3271",
+	"name": "輔助晶片",
+	"description": "透過努力特訓得來的素材，似乎能對資歷尚淺的輔助幹員有特別的幫助。",
+	"rarity": 2,
+	"iconId": "MTL_ASC_SUP1",
+	"overrideBkg": null,
+	"stackIconId": null,
+	"sortId": 400023,
+	"usage": "透過記錄特殊訓練獲得的存儲晶片，有助於滿足輔助幹員在晉升時的強化需要。",
+	"obtainApproach": null,
+	"classifyType": "MATERIAL",
+	"itemType": "MATERIAL",
+	"stageDropList": [
+		{
+			"stageId": "pro_c_1",
+			"occPer": "ALWAYS"
+		}
+	],
+	"buildingProductList": [
+		{
+			"roomType": "WORKSHOP",
+			"formulaId": "44"
+		}
+	]
+}

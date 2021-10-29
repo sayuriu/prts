@@ -1,0 +1,50 @@
+{
+	"itemId": "2003",
+	"name": "中級作戰記錄",
+	"description": "在惡劣環境下的每次行動都可能有人會丟掉性命。如果做好了充足的準備，或許也能多拯救一些生命。\n存儲了多個錄影集錦，夾帶了一張錄影人的簽名版。",
+	"rarity": 3,
+	"iconId": "sprite_exp_card_t3",
+	"overrideBkg": null,
+	"stackIconId": "sprite_exp_card_stack_t3",
+	"sortId": 70002,
+	"usage": "記錄了作戰錄影的存儲裝置，可以大幅增加幹員的經驗值。",
+	"obtainApproach": null,
+	"classifyType": "MATERIAL",
+	"itemType": "CARD_EXP",
+	"stageDropList": [
+		{
+			"stageId": "wk_kc_1",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "main_04-03",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "main_07-11",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "main_08-06",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "sub_06-1-1",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "sub_04-3-3",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "sub_05-3-2",
+			"occPer": "ALWAYS"
+		}
+	],
+	"buildingProductList": [
+		{
+			"roomType": "MANUFACTURE",
+			"formulaId": "3"
+		}
+	]
+}

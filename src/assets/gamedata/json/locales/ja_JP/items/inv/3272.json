@@ -1,0 +1,26 @@
+{
+	"itemId": "3272",
+	"name": "中級補助SoC",
+	"description": "特訓で頑張って手に入れた素材。まるでだんだん成長してきた補助オペレーターを特別に助けてくれるかのようだ。",
+	"rarity": 3,
+	"iconId": "MTL_ASC_SUP2",
+	"overrideBkg": null,
+	"stackIconId": null,
+	"sortId": 400016,
+	"usage": "応用訓練プログラムを記録した集積回路。補助オペレーターの昇進に必要。",
+	"obtainApproach": null,
+	"classifyType": "MATERIAL",
+	"itemType": "MATERIAL",
+	"stageDropList": [
+		{
+			"stageId": "pro_c_1",
+			"occPer": "ALWAYS"
+		}
+	],
+	"buildingProductList": [
+		{
+			"roomType": "WORKSHOP",
+			"formulaId": "52"
+		}
+	]
+}

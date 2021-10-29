@@ -1,0 +1,26 @@
+{
+	"itemId": "3114",
+	"name": "碳素組",
+	"description": "大量的碳素資源。每一塊磚都飽含著燃燒的工業之魂。",
+	"rarity": 3,
+	"iconId": "MTL_BASE_SL3",
+	"overrideBkg": null,
+	"stackIconId": null,
+	"sortId": 200006,
+	"usage": "一組碳素磚，用於開發羅德島的基礎設施。",
+	"obtainApproach": null,
+	"classifyType": "NORMAL",
+	"itemType": "MATERIAL",
+	"stageDropList": [
+		{
+			"stageId": "wk_armor_1",
+			"occPer": "ALWAYS"
+		}
+	],
+	"buildingProductList": [
+		{
+			"roomType": "WORKSHOP",
+			"formulaId": "5"
+		}
+	]
+}

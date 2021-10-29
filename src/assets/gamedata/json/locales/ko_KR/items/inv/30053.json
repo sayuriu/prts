@@ -1,0 +1,66 @@
+{
+	"itemId": "30053",
+	"name": "아케톤 응집체 번들",
+	"description": "탄화수소를 제거하는 추가 작업을 거쳐 얻을 수 있는 중량의 케톤 제제. 공기에 접촉하면 산소 외의 분자와 금세 반응하는 특징이 있다. 폐기되는 양을 줄이기 위해 엔지니어 오퍼레이터의 지시에 따라 정밀하게 작업해야 한다.",
+	"rarity": 2,
+	"iconId": "MTL_SL_KETONE3",
+	"overrideBkg": null,
+	"stackIconId": null,
+	"sortId": 100033,
+	"usage": "일정량 이상의 공업용 유기 화합물. 제조소에서 합성 재료로 쓰이며 각종 강화에 사용된다.",
+	"obtainApproach": null,
+	"classifyType": "MATERIAL",
+	"itemType": "MATERIAL",
+	"stageDropList": [
+		{
+			"stageId": "act18d0_07",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "act15d0_07",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "act13d0_07",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "act11d0_07",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "act6d5_06",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_03-01",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_04-05",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_05-08",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_06-07",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_07-12",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_08-17",
+			"occPer": "OFTEN"
+		}
+	],
+	"buildingProductList": [
+		{
+			"roomType": "WORKSHOP",
+			"formulaId": "23"
+		}
+	]
+}

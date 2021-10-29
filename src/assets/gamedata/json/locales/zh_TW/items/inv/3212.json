@@ -1,0 +1,26 @@
+{
+	"itemId": "3212",
+	"name": "先鋒晶片組",
+	"description": "透過努力特訓得來的素材，似乎能對日漸成熟的先鋒幹員有特別的指導。",
+	"rarity": 3,
+	"iconId": "MTL_ASC_PIO2",
+	"overrideBkg": null,
+	"stackIconId": null,
+	"sortId": 400010,
+	"usage": "透過記錄特殊訓練獲得的存儲晶片組，有助於滿足先鋒幹員在晉升時的強化需要。",
+	"obtainApproach": null,
+	"classifyType": "MATERIAL",
+	"itemType": "MATERIAL",
+	"stageDropList": [
+		{
+			"stageId": "pro_c_1",
+			"occPer": "ALWAYS"
+		}
+	],
+	"buildingProductList": [
+		{
+			"roomType": "WORKSHOP",
+			"formulaId": "51"
+		}
+	]
+}

@@ -1,0 +1,26 @@
+{
+	"itemId": "3303",
+	"name": "アーツ学Ⅲ",
+	"description": "オペレーターに不可欠となる専門的なアーツについて書かれており、特定の領域での経験を積み重ねることでその真髄に触れることができる。",
+	"rarity": 3,
+	"iconId": "MTL_SKILL3",
+	"overrideBkg": null,
+	"stackIconId": null,
+	"sortId": 80001,
+	"usage": "アーツ理論の高級教科書。スキル強化に必要な素材。",
+	"obtainApproach": null,
+	"classifyType": "MATERIAL",
+	"itemType": "MATERIAL",
+	"stageDropList": [
+		{
+			"stageId": "wk_fly_1",
+			"occPer": "ALWAYS"
+		}
+	],
+	"buildingProductList": [
+		{
+			"roomType": "WORKSHOP",
+			"formulaId": "38"
+		}
+	]
+}

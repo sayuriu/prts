@@ -1,0 +1,70 @@
+{
+	"itemId": "30062",
+	"name": "裝置",
+	"description": "一套相對完整的裝置，含有大量密集的可用電子元件。為了迎合輕便實用的設計，主機板寸土寸金的空間被塞的滿滿當當。",
+	"rarity": 1,
+	"iconId": "MTL_SL_BOSS2",
+	"overrideBkg": null,
+	"stackIconId": null,
+	"sortId": 100018,
+	"usage": "收繳來的常規機械裝置，可用於多種強化場合，也常作為製造站合成專案的原料。",
+	"obtainApproach": null,
+	"classifyType": "MATERIAL",
+	"itemType": "MATERIAL",
+	"stageDropList": [
+		{
+			"stageId": "act17d0_06",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "act13d5_04",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "act13d0_05",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "act12d0_05",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "act9d0_05",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "act11d0_05",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "act6d5_05",
+			"occPer": "ALMOST"
+		},
+		{
+			"stageId": "main_01-12",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "main_06-10",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "main_08-09",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "sub_03-2-2",
+			"occPer": "ALMOST"
+		},
+		{
+			"stageId": "sub_05-3-1",
+			"occPer": "USUAL"
+		}
+	],
+	"buildingProductList": [
+		{
+			"roomType": "WORKSHOP",
+			"formulaId": "19"
+		}
+	]
+}

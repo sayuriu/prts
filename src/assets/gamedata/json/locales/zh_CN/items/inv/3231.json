@@ -1,0 +1,26 @@
+{
+	"itemId": "3231",
+	"name": "重装芯片",
+	"description": "通过努力特训得来的素材，似乎能对资历尚浅的重装干员有特别的帮助。",
+	"rarity": 2,
+	"iconId": "MTL_ASC_TNK1",
+	"overrideBkg": null,
+	"stackIconId": null,
+	"sortId": 400020,
+	"usage": "通过记录特殊训练获得的存储芯片，有助于满足重装干员在晋升时的强化需要。",
+	"obtainApproach": null,
+	"classifyType": "MATERIAL",
+	"itemType": "MATERIAL",
+	"stageDropList": [
+		{
+			"stageId": "pro_a_1",
+			"occPer": "ALWAYS"
+		}
+	],
+	"buildingProductList": [
+		{
+			"roomType": "WORKSHOP",
+			"formulaId": "39"
+		}
+	]
+}

@@ -1,0 +1,26 @@
+{
+	"itemId": "3251",
+	"name": "캐스터 칩",
+	"description": "특별 훈련의 성과로 획득한 재료. 경험이 부족한 캐스터 오퍼레이터에게 도움이 될 것으로 보인다.",
+	"rarity": 2,
+	"iconId": "MTL_ASC_CST1",
+	"overrideBkg": null,
+	"stackIconId": null,
+	"sortId": 400022,
+	"usage": "특별 훈련 기록을 통해 획득할 수 있는 메모리 칩. 조건을 달성한 캐스터 오퍼레이터의 정예화에 쓰인다.",
+	"obtainApproach": null,
+	"classifyType": "MATERIAL",
+	"itemType": "MATERIAL",
+	"stageDropList": [
+		{
+			"stageId": "pro_b_1",
+			"occPer": "ALWAYS"
+		}
+	],
+	"buildingProductList": [
+		{
+			"roomType": "WORKSHOP",
+			"formulaId": "42"
+		}
+	]
+}

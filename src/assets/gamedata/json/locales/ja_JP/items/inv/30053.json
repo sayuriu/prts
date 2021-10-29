@@ -1,0 +1,66 @@
+{
+	"itemId": "30053",
+	"name": "中級アケトン",
+	"description": "一歩進んだ脱アルキル処理で得られる中量のアケトン製剤。製剤が空気に触れると、空気中の非酸素分子との反応が発生しやすくなる。だから処理行程中にはエンジニアオペレーターは材料の浪費を防ぐために精密に操作すべきだ。",
+	"rarity": 2,
+	"iconId": "MTL_SL_KETONE3",
+	"overrideBkg": null,
+	"stackIconId": null,
+	"sortId": 100033,
+	"usage": "ある程度の量の工業用有機化合物。昇進やスキル強化に必要な素材。",
+	"obtainApproach": null,
+	"classifyType": "MATERIAL",
+	"itemType": "MATERIAL",
+	"stageDropList": [
+		{
+			"stageId": "act18d0_07",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "act15d0_07",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "act13d0_07",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "act11d0_07",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "act6d5_06",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_03-01",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_04-05",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_05-08",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_06-07",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_07-12",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_08-17",
+			"occPer": "OFTEN"
+		}
+	],
+	"buildingProductList": [
+		{
+			"roomType": "WORKSHOP",
+			"formulaId": "23"
+		}
+	]
+}

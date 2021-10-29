@@ -1,0 +1,30 @@
+{
+	"itemId": "30094",
+	"name": "五水研磨石",
+	"description": "相較普通研磨石，物質結構更加穩定的工具材料。極難與其它物質發生化學反應。",
+	"rarity": 3,
+	"iconId": "MTL_SL_PG2",
+	"overrideBkg": null,
+	"stackIconId": null,
+	"sortId": 100008,
+	"usage": "用於精加工武器零件的高級研磨石。可用於多種強化場合，也常作為製作D32鋼的原料之一。",
+	"obtainApproach": null,
+	"classifyType": "MATERIAL",
+	"itemType": "MATERIAL",
+	"stageDropList": [
+		{
+			"stageId": "main_04-08",
+			"occPer": "SOMETIMES"
+		},
+		{
+			"stageId": "main_07-15",
+			"occPer": "SOMETIMES"
+		}
+	],
+	"buildingProductList": [
+		{
+			"roomType": "WORKSHOP",
+			"formulaId": "16"
+		}
+	]
+}

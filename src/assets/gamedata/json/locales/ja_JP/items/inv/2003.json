@@ -1,0 +1,50 @@
+{
+	"itemId": "2003",
+	"name": "中級作戦記録",
+	"description": "劣悪な環境下での行動は命を落とす可能性がある。もし十分な準備が出来れば、助かる命が増えるかもしれない。\n無駄なシーンをカットし、数多くの戦闘を記録してある。カメラマンのサイン入り。",
+	"rarity": 3,
+	"iconId": "sprite_exp_card_t3",
+	"overrideBkg": null,
+	"stackIconId": "sprite_exp_card_stack_t3",
+	"sortId": 70002,
+	"usage": "作戦映像を記録した情報記憶装置。使用するとオペレーターの経験値が大幅に増加する。",
+	"obtainApproach": null,
+	"classifyType": "MATERIAL",
+	"itemType": "CARD_EXP",
+	"stageDropList": [
+		{
+			"stageId": "wk_kc_1",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "main_04-03",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "main_07-11",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "main_08-06",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "sub_06-1-1",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "sub_04-3-3",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "sub_05-3-2",
+			"occPer": "ALWAYS"
+		}
+	],
+	"buildingProductList": [
+		{
+			"roomType": "MANUFACTURE",
+			"formulaId": "3"
+		}
+	]
+}

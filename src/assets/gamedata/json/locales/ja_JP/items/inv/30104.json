@@ -1,0 +1,30 @@
+{
+	"itemId": "30104",
+	"name": "RMA70-24",
+	"description": "自然と複雑な多面体を呈した鉱物。1024年に発見され、膨大な産業システムの中、アーツシステムにおいてその他の鉱物が備えていなかった莫大な価値があらわになった。",
+	"rarity": 3,
+	"iconId": "MTL_SL_RMA7024",
+	"overrideBkg": null,
+	"stackIconId": null,
+	"sortId": 100010,
+	"usage": "感度がとても良く伝達効果も優秀な鉱物。昇進やスキル強化に必要な素材。D32鋼の原料にも用いられる。",
+	"obtainApproach": null,
+	"classifyType": "MATERIAL",
+	"itemType": "MATERIAL",
+	"stageDropList": [
+		{
+			"stageId": "main_04-09",
+			"occPer": "SOMETIMES"
+		},
+		{
+			"stageId": "main_06-13",
+			"occPer": "SOMETIMES"
+		}
+	],
+	"buildingProductList": [
+		{
+			"roomType": "WORKSHOP",
+			"formulaId": "15"
+		}
+	]
+}

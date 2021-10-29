@@ -1,0 +1,26 @@
+{
+	"itemId": "3271",
+	"name": "辅助芯片",
+	"description": "通过努力特训得来的素材，似乎能对资历尚浅的辅助干员有特别的帮助。",
+	"rarity": 2,
+	"iconId": "MTL_ASC_SUP1",
+	"overrideBkg": null,
+	"stackIconId": null,
+	"sortId": 400024,
+	"usage": "通过记录特殊训练获得的存储芯片，有助于满足辅助干员在晋升时的强化需要。",
+	"obtainApproach": null,
+	"classifyType": "MATERIAL",
+	"itemType": "MATERIAL",
+	"stageDropList": [
+		{
+			"stageId": "pro_c_1",
+			"occPer": "ALWAYS"
+		}
+	],
+	"buildingProductList": [
+		{
+			"roomType": "WORKSHOP",
+			"formulaId": "44"
+		}
+	]
+}

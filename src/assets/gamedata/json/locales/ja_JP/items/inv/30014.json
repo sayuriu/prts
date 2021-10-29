@@ -1,0 +1,34 @@
+{
+	"itemId": "30014",
+	"name": "上級源岩",
+	"description": "精錬後の源岩鉱は元の形とは異なる姿を現し、その消費量と精錬費用が急激に上昇した。規則的な切断面を見ていると、誰もが感動せずにはいられない。これこそ工業と自然とが組み合わさった時の魅力だ。",
+	"rarity": 3,
+	"iconId": "MTL_SL_G4",
+	"overrideBkg": null,
+	"stackIconId": null,
+	"sortId": 100012,
+	"usage": "地表から採掘された鉱石の大きな塊が精錬された物質。昇進やスキル強化に必要な素材。融合剤の原料にも用いられる。",
+	"obtainApproach": null,
+	"classifyType": "MATERIAL",
+	"itemType": "MATERIAL",
+	"stageDropList": [
+		{
+			"stageId": "main_04-06",
+			"occPer": "SOMETIMES"
+		},
+		{
+			"stageId": "main_07-01",
+			"occPer": "SOMETIMES"
+		},
+		{
+			"stageId": "main_08-03",
+			"occPer": "SOMETIMES"
+		}
+	],
+	"buildingProductList": [
+		{
+			"roomType": "WORKSHOP",
+			"formulaId": "36"
+		}
+	]
+}
