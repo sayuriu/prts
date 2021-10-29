@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { Operator } from '../Operator.interface';
 
 @Component({
   selector: 'app-operator-info-area',
@@ -9,7 +10,8 @@ export class OperatorInfoAreaComponent implements OnInit {
 
   constructor() { }
 
-  @Input() opName!: string
+  @Input() opName!: string;
+  @Input() operator!: Operator;
 
   ngOnInit(): void {
   }
