@@ -1,794 +1,794 @@
 {
-    "name": "乌有",
-    "description": "再部署时间<@ba.kw>减少</>，撤退时不返还<@ba.kw>部署费用</>，在场时每3秒<@ba.kw>消耗</>3点部署费用（不足时自动撤退）",
-    "canUseGeneralPotentialItem": true,
-    "potentialItemId": "p_char_455_nothin",
-    "nationId": "yan",
-    "groupId": null,
-    "teamId": null,
-    "displayNumber": "YD11",
-    "tokenKey": null,
-    "appellation": "Mr.Nothing",
-    "position": "MELEE",
-    "tagList": [
-        "快速复活",
-        "输出"
-    ],
-    "itemUsage": "炎国武夫乌有，按捺住想要开溜的心情驻守战场。",
-    "itemDesc": "武器是一把伞一把扇还有一张嘴，也许还有别的。",
-    "itemObtainApproach": "招募寻访",
-    "isNotObtainable": false,
-    "isSpChar": false,
-    "maxPotentialLevel": 5,
-    "rarity": 4,
-    "profession": "SPECIAL",
-    "subProfessionId": "merchant",
-    "trait": {
-        "candidates": [
-            {
-                "unlockCondition": {
-                    "phase": 0,
-                    "level": 1
-                },
-                "requiredPotentialRank": 0,
-                "blackboard": [
-                    {
-                        "key": "interval",
-                        "value": 3
-                    },
-                    {
-                        "key": "cost",
-                        "value": -3
-                    }
-                ],
-                "overrideDescripton": null,
-                "prefabKey": null,
-                "rangeId": null
-            }
-        ]
-    },
-    "phases": [
-        {
-            "characterPrefabKey": "char_455_nothin",
-            "rangeId": "1-1",
-            "maxLevel": 50,
-            "attributesKeyFrames": [
-                {
-                    "level": 1,
-                    "data": {
-                        "maxHp": 1165,
-                        "atk": 346,
-                        "def": 204,
-                        "magicResistance": 0,
-                        "cost": 6,
-                        "blockCnt": 1,
-                        "moveSpeed": 1,
-                        "attackSpeed": 100,
-                        "baseAttackTime": 1,
-                        "respawnTime": 25,
-                        "hpRecoveryPerSec": 0,
-                        "spRecoveryPerSec": 1,
-                        "maxDeployCount": 1,
-                        "maxDeckStackCnt": 0,
-                        "tauntLevel": 0,
-                        "massLevel": 0,
-                        "baseForceLevel": 0,
-                        "stunImmune": false,
-                        "silenceImmune": false,
-                        "sleepImmune": false
-                    }
-                },
-                {
-                    "level": 50,
-                    "data": {
-                        "maxHp": 1534,
-                        "atk": 474,
-                        "def": 262,
-                        "magicResistance": 0,
-                        "cost": 6,
-                        "blockCnt": 1,
-                        "moveSpeed": 1,
-                        "attackSpeed": 100,
-                        "baseAttackTime": 1,
-                        "respawnTime": 25,
-                        "hpRecoveryPerSec": 0,
-                        "spRecoveryPerSec": 1,
-                        "maxDeployCount": 1,
-                        "maxDeckStackCnt": 0,
-                        "tauntLevel": 0,
-                        "massLevel": 0,
-                        "baseForceLevel": 0,
-                        "stunImmune": false,
-                        "silenceImmune": false,
-                        "sleepImmune": false
-                    }
-                }
-            ],
-            "evolveCost": null
-        },
-        {
-            "characterPrefabKey": "char_455_nothin",
-            "rangeId": "1-1",
-            "maxLevel": 70,
-            "attributesKeyFrames": [
-                {
-                    "level": 1,
-                    "data": {
-                        "maxHp": 1534,
-                        "atk": 474,
-                        "def": 262,
-                        "magicResistance": 0,
-                        "cost": 8,
-                        "blockCnt": 1,
-                        "moveSpeed": 1,
-                        "attackSpeed": 100,
-                        "baseAttackTime": 1,
-                        "respawnTime": 25,
-                        "hpRecoveryPerSec": 0,
-                        "spRecoveryPerSec": 1,
-                        "maxDeployCount": 1,
-                        "maxDeckStackCnt": 0,
-                        "tauntLevel": 0,
-                        "massLevel": 0,
-                        "baseForceLevel": 0,
-                        "stunImmune": false,
-                        "silenceImmune": false,
-                        "sleepImmune": false
-                    }
-                },
-                {
-                    "level": 70,
-                    "data": {
-                        "maxHp": 1894,
-                        "atk": 601,
-                        "def": 336,
-                        "magicResistance": 0,
-                        "cost": 8,
-                        "blockCnt": 1,
-                        "moveSpeed": 1,
-                        "attackSpeed": 100,
-                        "baseAttackTime": 1,
-                        "respawnTime": 25,
-                        "hpRecoveryPerSec": 0,
-                        "spRecoveryPerSec": 1,
-                        "maxDeployCount": 1,
-                        "maxDeckStackCnt": 0,
-                        "tauntLevel": 0,
-                        "massLevel": 0,
-                        "baseForceLevel": 0,
-                        "stunImmune": false,
-                        "silenceImmune": false,
-                        "sleepImmune": false
-                    }
-                }
-            ],
-            "evolveCost": [
-                {
-                    "id": "3281",
-                    "count": 4,
-                    "type": "MATERIAL"
-                },
-                {
-                    "id": "30062",
-                    "count": 3,
-                    "type": "MATERIAL"
-                },
-                {
-                    "id": "30012",
-                    "count": 4,
-                    "type": "MATERIAL"
-                }
-            ]
-        },
-        {
-            "characterPrefabKey": "char_455_nothin",
-            "rangeId": "1-1",
-            "maxLevel": 80,
-            "attributesKeyFrames": [
-                {
-                    "level": 1,
-                    "data": {
-                        "maxHp": 1894,
-                        "atk": 601,
-                        "def": 336,
-                        "magicResistance": 0,
-                        "cost": 8,
-                        "blockCnt": 1,
-                        "moveSpeed": 1,
-                        "attackSpeed": 100,
-                        "baseAttackTime": 1,
-                        "respawnTime": 25,
-                        "hpRecoveryPerSec": 0,
-                        "spRecoveryPerSec": 1,
-                        "maxDeployCount": 1,
-                        "maxDeckStackCnt": 0,
-                        "tauntLevel": 0,
-                        "massLevel": 0,
-                        "baseForceLevel": 0,
-                        "stunImmune": false,
-                        "silenceImmune": false,
-                        "sleepImmune": false
-                    }
-                },
-                {
-                    "level": 80,
-                    "data": {
-                        "maxHp": 2398,
-                        "atk": 725,
-                        "def": 396,
-                        "magicResistance": 0,
-                        "cost": 8,
-                        "blockCnt": 1,
-                        "moveSpeed": 1,
-                        "attackSpeed": 100,
-                        "baseAttackTime": 1,
-                        "respawnTime": 25,
-                        "hpRecoveryPerSec": 0,
-                        "spRecoveryPerSec": 1,
-                        "maxDeployCount": 1,
-                        "maxDeckStackCnt": 0,
-                        "tauntLevel": 0,
-                        "massLevel": 0,
-                        "baseForceLevel": 0,
-                        "stunImmune": false,
-                        "silenceImmune": false,
-                        "sleepImmune": false
-                    }
-                }
-            ],
-            "evolveCost": [
-                {
-                    "id": "3283",
-                    "count": 3,
-                    "type": "MATERIAL"
-                },
-                {
-                    "id": "30064",
-                    "count": 6,
-                    "type": "MATERIAL"
-                },
-                {
-                    "id": "30083",
-                    "count": 10,
-                    "type": "MATERIAL"
-                }
-            ]
-        }
-    ],
-    "skills": [
-        {
-            "skillId": "skchr_nothin_1",
-            "overridePrefabKey": null,
-            "overrideTokenKey": null,
-            "levelUpCostCond": [
-                {
-                    "unlockCond": {
-                        "phase": 2,
-                        "level": 1
-                    },
-                    "lvlUpTime": 28800,
-                    "levelUpCost": [
-                        {
-                            "id": "3303",
-                            "count": 5,
-                            "type": "MATERIAL"
-                        },
-                        {
-                            "id": "30094",
-                            "count": 3,
-                            "type": "MATERIAL"
-                        },
-                        {
-                            "id": "30073",
-                            "count": 4,
-                            "type": "MATERIAL"
-                        }
-                    ]
-                },
-                {
-                    "unlockCond": {
-                        "phase": 2,
-                        "level": 1
-                    },
-                    "lvlUpTime": 57600,
-                    "levelUpCost": [
-                        {
-                            "id": "3303",
-                            "count": 6,
-                            "type": "MATERIAL"
-                        },
-                        {
-                            "id": "31014",
-                            "count": 3,
-                            "type": "MATERIAL"
-                        },
-                        {
-                            "id": "30014",
-                            "count": 7,
-                            "type": "MATERIAL"
-                        }
-                    ]
-                },
-                {
-                    "unlockCond": {
-                        "phase": 2,
-                        "level": 1
-                    },
-                    "lvlUpTime": 86400,
-                    "levelUpCost": [
-                        {
-                            "id": "3303",
-                            "count": 10,
-                            "type": "MATERIAL"
-                        },
-                        {
-                            "id": "30125",
-                            "count": 4,
-                            "type": "MATERIAL"
-                        },
-                        {
-                            "id": "31024",
-                            "count": 4,
-                            "type": "MATERIAL"
-                        }
-                    ]
-                }
-            ],
-            "unlockCond": {
-                "phase": 0,
-                "level": 1
-            }
-        },
-        {
-            "skillId": "skchr_nothin_2",
-            "overridePrefabKey": null,
-            "overrideTokenKey": null,
-            "levelUpCostCond": [
-                {
-                    "unlockCond": {
-                        "phase": 2,
-                        "level": 1
-                    },
-                    "lvlUpTime": 28800,
-                    "levelUpCost": [
-                        {
-                            "id": "3303",
-                            "count": 5,
-                            "type": "MATERIAL"
-                        },
-                        {
-                            "id": "30014",
-                            "count": 3,
-                            "type": "MATERIAL"
-                        },
-                        {
-                            "id": "30093",
-                            "count": 4,
-                            "type": "MATERIAL"
-                        }
-                    ]
-                },
-                {
-                    "unlockCond": {
-                        "phase": 2,
-                        "level": 1
-                    },
-                    "lvlUpTime": 57600,
-                    "levelUpCost": [
-                        {
-                            "id": "3303",
-                            "count": 6,
-                            "type": "MATERIAL"
-                        },
-                        {
-                            "id": "31024",
-                            "count": 3,
-                            "type": "MATERIAL"
-                        },
-                        {
-                            "id": "30104",
-                            "count": 5,
-                            "type": "MATERIAL"
-                        }
-                    ]
-                },
-                {
-                    "unlockCond": {
-                        "phase": 2,
-                        "level": 1
-                    },
-                    "lvlUpTime": 86400,
-                    "levelUpCost": [
-                        {
-                            "id": "3303",
-                            "count": 10,
-                            "type": "MATERIAL"
-                        },
-                        {
-                            "id": "30115",
-                            "count": 4,
-                            "type": "MATERIAL"
-                        },
-                        {
-                            "id": "31014",
-                            "count": 5,
-                            "type": "MATERIAL"
-                        }
-                    ]
-                }
-            ],
-            "unlockCond": {
-                "phase": 1,
-                "level": 1
-            }
-        }
-    ],
-    "talents": [
-        {
-            "candidates": [
-                {
-                    "unlockCondition": {
-                        "phase": 1,
-                        "level": 1
-                    },
-                    "requiredPotentialRank": 0,
-                    "prefabKey": "1",
-                    "name": "出其不意",
-                    "description": "如果4秒内没有主动攻击过，下一次攻击的攻击力提升至125%并<$ba.stun>晕眩</>目标3秒",
-                    "rangeId": null,
-                    "blackboard": [
-                        {
-                            "key": "delay",
-                            "value": 4
-                        },
-                        {
-                            "key": "atk_scale",
-                            "value": 1.25
-                        },
-                        {
-                            "key": "stun",
-                            "value": 3
-                        }
-                    ]
-                },
-                {
-                    "unlockCondition": {
-                        "phase": 1,
-                        "level": 1
-                    },
-                    "requiredPotentialRank": 4,
-                    "prefabKey": "1",
-                    "name": "出其不意",
-                    "description": "如果4秒内没有主动攻击过，下一次攻击的攻击力提升至130%<@ba.talpu>（+5%）</>并<$ba.stun>晕眩</>目标3秒",
-                    "rangeId": null,
-                    "blackboard": [
-                        {
-                            "key": "delay",
-                            "value": 4
-                        },
-                        {
-                            "key": "atk_scale",
-                            "value": 1.3
-                        },
-                        {
-                            "key": "stun",
-                            "value": 3
-                        }
-                    ]
-                },
-                {
-                    "unlockCondition": {
-                        "phase": 2,
-                        "level": 1
-                    },
-                    "requiredPotentialRank": 0,
-                    "prefabKey": "1",
-                    "name": "出其不意",
-                    "description": "如果4秒内没有主动攻击过，下一次攻击的攻击力提升至150%并<$ba.stun>晕眩</>目标4秒",
-                    "rangeId": null,
-                    "blackboard": [
-                        {
-                            "key": "delay",
-                            "value": 4
-                        },
-                        {
-                            "key": "atk_scale",
-                            "value": 1.5
-                        },
-                        {
-                            "key": "stun",
-                            "value": 4
-                        }
-                    ]
-                },
-                {
-                    "unlockCondition": {
-                        "phase": 2,
-                        "level": 1
-                    },
-                    "requiredPotentialRank": 4,
-                    "prefabKey": "1",
-                    "name": "出其不意",
-                    "description": "如果4秒内没有主动攻击过，下一次攻击的攻击力提升至155%<@ba.talpu>（+5%）</>并<$ba.stun>晕眩</>目标4秒",
-                    "rangeId": null,
-                    "blackboard": [
-                        {
-                            "key": "delay",
-                            "value": 4
-                        },
-                        {
-                            "key": "atk_scale",
-                            "value": 1.55
-                        },
-                        {
-                            "key": "stun",
-                            "value": 4
-                        }
-                    ]
-                }
-            ]
-        }
-    ],
-    "potentialRanks": [
-        {
-            "type": 0,
-            "description": "部署费用-1",
-            "buff": {
-                "attributes": {
-                    "abnormalFlags": null,
-                    "abnormalImmunes": null,
-                    "abnormalAntis": null,
-                    "abnormalCombos": null,
-                    "abnormalComboImmunes": null,
-                    "attributeModifiers": [
-                        {
-                            "attributeType": 4,
-                            "formulaItem": 0,
-                            "value": -1,
-                            "loadFromBlackboard": false,
-                            "fetchBaseValueFromSourceEntity": false
-                        }
-                    ]
-                }
-            },
-            "equivalentCost": null
-        },
-        {
-            "type": 0,
-            "description": "再部署时间-3秒",
-            "buff": {
-                "attributes": {
-                    "abnormalFlags": null,
-                    "abnormalImmunes": null,
-                    "abnormalAntis": null,
-                    "abnormalCombos": null,
-                    "abnormalComboImmunes": null,
-                    "attributeModifiers": [
-                        {
-                            "attributeType": 21,
-                            "formulaItem": 0,
-                            "value": -3,
-                            "loadFromBlackboard": false,
-                            "fetchBaseValueFromSourceEntity": false
-                        }
-                    ]
-                }
-            },
-            "equivalentCost": null
-        },
-        {
-            "type": 0,
-            "description": "攻击力+25",
-            "buff": {
-                "attributes": {
-                    "abnormalFlags": null,
-                    "abnormalImmunes": null,
-                    "abnormalAntis": null,
-                    "abnormalCombos": null,
-                    "abnormalComboImmunes": null,
-                    "attributeModifiers": [
-                        {
-                            "attributeType": 1,
-                            "formulaItem": 0,
-                            "value": 25,
-                            "loadFromBlackboard": false,
-                            "fetchBaseValueFromSourceEntity": false
-                        }
-                    ]
-                }
-            },
-            "equivalentCost": null
-        },
-        {
-            "type": 1,
-            "description": "天赋效果增强",
-            "buff": null,
-            "equivalentCost": null
-        },
-        {
-            "type": 0,
-            "description": "部署费用-1",
-            "buff": {
-                "attributes": {
-                    "abnormalFlags": null,
-                    "abnormalImmunes": null,
-                    "abnormalAntis": null,
-                    "abnormalCombos": null,
-                    "abnormalComboImmunes": null,
-                    "attributeModifiers": [
-                        {
-                            "attributeType": 4,
-                            "formulaItem": 0,
-                            "value": -1,
-                            "loadFromBlackboard": false,
-                            "fetchBaseValueFromSourceEntity": false
-                        }
-                    ]
-                }
-            },
-            "equivalentCost": null
-        }
-    ],
-    "favorKeyFrames": [
-        {
-            "level": 0,
-            "data": {
-                "maxHp": 0,
-                "atk": 0,
-                "def": 0,
-                "magicResistance": 0,
-                "cost": 0,
-                "blockCnt": 0,
-                "moveSpeed": 0,
-                "attackSpeed": 0,
-                "baseAttackTime": 0,
-                "respawnTime": 0,
-                "hpRecoveryPerSec": 0,
-                "spRecoveryPerSec": 0,
-                "maxDeployCount": 0,
-                "maxDeckStackCnt": 0,
-                "tauntLevel": 0,
-                "massLevel": 0,
-                "baseForceLevel": 0,
-                "stunImmune": false,
-                "silenceImmune": false,
-                "sleepImmune": false
-            }
-        },
-        {
-            "level": 50,
-            "data": {
-                "maxHp": 200,
-                "atk": 40,
-                "def": 0,
-                "magicResistance": 0,
-                "cost": 0,
-                "blockCnt": 0,
-                "moveSpeed": 0,
-                "attackSpeed": 0,
-                "baseAttackTime": 0,
-                "respawnTime": 0,
-                "hpRecoveryPerSec": 0,
-                "spRecoveryPerSec": 0,
-                "maxDeployCount": 0,
-                "maxDeckStackCnt": 0,
-                "tauntLevel": 0,
-                "massLevel": 0,
-                "baseForceLevel": 0,
-                "stunImmune": false,
-                "silenceImmune": false,
-                "sleepImmune": false
-            }
-        }
-    ],
-    "allSkillLvlup": [
-        {
-            "unlockCond": {
-                "phase": 0,
-                "level": 1
-            },
-            "lvlUpCost": [
-                {
-                    "id": "3301",
-                    "count": 4,
-                    "type": "MATERIAL"
-                }
-            ]
-        },
-        {
-            "unlockCond": {
-                "phase": 0,
-                "level": 1
-            },
-            "lvlUpCost": [
-                {
-                    "id": "3301",
-                    "count": 4,
-                    "type": "MATERIAL"
-                },
-                {
-                    "id": "30011",
-                    "count": 10,
-                    "type": "MATERIAL"
-                }
-            ]
-        },
-        {
-            "unlockCond": {
-                "phase": 0,
-                "level": 1
-            },
-            "lvlUpCost": [
-                {
-                    "id": "3302",
-                    "count": 6,
-                    "type": "MATERIAL"
-                },
-                {
-                    "id": "30022",
-                    "count": 3,
-                    "type": "MATERIAL"
-                }
-            ]
-        },
-        {
-            "unlockCond": {
-                "phase": 1,
-                "level": 1
-            },
-            "lvlUpCost": [
-                {
-                    "id": "3302",
-                    "count": 6,
-                    "type": "MATERIAL"
-                },
-                {
-                    "id": "30032",
-                    "count": 5,
-                    "type": "MATERIAL"
-                }
-            ]
-        },
-        {
-            "unlockCond": {
-                "phase": 1,
-                "level": 1
-            },
-            "lvlUpCost": [
-                {
-                    "id": "3302",
-                    "count": 6,
-                    "type": "MATERIAL"
-                },
-                {
-                    "id": "30103",
-                    "count": 3,
-                    "type": "MATERIAL"
-                }
-            ]
-        },
-        {
-            "unlockCond": {
-                "phase": 1,
-                "level": 1
-            },
-            "lvlUpCost": [
-                {
-                    "id": "3303",
-                    "count": 6,
-                    "type": "MATERIAL"
-                },
-                {
-                    "id": "31033",
-                    "count": 3,
-                    "type": "MATERIAL"
-                },
-                {
-                    "id": "31013",
-                    "count": 3,
-                    "type": "MATERIAL"
-                }
-            ]
-        }
-    ]
+	"name": "乌有",
+	"description": "再部署时间<@ba.kw>减少</>，撤退时不返还<@ba.kw>部署费用</>，在场时每3秒<@ba.kw>消耗</>3点部署费用（不足时自动撤退）",
+	"canUseGeneralPotentialItem": true,
+	"potentialItemId": "p_char_455_nothin",
+	"nationId": "yan",
+	"groupId": null,
+	"teamId": null,
+	"displayNumber": "YD11",
+	"tokenKey": null,
+	"appellation": "Mr.Nothing",
+	"position": "MELEE",
+	"tagList": [
+		"快速复活",
+		"输出"
+	],
+	"itemUsage": "炎国武夫乌有，按捺住想要开溜的心情驻守战场。",
+	"itemDesc": "武器是一把伞一把扇还有一张嘴，也许还有别的。",
+	"itemObtainApproach": "招募寻访",
+	"isNotObtainable": false,
+	"isSpChar": false,
+	"maxPotentialLevel": 5,
+	"rarity": 4,
+	"profession": "SPECIAL",
+	"subProfessionId": "merchant",
+	"trait": {
+		"candidates": [
+			{
+				"unlockCondition": {
+					"phase": 0,
+					"level": 1
+				},
+				"requiredPotentialRank": 0,
+				"blackboard": [
+					{
+						"key": "interval",
+						"value": 3
+					},
+					{
+						"key": "cost",
+						"value": -3
+					}
+				],
+				"overrideDescripton": null,
+				"prefabKey": null,
+				"rangeId": null
+			}
+		]
+	},
+	"phases": [
+		{
+			"characterPrefabKey": "char_455_nothin",
+			"rangeId": "1-1",
+			"maxLevel": 50,
+			"attributesKeyFrames": [
+				{
+					"level": 1,
+					"data": {
+						"maxHp": 1165,
+						"atk": 346,
+						"def": 204,
+						"magicResistance": 0,
+						"cost": 6,
+						"blockCnt": 1,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 1,
+						"respawnTime": 25,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false
+					}
+				},
+				{
+					"level": 50,
+					"data": {
+						"maxHp": 1534,
+						"atk": 474,
+						"def": 262,
+						"magicResistance": 0,
+						"cost": 6,
+						"blockCnt": 1,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 1,
+						"respawnTime": 25,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false
+					}
+				}
+			],
+			"evolveCost": null
+		},
+		{
+			"characterPrefabKey": "char_455_nothin",
+			"rangeId": "1-1",
+			"maxLevel": 70,
+			"attributesKeyFrames": [
+				{
+					"level": 1,
+					"data": {
+						"maxHp": 1534,
+						"atk": 474,
+						"def": 262,
+						"magicResistance": 0,
+						"cost": 8,
+						"blockCnt": 1,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 1,
+						"respawnTime": 25,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false
+					}
+				},
+				{
+					"level": 70,
+					"data": {
+						"maxHp": 1894,
+						"atk": 601,
+						"def": 336,
+						"magicResistance": 0,
+						"cost": 8,
+						"blockCnt": 1,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 1,
+						"respawnTime": 25,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false
+					}
+				}
+			],
+			"evolveCost": [
+				{
+					"id": "3281",
+					"count": 4,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30062",
+					"count": 3,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30012",
+					"count": 4,
+					"type": "MATERIAL"
+				}
+			]
+		},
+		{
+			"characterPrefabKey": "char_455_nothin",
+			"rangeId": "1-1",
+			"maxLevel": 80,
+			"attributesKeyFrames": [
+				{
+					"level": 1,
+					"data": {
+						"maxHp": 1894,
+						"atk": 601,
+						"def": 336,
+						"magicResistance": 0,
+						"cost": 8,
+						"blockCnt": 1,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 1,
+						"respawnTime": 25,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false
+					}
+				},
+				{
+					"level": 80,
+					"data": {
+						"maxHp": 2398,
+						"atk": 725,
+						"def": 396,
+						"magicResistance": 0,
+						"cost": 8,
+						"blockCnt": 1,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 1,
+						"respawnTime": 25,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false
+					}
+				}
+			],
+			"evolveCost": [
+				{
+					"id": "3283",
+					"count": 3,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30064",
+					"count": 6,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30083",
+					"count": 10,
+					"type": "MATERIAL"
+				}
+			]
+		}
+	],
+	"skills": [
+		{
+			"skillId": "skchr_nothin_1",
+			"overridePrefabKey": null,
+			"overrideTokenKey": null,
+			"levelUpCostCond": [
+				{
+					"unlockCond": {
+						"phase": 2,
+						"level": 1
+					},
+					"lvlUpTime": 28800,
+					"levelUpCost": [
+						{
+							"id": "3303",
+							"count": 5,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30094",
+							"count": 3,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30073",
+							"count": 4,
+							"type": "MATERIAL"
+						}
+					]
+				},
+				{
+					"unlockCond": {
+						"phase": 2,
+						"level": 1
+					},
+					"lvlUpTime": 57600,
+					"levelUpCost": [
+						{
+							"id": "3303",
+							"count": 6,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "31014",
+							"count": 3,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30014",
+							"count": 7,
+							"type": "MATERIAL"
+						}
+					]
+				},
+				{
+					"unlockCond": {
+						"phase": 2,
+						"level": 1
+					},
+					"lvlUpTime": 86400,
+					"levelUpCost": [
+						{
+							"id": "3303",
+							"count": 10,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30125",
+							"count": 4,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "31024",
+							"count": 4,
+							"type": "MATERIAL"
+						}
+					]
+				}
+			],
+			"unlockCond": {
+				"phase": 0,
+				"level": 1
+			}
+		},
+		{
+			"skillId": "skchr_nothin_2",
+			"overridePrefabKey": null,
+			"overrideTokenKey": null,
+			"levelUpCostCond": [
+				{
+					"unlockCond": {
+						"phase": 2,
+						"level": 1
+					},
+					"lvlUpTime": 28800,
+					"levelUpCost": [
+						{
+							"id": "3303",
+							"count": 5,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30014",
+							"count": 3,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30093",
+							"count": 4,
+							"type": "MATERIAL"
+						}
+					]
+				},
+				{
+					"unlockCond": {
+						"phase": 2,
+						"level": 1
+					},
+					"lvlUpTime": 57600,
+					"levelUpCost": [
+						{
+							"id": "3303",
+							"count": 6,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "31024",
+							"count": 3,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30104",
+							"count": 5,
+							"type": "MATERIAL"
+						}
+					]
+				},
+				{
+					"unlockCond": {
+						"phase": 2,
+						"level": 1
+					},
+					"lvlUpTime": 86400,
+					"levelUpCost": [
+						{
+							"id": "3303",
+							"count": 10,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30115",
+							"count": 4,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "31014",
+							"count": 5,
+							"type": "MATERIAL"
+						}
+					]
+				}
+			],
+			"unlockCond": {
+				"phase": 1,
+				"level": 1
+			}
+		}
+	],
+	"talents": [
+		{
+			"candidates": [
+				{
+					"unlockCondition": {
+						"phase": 1,
+						"level": 1
+					},
+					"requiredPotentialRank": 0,
+					"prefabKey": "1",
+					"name": "出其不意",
+					"description": "如果4秒内没有主动攻击过，下一次攻击的攻击力提升至125%并<$ba.stun>晕眩</>目标3秒",
+					"rangeId": null,
+					"blackboard": [
+						{
+							"key": "delay",
+							"value": 4
+						},
+						{
+							"key": "atk_scale",
+							"value": 1.25
+						},
+						{
+							"key": "stun",
+							"value": 3
+						}
+					]
+				},
+				{
+					"unlockCondition": {
+						"phase": 1,
+						"level": 1
+					},
+					"requiredPotentialRank": 4,
+					"prefabKey": "1",
+					"name": "出其不意",
+					"description": "如果4秒内没有主动攻击过，下一次攻击的攻击力提升至130%<@ba.talpu>（+5%）</>并<$ba.stun>晕眩</>目标3秒",
+					"rangeId": null,
+					"blackboard": [
+						{
+							"key": "delay",
+							"value": 4
+						},
+						{
+							"key": "atk_scale",
+							"value": 1.3
+						},
+						{
+							"key": "stun",
+							"value": 3
+						}
+					]
+				},
+				{
+					"unlockCondition": {
+						"phase": 2,
+						"level": 1
+					},
+					"requiredPotentialRank": 0,
+					"prefabKey": "1",
+					"name": "出其不意",
+					"description": "如果4秒内没有主动攻击过，下一次攻击的攻击力提升至150%并<$ba.stun>晕眩</>目标4秒",
+					"rangeId": null,
+					"blackboard": [
+						{
+							"key": "delay",
+							"value": 4
+						},
+						{
+							"key": "atk_scale",
+							"value": 1.5
+						},
+						{
+							"key": "stun",
+							"value": 4
+						}
+					]
+				},
+				{
+					"unlockCondition": {
+						"phase": 2,
+						"level": 1
+					},
+					"requiredPotentialRank": 4,
+					"prefabKey": "1",
+					"name": "出其不意",
+					"description": "如果4秒内没有主动攻击过，下一次攻击的攻击力提升至155%<@ba.talpu>（+5%）</>并<$ba.stun>晕眩</>目标4秒",
+					"rangeId": null,
+					"blackboard": [
+						{
+							"key": "delay",
+							"value": 4
+						},
+						{
+							"key": "atk_scale",
+							"value": 1.55
+						},
+						{
+							"key": "stun",
+							"value": 4
+						}
+					]
+				}
+			]
+		}
+	],
+	"potentialRanks": [
+		{
+			"type": 0,
+			"description": "部署费用-1",
+			"buff": {
+				"attributes": {
+					"abnormalFlags": null,
+					"abnormalImmunes": null,
+					"abnormalAntis": null,
+					"abnormalCombos": null,
+					"abnormalComboImmunes": null,
+					"attributeModifiers": [
+						{
+							"attributeType": 4,
+							"formulaItem": 0,
+							"value": -1,
+							"loadFromBlackboard": false,
+							"fetchBaseValueFromSourceEntity": false
+						}
+					]
+				}
+			},
+			"equivalentCost": null
+		},
+		{
+			"type": 0,
+			"description": "再部署时间-3秒",
+			"buff": {
+				"attributes": {
+					"abnormalFlags": null,
+					"abnormalImmunes": null,
+					"abnormalAntis": null,
+					"abnormalCombos": null,
+					"abnormalComboImmunes": null,
+					"attributeModifiers": [
+						{
+							"attributeType": 21,
+							"formulaItem": 0,
+							"value": -3,
+							"loadFromBlackboard": false,
+							"fetchBaseValueFromSourceEntity": false
+						}
+					]
+				}
+			},
+			"equivalentCost": null
+		},
+		{
+			"type": 0,
+			"description": "攻击力+25",
+			"buff": {
+				"attributes": {
+					"abnormalFlags": null,
+					"abnormalImmunes": null,
+					"abnormalAntis": null,
+					"abnormalCombos": null,
+					"abnormalComboImmunes": null,
+					"attributeModifiers": [
+						{
+							"attributeType": 1,
+							"formulaItem": 0,
+							"value": 25,
+							"loadFromBlackboard": false,
+							"fetchBaseValueFromSourceEntity": false
+						}
+					]
+				}
+			},
+			"equivalentCost": null
+		},
+		{
+			"type": 1,
+			"description": "天赋效果增强",
+			"buff": null,
+			"equivalentCost": null
+		},
+		{
+			"type": 0,
+			"description": "部署费用-1",
+			"buff": {
+				"attributes": {
+					"abnormalFlags": null,
+					"abnormalImmunes": null,
+					"abnormalAntis": null,
+					"abnormalCombos": null,
+					"abnormalComboImmunes": null,
+					"attributeModifiers": [
+						{
+							"attributeType": 4,
+							"formulaItem": 0,
+							"value": -1,
+							"loadFromBlackboard": false,
+							"fetchBaseValueFromSourceEntity": false
+						}
+					]
+				}
+			},
+			"equivalentCost": null
+		}
+	],
+	"favorKeyFrames": [
+		{
+			"level": 0,
+			"data": {
+				"maxHp": 0,
+				"atk": 0,
+				"def": 0,
+				"magicResistance": 0,
+				"cost": 0,
+				"blockCnt": 0,
+				"moveSpeed": 0,
+				"attackSpeed": 0,
+				"baseAttackTime": 0,
+				"respawnTime": 0,
+				"hpRecoveryPerSec": 0,
+				"spRecoveryPerSec": 0,
+				"maxDeployCount": 0,
+				"maxDeckStackCnt": 0,
+				"tauntLevel": 0,
+				"massLevel": 0,
+				"baseForceLevel": 0,
+				"stunImmune": false,
+				"silenceImmune": false,
+				"sleepImmune": false
+			}
+		},
+		{
+			"level": 50,
+			"data": {
+				"maxHp": 200,
+				"atk": 40,
+				"def": 0,
+				"magicResistance": 0,
+				"cost": 0,
+				"blockCnt": 0,
+				"moveSpeed": 0,
+				"attackSpeed": 0,
+				"baseAttackTime": 0,
+				"respawnTime": 0,
+				"hpRecoveryPerSec": 0,
+				"spRecoveryPerSec": 0,
+				"maxDeployCount": 0,
+				"maxDeckStackCnt": 0,
+				"tauntLevel": 0,
+				"massLevel": 0,
+				"baseForceLevel": 0,
+				"stunImmune": false,
+				"silenceImmune": false,
+				"sleepImmune": false
+			}
+		}
+	],
+	"allSkillLvlup": [
+		{
+			"unlockCond": {
+				"phase": 0,
+				"level": 1
+			},
+			"lvlUpCost": [
+				{
+					"id": "3301",
+					"count": 4,
+					"type": "MATERIAL"
+				}
+			]
+		},
+		{
+			"unlockCond": {
+				"phase": 0,
+				"level": 1
+			},
+			"lvlUpCost": [
+				{
+					"id": "3301",
+					"count": 4,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30011",
+					"count": 10,
+					"type": "MATERIAL"
+				}
+			]
+		},
+		{
+			"unlockCond": {
+				"phase": 0,
+				"level": 1
+			},
+			"lvlUpCost": [
+				{
+					"id": "3302",
+					"count": 6,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30022",
+					"count": 3,
+					"type": "MATERIAL"
+				}
+			]
+		},
+		{
+			"unlockCond": {
+				"phase": 1,
+				"level": 1
+			},
+			"lvlUpCost": [
+				{
+					"id": "3302",
+					"count": 6,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30032",
+					"count": 5,
+					"type": "MATERIAL"
+				}
+			]
+		},
+		{
+			"unlockCond": {
+				"phase": 1,
+				"level": 1
+			},
+			"lvlUpCost": [
+				{
+					"id": "3302",
+					"count": 6,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30103",
+					"count": 3,
+					"type": "MATERIAL"
+				}
+			]
+		},
+		{
+			"unlockCond": {
+				"phase": 1,
+				"level": 1
+			},
+			"lvlUpCost": [
+				{
+					"id": "3303",
+					"count": 6,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "31033",
+					"count": 3,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "31013",
+					"count": 3,
+					"type": "MATERIAL"
+				}
+			]
+		}
+	]
 }

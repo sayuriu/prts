@@ -1,375 +1,375 @@
 {
-    "name": "Touch",
-    "description": "味方のHPを回復",
-    "canUseGeneralPotentialItem": true,
-    "potentialItemId": "",
-    "nationId": null,
-    "groupId": null,
-    "teamId": null,
-    "displayNumber": null,
-    "tokenKey": null,
-    "appellation": "Touch",
-    "position": "RANGED",
-    "tagList": [
-        "治療"
-    ],
-    "itemUsage": null,
-    "itemDesc": null,
-    "itemObtainApproach": null,
-    "isNotObtainable": true,
-    "isSpChar": false,
-    "maxPotentialLevel": 0,
-    "rarity": 4,
-    "profession": "MEDIC",
-    "trait": null,
-    "phases": [
-        {
-            "characterPrefabKey": "char_510_amedic",
-            "rangeId": "3-1",
-            "maxLevel": 50,
-            "attributesKeyFrames": [
-                {
-                    "level": 1,
-                    "data": {
-                        "maxHp": 865,
-                        "atk": 210,
-                        "def": 59,
-                        "magicResistance": 0,
-                        "cost": 16,
-                        "blockCnt": 1,
-                        "moveSpeed": 1,
-                        "attackSpeed": 100,
-                        "baseAttackTime": 2.85,
-                        "respawnTime": 60,
-                        "hpRecoveryPerSec": 0,
-                        "spRecoveryPerSec": 1,
-                        "maxDeployCount": 1,
-                        "maxDeckStackCnt": 0,
-                        "tauntLevel": 0,
-                        "massLevel": 0,
-                        "baseForceLevel": 0,
-                        "stunImmune": false,
-                        "silenceImmune": false,
-                        "sleepImmune": false
-                    }
-                },
-                {
-                    "level": 50,
-                    "data": {
-                        "maxHp": 1219,
-                        "atk": 345,
-                        "def": 86,
-                        "magicResistance": 0,
-                        "cost": 16,
-                        "blockCnt": 1,
-                        "moveSpeed": 1,
-                        "attackSpeed": 100,
-                        "baseAttackTime": 2.85,
-                        "respawnTime": 60,
-                        "hpRecoveryPerSec": 0,
-                        "spRecoveryPerSec": 1,
-                        "maxDeployCount": 1,
-                        "maxDeckStackCnt": 0,
-                        "tauntLevel": 0,
-                        "massLevel": 0,
-                        "baseForceLevel": 0,
-                        "stunImmune": false,
-                        "silenceImmune": false,
-                        "sleepImmune": false
-                    }
-                }
-            ],
-            "evolveCost": null
-        },
-        {
-            "characterPrefabKey": "char_510_amedic",
-            "rangeId": "3-3",
-            "maxLevel": 70,
-            "attributesKeyFrames": [
-                {
-                    "level": 1,
-                    "data": {
-                        "maxHp": 1219,
-                        "atk": 345,
-                        "def": 86,
-                        "magicResistance": 0,
-                        "cost": 18,
-                        "blockCnt": 1,
-                        "moveSpeed": 1,
-                        "attackSpeed": 100,
-                        "baseAttackTime": 2.85,
-                        "respawnTime": 60,
-                        "hpRecoveryPerSec": 0,
-                        "spRecoveryPerSec": 1,
-                        "maxDeployCount": 1,
-                        "maxDeckStackCnt": 0,
-                        "tauntLevel": 0,
-                        "massLevel": 0,
-                        "baseForceLevel": 0,
-                        "stunImmune": false,
-                        "silenceImmune": false,
-                        "sleepImmune": false
-                    }
-                },
-                {
-                    "level": 70,
-                    "data": {
-                        "maxHp": 1469,
-                        "atk": 493,
-                        "def": 108,
-                        "magicResistance": 0,
-                        "cost": 18,
-                        "blockCnt": 1,
-                        "moveSpeed": 1,
-                        "attackSpeed": 100,
-                        "baseAttackTime": 2.85,
-                        "respawnTime": 60,
-                        "hpRecoveryPerSec": 0,
-                        "spRecoveryPerSec": 1,
-                        "maxDeployCount": 1,
-                        "maxDeckStackCnt": 0,
-                        "tauntLevel": 0,
-                        "massLevel": 0,
-                        "baseForceLevel": 0,
-                        "stunImmune": false,
-                        "silenceImmune": false,
-                        "sleepImmune": false
-                    }
-                }
-            ],
-            "evolveCost": null
-        },
-        {
-            "characterPrefabKey": "char_510_amedic",
-            "rangeId": "3-3",
-            "maxLevel": 80,
-            "attributesKeyFrames": [
-                {
-                    "level": 1,
-                    "data": {
-                        "maxHp": 1469,
-                        "atk": 493,
-                        "def": 108,
-                        "magicResistance": 0,
-                        "cost": 18,
-                        "blockCnt": 1,
-                        "moveSpeed": 1,
-                        "attackSpeed": 100,
-                        "baseAttackTime": 2.85,
-                        "respawnTime": 60,
-                        "hpRecoveryPerSec": 0,
-                        "spRecoveryPerSec": 1,
-                        "maxDeployCount": 1,
-                        "maxDeckStackCnt": 0,
-                        "tauntLevel": 0,
-                        "massLevel": 0,
-                        "baseForceLevel": 0,
-                        "stunImmune": false,
-                        "silenceImmune": false,
-                        "sleepImmune": false
-                    }
-                },
-                {
-                    "level": 80,
-                    "data": {
-                        "maxHp": 1633,
-                        "atk": 595,
-                        "def": 135,
-                        "magicResistance": 0,
-                        "cost": 18,
-                        "blockCnt": 1,
-                        "moveSpeed": 1,
-                        "attackSpeed": 100,
-                        "baseAttackTime": 2.85,
-                        "respawnTime": 60,
-                        "hpRecoveryPerSec": 0,
-                        "spRecoveryPerSec": 1,
-                        "maxDeployCount": 1,
-                        "maxDeckStackCnt": 0,
-                        "tauntLevel": 0,
-                        "massLevel": 0,
-                        "baseForceLevel": 0,
-                        "stunImmune": false,
-                        "silenceImmune": false,
-                        "sleepImmune": false
-                    }
-                }
-            ],
-            "evolveCost": null
-        }
-    ],
-    "skills": [
-        {
-            "skillId": "skchr_amedic_1",
-            "overridePrefabKey": null,
-            "overrideTokenKey": null,
-            "levelUpCostCond": [
-                {
-                    "unlockCond": {
-                        "phase": 2,
-                        "level": 1
-                    },
-                    "lvlUpTime": 0,
-                    "levelUpCost": null
-                },
-                {
-                    "unlockCond": {
-                        "phase": 2,
-                        "level": 1
-                    },
-                    "lvlUpTime": 0,
-                    "levelUpCost": null
-                },
-                {
-                    "unlockCond": {
-                        "phase": 2,
-                        "level": 1
-                    },
-                    "lvlUpTime": 0,
-                    "levelUpCost": null
-                }
-            ],
-            "unlockCond": {
-                "phase": 0,
-                "level": 1
-            }
-        }
-    ],
-    "talents": [
-        {
-            "candidates": [
-                {
-                    "unlockCondition": {
-                        "phase": 1,
-                        "level": 1
-                    },
-                    "requiredPotentialRank": 0,
-                    "prefabKey": "1",
-                    "name": "アセンション",
-                    "description": "味方を回復時、対象のSP+2",
-                    "rangeId": null,
-                    "blackboard": [
-                        {
-                            "key": "sp",
-                            "value": 2
-                        }
-                    ]
-                },
-                {
-                    "unlockCondition": {
-                        "phase": 2,
-                        "level": 1
-                    },
-                    "requiredPotentialRank": 0,
-                    "prefabKey": "1",
-                    "name": "アセンション",
-                    "description": "味方を回復時、対象のSP+3",
-                    "rangeId": null,
-                    "blackboard": [
-                        {
-                            "key": "sp",
-                            "value": 3
-                        }
-                    ]
-                }
-            ]
-        }
-    ],
-    "potentialRanks": [],
-    "favorKeyFrames": [
-        {
-            "level": 0,
-            "data": {
-                "maxHp": 0,
-                "atk": 0,
-                "def": 0,
-                "magicResistance": 0,
-                "cost": 0,
-                "blockCnt": 0,
-                "moveSpeed": 0,
-                "attackSpeed": 0,
-                "baseAttackTime": 0,
-                "respawnTime": 0,
-                "hpRecoveryPerSec": 0,
-                "spRecoveryPerSec": 0,
-                "maxDeployCount": 0,
-                "maxDeckStackCnt": 0,
-                "tauntLevel": 0,
-                "massLevel": 0,
-                "baseForceLevel": 0,
-                "stunImmune": false,
-                "silenceImmune": false,
-                "sleepImmune": false
-            }
-        },
-        {
-            "level": 50,
-            "data": {
-                "maxHp": 0,
-                "atk": 0,
-                "def": 0,
-                "magicResistance": 0,
-                "cost": 0,
-                "blockCnt": 0,
-                "moveSpeed": 0,
-                "attackSpeed": 0,
-                "baseAttackTime": 0,
-                "respawnTime": 0,
-                "hpRecoveryPerSec": 0,
-                "spRecoveryPerSec": 0,
-                "maxDeployCount": 0,
-                "maxDeckStackCnt": 0,
-                "tauntLevel": 0,
-                "massLevel": 0,
-                "baseForceLevel": 0,
-                "stunImmune": false,
-                "silenceImmune": false,
-                "sleepImmune": false
-            }
-        }
-    ],
-    "allSkillLvlup": [
-        {
-            "unlockCond": {
-                "phase": 0,
-                "level": 1
-            },
-            "lvlUpCost": null
-        },
-        {
-            "unlockCond": {
-                "phase": 0,
-                "level": 1
-            },
-            "lvlUpCost": null
-        },
-        {
-            "unlockCond": {
-                "phase": 0,
-                "level": 1
-            },
-            "lvlUpCost": null
-        },
-        {
-            "unlockCond": {
-                "phase": 1,
-                "level": 1
-            },
-            "lvlUpCost": null
-        },
-        {
-            "unlockCond": {
-                "phase": 1,
-                "level": 1
-            },
-            "lvlUpCost": null
-        },
-        {
-            "unlockCond": {
-                "phase": 1,
-                "level": 1
-            },
-            "lvlUpCost": null
-        }
-    ]
+	"name": "Touch",
+	"description": "味方のHPを回復",
+	"canUseGeneralPotentialItem": true,
+	"potentialItemId": "",
+	"nationId": null,
+	"groupId": null,
+	"teamId": null,
+	"displayNumber": null,
+	"tokenKey": null,
+	"appellation": "Touch",
+	"position": "RANGED",
+	"tagList": [
+		"治療"
+	],
+	"itemUsage": null,
+	"itemDesc": null,
+	"itemObtainApproach": null,
+	"isNotObtainable": true,
+	"isSpChar": false,
+	"maxPotentialLevel": 0,
+	"rarity": 4,
+	"profession": "MEDIC",
+	"trait": null,
+	"phases": [
+		{
+			"characterPrefabKey": "char_510_amedic",
+			"rangeId": "3-1",
+			"maxLevel": 50,
+			"attributesKeyFrames": [
+				{
+					"level": 1,
+					"data": {
+						"maxHp": 865,
+						"atk": 210,
+						"def": 59,
+						"magicResistance": 0,
+						"cost": 16,
+						"blockCnt": 1,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 2.85,
+						"respawnTime": 60,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false
+					}
+				},
+				{
+					"level": 50,
+					"data": {
+						"maxHp": 1219,
+						"atk": 345,
+						"def": 86,
+						"magicResistance": 0,
+						"cost": 16,
+						"blockCnt": 1,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 2.85,
+						"respawnTime": 60,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false
+					}
+				}
+			],
+			"evolveCost": null
+		},
+		{
+			"characterPrefabKey": "char_510_amedic",
+			"rangeId": "3-3",
+			"maxLevel": 70,
+			"attributesKeyFrames": [
+				{
+					"level": 1,
+					"data": {
+						"maxHp": 1219,
+						"atk": 345,
+						"def": 86,
+						"magicResistance": 0,
+						"cost": 18,
+						"blockCnt": 1,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 2.85,
+						"respawnTime": 60,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false
+					}
+				},
+				{
+					"level": 70,
+					"data": {
+						"maxHp": 1469,
+						"atk": 493,
+						"def": 108,
+						"magicResistance": 0,
+						"cost": 18,
+						"blockCnt": 1,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 2.85,
+						"respawnTime": 60,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false
+					}
+				}
+			],
+			"evolveCost": null
+		},
+		{
+			"characterPrefabKey": "char_510_amedic",
+			"rangeId": "3-3",
+			"maxLevel": 80,
+			"attributesKeyFrames": [
+				{
+					"level": 1,
+					"data": {
+						"maxHp": 1469,
+						"atk": 493,
+						"def": 108,
+						"magicResistance": 0,
+						"cost": 18,
+						"blockCnt": 1,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 2.85,
+						"respawnTime": 60,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false
+					}
+				},
+				{
+					"level": 80,
+					"data": {
+						"maxHp": 1633,
+						"atk": 595,
+						"def": 135,
+						"magicResistance": 0,
+						"cost": 18,
+						"blockCnt": 1,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 2.85,
+						"respawnTime": 60,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false
+					}
+				}
+			],
+			"evolveCost": null
+		}
+	],
+	"skills": [
+		{
+			"skillId": "skchr_amedic_1",
+			"overridePrefabKey": null,
+			"overrideTokenKey": null,
+			"levelUpCostCond": [
+				{
+					"unlockCond": {
+						"phase": 2,
+						"level": 1
+					},
+					"lvlUpTime": 0,
+					"levelUpCost": null
+				},
+				{
+					"unlockCond": {
+						"phase": 2,
+						"level": 1
+					},
+					"lvlUpTime": 0,
+					"levelUpCost": null
+				},
+				{
+					"unlockCond": {
+						"phase": 2,
+						"level": 1
+					},
+					"lvlUpTime": 0,
+					"levelUpCost": null
+				}
+			],
+			"unlockCond": {
+				"phase": 0,
+				"level": 1
+			}
+		}
+	],
+	"talents": [
+		{
+			"candidates": [
+				{
+					"unlockCondition": {
+						"phase": 1,
+						"level": 1
+					},
+					"requiredPotentialRank": 0,
+					"prefabKey": "1",
+					"name": "アセンション",
+					"description": "味方を回復時、対象のSP+2",
+					"rangeId": null,
+					"blackboard": [
+						{
+							"key": "sp",
+							"value": 2
+						}
+					]
+				},
+				{
+					"unlockCondition": {
+						"phase": 2,
+						"level": 1
+					},
+					"requiredPotentialRank": 0,
+					"prefabKey": "1",
+					"name": "アセンション",
+					"description": "味方を回復時、対象のSP+3",
+					"rangeId": null,
+					"blackboard": [
+						{
+							"key": "sp",
+							"value": 3
+						}
+					]
+				}
+			]
+		}
+	],
+	"potentialRanks": [],
+	"favorKeyFrames": [
+		{
+			"level": 0,
+			"data": {
+				"maxHp": 0,
+				"atk": 0,
+				"def": 0,
+				"magicResistance": 0,
+				"cost": 0,
+				"blockCnt": 0,
+				"moveSpeed": 0,
+				"attackSpeed": 0,
+				"baseAttackTime": 0,
+				"respawnTime": 0,
+				"hpRecoveryPerSec": 0,
+				"spRecoveryPerSec": 0,
+				"maxDeployCount": 0,
+				"maxDeckStackCnt": 0,
+				"tauntLevel": 0,
+				"massLevel": 0,
+				"baseForceLevel": 0,
+				"stunImmune": false,
+				"silenceImmune": false,
+				"sleepImmune": false
+			}
+		},
+		{
+			"level": 50,
+			"data": {
+				"maxHp": 0,
+				"atk": 0,
+				"def": 0,
+				"magicResistance": 0,
+				"cost": 0,
+				"blockCnt": 0,
+				"moveSpeed": 0,
+				"attackSpeed": 0,
+				"baseAttackTime": 0,
+				"respawnTime": 0,
+				"hpRecoveryPerSec": 0,
+				"spRecoveryPerSec": 0,
+				"maxDeployCount": 0,
+				"maxDeckStackCnt": 0,
+				"tauntLevel": 0,
+				"massLevel": 0,
+				"baseForceLevel": 0,
+				"stunImmune": false,
+				"silenceImmune": false,
+				"sleepImmune": false
+			}
+		}
+	],
+	"allSkillLvlup": [
+		{
+			"unlockCond": {
+				"phase": 0,
+				"level": 1
+			},
+			"lvlUpCost": null
+		},
+		{
+			"unlockCond": {
+				"phase": 0,
+				"level": 1
+			},
+			"lvlUpCost": null
+		},
+		{
+			"unlockCond": {
+				"phase": 0,
+				"level": 1
+			},
+			"lvlUpCost": null
+		},
+		{
+			"unlockCond": {
+				"phase": 1,
+				"level": 1
+			},
+			"lvlUpCost": null
+		},
+		{
+			"unlockCond": {
+				"phase": 1,
+				"level": 1
+			},
+			"lvlUpCost": null
+		},
+		{
+			"unlockCond": {
+				"phase": 1,
+				"level": 1
+			},
+			"lvlUpCost": null
+		}
+	]
 }

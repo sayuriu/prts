@@ -1,721 +1,721 @@
 {
-    "name": "Franka",
-    "description": "Blocks 1 enemy",
-    "canUseGeneralPotentialItem": true,
-    "potentialItemId": "p_char_106_franka",
-    "nationId": "columbia",
-    "groupId": "blacksteel",
-    "teamId": null,
-    "displayNumber": "BS01",
-    "tokenKey": null,
-    "appellation": " ",
-    "position": "MELEE",
-    "tagList": [
-        "DPS",
-        "Survival"
-    ],
-    "itemUsage": "Franka, Guard Operator of B.P.R.S. of Blacksteel, is waiting for your orders.",
-    "itemDesc": "This scorching thermite blade shall penetrate all defenses.",
-    "itemObtainApproach": "Recruitment & Headhunting",
-    "isNotObtainable": false,
-    "isSpChar": false,
-    "maxPotentialLevel": 5,
-    "rarity": 4,
-    "profession": "WARRIOR",
-    "trait": null,
-    "phases": [
-        {
-            "characterPrefabKey": "char_106_franka",
-            "rangeId": "1-1",
-            "maxLevel": 50,
-            "attributesKeyFrames": [
-                {
-                    "level": 1,
-                    "data": {
-                        "maxHp": 1386,
-                        "atk": 382,
-                        "def": 105,
-                        "magicResistance": 0,
-                        "cost": 16,
-                        "blockCnt": 1,
-                        "moveSpeed": 1,
-                        "attackSpeed": 100,
-                        "baseAttackTime": 1.5,
-                        "respawnTime": 70,
-                        "hpRecoveryPerSec": 0,
-                        "spRecoveryPerSec": 1,
-                        "maxDeployCount": 1,
-                        "maxDeckStackCnt": 0,
-                        "tauntLevel": 0,
-                        "massLevel": 0,
-                        "baseForceLevel": 0,
-                        "stunImmune": false,
-                        "silenceImmune": false,
-                        "sleepImmune": false
-                    }
-                },
-                {
-                    "level": 50,
-                    "data": {
-                        "maxHp": 1981,
-                        "atk": 563,
-                        "def": 150,
-                        "magicResistance": 0,
-                        "cost": 16,
-                        "blockCnt": 1,
-                        "moveSpeed": 1,
-                        "attackSpeed": 100,
-                        "baseAttackTime": 1.5,
-                        "respawnTime": 70,
-                        "hpRecoveryPerSec": 0,
-                        "spRecoveryPerSec": 1,
-                        "maxDeployCount": 1,
-                        "maxDeckStackCnt": 0,
-                        "tauntLevel": 0,
-                        "massLevel": 0,
-                        "baseForceLevel": 0,
-                        "stunImmune": false,
-                        "silenceImmune": false,
-                        "sleepImmune": false
-                    }
-                }
-            ],
-            "evolveCost": null
-        },
-        {
-            "characterPrefabKey": "char_106_franka",
-            "rangeId": "1-1",
-            "maxLevel": 70,
-            "attributesKeyFrames": [
-                {
-                    "level": 1,
-                    "data": {
-                        "maxHp": 1981,
-                        "atk": 563,
-                        "def": 150,
-                        "magicResistance": 0,
-                        "cost": 18,
-                        "blockCnt": 1,
-                        "moveSpeed": 1,
-                        "attackSpeed": 100,
-                        "baseAttackTime": 1.5,
-                        "respawnTime": 70,
-                        "hpRecoveryPerSec": 0,
-                        "spRecoveryPerSec": 1,
-                        "maxDeployCount": 1,
-                        "maxDeckStackCnt": 0,
-                        "tauntLevel": 0,
-                        "massLevel": 0,
-                        "baseForceLevel": 0,
-                        "stunImmune": false,
-                        "silenceImmune": false,
-                        "sleepImmune": false
-                    }
-                },
-                {
-                    "level": 70,
-                    "data": {
-                        "maxHp": 2715,
-                        "atk": 713,
-                        "def": 195,
-                        "magicResistance": 0,
-                        "cost": 18,
-                        "blockCnt": 1,
-                        "moveSpeed": 1,
-                        "attackSpeed": 100,
-                        "baseAttackTime": 1.5,
-                        "respawnTime": 70,
-                        "hpRecoveryPerSec": 0,
-                        "spRecoveryPerSec": 1,
-                        "maxDeployCount": 1,
-                        "maxDeckStackCnt": 0,
-                        "tauntLevel": 0,
-                        "massLevel": 0,
-                        "baseForceLevel": 0,
-                        "stunImmune": false,
-                        "silenceImmune": false,
-                        "sleepImmune": false
-                    }
-                }
-            ],
-            "evolveCost": [
-                {
-                    "id": "3221",
-                    "count": 4,
-                    "type": "MATERIAL"
-                },
-                {
-                    "id": "30042",
-                    "count": 4,
-                    "type": "MATERIAL"
-                },
-                {
-                    "id": "30052",
-                    "count": 2,
-                    "type": "MATERIAL"
-                }
-            ]
-        },
-        {
-            "characterPrefabKey": "char_106_franka",
-            "rangeId": "1-1",
-            "maxLevel": 80,
-            "attributesKeyFrames": [
-                {
-                    "level": 1,
-                    "data": {
-                        "maxHp": 2715,
-                        "atk": 713,
-                        "def": 195,
-                        "magicResistance": 0,
-                        "cost": 18,
-                        "blockCnt": 1,
-                        "moveSpeed": 1,
-                        "attackSpeed": 100,
-                        "baseAttackTime": 1.5,
-                        "respawnTime": 70,
-                        "hpRecoveryPerSec": 0,
-                        "spRecoveryPerSec": 1,
-                        "maxDeployCount": 1,
-                        "maxDeckStackCnt": 0,
-                        "tauntLevel": 0,
-                        "massLevel": 0,
-                        "baseForceLevel": 0,
-                        "stunImmune": false,
-                        "silenceImmune": false,
-                        "sleepImmune": false
-                    }
-                },
-                {
-                    "level": 80,
-                    "data": {
-                        "maxHp": 3620,
-                        "atk": 860,
-                        "def": 235,
-                        "magicResistance": 0,
-                        "cost": 18,
-                        "blockCnt": 1,
-                        "moveSpeed": 1,
-                        "attackSpeed": 100,
-                        "baseAttackTime": 1.5,
-                        "respawnTime": 70,
-                        "hpRecoveryPerSec": 0,
-                        "spRecoveryPerSec": 1,
-                        "maxDeployCount": 1,
-                        "maxDeckStackCnt": 0,
-                        "tauntLevel": 0,
-                        "massLevel": 0,
-                        "baseForceLevel": 0,
-                        "stunImmune": false,
-                        "silenceImmune": false,
-                        "sleepImmune": false
-                    }
-                }
-            ],
-            "evolveCost": [
-                {
-                    "id": "3223",
-                    "count": 3,
-                    "type": "MATERIAL"
-                },
-                {
-                    "id": "30044",
-                    "count": 6,
-                    "type": "MATERIAL"
-                },
-                {
-                    "id": "30023",
-                    "count": 18,
-                    "type": "MATERIAL"
-                }
-            ]
-        }
-    ],
-    "skills": [
-        {
-            "skillId": "skcom_quickattack[3]",
-            "overridePrefabKey": null,
-            "overrideTokenKey": null,
-            "levelUpCostCond": [
-                {
-                    "unlockCond": {
-                        "phase": 2,
-                        "level": 1
-                    },
-                    "lvlUpTime": 28800,
-                    "levelUpCost": [
-                        {
-                            "id": "3303",
-                            "count": 5,
-                            "type": "MATERIAL"
-                        },
-                        {
-                            "id": "30094",
-                            "count": 3,
-                            "type": "MATERIAL"
-                        },
-                        {
-                            "id": "30073",
-                            "count": 4,
-                            "type": "MATERIAL"
-                        }
-                    ]
-                },
-                {
-                    "unlockCond": {
-                        "phase": 2,
-                        "level": 1
-                    },
-                    "lvlUpTime": 57600,
-                    "levelUpCost": [
-                        {
-                            "id": "3303",
-                            "count": 6,
-                            "type": "MATERIAL"
-                        },
-                        {
-                            "id": "30014",
-                            "count": 3,
-                            "type": "MATERIAL"
-                        },
-                        {
-                            "id": "30094",
-                            "count": 6,
-                            "type": "MATERIAL"
-                        }
-                    ]
-                },
-                {
-                    "unlockCond": {
-                        "phase": 2,
-                        "level": 1
-                    },
-                    "lvlUpTime": 86400,
-                    "levelUpCost": [
-                        {
-                            "id": "3303",
-                            "count": 10,
-                            "type": "MATERIAL"
-                        },
-                        {
-                            "id": "30115",
-                            "count": 4,
-                            "type": "MATERIAL"
-                        },
-                        {
-                            "id": "30064",
-                            "count": 3,
-                            "type": "MATERIAL"
-                        }
-                    ]
-                }
-            ],
-            "unlockCond": {
-                "phase": 0,
-                "level": 1
-            }
-        },
-        {
-            "skillId": "skchr_franka_2",
-            "overridePrefabKey": null,
-            "overrideTokenKey": null,
-            "levelUpCostCond": [
-                {
-                    "unlockCond": {
-                        "phase": 2,
-                        "level": 1
-                    },
-                    "lvlUpTime": 28800,
-                    "levelUpCost": [
-                        {
-                            "id": "3303",
-                            "count": 5,
-                            "type": "MATERIAL"
-                        },
-                        {
-                            "id": "30104",
-                            "count": 3,
-                            "type": "MATERIAL"
-                        },
-                        {
-                            "id": "30083",
-                            "count": 2,
-                            "type": "MATERIAL"
-                        }
-                    ]
-                },
-                {
-                    "unlockCond": {
-                        "phase": 2,
-                        "level": 1
-                    },
-                    "lvlUpTime": 57600,
-                    "levelUpCost": [
-                        {
-                            "id": "3303",
-                            "count": 6,
-                            "type": "MATERIAL"
-                        },
-                        {
-                            "id": "30024",
-                            "count": 3,
-                            "type": "MATERIAL"
-                        },
-                        {
-                            "id": "30104",
-                            "count": 5,
-                            "type": "MATERIAL"
-                        }
-                    ]
-                },
-                {
-                    "unlockCond": {
-                        "phase": 2,
-                        "level": 1
-                    },
-                    "lvlUpTime": 86400,
-                    "levelUpCost": [
-                        {
-                            "id": "3303",
-                            "count": 10,
-                            "type": "MATERIAL"
-                        },
-                        {
-                            "id": "30125",
-                            "count": 4,
-                            "type": "MATERIAL"
-                        },
-                        {
-                            "id": "30044",
-                            "count": 3,
-                            "type": "MATERIAL"
-                        }
-                    ]
-                }
-            ],
-            "unlockCond": {
-                "phase": 1,
-                "level": 1
-            }
-        }
-    ],
-    "talents": [
-        {
-            "candidates": [
-                {
-                    "unlockCondition": {
-                        "phase": 1,
-                        "level": 1
-                    },
-                    "requiredPotentialRank": 0,
-                    "prefabKey": "1",
-                    "name": "Thermite Blade",
-                    "description": "Has a 10% chance to ignore the target's Defense when attacking",
-                    "rangeId": null,
-                    "blackboard": [
-                        {
-                            "key": "prob",
-                            "value": 0.1
-                        }
-                    ]
-                },
-                {
-                    "unlockCondition": {
-                        "phase": 2,
-                        "level": 1
-                    },
-                    "requiredPotentialRank": 0,
-                    "prefabKey": "1",
-                    "name": "Thermite Blade",
-                    "description": "Has a 20% chance to ignore the target's Defense when attacking",
-                    "rangeId": null,
-                    "blackboard": [
-                        {
-                            "key": "prob",
-                            "value": 0.2
-                        }
-                    ]
-                }
-            ]
-        }
-    ],
-    "potentialRanks": [
-        {
-            "type": 0,
-            "description": "DP Cost -1",
-            "buff": {
-                "attributes": {
-                    "abnormalFlags": null,
-                    "abnormalImmunes": null,
-                    "abnormalAntis": null,
-                    "abnormalCombos": null,
-                    "abnormalComboImmunes": null,
-                    "attributeModifiers": [
-                        {
-                            "attributeType": 4,
-                            "formulaItem": 0,
-                            "value": -1,
-                            "loadFromBlackboard": false,
-                            "fetchBaseValueFromSourceEntity": false
-                        }
-                    ]
-                }
-            },
-            "equivalentCost": null
-        },
-        {
-            "type": 0,
-            "description": "Redeployment Time -4 sec",
-            "buff": {
-                "attributes": {
-                    "abnormalFlags": null,
-                    "abnormalImmunes": null,
-                    "abnormalAntis": null,
-                    "abnormalCombos": null,
-                    "abnormalComboImmunes": null,
-                    "attributeModifiers": [
-                        {
-                            "attributeType": 21,
-                            "formulaItem": 0,
-                            "value": -4,
-                            "loadFromBlackboard": false,
-                            "fetchBaseValueFromSourceEntity": false
-                        }
-                    ]
-                }
-            },
-            "equivalentCost": null
-        },
-        {
-            "type": 0,
-            "description": "ATK +30",
-            "buff": {
-                "attributes": {
-                    "abnormalFlags": null,
-                    "abnormalImmunes": null,
-                    "abnormalAntis": null,
-                    "abnormalCombos": null,
-                    "abnormalComboImmunes": null,
-                    "attributeModifiers": [
-                        {
-                            "attributeType": 1,
-                            "formulaItem": 0,
-                            "value": 30,
-                            "loadFromBlackboard": false,
-                            "fetchBaseValueFromSourceEntity": false
-                        }
-                    ]
-                }
-            },
-            "equivalentCost": null
-        },
-        {
-            "type": 0,
-            "description": "Redeployment Time -6 sec",
-            "buff": {
-                "attributes": {
-                    "abnormalFlags": null,
-                    "abnormalImmunes": null,
-                    "abnormalAntis": null,
-                    "abnormalCombos": null,
-                    "abnormalComboImmunes": null,
-                    "attributeModifiers": [
-                        {
-                            "attributeType": 21,
-                            "formulaItem": 0,
-                            "value": -6,
-                            "loadFromBlackboard": false,
-                            "fetchBaseValueFromSourceEntity": false
-                        }
-                    ]
-                }
-            },
-            "equivalentCost": null
-        },
-        {
-            "type": 0,
-            "description": "DP Cost -1",
-            "buff": {
-                "attributes": {
-                    "abnormalFlags": null,
-                    "abnormalImmunes": null,
-                    "abnormalAntis": null,
-                    "abnormalCombos": null,
-                    "abnormalComboImmunes": null,
-                    "attributeModifiers": [
-                        {
-                            "attributeType": 4,
-                            "formulaItem": 0,
-                            "value": -1,
-                            "loadFromBlackboard": false,
-                            "fetchBaseValueFromSourceEntity": false
-                        }
-                    ]
-                }
-            },
-            "equivalentCost": null
-        }
-    ],
-    "favorKeyFrames": [
-        {
-            "level": 0,
-            "data": {
-                "maxHp": 0,
-                "atk": 0,
-                "def": 0,
-                "magicResistance": 0,
-                "cost": 0,
-                "blockCnt": 0,
-                "moveSpeed": 0,
-                "attackSpeed": 0,
-                "baseAttackTime": 0,
-                "respawnTime": 0,
-                "hpRecoveryPerSec": 0,
-                "spRecoveryPerSec": 0,
-                "maxDeployCount": 0,
-                "maxDeckStackCnt": 0,
-                "tauntLevel": 0,
-                "massLevel": 0,
-                "baseForceLevel": 0,
-                "stunImmune": false,
-                "silenceImmune": false,
-                "sleepImmune": false
-            }
-        },
-        {
-            "level": 50,
-            "data": {
-                "maxHp": 0,
-                "atk": 75,
-                "def": 25,
-                "magicResistance": 0,
-                "cost": 0,
-                "blockCnt": 0,
-                "moveSpeed": 0,
-                "attackSpeed": 0,
-                "baseAttackTime": 0,
-                "respawnTime": 0,
-                "hpRecoveryPerSec": 0,
-                "spRecoveryPerSec": 0,
-                "maxDeployCount": 0,
-                "maxDeckStackCnt": 0,
-                "tauntLevel": 0,
-                "massLevel": 0,
-                "baseForceLevel": 0,
-                "stunImmune": false,
-                "silenceImmune": false,
-                "sleepImmune": false
-            }
-        }
-    ],
-    "allSkillLvlup": [
-        {
-            "unlockCond": {
-                "phase": 0,
-                "level": 1
-            },
-            "lvlUpCost": [
-                {
-                    "id": "3301",
-                    "count": 4,
-                    "type": "MATERIAL"
-                }
-            ]
-        },
-        {
-            "unlockCond": {
-                "phase": 0,
-                "level": 1
-            },
-            "lvlUpCost": [
-                {
-                    "id": "3301",
-                    "count": 4,
-                    "type": "MATERIAL"
-                },
-                {
-                    "id": "30041",
-                    "count": 5,
-                    "type": "MATERIAL"
-                }
-            ]
-        },
-        {
-            "unlockCond": {
-                "phase": 0,
-                "level": 1
-            },
-            "lvlUpCost": [
-                {
-                    "id": "3302",
-                    "count": 6,
-                    "type": "MATERIAL"
-                },
-                {
-                    "id": "30052",
-                    "count": 3,
-                    "type": "MATERIAL"
-                }
-            ]
-        },
-        {
-            "unlockCond": {
-                "phase": 1,
-                "level": 1
-            },
-            "lvlUpCost": [
-                {
-                    "id": "3302",
-                    "count": 6,
-                    "type": "MATERIAL"
-                },
-                {
-                    "id": "30062",
-                    "count": 3,
-                    "type": "MATERIAL"
-                }
-            ]
-        },
-        {
-            "unlockCond": {
-                "phase": 1,
-                "level": 1
-            },
-            "lvlUpCost": [
-                {
-                    "id": "3302",
-                    "count": 6,
-                    "type": "MATERIAL"
-                },
-                {
-                    "id": "30073",
-                    "count": 4,
-                    "type": "MATERIAL"
-                }
-            ]
-        },
-        {
-            "unlockCond": {
-                "phase": 1,
-                "level": 1
-            },
-            "lvlUpCost": [
-                {
-                    "id": "3303",
-                    "count": 6,
-                    "type": "MATERIAL"
-                },
-                {
-                    "id": "30083",
-                    "count": 2,
-                    "type": "MATERIAL"
-                },
-                {
-                    "id": "30103",
-                    "count": 3,
-                    "type": "MATERIAL"
-                }
-            ]
-        }
-    ]
+	"name": "Franka",
+	"description": "Blocks 1 enemy",
+	"canUseGeneralPotentialItem": true,
+	"potentialItemId": "p_char_106_franka",
+	"nationId": "columbia",
+	"groupId": "blacksteel",
+	"teamId": null,
+	"displayNumber": "BS01",
+	"tokenKey": null,
+	"appellation": " ",
+	"position": "MELEE",
+	"tagList": [
+		"DPS",
+		"Survival"
+	],
+	"itemUsage": "Franka, Guard Operator of B.P.R.S. of Blacksteel, is waiting for your orders.",
+	"itemDesc": "This scorching thermite blade shall penetrate all defenses.",
+	"itemObtainApproach": "Recruitment & Headhunting",
+	"isNotObtainable": false,
+	"isSpChar": false,
+	"maxPotentialLevel": 5,
+	"rarity": 4,
+	"profession": "WARRIOR",
+	"trait": null,
+	"phases": [
+		{
+			"characterPrefabKey": "char_106_franka",
+			"rangeId": "1-1",
+			"maxLevel": 50,
+			"attributesKeyFrames": [
+				{
+					"level": 1,
+					"data": {
+						"maxHp": 1386,
+						"atk": 382,
+						"def": 105,
+						"magicResistance": 0,
+						"cost": 16,
+						"blockCnt": 1,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 1.5,
+						"respawnTime": 70,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false
+					}
+				},
+				{
+					"level": 50,
+					"data": {
+						"maxHp": 1981,
+						"atk": 563,
+						"def": 150,
+						"magicResistance": 0,
+						"cost": 16,
+						"blockCnt": 1,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 1.5,
+						"respawnTime": 70,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false
+					}
+				}
+			],
+			"evolveCost": null
+		},
+		{
+			"characterPrefabKey": "char_106_franka",
+			"rangeId": "1-1",
+			"maxLevel": 70,
+			"attributesKeyFrames": [
+				{
+					"level": 1,
+					"data": {
+						"maxHp": 1981,
+						"atk": 563,
+						"def": 150,
+						"magicResistance": 0,
+						"cost": 18,
+						"blockCnt": 1,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 1.5,
+						"respawnTime": 70,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false
+					}
+				},
+				{
+					"level": 70,
+					"data": {
+						"maxHp": 2715,
+						"atk": 713,
+						"def": 195,
+						"magicResistance": 0,
+						"cost": 18,
+						"blockCnt": 1,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 1.5,
+						"respawnTime": 70,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false
+					}
+				}
+			],
+			"evolveCost": [
+				{
+					"id": "3221",
+					"count": 4,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30042",
+					"count": 4,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30052",
+					"count": 2,
+					"type": "MATERIAL"
+				}
+			]
+		},
+		{
+			"characterPrefabKey": "char_106_franka",
+			"rangeId": "1-1",
+			"maxLevel": 80,
+			"attributesKeyFrames": [
+				{
+					"level": 1,
+					"data": {
+						"maxHp": 2715,
+						"atk": 713,
+						"def": 195,
+						"magicResistance": 0,
+						"cost": 18,
+						"blockCnt": 1,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 1.5,
+						"respawnTime": 70,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false
+					}
+				},
+				{
+					"level": 80,
+					"data": {
+						"maxHp": 3620,
+						"atk": 860,
+						"def": 235,
+						"magicResistance": 0,
+						"cost": 18,
+						"blockCnt": 1,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 1.5,
+						"respawnTime": 70,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false
+					}
+				}
+			],
+			"evolveCost": [
+				{
+					"id": "3223",
+					"count": 3,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30044",
+					"count": 6,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30023",
+					"count": 18,
+					"type": "MATERIAL"
+				}
+			]
+		}
+	],
+	"skills": [
+		{
+			"skillId": "skcom_quickattack[3]",
+			"overridePrefabKey": null,
+			"overrideTokenKey": null,
+			"levelUpCostCond": [
+				{
+					"unlockCond": {
+						"phase": 2,
+						"level": 1
+					},
+					"lvlUpTime": 28800,
+					"levelUpCost": [
+						{
+							"id": "3303",
+							"count": 5,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30094",
+							"count": 3,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30073",
+							"count": 4,
+							"type": "MATERIAL"
+						}
+					]
+				},
+				{
+					"unlockCond": {
+						"phase": 2,
+						"level": 1
+					},
+					"lvlUpTime": 57600,
+					"levelUpCost": [
+						{
+							"id": "3303",
+							"count": 6,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30014",
+							"count": 3,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30094",
+							"count": 6,
+							"type": "MATERIAL"
+						}
+					]
+				},
+				{
+					"unlockCond": {
+						"phase": 2,
+						"level": 1
+					},
+					"lvlUpTime": 86400,
+					"levelUpCost": [
+						{
+							"id": "3303",
+							"count": 10,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30115",
+							"count": 4,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30064",
+							"count": 3,
+							"type": "MATERIAL"
+						}
+					]
+				}
+			],
+			"unlockCond": {
+				"phase": 0,
+				"level": 1
+			}
+		},
+		{
+			"skillId": "skchr_franka_2",
+			"overridePrefabKey": null,
+			"overrideTokenKey": null,
+			"levelUpCostCond": [
+				{
+					"unlockCond": {
+						"phase": 2,
+						"level": 1
+					},
+					"lvlUpTime": 28800,
+					"levelUpCost": [
+						{
+							"id": "3303",
+							"count": 5,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30104",
+							"count": 3,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30083",
+							"count": 2,
+							"type": "MATERIAL"
+						}
+					]
+				},
+				{
+					"unlockCond": {
+						"phase": 2,
+						"level": 1
+					},
+					"lvlUpTime": 57600,
+					"levelUpCost": [
+						{
+							"id": "3303",
+							"count": 6,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30024",
+							"count": 3,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30104",
+							"count": 5,
+							"type": "MATERIAL"
+						}
+					]
+				},
+				{
+					"unlockCond": {
+						"phase": 2,
+						"level": 1
+					},
+					"lvlUpTime": 86400,
+					"levelUpCost": [
+						{
+							"id": "3303",
+							"count": 10,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30125",
+							"count": 4,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30044",
+							"count": 3,
+							"type": "MATERIAL"
+						}
+					]
+				}
+			],
+			"unlockCond": {
+				"phase": 1,
+				"level": 1
+			}
+		}
+	],
+	"talents": [
+		{
+			"candidates": [
+				{
+					"unlockCondition": {
+						"phase": 1,
+						"level": 1
+					},
+					"requiredPotentialRank": 0,
+					"prefabKey": "1",
+					"name": "Thermite Blade",
+					"description": "Has a 10% chance to ignore the target's Defense when attacking",
+					"rangeId": null,
+					"blackboard": [
+						{
+							"key": "prob",
+							"value": 0.1
+						}
+					]
+				},
+				{
+					"unlockCondition": {
+						"phase": 2,
+						"level": 1
+					},
+					"requiredPotentialRank": 0,
+					"prefabKey": "1",
+					"name": "Thermite Blade",
+					"description": "Has a 20% chance to ignore the target's Defense when attacking",
+					"rangeId": null,
+					"blackboard": [
+						{
+							"key": "prob",
+							"value": 0.2
+						}
+					]
+				}
+			]
+		}
+	],
+	"potentialRanks": [
+		{
+			"type": 0,
+			"description": "DP Cost -1",
+			"buff": {
+				"attributes": {
+					"abnormalFlags": null,
+					"abnormalImmunes": null,
+					"abnormalAntis": null,
+					"abnormalCombos": null,
+					"abnormalComboImmunes": null,
+					"attributeModifiers": [
+						{
+							"attributeType": 4,
+							"formulaItem": 0,
+							"value": -1,
+							"loadFromBlackboard": false,
+							"fetchBaseValueFromSourceEntity": false
+						}
+					]
+				}
+			},
+			"equivalentCost": null
+		},
+		{
+			"type": 0,
+			"description": "Redeployment Time -4 sec",
+			"buff": {
+				"attributes": {
+					"abnormalFlags": null,
+					"abnormalImmunes": null,
+					"abnormalAntis": null,
+					"abnormalCombos": null,
+					"abnormalComboImmunes": null,
+					"attributeModifiers": [
+						{
+							"attributeType": 21,
+							"formulaItem": 0,
+							"value": -4,
+							"loadFromBlackboard": false,
+							"fetchBaseValueFromSourceEntity": false
+						}
+					]
+				}
+			},
+			"equivalentCost": null
+		},
+		{
+			"type": 0,
+			"description": "ATK +30",
+			"buff": {
+				"attributes": {
+					"abnormalFlags": null,
+					"abnormalImmunes": null,
+					"abnormalAntis": null,
+					"abnormalCombos": null,
+					"abnormalComboImmunes": null,
+					"attributeModifiers": [
+						{
+							"attributeType": 1,
+							"formulaItem": 0,
+							"value": 30,
+							"loadFromBlackboard": false,
+							"fetchBaseValueFromSourceEntity": false
+						}
+					]
+				}
+			},
+			"equivalentCost": null
+		},
+		{
+			"type": 0,
+			"description": "Redeployment Time -6 sec",
+			"buff": {
+				"attributes": {
+					"abnormalFlags": null,
+					"abnormalImmunes": null,
+					"abnormalAntis": null,
+					"abnormalCombos": null,
+					"abnormalComboImmunes": null,
+					"attributeModifiers": [
+						{
+							"attributeType": 21,
+							"formulaItem": 0,
+							"value": -6,
+							"loadFromBlackboard": false,
+							"fetchBaseValueFromSourceEntity": false
+						}
+					]
+				}
+			},
+			"equivalentCost": null
+		},
+		{
+			"type": 0,
+			"description": "DP Cost -1",
+			"buff": {
+				"attributes": {
+					"abnormalFlags": null,
+					"abnormalImmunes": null,
+					"abnormalAntis": null,
+					"abnormalCombos": null,
+					"abnormalComboImmunes": null,
+					"attributeModifiers": [
+						{
+							"attributeType": 4,
+							"formulaItem": 0,
+							"value": -1,
+							"loadFromBlackboard": false,
+							"fetchBaseValueFromSourceEntity": false
+						}
+					]
+				}
+			},
+			"equivalentCost": null
+		}
+	],
+	"favorKeyFrames": [
+		{
+			"level": 0,
+			"data": {
+				"maxHp": 0,
+				"atk": 0,
+				"def": 0,
+				"magicResistance": 0,
+				"cost": 0,
+				"blockCnt": 0,
+				"moveSpeed": 0,
+				"attackSpeed": 0,
+				"baseAttackTime": 0,
+				"respawnTime": 0,
+				"hpRecoveryPerSec": 0,
+				"spRecoveryPerSec": 0,
+				"maxDeployCount": 0,
+				"maxDeckStackCnt": 0,
+				"tauntLevel": 0,
+				"massLevel": 0,
+				"baseForceLevel": 0,
+				"stunImmune": false,
+				"silenceImmune": false,
+				"sleepImmune": false
+			}
+		},
+		{
+			"level": 50,
+			"data": {
+				"maxHp": 0,
+				"atk": 75,
+				"def": 25,
+				"magicResistance": 0,
+				"cost": 0,
+				"blockCnt": 0,
+				"moveSpeed": 0,
+				"attackSpeed": 0,
+				"baseAttackTime": 0,
+				"respawnTime": 0,
+				"hpRecoveryPerSec": 0,
+				"spRecoveryPerSec": 0,
+				"maxDeployCount": 0,
+				"maxDeckStackCnt": 0,
+				"tauntLevel": 0,
+				"massLevel": 0,
+				"baseForceLevel": 0,
+				"stunImmune": false,
+				"silenceImmune": false,
+				"sleepImmune": false
+			}
+		}
+	],
+	"allSkillLvlup": [
+		{
+			"unlockCond": {
+				"phase": 0,
+				"level": 1
+			},
+			"lvlUpCost": [
+				{
+					"id": "3301",
+					"count": 4,
+					"type": "MATERIAL"
+				}
+			]
+		},
+		{
+			"unlockCond": {
+				"phase": 0,
+				"level": 1
+			},
+			"lvlUpCost": [
+				{
+					"id": "3301",
+					"count": 4,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30041",
+					"count": 5,
+					"type": "MATERIAL"
+				}
+			]
+		},
+		{
+			"unlockCond": {
+				"phase": 0,
+				"level": 1
+			},
+			"lvlUpCost": [
+				{
+					"id": "3302",
+					"count": 6,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30052",
+					"count": 3,
+					"type": "MATERIAL"
+				}
+			]
+		},
+		{
+			"unlockCond": {
+				"phase": 1,
+				"level": 1
+			},
+			"lvlUpCost": [
+				{
+					"id": "3302",
+					"count": 6,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30062",
+					"count": 3,
+					"type": "MATERIAL"
+				}
+			]
+		},
+		{
+			"unlockCond": {
+				"phase": 1,
+				"level": 1
+			},
+			"lvlUpCost": [
+				{
+					"id": "3302",
+					"count": 6,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30073",
+					"count": 4,
+					"type": "MATERIAL"
+				}
+			]
+		},
+		{
+			"unlockCond": {
+				"phase": 1,
+				"level": 1
+			},
+			"lvlUpCost": [
+				{
+					"id": "3303",
+					"count": 6,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30083",
+					"count": 2,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30103",
+					"count": 3,
+					"type": "MATERIAL"
+				}
+			]
+		}
+	]
 }

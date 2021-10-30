@@ -1,0 +1,32 @@
+~
+struct <LOCACLES> as SOURCE
+	{locale}
+		excel
+			character_table.json
+			item_table.json
+				items: Object -> items/{type}/{name}
+			medal_table.json
+				medalList: Object[]
+					link: medalType -> medals
+				medalTypeData: Object
+					link: <name>
+
+// ------------------------------------------------------>
+struct <LOCACLES> as TARGET
+	{locale}
+		chars
+			{char} as file
+		items
+			materials
+				{type}
+					{name} as file
+				{etc}
+		medals
+			medalList
+				{type}
+					{name} as file
+			medalTypeData
+				{type} as file
+		teams
+			{team} as file
+		charnameLinkID.json -> char

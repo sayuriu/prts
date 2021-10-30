@@ -1,135 +1,135 @@
 {
-    "name": "최루 가스 제어 밸브",
-    "description": "일정 시간마다 자동으로 열리고, SP가 가득 차면 <@ba.kw>하층 테스트 구역</>에 대한 가스 분사가 중단된다.",
-    "canUseGeneralPotentialItem": true,
-    "potentialItemId": "",
-    "nationId": null,
-    "groupId": null,
-    "teamId": null,
-    "displayNumber": null,
-    "tokenKey": null,
-    "appellation": "lachrymator Control Valve",
-    "position": "NONE",
-    "tagList": null,
-    "itemUsage": null,
-    "itemDesc": null,
-    "itemObtainApproach": null,
-    "isNotObtainable": false,
-    "isSpChar": false,
-    "maxPotentialLevel": 0,
-    "rarity": 0,
-    "profession": "TRAP",
-    "trait": null,
-    "phases": [
-        {
-            "characterPrefabKey": "trap_029_poison",
-            "rangeId": null,
-            "maxLevel": 30,
-            "attributesKeyFrames": [
-                {
-                    "level": 1,
-                    "data": {
-                        "maxHp": 100,
-                        "atk": 0,
-                        "def": 0,
-                        "magicResistance": 0,
-                        "cost": 5,
-                        "blockCnt": 0,
-                        "moveSpeed": 1,
-                        "attackSpeed": 100,
-                        "baseAttackTime": 1,
-                        "respawnTime": 5,
-                        "hpRecoveryPerSec": 0,
-                        "spRecoveryPerSec": 1,
-                        "maxDeployCount": 1,
-                        "maxDeckStackCnt": 0,
-                        "tauntLevel": 0,
-                        "massLevel": 0,
-                        "baseForceLevel": 0,
-                        "stunImmune": false,
-                        "silenceImmune": false,
-                        "sleepImmune": false
-                    }
-                },
-                {
-                    "level": 30,
-                    "data": {
-                        "maxHp": 100,
-                        "atk": 0,
-                        "def": 0,
-                        "magicResistance": 0,
-                        "cost": 5,
-                        "blockCnt": 0,
-                        "moveSpeed": 1,
-                        "attackSpeed": 100,
-                        "baseAttackTime": 1,
-                        "respawnTime": 5,
-                        "hpRecoveryPerSec": 0,
-                        "spRecoveryPerSec": 1,
-                        "maxDeployCount": 1,
-                        "maxDeckStackCnt": 0,
-                        "tauntLevel": 0,
-                        "massLevel": 0,
-                        "baseForceLevel": 0,
-                        "stunImmune": false,
-                        "silenceImmune": false,
-                        "sleepImmune": false
-                    }
-                }
-            ],
-            "evolveCost": null
-        }
-    ],
-    "skills": [
-        {
-            "skillId": "sktok_poison_1",
-            "overridePrefabKey": null,
-            "overrideTokenKey": null,
-            "levelUpCostCond": [],
-            "unlockCond": {
-                "phase": 0,
-                "level": 1
-            }
-        },
-        {
-            "skillId": "sktok_poison_2",
-            "overridePrefabKey": null,
-            "overrideTokenKey": null,
-            "levelUpCostCond": [],
-            "unlockCond": {
-                "phase": 0,
-                "level": 1
-            }
-        }
-    ],
-    "talents": [
-        {
-            "candidates": [
-                {
-                    "unlockCondition": {
-                        "phase": 0,
-                        "level": 1
-                    },
-                    "requiredPotentialRank": 0,
-                    "prefabKey": "1",
-                    "name": null,
-                    "description": "-",
-                    "rangeId": null,
-                    "blackboard": [
-                        {
-                            "key": "def",
-                            "value": 0.5
-                        },
-                        {
-                            "key": "taunt_level",
-                            "value": 1
-                        }
-                    ]
-                }
-            ]
-        }
-    ],
-    "potentialRanks": [],
-    "favorKeyFrames": null,
-    "allSkillLvlup": []
+	"name": "최루 가스 제어 밸브",
+	"description": "일정 시간마다 자동으로 열리고, SP가 가득 차면 <@ba.kw>하층 테스트 구역</>에 대한 가스 분사가 중단된다.",
+	"canUseGeneralPotentialItem": true,
+	"potentialItemId": "",
+	"nationId": null,
+	"groupId": null,
+	"teamId": null,
+	"displayNumber": null,
+	"tokenKey": null,
+	"appellation": "lachrymator Control Valve",
+	"position": "NONE",
+	"tagList": null,
+	"itemUsage": null,
+	"itemDesc": null,
+	"itemObtainApproach": null,
+	"isNotObtainable": false,
+	"isSpChar": false,
+	"maxPotentialLevel": 0,
+	"rarity": 0,
+	"profession": "TRAP",
+	"trait": null,
+	"phases": [
+		{
+			"characterPrefabKey": "trap_029_poison",
+			"rangeId": null,
+			"maxLevel": 30,
+			"attributesKeyFrames": [
+				{
+					"level": 1,
+					"data": {
+						"maxHp": 100,
+						"atk": 0,
+						"def": 0,
+						"magicResistance": 0,
+						"cost": 5,
+						"blockCnt": 0,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 1,
+						"respawnTime": 5,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false
+					}
+				},
+				{
+					"level": 30,
+					"data": {
+						"maxHp": 100,
+						"atk": 0,
+						"def": 0,
+						"magicResistance": 0,
+						"cost": 5,
+						"blockCnt": 0,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 1,
+						"respawnTime": 5,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false
+					}
+				}
+			],
+			"evolveCost": null
+		}
+	],
+	"skills": [
+		{
+			"skillId": "sktok_poison_1",
+			"overridePrefabKey": null,
+			"overrideTokenKey": null,
+			"levelUpCostCond": [],
+			"unlockCond": {
+				"phase": 0,
+				"level": 1
+			}
+		},
+		{
+			"skillId": "sktok_poison_2",
+			"overridePrefabKey": null,
+			"overrideTokenKey": null,
+			"levelUpCostCond": [],
+			"unlockCond": {
+				"phase": 0,
+				"level": 1
+			}
+		}
+	],
+	"talents": [
+		{
+			"candidates": [
+				{
+					"unlockCondition": {
+						"phase": 0,
+						"level": 1
+					},
+					"requiredPotentialRank": 0,
+					"prefabKey": "1",
+					"name": null,
+					"description": "-",
+					"rangeId": null,
+					"blackboard": [
+						{
+							"key": "def",
+							"value": 0.5
+						},
+						{
+							"key": "taunt_level",
+							"value": 1
+						}
+					]
+				}
+			]
+		}
+	],
+	"potentialRanks": [],
+	"favorKeyFrames": null,
+	"allSkillLvlup": []
 }

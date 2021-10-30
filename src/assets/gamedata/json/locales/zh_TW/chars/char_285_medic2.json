@@ -1,279 +1,279 @@
 {
-    "name": "Lancet-2",
-    "description": "恢復友方單位生命，且不受<@ba.kw>部署數量</>限制，但再部署時間極長",
-    "canUseGeneralPotentialItem": false,
-    "potentialItemId": "p_char_285_medic2",
-    "nationId": "rhodes",
-    "groupId": null,
-    "teamId": null,
-    "displayNumber": "RCX2",
-    "tokenKey": null,
-    "appellation": "Lancet-2",
-    "position": "RANGED",
-    "tagList": [
-        "治療"
-    ],
-    "itemUsage": "羅德島醫療機器人Lancet-2，被工程師可露希爾派遣來執行戰地醫療任務。",
-    "itemDesc": "她知道自己是一台機器人。",
-    "itemObtainApproach": "招募尋訪",
-    "isNotObtainable": false,
-    "isSpChar": false,
-    "maxPotentialLevel": 5,
-    "rarity": 0,
-    "profession": "MEDIC",
-    "trait": null,
-    "phases": [
-        {
-            "characterPrefabKey": "char_285_medic2",
-            "rangeId": "3-1",
-            "maxLevel": 30,
-            "attributesKeyFrames": [
-                {
-                    "level": 1,
-                    "data": {
-                        "maxHp": 261,
-                        "atk": 42,
-                        "def": 16,
-                        "magicResistance": 0,
-                        "cost": 3,
-                        "blockCnt": 1,
-                        "moveSpeed": 1,
-                        "attackSpeed": 100,
-                        "baseAttackTime": 2.85,
-                        "respawnTime": 200,
-                        "hpRecoveryPerSec": 0,
-                        "spRecoveryPerSec": 1,
-                        "maxDeployCount": 1,
-                        "maxDeckStackCnt": 0,
-                        "tauntLevel": 0,
-                        "massLevel": 0,
-                        "baseForceLevel": 0,
-                        "stunImmune": false,
-                        "silenceImmune": false,
-                        "sleepImmune": false
-                    }
-                },
-                {
-                    "level": 30,
-                    "data": {
-                        "maxHp": 435,
-                        "atk": 70,
-                        "def": 27,
-                        "magicResistance": 0,
-                        "cost": 3,
-                        "blockCnt": 1,
-                        "moveSpeed": 1,
-                        "attackSpeed": 100,
-                        "baseAttackTime": 2.85,
-                        "respawnTime": 200,
-                        "hpRecoveryPerSec": 0,
-                        "spRecoveryPerSec": 1,
-                        "maxDeployCount": 1,
-                        "maxDeckStackCnt": 0,
-                        "tauntLevel": 0,
-                        "massLevel": 0,
-                        "baseForceLevel": 0,
-                        "stunImmune": false,
-                        "silenceImmune": false,
-                        "sleepImmune": false
-                    }
-                }
-            ],
-            "evolveCost": null
-        }
-    ],
-    "skills": [],
-    "talents": [
-        {
-            "candidates": [
-                {
-                    "unlockCondition": {
-                        "phase": 0,
-                        "level": 1
-                    },
-                    "requiredPotentialRank": 0,
-                    "prefabKey": "1",
-                    "name": "救援噴霧·I",
-                    "description": "部署後立即恢復全場友方單位200點生命",
-                    "rangeId": null,
-                    "blackboard": [
-                        {
-                            "key": "value",
-                            "value": 200
-                        }
-                    ]
-                },
-                {
-                    "unlockCondition": {
-                        "phase": 0,
-                        "level": 1
-                    },
-                    "requiredPotentialRank": 1,
-                    "prefabKey": "1",
-                    "name": "救援噴霧·II",
-                    "description": "部署後立即恢復全場友方單位260點生命",
-                    "rangeId": null,
-                    "blackboard": [
-                        {
-                            "key": "value",
-                            "value": 260
-                        }
-                    ]
-                },
-                {
-                    "unlockCondition": {
-                        "phase": 0,
-                        "level": 1
-                    },
-                    "requiredPotentialRank": 2,
-                    "prefabKey": "1",
-                    "name": "救援噴霧·III",
-                    "description": "部署後立即恢復全場友方單位320點生命",
-                    "rangeId": null,
-                    "blackboard": [
-                        {
-                            "key": "value",
-                            "value": 320
-                        }
-                    ]
-                },
-                {
-                    "unlockCondition": {
-                        "phase": 0,
-                        "level": 1
-                    },
-                    "requiredPotentialRank": 3,
-                    "prefabKey": "1",
-                    "name": "救援噴霧·IV",
-                    "description": "部署後立即恢復全場友方單位380點生命",
-                    "rangeId": null,
-                    "blackboard": [
-                        {
-                            "key": "value",
-                            "value": 380
-                        }
-                    ]
-                },
-                {
-                    "unlockCondition": {
-                        "phase": 0,
-                        "level": 1
-                    },
-                    "requiredPotentialRank": 4,
-                    "prefabKey": "1",
-                    "name": "救援噴霧·V",
-                    "description": "部署後立即恢復全場友方單位440點生命",
-                    "rangeId": null,
-                    "blackboard": [
-                        {
-                            "key": "value",
-                            "value": 440
-                        }
-                    ]
-                },
-                {
-                    "unlockCondition": {
-                        "phase": 0,
-                        "level": 1
-                    },
-                    "requiredPotentialRank": 5,
-                    "prefabKey": "1",
-                    "name": "救援噴霧·VI",
-                    "description": "部署後立即恢復全場友方單位500點生命",
-                    "rangeId": null,
-                    "blackboard": [
-                        {
-                            "key": "value",
-                            "value": 500
-                        }
-                    ]
-                }
-            ]
-        }
-    ],
-    "potentialRanks": [
-        {
-            "type": 1,
-            "description": "天賦效果加強",
-            "buff": null,
-            "equivalentCost": null
-        },
-        {
-            "type": 1,
-            "description": "天賦效果加強",
-            "buff": null,
-            "equivalentCost": null
-        },
-        {
-            "type": 1,
-            "description": "天賦效果加強",
-            "buff": null,
-            "equivalentCost": null
-        },
-        {
-            "type": 1,
-            "description": "天賦效果加強",
-            "buff": null,
-            "equivalentCost": null
-        },
-        {
-            "type": 1,
-            "description": "天賦效果加強",
-            "buff": null,
-            "equivalentCost": null
-        }
-    ],
-    "favorKeyFrames": [
-        {
-            "level": 0,
-            "data": {
-                "maxHp": 0,
-                "atk": 0,
-                "def": 0,
-                "magicResistance": 0,
-                "cost": 0,
-                "blockCnt": 0,
-                "moveSpeed": 0,
-                "attackSpeed": 0,
-                "baseAttackTime": 0,
-                "respawnTime": 0,
-                "hpRecoveryPerSec": 0,
-                "spRecoveryPerSec": 0,
-                "maxDeployCount": 0,
-                "maxDeckStackCnt": 0,
-                "tauntLevel": 0,
-                "massLevel": 0,
-                "baseForceLevel": 0,
-                "stunImmune": false,
-                "silenceImmune": false,
-                "sleepImmune": false
-            }
-        },
-        {
-            "level": 50,
-            "data": {
-                "maxHp": 100,
-                "atk": 40,
-                "def": 0,
-                "magicResistance": 0,
-                "cost": 0,
-                "blockCnt": 0,
-                "moveSpeed": 0,
-                "attackSpeed": 0,
-                "baseAttackTime": 0,
-                "respawnTime": 0,
-                "hpRecoveryPerSec": 0,
-                "spRecoveryPerSec": 0,
-                "maxDeployCount": 0,
-                "maxDeckStackCnt": 0,
-                "tauntLevel": 0,
-                "massLevel": 0,
-                "baseForceLevel": 0,
-                "stunImmune": false,
-                "silenceImmune": false,
-                "sleepImmune": false
-            }
-        }
-    ],
-    "allSkillLvlup": []
+	"name": "Lancet-2",
+	"description": "恢復友方單位生命，且不受<@ba.kw>部署數量</>限制，但再部署時間極長",
+	"canUseGeneralPotentialItem": false,
+	"potentialItemId": "p_char_285_medic2",
+	"nationId": "rhodes",
+	"groupId": null,
+	"teamId": null,
+	"displayNumber": "RCX2",
+	"tokenKey": null,
+	"appellation": "Lancet-2",
+	"position": "RANGED",
+	"tagList": [
+		"治療"
+	],
+	"itemUsage": "羅德島醫療機器人Lancet-2，被工程師可露希爾派遣來執行戰地醫療任務。",
+	"itemDesc": "她知道自己是一台機器人。",
+	"itemObtainApproach": "招募尋訪",
+	"isNotObtainable": false,
+	"isSpChar": false,
+	"maxPotentialLevel": 5,
+	"rarity": 0,
+	"profession": "MEDIC",
+	"trait": null,
+	"phases": [
+		{
+			"characterPrefabKey": "char_285_medic2",
+			"rangeId": "3-1",
+			"maxLevel": 30,
+			"attributesKeyFrames": [
+				{
+					"level": 1,
+					"data": {
+						"maxHp": 261,
+						"atk": 42,
+						"def": 16,
+						"magicResistance": 0,
+						"cost": 3,
+						"blockCnt": 1,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 2.85,
+						"respawnTime": 200,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false
+					}
+				},
+				{
+					"level": 30,
+					"data": {
+						"maxHp": 435,
+						"atk": 70,
+						"def": 27,
+						"magicResistance": 0,
+						"cost": 3,
+						"blockCnt": 1,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 2.85,
+						"respawnTime": 200,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false
+					}
+				}
+			],
+			"evolveCost": null
+		}
+	],
+	"skills": [],
+	"talents": [
+		{
+			"candidates": [
+				{
+					"unlockCondition": {
+						"phase": 0,
+						"level": 1
+					},
+					"requiredPotentialRank": 0,
+					"prefabKey": "1",
+					"name": "救援噴霧·I",
+					"description": "部署後立即恢復全場友方單位200點生命",
+					"rangeId": null,
+					"blackboard": [
+						{
+							"key": "value",
+							"value": 200
+						}
+					]
+				},
+				{
+					"unlockCondition": {
+						"phase": 0,
+						"level": 1
+					},
+					"requiredPotentialRank": 1,
+					"prefabKey": "1",
+					"name": "救援噴霧·II",
+					"description": "部署後立即恢復全場友方單位260點生命",
+					"rangeId": null,
+					"blackboard": [
+						{
+							"key": "value",
+							"value": 260
+						}
+					]
+				},
+				{
+					"unlockCondition": {
+						"phase": 0,
+						"level": 1
+					},
+					"requiredPotentialRank": 2,
+					"prefabKey": "1",
+					"name": "救援噴霧·III",
+					"description": "部署後立即恢復全場友方單位320點生命",
+					"rangeId": null,
+					"blackboard": [
+						{
+							"key": "value",
+							"value": 320
+						}
+					]
+				},
+				{
+					"unlockCondition": {
+						"phase": 0,
+						"level": 1
+					},
+					"requiredPotentialRank": 3,
+					"prefabKey": "1",
+					"name": "救援噴霧·IV",
+					"description": "部署後立即恢復全場友方單位380點生命",
+					"rangeId": null,
+					"blackboard": [
+						{
+							"key": "value",
+							"value": 380
+						}
+					]
+				},
+				{
+					"unlockCondition": {
+						"phase": 0,
+						"level": 1
+					},
+					"requiredPotentialRank": 4,
+					"prefabKey": "1",
+					"name": "救援噴霧·V",
+					"description": "部署後立即恢復全場友方單位440點生命",
+					"rangeId": null,
+					"blackboard": [
+						{
+							"key": "value",
+							"value": 440
+						}
+					]
+				},
+				{
+					"unlockCondition": {
+						"phase": 0,
+						"level": 1
+					},
+					"requiredPotentialRank": 5,
+					"prefabKey": "1",
+					"name": "救援噴霧·VI",
+					"description": "部署後立即恢復全場友方單位500點生命",
+					"rangeId": null,
+					"blackboard": [
+						{
+							"key": "value",
+							"value": 500
+						}
+					]
+				}
+			]
+		}
+	],
+	"potentialRanks": [
+		{
+			"type": 1,
+			"description": "天賦效果加強",
+			"buff": null,
+			"equivalentCost": null
+		},
+		{
+			"type": 1,
+			"description": "天賦效果加強",
+			"buff": null,
+			"equivalentCost": null
+		},
+		{
+			"type": 1,
+			"description": "天賦效果加強",
+			"buff": null,
+			"equivalentCost": null
+		},
+		{
+			"type": 1,
+			"description": "天賦效果加強",
+			"buff": null,
+			"equivalentCost": null
+		},
+		{
+			"type": 1,
+			"description": "天賦效果加強",
+			"buff": null,
+			"equivalentCost": null
+		}
+	],
+	"favorKeyFrames": [
+		{
+			"level": 0,
+			"data": {
+				"maxHp": 0,
+				"atk": 0,
+				"def": 0,
+				"magicResistance": 0,
+				"cost": 0,
+				"blockCnt": 0,
+				"moveSpeed": 0,
+				"attackSpeed": 0,
+				"baseAttackTime": 0,
+				"respawnTime": 0,
+				"hpRecoveryPerSec": 0,
+				"spRecoveryPerSec": 0,
+				"maxDeployCount": 0,
+				"maxDeckStackCnt": 0,
+				"tauntLevel": 0,
+				"massLevel": 0,
+				"baseForceLevel": 0,
+				"stunImmune": false,
+				"silenceImmune": false,
+				"sleepImmune": false
+			}
+		},
+		{
+			"level": 50,
+			"data": {
+				"maxHp": 100,
+				"atk": 40,
+				"def": 0,
+				"magicResistance": 0,
+				"cost": 0,
+				"blockCnt": 0,
+				"moveSpeed": 0,
+				"attackSpeed": 0,
+				"baseAttackTime": 0,
+				"respawnTime": 0,
+				"hpRecoveryPerSec": 0,
+				"spRecoveryPerSec": 0,
+				"maxDeployCount": 0,
+				"maxDeckStackCnt": 0,
+				"tauntLevel": 0,
+				"massLevel": 0,
+				"baseForceLevel": 0,
+				"stunImmune": false,
+				"silenceImmune": false,
+				"sleepImmune": false
+			}
+		}
+	],
+	"allSkillLvlup": []
 }
