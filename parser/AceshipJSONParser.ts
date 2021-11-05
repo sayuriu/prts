@@ -1,21 +1,21 @@
 // $ tsc AceshipJSONParser.ts --target es2020 --moduleResolution node --module commonjs
-import { writeFile, mkdirSync, existsSync, write } from 'fs';
+import { writeFile, mkdirSync, existsSync } from 'fs';
 import { join, resolve } from 'path';
 import Operator  from './Operator.struct';
 import chalk from 'chalk';
 import Logger from './Logger';
 
-const AvailableLocales = {
+export const AvailableLocales = {
 	'en_US': true,
 	'ja_JP': true,
 	'ko_KR': true,
 	'zh_CN': true,
-	'zh_TW': true
+	'zh_TW': true,
 };
 
 type Locales = keyof typeof AvailableLocales;
 
-namespace Aceship {
+export namespace Aceship {
 	// -> root/ref/AN-EN-Tags
 	export const BASE_PATH = "..\\aceship\\AN-EN-Tags\\json\\gamedata\\{locale}\\gamedata\\excel";
 	export namespace DATA {
@@ -26,7 +26,7 @@ namespace Aceship {
 	}
 }
 
-namespace Destination {
+export namespace Destination {
 	export const BASE_JSON_LOCALE_PATH = '..\\src\\assets\\gamedata\\json\\locales\\{locale}';
 	export namespace DATA {
 		export const teams = 'teams';
@@ -176,4 +176,4 @@ class CountTracker {
 	public increment() { this._count++; }
 	constructor(startCount = 0) { this._count = startCount; }
 }
-parseAll();
+// parseAll();
