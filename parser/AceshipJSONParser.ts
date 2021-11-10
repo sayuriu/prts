@@ -59,7 +59,6 @@ function writeJSON(path: string, data: any) {
 }
 
 function createIfNotExist(path: string, header: string | null = null, silent: boolean = false) {
-
 	if (!existsSync(path))
 	{
 		Logger.info(header, `Attempting to create ${chalk.underline(path)}...`, false);
@@ -78,15 +77,17 @@ function getLocale(input: string) {
 	return null;
 }
 
-interface OperatorList {
-	[key: string]: Operator;
+function isCN(locale: string | null) {
+	if (!locale) return false;
+	return locale.indexOf('zh_CN') > -1;
 }
+
 function parseChar(src: string, dest: string)
 {
 	const { _base, _link_JSON } = Destination.DATA.characters;
 	const header = 'Characters-' + getLocale(src);
 	createIfNotExist(join(dest, _base), header);
-	const chars = require(src) as OperatorList;
+	const chars = require(src) as Record<string, Operator>;
 	const charnameLinkID: Record<string, string> = {};
 	const tracker = new CountTracker();
 	for (const char in chars)
@@ -98,6 +99,7 @@ function parseChar(src: string, dest: string)
 	Logger.info(header, `${Logger.green(tracker.count)} entries parsed.`);
 	Logger.info(header, `Writing ${Logger.yellow(_link_JSON.replace('../', ''))}...`, false);
 	writeJSON(join(dest, _base, _link_JSON), charnameLinkID);
+	if (isCN(getLocale(src))) writeJSON(join('.', 'json', 'char_list.json'), Object.keys(chars));
 	Logger.log(null, Logger.green('done'));
 	Logger.info(header, Logger.green('Write complete!'));
 }
@@ -143,6 +145,7 @@ function parseItem(src: string, dest: string)
 	writeJSON(join(dest, _base, itemToType_JSON), matData);
 	Logger.log(null, Logger.green('done'));
 	Logger.info(header, `Writing ${Logger.yellow(typeToItems_JSON.replace('../', ''))}...`, false);
+	if (isCN(getLocale(src))) writeJSON(join('.', 'json', typeToItems_JSON), matTypes);
 	writeJSON(join(dest, _base, typeToItems_JSON), matTypes);
 	Logger.log(null, Logger.green('done'));
 	Logger.info(header, Logger.green('Write complete!'));
@@ -176,4 +179,5 @@ class CountTracker {
 	public increment() { this._count++; }
 	constructor(startCount = 0) { this._count = startCount; }
 }
-// parseAll();
+
+parseAll();

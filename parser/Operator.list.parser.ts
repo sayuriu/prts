@@ -21,7 +21,6 @@ const data: Data = {
 	trap: {},
 	token: {},
 };
-
 for (const name of latestCharData)
 {
 	const [sType, sID, sName, sToken] = name.replace('.json', '').split('_');
@@ -38,7 +37,11 @@ for (const name of latestCharData)
 
 writeFileSync(
 	'./Operator.list.ts',
-	'export const List = '
-	+ beautify(inspect(data, false, null, false), { format: 'js'})
-	+ ';'
+	[
+		'// This is intended for structuring code.',
+		'// Data is based off zh_CN locale since it\'s the latest.',
+		'export const List = '
+		+ beautify(inspect(data, false, null, false), { format: 'js'})
+		+ ';'
+	].join('\n')
 );
