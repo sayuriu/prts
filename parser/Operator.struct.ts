@@ -151,38 +151,6 @@ interface WithNameAndDesc
 	name: string;
 	description: string;
 }
-
-export interface Operator
-extends
-	CharAsItem,
-	CharBooleanFields,
-	CharFaction,
-	CharPotential,
-	CharProfession,
-	WithNameAndDesc
-{
-	displayNumber: `${string}${number}`;
-	tokenKey?: SUMMON_NAME;
-	appellation: string;
-	rarity: Range0_5;
-
-	trait: CharTrait;
-	phases: [
-		CharPhases<0>,
-		CharPhases<1>?,
-		CharPhases<2>?,
-	];
-	skills: [
-		CharSkill<1>,
-		CharSkill<2>?,
-		CharSkill<3>?,
-	];
-	talents: {
-		candidates: (CharTraitCandidate & WithNameAndDesc)[],
-	};
-	potentialRank: CharPotentialData[];
-}
-
 interface CharPotentialData
 {
 	//TODO: parser needed for the following fields
@@ -214,4 +182,35 @@ interface AttributeModifierData
 	value: number,
 	loadFromBlackboard: boolean,
 	fetchBaseValueFromSourceEntity: boolean,
+}
+
+export default interface Operator
+extends
+	CharAsItem,
+	CharBooleanFields,
+	CharFaction,
+	CharPotential,
+	CharProfession,
+	WithNameAndDesc
+{
+	displayNumber: `${string}${number}`;
+	tokenKey?: SUMMON_NAME;
+	appellation: string;
+	rarity: Range0_5;
+
+	trait: CharTrait;
+	phases: [
+		CharPhases<0>,
+		CharPhases<1>?,
+		CharPhases<2>?,
+	];
+	skills: [
+		CharSkill<1>,
+		CharSkill<2>?,
+		CharSkill<3>?,
+	];
+	talents: {
+		candidates: (CharTraitCandidate & WithNameAndDesc)[],
+	};
+	potentialRank: CharPotentialData[];
 }

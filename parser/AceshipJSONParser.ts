@@ -170,6 +170,7 @@ export function parseAll()
 {
 	for (const locale in AvailableLocales)
 		AceshipJSONParser(locale as Locales);
+	Logger.success('Parser', 'Parsing complete!');
 }
 
 class CountTracker {

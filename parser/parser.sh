@@ -1,7 +1,16 @@
+function CleanJS() {
+	for js in *.js; do
+		if [[ $js == $1 ]]; then
+			continue
+		fi
+		rm $js
+		echo "del ${js}"
+	done
+}
+
 if [[ ! -d 'json' ]]; then
-	mkdir "json"
-	echo "create \"json\""
 	echo "mkdir json"
+	mkdir "json"
 fi
 echo "tsc AceshipJSONParser --target esnext --module commonjs --esmoduleInterop true"
 tsc AceshipJSONParser --target esnext --module commonjs --esmoduleInterop true
@@ -12,14 +21,14 @@ node AceshipJSONParser
 echo "node ConcatAllObj"
 node ConcatAllObj
 echo "cleanup"
+echo "cleanup ."
 dist="full_concat_obj.js"
-for js in *.js; do
-	if [[ $js == $dist ]]; then
-		continue
-	fi
-	rm $js
-	echo "del ${js}"
-done
-echo "done"
+CleanJS $dist
+echo "cd struct"
+cd struct
+echo "cleanup ."
+CleanJS null
+cd ..
 echo "product ./${dist}"
+echo "done, code $?"
 exit 0
