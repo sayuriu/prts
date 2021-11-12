@@ -1,142 +1,217 @@
-export default interface Operator {
-  name: string;
-  description: string;
-  canUseGeneralPotentialItem: boolean;
-  potentialItemId: string;
-  nationId: string;
-  groupId?: any;
-  teamId?: any;
-  displayNumber: string;
-  tokenKey?: any;
-  appellation: string;
-  position: string;
-  tagList: string[];
-  itemUsage: string;
-  itemDesc: string;
-  itemObtainApproach: string;
-  isNotObtainable: boolean;
-  isSpChar: boolean;
-  maxPotentialLevel: number;
-  rarity: number;
-  profession: string;
-  trait?: any;
-  phases: Phase[];
-  skills: Skill[];
-  talents: Talent[];
-  potentialRanks: PotentialRank[];
-  favorKeyFrames: AttributesKeyFrame[];
-  allSkillLvlup: AllSkillLvlup[];
+import { List } from './Operator.list'
+import { Range } from './struct/Basic'
+
+type Range0_2 = Range.$0_2;
+type Range0_5 = Range.$0_5;
+
+type CHAR_NAME = `char_${number}_${string}`;
+type SUMMON_NAME = `token_${number}_${string}_${string}`;
+type TRAP_NAME = `trap_${number}_${string}`;
+
+//TODO: parser needed for the following fields
+type CharRangeId = string;
+//
+
+interface CharBooleanFields
+{
+	canUseGeneralPotentialItem: boolean;
+	isNotObtainable: boolean;
+	isSpChar: boolean;
+}
+interface CharFaction
+{
+	//TODO: parser needed for the following fields
+	nationId: string;
+	groupId: string | null;
+	teamId: string | null;
+}
+interface CharPotential
+{
+	potentialItemId: `p_${CHAR_NAME}`;
+	maxPotentialLevel: Range0_5;
+}
+interface CharAsItem
+{
+	itemUsage: string;
+	itemDesc: string;
+	itemObtainApproach: string;
+}
+interface CharProfession
+{
+	position: "RANGED" | "MELEE",
+	//TODO: parser needed for the following fields
+	tagList: string[];
+	profession: string;
+	subProfessionId: string;
+}
+interface CharTrait
+{
+	candidates: CharTraitCandidate[];
 }
 
-interface AllSkillLvlup {
-  unlockCond: UnlockCond;
-  lvlUpCost: EvolveCost[];
+interface BlackboardItem
+{
+	value: number;
+	//TODO: parser needed for the following fields
+	key: string;
 }
 
-interface PotentialRank {
-  type: number;
-  description: string;
-  buff?: Buff;
-  equivalentCost?: any;
+interface CharTraitCandidate
+{
+	unlockCondition: {
+		phase: Range0_2;
+		level: number;
+	};
+	requiredPotentialRank: Range0_5,
+	blackboard: BlackboardItem[];
+	overrideDescripton: string;
+	rangeId: CharRangeId;
+	//TODO: parser needed for the following fields
+	prefabKey: string;
 }
 
-interface Buff {
-  attributes: Attributes;
+interface CharStatsData
+{
+	maxHp: number;
+	atk: number;
+	def: number;
+	magicResistance: number;
+	cost: number;
+	blockCnt: number;
+	moveSpeed: number;
+	attackSpeed: number;
+	baseAttackTime: number;
+	respawnTime: number;
+	hpRecoveryPerSec: number;
+	spRecoveryPerSec: number;
+	maxDeployCount: number;
+	maxDeckStackCnt: number;
+
+	// TODO: parser needed for the following fields but hmmmm
+	tauntLevel: number;
+	massLevel: number;
+	baseForceLevel: number;
+
+	stunImmune: boolean;
+	silenceImmune: boolean;
+	sleepImmune: boolean;
 }
 
-interface Attributes {
-  abnormalFlags?: any;
-  abnormalImmunes?: any;
-  abnormalAntis?: any;
-  abnormalCombos?: any;
-  abnormalComboImmunes?: any;
-  attributeModifiers: AttributeModifier[];
+interface CharStatsLevel<L extends number>
+{
+	level: L;
+	data: CharStatsData;
 }
 
-interface AttributeModifier {
-  attributeType: number;
-  formulaItem: number;
-  value: number;
-  loadFromBlackboard: boolean;
-  fetchBaseValueFromSourceEntity: boolean;
+interface ItemData
+{
+	id: `${number}`;
+	count: number;
+	type: "MATERIAL";
 }
 
-interface Talent {
-  candidates: Candidate[];
+type IntrinsicOpLevel = [
+	[30],
+	[30],
+	[45, 55],
+	[45, 60, 70],
+	[50, 70, 80],
+	[50, 80, 90],
+]
+
+interface CharPhases<L extends number>
+{
+	characterPrefabKey: CHAR_NAME;
+	rangeId: CharRangeId;
+	maxLevel: IntrinsicOpLevel[number][L];
+	attributesKeyFrames: [CharStatsLevel<1>, CharStatsLevel<L>];
+	evolveCost: ItemData[] | null;
 }
 
-interface Candidate {
-  unlockCondition: UnlockCond;
-  requiredPotentialRank: number;
-  prefabKey: string;
-  name: string;
-  description: string;
-  rangeId?: any;
-  blackboard: Blackboard[];
+interface SkillUpCost
+{
+	unlockCond: {
+		phase: Range0_2;
+		level: number;
+	}
+	levelUpTime: number;
+	levelUpCost: ItemData[];
+}
+interface CharSkill<L extends number>
+{
+	skillId: `skchr_${string}_${L}`;
+	//TODO: parser needed for the following fields
+	overridePrefabKey: string | null;
+	overrideTokenKey: string | null;
+	levelUpCostCond: SkillUpCost;
 }
 
-interface Blackboard {
-  key: string;
-  value: number;
+interface WithNameAndDesc
+{
+	name: string;
+	description: string;
 }
 
-interface Skill {
-  skillId: string;
-  overridePrefabKey?: any;
-  overrideTokenKey?: any;
-  levelUpCostCond: LevelUpCostCond[];
-  unlockCond: UnlockCond;
+export interface Operator
+extends
+	CharAsItem,
+	CharBooleanFields,
+	CharFaction,
+	CharPotential,
+	CharProfession,
+	WithNameAndDesc
+{
+	displayNumber: `${string}${number}`;
+	tokenKey?: SUMMON_NAME;
+	appellation: string;
+	rarity: Range0_5;
+
+	trait: CharTrait;
+	phases: [
+		CharPhases<0>,
+		CharPhases<1>?,
+		CharPhases<2>?,
+	];
+	skills: [
+		CharSkill<1>,
+		CharSkill<2>?,
+		CharSkill<3>?,
+	];
+	talents: {
+		candidates: (CharTraitCandidate & WithNameAndDesc)[],
+	};
+	potentialRank: CharPotentialData[];
 }
 
-interface LevelUpCostCond {
-  unlockCond: UnlockCond;
-  lvlUpTime: number;
-  levelUpCost: EvolveCost[];
+interface CharPotentialData
+{
+	//TODO: parser needed for the following fields
+	type: number
+	equivalentCost: number | null;
+	//
+	description: string;
+	buff: CharPotentialBuffData;
 }
 
-interface UnlockCond {
-  phase: number;
-  level: number;
+interface CharPotentialBuffData
+{
+	//TODO: parser needed for the following fields
+	abnormalFlags: null;
+	abnormalImmunes: null;
+	abnormalAntis: null;
+	abnormalCombos: null;
+	abnormalComboImmunes: null;
+	//
+	attributeModifiers: AttributeModifierData[];
 }
 
-interface Phase {
-  characterPrefabKey: string;
-  rangeId: string;
-  maxLevel: number;
-  attributesKeyFrames: AttributesKeyFrame[];
-  evolveCost?: EvolveCost[];
-}
-
-interface EvolveCost {
-  id: string;
-  count: number;
-  type: string;
-}
-
-interface AttributesKeyFrame {
-  level: number;
-  data: Data;
-}
-
-interface Data {
-  maxHp: number;
-  atk: number;
-  def: number;
-  magicResistance: number;
-  cost: number;
-  blockCnt: number;
-  moveSpeed: number;
-  attackSpeed: number;
-  baseAttackTime: number;
-  respawnTime: number;
-  hpRecoveryPerSec: number;
-  spRecoveryPerSec: number;
-  maxDeployCount: number;
-  maxDeckStackCnt: number;
-  tauntLevel: number;
-  massLevel: number;
-  baseForceLevel: number;
-  stunImmune: boolean;
-  silenceImmune: boolean;
-  sleepImmune: boolean;
+interface AttributeModifierData
+{
+	//TODO: parser needed for the following fields
+	attributeType: number,
+	formulaItem: number,
+	//
+	value: number,
+	loadFromBlackboard: boolean,
+	fetchBaseValueFromSourceEntity: boolean,
 }

@@ -11,6 +11,7 @@ interface Summon {
 	id: string;
 	unit: string;
 }
+
 interface Data {
 	char: Record<string, string>;
 	trap: Record<string, string>;
