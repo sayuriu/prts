@@ -1,4 +1,4 @@
-import { CharRangeId } from "./Basic";
+import { AttackRange } from "./AttackRange";
 import { CHAR_NAME } from "./CharBasicInfo";
 import { EvolveItemData } from "./EvolveItem";
 
@@ -47,7 +47,7 @@ interface CharStatsLevel<L extends number>
 export interface CharPhase<L extends number>
 {
 	characterPrefabKey: CHAR_NAME;
-	rangeId: CharRangeId;
+	rangeId: AttackRange['id'];
 	maxLevel: IntrinsicOpLevel[number][L];
 	attributesKeyFrames: [CharStatsLevel<1>, CharStatsLevel<IntrinsicOpLevel[number][L]>];
 	evolveCost: EvolveItemData[] | null;

@@ -1,4 +1,5 @@
 import { List } from './Operator.list'
+import { AttackRange } from './struct/AttackRange';
 import { Range } from './struct/Basic'
 
 type Range0_2 = Range.$0_2;
@@ -9,8 +10,6 @@ type SUMMON_NAME = `token_${number}_${string}_${string}`;
 type TRAP_NAME = `trap_${number}_${string}`;
 
 //TODO: parser needed for the following fields
-type CharRangeId = string;
-//
 
 interface CharBooleanFields
 {
@@ -65,7 +64,7 @@ interface CharTraitCandidate
 	requiredPotentialRank: Range0_5,
 	blackboard: BlackboardItem[];
 	overrideDescripton: string;
-	rangeId: CharRangeId;
+	rangeId: AttackRange['id'];
 	//TODO: parser needed for the following fields
 	prefabKey: string;
 }
@@ -122,7 +121,7 @@ type IntrinsicOpLevel = [
 interface CharPhases<L extends number>
 {
 	characterPrefabKey: CHAR_NAME;
-	rangeId: CharRangeId;
+	rangeId: AttackRange['id'];
 	maxLevel: IntrinsicOpLevel[number][L];
 	attributesKeyFrames: [CharStatsLevel<1>, CharStatsLevel<L>];
 	evolveCost: ItemData[] | null;

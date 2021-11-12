@@ -14,5 +14,4 @@ export interface WithNameAndDesc
 	description: string;
 }
 
-export type CharRangeId = string;
 export type HasCandidate<P> = { candidates: P[] };
