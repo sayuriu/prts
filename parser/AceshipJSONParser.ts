@@ -1,5 +1,5 @@
 // $ tsc AceshipJSONParser.ts --target es2020 --moduleResolution node --module commonjs
-import { writeFile, mkdirSync, existsSync } from 'fs';
+import { writeFile, mkdirSync, existsSync, copyFileSync } from 'fs';
 import { join, resolve } from 'path';
 import Operator  from './Operator.struct';
 import chalk from 'chalk';
@@ -23,6 +23,7 @@ export namespace Aceship {
 		export const characters = 'character_table.json';
 		export const medals = 'medal_table.json';
 		export const teams = 'handbook_team_table.json';
+		export const ranges = 'range_table.json';
 	}
 }
 
@@ -48,6 +49,9 @@ export namespace Destination {
 			_base: 'characters',
 			_link_JSON: '../charnameLinkID.json',
 		};
+		export const ranges = {
+			_base: 'ranges',
+		};
 	}
 }
 
@@ -68,7 +72,6 @@ function createIfNotExist(path: string, header: string | null = null, silent: bo
 	}
 	if (!silent) Logger.info(header, `${Logger.green('Found')} ${chalk.underline(path)}`);
 }
-
 
 // en_US, lang_COUNTRY
 function getLocale(input: string) {
@@ -151,6 +154,25 @@ function parseItem(src: string, dest: string)
 	Logger.info(header, Logger.green('Write complete!'));
 }
 
+function parseRangeData(src: string, dest: string)
+{
+	const header = 'Ranges-' + getLocale(src);
+	// if (getLocale(src) === 'zh_CN')
+	const { _base } = Destination.DATA.ranges;
+	const ranges = require(src);
+	createIfNotExist(join(dest, _base), header);
+	const tracker = new CountTracker();
+	for (const name in ranges)
+	{
+		writeJSON(
+			join(dest, _base, `${name}.json`),
+			ranges[name]
+		);
+		tracker.increment();
+	}
+	Logger.info(header, `${Logger.green(tracker.count)} entries parsed.`);
+}
+
 export function AceshipJSONParser(locale: Locales) {
 	if (!AvailableLocales[locale])
 		throw new Error(`${locale} is not available.`);
@@ -163,6 +185,7 @@ export function AceshipJSONParser(locale: Locales) {
 	createIfNotExist(destinationPath, `Locale-${locale}`);
 	parseChar(join(localePath, Aceship.DATA.characters), destinationPath);
 	parseItem(join(localePath, Aceship.DATA.items), destinationPath);
+	parseRangeData(join(localePath, Aceship.DATA.ranges), destinationPath);
 	Logger.cout('\n');
 }
 

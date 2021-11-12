@@ -10,6 +10,7 @@ struct <LOCACLES> as SOURCE
 					link: medalType -> medals
 				medalTypeData: Object
 					link: <name>
+			range_table.json
 
 // ------------------------------------------------------>
 struct <LOCACLES> as TARGET
@@ -30,3 +31,5 @@ struct <LOCACLES> as TARGET
 		teams
 			{team} as file
 		charnameLinkID.json -> char
+		range
+			{range} as file

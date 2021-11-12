@@ -30,5 +30,5 @@ echo "cleanup ."
 CleanJS null
 cd ..
 echo "product ./${dist}"
-echo "done, code $?"
+echo "done, exit code $?"
 exit 0
