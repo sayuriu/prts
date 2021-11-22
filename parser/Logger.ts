@@ -15,7 +15,7 @@ export default class Logger {
 	};
 	public static log(header: string | null, message: string, eol = true) {
 		if (header)
-			cout(header ? header : '', );
+			cout(header ? header : '', message);
 		else cout(message + (eol ? '\n' : ''));
 	}
 	public static info(header: string | null, message: string, eol = true) {

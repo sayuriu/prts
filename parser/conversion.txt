@@ -1,5 +1,5 @@
-~
-struct <LOCACLES> as SOURCE
+~ [json]
+struct <LOCACLES> as SOURCE in {root}/{ACESHIP_DIR_ENV}/json/gamedata/*
 	{locale}
 		excel
 			character_table.json
@@ -13,23 +13,73 @@ struct <LOCACLES> as SOURCE
 			range_table.json
 
 // ------------------------------------------------------>
-struct <LOCACLES> as TARGET
+struct <LOCACLES> as TARGET {root}/src/assets/gamedata/json/*
 	{locale}
 		chars
-			{char} as file
+			{char} as file:json
 		items
 			materials
 				{type}
-					{name} as file
+					{name} as file:json
 				{etc}
 		medals
 			medalList
 				{type}
-					{name} as file
+					{name} as file:json
 			medalTypeData
-				{type} as file
+				{type} as file:json
 		teams
-			{team} as file
+			{team} as file:json
 		charnameLinkID.json -> char
 		range
-			{range} as file
+			{range} as file:json
+
+~ [img]
+struct <IMG> as SOURCE in {root}/{ACESHIP_DIR_ENV}/img/*
+	with \[*\] notation as TARGET # Anything inside [] refers to paths in "TARGET" field.
+	use ONLY FileOperations.COPY
+
+	avatars		-> [characters/avatars]
+	characters 	-> [characters/full]
+	portraits	-> [characters/portraits]
+	classes 	-> [characters/ui/classes]
+	skills 		-> [characters/skills/combat]
+
+	ui
+		chara			-> [characters/ui/chara]
+		elite 	 		-> [characters/ui/elite]
+		rank 			-> [characters/ui/skillrank]
+		potential 		-> [characters/ui/potential]
+		subclass 		-> [characters/ui/subclasses]
+		infrastructure  -> [characters/skills/infrastructure]
+
+	enemy		-> [enemies]
+	items 		-> [materials]
+	factions	-> [factions]
+
+
+// ------------------------------------------------------>
+struct <IMG> as TARGET in {root}/src/assets/gamedata/img/*
+	characters
+		full		# Char full body illustration  [1]
+		avatars		# Char avatars				[Head]
+		portraits	# Char portraits	 [Head, Torso]
+		#
+		skills
+			combat	# Char combat skill
+			infrastructure
+				{type} as file:png	# Inf skill types
+				skill				# Specific skill
+		#
+		ui # Display elements
+			chara 				# For making character portrait card and bg
+			#
+			classes				# Char main class
+			subclasses 			# Pretty straightforward ( ͡° ͜ʖ ͡°)
+			#
+			potential			# Char potential rank
+			elite 				# TFW Elite 3 exists !?
+			skillrank 			# Char skill rank
+	enemy
+	factions
+	materials

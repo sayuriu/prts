@@ -12,12 +12,12 @@ if [[ ! -d 'json' ]]; then
 	echo "mkdir json"
 	mkdir "json"
 fi
-echo "tsc AceshipJSONParser --target esnext --module commonjs --esmoduleInterop true"
-tsc AceshipJSONParser --target esnext --module commonjs --esmoduleInterop true
+echo "tsc AceshipParser --target esnext --module commonjs --esmoduleInterop true"
+tsc AceshipParser --target esnext --module commonjs --esmoduleInterop true
 echo "tsc ConcatAllObj --target esnext --module commonjs --esmoduleInterop true"
 tsc ConcatAllObj --target esnext --module commonjs --esmoduleInterop true
-echo "node AceshipJSONParser"
-node AceshipJSONParser
+echo "node AceshipParser"
+node AceshipParser
 echo "node ConcatAllObj"
 node ConcatAllObj
 echo "cleanup"

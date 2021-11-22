@@ -1,7 +1,8 @@
 // $ tsc AceshipJSONParser.ts --target es2020 --moduleResolution node --module commonjs
-import { writeFile, mkdirSync, existsSync, copyFileSync } from 'fs';
+import { writeFile, mkdirSync, existsSync } from 'fs';
 import { join, resolve } from 'path';
 import Operator  from './Operator.struct';
+import { ACESHIP_DIR_ROOT, DESTINATION_ROOT } from './AceshipEnv';
 import chalk from 'chalk';
 import Logger from './Logger';
 
@@ -17,7 +18,7 @@ type Locales = keyof typeof AvailableLocales;
 
 export namespace Aceship {
 	// -> root/ref/AN-EN-Tags
-	export const BASE_PATH = "..\\aceship\\AN-EN-Tags\\json\\gamedata\\{locale}\\gamedata\\excel";
+	export const BASE_PATH = "{ACESHIP_DIR_ENV}\\json\\gamedata\\{locale}\\gamedata\\excel".replace('{ACESHIP_DIR_ENV}', ACESHIP_DIR_ROOT);
 	export namespace DATA {
 		export const items = 'item_table.json';
 		export const characters = 'character_table.json';
@@ -28,7 +29,7 @@ export namespace Aceship {
 }
 
 export namespace Destination {
-	export const BASE_JSON_LOCALE_PATH = '..\\src\\assets\\gamedata\\json\\locales\\{locale}';
+	export const BASE_JSON_LOCALE_PATH = '{DEST_ROOT}\\json\\locales\\{locale}'.replace('{DEST_ROOT}', DESTINATION_ROOT);
 	export namespace DATA {
 		export const teams = 'teams';
 		export const medals = {
@@ -62,7 +63,7 @@ function writeJSON(path: string, data: any) {
 	});
 }
 
-function createIfNotExist(path: string, header: string | null = null, silent: boolean = false) {
+export function createIfNotExist(path: string, header: string | null = null, silent: boolean = false) {
 	if (!existsSync(path))
 	{
 		Logger.info(header, `Attempting to create ${chalk.underline(path)}...`, false);
@@ -196,12 +197,10 @@ export function parseAll()
 	Logger.success('Parser', 'Parsing complete!');
 }
 
-class CountTracker {
+export class CountTracker {
 	private _count: number = 0;
 	public get count(): number { return this._count; }
 	public add(count: number) { this._count += count; }
 	public increment() { this._count++; }
 	constructor(startCount = 0) { this._count = startCount; }
 }
-
-parseAll();
