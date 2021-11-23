@@ -1,9 +1,8 @@
 import { ACESHIP_DIR_ROOT, DESTINATION_ROOT } from './AceshipEnv';
-import { join } from 'path';
 import Logger from './Logger';
 import { readdirSync, lstatSync, copyFileSync } from 'fs';
-import chalk from 'chalk';
-import { createIfNotExist, CountTracker } from './AceshipJSONParser';
+import {  CountTracker } from './AceshipJSONParser';
+import { createIfNotExist, joinPaths } from './utils/PathUtils';
 
 export namespace AceshipIMGData {
 	export const SOURCE_ROOT = '{ACESHIP_DIR_ENV}\\img'.replace('{ACESHIP_DIR_ENV}', ACESHIP_DIR_ROOT);
@@ -28,7 +27,7 @@ export namespace AceshipIMGData {
 	}
 	export const DESTINATION = {
 		characters_avatars: 'characters/avatars',
-		characters_full: 'characters/characters',
+		characters_full: 'characters/full',
 		characters_portraits: 'characters/portraits',
 		characters_skills_combat: 'characters/skills/combat',
 		characters_skills_infrastructure: 'characters/skills/infrastructure',
@@ -52,11 +51,12 @@ export function copyIMG()
 	const header = 'Images';
 	const success = new CountTracker();
 	const failed = new CountTracker();
+	const errs: string[] = [];
 	createIfNotExist(AceshipIMGData.DEST_ROOT);
 
 	for (const key in AceshipIMGData.SOURCE)
 	{
-		const source = join(AceshipIMGData.SOURCE_ROOT, AceshipIMGData.SOURCE[key as SourceKey]);
+		const source = joinPaths(AceshipIMGData.SOURCE_ROOT, AceshipIMGData.SOURCE[key as SourceKey]);
 		if (!AceshipIMGData.DESTINATION[key as SourceKey])
 		{
 			Logger.info(header, `${Logger.red(key)} key not found on dest object`);
@@ -66,14 +66,14 @@ export function copyIMG()
 		let destDirBase = '';
 		for (const destDir of destDirArr)
 		{
-			destDirBase = join(destDirBase, destDir);
-			const _destDir = join(AceshipIMGData.DEST_ROOT, destDirBase);
+			destDirBase = joinPaths(destDirBase, destDir);
+			const _destDir = joinPaths(AceshipIMGData.DEST_ROOT, destDirBase);
 			createIfNotExist(_destDir);
 		}
 		for (const files of readdirSync(source))
 		{
-			const _source = join(source, files);
-			const _dest = join(AceshipIMGData.DEST_ROOT, destDirBase, files);
+			const _source = joinPaths(source, files);
+			const _dest = joinPaths(AceshipIMGData.DEST_ROOT, destDirBase, files);
 			const stats = lstatSync(_source);
 			if (stats.isDirectory())
 				copyRecursive(_source, _dest, success, failed);
@@ -88,12 +88,15 @@ export function copyIMG()
 				catch (e: unknown) {
 					Logger.error(header, `Failed to copy ${Logger.yellow(files)}`);
 					Logger.error(null, (e as NodeJS.ErrnoException).message);
+					errs.push((e as NodeJS.ErrnoException).message);
 					failed.increment();
 				}
 			}
 		}
 	}
-	Logger.info(header, (success ? `${Logger.green(success.count)} succeeded` : '') + (failed ? `, ${Logger.red(failed.count)} failed` : ''));
+	Logger.info(header, (success.count ? `${Logger.green(success.count)} succeeded` : '') + (failed.count ? `, ${Logger.red(failed.count)} failed` : ''));
+	for (const err of errs)
+		Logger.error(header, err);
 }
 
 function copyRecursive(source: string, dest: string, success = new CountTracker(), failed = new CountTracker())
@@ -102,8 +105,8 @@ function copyRecursive(source: string, dest: string, success = new CountTracker(
 	createIfNotExist(dest);
 	for (const files of readdirSync(source))
 	{
-		const _source = join(source, files);
-		const _dest = join(dest, files);
+		const _source = joinPaths(source, files);
+		const _dest = joinPaths(dest, files);
 		const stats = lstatSync(_source);
 		if (stats.isDirectory())
 			copyRecursive(_source, _dest);

@@ -10,6 +10,7 @@ export const List = {
         lava2: '1011',
         skadi2: '1012',
         chen2: '1013',
+        nearl2: '1014',
         sora: '101',
         texas: '102',
         angel: '103',
@@ -172,6 +173,8 @@ export const List = {
         finlpp: '385',
         mint: '388',
         rosmon: '391',
+        jnight: '4000',
+        pudd: '4004',
         weedy: '400',
         elysm: '401',
         tuye: '402',
@@ -179,6 +182,7 @@ export const List = {
         tomimi: '411',
         flint: '415',
         zumama: '416',
+        flamtl: '420',
         crow: '421',
         blemsh: '423',
         billro: '426',
@@ -187,6 +191,7 @@ export const List = {
         whispr: '436',
         mizuki: '437',
         pinecn: '440',
+        glider: '449',
         robin: '451',
         bstalk: '452',
         nothin: '455',
@@ -204,6 +209,8 @@ export const List = {
         robrta: '484',
         pallas: '485',
         takila: '486',
+        serum: '489',
+        wildmn: '496',
         noirc: '500',
         durin: '501',
         nblade: '502',
@@ -259,7 +266,9 @@ export const List = {
         dupilr: '043',
         duruin: '044',
         dublst: '045',
-        oxygen: '046'
+        oxygen: '046',
+        neonlamp: '048',
+        candle: '049'
     },
     token: {
         healrb: {
@@ -341,6 +350,10 @@ export const List = {
         mach: {
             id: '10018',
             unit: 'robrta'
+        },
+        sword: {
+            id: '10019',
+            unit: 'nearl2'
         },
         friend: {
             id: '023',

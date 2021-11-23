@@ -8,27 +8,34 @@ function CleanJS() {
 	done
 }
 
+function CleanFull() {
+	echo "cd $1 && clean"
+	cd $1
+	CleanJS null
+	echo "cd .."
+	cd ..
+}
+
 if [[ ! -d 'json' ]]; then
 	echo "mkdir json"
 	mkdir "json"
 fi
 echo "tsc AceshipParser --target esnext --module commonjs --esmoduleInterop true"
 tsc AceshipParser --target esnext --module commonjs --esmoduleInterop true
-echo "tsc ConcatAllObj --target esnext --module commonjs --esmoduleInterop true"
-tsc ConcatAllObj --target esnext --module commonjs --esmoduleInterop true
+echo "tsc Operator.list.parser.ts --target esnext --module commonjs --esmoduleInterop true"
+tsc Operator.list.parser.ts --target esnext --module commonjs --esmoduleInterop true
+echo "tsc ConcatAllObj(Operator) --target esnext --module commonjs --esmoduleInterop true"
+tsc 'ConcatAllObj(Operator)' --target esnext --module commonjs --esmoduleInterop true
 echo "node AceshipParser"
 node AceshipParser
-echo "node ConcatAllObj"
-node ConcatAllObj
+echo "node ConcatAllObj(Operator)"
+node 'ConcatAllObj(Operator)'
+echo "node Operator.list.parser.js"
+node Operator.list.parser.js
 echo "cleanup"
-echo "cleanup ."
-dist="full_concat_obj.js"
-CleanJS $dist
-echo "cd struct"
-cd struct
-echo "cleanup ."
+# dist="full_concat_obj.js"
 CleanJS null
-cd ..
-echo "product ./${dist}"
+CleanFull "struct"
+CleanFull "utils"
 echo "done, exit code $?"
 exit 0

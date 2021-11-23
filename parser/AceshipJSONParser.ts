@@ -1,10 +1,11 @@
 // $ tsc AceshipJSONParser.ts --target es2020 --moduleResolution node --module commonjs
-import { writeFile, mkdirSync, existsSync } from 'fs';
-import { join, resolve } from 'path';
+import { writeFile } from 'fs';
+import { resolve } from 'path';
 import Operator  from './Operator.struct';
 import { ACESHIP_DIR_ROOT, DESTINATION_ROOT } from './AceshipEnv';
-import chalk from 'chalk';
+import { concatObjects, writeData } from './utils/ConcatAllObj';
 import Logger from './Logger';
+import { createIfNotExist, joinPaths } from './utils/PathUtils';
 
 export const AvailableLocales = {
 	'en_US': true,
@@ -63,17 +64,6 @@ function writeJSON(path: string, data: any) {
 	});
 }
 
-export function createIfNotExist(path: string, header: string | null = null, silent: boolean = false) {
-	if (!existsSync(path))
-	{
-		Logger.info(header, `Attempting to create ${chalk.underline(path)}...`, false);
-		mkdirSync(path);
-		Logger.log(null, Logger.green('done'))
-		return;
-	}
-	if (!silent) Logger.info(header, `${Logger.green('Found')} ${chalk.underline(path)}`);
-}
-
 // en_US, lang_COUNTRY
 function getLocale(input: string) {
 	const match =input.match(/[a-z]{2}_[A-Z]{2}/);
@@ -90,20 +80,20 @@ function parseChar(src: string, dest: string)
 {
 	const { _base, _link_JSON } = Destination.DATA.characters;
 	const header = 'Characters-' + getLocale(src);
-	createIfNotExist(join(dest, _base), header);
+	createIfNotExist(joinPaths(dest, _base), header);
 	const chars = require(src) as Record<string, Operator>;
 	const charnameLinkID: Record<string, string> = {};
 	const tracker = new CountTracker();
 	for (const char in chars)
 	{
-		writeJSON(join(dest, _base ,`${char}.json`), chars[char]);
+		writeJSON(joinPaths(dest, _base ,`${char}.json`), chars[char]);
 		charnameLinkID[chars[char].name] = char;
 		tracker.increment();
 	}
 	Logger.info(header, `${Logger.green(tracker.count)} entries parsed.`);
 	Logger.info(header, `Writing ${Logger.yellow(_link_JSON.replace('../', ''))}...`, false);
-	writeJSON(join(dest, _base, _link_JSON), charnameLinkID);
-	if (isCN(getLocale(src))) writeJSON(join('.', 'json', 'char_list.json'), Object.keys(chars));
+	writeJSON(joinPaths(dest, _base, _link_JSON), charnameLinkID);
+	if (isCN(getLocale(src))) writeJSON(joinPaths('.', 'json', 'char_list.json'), Object.keys(chars));
 	Logger.log(null, Logger.green('done'));
 	Logger.info(header, Logger.green('Write complete!'));
 }
@@ -113,44 +103,47 @@ function parseItem(src: string, dest: string)
 	const header = 'Items-' + getLocale(src);
 	const { _base, types, materials, itemToType_JSON, typeToItems_JSON } = Destination.DATA.items;
 	const items = require(src);
-	createIfNotExist(join(dest, _base), header);
-	createIfNotExist(join(dest, _base, types), header);
+	createIfNotExist(joinPaths(dest, _base), header);
+	createIfNotExist(joinPaths(dest, _base, types), header);
 	for (const name in items)
 	{
 		if (name === 'items') continue;
 		Logger.info(header, `Writing ${Logger.yellow(`${name}.json...`)}`, false);
 		writeJSON(
-			join(dest, _base, types, `${name}.json`),
+			joinPaths(dest, _base, types, `${name}.json`),
 			items[name]
 		);
 		Logger.log(null, Logger.green('done'));
 	}
-	createIfNotExist(join(dest, _base, 'materials'), header);
+	createIfNotExist(joinPaths(dest, _base, 'materials'), header);
 	Logger.info(header, 'Parsing materials...');
 	const matData: Record<string, any> = {};
 	const matTypes: Record<string, string[]> = {};
+	let FullConcatObj: Record<string, any> = {};
 	const tracker = new CountTracker();
 	for (const item in items.items)
 	{
 		const actualItem = items.items[item];
+		FullConcatObj = concatObjects(FullConcatObj, actualItem);
 		const itemType = actualItem.itemType;
 		matData[item] = itemType;
 		if (!matTypes[itemType]) matTypes[itemType] = [];
 		matTypes[itemType].push(item);
-		createIfNotExist(join(dest, _base, materials.replace('{type}', itemType)), header, true);
+		createIfNotExist(joinPaths(dest, _base, materials.replace('{type}', itemType)), header, true);
 		writeJSON(
-			join(dest, _base, materials.replace('{type}', itemType), `${item}.json`),
+			joinPaths(dest, _base, materials.replace('{type}', itemType), `${item}.json`),
 			actualItem,
 		)
 		tracker.increment();
 	}
+	writeData('./ITEM_ALL.data', FullConcatObj, ['materials']);
 	Logger.info(header, `${Logger.green(tracker.count)} entries parsed.`);
 	Logger.info(header, `Writing ${Logger.yellow(itemToType_JSON.replace('../', ''))}...`, false);
-	writeJSON(join(dest, _base, itemToType_JSON), matData);
+	writeJSON(joinPaths(dest, _base, itemToType_JSON), matData);
 	Logger.log(null, Logger.green('done'));
 	Logger.info(header, `Writing ${Logger.yellow(typeToItems_JSON.replace('../', ''))}...`, false);
-	if (isCN(getLocale(src))) writeJSON(join('.', 'json', typeToItems_JSON), matTypes);
-	writeJSON(join(dest, _base, typeToItems_JSON), matTypes);
+	if (isCN(getLocale(src))) writeJSON(joinPaths('.', 'json', typeToItems_JSON), matTypes);
+	writeJSON(joinPaths(dest, _base, typeToItems_JSON), matTypes);
 	Logger.log(null, Logger.green('done'));
 	Logger.info(header, Logger.green('Write complete!'));
 }
@@ -161,12 +154,12 @@ function parseRangeData(src: string, dest: string)
 	// if (getLocale(src) === 'zh_CN')
 	const { _base } = Destination.DATA.ranges;
 	const ranges = require(src);
-	createIfNotExist(join(dest, _base), header);
+	createIfNotExist(joinPaths(dest, _base), header);
 	const tracker = new CountTracker();
 	for (const name in ranges)
 	{
 		writeJSON(
-			join(dest, _base, `${name}.json`),
+			joinPaths(dest, _base, `${name}.json`),
 			ranges[name]
 		);
 		tracker.increment();
@@ -179,14 +172,14 @@ export function AceshipJSONParser(locale: Locales) {
 		throw new Error(`${locale} is not available.`);
 
 	Logger.info(locale, Logger.purple('Init'));
-	const localePath = join(Aceship.BASE_PATH.replace('{locale}', locale));
+	const localePath = joinPaths(Aceship.BASE_PATH.replace('{locale}', locale));
 	Logger.info(locale, `${Logger.yellow('Source')}: ${resolve(localePath)}`);
-	const destinationPath = join(Destination.BASE_JSON_LOCALE_PATH.replace('{locale}', locale));
+	const destinationPath = joinPaths(Destination.BASE_JSON_LOCALE_PATH.replace('{locale}', locale));
 	Logger.info(locale, `${Logger.green('Target')}: ${resolve(destinationPath)}`);
 	createIfNotExist(destinationPath, `Locale-${locale}`);
-	parseChar(join(localePath, Aceship.DATA.characters), destinationPath);
-	parseItem(join(localePath, Aceship.DATA.items), destinationPath);
-	parseRangeData(join(localePath, Aceship.DATA.ranges), destinationPath);
+	parseChar(joinPaths(localePath, Aceship.DATA.characters), destinationPath);
+	parseItem(joinPaths(localePath, Aceship.DATA.items), destinationPath);
+	parseRangeData(joinPaths(localePath, Aceship.DATA.ranges), destinationPath);
 	Logger.cout('\n');
 }
 

@@ -4,7 +4,12 @@ import { inspect } from 'util';
 import { join } from 'path';
 import beautify from 'beautify';
 
-const latestCharDataPath = join(Destination.BASE_JSON_LOCALE_PATH.replace('{locale}', 'zh_CN'), 'characters');
+const latestCharDataPath = join(
+	Destination.BASE_JSON_LOCALE_PATH
+		.replace('{locale}', 'zh_CN')
+		.replace(/\\\\|\/|\\/g, '/'),
+	'characters'
+);
 const latestCharData = readdirSync(latestCharDataPath);
 
 interface Summon {

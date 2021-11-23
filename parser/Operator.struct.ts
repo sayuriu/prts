@@ -1,5 +1,5 @@
 import { List } from './Operator.list'
-import { AttackRange } from './struct/AttackRange';
+import { AttackRange } from './struct/Operator/AttackRange';
 import { Range } from './struct/Basic'
 
 type Range0_2 = Range.$0_2;
