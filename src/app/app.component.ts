@@ -3,7 +3,8 @@ import { Router, RouterOutlet } from '@angular/router';
 
 import { routeAnims } from '@utils/anims';
 import { version } from '@utils/package';
-import { ErrorService } from '@services/error.service';
+import { ErrorService } from '@services/error/error.service';
+import { NotifService } from '@services/Notification/notif.service';
 import type { BrowserWindow } from '@interfaces/common';
 
 @Component({
@@ -20,11 +21,12 @@ export class AppComponent implements OnInit {
 	constructor(
 			private errorService: ErrorService,
 			public router: Router,
+			private notif: NotifService,
 		)
 	{}
 
 	ngOnInit() {
-		AnimUtilities.removeLoadStatus();
+		OverlayUtils.removeLoadStatus();
 		(window as BrowserWindow).__env.AppVersion = version;
 
 		document.addEventListener('mousemove', (event) => {
@@ -33,6 +35,17 @@ export class AppComponent implements OnInit {
 					'Please do not open dev tools in production mode.');
 			}
 		});
+		document.addEventListener('fullscreenchange', (event) => {
+			if (document.fullscreenElement)
+				this.notif.send('System', 'Entered fullscreen.');
+		});
+		// document.addEventListener('keypress', (event) => {
+		// 	console.log(event)
+		// 	if (event.key === 'F11') {
+		// 		console.log('F11');
+		// 		console.log(document.fullscreenElement);
+		// 	}
+		// })
 	}
 
 	prepareOutlet(outlet: RouterOutlet) {
@@ -40,7 +53,7 @@ export class AppComponent implements OnInit {
 	}
 }
 
-const AnimUtilities = {
+const OverlayUtils = {
 	currentInterval: null,
 	evt: new Event('LOAD_STATUS'),
 	removeLoadStatus()
@@ -60,7 +73,7 @@ const AnimUtilities = {
 		this.emitUpdate();
 		setTimeout(() => {
 			(loadingText as HTMLElement).style.opacity = '1';
-			(loadingText as HTMLElement).style.zIndex = '999';
+			(loadingText as HTMLElement).style.zIndex = '10000';
 		}, 200);
 	},
 	emitUpdate()

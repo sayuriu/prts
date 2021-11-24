@@ -37,15 +37,14 @@ export class MainComponent implements OnInit {
 		const ngTag = document.getElementById('latest-commit-text')?.attributes[0].localName!;
 		const data = GitUtils.loadFromCache();
 		if (data && !fetchNewest)
-		{
 			document.getElementById('latest-commit-text')!.innerHTML = GitUtils.generateHTML(data as Tuple7Array<string>)(ngTag);
-		}
 		else
 		{
 			const inv = this.startAwaitAnim();
 			const res = await GitUtils.fetchRecentRepo();
 			if (res)
 			{
+				console.log(res);
 				const { sha, author: { name, date, url: auURL, username }, url, message: cMessage } = res;
 				setTimeout(async () => {
 					clearInterval(inv);
@@ -142,7 +141,7 @@ class GitUtils {
 				target="_blank"
 			><i style="filter: brightness(30%);font-weight: lighter;">${cHash.substr(0, 7)}</i></a>&#8201;`,
 			`&nbsp;`,
-			`<commit-message ${ngTag} ${cMessage.length > 44 ? `data-title="${cMessage.toString()}" .overflow` : ''}>${cMessage.length > 44 ? cMessage.substr(0, 41) + '...' : cMessage}</commit-message>`
+			`<commit-message ${ngTag} ${cMessage.length > 44 ? `data-title="${cMessage.toString()}" class="overflow"` : ''}>${cMessage.length > 44 ? cMessage.substr(0, 41) + '...' : cMessage}</commit-message>`
 		].join('');
 	}
 	static async fetchRecentRepo()

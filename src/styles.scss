@@ -11,6 +11,10 @@ body {
 	margin: 0;
 }
 
+::selection {
+	background: transparent;
+}
+
 main {
 	position: relative;
 }

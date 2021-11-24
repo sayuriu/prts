@@ -1,4 +1,3 @@
-# PROBLEM: Incompatible with WSL file structure.
 ROOT=$dirname
 ACESHIP_ROOT="aceship/AN-EN-Tags"
 PARSER_DIR="parser"

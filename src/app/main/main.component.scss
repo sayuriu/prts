@@ -208,14 +208,14 @@ $header-height: math.div(81px, 1080px) * 100vh;
 							commit-time, commit-message, a { position: relative; font-family: JetBrains Mono; }
 							commit-time {
 								i {
-									font-weight:200;
+									font-weight: normal;
 									// filter: brightness(30%);
 									color: hsl(0, 0%, 50%)
 								}
 								@include hover-std($position: upper, $maxWidth: 29ch, $leftMargin: -5%);
 							}
 							commit-message.overflow {
-								@include hover-std($position: upper, $maxWidth: 120%, $leftMargin: -8ch);
+								@include hover-std($position: upper, $maxWidth: 100%, $leftMargin: -8ch);
 							}
 							a {
 								&:any-link {

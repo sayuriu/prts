@@ -1,3 +1,10 @@
 .router {
 	position: relative;
 }
+#TopLevelUI {
+	z-index: 999;
+}
+#Notifications
+{
+	z-index: 2000;
+}

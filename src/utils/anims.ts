@@ -16,7 +16,7 @@ const commonContainerStyle = style({
 	left: '0',
 });
 
-class AnimationFunctions
+export class AnimationFunctions
 {
 	static readonly Forceful = 'cubic-bezier(0.88,-0.07, 0.22, 1.01)';
 }
@@ -171,5 +171,4 @@ export const slideRtL = function(){
 		])
 	]);
 }()
-
 // #endregion

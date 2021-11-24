@@ -14,6 +14,7 @@ import { RecruitmentComponent } from './features/recruitment/recruitment.compone
 import { OperatorImgComponent } from './features/operators/operator-img/operator-img.component';
 import { OperatorInfoAreaComponent } from './features/operators/operator-info-area/operator-info-area.component';
 import { OperatorPickerAreaComponent } from './features/operators/operator-picker-area/operator-picker-area.component';
+import { NotifOverlayComponent } from './notif-overlay/notif-overlay.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { OperatorPickerAreaComponent } from './features/operators/operator-picke
     RecruitmentComponent,
     OperatorImgComponent,
     OperatorInfoAreaComponent,
-    OperatorPickerAreaComponent
+    OperatorPickerAreaComponent,
+    NotifOverlayComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),

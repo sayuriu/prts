@@ -1,4 +1,5 @@
-<app-top-level-ui></app-top-level-ui>
+<app-top-level-ui id="TopLevelUI"></app-top-level-ui>
 <div [@routeAnimations]="prepareOutlet(outlet)">
 	<router-outlet #outlet="outlet" class="router"></router-outlet>
 </div>
+<notif-overlay id="Notifications"></notif-overlay>

@@ -1,5 +1,6 @@
 import { Component, OnInit, ElementRef } from '@angular/core';
 import { Router, Event } from '@angular/router';
+import { NotifService } from '@services/Notification/notif.service';
 import Theme from '@utils/ThemeManager';
 
 const generateTimeString = () => `://${new Date().toISOString().substr(0, 21)}`;
@@ -7,11 +8,11 @@ const generateTimeString = () => `://${new Date().toISOString().substr(0, 21)}`;
 @Component({
 	selector: 'app-top-level-ui',
 	templateUrl: './top-level-ui.component.html',
-	styleUrls: ['./top-level-ui.component.scss']
+	styleUrls: ['./top-level-ui.component.scss'],
 })
 export class TopLevelUIComponent implements OnInit {
 
-	constructor(private router: Router, private eleRef: ElementRef) {
+	constructor(private router: Router, private eleRef: ElementRef, private notif: NotifService) {
 	}
 
 	currentTime = generateTimeString();
@@ -37,14 +38,25 @@ export class TopLevelUIComponent implements OnInit {
 	ToggleTheme()
 	{
 		this.currentTheme = Theme.Switch(this.currentTheme);
+		this.notif.send('Theme', `Theme changed to ${this.currentTheme}`, 'success', { dynamic: true }, 10000);
 	}
 
 	ToggleFullscreen() {
 		const root = document.documentElement;
 		(!document.fullscreenElement ?
 			root?.requestFullscreen({ navigationUI: 'hide' }) :
-			document.exitFullscreen()
-		)?.catch((e) => { console.log(e); alert('Failed to request fullscreen.\nCheck console for details.') });
+			(() => {
+				if (
+					this.notif.currentMessage?.title === '[SYSTEM]' &&
+					this.notif.currentMessage?.message === 'Entered fullscreen.'
+				)
+				this.notif.skip();
+				return document.exitFullscreen();
+			})()
+		)?.catch((e) => {
+			console.error(e);
+			this.notif.send('System', 'Failed to toggle full screen.', 'error');
+		});
 	}
 
 	UIAlignmentState: UIAlignmentState = 'default';

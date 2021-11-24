@@ -8,7 +8,11 @@
       "@utils/*": ["./src/utils/*"],
       "@interfaces/*": ["./src/utils/interfaces/*"],
       "@featureComponents/*": ["./src/app/features/*"],
-      "@root/*": ["./*"]
+      "@root/*": ["./*"],
+      "#Assets": ["./src/Assets.resourcemap.ts"],
+      "path": [
+        "./node_modules/path-browserify"
+      ]
     },
 
     "outDir": "./dist/out-tsc",
