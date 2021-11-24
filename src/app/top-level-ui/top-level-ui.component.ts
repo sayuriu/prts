@@ -38,21 +38,14 @@ export class TopLevelUIComponent implements OnInit {
 	ToggleTheme()
 	{
 		this.currentTheme = Theme.Switch(this.currentTheme);
-		this.notif.send('Theme', `Theme changed to ${this.currentTheme}`, 'success', { dynamic: true }, 10000);
+		this.notif.send('System', `Theme changed to ${this.currentTheme} ${this.currentTheme === 'light' ? '✶' : '⏾'}`, 'success', {  dynamic: true }, 2000);
 	}
 
 	ToggleFullscreen() {
 		const root = document.documentElement;
 		(!document.fullscreenElement ?
 			root?.requestFullscreen({ navigationUI: 'hide' }) :
-			(() => {
-				if (
-					this.notif.currentMessage?.title === '[SYSTEM]' &&
-					this.notif.currentMessage?.message === 'Entered fullscreen.'
-				)
-				this.notif.skip();
-				return document.exitFullscreen();
-			})()
+			document.exitFullscreen()
 		)?.catch((e) => {
 			console.error(e);
 			this.notif.send('System', 'Failed to toggle full screen.', 'error');

@@ -28,24 +28,15 @@ export class AppComponent implements OnInit {
 	ngOnInit() {
 		OverlayUtils.removeLoadStatus();
 		(window as BrowserWindow).__env.AppVersion = version;
-
-		document.addEventListener('mousemove', (event) => {
-			if (window.location.href.includes('inspect')) {
-				console.warn('You are in development mode.\n' +
-					'Please do not open dev tools in production mode.');
-			}
+		window.addEventListener('resize', () => {
+			if (window.screen.height === window.innerHeight && window.screen.width === window.innerWidth)
+				this.notif.send('System', 'Entered fullscreen.', 'info', {}, 4000)
+			else if (
+				this.notif.currentMessage?.title === '[SYSTEM]' &&
+				this.notif.currentMessage?.message === 'Entered fullscreen.'
+			)
+			this.notif.skip();
 		});
-		document.addEventListener('fullscreenchange', (event) => {
-			if (document.fullscreenElement)
-				this.notif.send('System', 'Entered fullscreen.');
-		});
-		// document.addEventListener('keypress', (event) => {
-		// 	console.log(event)
-		// 	if (event.key === 'F11') {
-		// 		console.log('F11');
-		// 		console.log(document.fullscreenElement);
-		// 	}
-		// })
 	}
 
 	prepareOutlet(outlet: RouterOutlet) {

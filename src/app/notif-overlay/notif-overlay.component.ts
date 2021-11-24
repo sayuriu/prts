@@ -55,7 +55,7 @@ export class NotifOverlayComponent implements OnInit {
 	message: string = '';
 	level: Message['level'] = 'info';
 	progress: number = 100;
-	private timeout: number = 0;
+	timeout: number = 0;
 
 	private _activeTimeout?: number;
 	private _activeInterval?: number;

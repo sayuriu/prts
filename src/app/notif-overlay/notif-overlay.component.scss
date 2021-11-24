@@ -39,6 +39,9 @@
 			align-items: center;
 			border: 0px;
 			background: transparent;
+			color: var(--globalForeground);
+			font-size: 1.5rem;
+			font-family: JetBrains Mono;
 			svg {
 				height: 100%;
 				width: 100%;
@@ -61,6 +64,7 @@
 				height: 100%;
 				width: 0%;
 				background-color: var(--globalForeground);
+				transition-timing-function: ease-in-out;
 
 				&.being-reset
 				{

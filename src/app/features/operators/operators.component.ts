@@ -1,7 +1,8 @@
 import { Component, ElementRef, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { Assets } from '#Assets';
 import { AppearDisappear } from '@utils/anims';
-import { op as Saileach } from './op-Saileach.mockadata';
+import CNOPList from '@assets/gamedata/json/locales/en_US/charnameLinkID.json'
 
 @Component({
   selector: 'app-feature-operators',
@@ -25,6 +26,7 @@ export class OperatorsComponent implements OnInit {
 		}
 		else
 			document.getElementById('info-area')?.setAttribute('picked', this.lastVisitedOp)
+		import('@assets/gamedata/json/locales/en_US/charnameLinkID.json').then(console.log);
 	}
 
 	lastVisitedOp!: string | null;
@@ -38,4 +40,18 @@ export class OperatorsComponent implements OnInit {
 	{
 		return this.router.parseUrl(this.router.url).queryParamMap.get(param);
 	}
+}
+
+class Operator
+{
+	static async Load()
+	{
+		const locale = 'zh_CN';
+
+	}
+}
+
+class OperatorImageAssetData
+{
+	// constructor(name: )
 }

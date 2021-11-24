@@ -12,9 +12,15 @@
 				<line x1="3.81802" y1="258.15" x2="258.15" y2="3.81802" stroke-width="9"/>
 				<line x1="258.15" y1="264.514" x2="3.81802" y2="10.182" stroke-width="9"/>
 			</svg>
+			<!-- ✗ -->
 		</button>
 		<div id="notif-overlay-progress-bar">
-			<div id="notif-overlay-progress-bar-fill" [ngClass]="currentlyBeingSkipped ? 'being-reset' : ''" [style.width]="progress + '%'"></div>
+			<div
+				id="notif-overlay-progress-bar-fill"
+				[ngClass]="currentlyBeingSkipped ? 'being-reset' : ''"
+				[style.width]="progress + '%'"
+				[ngStyle]="{'transition-duration': timeout / 100}"
+			></div>
 		</div>
 		<!-- <img id="notif-overlay-icon" src="{{}}" alt=""> -->
 	</button>
