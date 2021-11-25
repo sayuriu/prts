@@ -30,7 +30,7 @@ export class AppComponent implements OnInit {
 		(window as BrowserWindow).__env.AppVersion = version;
 		window.addEventListener('resize', () => {
 			if (window.screen.height === window.innerHeight && window.screen.width === window.innerWidth)
-				this.notif.send('System', 'Entered fullscreen.', 'info', {}, 4000)
+				this.notif.send('System', 'Entered fullscreen.', 'info', {}, 3300)
 			else if (
 				this.notif.currentMessage?.title === '[SYSTEM]' &&
 				this.notif.currentMessage?.message === 'Entered fullscreen.'

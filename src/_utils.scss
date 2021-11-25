@@ -5,3 +5,7 @@
 	justify-content: center;
 }
 .flex-justify-center { @extend .flex, .justify-center; }
+.flex-row {
+	@extend .flex;
+	flex-direction: row;
+}

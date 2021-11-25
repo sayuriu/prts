@@ -15,12 +15,14 @@ export class TopLevelUIComponent implements OnInit {
 	constructor(private router: Router, private eleRef: ElementRef, private notif: NotifService) {
 	}
 
+	isFullScreen = false;
 	currentTime = generateTimeString();
 	ActiveClockInv!: number | null;
 	ngOnInit() {
 		this.StartClock();
 		this.InitTheme();
 		this.startRouteListener();
+		window.addEventListener('resize', () => this.isFullScreen = window.innerWidth === window.screen.width && window.innerHeight === window.screen.height);
 	}
 	private StartClock() {
 		this.ActiveClockInv = setInterval(() => this.currentTime = generateTimeString());
@@ -38,7 +40,7 @@ export class TopLevelUIComponent implements OnInit {
 	ToggleTheme()
 	{
 		this.currentTheme = Theme.Switch(this.currentTheme);
-		this.notif.send('System', `Theme changed to ${this.currentTheme} ${this.currentTheme === 'light' ? '✶' : '⏾'}`, 'success', {  dynamic: true }, 2000);
+		this.notif.send('System', `Theme changed to ${this.currentTheme} ${this.currentTheme === 'light' ? '☀' : '⏾'}`, 'success', {  dynamic: true }, 2000);
 	}
 
 	ToggleFullscreen() {

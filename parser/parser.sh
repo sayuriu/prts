@@ -33,9 +33,14 @@ node 'ConcatAllObj(Operator)'
 echo "node Operator.list.parser.js"
 node Operator.list.parser.js
 echo "cleanup"
+echo "find ./ -type d -empty -delete"
+find ./ -type d -empty -delete
 # dist="full_concat_obj.js"
 CleanJS null
 CleanFull "struct"
 CleanFull "utils"
+cd "utils"
+CleanFull "Operator"
+cd ".."
 echo "done, exit code $?"
 exit 0

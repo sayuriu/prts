@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { BrowserWindow } from '@utils/interfaces/common';
 import { request } from '@octokit/request';
 
+import { BrowserWindow } from '@utils/interfaces/common';
 import { repository } from '@utils/package';
 import GitCommit from '@utils/interfaces/GitCommit';
 

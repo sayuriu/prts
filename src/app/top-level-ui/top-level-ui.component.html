@@ -1,4 +1,9 @@
-<button class="FullscreenToggle" (click)="ToggleFullscreen()"></button>
+<button class="FullscreenToggle" (click)="ToggleFullscreen()" [ngStyle]="{
+	'background-image': 'url(../../assets/img/' + (isFullScreen ? 'shrink' : 'fullscreen') + '.svg)',
+	'background-size': 'cover'
+}"
+	data-title="{{isFullScreen ? 'Exit fullscreen' : 'Enter fullscreen'}}"
+></button>
 
 <p id="Clock">{{currentTime}}</p>
 

@@ -6,16 +6,7 @@ import { ACESHIP_DIR_ROOT, DESTINATION_ROOT } from './AceshipEnv';
 import { concatObjects, writeData } from './utils/ConcatAllObj';
 import Logger from './Logger';
 import { createIfNotExist, joinPaths } from './utils/PathUtils';
-
-export const AvailableLocales = {
-	'en_US': true,
-	'ja_JP': true,
-	'ko_KR': true,
-	'zh_CN': true,
-	'zh_TW': true,
-};
-
-type Locales = keyof typeof AvailableLocales;
+import { Locales, AvailableLocales } from './struct/Basic';
 
 export namespace Aceship {
 	// -> root/ref/AN-EN-Tags

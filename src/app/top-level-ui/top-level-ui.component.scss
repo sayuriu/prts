@@ -1,5 +1,6 @@
 @use 'sass:math';
 @import '../../anims';
+@import '../../hoverStyles';
 
 $header-margin-top: math.div(81px, 1080px) * 100vh;
 $header-height: math.div(117px, 1080px) * 100vh;
@@ -116,13 +117,13 @@ $emblem-margin-left: math.div(79px, 1920px) * 100vw;
 @media only screen and (min-width: 800px) {
 	.FullscreenToggle {
 		position: absolute;
-		height: 20px;
-		width: 20px;
-		border: 0px;
+		height: 40px;
+		width: 40px;
+		border: 0;
 		bottom: 0;
-		transition: background 0.5s ease;
-		background: var(--fullscreenToggle_Foreground);
+		transition: background-color 0.5s ease;
 		z-index: 999;
+		@include hover-std(upper, 200%, 15px, true);
 	}
 
 	#Clock {

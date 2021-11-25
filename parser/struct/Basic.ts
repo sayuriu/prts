@@ -15,3 +15,13 @@ export interface WithNameAndDesc
 }
 
 export type HasCandidate<P> = { candidates: P[] };
+
+export const AvailableLocales = {
+	'en_US': true,
+	'ja_JP': true,
+	'ko_KR': true,
+	'zh_CN': true,
+	'zh_TW': true,
+};
+
+export type Locales = keyof typeof AvailableLocales;
