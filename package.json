@@ -9,14 +9,13 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build && gulp compress",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "dev": "ng serve prts --port=3000",
     "dev:ssr": "ng run prts:serve-ssr",
     "serve:ssr": "node dist/prts/server/main.js",
     "build:ssr": "ng build && ng run prts:server",
-    "postbuild": "gulp compress",
     "prerender": "ng run prts:prerender"
   },
   "private": false,
