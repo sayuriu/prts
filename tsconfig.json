@@ -12,7 +12,7 @@
       "@assets/*": ["./src/assets/*"],
       "@gamedataJSON/*" : ["./src/assets/gamedata/json"],
       "#Assets": ["./src/Assets.resourcemap.ts"],
-      "@struct/*" : ["./parser/struct/*"],
+      "@struct/*" : ["./src/struct/*"],
       "path": [
         "./node_modules/path-browserify"
       ]

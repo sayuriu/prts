@@ -1,6 +1,22 @@
 @import '../../hoverStyles';
 @import '../../utils';
 
+.notif-levels-error {
+	&.error {
+		background-color: hsla(0, 100%, 68%, .7);
+	}
+}
+.notif-levels-warning {
+	&.warning {
+		background-color: hsla(41, 100%, 63%, 0.7);
+	}
+}
+.notif-levels-success {
+	&.success {
+		background-color: hsla(123, 86%, 52%, 0.7);
+	}
+}
+
 #notif-overlay {
 	position: absolute;
 	width: 100vw;
@@ -14,6 +30,9 @@
 		transition: width 0.2s ease-in-out;
 		position: relative;
 		@extend .flex-row;
+		@extend .notif-levels-error;
+		@extend .notif-levels-warning;
+		@extend .notif-levels-success;
 		font-size: 100%;
 		border: 0px;
 		font-family: JetBrains Mono;
@@ -22,6 +41,9 @@
 		#notif-overlay-content-main {
 			height: 100%;
 			@extend .flex-row;
+			@extend .notif-levels-error;
+			@extend .notif-levels-warning;
+			@extend .notif-levels-success;
 			svg {
 				pointer-events: none;
 				position: absolute;
@@ -45,8 +67,7 @@
 				text-align: center;
 				opacity: 0.7;
 			}
-			#notif-overlay-message
-			{
+			#notif-overlay-message {
 				left: 100px;
 			}
 		}

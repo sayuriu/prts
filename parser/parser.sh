@@ -42,5 +42,6 @@ CleanFull "utils"
 cd "utils"
 CleanFull "Operator"
 cd ".."
+cp -r "struct" "../src"
 echo "done, exit code $?"
 exit 0

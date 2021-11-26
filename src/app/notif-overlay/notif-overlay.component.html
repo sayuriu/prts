@@ -1,6 +1,6 @@
-<div id="notif-overlay" *ngIf="isShown" [@slideUpDown]="isShown">
+<div id="notif-overlay" *ngIf="isShown" [@slideUpDown]="isShown" [ngClass]="level">
 	<button id="notif-overlay-content" (click)="skip()">
-		<div id="notif-overlay-content-main">
+		<div id="notif-overlay-content-main" [ngClass]="level">
 			<svg [@AppearDisappear]="level==='error'" *ngIf="level==='error'" class="notif-icon" id="ntf-id-error" width="250" height="250" viewBox="0 0 250 250" fill="none" xmlns="http://www.w3.org/2000/svg">
 				<circle cx="125" cy="125" r="121" stroke-width="8"/>
 				<line x1="60.6569" y1="64.7927" x2="184.758" y2="188.893" stroke-width="16"/>

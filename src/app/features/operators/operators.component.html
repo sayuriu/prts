@@ -14,7 +14,10 @@
 				</op-img-code>
 			</op-info-header>
 		</header>
-		<app-operator-info-area *ngIf="lastVisitedOp" [opName]="lastVisitedOp">	</app-operator-info-area>
-		<div id="app-operator-picker-area" *ngIf="!lastVisitedOp"></div>
+		<app-operator-info-area *ngIf="lastVisitedOp" [opName]="lastVisitedOp"></app-operator-info-area>
+		<div id="app-operator-picker-area" *ngIf="!lastVisitedOp">
+			Nothing here yet.
+			But you can access the assets via absolute paths; if you know how...
+		</div>
 	</div>
 </div>

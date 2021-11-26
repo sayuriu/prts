@@ -2,7 +2,7 @@ import { trigger, transition, style, animate } from '@angular/animations';
 import { Component, OnInit } from '@angular/core';
 import { Message, NotifService } from '@services/Notification/notif.service';
 import { AnimationFunctions, AppearDisappear } from '@utils/anims';
-import { wait } from '@utils/utils';
+import { waitAsync } from '@utils/utils';
 
 const slideUpDown = trigger('slideUpDown', [
 	transition(':enter', [
@@ -108,7 +108,7 @@ export class NotifOverlayComponent implements OnInit {
 	{
 		clearInterval(this._activeInterval as number);
 		clearTimeout(this._activeTimeout as number);
-		await wait(300);
+		await waitAsync(300);
 		this.isShown = false;
 		this.title = '';
 		this.message = '';

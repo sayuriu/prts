@@ -1,12 +1,12 @@
 // $ tsc AceshipJSONParser.ts --target es2020 --moduleResolution node --module commonjs
 import { writeFile } from 'fs';
 import { resolve } from 'path';
-import Operator  from './Operator.struct';
 import { ACESHIP_DIR_ROOT, DESTINATION_ROOT } from './AceshipEnv';
 import { concatObjects, writeData } from './utils/ConcatAllObj';
 import Logger from './Logger';
 import { createIfNotExist, joinPaths } from './utils/PathUtils';
 import { Locales, AvailableLocales } from './struct/Basic';
+import { Operator } from './struct/Operator/Char';
 
 export namespace Aceship {
 	// -> root/ref/AN-EN-Tags
@@ -139,6 +139,12 @@ function parseItem(src: string, dest: string)
 	Logger.info(header, Logger.green('Write complete!'));
 }
 
+// function parseMedals(src: string, dest: string)
+// {
+// 	const header = 'Items-' + getLocale(src);
+//
+// }
+
 function parseRangeData(src: string, dest: string)
 {
 	const header = 'Ranges-' + getLocale(src);
@@ -158,6 +164,7 @@ function parseRangeData(src: string, dest: string)
 	Logger.info(header, `${Logger.green(tracker.count)} entries parsed.`);
 }
 
+
 export function AceshipJSONParser(locale: Locales) {
 	if (!AvailableLocales[locale])
 		throw new Error(`${locale} is not available.`);
@@ -171,6 +178,7 @@ export function AceshipJSONParser(locale: Locales) {
 	parseChar(joinPaths(localePath, Aceship.DATA.characters), destinationPath);
 	parseItem(joinPaths(localePath, Aceship.DATA.items), destinationPath);
 	parseRangeData(joinPaths(localePath, Aceship.DATA.ranges), destinationPath);
+	// parseMedals(joinPaths(localePath, Aceship.DATA.medals), destinationPath);
 	Logger.cout('\n');
 }
 
