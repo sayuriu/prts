@@ -25,14 +25,14 @@ $emblem-margin-left: math.div(79px, 1920px) * 100vw;
 	--header_Emblem_SVG_TopLine_Static_Scale: 1;
 	--header_Emblem_SVG_TopLine_Anim_InitTransform: translateX(0%);
 
-	--header_Emblem_SVG_Name_StaticTransform: translateX(0%);
+	--header_Emblem_SVG_Name_StaticTransform: translateX(2%);
 	--header_Emblem_SVG_Name_Static_Scale: 1;
 	--header_Emblem_SVG_Name_Static_MarginLeft: 0px;
 	--header_Emblem_SVG_Name_Anim_InitTransform: translateX(20%);
 
-	--header_Emblem_SVG_Desc1_StaticTransform: translateX(0%);
-	--header_Emblem_SVG_Desc1_StaticScale: 1;
-	--header_Emblem_SVG_Desc1_Anim_InitTransform: translateX(20%);
+	--header_Emblem_SVG_Desc1_StaticTransform: translate(-14.5%, 12%);
+	--header_Emblem_SVG_Desc1_StaticScale: 0.7;
+	--header_Emblem_SVG_Desc1_Anim_InitTransform: translate(18%, 12%);
 
 	--header_Emblem_SVG_Desc2_StaticTransform: translate(0.5%, 0%);
 	--header_Emblem_SVG_Desc2_Static_Scale: 1;
@@ -64,26 +64,26 @@ $emblem-margin-left: math.div(79px, 1920px) * 100vw;
 
 	--header_Emblem_SVG_AnimDelay: 0s;
 	--header_Emblem_SVG_AnimDelay_Extra: 0.1s;
-	--header_Emblem_SVG_TopLine_StaticTransform: translate(88%, 30%);
-	--header_Emblem_SVG_TopLine_Static_Scale: 1.2;
+	--header_Emblem_SVG_TopLine_StaticTransform: translate(90%, 30%);
+	--header_Emblem_SVG_TopLine_Static_Scale: 1.25;
 	--header_Emblem_SVG_TopLine_Anim_InitTransform: translateY(-20%);
 
 	--header_Emblem_SVG_Name_StaticTransform: translate(-10%, 22%);
-	--header_Emblem_SVG_Name_Static_Scale: 1.3;
+	--header_Emblem_SVG_Name_Static_Scale: 1.2;
 	--header_Emblem_SVG_Name_Static_MarginLeft: 14px;
 	--header_Emblem_SVG_Name_Anim_InitTransform: translateY(-10%);
 
-	--header_Emblem_SVG_Desc1_StaticTransform: translate(88%, -38%);
-	--header_Emblem_SVG_Desc1_StaticScale: 1.25;
+	--header_Emblem_SVG_Desc1_StaticTransform: translate(38.5%, -20.5%);
+	--header_Emblem_SVG_Desc1_StaticScale: 0.6;
 	--header_Emblem_SVG_Desc1_StaticMargin_Left: var(--header_Emblem_Width);
 	--header_Emblem_SVG_Desc1_Anim_InitTransform: translateX(20%);
 
-	--header_Emblem_SVG_Desc2_StaticTransform: translate(89%, -38%);
-	--header_Emblem_SVG_Desc2_Static_Scale: 1.24;
+	--header_Emblem_SVG_Desc2_StaticTransform: translate(91%, -38.5%);
+	--header_Emblem_SVG_Desc2_Static_Scale: 1.28;
 	--header_Emblem_SVG_Desc2_Anim_InitTransform: translateY(30%);
 
-	--header_Emblem_SVG_BottomLine_StaticTransform: translate(88%, -35%);
-	--header_Emblem_SVG_BottomLine_Static_Scale: 1.2;
+	--header_Emblem_SVG_BottomLine_StaticTransform: translate(90%, -34%);
+	--header_Emblem_SVG_BottomLine_Static_Scale: 1.25;
 	--header_Emblem_SVG_BottomLine_Anim_InitTransform: translateY(20%);
 	--header_Emblem_SVG_BottomLine_Anim_TargetTransform: translateY(-20%);
 
@@ -532,9 +532,8 @@ $emblem-margin-left: math.div(79px, 1920px) * 100vw;
 
 		.TextArea {
 			width: 100%;
-			height: 100%;
-			margin-bottom: 17%;
-			margin-left: 4%;
+			height: 60%;
+			margin-bottom: -2%;
 			opacity: 0;
 			animation:
 				blink-slidein
@@ -544,24 +543,17 @@ $emblem-margin-left: math.div(79px, 1920px) * 100vw;
 			pointer-events: all;
 
 			.Text {
-				font-family: Bender;
-				text-transform: uppercase;
-				letter-spacing: -0.055em;
-				font-weight: 100;
-				font-size: 26px;
-				line-height: 29px;
+				height: 20px;
+				width: 190px;
 				z-index: 1;
-				color: var(--globalForegroundInverse);
 				transition: 0.25s $forceful;
-
+				path {
+					fill: var(--globalForegroundInverse);
+				}
 				&:hover {
 					transform:
 						translateY(-20%);
-					text-shadow: 4px 10px 4px var(--RISquareShadowHover);
-				}
-
-				& b {
-					font-weight: bold;
+					filter: drop-shadow(4px 10px 4px var(--RISquareShadowHover));
 				}
 			}
 		}

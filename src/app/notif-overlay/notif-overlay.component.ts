@@ -57,7 +57,6 @@ export class NotifOverlayComponent implements OnInit {
 	progress: number = 100;
 	timeout: number = 0;
 
-	private _activeTimeout?: number;
 	private _activeInterval?: number;
 	currentlyBeingSkipped = false;
 	isShown = false;
@@ -87,17 +86,21 @@ export class NotifOverlayComponent implements OnInit {
 	}
 	private processQueue()
 	{
-		if (this.queue.length && !this._activeInterval && !this._activeTimeout)
+		if (this.queue.length && !this._activeInterval)
 		{
 			const message = this.queue.shift();
 			Object.assign(this, message);
 			this.notif.currentMessage = message;
+			if (message?.data.presist)
+				this.progress = 0;
 			this.isShown = true;
 			this.currentlyBeingSkipped = false;
 			if (!message?.data.presist)
 			{
-				this._activeInterval = setInterval(() => this.progress--, this.timeout / 100) as unknown as number;
-				this._activeTimeout = setTimeout(() => this.clearCurrent(), this.timeout) as unknown as number;
+				this._activeInterval = setInterval(() => {
+					if (this.progress === 0) this.clearCurrent();
+					this.progress--;
+				}, this.timeout / 100) as unknown as number;
 			}
 		}
 	}
@@ -110,7 +113,6 @@ export class NotifOverlayComponent implements OnInit {
 	private async clearCurrent()
 	{
 		clearInterval(this._activeInterval as number);
-		clearTimeout(this._activeTimeout as number);
 		await waitAsync(300);
 		this.isShown = false;
 		this.title = '';
@@ -119,7 +121,6 @@ export class NotifOverlayComponent implements OnInit {
 		this.level = 'info';
 		this.timeout = 0;
 		delete this._activeInterval;
-		delete this._activeTimeout;
 		delete this.data;
 		delete this.notif.currentMessage;
 	}

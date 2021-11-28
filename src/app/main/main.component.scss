@@ -301,10 +301,10 @@ $header-height: math.div(81px, 1080px) * 100vh;
 			}
 			#mascot {
 				//! This line also dosen't work
-				// #portrait {
-				// 	transform: rotate(0);
-				// 	opacity: 1;
-				// }
+				#portrait {
+					transform: rotate(0);
+					opacity: 1;
+				}
 				.hearts {
 					#heart_1,
 					#heart_2 {
