@@ -1,1 +1,5 @@
-<p>operator-info-area works!<br>name:{{opName}}</p>
+<!-- doesn't work, why care about -->
+<!-- <head>
+	<title>{{currentOp.name}} - PRTS Analysis OS</title>
+</head> -->
+<p>operator-info-area works!<br>name:{{(currentOp ?? { name: '' }).name}}</p>

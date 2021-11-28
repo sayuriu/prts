@@ -1,23 +1,27 @@
-<div id="container">
-	<div id="img-area">
-		<app-operator-img [opName]="lastVisitedOp"></app-operator-img>
-	</div>
-	<div id="info-area">
-		<header [ngClass]="lastVisitedOp ? 'header-full' : 'header-collapsed'">
-			<picker-title *ngIf="!lastVisitedOp" @AppearDisappear><i>Pick an Operator!</i></picker-title>
-			<op-info-header *ngIf="lastVisitedOp" @AppearDisappear>
-				<op-name></op-name>
-				<op-name-alt></op-name-alt>
-				<op-img-code>
-					<op-img-ava></op-img-ava>
-					<op-code></op-code>
-				</op-img-code>
-			</op-info-header>
-		</header>
-		<app-operator-info-area *ngIf="lastVisitedOp" [opName]="lastVisitedOp"></app-operator-info-area>
-		<div id="app-operator-picker-area" *ngIf="!lastVisitedOp">
-			Nothing here yet.
-			But you can access the assets via absolute paths; if you know how...
+<div id="route-container">
+	<div id="main-container">
+		<div id="img-area">
+			<app-operator-img [opName]="currentOpId"></app-operator-img>
+		</div>
+		<div id="img-area-blocker" [ngClass]="currentOpId ? 'default' : 'collapsed'"></div>
+		<div id="info-area" [ngClass]="currentOpId ? 'default' : 'expanded'">
+			<header [ngClass]="(currentOpId ? 'full' : 'collapsed')+' hasDelay'">
+				<button id="info-expand"></button>
+				<picker-title *ngIf="!currentOpId" @AppearDisappear><i>Pick an Operator!</i></picker-title>
+				<op-info-header *ngIf="currentOpId" @AppearDisappear>
+					<op-name></op-name>
+					<op-name-alt></op-name-alt>
+					<op-img-code>
+						<op-img-ava></op-img-ava>
+						<op-code></op-code>
+					</op-img-code>
+				</op-info-header>
+			</header>
+			<app-operator-info-area *ngIf="currentOpId" [opId]="currentOpId" [serverLocale]="locale"></app-operator-info-area>
+			<div id="app-operator-picker-area" *ngIf="!currentOpId">
+				Nothing here yet.
+				But you can access the assets via absolute paths; if you know how...
+			</div>
 		</div>
 	</div>
 </div>

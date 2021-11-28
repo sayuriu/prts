@@ -62,7 +62,10 @@ export class OperatorDataManagerService {
 	charList!: CharData;
 	isLoaded = false;
 
-	constructor(private cachedImages: ImageDataService, private JSONAssets: JSONLoadService) {
+	constructor(
+		private cachedImages: ImageDataService,
+		private JSONAssets: JSONLoadService
+	) {
 		this.events = new Subject<this>();
 		this.loadAssets()
 			.then(() => {
@@ -71,6 +74,7 @@ export class OperatorDataManagerService {
 				this.events.next(this);
 			})
 			.catch(() => {
+				this.events.next(this);
 				console.error('Failed to load operator index!');
 				this.charList = {
 					en_US: null,

@@ -291,28 +291,34 @@ $header-height: math.div(81px, 1080px) * 100vh;
 
 		// TODO
 		//! This line dosen't work
-		#app-info:hover ~ #info-message #message-content #mascot,
+		#app-info:hover ~ #info-message #message-content,
 
 		// #info-message #message-content #mascot:hover,
-		#info-message #app-version-number:hover ~ #message-content #mascot
+		#info-message #app-version-number:hover ~ #message-content
 		{
-			#portrait {
-				transform: rotate(0);
-				opacity: 1;
+			p#infomation {
+				opacity: 0;
 			}
-			.hearts {
-				#heart_1,
-				#heart_2 {
-					opacity: 1;
-				}
+			#mascot {
+				//! This line also dosen't work
+				// #portrait {
+				// 	transform: rotate(0);
+				// 	opacity: 1;
+				// }
+				.hearts {
+					#heart_1,
+					#heart_2 {
+						opacity: 1;
+					}
 
-				#heart_1 {
-					transform: translate(0);
-				}
-				#heart_2 {
-					transform :translate(1rem, 0);
-				}
+					#heart_1 {
+						transform: translate(0);
+					}
+					#heart_2 {
+						transform :translate(1rem, 0);
+					}
 
+				}
 			}
 		}
 	}

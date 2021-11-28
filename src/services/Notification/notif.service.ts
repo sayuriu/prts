@@ -14,6 +14,7 @@ export interface Data
 {
 	readonly assistKeys?: string[];
 	readonly dynamic?: boolean;
+	readonly presist?: boolean;
 }
 
 @Injectable({

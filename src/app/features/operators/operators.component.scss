@@ -1,49 +1,77 @@
 @use 'sass:math';
 @import '../../../anims';
+@import '../../../utils';
 
-#container {
+#route-container {
 	$width: calc(100vw - 25vh - 250px);
 	position: absolute;
 	top: 75px;
 	height: calc(100vh - 75px);
 	width: #{$width};
 	left: calc(100vw - #{$width} - 25vh - 5px);
-	display: flex;
-	#img-area {
-		height: 100%;
-		width: 40%;
-	}
-	#info-area {
-		height: 100%;
-		width: 60%;
-		background: hsl(0, 0%, 46%);
-		overflow-y: auto;
-		header {
-			display: flex;
-			align-items: center;
-			transition: height 0.5s $forceful;
-			width: 100%;
-			background: hsl(0, 0%, 20%);
-			&.header-full {
-				height: 140px;
+	#main-container {
+		@extend .full-height-width;
+		display: flex;
+		#img-area {
+			height: 100%;
+			width: 40%;
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			z-index: -1;
+		}
+		#img-area-blocker {
+			height: 100%;
+			transition: width 0.4s $forceful;
+			width: 40%;
+			&.default {
+				width: 40%;
 			}
-			&.header-collapsed {
-				height: 80px;
-			}
-			picker-title i {
-				padding-left: 30px;
-				font-size: 2.5rem;
-				font-weight: lighter;
-				color: var(--globalForegroundInverse)
+			&.collapsed {
+				width: 0;
 			}
 		}
-		app-operator-info-area {
-			height: calc(100% - 140px);
-			width: 100%;
-		}
-		#app-operator-picker-area {
-			height: calc(100% - 80px);
-			width: 100%;
+		#info-area {
+			height: 100%;
+			transition: width 0.4s $forceful;
+			background: hsl(0, 0%, 46%);
+			overflow-y: auto;
+			&.default {
+				width: 60%;
+			}
+			&.expanded {
+				width: 100%;
+			}
+			header {
+				display: flex;
+				align-items: center;
+				transition: height 0.5s $forceful-2;
+				&.hasDelay {
+					transition-delay: 0.3s;
+				}
+				width: 100%;
+				background: hsl(0, 0%, 20%);
+				&.full {
+					height: 140px;
+				}
+				&.collapsed {
+					height: 80px;
+				}
+				picker-title i {
+					padding-left: 30px;
+					font-size: 2.5rem;
+					font-weight: lighter;
+					color: var(--globalForegroundInverse)
+				}
+			}
+			app-operator-info-area {
+				height: calc(100% - 140px);
+				width: 100%;
+			}
+			#app-operator-picker-area {
+				height: calc(100% - 80px);
+				width: 100%;
+			}
 		}
 	}
 }
