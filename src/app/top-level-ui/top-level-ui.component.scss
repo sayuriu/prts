@@ -526,20 +526,21 @@ $emblem-margin-left: math.div(79px, 1920px) * 100vw;
 		align-items: center;
 		width: calc(13rem + 34px);
 		height: 2.5rem;
-		right: 0%;
+		right: 0;
 		bottom: 2rem;
 		z-index: 100;
 
 		.TextArea {
 			width: 100%;
 			height: 60%;
-			margin-bottom: -2.5%;
+			margin-bottom: -2%;
 			opacity: 0;
 			animation:
 				blink-slidein
+				0.8s
+				1.5s
 				forwards;
-			animation-delay: 1.5s;
-			animation-duration: 0.8s;
+			animation: name duration timing-function delay iteration-count direction fill-mode;
 			pointer-events: all;
 
 			.Text {
@@ -553,7 +554,8 @@ $emblem-margin-left: math.div(79px, 1920px) * 100vw;
 				&:hover {
 					transform:
 						translateY(-20%);
-					filter: drop-shadow(4px 10px 4px var(--RISquareShadowHover));
+					// filter: drop-shadow(4px 10px 4px var(--RISquareShadowHover));
+					filter: drop-shadow(0 0 4px var(--RISquareShadowHover));
 				}
 			}
 		}
@@ -588,8 +590,6 @@ $emblem-margin-left: math.div(79px, 1920px) * 100vw;
 					width: 28px;
 					box-shadow: 4px 4px 4px var(--RISquareShadowHover);
 					background-image: linear-gradient(135deg, var(--globalForegroundInverse) 50%, var(--globalForeground) 50%);
-					// border-bottom: 28px solid #000;
-					// border-left: 28px solid transparent;
 				}
 				&:active {
 					background: var(--globalForegroundInverse);
@@ -680,9 +680,9 @@ $emblem-margin-left: math.div(79px, 1920px) * 100vw;
 
 			animation:
 				lefttriangle-slidein
+				1s
+				0.5s
 				forwards;
-			animation-delay: 0.5s;
-			animation-duration: 1s;
 		}
 	}
 }

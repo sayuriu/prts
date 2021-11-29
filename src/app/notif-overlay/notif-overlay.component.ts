@@ -57,9 +57,9 @@ export class NotifOverlayComponent implements OnInit {
 	progress: number = 100;
 	timeout: number = 0;
 
-	private _activeInterval?: number;
 	currentlyBeingSkipped = false;
 	isShown = false;
+	private _activeInterval?: number;
 
 	queue: Message[];
 	private data?: Message['data'];
@@ -69,9 +69,7 @@ export class NotifOverlayComponent implements OnInit {
 		this.notif.events.subscribe((m: Message) => this.onMessage(m))
 	}
 
-	ngOnInit(): void {
-		// setInterval(() => this.processQueue(), 500);
-	}
+	ngOnInit(): void {}
 	private async onMessage(message: Message)
 	{
 		if (message?.timeout === 0 && message.message === 'skip')
