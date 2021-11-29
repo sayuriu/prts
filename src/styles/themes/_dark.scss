@@ -1,0 +1,12 @@
+html[theme='dark'] {
+	--globalForeground: 			hsl(0, 0%, 0%);
+	--globalForegroundInverse: 		hsl(210, 13%, 100%);
+	--logoHoverBrightness: 			200%;
+	--logoHoverShadowColor: 		hsla(0, 0%, 100%, 0.25);
+	--RITriangleColor: 				hsla(0, 0%, 28%, 0.44);
+	--RISquareShadowHover:			hsla(0, 0%, 100%, 0.6);
+	--RISquareShadowActive:			hsla(0, 0%, 0%, 0.6);
+	--leftPolygonForeground:		hsla(0, 0%, 17%, 0.66);
+	--leftPolygonForegroundInverse: hsl(0, 0%, 100%);
+	--leftTriangleForeground: 		hsla(0, 0%, 100%, 0.66);
+}

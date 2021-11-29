@@ -1,4 +1,11 @@
 @import 'ifNoScript';
+@import 'styles/themes/light';
+@import 'styles/themes/dark';
+
+:root {
+	transition: 0.2s ease-in-out;
+	background: var(--globalForeground);
+}
 
 html,
 body {
@@ -18,5 +25,3 @@ body {
 main {
 	position: relative;
 }
-
-@import 'styles/themes/root';

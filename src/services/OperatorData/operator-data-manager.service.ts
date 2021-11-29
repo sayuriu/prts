@@ -5,7 +5,7 @@ import { CHAR_NAME, SUMMON_NAME, TRAP_NAME, Operator } from '@struct/Operator/Ch
 import { Locales } from '@struct/Basic';
 import { ImageDataService } from './image-data.service';
 import { Nullable, ValueOf } from '@utils/utils';
-import { JSONLoadService } from '@services/JSON/jsonload.service';
+import { JSONLoadService } from '@services/jsonload.service';
 import { ImageLoader } from '@utils/ImageLoader';
 
 type en_US_CharIndex = typeof import('@assets/gamedata/json/locales/en_US/charnameLinkID.json');

@@ -1,0 +1,22 @@
+html[theme='light'] {
+	--globalForeground: 			hsl(210, 13%, 92%);
+	--globalForegroundInverse: 		hsl(0, 0%, 0%);
+	--emblemForeground: 			hsl(0, 0%, 100%);
+
+	// logo
+	--logoHoverBrightness: 			0%;
+	--logoHoverShadowColor: 		hsla(0, 0%, 0%, 0.25);
+
+	// bottom right
+	--RITriangleColor: 				hsla(0, 0%, 57%, 0.44);
+
+		// inherit -> RIText:hover
+	--RISquareShadowHover:			hsla(0, 0%, 0%, 0.6);
+	// --RISquareBGActive:				hsl(0, 0%, 100%);
+	--RISquareShadowActive:			hsla(0, 0%, 100%, 0.6);
+
+	// left
+	--leftPolygonForeground: 		hsla(0, 0%, 100%, 0.66);
+	--leftPolygonForegroundInverse: hsl(0, 0%, 0%);
+	--leftTriangleForeground: 		hsla(0, 0%, 0%, 0.66);
+}

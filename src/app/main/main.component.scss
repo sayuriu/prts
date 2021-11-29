@@ -16,6 +16,14 @@
 $header-height: math.div(81px, 1080px) * 100vh;
 
 .container {
+	&[theme="light"] {
+		--mascotImgBrightness: 0%;
+		--authorForeground: rgb(14, 77, 102);
+	}
+	&[theme='dark'] {
+		--mascotImgBrightness: 100%;
+		--authorForeground: skyblue;
+	}
 	// link -> AppTopUI.Header
 	position: absolute;
 	top: 75px;
@@ -49,7 +57,7 @@ $header-height: math.div(81px, 1080px) * 100vh;
 		border: 1px solid var(--globalForegroundInverse);
 		font-family: JetBrains Mono;
 		display: flex;
-		justify-content: center;
+		justify-content: flex-start;
 		position: relative;
 		font-size: 1rem;
 		height: 80vh;
@@ -57,10 +65,9 @@ $header-height: math.div(81px, 1080px) * 100vh;
 		background: var(--globalForeground);
 		opacity: 0;
 		animation: slide 0.5s $forceful 0.2s forwards;
-		justify-content: flex-start;
 		overflow: hidden;
 
-		#polygon-overlay,
+		#prts-emblem,
 		#info-message,
 		#app-info,
 		#mascot {
@@ -90,7 +97,7 @@ $header-height: math.div(81px, 1080px) * 100vh;
 				}
 			};
 		}
-		#polygon-overlay {
+		#prts-emblem {
 			width: 100%;
 			height: 100%;
 			background: transparent;

@@ -3,8 +3,8 @@ import { Router, RouterOutlet } from '@angular/router';
 
 import { routeAnims } from '@utils/anims';
 import { version } from '@utils/package';
-import { ErrorService } from '@services/error/error.service';
-import { NotifService } from '@services/Notification/notif.service';
+import { ErrorService } from '@services/error.service';
+import { NotifService } from '@services/notif.service';
 import type { BrowserWindow } from '@interfaces/common';
 
 @Component({

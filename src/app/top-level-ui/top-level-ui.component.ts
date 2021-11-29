@@ -1,7 +1,7 @@
 import { Component, OnInit, ElementRef } from '@angular/core';
 import { Router, Event } from '@angular/router';
-import { NotifService } from '@services/Notification/notif.service';
-import Theme from '@utils/ThemeManager';
+import { NotifService } from '@services/notif.service';
+import { ThemeMangerService } from '@services/theme-manger.service';
 
 const generateTimeString = () => `://${new Date().toISOString().substr(0, 21)}`;
 
@@ -12,15 +12,18 @@ const generateTimeString = () => `://${new Date().toISOString().substr(0, 21)}`;
 })
 export class TopLevelUIComponent implements OnInit {
 
-	constructor(private router: Router, private eleRef: ElementRef, private notif: NotifService) {
-	}
+	constructor(
+		private router: Router,
+		private eleRef: ElementRef,
+		private notif: NotifService,
+		private theme: ThemeMangerService,
+	) {}
 
 	isFullScreen = false;
 	currentTime = generateTimeString();
 	ActiveClockInv!: number | null;
 	ngOnInit() {
 		this.StartClock();
-		this.InitTheme();
 		this.startRouteListener();
 		window.addEventListener('resize', () => this.isFullScreen = window.innerWidth === window.screen.width && window.innerHeight === window.screen.height);
 	}
@@ -33,14 +36,10 @@ export class TopLevelUIComponent implements OnInit {
 		this.ActiveClockInv = null;
 	}
 
-	currentTheme = '';
-	private InitTheme() {
-		this.currentTheme = Theme.Load();
-	}
 	ToggleTheme()
 	{
-		this.currentTheme = Theme.Switch(this.currentTheme);
-		this.notif.send('System', `Theme changed to ${this.currentTheme} ${this.currentTheme === 'light' ? '☀' : '⏾'}`, 'success', {  dynamic: true }, 2000);
+		this.theme.switch();
+		this.notif.send('System', `Theme changed to ${this.theme.currentTheme} ${this.theme.currentTheme === 'light' ? '☀' : '⏾'}`, 'success', {  dynamic: true }, 2000);
 	}
 
 	ToggleFullscreen() {

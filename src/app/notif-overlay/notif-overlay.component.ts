@@ -1,6 +1,6 @@
 import { trigger, transition, style, animate } from '@angular/animations';
 import { Component, OnInit } from '@angular/core';
-import { Message, NotifService } from '@services/Notification/notif.service';
+import { Message, NotifService } from '@services/notif.service';
 import { AnimationFunctions, AppearDisappear } from '@utils/anims';
 import { waitAsync } from '@utils/utils';
 

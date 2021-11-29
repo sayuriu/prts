@@ -1,9 +1,11 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, ElementRef, OnInit } from '@angular/core';
 import { request } from '@octokit/request';
 
 import { BrowserWindow } from '@utils/interfaces/common';
 import { repository } from '@utils/package';
 import GitCommit from '@utils/interfaces/GitCommit';
+
+import { ThemeMangerService } from '@services/theme-manger.service';
 
 @Component({
 	selector: 'app-home',
@@ -15,9 +17,13 @@ export class MainComponent implements OnInit {
 	readonly appVersion = (window as BrowserWindow).__env.AppVersion;
 	currentMenuOptions = menuOptions;
 
-	constructor() {}
+	constructor(
+		private theme: ThemeMangerService,
+		private eleRef: ElementRef,
+	) {}
 
 	ngOnInit(): void {
+		this.theme.listen((this.eleRef.nativeElement as HTMLElement).querySelector('.container') as HTMLElement);
 		this.loadCommit();
 	}
 

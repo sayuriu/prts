@@ -5,7 +5,7 @@ import { AppearDisappear } from '@utils/anims';
 import { waitAsync } from '@utils/utils';
 import { OperatorDataManagerService } from '@services/OperatorData/operator-data-manager.service';
 import { ImageDataService } from '@services/OperatorData/image-data.service';
-import { NotifService } from '@services/Notification/notif.service';
+import { NotifService } from '@services/notif.service';
 import { AvailableLocales, Locales } from '@struct/Basic';
 
 @Component({
