@@ -6,6 +6,6 @@ This is just an another Arknights toolbox, built with Angular and was designed w
 
 This also serves as a study project for myself, to get better understanding about Angular and web dev in general.
 
-*Current version:* `0.1.30b-112921`<br>
+*Current version:* `0.1.30b-113021`<br>
 [You can check the live site here.](https://prts.vercel.app)<br>
 *\*Note that it won't be displayed correctly on devices that have viewport size smaller than `1400px x 800px`.*

@@ -1,11 +1,15 @@
 import { Component, OnInit } from '@angular/core';
 import { Router, RouterOutlet } from '@angular/router';
 
-import { routeAnims } from '@utils/anims';
-import { version } from '@utils/package';
 import { ErrorService } from '@services/error.service';
 import { NotifService } from '@services/notif.service';
+
+import { routeAnims } from '@utils/anims';
+import { version } from '@utils/package';
 import type { BrowserWindow } from '@interfaces/common';
+import { AllowedURLParams, AllowedURLParamMap } from '@utils/URLParams';
+import { getURLWithoutParams } from '@utils/PathUtils';
+
 
 @Component({
   	selector: 'app-root',
@@ -36,6 +40,23 @@ export class AppComponent implements OnInit {
 				this.notif.currentMessage?.message === 'Entered fullscreen.'
 			)
 			this.notif.skip();
+		});
+		this.router.malformedUriErrorHandler = (e, serializer, url) => {
+			const path = getURLWithoutParams(url);
+			this.router.navigateByUrl(path, { replaceUrl: true });
+			return this.router.createUrlTree([path]);
+		}
+		this.router.events.subscribe(() => {
+			const currentRoute = getURLWithoutParams(this.router.url)
+			let base = currentRoute;
+			const URLParams = this.router.parseUrl(this.router.url).queryParams;
+			for (const params in URLParams)
+			{
+				if ((AllowedURLParams as AllowedURLParamMap)[currentRoute].includes(params))
+					base += base.includes('?') ? `&${params}=${URLParams[params]}` : `?${params}=${URLParams[params]}`;
+			}
+			if ((AllowedURLParams as AllowedURLParamMap)[currentRoute])
+				this.router.navigateByUrl(base, { replaceUrl: true });
 		});
 	}
 

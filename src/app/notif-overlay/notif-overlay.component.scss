@@ -62,6 +62,12 @@
 				line.line-inverse {
 					stroke: var(--globalForegroundInverse);
 				}
+				&#ntf-id-warning {
+					path[dont-fill] {
+						fill: none;
+						stroke: var(--globalForeground);
+					}
+				}
 			}
 			#notif-overlay-title {
 				text-align: center;

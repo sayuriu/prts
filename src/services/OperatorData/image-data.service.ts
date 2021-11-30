@@ -1,4 +1,6 @@
 import { Injectable } from '@angular/core';
+import { Expire } from '@utils/DoExpire';
+import { XHROptions } from '@utils/Fetch';
 import { emptyFunc } from '@utils/utils';
 
 // This will be limited to components that rely on heavy uses of images.
@@ -6,48 +8,51 @@ import { emptyFunc } from '@utils/utils';
 	providedIn: 'root'
 })
 export class ImageDataService {
-	private _cache: Map<string, [ImageData, number]> = new Map();
-	static CACHE_TIMEOUT_MS = 600000; // 10 minutes
-	constructor() { }
-	load(id: string)
-	{
-		const res = this._cache.get(id);
-		if (res?.length)
-		{
-			this.save(id, res[0]);
-			return res[0];
-		}
-		return null;
-	}
-	save(id: string, data: ImageData)
-	{
-		this._cache.set(id, [data, setTimeout(() => {
-			const data = this._cache.get(id)!;
-			data[0].onExpires(data[0]);
-			this._cache.delete(id);
-
-		}, data.lifeTime) as unknown as number]);
-	}
+// 	private _cache: Map<string, [ImageEntity, number]> = new Map();
+// 	static CACHE_TIMEOUT_MS = 600000; // 10 minutes
+// 	constructor() { }
+// 	load(id: string, options: XHROptions = {})
+// 	{
+//
+// 	}
+// 	save(id: string, data: ImageEntity)
+// 	{
+//
+// 	}
 }
 
-interface Expire
-{
-	timeout?: number;
-	onExpires?: (data: ImageData) => void;
-}
-export class ImageData
-{
-	id: string;
-	time: number;
-	rawData: Blob;
-	lifeTime: number;
-	onExpires: (data: this) => void;
-	constructor(id: string, rawData: Blob, expiry: Expire)
-	{
-		this.id = id;
-		this.time = Date.now();
-		this.rawData = rawData;
-		this.lifeTime = expiry.timeout || ImageDataService.CACHE_TIMEOUT_MS;
-		this.onExpires = (expiry.onExpires ?? emptyFunc);
-	}
-}
+// class ImageEntity implements Expire<ImageEntity>
+// {
+// 	readonly id: string;
+// 	readonly data: string;
+// 	readonly instantiatedTimestamp: number;
+// 	readonly onExpire: (entity: ImageEntity) => void;
+//
+// 	constructor(id: string, data: string, onExpire: (entity: ImageEntity) => void = emptyFunc)
+// 	{
+// 		this.id = id;
+// 		this.data = data;
+// 		this.instantiatedTimestamp = Date.now();
+// 		this.onExpire = onExpire;
+// 	}
+// }
+//
+// type ResponseDataT = 'blob' | 'arraybuffer' | 'text';
+//
+// export class ImageLoader {
+// 	load(
+// 		url: string,
+// 		responseType: ResponseDataT = 'arraybuffer',
+// 		callbacks: CallbackOptions = {},
+// 	)
+// 	{
+// 		return new Promise((resolve, reject) => {
+// 			Fetch(
+// 				url,
+// 				Object.assign({ responseType }, callbacks),
+// 			)
+// 			.then((value: XMLHttpRequest['response']) => resolve(window.URL.createObjectURL(new Blob([value]))))
+// 			.catch(reject);
+// 		});
+// 	}
+// }

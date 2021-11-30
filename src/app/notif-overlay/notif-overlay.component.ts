@@ -72,6 +72,7 @@ export class NotifOverlayComponent implements OnInit {
 	ngOnInit(): void {}
 	private async onMessage(message: Message)
 	{
+		debugger;
 		if (message?.timeout === 0 && message.message === 'skip')
 		{
 			this.skip();
@@ -89,12 +90,14 @@ export class NotifOverlayComponent implements OnInit {
 			const message = this.queue.shift();
 			Object.assign(this, message);
 			this.notif.currentMessage = message;
+			this.progress = 100;
 			if (message?.data.presist)
 				this.progress = 0;
 			this.isShown = true;
 			this.currentlyBeingSkipped = false;
 			if (!message?.data.presist)
 			{
+				debugger;
 				this._activeInterval = setInterval(() => {
 					if (this.progress === 0) this.clearCurrent();
 					this.progress--;

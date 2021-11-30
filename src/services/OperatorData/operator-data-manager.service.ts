@@ -6,7 +6,6 @@ import { Locales } from '@struct/Basic';
 import { ImageDataService } from './image-data.service';
 import { Nullable, ValueOf } from '@utils/utils';
 import { JSONLoadService } from '@services/jsonload.service';
-import { ImageLoader } from '@utils/ImageLoader';
 
 type en_US_CharIndex = typeof import('@assets/gamedata/json/locales/en_US/charnameLinkID.json');
 type ja_JP_CharIndex = typeof import('@assets/gamedata/json/locales/ja_JP/charnameLinkID.json');
@@ -97,27 +96,35 @@ export class OperatorDataManagerService {
 			zh_TW: await import('@assets/gamedata/json/locales/zh_TW/charnameLinkID.json').then(getDefault),
 		}
 	}
-	getCharId(charName: string, locale: Locales = 'en_US')
+	getCharId(charName: string, preferredLocale: Locales)
 	{
+		// @ts-ignore
+		if (this.charList[preferredLocale][charName])
+			// @ts-ignore
+			return [this.charList[preferredLocale][charName], preferredLocale];
+
 		for (let locale in this.charList)
 		{
 			const key = this.charList[locale as Locales];
 			if (key && key[charName as keyof typeof key])
-				return key[charName as keyof typeof key];
+			// TODO: Return locales
+				return [key[charName as keyof typeof key], locale];
 		}
-		return null;
+		return [null, preferredLocale];
 	}
-	async getCharData(charId: CHAR_NAME, locale: Locales = 'en_US')
+	async getCharData(charId: CHAR_NAME, preferredLocale: Locales = 'en_US')
 	{
 		const { _base, characters } = Data_JSON;
 		const charPath = (_base + characters)
-			.replace('{locales}', locale)
+			.replace('{locales}', preferredLocale)
 			.replace('{id}', charId);
 
-		console.log(charPath);
-		return this.JSONAssets.load(charPath);
-		// const charData = await import(charPath).then(getDefault);
-		// return charData ?? null;
+		return this.JSONAssets.load(charPath, {
+			lifetime: 1000,
+			onExpire: (d) => {
+				console.log('Destroyed', d.id, d);
+			}
+		}) as Promise<Nullable<Operator>>;
 	}
 }
 

@@ -1,4 +1,5 @@
 import { emptyFunc } from "@utils/utils";
+import { Expire } from "./DoExpire";
 
 type XHRVoidCallback = (xhr: XMLHttpRequest, ev?: ProgressEvent) => void;
 type ResponseDataT = 'blob' | 'arraybuffer' | 'json' | 'text';
@@ -14,21 +15,23 @@ export interface CallbackOptions
 	onerror?: XHRVoidCallback;
 }
 
-export interface XHROptions extends CallbackOptions
+export interface XHROptions<T extends unknown> extends CallbackOptions, Expire<T>
 {
 	responseType?: ResponseDataT;
+	force?: boolean;
 }
 
-const defaultOptions: XHROptions = {
+export const defaultOptions: XHROptions<unknown> = {
 	responseType: 'blob',
+	onExpire: emptyFunc,
 };
 
-export function Fetch(url: string, options: XHROptions = defaultOptions)
+export function Fetch<T extends unknown>(url: string, options: XHROptions<T> = defaultOptions)
 {
 	if (!options.responseType)
 		options.responseType = 'blob';
 
-	return new Promise((resolve, reject) => {
+	return new Promise<T>((resolve, reject) => {
 		let xhr = new XMLHttpRequest();
 		xhr.open('GET', url, true);
 		xhr.responseType = options.responseType!;
@@ -47,7 +50,7 @@ export function Fetch(url: string, options: XHROptions = defaultOptions)
 		}
 		xhr.onabort = function(ev) {
 			(options.onabort ?? emptyFunc)(this, ev);
-			resolve(null);
+			resolve(null as unknown as T);
 		}
 		xhr.onerror = function(ev) {
 			(options.onerror ?? emptyFunc)(this, ev);

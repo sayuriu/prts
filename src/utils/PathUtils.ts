@@ -10,3 +10,7 @@ export const join = (...args: string[]) => {
 		);
 	return normalizePath(paths.join('/').replace(/,+/g, '/'));
 }
+export const getURLWithoutParams = (url: string) => {
+	const index = url.indexOf('?');
+	return index === -1 ? url : url.substring(0, index);
+}

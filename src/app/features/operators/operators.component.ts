@@ -43,11 +43,19 @@ export class OperatorsComponent implements OnInit {
 				//TODO: need {ACE_ROOT_DIR}/ace translation notes
 				await waitAsync(1000);
 				this.notif.send('Operators', 'Operator indexes loaded.', 'success', { dynamic: true }, 1800);
+
 				const query = this.loadOperator();
 				this.locale = this.getLocale();
-				this.currentOpId = this.manager.getCharId(query ?? '', this.locale);
+				let _loc: Locales;
+				[this.currentOpId, _loc] = this.manager.getCharId(query ?? '', this.locale);
+				if (this.locale !== _loc)
+				{
+					this.notif.send('Operators', `Operator ${query} is not available in [${this.locale}], using [${_loc}] instead.`, 'warning', { dynamic: true }, 10000);
+					this.locale = _loc;
+				}
 				if (!this.currentOpId)
 				{
+					this.router.navigate(['/operators'], { replaceUrl: true });
 					document.getElementById('info-area')?.setAttribute('picked', '');
 					this.headerString = 'Choose a character!';
 				}
