@@ -79,7 +79,7 @@
 						}">
 
 							<commit-time [attr.data-title]="gitData!.cDate.toUTCString()">
-								{{gitData!.cDate.toISOString().substring(0, 11)}}<i style="font-weight: lighter; font-style: normal">{{gitData!.cDate.toISOString().substring(11)}}</i>
+								{{gitData!.cDate.toISOString().substring(0, 11)}}<i style="font-weight: lighter; font-style: normal">{{gitData!.cDate.toISOString().substring(11, 19)}}</i>
 							</commit-time>&nbsp;
 							<a
 								id="commit-author"
@@ -102,7 +102,7 @@
 								[attr.data-title]="gitData!.cMessage.length > 44 ? gitData!.cMessage : ''"
 								[ngClass]="gitData!.cMessage.length > 44 ? 'overflow' : ''"
 							>
-								{{gitData!.cMessage.length > 44 ? gitData!.cMessage.substring(0, 41) : gitData!.cMessage}}
+								{{gitData!.cMessage.length > 44 ? (gitData!.cMessage.substring(0, 41).trim() + '...') : gitData!.cMessage}}
 							</commit-message>
 
 						</text>
