@@ -342,7 +342,7 @@ $header-height: math.div(81px, 1080px) * 100vh;
 							commit-time {
 								@include hover-std($position: upper, $maxWidth: 29ch, $leftMargin: -5%);
 								i {
-									color: hsl(0, 0, 50%);
+									color: hsl(0, 0%, 50%);
 								}
 								&:hover i {
 									font-weight: bold;
