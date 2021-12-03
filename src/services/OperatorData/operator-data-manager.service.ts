@@ -70,7 +70,6 @@ export class OperatorDataManagerService {
 			.then(() => {
 				this.isLoaded = true;
 				console.log('Operator index loaded.');
-				this.events.next(this);
 			})
 			.catch(() => {
 				this.events.next(this);

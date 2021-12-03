@@ -2,7 +2,7 @@
 	'background-image': 'url(../../assets/img/' + (isFullScreen ? 'shrink' : 'fullscreen') + '.svg)',
 	'background-size': 'cover'
 }"
-	data-title="{{isFullScreen ? 'Exit fullscreen' : 'Enter fullscreen'}}"
+	[attr.data-title]="isFullScreen ? 'Exit fullscreen' : 'Enter fullscreen'"
 ></button>
 
 <p id="Clock">{{currentTime}}</p>

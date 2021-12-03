@@ -1,15 +1,9 @@
-@mixin hover-std($position: lower, $maxWidth: 80%, $leftMargin: 15px, $isTitleOnly: false) {
-	$HOLDER: data-title;
+@mixin hover-std($position: lower, $maxWidth: 80%, $leftMargin: 15px) {
 	$offsetYInit: calc(100% + 20px);
 	$offsetYTarget: calc(100% + 10px);
 
-	@if $isTitleOnly == true
-	{
-		$HOLDER: title;
-	}
-
-	&[#{$HOLDER}]::after {
-		content: attr(#{$HOLDER});
+	&[data-title]::after {
+		content: attr(data-title);
 		font-family: JetBrains Mono;
 		font-style: italic;
 		font-weight: 200;
@@ -38,7 +32,7 @@
 		background: var(--globalForegroundInverse);
 		font-weight: normal;
 
-		&[#{$HOLDER}]::after {
+		&[data-title]::after {
 			opacity: 1;
 			@if $position == upper {
 				bottom: #{$offsetYTarget};

@@ -123,7 +123,7 @@ $emblem-margin-left: math.div(79px, 1920px) * 100vw;
 		bottom: 0;
 		transition: background-color 0.5s ease;
 		z-index: 999;
-		@include hover-std(upper, 200%, 15px, true);
+		@include hover-std(upper, 200%, 15px);
 	}
 
 	#Clock {
@@ -155,12 +155,6 @@ $emblem-margin-left: math.div(79px, 1920px) * 100vw;
 			// --clockAbsRight: 2%;
 		}
 
-		@keyframes blinker {
-			50% {
-				opacity: 1;
-			}
-		}
-
 		@keyframes clock-fade-in {
 			0% {
 				opacity: 0;
@@ -170,15 +164,7 @@ $emblem-margin-left: math.div(79px, 1920px) * 100vw;
 			}
 		}
 
-		animation:
-			clock-fade-in
-			0.5s
-			2.2s
-			forwards;
-			// blinker
-			// 1s
-			// 2.7s
-			// infinite;
+		animation: clock-fade-in 0.5s 2.2s forwards;
 
 		transition: 0.5s $forceful;
 		transition-delay: 0.1s;

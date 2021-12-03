@@ -1,6 +1,7 @@
 @use 'sass:math';
 @import '../../anims';
 @import '../../hoverStyles';
+@import '../../utils';
 
 @keyframes slide-up {
 	0% {
@@ -18,11 +19,15 @@ $header-height: math.div(81px, 1080px) * 100vh;
 .container {
 	&[theme="light"] {
 		--mascotImgBrightness: 0%;
+		--mascot2Filter: hue-rotate(-180deg) contrast(1.2) brightness(0.7) invert(1);
 		--authorForeground: rgb(14, 77, 102);
+		--gitUpdateButtonHover: hsl(160, 76%, 37%);
 	}
 	&[theme='dark'] {
 		--mascotImgBrightness: 100%;
+		--mascot2Filter: saturate(0) brightness(0.7);
 		--authorForeground: skyblue;
+		--gitUpdateButtonHover: aquamarine;
 	}
 	// link -> AppTopUI.Header
 	position: absolute;
@@ -53,7 +58,7 @@ $header-height: math.div(81px, 1080px) * 100vh;
 	}
 
 	#info-message-container {
-		margin-left: 5vw;
+		// margin-left: 5vw;
 		border: 1px solid var(--globalForegroundInverse);
 		font-family: JetBrains Mono;
 		display: flex;
@@ -69,33 +74,9 @@ $header-height: math.div(81px, 1080px) * 100vh;
 
 		#prts-emblem,
 		#info-message,
-		#app-info,
+		#footer,
 		#mascot {
 			position: absolute;
-		}
-		#app-info {
-			width: 100%;
-			z-index: 2;
-			border-top: 1px dashed var(--globalForegroundInverse);
-			bottom: 0;
-			display: flex;
-			justify-content: space-between;
-			pointer-events: all;
-			background: var(--globalForegroundInverse);
-
-			a {
-				margin: 0;
-				text-decoration: none;
-				color: var(--globalForeground);
-				transition:
-					background 0.2s $forceful,
-					color 0.2s $forceful;
-
-				&:hover {
-					color: var(--globalForegroundInverse);
-					background: var(--globalForeground);
-				}
-			};
 		}
 		#prts-emblem {
 			width: 100%;
@@ -107,7 +88,7 @@ $header-height: math.div(81px, 1080px) * 100vh;
 			position: relative;
 			width: calc(100%);
 			height: 100%;
-			z-index: 1;
+			z-index: 2;
 
 			#message-title {
 				margin-left: 2rem;
@@ -157,13 +138,11 @@ $header-height: math.div(81px, 1080px) * 100vh;
 				height: calc(100% - 6.95rem);
 				flex-direction: column;
 				position: relative;
-				justify-content: space-between;
+				pointer-events: none;
 				z-index: 0;
 				#infomation {
 					margin-left: 2rem;
-					height: calc(100% - 3rem);
-					width: calc(100% - 4rem);
-					overflow-y: auto;
+					margin-bottom: 0;
 					opacity: 0;
 					@keyframes info-box-slideup {
 						0% {
@@ -177,84 +156,70 @@ $header-height: math.div(81px, 1080px) * 100vh;
 					}
 					animation: info-box-slideup 0.4s $forceful 1s forwards;
 				}
-				#update-logs {
-					width: calc(100% + 2rem);
-					height: 2rem;
-					position: absolute;
-					bottom: 0%;
-					z-index: 1;
-					background: var(--globalForeground);
-					border-top: 1px dashed var(--globalForegroundInverse);
+				.changelogs-list {
+					height: auto;
+					color: var(--globalForegroundInverse);
+					.changelogs {
+						position: relative;
+						pointer-events: all;
+						#header {
+							date {
+								opacity: 0.5;
+							}
 
-					@keyframes upd-slideup {
-						0% { bottom: -20% }
-						100% { bottom: 0 }
-					}
-
-					animation: upd-slideup 1s $forceful forwards;
-					tag {
-						position: absolute;
-						top: -0.7rem;
-						left: 0.5rem;
-						color: var(--globalForeground);
-						background: var(--globalForegroundInverse);
-					}
-					content {
-						position: absolute;
-						width: 100%;
-						height: 100%;
-						top: 1rem;
-						z-index: 1;
-
-						text {
+						}
+						&::after {
+							content: '';
+							position: absolute;
+							top: 0;
+							left: 0;
+							width: calc(100% - 2rem);
+							height: 100%;
+							background: var(--globalForegroundInverse);
+							opacity: 0;
+							transition: opacity 0.3s $forceful;
+						}
+						.changes {
 							margin-left: 1rem;
-							z-index: 1;
-							font-family: JetBrains Mono NL;
-							display: flex;
-							flex-direction: row;
-							commit-time, commit-message, a { position: relative; font-family: JetBrains Mono; }
-							commit-time {
-								i {
-									font-weight: normal;
-									// filter: brightness(30%);
-									color: hsl(0, 0%, 50%)
-								}
-								@include hover-std($position: upper, $maxWidth: 29ch, $leftMargin: -5%);
+							width: calc(100% - 2rem);
+							&:not(:first-child) {
+								margin-top: 0.5rem;
 							}
-							commit-message.overflow {
-								@include hover-std($position: upper, $maxWidth: 100%, $leftMargin: -8ch);
-							}
-							a {
-								&:any-link {
-									color: var(--globalForegroundInverse);
-								}
-								&#commit-author {
-									&:any-link {
-										color: var(--authorForeground);
-									}
-									@include hover-std($position: upper, $maxWidth: 350%, $leftMargin: -100%);
-								}
-								&#commit-hash {
-									@include hover-std($position: upper, $maxWidth: 22ch, $leftMargin: -100%);
-								}
-								text-decoration: none;
+						}
+						&:hover {
+							&::after {
+								opacity: 0.1;
 							}
 						}
 					}
 				}
+			}
+		}
+		#footer {
+			z-index: 1;
+			width: 100%;
+			bottom: 0;
+			@keyframes upd-slideup {
+				0% { bottom: -20% }
+				100% { bottom: 0 }
+			}
+			animation: upd-slideup 1s $forceful 0.2s forwards;
+
+			#footer-container {
+				@extend .full-height-width;
+				position: relative;
+				background-color: var(--globalForeground);
 				#mascot {
 					width: clamp(200px, 35% ,250px);
 					bottom: calc(2rem);
-					// right: -2%;
 					right: 0%;
 					filter: brightness(var(--mascotImgBrightness));
-					pointer-events: all;
 					display: flex;
 					flex-direction: row;
-					z-index: 0;
+					z-index: -1;
 					opacity: 0;
 
-					animation: spawn 0.5s ease 0.8s forwards;
+					animation: spawn 0.5s ease 1.2s forwards;
 
 					#portrait {
 						aspect-ratio: 623 / 813;
@@ -264,7 +229,7 @@ $header-height: math.div(81px, 1080px) * 100vh;
 						transform-origin: 40% bottom;
 						transform: rotate(5deg);
 						transition: 0.6s ease;
-						opacity: 0.6;
+						opacity: 0;
 					}
 					.hearts {
 						#heart_1,
@@ -292,40 +257,161 @@ $header-height: math.div(81px, 1080px) * 100vh;
 							transform: translate(1rem, 0.25rem);
 						}
 					}
-				}
-			}
-		}
 
-		// TODO
-		//! This line dosen't work
-		#app-info:hover ~ #info-message #message-content,
+					&.isReacting {
+						#portrait {
+							transform: rotate(0);
+							// opacity: 1;
+						}
+						.hearts {
+							#heart_1,
+							#heart_2 {
+								opacity: 1;
+							}
 
-		// #info-message #message-content #mascot:hover,
-		#info-message #app-version-number:hover ~ #message-content
-		{
-			p#infomation {
-				opacity: 0;
-			}
-			#mascot {
-				//! This line also dosen't work
-				#portrait {
-					transform: rotate(0);
-					opacity: 1;
-				}
-				.hearts {
-					#heart_1,
-					#heart_2 {
-						opacity: 1;
+							#heart_1 {
+								transform: translate(0);
+							}
+							#heart_2 {
+								transform :translate(1rem, 0);
+							}
+						}
 					}
-
-					#heart_1 {
-						transform: translate(0);
-					}
-					#heart_2 {
-						transform :translate(1rem, 0);
-					}
-
 				}
+				#update-logs {
+					margin: 16px 0;
+					z-index: 1;
+					width: 100%;
+					pointer-events: all;
+					border-top: 1px dashed var(--globalForegroundInverse);
+					background-color: var(--globalForeground);
+					color: var(--globalForegroundInverse);
+					#mascot-2 {
+						width: clamp(200px, 35% ,210px);
+						aspect-ratio: 210 / 470;
+						position: absolute;
+						bottom: calc(100% - 16px);
+						right: 1rem;
+						opacity: 0;
+						z-index: -1;
+						transition: background-image 0.3s $forceful;
+						animation: spawn 0.5s ease 1.3s forwards;
+						filter: var(--mascot2Filter);
+					}
+					button {
+						font-family: JetBrains Mono;
+						font-size: 1rem;
+						border: 0;
+						position: absolute;
+						pointer-events: all;
+						bottom: 100%;
+						left: 0.5rem;
+						color: var(--globalForeground);
+						background: var(--globalForegroundInverse);
+
+						&::after {
+							color: hsl(0, 0%, 50%);
+							font-style: italic;
+							content: attr(ifHover);
+							width: 15ch;
+							margin-bottom: 1.5px;
+							text-align: start;
+							position: absolute;
+							bottom: -40px;
+							z-index: -1;
+							left: 19.75ch;
+							transition: bottom 0.7s 0.3s $forceful;
+						}
+
+						&:hover {
+							// border-bottom: 1px solid var(--globalForeground);
+							cursor: pointer;
+							background-color: var(--gitUpdateButtonHover);
+							&::after {
+								bottom: 0;
+								transition: bottom 0.7s $forceful;
+							}
+						}
+					}
+					content {
+						width: 100%;
+						text {
+							width: 100%;
+							transition:
+								max-height 0.4s $forceful,
+								overflow 0.2s 0.4s;
+							margin: 0.5rem 0 0 1rem;
+							font-family: JetBrains Mono NL;
+							display: flex;
+							flex-direction: row;
+							commit-time, commit-message, a { position: relative; font-family: JetBrains Mono; }
+							commit-time {
+								@include hover-std($position: upper, $maxWidth: 29ch, $leftMargin: -5%);
+								i {
+									color: hsl(0, 0, 50%);
+								}
+								&:hover i {
+									font-weight: bold;
+									color: var(--globalForeground);
+								}
+							}
+							commit-message.overflow {
+								@include hover-std($position: upper, $maxWidth: 100%, $leftMargin: -8ch);
+							}
+							a {
+								&:any-link {
+									color: var(--globalForegroundInverse);
+								}
+								&#commit-author {
+									&:any-link {
+										color: var(--authorForeground);
+									}
+									@include hover-std($position: upper, $maxWidth: 350%, $leftMargin: -100%);
+								}
+								&#commit-hash {
+									@include hover-std($position: upper, $maxWidth: 22ch, $leftMargin: -100%);
+								}
+								text-decoration: none;
+							}
+						}
+					}
+					arrows {
+						position: absolute;
+						bottom: 100%;
+						left: 36ch;
+						margin-bottom: 1.5px;
+						arrow {
+							color: hsl(0, 0%, 50%);
+							font-family: JetBrains Mono NL;
+							opacity: 0;
+						}
+					}
+				}
+				#app-info {
+					width: 100%;
+					z-index: 2;
+					border-top: 1px dashed var(--globalForegroundInverse);
+					bottom: 0;
+					display: flex;
+					justify-content: space-between;
+					pointer-events: all;
+					background-color: var(--globalForegroundInverse);
+
+					a {
+						margin: 0;
+						text-decoration: none;
+						color: var(--globalForeground);
+						transition:
+							background-color 0.2s $forceful,
+							color 0.2s $forceful;
+
+						&:hover {
+							color: var(--globalForegroundInverse);
+							background: var(--globalForeground);
+						}
+					};
+				}
+
 			}
 		}
 	}
@@ -335,35 +421,64 @@ $header-height: math.div(81px, 1080px) * 100vh;
 		pointer-events: visible;
 		// border: 3px solid red;
 		width: max(#{math.div(650px, 1920px) * 100vw});
-		height: 75vh;
+		height: clamp(600px, 75vh, calc(100vw - 75px - 5.5rem));
+		// height: 75vh;
 		right: 79px;
 		z-index: 0;
 		// background:hsl(0, 0%, 24%);
 		opacity: 0;
+		overflow-y: auto;
 
 		@keyframes slide-menu {
 			0% {
 				opacity: 0;
 				transform: translateY(20%);
-				overflow: hidden;
 			}
 			100% {
 				opacity: 1;
 				transform: translateY(0);
-				overflow-y: auto;
 			}
 		}
 		animation: slide-menu 0.5s $forceful 0.2s forwards;
 
+		&::-webkit-scrollbar {
+			width: 8px;
+			opacity: 0;
+		}
+
+		&::-webkit-scrollbar-thumb {
+			background-image: repeating-linear-gradient(
+				45deg,
+				var(--globalForeground),
+				var(--globalForeground) 8px,
+				var(--globalForegroundInverse) 8px,
+				var(--globalForegroundInverse) 16px
+			);
+			filter: drop-shadow(0 0 0.5rem var(--globalForegroundInverse));
+		}
+
+		&::-webkit-scrollbar-button {
+			background-image: linear-gradient(135deg, var(--globalForeground) 50%, var(--globalForegroundInverse) 50%);
+			height: 10px;
+			width: 10px;
+		}
+
+		&::-webkit-scrollbar-track {
+			width: 4px;
+			border-right: 2px dashed darken($color: white, $amount: 50%);
+			border-left: 2px dashed darken($color: white, $amount: 50%);
+		}
+	}
+
 		.menu-item {
 			width: 99%;
 			height: 210px;
+			aspect-ratio: 210 / 650;
 			// border: 1px solid black;
 			overflow: hidden;
 			margin-bottom: 1.6rem;
 			position: relative;
 			opacity: 0;
-			counter-increment: listIndex;
 			animation: slide 0.5s $forceful calc(0.5s + var(--order) * 0.1s) forwards;
 
 			&:last-child {
@@ -475,16 +590,14 @@ $header-height: math.div(81px, 1080px) * 100vh;
 								transform: translateX(-40%);
 								transition: transform 0.5s $forceful;
 							}
-							50% {
-								transform: translateX(0%);
-							}
 							75% {
 								transform: translateX(40%);
 							}
-							100% {
-								transform: translateX(0%);
-							}
 						}
+					}
+
+					.hover-clickable#hover-left-arrow {
+						animation: slide-horizontal 1s $forceful infinite;
 					}
 				}
 
@@ -548,7 +661,8 @@ $header-height: math.div(81px, 1080px) * 100vh;
 					}
 					#shapes {
 						.hover-clickable#hover-left-arrow {
-							animation: slide-horizontal 1s $forceful infinite;
+							-webkit-animation-play-state: running;
+							-animation-play-state: running;
 						}
 						.hover-clickable#hover-left {
 							transform: scale(1.05) translateX(2%);
@@ -571,6 +685,17 @@ $header-height: math.div(81px, 1080px) * 100vh;
 					}
 				}
 
+				&:not(:hover)
+				{
+					#shapes {
+						.hover-clickable#hover-left-arrow {
+							-webkit-animation-play-state: paused;
+							-animation-play-state: paused;
+							transform: translateX(0);
+						}
+					}
+				}
+
 				#hitbox-overlay {
 					width: 100%;
 					height: 100%;
@@ -587,26 +712,6 @@ $header-height: math.div(81px, 1080px) * 100vh;
 			}
 		}
 	}
-
-	#menu-list::-webkit-scrollbar {
-		width: 0;
-// 		height: 100%;
-// 		z-index: 0;
-	}
-// 	#menu-list::-webkit-scrollbar-track {
-// 		opacity: 1;
-// 		border-radius: 10px;
-// 		color: red;
-// 	}
-// 	#menu-list::-webkit-scrollbar-thumb {
-// 		color: red;
-// 	}
-// 	#menu-list:focus-within {
-// 		&::-webkit-scrollbar-thumb {
-//
-// 		}
-// 	}
-}
 
 p {
 	pointer-events: all;

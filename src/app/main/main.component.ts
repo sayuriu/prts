@@ -1,32 +1,64 @@
 import { Component, ElementRef, OnInit } from '@angular/core';
 import { request } from '@octokit/request';
+import { gsap } from 'gsap';
 
 import { BrowserWindow } from '@utils/interfaces/common';
 import { repository } from '@utils/package';
 import GitCommit from '@utils/interfaces/GitCommit';
+import { HTMLBasedComponent } from '@utils/HTMLComponent';
+import { AnimationFunctions } from '@utils/anims';
+import { Nullable } from '@utils/utils';
 
 import { ThemeMangerService } from '@services/theme-manger.service';
+import { HoverReactService } from '@services/hover-react.service';
+
+import { Changelogs } from '@root/CHANGELOG';
+
+interface GitCommitSimple {
+	cMessage: string;
+    cDate: Date;
+    cHash: string;
+    cURL: string;
+    cAuthorName: string;
+    cAuthorUsrname?: string;
+    cAuthorURL?: string;
+}
 
 @Component({
 	selector: 'app-home',
 	templateUrl: './main.component.html',
 	styleUrls: ['./main.component.scss'],
 })
-export class MainComponent implements OnInit {
+export class MainComponent extends HTMLBasedComponent implements OnInit {
 
 	readonly appVersion = (window as BrowserWindow).__env.AppVersion;
 	currentMenuOptions = menuOptions;
+	changelogs = Changelogs;
 
 	constructor(
+		protected eleRef: ElementRef,
 		private theme: ThemeMangerService,
-		private eleRef: ElementRef,
-	) {}
+		private hoverReact: HoverReactService
+	) {
+		super();
+	}
 
 	ngOnInit(): void {
 		this.theme.listen((this.eleRef.nativeElement as HTMLElement).querySelector('.container') as HTMLElement);
 		this.loadCommit();
+		new Stagger().arrow('#arrow', false);
 	}
 
+	mascotImg = 'mascot.png'
+	mascotReact(isHovered: boolean, imgID = 'mascot')
+	{
+		this.mascotImg = `${imgID}.png`;
+		this.hoverReact.react(this.eleRef.nativeElement?.querySelector('#mascot-2'), isHovered);
+		this.hoverReact.react(this.eleRef.nativeElement?.querySelector('#mascot'), isHovered);
+	}
+
+	gitData: Nullable<GitCommitSimple> = null;
+	gitLoaded = false;
 	commitString!: string;
 	startAwaitAnim()
 	{
@@ -40,44 +72,71 @@ export class MainComponent implements OnInit {
 	}
 	async loadCommit(fetchNewest = false)
 	{
-		const ngTag = document.getElementById('latest-commit-text')?.attributes[0].localName!;
-		const data = GitUtils.loadFromCache();
-		if (data && !fetchNewest)
-			document.getElementById('latest-commit-text')!.innerHTML = GitUtils.generateHTML(data as Tuple7Array<string>)(ngTag);
-		else
+		this.gitLoaded = false;
+		const inv = this.startAwaitAnim();
+		if (!fetchNewest)
 		{
-			const inv = this.startAwaitAnim();
-			const res = await GitUtils.fetchRecentRepo();
-			if (res)
+			const data = GitUtils.loadFromCache();
+			if (data)
 			{
-				console.log(res);
-				const { sha, author: { name, date, url: auURL, username }, url, message: cMessage } = res;
-				setTimeout(async () => {
-					clearInterval(inv);
-					document.getElementById('latest-commit-text')!.innerHTML = GitUtils.generateHTML([cMessage, date, sha, url, name, username, auURL] as Tuple7Array<string>)(ngTag) as string;
-				}, 1500);
-				// this.commitString = message;
-				GitUtils.saveMultipleCacheStorageAttr([
-					['LastRefresh', new Date().toISOString()],
-					['Message', new String(cMessage).valueOf()],
-					['Date', new String(date).valueOf()],
-					['Hash', new String(sha).valueOf()],
-					['URL', new String(url).valueOf()],
-					['AuthorName', new String(name).valueOf()],
-					['AuthorUsrname', new String(username).valueOf()],
-					['AuthorURL', new String(auURL).valueOf()]
-				]);
 				setTimeout(() => {
-					this.loadCommit(true);
-				}, GitUtils.CACHE_TIMEOUT_MS);
+					clearInterval(inv);
+					this.gitData = data;
+					this.gitLoaded = true;
+				}, 500);
 				return;
 			}
-			GitUtils.deleteCache();
-			this.commitString = 'Encounter an error while fetching git.';
 		}
-		return;
+		const res = await GitUtils.fetchRecentRepo();
+		if (res)
+		{
+			console.log(res);
+			const { sha, author: { name, date, url: auURL, username }, url, message: cMessage } = res;
+			setTimeout(async () => {
+				clearInterval(inv);
+				this.gitData = {
+					cAuthorName: name,
+					cAuthorURL: auURL,
+					cAuthorUsrname: username,
+					cDate: new Date(date),
+					cHash: sha,
+					cMessage,
+					cURL: url,
+				}
+				this.gitLoaded = true;
+			}, 1500);
+			GitUtils.saveMultipleCacheStorageAttr([
+				['LastRefresh', new Date().toISOString()],
+				['Message', new String(cMessage).valueOf()],
+				['Date', new String(date).valueOf()],
+				['Hash', new String(sha).valueOf()],
+				['URL', new String(url).valueOf()],
+				['AuthorName', new String(name).valueOf()],
+				['AuthorUsrname', new String(username).valueOf()],
+				['AuthorURL', new String(auURL).valueOf()]
+			]);
+			setTimeout(() => {
+				this.loadCommit(true);
+			}, GitUtils.CACHE_TIMEOUT_MS);
+			return;
+		}
+		GitUtils.deleteCache();
+		this.commitString = 'Encounter an error while fetching git.';
 	}
+}
 
+class Stagger {
+	arrow(query: string, pause: boolean)
+	{
+		if (!document.querySelectorAll(query).length) return;
+		gsap
+			.timeline({
+				repeat: -1,
+				repeatDelay: 1,
+			})
+			.to(query, { opacity: 0, duration: 1, ease: AnimationFunctions.Forceful })
+			.to(query, { opacity: 1, duration: 1, ease: AnimationFunctions.Forceful })
+	}
 }
 
 type Tuple7Array<T> = [T, T, T, T, T, T, T];
@@ -106,7 +165,7 @@ class GitUtils {
 	static saveCacheStorageAttr(name: string, value: string) {
 		return localStorage.setItem(`cache:LatestCommit@${name}`, value);
 	}
-	static loadFromCache()
+	static loadFromCache(): Nullable<GitCommitSimple>
 	{
 		const
 			cMessage = GitUtils.loadCacheStorageAttr('Message')!,
@@ -123,36 +182,21 @@ class GitUtils {
 			const age = Date.now() - new Date(cTimestamp).getTime();
 			if (Number.isNaN(age) || age > GitUtils.CACHE_TIMEOUT_MS)
 				return null;
-			return [ cMessage, cDate, cHash, cURL, cAuthorName, cAuthorUsrname, cAuthorURL ] as Tuple7Array<string>;
+			return {
+				cMessage,
+				cDate: new Date(cDate),
+				cHash: cHash.substring(0, 7),
+				cURL,
+				cAuthorName,
+				cAuthorUsrname,
+				cAuthorURL
+			};
 		}
 		return null;
 	}
-	static generateHTML(data: Tuple7Array<string>)
-	{
-		const [cMessage, cDate, cHash, cURL, cAuthorName, cAuthorUsrname, cAuthorURL] = data;
-		return (ngTag: string) => [
-			`<commit-time ${ngTag} data-title="${new Date(cDate).toUTCString()}">${cDate.substr(0, 11)}<i style="filter: brightness(30%);font-weight: lighter;">${cDate.substr(11, cDate.length)}</i></commit-time>`,
-			`&nbsp;`,
-			`<a ${ngTag}
-				id="commit-author"
-				href=${cAuthorURL && cAuthorUsrname ? `"${cAuthorURL}"` : `"#"`}
-				data-title="Go to ${cAuthorUsrname}'s Git profile ->"
-				target="_blank"
-			>${cAuthorName}</a>`,
-			`<t style="font-weight:lighter">&#8201;|&#8201;</t>`,
-			`<a ${ngTag}
-				id="commit-hash"
-				href="${cURL}"
-				data-title="Go to commit's page ->"
-				target="_blank"
-			><i style="filter: brightness(30%);font-weight: lighter;">${cHash.substr(0, 7)}</i></a>&#8201;`,
-			`&nbsp;`,
-			`<commit-message ${ngTag} ${cMessage.length > 44 ? `data-title="${cMessage.toString()}" class="overflow"` : ''}>${cMessage.length > 44 ? cMessage.substr(0, 41) + '...' : cMessage}</commit-message>`
-		].join('');
-	}
 	static async fetchRecentRepo()
 	{
-		const res = await request(`GET /repos/${repository.url.substr('https://github.com/'.length, repository.url.length)}/commits`);
+		const res = await request(`GET /repos/${repository.url.substring('https://github.com/'.length, repository.url.length)}/commits`);
 		if (res.status === 200)
 		{
 			const { commit, author: { login: username, html_url: usrURL }, html_url, sha } = res.data[0];

@@ -16,6 +16,8 @@
 				href="https://github.com/sayuriu/prts"
 				target="_blank"
 				data-title="Go to this project's Git repo ->"
+				(mouseover)="mascotReact(true, 'mascot-smile')"
+				(mouseout)="mascotReact(false)"
 			>
 				<i>Version {{appVersion}} |></i>
 			</a>
@@ -23,6 +25,21 @@
 				<p id="infomation">
 					Features are not yet available, but stay tuned for future updates!
 				</p>
+				<ul class="changelogs-list">
+					<div class="changelogs" *ngFor="let changelog of changelogs">
+						<div id="header">
+							<date>{{changelog.date}}</date>&thinsp;@&thinsp;<version>{{changelog.version}}</version>
+						</div>
+						<p class="changes" *ngFor="let change of changelog.changes">
+							{{change}}
+							<!-- <p [innerText]="change"></p> -->
+						</p>
+					</div>
+				</ul>
+			</div>
+		</div>
+		<div id="footer">
+			<div id="footer-container">
 				<div id="mascot">
 					<img id="portrait" alt="mascot" src="../../assets/img/mascot/mascot.png">
 					<div
@@ -35,22 +52,70 @@
 						<img id="heart_2" alt="heart_2" src="../../assets/img/mascot/heart-2.png">
 					</div>
 				</div>
-				<p id="update-logs">
-					<tag>GIT_UPDATE#LATEST</tag>
+				<div id="update-logs">
+					<div id="mascot-2" style="background-image: url('../../assets/img/mascot-2/{{mascotImg}}')"></div>
+					<button
+						[attr.ifHover]="gitLoaded ? 'Click to update' : 'Updating'"
+						[ngStyle]="{
+							'cursor': gitLoaded ? '' : 'wait'
+						}"
+						(click)="loadCommit(true)"
+						(mouseover)="mascotReact(false, 'mascot-git')"
+						(mouseout)="mascotReact(false)"
+					>
+						&ThinSpace;GIT_UPDATE#LATEST&ThinSpace;
+					</button>
+					<arrows>
+						<arrow id="arrow" *ngFor="let _ of [1,1,1], let i = index" style="--stagger: {{i - 1}}">></arrow>
+					</arrows>
 					<content>
-						<text id="latest-commit-text" data-title="asnaks">
+						<text id="latest-commit-text" *ngIf="!gitLoaded" [ngStyle]="{
+							'max-height': gitLoaded ? '3rem' : '1.5rem'
+						}">
 							{{commitString}}
 						</text>
+						<text id="latest-commit-text" *ngIf="gitLoaded" [ngStyle]="{
+							'max-height': gitLoaded ? '3rem' : '1.5rem'
+						}">
+
+							<commit-time [attr.data-title]="gitData!.cDate.toUTCString()">
+								{{gitData!.cDate.toISOString().substring(0, 11)}}<i style="font-weight: lighter; font-style: normal">{{gitData!.cDate.toISOString().substring(11)}}</i>
+							</commit-time>&nbsp;
+							<a
+								id="commit-author"
+								href="{{gitData!.cAuthorURL || '#'}}"
+								[attr.data-title]="'Go to ' + (gitData!.cAuthorUsrname || 'commiter\'s') + ' Git profile ->'"
+								target="_blank"
+							>
+								{{gitData!.cAuthorName}}
+							</a>
+							<t style="font-weight:lighter">&#8201;|&#8201;</t>
+							<a
+								id="commit-hash"
+								href="{{gitData!.cURL}}"
+								data-title="Go to commit's page ->"
+								target="_blank"
+							>
+								<i style="font-weight: lighter;">{{gitData!.cHash.substring(0, 7)}}</i>
+							</a>&#8201;&nbsp;
+							<commit-message
+								[attr.data-title]="gitData!.cMessage.length > 44 ? gitData!.cMessage : ''"
+								[ngClass]="gitData!.cMessage.length > 44 ? 'overflow' : ''"
+							>
+								{{gitData!.cMessage.length > 44 ? gitData!.cMessage.substring(0, 41) : gitData!.cMessage}}
+							</commit-message>
+
+						</text>
 					</content>
-				</p>
+				</div>
+				<div id="app-info">
+					<a id="app-external"
+						href="https://github.com/sayuriu"
+						title="External: Link to this project's creator page."
+						target="_blank"
+					>&nbsp;://|></a>
+				</div>
 			</div>
-		</div>
-		<div id="app-info">
-			<a id="app-external"
-				href="https://github.com/sayuriu"
-				title="External: Link to this project's creator page."
-				target="_blank"
-			>&nbsp;://|></a>
 		</div>
 	</div>
 	<ul id="menu-list">

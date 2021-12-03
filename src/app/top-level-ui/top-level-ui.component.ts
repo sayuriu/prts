@@ -2,8 +2,10 @@ import { Component, OnInit, ElementRef } from '@angular/core';
 import { Router, Event } from '@angular/router';
 import { NotifService } from '@services/notif.service';
 import { ThemeMangerService } from '@services/theme-manger.service';
+import { getURLWithoutParams } from '@utils/PathUtils';
+import { AllowedURLParams, AllowedURLParamMap } from '@utils/URLParams';
 
-const generateTimeString = () => `://${new Date().toISOString().substr(0, 21)}`;
+const generateTimeString = () => `://${new Date().toISOString().substring(0, 21)}`;
 
 @Component({
 	selector: 'app-top-level-ui',
@@ -97,6 +99,20 @@ export class TopLevelUIComponent implements OnInit {
 				state: this.clockAlignmentState,
 			}
 		])
+
+		if (this.router.url.includes('?'))
+		{
+			const currentRoute = getURLWithoutParams(this.router.url)
+			let base = currentRoute;
+			const URLParams = this.router.parseUrl(this.router.url).queryParams;
+			for (const params in URLParams)
+			{
+				if ((AllowedURLParams as AllowedURLParamMap)[currentRoute].includes(params))
+					base += base.includes('?') ? `&${params}=${URLParams[params]}` : `?${params}=${URLParams[params]}`;
+			}
+			if ((AllowedURLParams as AllowedURLParamMap)[currentRoute])
+				this.router.navigateByUrl(base, { replaceUrl: true });
+		}
 	}
 }
 

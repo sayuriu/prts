@@ -12,3 +12,9 @@ $slide-main: 0.25s $forceful;
 		opacity: 1;
 	}
 }
+
+@keyframes blinker {
+	50% {
+		opacity: 1;
+	}
+}
