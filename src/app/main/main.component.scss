@@ -91,7 +91,7 @@ $header-height: math.div(81px, 1080px) * 100vh;
 			z-index: 2;
 
 			#message-title {
-				margin: 0 0 0 2rem;
+				margin: 2rem 0 0 2rem;
 				opacity: 0;
 				letter-spacing: -0.1rem;
 				color: var(--globalForegroundInverse);
@@ -134,6 +134,7 @@ $header-height: math.div(81px, 1080px) * 100vh;
 
 			#message-content {
 				@extend .flex-column;
+                margin-top: 1rem;
 				height: calc(100% - 6.95rem);
 				position: relative;
 				pointer-events: none;
