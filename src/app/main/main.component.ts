@@ -1,4 +1,5 @@
 import { Component, ElementRef, OnInit } from '@angular/core';
+import { trigger, transition, style, stagger, animate, query } from '@angular/animations';
 import { request } from '@octokit/request';
 import { gsap } from 'gsap';
 
@@ -12,7 +13,8 @@ import { Nullable } from '@utils/utils';
 import { ThemeMangerService } from '@services/theme-manger.service';
 import { HoverReactService } from '@services/hover-react.service';
 
-import { Changelogs } from '@root/CHANGELOG';
+import { Changelog } from '@struct/Changelog';
+import { JSONLoadService } from '@services/jsonload.service';
 
 interface GitCommitSimple {
 	cMessage: string;
@@ -28,17 +30,34 @@ interface GitCommitSimple {
 	selector: 'app-home',
 	templateUrl: './main.component.html',
 	styleUrls: ['./main.component.scss'],
+	animations: [
+		trigger('AppearDisappear-List', [
+			transition('* <=> *', [
+				query(':enter', [
+					style({ opacity: 0 }),
+					stagger(150, [
+						animate('200ms ' + AnimationFunctions.Forceful, style({ opacity: 1 })),
+					])
+				], { optional: true }),
+				query(':leave', [
+					stagger(150, [
+						animate('200ms ' + AnimationFunctions.Forceful,  style({ opacity: 0 })),
+					])
+				],{ optional: true })
+			]),
+		])
+	]
 })
 export class MainComponent extends HTMLBasedComponent implements OnInit {
 
 	readonly appVersion = (window as BrowserWindow).__env.AppVersion;
 	currentMenuOptions = menuOptions;
-	changelogs = Changelogs;
 
 	constructor(
 		protected eleRef: ElementRef,
 		private theme: ThemeMangerService,
-		private hoverReact: HoverReactService
+		private hoverReact: HoverReactService,
+		private json: JSONLoadService
 	) {
 		super();
 	}
@@ -53,27 +72,58 @@ export class MainComponent extends HTMLBasedComponent implements OnInit {
 	mascotReact(isHovered: boolean, imgID = 'mascot')
 	{
 		this.mascotImg = `${imgID}.png`;
-		this.hoverReact.react(this.eleRef.nativeElement?.querySelector('#mascot-2'), isHovered);
 		this.hoverReact.react(this.eleRef.nativeElement?.querySelector('#mascot'), isHovered);
 	}
 
-	gitData: Nullable<GitCommitSimple> = null;
-	gitLoaded = false;
-	commitString!: string;
-	startAwaitAnim()
+	changelogs: Changelog[] = [];
+	changelogLoadingString = '';
+	changelogLoadingProg = 0;
+	loadChangelogs()
 	{
-		const sAwait = 'Hold on, fetching git commits';
+		const inv = this.startAwaitAnim('changelogLoadingString', 'Fetching changelogs');
+		this.changelogs = [];
+		this.json.load(
+			'CHANGELOGS.json',
+			{
+				onExpire: () => {},
+				force: true,
+				onprogress: (_, e) => {
+					if (e?.lengthComputable)
+					{
+						this.changelogLoadingProg = e.loaded / e.total;
+					}
+				}
+			}
+		).then((json) => {
+			if (json)
+			{
+				this.changelogs = json as unknown as Changelog[];
+				this.changelogLoadingProg = 1;
+				clearInterval(inv);
+			}
+		}).catch(() => {
+			this.changelogLoadingProg = 1;
+			clearInterval(inv);
+		});
+	}
+
+	startAwaitAnim(propBind: 'commitString' | 'changelogLoadingString', template: string)
+	{
 		let i = 0;
 		return setInterval(() => {
-			this.commitString = sAwait + '.'.repeat(i);
+			this[propBind] = template + '.'.repeat(i).padEnd(3, ' ');
 			if (i === 3) i = -1;
 			i++;
 		}, 200);
 	}
+
+	gitData: Nullable<GitCommitSimple> = null;
+	gitLoaded = false;
+	commitString = '';
 	async loadCommit(fetchNewest = false)
 	{
 		this.gitLoaded = false;
-		const inv = this.startAwaitAnim();
+		const inv = this.startAwaitAnim('commitString', 'Hold on, fetching git commits');
 		if (!fetchNewest)
 		{
 			const data = GitUtils.loadFromCache();

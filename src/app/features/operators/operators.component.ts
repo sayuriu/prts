@@ -8,13 +8,14 @@ import { ImageDataService } from '@services/OperatorData/image-data.service';
 import { NotifService } from '@services/notif.service';
 import { AvailableLocales, Locales } from '@struct/Basic';
 
+const anim_AppearDisappear = AppearDisappear();
 @Component({
 	selector: 'app-feature-operators',
 	templateUrl: './operators.component.html',
 	styleUrls: ['./operators.component.scss'],
 	providers: [OperatorDataManagerService],
 	animations: [
-		AppearDisappear
+		anim_AppearDisappear,
 	]
 })
 export class OperatorsComponent implements OnInit {

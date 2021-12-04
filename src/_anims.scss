@@ -18,3 +18,14 @@ $slide-main: 0.25s $forceful;
 		opacity: 1;
 	}
 }
+
+@mixin slide-spawn($init, $target) {
+	from {
+		transform: #{$init};
+		opacity: 0;
+	}
+	to {
+		transform: #{$target};
+		opacity: 1;
+	}
+}

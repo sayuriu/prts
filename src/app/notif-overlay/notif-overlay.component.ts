@@ -4,7 +4,8 @@ import { Message, NotifService } from '@services/notif.service';
 import { AnimationFunctions, AppearDisappear } from '@utils/anims';
 import { waitAsync } from '@utils/utils';
 
-const slideUpDown = trigger('slideUpDown', [
+const anim_AppearDisappear = AppearDisappear();
+const anim_SlideUpDown = trigger('slideUpDown', [
 	transition(':enter', [
 		style({
 			position: 'absolute',
@@ -45,8 +46,8 @@ const slideUpDown = trigger('slideUpDown', [
 	templateUrl: './notif-overlay.component.html',
 	styleUrls: ['./notif-overlay.component.scss'],
 	animations: [
-		slideUpDown,
-		AppearDisappear,
+		anim_SlideUpDown,
+		anim_AppearDisappear,
 	],
 })
 export class NotifOverlayComponent implements OnInit {

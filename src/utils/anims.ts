@@ -129,21 +129,21 @@ export const routeAnims = trigger('routeAnimations', [
 	),
 
 ]);
-// #endregion
+// #endregionee
 
 // #region commonAnims
-export const AppearDisappear = function(){
-	const animFunc = '250ms'
+export const AppearDisappear = (timefunc?: string) => {
+	const animFunc = '250ms ease'
 	return trigger('AppearDisappear', [
 		transition(':enter', [
 			style({ opacity: 0 }),
-			animate(animFunc, style({ opacity: 1 })),
+			animate(timefunc ?? animFunc, style({ opacity: 1 })),
 		]),
 		transition(':leave', [
-			  animate(animFunc,  style({ opacity: 0 })),
+			animate(timefunc ?? animFunc,  style({ opacity: 0 })),
 		]),
 	]);
-}()
+}
 export const slideRtL = function(){
 	const animFunc = '250ms ' + AnimationFunctions.Forceful;
 	return trigger('slideRtL', [

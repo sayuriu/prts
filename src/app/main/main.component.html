@@ -15,45 +15,41 @@
 			<a id="app-version-number"
 				href="https://github.com/sayuriu/prts"
 				target="_blank"
+				rel="noopener"
 				data-title="Go to this project's Git repo ->"
 				(mouseover)="mascotReact(true, 'mascot-smile')"
 				(mouseout)="mascotReact(false)"
 			>
 				<i>Version {{appVersion}} |></i>
 			</a>
+			<p style="opacity: 0; z-index: -2; font-size: 0.75rem">_</p>
 			<div id="message-content">
-				<p id="infomation">
-					Features are not yet available, but stay tuned for future updates!
-				</p>
-				<ul class="changelogs-list">
-					<div class="changelogs" *ngFor="let changelog of changelogs">
-						<div id="header">
-							<date>{{changelog.date}}</date>&thinsp;@&thinsp;<version>{{changelog.version}}</version>
+				<div id="changelog-frame">
+					<button
+						(click)="loadChangelogs()"
+					>
+						&ThinSpace;CHANGELOGS&ThinSpace;
+					</button>
+					<!-- <p id="infomation">
+						Features are not yet available, but stay tuned for future updates!
+					</p> -->
+					<ul class="changelogs-list" [@AppearDisappear-List]="changelogs.length">
+						<div class="changelogs" *ngFor="let changelog of changelogs">
+							<div id="header">
+								<date>{{changelog.date}}</date>&thinsp;@&thinsp;<version>{{changelog.version}}</version>
+							</div>
+							<p class="changes" *ngFor="let change of changelog.changes">
+								{{change}}
+								<!-- <p [innerText]="change"></p> -->
+							</p>
 						</div>
-						<p class="changes" *ngFor="let change of changelog.changes">
-							{{change}}
-							<!-- <p [innerText]="change"></p> -->
-						</p>
-					</div>
-				</ul>
+					</ul>
+				</div>
 			</div>
 		</div>
 		<div id="footer">
 			<div id="footer-container">
-				<div id="mascot">
-					<img id="portrait" alt="mascot" src="../../assets/img/mascot/mascot.png">
-					<div
-						class="hearts"
-						href="https://github.com/sayuriu"
-						title="External: Link to this project's creator page."
-						target="_blank"
-					>
-						<img id="heart_1" alt="heart_1" src="../../assets/img/mascot/heart-1.png">
-						<img id="heart_2" alt="heart_2" src="../../assets/img/mascot/heart-2.png">
-					</div>
-				</div>
 				<div id="update-logs">
-					<div id="mascot-2" style="background-image: url('../../assets/img/mascot-2/{{mascotImg}}')"></div>
 					<button
 						[attr.ifHover]="gitLoaded ? 'Click to update' : 'Updating'"
 						[ngStyle]="{
@@ -63,11 +59,11 @@
 						(mouseover)="mascotReact(false, 'mascot-git')"
 						(mouseout)="mascotReact(false)"
 					>
-						&ThinSpace;GIT_UPDATE#LATEST&ThinSpace;
+						&ThinSpace;GIT_COMMIT&ThinSpace;
 					</button>
-					<arrows>
+					<!-- <arrows>
 						<arrow id="arrow" *ngFor="let _ of [1,1,1], let i = index" style="--stagger: {{i - 1}}">></arrow>
-					</arrows>
+					</arrows> -->
 					<content>
 						<text id="latest-commit-text" *ngIf="!gitLoaded" [ngStyle]="{
 							'max-height': gitLoaded ? '3rem' : '1.5rem'
@@ -77,15 +73,15 @@
 						<text id="latest-commit-text" *ngIf="gitLoaded" [ngStyle]="{
 							'max-height': gitLoaded ? '3rem' : '1.5rem'
 						}">
-
 							<commit-time [attr.data-title]="gitData!.cDate.toUTCString()">
 								{{gitData!.cDate.toISOString().substring(0, 11)}}<i style="font-weight: lighter; font-style: normal">{{gitData!.cDate.toISOString().substring(11, 19)}}</i>
 							</commit-time>&nbsp;
 							<a
 								id="commit-author"
 								href="{{gitData!.cAuthorURL || '#'}}"
-								[attr.data-title]="'Go to ' + (gitData!.cAuthorUsrname || 'commiter\'s') + ' Git profile ->'"
+								[attr.data-title]="'Go to ' + (gitData!.cAuthorUsrname || 'commiter') + '\'s Git profile ->'"
 								target="_blank"
+								rel="noopener"
 							>
 								{{gitData!.cAuthorName}}
 							</a>
@@ -95,6 +91,7 @@
 								href="{{gitData!.cURL}}"
 								data-title="Go to commit's page ->"
 								target="_blank"
+								rel="noopener"
 							>
 								<i style="font-weight: lighter;">{{gitData!.cHash.substring(0, 7)}}</i>
 							</a>&#8201;&nbsp;
@@ -113,8 +110,17 @@
 						href="https://github.com/sayuriu"
 						title="External: Link to this project's creator page."
 						target="_blank"
+						rel="noopener"
 					>&nbsp;://|></a>
 				</div>
+			</div>
+		</div>
+		<div id="footer-ghost">
+			<div id="mascot" style="background-image: url('../../assets/img/mascot-2/{{mascotImg}}')">
+				<!-- <div id="hearts">
+					<img id="heart_1" alt="heart_1" src="../../assets/img/mascot/heart-1.png">
+					<img id="heart_2" alt="heart_2" src="../../assets/img/mascot/heart-2.png">
+				</div> -->
 			</div>
 		</div>
 	</div>

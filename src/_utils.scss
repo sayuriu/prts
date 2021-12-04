@@ -21,3 +21,15 @@
 	height: 100%;
 	width: 100%;
 }
+
+.button-abs-top {
+	font-family: JetBrains Mono;
+	font-size: 1rem;
+	border: 0;
+	position: absolute;
+	pointer-events: all;
+	bottom: 100%;
+	left: 0.5rem;
+	color: var(--globalForeground);
+	background: var(--globalForegroundInverse);
+}
