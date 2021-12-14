@@ -44,7 +44,7 @@ export class TopLevelUIComponent implements OnInit {
 		this.notif.send('System', `Theme changed to ${this.theme.currentTheme} ${this.theme.currentTheme === 'light' ? '☀' : '⏾'}`, 'success', {  dynamic: true }, 2000);
 	}
 
-	ToggleFullscreen() {
+	async ToggleFullscreen() {
 		const root = document.documentElement;
 		(!document.fullscreenElement ?
 			root?.requestFullscreen({ navigationUI: 'hide' }) :

@@ -8,6 +8,7 @@ import { routeAnims } from '@utils/anims';
 import { version } from '@utils/package';
 import type { BrowserWindow } from '@interfaces/common';
 import { getURLWithoutParams } from '@utils/PathUtils';
+import { isFullScreen } from '@utils/utils';
 
 
 @Component({
@@ -22,7 +23,7 @@ import { getURLWithoutParams } from '@utils/PathUtils';
 export class AppComponent implements OnInit {
 
 	constructor(
-			private errorService: ErrorService,
+			// private errorService: ErrorService,
 			public router: Router,
 			private notif: NotifService,
 		)
@@ -31,20 +32,20 @@ export class AppComponent implements OnInit {
 	ngOnInit() {
 		OverlayUtils.removeLoadStatus();
 		(window as BrowserWindow).__env.AppVersion = version;
-		window.addEventListener('resize', () => {
-			if (window.screen.height === window.innerHeight && window.screen.width === window.innerWidth)
-				this.notif.send('System', 'Entered fullscreen.', 'info', {}, 3300)
-			else if (
-				this.notif.currentMessage?.title === '[SYSTEM]' &&
-				this.notif.currentMessage?.message === 'Entered fullscreen.'
-			)
-			this.notif.skip();
-		});
 		this.router.malformedUriErrorHandler = (e, serializer, url) => {
 			const path = getURLWithoutParams(url);
 			this.router.navigateByUrl(path, { replaceUrl: true });
 			return this.router.createUrlTree([path]);
 		}
+		window.addEventListener('resize', (() =>{
+			if (isFullScreen())
+				this.notif.send('System', 'Entered fullscreen.', 'info', {}, 3300)
+			else if (
+				this.notif.currentMessage?.title === '[SYSTEM]' &&
+				this.notif.currentMessage?.message === 'Entered fullscreen.'
+			)
+			this.notif.skipCurrent();
+		}).bind(this))
 	}
 
 	prepareOutlet(outlet: RouterOutlet) {

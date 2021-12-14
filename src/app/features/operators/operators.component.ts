@@ -65,8 +65,6 @@ export class OperatorsComponent implements OnInit {
 			}
 			else
 				this.notif.send('Operators', 'Failed to load operator indexes.', 'error', { presist: true });
-
-
 		});
 	}
 	loadOperator() {

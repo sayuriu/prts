@@ -1,4 +1,4 @@
-import { Component, ElementRef, OnInit } from '@angular/core';
+import { Component, ElementRef, OnDestroy, OnInit } from '@angular/core';
 import { trigger, transition, style, stagger, animate, query } from '@angular/animations';
 import { request } from '@octokit/request';
 import { gsap } from 'gsap';
@@ -7,8 +7,8 @@ import { BrowserWindow } from '@utils/interfaces/common';
 import { repository } from '@utils/package';
 import GitCommit from '@utils/interfaces/GitCommit';
 import { HTMLBasedComponent } from '@utils/HTMLComponent';
-import { AnimationFunctions } from '@utils/anims';
-import { Nullable } from '@utils/utils';
+import { AnimationFunctions, AppearDisappear } from '@utils/anims';
+import { Nullable, waitAsync } from '@utils/utils';
 
 import { ThemeMangerService } from '@services/theme-manger.service';
 import { HoverReactService } from '@services/hover-react.service';
@@ -25,12 +25,13 @@ interface GitCommitSimple {
     cAuthorUsrname?: string;
     cAuthorURL?: string;
 }
-
+const appearDisappear = AppearDisappear(`250ms ${AnimationFunctions.Forceful}`);
 @Component({
 	selector: 'app-home',
 	templateUrl: './main.component.html',
 	styleUrls: ['./main.component.scss'],
 	animations: [
+		appearDisappear,
 		trigger('AppearDisappear-List', [
 			transition('* <=> *', [
 				query(':enter', [
@@ -48,7 +49,7 @@ interface GitCommitSimple {
 		])
 	]
 })
-export class MainComponent extends HTMLBasedComponent implements OnInit {
+export class MainComponent extends HTMLBasedComponent implements OnInit, OnDestroy {
 
 	readonly appVersion = (window as BrowserWindow).__env.AppVersion;
 	currentMenuOptions = menuOptions;
@@ -65,7 +66,11 @@ export class MainComponent extends HTMLBasedComponent implements OnInit {
 	ngOnInit(): void {
 		this.theme.listen((this.eleRef.nativeElement as HTMLElement).querySelector('.container') as HTMLElement);
 		this.loadCommit();
-		new Stagger().arrow('#arrow', false);
+		this.loadChangelogs();
+		// new Stagger().arrow('#arrow', false);
+	}
+	ngOnDestroy(): void {
+		this.changelogs = [];
 	}
 
 	mascotImg = 'mascot.png'
@@ -78,9 +83,11 @@ export class MainComponent extends HTMLBasedComponent implements OnInit {
 	changelogs: Changelog[] = [];
 	changelogLoadingString = '';
 	changelogLoadingProg = 0;
-	loadChangelogs()
+	async loadChangelogs()
 	{
+		this.changelogs.length = 0;
 		const inv = this.startAwaitAnim('changelogLoadingString', 'Fetching changelogs');
+		await waitAsync(250);
 		this.changelogs = [];
 		this.json.load(
 			'CHANGELOGS.json',

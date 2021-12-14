@@ -4,7 +4,7 @@ import { Subject } from 'rxjs';
 import { CHAR_NAME, SUMMON_NAME, TRAP_NAME, Operator } from '@struct/Operator/Char';
 import { Locales } from '@struct/Basic';
 import { ImageDataService } from './image-data.service';
-import { Nullable, ValueOf } from '@utils/utils';
+import { Nullable, NullablePromise, ValueOf } from '@utils/utils';
 import { JSONLoadService } from '@services/jsonload.service';
 
 type en_US_CharIndex = typeof import('@assets/gamedata/json/locales/en_US/charnameLinkID.json');
@@ -70,6 +70,7 @@ export class OperatorDataManagerService {
 			.then(() => {
 				this.isLoaded = true;
 				console.log('Operator index loaded.');
+				this.events.next(this);
 			})
 			.catch(() => {
 				this.events.next(this);
@@ -123,7 +124,7 @@ export class OperatorDataManagerService {
 			onExpire: (d) => {
 				console.log('Destroyed', d.id, d);
 			}
-		}) as Promise<Nullable<Operator>>;
+		}) as NullablePromise<Operator>;
 	}
 }
 

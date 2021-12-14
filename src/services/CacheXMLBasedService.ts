@@ -1,6 +1,6 @@
 import { Expire } from "@utils/DoExpire";
 import { XHROptions, Fetch } from "@utils/Fetch";
-import { emptyFunc, Nullable } from "@utils/utils";
+import { emptyFunc, Nullable, NullablePromise } from "@utils/utils";
 
 interface EntityExpireCallback<T> {
 	onExpire: (entity: Entity<T>) => void;
@@ -12,9 +12,9 @@ export abstract class CacheXMLBaseService<E>
 {
 	abstract readonly CACHE_TIMEOUT_MS: number;
 	protected _cache = new Map<string, Entity<E>>();
-	protected abstract load(path: string, options: XHRModOptions<E>): Promise<Nullable<E>>
-	protected abstract load(id: string, options: XHRModOptions<E>): Promise<Nullable<E>>
-	protected _load(id: string, options: XHRModOptions<E>): Promise<Nullable<E>>
+	protected abstract load(path: string, options: XHRModOptions<E>): NullablePromise<E>;
+	protected abstract load(id: string, options: XHRModOptions<E>): NullablePromise<E>;
+	protected _load(id: string, options: XHRModOptions<E>): NullablePromise<E>
 	{
 		if (this._cache.has(id) && !options.force)
 		{
@@ -40,10 +40,11 @@ export abstract class CacheXMLBaseService<E>
 			new Entity<E>(
 				id,
 				data,
+				timeout,
 				setTimeout(() => {
 					const data = this._cache.get(id)!;
-					data.onExpire(data);
 					this._cache.delete(id);
+					data.onExpire(data);
 				}, timeout) as unknown as number,
 				onExpire
 			),
@@ -62,6 +63,11 @@ export abstract class CacheXMLBaseService<E>
 				'',
 				null,
 				0,
+				setTimeout(() => {
+					const data = this._cache.get(id)!;
+					this._cache.delete(id);
+					data.onExpire(data);
+				}, existSession?.lifetime ?? 0) as unknown as number,
 				undefined,
 				existSession
 			)
@@ -76,7 +82,7 @@ export class Entity<T extends unknown> implements Expire<Entity<T>>
 	private _instantiatedTimestamp: number;
 	readonly onExpire: (entity: Entity<T>) => void;
 
-	constructor(id: string, data: Nullable<T>, public timeoutId: number, onExpire: (data: Entity<T>) => void = emptyFunc, existingInstance?: Entity<T>)
+	constructor(id: string, data: Nullable<T>, public readonly lifetime: number, public timeoutId: number, onExpire: (data: Entity<T>) => void = emptyFunc, existingInstance?: Entity<T>)
 	{
 		this.id = id;
 		this.value = data;

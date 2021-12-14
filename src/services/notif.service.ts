@@ -26,12 +26,18 @@ export class NotifService {
 	constructor() {
 		this.events = new Subject();
 	}
-
+	public setCurrentMessage(message: Message)
+	{
+		this.currentMessage = message;
+	}
+	clearCurrentMessage()
+	{
+		this.currentMessage = undefined;
+	}
 	public send(title: string, message: string, level: Levels = 'info', data?: Data, timeout = 5000): void {
 		this.events.next({ title: `[${title.toUpperCase()}]`, message, level, timeout, data: data ?? {} });
 	}
-	public skip()
-	{
+	public skipCurrent() {
 		this.events.next({ title: '', message: 'skip', level: 'info', timeout: 0, data: {} });
 	}
 }

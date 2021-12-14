@@ -146,9 +146,8 @@ $header-height: math.div(81px, 1080px) * 100vh;
 						@extend .button-abs-top;
 					}
 					height: 100%;
-					.changelogs-list {
-						@extend .scrollbar-std;
-						@keyframes info-box-slideup {
+					opacity: 0;
+					@keyframes info-box-slideup {
 							0% {
 								opacity: 0;
 								transform: translateY(10%);
@@ -158,18 +157,22 @@ $header-height: math.div(81px, 1080px) * 100vh;
 								transform: translateY(0);
 							}
 						}
-						animation: info-box-slideup 0.4s $forceful 1s forwards;
+					animation: info-box-slideup 0.6s $forceful 0.8s forwards;
+					.changelogs-list {
+						@extend .scrollbar-std;
 						height: 100%;
 						margin: 0;
 						pointer-events: all;
 						overflow-y: auto;
-						opacity: 0;
 						color: var(--globalForegroundInverse);
 						position: relative;
 						border-top: 1px dashed var(--globalForegroundInverse);
+						transition: opacity 0.25s $forceful;
 						.changelogs {
 							position: relative;
 							pointer-events: all;
+							opacity: 0;
+							animation: spawn 0.4s ease-in-out calc(1s + 0.2s * var(--order)) forwards;
 
 							#header {
 								margin-top: 0.5rem;

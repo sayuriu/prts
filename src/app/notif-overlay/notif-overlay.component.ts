@@ -41,6 +41,8 @@ const anim_SlideUpDown = trigger('slideUpDown', [
 	]),
 ]);
 
+
+const emptyMessage: Message = {title: '', level: 'info', message: '', timeout: 0, data: {}};
 @Component({
 	selector: 'notif-overlay',
 	templateUrl: './notif-overlay.component.html',
@@ -52,81 +54,76 @@ const anim_SlideUpDown = trigger('slideUpDown', [
 })
 export class NotifOverlayComponent implements OnInit {
 
-	title: string = '';
-	message: string = '';
-	level: Message['level'] = 'info';
 	progress: number = 100;
-	timeout: number = 0;
 
 	currentlyBeingSkipped = false;
 	isShown = false;
 	private _activeInterval?: number;
 
 	queue: Message[];
-	private data?: Message['data'];
+	currentMessage: Message = emptyMessage;
 
 	constructor(private notif: NotifService) {
 		this.queue = [];
-		this.notif.events.subscribe((m: Message) => this.onMessage(m))
+		this.notif.events.subscribe((m: Message) => this.onMessage(m));
 	}
 
 	ngOnInit(): void {}
-	private async onMessage(message: Message)
+
+	private async onMessage(data: Message): Promise<void>
 	{
-		if (message?.timeout === 0 && message.message === 'skip')
-		{
-			this.skip();
-			return;
-		}
-		if (this.message && this.data?.dynamic)
+		if (data.timeout === 0 && data.message === 'skip')
+			return void this.skip();
+		if (this.currentMessage.data.dynamic)
 			await this.skip();
-		this.queue.push(message);
+		this.queue.push(data);
 		this.processQueue();
 	}
-	private processQueue()
+
+	private async processQueue()
 	{
 		if (this.queue.length && !this._activeInterval)
 		{
-			const message = this.queue.shift();
-			Object.assign(this, message);
-			this.notif.currentMessage = message;
-			this.progress = 100;
-			if (message?.data.presist)
-				this.progress = 0;
+			this.currentMessage = this.queue.shift()!;
 			this.isShown = true;
-			this.currentlyBeingSkipped = false;
-			if (!message?.data.presist)
+			this.notif.setCurrentMessage(this.currentMessage);
+
+			if (!this.currentMessage.data.presist)
 			{
-				this._activeInterval = setInterval(() => {
-					if (this.progress === 0) this.clearCurrent();
-					this.progress--;
-				}, this.timeout / 100) as unknown as number;
+				let queuedForSkip = false;
+				this._activeInterval = setInterval((): void => {
+					this.progress -= 0.1;
+					if (this.progress <= 0)
+					{
+						if (queuedForSkip) return;
+						queuedForSkip = true;
+						return void this.skip();
+					}
+				}, this.currentMessage.timeout / 1000) as unknown as number;
 			}
 		}
 	}
+
 	async skip()
 	{
-		this.currentlyBeingSkipped = true;
-		await this.clearCurrent();
+		await this.reset();
 		this.processQueue();
 	}
-	private async clearCurrent()
-	{
-		clearInterval(this._activeInterval as number);
-		await waitAsync(300);
-		this.isShown = false;
-		this.title = '';
-		this.message = '';
-		this.progress = 100;
-		this.level = 'info';
-		this.timeout = 0;
-		delete this._activeInterval;
-		delete this.data;
-		delete this.notif.currentMessage;
-	}
+
 	async clearAll()
 	{
-		await this.clearCurrent();
 		this.queue = [];
+		await this.reset();
+	}
+
+	private async reset()
+	{
+		clearInterval(this._activeInterval);
+		this.notif.clearCurrentMessage();
+		await waitAsync(300);
+		this.isShown = false;
+		this.progress = 100;
+		this.currentMessage = emptyMessage;
+		delete this._activeInterval;
 	}
 }

@@ -8,7 +8,13 @@ export function waitSync(ms = 0) {
 	return;
 }
 
+export function isFullScreen()
+{
+	return window.innerWidth === screen.width && window.innerHeight === screen.height;
+}
+
 export const emptyFunc = (...args: any[]) => {};
 
 export type Nullable<T> = T | null;
+export type NullablePromise<T> = Promise<Nullable<T>>;
 export type ValueOf<T> = T[keyof T];
