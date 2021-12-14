@@ -39,7 +39,7 @@ find ./ -type d -empty -delete
 CleanJS null
 CleanFull "struct"
 CleanFull "utils"
-cd "utils"
+cd "struct"
 CleanFull "Operator"
 cd ".."
 cp -r "struct" "../src"
