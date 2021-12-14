@@ -144,6 +144,33 @@ $header-height: math.div(81px, 1080px) * 100vh;
 				#changelog-frame {
 					button {
 						@extend .button-abs-top;
+
+// 						&::after {
+// 							color: hsl(0, 0%, 50%);
+// 							font-style: italic;
+// 							content: attr(ifHover);
+// 							width: 20ch;
+// 							margin-bottom: 1.5px;
+// 							text-align: start;
+// 							position: absolute;
+// 							bottom: 0;
+// 							opacity: 0;
+// 							z-index: -1;
+// 							left: 12ch;
+// 							transition: bottom 0.7s 0.3s $forceful;
+// 						}
+//
+						&:hover {
+							cursor: pointer;
+							background-color: var(--gitUpdateButtonHover);
+							&::after {
+								opacity: 1;
+								transition: opacity 0.7s $forceful;
+							}
+						}
+					}
+					#alt {
+						left: 13ch;
 					}
 					height: 100%;
 					opacity: 0;

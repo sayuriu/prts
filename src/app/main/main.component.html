@@ -27,9 +27,11 @@
 				<div id="changelog-frame">
 					<button
 						(click)="loadChangelogs()"
+						[attr.ifHover]="'Click to refresh'"
 					>
 						&ThinSpace;CHANGELOGS&ThinSpace;
 					</button>
+					<button id="alt" (click)="toggleChangelog()">👁</button>
 					<!-- <p id="infomation">
 						Features are not yet available, but stay tuned for future updates!
 					</p> -->
@@ -37,7 +39,8 @@
 					<!-- !<ul class="changelogs-list" [@AppearDisappear-List]="changelogs.length"> -->
 					<ul class="changelogs-list" [@AppearDisappear]="changelogs.length" *ngIf="changelogs.length">
 						<div class="changelogs" *ngFor="let changelog of changelogs; let i = index" style="--order: {{i}};">
-							<div id="header">
+							<!--! Maybe performance issue -->
+							<div id="header" *ngIf="changelog.date && changelog.version && changelog.changes.length">
 								<date>{{changelog.date}}</date>&thinsp;@&thinsp;<version>{{changelog.version}}</version>
 							</div>
 							<p class="changes" *ngFor="let change of changelog.changes">

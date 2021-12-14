@@ -81,11 +81,19 @@ export class MainComponent extends HTMLBasedComponent implements OnInit, OnDestr
 	}
 
 	changelogs: Changelog[] = [];
+	_cachedChangelogs: Changelog[] = [];
+	visibleChangelogs = true;
 	changelogLoadingString = '';
 	changelogLoadingProg = 0;
+	toggleChangelog()
+	{
+		const empty = [{changes: [], date: '', version: ''}];
+		// ! Warning: Reduntdant assignment
+		this.visibleChangelogs = !this.visibleChangelogs;
+		this.visibleChangelogs ? this.changelogs = this._cachedChangelogs : this.changelogs = empty;
+	}
 	async loadChangelogs()
 	{
-		this.changelogs.length = 0;
 		const inv = this.startAwaitAnim('changelogLoadingString', 'Fetching changelogs');
 		await waitAsync(250);
 		this.changelogs = [];
@@ -104,7 +112,9 @@ export class MainComponent extends HTMLBasedComponent implements OnInit, OnDestr
 		).then((json) => {
 			if (json)
 			{
-				this.changelogs = json as unknown as Changelog[];
+				this._cachedChangelogs = json as unknown as Changelog[];
+				// ! Warning: Reduntdant assignment
+				this.changelogs = this._cachedChangelogs;
 				this.changelogLoadingProg = 1;
 				clearInterval(inv);
 			}
