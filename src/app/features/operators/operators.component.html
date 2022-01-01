@@ -36,8 +36,8 @@
 					</op-img-code>
 				</op-info-header>
 			</header>
-			<app-operator-picker-area *ngIf="!currentOpId" @AppearDisappear></app-operator-picker-area>
 			<app-operator-info-area (onOperatorChange)='setOperatorHeaderData($event)' *ngIf="currentOpId" [opId]="currentOpId" [serverLocale]="locale" @AppearDisappear></app-operator-info-area>
+			<app-operator-picker-area *ngIf="!currentOpId" @AppearDisappear></app-operator-picker-area>
 		</div>
 	</div>
 </div>
