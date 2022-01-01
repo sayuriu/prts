@@ -1,5 +1,20 @@
-<!-- doesn't work, why care about -->
-<!-- <head>
-	<title>{{currentOp.name}} - PRTS Analysis OS</title>
-</head> -->
-<p>operator-info-area works!<br>name:{{(currentOp ?? { name: '' }).name}}</p>
+<scroll-container>
+	<div id="menu-abs-container">
+		<div id="menu">
+			<button [ngClass]="currentMenuIndex === 0 ? 'current' : ''" (click)="setMenuIndex(0)"><p>MAIN_INFO</p></button>
+			<button [ngClass]="currentMenuIndex === 1 ? 'current' : ''" (click)="setMenuIndex(1)"><p>SKILLS</p></button>
+			<button [ngClass]="currentMenuIndex === 2 ? 'current' : ''" (click)="setMenuIndex(2)"><p>STATS</p></button>
+		</div>
+	</div>
+	<div id="pages" [@slideUpDown]="currentMenuIndex">
+		<page id="main-info" *ngIf="currentMenuIndex === 0">
+			<op-info-maininfo [currentOperator]="currentOp"></op-info-maininfo>
+		</page>
+		<page id="skills" *ngIf="currentMenuIndex === 1">
+			<op-info-skills [currentOperator]="currentOp"></op-info-skills>
+		</page>
+		<page id="stats" *ngIf="currentMenuIndex === 2">
+			<op-info-stats [currentOperator]="currentOp"></op-info-stats>
+		</page>
+	</div>
+</scroll-container>

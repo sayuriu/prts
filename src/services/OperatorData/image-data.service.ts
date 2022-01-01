@@ -1,58 +1,30 @@
 import { Injectable } from '@angular/core';
-import { Expire } from '@utils/DoExpire';
-import { XHROptions } from '@utils/Fetch';
-import { emptyFunc } from '@utils/utils';
+import { CacheXMLBasedService, XHRModOptions, Entity } from '@services/CacheXMLBasedService';
+import { join } from '@utils/PathUtils';
+import { emptyFunc, NullablePromise } from '@utils/utils';
 
 // This will be limited to components that rely on heavy uses of images.
 @Injectable({
 	providedIn: 'root'
 })
-export class ImageDataService {
-// 	private _cache: Map<string, [ImageEntity, number]> = new Map();
-// 	static CACHE_TIMEOUT_MS = 600000; // 10 minutes
-// 	constructor() { }
-// 	load(id: string, options: XHROptions = {})
-// 	{
-//
-// 	}
-// 	save(id: string, data: ImageEntity)
-// 	{
-//
-// 	}
+export class ImageDataService extends CacheXMLBasedService<Blob> {
+	readonly BASE_PATH = 'assets/gamedata/img';
+	readonly CACHE_TIMEOUT_MS = 600000;
+	constructor()
+	{
+		super();
+	}
+	load(path: string, options: XHRModOptions<Blob>): NullablePromise<Blob> {
+		options.responseType = 'blob';
+		options.saveMimeType = 'image/png';
+		return this._load(join(this.BASE_PATH, path), options);
+	}
+	protected save(path: string, data: Blob, timeout = this.CACHE_TIMEOUT_MS, onExpires: (data: Entity<Blob>) => void = emptyFunc)
+	{
+		console.log(data);
+		this._save(join(this.BASE_PATH, path), data, timeout, onExpires);
+	}
+	protected renew(path: string): void {
+		this._renew(path);
+	}
 }
-
-// class ImageEntity implements Expire<ImageEntity>
-// {
-// 	readonly id: string;
-// 	readonly data: string;
-// 	readonly instantiatedTimestamp: number;
-// 	readonly onExpire: (entity: ImageEntity) => void;
-//
-// 	constructor(id: string, data: string, onExpire: (entity: ImageEntity) => void = emptyFunc)
-// 	{
-// 		this.id = id;
-// 		this.data = data;
-// 		this.instantiatedTimestamp = Date.now();
-// 		this.onExpire = onExpire;
-// 	}
-// }
-//
-// type ResponseDataT = 'blob' | 'arraybuffer' | 'text';
-//
-// export class ImageLoader {
-// 	load(
-// 		url: string,
-// 		responseType: ResponseDataT = 'arraybuffer',
-// 		callbacks: CallbackOptions = {},
-// 	)
-// 	{
-// 		return new Promise((resolve, reject) => {
-// 			Fetch(
-// 				url,
-// 				Object.assign({ responseType }, callbacks),
-// 			)
-// 			.then((value: XMLHttpRequest['response']) => resolve(window.URL.createObjectURL(new Blob([value]))))
-// 			.catch(reject);
-// 		});
-// 	}
-// }

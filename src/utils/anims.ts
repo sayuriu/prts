@@ -129,7 +129,7 @@ export const routeAnims = trigger('routeAnimations', [
 	),
 
 ]);
-// #endregionee
+// #endregion
 
 // #region commonAnims
 export const AppearDisappear = (timefunc?: string) => {

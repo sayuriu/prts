@@ -19,6 +19,8 @@ export interface XHROptions<T extends unknown> extends CallbackOptions, Expire<T
 {
 	responseType?: ResponseDataT;
 	force?: boolean;
+	beforeSave?: (data: any) => void;
+	saveMimeType?: string;
 }
 
 export const defaultOptions: XHROptions<unknown> = {
@@ -30,6 +32,8 @@ export function Fetch<T extends unknown>(url: string, options: XHROptions<T> = d
 {
 	if (!options.responseType)
 		options.responseType = 'blob';
+	if (!options.saveMimeType)
+		options.saveMimeType = 'text/plain';
 
 	return new Promise<T>((resolve, reject) => {
 		let xhr = new XMLHttpRequest();

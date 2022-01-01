@@ -35,7 +35,6 @@
 			height: 100%;
 			transition: width 0.4s $forceful;
 			background: hsl(0, 0%, 46%);
-			overflow-y: auto;
 			&.default {
 				width: 60%;
 			}
@@ -63,12 +62,65 @@
 					font-weight: lighter;
 					color: var(--globalForegroundInverse)
 				}
+				op-info-header {
+					display: flex;
+					justify-content: space-between;
+					@extend .full-height-width;
+					op-name-main {
+						@extend .flex-align-center;
+						div {
+							op-name-alt {
+								font-size: 30px;
+								color: hsl(0, 0%, 54%);
+							}
+							op-name {
+								font-size: 50px;
+								line-height: 0.85;
+								color: white;
+							}
+						}
+					}
+					op-img-code {
+						display: flex;
+						justify-content: space-between;
+						#img {
+							height: 100%;
+							@extend .flex-align-center;
+							#op-avatar {
+								aspect-ratio: 1;
+								height: calc(100% - 18px);
+								width: 100%;
+								background: #c4c4c4;
+								img {
+									height: 100%;
+								}
+							}
+						}
+						op-code {
+							height: 100%;
+							@extend .flex-align-center;
+							font-size: var(--fontsize);
+							font-weight: lighter;
+							div {
+								text-align: right;
+								transition: font-size 0.4s $forceful 0.2s;
+								display-code {
+									color: white;
+									font-weight: normal;
+								}
+								char-id {
+									color: hsl(0, 0%, 54%);
+								}
+							}
+						}
+					}
+				}
 			}
 			app-operator-info-area {
 				height: calc(100% - 140px);
 				width: 100%;
 			}
-			#app-operator-picker-area {
+			app-operator-picker-area {
 				height: calc(100% - 80px);
 				width: 100%;
 			}

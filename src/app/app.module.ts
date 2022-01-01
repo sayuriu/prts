@@ -8,13 +8,19 @@ import { NotFoundComponent } from './errors/not-found/not-found.component';
 import { BlankComponent } from './blank/blank.component';
 import { MainComponent } from './main/main.component';
 import { TopLevelUIComponent } from './top-level-ui/top-level-ui.component';
-import { OperatorsComponent } from './features/operators/operators.component';
+import { NotifOverlayComponent } from './notif-overlay/notif-overlay.component';
+import { InfoTextFieldComponent } from './info-text-field/info-text-field.component';
+
 import { CombatComponent } from './features/combat/combat.component';
 import { RecruitmentComponent } from './features/recruitment/recruitment.component';
+
+import { OperatorsComponent } from './features/operators/operators.component';
 import { OperatorImgComponent } from './features/operators/operator-img/operator-img.component';
 import { OperatorInfoAreaComponent } from './features/operators/operator-info-area/operator-info-area.component';
 import { OperatorPickerAreaComponent } from './features/operators/operator-picker-area/operator-picker-area.component';
-import { NotifOverlayComponent } from './notif-overlay/notif-overlay.component';
+import { OpMainInfoComponent } from '@featureComponents/operators/operator-info-area/page-MainInfo/opInfo-MainInfo.component';
+import { OpStatsComponent } from '@featureComponents/operators/operator-info-area/page-Stats/opInfo-Stats.component';
+import { OpSkillsComponent } from '@featureComponents/operators/operator-info-area/page-Skills/opInfo-Skills.component';
 
 @NgModule({
   declarations: [
@@ -28,8 +34,12 @@ import { NotifOverlayComponent } from './notif-overlay/notif-overlay.component';
     RecruitmentComponent,
     OperatorImgComponent,
     OperatorInfoAreaComponent,
+    OpMainInfoComponent,
+    OpSkillsComponent,
+    OpStatsComponent,
     OperatorPickerAreaComponent,
-    NotifOverlayComponent
+    NotifOverlayComponent,
+    InfoTextFieldComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),

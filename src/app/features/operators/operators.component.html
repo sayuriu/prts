@@ -5,23 +5,39 @@
 		</div>
 		<div id="img-area-blocker" [ngClass]="currentOpId ? 'default' : 'collapsed'"></div>
 		<div id="info-area" [ngClass]="currentOpId ? 'default' : 'expanded'">
-			<header [ngClass]="(currentOpId ? 'full' : 'collapsed')+' hasDelay'">
-				<button id="info-expand"></button>
+			<header [ngClass]="(currentOpId ? 'full' : 'collapsed') + ' hasDelay'">
+				<!-- <button id="info-expand"></button> -->
 				<picker-title *ngIf="!currentOpId" @AppearDisappear><i>Pick an Operator!</i></picker-title>
-				<op-info-header *ngIf="currentOpId" @AppearDisappear>
-					<op-name></op-name>
-					<op-name-alt></op-name-alt>
+				<op-info-header *ngIf="currentOpId && opHeaderData" @AppearDisappear>
+					<op-name-main>
+						<spacer style="width: 30px; height: 100%"></spacer>
+						<div *ngIf="currentOpId && opHeaderCNName" @AppearDisappear>
+							<op-name-alt>{{opHeaderCNName}}</op-name-alt><br>
+							<op-name>{{opHeaderData.name}}</op-name>
+						</div>
+					</op-name-main>
 					<op-img-code>
-						<op-img-ava></op-img-ava>
-						<op-code></op-code>
+						<op-code [style.font-size]="opHeaderCodeSize">
+							<div>
+								<display-code>{{opHeaderData.displayNumber}}</display-code><br>
+								<char-id>
+									{{opHeaderData.id.split('_')[1]}}<br>
+									{{opHeaderData.id.split('_')[2]}}
+								</char-id>
+							</div>
+						</op-code>
+						<spacer style="width: 10px; height: 100%"></spacer>
+						<div id="img">
+							<div id="op-avatar">
+								<img id="op-img-ava" [src]="opHeaderImg">
+							</div>
+						</div>
+						<spacer style="width: 10px; height: 100%"></spacer>
 					</op-img-code>
 				</op-info-header>
 			</header>
-			<app-operator-info-area *ngIf="currentOpId" [opId]="currentOpId" [serverLocale]="locale"></app-operator-info-area>
-			<div id="app-operator-picker-area" *ngIf="!currentOpId">
-				Nothing here yet.
-				But you can access the assets via absolute paths; if you know how...
-			</div>
+			<app-operator-picker-area *ngIf="!currentOpId" @AppearDisappear></app-operator-picker-area>
+			<app-operator-info-area (onOperatorChange)='setOperatorHeaderData($event)' *ngIf="currentOpId" [opId]="currentOpId" [serverLocale]="locale" @AppearDisappear></app-operator-info-area>
 		</div>
 	</div>
 </div>

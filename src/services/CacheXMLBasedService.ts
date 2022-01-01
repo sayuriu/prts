@@ -8,7 +8,7 @@ interface EntityExpireCallback<T> {
 
 export type XHRModOptions<T> = XHROptions<T> & EntityExpireCallback<T>;
 
-export abstract class CacheXMLBaseService<E>
+export abstract class CacheXMLBasedService<E>
 {
 	abstract readonly CACHE_TIMEOUT_MS: number;
 	protected _cache = new Map<string, Entity<E>>();

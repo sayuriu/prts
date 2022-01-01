@@ -14,7 +14,7 @@ import { ThemeMangerService } from '@services/theme-manger.service';
 import { HoverReactService } from '@services/hover-react.service';
 
 import { Changelog } from '@struct/Changelog';
-import { JSONLoadService } from '@services/jsonload.service';
+import { JSONLoadService } from '@services/OperatorData/jsonload.service';
 
 interface GitCommitSimple {
 	cMessage: string;

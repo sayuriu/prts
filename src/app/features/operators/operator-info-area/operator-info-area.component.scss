@@ -1,0 +1,52 @@
+@use 'sass:math';
+@import '../../../../anims';
+@import '../../../../utils';
+
+scroll-container {
+	@extend .full-height-width;
+	#menu-abs-container {
+		height: 0;
+		width: 100%;
+		position: relative;
+		#menu {
+			@extend .flex-row;
+			position: absolute;
+			transform-origin: bottom left;
+			transform: rotate(90deg);
+			top: 0;
+			left: 100%;
+			button {
+				pointer-events: all;
+				border: 0;
+				background: hsl(0, 0%, 77%);
+				color: hsl(0, 0%, 0%);
+				font-family: JetBrains Mono;
+				font-size: 24px;
+				font-weight: 200;
+				transition: all 0.4s $forceful;
+				position: relative;
+				cursor: pointer;
+				p {
+					z-index: 1;
+					margin: 4px 12px;
+				}
+				&:hover {
+					background: hsl(0, 0%, 60%);
+				}
+				&.current {
+					background: hsl(0, 0%, 47%);
+					cursor: default;
+				}
+			}
+		}
+	}
+	#pages {
+		@extend .full-height-width;
+		overflow-y: auto;
+		position: relative;
+		page {
+			width: 100%;
+			height: auto;
+		}
+	}
+}

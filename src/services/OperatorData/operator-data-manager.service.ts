@@ -5,13 +5,13 @@ import { CHAR_NAME, SUMMON_NAME, TRAP_NAME, Operator } from '@struct/Operator/Ch
 import { Locales } from '@struct/Basic';
 import { ImageDataService } from './image-data.service';
 import { Nullable, NullablePromise, ValueOf } from '@utils/utils';
-import { JSONLoadService } from '@services/jsonload.service';
+import { JSONLoadService } from '@services/OperatorData/jsonload.service';
 
-type en_US_CharIndex = typeof import('@assets/gamedata/json/locales/en_US/charnameLinkID.json');
-type ja_JP_CharIndex = typeof import('@assets/gamedata/json/locales/ja_JP/charnameLinkID.json');
-type ko_KR_CharIndex = typeof import('@assets/gamedata/json/locales/ko_KR/charnameLinkID.json');
-type zh_CN_CharIndex = typeof import('@assets/gamedata/json/locales/zh_CN/charnameLinkID.json');
-type zh_TW_CharIndex = typeof import('@assets/gamedata/json/locales/zh_TW/charnameLinkID.json');
+export type en_US_CharIndex = typeof import('@assets/gamedata/json/locales/en_US/charnameLinkID.json');
+export type ja_JP_CharIndex = typeof import('@assets/gamedata/json/locales/ja_JP/charnameLinkID.json');
+export type ko_KR_CharIndex = typeof import('@assets/gamedata/json/locales/ko_KR/charnameLinkID.json');
+export type zh_CN_CharIndex = typeof import('@assets/gamedata/json/locales/zh_CN/charnameLinkID.json');
+export type zh_TW_CharIndex = typeof import('@assets/gamedata/json/locales/zh_TW/charnameLinkID.json');
 
 type AllCharIndexes = en_US_CharIndex & ja_JP_CharIndex & ko_KR_CharIndex & zh_CN_CharIndex & zh_TW_CharIndex;
 // type AllCharIndexNames = keyof (AllCharIndexes);
@@ -96,7 +96,7 @@ export class OperatorDataManagerService {
 			zh_TW: await import('@assets/gamedata/json/locales/zh_TW/charnameLinkID.json').then(getDefault),
 		}
 	}
-	getCharId(charName: string, preferredLocale: Locales)
+	getCharId(charName: string, preferredLocale: Locales): [Nullable<string>, Locales]
 	{
 		// @ts-ignore
 		if (this.charList[preferredLocale][charName])
@@ -107,8 +107,7 @@ export class OperatorDataManagerService {
 		{
 			const key = this.charList[locale as Locales];
 			if (key && key[charName as keyof typeof key])
-			// TODO: Return locales
-				return [key[charName as keyof typeof key], locale];
+				return [key[charName as keyof typeof key], locale as Locales];
 		}
 		return [null, preferredLocale];
 	}
@@ -120,11 +119,16 @@ export class OperatorDataManagerService {
 			.replace('{id}', charId);
 
 		return this.JSONAssets.load(charPath, {
-			lifetime: 1000,
+			lifetime: 600000,
 			onExpire: (d) => {
 				console.log('Destroyed', d.id, d);
 			}
 		}) as NullablePromise<Operator>;
+	}
+	async loadOpImages(charId: string, type: 'avatars' | 'portraits' | 'full', id?: string): NullablePromise<Blob>
+	async loadOpImages(charId: CHAR_NAME, type: 'avatars' | 'portraits' | 'full', id?: string): NullablePromise<Blob>
+	{
+		return await this.cachedImages.load(`characters/${type}/${charId}${id || ''}.png`, { onExpire: console.log, onerror: console.error });
 	}
 }
 
