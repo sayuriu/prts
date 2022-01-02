@@ -1,5 +1,5 @@
 import { emptyFunc } from "@utils/utils";
-import { Expire } from "./DoExpire";
+import { Expire } from "@utils/DoExpire";
 
 type XHRVoidCallback = (xhr: XMLHttpRequest, ev?: ProgressEvent) => void;
 type ResponseDataT = 'blob' | 'arraybuffer' | 'json' | 'text';

@@ -83,3 +83,6 @@ struct <IMG> as TARGET in {root}/src/assets/gamedata/img/*
 	enemy
 	factions
 	materials
+// ------------------------------------------------------>
+struct <TL> as SOURCE in {root}/{ACESHIP_DIR_ENV}/json NOT DIR
+struct <TL> as TARGET in {root}/assets/gamedata/json

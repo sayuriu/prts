@@ -1,14 +1,14 @@
 <div id="filter-menu">
-	<button id="filter-menu-toggle" (click)="ToggleFilterMenu()"><p>FILTERS</p></button>
+	<button id="filter-menu-toggle" [style.opacity]="filterButtonVisible ? '1' : '0'" [style.transform]="visible ? '' : 'translateY(100%)'" (click)="ToggleFilterMenu()"><p>FILTERS</p></button>
 	<div id="filter-collapse-menu" [ngClass]="filterVisible ? 'expanded' : 'collapsed'" [ngStyle]="{ 'transform': !isShown ? 'scaleY(0)' : '' }">
 		<div id="filter-menu-body" [ngClass]="filterVisible ? 'expanded' : 'collapsed'" [ngStyle]="{ 'opacity': filterVisible ? '1' : '0' }">
-				<div id="inline-search-bar">
-					<div id="search-bar">
-						<div id="field-text">SEARCH |></div>
-						<div id="field-input"></div>
-					</div>
+			<div id="inline-search-bar">
+				<div id="search-bar">
+					<div id="field-text">SEARCH |></div>
+					<div id="field-input"></div>
 				</div>
-				<sort-option></sort-option>
+			</div>
+			<sort-option></sort-option>
 		</div>
 	</div>
 </div>

@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { defaultOptions } from '@utils/Fetch';
 import { join } from '@utils/PathUtils';
 import { emptyFunc } from '@utils/utils';
-import { CacheXMLBasedService, Entity, XHRModOptions } from '../CacheXMLBasedService';
+import { CacheXMLBasedService, Entity, XHRModOptions } from '../../utils/CacheXMLBasedService';
 
 type JSONBasedObject = Record<string | number, unknown>;
 class JSONEntity extends Entity<JSONBasedObject> {}

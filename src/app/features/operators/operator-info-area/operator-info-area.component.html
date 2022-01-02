@@ -1,12 +1,15 @@
 <scroll-container>
-	<div id="menu-abs-container">
+	<div id="menu-abs-container" [style.opacity]="menuVisible ? '1' : '0'">
 		<div id="menu">
 			<button [ngClass]="currentMenuIndex === 0 ? 'current' : ''" (click)="setMenuIndex(0)"><p>MAIN_INFO</p></button>
 			<button [ngClass]="currentMenuIndex === 1 ? 'current' : ''" (click)="setMenuIndex(1)"><p>SKILLS</p></button>
 			<button [ngClass]="currentMenuIndex === 2 ? 'current' : ''" (click)="setMenuIndex(2)"><p>STATS</p></button>
 		</div>
 	</div>
-	<div id="pages" [@slideUpDown]="currentMenuIndex">
+	<div id="pages" [style.opacity]="pagesVisible ? '1' : '0'" [@slideUpDown]="currentMenuIndex">
+		<page *ngIf="currentMenuIndex === -1">
+			<p style="height: 50px; width: 100%; background: transparent; pointer-events: none;"></p>
+		</page>
 		<page id="main-info" *ngIf="currentMenuIndex === 0">
 			<op-info-maininfo [currentOperator]="currentOp"></op-info-maininfo>
 		</page>

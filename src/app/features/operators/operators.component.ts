@@ -1,10 +1,9 @@
-import { Component, ElementRef, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 
 import { AppearDisappear } from '@utils/anims';
-import { waitAsync } from '@utils/utils';
-import { OperatorDataManagerService, zh_CN_CharIndex } from '@services/OperatorData/operator-data-manager.service';
-import { ImageDataService } from '@services/OperatorData/image-data.service';
+import { Nullable, waitAsync } from '@utils/utils';
+import { en_US_CharIndex, ja_JP_CharIndex, OperatorDataManagerService, zh_CN_CharIndex } from '@services/OperatorData/operator-data-manager.service';
 import { NotifService } from '@services/notif.service';
 import { AvailableLocales, Locales } from '@struct/Basic';
 import { OperatorHeaderData } from './operator-info-area/operator-info-area.component';
@@ -21,14 +20,13 @@ const anim_AppearDisappear = AppearDisappear();
 		anim_AppearDisappear,
 	]
 })
-export class OperatorsComponent implements OnInit {
+export class OperatorsComponent implements OnInit
+{
 	// CharImgAssetData: OperatorImageAssetData;
 
 	constructor(
 		private router: Router,
-		private ele: ElementRef,
 		private manager: OperatorDataManagerService,
-		private images: ImageDataService,
 		private notif: NotifService,
 		private json: JSONLoadService,
 		private sanitizer: DomSanitizer
@@ -40,43 +38,41 @@ export class OperatorsComponent implements OnInit {
 	uiAlignmentState!: 'default' | 'fullInfo' | 'fullImg';
 
 	ngOnInit(): void {
-		const self = this;
 		if (this.manager.isLoaded)
 			this.init();
-
-		if (!this.manager.isLoaded)
+		else
+		{
+			this.pickerUIVisible = true;
 			this.notif.send('Operators', 'Loading operator indexes...', 'info', { dynamic: true, presist: true });
-		this.manager.events.subscribe(async inst => {
-			if (inst.isLoaded)
-			{
-				//TODO: need {ACE_ROOT_DIR}/ace translation notes
-				await waitAsync(1000);
-				this.notif.send('Operators', 'Operator indexes loaded.', 'success', { dynamic: true }, 1800);
-				this.init();
-			}
-			else
-				this.notif.send('Operators', 'Failed to load operator indexes.', 'error', { presist: true });
-		});
+			this.manager.events.subscribe(async inst => {
+				if (inst.isLoaded)
+				{
+					//TODO: need {ACE_ROOT_DIR}/ace translation notes
+					await waitAsync(1000);
+					this.notif.send('Operators', 'Operator indexes loaded.', 'success', { dynamic: true }, 1800);
+					this.init();
+				}
+				else
+					this.notif.send('Operators', 'Failed to load operator indexes.', 'error', { presist: true });
+			});
+		}
 	}
 
 	init() {
 		const query = this.loadOperator();
 		this.locale = this.getLocale();
-		let _loc: Locales;
-		[this.currentOpId, _loc] = this.manager.getCharId(query ?? '', this.locale);
+		let [op, _loc] = this.manager.getCharId(query ?? '', this.locale);
 		if (this.locale !== _loc)
 		{
 			this.notif.send('Operators', `Operator ${query} is not available in [${this.locale}], using [${_loc}] instead.`, 'warning', { dynamic: true }, 10000);
 			this.locale = _loc;
 		}
-		if (!this.currentOpId)
+		if (!op)
 		{
 			this.router.navigate(['/operators'], { replaceUrl: true });
-			document.getElementById('info-area')?.setAttribute('picked', '');
 			this.headerString = 'Choose a character!';
 		}
-		else
-			this.displayOp();
+		this.switchView(op);
 	}
 
 	opHeaderData?: OperatorHeaderData;
@@ -87,18 +83,42 @@ export class OperatorsComponent implements OnInit {
 
 	async setOperatorHeaderData(data: OperatorHeaderData)
 	{
-		const imgblob = await this.manager.loadOpImages(`${this.currentOpId}`, 'avatars');
+		this.opHeaderImg = this.sanitizer.bypassSecurityTrustUrl(URL.createObjectURL((await this.manager.loadOpImages('char_nodata', 'avatars', undefined, true))!)) as string;
+		const imgblob = await this.manager.loadOpImages(`${this.currentOpId}`, 'avatars', undefined, new Boolean(data.displayNumber.match(/EX\d+/)).valueOf());
 		if (imgblob)
-			this.opHeaderImg =  this.sanitizer.bypassSecurityTrustUrl(URL.createObjectURL(imgblob)) as string;
+			this.opHeaderImg = this.sanitizer.bypassSecurityTrustUrl(URL.createObjectURL(imgblob)) as string;
 			waitAsync(100).then(() => this.opHeaderCodeSize = '20px');
 			waitAsync(500).then(() => {
 			this.opHeaderData = data;
-			this.opHeaderCNName = this.locale === 'zh_CN' ? '/' : Object.keys(this.manager.charList.zh_CN!).filter(k => this.manager.charList.zh_CN![k as keyof zh_CN_CharIndex] === this.currentOpId)[0] ?? '';
+			this.opHeaderCNName = this.locale === 'en_US' ?
+				Object.keys(this.manager.charList.ja_JP!).filter(k => this.manager.charList.ja_JP![k as keyof ja_JP_CharIndex] === this.currentOpId)[0] ?? '' :
+				data.appellation;
 		});
 	}
 
-	async displayOp() {
-		document.getElementById('info-area')?.setAttribute('picked', `${this.currentOpId}`);
+	setCurrentOpId(opId: Nullable<string>)
+	{
+		this.currentOpId = opId;
+	}
+
+	pickerUIVisible = false;
+	opInfoUIVisible = false;
+	async switchView(opId: Nullable<string>)
+	{
+		if (opId)
+		{
+			this.pickerUIVisible = false;
+			await waitAsync(1000);
+			this.setCurrentOpId(opId);
+			this.opInfoUIVisible = true;
+		}
+		else
+		{
+			this.opInfoUIVisible = false;
+			await waitAsync(1000);
+			this.setCurrentOpId(opId);
+			this.pickerUIVisible = true;
+		}
 	}
 
 	loadOperator() {
@@ -119,4 +139,3 @@ export class OperatorsComponent implements OnInit {
 		return this.router.parseUrl(this.router.url).queryParamMap.get(param);
 	}
 }
-

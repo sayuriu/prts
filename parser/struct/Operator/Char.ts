@@ -22,3 +22,5 @@ extends CharBasicInfo
 	talents: HasCandidate<CharTraitCandidate & WithNameAndDesc>;
 	potentialRank: CharPotential[];
 }
+
+export { CHAR_NAME, SUMMON_NAME, TRAP_NAME } from "./CharBasicInfo";

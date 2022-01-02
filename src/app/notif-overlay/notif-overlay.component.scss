@@ -18,6 +18,7 @@
 }
 
 #notif-overlay {
+	z-index: 2000;
 	position: absolute;
 	width: 100vw;
 	height: calc(3rem + 10px);

@@ -7,7 +7,9 @@ scroll-container {
 	#menu-abs-container {
 		height: 0;
 		width: 100%;
+		z-index: 0;
 		position: relative;
+		transition: opacity 0.3s $forceful 0.4s;
 		#menu {
 			@extend .flex-row;
 			position: absolute;
@@ -41,9 +43,11 @@ scroll-container {
 		}
 	}
 	#pages {
+		z-index: 1;
 		@extend .full-height-width;
 		overflow-y: auto;
 		position: relative;
+		transition: opacity 0.5s $forceful 0.4s;
 		page {
 			width: 100%;
 			height: auto;

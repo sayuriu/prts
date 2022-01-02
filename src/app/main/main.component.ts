@@ -6,7 +6,6 @@ import { gsap } from 'gsap';
 import { BrowserWindow } from '@utils/interfaces/common';
 import { repository } from '@utils/package';
 import GitCommit from '@utils/interfaces/GitCommit';
-import { HTMLBasedComponent } from '@utils/HTMLComponent';
 import { AnimationFunctions, AppearDisappear } from '@utils/anims';
 import { Nullable, waitAsync } from '@utils/utils';
 
@@ -49,7 +48,7 @@ const appearDisappear = AppearDisappear(`250ms ${AnimationFunctions.Forceful}`);
 		])
 	]
 })
-export class MainComponent extends HTMLBasedComponent implements OnInit, OnDestroy {
+export class MainComponent implements OnInit, OnDestroy {
 
 	readonly appVersion = (window as BrowserWindow).__env.AppVersion;
 	currentMenuOptions = menuOptions;
@@ -59,9 +58,7 @@ export class MainComponent extends HTMLBasedComponent implements OnInit, OnDestr
 		private theme: ThemeMangerService,
 		private hoverReact: HoverReactService,
 		private json: JSONLoadService
-	) {
-		super();
-	}
+	) {}
 
 	ngOnInit(): void {
 		this.theme.listen((this.eleRef.nativeElement as HTMLElement).querySelector('.container') as HTMLElement);

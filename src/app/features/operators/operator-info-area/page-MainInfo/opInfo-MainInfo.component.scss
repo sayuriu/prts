@@ -1,0 +1,63 @@
+@import "../../../../../utils";
+@import "../../../../../anims";
+
+#container {
+	width: 100%;
+	height: auto;
+	.odd {
+		background: #e3e3e3;
+	}
+	#basic-info {
+		@extend .flex-row;
+		height: 174px;
+		#info-area {
+			width: calc(100% - 174px);
+			.line {
+				@extend .flex-row;
+			}
+			#line1 {
+				margin-top: 2px;
+				rarity-star {
+					@extend .flex-row;
+					margin-right: auto;
+					margin-left: 22px;
+					#star-container {
+						@extend .flex-align-center;
+						&:not(:first-child) {
+							margin-left: -9px;
+						}
+					}
+				}
+			}
+		}
+		#right-section {
+			margin-left: auto;
+			@extend .flex-row;
+			height: 100%;
+			width: 184px;
+			#faction-img {
+				aspect-ratio: 1;
+				width: 174px;
+				position: relative;
+				background: #6e6e6e;
+				img {
+					@extend .full-height-width;
+					object-fit: fill;
+				}
+				p {
+					color: white;
+					position: absolute;
+					background: #000;
+					margin: 0 0 0 4px;
+					opacity: 0;
+					transition: opacity 0.3s $forceful;
+				}
+				&:hover {
+					p {
+						opacity: 1;
+					}
+				}
+			}
+		}
+	}
+}

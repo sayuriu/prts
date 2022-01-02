@@ -1,9 +1,10 @@
-import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter, OnChanges, SimpleChanges } from '@angular/core';
 import { animate, animateChild, group, query, style, transition, trigger } from '@angular/animations';
 import { CHAR_NAME, Operator } from '@struct/Operator/Char';
 import { Locales, Range } from '@struct/Basic';
 import { OperatorDataManagerService, zh_CN_CharIndex } from '@services/OperatorData/operator-data-manager.service';
 import { AnimationFunctions } from '@utils/anims';
+import { waitAsync } from '@utils/utils';
 
 @Component({
 	selector: 'app-operator-info-area',
@@ -82,7 +83,8 @@ import { AnimationFunctions } from '@utils/anims';
 		]),
 	]
 })
-export class OperatorInfoAreaComponent implements OnInit {
+export class OperatorInfoAreaComponent implements OnInit, OnChanges
+{
 
 	constructor(
 		private manager: OperatorDataManagerService,
@@ -90,11 +92,24 @@ export class OperatorInfoAreaComponent implements OnInit {
 
 	@Input() opId!: string;
 	@Input() serverLocale!: Locales;
-	currentOp!: Operator;
+	@Input() visible = false;
 	@Output() onOperatorChange = new EventEmitter<OperatorHeaderData>();
 
+	currentOp!: Operator;
+	menuVisible = false;
+	pagesVisible = false;
 	ngOnInit(): void {
-		this.init();
+		this.visible = true;
+		this.init().then(async () => {
+			this.menuVisible = true
+			this.pagesVisible = true;
+			await waitAsync(600);
+			this.setMenuIndex(0);
+		});
+	}
+	ngOnChanges(changes: SimpleChanges): void {
+		if (changes.visible && !this.menuVisible && !this.pagesVisible)
+			this.init();
 	}
 	async init()
 	{
@@ -110,13 +125,14 @@ export class OperatorInfoAreaComponent implements OnInit {
 			id: this.opId,
 			displayNumber: this.currentOp.displayNumber,
 			name: this.currentOp.name,
+			appellation: this.currentOp.appellation,
 			groupId: this.currentOp.groupId ?? '',
 			nationId: this.currentOp.nationId,
 		});
 	}
 
-	currentMenuIndex: number = 0;
-	setMenuIndex(index: Range<0, 3>)
+	currentMenuIndex: number = -1;
+	setMenuIndex(index: Range<0, 3> | -1)
 	{
 		this.currentMenuIndex = index;
 	}
@@ -126,6 +142,7 @@ export type OperatorHeaderData = {
 	id: string;
 	displayNumber: string;
 	name: string;
+	appellation: string;
 	nationId: string;
 	groupId: string;
 }

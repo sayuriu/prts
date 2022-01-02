@@ -1,1 +1,43 @@
-<p style="height: 100%; width: 100%; background: red; margin: 0;">maininfo works!</p>
+<div id="container">
+	<div id="basic-info" class="odd">
+		<div id="info-area">
+			<div id="line1" class="line">
+				<rarity-star>
+					<div id="star-container" *ngFor="let _ of rarity">
+						<img src="/assets/img/star.png">
+					</div>
+				</rarity-star>
+				<text-field
+
+				></text-field>
+				<spacer style="width: 20px;"></spacer>
+				<text-field
+
+				></text-field>
+			</div>
+			<div id="line2" class="line">
+				<text-field
+
+				></text-field>
+			</div>
+			<div id="line3" class="line">
+				<text-field
+
+				></text-field>
+			</div>
+		</div>
+		<div id="right-section">
+			<spacer style="width: 10px; height: 100%"></spacer>
+			<div id="faction-img">
+				<p id="label">{{currentOpFaction.powerName}}</p>
+				<img id="op-faction" [src]="factionImgURL">
+			</div>
+		</div>
+	</div>
+	<div id="class-profession">
+
+	</div>
+	<div id="talents" class="odd">
+
+	</div>
+</div>

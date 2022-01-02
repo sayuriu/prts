@@ -6,6 +6,10 @@
 	max-height: 100%;
 	z-index: 0;
 	#filter-menu-toggle {
+		z-index: -1;
+		transition:
+			opacity 0.3s $forceful 0.3s,
+			transform 0.3s $forceful 0.5s;
 		position: absolute;
 		right: 0;
 		bottom: 100%;
@@ -18,6 +22,7 @@
 		}
 	}
 	#filter-collapse-menu {
+		z-index: 1;
 		background: #c4c4c4;
 		height: 87px;
 		width: 100%;

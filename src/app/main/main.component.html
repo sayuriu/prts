@@ -43,10 +43,10 @@
 							<div id="header" *ngIf="changelog.date && changelog.version && changelog.changes.length">
 								<date>{{changelog.date}}</date>&thinsp;@&thinsp;<version>{{changelog.version}}</version>
 							</div>
-							<p class="changes" *ngFor="let change of changelog.changes">
-								{{change}}
-								<!-- <p [innerText]="change"></p> -->
-							</p>
+							<div class="changes" *ngFor="let change of changelog.changes">
+								<!-- {{change}} -->
+								<p [outerHTML]="'<i>' + change + '</i>'"></p>
+							</div>
 						</div>
 					</ul>
 				</div>
@@ -167,7 +167,7 @@
 					<p id="desc">{{menu.available ? menu.description : 'Coming soon!'}}</p>
 				</div>
 				<div id="hitbox-overlay">
-					<a *ngIf="menu.available && menu.routerTarget" routerLink="{{menu.routerTarget}}" routerLinkActive="{{menu.routerTarget}}"></a>
+					<a *ngIf="menu.available && menu.routerTarget" [routerLink]="menu.routerTarget" routerLinkActive="{{menu.routerTarget}}"></a>
 				</div>
 			</div>
 		</div>

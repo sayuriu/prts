@@ -4,7 +4,7 @@
 			<app-operator-img [opName]="currentOpId"></app-operator-img>
 		</div>
 		<div id="img-area-blocker" [ngClass]="currentOpId ? 'default' : 'collapsed'"></div>
-		<div id="info-area" [ngClass]="currentOpId ? 'default' : 'expanded'">
+		<div id="info-area" [attr.picked]="currentOpId ? currentOpId : ''" [ngClass]="currentOpId ? 'default' : 'expanded'">
 			<header [ngClass]="(currentOpId ? 'full' : 'collapsed') + ' hasDelay'">
 				<!-- <button id="info-expand"></button> -->
 				<picker-title *ngIf="!currentOpId" @AppearDisappear><i>Pick an Operator!</i></picker-title>
@@ -36,8 +36,19 @@
 					</op-img-code>
 				</op-info-header>
 			</header>
-			<app-operator-info-area (onOperatorChange)='setOperatorHeaderData($event)' *ngIf="currentOpId" [opId]="currentOpId" [serverLocale]="locale" @AppearDisappear></app-operator-info-area>
-			<app-operator-picker-area *ngIf="!currentOpId" @AppearDisappear></app-operator-picker-area>
+			<app-operator-info-area
+				(onOperatorChange)='setOperatorHeaderData($event)'
+				*ngIf="currentOpId"
+				[opId]="currentOpId"
+				[serverLocale]="locale"
+				[visible]="opInfoUIVisible"
+				@AppearDisappear
+			></app-operator-info-area>
+			<app-operator-picker-area
+				*ngIf="!currentOpId"
+				[visible]="pickerUIVisible"
+				@AppearDisappear
+			></app-operator-picker-area>
 		</div>
 	</div>
 </div>

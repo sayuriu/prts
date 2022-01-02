@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { CacheXMLBasedService, XHRModOptions, Entity } from '@services/CacheXMLBasedService';
+import { CacheXMLBasedService, XHRModOptions, Entity } from '@utils/CacheXMLBasedService';
 import { join } from '@utils/PathUtils';
 import { emptyFunc, NullablePromise } from '@utils/utils';
 
@@ -8,7 +8,7 @@ import { emptyFunc, NullablePromise } from '@utils/utils';
 	providedIn: 'root'
 })
 export class ImageDataService extends CacheXMLBasedService<Blob> {
-	readonly BASE_PATH = 'assets/gamedata/img';
+	readonly BASE_PATH = 'assets';
 	readonly CACHE_TIMEOUT_MS = 600000;
 	constructor()
 	{

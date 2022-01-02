@@ -329,6 +329,7 @@ $header-height: math.div(81px, 1080px) * 100vh;
 									@include hover-std($position: upper, $maxWidth: 350%, $leftMargin: -100%);
 								}
 								&#commit-hash {
+									color: hsl(0, 0%, 50%);
 									@include hover-std($position: upper, $maxWidth: 22ch, $leftMargin: -100%);
 								}
 								text-decoration: none;
