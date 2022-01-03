@@ -1,14 +1,8 @@
-<div id="field-container">
-	<!-- <div
-		class="label"
-		[ngStyle]="labelDisplay.toNgStyle()"
-	>
-		<p>{{labelDisplay.textValue}}</p>
+<div class="field-container inert-bound-box" [ngStyle]="_boundRect.toNgStyle()">
+	<div class="field-label inert-bound-box" [ngStyle]="_labelField.toNgStyle()">
+		<p class="field-label-textfield inert-bound-box" [ngStyle]="_labelFieldText.toNgStyle()">{{_labelFieldText.textValue}}</p>
 	</div>
-	<div
-		class="value"
-		[ngStyle]="valueDisplay.toNgStyle()"
-	>
-		<p>{{valueDisplay.textValue}}</p>
-	</div> -->
+	<div class="field-value inert-bound-box" [ngStyle]="_valueField.toNgStyle()">
+		<p class="field-value-textfield inert-bound-box" [ngStyle]="_valueFieldText.toNgStyle()">{{_valueFieldText.textValue}}</p>
+	</div>
 </div>

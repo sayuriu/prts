@@ -2,32 +2,149 @@
 	<div id="basic-info" class="odd">
 		<div id="info-area">
 			<div id="line1" class="line">
-				<rarity-star>
-					<div id="star-container" *ngFor="let _ of rarity">
+				<rarity-star
+					style="width: 180px;"
+					[ngStyle]="{
+						background: currentOperator.rarity >= 0 ? ('url(/assets/gamedata/img/characters/ui/chara/glow-' + (currentOperator.rarity + 1).toString() + '.png)') : 'transparent',
+						backgroundSize: 'cover',
+						backgroundPosition: 'left 0 bottom 60%',
+						boxShadow: '-3px 0 3px 0 #e3e3e3 inset'
+					}"
+				>
+					<spacer style="width: 22px;"></spacer>
+					<div class="fh" id="star-container" *ngFor="let _ of rarity, let i = index" [style.--order]="i">
 						<img src="/assets/img/star.png">
 					</div>
 				</rarity-star>
 				<text-field
-
+					[boundRect]="{ centerChildren: [true], width: '128px', height: '42px' }"
+					[labelField]="{
+						centerChildren: [true],
+						height: '100%',
+						width: '94.5px',
+						borderMatrixOverride: ['', '0', '', ''],
+						border: '1px solid black'
+					}"
+					[labelFieldText]="{
+						textValue: 'Gender',
+						textSize: '20px',
+						textAlign: 'center'
+					}"
+					[valueField]="{
+						centerChildren: [true],
+						height: '100%',
+						width: '33.5px',
+						borderFgMatchBg: true,
+						border: '1px solid black',
+						background: genderColor['N']
+					}"
+					[valueFieldText]="{
+						textValue: 'N',
+						textSize: '20px',
+						textAlign: 'center',
+						textColor: 'white'
+					}"
 				></text-field>
 				<spacer style="width: 20px;"></spacer>
 				<text-field
-
+					[boundRect]="{ centerChildren: [true], width: '224px', height: '42px' }"
+					[labelField]="{
+						centerChildren: [true],
+						height: '100%',
+						width: '110px',
+						borderMatrixOverride: ['', '0', '', ''],
+						border: '1px solid black'
+					}"
+					[labelFieldText]="{
+						textValue: 'Position',
+						textSize: '20px',
+						textAlign: 'center'
+					}"
+					[valueField]="{
+						centerChildren: [true],
+						height: '100%',
+						width: '114px',
+						borderFgMatchBg: true,
+						border: '1px solid black',
+						background: '#3F3F3F'
+					}"
+					[valueFieldText]="{
+						textValue: currentOperator.position,
+						textSize: '20px',
+						textAlign: 'center',
+						textColor: 'white'
+					}"
 				></text-field>
 			</div>
 			<div id="line2" class="line">
-				<text-field
-
+				<spacer style="width: 22px;"></spacer>
+				<text-field class="fw"
+					[boundRect]="{ centerChildren: [true], width: 'auto', height: '42px' }"
+					[labelField]="{
+						centerChildren: [true],
+						height: '100%',
+						width: '73.5px',
+						borderMatrixOverride: ['', '0', '', ''],
+						border: '1px solid black'
+					}"
+					[labelFieldText]="{
+						textValue: 'Role',
+						textSize: '20px',
+						textAlign: 'center'
+					}"
+					[valueField]="{
+						centerChildren: [true, 'flex-start'],
+						height: '100%',
+						expandToAvailableSpace: true,
+						borderFgMatchBg: true,
+						border: '1px solid black',
+						background: '#3F3F3F'
+					}"
+					[valueFieldText]="{
+						textValue: 'OP_INFO.ROLE_TAG_ARRAY',
+						textSize: '20px',
+						textAlign: 'center',
+						textColor: 'white',
+						margin: '0 0 0 13px'
+					}"
 				></text-field>
 			</div>
 			<div id="line3" class="line">
-				<text-field
-
+				<spacer style="width: 22px;"></spacer>
+				<text-field class="fw"
+					[boundRect]="{ centerChildren: [true], width: '100%', height: '42px' }"
+					[labelField]="{
+						centerChildren: [true],
+						height: '100%',
+						width: '73.5px',
+						borderMatrixOverride: ['', '0', '', ''],
+						border: '1px solid black'
+					}"
+					[labelFieldText]="{
+						textValue: 'Trait',
+						textSize: '20px',
+						textAlign: 'center'
+					}"
+					[valueField]="{
+						centerChildren: [true, 'flex-start'],
+						height: '100%',
+						expandToAvailableSpace: true,
+						borderFgMatchBg: true,
+						border: '1px solid black',
+						background: '#3F3F3F'
+					}"
+					[valueFieldText]="{
+						textValue: 'OP_INFO.TRAIT_DATA',
+						textSize: '20px',
+						textAlign: 'left',
+						textColor: 'white',
+						margin: '0 0 0 13px'
+					}"
 				></text-field>
 			</div>
 		</div>
 		<div id="right-section">
-			<spacer style="width: 10px; height: 100%"></spacer>
+			<spacer class="fh" style="width: 10px;"></spacer>
 			<div id="faction-img">
 				<p id="label">{{currentOpFaction.powerName}}</p>
 				<img id="op-faction" [src]="factionImgURL">

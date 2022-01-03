@@ -37,7 +37,7 @@ import { waitAsync } from '@utils/utils';
 							opacity: 0,
 						}),
 						animate(
-							`0.5s ${AnimationFunctions.Forceful}`,
+							`0.5s 0.15s ${AnimationFunctions.Forceful}`,
 							style({
 								opacity: 1,
 								top: 0,
@@ -71,7 +71,7 @@ import { waitAsync } from '@utils/utils';
 							opacity: 0,
 						}),
 						animate(
-							`0.5s ${AnimationFunctions.Forceful}`,
+							`0.5s 0.15s ${AnimationFunctions.Forceful}`,
 							style({
 								opacity: 1,
 								top: 0,
@@ -123,6 +123,7 @@ export class OperatorInfoAreaComponent implements OnInit, OnChanges
 	{
 		this.onOperatorChange.emit({
 			id: this.opId,
+			rarity: this.currentOp.rarity,
 			displayNumber: this.currentOp.displayNumber,
 			name: this.currentOp.name,
 			appellation: this.currentOp.appellation,
@@ -145,4 +146,5 @@ export type OperatorHeaderData = {
 	appellation: string;
 	nationId: string;
 	groupId: string;
+	rarity: number;
 }

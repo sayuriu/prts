@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 
 import { AppearDisappear } from '@utils/anims';
-import { Nullable, waitAsync } from '@utils/utils';
+import { emptyFunc, Nullable, waitAsync } from '@utils/utils';
 import { en_US_CharIndex, ja_JP_CharIndex, OperatorDataManagerService, zh_CN_CharIndex } from '@services/OperatorData/operator-data-manager.service';
 import { NotifService } from '@services/notif.service';
 import { AvailableLocales, Locales } from '@struct/Basic';
@@ -78,21 +78,31 @@ export class OperatorsComponent implements OnInit
 	opHeaderData?: OperatorHeaderData;
 	opHeaderCNName = '';
 	opHeaderImg = '';
+	opHeaderRarityImg = '';
+	opHeaderRarityImgLoaded = false;
 	opHeaderID = '';
 	opHeaderCodeSize = '16px';
 
 	async setOperatorHeaderData(data: OperatorHeaderData)
 	{
 		this.opHeaderImg = this.sanitizer.bypassSecurityTrustUrl(URL.createObjectURL((await this.manager.loadOpImages('char_nodata', 'avatars', undefined, true))!)) as string;
+		this.opHeaderRarityImg = this.sanitizer.bypassSecurityTrustUrl(URL.createObjectURL(new Blob())) as string;
 		const imgblob = await this.manager.loadOpImages(`${this.currentOpId}`, 'avatars', undefined, new Boolean(data.displayNumber.match(/EX\d+/)).valueOf());
 		if (imgblob)
 			this.opHeaderImg = this.sanitizer.bypassSecurityTrustUrl(URL.createObjectURL(imgblob)) as string;
-			waitAsync(100).then(() => this.opHeaderCodeSize = '20px');
-			waitAsync(500).then(() => {
+		waitAsync(100).then(() => this.opHeaderCodeSize = '20px');
+		waitAsync(500).then(() => {
 			this.opHeaderData = data;
 			this.opHeaderCNName = this.locale === 'en_US' ?
 				Object.keys(this.manager.charList.ja_JP!).filter(k => this.manager.charList.ja_JP![k as keyof ja_JP_CharIndex] === this.currentOpId)[0] ?? '' :
 				data.appellation;
+			this.manager.cachedImages.load(`gamedata/img/characters/ui/chara/glow-${data.rarity + 1}.png`, { onExpire: emptyFunc }).then(v => {
+				if (v)
+				{
+					this.opHeaderRarityImg = this.sanitizer.bypassSecurityTrustUrl(URL.createObjectURL(v)) as string;
+					waitAsync(200).then(() => this.opHeaderRarityImgLoaded = true);
+				}
+			})
 		});
 	}
 

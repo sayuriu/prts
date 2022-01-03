@@ -84,20 +84,17 @@
 						display: flex;
 						justify-content: space-between;
 						#img {
-							height: 100%;
 							@extend .flex-align-center;
 							#op-avatar {
 								aspect-ratio: 1;
 								height: calc(100% - 18px);
-								width: 100%;
 								background: #c4c4c4;
 								img {
-									height: 100%;
+									transition: transform 1s cubic-bezier(0.18, 0, 0.08, 1);
 								}
 							}
 						}
 						op-code {
-							height: 100%;
 							@extend .flex-align-center;
 							font-size: var(--fontsize);
 							font-weight: lighter;
@@ -118,11 +115,9 @@
 			}
 			app-operator-info-area {
 				height: calc(100% - 140px);
-				width: 100%;
 			}
 			app-operator-picker-area {
 				height: calc(100% - 80px);
-				width: 100%;
 			}
 		}
 	}

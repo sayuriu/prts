@@ -27,7 +27,6 @@
 	@extend .flex-justify-center;
 	#notif-overlay-content {
 		width: auto;
-		height: 100%;
 		transition: width 0.2s ease-in-out;
 		position: relative;
 		@extend .flex-row;
@@ -40,7 +39,6 @@
 		background-color: var(--globalForegroundInverse);
 		color: var(--globalForeground);
 		#notif-overlay-content-main {
-			height: 100%;
 			@extend .flex-row;
 			@extend .notif-levels-error;
 			@extend .notif-levels-warning;
@@ -80,12 +78,10 @@
 		}
 		#remaining-unread
 		{
-			height: 100%;
 			border-left: 1px solid var(--globalForeground);
 		}
 		#notif-overlay-clearall
 		{
-			height: 100%;
 			align-items: center;
 			border: 0px;
 			background: transparent;
@@ -93,8 +89,6 @@
 			font-size: 1.5rem;
 			font-family: JetBrains Mono;
 			svg {
-				height: 100%;
-				width: 100%;
 				object-fit: contain;
 				line {
 					stroke: var(--globalForeground);
@@ -103,7 +97,6 @@
 		}
 		#notif-overlay-progress-bar
 		{
-			width: 100%;
 			height: 5px;
 			position: absolute;
 			bottom: 0;
@@ -111,7 +104,6 @@
 			@extend .flex-justify-center;
 			#notif-overlay-progress-bar-fill
 			{
-				height: 100%;
 				width: 0%;
 				background-color: var(--globalForeground);
 				transition-timing-function: ease-in-out;

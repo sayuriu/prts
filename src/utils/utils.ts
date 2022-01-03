@@ -18,3 +18,4 @@ export const emptyFunc = (...args: any[]) => {};
 export type Nullable<T> = T | null;
 export type NullablePromise<T> = Promise<Nullable<T>>;
 export type ValueOf<T> = T[keyof T];
+export type ExcludeProp<T, K extends keyof T> = Pick<T, Exclude<keyof T, K>>;

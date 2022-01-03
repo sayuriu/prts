@@ -11,19 +11,21 @@
 		@extend .flex-row;
 		height: 174px;
 		#info-area {
-			width: calc(100% - 174px);
+			width: calc(100% - 196px);
 			.line {
 				@extend .flex-row;
+				margin-top: 12px;
+				&:last-child {
+					margin-bottom: 12px;
+				}
 			}
 			#line1 {
-				margin-top: 2px;
 				rarity-star {
 					@extend .flex-row;
 					margin-right: auto;
-					margin-left: 22px;
 					#star-container {
 						@extend .flex-align-center;
-						&:not(:first-child) {
+						&:not(:first-of-type):not(spacer) {
 							margin-left: -9px;
 						}
 					}

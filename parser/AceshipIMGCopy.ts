@@ -80,8 +80,16 @@ export function copyIMG()
 			else if (stats.isFile())
 			{
 				try {
-					Logger.info(header, `Copying ${Logger.yellow(files)}...`, false);
-					copyFileSync(_source, _dest);
+					if (_source.match('_override'))
+					{
+						Logger.info(header, `Overwriting ${Logger.yellow(files)}...`, false);
+						copyFileSync(_source, _dest.replace('_override', ''));
+					}
+					else
+					{
+						Logger.info(header, `Copying ${Logger.yellow(files)}...`, false);
+						copyFileSync(_source, _dest);
+					}
 					Logger.info(null, Logger.green('done'));
 					success.increment();
 				}

@@ -1,7 +1,11 @@
-#field-container {
-	display: flex;
-	flex-direction: row;
-	.value {
+@import "../../utils";
+
+.field-container {
+	@extend .flex-row;
+	div {
+		height: 100%;
+	}
+	div, p {
 		width: auto;
 	}
 }

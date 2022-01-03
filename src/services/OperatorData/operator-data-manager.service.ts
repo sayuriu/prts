@@ -68,7 +68,7 @@ export class OperatorDataManagerService {
 	readonly imagePath = 'gamedata/img';
 
 	constructor(
-		private cachedImages: ImageDataService,
+		public cachedImages: ImageDataService,
 		private JSONAssets: JSONLoadService
 	) {
 		this.events = new Subject<this>();

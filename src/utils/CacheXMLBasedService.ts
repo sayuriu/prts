@@ -16,13 +16,13 @@ export abstract class CacheXMLBasedService<E>
 	protected abstract load(id: string, options: XHRModOptions<E>): NullablePromise<E>;
 	protected _load(id: string, options: XHRModOptions<E>): NullablePromise<E>
 	{
-		if (this._cache.has(id) && !options.force)
-		{
-			const data = this._cache.get(id)!;
-			this.renew(id);
-			return Promise.resolve(data.value);
-		}
 		return new Promise((resolve, reject) => {
+			if (this._cache.has(id) && !options.force)
+			{
+				const data = this._cache.get(id)!;
+				if (Date.now() - (data.instantiatedTimestamp + data.lifetime) < 60000) this.renew(id);
+				return resolve(data.value);
+			}
 			Fetch<E>(id, options)
 				.then((value) => {
 					this.save(id, value, options.lifetime, options.onExpire);
@@ -43,8 +43,8 @@ export abstract class CacheXMLBasedService<E>
 				timeout,
 				setTimeout(() => {
 					const data = this._cache.get(id)!;
-					this._cache.delete(id);
 					data.onExpire(data);
+					this._cache.delete(id);
 				}, timeout) as unknown as number,
 				onExpire
 			),
@@ -65,8 +65,8 @@ export abstract class CacheXMLBasedService<E>
 				0,
 				setTimeout(() => {
 					const data = this._cache.get(id)!;
-					this._cache.delete(id);
 					data.onExpire(data);
+					this._cache.delete(id);
 				}, existSession?.lifetime ?? 0) as unknown as number,
 				undefined,
 				existSession

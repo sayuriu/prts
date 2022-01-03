@@ -25,6 +25,12 @@ export class OpMainInfoComponent implements OnInit {
 		this.init();
 	}
 
+	readonly genderColor = {
+		'M': '#0e59e4',
+		'F': '#e02350',
+		'N': '#6f6f6f'
+	}
+
 	async init() {
 		this.currentOpFaction = await this.manager.getFactionData(this.getFactionID());
 		this.factionImgURL = this.sanitizer.bypassSecurityTrustUrl(URL.createObjectURL((await this.manager.loadOpImages('char_nodata', 'avatars', undefined, true))!)) as string;
@@ -42,10 +48,4 @@ export class OpMainInfoComponent implements OnInit {
 			return this.currentOperator.teamId;
 		return this.currentOperator.nationId;
 	}
-}
-
-const genderColor = {
-	'M': '#0e59e4',
-	'F': '#e02350',
-	'N': '#6f6f6f'
 }

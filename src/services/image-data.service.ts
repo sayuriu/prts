@@ -21,7 +21,6 @@ export class ImageDataService extends CacheXMLBasedService<Blob> {
 	}
 	protected save(path: string, data: Blob, timeout = this.CACHE_TIMEOUT_MS, onExpires: (data: Entity<Blob>) => void = emptyFunc)
 	{
-		console.log(data);
 		this._save(join(this.BASE_PATH, path), data, timeout, onExpires);
 	}
 	protected renew(path: string): void {
