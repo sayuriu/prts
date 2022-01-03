@@ -52,7 +52,8 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false
 					}
 				},
 				{
@@ -77,7 +78,8 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false
 					}
 				}
 			],
@@ -110,7 +112,8 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false
 					}
 				},
 				{
@@ -135,7 +138,8 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false
 					}
 				}
 			],
@@ -184,7 +188,8 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false
 					}
 				},
 				{
@@ -209,7 +214,8 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false
 					}
 				}
 			],
@@ -410,7 +416,7 @@
 					},
 					"requiredPotentialRank": 0,
 					"prefabKey": "1",
-					"name": "战术性休整",
+					"name": "战术性调整",
 					"description": "4秒内没有主动攻击过，技力自然回复速度+0.2/秒",
 					"rangeId": null,
 					"blackboard": [
@@ -431,7 +437,7 @@
 					},
 					"requiredPotentialRank": 4,
 					"prefabKey": "1",
-					"name": "战术性休整",
+					"name": "战术性调整",
 					"description": "4秒内没有主动攻击过，技力自然回复速度+0.25<@ba.talpu>（+0.05）</>/秒",
 					"rangeId": null,
 					"blackboard": [
@@ -452,7 +458,7 @@
 					},
 					"requiredPotentialRank": 0,
 					"prefabKey": "1",
-					"name": "战术性休整",
+					"name": "战术性调整",
 					"description": "4秒内没有主动攻击过，技力自然回复速度+0.45/秒",
 					"rangeId": null,
 					"blackboard": [
@@ -473,7 +479,7 @@
 					},
 					"requiredPotentialRank": 4,
 					"prefabKey": "1",
-					"name": "战术性休整",
+					"name": "战术性调整",
 					"description": "4秒内没有主动攻击过，技力自然回复速度+0.5<@ba.talpu>（+0.05）</>/秒",
 					"rangeId": null,
 					"blackboard": [
@@ -613,7 +619,8 @@
 				"baseForceLevel": 0,
 				"stunImmune": false,
 				"silenceImmune": false,
-				"sleepImmune": false
+				"sleepImmune": false,
+				"frozenImmune": false
 			}
 		},
 		{
@@ -638,7 +645,8 @@
 				"baseForceLevel": 0,
 				"stunImmune": false,
 				"silenceImmune": false,
-				"sleepImmune": false
+				"sleepImmune": false,
+				"frozenImmune": false
 			}
 		}
 	],

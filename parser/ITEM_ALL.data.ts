@@ -9,31 +9,35 @@ exports = {
     classifyType: 'MATERIAL',
     itemType: 'LIMITED_TKT_GACHA_10',
     stageDropList: [{
-            stageId: 'act17d0_04',
+            stageId: 'act15d5_02',
             occPer: 'SOMETIMES'
         },
         {
-            stageId: 'act17d0_06',
+            stageId: 'act15d0_03',
             occPer: 'SOMETIMES'
         },
         {
-            stageId: 'act13d5_05',
+            stageId: 'act17d0_01',
             occPer: 'SOMETIMES'
         },
         {
-            stageId: 'act12d0_04',
+            stageId: 'act17d0_02',
             occPer: 'ALMOST'
         },
         {
-            stageId: 'main_06-05',
+            stageId: 'act17d0_03',
             occPer: 'ALWAYS'
         },
         {
-            stageId: 'act11d0_04',
-            occPer: 'ALMOST'
+            stageId: 'act13d5_02',
+            occPer: 'ALWAYS'
         },
         {
-            stageId: 'main_07-05',
+            stageId: 'act13d0_02',
+            occPer: 'ALWAYS'
+        },
+        {
+            stageId: 'act12d0_01',
             occPer: 'ALWAYS'
         },
         {
@@ -41,11 +45,11 @@ exports = {
             occPer: 'ALWAYS'
         },
         {
-            stageId: 'main_07-02',
+            stageId: 'act11d0_03',
             occPer: 'ALWAYS'
         },
         {
-            stageId: 'main_05-10',
+            stageId: 'act10d5_02',
             occPer: 'ALWAYS'
         },
         {
@@ -57,7 +61,7 @@ exports = {
             occPer: 'ALWAYS'
         },
         {
-            stageId: 'sub_03-3-2',
+            stageId: 'main_00-09',
             occPer: 'ALWAYS'
         },
         {

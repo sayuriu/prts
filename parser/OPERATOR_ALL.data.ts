@@ -39,7 +39,8 @@ exports = {
                         baseForceLevel: 0,
                         stunImmune: false,
                         silenceImmune: false,
-                        sleepImmune: false
+                        sleepImmune: false,
+                        frozenImmune: false
                     }
                 },
                 {
@@ -64,7 +65,8 @@ exports = {
                         baseForceLevel: 0,
                         stunImmune: false,
                         silenceImmune: false,
-                        sleepImmune: false
+                        sleepImmune: false,
+                        frozenImmune: false
                     }
                 }
             ],
@@ -96,7 +98,8 @@ exports = {
                         baseForceLevel: 0,
                         stunImmune: false,
                         silenceImmune: false,
-                        sleepImmune: false
+                        sleepImmune: false,
+                        frozenImmune: false
                     }
                 },
                 {
@@ -121,7 +124,8 @@ exports = {
                         baseForceLevel: 0,
                         stunImmune: false,
                         silenceImmune: false,
-                        sleepImmune: false
+                        sleepImmune: false,
+                        frozenImmune: false
                     }
                 }
             ],
@@ -168,7 +172,8 @@ exports = {
                         baseForceLevel: 0,
                         stunImmune: false,
                         silenceImmune: false,
-                        sleepImmune: false
+                        sleepImmune: false,
+                        frozenImmune: false
                     }
                 },
                 {
@@ -193,7 +198,8 @@ exports = {
                         baseForceLevel: 0,
                         stunImmune: false,
                         silenceImmune: false,
-                        sleepImmune: false
+                        sleepImmune: false,
+                        frozenImmune: false
                     }
                 }
             ],
@@ -663,7 +669,8 @@ exports = {
                 baseForceLevel: 0,
                 stunImmune: false,
                 silenceImmune: false,
-                sleepImmune: false
+                sleepImmune: false,
+                frozenImmune: false
             }
         },
         {
@@ -688,7 +695,8 @@ exports = {
                 baseForceLevel: 0,
                 stunImmune: false,
                 silenceImmune: false,
-                sleepImmune: false
+                sleepImmune: false,
+                frozenImmune: false
             }
         }
     ],
@@ -832,7 +840,7 @@ exports = {
                 ],
                 overrideDescripton: '恢复友方单位生命，并回复相当于攻击力<@ba.kw>{ep_heal_ratio:0%}</>的<$ba.dt.element>元素损伤</>（可以回复未受伤友方单位的<$ba.dt.element>元素损伤</>）',
                 prefabKey: '-1',
-                rangeId: null
+                rangeId: '1-3'
             },
             {
                 unlockCondition: {

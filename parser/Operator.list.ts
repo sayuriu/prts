@@ -80,6 +80,7 @@ export const List = {
         moeshd: '201',
         demkni: '202',
         platnm: '204',
+        gnosis: '206',
         melan: '208',
         ardign: '209',
         stward: '210',
@@ -176,6 +177,7 @@ export const List = {
         jnight: '4000',
         pudd: '4004',
         weedy: '400',
+        kjera: '4013',
         elysm: '401',
         tuye: '402',
         absin: '405',
@@ -184,6 +186,7 @@ export const List = {
         zumama: '416',
         flamtl: '420',
         crow: '421',
+        aurora: '422',
         blemsh: '423',
         billro: '426',
         fartth: '430',
@@ -268,7 +271,8 @@ export const List = {
         dublst: '045',
         oxygen: '046',
         neonlamp: '048',
-        candle: '049'
+        candle: '049',
+        blizzard: '050'
     },
     token: {
         healrb: {

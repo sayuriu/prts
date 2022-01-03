@@ -1,6 +1,6 @@
 {
 	"name": "도베르만",
-	"description": " <@ba.kw>비교적 먼 곳의 적</>도 공격 가능",
+	"description": "<@ba.kw>비교적 먼 곳의 적</>도 공격 가능, 저지하지 않은 적 공격 시 공격력이 120%까지 상승",
 	"canUseGeneralPotentialItem": true,
 	"potentialItemId": "p_char_130_doberm",
 	"nationId": "rhodes",
@@ -22,7 +22,26 @@
 	"maxPotentialLevel": 5,
 	"rarity": 3,
 	"profession": "WARRIOR",
-	"trait": null,
+	"trait": {
+		"candidates": [
+			{
+				"unlockCondition": {
+					"phase": 0,
+					"level": 1
+				},
+				"requiredPotentialRank": 0,
+				"blackboard": [
+					{
+						"key": "atk_scale",
+						"value": 1.2
+					}
+				],
+				"overrideDescripton": null,
+				"prefabKey": null,
+				"rangeId": null
+			}
+		]
+	},
 	"phases": [
 		{
 			"characterPrefabKey": "char_130_doberm",
@@ -32,8 +51,8 @@
 				{
 					"level": 1,
 					"data": {
-						"maxHp": 743,
-						"atk": 239,
+						"maxHp": 818,
+						"atk": 264,
 						"def": 178,
 						"magicResistance": 0,
 						"cost": 13,
@@ -57,8 +76,8 @@
 				{
 					"level": 45,
 					"data": {
-						"maxHp": 1019,
-						"atk": 342,
+						"maxHp": 1121,
+						"atk": 378,
 						"def": 252,
 						"magicResistance": 0,
 						"cost": 13,
@@ -90,8 +109,8 @@
 				{
 					"level": 1,
 					"data": {
-						"maxHp": 1019,
-						"atk": 342,
+						"maxHp": 1121,
+						"atk": 378,
 						"def": 252,
 						"magicResistance": 0,
 						"cost": 15,
@@ -115,8 +134,8 @@
 				{
 					"level": 60,
 					"data": {
-						"maxHp": 1324,
-						"atk": 457,
+						"maxHp": 1457,
+						"atk": 505,
 						"def": 320,
 						"magicResistance": 0,
 						"cost": 15,
@@ -164,8 +183,8 @@
 				{
 					"level": 1,
 					"data": {
-						"maxHp": 1324,
-						"atk": 457,
+						"maxHp": 1457,
+						"atk": 505,
 						"def": 320,
 						"magicResistance": 0,
 						"cost": 15,
@@ -189,8 +208,8 @@
 				{
 					"level": 70,
 					"data": {
-						"maxHp": 1840,
-						"atk": 545,
+						"maxHp": 2024,
+						"atk": 602,
 						"def": 382,
 						"magicResistance": 0,
 						"cost": 15,

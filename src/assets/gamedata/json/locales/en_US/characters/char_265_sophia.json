@@ -1,6 +1,6 @@
 {
 	"name": "Whislash",
-	"description": "Can attack enemies <@ba.kw>from range</>",
+	"description": "Can attack enemies <@ba.kw>from range</>; When attacking enemies not blocked by self, increase ATK to 120%",
 	"canUseGeneralPotentialItem": true,
 	"potentialItemId": "p_char_265_sophia",
 	"nationId": "kazimierz",
@@ -22,7 +22,26 @@
 	"maxPotentialLevel": 5,
 	"rarity": 4,
 	"profession": "WARRIOR",
-	"trait": null,
+	"trait": {
+		"candidates": [
+			{
+				"unlockCondition": {
+					"phase": 0,
+					"level": 1
+				},
+				"requiredPotentialRank": 0,
+				"blackboard": [
+					{
+						"key": "atk_scale",
+						"value": 1.2
+					}
+				],
+				"overrideDescripton": null,
+				"prefabKey": null,
+				"rangeId": null
+			}
+		]
+	},
 	"phases": [
 		{
 			"characterPrefabKey": "char_265_sophia",
@@ -32,8 +51,8 @@
 				{
 					"level": 1,
 					"data": {
-						"maxHp": 711,
-						"atk": 256,
+						"maxHp": 781,
+						"atk": 283,
 						"def": 197,
 						"magicResistance": 0,
 						"cost": 16,
@@ -57,8 +76,8 @@
 				{
 					"level": 50,
 					"data": {
-						"maxHp": 974,
-						"atk": 367,
+						"maxHp": 1071,
+						"atk": 405,
 						"def": 278,
 						"magicResistance": 0,
 						"cost": 16,
@@ -90,8 +109,8 @@
 				{
 					"level": 1,
 					"data": {
-						"maxHp": 974,
-						"atk": 367,
+						"maxHp": 1071,
+						"atk": 405,
 						"def": 278,
 						"magicResistance": 0,
 						"cost": 18,
@@ -115,8 +134,8 @@
 				{
 					"level": 70,
 					"data": {
-						"maxHp": 1265,
-						"atk": 490,
+						"maxHp": 1391,
+						"atk": 541,
 						"def": 352,
 						"magicResistance": 0,
 						"cost": 18,
@@ -164,8 +183,8 @@
 				{
 					"level": 1,
 					"data": {
-						"maxHp": 1265,
-						"atk": 490,
+						"maxHp": 1391,
+						"atk": 541,
 						"def": 352,
 						"magicResistance": 0,
 						"cost": 18,
@@ -189,8 +208,8 @@
 				{
 					"level": 80,
 					"data": {
-						"maxHp": 1757,
-						"atk": 584,
+						"maxHp": 1932,
+						"atk": 645,
 						"def": 420,
 						"magicResistance": 0,
 						"cost": 18,
