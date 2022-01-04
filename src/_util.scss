@@ -1,0 +1,61 @@
+.inert-bound-box {
+	box-sizing: border-box;
+}
+
+.fw { width: 100% }
+.fh { height: 100% }
+
+.h-auto { height: auto }
+.w-auto { width: auto }
+
+.h-infer { height: inherit }
+.w-infer { width: inherit }
+
+.rel { position: relative }
+.abs { position: absolute }
+.stic { position: sticky }
+
+.t0 { top: 0 }
+.tfull { top: 100% }
+.b0 { bottom: 0 }
+.bfull { bottom: 100% }
+.l0 { left: 0 }
+.lfull { left: 100% }
+.r0 { right: 0 }
+.rfull { right: 100% }
+
+
+.z-1 { z-index: -1 }
+.z0 { z-index: 0 }
+.z1 { z-index: 1 }
+.z2 { z-index: 2 }
+.z3 { z-index: 3 }
+.z4 { z-index: 4 }
+.z5 { z-index: 5 }
+
+.in0 { inset: 0 }
+
+.overflow-hidden { overflow: hidden }
+
+.flex { display: flex }
+
+.flex-col { flex-direction: column }
+.flex-row { flex-direction: row }
+
+.j-flex-end { justify-content: flex-end }
+.j-flex-start { justify-content: flex-start }
+.j-flex-center { justify-content: center }
+.j-flex-space-between { justify-content: space-between }
+
+.a-flex-center { align-items: center }
+
+.no-border { border: 0 }
+
+.no-pointer { pointer-events: none }
+.pointer-all { pointer-events: all }
+
+.float-l { float: left }
+.float-r { float: right }
+.no-float { float: none }
+
+.text-center { text-align: center }

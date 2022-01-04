@@ -101,9 +101,9 @@ $emblem-margin-left: math.div(79px, 1920px) * 100vw;
 	--leftContainer_Triangle_MarginBottom: -#{math.div(361px, 833px) * 100%};
 }
 
-:host[state='hidden'] {
-
-}
+// :host[state='hidden'] {
+//
+// }
 
 @keyframes fade-in {
 	0% {
@@ -115,25 +115,19 @@ $emblem-margin-left: math.div(79px, 1920px) * 100vw;
 }
 
 @media only screen and (min-width: 800px) {
-	.FullscreenToggle {
-		position: absolute;
+	#FullscreenToggle {
 		height: 40px;
 		width: 40px;
-		border: 0;
-		bottom: 0;
 		transition: background-color 0.5s ease;
 		z-index: 999;
 		@include hover-std(upper, 200%, 15px);
 	}
 
 	#Clock {
-		position: absolute;
-		z-index: 1;
 		opacity: 0;
 		font-weight: 300;
 		right: var(--clockAbsRight);
 		margin-top: var(--clockMargin);
-		text-align: center;
 		font-family: JetBrains Mono;
 		font-weight: normal;
 
@@ -172,30 +166,23 @@ $emblem-margin-left: math.div(79px, 1920px) * 100vw;
 			transform: translate(-3%, 10%);
 			box-shadow: 4px -4px 3px var(--RISquareShadowHover);
 		}
-		z-index: 2;
 	}
 
-	.Header {
+	#Header {
 		transition: margin 0.5s $forceful,
 					height 0.5s $forceful,
 					background 0.3s #{$forceful-2} var(--header_Background_AnimDelay);
-		position: relative;
 		background: var(--header_Background_Color);
 		// background: transparent;
 		width: 100vw;
 		height: var(--headerHeight);
 		margin-top: var(--headerMargin_Top);
-		z-index: 1;
 
-		.PRTS_Emblem {
-			position: relative;
-			height: 100%;
+		#PRTS_Emblem {
 			width: var(--header_Emblem_Width);
 			margin-left: var(--header_Emblem_MarginLeft);
 			transition: margin 0.5s $forceful,
 						width 0.5s ease-in-out;
-			pointer-events: none;
-			z-index: 0;
 
 			@mixin emblemSlideAnim(
 				$name,
@@ -219,13 +206,8 @@ $emblem-margin-left: math.div(79px, 1920px) * 100vw;
 			}
 
 			#toHomePage {
-				position: absolute;
 				width: 65%;
-				height: 100%;
-				z-index: 2;
-				pointer-events: all;
 				cursor: pointer;
-
 				opacity: 0;
 				transition: 0.3s ease-in-out;
 
@@ -235,14 +217,10 @@ $emblem-margin-left: math.div(79px, 1920px) * 100vw;
 				}
 			}
 
-			.PRTS_SVG {
+			#PRTS_SVG {
 				width: var(--header_Emblem_Width);
-				height: 100%;
-				position: absolute;
 
-				.PRTS_SVG_TL {
-					height: 100%;
-					position: absolute;
+				#PRTS_SVG_TL {
 					stroke: var(--header_Emblem_Foreground);
 					transform:
 						var(--header_Emblem_SVG_TopLine_StaticTransform)
@@ -266,9 +244,7 @@ $emblem-margin-left: math.div(79px, 1920px) * 100vw;
 							forwards;
 					}
 				}
-				.PRTS_SVG_N {
-					height: 100%;
-					position: absolute;
+				#PRTS_SVG_N {
 					fill: var(--header_Emblem_Foreground);
 					margin-left: var(--header_Emblem_SVG_Name_Static_MarginLeft, 3px);
 					transition:
@@ -281,8 +257,6 @@ $emblem-margin-left: math.div(79px, 1920px) * 100vw;
 						scale(var(--header_Emblem_SVG_Name_Static_Scale));
 
 					#en_path {
-						width: 100%;
-						height: 100%;
 						@include emblemSlideAnim(
 							emblem-name,
 							var(--header_Emblem_SVG_Name_Anim_InitTransform),
@@ -297,9 +271,7 @@ $emblem-margin-left: math.div(79px, 1920px) * 100vw;
 						opacity: 0;
 					}
 				}
-				.PRTS_SVG_D1 {
-					height: 100%;
-					position: absolute;
+				#PRTS_SVG_D1 {
 					fill: var(--header_Emblem_Foreground);
 					transition:
 						fill 0.5s ease-in-out,
@@ -323,9 +295,7 @@ $emblem-margin-left: math.div(79px, 1920px) * 100vw;
 							forwards;
 					}
 				}
-				.PRTS_SVG_D2 {
-					height: 100%;
-					position: absolute;
+				#PRTS_SVG_D2 {
 					fill: var(--header_Emblem_Foreground);
 					transition:
 						fill 0.5s ease-in-out,
@@ -349,7 +319,7 @@ $emblem-margin-left: math.div(79px, 1920px) * 100vw;
 							forwards;
 					}
 				}
-				.PRTS_SVG_BL {
+				#PRTS_SVG_BL {
 					height: 100%;
 					position: absolute;
 					stroke: var(--header_Emblem_Foreground);
@@ -381,12 +351,7 @@ $emblem-margin-left: math.div(79px, 1920px) * 100vw;
 		}
 	}
 
-	// may need optimization
-	.RI_LogoContainer {
-		position: absolute;
-		display: flex;
-		justify-content: center;
-		height: auto;
+	#RI_LogoContainer {
 		width: 50vh;
 		left: var(--logoMarginLeft);
 		top: 25vh;
@@ -418,8 +383,6 @@ $emblem-margin-left: math.div(79px, 1920px) * 100vw;
 			}
 
 			opacity: 0;
-			height: 100%;
-			width: 100%;
 			animation:
 				fadein
 				0.7s
@@ -436,23 +399,15 @@ $emblem-margin-left: math.div(79px, 1920px) * 100vw;
 		}
 	}
 
-	.BottomBoxContainer {
+	#BottomBoxContainer {
 		$RI_box-hitbox-scale: 1.2;
 		$RI-boxcontainer-width: math.div(332px, 1920px) * $RI_box-hitbox-scale * 100%;
 		$RI-boxcontainer-height: math.div(505px, 1080px) * $RI_box-hitbox-scale * 100%;
 
-		position: sticky;
-		pointer-events: none;
 		width: $RI-boxcontainer-width;
 		height: $RI-boxcontainer-height;
-		left: 100%;
-		top: 100%;
-		z-index: 0;
 
-		.BottomBoxContent {
-			position: sticky;
-			float: right;
-			top: 100%;
+		#BottomBoxContent {
 			width: math.div(1, $RI_box-hitbox-scale) * 100%;
 			height: math.div(1, $RI_box-hitbox-scale) * 100%;
 
@@ -476,18 +431,10 @@ $emblem-margin-left: math.div(79px, 1920px) * 100vw;
 				}
 			}
 
-			.BottomTriangle {
-				position: absolute;
-				right: 0;
-				width: 100%;
-				height: 100%;
+			#BottomTriangle {
 				transition: 0.25s $forceful;
-				pointer-events: all;
 
 				#shape {
-					width: inherit;
-					height: inherit;
-					bottom: 0;
 					clip-path: polygon(0% 100%, 100% 0%, 100% 100%);
 					background: var(--RITriangleColor);
 					overflow: hidden;
@@ -506,18 +453,13 @@ $emblem-margin-left: math.div(79px, 1920px) * 100vw;
 		}
 	}
 
-	.TextPlaceholder {
-		position: absolute;
-		display: flex;
-		align-items: center;
+	#TextPlaceholder {
 		width: calc(13rem + 34px);
 		height: 2.5rem;
-		right: 0;
 		bottom: 2rem;
 		z-index: 100;
 
-		.TextArea {
-			width: 100%;
+		#TextArea {
 			height: 60%;
 			margin-bottom: -2%;
 			opacity: 0;
@@ -526,13 +468,10 @@ $emblem-margin-left: math.div(79px, 1920px) * 100vw;
 				0.8s
 				1.5s
 				forwards;
-			animation: name duration timing-function delay iteration-count direction fill-mode;
-			pointer-events: all;
 
 			.Text {
 				height: 20px;
 				width: 190px;
-				z-index: 1;
 				transition: 0.25s $forceful;
 				path {
 					fill: var(--globalForegroundInverse);
@@ -545,24 +484,18 @@ $emblem-margin-left: math.div(79px, 1920px) * 100vw;
 				}
 			}
 		}
-		.ThemeToggle {
-			height: 100%;
+		#ThemeToggle {
 			width: 40px;
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
 			opacity: 0;
 			animation:
 				blink-slidein
 				forwards;
 			animation-delay: 1.4s;
 			animation-duration: 0.8s;
-			pointer-events: all;
 			z-index: 999;
 
 			#button {
 				cursor: pointer;
-				border: 0px;
 				height: 23px;
 				width: 23px;
 				transform: translateX(25%);
@@ -585,13 +518,10 @@ $emblem-margin-left: math.div(79px, 1920px) * 100vw;
 		}
 	}
 
-	.LeftBoxContainer {
+	#LeftBoxContainer {
 		$left-boxcontainer-width: math.div(444px, 1920px) * 100%;
-		position: sticky;
 		height: 100vh;
-		bottom: 0%;
 		width: $left-boxcontainer-width;
-		float: left;
 
 		transition: 0.2s $forceful,
 					all 0.4s $forceful;
@@ -615,12 +545,9 @@ $emblem-margin-left: math.div(79px, 1920px) * 100vw;
 					background: var(--leftPolygonForeground);
 				}
 			}
-			position: absolute;
 			margin-left: var(--leftContainer_Polygon_MarginLeft);
 
-			height: 100%;
 			width: 200%;
-			bottom: 0%;
 
 			transition: width 0.2s $forceful,
 						margin 0.4s $forceful;
@@ -654,10 +581,8 @@ $emblem-margin-left: math.div(79px, 1920px) * 100vw;
 				}
 			}
 
-			position: absolute;
 			height: math.div(833px, 1080px) * 100%;
 			width: math.div(401px, 444px) * 100%;
-			bottom: 0%;
 			clip-path: polygon(0% 0%, 0% 100%, 100% 100%);
 			opacity: 0;
 

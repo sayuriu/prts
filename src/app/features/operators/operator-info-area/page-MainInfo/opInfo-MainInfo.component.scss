@@ -2,18 +2,14 @@
 @import "../../../../../anims";
 
 #container {
-	width: 100%;
-	height: auto;
 	.odd {
 		background: #e3e3e3;
 	}
 	#basic-info {
-		@extend .flex-row;
 		height: 174px;
 		#info-area {
 			width: calc(100% - 196px);
 			.line {
-				@extend .flex-row;
 				margin-top: 12px;
 				&:last-child {
 					margin-bottom: 12px;
@@ -21,26 +17,42 @@
 			}
 			#line1 {
 				rarity-star {
-					@extend .flex-row;
 					margin-right: auto;
 					#star-container {
 						@extend .flex-align-center;
 						&:not(:first-of-type):not(spacer) {
 							margin-left: -9px;
+							transform: translateX(calc(-100% * var(--order) - 50%));
+							@include slide(
+								star-slide-rotate,
+								translateX(calc(-100% * var(--order) - 50%)) rotate(-55deg),
+								translateX(0) rotate(0deg)
+							);
+							@include glow(
+								star-glow,
+								none,
+								0 6px 3px -1px hsl(0, 0%, 100%),
+							);
+
+							animation:
+								star-slide-rotate 1.45s $slow-down 0.3s forwards,
+								star-glow 0.7s $slow-down calc(1.5s + 0.15s * var(--order)) forwards;
 						}
+					}
+					#op-rarity-banner {
+						transform: translateX(-100%);
+						@include slide(banner-slide, translateX(-100%), translateX(0));
+						animation: banner-slide 1s $slow-down 0.35s forwards;
 					}
 				}
 			}
 		}
 		#right-section {
 			margin-left: auto;
-			@extend .flex-row;
-			height: 100%;
 			width: 184px;
 			#faction-img {
 				aspect-ratio: 1;
 				width: 174px;
-				position: relative;
 				background: #6e6e6e;
 				img {
 					@extend .full-height-width;
@@ -48,7 +60,6 @@
 				}
 				p {
 					color: white;
-					position: absolute;
 					background: #000;
 					margin: 0 0 0 4px;
 					opacity: 0;

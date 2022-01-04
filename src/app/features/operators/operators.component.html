@@ -1,23 +1,23 @@
-<div id="route-container">
-	<div id="main-container">
-		<div id="img-area">
+<div id="route-container" class="abs">
+	<div id="main-container" class="fh fw flex">
+		<div id="img-area" class="fh abs b0 l0 z-1">
 			<app-operator-img [opName]="currentOpId"></app-operator-img>
 		</div>
-		<div id="img-area-blocker" [ngClass]="currentOpId ? 'default' : 'collapsed'"></div>
-		<div id="info-area" [attr.picked]="currentOpId ? currentOpId : ''" [ngClass]="currentOpId ? 'default' : 'expanded'">
-			<header [ngClass]="(currentOpId ? 'full' : 'collapsed') + ' hasDelay'">
+		<div id="img-area-blocker" class="fh" [ngClass]="currentOpId ? 'default' : 'collapsed'"></div>
+		<div id="info-area" class="fh" [attr.picked]="currentOpId ? currentOpId : ''" [ngClass]="currentOpId ? 'default' : 'expanded'">
+			<header class="fw flex a-flex-center" [ngClass]="(currentOpId ? 'full' : 'collapsed') + ' hasDelay'">
 				<!-- <button id="info-expand"></button> -->
 				<picker-title *ngIf="!currentOpId" @AppearDisappear><i>Pick an Operator!</i></picker-title>
-				<op-info-header *ngIf="currentOpId && opHeaderData" @AppearDisappear>
-					<op-name-main>
+				<op-info-header class="fh fw flex j-flex-space-between" *ngIf="currentOpId && opHeaderData" @AppearDisappear>
+					<op-name-main class="flex a-flex-center">
 						<spacer class="fh" style="width: 30px;"></spacer>
 						<div *ngIf="currentOpId && opHeaderCNName" @AppearDisappear>
 							<op-name-alt>{{opHeaderCNName}}</op-name-alt><br>
 							<op-name>{{opHeaderData.name}}</op-name>
 						</div>
 					</op-name-main>
-					<op-img-code>
-						<op-code class="fh" [style.font-size]="opHeaderCodeSize">
+					<op-img-code class="flex j-flex-space-between">
+						<op-code class="fh flex a-flex-center" [style.font-size]="opHeaderCodeSize">
 							<div>
 								<display-code>{{opHeaderData.displayNumber}}</display-code><br>
 								<char-id>
@@ -27,10 +27,10 @@
 							</div>
 						</op-code>
 						<spacer class="fh" style="width: 10px;"></spacer>
-						<div id="img" class="fh">
-							<div id="op-avatar" class="fw relative z0">
-								<div id="op-img-ava-rarity-container" class="fw fh absolute l0 b0 z-1 overflow-hidden flex flex-end">
-									<img [src]="opHeaderRarityImg" [style.transform]="opHeaderRarityImgLoaded ? 'translateY(0)' : 'translateY(100%)'">
+						<div id="img" class="fh flex a-flex-center">
+							<div id="op-avatar" class="fw rel z0">
+								<div id="op-img-ava-rarity-container" class="fw fh abs l0 b0 z-1 overflow-hidden flex j-flex-end">
+									<img [src]="opHeaderRarityImg"  [style.transform]="opHeaderRarityImgLoaded ? 'translateY(0)' : 'translateY(100%)'">
 								</div>
 								<img id="op-img-ava" class="fh z1" [src]="opHeaderImg">
 							</div>

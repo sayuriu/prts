@@ -1,6 +1,7 @@
 $forceful: cubic-bezier(0.88,-0.07, 0.22, 1.01);
 $forceful-2: cubic-bezier(0.98, 0, 0, 1.01);
 $accelerate: cubic-bezier(1, 0.25, 0, 1.01);
+$slow-down: cubic-bezier(0.18, 0, 0.08, 1);
 $sudden: (0, 1.04, 0, 1.04);
 $slide-main: 0.25s $forceful;
 
@@ -27,5 +28,36 @@ $slide-main: 0.25s $forceful;
 	to {
 		transform: #{$target};
 		opacity: 1;
+	}
+}
+
+@mixin slide($name, $init, $target) {
+	@keyframes #{$name} {
+		from {
+			transform: #{$init};
+		}
+		to {
+			transform: #{$target};
+		}
+	}
+}
+
+@mixin glow(
+	$name,
+	$boxShadowStart: none,
+	$boxShadowMid: none,
+	$boxShadowEnd: none
+)
+{
+	@keyframes #{$name} {
+		0% {
+			box-shadow: #{$boxShadowStart};
+		}
+		50% {
+			box-shadow: #{$boxShadowMid};
+		}
+		100% {
+			box-shadow: #{$boxShadowEnd};
+		}
 	}
 }

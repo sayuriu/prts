@@ -11,7 +11,7 @@ const anim_SlideUpDown = trigger('slideUpDown', [
 			position: 'absolute',
 			bottom: 0,
 			opacity: 0,
-			transform: 'translateY(3rem)',
+			transform: 'translate(-50%, 3rem)',
 		}),
 		animate(
 			'0.3s ' + AnimationFunctions.Forceful,
@@ -19,7 +19,7 @@ const anim_SlideUpDown = trigger('slideUpDown', [
 		),
 		animate(
 			'0.5s ' + AnimationFunctions.Forceful,
-			style({ transform: 'translateY(0)' }),
+			style({ transform: 'translate(-50%, 0)' }),
 		),
 
 	]),
@@ -27,12 +27,12 @@ const anim_SlideUpDown = trigger('slideUpDown', [
 		style({
 			position: 'absolute',
 			bottom: 0,
-			transform: 'translateY(0)',
+			transform: 'translate(-50%, 0)',
 		}),
 
 		animate(
 			'0.5s ' + AnimationFunctions.Forceful,
-			style({ transform: 'translateY(3rem)' }),
+			style({ transform: 'translate(-50%, 3rem)' }),
 		),
 		animate(
 			'0.3s ' + AnimationFunctions.Forceful,

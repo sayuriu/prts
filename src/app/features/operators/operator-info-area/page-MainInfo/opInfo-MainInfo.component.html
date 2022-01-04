@@ -1,18 +1,21 @@
-<div id="container">
-	<div id="basic-info" class="odd">
+<div id="container" class="h-auto fw">
+	<div id="basic-info" class="odd flex flex-row">
 		<div id="info-area">
-			<div id="line1" class="line">
+			<div id="line1" class="line flex flex-row">
 				<rarity-star
+					class="flex flex-row rel"
 					style="width: 180px;"
-					[ngStyle]="{
-						background: currentOperator.rarity >= 0 ? ('url(/assets/gamedata/img/characters/ui/chara/glow-' + (currentOperator.rarity + 1).toString() + '.png)') : 'transparent',
-						backgroundSize: 'cover',
-						backgroundPosition: 'left 0 bottom 60%',
-						boxShadow: '-3px 0 3px 0 #e3e3e3 inset'
-					}"
 				>
+					<div id="op-rarity-banner" class="fh fw abs z0"
+						[ngStyle]="{
+							background: currentOperator.rarity >= 0 ? ('url(/assets/gamedata/img/characters/ui/chara/glow-' + (currentOperator.rarity + 1).toString() + '.png)') : 'transparent',
+							backgroundSize: 'cover',
+							backgroundPosition: 'left 0 bottom 60%',
+							boxShadow: '-3px 0 3px 0 #e3e3e3 inset'
+						}"
+					></div>
 					<spacer style="width: 22px;"></spacer>
-					<div class="fh" id="star-container" *ngFor="let _ of rarity, let i = index" [style.--order]="i">
+					<div class="fh z1" id="star-container" *ngFor="let _ of rarity, let i = index" [style.--order]="i + 1">
 						<img src="/assets/img/star.png">
 					</div>
 				</rarity-star>
@@ -76,7 +79,7 @@
 					}"
 				></text-field>
 			</div>
-			<div id="line2" class="line">
+			<div id="line2" class="line flex flex-row">
 				<spacer style="width: 22px;"></spacer>
 				<text-field class="fw"
 					[boundRect]="{ centerChildren: [true], width: 'auto', height: '42px' }"
@@ -109,7 +112,7 @@
 					}"
 				></text-field>
 			</div>
-			<div id="line3" class="line">
+			<div id="line3" class="line flex flex-row">
 				<spacer style="width: 22px;"></spacer>
 				<text-field class="fw"
 					[boundRect]="{ centerChildren: [true], width: '100%', height: '42px' }"
@@ -143,10 +146,10 @@
 				></text-field>
 			</div>
 		</div>
-		<div id="right-section">
+		<div id="right-section" class="fh flex flex-row">
 			<spacer class="fh" style="width: 10px;"></spacer>
-			<div id="faction-img">
-				<p id="label">{{currentOpFaction.powerName}}</p>
+			<div id="faction-img" class="rel">
+				<p id="label" class="abs">{{currentOpFaction.powerName}}</p>
 				<img id="op-faction" [src]="factionImgURL">
 			</div>
 		</div>

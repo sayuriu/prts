@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnChanges, OnInit, SimpleChanges } from '@angular/core';
 import { Router } from '@angular/router';
 
 import { AppearDisappear } from '@utils/anims';
@@ -20,7 +20,7 @@ const anim_AppearDisappear = AppearDisappear();
 		anim_AppearDisappear,
 	]
 })
-export class OperatorsComponent implements OnInit
+export class OperatorsComponent implements OnInit, OnChanges
 {
 	// CharImgAssetData: OperatorImageAssetData;
 
@@ -38,6 +38,8 @@ export class OperatorsComponent implements OnInit
 	uiAlignmentState!: 'default' | 'fullInfo' | 'fullImg';
 
 	ngOnInit(): void {
+		// @ts-ignore
+		// globalThis.__prts_opInterface__ = this;
 		if (this.manager.isLoaded)
 			this.init();
 		else
@@ -58,13 +60,23 @@ export class OperatorsComponent implements OnInit
 		}
 	}
 
-	init() {
-		const query = this.loadOperator();
-		this.locale = this.getLocale();
+	ngOnChanges(changes: SimpleChanges): void {
+		// if (changes.currentOpId)
+		// 	this.init(changes.currentOpId.currentValue, changes.locale.currentValue);
+	}
+
+	// loadChar(currentOpId: string, locale: Locales)
+	// {
+	// 	this.init(currentOpId, locale);
+	// }
+
+	private init(overrideCharID?: string, overrideLocale?: Locales) {
+		const query = overrideCharID ?? this.loadOperator();
+		this.locale = overrideLocale ?? this.getLocale();
 		let [op, _loc] = this.manager.getCharId(query ?? '', this.locale);
 		if (this.locale !== _loc)
 		{
-			this.notif.send('Operators', `Operator ${query} is not available in [${this.locale}], using [${_loc}] instead.`, 'warning', { dynamic: true }, 10000);
+			// this.notif.send('Operators', `Operator ${query} is not available in [${this.locale}], using [${_loc}] instead.`, 'warning', { dynamic: true }, 10000);
 			this.locale = _loc;
 		}
 		if (!op)
@@ -113,7 +125,7 @@ export class OperatorsComponent implements OnInit
 
 	pickerUIVisible = false;
 	opInfoUIVisible = false;
-	async switchView(opId: Nullable<string>)
+	private async switchView(opId: Nullable<string>)
 	{
 		if (opId)
 		{
@@ -131,13 +143,13 @@ export class OperatorsComponent implements OnInit
 		}
 	}
 
-	loadOperator() {
+	private loadOperator() {
 		const demand = this.getURLParamValue('opname');
 		if (demand)
 			return demand.trim();
 		return localStorage.getItem('cache:Operator@LastVisited');
 	}
-	getLocale(): Locales {
+	private getLocale(): Locales {
 		let demand = this.getURLParamValue('locale');
 		if (!demand) demand = localStorage.getItem('cache:ServerLocale');
 		if (AvailableLocales[`${demand}` as Locales]) return demand as Locales;

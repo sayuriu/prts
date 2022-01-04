@@ -1,27 +1,17 @@
 @use 'sass:math';
 @import '../../../anims';
-@import '../../../utils';
 
 #route-container {
 	$width: calc(100vw - 25vh - 250px);
-	position: absolute;
 	top: 75px;
 	height: calc(100vh - 75px);
 	width: #{$width};
 	left: calc(100vw - #{$width} - 25vh - 5px);
 	#main-container {
-		@extend .full-height-width;
-		display: flex;
 		#img-area {
-			height: 100%;
 			width: 40%;
-			position: absolute;
-			bottom: 0;
-			left: 0;
-			z-index: -1;
 		}
 		#img-area-blocker {
-			height: 100%;
 			transition: width 0.4s $forceful;
 			width: 40%;
 			&.default {
@@ -32,7 +22,6 @@
 			}
 		}
 		#info-area {
-			height: 100%;
 			transition: width 0.4s $forceful;
 			background: hsl(0, 0%, 46%);
 			&.default {
@@ -42,14 +31,11 @@
 				width: 100%;
 			}
 			header {
-				display: flex;
-				align-items: center;
 				transition: height 0.5s $forceful-2;
+				background: hsl(0, 0%, 20%);
 				&.hasDelay {
 					transition-delay: 0.3s;
 				}
-				width: 100%;
-				background: hsl(0, 0%, 20%);
 				&.full {
 					height: 140px;
 				}
@@ -63,11 +49,7 @@
 					color: var(--globalForegroundInverse)
 				}
 				op-info-header {
-					display: flex;
-					justify-content: space-between;
-					@extend .full-height-width;
 					op-name-main {
-						@extend .flex-align-center;
 						div {
 							op-name-alt {
 								font-size: 30px;
@@ -81,21 +63,17 @@
 						}
 					}
 					op-img-code {
-						display: flex;
-						justify-content: space-between;
 						#img {
-							@extend .flex-align-center;
 							#op-avatar {
 								aspect-ratio: 1;
 								height: calc(100% - 18px);
 								background: #c4c4c4;
 								img {
-									transition: transform 1s cubic-bezier(0.18, 0, 0.08, 1);
+									transition: transform 1s $slow-down;
 								}
 							}
 						}
 						op-code {
-							@extend .flex-align-center;
 							font-size: var(--fontsize);
 							font-weight: lighter;
 							div {

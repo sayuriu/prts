@@ -20,10 +20,11 @@
 #notif-overlay {
 	z-index: 2000;
 	position: absolute;
-	width: 100vw;
+	width: auto;
 	height: calc(3rem + 10px);
 	bottom: 0;
-	left: 0;
+	left: 50vw;
+	transform: translateX(-50%);
 	@extend .flex-justify-center;
 	#notif-overlay-content {
 		width: auto;
