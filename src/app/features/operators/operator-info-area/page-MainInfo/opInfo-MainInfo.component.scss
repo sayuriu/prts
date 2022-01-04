@@ -2,11 +2,10 @@
 @import "../../../../../anims";
 
 #container {
-	.odd {
-		background: #e3e3e3;
-	}
+	.odd { background: #e3e3e3 }
+	.even { background: #2e2e2e }
+	#section-title { left: 22px }
 	#basic-info {
-		height: 174px;
 		#info-area {
 			width: calc(100% - 196px);
 			.line {
@@ -51,11 +50,10 @@
 			margin-left: auto;
 			width: 184px;
 			#faction-img {
-				aspect-ratio: 1;
 				width: 174px;
 				background: #6e6e6e;
 				img {
-					@extend .full-height-width;
+					aspect-ratio: 1;
 					object-fit: fill;
 				}
 				p {
@@ -73,4 +71,5 @@
 			}
 		}
 	}
+
 }

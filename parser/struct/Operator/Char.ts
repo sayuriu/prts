@@ -20,7 +20,7 @@ extends CharBasicInfo
 		CharSkill<3>?,
 	];
 	talents: HasCandidate<CharTraitCandidate & WithNameAndDesc>;
-	potentialRank: CharPotential[];
+	potentialRanks: CharPotential[];
 }
 
 export { CHAR_NAME, SUMMON_NAME, TRAP_NAME } from "./CharBasicInfo";

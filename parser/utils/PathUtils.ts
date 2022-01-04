@@ -1,5 +1,5 @@
 import chalk from "chalk";
-import { existsSync, mkdirSync, writeFileSync } from "fs";
+import { existsSync, mkdirSync } from "fs";
 import { join } from "path";
 import Logger from "../Logger";
 

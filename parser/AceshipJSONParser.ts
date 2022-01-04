@@ -8,7 +8,7 @@ import { createIfNotExist, joinPaths } from './utils/PathUtils';
 import { Locales, AvailableLocales } from './struct/Basic';
 import { Operator } from './struct/Operator/Char';
 
-export namespace Aceship {
+export namespace Aceship_Gamedata {
 	// -> root/ref/AN-EN-Tags
 	export const BASE_PATH = "{ACESHIP_DIR_ENV}\\json\\gamedata\\{locale}\\gamedata\\excel".replace('{ACESHIP_DIR_ENV}', ACESHIP_DIR_ROOT);
 	export namespace DATA {
@@ -20,7 +20,7 @@ export namespace Aceship {
 	}
 }
 
-export namespace Destination {
+export namespace GamedataDestination {
 	export const BASE_JSON_LOCALE_PATH = '{DEST_ROOT}\\json\\locales\\{locale}'.replace('{DEST_ROOT}', DESTINATION_ROOT);
 	export namespace DATA {
 		export const teams = 'teams';
@@ -69,7 +69,7 @@ function isCN(locale: string | null) {
 
 function parseChar(src: string, dest: string)
 {
-	const { _base, _link_JSON } = Destination.DATA.characters;
+	const { _base, _link_JSON } = GamedataDestination.DATA.characters;
 	const header = 'Characters-' + getLocale(src);
 	createIfNotExist(joinPaths(dest, _base), header);
 	const chars = require(src) as Record<string, Operator>;
@@ -92,7 +92,7 @@ function parseChar(src: string, dest: string)
 function parseItem(src: string, dest: string)
 {
 	const header = 'Items-' + getLocale(src);
-	const { _base, types, materials, itemToType_JSON, typeToItems_JSON } = Destination.DATA.items;
+	const { _base, types, materials, itemToType_JSON, typeToItems_JSON } = GamedataDestination.DATA.items;
 	const items = require(src);
 	createIfNotExist(joinPaths(dest, _base), header);
 	createIfNotExist(joinPaths(dest, _base, types), header);
@@ -149,7 +149,7 @@ function parseRangeData(src: string, dest: string)
 {
 	const header = 'Ranges-' + getLocale(src);
 	// if (getLocale(src) === 'zh_CN')
-	const { _base } = Destination.DATA.ranges;
+	const { _base } = GamedataDestination.DATA.ranges;
 	const ranges = require(src);
 	createIfNotExist(joinPaths(dest, _base), header);
 	const tracker = new CountTracker();
@@ -170,14 +170,14 @@ export function AceshipJSONParser(locale: Locales) {
 		throw new Error(`${locale} is not available.`);
 
 	Logger.info(locale, Logger.purple('Init'));
-	const localePath = joinPaths(Aceship.BASE_PATH.replace('{locale}', locale));
+	const localePath = joinPaths(Aceship_Gamedata.BASE_PATH.replace('{locale}', locale));
 	Logger.info(locale, `${Logger.yellow('Source')}: ${resolve(localePath)}`);
-	const destinationPath = joinPaths(Destination.BASE_JSON_LOCALE_PATH.replace('{locale}', locale));
+	const destinationPath = joinPaths(GamedataDestination.BASE_JSON_LOCALE_PATH.replace('{locale}', locale));
 	Logger.info(locale, `${Logger.green('Target')}: ${resolve(destinationPath)}`);
 	createIfNotExist(destinationPath, `Locale-${locale}`);
-	parseChar(joinPaths(localePath, Aceship.DATA.characters), destinationPath);
-	parseItem(joinPaths(localePath, Aceship.DATA.items), destinationPath);
-	parseRangeData(joinPaths(localePath, Aceship.DATA.ranges), destinationPath);
+	parseChar(joinPaths(localePath, Aceship_Gamedata.DATA.characters), destinationPath);
+	parseItem(joinPaths(localePath, Aceship_Gamedata.DATA.items), destinationPath);
+	parseRangeData(joinPaths(localePath, Aceship_Gamedata.DATA.ranges), destinationPath);
 	// parseMedals(joinPaths(localePath, Aceship.DATA.medals), destinationPath);
 	Logger.cout('\n');
 }

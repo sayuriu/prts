@@ -1,11 +1,11 @@
-import { Destination } from './AceshipJSONParser';
+import { GamedataDestination } from './AceshipJSONParser';
 import { readdirSync, writeFileSync } from 'fs';
 import { inspect } from 'util';
 import { join } from 'path';
 import beautify from 'beautify';
 
 const latestCharDataPath = join(
-	Destination.BASE_JSON_LOCALE_PATH
+	GamedataDestination.BASE_JSON_LOCALE_PATH
 		.replace('{locale}', 'zh_CN')
 		.replace(/\\\\|\/|\\/g, '/'),
 	'characters'

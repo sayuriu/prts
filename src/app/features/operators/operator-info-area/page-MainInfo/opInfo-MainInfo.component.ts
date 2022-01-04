@@ -40,12 +40,17 @@ export class OpMainInfoComponent implements OnInit {
 			this.factionImgURL = this.sanitizer.bypassSecurityTrustUrl(URL.createObjectURL(imgblob)) as string;
 	}
 
+	// port
+	port_replace(strMatch: string, strReplace: string) {
+		return (_in: string) => _in.replace(strMatch, strReplace);
+	}
+
 	getFactionID()
 	{
 		if (this.currentOperator.teamId)
 			return this.currentOperator.teamId;
-		else if (this.currentOperator.teamId)
-			return this.currentOperator.teamId;
+		else if (this.currentOperator.groupId)
+			return this.currentOperator.groupId;
 		return this.currentOperator.nationId;
 	}
 }

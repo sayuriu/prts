@@ -1,5 +1,5 @@
 <div id="container" class="h-auto fw">
-	<div id="basic-info" class="odd flex flex-row">
+	<div id="basic-info" class="odd h-auto flex flex-row">
 		<div id="info-area">
 			<div id="line1" class="line flex flex-row">
 				<rarity-star
@@ -104,7 +104,7 @@
 						background: '#3F3F3F'
 					}"
 					[valueFieldText]="{
-						textValue: 'OP_INFO.ROLE_TAG_ARRAY',
+						textValue: currentOperator.tagList.map(port_replace(' ', '_')).join(' | ').toUpperCase(),
 						textSize: '20px',
 						textAlign: 'center',
 						textColor: 'white',
@@ -115,10 +115,10 @@
 			<div id="line3" class="line flex flex-row">
 				<spacer style="width: 22px;"></spacer>
 				<text-field class="fw"
-					[boundRect]="{ centerChildren: [true], width: '100%', height: '42px' }"
+					[boundRect]="{ centerChildren: [true], width: '100%', height: 'auto', minHeight: '42px' }"
 					[labelField]="{
 						centerChildren: [true],
-						height: '100%',
+						minHeight: '42px',
 						width: '73.5px',
 						borderMatrixOverride: ['', '0', '', ''],
 						border: '1px solid black'
@@ -130,14 +130,14 @@
 					}"
 					[valueField]="{
 						centerChildren: [true, 'flex-start'],
-						height: '100%',
+						minHeight: '42px',
 						expandToAvailableSpace: true,
 						borderFgMatchBg: true,
 						border: '1px solid black',
 						background: '#3F3F3F'
 					}"
 					[valueFieldText]="{
-						textValue: 'OP_INFO.TRAIT_DATA',
+						textValue: currentOperator.description,
 						textSize: '20px',
 						textAlign: 'left',
 						textColor: 'white',
@@ -146,18 +146,62 @@
 				></text-field>
 			</div>
 		</div>
-		<div id="right-section" class="fh flex flex-row">
+		<div id="right-section" class="h-auto flex flex-row">
 			<spacer class="fh" style="width: 10px;"></spacer>
-			<div id="faction-img" class="rel">
-				<p id="label" class="abs">{{currentOpFaction.powerName}}</p>
-				<img id="op-faction" [src]="factionImgURL">
+			<div id="faction-img" class="fh rel flex a-flex-center">
+				<p id="label" class="abs t0">{{currentOpFaction.powerName}}</p>
+				<img id="op-faction" class="fw" [src]="factionImgURL">
 			</div>
 		</div>
 	</div>
-	<div id="class-profession">
-
+	<div id="class-profession" class="even h-auto rel z1">
+		<div id="section-title" class="section-title abs t0 z1">CLASS_PROFESSION</div>
+		<div id="left-section" class="flex flex-column z2">
+			<div id="class">
+				<div id="main"></div>
+				<div id="subclass"></div>
+			</div>
+			<text-field
+				[boundRect]="{ width: 'auto', height: 'auto', maxWidth: '100%'}"
+				[labelField]="{
+					centerChildren: [true],
+					width: '42px',
+					minHeight: '36px',
+					borderMatrixOverride: ['', '0', '', ''],
+					border: '1px solid black',
+					background: '#c4c4c4'
+				}"
+				[labelFieldText]="{
+					textValue: 'TRUST_BONUS',
+					textSize: '20px',
+					textAlign: 'center'
+				}"
+				[valueField]="{
+					centerChildren: [true, 'flex-start'],
+					width: 'auto',
+					minHeight: '36px',
+					borderFgMatchBg: true,
+					border: '1px solid black',
+					background: '#3F3F3F'
+				}"
+				[valueFieldText]="{
+					textValue: 'OP_INFO.TRUST_BONUS',
+					textSize: '20px',
+					textAlign: 'left',
+					textColor: 'white',
+					margin: '0 10px 0 9px'
+				}"
+			></text-field>
+		</div>
+		<div id="right-section" class="z2">
+			<div id="op-potential">
+				<div id="potential-list" class="flex flex-col">
+					<div id="potential-rank" *ngFor="let potential of currentOperator.potentialRanks"></div>
+				</div>
+			</div>
+		</div>
 	</div>
-	<div id="talents" class="odd">
-
+	<div id="talents" class="odd h-auto rel">
+		<!-- <div id="section-title" class="section-title abs t0">CLASS_PROFESSION</div> -->
 	</div>
 </div>

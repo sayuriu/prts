@@ -1,8 +1,12 @@
 ~ [json]
-struct <LOCACLES> as SOURCE in {root}/{ACESHIP_DIR_ENV}/json/gamedata/*
-	{locale}
+struct <LOCACLES> as SOURCE in {root}/{ACESHIP_DIR_ENV}/json/*
+	tl-akhr.json
+	gamedata/{locale}
 		excel
 			character_table.json
+			[UNUSED] token_table.json
+			[UNUSED] gamedata_const.json # Might be useful later
+			[UNUSED] skin_table.json
 			item_table.json
 				items: Object -> items/{type}/{name}
 			medal_table.json
