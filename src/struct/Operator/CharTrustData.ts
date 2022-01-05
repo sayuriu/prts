@@ -3,7 +3,7 @@ export interface CharTrustData {
 	data: CharTrustAttributes;
 }
 
-interface CharTrustAttributes {
+export interface CharTrustAttributes {
 	maxHp: number;
 	atk: number;
 	def: number;
