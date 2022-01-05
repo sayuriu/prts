@@ -30,7 +30,9 @@ interface CharProfession
 	position: "RANGED" | "MELEE",
 	//TODO: parser needed for the following fields
 	tagList: string[];
+	/** Operator's class. */
 	profession: string;
+	/** Operator's subclass. */
 	subProfessionId: string;
 }
 

@@ -6,7 +6,7 @@ import Logger from "../Logger";
 export const normalizePath = (path: string) => path.replace(/\\\\|\/|\\/g, '/');
 export const joinPaths = (...args: string[]) => normalizePath(join(...args));
 
-export function createIfNotExist(path: string, header: string | null = null, silent: boolean = false) {
+export function createIfNotExist(path: string, header: string | null = null, silentFound: boolean = false) {
 	if (!existsSync(path))
 	{
 		Logger.info(header, `Attempting to create ${chalk.underline(path)}...`, false);
@@ -14,5 +14,15 @@ export function createIfNotExist(path: string, header: string | null = null, sil
 		Logger.log(null, Logger.green('done'))
 		return;
 	}
-	if (!silent) Logger.info(header, `${Logger.green('Found')} ${chalk.underline(path)}`);
+	if (!silentFound) Logger.info(header, `${Logger.green('Found')} ${chalk.underline(path)}`);
+}
+
+export function createRecursive(path: string) {
+	const parts = normalizePath(path).split('/');
+	let current = '';
+	for (let i = 0; i < parts.length; i++)
+	{
+		current += parts[i] + '/';
+		createIfNotExist(current, null, i !== parts.length - 1);
+	}
 }

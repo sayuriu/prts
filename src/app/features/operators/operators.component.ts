@@ -89,6 +89,7 @@ export class OperatorsComponent implements OnInit, OnChanges
 
 	opHeaderData?: OperatorHeaderData;
 	opHeaderCNName = '';
+	opHeaderForeignName = '';
 	opHeaderImg = '';
 	opHeaderRarityImg = '';
 	opHeaderRarityImgLoaded = false;
@@ -99,14 +100,19 @@ export class OperatorsComponent implements OnInit, OnChanges
 	{
 		this.opHeaderImg = this.sanitizer.bypassSecurityTrustUrl(URL.createObjectURL((await this.manager.loadOpImages('char_nodata', 'avatars', undefined, true))!)) as string;
 		this.opHeaderRarityImg = this.sanitizer.bypassSecurityTrustUrl(URL.createObjectURL(new Blob())) as string;
+		await this.json.load(`tl-data/foreign_names/${data.appellation}.json`).then(async res => {
+			if (res)
+				this.opHeaderForeignName = res.name as string;
+		});
 		const imgblob = await this.manager.loadOpImages(`${this.currentOpId}`, 'avatars', undefined, new Boolean(data.displayNumber.match(/EX\d+/)).valueOf());
 		if (imgblob)
 			this.opHeaderImg = this.sanitizer.bypassSecurityTrustUrl(URL.createObjectURL(imgblob)) as string;
 		waitAsync(100).then(() => this.opHeaderCodeSize = '20px');
 		waitAsync(500).then(() => {
 			this.opHeaderData = data;
-			this.opHeaderCNName = this.locale === 'en_US' ?
-				Object.keys(this.manager.charList.ja_JP!).filter(k => this.manager.charList.ja_JP![k as keyof ja_JP_CharIndex] === this.currentOpId)[0] ?? '' :
+			this.opHeaderCNName =
+				this.locale !== 'zh_CN' ?
+				Object.keys(this.manager.charList.zh_CN!).filter(k => this.manager.charList.zh_CN![k as keyof zh_CN_CharIndex] === this.currentOpId)[0] ?? '' :
 				data.appellation;
 			this.manager.cachedImages.load(`gamedata/img/characters/ui/chara/glow-${data.rarity + 1}.png`, { onExpire: emptyFunc }).then(v => {
 				if (v)

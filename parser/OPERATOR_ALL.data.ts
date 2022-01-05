@@ -469,7 +469,7 @@ exports = {
                 prefabKey: '1',
                 name: null,
                 description: '部署后立即爆炸，对前方一格造成伤害并小力度推动敌人，直接击倒前方一格的战场支柱',
-                rangeId: null,
+                rangeId: 'x-4',
                 blackboard: [{
                         key: 'dupilr_trait[startdead].duration',
                         value: 0.5

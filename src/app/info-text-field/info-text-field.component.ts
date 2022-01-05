@@ -58,6 +58,7 @@ interface BoundRectMetadata {
 	minWidth?: string;
 	maxHeight?: string;
 	maxWidth?: string;
+	extraCSS?: { [key: string]: string };
 }
 
 interface TextFieldMetadata extends ExcludeProp<BoundRectMetadata, 'centerChildren'> {
@@ -66,6 +67,7 @@ interface TextFieldMetadata extends ExcludeProp<BoundRectMetadata, 'centerChildr
 	textAlign?: string;
 	textDecor?: string;
 	textSize?: string;
+	asHTML?: boolean;
 }
 
 class BoundRect implements BoundRectMetadata {
@@ -83,6 +85,7 @@ class BoundRect implements BoundRectMetadata {
 	borderFgMatchBg = false;
 	borderMatrixOverride = ['', '', '', ''] as [string, string, string, string];
 	centerChildren = [false, 'center'] as [boolean, string];
+	extraCSS: { [key: string]: string } = {};
 
 	constructor(metadata: BoundRectMetadata = {}) {
 		Object.assign(this, metadata);
@@ -106,7 +109,7 @@ class BoundRect implements BoundRectMetadata {
 			'min-width': this.minWidth,
 			'max-height': this.maxHeight,
 			'max-width': this.maxWidth,
-		}, preprocessedCSSProps);
+		}, this.extraCSS, preprocessedCSSProps);
 		if (this.borderFgMatchBg)
 			prop['border-color'] = this.background;
 		if (this.centerChildren[0])
@@ -146,6 +149,7 @@ class TextField extends BoundRect implements TextFieldMetadata {
 	textAlign: string = '';
 	textDecor: string = '';
 	textSize: string = '';
+	asHTML: boolean = false;
 
 	constructor(metadata: TextFieldMetadata = { textValue: '' }) {
 		super(metadata);

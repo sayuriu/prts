@@ -4,6 +4,7 @@ import { CharPhase } from "./CharPhase";
 import { CharPotential } from "./CharPotential";
 import { CharSkill } from "./CharSkill";
 import { CharTrait, CharTraitCandidate } from "./CharTrait";
+import { CharTrustData } from "./CharTrustData";
 
 export interface Operator
 extends CharBasicInfo
@@ -21,6 +22,7 @@ extends CharBasicInfo
 	];
 	talents: HasCandidate<CharTraitCandidate & WithNameAndDesc>;
 	potentialRanks: CharPotential[];
+	favorKeyFrames: CharTrustData[];
 }
 
 export { CHAR_NAME, SUMMON_NAME, TRAP_NAME } from "./CharBasicInfo";

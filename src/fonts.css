@@ -146,6 +146,114 @@
 }
 /* #endregion */
 
+/* #region Product Sans */
+@font-face {
+	font-family: Product Sans;
+	src: url(assets/fonts/ProductSans-Regular.ttf) format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: Product Sans;
+	src: url(assets/fonts/ProductSans-Italic.ttf) format("truetype");
+	font-style: italic;
+	font-weight: normal;
+}
+@font-face {
+	font-family: Product Sans;
+	src: url(assets/fonts/ProductSans-Medium.ttf) format("truetype");
+	font-style: normal;
+	font-weight: 500;
+}
+@font-face {
+	font-family: Product Sans;
+	src: url(assets/fonts/ProductSans-MediumItalic.ttf) format("truetype");
+	font-style: italic;
+	font-weight: 500;
+}
+@font-face {
+	font-family: Product Sans;
+	src: url(assets/fonts/ProductSans-Bold.ttf) format("truetype");
+	font-style: normal;
+	font-weight: bold;
+}
+@font-face {
+	font-family: Product Sans;
+	src: url(assets/fonts/ProductSans-BoldItalic.ttf) format("truetype");
+	font-style: italic;
+	font-weight: bold;
+}
+@font-face {
+	font-family: Product Sans;
+	src: url(assets/fonts/ProductSans-Black.ttf) format("truetype");
+	font-style: normal;
+	font-weight: 900;
+}
+@font-face {
+	font-family: Product Sans;
+	src: url(assets/fonts/ProductSans-BlackItalic.ttf) format("truetype");
+	font-style: italic;
+	font-weight: 900;
+}
+@font-face {
+	font-family: Product Sans;
+	src: url(assets/fonts/ProductSans-Light.ttf) format("truetype");
+	font-style: normal;
+	font-weight: lighter;
+}
+@font-face {
+	font-family: Product Sans;
+	src: url(assets/fonts/ProductSans-LightItalic.ttf) format("truetype");
+	font-style: italic;
+	font-weight: lighter;
+}
+@font-face {
+	font-family: Product Sans;
+	src: url(assets/fonts/ProductSans-Thin.ttf) format("truetype");
+	font-style: normal;
+	font-weight: 100;
+}
+@font-face {
+	font-family: Product Sans;
+	src: url(assets/fonts/ProductSans-ThinItalic.ttf) format("truetype");
+	font-style: italic;
+	font-weight: 100;
+}
+
+/* #endregion */
+
+/* #region JP_Fonts */
+@font-face {
+	font-family: Gen Ei Late Go N;
+	src: url(assets/fonts/GenEiLateGoN_v2.ttf) format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: Gen Ei Late Go P;
+	src: url(assets/fonts/GenEiLateGoP_v2.ttf) format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: Gen Ei Late Min N;
+	src: url(assets/fonts/GenEiLateMinN_v2.ttf) format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: Gen Ei Late Min P;
+	src: url(assets/fonts/GenEiLateMinP_v2.ttf) format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: Gen Ei Chiku Go Min2 R;
+	src: url(assets/fonts/GenEiChikuGoMin2-R.ttf) format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* #endregion */
 @font-face {
 	font-family: Y1452018;
 	src: url(assets/fonts/Y1452018.ttf) format("truetype");

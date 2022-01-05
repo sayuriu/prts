@@ -9,47 +9,47 @@ exports = {
     classifyType: 'MATERIAL',
     itemType: 'LIMITED_TKT_GACHA_10',
     stageDropList: [{
-            stageId: 'act15d5_02',
+            stageId: 'act16d5_06',
             occPer: 'SOMETIMES'
         },
         {
-            stageId: 'act15d0_03',
+            stageId: 'act12d0_06',
             occPer: 'SOMETIMES'
         },
         {
-            stageId: 'act17d0_01',
+            stageId: 'act12d0_04',
             occPer: 'SOMETIMES'
         },
         {
-            stageId: 'act17d0_02',
+            stageId: 'act13d5_05',
+            occPer: 'ALWAYS'
+        },
+        {
+            stageId: 'act17d0_06',
             occPer: 'ALMOST'
         },
         {
-            stageId: 'act17d0_03',
+            stageId: 'act17d0_04',
+            occPer: 'ALMOST'
+        },
+        {
+            stageId: 'act15d0_04',
+            occPer: 'ALMOST'
+        },
+        {
+            stageId: 'act11d0_04',
+            occPer: 'ALMOST'
+        },
+        {
+            stageId: 'main_08-03',
             occPer: 'ALWAYS'
         },
         {
-            stageId: 'act13d5_02',
-            occPer: 'ALWAYS'
+            stageId: 'act16d5_04',
+            occPer: 'ALMOST'
         },
         {
-            stageId: 'act13d0_02',
-            occPer: 'ALWAYS'
-        },
-        {
-            stageId: 'act12d0_01',
-            occPer: 'ALWAYS'
-        },
-        {
-            stageId: 'main_01-07',
-            occPer: 'ALWAYS'
-        },
-        {
-            stageId: 'act11d0_03',
-            occPer: 'ALWAYS'
-        },
-        {
-            stageId: 'act10d5_02',
+            stageId: 'sub_06-1-2',
             occPer: 'ALWAYS'
         },
         {
@@ -57,16 +57,24 @@ exports = {
             occPer: 'ALWAYS'
         },
         {
-            stageId: 'sub_06-1-2',
+            stageId: 'main_05-10',
             occPer: 'ALWAYS'
         },
         {
-            stageId: 'main_00-09',
+            stageId: 'main_00-07',
+            occPer: 'ALWAYS'
+        },
+        {
+            stageId: 'main_01-07',
             occPer: 'ALWAYS'
         },
         {
             stageId: 'sub_05-1-1',
             occPer: 'ALWAYS'
+        },
+        {
+            stageId: 'sub_03-3-2',
+            occPer: 'USUAL'
         }
     ],
     buildingProductList: [{

@@ -121,7 +121,8 @@
 						minHeight: '42px',
 						width: '73.5px',
 						borderMatrixOverride: ['', '0', '', ''],
-						border: '1px solid black'
+						border: '1px solid black',
+						extraCSS: { alignSelf: 'stretch' }
 					}"
 					[labelFieldText]="{
 						textValue: 'Trait',
@@ -141,7 +142,8 @@
 						textSize: '20px',
 						textAlign: 'left',
 						textColor: 'white',
-						margin: '0 0 0 13px'
+						margin: '9px 0 9px 13px',
+						asHTML: true
 					}"
 				></text-field>
 			</div>
@@ -155,17 +157,18 @@
 		</div>
 	</div>
 	<div id="class-profession" class="even h-auto rel z1">
-		<div id="section-title" class="section-title abs t0 z1">CLASS_PROFESSION</div>
+		<!-- <div id="section-title" class="section-title abs t0 z1">CLASS_PROFESSION</div> -->
 		<div id="left-section" class="flex flex-column z2">
 			<div id="class">
 				<div id="main"></div>
 				<div id="subclass"></div>
 			</div>
 			<text-field
+				[attr.data-title]="'Aqquired with {0} Trust'"
 				[boundRect]="{ width: 'auto', height: 'auto', maxWidth: '100%'}"
 				[labelField]="{
 					centerChildren: [true],
-					width: '42px',
+					width: '148px',
 					minHeight: '36px',
 					borderMatrixOverride: ['', '0', '', ''],
 					border: '1px solid black',

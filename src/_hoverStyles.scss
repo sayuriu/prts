@@ -1,4 +1,4 @@
-@mixin hover-std($position: lower, $maxWidth: 80%, $leftMargin: 15px) {
+@mixin hover-std($position: lower, $maxWidth: 80%, $leftMargin: 15px, $inverseHighlight: true) {
 	$offsetYInit: calc(100% + 20px);
 	$offsetYTarget: calc(100% + 10px);
 
@@ -13,7 +13,6 @@
 		opacity: 0;
 		border: 2px dashed var(--globalForegroundInverse);
 		filter: drop-shadow(2px, 4px, 2px, var(--globalForegroundInverse));
-		pointer-events: none;
 		z-index: 999;
 		left: #{$leftMargin};
 		@if $position == upper {
@@ -28,8 +27,10 @@
 	}
 
 	&:hover {
-		color: var(--globalForeground);
-		background: var(--globalForegroundInverse);
+		@if $inverseHighlight == true {
+			color: var(--globalForeground);
+			background: var(--globalForegroundInverse);
+		}
 		font-weight: normal;
 
 		&[data-title]::after {

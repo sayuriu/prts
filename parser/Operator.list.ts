@@ -179,6 +179,7 @@ export const List = {
         weedy: '400',
         kjera: '4013',
         elysm: '401',
+        aprot2: '4025',
         tuye: '402',
         absin: '405',
         tomimi: '411',
@@ -225,7 +226,8 @@ export const List = {
         aguard: '508',
         acast: '509',
         amedic: '510',
-        asnipe: '511'
+        asnipe: '511',
+        aprot: '512'
     },
     trap: {
         crate: '001',
@@ -272,7 +274,11 @@ export const List = {
         oxygen: '046',
         neonlamp: '048',
         candle: '049',
-        blizzard: '050'
+        blizzard: '050',
+        vultres: '051',
+        slowfd: '052',
+        airbomb: '053',
+        dancdol: '054'
     },
     token: {
         healrb: {

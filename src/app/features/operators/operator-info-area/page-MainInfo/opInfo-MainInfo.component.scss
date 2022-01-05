@@ -1,9 +1,10 @@
 @import "../../../../../utils";
 @import "../../../../../anims";
+@import '../../../../../hoverStyles';
 
 #container {
-	.odd { background: #e3e3e3 }
-	.even { background: #2e2e2e }
+	.odd { #section-title { color:hsla(0, 0%, 100%, .5)} background: #e3e3e3 }
+	.even { #section-title { color:hsla(0, 0%, 0%, .5)} background: #2e2e2e }
 	#section-title { left: 22px }
 	#basic-info {
 		#info-area {
@@ -35,7 +36,7 @@
 
 							animation:
 								star-slide-rotate 1.45s $slow-down 0.3s forwards,
-								star-glow 0.7s $slow-down calc(1.5s + 0.15s * var(--order)) forwards;
+								star-glow 0.7s $slow-down calc(0.6s + 0.13s * var(--order)) forwards;
 						}
 					}
 					#op-rarity-banner {
@@ -68,6 +69,13 @@
 						opacity: 1;
 					}
 				}
+			}
+		}
+	}
+	#class-profession {
+		#left-section {
+			text-field {
+				@include hover-std(lower, auto, 0, false);
 			}
 		}
 	}

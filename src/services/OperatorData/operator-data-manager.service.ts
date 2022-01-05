@@ -5,9 +5,10 @@ import { CHAR_NAME, SUMMON_NAME, TRAP_NAME, Operator } from '@struct/Operator/Ch
 import { CharFaction, defaultCharFaction } from '@struct/Operator/CharFaction';
 import { Locales } from '@struct/Basic';
 import { ImageDataService } from '../image-data.service';
-import { Nullable, NullablePromise, ValueOf } from '@utils/utils';
+import { arrayAtMany, Nullable, NullablePromise, Optional, ValueOf } from '@utils/utils';
 import { JSONLoadService } from '@services/OperatorData/jsonload.service';
 import { join } from '@utils/PathUtils';
+import { CharTrustAttributes } from '@root/src/struct/Operator/CharTrustData';
 
 export type en_US_CharIndex = typeof import('@assets/gamedata/json/locales/en_US/charnameLinkID.json');
 export type ja_JP_CharIndex = typeof import('@assets/gamedata/json/locales/ja_JP/charnameLinkID.json');
@@ -165,6 +166,29 @@ export class OperatorDataManagerService {
 				.load(join(this.imagePath, path), { onExpire: console.log, onerror: () => resolve(null) })
 				.then(v => resolve(v?.type.match('image') ? v : null));
 		});
+	}
+	resolveTrustData(op: Operator)
+	{
+		let out: Optional<CharTrustAttributes> = {};
+		const [minTrust, maxTrust] = arrayAtMany(op.favorKeyFrames, 0, -1).map(v => v ? v.data : null);
+		if (minTrust && maxTrust)
+			for (const key in maxTrust)
+			{
+				type TrustAttrKey = keyof CharTrustAttributes;
+				const
+					minAttr = minTrust[key as TrustAttrKey],
+					maxAttr = maxTrust[key as TrustAttrKey];
+				if (minAttr !== maxAttr)
+				{
+					if (typeof maxAttr === 'number' && typeof minAttr === 'number')
+						// @ts-ignore
+						out[key as TrustAttrKey] = maxAttr - minAttr;
+					else
+						// @ts-ignore
+						out[key as TrustAttrKey] = maxAttr;
+				}
+			}
+		return out;
 	}
 }
 

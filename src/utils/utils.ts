@@ -12,6 +12,23 @@ export function isFullScreen()
 {
 	return window.innerWidth === screen.width && window.innerHeight === screen.height;
 }
+export function arrayAtMany<T>(array: T[], ...indexes: number[])
+{
+	const out: Nullable<T>[] = [];
+	for (const index of indexes)
+		out[index] = arrayAt(array, index);
+
+	return out;
+}
+export function arrayAt<T>(arr: T[], index: number): Nullable<T>
+{
+	if (index < 0)
+	{
+		index = arr.length + index;
+		return arrayAt(arr, index);
+	}
+	return arr[index] ?? null;
+}
 
 export const emptyFunc = (...args: any[]) => {};
 
@@ -19,3 +36,6 @@ export type Nullable<T> = T | null;
 export type NullablePromise<T> = Promise<Nullable<T>>;
 export type ValueOf<T> = T[keyof T];
 export type ExcludeProp<T, K extends keyof T> = Pick<T, Exclude<keyof T, K>>;
+
+export type Optional<T> = { [P in keyof T]?: T[P] };
+export type Concrete<T> = { [P in keyof T]-?: T[P] };

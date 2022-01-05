@@ -1,0 +1,38 @@
+{
+	"num": {
+		"maxHp": "MAX_HP",
+		"atk": "ATK",
+		"def": "DEF",
+		"magicResistance": "RES",
+		"cost": "DP_COST",
+		"blockCnt": "BLK",
+		"moveSpeed": "MV_SPD",
+		"attackSpeed": "ATK_SPD",
+		"baseAttackTime": {
+			"key": "ATK_DELAY",
+			"unit": "s"
+		},
+		"respawnTime": {
+			"key": "RESPWN_DELAY",
+			"unit": "s"
+		},
+		"hpRecoveryPerSec": {
+			"key": "HP_RECOVERY",
+			"unit": "/s"
+		},
+		"spRecoveryPerSec": {
+			"key": "SP_RECOVERY",
+			"unit:": "/s"
+		},
+		"maxDeployCount": "DEPLOY_CNT",
+		"maxDeckStackCnt": 0,
+		"tauntLevel": "TAUNT",
+		"massLevel": "WEIGHT",
+		"baseForceLevel": "BASE_FORCE_LVL"
+	},
+	"bool": {
+		"stunImmune": "STUN_IMMUNE",
+		"silenceImmune": "SILENCE_IMMUNE",
+		"sleepImmune": "SLEEP_IMMUNE"
+	}
+}
