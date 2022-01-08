@@ -22,7 +22,7 @@
 			>
 				<i>Version {{appVersion}} |></i>
 			</a>
-			<p style="opacity: 0; z-index: -2; font-size: 0.75rem">_</p>
+			<p style="opacity: 0; z-index: -2; font-size: 0.75rem; width: 0.00001px">_</p>
 			<div id="message-content">
 				<div id="changelog-frame">
 					<button
@@ -45,7 +45,7 @@
 							</div>
 							<div class="changes" *ngFor="let change of changelog.changes">
 								<!-- {{change}} -->
-								<p [outerHTML]="'<i>' + change + '</i>'"></p>
+								<p [innerHTML]="'<i>' + change + '</i>'"></p>
 							</div>
 						</div>
 					</ul>

@@ -21,7 +21,7 @@
 		@else if $position == lower {
 			top: #{$offsetYInit};
 		}
-
+		pointer-events: none;
 		padding: 0.25em;
 		transition: all 0.3s $forceful 0.5s;
 	}
@@ -45,6 +45,7 @@
 			color: var(--globalForegroundInverse);
 			background: var(--globalForeground);
 			transition: all 0.5s $forceful 0.3s;
+			pointer-events: all;
 		}
 	}
 }

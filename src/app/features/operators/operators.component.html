@@ -1,10 +1,10 @@
 <div id="route-container" class="abs">
 	<div id="main-container" class="fh fw flex">
-		<div id="img-area" class="fh abs b0 l0 z-1">
+		<div id="img-area" class="fh abs b0 l0 z0">
 			<app-operator-img [opName]="currentOpId"></app-operator-img>
 		</div>
 		<div id="img-area-blocker" class="fh" [ngClass]="currentOpId ? 'default' : 'collapsed'"></div>
-		<div id="info-area" class="fh" [attr.picked]="currentOpId ? currentOpId : ''" [ngClass]="currentOpId ? 'default' : 'expanded'">
+		<div id="info-area" class="fh z1" [attr.picked]="currentOpId ? currentOpId : ''" [ngClass]="currentOpId ? 'default' : 'expanded'">
 			<header class="fw flex a-flex-center" [ngClass]="(currentOpId ? 'full' : 'collapsed') + ' hasDelay'">
 				<!-- <button id="info-expand"></button> -->
 				<picker-title *ngIf="!currentOpId" @AppearDisappear><i>Pick an Operator!</i></picker-title>
@@ -12,7 +12,7 @@
 					<op-name-main class="flex a-flex-center">
 						<spacer class="fh" style="width: 30px;"></spacer>
 						<div *ngIf="currentOpId && opHeaderCNName" @AppearDisappear>
-							<op-name-alt>{{opHeaderCNName}}</op-name-alt><br>
+							<op-name-alt class="cn">{{opHeaderCNName}}</op-name-alt><br>
 							<op-name>{{opHeaderData.name}}</op-name>
 							<op-foreign-name>&thinsp;{{opHeaderForeignName}}</op-foreign-name>
 						</div>

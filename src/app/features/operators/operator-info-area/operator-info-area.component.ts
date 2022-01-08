@@ -96,6 +96,7 @@ export class OperatorInfoAreaComponent implements OnInit, OnChanges
 	@Output() onOperatorChange = new EventEmitter<OperatorHeaderData>();
 
 	currentOp!: Operator;
+	currentOpCN!: Operator;
 	menuVisible = false;
 	pagesVisible = false;
 	ngOnInit(): void {
@@ -111,9 +112,11 @@ export class OperatorInfoAreaComponent implements OnInit, OnChanges
 		if (changes.visible && !this.menuVisible && !this.pagesVisible)
 			this.init();
 	}
+
 	async init()
 	{
 		this.currentOp = await this.manager.getCharData(this.opId as CHAR_NAME, this.serverLocale) as Operator;
+		this.currentOpCN = await this.manager.getCharData(this.opId as CHAR_NAME, 'zh_CN') as Operator;
 		document.title = `${this.currentOp.name ?? 'Operators'} - PRTS Analysis OS`;
 		console.log(this.currentOp);
 		console.log('%c ', `font-size: 1000px; height: 720px; width: 540px; background:url('https://prts.vercel.app/assets/gamedata/img/characters/avatars/${this.opId}.png') repeat;`);

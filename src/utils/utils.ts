@@ -12,11 +12,15 @@ export function isFullScreen()
 {
 	return window.innerWidth === screen.width && window.innerHeight === screen.height;
 }
+export function normalizeArrayIndex(index: number, length: number): number
+{
+	return index < 0 ? normalizeArrayIndex(length + index, length) : index;
+}
 export function arrayAtMany<T>(array: T[], ...indexes: number[])
 {
 	const out: Nullable<T>[] = [];
 	for (const index of indexes)
-		out[index] = arrayAt(array, index);
+		out[normalizeArrayIndex(index, array.length)] = arrayAt(array, index);
 
 	return out;
 }
@@ -27,10 +31,10 @@ export function arrayAt<T>(arr: T[], index: number): Nullable<T>
 		index = arr.length + index;
 		return arrayAt(arr, index);
 	}
-	return arr[index] ?? null;
+	return [...new Array(...arr).values()][index] ?? null;
 }
 
-export const emptyFunc = (...args: any[]) => {};
+export const emptyFunc = () => {};
 
 export type Nullable<T> = T | null;
 export type NullablePromise<T> = Promise<Nullable<T>>;

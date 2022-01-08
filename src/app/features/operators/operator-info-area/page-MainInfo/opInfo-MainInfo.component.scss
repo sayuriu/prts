@@ -3,8 +3,18 @@
 @import '../../../../../hoverStyles';
 
 #container {
-	.odd { #section-title { color:hsla(0, 0%, 100%, .5)} background: #e3e3e3 }
-	.even { #section-title { color:hsla(0, 0%, 0%, .5)} background: #2e2e2e }
+	#section-title {
+		font-weight: 200;
+		pointer-events: none;
+	}
+	.odd {
+		#section-title { color:hsla(0, 0%, 0%, .5) }
+		background: #e3e3e3;
+	}
+	.even {
+		#section-title { color:hsla(0, 0%, 100%, .5) }
+		background: #2e2e2e
+	}
 	#section-title { left: 22px }
 	#basic-info {
 		#info-area {
@@ -45,6 +55,9 @@
 						animation: banner-slide 1s $slow-down 0.35s forwards;
 					}
 				}
+				#op-gender {
+					@include hover-std(lower, auto, 22px, false);
+				}
 			}
 		}
 		#right-section {
@@ -74,8 +87,38 @@
 	}
 	#class-profession {
 		#left-section {
+			margin-left: 30px;
+			#op-class {
+				margin: 36px 25px 8px 0;
+				height: 224px;
+				width: 224px;
+				div {
+					height: 50%;
+					align-items: center;
+					div {
+						aspect-ratio: 1;
+						height: 100%;
+						#subclass-img {
+							aspect-ratio: 1;
+							height: 85%;
+							object-fit: contain;
+						}
+					}
+					p {
+						font-size: 30px;
+						font-weight: 500;
+						color: #fff;
+						background: #000;
+						margin: 0 11px;
+					}
+				}
+				#main p {
+					font-weight: 400;
+				}
+			}
 			text-field {
 				@include hover-std(lower, auto, 0, false);
+				margin-bottom: 7px;
 			}
 		}
 	}

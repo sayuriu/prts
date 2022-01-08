@@ -3,7 +3,6 @@
 @import '../../../../utils';
 
 scroll-container {
-	@extend .full-height-width;
 	#menu-abs-container {
 		height: 0;
 		width: 100%;
@@ -44,7 +43,7 @@ scroll-container {
 	}
 	#pages {
 		z-index: 1;
-		@extend .full-height-width;
+		height: calc(100vh - 140px - 75px);
 		overflow-y: auto;
 		position: relative;
 		transition: opacity 0.5s $forceful 0.4s;

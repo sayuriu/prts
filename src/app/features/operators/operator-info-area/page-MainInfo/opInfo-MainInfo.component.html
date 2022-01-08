@@ -1,5 +1,5 @@
 <div id="container" class="h-auto fw">
-	<div id="basic-info" class="odd h-auto flex flex-row">
+	<div id="basic-info" class="odd h-auto flex flex-row z0">
 		<div id="info-area">
 			<div id="line1" class="line flex flex-row">
 				<rarity-star
@@ -20,6 +20,9 @@
 					</div>
 				</rarity-star>
 				<text-field
+					id="op-gender"
+					class="pointer-all rel"
+					[attr.data-title]="(opGender[this.currentOpHR.sex] ?? {}).sex_en ?? 'Unknown'"
 					[boundRect]="{ centerChildren: [true], width: '128px', height: '42px' }"
 					[labelField]="{
 						centerChildren: [true],
@@ -39,10 +42,10 @@
 						width: '33.5px',
 						borderFgMatchBg: true,
 						border: '1px solid black',
-						background: genderColor['N']
+						background: genderColor[this.currentOpHR.sex] ?? genderColor.unknown
 					}"
 					[valueFieldText]="{
-						textValue: 'N',
+						textValue: ((opGender[this.currentOpHR.sex] ?? {}).sex_en ?? 'U')[0],
 						textSize: '20px',
 						textAlign: 'center',
 						textColor: 'white'
@@ -142,7 +145,7 @@
 						textSize: '20px',
 						textAlign: 'left',
 						textColor: 'white',
-						margin: '9px 0 9px 13px',
+						margin: '9px 9px 9px 13px',
 						asHTML: true
 					}"
 				></text-field>
@@ -156,23 +159,48 @@
 			</div>
 		</div>
 	</div>
-	<div id="class-profession" class="even h-auto rel z1">
-		<!-- <div id="section-title" class="section-title abs t0 z1">CLASS_PROFESSION</div> -->
-		<div id="left-section" class="flex flex-column z2">
-			<div id="class">
-				<div id="main"></div>
-				<div id="subclass"></div>
+	<div id="class-profession" class="even h-auto fw rel z1">
+		<div id="section-title" class="section-title abs t0 z-1">CLASS_PROFESSION</div>
+		<div id="left-section" class="flex flex-col z2">
+			<div
+				id="op-class"
+				class="flex flex-col"
+				[style.margin-left]="
+					'calc(19px' + (currentOpSubclass.length > 5 ?
+					' + ' + (currentOpSubclass.length - 5).toString() + ' * 1.5ch' :
+					'')
+					+ ')'"
+				>
+				<!-- calc(19px + 5 * 1ch) -->
+				<div id="main" class="flex flex-row">
+					<img
+						class="fh img-contain"
+						[src]="currentOpClass !== 'NO_CLASS' ?
+							('/assets/gamedata/img/characters/ui/classes/black/icon_profession_' +
+							currentOpClass.toLowerCase() +
+							'_large.png') :
+							'/assets/img/ui/no_data_class.png'"
+					>
+					<p>{{currentOpClass}}</p>
+				</div>
+				<div id="subclass" class="flex flex-row-rev j-flex-start">
+					<div id="subclass-img-container" class="flex j-flex-center a-flex-center" style="background: black">
+						<img id="subclass-img" [src]="currentOpSubclass !== 'NO_SUBCLASS' ? ('/assets/gamedata/img/characters/ui/subclasses/sub_' + currentOperatorCN.subProfessionId + '_icon.png') : '/assets/img/ui/no_data_class.png'">
+					</div>
+					<p>{{currentOpSubclass}}</p>
+				</div>
 			</div>
 			<text-field
-				[attr.data-title]="'Aqquired with {0} Trust'"
+				[attr.data-title]="'Acquired with ' + trustDiffData.maxFavorLevel + ' Trust'"
 				[boundRect]="{ width: 'auto', height: 'auto', maxWidth: '100%'}"
 				[labelField]="{
 					centerChildren: [true],
-					width: '148px',
+					minWidth: '148px',
 					minHeight: '36px',
 					borderMatrixOverride: ['', '0', '', ''],
 					border: '1px solid black',
-					background: '#c4c4c4'
+					background: '#c4c4c4',
+					extraCSS: { alignSelf: 'stretch' }
 				}"
 				[labelFieldText]="{
 					textValue: 'TRUST_BONUS',
@@ -188,20 +216,21 @@
 					background: '#3F3F3F'
 				}"
 				[valueFieldText]="{
-					textValue: 'OP_INFO.TRUST_BONUS',
+					textValue: trustDataString,
 					textSize: '20px',
 					textAlign: 'left',
 					textColor: 'white',
-					margin: '0 10px 0 9px'
+					margin: '0 10px 0 9px',
+					extraCSS: { 'font-weight': 'lighter' }
 				}"
 			></text-field>
 		</div>
 		<div id="right-section" class="z2">
-			<div id="op-potential">
+			<!-- <div id="op-potential">
 				<div id="potential-list" class="flex flex-col">
 					<div id="potential-rank" *ngFor="let potential of currentOperator.potentialRanks"></div>
 				</div>
-			</div>
+			</div> -->
 		</div>
 	</div>
 	<div id="talents" class="odd h-auto rel">

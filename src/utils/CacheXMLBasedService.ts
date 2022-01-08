@@ -42,8 +42,8 @@ export abstract class CacheXMLBasedService<E>
 				data,
 				timeout,
 				setTimeout(() => {
-					const data = this._cache.get(id)!;
-					data.onExpire(data);
+					const _data = this._cache.get(id)!;
+					_data.onExpire(_data);
 					this._cache.delete(id);
 				}, timeout) as unknown as number,
 				onExpire

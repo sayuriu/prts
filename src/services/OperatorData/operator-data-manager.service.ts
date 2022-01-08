@@ -5,10 +5,12 @@ import { CHAR_NAME, SUMMON_NAME, TRAP_NAME, Operator } from '@struct/Operator/Ch
 import { CharFaction, defaultCharFaction } from '@struct/Operator/CharFaction';
 import { Locales } from '@struct/Basic';
 import { ImageDataService } from '../image-data.service';
-import { arrayAtMany, Nullable, NullablePromise, Optional, ValueOf } from '@utils/utils';
+import { arrayAtMany, emptyFunc, Nullable, NullablePromise, Optional } from '@utils/utils';
 import { JSONLoadService } from '@services/OperatorData/jsonload.service';
 import { join } from '@utils/PathUtils';
 import { CharTrustAttributes } from '@root/src/struct/Operator/CharTrustData';
+
+import StatsPropMap from '@assets/gamedata/json/StatsPropMap.json';
 
 export type en_US_CharIndex = typeof import('@assets/gamedata/json/locales/en_US/charnameLinkID.json');
 export type ja_JP_CharIndex = typeof import('@assets/gamedata/json/locales/ja_JP/charnameLinkID.json');
@@ -67,6 +69,7 @@ export class OperatorDataManagerService {
 	charList!: CharData;
 	isLoaded = false;
 	readonly imagePath = 'gamedata/img';
+	readonly statPropMap = StatsPropMap;
 
 	constructor(
 		public cachedImages: ImageDataService,
@@ -163,21 +166,26 @@ export class OperatorDataManagerService {
 	{
 		return new Promise((resolve) => {
 			this.cachedImages
-				.load(join(this.imagePath, path), { onExpire: console.log, onerror: () => resolve(null) })
+				.load(join(this.imagePath, path), { onExpire: emptyFunc, onerror: () => resolve(null) })
 				.then(v => resolve(v?.type.match('image') ? v : null));
 		});
 	}
-	resolveTrustData(op: Operator)
+	async humanResource(charNameCN: string)
+	{
+		return await this.JSONAssets.load(`tl-data/human_resource/${charNameCN}.json`, { onExpire: emptyFunc });
+	}
+
+	resolveTrustData(trustStatsData: Operator['favorKeyFrames'])
 	{
 		let out: Optional<CharTrustAttributes> = {};
-		const [minTrust, maxTrust] = arrayAtMany(op.favorKeyFrames, 0, -1).map(v => v ? v.data : null);
+		const [minTrust, maxTrust] = arrayAtMany(trustStatsData, 0, -1).map(v => v ? v : null);
 		if (minTrust && maxTrust)
-			for (const key in maxTrust)
+			for (const key in maxTrust.data)
 			{
 				type TrustAttrKey = keyof CharTrustAttributes;
 				const
-					minAttr = minTrust[key as TrustAttrKey],
-					maxAttr = maxTrust[key as TrustAttrKey];
+					minAttr = minTrust.data[key as TrustAttrKey],
+					maxAttr = maxTrust.data[key as TrustAttrKey];
 				if (minAttr !== maxAttr)
 				{
 					if (typeof maxAttr === 'number' && typeof minAttr === 'number')
@@ -188,8 +196,45 @@ export class OperatorDataManagerService {
 						out[key as TrustAttrKey] = maxAttr;
 				}
 			}
-		return out;
+		const refThis = this;
+		return Object.assign(
+			out, {
+				maxFavorLevel: maxTrust?.level ?? 0,
+				toString()
+				{
+					const str: string[] = [];
+					for (const [k, v] of Object.entries(out))
+					{
+						if (['toString', 'maxFavorLevel'].includes(k)) continue;
+						type keyNum = keyof typeof StatsPropMap.num;
+						type keyBool = keyof typeof StatsPropMap.bool;
+						if (typeof v === 'boolean')
+						{
+							str.push(`${v ? '+' : '-'}${refThis.statPropMap.bool[k as keyBool]}`);
+							continue;
+						}
+						const keyName = refThis.statPropMap.num[k as keyNum];
+						if (typeof keyName === 'string')
+							str.push(`${keyName}\u205F${v > 0 ? '+' : '-'}${v}`);
+						else str.push(`${keyName.key}\u205F${v > 0 ? '+' : '-'}${v}${keyName.unit}`);
+					}
+					return str.join('\u2009|\u2009');
+				}
+			});
 	}
+	async resolveClassName(mainClass: Operator['profession']): NullablePromise<Record<string, OpClass>>
+	{
+		const _class = await this.JSONAssets.load(`tl-data/classes.json`);
+		if (_class)
+			if (_class[mainClass])
+				return _class[mainClass] as Record<string, OpClass>;
+		return null;
+	}
+}
+
+interface OpClass {
+	name: string;
+	en: string;
 }
 
 interface HasDefault<T extends unknown> extends Record<string, unknown>

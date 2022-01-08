@@ -40,7 +40,9 @@
 .flex { display: flex }
 
 .flex-col { flex-direction: column }
+.flex-col-rev { flex-direction: column-reverse }
 .flex-row { flex-direction: row }
+.flex-row-rev { flex-direction: row-reverse }
 
 .j-flex-end { justify-content: flex-end }
 .j-flex-start { justify-content: flex-start }
@@ -60,7 +62,14 @@
 
 .text-center { text-align: center }
 
+.img-contain { object-fit: contain }
+
 .section-title {
 	font-size: 80px;
 	letter-spacing: -0.025em;
 }
+
+.jp, .cn {
+	font-family: Gen Ei Chiku Go Min2 R;
+}
+
