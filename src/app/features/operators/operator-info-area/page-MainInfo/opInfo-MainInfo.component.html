@@ -159,8 +159,8 @@
 			</div>
 		</div>
 	</div>
-	<div id="class-profession" class="even h-auto fw rel z1">
-		<div id="section-title" class="section-title abs t0 z-1">CLASS_PROFESSION</div>
+	<div id="class-profession" class="even h-auto fw rel flex j-flex-space-between z1">
+		<div id="section-title" class="section-title abs t0 z-1 anim-AbsSnapToTop">CLASS_PROFESSION</div>
 		<div id="left-section" class="flex flex-col z2">
 			<div
 				id="op-class"
@@ -172,7 +172,7 @@
 					+ ')'"
 				>
 				<!-- calc(19px + 5 * 1ch) -->
-				<div id="main" class="flex flex-row">
+				<div id="main" class="flex flex-row z1">
 					<img
 						class="fh img-contain"
 						[src]="currentOpClass !== 'NO_CLASS' ?
@@ -181,16 +181,17 @@
 							'_large.png') :
 							'/assets/img/ui/no_data_class.png'"
 					>
-					<p>{{currentOpClass}}</p>
+					<p class="no-whitespace-warp anim-spreadLR">&#x2009;{{currentOpClass}}&#x2009;</p>
 				</div>
-				<div id="subclass" class="flex flex-row-rev j-flex-start">
+				<div id="subclass" class="flex flex-row-rev j-flex-start z0">
 					<div id="subclass-img-container" class="flex j-flex-center a-flex-center" style="background: black">
 						<img id="subclass-img" [src]="currentOpSubclass !== 'NO_SUBCLASS' ? ('/assets/gamedata/img/characters/ui/subclasses/sub_' + currentOperatorCN.subProfessionId + '_icon.png') : '/assets/img/ui/no_data_class.png'">
 					</div>
-					<p>{{currentOpSubclass}}</p>
+					<p class="no-whitespace-warp anim-spreadRL">&#x2009;{{currentOpSubclass}}&#x2009;</p>
 				</div>
 			</div>
 			<text-field
+				class="anim-spawn"
 				[attr.data-title]="'Acquired with ' + trustDiffData.maxFavorLevel + ' Trust'"
 				[boundRect]="{ width: 'auto', height: 'auto', maxWidth: '100%'}"
 				[labelField]="{
@@ -225,12 +226,18 @@
 				}"
 			></text-field>
 		</div>
-		<div id="right-section" class="z2">
-			<!-- <div id="op-potential">
-				<div id="potential-list" class="flex flex-col">
-					<div id="potential-rank" *ngFor="let potential of currentOperator.potentialRanks"></div>
+		<div id="right-section" class="flex z2">
+			<div id="op-potential" class="a-self-center anim-spreadUD">
+				<div id="no-potential" *ngIf="!currentOperator.potentialRanks.length">
+
 				</div>
-			</div> -->
+				<div id="potential-list" class="flex flex-col" *ngIf="currentOperator.potentialRanks.length">
+					<div id="potential-rank" class="flex flex-row a-flex-center" *ngFor="let potential of currentOperator.potentialRanks, let i = index">
+						<img id="potential-thumb" [src]="'/assets/gamedata/img/characters/ui/potential/' + (i + 2) + '.png'">
+						<p>{{potential.description}}</p>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 	<div id="talents" class="odd h-auto rel">

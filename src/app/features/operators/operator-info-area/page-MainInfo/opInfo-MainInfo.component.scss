@@ -6,6 +6,7 @@
 	#section-title {
 		font-weight: 200;
 		pointer-events: none;
+		animation-delay: 0.5s;
 	}
 	.odd {
 		#section-title { color:hsla(0, 0%, 0%, .5) }
@@ -112,13 +113,80 @@
 						margin: 0 11px;
 					}
 				}
-				#main p {
-					font-weight: 400;
+				#main {
+					img {
+						transform: translate(25%, 50%) scale(1.5);
+						opacity: 0;
+						@keyframes mainClass {
+							30% {
+								transform: translate(25%, 50%) scale(1);
+							}
+							50% {
+								transform: translate(25%, 0);
+								// animation-timing-function: $slow-down;
+							}
+							100% {
+								transform: translate(0, 0);
+							}
+						}
+						animation:
+							spawn 0.5s $forceful 1s forwards,
+							mainClass 1.8s $forceful 1.4s forwards;
+					}
+					p {
+						font-weight: 400;
+						animation-delay: 2.8s;
+					}
+				}
+				#subclass {
+					#subclass-img-container {
+						transform: translate(-75%, -50%);
+						opacity: 0;
+						@keyframes subClass {
+							30% {
+								transform: translate(-75%, -50%);
+							}
+							50% {
+								transform: translate(-75%, 0);
+								// animation-timing-function: $slow-down;
+							}
+							100% {
+								transform: translate(0, 0);
+							}
+						}
+						animation:
+							spawn 0.2s $forceful 1.3s forwards,
+							subClass 1.8s $forceful 1.4s forwards;
+					}
+					p {
+						animation-delay: 2.8s;
+					}
 				}
 			}
 			text-field {
 				@include hover-std(lower, auto, 0, false);
 				margin-bottom: 7px;
+				animation-delay: 2.8s;
+			}
+		}
+		#right-section {
+			margin-right: 15px;
+			#op-potential {
+				background: hsla(0, 0%, 1%, 0.6);
+				color: white;
+				font-weight: 300;
+				animation-delay: 2.8s;
+			}
+			#potential-list {
+				margin: 0 0 0 12px;
+				img {
+					aspect-ratio: 1;
+					margin-right: 6px;
+					height: 35px;
+					background-color: hsl(0, 0%, 77%);
+					border-radius: 3px;
+				}
+				p { margin-right: 10px }
 			}
 		}
 	}

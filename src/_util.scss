@@ -51,6 +51,8 @@
 
 .a-flex-center { align-items: center }
 
+.a-self-center { align-self: center }
+
 .no-border { border: 0 }
 
 .no-pointer { pointer-events: none }
@@ -64,12 +66,13 @@
 
 .img-contain { object-fit: contain }
 
+.no-whitespace-warp { white-space: nowrap }
+
 .section-title {
 	font-size: 80px;
 	letter-spacing: -0.025em;
 }
 
 .jp, .cn {
-	// font-family: Gen Ei Chiku Go Min2 R;
+	font-family: Gen Ei Chiku Go Min;
 }
-

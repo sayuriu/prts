@@ -61,3 +61,56 @@ $slide-main: 0.25s $forceful;
 		}
 	}
 }
+
+
+.anim-spreadRL
+{
+	--clip-start-right: polygon(100% 0, 100% 100%, 100% 100%, 100% 0);
+	@keyframes spreadRL {
+		from { clip-path: var(--clip-start-right) }
+		to { clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 0); }
+	}
+	clip-path: var(--clip-start-right);
+	animation: spreadRL 1s $slow-down forwards;
+}
+
+.anim-spreadLR
+{
+	--clip-start-left: polygon(0 0, 0 100%, 0 100%, 0 0);
+	@keyframes spreadLR {
+		from { clip-path: var(--clip-start-left) }
+		to { clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 0); }
+	}
+	clip-path: var(--clip-start-left);
+	animation: spreadLR 1s $slow-down forwards;
+}
+
+.anim-spreadUD
+{
+	--clip-start-up: polygon(0 0, 100% 0, 100% 0, 0 0);
+	@keyframes spreadUD {
+		from { clip-path: var(--clip-start-up) }
+		to { clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); }
+	}
+	clip-path: var(--clip-start-up);
+	animation: spreadUD 1s $slow-down forwards;
+}
+
+.anim-AbsSnapToTop {
+	top: 35%;
+	@keyframes AbsSnapToTop {
+		from {
+			top: 35%;
+		}
+		to {
+			top: 0;
+		}
+	}
+
+	animation: AbsSnapToTop 1s $forceful forwards;
+}
+
+.anim-spawn {
+	opacity: 0;
+	animation: spawn 1s $forceful forwards;
+}
