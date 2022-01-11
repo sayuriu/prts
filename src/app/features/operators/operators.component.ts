@@ -111,10 +111,10 @@ export class OperatorsComponent implements OnInit, OnChanges
 		waitAsync(500).then(() => {
 			this.opHeaderData = data;
 			this.opHeaderCNName =
-				this.locale !== 'zh_CN' ?
-				Object.keys(this.manager.charList.zh_CN!).filter(k => this.manager.charList.zh_CN![k as keyof zh_CN_CharIndex] === this.currentOpId)[0] ?? '' :
-				// this.locale !== 'ja_JP' ?
-				// Object.keys(this.manager.charList.ja_JP!).filter(k => this.manager.charList.ja_JP![k as keyof ja_JP_CharIndex] === this.currentOpId)[0] ?? '' :
+				// this.locale !== 'zh_CN' ?
+				// Object.keys(this.manager.charList.zh_CN!).filter(k => this.manager.charList.zh_CN![k as keyof zh_CN_CharIndex] === this.currentOpId)[0] ?? '' :
+				this.locale !== 'ja_JP' ?
+				Object.keys(this.manager.charList.ja_JP!).filter(k => this.manager.charList.ja_JP![k as keyof ja_JP_CharIndex] === this.currentOpId)[0] ?? '' :
 				data.appellation;
 			this.manager.cachedImages.load(`gamedata/img/characters/ui/chara/glow-${data.rarity + 1}.png`, { onExpire: emptyFunc }).then(v => {
 				if (v)

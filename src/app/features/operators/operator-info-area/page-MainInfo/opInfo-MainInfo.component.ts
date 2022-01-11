@@ -57,6 +57,7 @@ export class OpMainInfoComponent implements OnInit {
 		if (imgblob)
 			this.factionImgURL = this.sanitizer.bypassSecurityTrustUrl(URL.createObjectURL(imgblob)) as string;
 		this.formatClassName();
+		this.processAvailableTLData();
 		this.resolveTrustDiff();
 	}
 
@@ -81,6 +82,66 @@ export class OpMainInfoComponent implements OnInit {
 			this.trustDataString = this.trustDiffData.toString();
 	}
 
+	opTLPotentialOptions: number[] = [];
+	opTLEliteOptions: number[] = [];
+	opTLLevelOptions: number[] = [];
+	async processAvailableTLData()
+	{
+		const TLOptArray = [];
+		for (const talent of this.currentOperator.talents)
+			for (const candidate of talent.candidates)
+			{
+				const { unlockCondition: { phase, level }, requiredPotentialRank } = candidate;
+				TLOptArray.push(`${phase}-${level}-${requiredPotentialRank}`);
+			}
+		this.toTLOptions(TLOptArray.sort());
+	}
+
+	currentTLElite!: number;
+	currentTLPotential!: number;
+	currentTLLevel!: number;
+	async toTLOptions(data: string[])
+	{
+		const
+			levelData = new Set<number>(),
+			potentialData = new Set<number>(),
+			eliteData = new Set<number>();
+		for (const str of data)
+		{
+			if (!str.match(/^[0-5]-[0-2]+-[0-9]?[0-9]$/)) continue;
+			const [phase, level, potential] = str.split('-');
+			levelData.add(parseInt(level));
+			eliteData.add(parseInt(phase));
+			potentialData.add(parseInt(potential));
+		}
+		this.opTLEliteOptions = [...eliteData];
+		this.opTLPotentialOptions = [...potentialData];
+		this.opTLLevelOptions = [...levelData];
+		this.currentTLElite = this.opTLEliteOptions[0];
+		this.currentTLPotential = this.opTLPotentialOptions[0];
+		this.currentTLLevel = this.opTLLevelOptions[0];
+	}
+
+	setTLElite(value: number)
+	{
+		this.currentTLElite = value;
+		this.updateOpTLData();
+	}
+	setTLPotential(value: number)
+	{
+		this.currentTLPotential = value;
+		this.updateOpTLData();
+	}
+	setTLLevel(value: number)
+	{
+		this.currentTLLevel = value;
+		this.updateOpTLData();
+	}
+	updateOpTLData()
+	{
+
+	}
+
 	// port
 	port_replace(strMatch: string, strReplace: string) {
 		return (_in: string) => _in.replace(strMatch, strReplace);
@@ -90,7 +151,7 @@ export class OpMainInfoComponent implements OnInit {
 	{
 		if (this.currentOperator.teamId)
 			return this.currentOperator.teamId;
-		else if (this.currentOperator.groupId)
+		if (this.currentOperator.groupId)
 			return this.currentOperator.groupId;
 		return this.currentOperator.nationId;
 	}

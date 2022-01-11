@@ -222,7 +222,7 @@
 
 /* #endregion */
 
-/* #region JP_Fonts */
+/* #region JP_CN_Fonts */
 @font-face {
 	font-family: Gen Ei Late Go N;
 	src: url(assets/fonts/GenEiLateGoN_v2.ttf) format("truetype");
@@ -250,6 +250,12 @@
 @font-face {
 	font-family: Gen Ei Chiku Go Min;
 	src: url(assets/fonts/GenEiChikugoMin.ttf) format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: Trajan Pro EXT;
+	src: url(assets/fonts/TrajanPro-Regular-ExtJP.ttf) format("truetype");
 	font-style: normal;
 	font-weight: normal;
 }

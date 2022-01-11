@@ -159,7 +159,7 @@
 			</div>
 		</div>
 	</div>
-	<div id="class-profession" class="even h-auto fw rel flex j-flex-space-between z1">
+	<div id="class-profession" class="even h-auto fw rel flex z1">
 		<div id="section-title" class="section-title abs t0 z-1 anim-AbsSnapToTop">CLASS_PROFESSION</div>
 		<div id="left-section" class="flex flex-col z2">
 			<div
@@ -167,8 +167,13 @@
 				class="flex flex-col"
 				[style.margin-left]="
 					'calc(19px' + (currentOpSubclass.length > 5 ?
-					' + ' + (currentOpSubclass.length - 5).toString() + ' * 1.5ch' :
-					'')
+						' + ' + (currentOpSubclass.length - 5).toString() + ' * 1.5ch' :
+						'')
+					+ ')'"
+				[style.margin-right]="
+					'calc(19px' + (currentOpClass.length > 5 ?
+						' + ' + (currentOpClass.length - 5).toString() + ' * 1.5ch' :
+						'')
 					+ ')'"
 				>
 				<!-- calc(19px + 5 * 1ch) -->
@@ -229,7 +234,7 @@
 		<div id="right-section" class="flex z2">
 			<div id="op-potential" class="a-self-center anim-spreadUD">
 				<div id="no-potential" *ngIf="!currentOperator.potentialRanks.length">
-
+					<p class="no-whitespace-warp" style="height: 80%; width:max-content">&#x2009;NO_POTENTIAL&#x2009;</p>
 				</div>
 				<div id="potential-list" class="flex flex-col" *ngIf="currentOperator.potentialRanks.length">
 					<div id="potential-rank" class="flex flex-row a-flex-center" *ngFor="let potential of currentOperator.potentialRanks, let i = index">
@@ -241,6 +246,13 @@
 		</div>
 	</div>
 	<div id="talents" class="odd h-auto rel">
-		<!-- <div id="section-title" class="section-title abs t0">CLASS_PROFESSION</div> -->
+		<div id="section-title" class="section-title abs t0">TALENTS</div>
+		<div id="option-controls" class="flex flex-col j-flex-end">
+			<div id="elite-controls"></div>
+			<div id="potential-controls"></div>
+		</div>
+		<div *ngFor="let talent of currentOperator.talents">
+
+		</div>
 	</div>
 </div>

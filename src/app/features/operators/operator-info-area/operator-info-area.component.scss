@@ -35,7 +35,8 @@ scroll-container {
 					background: hsl(0, 0%, 60%);
 				}
 				&.current {
-					background: hsl(0, 0%, 47%);
+					background: hsl(0, 0%, 30%);
+					color: white;
 					cursor: default;
 				}
 			}

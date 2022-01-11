@@ -20,7 +20,7 @@ extends CharBasicInfo
 		CharSkill<2>?,
 		CharSkill<3>?,
 	];
-	talents: HasCandidate<CharTraitCandidate & WithNameAndDesc>;
+	talents: HasCandidate<CharTraitCandidate & WithNameAndDesc>[];
 	potentialRanks: CharPotential[];
 	favorKeyFrames: CharTrustData[];
 }
