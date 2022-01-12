@@ -108,7 +108,7 @@ export class OpMainInfoComponent implements OnInit {
 			eliteData = new Set<number>();
 		for (const str of data)
 		{
-			if (!str.match(/^[0-5]-[0-2]+-[0-9]?[0-9]$/)) continue;
+			if (!str.match(/^[0-5]-[0-9]?[0-9]-[0-2]$/)) continue;
 			const [phase, level, potential] = str.split('-');
 			levelData.add(parseInt(level));
 			eliteData.add(parseInt(phase));
