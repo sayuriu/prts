@@ -155,11 +155,12 @@ export class OperatorsComponent implements OnInit, OnChanges
 		const demand = this.getURLParamValue('opname');
 		if (demand)
 			return demand.trim();
-		return localStorage.getItem('cache:Operator@LastVisited');
+		if (localStorage) return localStorage.getItem('cache:Operator@LastVisited');
+		return null;
 	}
 	private getLocale(): Locales {
 		let demand = this.getURLParamValue('locale');
-		if (!demand) demand = localStorage.getItem('cache:ServerLocale');
+		if (!demand && localStorage) demand = localStorage.getItem('cache:ServerLocale');
 		if (AvailableLocales[`${demand}` as Locales]) return demand as Locales;
 		return 'en_US';
 	}

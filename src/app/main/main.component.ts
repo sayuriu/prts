@@ -207,8 +207,9 @@ type Tuple7Array<T> = [T, T, T, T, T, T, T];
 
 class GitUtils {
 	static readonly CACHE_TIMEOUT_MS = 600000;
-	static loadCacheStorageAttr(name: string): string | null {
-		return localStorage.getItem(`cache:LatestCommit@${name}`);
+	static loadCacheStorageAttr(name: string): Nullable<string> {
+		if (localStorage) return localStorage.getItem(`cache:LatestCommit@${name}`);
+		return null;
 	}
 	static deleteCache()
 	{
@@ -220,14 +221,14 @@ class GitUtils {
 			GitUtils.deleteCacheStorageAttr(name);
 	}
 	static deleteCacheStorageAttr(name: string) {
-		return localStorage.removeItem(`cache:LatestCommit@${name}`);
+		if (localStorage) localStorage.removeItem(`cache:LatestCommit@${name}`);
 	}
 	static saveMultipleCacheStorageAttr(query: [string, string][]) {
 		for (const [name, value] of query)
 			GitUtils.saveCacheStorageAttr(name, value);
 	}
 	static saveCacheStorageAttr(name: string, value: string) {
-		return localStorage.setItem(`cache:LatestCommit@${name}`, value);
+		if (localStorage) localStorage.setItem(`cache:LatestCommit@${name}`, value);
 	}
 	static loadFromCache(): Nullable<GitCommitSimple>
 	{

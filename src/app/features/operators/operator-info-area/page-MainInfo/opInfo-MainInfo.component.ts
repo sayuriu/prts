@@ -114,12 +114,14 @@ export class OpMainInfoComponent implements OnInit {
 			eliteData.add(parseInt(phase));
 			potentialData.add(parseInt(potential));
 		}
-		this.opTLEliteOptions = [...eliteData];
-		this.opTLPotentialOptions = [...potentialData];
-		this.opTLLevelOptions = [...levelData];
+		this.opTLEliteOptions = [...eliteData].sort();
+		this.opTLPotentialOptions = [...potentialData].sort();
+		this.opTLLevelOptions = [...levelData].sort();
 		this.currentTLElite = this.opTLEliteOptions[0];
 		this.currentTLPotential = this.opTLPotentialOptions[0];
 		this.currentTLLevel = this.opTLLevelOptions[0];
+		console.log(this.currentTLElite, this.currentTLPotential, this.currentTLLevel);
+		this.updateOpTLData();
 	}
 
 	setTLElite(value: number)
@@ -137,10 +139,42 @@ export class OpMainInfoComponent implements OnInit {
 		this.currentTLLevel = value;
 		this.updateOpTLData();
 	}
-	updateOpTLData()
+	async updateOpTLData()
 	{
-
+		console.log(this.currentTLElite, this.currentTLPotential, this.currentTLLevel);
+		const avg = (this.currentTLElite + this.currentTLPotential + this.currentTLLevel) / 3;
+		for (let i = 0; i < this.currentOperator.talents.length; i++)
+		{
+			const talent = this.currentOperator.talents[i];
+			let holdAvg = undefined;
+			let holdIndex = -1;
+			for (let j = 0; j < talent.candidates.length; j++)
+			{
+				const candidate = talent.candidates[j];
+				const { unlockCondition: { phase, level }, requiredPotentialRank } = candidate;
+				if (phase <= this.currentTLElite && level <= this.currentTLLevel && requiredPotentialRank <= this.currentTLPotential)
+				{
+					const _avg = (phase + level + requiredPotentialRank) / 3;
+					if (holdAvg === undefined)
+					{
+						holdAvg = _avg;
+						holdIndex = j;
+					}
+					if (avg - _avg <= avg - holdAvg)
+					{
+						holdAvg = _avg;
+						holdIndex = j;
+					}
+				}
+			}
+			this.currentOpTL[i] = talent.candidates[holdIndex];
+		}
+		this.currentOpTL = this.currentOpTL.filter(x => x !== undefined);
+		console.log(this.currentOpTL);
+		console.log(this.currentOpTL.map(v => v.description));
 	}
+
+	currentOpTL: Operator['talents'][number]['candidates'][number][] = [];
 
 	// port
 	port_replace(strMatch: string, strReplace: string) {

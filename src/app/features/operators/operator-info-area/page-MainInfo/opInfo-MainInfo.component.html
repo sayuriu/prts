@@ -247,12 +247,20 @@
 	</div>
 	<div id="talents" class="odd h-auto rel">
 		<div id="section-title" class="section-title abs t0">TALENTS</div>
-		<div id="option-controls" class="flex flex-col j-flex-end">
-			<div id="elite-controls"></div>
-			<div id="potential-controls"></div>
+		<div id="option-controls" class="flex flex-row j-flex-end">
+			<div id="elite-controls" *ngIf="opTLEliteOptions.length > 1" >
+				<button *ngFor="let ctrl of opTLEliteOptions" (click)="setTLElite(ctrl)">E{{ctrl}}</button>
+			</div>
+			<div id="potential-controls" *ngIf="opTLPotentialOptions.length > 1">
+				<button *ngFor="let ctrl of opTLPotentialOptions" (click)="setTLPotential(ctrl)">P{{ctrl + 1}}</button>
+			</div>
+			<div id="level-controls" *ngIf="opTLLevelOptions.length > 1">
+				<button *ngFor="let ctrl of opTLLevelOptions" (click)="setTLLevel(ctrl)">L{{ctrl}}</button>
+			</div>
 		</div>
-		<div *ngFor="let talent of currentOperator.talents">
-
+		<div *ngFor="let talent of currentOpTL">
+			<p><b>{{talent.name}}</b></p>
+			<p>{{talent.description}}</p>
 		</div>
 	</div>
 </div>

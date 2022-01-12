@@ -32,7 +32,7 @@ class ThemeManager {
 	{
 		if (currentTheme === 'light') currentTheme = 'dark';
 		else currentTheme = 'light';
-		localStorage.setItem('theme', currentTheme);
+		if (localStorage) localStorage.setItem('theme', currentTheme);
 		document.documentElement.setAttribute('theme', currentTheme);
 		return currentTheme;
 	}

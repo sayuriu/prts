@@ -1,0 +1,4 @@
+<button (click)="onClick" [ngClass]="activated ? 'active' : ''">
+	<p>{{label}}</p>
+	<img [src]="iconURL" *ngIf="iconURL">
+</button>

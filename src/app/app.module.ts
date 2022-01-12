@@ -21,6 +21,7 @@ import { OperatorPickerAreaComponent } from './features/operators/operator-picke
 import { OpMainInfoComponent } from '@featureComponents/operators/operator-info-area/page-MainInfo/opInfo-MainInfo.component';
 import { OpStatsComponent } from '@featureComponents/operators/operator-info-area/page-Stats/opInfo-Stats.component';
 import { OpSkillsComponent } from '@featureComponents/operators/operator-info-area/page-Skills/opInfo-Skills.component';
+import { LabelledButtonComponent } from './labelled-button/labelled-button.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +40,8 @@ import { OpSkillsComponent } from '@featureComponents/operators/operator-info-ar
     OpStatsComponent,
     OperatorPickerAreaComponent,
     NotifOverlayComponent,
-    InfoTextFieldComponent
+    InfoTextFieldComponent,
+    LabelledButtonComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),

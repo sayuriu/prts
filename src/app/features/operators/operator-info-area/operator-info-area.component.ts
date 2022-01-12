@@ -5,6 +5,7 @@ import { Locales, Range } from '@struct/Basic';
 import { OperatorDataManagerService, zh_CN_CharIndex } from '@services/OperatorData/operator-data-manager.service';
 import { AnimationFunctions } from '@utils/anims';
 import { waitAsync } from '@utils/utils';
+import { Title, Meta } from '@angular/platform-browser';
 
 @Component({
 	selector: 'app-operator-info-area',
@@ -88,6 +89,7 @@ export class OperatorInfoAreaComponent implements OnInit, OnChanges
 
 	constructor(
 		private manager: OperatorDataManagerService,
+		private title: Title,
 	) { }
 
 	@Input() opId!: string;
@@ -117,7 +119,7 @@ export class OperatorInfoAreaComponent implements OnInit, OnChanges
 	{
 		this.currentOp = await this.manager.getCharData(this.opId as CHAR_NAME, this.serverLocale) as Operator;
 		this.currentOpCN = await this.manager.getCharData(this.opId as CHAR_NAME, 'zh_CN') as Operator;
-		document.title = `${this.currentOp.name ?? 'Operators'} - PRTS Analysis OS`;
+		this.title.setTitle(`${this.currentOp.name ?? 'Operators'} - PRTS Analysis OS`);
 		console.log(this.currentOp);
 		console.log('%c ', `font-size: 1000px; height: 720px; width: 540px; background:url('https://prts.vercel.app/assets/gamedata/img/characters/avatars/${this.opId}.png') repeat;`);
 		this.sendOperatorHeaderData();

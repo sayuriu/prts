@@ -187,9 +187,13 @@
 					background-color: hsl(0, 0%, 77%);
 					border-radius: 3px;
 				}
-				p { margin-right: 10px }
+				p { margin: 13px 10px 13px 0 }
 			}
 		}
 	}
-
+	#talents {
+		#option-controls {
+			gap: 32px;
+		}
+	}
 }

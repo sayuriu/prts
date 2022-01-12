@@ -13,7 +13,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "dev": "ng serve prts --port=3000",
-    "dev:ssr": "ng run prts:serve-ssr",
+    "dev:ssr": "ng run prts:serve-ssr --port=3000",
     "serve:ssr": "node dist/prts/server/main.js",
     "build:ssr": "ng build && ng run prts:server",
     "prerender": "ng run prts:prerender"
