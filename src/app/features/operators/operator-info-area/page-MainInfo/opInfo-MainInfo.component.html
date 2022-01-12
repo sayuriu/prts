@@ -259,7 +259,7 @@
 			</div>
 		</div>
 		<div *ngFor="let talent of currentOpTL">
-			<p><b>{{talent.name}}</b></p>
+			<p><b>{{talent.name}}</b>&nbsp;{{'E' + talent.unlockCondition.phase + ' | L' + talent.unlockCondition.level + ' | P' + (talent.requiredPotentialRank + 1)}}</p>
 			<p>{{talent.description}}</p>
 		</div>
 	</div>
