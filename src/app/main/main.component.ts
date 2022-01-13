@@ -261,7 +261,7 @@ class GitUtils {
 	}
 	static async fetchRecentRepo()
 	{
-		const res = await request(`GET /repos/${repository.url.substring('https://github.com/'.length, repository.url.length)}/commits`);
+		const res = await request(`GET /repos/${repository.url.substring('https://github.com/'.length, repository.url.length)}/commits/operators-page/`);
 		if (res.status === 200)
 		{
 			const { commit, author: { login: username, html_url: usrURL }, html_url, sha } = res.data[0];
