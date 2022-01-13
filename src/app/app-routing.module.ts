@@ -24,7 +24,15 @@ const routes: Routes = [
 	{
 		path: 'operators',
 		component: OperatorsComponent,
-		data: { animation: 'OperatorsPage' },
+		data: {
+			animation: 'OperatorsPage',
+			/**
+			 * possible path
+			 *	operators/:charid
+			 *	operators/:charname
+			 *	param: locale
+			 */
+		},
 	},
 	{
 		path: 'recruit-sim',
