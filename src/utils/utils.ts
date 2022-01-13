@@ -14,6 +14,7 @@ export function isFullScreen()
 }
 export function normalizeArrayIndex(index: number, length: number): number
 {
+	if (length < 1) return 0;
 	return index < 0 ? normalizeArrayIndex(length + index, length) : index;
 }
 export function arrayAtMany<T>(array: T[], ...indexes: number[])
@@ -26,6 +27,7 @@ export function arrayAtMany<T>(array: T[], ...indexes: number[])
 }
 export function arrayAt<T>(arr: T[], index: number): Nullable<T>
 {
+	if (arr.length < 1) return null;
 	if (index < 0)
 	{
 		index = arr.length + index;

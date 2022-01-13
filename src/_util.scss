@@ -36,6 +36,9 @@
 .in0 { inset: 0 }
 
 .overflow-hidden { overflow: hidden }
+.overflow-auto-y { overflow-y: auto }
+.overflow-auto-x { overflow-x: auto }
+.overflow-auto { overflow: auto }
 
 .flex { display: flex }
 
@@ -54,6 +57,7 @@
 .a-self-center { align-self: center }
 
 .no-border { border: 0 }
+.no-margin { margin: 0 }
 
 .no-pointer { pointer-events: none }
 .pointer-all { pointer-events: all }
@@ -75,4 +79,10 @@
 
 .font-jp, .font-cn {
 	font-family: Trajan Pro EXT;
+}
+
+.separator {
+	content: '|';
+	font-size: 100%;
+	font-weight: 300;
 }

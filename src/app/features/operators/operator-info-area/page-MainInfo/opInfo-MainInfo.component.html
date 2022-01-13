@@ -245,22 +245,47 @@
 			</div>
 		</div>
 	</div>
-	<div id="talents" class="odd h-auto rel">
-		<div id="section-title" class="section-title abs t0">TALENTS</div>
-		<div id="option-controls" class="flex flex-row j-flex-end">
+	<div id="talents" class="odd h-auto rel flex flex-col">
+		<div id="section-title" class="section-title abs t0 z0">TALENTS</div>
+		<spacer class="fw" style="height: 0"></spacer>
+		<div id="option-controls" class="flex flex-row j-flex-end overflow-auto-x z1">
 			<div id="elite-controls" *ngIf="opTLEliteOptions.length > 1" >
-				<button *ngFor="let ctrl of opTLEliteOptions" (click)="setTLElite(ctrl)">E{{ctrl}}</button>
+				<button class="no-border" [ngClass]="i === currentTLElite ? 'current no-pointer' : ''" *ngFor="let ctrl of opTLEliteOptions; let i = index" (click)="setTLElite(i)">E{{ctrl}}</button>
 			</div>
 			<div id="potential-controls" *ngIf="opTLPotentialOptions.length > 1">
-				<button *ngFor="let ctrl of opTLPotentialOptions" (click)="setTLPotential(ctrl)">P{{ctrl + 1}}</button>
+				<button class="no-border" [ngClass]="i === currentTLPotential ? 'current no-pointer' : ''" *ngFor="let ctrl of opTLPotentialOptions; let i = index" (click)="setTLPotential(i)">P{{ctrl + 1}}</button>
 			</div>
 			<div id="level-controls" *ngIf="opTLLevelOptions.length > 1">
-				<button *ngFor="let ctrl of opTLLevelOptions" (click)="setTLLevel(ctrl)">L{{ctrl}}</button>
+				<button class="no-border" [ngClass]="i === currentTLLevel ? 'current no-pointer' : ''" *ngFor="let ctrl of opTLLevelOptions; let i = index" (click)="setTLLevel(i)">L{{ctrl}}</button>
 			</div>
 		</div>
-		<div *ngFor="let talent of currentOpTL">
-			<p><b>{{talent.name}}</b>&nbsp;{{'E' + talent.unlockCondition.phase + ' | L' + talent.unlockCondition.level + ' | P' + (talent.requiredPotentialRank + 1)}}</p>
-			<p>{{talent.description}}</p>
+		<!-- <div [@AppearDisappear-List]="currentOpTL.length">
+			<div *ngFor="let talent of currentOpTL">
+				<p><b>{{talent.name}}</b>&nbsp;{{'E' + talent.unlockCondition.phase + ' | L' + talent.unlockCondition.level + ' | P' + (talent.requiredPotentialRank + 1)}}</p>
+				<p>{{talent.description}}</p>
+			</div>
+		</div> -->
+		<div class="op-talent-info z1" *ngFor="let talent of currentOpTL">
+			<div id="talent-title" class="flex flex-row j-flex-space-between">
+				<p id="talent-name"><b>{{talent.name}}</b></p>
+				&#x205F;
+				<div id="talent-tier" class="flex flex-row">
+					<spacer class="fh" style="width: 6px"></spacer>
+					<img class="fh" [src]="'/assets/gamedata/img/characters/ui/elite/' + talent.unlockCondition.phase + '-s.png'">
+					<div class="separator fh"></div>
+					<img class="fh" [src]="'/assets/gamedata/img/characters/ui/potential/' + (talent.requiredPotentialRank + 1) + '.png'">
+					<div class="separator fh"></div>
+					<div class="fh flex flex-row a-flex-center">
+						<p>L{{talent.unlockCondition.level}}</p>
+					</div>
+					<spacer class="fh" style="width: 6px"></spacer>
+				</div>
+			</div>
+			<div id="talent-description" class="flex flex-col">
+				<spacer style="height: 0; width: 0.5px"></spacer>
+				<p><i>{{talent.description}}</i></p>
+				<spacer style="height: 0; width: 0.5px"></spacer>
+			</div>
 		</div>
 	</div>
 </div>

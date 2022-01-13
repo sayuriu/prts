@@ -9,11 +9,30 @@ import { Optional } from '@utils/utils';
 import Gender_Male from '@assets/gamedata/json/tl-data/gender/男.json';
 import Gender_Female from '@assets/gamedata/json/tl-data/gender/女.json';
 import Gender_Conviction from '@assets/gamedata/json/tl-data/gender/断罪.json'
+// import { trigger, transition, style, stagger, animate, query } from '@angular/animations';
+// import { AnimationFunctions } from '@utils/anims';
 
 @Component({
 	selector: 'op-info-maininfo',
 	templateUrl: './opInfo-MainInfo.component.html',
-	styleUrls: ['./opInfo-MainInfo.component.scss']
+	styleUrls: ['./opInfo-MainInfo.component.scss'],
+	animations: [
+		// trigger('AppearDisappear-List', [
+		// 	transition('* <=> *', [
+		// 		query(':enter', [
+		// 			style({ opacity: 0 }),
+		// 			stagger(150, [
+		// 				animate('200ms ' + AnimationFunctions.Forceful, style({ opacity: 1 })),
+		// 			])
+		// 		], { optional: true }),
+		// 		query(':leave', [
+		// 			animate('200ms ' + AnimationFunctions.Forceful,  style({ opacity: 0 })),
+		// 			// stagger(150, [
+		// 			// ])
+		// 		],{ optional: true })
+		// 	]),
+		// ])
+	]
 })
 export class OpMainInfoComponent implements OnInit {
 
@@ -45,6 +64,9 @@ export class OpMainInfoComponent implements OnInit {
 	currentOpHR: Record<string, any> = {};
 
 	async init() {
+		// @ts-ignore
+		if (this.currentOperator.ex) this.currentOperatorCN = this.currentOperator;
+
 		this.currentOpFaction = await this.manager.getFactionData(this.getFactionID());
 		this.factionImgURL = this.sanitizer.bypassSecurityTrustUrl(URL.createObjectURL((await this.manager.loadOpImages('char_nodata', 'avatars', undefined, true))!)) as string;
 		this.rarity = new Array(this.currentOperator.rarity + 1).fill(0);
@@ -117,10 +139,9 @@ export class OpMainInfoComponent implements OnInit {
 		this.opTLEliteOptions = [...eliteData].sort();
 		this.opTLPotentialOptions = [...potentialData].sort();
 		this.opTLLevelOptions = [...levelData].sort();
-		this.currentTLElite = this.opTLEliteOptions[0];
-		this.currentTLPotential = this.opTLPotentialOptions[0];
-		this.currentTLLevel = this.opTLLevelOptions[0];
-		console.log(this.currentTLElite, this.currentTLPotential, this.currentTLLevel);
+		this.currentTLElite = 0;
+		this.currentTLPotential = 0;
+		this.currentTLLevel = 0;
 		this.updateOpTLData();
 	}
 
@@ -141,8 +162,13 @@ export class OpMainInfoComponent implements OnInit {
 	}
 	async updateOpTLData()
 	{
-		console.log(this.currentTLElite, this.currentTLPotential, this.currentTLLevel);
-		const avg = (this.currentTLElite + this.currentTLPotential + this.currentTLLevel) / 3;
+		this.currentOpTL = [];
+		const
+			currentTLElite = this.opTLEliteOptions[this.currentTLElite],
+			currentTLPotential = this.opTLPotentialOptions[this.currentTLPotential],
+			currentTLLevel = this.opTLLevelOptions[this.currentTLLevel];
+
+		const avg = (currentTLElite + currentTLPotential + currentTLLevel) / 3;
 		for (let i = 0; i < this.currentOperator.talents.length; i++)
 		{
 			const talent = this.currentOperator.talents[i];
@@ -152,17 +178,17 @@ export class OpMainInfoComponent implements OnInit {
 			{
 				const candidate = talent.candidates[j];
 				const { unlockCondition: { phase, level }, requiredPotentialRank } = candidate;
-				if (phase <= this.currentTLElite && level <= this.currentTLLevel && requiredPotentialRank <= this.currentTLPotential)
+				if (phase <= currentTLElite && level <= currentTLLevel && requiredPotentialRank <= currentTLPotential)
 				{
-					const _avg = (phase + level + requiredPotentialRank) / 3;
+					const currentAvg = (phase + level + requiredPotentialRank) / 3;
 					if (holdAvg === undefined)
 					{
-						holdAvg = _avg;
+						holdAvg = currentAvg;
 						holdIndex = j;
 					}
-					if (avg - _avg <= avg - holdAvg)
+					if (avg - currentAvg <= avg - holdAvg)
 					{
-						holdAvg = _avg;
+						holdAvg = currentAvg;
 						holdIndex = j;
 					}
 				}
@@ -170,8 +196,6 @@ export class OpMainInfoComponent implements OnInit {
 			this.currentOpTL[i] = talent.candidates[holdIndex];
 		}
 		this.currentOpTL = this.currentOpTL.filter(x => x !== undefined);
-		console.log(this.currentOpTL);
-		console.log(this.currentOpTL.map(v => v.description));
 	}
 
 	currentOpTL: Operator['talents'][number]['candidates'][number][] = [];

@@ -5,7 +5,7 @@
 #container {
 	#section-title {
 		font-weight: 200;
-		pointer-events: none;
+		// pointer-events: none;
 		animation-delay: 0.5s;
 	}
 	.odd {
@@ -192,8 +192,56 @@
 		}
 	}
 	#talents {
+		gap: 14px;
 		#option-controls {
 			gap: 32px;
+			margin-right: 25px;
+			button {
+				font-family: JetBrains Mono;
+				font-size: 24px;
+				transition: all 0.3s $forceful;
+				background-color: hsl(0, 0%, 77%);
+				&.current {
+					background-color: hsl(0, 0%, 16%);
+					color: white;
+				}
+			}
+		}
+		.op-talent-info {
+			background: hsla(0, 0%, 0%, 0.4);
+			margin: 0 25px 0 22px;
+			#talent-title {
+				margin: 10px 12px 6px;
+				color: white;
+				gap: 6px;
+				#talent-name {
+					margin: 0;
+					background: hsla(0, 0%, 0%, 0.6);
+					font-size: 24px;
+					b {
+						margin: 0 8px 0;
+						font-weight: normal;
+					}
+				}
+				#talent-tier {
+					height: 34px;
+					background: hsla(0, 0%, 0%, 0.6);
+					font-size: 20px;
+					gap: 4px;
+					img { background-size: contain }
+					div { color: white }
+				}
+			}
+			#talent-description {
+				margin: 6px 12px 6px 10px;
+				background: hsla(0, 0%, 77%, 0.7);
+				p {
+					margin: 12px 2px 12px 15px;
+				}
+			}
+			&:last-of-type {
+				margin-bottom: 12px;
+			}
 		}
 	}
 }

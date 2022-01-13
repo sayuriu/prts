@@ -45,7 +45,6 @@ scroll-container {
 	#pages {
 		z-index: 1;
 		height: calc(100vh - 140px - 75px);
-		overflow-y: auto;
 		position: relative;
 		transition: opacity 0.5s $forceful 0.4s;
 		page {
