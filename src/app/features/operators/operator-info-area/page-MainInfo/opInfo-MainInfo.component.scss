@@ -193,54 +193,124 @@
 	}
 	#talents {
 		gap: 14px;
+		#section-title {
+			animation-delay: 2.5s
+		}
 		#option-controls {
 			gap: 32px;
-			margin-right: 25px;
+			margin: 0 25px 0 22px;
+			#control-hide-overlay {
+				@keyframes bg-open {
+					from {
+						background-position: 0 50%;
+					}
+					to {
+						background-position: 100% 50%;
+					}
+				}
+				@keyframes collapseWidthLR {
+					from {
+						width: 100%;
+					}
+					to {
+						width: 0;
+					}
+				}
+				width: 100%;
+				background:
+					linear-gradient(
+						90deg,
+						hsl(0, 0%, 20%) 50%,
+						hsl(0, 0%, 30%) 50%
+					);
+				background-size: 200%;
+				animation:
+					spreadRL 1s $slow-down 3s forwards,
+					bg-open 0.7s $forceful 3.7s forwards,
+					collapseWidthLR 1s $forceful 4.2s forwards;
+				height: 34px;
+			}
+			div {
+				gap: 13px;
+			}
 			button {
+				animation-delay: 3s;
 				font-family: JetBrains Mono;
 				font-size: 24px;
+				font-weight: 300;
 				transition: all 0.3s $forceful;
 				background-color: hsl(0, 0%, 77%);
+				filter: drop-shadow(0px 0px 0px hsla(0, 0%, 0%, 0.25));
+				img {
+					height: 100%;
+					width: 0;
+					object-fit: cover;
+					transition: all 0.3s $forceful;
+				}
+				// lb {
+				// 	color: white;
+				// 	width: 0;
+				// 	transform-origin: right;
+				// 	transform: scaleX(0);
+				// 	transition: all 0.3s $forceful;
+				// }
+				&::after {
+					font-size: 20px;
+					font-weight: normal;
+				}
 				&.current {
 					background-color: hsl(0, 0%, 16%);
 					color: white;
+					font-weight: normal;
+					filter: drop-shadow(0px 4px 2px hsla(0, 0%, 0%, 0.25));
+					img {
+						width: 32px;
+					}
+					// lb {
+					// 	width: auto;
+					// 	transform: scaleX(1);
+					// }
 				}
 			}
 		}
-		.op-talent-info {
-			background: hsla(0, 0%, 0%, 0.4);
-			margin: 0 25px 0 22px;
-			#talent-title {
-				margin: 10px 12px 6px;
-				color: white;
-				gap: 6px;
-				#talent-name {
-					margin: 0;
-					background: hsla(0, 0%, 0%, 0.6);
-					font-size: 24px;
-					b {
-						margin: 0 8px 0;
-						font-weight: normal;
+		#op-talent-info-container {
+			animation-delay: 4.7s;
+			gap: 14px;
+			.op-talent-info {
+				background: hsla(0, 0%, 0%, 0.4);
+				margin: 0 25px 0 22px;
+				#talent-title {
+					margin: 10px 12px 6px;
+					color: white;
+					gap: 6px;
+					#talent-name {
+						margin: 0;
+						background: hsla(0, 0%, 0%, 0.6);
+						font-size: 24px;
+						b {
+							margin: 0 8px 0;
+							font-weight: normal;
+						}
+					}
+					#talent-tier {
+						height: 34px;
+						background: hsla(0, 0%, 0%, 0.6);
+						font-size: 20px;
+						gap: 4px;
+						img { background-size: contain }
+						div { color: white }
 					}
 				}
-				#talent-tier {
-					height: 34px;
-					background: hsla(0, 0%, 0%, 0.6);
-					font-size: 20px;
-					gap: 4px;
-					img { background-size: contain }
-					div { color: white }
+				#talent-description {
+					margin: 6px 12px 6px 10px;
+					background: hsla(0, 0%, 77%, 0.7);
+					p {
+						margin: 12px 2px 12px 15px;
+					}
 				}
-			}
-			#talent-description {
-				margin: 6px 12px 6px 10px;
-				background: hsla(0, 0%, 77%, 0.7);
-				p {
-					margin: 12px 2px 12px 15px;
+				&:last-of-type {
+					margin-bottom: 12px;
 				}
-			}
-			&:last-of-type {
-				margin-bottom: 12px;
 			}
 		}
 	}

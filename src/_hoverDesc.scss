@@ -1,0 +1,24 @@
+.hover-desc-button {
+	position: relative;
+	&::after {
+		z-index: 999;
+		content: attr(data-title);
+		position: absolute;
+		top: 100%;
+		right: 0;
+		width: auto;
+		height: 0;
+		background: hsl(0, 0%, 77%);
+		opacity: 0;
+		transition: opacity 0.3s $forceful;
+	}
+	&:hover {
+		&::after {
+			opacity: 1;
+			height: auto;
+			color: var(--globalForegroundInverse);
+			background: var(--globalForeground);
+			transition: all 0.4s $forceful 0.3s;
+		}
+	}
+}

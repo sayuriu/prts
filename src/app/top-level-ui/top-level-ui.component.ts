@@ -41,7 +41,7 @@ export class TopLevelUIComponent implements OnInit {
 	ToggleTheme()
 	{
 		this.theme.switch();
-		this.notif.send('System', `Theme changed to ${this.theme.currentTheme} ${this.theme.currentTheme === 'light' ? '☀' : '⏾'}`, 'success', {  dynamic: true }, 2000);
+		this.notif.send('System', `Theme changed to ${this.theme.currentTheme} ${this.theme.currentTheme === 'light' ? '☀' : '⏾'}`, 'success', {  dynamic: true }, 1000);
 	}
 
 	async ToggleFullscreen() {

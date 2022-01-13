@@ -41,6 +41,8 @@
 .overflow-auto { overflow: auto }
 
 .flex { display: flex }
+.flex-wrap { flex-wrap: wrap }
+.flex-nowrap { flex-wrap: nowrap }
 
 .flex-col { flex-direction: column }
 .flex-col-rev { flex-direction: column-reverse }
