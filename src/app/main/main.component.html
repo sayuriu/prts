@@ -5,14 +5,18 @@
 	}
 </style>
 <div class="container">
-	<p id="id">[APP_CONTAINER]</p>
-	<div id="info-message-container">
-		<div id="prts-emblem">
-			<!-- <img src="../assets/img/prts-emblem.png" alt="PRTS Emblem"> -->
-		</div>
-		<div id="info-message">
+	<p id="id" class="abs t0">[APP_CONTAINER]</p>
+	<div
+		id="info-message-container"
+		class="rel flex j-flex-start o0 overflow-hidden"
+	>
+		<!-- <div id="prts-emblem" class="fw fh abs z0">
+			<img src="../assets/img/prts-emblem.png" alt="PRTS Emblem">
+		</div> -->
+		<div id="info-message" class="fh fw rel z1">
 			<h1 id="message-title"><strong>Welcome to PRTS Analysis OS!</strong></h1>
 			<a id="app-version-number"
+				class="h-auto w-auto rel pointer-all z1 o0"
 				href="https://github.com/sayuriu/prts"
 				target="_blank"
 				rel="noopener"
@@ -23,8 +27,8 @@
 				<i>Version {{appVersion}} |></i>
 			</a>
 			<p style="opacity: 0; z-index: -2; font-size: 0.75rem; width: 0.00001px">_</p>
-			<div id="message-content">
-				<div id="changelog-frame">
+			<div id="message-content" class="rel flex flex-col z0 no-pointer">
+				<div id="changelog-frame" class="fh o0">
 					<button
 						(click)="loadChangelogs()"
 						[attr.ifHover]="'Click to refresh'"
@@ -37,8 +41,8 @@
 					</p> -->
 					<!-- !Ignore the stagger, there are some interference with the router anims -->
 					<!-- !<ul class="changelogs-list" [@AppearDisappear-List]="changelogs.length"> -->
-					<ul class="changelogs-list" [@AppearDisappear]="changelogs.length" *ngIf="changelogs.length">
-						<div class="changelogs" *ngFor="let changelog of changelogs; let i = index" style="--order: {{i}};">
+					<ul class="changelogs-list rel fh no-margin pointer-all overflow-auto-y scrollbar-std" [@AppearDisappear]="changelogs.length" *ngIf="changelogs.length">
+						<div class="changelogs rel pointer-all o0 anim-spawn" *ngFor="let changelog of changelogs; let i = index" style="--order: {{i}};">
 							<!--! Maybe performance issue -->
 							<div id="header" *ngIf="changelog.date && changelog.version && changelog.changes.length">
 								<date>{{changelog.date}}</date>&thinsp;@&thinsp;<version>{{changelog.version}}</version>
@@ -52,9 +56,9 @@
 				</div>
 			</div>
 		</div>
-		<div id="footer">
-			<div id="footer-container">
-				<div id="update-logs">
+		<div id="footer" class="fw abs z2">
+			<div id="footer-container" class="fh fw rel">
+				<div id="update-logs" class="fw z1 pointer-all">
 					<button
 						[attr.ifHover]="gitLoaded ? 'Click to update' : 'Updating'"
 						[ngStyle]="{
@@ -69,15 +73,21 @@
 					<!-- <arrows>
 						<arrow id="arrow" *ngFor="let _ of [1,1,1], let i = index" style="--stagger: {{i - 1}}">></arrow>
 					</arrows> -->
-					<content>
-						<text id="latest-commit-text" *ngIf="!gitLoaded" [ngStyle]="{
-							'max-height': gitLoaded ? '3rem' : '1.5rem'
-						}">
+					<content class="fw">
+						<text
+							id="latest-commit-text"
+							class="fw flex flex-row"
+							*ngIf="!gitLoaded"
+							[style.max-height]="gitLoaded ? '3rem' : '1.5rem'"
+						>
 							{{commitString}}
 						</text>
-						<text id="latest-commit-text" *ngIf="gitLoaded" [ngStyle]="{
-							'max-height': gitLoaded ? '3rem' : '1.5rem'
-						}">
+						<text
+							id="latest-commit-text"
+							class="fw flex flex-row"
+							*ngIf="gitLoaded"
+							[style.max-height]="gitLoaded ? '3rem' : '1.5rem'"
+						>
 							<commit-time [attr.data-title]="gitData!.cDate.toUTCString()">
 								{{gitData!.cDate.toISOString().substring(0, 11)}}<i style="font-weight: lighter; font-style: normal">{{gitData!.cDate.toISOString().substring(11, 19)}}</i>
 							</commit-time>&nbsp;
@@ -110,7 +120,7 @@
 						</text>
 					</content>
 				</div>
-				<div id="app-info">
+				<div id="app-info" class="fw flex j-flex-space-between no-margin z2 pointer-all">
 					<a id="app-external"
 						href="https://github.com/sayuriu"
 						title="External: Link to this project's creator page."
@@ -120,8 +130,12 @@
 				</div>
 			</div>
 		</div>
-		<div id="footer-ghost">
-			<div id="mascot" style="background-image: url('../../assets/img/mascot-2/{{mascotImg}}')">
+		<div id="footer-ghost" class="fw abs b0 z-1">
+			<div
+				id="mascot"
+				class="abs z-1 o0"
+				style="background-image: url('../../assets/img/mascot-2/{{mascotImg}}')"
+			>
 				<!-- <div id="hearts">
 					<img id="heart_1" alt="heart_1" src="../../assets/img/mascot/heart-1.png">
 					<img id="heart_2" alt="heart_2" src="../../assets/img/mascot/heart-2.png">
@@ -129,9 +143,9 @@
 			</div>
 		</div>
 	</div>
-	<ul id="menu-list">
+	<ul id="menu-list" class="no-margin no-padding overflow-auto-y z0 o0 pointer-visible scrollbar-std">
 		<div *ngFor="let menu of currentMenuOptions; let i = index"
-			class="menu-item"
+			class="menu-item rel overflow-hidden o0"
 			[ngStyle]="{
 				'filter': menu.available ? '' : 'grayscale(100%)'
 			}"
@@ -143,31 +157,38 @@
 					'cursor': menu.available ? 'pointer' : 'not-allowed'
 				}"
 			>
-				<div id="thumbnail-container">
-					<div id="thumbnail"
-					[ngStyle]="{
-						'background' : menu.associatedBackgoundURL ? '' : 'hsl(0, 0%, 50%)',
-						'background-image': 'url(../../assets/img/menu/' + menu.associatedBackgoundURL + ')',
-						'background-size': 'cover'
-					}">
+				<div id="thumbnail-container" class="abs r0 overflow-hidden">
+					<div
+						id="thumbnail"
+						class="fh fw abs r0"
+						[ngStyle]="{
+							'background' : menu.associatedBackgoundURL ? '' : 'hsl(0, 0%, 50%)',
+							'background-image': 'url(../../assets/img/menu/' + menu.associatedBackgoundURL + ')',
+							'background-size': 'cover'
+						}"
+					>
 				</div>
 				</div>
-				<div id="base">
-					<!-- <p id="count">{{i}}</p> -->
-					<!-- <p id="not-available" *ngIf="!menu.available">NOT_AVAILABLE</p> -->
-					<img id="cross-deny" *ngIf="!menu.available" src="../assets/img/menu/Cross.svg"/>
+				<div id="base" class="abs r0 z0 overflow-hidden">
+					<!-- <p id="count" class="fh abs no-margin z2">{{i}}</p> -->
+					<!-- <p id="not-available" class="abs" *ngIf="!menu.available">NOT_AVAILABLE</p> -->
+					<img
+						id="cross-deny"
+						class="fh abs z1"
+						*ngIf="!menu.available"
+						src="../assets/img/menu/Cross.svg"/>
 				</div>
-				<div id="shapes">
-					<img [ngClass]="{ 'hover-clickable': menu.available, 'hover-static': !menu.available }" id="hover-left" src="../assets/img/menu/Hover_Left.png">
-					<img [ngClass]="{ 'hover-clickable': menu.available, 'hover-static': !menu.available }" id="hover-left-arrow" src="../assets/img/menu/Small_Arrow.png">
-					<img [ngClass]="{ 'hover-clickable': menu.available, 'hover-static': !menu.available }" id="hover-right" src="../assets/img/menu/Hover_Right.png">
+				<div id="shapes" class="fw fh abs r0 z1 pointer-all">
+					<img [ngClass]="{ 'hover-clickable': menu.available, 'hover-static': !menu.available }" id="hover-left" class="fh abs l0" src="../assets/img/menu/Hover_Left.png">
+					<img [ngClass]="{ 'hover-clickable': menu.available, 'hover-static': !menu.available }" id="hover-left-arrow" class="abs" src="../assets/img/menu/Small_Arrow.png">
+					<img [ngClass]="{ 'hover-clickable': menu.available, 'hover-static': !menu.available }" id="hover-right" class="abs r0" src="../assets/img/menu/Hover_Right.png">
 				</div>
-				<div id="text">
+				<div id="text" class="abs r0 z2 overflow-hidden">
 					<h6 id="name">{{menu.name.toUpperCase() + '&#8201;'}}</h6>
-					<p id="desc">{{menu.available ? menu.description : 'Coming soon!'}}</p>
+					<p id="desc" class="fw b0">{{menu.available ? menu.description : 'Coming soon!'}}</p>
 				</div>
-				<div id="hitbox-overlay">
-					<a *ngIf="menu.available && menu.routerTarget" [routerLink]="menu.routerTarget" routerLinkActive="{{menu.routerTarget}}"></a>
+				<div id="hitbox-overlay" class="fh fw abs z4 pointer-all">
+					<a class="fh fw abs" *ngIf="menu.available && menu.routerTarget" [routerLink]="menu.routerTarget" routerLinkActive="{{menu.routerTarget}}"></a>
 				</div>
 			</div>
 		</div>

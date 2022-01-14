@@ -1,12 +1,16 @@
 <scroll-container class="fh fw">
-	<div id="menu-abs-container" [style.opacity]="menuVisible ? '1' : '0'">
-		<div id="menu">
-			<button [ngClass]="currentMenuIndex === 0 ? 'current' : ''" (click)="setMenuIndex(0)"><p>OVERVIEW</p></button>
-			<button [ngClass]="currentMenuIndex === 1 ? 'current' : ''" (click)="setMenuIndex(1)"><p>SKILLS</p></button>
-			<button [ngClass]="currentMenuIndex === 2 ? 'current' : ''" (click)="setMenuIndex(2)"><p>STATS</p></button>
+	<div
+		id="menu-abs-container"
+		class="fw rel z0"
+		[style.opacity]="menuVisible ? '1' : '0'"
+	>
+		<div id="menu" class="abs lfull t0 flex flex-row">
+			<button class="rel pointer-all no-border" [ngClass]="currentMenuIndex === 0 ? 'current' : ''" (click)="setMenuIndex(0)"><p>OVERVIEW</p></button>
+			<button class="rel pointer-all no-border" [ngClass]="currentMenuIndex === 1 ? 'current' : ''" (click)="setMenuIndex(1)"><p>SKILLS</p></button>
+			<button class="rel pointer-all no-border" [ngClass]="currentMenuIndex === 2 ? 'current' : ''" (click)="setMenuIndex(2)"><p>STATS</p></button>
 		</div>
 	</div>
-	<div id="pages" class="fw overflow-auto-y scrollbar-std" [style.opacity]="pagesVisible ? '1' : '0'" [@slideUpDown]="currentMenuIndex">
+	<div id="pages" class="fw rel z1 overflow-auto-y scrollbar-std" [style.opacity]="pagesVisible ? '1' : '0'" [@slideUpDown]="currentMenuIndex">
 		<page *ngIf="currentMenuIndex === -1">
 			<p style="height: 50px; width: 100%; background: transparent; pointer-events: none;"></p>
 		</page>

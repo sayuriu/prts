@@ -1,28 +1,3 @@
-// This will be deprecated soon in favor of utility classes.
-.flex {
-	display: flex;
-}
-.justify-center {
-	justify-content: center;
-}
-.align-center {
-	align-items: center;
-}
-.flex-justify-center { @extend .flex, .justify-center; }
-.flex-align-center { @extend .flex, .align-center; }
-.flex-row {
-	@extend .flex;
-	flex-direction: row;
-}
-.flex-column {
-	@extend .flex;
-	flex-direction: column;
-}
-.full-height-width {
-	height: 100%;
-	width: 100%;
-}
-
 .button-abs-top {
 	font-family: JetBrains Mono;
 	font-size: 1rem;

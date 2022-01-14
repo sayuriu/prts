@@ -1,6 +1,3 @@
-@import '../../hoverStyles';
-@import '../../utils';
-
 .notif-levels-error {
 	&.error {
 		background-color: hsla(0, 100%, 68%, .7);
@@ -19,35 +16,24 @@
 
 #notif-overlay {
 	z-index: 2000;
-	position: absolute;
-	width: auto;
 	height: calc(3rem + 10px);
-	bottom: 0;
 	left: 50vw;
 	transform: translateX(-50%);
-	@extend .flex-justify-center;
 	#notif-overlay-content {
-		width: auto;
 		transition: width 0.2s ease-in-out;
-		position: relative;
-		@extend .flex-row;
 		@extend .notif-levels-error;
 		@extend .notif-levels-warning;
 		@extend .notif-levels-success;
 		font-size: 100%;
-		border: 0px;
 		font-family: JetBrains Mono;
 		background-color: var(--globalForegroundInverse);
 		color: var(--globalForeground);
 		#notif-overlay-content-main {
-			@extend .flex-row;
 			@extend .notif-levels-error;
 			@extend .notif-levels-warning;
 			@extend .notif-levels-success;
 			svg {
-				pointer-events: none;
 				position: absolute;
-				height: 100%;
 				left: 35%;
 				bottom: -15px;
 				height: inherit;
@@ -83,8 +69,6 @@
 		}
 		#notif-overlay-clearall
 		{
-			align-items: center;
-			border: 0px;
 			background: transparent;
 			color: var(--globalForeground);
 			font-size: 1.5rem;
@@ -99,13 +83,8 @@
 		#notif-overlay-progress-bar
 		{
 			height: 5px;
-			position: absolute;
-			bottom: 0;
-			left: 0;
-			@extend .flex-justify-center;
 			#notif-overlay-progress-bar-fill
 			{
-				width: 0%;
 				background-color: var(--globalForeground);
 				transition-timing-function: ease-in-out;
 

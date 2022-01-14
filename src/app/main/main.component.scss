@@ -53,44 +53,20 @@ $header-height: math.div(81px, 1080px) * 100vh;
 		}
 	}
 
-	#id {
-		position: absolute;
-		top: 0;
-	}
-
 	#info-message-container {
 		// margin-left: 5vw;
 		border: 1px solid var(--globalForegroundInverse);
 		font-family: JetBrains Mono;
-		display: flex;
-		justify-content: flex-start;
-		position: relative;
 		font-size: 1rem;
 		height: 80vh;
 		width: 45vw;
 		background: var(--globalForeground);
-		opacity: 0;
 		animation: slide 0.5s $forceful 0.2s forwards;
-		overflow: hidden;
 
-		#prts-emblem,
-		#info-message,
-		#footer,
-		#footer-ghost {
-			position: absolute;
-		}
 		#prts-emblem {
-			width: 100%;
-			height: 100%;
 			background: transparent;
-			z-index: 0;
 		}
 		#info-message {
-			position: relative;
-			width: calc(100%);
-			height: 100%;
-			z-index: 1;
-
 			#message-title {
 				margin: 2rem 0 0 2rem;
 				opacity: 0;
@@ -100,15 +76,9 @@ $header-height: math.div(81px, 1080px) * 100vh;
 			}
 
 			#app-version-number {
-				height: auto;
-				width: auto;
 				margin-left: 2rem;
-				pointer-events: all;
 				text-decoration: none;
 				color: hsl(0, 0%, 55%);
-				opacity: 0;
-				z-index: 1;
-				position: relative;
 				animation: spawn 0.3s ease 0.5s forwards;
 				transition:
 					background 0.2s $forceful,
@@ -136,12 +106,9 @@ $header-height: math.div(81px, 1080px) * 100vh;
 			}
 
 			#message-content {
-				@extend .flex-column;
 				height: calc(90% - 10.5rem);
-				position: relative;
-				pointer-events: none;
-				z-index: 0;
 				#changelog-frame {
+					//! Needs rework
 					button {
 						@extend .button-abs-top;
 
@@ -172,8 +139,6 @@ $header-height: math.div(81px, 1080px) * 100vh;
 					#alt {
 						left: 13ch;
 					}
-					height: 100%;
-					opacity: 0;
 					@keyframes info-box-slideup {
 							0% {
 								opacity: 0;
@@ -186,21 +151,13 @@ $header-height: math.div(81px, 1080px) * 100vh;
 						}
 					animation: info-box-slideup 0.6s $forceful 0.8s forwards;
 					.changelogs-list {
-						@extend .scrollbar-std;
-						height: 100%;
-						margin: 0;
-						pointer-events: all;
-						overflow-y: auto;
 						color: var(--globalForegroundInverse);
-						position: relative;
 						border-top: 1px dashed var(--globalForegroundInverse);
 						transition: opacity 0.25s $forceful;
 						.changelogs {
-							position: relative;
-							pointer-events: all;
-							opacity: 0;
-							animation: spawn 0.4s ease-in-out calc(1s + 0.2s * var(--order)) forwards;
-
+							animation-delay: calc(1s + 0.2s * var(--order));
+							animation-duration: 0.4s;
+							animation-timing-function: ease-in-out;
 							#header {
 								margin-top: 0.5rem;
 								date, version {
@@ -247,9 +204,6 @@ $header-height: math.div(81px, 1080px) * 100vh;
 			}
 		}
 		#footer {
-			z-index: 2;
-			width: 100%;
-			bottom: 0;
 			@keyframes upd-slideup {
 				0% { bottom: -20% }
 				100% { bottom: 0 }
@@ -257,18 +211,14 @@ $header-height: math.div(81px, 1080px) * 100vh;
 			animation: upd-slideup 1s $forceful 0.2s forwards;
 
 			#footer-container {
-				@extend .full-height-width;
-				position: relative;
 				background-color: var(--globalForeground);
 				#update-logs {
 					margin: 16px 0;
-					z-index: 1;
-					width: 100%;
-					pointer-events: all;
 					border-top: 1px dashed var(--globalForegroundInverse);
 					background-color: var(--globalForeground);
 					color: var(--globalForegroundInverse);
 					button {
+						//! Needs rework
 						@extend .button-abs-top;
 
 						&::after {
@@ -295,15 +245,12 @@ $header-height: math.div(81px, 1080px) * 100vh;
 						}
 					}
 					content {
-						width: 100%;
 						text {
-							width: 100%;
 							transition:
 								max-height 0.4s $forceful,
 								overflow 0.2s 0.4s;
 							margin: 0.5rem 0 0 1rem;
 							font-family: JetBrains Mono NL;
-							@extend .flex-row;
 							commit-time, commit-message, a { position: relative; font-family: JetBrains Mono; }
 							commit-time {
 								@include hover-std($position: upper, $maxWidth: 29ch, $leftMargin: -5%);
@@ -336,30 +283,23 @@ $header-height: math.div(81px, 1080px) * 100vh;
 							}
 						}
 					}
-					arrows {
-						position: absolute;
-						bottom: 100%;
-						left: 36ch;
-						margin-bottom: 1.5px;
-						arrow {
-							color: hsl(0, 0%, 50%);
-							font-family: JetBrains Mono NL;
-							opacity: 0;
-						}
-					}
+					// arrows {
+					// 	position: absolute;
+					// 	bottom: 100%;
+					// 	left: 36ch;
+					// 	margin-bottom: 1.5px;
+					// 	arrow {
+					// 		color: hsl(0, 0%, 50%);
+					// 		font-family: JetBrains Mono NL;
+					// 		opacity: 0;
+					// 	}
+					// }
 				}
 				#app-info {
-					width: 100%;
-					z-index: 2;
 					border-top: 1px dashed var(--globalForegroundInverse);
-					bottom: 0;
-					display: flex;
-					justify-content: space-between;
-					pointer-events: all;
 					background-color: var(--globalForegroundInverse);
 
 					a {
-						margin: 0;
 						text-decoration: none;
 						color: var(--globalForeground);
 						transition:
@@ -376,18 +316,12 @@ $header-height: math.div(81px, 1080px) * 100vh;
 			}
 		}
 		#footer-ghost {
-			z-index: -1;
-			width: 100%;
 			height: calc(4rem + 4px);
-			bottom: 0;
 			#mascot {
 				width: clamp(200px, 35% ,210px);
 				aspect-ratio: 210 / 470;
-				position: absolute;
 				bottom: calc(100% - 16px);
 				right: 1rem;
-				opacity: 0;
-				z-index: -1;
 				transition: background-image 0.3s $forceful;
 				animation: spawn 0.5s ease 1.15s forwards;
 				filter: var(--mascot2Filter);
@@ -395,15 +329,9 @@ $header-height: math.div(81px, 1080px) * 100vh;
 		}
 	}
 	#menu-list {
-		margin: 0;
-		padding: 0;
-		pointer-events: visible;
 		width: max(#{math.div(650px, 1920px) * 100vw});
 		height: clamp(600px, 75vh, calc(100vw - 75px - 5.5rem));
 		right: 79px;
-		z-index: 0;
-		opacity: 0;
-		overflow-y: auto;
 
 		@keyframes slide-menu {
 			0% {
@@ -416,18 +344,13 @@ $header-height: math.div(81px, 1080px) * 100vh;
 			}
 		}
 		animation: slide-menu 0.5s $forceful 0.2s forwards;
-
-		@extend .scrollbar-std;
 	}
 
 		.menu-item {
 			width: 99%;
 			height: 210px;
 			aspect-ratio: 210 / 650;
-			overflow: hidden;
 			margin-bottom: 1.6rem;
-			position: relative;
-			opacity: 0;
 			animation: slide 0.5s $forceful calc(0.5s + var(--order) * 0.1s) forwards;
 
 			&:last-child {
@@ -440,51 +363,34 @@ $header-height: math.div(81px, 1080px) * 100vh;
 				#thumbnail-container {
 					width: 91%;
 					height: calc((1 - 1 / 20) * 100%);
-					position: absolute;
-					right: 0;
 				}
 
 				#thumbnail-container {
-					overflow: hidden;
 					#thumbnail {
-						width: 100%;
-						height: 100%;
-						position: absolute;
-						right: 0;
 						transition: filter 0.2s ease-in-out,
 									transform 0.5s $forceful 0.2s;
 					}
 				}
 
 				#base {
-					z-index: 0;
-					overflow: hidden;
-					#count {
-						color: #fff;
-						font-family: JetBrains Mono;
-						position: absolute;
-						margin: 0;
-						right: 2%;
-						height: 100%;
-						width: 20%;
-						font-size: 16rem;
-						line-height: 90%;
-						opacity: 0.3;
-						z-index: 2;
-						text-align: center;
-					}
+					// #count {
+					// 	color: #fff;
+					// 	font-family: JetBrains Mono;
+					// 	right: 2%;
+					// 	width: 20%;
+					// 	font-size: 16rem;
+					// 	line-height: 90%;
+					// 	opacity: 0.3;
+					// 	text-align: center;
+					// }
 
-					#not-available {
-						position: absolute;
-						right:50%;
-					}
+					// #not-available {
+					// 	right:50%;
+					// }
 
 					#cross-deny {
-						position: absolute;
-						height: 100%;
 						right: 5%;
 						top: -10%;
-						z-index: 1;
 						opacity: 0.6;
 
 						transition: right 1s cubic-bezier(0.42, 0, 0.22, 0.99);
@@ -492,14 +398,6 @@ $header-height: math.div(81px, 1080px) * 100vh;
 				}
 
 				#shapes {
-					width: 100%;
-					height: 100%;
-					z-index: 1;
-					position: absolute;
-					right: 0;
-					pointer-events: all;
-
-
 					.hover-clickable,
 					.hover-static {
 						z-index: -1;
@@ -509,20 +407,16 @@ $header-height: math.div(81px, 1080px) * 100vh;
 					#hover-left,
 					#hover-left-arrow,
 					#hover-right {
-						position: absolute;
 						transition: transform 0.3s $forceful;
 					}
 
 					#hover-right {
 						height: 96.5%;
 						width: 20%;
-						right: 0;
 						transition: transform 0.7s $forceful;
 					}
 
 					#hover-left {
-						height: 100%;
-						left: 0;
 						filter: brightness(300%);
 					}
 
@@ -551,8 +445,6 @@ $header-height: math.div(81px, 1080px) * 100vh;
 				}
 
 				#text {
-					z-index: 2;
-					overflow: hidden;
 					#not-available,
 					#name,
 					#desc {
@@ -580,7 +472,6 @@ $header-height: math.div(81px, 1080px) * 100vh;
 
 					#desc {
 						padding-left: 0.5rem;
-						bottom: 0;
 						height: 2rem;
 						width: 100%;
 						font-size: 1.5rem;
@@ -645,19 +536,9 @@ $header-height: math.div(81px, 1080px) * 100vh;
 					}
 				}
 
-				#hitbox-overlay {
-					width: 100%;
-					height: 100%;
-					position: absolute;
-					z-index: 4;
-					pointer-events: all;
-
-					a {
-						width: 100%;
-						height: 100%;
-						position: absolute;
-					}
-				}
+				// #hitbox-overlay {
+				// 	// ...
+				// }
 			}
 		}
 	}

@@ -5,27 +5,17 @@
 scroll-container {
 	#menu-abs-container {
 		height: 0;
-		width: 100%;
-		z-index: 0;
-		position: relative;
 		transition: opacity 0.3s $forceful 0.4s;
 		#menu {
-			@extend .flex-row;
-			position: absolute;
 			transform-origin: bottom left;
 			transform: rotate(90deg);
-			top: 0;
-			left: 100%;
 			button {
-				pointer-events: all;
-				border: 0;
 				background: hsl(0, 0%, 77%);
 				color: hsl(0, 0%, 0%);
 				font-family: JetBrains Mono;
 				font-size: 24px;
 				font-weight: 200;
 				transition: all 0.4s $forceful;
-				position: relative;
 				cursor: pointer;
 				p {
 					z-index: 1;
@@ -43,9 +33,7 @@ scroll-container {
 		}
 	}
 	#pages {
-		z-index: 1;
 		height: calc(100vh - 140px - 75px);
-		position: relative;
 		transition: opacity 0.5s $forceful 0.4s;
 		page {
 			width: 100%;

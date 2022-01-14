@@ -35,6 +35,9 @@
 
 .in0 { inset: 0 }
 
+.o0 { opacity: 0 }
+.o1 { opacity: 1 }
+
 .overflow-hidden { overflow: hidden }
 .overflow-auto-y { overflow-y: auto }
 .overflow-auto-x { overflow-x: auto }
@@ -60,9 +63,11 @@
 
 .no-border { border: 0 }
 .no-margin { margin: 0 }
+.no-padding { padding: 0 }
 
 .no-pointer { pointer-events: none }
 .pointer-all { pointer-events: all }
+.pointer-visible { pointer-events: visible }
 
 .float-l { float: left }
 .float-r { float: right }

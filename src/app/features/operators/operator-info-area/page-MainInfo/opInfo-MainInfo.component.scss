@@ -1,4 +1,3 @@
-@import "../../../../../utils";
 @import "../../../../../anims";
 @import '../../../../../hoverStyles';
 
@@ -30,7 +29,6 @@
 				rarity-star {
 					margin-right: auto;
 					#star-container {
-						@extend .flex-align-center;
 						&:not(:first-of-type):not(spacer) {
 							margin-left: -9px;
 							transform: translateX(calc(-100% * var(--order) - 50%));

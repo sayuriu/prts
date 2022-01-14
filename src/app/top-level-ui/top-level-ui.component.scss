@@ -124,7 +124,6 @@ $emblem-margin-left: math.div(79px, 1920px) * 100vw;
 	}
 
 	#Clock {
-		opacity: 0;
 		font-weight: 300;
 		right: var(--clockAbsRight);
 		margin-top: var(--clockMargin);
@@ -208,7 +207,6 @@ $emblem-margin-left: math.div(79px, 1920px) * 100vw;
 			#toHomePage {
 				width: 65%;
 				cursor: pointer;
-				opacity: 0;
 				transition: 0.3s ease-in-out;
 
 				&:hover {
@@ -230,7 +228,6 @@ $emblem-margin-left: math.div(79px, 1920px) * 100vw;
 						width 0.5s $forceful,
 						transform 0.5s $forceful;
 					#etl_line {
-						opacity: 0;
 						@include emblemSlideAnim(
 							emblem-topLine,
 							var(--header_Emblem_SVG_TopLine_Anim_InitTransform),
@@ -268,7 +265,6 @@ $emblem-margin-left: math.div(79px, 1920px) * 100vw;
 							$forceful
 							var(--header_Emblem_SVG_AnimDelay)
 							forwards;
-						opacity: 0;
 					}
 				}
 				#PRTS_SVG_D1 {
@@ -286,7 +282,7 @@ $emblem-margin-left: math.div(79px, 1920px) * 100vw;
 							var(--header_Emblem_SVG_Desc1_Anim_InitTransform),
 							translate(0)
 						);
-						opacity: 0;
+						// opacity: 0;
 						animation:
 							emblem-desc1
 							1s
@@ -306,7 +302,7 @@ $emblem-margin-left: math.div(79px, 1920px) * 100vw;
 					scale(var(--header_Emblem_SVG_Desc2_Static_Scale));
 
 					#ed2_path {
-						opacity: 0;
+						// opacity: 0;
 						@include emblemSlideAnim(
 							emblem-desc2,
 							var(--header_Emblem_SVG_Desc2_Anim_InitTransform),
@@ -320,10 +316,7 @@ $emblem-margin-left: math.div(79px, 1920px) * 100vw;
 					}
 				}
 				#PRTS_SVG_BL {
-					height: 100%;
-					position: absolute;
 					stroke: var(--header_Emblem_Foreground);
-					left: 0%;
 					bottom: -24%;
 					transition:
 						stroke 0.5s ease-in-out,
@@ -333,7 +326,6 @@ $emblem-margin-left: math.div(79px, 1920px) * 100vw;
 						var(--header_Emblem_SVG_BottomLine_StaticTransform)
 						scale(var(--header_Emblem_SVG_BottomLine_Static_Scale));
 					#ebl_line {
-						opacity: 0;
 						@include emblemSlideAnim(
 							emblem-bottomLine,
 							var(--header_Emblem_SVG_BottomLine_Anim_InitTransform),
@@ -382,7 +374,6 @@ $emblem-margin-left: math.div(79px, 1920px) * 100vw;
 				}
 			}
 
-			opacity: 0;
 			animation:
 				fadein
 				0.7s
@@ -439,7 +430,6 @@ $emblem-margin-left: math.div(79px, 1920px) * 100vw;
 					background: var(--RITriangleColor);
 					overflow: hidden;
 
-					opacity: 0;
 					animation:
 						blink-slidein
 						1s
@@ -462,7 +452,6 @@ $emblem-margin-left: math.div(79px, 1920px) * 100vw;
 		#TextArea {
 			height: 60%;
 			margin-bottom: -2%;
-			opacity: 0;
 			animation:
 				blink-slidein
 				0.8s
@@ -486,7 +475,6 @@ $emblem-margin-left: math.div(79px, 1920px) * 100vw;
 		}
 		#ThemeToggle {
 			width: 40px;
-			opacity: 0;
 			animation:
 				blink-slidein
 				forwards;
@@ -584,7 +572,6 @@ $emblem-margin-left: math.div(79px, 1920px) * 100vw;
 			height: math.div(833px, 1080px) * 100%;
 			width: math.div(401px, 444px) * 100%;
 			clip-path: polygon(0% 0%, 0% 100%, 100% 100%);
-			opacity: 0;
 
 			transition: margin 0.4s $forceful;
 			margin-bottom: var(--leftContainer_Triangle_MarginBottom);
