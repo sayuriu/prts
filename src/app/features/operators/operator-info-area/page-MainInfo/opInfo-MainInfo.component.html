@@ -3,7 +3,7 @@
 		<div id="info-area">
 			<div id="line1" class="line flex flex-row flex-wrap">
 				<rarity-star
-					class="flex flex-row a-flex-center rel"
+					class="flex flex-row rel"
 					style="width: 180px;"
 				>
 					<div id="op-rarity-banner" class="fh fw abs z0"
@@ -15,13 +15,13 @@
 						}"
 					></div>
 					<spacer style="width: 22px;"></spacer>
-					<div class="fh z1" id="star-container" *ngFor="let _ of rarity, let i = index" [style.--order]="i + 1">
+					<div class="fh z1 flex a-flex-center" id="star-container" *ngFor="let _ of rarity, let i = index" [style.--order]="i + 1">
 						<img src="/assets/img/star.png">
 					</div>
 				</rarity-star>
 				<text-field
 					id="op-gender"
-					class="pointer-all rel"
+					class="pointer-all rel anim-spreadLR"
 					[attr.data-title]="(opGender[this.currentOpHR.sex] ?? {}).sex_en ?? 'Unknown'"
 					[boundRect]="{ centerChildren: [true], width: '128px', height: '42px' }"
 					[labelField]="{
@@ -53,6 +53,7 @@
 				></text-field>
 				<spacer style="width: 20px;"></spacer>
 				<text-field
+					class="anim-spreadLR"
 					[boundRect]="{ centerChildren: [true], width: '224px', height: '42px' }"
 					[labelField]="{
 						centerChildren: [true],
@@ -82,7 +83,7 @@
 					}"
 				></text-field>
 			</div>
-			<div id="line2" class="line flex flex-row">
+			<div id="line2" class="line flex flex-row anim-spreadLR">
 				<spacer style="width: 22px;"></spacer>
 				<text-field class="fw"
 					[boundRect]="{ centerChildren: [true], width: 'auto', height: '42px' }"
@@ -115,7 +116,7 @@
 					}"
 				></text-field>
 			</div>
-			<div id="line3" class="line flex flex-row">
+			<div id="line3" class="line flex flex-row anim-spreadLR">
 				<spacer style="width: 22px;"></spacer>
 				<text-field class="fw"
 					[boundRect]="{ centerChildren: [true], width: '100%', height: 'auto', minHeight: '42px' }"

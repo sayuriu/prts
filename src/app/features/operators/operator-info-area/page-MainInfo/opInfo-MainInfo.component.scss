@@ -58,6 +58,13 @@
 					@include hover-std(lower, auto, 22px, false);
 				}
 			}
+			#line1 text-field,
+			#line2,
+			#line3 {
+				animation-delay: 0.7s;
+				animation-timing-function: $forceful;
+				animation-duration: 1.2s;
+			}
 		}
 		#right-section {
 			margin-left: auto;
