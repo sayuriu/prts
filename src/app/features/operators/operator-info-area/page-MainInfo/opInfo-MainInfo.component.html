@@ -288,7 +288,10 @@
 			</div>
 		</div> -->
 		<div id="op-talent-info-container" class="flex flex-col anim-spreadUD z1">
-			<div class="op-talent-info flex flex-col" *ngFor="let talent of currentOpTL">
+			<div class="op-talent-info rel flex flex-col" *ngFor="let talent of currentOpTL; let i = index">
+				<svg id="op-talent-id" class="abs fh" viewBox="0 0 150 65">
+					<text x="0" y="0">{{i + 1}}</text>
+				</svg>
 				<div id="talent-title" class="flex flex-row j-flex-space-between">
 					<p id="talent-name"><b>{{talent.name}}</b></p>
 					&#x205F;

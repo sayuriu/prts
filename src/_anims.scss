@@ -20,17 +20,6 @@ $slide-main: 0.25s $forceful;
 	}
 }
 
-@mixin slide-spawn($init, $target) {
-	from {
-		transform: #{$init};
-		opacity: 0;
-	}
-	to {
-		transform: #{$target};
-		opacity: 1;
-	}
-}
-
 @mixin slide($name, $init, $target) {
 	@keyframes #{$name} {
 		from {

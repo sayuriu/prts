@@ -280,10 +280,18 @@
 		}
 		#op-talent-info-container {
 			animation-delay: 4.7s;
+			animation-timing-function: cubic-bezier(0.23, 1.26, 0.18, 0.97);
 			gap: 14px;
 			.op-talent-info {
 				background: hsla(0, 0%, 0%, 0.4);
 				margin: 0 25px 0 22px;
+				#op-talent-id {
+					font-size: 100%;
+					text {
+						font-family: JetBrains Mono;
+						fill:hsl(0, 0%, 30%);
+					}
+				}
 				#talent-title {
 					margin: 10px 12px 6px;
 					color: white;

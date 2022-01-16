@@ -21,15 +21,15 @@ if [[ ! -d 'json' ]]; then
 	mkdir "json"
 fi
 echo "tsc AceshipParser --target esnext --module commonjs --esmoduleInterop true"
-tsc AceshipParser --target esnext --module commonjs --esmoduleInterop true
+tsc AceshipParser.ts --target esnext --module commonjs --esmoduleInterop true
 echo "tsc Operator.list.parser.ts --target esnext --module commonjs --esmoduleInterop true"
 tsc Operator.list.parser.ts --target esnext --module commonjs --esmoduleInterop true
 echo "tsc ConcatAllObj(Operator) --target esnext --module commonjs --esmoduleInterop true"
-tsc 'ConcatAllObj(Operator)' --target esnext --module commonjs --esmoduleInterop true
+tsc 'ConcatAllObj(Operator).ts' --target esnext --module commonjs --esmoduleInterop true
 echo "node AceshipParser"
-node AceshipParser
+node AceshipParser.js
 echo "node ConcatAllObj(Operator)"
-node 'ConcatAllObj(Operator)'
+node 'ConcatAllObj(Operator).js'
 echo "node Operator.list.parser.js"
 node Operator.list.parser.js
 echo "cleanup"
@@ -42,6 +42,6 @@ CleanFull "utils"
 cd "struct"
 CleanFull "Operator"
 cd ".."
-cp -r "struct" "../src"
+# cp -r "struct" "../src"
 echo "done, exit code $?"
 exit 0

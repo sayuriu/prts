@@ -1,1 +1,34 @@
-<p style="background: green;">skills works!</p>
+<div id="container" class="h-auto fw">
+	<div class="skill rel" [id]="'op-skill-' + (i + 1)" *ngFor="let skill of currentOperator.skills; let i =index">
+		<div class="section-title abs t0 r0">SKILL_{{i + 1}}</div>
+		<div class="skill-header">
+			<div id="op-skill-img">
+
+			</div>
+			<div id="op-skill-overview" class="flex flex-col j-flex-space-between">
+				<div id="op-skill-name">
+
+				</div>
+				<div id="op-skill-characteristics" class="flex flex-row flex-wrap">
+
+				</div>
+			</div>
+		</div>
+		<div class="skill-desc rel">
+			<div id="op-skill-currentlevel" class="abs b0 r0">
+
+			</div>
+			<div id="op-skill-desc">
+				<!-- use innerHTML -->
+			</div>
+		</div>
+		<div class="skill-bottom-group">
+			<div id="left-section">
+
+			</div>
+			<div id="right-section">
+
+			</div>
+		</div>
+	</div>
+</div>

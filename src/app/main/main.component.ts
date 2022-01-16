@@ -286,7 +286,7 @@ const menuOptions: MenuItems[] = [
 		available: false,
 	},
 	{
-		name: 'Operators (x)',
+		name: 'Operators',
 		routerTarget: '/operators',
 		CSSTargetAccessor: 'opInfo',
 		associatedBackgoundURL: 'G3_Thumbnail.png',

@@ -178,6 +178,7 @@ export const List = {
         pudd: '4004',
         weedy: '400',
         kjera: '4013',
+        ncdeer: '4019',
         elysm: '401',
         aprot2: '4025',
         tuye: '402',

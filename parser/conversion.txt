@@ -55,7 +55,7 @@ struct <LOCACLES> as TARGET {root}/src/assets/gamedata/json/*
 ~ [img]
 struct <IMG> as SOURCE in {root}/{ACESHIP_DIR_ENV}/img/*
 	with \[*\] notation as TARGET # Anything inside [] refers to paths in "TARGET" field.
-	use ONLY FileOperations.COPY
+	use only FileOperations.COPY
 
 	avatars		-> [characters/avatars]
 	characters 	-> [characters/full]
@@ -74,7 +74,6 @@ struct <IMG> as SOURCE in {root}/{ACESHIP_DIR_ENV}/img/*
 	enemy		-> [enemies]
 	items 		-> [materials]
 	factions	-> [factions]
-
 
 // ------------------------------------------------------>
 struct <IMG> as TARGET in {root}/src/assets/gamedata/img/*

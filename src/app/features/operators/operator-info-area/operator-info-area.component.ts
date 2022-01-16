@@ -103,6 +103,7 @@ export class OperatorInfoAreaComponent implements OnInit, OnChanges
 	pagesVisible = false;
 	ngOnInit(): void {
 		this.visible = true;
+
 		this.init().then(async () => {
 			this.menuVisible = true
 			this.pagesVisible = true;
