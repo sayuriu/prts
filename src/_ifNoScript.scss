@@ -14,8 +14,8 @@ noscript {
 	@keyframes ns__shuffle-case {
 		@for $i from 1 to $steps {
 			$per: math.div(50%, $steps) * $i;
-			$trans: (lowercase, uppercase, none, uppercase, none, none, none, lowercase, lowercase, none, none, none, none, none);
-			$arrayT: random(14);
+			$trans: (lowercase, uppercase, none, uppercase, none, none, none, lowercase, lowercase, none, none, none, none, none, none, none, none, none, none, none);
+			$arrayT: random(20);
 
 			#{$per} { text-transform: nth($trans, $arrayT)}
 		}
@@ -61,7 +61,7 @@ noscript {
 .ns__glictch-err-header {
 	background: black;
 	color: white;
-	animation: ns__shuffle-case 36s infinite steps(50),
+	animation: ns__shuffle-case 50s infinite steps(1),
 }
 
 .ns__glictch-err-code {
@@ -194,9 +194,9 @@ noscript {
 }
 #endregion
 
-.ns__header-sub1 { animation: ns__err-code-display-sub3 14s none 1.5s infinite steps(1) alternate }
-.ns__header-sub2 { animation: ns__err-code-display-sub3 8s  none 1.5s infinite steps(1) alternate }
-.ns__header-sub3 { animation: ns__err-code-display-sub6 8s  none 1.5s infinite steps(1) alternate }
+.ns__header-sub1 { animation: ns__err-code-display-sub3 20s none 1.5s infinite steps(1) alternate }
+.ns__header-sub2 { animation: ns__err-code-display-sub3 17s  none 1.5s infinite steps(1) alternate }
+.ns__header-sub3 { animation: ns__err-code-display-sub6 14s  none 1.5s infinite steps(1) alternate }
 .ns__header-sub4 { animation: ns__err-code-display-sub6 13s none 1.5s infinite steps(1) alternate }
 
 .ns__dialog-header {}
@@ -312,20 +312,21 @@ cur.ns__err-cur4 { animation: ns__err-code-display-sub6 14s none 1.5s infinite s
 
 .ns__error-float {
 	color:hsl(0, 100%, 36%);
+	font-size: 20px;
 }
 
 
 .ns__error-float-sub1 {
 	@keyframes ns__err-float-1-main {
-		0%, 18%, 56% {
+		0%, 18%, 56%, 69% {
 			opacity: 0;
 		}
-		8%, 50% {
+		8%, 50%, 65% {
 			opacity: 1;
 		}
 	}
 	@keyframes ns__abs-offset1-main {
-		0%, 18%, 56% {
+		0%, 18%, 56%, 69% {
 			left: 0;
 			top: 0;
 		}
@@ -336,6 +337,10 @@ cur.ns__err-cur4 { animation: ns__err-code-display-sub6 14s none 1.5s infinite s
 		50% {
 			left: 60%;
 			top: 70%;
+		}
+		65% {
+			left: 50%;
+			top: 90%;
 		}
 	}
 	@keyframes ns__abs-clip1-main {
@@ -350,21 +355,21 @@ cur.ns__err-cur4 { animation: ns__err-code-display-sub6 14s none 1.5s infinite s
 		}
 	}
 	animation:
-		ns__abs-offset1-main 12s none 1.5s infinite steps(1) alternate,
-		ns__abs-clip1-main 	 12s none 1.5s infinite steps(1) alternate,
-		ns__err-float-1-main 12s none 1.5s infinite steps(1) alternate;
+		ns__abs-offset1-main 12s none 4s infinite steps(1) alternate,
+		ns__abs-clip1-main 	 12s none 4s infinite steps(1) alternate,
+		ns__err-float-1-main 12s none 4s infinite steps(1) alternate;
 }
 .ns__error-float-sub2 {
 	@keyframes ns__err-float-1-sub {
-		0%, 18%, 53% {
+		0%, 18%, 53%, 84% {
 			opacity: 0;
 		}
-		12%, 50% {
+		12%, 50%, 80% {
 			opacity: 1;
 		}
 	}
 	@keyframes ns__abs-offset1-sub {
-		0%, 18%, 52% {
+		0%, 18%, 52%, 84% {
 			left: 0;
 			top: 0;
 		}
@@ -379,6 +384,10 @@ cur.ns__err-cur4 { animation: ns__err-code-display-sub6 14s none 1.5s infinite s
 		50% {
 			left: calc(60% - 10px);
 			top: calc(70% - 6px);
+		}
+		80% {
+			left: 80%;
+			top: 10%;
 		}
 	}
 	@keyframes ns__abs-clip1-sub {
@@ -396,9 +405,9 @@ cur.ns__err-cur4 { animation: ns__err-code-display-sub6 14s none 1.5s infinite s
 		}
 	}
 	animation:
-		ns__abs-offset1-sub 12s none 1.5s infinite steps(1) alternate,
-		ns__abs-clip1-sub 	12s none 1.5s infinite steps(1) alternate,
-		ns__err-float-1-sub 12s none 1.5s infinite steps(1) alternate;
+		ns__abs-offset1-sub 12s none 4s infinite steps(1) alternate,
+		ns__abs-clip1-sub 	12s none 4s infinite steps(1) alternate,
+		ns__err-float-1-sub 12s none 4s infinite steps(1) alternate;
 }
 
 // .ns__error-float-sub3 {
