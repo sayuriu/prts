@@ -31,16 +31,19 @@
 				width: 100%;
 			}
 			header {
-				transition: height 0.5s $forceful-2;
+				transition: min-height 0.5s $forceful-2;
 				background: hsl(0, 0%, 20%);
 				&.hasDelay {
 					transition-delay: 0.3s;
 				}
 				&.full {
-					height: 140px;
+					//! Handle resize problem: 0 height when animation was not yet played
+					height: auto;
+					min-height: 140px;
 				}
 				&.collapsed {
 					height: 80px;
+					min-height: 80px;
 				}
 				picker-title i {
 					padding-left: 30px;

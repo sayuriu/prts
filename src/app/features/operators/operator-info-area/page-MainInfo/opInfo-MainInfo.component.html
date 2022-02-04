@@ -19,69 +19,72 @@
 						<img src="/assets/img/star.png">
 					</div>
 				</rarity-star>
-				<text-field
-					id="op-gender"
-					class="pointer-all rel anim-spreadLR"
-					[attr.data-title]="(opGender[this.currentOpHR.sex] ?? {}).sex_en ?? 'Unknown'"
-					[boundRect]="{ centerChildren: [true], width: '128px', height: '42px' }"
-					[labelField]="{
-						centerChildren: [true],
-						height: '100%',
-						width: '94.5px',
-						borderMatrixOverride: ['', '0', '', ''],
-						border: '1px solid black'
-					}"
-					[labelFieldText]="{
-						textValue: 'Gender',
-						textSize: '20px',
-						textAlign: 'center'
-					}"
-					[valueField]="{
-						centerChildren: [true],
-						height: '100%',
-						width: '33.5px',
-						borderFgMatchBg: true,
-						border: '1px solid black',
-						background: genderColor[this.currentOpHR.sex] ?? genderColor.unknown
-					}"
-					[valueFieldText]="{
-						textValue: ((opGender[this.currentOpHR.sex] ?? {}).sex_en ?? 'U')[0],
-						textSize: '20px',
-						textAlign: 'center',
-						textColor: 'white'
-					}"
-				></text-field>
-				<spacer style="width: 20px;"></spacer>
-				<text-field
-					class="anim-spreadLR"
-					[boundRect]="{ centerChildren: [true], width: '224px', height: '42px' }"
-					[labelField]="{
-						centerChildren: [true],
-						height: '100%',
-						width: '110px',
-						borderMatrixOverride: ['', '0', '', ''],
-						border: '1px solid black'
-					}"
-					[labelFieldText]="{
-						textValue: 'Position',
-						textSize: '20px',
-						textAlign: 'center'
-					}"
-					[valueField]="{
-						centerChildren: [true],
-						height: '100%',
-						width: '114px',
-						borderFgMatchBg: true,
-						border: '1px solid black',
-						background: '#3F3F3F'
-					}"
-					[valueFieldText]="{
-						textValue: currentOperator.position,
-						textSize: '20px',
-						textAlign: 'center',
-						textColor: 'white'
-					}"
-				></text-field>
+				<div class="flex">
+					<spacer style="width: 21px;"></spacer>
+					<text-field
+						id="op-gender"
+						class="pointer-all rel anim-spreadLR"
+						[attr.data-title]="(opGender[this.currentOpHR.sex] ?? {}).sex_en ?? 'Unknown'"
+						[boundRect]="{ centerChildren: [true], width: '128px', height: '42px' }"
+						[labelField]="{
+							centerChildren: [true],
+							height: '100%',
+							width: '94.5px',
+							borderMatrixOverride: ['', '0', '', ''],
+							border: '1px solid black'
+						}"
+						[labelFieldText]="{
+							textValue: 'Gender',
+							textSize: '20px',
+							textAlign: 'center'
+						}"
+						[valueField]="{
+							centerChildren: [true],
+							height: '100%',
+							width: '33.5px',
+							borderFgMatchBg: true,
+							border: '1px solid black',
+							background: genderColor[this.currentOpHR.sex] ?? genderColor.unknown
+						}"
+						[valueFieldText]="{
+							textValue: ((opGender[this.currentOpHR.sex] ?? {}).sex_en ?? 'U')[0],
+							textSize: '20px',
+							textAlign: 'center',
+							textColor: 'white'
+						}"
+					></text-field>
+					<spacer style="width: 20px;"></spacer>
+					<text-field
+						class="anim-spreadLR"
+						[boundRect]="{ centerChildren: [true], width: '224px', height: '42px' }"
+						[labelField]="{
+							centerChildren: [true],
+							height: '100%',
+							width: '110px',
+							borderMatrixOverride: ['', '0', '', ''],
+							border: '1px solid black'
+						}"
+						[labelFieldText]="{
+							textValue: 'Position',
+							textSize: '20px',
+							textAlign: 'center'
+						}"
+						[valueField]="{
+							centerChildren: [true],
+							height: '100%',
+							width: '114px',
+							borderFgMatchBg: true,
+							border: '1px solid black',
+							background: '#3F3F3F'
+						}"
+						[valueFieldText]="{
+							textValue: currentOperator.position,
+							textSize: '20px',
+							textAlign: 'center',
+							textColor: 'white'
+						}"
+					></text-field>
+				</div>
 			</div>
 			<div id="line2" class="line flex flex-row anim-spreadLR">
 				<spacer style="width: 22px;"></spacer>

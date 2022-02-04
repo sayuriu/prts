@@ -89,6 +89,8 @@ export class OpMainInfoComponent implements OnInit {
 			.replace('warrior', 'guard')
 			.replace('tank', 'defender')
 			.replace('pioneer', 'vanguard')
+			.replace('support', 'supporter')
+			.replace('special', 'specialist')
 			.trim()
 			.replace(/ +/g, '_')
 			.toUpperCase() || 'NO_CLASS';
