@@ -1,7 +1,7 @@
-import { ACESHIP_DIR_ROOT, DESTINATION_ROOT } from './AceshipEnv';
+import { ACESHIP_DIR_ROOT, DESTINATION_ROOT } from './Env';
 import Logger from './Logger';
 import { readdirSync, lstatSync, copyFileSync } from 'fs';
-import {  CountTracker } from './AceshipJSONParser';
+import { CountTracker } from './JSONParser';
 import { createIfNotExist, joinPaths } from './utils/PathUtils';
 
 export namespace AceshipIMGData {

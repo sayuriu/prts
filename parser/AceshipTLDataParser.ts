@@ -1,7 +1,7 @@
 import { writeFileSync } from 'fs';
 import { resolve } from 'path';
-import { ACESHIP_DIR_ROOT, DESTINATION_ROOT } from './AceshipEnv';
-import { CountTracker } from './AceshipJSONParser';
+import { ACESHIP_DIR_ROOT, DESTINATION_ROOT } from './Env';
+import { CountTracker } from './JSONParser';
 import Logger from './Logger';
 import { createIfNotExist, createRecursive, joinPaths } from './utils/PathUtils';
 
@@ -56,7 +56,7 @@ export function ParseTLData()
 		for (const key in classList)
 		{
 			const classes = classList[key];
-			if (!out[key]) out[key] = {};
+			if (!(key in out)) out[key] = {};
 			for (const k of classes)
 				out[key][k] = subclass[k];
 

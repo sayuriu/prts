@@ -1,4 +1,4 @@
-import { GamedataDestination } from './AceshipJSONParser';
+import { GamedataDestination } from './JSONParser';
 import { readdirSync, writeFileSync } from 'fs';
 import { inspect } from 'util';
 import { join } from 'path';

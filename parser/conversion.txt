@@ -1,5 +1,6 @@
 ~ [json]
-struct <LOCACLES> as SOURCE in {root}/{ACESHIP_DIR_ENV}/json/*
+# struct <LOCACLES> as SOURCE in {root}/{ACESHIP_DIR_ENV}/json/*
+struct <LOCACLES> as SOURCE in {root}/{KENGXIAO_DIR_ENV}/json/*
 	tl-akhr.json
 	[UNUSED] tl-effect.json
 	tl-gender.json

@@ -1,0 +1,16 @@
+#!/bin/bash
+ROOT=$dirname
+ACESHIP_ROOT="aceship/AN-EN-Tags"
+KENGXIAO_ROOT="kengxxiao/ArknightsGameData"
+PARSER_DIR="parser"
+PARSER_SCRIPT="parser.sh"
+
+repo="aceship"
+cd $ACESHIP_ROOT
+echo "[$repo] Syncing git..."
+git pull || cd "../../"
+cd $KENGXIAO_ROOT
+echo "[$repo] Syncing git..."
+git pull || cd "../../"
+echo "Running parser..."
+cd "$PARSER_DIR" && "./$PARSER_SCRIPT"

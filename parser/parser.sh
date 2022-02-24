@@ -20,8 +20,8 @@ if [[ ! -d 'json' ]]; then
 	echo "mkdir json"
 	mkdir "json"
 fi
-echo "tsc AceshipParser --target esnext --module commonjs --esmoduleInterop true"
-tsc AceshipParser.ts --target esnext --module commonjs --esmoduleInterop true
+echo "tsc Parser --target esnext --module commonjs --esmoduleInterop true"
+tsc Parser.ts --target esnext --module commonjs --esmoduleInterop true
 echo "tsc Operator.list.parser.ts --target esnext --module commonjs --esmoduleInterop true"
 tsc Operator.list.parser.ts --target esnext --module commonjs --esmoduleInterop true
 echo "tsc ConcatAllObj(Operator) --target esnext --module commonjs --esmoduleInterop true"

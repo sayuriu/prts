@@ -1,5 +1,5 @@
 import { copyIMG } from "./AceshipIMGCopy";
-import { parseAll } from "./AceshipJSONParser";
+import { parseAll } from "./JSONParser";
 import { ParseTLData } from "./AceshipTLDataParser";
 
 parseAll();
