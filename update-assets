@@ -8,9 +8,12 @@ PARSER_SCRIPT="parser.sh"
 repo="aceship"
 cd $ACESHIP_ROOT
 echo "[$repo] Syncing git..."
-git pull || cd "../../"
+git fetch --all && git reset --hard origin/master
+cd ../../
+repo="kengxxiao"
 cd $KENGXIAO_ROOT
 echo "[$repo] Syncing git..."
-git pull || cd "../../"
+git fetch --all && git reset --hard origin/master
+cd ../../
 echo "Running parser..."
-cd "$PARSER_DIR" && "./$PARSER_SCRIPT"
+cd $PARSER_DIR && "./$PARSER_SCRIPT"
