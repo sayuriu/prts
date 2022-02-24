@@ -1,6 +1,6 @@
 {
 	"name": "레이즈",
-	"description": "공격이 <@ba.kw>3</>번 튕기며 <@ba.kw>마법 대미지</> 및 <$ba.sluggish>정지</> 효과 부여 (튕길 때마다 대미지 20%씩 감소)",
+	"description": "공격 시 <@ba.kw>마법 대미지</> 부여, 공격이 <@ba.kw>3</>명의 적에게 튕기며, 튕길 때마다 대미지가 15%씩 감소, 동시에 일시적인 <$ba.sluggish>정지</> 효과 부여",
 	"canUseGeneralPotentialItem": true,
 	"potentialItemId": "p_char_306_leizi",
 	"nationId": "yan",
@@ -21,6 +21,7 @@
 	"maxPotentialLevel": 5,
 	"rarity": 4,
 	"profession": "CASTER",
+	"subProfessionId": "chain",
 	"trait": {
 		"candidates": [
 			{
@@ -36,10 +37,10 @@
 					},
 					{
 						"key": "attack@sluggish",
-						"value": 0.2
+						"value": 0.5
 					}
 				],
-				"overrideDescripton": "공격 시 <@ba.kw>마법 대미지</>를 주고, 공격이 <@ba.kw>{attack@max_target}</>명의 적에게 튕기며, 튕길 때마다 대미지가 20% 감소하고 잠깐 동안의 <$ba.sluggish>정지</> 효과를 부여한다(2차 정예화 시 갱신).",
+				"overrideDescripton": "공격 시 <@ba.kw>마법 대미지</> 부여, 공격이 <@ba.kw>{attack@max_target}</>명의 적에게 튕기며, 튕길 때마다 대미지가 15%씩 감소, 동시에 일시적인 <$ba.sluggish>정지</> 효과 부여 (2차 정예화 시 갱신)",
 				"prefabKey": "-1",
 				"rangeId": null
 			},
@@ -56,10 +57,10 @@
 					},
 					{
 						"key": "attack@sluggish",
-						"value": 0.2
+						"value": 0.5
 					}
 				],
-				"overrideDescripton": "공격 시 <@ba.kw>마법 대미지</>를 주고, 공격이 <@ba.kw>{attack@max_target}</>명의 적에게 튕기며, 튕길 때마다 대미지가 20% 감소하고 잠깐 동안의 <$ba.sluggish>정지</> 효과를 부여한다.",
+				"overrideDescripton": "공격 시 <@ba.kw>마법 대미지</> 부여, 공격이 <@ba.kw>{attack@max_target}</>명의 적에게 튕기며, 튕길 때마다 대미지가 15%씩 감소, 동시에 일시적인 <$ba.sluggish>정지</> 효과 부여",
 				"prefabKey": "-1",
 				"rangeId": null
 			}
@@ -75,7 +76,7 @@
 					"level": 1,
 					"data": {
 						"maxHp": 590,
-						"atk": 266,
+						"atk": 295,
 						"def": 47,
 						"magicResistance": 10,
 						"cost": 29,
@@ -100,7 +101,7 @@
 					"level": 50,
 					"data": {
 						"maxHp": 843,
-						"atk": 370,
+						"atk": 411,
 						"def": 72,
 						"magicResistance": 10,
 						"cost": 29,
@@ -133,7 +134,7 @@
 					"level": 1,
 					"data": {
 						"maxHp": 843,
-						"atk": 370,
+						"atk": 411,
 						"def": 72,
 						"magicResistance": 15,
 						"cost": 32,
@@ -158,7 +159,7 @@
 					"level": 70,
 					"data": {
 						"maxHp": 1096,
-						"atk": 475,
+						"atk": 527,
 						"def": 99,
 						"magicResistance": 15,
 						"cost": 32,
@@ -207,7 +208,7 @@
 					"level": 1,
 					"data": {
 						"maxHp": 1096,
-						"atk": 475,
+						"atk": 527,
 						"def": 99,
 						"magicResistance": 20,
 						"cost": 32,
@@ -232,7 +233,7 @@
 					"level": 80,
 					"data": {
 						"maxHp": 1443,
-						"atk": 573,
+						"atk": 635,
 						"def": 119,
 						"magicResistance": 20,
 						"cost": 32,

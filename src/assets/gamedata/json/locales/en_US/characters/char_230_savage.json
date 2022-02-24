@@ -22,6 +22,7 @@
 	"maxPotentialLevel": 2,
 	"rarity": 4,
 	"profession": "WARRIOR",
+	"subProfessionId": "centurion",
 	"trait": null,
 	"phases": [
 		{
@@ -410,7 +411,7 @@
 					"requiredPotentialRank": 0,
 					"prefabKey": "1",
 					"name": "Valley",
-					"description": "ATK and DEF +5% when there are more than two ranged grids in the four surrounding grids",
+					"description": "ATK and DEF +5% when there are more than two ranged tiles in the four surrounding tiles",
 					"rangeId": null,
 					"blackboard": [
 						{
@@ -435,7 +436,7 @@
 					"requiredPotentialRank": 0,
 					"prefabKey": "1",
 					"name": "Valley",
-					"description": "ATK and DEF +10% when there are more than two ranged grids in the four surrounding grids",
+					"description": "ATK and DEF +10% when there are more than two ranged tiles in the four surrounding tiles",
 					"rangeId": null,
 					"blackboard": [
 						{

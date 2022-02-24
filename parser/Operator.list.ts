@@ -12,6 +12,7 @@ export const List = {
         chen2: '1013',
         nearl2: '1014',
         sora: '101',
+        kroos2: '1021',
         texas: '102',
         angel: '103',
         franka: '106',
@@ -78,6 +79,7 @@ export const List = {
         nian: '2014',
         dusk: '2015',
         moeshd: '201',
+        ling: '2023',
         demkni: '202',
         platnm: '204',
         gnosis: '206',
@@ -139,6 +141,7 @@ export const List = {
         leizi: '306',
         swire: '308',
         mudrok: '311',
+        lmlee: '322',
         bison: '325',
         glacus: '326',
         cammou: '328',
@@ -167,6 +170,7 @@ export const List = {
         bena: '369',
         lionhd: '373',
         therex: '376',
+        gdglow: '377',
         asbest: '378',
         sesa: '379',
         bubble: '381',
@@ -209,12 +213,14 @@ export const List = {
         mberry: '473',
         glady: '474',
         akafyu: '475',
+        blkngt: '476',
         kirara: '478',
         sleach: '479',
         robrta: '484',
         pallas: '485',
         takila: '486',
         serum: '489',
+        quercu: '492',
         wildmn: '496',
         noirc: '500',
         durin: '501',
@@ -279,7 +285,9 @@ export const List = {
         vultres: '051',
         slowfd: '052',
         airbomb: '053',
-        dancdol: '054'
+        dancdol: '054',
+        tileblock: '055',
+        sfsuifire: '056'
     },
     token: {
         healrb: {
@@ -365,6 +373,22 @@ export const List = {
         sword: {
             id: '10019',
             unit: 'nearl2'
+        },
+        soul1: {
+            id: '10020',
+            unit: 'ling'
+        },
+        soul2: {
+            id: '10020',
+            unit: 'ling'
+        },
+        soul3: {
+            id: '10020',
+            unit: 'ling'
+        },
+        hypnos: {
+            id: '10021',
+            unit: 'blkngt'
         },
         friend: {
             id: '023',

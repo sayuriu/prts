@@ -19,7 +19,7 @@
 	"itemObtainApproach": "周年獎勵",
 	"isNotObtainable": false,
 	"isSpChar": false,
-	"maxPotentialLevel": 1,
+	"maxPotentialLevel": 2,
 	"rarity": 4,
 	"profession": "WARRIOR",
 	"trait": null,
@@ -471,6 +471,29 @@
 							"attributeType": 1,
 							"formulaItem": 0,
 							"value": 35,
+							"loadFromBlackboard": false,
+							"fetchBaseValueFromSourceEntity": false
+						}
+					]
+				}
+			},
+			"equivalentCost": null
+		},
+		{
+			"type": 0,
+			"description": "生命上限+250",
+			"buff": {
+				"attributes": {
+					"abnormalFlags": null,
+					"abnormalImmunes": null,
+					"abnormalAntis": null,
+					"abnormalCombos": null,
+					"abnormalComboImmunes": null,
+					"attributeModifiers": [
+						{
+							"attributeType": 0,
+							"formulaItem": 0,
+							"value": 250,
 							"loadFromBlackboard": false,
 							"fetchBaseValueFromSourceEntity": false
 						}

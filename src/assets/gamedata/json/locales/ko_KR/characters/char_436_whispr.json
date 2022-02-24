@@ -21,6 +21,7 @@
 	"maxPotentialLevel": 5,
 	"rarity": 4,
 	"profession": "MEDIC",
+	"subProfessionId": "healer",
 	"trait": {
 		"candidates": [
 			{
@@ -32,7 +33,7 @@
 				"blackboard": [
 					{
 						"key": "heal_scale",
-						"value": 0.7
+						"value": 0.8
 					}
 				],
 				"overrideDescripton": "치료 범위가 넓지만 치료 대상이 멀리 있을 시 치료 효과가 <@ba.kw>{heal_scale:0%}</>로 변한다",
@@ -51,9 +52,9 @@
 					"level": 1,
 					"data": {
 						"maxHp": 785,
-						"atk": 163,
+						"atk": 172,
 						"def": 52,
-						"magicResistance": 5,
+						"magicResistance": 10,
 						"cost": 18,
 						"blockCnt": 1,
 						"moveSpeed": 1,
@@ -76,9 +77,9 @@
 					"level": 50,
 					"data": {
 						"maxHp": 1034,
-						"atk": 268,
+						"atk": 282,
 						"def": 76,
-						"magicResistance": 5,
+						"magicResistance": 10,
 						"cost": 18,
 						"blockCnt": 1,
 						"moveSpeed": 1,
@@ -109,9 +110,9 @@
 					"level": 1,
 					"data": {
 						"maxHp": 1034,
-						"atk": 268,
+						"atk": 282,
 						"def": 76,
-						"magicResistance": 5,
+						"magicResistance": 10,
 						"cost": 20,
 						"blockCnt": 1,
 						"moveSpeed": 1,
@@ -134,9 +135,9 @@
 					"level": 70,
 					"data": {
 						"maxHp": 1231,
-						"atk": 373,
+						"atk": 393,
 						"def": 95,
-						"magicResistance": 5,
+						"magicResistance": 10,
 						"cost": 20,
 						"blockCnt": 1,
 						"moveSpeed": 1,
@@ -183,9 +184,9 @@
 					"level": 1,
 					"data": {
 						"maxHp": 1231,
-						"atk": 373,
+						"atk": 393,
 						"def": 95,
-						"magicResistance": 5,
+						"magicResistance": 10,
 						"cost": 20,
 						"blockCnt": 1,
 						"moveSpeed": 1,
@@ -208,9 +209,9 @@
 					"level": 80,
 					"data": {
 						"maxHp": 1432,
-						"atk": 467,
+						"atk": 492,
 						"def": 119,
-						"magicResistance": 5,
+						"magicResistance": 10,
 						"cost": 20,
 						"blockCnt": 1,
 						"moveSpeed": 1,

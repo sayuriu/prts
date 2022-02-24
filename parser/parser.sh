@@ -20,14 +20,14 @@ if [[ ! -d 'json' ]]; then
 	echo "mkdir json"
 	mkdir "json"
 fi
-echo "tsc Parser --target esnext --module commonjs --esmoduleInterop true"
-tsc Parser.ts --target esnext --module commonjs --esmoduleInterop true
-echo "tsc Operator.list.parser.ts --target esnext --module commonjs --esmoduleInterop true"
-tsc Operator.list.parser.ts --target esnext --module commonjs --esmoduleInterop true
-echo "tsc ConcatAllObj(Operator) --target esnext --module commonjs --esmoduleInterop true"
-tsc 'ConcatAllObj(Operator).ts' --target esnext --module commonjs --esmoduleInterop true
-echo "node AceshipParser"
-node AceshipParser.js
+echo "tsc Parser --target esnext --module commonjs --moduleResolution node --esmoduleInterop true"
+tsc Parser.ts --target esnext --module commonjs --moduleResolution node --esmoduleInterop true
+echo "tsc Operator.list.parser.ts --target esnext --module commonjs --moduleResolution node --esmoduleInterop true"
+tsc Operator.list.parser.ts --target esnext --module commonjs --moduleResolution node --esmoduleInterop true
+echo "tsc ConcatAllObj(Operator) --target esnext --module commonjs --moduleResolution node --esmoduleInterop true"
+tsc 'ConcatAllObj(Operator).ts' --target esnext --module commonjs --moduleResolution node --esmoduleInterop true
+echo "node Parser"
+node Parser.js
 echo "node ConcatAllObj(Operator)"
 node 'ConcatAllObj(Operator).js'
 echo "node Operator.list.parser.js"

@@ -1,6 +1,6 @@
 {
 	"name": "Shaw",
-	"description": "Can attack <@ba.kw>all blocked enemies</>\nCan be deployed on Ranged Grids",
+	"description": "Can attack <@ba.kw>all blocked enemies</>\nCan be deployed on Ranged Tiles",
 	"canUseGeneralPotentialItem": true,
 	"potentialItemId": "p_char_277_sqrrel",
 	"nationId": "lungmen",
@@ -21,6 +21,7 @@
 	"maxPotentialLevel": 5,
 	"rarity": 3,
 	"profession": "SPECIAL",
+	"subProfessionId": "pusher",
 	"trait": null,
 	"phases": [
 		{

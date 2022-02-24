@@ -2,7 +2,7 @@ import { writeFileSync } from 'fs';
 import { resolve } from 'path';
 import { ACESHIP_DIR_ROOT, DESTINATION_ROOT } from './Env';
 import { CountTracker } from './JSONParser';
-import Logger from './Logger';
+import { Logger } from './utils/Logger';
 import { createIfNotExist, createRecursive, joinPaths } from './utils/PathUtils';
 
 export const BASE_PATH = '{ACESHIP_DIR_ROOT}/json/'.replace('{ACESHIP_DIR_ROOT}', ACESHIP_DIR_ROOT);

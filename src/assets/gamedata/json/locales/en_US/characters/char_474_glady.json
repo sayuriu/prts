@@ -1,6 +1,6 @@
 {
 	"name": "Gladiia",
-	"description": "Can <@ba.kw>Shift</> enemies by using skills\nCan be deployed on Ranged Grids",
+	"description": "Can <@ba.kw>Shift</> enemies by using skills\nCan be deployed on Ranged Tiles",
 	"canUseGeneralPotentialItem": true,
 	"potentialItemId": "p_char_474_glady",
 	"nationId": "egir",
@@ -23,6 +23,7 @@
 	"maxPotentialLevel": 5,
 	"rarity": 5,
 	"profession": "SPECIAL",
+	"subProfessionId": "hookmaster",
 	"trait": null,
 	"phases": [
 		{

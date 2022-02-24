@@ -1,6 +1,6 @@
 {
 	"name": "阿",
-	"description": "自身生命會不斷減少",
+	"description": "自身生命會不斷流失",
 	"canUseGeneralPotentialItem": true,
 	"potentialItemId": "p_char_225_haak",
 	"nationId": "lungmen",
@@ -512,7 +512,7 @@
 					"requiredPotentialRank": 0,
 					"prefabKey": "1",
 					"name": "混合藥物射擊",
-					"description": "每次攻擊時會隨機觸發下列效果之一：回復自身生命13%；當次攻擊力提升至130%；目標停頓1秒；目標暈眩0.6秒",
+					"description": "每次攻擊時會隨機觸發下列效果之一：回復自身生命13%；當次攻擊力提升至130%；目標<$ba.sluggish>停頓</>1秒；目標<$ba.stun>暈眩</>0.6秒",
 					"rangeId": null,
 					"blackboard": [
 						{
@@ -541,7 +541,7 @@
 					"requiredPotentialRank": 0,
 					"prefabKey": "1",
 					"name": "混合藥物射擊",
-					"description": "每次攻擊時會隨機觸發下列效果之一：回復自身生命14%；當次攻擊力提升至140%；目標停頓1.2秒；目標暈眩0.8秒",
+					"description": "每次攻擊時會隨機觸發下列效果之一：回復自身生命14%；當次攻擊力提升至140%；目標<$ba.sluggish>停頓</>1.2秒；目標<$ba.stun>暈眩</>0.8秒",
 					"rangeId": null,
 					"blackboard": [
 						{
@@ -570,7 +570,7 @@
 					"requiredPotentialRank": 0,
 					"prefabKey": "1",
 					"name": "混合藥物射擊",
-					"description": "每次攻擊時會隨機觸發下列效果之一：回復自身生命15%；當次攻擊力提升至150%；目標停頓1.4秒；目標暈眩1秒",
+					"description": "每次攻擊時會隨機觸發下列效果之一：回復自身生命15%；當次攻擊力提升至150%；目標<$ba.sluggish>停頓</>1.4秒；目標<$ba.stun>暈眩</>1秒",
 					"rangeId": null,
 					"blackboard": [
 						{

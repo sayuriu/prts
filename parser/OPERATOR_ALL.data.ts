@@ -222,7 +222,7 @@ exports = {
         }
     ],
     skills: [{
-            skillId: 'skcom_charge_cost[3]',
+            skillId: 'sktok_blkngt_hypnos_s_1',
             overridePrefabKey: 'skchr_myrtle_1',
             overrideTokenKey: null,
             levelUpCostCond: [{
@@ -301,7 +301,7 @@ exports = {
             }
         },
         {
-            skillId: 'sktok_mgllan_drone1',
+            skillId: 'sktok_blkngt_hypnos_s_2',
             overridePrefabKey: null,
             overrideTokenKey: 'token_10005_mgllan_drone2',
             levelUpCostCond: [{

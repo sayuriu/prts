@@ -3,7 +3,7 @@ import { writeFile } from 'fs';
 import { resolve } from 'path';
 import { ACESHIP_DIR_ROOT, KENGXIAO_DIR_ROOT, DESTINATION_ROOT } from './Env';
 import { concatObjects, writeData } from './utils/ConcatAllObj';
-import Logger from './Logger';
+import { Logger } from './utils/Logger';
 import { createIfNotExist, joinPaths } from './utils/PathUtils';
 import { Locales, AvailableLocales } from './struct/Basic';
 import { Operator } from './struct/Operator/Char';

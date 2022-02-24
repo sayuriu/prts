@@ -1,6 +1,6 @@
 {
 	"name": "鈴蘭",
-	"description": "攻擊造成<@ba.kw>法術傷害</>，並對敵人造成短暫的<@ba.kw>停頓</>",
+	"description": "攻擊造成<@ba.kw>法術傷害</>，並對敵人造成短暫的<$ba.sluggish>停頓</>",
 	"canUseGeneralPotentialItem": true,
 	"potentialItemId": "p_char_358_lisa",
 	"nationId": "siracusa",
@@ -551,7 +551,7 @@
 					"requiredPotentialRank": 0,
 					"prefabKey": "2",
 					"name": "畫地為牢",
-					"description": "攻擊範圍內被停頓的敵人在下一瞬間起還會受到等長時間的【脆弱】（受到傷害+20%）（同類效果取最高）",
+					"description": "攻擊範圍內被<$ba.sluggish>停頓</>的敵人在下一瞬間起還會受到等長時間的20%的<$ba.fragile>脆弱</>效果",
 					"rangeId": null,
 					"blackboard": [
 						{
@@ -568,7 +568,7 @@
 					"requiredPotentialRank": 4,
 					"prefabKey": "2",
 					"name": "畫地為牢",
-					"description": "攻擊範圍內被停頓的敵人在下一瞬間起還會受到等長時間的【脆弱】（受到傷害+23%<@ba.talpu>（+3%）</>）（同類效果取最高）",
+					"description": "攻擊範圍內被<$ba.sluggish>停頓</>的敵人在下一瞬間起還會受到等長時間的23%<@ba.talpu>（+3%）</>的<$ba.fragile>脆弱</>效果",
 					"rangeId": null,
 					"blackboard": [
 						{

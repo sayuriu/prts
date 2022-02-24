@@ -1,6 +1,6 @@
 {
 	"name": "驚蟄",
-	"description": "攻擊造成<@ba.kw>法術傷害</>，且會在<@ba.kw>3</>個敵人間跳躍，每次跳躍傷害降低25%並造成短暫停頓",
+	"description": "攻擊造成<@ba.kw>法術傷害</>，且會在<@ba.kw>3</>個敵人間跳躍，每次跳躍傷害降低20%並造成短暫<$ba.sluggish>停頓</>",
 	"canUseGeneralPotentialItem": true,
 	"potentialItemId": "p_char_306_leizi",
 	"nationId": "yan",
@@ -39,7 +39,7 @@
 						"value": 0.2
 					}
 				],
-				"overrideDescripton": "攻擊造成<@ba.kw>法術傷害</>，且會在<@ba.kw>{attack@max_target}</>個敵人間跳躍，每次跳躍傷害降低25%並造成短暫停頓（精英2後更新）",
+				"overrideDescripton": "攻擊造成<@ba.kw>法術傷害</>，且會在<@ba.kw>{attack@max_target}</>個敵人間跳躍，每次跳躍傷害降低20%並造成短暫<$ba.sluggish>停頓</>（精英2後更新）",
 				"prefabKey": "-1",
 				"rangeId": null
 			},
@@ -59,7 +59,7 @@
 						"value": 0.2
 					}
 				],
-				"overrideDescripton": "攻擊造成<@ba.kw>法術傷害</>，且會在<@ba.kw>{attack@max_target}</>個敵人間跳躍，每次跳躍傷害降低25%並造成短暫停頓",
+				"overrideDescripton": "攻擊造成<@ba.kw>法術傷害</>，且會在<@ba.kw>{attack@max_target}</>個敵人間跳躍，每次跳躍傷害降低20%並造成短暫<$ba.sluggish>停頓</>",
 				"prefabKey": "-1",
 				"rangeId": null
 			}

@@ -1,6 +1,6 @@
 {
 	"name": "Passenger",
-	"description": "Attacks deal <@ba.kw>Arts</> damage and jump between <@ba.kw>3</> enemies. Each jump deals 20% less damage and inflicts a brief <$ba.sluggish>Slow</>",
+	"description": "Attacks deal <@ba.kw>Arts</> damage and jump between <@ba.kw>3</> enemies. Each jump deals 15% less damage and inflicts a brief <$ba.sluggish>Slow</>",
 	"canUseGeneralPotentialItem": true,
 	"potentialItemId": "p_char_472_pasngr",
 	"nationId": "sargon",
@@ -21,6 +21,7 @@
 	"maxPotentialLevel": 5,
 	"rarity": 5,
 	"profession": "CASTER",
+	"subProfessionId": "chain",
 	"trait": {
 		"candidates": [
 			{
@@ -36,10 +37,10 @@
 					},
 					{
 						"key": "attack@sluggish",
-						"value": 0.2
+						"value": 0.5
 					}
 				],
-				"overrideDescripton": "Attacks deal <@ba.kw>Arts damage</> and jump between <@ba.kw>{attack@max_target}</> enemies. Each jump deals 20% less damage and inflicts a brief <$ba.sluggish>Slow</> (Upgraded after reaching Elite 2)",
+				"overrideDescripton": "Attacks deal <@ba.kw>Arts</> damage and jump between <@ba.kw>{attack@max_target}</> enemies. Each jump deals 15% less damage and inflicts a brief <$ba.sluggish>Slow</> (Upgraded after reaching Elite 2)",
 				"prefabKey": "-1",
 				"rangeId": null
 			},
@@ -56,10 +57,10 @@
 					},
 					{
 						"key": "attack@sluggish",
-						"value": 0.2
+						"value": 0.5
 					}
 				],
-				"overrideDescripton": "Attacks deal <@ba.kw>Arts damage</> and jump between <@ba.kw>{attack@max_target}</> enemies. Each jump deals 20% less damage and inflicts a brief <$ba.sluggish>Slow</>",
+				"overrideDescripton": "Attacks deal <@ba.kw>Arts</> damage and jump between <@ba.kw>{attack@max_target}</> enemies. Each jump deals 15% less damage and inflicts a brief <$ba.sluggish>Slow</>",
 				"prefabKey": "-1",
 				"rangeId": null
 			}
@@ -75,7 +76,7 @@
 					"level": 1,
 					"data": {
 						"maxHp": 654,
-						"atk": 277,
+						"atk": 311,
 						"def": 49,
 						"magicResistance": 10,
 						"cost": 30,
@@ -100,7 +101,7 @@
 					"level": 50,
 					"data": {
 						"maxHp": 935,
-						"atk": 385,
+						"atk": 433,
 						"def": 84,
 						"magicResistance": 10,
 						"cost": 30,
@@ -133,7 +134,7 @@
 					"level": 1,
 					"data": {
 						"maxHp": 935,
-						"atk": 385,
+						"atk": 433,
 						"def": 84,
 						"magicResistance": 15,
 						"cost": 33,
@@ -158,7 +159,7 @@
 					"level": 80,
 					"data": {
 						"maxHp": 1215,
-						"atk": 507,
+						"atk": 571,
 						"def": 116,
 						"magicResistance": 15,
 						"cost": 33,
@@ -207,7 +208,7 @@
 					"level": 1,
 					"data": {
 						"maxHp": 1215,
-						"atk": 507,
+						"atk": 571,
 						"def": 116,
 						"magicResistance": 20,
 						"cost": 33,
@@ -232,7 +233,7 @@
 					"level": 90,
 					"data": {
 						"maxHp": 1558,
-						"atk": 611,
+						"atk": 689,
 						"def": 130,
 						"magicResistance": 20,
 						"cost": 33,

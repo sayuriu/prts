@@ -21,6 +21,7 @@
 	"maxPotentialLevel": 5,
 	"rarity": 4,
 	"profession": "MEDIC",
+	"subProfessionId": "healer",
 	"trait": {
 		"candidates": [
 			{
@@ -32,7 +33,7 @@
 				"blackboard": [
 					{
 						"key": "heal_scale",
-						"value": 0.7
+						"value": 0.8
 					}
 				],
 				"overrideDescripton": "Has a large healing range, but the healing amount on farther targets is reduced to <@ba.kw>{heal_scale:0%}</>",
@@ -51,9 +52,9 @@
 					"level": 1,
 					"data": {
 						"maxHp": 798,
-						"atk": 154,
+						"atk": 164,
 						"def": 55,
-						"magicResistance": 5,
+						"magicResistance": 10,
 						"cost": 20,
 						"blockCnt": 1,
 						"moveSpeed": 1,
@@ -76,9 +77,9 @@
 					"level": 50,
 					"data": {
 						"maxHp": 1050,
-						"atk": 254,
+						"atk": 269,
 						"def": 80,
-						"magicResistance": 5,
+						"magicResistance": 10,
 						"cost": 20,
 						"blockCnt": 1,
 						"moveSpeed": 1,
@@ -109,9 +110,9 @@
 					"level": 1,
 					"data": {
 						"maxHp": 1050,
-						"atk": 254,
+						"atk": 269,
 						"def": 80,
-						"magicResistance": 5,
+						"magicResistance": 10,
 						"cost": 22,
 						"blockCnt": 1,
 						"moveSpeed": 1,
@@ -134,9 +135,9 @@
 					"level": 70,
 					"data": {
 						"maxHp": 1251,
-						"atk": 353,
+						"atk": 374,
 						"def": 100,
-						"magicResistance": 5,
+						"magicResistance": 10,
 						"cost": 22,
 						"blockCnt": 1,
 						"moveSpeed": 1,
@@ -183,9 +184,9 @@
 					"level": 1,
 					"data": {
 						"maxHp": 1251,
-						"atk": 353,
+						"atk": 374,
 						"def": 100,
-						"magicResistance": 5,
+						"magicResistance": 10,
 						"cost": 22,
 						"blockCnt": 1,
 						"moveSpeed": 1,
@@ -208,9 +209,9 @@
 					"level": 80,
 					"data": {
 						"maxHp": 1455,
-						"atk": 442,
+						"atk": 468,
 						"def": 126,
-						"magicResistance": 5,
+						"magicResistance": 10,
 						"cost": 22,
 						"blockCnt": 1,
 						"moveSpeed": 1,

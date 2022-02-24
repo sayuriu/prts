@@ -1,6 +1,6 @@
 {
 	"name": "空",
-	"description": "不進行攻擊，持續恢復攻擊範圍內所有友軍的<@ba.kw>生命</>（每秒恢復相當於空攻擊力10%的生命）",
+	"description": "不攻擊，持續恢復範圍內所有友軍<@ba.kw>生命</>（每秒恢復相當於自身攻擊力10%的生命），自身不受<$ba.inspire>鼓舞</>影響",
 	"canUseGeneralPotentialItem": true,
 	"potentialItemId": "p_char_101_sora",
 	"nationId": "lungmen",
@@ -22,7 +22,26 @@
 	"maxPotentialLevel": 5,
 	"rarity": 4,
 	"profession": "SUPPORT",
-	"trait": null,
+	"trait": {
+		"candidates": [
+			{
+				"unlockCondition": {
+					"phase": 0,
+					"level": 1
+				},
+				"requiredPotentialRank": 0,
+				"blackboard": [
+					{
+						"key": "attack@atk_to_hp_recovery_ratio",
+						"value": 0.1
+					}
+				],
+				"overrideDescripton": "不攻擊，持續恢復範圍內所有友軍<@ba.kw>生命</>（每秒相當於自身攻擊力<@ba.kw>{attack@atk_to_hp_recovery_ratio:0%}</>的生命），自身不受<$ba.inspire>鼓舞</>影響",
+				"prefabKey": "-1",
+				"rangeId": null
+			}
+		]
+	},
 	"phases": [
 		{
 			"characterPrefabKey": "char_101_sora",

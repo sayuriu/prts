@@ -1,5 +1,5 @@
 import { ACESHIP_DIR_ROOT, DESTINATION_ROOT } from './Env';
-import Logger from './Logger';
+import { Logger } from './utils/Logger';
 import { readdirSync, lstatSync, copyFileSync } from 'fs';
 import { CountTracker } from './JSONParser';
 import { createIfNotExist, joinPaths } from './utils/PathUtils';

@@ -1,6 +1,6 @@
 {
 	"name": "Weedy",
-	"description": "Can attack <@ba.kw>all blocked enemies</>\nCan be deployed on Ranged Grids",
+	"description": "Can attack <@ba.kw>all blocked enemies</>\nCan be deployed on Ranged Tiles",
 	"canUseGeneralPotentialItem": true,
 	"potentialItemId": "p_char_400_weedy",
 	"nationId": "rhodes",
@@ -23,6 +23,7 @@
 	"maxPotentialLevel": 5,
 	"rarity": 5,
 	"profession": "SPECIAL",
+	"subProfessionId": "pusher",
 	"trait": null,
 	"phases": [
 		{

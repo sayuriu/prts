@@ -1,6 +1,6 @@
 {
 	"name": "アイリス",
-	"description": "敵に<@ba.kw>術ダメージを与える\n攻撃の対象がいない場合はエネルギーをチャージして（最大3回）次の攻撃時に一斉発射する",
+	"description": "敵に<@ba.kw>術ダメージ</>を与える\n攻撃の対象がいない場合はエネルギーを<@ba.kw>チャージ</>して（最大3回）次の攻撃時に一斉発射する",
 	"canUseGeneralPotentialItem": true,
 	"potentialItemId": "p_char_338_iris",
 	"nationId": "victoria",
@@ -21,6 +21,7 @@
 	"maxPotentialLevel": 5,
 	"rarity": 4,
 	"profession": "CASTER",
+	"subProfessionId": "mystic",
 	"trait": {
 		"candidates": [
 			{
