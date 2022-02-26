@@ -7,7 +7,7 @@ import { BrowserWindow } from '@utils/interfaces/common';
 import { repository } from '@utils/package';
 import GitCommit from '@utils/interfaces/GitCommit';
 import { AnimationFunctions, AppearDisappear } from '@utils/anims';
-import { Nullable, waitAsync } from '@utils/utils';
+import { Nullable, waitAsync, waitSync } from '@utils/utils';
 
 import { ThemeMangerService } from '@services/theme-manger.service';
 import { HoverReactService } from '@services/hover-react.service';
@@ -66,7 +66,10 @@ export class MainComponent implements OnInit, OnDestroy {
 		this.loadChangelogs();
 		// new Stagger().arrow('#arrow', false);
 	}
+    destroyed = false;
 	ngOnDestroy(): void {
+        this.destroyed = true;
+        waitSync(500);
 		this.changelogs = [];
 	}
 
@@ -102,6 +105,7 @@ export class MainComponent implements OnInit, OnDestroy {
 				onprogress: (_, e) => {
 					if (e?.lengthComputable)
 					{
+                        console.log(e.loaded / e.total);
 						this.changelogLoadingProg = e.loaded / e.total;
 					}
 				}
@@ -113,7 +117,7 @@ export class MainComponent implements OnInit, OnDestroy {
 				// ! Warning: Reduntdant assignment
 				this.changelogs = this._cachedChangelogs;
 				this.changelogLoadingProg = 1;
-				clearInterval(inv);
+				// clearInterval(inv);
 			}
 		}).catch(() => {
 			this.changelogLoadingProg = 1;

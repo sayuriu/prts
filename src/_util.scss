@@ -45,9 +45,14 @@
 .overflow-auto-x { overflow-x: auto }
 .overflow-auto { overflow: auto }
 
+.inline { display: inline }
+.inline-flex { display: inline-flex }
+
 .flex { display: flex }
 .flex-wrap { flex-wrap: wrap }
 .flex-nowrap { flex-wrap: nowrap }
+
+.flex-grow-1 { flex-grow: 1 }
 
 .flex-col { flex-direction: column }
 .flex-col-rev { flex-direction: column-reverse }

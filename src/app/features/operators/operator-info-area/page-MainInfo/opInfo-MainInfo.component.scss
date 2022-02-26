@@ -92,6 +92,7 @@
 		}
 	}
 	#class-profession {
+        height: 311px;
 		#left-section {
 			margin-left: 30px;
 			#op-class {
@@ -189,7 +190,7 @@
 					aspect-ratio: 1;
 					margin-right: 6px;
 					height: 35px;
-					background-color: hsl(0, 0%, 77%);
+					background-color: hsl(0, 0%, 0%);
 					border-radius: 3px;
 				}
 				p { margin: 13px 10px 13px 0 }
@@ -266,7 +267,8 @@
 				&.current {
 					background-color: hsl(0, 0%, 16%);
 					color: white;
-					font-weight: normal;
+					// font-weight: normal;
+                    stroke-dasharray: 4;
 					filter: drop-shadow(0px 4px 2px hsla(0, 0%, 0%, 0.25));
 					img {
 						width: 32px;

@@ -89,13 +89,14 @@
 			<div id="line2" class="line flex flex-row anim-spreadLR">
 				<spacer style="width: 22px;"></spacer>
 				<text-field class="fw"
-					[boundRect]="{ centerChildren: [true], width: 'auto', height: '42px' }"
+					[boundRect]="{ centerChildren: [true], width: 'auto', minHeight: '42px' }"
 					[labelField]="{
 						centerChildren: [true],
-						height: '100%',
+						minHeight: '42px',
 						width: '73.5px',
 						borderMatrixOverride: ['', '0', '', ''],
-						border: '1px solid black'
+						border: '1px solid black',
+                        extraCSS: { alignSelf: 'stretch' }
 					}"
 					[labelFieldText]="{
 						textValue: 'Role',
@@ -115,14 +116,14 @@
 						textSize: '20px',
 						textAlign: 'center',
 						textColor: 'white',
-						margin: '0 0 0 13px'
+						margin: '9px 9px 9px 13px'
 					}"
 				></text-field>
 			</div>
 			<div id="line3" class="line flex flex-row anim-spreadLR">
 				<spacer style="width: 22px;"></spacer>
 				<text-field class="fw"
-					[boundRect]="{ centerChildren: [true], width: '100%', height: 'auto', minHeight: '42px' }"
+					[boundRect]="{ centerChildren: [true], width: '100%', minHeight: '42px' }"
 					[labelField]="{
 						centerChildren: [true],
 						minHeight: '42px',
@@ -159,7 +160,8 @@
 			<spacer class="fh" style="width: 10px;"></spacer>
 			<div id="faction-img" class="fh rel flex a-flex-center">
 				<p id="label" class="abs t0">{{currentOpFaction.powerName}}</p>
-				<img id="op-faction" class="fw" [src]="factionImgURL">
+                <img id="op-faction" class="fw" [src]="factionImgURL">
+				<p id="label" class="abs b0" *ngIf="currentOpNation.powerName !== currentOpFaction.powerName">{{currentOpNation.powerName}}◆</p>
 			</div>
 		</div>
 	</div>
@@ -235,7 +237,7 @@
 				}"
 			></text-field>
 		</div>
-		<div id="right-section" class="flex z2">
+		<div id="right-section" class="flex flex-grow-1 j-flex-center z2">
 			<div id="op-potential" class="a-self-center anim-spreadUD">
 				<div id="no-potential" *ngIf="!currentOperator.potentialRanks.length">
 					<p class="no-whitespace-warp" style="height: 80%; width:max-content">&#x2009;NO_POTENTIAL&#x2009;</p>
@@ -248,6 +250,7 @@
 				</div>
 			</div>
 		</div>
+        <spacer style="width: 22px;"></spacer>
 	</div>
 	<div id="talents" class="odd h-auto rel flex flex-col">
 		<div id="section-title" class="section-title abs t0 z0 anim-AbsSnapToTop">TALENTS</div>

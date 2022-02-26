@@ -38,8 +38,9 @@ export class OperatorsComponent implements OnInit, OnChanges
 	uiAlignmentState!: 'default' | 'fullInfo' | 'fullImg';
 
 	ngOnInit(): void {
-		// @ts-ignore
+		// //@ts-ignore
 		// globalThis.__prts_opInterface__ = this;
+
 		if (this.manager.isLoaded)
 			this.init();
 		else
@@ -64,6 +65,13 @@ export class OperatorsComponent implements OnInit, OnChanges
 		// if (changes.currentOpId)
 		// 	this.init(changes.currentOpId.currentValue, changes.locale.currentValue);
 	}
+
+    UIExpanded = false;
+    UISlow = false;
+    toggleWidth() {
+        this.UISlow = true;
+        this.UIExpanded = !this.UIExpanded;
+    }
 
 	// loadChar(currentOpId: string, locale: Locales)
 	// {
@@ -122,7 +130,7 @@ export class OperatorsComponent implements OnInit, OnChanges
 					this.opHeaderRarityImg = this.sanitizer.bypassSecurityTrustUrl(URL.createObjectURL(v)) as string;
 					waitAsync(200).then(() => this.opHeaderRarityImgLoaded = true);
 				}
-			})
+			});
 		});
 	}
 
@@ -142,12 +150,13 @@ export class OperatorsComponent implements OnInit, OnChanges
 			this.setCurrentOpId(opId);
 			this.opInfoUIVisible = true;
 		}
+        //! what
 		else
 		{
 			this.opInfoUIVisible = false;
 			await waitAsync(1000);
 			this.setCurrentOpId(opId);
-			this.pickerUIVisible = true;
+			this.pickerUIVisible = true
 		}
 	}
 

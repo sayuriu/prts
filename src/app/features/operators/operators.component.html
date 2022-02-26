@@ -1,22 +1,49 @@
 <div id="route-container" class="abs">
 	<div id="main-container" class="fh fw flex">
-		<div id="img-area" class="fh abs b0 l0 z0">
+		<div id="img-area" class="fh abs b0 l0 z0" [ngClass]="UIExpanded ? 'out-of-focus' : ''">
 			<app-operator-img [opName]="currentOpId"></app-operator-img>
 		</div>
 		<div id="img-area-blocker" class="fh" [ngClass]="currentOpId ? 'default' : 'collapsed'"></div>
-		<div id="info-area" class="fh z1" [attr.picked]="currentOpId ? currentOpId : ''" [ngClass]="currentOpId ? 'default' : 'expanded'">
-			<header class="fw flex a-flex-center" [ngClass]="(currentOpId ? 'full' : 'collapsed') + ' hasDelay'">
+		<div
+            id="info-area"
+            class="fh z1 rel"
+            [attr.picked]="currentOpId ? currentOpId : ''"
+            [ngClass]="currentOpId ? 'default' : 'expanded'"
+            [style.width]="UIExpanded ? '120%' : ''"
+            [style.transition-duration] = "UISlow ? '1s' : ''"
+        >
+            <!--? temp-->
+			<button
+                id="btn-expand"
+                class="abs rfull t0 no-border inline-flex anim-spreadRL"
+                [ngClass]="UIExpanded ? 'expanded' : ''"
+                (click)="toggleWidth()"
+            >
+                <div id="indicator" class="rel"></div>
+                <div id="text" class="rel fh">
+                    <div class="abs fw fh t0 l0">
+                        <div class="fw fh rel">
+                            <div id="label" class="abs t0 l0 inline-flex">
+                                <p>EXPAND</p>
+                                <p>COLLAPSE</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </button>
+            <app-operator-header class="fw flex a-flex-center" [ngClass]="(currentOpId ? 'full' : 'collapsed') + ' hasDelay'">
 				<!-- <button id="info-expand"></button> -->
 				<picker-title *ngIf="!currentOpId" @AppearDisappear><i>Pick an Operator!</i></picker-title>
 				<op-info-header class="fh fw flex j-flex-space-between" *ngIf="currentOpId && opHeaderData" @AppearDisappear>
-					<op-name-main class="flex a-flex-center">
+					<op-name-main class="flex a-flex-center flex-grow-1">
 						<spacer class="fh" style="width: 30px;"></spacer>
-						<div *ngIf="currentOpId && opHeaderCNName" @AppearDisappear>
+						<div class="flex-grow-1 rel" *ngIf="currentOpId && opHeaderCNName" @AppearDisappear>
 							<op-name-alt class="font-jp font-cn">{{opHeaderCNName}}</op-name-alt><br>
-							<op-name>{{opHeaderData.name}}</op-name>
-							<op-foreign-name>&thinsp;{{opHeaderForeignName}}</op-foreign-name>
+							<p id="op-name" class="no-margin">{{opHeaderData.name}}</p>
+							<op-foreign-name *ngIf="opHeaderForeignName">&thinsp;{{opHeaderForeignName}}</op-foreign-name>
 						</div>
 					</op-name-main>
+                    <spacer class="fh" style="width: 10px;"></spacer>
 					<op-img-code class="flex j-flex-space-between">
 						<op-code class="fh flex a-flex-center" [style.font-size]="opHeaderCodeSize">
 							<div>
@@ -39,7 +66,7 @@
 						<spacer class="fh" style="width: 10px;"></spacer>
 					</op-img-code>
 				</op-info-header>
-			</header>
+			</app-operator-header>
 			<app-operator-info-area
 				class="fw"
 				(onOperatorChange)='setOperatorHeaderData($event)'

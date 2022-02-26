@@ -44,6 +44,7 @@ export class OpMainInfoComponent implements OnInit {
 	@Input() currentOperator!: Operator;
 	@Input() currentOperatorCN!: Operator;
 	currentOpFaction = defaultCharFaction;
+    currentOpNation = defaultCharFaction;
 	readonly opGender = Object.fromEntries([['男', Gender_Male], ['女', Gender_Female], ['断罪', Gender_Conviction]]);
 
 	factionImgURL!: string;
@@ -68,6 +69,7 @@ export class OpMainInfoComponent implements OnInit {
 		if (this.currentOperator.ex) this.currentOperatorCN = this.currentOperator;
 
 		this.currentOpFaction = await this.manager.getFactionData(this.getFactionID());
+        this.currentOpNation = await this.manager.getFactionData(this.currentOperator.nationId);
 		this.factionImgURL = this.sanitizer.bypassSecurityTrustUrl(URL.createObjectURL((await this.manager.loadOpImages('char_nodata', 'avatars', undefined, true))!)) as string;
 		this.rarity = new Array(this.currentOperator.rarity + 1).fill(0);
 		this.currentOpHR = await this.manager.humanResource(this.currentOperatorCN.name) ?? {};
@@ -96,6 +98,11 @@ export class OpMainInfoComponent implements OnInit {
 			.toUpperCase() || 'NO_CLASS';
 		this.currentOpSubclass = this.currentOpSubclass.toUpperCase().trim().replace(/ +/g, '_') || 'NO_SUBCLASS';
 	}
+
+    log(e: any)
+    {
+        console.log(e);
+    }
 
 	trustDataString = 'NONE';
 	trustDiffData: Optional<CharTrustAttributes> & { maxFavorLevel: number } = { maxFavorLevel: 0};
