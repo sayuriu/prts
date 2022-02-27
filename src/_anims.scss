@@ -52,7 +52,7 @@ $slide-main: 0.25s $forceful;
 }
 
 
-.anim-spreadRL
+.anim-spreadRL:not([no-anim])
 {
 	--clip-start-right: polygon(100% 0, 100% 100%, 100% 100%, 100% 0);
 	@keyframes spreadRL {
@@ -63,7 +63,7 @@ $slide-main: 0.25s $forceful;
 	animation: spreadRL 1s $slow-down forwards;
 }
 
-.anim-spreadLR
+.anim-spreadLR:not([no-anim])
 {
 	--clip-start-left: polygon(0 0, 0 100%, 0 100%, 0 0);
 	@keyframes spreadLR {
@@ -74,7 +74,7 @@ $slide-main: 0.25s $forceful;
 	animation: spreadLR 1s $slow-down forwards;
 }
 
-.anim-spreadUD
+.anim-spreadUD:not([no-anim])
 {
 	--clip-start-up: polygon(0 0, 100% 0, 100% 0, 0 0);
 	@keyframes spreadUD {
@@ -85,7 +85,7 @@ $slide-main: 0.25s $forceful;
 	animation: spreadUD 1s $slow-down forwards;
 }
 
-.anim-AbsSnapToTop {
+.anim-AbsSnapToTop:not([no-anim]) {
 	top: 35%;
 	@keyframes AbsSnapToTop {
 		from {
@@ -99,7 +99,7 @@ $slide-main: 0.25s $forceful;
 	animation: AbsSnapToTop 1s $forceful forwards;
 }
 
-.anim-spawn {
+.anim-spawn:not([no-anim]) {
 	opacity: 0;
 	animation: spawn 1s $forceful forwards;
 }

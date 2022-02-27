@@ -1,5 +1,6 @@
 import { Component, OnInit, ElementRef } from '@angular/core';
 import { Router, Event } from '@angular/router';
+import { AnimManagerService } from '@services/anim-manager.service';
 import { NotifService } from '@services/notif.service';
 import { ThemeMangerService } from '@services/theme-manger.service';
 import { getURLWithoutParams } from '@utils/PathUtils';
@@ -19,6 +20,7 @@ export class TopLevelUIComponent implements OnInit {
 		private eleRef: ElementRef,
 		private notif: NotifService,
 		private theme: ThemeMangerService,
+        public anime: AnimManagerService
 	) {}
 
 	isFullScreen = false;
@@ -30,7 +32,7 @@ export class TopLevelUIComponent implements OnInit {
 		window.addEventListener('resize', () => this.isFullScreen = window.innerWidth === window.screen.width && window.innerHeight === window.screen.height);
 	}
 	private StartClock() {
-		this.ActiveClockInv = setInterval(() => this.currentTime = generateTimeString());
+		this.ActiveClockInv = setInterval(() => this.currentTime = generateTimeString()) as unknown as number;
 	}
 	private PauseClock()
 	{
@@ -54,6 +56,10 @@ export class TopLevelUIComponent implements OnInit {
 			this.notif.send('System', 'Failed to toggle full screen.', 'error');
 		});
 	}
+
+    ToggleAnimation() {
+        this.anime.toggle();
+    }
 
 	UIAlignmentState: UIAlignmentState = 'default';
 	currentRouteURL!: string;

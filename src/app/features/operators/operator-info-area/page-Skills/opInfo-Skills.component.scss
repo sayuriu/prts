@@ -1,0 +1,57 @@
+@import '../../../../../anims';
+
+#container {
+    #combat-skills {
+        background-color: hsl(0, 0%, 46%);
+    }
+    .skill-cnt-title {
+        line-height: 70px;
+        font-size: 65px;
+        color:hsla(0, 0%, 100%, .3);
+        font-weight: lighter;
+        transition-timing-function: $forceful;
+        transition-property: color, font-size, line-height, margin;
+        transition-duration: 0.5s, 0.4s, 0.5s, 0.3s;
+    }
+    #skill-list {
+        padding: 40px 22px 35px 22px;
+        .skill {
+            min-height: 80px;
+            max-height: 80px;
+            margin: 0 6px 0 13px;
+            background-color: hsla(0, 0%, 13%, .7);
+            transition:
+                all 0.5s $forceful,
+                max-height 0.3s $forceful,
+                background-color 0.5s $forceful;
+            #op-skill-img img {
+                float: left;
+                margin: -12px 0 0 15px;
+                opacity: .5;
+                aspect-ratio: 1;
+                height: 105px;
+                transition: all 0.5s $forceful;
+            }
+            &.current {
+                background-color: hsl(0, 0%, 78%);
+                max-height: 1000px;
+                margin: 0;
+                // transition-delay: 0, 0.5s, 0;
+                .skill-cnt-title {
+                    color:hsla(0, 0%, 0%, .4);
+                    font-size: 75px;
+                    margin-right: 10px;
+                    line-height: 80px;
+                }
+                #op-skill-img img {
+                    opacity: 1;
+                    margin: 15px;
+                    height: 90px;
+                }
+            }
+            &:hover:not(.current) {
+                background-color: hsla(0, 0%, 27%, 0.7);
+            }
+        }
+    }
+}

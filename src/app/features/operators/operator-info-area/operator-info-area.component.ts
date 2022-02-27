@@ -82,7 +82,7 @@ import { Title, Meta } from '@angular/platform-browser';
 				]),
 			]),
 		]),
-	]
+	],
 })
 export class OperatorInfoAreaComponent implements OnInit, OnChanges
 {
@@ -138,11 +138,16 @@ export class OperatorInfoAreaComponent implements OnInit, OnChanges
 		});
 	}
 
+    animsPlayed: (null | '')[] = [null, null, null];
 	currentMenuIndex: number = -1;
 	setMenuIndex(index: Range<0, 3> | -1)
 	{
 		this.currentMenuIndex = index;
 	}
+    setAnimsPlayed(index: number)
+    {
+        this.animsPlayed[index] = '';
+    }
 }
 
 export type OperatorHeaderData = {

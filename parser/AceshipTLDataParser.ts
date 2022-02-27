@@ -51,6 +51,14 @@ export function ParseTLData()
 	parseTLData('tl-potential.json', 'skill_cn', 'potentials/{key}');
 	parseTLData('tl-unreadablename.json', 'name', 'foreign_names/{key}');
 	parseTLData('tl-subclass.json', (objSrc: any, targetPath: string) => {
+        let favClassKeys = {};
+        // TODO: Fav class key parser
+        try {
+            favClassKeys = require(resolve(DESTINATION_ROOT, 'json/tl-data/ClassFavKey.json'));
+        } catch (e) {
+            favClassKeys = {};
+        }
+
 		const { list: classList, subclass } = objSrc;
 		const out: Record<string, any> = {};
 		for (const key in classList)

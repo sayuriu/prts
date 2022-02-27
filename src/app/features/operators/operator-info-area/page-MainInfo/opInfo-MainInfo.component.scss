@@ -2,20 +2,6 @@
 @import '../../../../../hoverStyles';
 
 #container {
-	#section-title {
-		font-weight: 200;
-		// pointer-events: none;
-		animation-delay: 0.5s;
-	}
-	.odd {
-		#section-title { color:hsla(0, 0%, 0%, .5) }
-		background: #e3e3e3;
-	}
-	.even {
-		#section-title { color:hsla(0, 0%, 100%, .5) }
-		background: #2e2e2e
-	}
-	#section-title { left: 22px }
 	#basic-info {
 		#info-area {
 			width: calc(100% - 196px);
@@ -28,39 +14,39 @@
 			#line1 {
 				rarity-star {
 					margin-right: auto;
-					#star-container {
-						&:not(:first-of-type):not(spacer) {
-							margin-left: -9px;
-							transform: translateX(calc(-100% * var(--order) - 50%));
-							@include slide(
-								star-slide-rotate,
-								translateX(calc(-100% * var(--order) - 50%)) rotate(-55deg),
-								translateX(0) rotate(0deg)
-							);
-							@include glow(
-								star-glow,
-								none,
-								0 6px 3px -1px hsl(0, 0%, 100%),
-							);
-
-							animation:
-								star-slide-rotate 1.45s $slow-down 0.3s forwards,
-								star-glow 0.7s $slow-down calc(0.6s + 0.13s * var(--order)) forwards;
-						}
-					}
-					#op-rarity-banner {
-						transform: translateX(-100%);
-						@include slide(banner-slide, translateX(-100%), translateX(0));
-						animation: banner-slide 1s $slow-down 0.35s forwards;
+					#star-container:not(:first-of-type):not(spacer) {
+						margin-left: -9px;
 					}
 				}
 				#op-gender {
 					@include hover-std(lower, auto, 22px, false);
 				}
+                &:not([no-anim]) * #star-container:not(:first-of-type):not(spacer) {
+                    transform: translateX(calc(-100% * var(--order) - 50%));
+                    @include slide(
+                        star-slide-rotate,
+                        translateX(calc(-100% * var(--order) - 50%)) rotate(-55deg),
+                        translateX(0) rotate(0deg)
+                    );
+                    @include glow(
+                        star-glow,
+                        none,
+                        0 6px 3px -1px hsl(0, 0%, 100%),
+                    );
+
+                    animation:
+                        star-slide-rotate 1.45s $slow-down 0.3s forwards,
+                        star-glow 0.7s $slow-down calc(0.6s + 0.13s * var(--order)) forwards;
+                }
+                &:not([no-anim]) * #op-rarity-banner {
+                    transform: translateX(-100%);
+                    @include slide(banner-slide, translateX(-100%), translateX(0));
+                    animation: banner-slide 1s $slow-down 0.35s forwards;
+                }
 			}
-			#line1 text-field,
-			#line2,
-			#line3 {
+			#line1:not([no-anim]) text-field,
+			#line2:not([no-anim]),
+			#line3:not([no-anim]) {
 				animation-delay: 0.7s;
 				animation-timing-function: $forceful;
 				animation-duration: 1.2s;
@@ -121,8 +107,6 @@
 				}
 				#main {
 					img {
-						transform: translate(25%, 50%) scale(1.5);
-						opacity: 0;
 						@keyframes mainClass {
 							30% {
 								transform: translate(25%, 50%) scale(1);
@@ -135,19 +119,22 @@
 								transform: translate(0, 0);
 							}
 						}
-						animation:
-							spawn 0.5s $forceful 1s forwards,
-							mainClass 1.8s $forceful 1.4s forwards;
 					}
 					p {
 						font-weight: 400;
 						animation-delay: 2.8s;
 					}
+                    &:not([no-anim]) img
+                    {
+                        transform: translate(25%, 50%) scale(1.5);
+                        opacity: 0;
+                        animation:
+                            spawn 0.5s $forceful 1s forwards,
+                            mainClass 1.8s $forceful 1.4s forwards;
+                    }
 				}
 				#subclass {
 					#subclass-img-container {
-						transform: translate(-75%, -50%);
-						opacity: 0;
 						@keyframes subClass {
 							30% {
 								transform: translate(-75%, -50%);
@@ -160,13 +147,17 @@
 								transform: translate(0, 0);
 							}
 						}
-						animation:
-							spawn 0.2s $forceful 1.3s forwards,
-							subClass 1.8s $forceful 1.4s forwards;
 					}
 					p {
 						animation-delay: 2.8s;
 					}
+                    &:not([no-anim]) #subclass-img-container {
+                        transform: translate(-75%, -50%);
+                        opacity: 0;
+                        animation:
+                            spawn 0.2s $forceful 1.3s forwards,
+                            subClass 1.8s $forceful 1.4s forwards;
+                    }
 				}
 			}
 			text-field {
@@ -205,37 +196,6 @@
 		#option-controls {
 			gap: 32px;
 			margin: 0 25px 0 22px;
-			#control-hide-overlay {
-				@keyframes bg-open {
-					from {
-						background-position: 0 50%;
-					}
-					to {
-						background-position: 100% 50%;
-					}
-				}
-				@keyframes collapseWidthLR {
-					from {
-						width: 100%;
-					}
-					to {
-						width: 0;
-					}
-				}
-				width: 100%;
-				background:
-					linear-gradient(
-						90deg,
-						hsl(0, 0%, 20%) 50%,
-						hsl(0, 0%, 30%) 50%
-					);
-				background-size: 200%;
-				animation:
-					spreadRL 1s $slow-down 3s forwards,
-					bg-open 0.7s $forceful 3.7s forwards,
-					collapseWidthLR 1s $forceful 4.2s forwards;
-				height: 34px;
-			}
 			div {
 				gap: 13px;
 			}
@@ -278,6 +238,9 @@
 					// 	transform: scaleX(1);
 					// }
 				}
+                &:hover:not(.current) {
+                    background-color: hsl(0, 0%, 50%);
+                }
 			}
 		}
 		#op-talent-info-container {
@@ -328,5 +291,42 @@
 				}
 			}
 		}
+        #control-hide-overlay {
+            @keyframes bg-open {
+                from {
+                    background-position: 0 50%;
+                }
+                to {
+                    background-position: 100% 50%;
+                }
+            }
+            @keyframes collapseWidthLR {
+                from {
+                    width: 100%;
+                }
+                to {
+                    width: 0;
+                }
+            }
+            width: 0;
+            height: 34px;
+        }
+        &:not([no-anim])
+        {
+            #control-hide-overlay {
+                width: 100%;
+				background:
+					linear-gradient(
+						90deg,
+						hsl(0, 0%, 20%) 50%,
+						hsl(0, 0%, 30%) 50%
+					);
+				background-size: 200%;
+				animation:
+					spreadRL 1s $slow-down 3s forwards,
+					bg-open 0.7s $forceful 3.7s forwards,
+					collapseWidthLR 1s $forceful 4.2s forwards;
+            }
+        }
 	}
 }

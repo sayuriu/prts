@@ -35,9 +35,23 @@ scroll-container {
 	#pages {
 		height: calc(100vh - 140px - 75px);
 		transition: opacity 0.5s $forceful 0.4s;
-		page {
+		::ng-deep page {
 			width: 100%;
 			height: auto;
+            #section-title {
+                font-weight: 200;
+                // pointer-events: none;
+                animation-delay: 0.5s;
+            }
+            .odd {
+                #section-title { color:hsla(0, 0%, 0%, .5) }
+                background: #e3e3e3;
+            }
+            .even {
+                #section-title { color:hsla(0, 0%, 100%, .5) }
+                background: #2e2e2e
+            }
+            #section-title { left: 22px }
 		}
 	}
 }

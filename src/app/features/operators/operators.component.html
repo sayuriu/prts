@@ -1,6 +1,6 @@
 <div id="route-container" class="abs">
 	<div id="main-container" class="fh fw flex">
-		<div id="img-area" class="fh abs b0 l0 z0" [ngClass]="UIExpanded ? 'out-of-focus' : ''">
+		<div id="img-area" class="fh abs b0 l0 z0" [ngClass]="{'out-of-focus': UIExpanded }">
 			<app-operator-img [opName]="currentOpId"></app-operator-img>
 		</div>
 		<div id="img-area-blocker" class="fh" [ngClass]="currentOpId ? 'default' : 'collapsed'"></div>
@@ -16,7 +16,8 @@
 			<button
                 id="btn-expand"
                 class="abs rfull t0 no-border inline-flex anim-spreadRL"
-                [ngClass]="UIExpanded ? 'expanded' : ''"
+                [ngClass]="{'expanded': UIExpanded }"
+                *ngIf="currentOpId"
                 (click)="toggleWidth()"
             >
                 <div id="indicator" class="rel"></div>
@@ -39,7 +40,7 @@
 						<spacer class="fh" style="width: 30px;"></spacer>
 						<div class="flex-grow-1 rel" *ngIf="currentOpId && opHeaderCNName" @AppearDisappear>
 							<op-name-alt class="font-jp font-cn">{{opHeaderCNName}}</op-name-alt><br>
-							<p id="op-name" class="no-margin">{{opHeaderData.name}}</p>
+							<p id="op-name" class="no-margin inline">{{opHeaderData.name}}</p>
 							<op-foreign-name *ngIf="opHeaderForeignName">&thinsp;{{opHeaderForeignName}}</op-foreign-name>
 						</div>
 					</op-name-main>

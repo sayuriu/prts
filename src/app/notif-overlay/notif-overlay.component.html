@@ -64,7 +64,7 @@
 			<div
 				class="fh"
 				id="notif-overlay-progress-bar-fill"
-				[ngClass]="currentlyBeingSkipped ? 'being-reset' : ''"
+				[ngClass]="{'being-reset': currentlyBeingSkipped }"
 				[ngStyle]="{'transition-duration': currentMessage.timeout / 1000 + 'ms'}"
 				[@slideUpDown]="currentMessage.level"
 				[@AppearDisappear]="currentMessage.level"

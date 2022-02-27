@@ -113,7 +113,7 @@
 							</a>&#8201;&nbsp;
 							<commit-message
 								[attr.data-title]="gitData!.cMessage.length > 44 ? gitData!.cMessage : ''"
-								[ngClass]="gitData!.cMessage.length > 44 ? 'overflow' : ''"
+								[ngClass]="{'overflow': gitData!.cMessage.length > 44 }"
 							>
 								{{gitData!.cMessage.length > 44 ? (gitData!.cMessage.substring(0, 41).trim() + '...') : gitData!.cMessage}}
 							</commit-message>

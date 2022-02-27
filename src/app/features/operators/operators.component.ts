@@ -59,6 +59,13 @@ export class OperatorsComponent implements OnInit, OnChanges
 					this.notif.send('Operators', 'Failed to load operator indexes.', 'error', { presist: true });
 			});
 		}
+        setTimeout(() => {
+            if (window.innerWidth < 1500)
+            {
+                this.UISlow = true;
+                this.UIExpanded = true;
+            }
+        }, 3000)
 	}
 
 	ngOnChanges(changes: SimpleChanges): void {
@@ -87,7 +94,7 @@ export class OperatorsComponent implements OnInit, OnChanges
 			// this.notif.send('Operators', `Operator ${query} is not available in [${this.locale}], using [${_loc}] instead.`, 'warning', { dynamic: true }, 10000);
 			this.locale = _loc;
 		}
-		if (!op)
+		if (!op && this.router.url.includes('/operators'))
 		{
 			this.router.navigate(['/operators'], { replaceUrl: true });
 			this.headerString = 'Choose a character!';
@@ -119,10 +126,10 @@ export class OperatorsComponent implements OnInit, OnChanges
 		waitAsync(500).then(() => {
 			this.opHeaderData = data;
 			this.opHeaderCNName =
-				// this.locale !== 'zh_CN' ?
-				// Object.keys(this.manager.charList.zh_CN!).filter(k => this.manager.charList.zh_CN![k as keyof zh_CN_CharIndex] === this.currentOpId)[0] ?? '' :
-				this.locale !== 'ja_JP' ?
-				(Object.keys(this.manager.charList.ja_JP!).filter(k => this.manager.charList.ja_JP![k as keyof ja_JP_CharIndex] === this.currentOpId)[0] ?? '') :
+				this.locale !== 'zh_CN' ?
+				Object.keys(this.manager.charList.zh_CN!).filter(k => this.manager.charList.zh_CN![k as keyof zh_CN_CharIndex] === this.currentOpId)[0] ?? '' :
+				// this.locale !== 'ja_JP' ?
+				// (Object.keys(this.manager.charList.ja_JP!).filter(k => this.manager.charList.ja_JP![k as keyof ja_JP_CharIndex] === this.currentOpId)[0] ?? '') :
 				data.appellation;
 			this.manager.cachedImages.load(`gamedata/img/characters/ui/chara/glow-${data.rarity + 1}.png`, { onExpire: emptyFunc }).then(v => {
 				if (v)

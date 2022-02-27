@@ -1,34 +1,50 @@
 <div id="container" class="h-auto fw">
-	<div class="skill rel" [id]="'op-skill-' + (i + 1)" *ngFor="let skill of currentOperator.skills; let i =index">
-		<div class="section-title abs t0 r0">SKILL_{{i + 1}}</div>
-		<div class="skill-header">
-			<div id="op-skill-img">
+	<div id="combat-skills" class="fw rel even z0">
+        <div
+            id="section-title"
+            class="section-title abs t0 z-1 anim-AbsSnapToTop"
+            [attr.no-anim]="animAlreadyPlayed"
+        >COMBAT</div>
+        <div id="skill-list" class="flex flex-col">
+            <button
+                class="skill rel h-auto w-auto no-border overflow-hidden"
+                [id]="'op-skill-' + (i + 1)"
+                *ngFor="let skill of currentOperator.skills; let i =index"
+                [ngClass]="currentSkillIndex === i ? 'current no-pointer' : 'cur-pointer'"
+                (click)="setCurrentSkill(i)"
+            >
+                <div class="skill-cnt-title abs t0 r0">SKILL_{{i + 1}}</div>
+                <div class="skill-header">
+                    <div id="op-skill-img">
+                        <img [src]="'/assets/gamedata/img/characters/skills/combat/skill_icon_' + skill!.skillId + '.png'">
+                    </div>
+                    <div id="op-skill-overview" class="flex flex-col j-flex-space-between">
+                        <div id="op-skill-name">
 
-			</div>
-			<div id="op-skill-overview" class="flex flex-col j-flex-space-between">
-				<div id="op-skill-name">
+                        </div>
+                        <div id="op-skill-characteristics" class="flex flex-row flex-wrap">
 
-				</div>
-				<div id="op-skill-characteristics" class="flex flex-row flex-wrap">
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-desc rel">
+                    <div id="op-skill-currentlevel" class="abs b0 r0">
 
-				</div>
-			</div>
-		</div>
-		<div class="skill-desc rel">
-			<div id="op-skill-currentlevel" class="abs b0 r0">
+                    </div>
+                    <div id="op-skill-desc">
+                        <!-- use innerHTML -->
+                    </div>
+                </div>
+                <div class="skill-bottom-group">
+                    <div id="left-section">
 
-			</div>
-			<div id="op-skill-desc">
-				<!-- use innerHTML -->
-			</div>
-		</div>
-		<div class="skill-bottom-group">
-			<div id="left-section">
+                    </div>
+                    <div id="right-section">
 
-			</div>
-			<div id="right-section">
-
-			</div>
-		</div>
-	</div>
+                    </div>
+                </div>
+            </button>
+        </div>
+    </div>
+    <div id="infra-skills" class="fw rel odd z1"></div>
 </div>

@@ -1,21 +1,22 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input, OnInit, OnDestroy, Output, EventEmitter } from '@angular/core';
 import { DomSanitizer } from '@angular/platform-browser';
 import { OperatorDataManagerService } from '@services/OperatorData/operator-data-manager.service';
 import { defaultCharFaction } from '@struct/Operator/CharFaction';
 import { Operator } from '@struct/Operator/Char';
 import { CharTrustAttributes } from '@root/src/struct/Operator/CharTrustData';
-import { Optional } from '@utils/utils';
+import { Optional, Nullable } from '@utils/utils';
 
 import Gender_Male from '@assets/gamedata/json/tl-data/gender/男.json';
 import Gender_Female from '@assets/gamedata/json/tl-data/gender/女.json';
 import Gender_Conviction from '@assets/gamedata/json/tl-data/gender/断罪.json'
+import { AnimManagerService } from '@services/anim-manager.service';
 // import { trigger, transition, style, stagger, animate, query } from '@angular/animations';
 // import { AnimationFunctions } from '@utils/anims';
 
 @Component({
 	selector: 'op-info-maininfo',
 	templateUrl: './opInfo-MainInfo.component.html',
-	styleUrls: ['./opInfo-MainInfo.component.scss'],
+	styleUrls: ['./opInfo-MainInfo.component.scss', '../operator-info-area.component.scss'],
 	animations: [
 		// trigger('AppearDisappear-List', [
 		// 	transition('* <=> *', [
@@ -38,8 +39,10 @@ export class OpMainInfoComponent implements OnInit {
 
 	constructor(
 		private manager: OperatorDataManagerService,
-		private sanitizer: DomSanitizer
-	) { }
+        private sanitizer: DomSanitizer,
+        private animManager: AnimManagerService
+    ) { }
+
 
 	@Input() currentOperator!: Operator;
 	@Input() currentOperatorCN!: Operator;
@@ -49,9 +52,22 @@ export class OpMainInfoComponent implements OnInit {
 
 	factionImgURL!: string;
 	rarity!: 0[];
+
+    @Output() onAnimationEnd = new EventEmitter<0>();
+    @Input() animAlreadyPlayed: Nullable<''> = null;
+    animID = -1;
 	ngOnInit(): void {
+        if (!this.animManager.enabled)
+            this.animAlreadyPlayed = '';
+        else
+            this.animID = setTimeout(() => {this.onAnimationEnd.emit(0)}, 5000) as unknown as number;
 		this.init();
 	}
+
+    ngOnDestroy() {
+        if (this.animID !== -1)
+            clearTimeout(this.animID);
+    }
 
 	readonly genderColor: Record<string, string> = {
 		'男': '#0e59e4',	// M
@@ -75,7 +91,7 @@ export class OpMainInfoComponent implements OnInit {
 		this.currentOpHR = await this.manager.humanResource(this.currentOperatorCN.name) ?? {};
 		await this.manager.resolveClassName(this.currentOperator.profession).then(data => {
 			if (data && data[this.currentOperatorCN.subProfessionId])
-				this.currentOpSubclass = data[this.currentOperatorCN.subProfessionId]['en'];
+				this.currentOpSubclass = data[this.currentOperatorCN.subProfessionId]['tl'];
 		})
 		const imgblob = await this.manager.loadFactionImage(this.getFactionID());
 		if (imgblob)
