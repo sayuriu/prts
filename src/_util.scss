@@ -76,6 +76,9 @@
 .pointer-all { pointer-events: all }
 .pointer-visible { pointer-events: visible }
 
+.cur-pointer { cursor: pointer }
+.cur-default { cursor: default }
+
 .float-l { float: left }
 .float-r { float: right }
 .no-float { float: none }

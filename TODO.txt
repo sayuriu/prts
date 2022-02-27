@@ -5,6 +5,9 @@
 ------------------------------
 [improve] NotifService: use css-defined duration instead of decremental interval
 [improve] optimize CSS (replace redundant props with HTML util classes)
-[add] tag style interpolation
+[add] tag style interpolation [named_effects.json]
 [add] glitchy interface for the NoScript display
 [improve] change text src to svg for better scaling anim
+[add] operator skill pages
+[add] op class preferred key for display [ClassFavKey.json]
+[bug] unhandled OnExpire of XMLService

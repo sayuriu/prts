@@ -5,9 +5,9 @@
 		[style.opacity]="menuVisible ? '1' : '0'"
 	>
 		<div id="menu" class="abs lfull t0 flex flex-row">
-			<button class="rel pointer-all no-border" [ngClass]="currentMenuIndex === 0 ? 'current' : ''" (click)="setMenuIndex(0)"><p>OVERVIEW</p></button>
-			<button class="rel pointer-all no-border" [ngClass]="currentMenuIndex === 1 ? 'current' : ''" (click)="setMenuIndex(1)"><p>SKILLS</p></button>
-			<button class="rel pointer-all no-border" [ngClass]="currentMenuIndex === 2 ? 'current' : ''" (click)="setMenuIndex(2)"><p>STATS</p></button>
+			<button class="rel pointer-all no-border" [ngClass]="{'current': currentMenuIndex === 0 }" (click)="setMenuIndex(0)"><p>OVERVIEW</p></button>
+			<button class="rel pointer-all no-border" [ngClass]="{'current': currentMenuIndex === 1 }" (click)="setMenuIndex(1)"><p>SKILLS</p></button>
+			<button class="rel pointer-all no-border" [ngClass]="{'current': currentMenuIndex === 2 }" (click)="setMenuIndex(2)"><p>STATS</p></button>
 		</div>
 	</div>
 	<div id="pages" class="fw rel z1 overflow-auto-y scrollbar-std" [style.opacity]="pagesVisible ? '1' : '0'" [@slideUpDown]="currentMenuIndex">
@@ -15,13 +15,24 @@
 			<p style="height: 50px; width: 100%; background: transparent; pointer-events: none;"></p>
 		</page>
 		<page id="main-info" *ngIf="currentMenuIndex === 0">
-			<op-info-maininfo [currentOperator]="currentOp" [currentOperatorCN]="currentOpCN"></op-info-maininfo>
+			<op-info-maininfo
+                (onAnimationEnd)="setAnimsPlayed($event)"
+                [animAlreadyPlayed]="animsPlayed[0]"
+                [currentOperator]="currentOp"
+                [currentOperatorCN]="currentOpCN"
+            ></op-info-maininfo>
 		</page>
 		<page id="skills" *ngIf="currentMenuIndex === 1">
-			<op-info-skills [currentOperator]="currentOp"></op-info-skills>
+			<op-info-skills
+                (onAnimationEnd)="setAnimsPlayed($event)"
+                [animAlreadyPlayed]="animsPlayed[1]"
+                [currentOperator]="currentOp"
+            ></op-info-skills>
 		</page>
 		<page id="stats" *ngIf="currentMenuIndex === 2">
-			<op-info-stats [currentOperator]="currentOp"></op-info-stats>
+			<op-info-stats
+                [currentOperator]="currentOp"
+            ></op-info-stats>
 		</page>
 	</div>
 </scroll-container>

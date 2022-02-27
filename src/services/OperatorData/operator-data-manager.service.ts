@@ -234,6 +234,7 @@ export class OperatorDataManagerService {
 
 interface OpClass {
 	name: string;
+    tl: string;
 	en: string;
 }
 

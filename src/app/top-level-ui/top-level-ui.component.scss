@@ -115,12 +115,14 @@ $emblem-margin-left: math.div(79px, 1920px) * 100vw;
 }
 
 @media only screen and (min-width: 800px) {
-	#FullscreenToggle {
-		height: 40px;
-		width: 40px;
-		transition: background-color 0.5s ease;
+	#app-controls {
 		z-index: 999;
-		@include hover-std(upper, 200%, 15px);
+        button {
+            height: 40px;
+            width: 40px;
+            transition: background-color 0.5s ease;
+		    @include hover-std(upper, 200%, 15px);
+        }
 	}
 
 	#Clock {

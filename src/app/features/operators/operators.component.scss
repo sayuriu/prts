@@ -119,12 +119,14 @@
 
 #btn-expand {
     top: -3.3ch;
-    transition: transform 1s $forceful 0.15s;
+    transition:
+        transform 1s $forceful 0.15s,
+        filter 0.5s $forceful;
     font-size: 20px;
     background: transparent;
     transform-origin: bottom right;
     transform: rotate(270deg);
-    animation: spreadRL 0.7s $forceful 3s forwards;
+    animation: spreadRL 0.7s $forceful 1s forwards;
     cursor: pointer;
 
     #indicator {
@@ -172,5 +174,8 @@
             transition-delay: 0;
             left: -8ch;
         }
+    }
+    &:hover {
+        filter: brightness(.8);
     }
 }

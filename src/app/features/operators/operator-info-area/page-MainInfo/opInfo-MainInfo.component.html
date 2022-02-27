@@ -1,7 +1,7 @@
 <div id="container" class="h-auto fw">
 	<div id="basic-info" class="odd h-auto flex flex-row z0">
 		<div id="info-area">
-			<div id="line1" class="line flex flex-row flex-wrap">
+			<div id="line1" class="line flex flex-row flex-wrap" [attr.no-anim]="animAlreadyPlayed">
 				<rarity-star
 					class="flex flex-row rel"
 					style="width: 180px;"
@@ -25,6 +25,7 @@
 						id="op-gender"
 						class="pointer-all rel anim-spreadLR"
 						[attr.data-title]="(opGender[this.currentOpHR.sex] ?? {}).sex_en ?? 'Unknown'"
+                        [attr.no-anim]="animAlreadyPlayed"
 						[boundRect]="{ centerChildren: [true], width: '128px', height: '42px' }"
 						[labelField]="{
 							centerChildren: [true],
@@ -56,6 +57,7 @@
 					<spacer style="width: 20px;"></spacer>
 					<text-field
 						class="anim-spreadLR"
+                        [attr.no-anim]="animAlreadyPlayed"
 						[boundRect]="{ centerChildren: [true], width: '224px', height: '42px' }"
 						[labelField]="{
 							centerChildren: [true],
@@ -86,7 +88,7 @@
 					></text-field>
 				</div>
 			</div>
-			<div id="line2" class="line flex flex-row anim-spreadLR">
+			<div id="line2" class="line flex flex-row anim-spreadLR" [attr.no-anim]="animAlreadyPlayed">
 				<spacer style="width: 22px;"></spacer>
 				<text-field class="fw"
 					[boundRect]="{ centerChildren: [true], width: 'auto', minHeight: '42px' }"
@@ -120,7 +122,7 @@
 					}"
 				></text-field>
 			</div>
-			<div id="line3" class="line flex flex-row anim-spreadLR">
+			<div id="line3" class="line flex flex-row anim-spreadLR" [attr.no-anim]="animAlreadyPlayed">
 				<spacer style="width: 22px;"></spacer>
 				<text-field class="fw"
 					[boundRect]="{ centerChildren: [true], width: '100%', minHeight: '42px' }"
@@ -166,7 +168,11 @@
 		</div>
 	</div>
 	<div id="class-profession" class="even h-auto fw rel flex z1">
-		<div id="section-title" class="section-title abs t0 z-1 anim-AbsSnapToTop">CLASS_PROFESSION</div>
+		<div
+            id="section-title"
+            class="section-title abs t0 z-1 anim-AbsSnapToTop"
+            [attr.no-anim]="animAlreadyPlayed"
+        >CLASS_PROFESSION</div>
 		<div id="left-section" class="flex flex-col z2">
 			<div
 				id="op-class"
@@ -183,7 +189,7 @@
 					+ ')'"
 				>
 				<!-- calc(19px + 5 * 1ch) -->
-				<div id="main" class="flex flex-row z1">
+				<div id="main" class="flex flex-row z1" [attr.no-anim]="animAlreadyPlayed">
 					<img
 						class="fh img-contain"
 						[src]="currentOpClass !== 'NO_CLASS' ?
@@ -192,17 +198,18 @@
 							'_large.png') :
 							'/assets/img/ui/no_data_class.png'"
 					>
-					<p class="no-whitespace-warp anim-spreadLR">&#x2009;{{currentOpClass}}&#x2009;</p>
+					<p class="no-whitespace-warp anim-spreadLR" [attr.no-anim]="animAlreadyPlayed">&#x2009;{{currentOpClass}}&#x2009;</p>
 				</div>
-				<div id="subclass" class="flex flex-row-rev j-flex-start z0">
+				<div id="subclass" class="flex flex-row-rev j-flex-start z0" [attr.no-anim]="animAlreadyPlayed">
 					<div id="subclass-img-container" class="flex j-flex-center a-flex-center" style="background: black">
 						<img id="subclass-img" [src]="currentOpSubclass !== 'NO_SUBCLASS' ? ('/assets/gamedata/img/characters/ui/subclasses/sub_' + currentOperatorCN.subProfessionId + '_icon.png') : '/assets/img/ui/no_data_class.png'">
 					</div>
-					<p class="no-whitespace-warp anim-spreadRL">&#x2009;{{currentOpSubclass}}&#x2009;</p>
+					<p class="no-whitespace-warp anim-spreadRL" [attr.no-anim]="animAlreadyPlayed">&#x2009;{{currentOpSubclass}}&#x2009;</p>
 				</div>
 			</div>
 			<text-field
 				class="anim-spawn"
+                [attr.no-anim]="animAlreadyPlayed"
 				[attr.data-title]="'Acquired with ' + trustDiffData.maxFavorLevel + ' Trust'"
 				[boundRect]="{ width: 'auto', height: 'auto', maxWidth: '100%'}"
 				[labelField]="{
@@ -238,7 +245,7 @@
 			></text-field>
 		</div>
 		<div id="right-section" class="flex flex-grow-1 j-flex-center z2">
-			<div id="op-potential" class="a-self-center anim-spreadUD">
+			<div id="op-potential" class="a-self-center anim-spreadUD" [attr.no-anim]="animAlreadyPlayed">
 				<div id="no-potential" *ngIf="!currentOperator.potentialRanks.length">
 					<p class="no-whitespace-warp" style="height: 80%; width:max-content">&#x2009;NO_POTENTIAL&#x2009;</p>
 				</div>
@@ -252,18 +259,24 @@
 		</div>
         <spacer style="width: 22px;"></spacer>
 	</div>
-	<div id="talents" class="odd h-auto rel flex flex-col">
-		<div id="section-title" class="section-title abs t0 z0 anim-AbsSnapToTop">TALENTS</div>
+	<div id="talents" class="odd h-auto rel flex flex-col" [attr.no-anim]="animAlreadyPlayed">
+		<div
+            id="section-title"
+            class="section-title abs t0 z0 anim-AbsSnapToTop"
+            [attr.no-anim]="animAlreadyPlayed"
+        >TALENTS</div>
 		<spacer class="fw" style="height: 0"></spacer>
-		<div id="option-controls" class="rel flex flex-row j-flex-end z2 anim-spreadRL">
-			<div id="control-hide-overlay" class="abs h-auto anim-spreadRL z3"></div>
+		<div id="option-controls" class="rel flex flex-row j-flex-end z2 anim-spreadRL" [attr.no-anim]="animAlreadyPlayed">
+			<div id="control-hide-overlay" class="abs h-auto anim-spreadRL z3" [attr.no-anim]="animAlreadyPlayed"></div>
+            <!--? Possible custom components-->
 			<div id="elite-controls" class="flex flex-row z2" *ngIf="opTLEliteOptions.length > 1" >
 				<button
 					class="no-border flex a-flex-center anim-spawn"
-					[ngClass]="i === currentTLElite ? 'current no-pointer' : ''"
+					[ngClass]="i === currentTLElite ? 'current no-pointer' : 'cur-pointer'"
 					*ngFor="let ctrl of opTLEliteOptions; let i = index"
 					[style.--order]="i"
 					[attr.data-title]="'Elite ' + ctrl"
+                    [attr.no-anim]="animAlreadyPlayed"
 					(click)="setTLElite(i)"
 				>
 					<lb>E{{ctrl}}</lb>
@@ -273,18 +286,20 @@
 			<div id="potential-controls" class="flex flex-row z2" *ngIf="opTLPotentialOptions.length > 1">
 				<button
 					class="no-border flex a-flex-center anim-spawn"
-					[ngClass]="i === currentTLPotential ? 'current no-pointer' : ''"
+					[ngClass]="i === currentTLPotential ? 'current no-pointer' : 'cur-pointer'"
 					*ngFor="let ctrl of opTLPotentialOptions; let i = index"
 					[style.--order]="i"
 					[attr.data-title]="'Potential ' + ctrl"
+                    [attr.no-anim]="animAlreadyPlayed"
 					(click)="setTLPotential(i)"
 				>
 					<lb>P{{ctrl + 1}}</lb>
 					<img class="fh" [src]="'/assets/gamedata/img/characters/ui/potential/' + (ctrl + 1) + '.png'">
 				</button>
 			</div>
+            <!--? -------->
 			<div id="level-controls" class="z2" *ngIf="opTLLevelOptions.length > 1">
-				<button class="no-border" [ngClass]="i === currentTLLevel ? 'current no-pointer' : ''" *ngFor="let ctrl of opTLLevelOptions; let i = index" (click)="setTLLevel(i)">L{{ctrl}}</button>
+				<button class="no-border" [ngClass]="{'current no-pointer' : currentTLLevel === i}" *ngFor="let ctrl of opTLLevelOptions; let i = index" (click)="setTLLevel(i)">L{{ctrl}}</button>
 			</div>
 		</div>
 		<!-- <div [@AppearDisappear-List]="currentOpTL.length">
@@ -293,7 +308,7 @@
 				<p>{{talent.description}}</p>
 			</div>
 		</div> -->
-		<div id="op-talent-info-container" class="flex flex-col anim-spreadUD z1">
+		<div id="op-talent-info-container" class="flex flex-col anim-spreadUD z1" [attr.no-anim]="animAlreadyPlayed">
 			<div class="op-talent-info rel flex flex-col" *ngFor="let talent of currentOpTL; let i = index">
 				<svg id="op-talent-id" class="abs fh" viewBox="0 0 150 65">
 					<text x="0" y="0">{{i + 1}}</text>

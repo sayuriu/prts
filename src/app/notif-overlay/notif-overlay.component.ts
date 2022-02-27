@@ -92,14 +92,14 @@ export class NotifOverlayComponent implements OnInit {
 			{
 				let queuedForSkip = false;
 				this._activeInterval = setInterval((): void => {
-					this.progress -= 0.1;
+					this.progress -= 0.5;
 					if (this.progress <= 0)
 					{
 						if (queuedForSkip) return;
 						queuedForSkip = true;
 						return void this.skip();
 					}
-				}, this.currentMessage.timeout / 1000) as unknown as number;
+				}, this.currentMessage.timeout / 200) as unknown as number;
 			}
 		}
 	}
