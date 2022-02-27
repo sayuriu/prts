@@ -6,6 +6,6 @@ This is just an another Arknights toolbox, built with Angular and was designed w
 This also serves as a study project for myself, to get better understanding about Angular and web dev in general.<br><br>
 
 *Current version (main):* `0.1.30b-121421`<br>
-*Latest:* [`1.0.31b@010922:operators-page`](https://github.com/sayuriu/prts/tree/operators-page)<br>
+*Latest:* [`branch@operators-page`](https://github.com/sayuriu/prts/tree/operators-page)<br>
 [You can check the live site here.](https://prts.vercel.app)<br>
 <b>WARNING!</b>: __*\*Note that it won't be displayed correctly on devices that have viewport size smaller than `1366px x 768px`.*__
