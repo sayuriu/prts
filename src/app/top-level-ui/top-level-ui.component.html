@@ -1,16 +1,16 @@
-<div id="app-controls" class="abs b0 ">
+<div id="app-controls" class="abs b0">
     <button id="FullscreenToggle" class="no-border" (click)="ToggleFullscreen()" [ngStyle]="{
         'background-image': 'url(../../assets/img/' + (isFullScreen ? 'shrink' : 'fullscreen') + '.svg)',
         'background-size': 'cover'
     }"
         [attr.data-title]="isFullScreen ? 'Exit fullscreen' : 'Enter fullscreen'"
     ></button>
-    <!-- <button id="FullscreenToggle" class="no-border" (click)="ToggleAnimation()" [ngStyle]="{
-        'background-image': 'url(../../assets/img/' + (isFullScreen ? 'shrink' : 'fullscreen') + '.svg)',
+    <button id="FullscreenToggle" class="no-border" (click)="ToggleAnimation()" [ngStyle]="{
+        'background-image': 'url(../../assets/img/' + (anime.enabled ? 'no-anim' : 'anim') + '.svg)',
         'background-size': 'cover'
     }"
         [attr.data-title]="'[DEBUG] ' + (anime.enabled ? 'Disable animation' : 'Enable animation')"
-    ></button> -->
+    ></button>
 </div>
 
 <p id="Clock" class="abs text-center z2 o0">{{currentTime}}</p>
