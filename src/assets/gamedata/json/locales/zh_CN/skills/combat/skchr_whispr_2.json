@@ -1,0 +1,347 @@
+{
+	"skillId": "skchr_whispr_2",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "痛觉抑制",
+			"rangeId": null,
+			"description": "攻击间隔<@ba.vup>缩短</>，天赋生命回复效果提升至<@ba.vup>{talent_scale:0%}</>，每次治疗使目标获得<@ba.vup>{attack@status_resistance[limit]}</>秒<$ba.buffres>抵抗</>\\n<@ba.rem>持续时间无限</>",
+			"skillType": 2,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 65,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_whispr_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": -0.2
+				},
+				{
+					"key": "attack@status_resistance[limit]",
+					"value": 1
+				},
+				{
+					"key": "attack@one_minus_status_resistance",
+					"value": -0.5
+				},
+				{
+					"key": "talent_scale",
+					"value": 1.1
+				}
+			]
+		},
+		{
+			"name": "痛觉抑制",
+			"rangeId": null,
+			"description": "攻击间隔<@ba.vup>缩短</>，天赋生命回复效果提升至<@ba.vup>{talent_scale:0%}</>，每次治疗使目标获得<@ba.vup>{attack@status_resistance[limit]}</>秒<$ba.buffres>抵抗</>\\n<@ba.rem>持续时间无限</>",
+			"skillType": 2,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 64,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_whispr_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": -0.2
+				},
+				{
+					"key": "attack@status_resistance[limit]",
+					"value": 1
+				},
+				{
+					"key": "attack@one_minus_status_resistance",
+					"value": -0.5
+				},
+				{
+					"key": "talent_scale",
+					"value": 1.2
+				}
+			]
+		},
+		{
+			"name": "痛觉抑制",
+			"rangeId": null,
+			"description": "攻击间隔<@ba.vup>缩短</>，天赋生命回复效果提升至<@ba.vup>{talent_scale:0%}</>，每次治疗使目标获得<@ba.vup>{attack@status_resistance[limit]}</>秒<$ba.buffres>抵抗</>\\n<@ba.rem>持续时间无限</>",
+			"skillType": 2,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 63,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_whispr_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": -0.2
+				},
+				{
+					"key": "attack@status_resistance[limit]",
+					"value": 1
+				},
+				{
+					"key": "attack@one_minus_status_resistance",
+					"value": -0.5
+				},
+				{
+					"key": "talent_scale",
+					"value": 1.3
+				}
+			]
+		},
+		{
+			"name": "痛觉抑制",
+			"rangeId": null,
+			"description": "攻击间隔<@ba.vup>缩短</>，天赋生命回复效果提升至<@ba.vup>{talent_scale:0%}</>，每次治疗使目标获得<@ba.vup>{attack@status_resistance[limit]}</>秒<$ba.buffres>抵抗</>\\n<@ba.rem>持续时间无限</>",
+			"skillType": 2,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 62,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_whispr_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": -0.2
+				},
+				{
+					"key": "attack@status_resistance[limit]",
+					"value": 2
+				},
+				{
+					"key": "attack@one_minus_status_resistance",
+					"value": -0.5
+				},
+				{
+					"key": "talent_scale",
+					"value": 1.4
+				}
+			]
+		},
+		{
+			"name": "痛觉抑制",
+			"rangeId": null,
+			"description": "攻击间隔<@ba.vup>缩短</>，天赋生命回复效果提升至<@ba.vup>{talent_scale:0%}</>，每次治疗使目标获得<@ba.vup>{attack@status_resistance[limit]}</>秒<$ba.buffres>抵抗</>\\n<@ba.rem>持续时间无限</>",
+			"skillType": 2,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 61,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_whispr_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": -0.2
+				},
+				{
+					"key": "attack@status_resistance[limit]",
+					"value": 2
+				},
+				{
+					"key": "attack@one_minus_status_resistance",
+					"value": -0.5
+				},
+				{
+					"key": "talent_scale",
+					"value": 1.5
+				}
+			]
+		},
+		{
+			"name": "痛觉抑制",
+			"rangeId": null,
+			"description": "攻击间隔<@ba.vup>缩短</>，天赋生命回复效果提升至<@ba.vup>{talent_scale:0%}</>，每次治疗使目标获得<@ba.vup>{attack@status_resistance[limit]}</>秒<$ba.buffres>抵抗</>\\n<@ba.rem>持续时间无限</>",
+			"skillType": 2,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 60,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_whispr_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": -0.2
+				},
+				{
+					"key": "attack@status_resistance[limit]",
+					"value": 2
+				},
+				{
+					"key": "attack@one_minus_status_resistance",
+					"value": -0.5
+				},
+				{
+					"key": "talent_scale",
+					"value": 1.6
+				}
+			]
+		},
+		{
+			"name": "痛觉抑制",
+			"rangeId": null,
+			"description": "攻击间隔<@ba.vup>缩短</>，天赋生命回复效果提升至<@ba.vup>{talent_scale:0%}</>，每次治疗使目标获得<@ba.vup>{attack@status_resistance[limit]}</>秒<$ba.buffres>抵抗</>\\n<@ba.rem>持续时间无限</>",
+			"skillType": 2,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 59,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_whispr_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": -0.2
+				},
+				{
+					"key": "attack@status_resistance[limit]",
+					"value": 3
+				},
+				{
+					"key": "attack@one_minus_status_resistance",
+					"value": -0.5
+				},
+				{
+					"key": "talent_scale",
+					"value": 1.7
+				}
+			]
+		},
+		{
+			"name": "痛觉抑制",
+			"rangeId": null,
+			"description": "攻击间隔<@ba.vup>缩短</>，天赋生命回复效果提升至<@ba.vup>{talent_scale:0%}</>，每次治疗使目标获得<@ba.vup>{attack@status_resistance[limit]}</>秒<$ba.buffres>抵抗</>\\n<@ba.rem>持续时间无限</>",
+			"skillType": 2,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 58,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_whispr_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": -0.2
+				},
+				{
+					"key": "attack@status_resistance[limit]",
+					"value": 3
+				},
+				{
+					"key": "attack@one_minus_status_resistance",
+					"value": -0.5
+				},
+				{
+					"key": "talent_scale",
+					"value": 1.8
+				}
+			]
+		},
+		{
+			"name": "痛觉抑制",
+			"rangeId": null,
+			"description": "攻击间隔<@ba.vup>缩短</>，天赋生命回复效果提升至<@ba.vup>{talent_scale:0%}</>，每次治疗使目标获得<@ba.vup>{attack@status_resistance[limit]}</>秒<$ba.buffres>抵抗</>\\n<@ba.rem>持续时间无限</>",
+			"skillType": 2,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 57,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_whispr_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": -0.2
+				},
+				{
+					"key": "attack@status_resistance[limit]",
+					"value": 3
+				},
+				{
+					"key": "attack@one_minus_status_resistance",
+					"value": -0.5
+				},
+				{
+					"key": "talent_scale",
+					"value": 1.9
+				}
+			]
+		},
+		{
+			"name": "痛觉抑制",
+			"rangeId": null,
+			"description": "攻击间隔<@ba.vup>缩短</>，天赋生命回复效果提升至<@ba.vup>{talent_scale:0%}</>，每次治疗使目标获得<@ba.vup>{attack@status_resistance[limit]}</>秒<$ba.buffres>抵抗</>\\n<@ba.rem>持续时间无限</>",
+			"skillType": 2,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 55,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_whispr_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": -0.2
+				},
+				{
+					"key": "attack@status_resistance[limit]",
+					"value": 4
+				},
+				{
+					"key": "attack@one_minus_status_resistance",
+					"value": -0.5
+				},
+				{
+					"key": "talent_scale",
+					"value": 2
+				}
+			]
+		}
+	]
+}

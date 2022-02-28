@@ -1,0 +1,267 @@
+{
+	"skillId": "skchr_folnic_2",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "복합형 약물 파편",
+			"rangeId": null,
+			"description": "공격이 복합 약제 파편 발사로 바뀌고 (적 우선 선택), 파편이 적중할 경우 주변 아군 유닛이 공격력의 <@ba.vup>{attack@heal_scale:0%}</>에 해당하는 HP를 회복하고, 적에게 공격력 <@ba.vup>{attack@atk_scale:0%}</>만큼의 마법 대미지를 준다",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 50,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_folnic_2",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "attack@heal_scale",
+					"value": 0.8
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 1
+				}
+			]
+		},
+		{
+			"name": "복합형 약물 파편",
+			"rangeId": null,
+			"description": "공격이 복합 약제 파편 발사로 바뀌고 (적 우선 선택), 파편이 적중할 경우 주변 아군 유닛이 공격력의 <@ba.vup>{attack@heal_scale:0%}</>에 해당하는 HP를 회복하고, 적에게 공격력 <@ba.vup>{attack@atk_scale:0%}</>만큼의 마법 대미지를 준다",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 49,
+				"initSp": 11,
+				"increment": 1
+			},
+			"prefabId": "skchr_folnic_2",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "attack@heal_scale",
+					"value": 0.85
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 1.1
+				}
+			]
+		},
+		{
+			"name": "복합형 약물 파편",
+			"rangeId": null,
+			"description": "공격이 복합 약제 파편 발사로 바뀌고 (적 우선 선택), 파편이 적중할 경우 주변 아군 유닛이 공격력의 <@ba.vup>{attack@heal_scale:0%}</>에 해당하는 HP를 회복하고, 적에게 공격력 <@ba.vup>{attack@atk_scale:0%}</>만큼의 마법 대미지를 준다",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 48,
+				"initSp": 12,
+				"increment": 1
+			},
+			"prefabId": "skchr_folnic_2",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "attack@heal_scale",
+					"value": 0.9
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 1.2
+				}
+			]
+		},
+		{
+			"name": "복합형 약물 파편",
+			"rangeId": null,
+			"description": "공격이 복합 약제 파편 발사로 바뀌고 (적 우선 선택), 파편이 적중할 경우 주변 아군 유닛이 공격력의 <@ba.vup>{attack@heal_scale:0%}</>에 해당하는 HP를 회복하고, 적에게 공격력 <@ba.vup>{attack@atk_scale:0%}</>만큼의 마법 대미지를 준다",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 47,
+				"initSp": 13,
+				"increment": 1
+			},
+			"prefabId": "skchr_folnic_2",
+			"duration": 26,
+			"blackboard": [
+				{
+					"key": "attack@heal_scale",
+					"value": 1
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 1.3
+				}
+			]
+		},
+		{
+			"name": "복합형 약물 파편",
+			"rangeId": null,
+			"description": "공격이 복합 약제 파편 발사로 바뀌고 (적 우선 선택), 파편이 적중할 경우 주변 아군 유닛이 공격력의 <@ba.vup>{attack@heal_scale:0%}</>에 해당하는 HP를 회복하고, 적에게 공격력 <@ba.vup>{attack@atk_scale:0%}</>만큼의 마법 대미지를 준다",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 46,
+				"initSp": 14,
+				"increment": 1
+			},
+			"prefabId": "skchr_folnic_2",
+			"duration": 26,
+			"blackboard": [
+				{
+					"key": "attack@heal_scale",
+					"value": 1.05
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 1.4
+				}
+			]
+		},
+		{
+			"name": "복합형 약물 파편",
+			"rangeId": null,
+			"description": "공격이 복합 약제 파편 발사로 바뀌고 (적 우선 선택), 파편이 적중할 경우 주변 아군 유닛이 공격력의 <@ba.vup>{attack@heal_scale:0%}</>에 해당하는 HP를 회복하고, 적에게 공격력 <@ba.vup>{attack@atk_scale:0%}</>만큼의 마법 대미지를 준다",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 45,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_folnic_2",
+			"duration": 26,
+			"blackboard": [
+				{
+					"key": "attack@heal_scale",
+					"value": 1.1
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 1.5
+				}
+			]
+		},
+		{
+			"name": "복합형 약물 파편",
+			"rangeId": null,
+			"description": "공격이 복합 약제 파편 발사로 바뀌고 (적 우선 선택), 파편이 적중할 경우 주변 아군 유닛이 공격력의 <@ba.vup>{attack@heal_scale:0%}</>에 해당하는 HP를 회복하고, 적에게 공격력 <@ba.vup>{attack@atk_scale:0%}</>만큼의 마법 대미지를 준다",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 44,
+				"initSp": 16,
+				"increment": 1
+			},
+			"prefabId": "skchr_folnic_2",
+			"duration": 27,
+			"blackboard": [
+				{
+					"key": "attack@heal_scale",
+					"value": 1.2
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 1.6
+				}
+			]
+		},
+		{
+			"name": "복합형 약물 파편",
+			"rangeId": null,
+			"description": "공격이 복합 약제 파편 발사로 바뀌고 (적 우선 선택), 파편이 적중할 경우 주변 아군 유닛이 공격력의 <@ba.vup>{attack@heal_scale:0%}</>에 해당하는 HP를 회복하고, 적에게 공격력 <@ba.vup>{attack@atk_scale:0%}</>만큼의 마법 대미지를 준다",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 43,
+				"initSp": 17,
+				"increment": 1
+			},
+			"prefabId": "skchr_folnic_2",
+			"duration": 28,
+			"blackboard": [
+				{
+					"key": "attack@heal_scale",
+					"value": 1.3
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 1.7
+				}
+			]
+		},
+		{
+			"name": "복합형 약물 파편",
+			"rangeId": null,
+			"description": "공격이 복합 약제 파편 발사로 바뀌고 (적 우선 선택), 파편이 적중할 경우 주변 아군 유닛이 공격력의 <@ba.vup>{attack@heal_scale:0%}</>에 해당하는 HP를 회복하고, 적에게 공격력 <@ba.vup>{attack@atk_scale:0%}</>만큼의 마법 대미지를 준다",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 42,
+				"initSp": 18,
+				"increment": 1
+			},
+			"prefabId": "skchr_folnic_2",
+			"duration": 29,
+			"blackboard": [
+				{
+					"key": "attack@heal_scale",
+					"value": 1.4
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 1.8
+				}
+			]
+		},
+		{
+			"name": "복합형 약물 파편",
+			"rangeId": null,
+			"description": "공격이 복합 약제 파편 발사로 바뀌고 (적 우선 선택), 파편이 적중할 경우 주변 아군 유닛이 공격력의 <@ba.vup>{attack@heal_scale:0%}</>에 해당하는 HP를 회복하고, 적에게 공격력 <@ba.vup>{attack@atk_scale:0%}</>만큼의 마법 대미지를 준다",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 40,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_folnic_2",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "attack@heal_scale",
+					"value": 1.5
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 2
+				}
+			]
+		}
+	]
+}

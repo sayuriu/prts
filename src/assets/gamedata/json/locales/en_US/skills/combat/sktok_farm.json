@@ -1,0 +1,45 @@
+{
+	"skillId": "sktok_farm",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "Startup!",
+			"rangeId": null,
+			"description": "Consume <@ba.vup>{cost}</> DP to activate: DEF <@ba.vup>+{def:0%}</>, RES <@ba.vup>+{magic_resistance}</>, restores 10 HP per second, and increases Operator Deployment Limit by <@ba.vup>+{value}</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 120,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "sktok_farm",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "value",
+					"value": 1
+				},
+				{
+					"key": "def",
+					"value": 2
+				},
+				{
+					"key": "magic_resistance",
+					"value": 20
+				},
+				{
+					"key": "hp_recovery_per_sec",
+					"value": 10
+				},
+				{
+					"key": "cost",
+					"value": 20
+				}
+			]
+		}
+	]
+}

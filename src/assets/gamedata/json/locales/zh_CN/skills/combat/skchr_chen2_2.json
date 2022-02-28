@@ -1,0 +1,427 @@
+{
+	"skillId": "skchr_chen2_2",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "“堇青之夜”",
+			"rangeId": null,
+			"description": "攻击力<@ba.vup>+{atk:0%}</>，每次攻击在范围内生成持续{attack@projectile_life_time}秒的粘液，地面敌人经过时移动速度<@ba.vup>{attack@move_speed:0%}</>、防御力<@ba.vup>{attack@def}</>（不叠加），<$ba.charged>蓄力</>额外效果：改为{attack@another_trigger_time}发弹药\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 30,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_chen2_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.35
+				},
+				{
+					"key": "attack@move_speed",
+					"value": -0.1
+				},
+				{
+					"key": "attack@def",
+					"value": -50
+				},
+				{
+					"key": "attack@projectile_life_time",
+					"value": 5
+				},
+				{
+					"key": "attack@trigger_time",
+					"value": 8
+				},
+				{
+					"key": "attack@another_trigger_time",
+					"value": 20
+				}
+			]
+		},
+		{
+			"name": "“堇青之夜”",
+			"rangeId": null,
+			"description": "攻击力<@ba.vup>+{atk:0%}</>，每次攻击在范围内生成持续{attack@projectile_life_time}秒的粘液，地面敌人经过时移动速度<@ba.vup>{attack@move_speed:0%}</>、防御力<@ba.vup>{attack@def}</>（不叠加），<$ba.charged>蓄力</>额外效果：改为{attack@another_trigger_time}发弹药\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 29,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_chen2_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.4
+				},
+				{
+					"key": "attack@move_speed",
+					"value": -0.1
+				},
+				{
+					"key": "attack@def",
+					"value": -50
+				},
+				{
+					"key": "attack@projectile_life_time",
+					"value": 5
+				},
+				{
+					"key": "attack@trigger_time",
+					"value": 8
+				},
+				{
+					"key": "attack@another_trigger_time",
+					"value": 20
+				}
+			]
+		},
+		{
+			"name": "“堇青之夜”",
+			"rangeId": null,
+			"description": "攻击力<@ba.vup>+{atk:0%}</>，每次攻击在范围内生成持续{attack@projectile_life_time}秒的粘液，地面敌人经过时移动速度<@ba.vup>{attack@move_speed:0%}</>、防御力<@ba.vup>{attack@def}</>（不叠加），<$ba.charged>蓄力</>额外效果：改为{attack@another_trigger_time}发弹药\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 28,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_chen2_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.45
+				},
+				{
+					"key": "attack@move_speed",
+					"value": -0.1
+				},
+				{
+					"key": "attack@def",
+					"value": -50
+				},
+				{
+					"key": "attack@projectile_life_time",
+					"value": 5
+				},
+				{
+					"key": "attack@trigger_time",
+					"value": 8
+				},
+				{
+					"key": "attack@another_trigger_time",
+					"value": 20
+				}
+			]
+		},
+		{
+			"name": "“堇青之夜”",
+			"rangeId": null,
+			"description": "攻击力<@ba.vup>+{atk:0%}</>，每次攻击在范围内生成持续{attack@projectile_life_time}秒的粘液，地面敌人经过时移动速度<@ba.vup>{attack@move_speed:0%}</>、防御力<@ba.vup>{attack@def}</>（不叠加），<$ba.charged>蓄力</>额外效果：改为{attack@another_trigger_time}发弹药\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 27,
+				"initSp": 5,
+				"increment": 1
+			},
+			"prefabId": "skchr_chen2_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.5
+				},
+				{
+					"key": "attack@move_speed",
+					"value": -0.2
+				},
+				{
+					"key": "attack@def",
+					"value": -100
+				},
+				{
+					"key": "attack@projectile_life_time",
+					"value": 5
+				},
+				{
+					"key": "attack@trigger_time",
+					"value": 8
+				},
+				{
+					"key": "attack@another_trigger_time",
+					"value": 20
+				}
+			]
+		},
+		{
+			"name": "“堇青之夜”",
+			"rangeId": null,
+			"description": "攻击力<@ba.vup>+{atk:0%}</>，每次攻击在范围内生成持续{attack@projectile_life_time}秒的粘液，地面敌人经过时移动速度<@ba.vup>{attack@move_speed:0%}</>、防御力<@ba.vup>{attack@def}</>（不叠加），<$ba.charged>蓄力</>额外效果：改为{attack@another_trigger_time}发弹药\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 26,
+				"initSp": 5,
+				"increment": 1
+			},
+			"prefabId": "skchr_chen2_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.55
+				},
+				{
+					"key": "attack@move_speed",
+					"value": -0.2
+				},
+				{
+					"key": "attack@def",
+					"value": -100
+				},
+				{
+					"key": "attack@projectile_life_time",
+					"value": 5
+				},
+				{
+					"key": "attack@trigger_time",
+					"value": 8
+				},
+				{
+					"key": "attack@another_trigger_time",
+					"value": 20
+				}
+			]
+		},
+		{
+			"name": "“堇青之夜”",
+			"rangeId": null,
+			"description": "攻击力<@ba.vup>+{atk:0%}</>，每次攻击在范围内生成持续{attack@projectile_life_time}秒的粘液，地面敌人经过时移动速度<@ba.vup>{attack@move_speed:0%}</>、防御力<@ba.vup>{attack@def}</>（不叠加），<$ba.charged>蓄力</>额外效果：改为{attack@another_trigger_time}发弹药\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 25,
+				"initSp": 5,
+				"increment": 1
+			},
+			"prefabId": "skchr_chen2_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.6
+				},
+				{
+					"key": "attack@move_speed",
+					"value": -0.2
+				},
+				{
+					"key": "attack@def",
+					"value": -100
+				},
+				{
+					"key": "attack@projectile_life_time",
+					"value": 5
+				},
+				{
+					"key": "attack@trigger_time",
+					"value": 8
+				},
+				{
+					"key": "attack@another_trigger_time",
+					"value": 20
+				}
+			]
+		},
+		{
+			"name": "“堇青之夜”",
+			"rangeId": null,
+			"description": "攻击力<@ba.vup>+{atk:0%}</>，每次攻击在范围内生成持续{attack@projectile_life_time}秒的粘液，地面敌人经过时移动速度<@ba.vup>{attack@move_speed:0%}</>、防御力<@ba.vup>{attack@def}</>（不叠加），<$ba.charged>蓄力</>额外效果：改为{attack@another_trigger_time}发弹药\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 24,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_chen2_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.65
+				},
+				{
+					"key": "attack@move_speed",
+					"value": -0.3
+				},
+				{
+					"key": "attack@def",
+					"value": -150
+				},
+				{
+					"key": "attack@projectile_life_time",
+					"value": 5
+				},
+				{
+					"key": "attack@trigger_time",
+					"value": 8
+				},
+				{
+					"key": "attack@another_trigger_time",
+					"value": 20
+				}
+			]
+		},
+		{
+			"name": "“堇青之夜”",
+			"rangeId": null,
+			"description": "攻击力<@ba.vup>+{atk:0%}</>，每次攻击在范围内生成持续{attack@projectile_life_time}秒的粘液，地面敌人经过时移动速度<@ba.vup>{attack@move_speed:0%}</>、防御力<@ba.vup>{attack@def}</>（不叠加），<$ba.charged>蓄力</>额外效果：改为{attack@another_trigger_time}发弹药\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 23,
+				"initSp": 11,
+				"increment": 1
+			},
+			"prefabId": "skchr_chen2_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.7
+				},
+				{
+					"key": "attack@move_speed",
+					"value": -0.3
+				},
+				{
+					"key": "attack@def",
+					"value": -150
+				},
+				{
+					"key": "attack@projectile_life_time",
+					"value": 5
+				},
+				{
+					"key": "attack@trigger_time",
+					"value": 8
+				},
+				{
+					"key": "attack@another_trigger_time",
+					"value": 20
+				}
+			]
+		},
+		{
+			"name": "“堇青之夜”",
+			"rangeId": null,
+			"description": "攻击力<@ba.vup>+{atk:0%}</>，每次攻击在范围内生成持续{attack@projectile_life_time}秒的粘液，地面敌人经过时移动速度<@ba.vup>{attack@move_speed:0%}</>、防御力<@ba.vup>{attack@def}</>（不叠加），<$ba.charged>蓄力</>额外效果：改为{attack@another_trigger_time}发弹药\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 22,
+				"initSp": 11,
+				"increment": 1
+			},
+			"prefabId": "skchr_chen2_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.75
+				},
+				{
+					"key": "attack@move_speed",
+					"value": -0.35
+				},
+				{
+					"key": "attack@def",
+					"value": -170
+				},
+				{
+					"key": "attack@projectile_life_time",
+					"value": 5
+				},
+				{
+					"key": "attack@trigger_time",
+					"value": 8
+				},
+				{
+					"key": "attack@another_trigger_time",
+					"value": 20
+				}
+			]
+		},
+		{
+			"name": "“堇青之夜”",
+			"rangeId": null,
+			"description": "攻击力<@ba.vup>+{atk:0%}</>，每次攻击在范围内生成持续{attack@projectile_life_time}秒的粘液，地面敌人经过时移动速度<@ba.vup>{attack@move_speed:0%}</>、防御力<@ba.vup>{attack@def}</>（不叠加），<$ba.charged>蓄力</>额外效果：改为{attack@another_trigger_time}发弹药\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后结束（可随时停止技能）</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 20,
+				"initSp": 12,
+				"increment": 1
+			},
+			"prefabId": "skchr_chen2_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.8
+				},
+				{
+					"key": "attack@move_speed",
+					"value": -0.35
+				},
+				{
+					"key": "attack@def",
+					"value": -170
+				},
+				{
+					"key": "attack@projectile_life_time",
+					"value": 5
+				},
+				{
+					"key": "attack@trigger_time",
+					"value": 8
+				},
+				{
+					"key": "attack@another_trigger_time",
+					"value": 20
+				}
+			]
+		}
+	]
+}

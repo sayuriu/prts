@@ -1,0 +1,33 @@
+{
+	"skillId": "sktok_airbomb",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "砰！",
+			"rangeId": "x-4",
+			"description": "将周围的敌人<@ba.vup>较大力地</>推开",
+			"skillType": 0,
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 0,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": "sktok_airbomb",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "attack@duration",
+					"value": 1.5
+				},
+				{
+					"key": "attack@force",
+					"value": 3
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,467 @@
+{
+	"skillId": "skchr_pasngr_3",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "Glorious Shards",
+			"rangeId": "x-3",
+			"description": "Immediately generates a lightning storm centered on the target with the highest HP within a wide range, lasting for <@ba.vup>{duration}</> seconds; Deals an additional attack equal to <@ba.vup>{atk_scale:0%}</> ATK to a random enemy within the lightning storm every <@ba.vup>{interval}</> seconds; <@ba.rem>Can store {ct} charges</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 35,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_pasngr_3",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 1
+				},
+				{
+					"key": "duration",
+					"value": 4
+				},
+				{
+					"key": "ct",
+					"value": 2
+				},
+				{
+					"key": "projectile_delay_time",
+					"value": 4
+				},
+				{
+					"key": "interval",
+					"value": 0.5
+				},
+				{
+					"key": "chain.max_target",
+					"value": 4
+				},
+				{
+					"key": "sluggish",
+					"value": 0.2
+				}
+			]
+		},
+		{
+			"name": "Glorious Shards",
+			"rangeId": "x-3",
+			"description": "Immediately generates a lightning storm centered on the target with the highest HP within a wide range, lasting for <@ba.vup>{duration}</> seconds; Deals an additional attack equal to <@ba.vup>{atk_scale:0%}</> ATK to a random enemy within the lightning storm every <@ba.vup>{interval}</> seconds; <@ba.rem>Can store {ct} charges</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 35,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_pasngr_3",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 1.05
+				},
+				{
+					"key": "duration",
+					"value": 4
+				},
+				{
+					"key": "ct",
+					"value": 2
+				},
+				{
+					"key": "projectile_delay_time",
+					"value": 4
+				},
+				{
+					"key": "interval",
+					"value": 0.5
+				},
+				{
+					"key": "chain.max_target",
+					"value": 4
+				},
+				{
+					"key": "sluggish",
+					"value": 0.2
+				}
+			]
+		},
+		{
+			"name": "Glorious Shards",
+			"rangeId": "x-3",
+			"description": "Immediately generates a lightning storm centered on the target with the highest HP within a wide range, lasting for <@ba.vup>{duration}</> seconds; Deals an additional attack equal to <@ba.vup>{atk_scale:0%}</> ATK to a random enemy within the lightning storm every <@ba.vup>{interval}</> seconds; <@ba.rem>Can store {ct} charges</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 35,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_pasngr_3",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 1.1
+				},
+				{
+					"key": "duration",
+					"value": 4
+				},
+				{
+					"key": "ct",
+					"value": 2
+				},
+				{
+					"key": "projectile_delay_time",
+					"value": 4
+				},
+				{
+					"key": "interval",
+					"value": 0.5
+				},
+				{
+					"key": "chain.max_target",
+					"value": 4
+				},
+				{
+					"key": "sluggish",
+					"value": 0.2
+				}
+			]
+		},
+		{
+			"name": "Glorious Shards",
+			"rangeId": "x-3",
+			"description": "Immediately generates a lightning storm centered on the target with the highest HP within a wide range, lasting for <@ba.vup>{duration}</> seconds; Deals an additional attack equal to <@ba.vup>{atk_scale:0%}</> ATK to a random enemy within the lightning storm every <@ba.vup>{interval}</> seconds; <@ba.rem>Can store {ct} charges</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 35,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_pasngr_3",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 1.15
+				},
+				{
+					"key": "duration",
+					"value": 4
+				},
+				{
+					"key": "ct",
+					"value": 2
+				},
+				{
+					"key": "projectile_delay_time",
+					"value": 4
+				},
+				{
+					"key": "interval",
+					"value": 0.5
+				},
+				{
+					"key": "chain.max_target",
+					"value": 4
+				},
+				{
+					"key": "sluggish",
+					"value": 0.2
+				}
+			]
+		},
+		{
+			"name": "Glorious Shards",
+			"rangeId": "x-3",
+			"description": "Immediately generates a lightning storm centered on the target with the highest HP within a wide range, lasting for <@ba.vup>{duration}</> seconds; Deals an additional attack equal to <@ba.vup>{atk_scale:0%}</> ATK to a random enemy within the lightning storm every <@ba.vup>{interval}</> seconds; <@ba.rem>Can store {ct} charges</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 35,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_pasngr_3",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 1.2
+				},
+				{
+					"key": "duration",
+					"value": 4
+				},
+				{
+					"key": "ct",
+					"value": 2
+				},
+				{
+					"key": "projectile_delay_time",
+					"value": 4
+				},
+				{
+					"key": "interval",
+					"value": 0.5
+				},
+				{
+					"key": "chain.max_target",
+					"value": 4
+				},
+				{
+					"key": "sluggish",
+					"value": 0.2
+				}
+			]
+		},
+		{
+			"name": "Glorious Shards",
+			"rangeId": "x-3",
+			"description": "Immediately generates a lightning storm centered on the target with the highest HP within a wide range, lasting for <@ba.vup>{duration}</> seconds; Deals an additional attack equal to <@ba.vup>{atk_scale:0%}</> ATK to a random enemy within the lightning storm every <@ba.vup>{interval}</> seconds; <@ba.rem>Can store {ct} charges</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 35,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_pasngr_3",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 1.25
+				},
+				{
+					"key": "duration",
+					"value": 4
+				},
+				{
+					"key": "ct",
+					"value": 2
+				},
+				{
+					"key": "projectile_delay_time",
+					"value": 4
+				},
+				{
+					"key": "interval",
+					"value": 0.5
+				},
+				{
+					"key": "chain.max_target",
+					"value": 4
+				},
+				{
+					"key": "sluggish",
+					"value": 0.2
+				}
+			]
+		},
+		{
+			"name": "Glorious Shards",
+			"rangeId": "x-3",
+			"description": "Immediately generates a lightning storm centered on the target with the highest HP within a wide range, lasting for <@ba.vup>{duration}</> seconds; Deals an additional attack equal to <@ba.vup>{atk_scale:0%}</> ATK to a random enemy within the lightning storm every <@ba.vup>{interval}</> seconds; <@ba.rem>Can store {ct} charges</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 34,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_pasngr_3",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 1.3
+				},
+				{
+					"key": "duration",
+					"value": 4
+				},
+				{
+					"key": "ct",
+					"value": 2
+				},
+				{
+					"key": "projectile_delay_time",
+					"value": 4
+				},
+				{
+					"key": "interval",
+					"value": 0.5
+				},
+				{
+					"key": "chain.max_target",
+					"value": 4
+				},
+				{
+					"key": "sluggish",
+					"value": 0.2
+				}
+			]
+		},
+		{
+			"name": "Glorious Shards",
+			"rangeId": "x-3",
+			"description": "Immediately generates a lightning storm centered on the target with the highest HP within a wide range, lasting for <@ba.vup>{duration}</> seconds; Deals an additional attack equal to <@ba.vup>{atk_scale:0%}</> ATK to a random enemy within the lightning storm every <@ba.vup>{interval}</> seconds; <@ba.rem>Can store {ct} charges</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 33,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_pasngr_3",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 1.35
+				},
+				{
+					"key": "duration",
+					"value": 4
+				},
+				{
+					"key": "ct",
+					"value": 2
+				},
+				{
+					"key": "projectile_delay_time",
+					"value": 4
+				},
+				{
+					"key": "interval",
+					"value": 0.5
+				},
+				{
+					"key": "chain.max_target",
+					"value": 4
+				},
+				{
+					"key": "sluggish",
+					"value": 0.2
+				}
+			]
+		},
+		{
+			"name": "Glorious Shards",
+			"rangeId": "x-3",
+			"description": "Immediately generates a lightning storm centered on the target with the highest HP within a wide range, lasting for <@ba.vup>{duration}</> seconds; Deals an additional attack equal to <@ba.vup>{atk_scale:0%}</> ATK to a random enemy within the lightning storm every <@ba.vup>{interval}</> seconds; <@ba.rem>Can store {ct} charges</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 32,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_pasngr_3",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 1.4
+				},
+				{
+					"key": "duration",
+					"value": 4
+				},
+				{
+					"key": "ct",
+					"value": 2
+				},
+				{
+					"key": "projectile_delay_time",
+					"value": 4
+				},
+				{
+					"key": "interval",
+					"value": 0.5
+				},
+				{
+					"key": "chain.max_target",
+					"value": 4
+				},
+				{
+					"key": "sluggish",
+					"value": 0.2
+				}
+			]
+		},
+		{
+			"name": "Glorious Shards",
+			"rangeId": "x-3",
+			"description": "Immediately generates a lightning storm centered on the target with the highest HP within a wide range, lasting for <@ba.vup>{duration}</> seconds; Deals an additional attack equal to <@ba.vup>{atk_scale:0%}</> ATK to a random enemy within the lightning storm every <@ba.vup>{interval}</> seconds; <@ba.rem>Can store {ct} charges</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 30,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_pasngr_3",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 1.5
+				},
+				{
+					"key": "duration",
+					"value": 4
+				},
+				{
+					"key": "ct",
+					"value": 2
+				},
+				{
+					"key": "projectile_delay_time",
+					"value": 4
+				},
+				{
+					"key": "interval",
+					"value": 0.5
+				},
+				{
+					"key": "chain.max_target",
+					"value": 4
+				},
+				{
+					"key": "sluggish",
+					"value": 0.2
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"skillId": "sktok_sleep",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "Rescue Rope",
+			"rangeId": null,
+			"description": "Immediately retreat the targeted Operator and reduce their Redeployment Time by <@ba.vup>80%</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "sktok_sleep",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "respawn_time",
+					"value": 0.2
+				}
+			]
+		}
+	]
+}

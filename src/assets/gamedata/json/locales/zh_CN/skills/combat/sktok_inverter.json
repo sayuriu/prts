@@ -1,0 +1,29 @@
+{
+	"skillId": "sktok_inverter",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "撼动现实",
+			"rangeId": "x-1",
+			"description": "部署后爆炸，对周围四格所有敌人造成<@ba.vup>{attack@damage}</>法术伤害，并使范围内所有敌人与晦明之印<@ba.vup>属性变化</>",
+			"skillType": 0,
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 0,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": "sktok_inverter",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "attack@damage",
+					"value": 500
+				}
+			]
+		}
+	]
+}

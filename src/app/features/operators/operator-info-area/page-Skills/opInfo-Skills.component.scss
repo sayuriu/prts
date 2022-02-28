@@ -24,7 +24,7 @@
                 all 0.5s $forceful,
                 max-height 0.3s $forceful,
                 background-color 0.5s $forceful;
-            #op-skill-img img {
+            #op-skill-img {
                 float: left;
                 margin: -12px 0 0 15px;
                 opacity: .5;
@@ -43,7 +43,7 @@
                     margin-right: 10px;
                     line-height: 80px;
                 }
-                #op-skill-img img {
+                #op-skill-img {
                     opacity: 1;
                     margin: 15px;
                     height: 90px;
@@ -53,5 +53,31 @@
                 background-color: hsla(0, 0%, 27%, 0.7);
             }
         }
+    }
+}
+
+#op-skill-overview {
+    margin: 15px 20px 15px -8px;
+}
+#op-skill-name {
+    opacity: 0;
+    margin-bottom: 15px;
+    transform: translateX(30px);
+    transition: all 0.5s $forceful;
+    background-color:hsl(0, 0%, 24%);
+    p {
+        margin: 0 7px;
+        font-size: 26px;
+        color:hsl(0, 0%, 95%)
+    }
+}
+#op-skill-characteristics {
+    opacity: 0;
+}
+
+#skill-list .skill.visible {
+    #op-skill-name {
+        opacity: 1;
+        transform: translateX(0);
     }
 }

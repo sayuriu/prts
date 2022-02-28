@@ -1,0 +1,29 @@
+{
+	"skillId": "sktok_tree",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "천연 은폐",
+			"rangeId": "x-5",
+			"description": "인접한 아군 유닛의 방어력이 <@ba.vup>상승</>, <로도스 아일랜드 임시 직원>에게 정리된 후엔 원거리 유닛을 배치할 수 있게 된다",
+			"skillType": 0,
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 0,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": "sktok_tree",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "def",
+					"value": 150
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,347 @@
+{
+	"skillId": "skchr_takila_2",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "剑走偏锋",
+			"rangeId": "2-3",
+			"description": "攻击范围<@ba.vup>扩大</>，同时攻击<@ba.vup>2</>名敌人，每次攻击造成相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害，<$ba.charged>蓄力</>额外效果：改为同时攻击<@ba.vup>3</>名敌人，持续时间延长为<@ba.vup>{enhance_duration}</>秒\\n<@ba.rem>可主动关闭技能（期间可随时停止技能）</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 30,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_takila_2",
+			"duration": 15,
+			"blackboard": [
+				{
+					"key": "attack@atk_scale",
+					"value": 1.4
+				},
+				{
+					"key": "enhance_duration",
+					"value": 30
+				},
+				{
+					"key": "attack@plus_max_target",
+					"value": 3
+				},
+				{
+					"key": "attack@plus_atk_scale",
+					"value": 1.4
+				}
+			]
+		},
+		{
+			"name": "剑走偏锋",
+			"rangeId": "2-3",
+			"description": "攻击范围<@ba.vup>扩大</>，同时攻击<@ba.vup>2</>名敌人，每次攻击造成相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害，<$ba.charged>蓄力</>额外效果：改为同时攻击<@ba.vup>3</>名敌人，持续时间延长为<@ba.vup>{enhance_duration}</>秒\\n<@ba.rem>可主动关闭技能（期间可随时停止技能）</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 30,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_takila_2",
+			"duration": 15,
+			"blackboard": [
+				{
+					"key": "attack@atk_scale",
+					"value": 1.5
+				},
+				{
+					"key": "enhance_duration",
+					"value": 30
+				},
+				{
+					"key": "attack@plus_max_target",
+					"value": 3
+				},
+				{
+					"key": "attack@plus_atk_scale",
+					"value": 1.5
+				}
+			]
+		},
+		{
+			"name": "剑走偏锋",
+			"rangeId": "2-3",
+			"description": "攻击范围<@ba.vup>扩大</>，同时攻击<@ba.vup>2</>名敌人，每次攻击造成相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害，<$ba.charged>蓄力</>额外效果：改为同时攻击<@ba.vup>3</>名敌人，持续时间延长为<@ba.vup>{enhance_duration}</>秒\\n<@ba.rem>可主动关闭技能（期间可随时停止技能）</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 30,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_takila_2",
+			"duration": 15,
+			"blackboard": [
+				{
+					"key": "attack@atk_scale",
+					"value": 1.6
+				},
+				{
+					"key": "enhance_duration",
+					"value": 30
+				},
+				{
+					"key": "attack@plus_max_target",
+					"value": 3
+				},
+				{
+					"key": "attack@plus_atk_scale",
+					"value": 1.6
+				}
+			]
+		},
+		{
+			"name": "剑走偏锋",
+			"rangeId": "2-3",
+			"description": "攻击范围<@ba.vup>扩大</>，同时攻击<@ba.vup>2</>名敌人，每次攻击造成相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害，<$ba.charged>蓄力</>额外效果：改为同时攻击<@ba.vup>3</>名敌人，持续时间延长为<@ba.vup>{enhance_duration}</>秒\\n<@ba.rem>可主动关闭技能（期间可随时停止技能）</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 25,
+				"initSp": 5,
+				"increment": 1
+			},
+			"prefabId": "skchr_takila_2",
+			"duration": 15,
+			"blackboard": [
+				{
+					"key": "attack@atk_scale",
+					"value": 1.7
+				},
+				{
+					"key": "enhance_duration",
+					"value": 30
+				},
+				{
+					"key": "attack@plus_max_target",
+					"value": 3
+				},
+				{
+					"key": "attack@plus_atk_scale",
+					"value": 1.7
+				}
+			]
+		},
+		{
+			"name": "剑走偏锋",
+			"rangeId": "2-3",
+			"description": "攻击范围<@ba.vup>扩大</>，同时攻击<@ba.vup>2</>名敌人，每次攻击造成相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害，<$ba.charged>蓄力</>额外效果：改为同时攻击<@ba.vup>3</>名敌人，持续时间延长为<@ba.vup>{enhance_duration}</>秒\\n<@ba.rem>可主动关闭技能（期间可随时停止技能）</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 25,
+				"initSp": 5,
+				"increment": 1
+			},
+			"prefabId": "skchr_takila_2",
+			"duration": 15,
+			"blackboard": [
+				{
+					"key": "attack@atk_scale",
+					"value": 1.8
+				},
+				{
+					"key": "enhance_duration",
+					"value": 30
+				},
+				{
+					"key": "attack@plus_max_target",
+					"value": 3
+				},
+				{
+					"key": "attack@plus_atk_scale",
+					"value": 1.8
+				}
+			]
+		},
+		{
+			"name": "剑走偏锋",
+			"rangeId": "2-3",
+			"description": "攻击范围<@ba.vup>扩大</>，同时攻击<@ba.vup>2</>名敌人，每次攻击造成相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害，<$ba.charged>蓄力</>额外效果：改为同时攻击<@ba.vup>3</>名敌人，持续时间延长为<@ba.vup>{enhance_duration}</>秒\\n<@ba.rem>可主动关闭技能（期间可随时停止技能）</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 25,
+				"initSp": 5,
+				"increment": 1
+			},
+			"prefabId": "skchr_takila_2",
+			"duration": 15,
+			"blackboard": [
+				{
+					"key": "attack@atk_scale",
+					"value": 1.9
+				},
+				{
+					"key": "enhance_duration",
+					"value": 30
+				},
+				{
+					"key": "attack@plus_max_target",
+					"value": 3
+				},
+				{
+					"key": "attack@plus_atk_scale",
+					"value": 1.9
+				}
+			]
+		},
+		{
+			"name": "剑走偏锋",
+			"rangeId": "2-3",
+			"description": "攻击范围<@ba.vup>扩大</>，同时攻击<@ba.vup>2</>名敌人，每次攻击造成相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害，<$ba.charged>蓄力</>额外效果：改为同时攻击<@ba.vup>3</>名敌人，持续时间延长为<@ba.vup>{enhance_duration}</>秒\\n<@ba.rem>可主动关闭技能（期间可随时停止技能）</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 20,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_takila_2",
+			"duration": 15,
+			"blackboard": [
+				{
+					"key": "attack@atk_scale",
+					"value": 2
+				},
+				{
+					"key": "enhance_duration",
+					"value": 30
+				},
+				{
+					"key": "attack@plus_max_target",
+					"value": 3
+				},
+				{
+					"key": "attack@plus_atk_scale",
+					"value": 2
+				}
+			]
+		},
+		{
+			"name": "剑走偏锋",
+			"rangeId": "2-3",
+			"description": "攻击范围<@ba.vup>扩大</>，同时攻击<@ba.vup>2</>名敌人，每次攻击造成相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害，<$ba.charged>蓄力</>额外效果：改为同时攻击<@ba.vup>3</>名敌人，持续时间延长为<@ba.vup>{enhance_duration}</>秒\\n<@ba.rem>可主动关闭技能（期间可随时停止技能）</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 20,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_takila_2",
+			"duration": 15,
+			"blackboard": [
+				{
+					"key": "attack@atk_scale",
+					"value": 2.1
+				},
+				{
+					"key": "enhance_duration",
+					"value": 30
+				},
+				{
+					"key": "attack@plus_max_target",
+					"value": 3
+				},
+				{
+					"key": "attack@plus_atk_scale",
+					"value": 2.1
+				}
+			]
+		},
+		{
+			"name": "剑走偏锋",
+			"rangeId": "2-3",
+			"description": "攻击范围<@ba.vup>扩大</>，同时攻击<@ba.vup>2</>名敌人，每次攻击造成相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害，<$ba.charged>蓄力</>额外效果：改为同时攻击<@ba.vup>3</>名敌人，持续时间延长为<@ba.vup>{enhance_duration}</>秒\\n<@ba.rem>可主动关闭技能（期间可随时停止技能）</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 20,
+				"initSp": 12,
+				"increment": 1
+			},
+			"prefabId": "skchr_takila_2",
+			"duration": 15,
+			"blackboard": [
+				{
+					"key": "attack@atk_scale",
+					"value": 2.2
+				},
+				{
+					"key": "enhance_duration",
+					"value": 30
+				},
+				{
+					"key": "attack@plus_max_target",
+					"value": 3
+				},
+				{
+					"key": "attack@plus_atk_scale",
+					"value": 2.2
+				}
+			]
+		},
+		{
+			"name": "剑走偏锋",
+			"rangeId": "2-3",
+			"description": "攻击范围<@ba.vup>扩大</>，同时攻击<@ba.vup>2</>名敌人，每次攻击造成相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害，<$ba.charged>蓄力</>额外效果：改为同时攻击<@ba.vup>3</>名敌人，持续时间延长为<@ba.vup>{enhance_duration}</>秒\\n<@ba.rem>可主动关闭技能（期间可随时停止技能）</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 20,
+				"initSp": 12,
+				"increment": 1
+			},
+			"prefabId": "skchr_takila_2",
+			"duration": 15,
+			"blackboard": [
+				{
+					"key": "attack@atk_scale",
+					"value": 2.3
+				},
+				{
+					"key": "enhance_duration",
+					"value": 30
+				},
+				{
+					"key": "attack@plus_max_target",
+					"value": 3
+				},
+				{
+					"key": "attack@plus_atk_scale",
+					"value": 2.3
+				}
+			]
+		}
+	]
+}

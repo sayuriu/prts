@@ -1,0 +1,347 @@
+{
+	"skillId": "skchr_tuye_2",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "Cardiac Stimulant",
+			"rangeId": null,
+			"description": "ATK <@ba.vup>+{atk:0%}</>, however only heal allies with less than 50% HP. When allies within range fall below <@ba.vup>{max_hp_ratio:0%}</> HP, immediately heal them for <@ba.vup>{heal_scale:0%}</> of Tuye's ATK. The skill ends when this effect is triggered 3 times. <@ba.rem>Unlimited duration</>",
+			"skillType": 2,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 50,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_tuye_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.1
+				},
+				{
+					"key": "max_hp_ratio",
+					"value": 0.2
+				},
+				{
+					"key": "heal_scale",
+					"value": 3
+				},
+				{
+					"key": "skill_interval",
+					"value": 1
+				}
+			]
+		},
+		{
+			"name": "Cardiac Stimulant",
+			"rangeId": null,
+			"description": "ATK <@ba.vup>+{atk:0%}</>, however only heal allies with less than 50% HP. When allies within range fall below <@ba.vup>{max_hp_ratio:0%}</> HP, immediately heal them for <@ba.vup>{heal_scale:0%}</> of Tuye's ATK. The skill ends when this effect is triggered 3 times. <@ba.rem>Unlimited duration</>",
+			"skillType": 2,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 50,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_tuye_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.15
+				},
+				{
+					"key": "max_hp_ratio",
+					"value": 0.2
+				},
+				{
+					"key": "heal_scale",
+					"value": 3
+				},
+				{
+					"key": "skill_interval",
+					"value": 1
+				}
+			]
+		},
+		{
+			"name": "Cardiac Stimulant",
+			"rangeId": null,
+			"description": "ATK <@ba.vup>+{atk:0%}</>, however only heal allies with less than 50% HP. When allies within range fall below <@ba.vup>{max_hp_ratio:0%}</> HP, immediately heal them for <@ba.vup>{heal_scale:0%}</> of Tuye's ATK. The skill ends when this effect is triggered 3 times. <@ba.rem>Unlimited duration</>",
+			"skillType": 2,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 50,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_tuye_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.2
+				},
+				{
+					"key": "max_hp_ratio",
+					"value": 0.2
+				},
+				{
+					"key": "heal_scale",
+					"value": 3
+				},
+				{
+					"key": "skill_interval",
+					"value": 1
+				}
+			]
+		},
+		{
+			"name": "Cardiac Stimulant",
+			"rangeId": null,
+			"description": "ATK <@ba.vup>+{atk:0%}</>, however only heal allies with less than 50% HP. When allies within range fall below <@ba.vup>{max_hp_ratio:0%}</> HP, immediately heal them for <@ba.vup>{heal_scale:0%}</> of Tuye's ATK. The skill ends when this effect is triggered 3 times. <@ba.rem>Unlimited duration</>",
+			"skillType": 2,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 50,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_tuye_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.25
+				},
+				{
+					"key": "max_hp_ratio",
+					"value": 0.2
+				},
+				{
+					"key": "heal_scale",
+					"value": 3
+				},
+				{
+					"key": "skill_interval",
+					"value": 1
+				}
+			]
+		},
+		{
+			"name": "Cardiac Stimulant",
+			"rangeId": null,
+			"description": "ATK <@ba.vup>+{atk:0%}</>, however only heal allies with less than 50% HP. When allies within range fall below <@ba.vup>{max_hp_ratio:0%}</> HP, immediately heal them for <@ba.vup>{heal_scale:0%}</> of Tuye's ATK. The skill ends when this effect is triggered 3 times. <@ba.rem>Unlimited duration</>",
+			"skillType": 2,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 50,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_tuye_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.3
+				},
+				{
+					"key": "max_hp_ratio",
+					"value": 0.2
+				},
+				{
+					"key": "heal_scale",
+					"value": 3
+				},
+				{
+					"key": "skill_interval",
+					"value": 1
+				}
+			]
+		},
+		{
+			"name": "Cardiac Stimulant",
+			"rangeId": null,
+			"description": "ATK <@ba.vup>+{atk:0%}</>, however only heal allies with less than 50% HP. When allies within range fall below <@ba.vup>{max_hp_ratio:0%}</> HP, immediately heal them for <@ba.vup>{heal_scale:0%}</> of Tuye's ATK. The skill ends when this effect is triggered 3 times. <@ba.rem>Unlimited duration</>",
+			"skillType": 2,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 50,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_tuye_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.35
+				},
+				{
+					"key": "max_hp_ratio",
+					"value": 0.2
+				},
+				{
+					"key": "heal_scale",
+					"value": 3
+				},
+				{
+					"key": "skill_interval",
+					"value": 1
+				}
+			]
+		},
+		{
+			"name": "Cardiac Stimulant",
+			"rangeId": null,
+			"description": "ATK <@ba.vup>+{atk:0%}</>, however only heal allies with less than 50% HP. When allies within range fall below <@ba.vup>{max_hp_ratio:0%}</> HP, immediately heal them for <@ba.vup>{heal_scale:0%}</> of Tuye's ATK. The skill ends when this effect is triggered 3 times. <@ba.rem>Unlimited duration</>",
+			"skillType": 2,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 50,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_tuye_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.4
+				},
+				{
+					"key": "max_hp_ratio",
+					"value": 0.2
+				},
+				{
+					"key": "heal_scale",
+					"value": 3
+				},
+				{
+					"key": "skill_interval",
+					"value": 1
+				}
+			]
+		},
+		{
+			"name": "Cardiac Stimulant",
+			"rangeId": null,
+			"description": "ATK <@ba.vup>+{atk:0%}</>, however only heal allies with less than 50% HP. When allies within range fall below <@ba.vup>{max_hp_ratio:0%}</> HP, immediately heal them for <@ba.vup>{heal_scale:0%}</> of Tuye's ATK. The skill ends when this effect is triggered 3 times. <@ba.rem>Unlimited duration</>",
+			"skillType": 2,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 50,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_tuye_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.45
+				},
+				{
+					"key": "max_hp_ratio",
+					"value": 0.2
+				},
+				{
+					"key": "heal_scale",
+					"value": 3
+				},
+				{
+					"key": "skill_interval",
+					"value": 1
+				}
+			]
+		},
+		{
+			"name": "Cardiac Stimulant",
+			"rangeId": null,
+			"description": "ATK <@ba.vup>+{atk:0%}</>, however only heal allies with less than 50% HP. When allies within range fall below <@ba.vup>{max_hp_ratio:0%}</> HP, immediately heal them for <@ba.vup>{heal_scale:0%}</> of Tuye's ATK. The skill ends when this effect is triggered 3 times. <@ba.rem>Unlimited duration</>",
+			"skillType": 2,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 50,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_tuye_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.5
+				},
+				{
+					"key": "max_hp_ratio",
+					"value": 0.2
+				},
+				{
+					"key": "heal_scale",
+					"value": 3
+				},
+				{
+					"key": "skill_interval",
+					"value": 1
+				}
+			]
+		},
+		{
+			"name": "Cardiac Stimulant",
+			"rangeId": null,
+			"description": "ATK <@ba.vup>+{atk:0%}</>, however only heal allies with less than 50% HP. When allies within range fall below <@ba.vup>{max_hp_ratio:0%}</> HP, immediately heal them for <@ba.vup>{heal_scale:0%}</> of Tuye's ATK. The skill ends when this effect is triggered 3 times. <@ba.rem>Unlimited duration</>",
+			"skillType": 2,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 50,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_tuye_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.6
+				},
+				{
+					"key": "max_hp_ratio",
+					"value": 0.2
+				},
+				{
+					"key": "heal_scale",
+					"value": 3
+				},
+				{
+					"key": "skill_interval",
+					"value": 1
+				}
+			]
+		}
+	]
+}

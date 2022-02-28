@@ -1,0 +1,107 @@
+{
+	"skillId": "sktok_tidectrl_2",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "대폭 만조",
+			"rangeId": null,
+			"description": "-",
+			"skillType": 2,
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 0,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": "sktok_tidectrl_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "skill_max_trigger_time",
+					"value": 1
+				},
+				{
+					"key": "sea_drown[enemy].damage",
+					"value": 100
+				},
+				{
+					"key": "sea_drown[enemy].attack_speed",
+					"value": -0.6
+				},
+				{
+					"key": "sea_drown[enemy].move_speed",
+					"value": 0.6
+				},
+				{
+					"key": "sea_drown[ally][attack_speed_down].attack_speed",
+					"value": -0.6
+				},
+				{
+					"key": "sea_drown[ally].ep_damage_ratio",
+					"value": 0.25
+				},
+				{
+					"key": "sea_drown[ally].value",
+					"value": 40
+				},
+				{
+					"key": "duration",
+					"value": 20
+				}
+			]
+		},
+		{
+			"name": "대폭 만조",
+			"rangeId": null,
+			"description": "-",
+			"skillType": 2,
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 0,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": "sktok_tidectrl_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "skill_max_trigger_time",
+					"value": 1
+				},
+				{
+					"key": "sea_drown[enemy].damage",
+					"value": 100
+				},
+				{
+					"key": "sea_drown[enemy].attack_speed",
+					"value": -0.6
+				},
+				{
+					"key": "sea_drown[enemy].move_speed",
+					"value": 0.6
+				},
+				{
+					"key": "sea_drown[ally][attack_speed_down].attack_speed",
+					"value": -0.8
+				},
+				{
+					"key": "sea_drown[ally].ep_damage_ratio",
+					"value": 0.25
+				},
+				{
+					"key": "sea_drown[ally].value",
+					"value": 40
+				},
+				{
+					"key": "duration",
+					"value": 20
+				}
+			]
+		}
+	]
+}

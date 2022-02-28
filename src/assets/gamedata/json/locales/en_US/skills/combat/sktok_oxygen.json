@@ -1,0 +1,24 @@
+{
+	"skillId": "sktok_oxygen",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "Erosion-Resistant Coating Application Device",
+			"rangeId": null,
+			"description": "Grants immunity to 'Erosion' to the allied unit in the tile ahead ('Erosion': Reduced ASPD, receives a certain amount of <$ba.dt.erosion>Corrosion Damage</> every second and receives additional <$ba.dt.erosion>Corrosion Damage</> proportional to the enemy's ATK when attacked)",
+			"skillType": 0,
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 0,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": "sktok_oxygen",
+			"duration": -1,
+			"blackboard": []
+		}
+	]
+}

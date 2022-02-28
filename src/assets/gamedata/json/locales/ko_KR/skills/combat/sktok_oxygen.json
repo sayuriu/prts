@@ -1,0 +1,24 @@
+{
+	"skillId": "sktok_oxygen",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "수식 방지 코팅 장치",
+			"rangeId": null,
+			"description": "전방 한 칸의 아군 유닛이 '수식' 상태에 면역 (수식: 공격 속도 감소, 초당 일정량의 <$ba.dt.erosion>침식 피해</>를 받으며, 피격 시 적 공격력의 일정 비례에 해당하는 <$ba.dt.erosion>침식 피해</>를 추가로 받음)",
+			"skillType": 0,
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 0,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": "sktok_oxygen",
+			"duration": -1,
+			"blackboard": []
+		}
+	]
+}

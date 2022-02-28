@@ -1,0 +1,33 @@
+{
+	"skillId": "sktok_prison",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "禁固機能起動！",
+			"rangeId": "3-15",
+			"description": "コスト<@ba.vup>{cost}</>で使用可能、範囲内の敵全員を3秒間<$ba.stun>スタン</>させ、禁固状態にする（すでに禁固状態中の敵の攻撃回数はリセットされない）",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 25,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "sktok_prison",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "stun",
+					"value": 2
+				},
+				{
+					"key": "cost",
+					"value": 5
+				}
+			]
+		}
+	]
+}

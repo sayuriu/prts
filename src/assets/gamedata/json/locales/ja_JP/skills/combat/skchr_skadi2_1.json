@@ -1,0 +1,307 @@
+{
+	"skillId": "skchr_skadi2_1",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "同帰殊塗の吟",
+			"rangeId": null,
+			"description": "自身の最大HP<@ba.vup>+{max_hp:0%}</>、HPを最大値まで回復し、特性の効果が<@ba.vup>{attack@atk_to_hp_recovery_ratio:0%}</>まで上昇し、濁心スカジが攻撃範囲内の味方全員の被ダメージの<@ba.vup>{damage_resistance:0%}</>を代わりに受ける（同種の効果は高いほうのみ適用）",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 60,
+				"initSp": 30,
+				"increment": 1
+			},
+			"prefabId": "skchr_skadi2_1",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "max_hp",
+					"value": 0.8
+				},
+				{
+					"key": "attack@atk_to_hp_recovery_ratio",
+					"value": 0.4
+				},
+				{
+					"key": "damage_resistance",
+					"value": 0.5
+				}
+			]
+		},
+		{
+			"name": "同帰殊塗の吟",
+			"rangeId": null,
+			"description": "自身の最大HP<@ba.vup>+{max_hp:0%}</>、HPを最大値まで回復し、特性の効果が<@ba.vup>{attack@atk_to_hp_recovery_ratio:0%}</>まで上昇し、濁心スカジが攻撃範囲内の味方全員の被ダメージの<@ba.vup>{damage_resistance:0%}</>を代わりに受ける（同種の効果は高いほうのみ適用）",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 59,
+				"initSp": 30,
+				"increment": 1
+			},
+			"prefabId": "skchr_skadi2_1",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "max_hp",
+					"value": 0.9
+				},
+				{
+					"key": "attack@atk_to_hp_recovery_ratio",
+					"value": 0.4
+				},
+				{
+					"key": "damage_resistance",
+					"value": 0.5
+				}
+			]
+		},
+		{
+			"name": "同帰殊塗の吟",
+			"rangeId": null,
+			"description": "自身の最大HP<@ba.vup>+{max_hp:0%}</>、HPを最大値まで回復し、特性の効果が<@ba.vup>{attack@atk_to_hp_recovery_ratio:0%}</>まで上昇し、濁心スカジが攻撃範囲内の味方全員の被ダメージの<@ba.vup>{damage_resistance:0%}</>を代わりに受ける（同種の効果は高いほうのみ適用）",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 58,
+				"initSp": 30,
+				"increment": 1
+			},
+			"prefabId": "skchr_skadi2_1",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "max_hp",
+					"value": 1
+				},
+				{
+					"key": "attack@atk_to_hp_recovery_ratio",
+					"value": 0.4
+				},
+				{
+					"key": "damage_resistance",
+					"value": 0.5
+				}
+			]
+		},
+		{
+			"name": "同帰殊塗の吟",
+			"rangeId": null,
+			"description": "自身の最大HP<@ba.vup>+{max_hp:0%}</>、HPを最大値まで回復し、特性の効果が<@ba.vup>{attack@atk_to_hp_recovery_ratio:0%}</>まで上昇し、濁心スカジが攻撃範囲内の味方全員の被ダメージの<@ba.vup>{damage_resistance:0%}</>を代わりに受ける（同種の効果は高いほうのみ適用）",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 57,
+				"initSp": 30,
+				"increment": 1
+			},
+			"prefabId": "skchr_skadi2_1",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "max_hp",
+					"value": 1.1
+				},
+				{
+					"key": "attack@atk_to_hp_recovery_ratio",
+					"value": 0.5
+				},
+				{
+					"key": "damage_resistance",
+					"value": 0.5
+				}
+			]
+		},
+		{
+			"name": "同帰殊塗の吟",
+			"rangeId": null,
+			"description": "自身の最大HP<@ba.vup>+{max_hp:0%}</>、HPを最大値まで回復し、特性の効果が<@ba.vup>{attack@atk_to_hp_recovery_ratio:0%}</>まで上昇し、濁心スカジが攻撃範囲内の味方全員の被ダメージの<@ba.vup>{damage_resistance:0%}</>を代わりに受ける（同種の効果は高いほうのみ適用）",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 56,
+				"initSp": 30,
+				"increment": 1
+			},
+			"prefabId": "skchr_skadi2_1",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "max_hp",
+					"value": 1.2
+				},
+				{
+					"key": "attack@atk_to_hp_recovery_ratio",
+					"value": 0.5
+				},
+				{
+					"key": "damage_resistance",
+					"value": 0.5
+				}
+			]
+		},
+		{
+			"name": "同帰殊塗の吟",
+			"rangeId": null,
+			"description": "自身の最大HP<@ba.vup>+{max_hp:0%}</>、HPを最大値まで回復し、特性の効果が<@ba.vup>{attack@atk_to_hp_recovery_ratio:0%}</>まで上昇し、濁心スカジが攻撃範囲内の味方全員の被ダメージの<@ba.vup>{damage_resistance:0%}</>を代わりに受ける（同種の効果は高いほうのみ適用）",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 55,
+				"initSp": 30,
+				"increment": 1
+			},
+			"prefabId": "skchr_skadi2_1",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "max_hp",
+					"value": 1.3
+				},
+				{
+					"key": "attack@atk_to_hp_recovery_ratio",
+					"value": 0.5
+				},
+				{
+					"key": "damage_resistance",
+					"value": 0.5
+				}
+			]
+		},
+		{
+			"name": "同帰殊塗の吟",
+			"rangeId": null,
+			"description": "自身の最大HP<@ba.vup>+{max_hp:0%}</>、HPを最大値まで回復し、特性の効果が<@ba.vup>{attack@atk_to_hp_recovery_ratio:0%}</>まで上昇し、濁心スカジが攻撃範囲内の味方全員の被ダメージの<@ba.vup>{damage_resistance:0%}</>を代わりに受ける（同種の効果は高いほうのみ適用）",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 54,
+				"initSp": 30,
+				"increment": 1
+			},
+			"prefabId": "skchr_skadi2_1",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "max_hp",
+					"value": 1.4
+				},
+				{
+					"key": "attack@atk_to_hp_recovery_ratio",
+					"value": 0.6
+				},
+				{
+					"key": "damage_resistance",
+					"value": 0.5
+				}
+			]
+		},
+		{
+			"name": "同帰殊塗の吟",
+			"rangeId": null,
+			"description": "自身の最大HP<@ba.vup>+{max_hp:0%}</>、HPを最大値まで回復し、特性の効果が<@ba.vup>{attack@atk_to_hp_recovery_ratio:0%}</>まで上昇し、濁心スカジが攻撃範囲内の味方全員の被ダメージの<@ba.vup>{damage_resistance:0%}</>を代わりに受ける（同種の効果は高いほうのみ適用）",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 53,
+				"initSp": 30,
+				"increment": 1
+			},
+			"prefabId": "skchr_skadi2_1",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "max_hp",
+					"value": 1.5
+				},
+				{
+					"key": "attack@atk_to_hp_recovery_ratio",
+					"value": 0.7
+				},
+				{
+					"key": "damage_resistance",
+					"value": 0.5
+				}
+			]
+		},
+		{
+			"name": "同帰殊塗の吟",
+			"rangeId": null,
+			"description": "自身の最大HP<@ba.vup>+{max_hp:0%}</>、HPを最大値まで回復し、特性の効果が<@ba.vup>{attack@atk_to_hp_recovery_ratio:0%}</>まで上昇し、濁心スカジが攻撃範囲内の味方全員の被ダメージの<@ba.vup>{damage_resistance:0%}</>を代わりに受ける（同種の効果は高いほうのみ適用）",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 52,
+				"initSp": 30,
+				"increment": 1
+			},
+			"prefabId": "skchr_skadi2_1",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "max_hp",
+					"value": 1.6
+				},
+				{
+					"key": "attack@atk_to_hp_recovery_ratio",
+					"value": 0.7
+				},
+				{
+					"key": "damage_resistance",
+					"value": 0.5
+				}
+			]
+		},
+		{
+			"name": "同帰殊塗の吟",
+			"rangeId": null,
+			"description": "自身の最大HP<@ba.vup>+{max_hp:0%}</>、HPを最大値まで回復し、特性の効果が<@ba.vup>{attack@atk_to_hp_recovery_ratio:0%}</>まで上昇し、濁心スカジが攻撃範囲内の味方全員の被ダメージの<@ba.vup>{damage_resistance:0%}</>を代わりに受ける（同種の効果は高いほうのみ適用）",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 50,
+				"initSp": 30,
+				"increment": 1
+			},
+			"prefabId": "skchr_skadi2_1",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "max_hp",
+					"value": 1.7
+				},
+				{
+					"key": "attack@atk_to_hp_recovery_ratio",
+					"value": 0.8
+				},
+				{
+					"key": "damage_resistance",
+					"value": 0.5
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,267 @@
+{
+	"skillId": "skchr_zebra_1",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "응급 위장",
+			"rangeId": "x-4",
+			"description": "다음 공격이 주위 HP가 50% 미만인 아군 오퍼레이터에게 <$ba.camou>위장</> 효과를 부여하고, 매초 HP를 <@ba.vup>{HP_RECOVERY_PER_SEC}</> 회복, <@ba.vup>{duration}</>초 지속한다(해당 효과 적용 중인 상대에게 중복 시전 불가).\n<@ba.rem>{cnt}회 충전 가능</>",
+			"skillType": 2,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 7,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_zebra_1",
+			"duration": 4,
+			"blackboard": [
+				{
+					"key": "hp_recovery_per_sec",
+					"value": 30
+				},
+				{
+					"key": "cnt",
+					"value": 1
+				}
+			]
+		},
+		{
+			"name": "응급 위장",
+			"rangeId": "x-4",
+			"description": "다음 공격이 주위 HP가 50% 미만인 아군 오퍼레이터에게 <$ba.camou>위장</> 효과를 부여하고, 매초 HP를 <@ba.vup>{HP_RECOVERY_PER_SEC}</> 회복, <@ba.vup>{duration}</>초 지속한다(해당 효과 적용 중인 상대에게 중복 시전 불가).\n<@ba.rem>{cnt}회 충전 가능</>",
+			"skillType": 2,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 7,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_zebra_1",
+			"duration": 4,
+			"blackboard": [
+				{
+					"key": "hp_recovery_per_sec",
+					"value": 33
+				},
+				{
+					"key": "cnt",
+					"value": 1
+				}
+			]
+		},
+		{
+			"name": "응급 위장",
+			"rangeId": "x-4",
+			"description": "다음 공격이 주위 HP가 50% 미만인 아군 오퍼레이터에게 <$ba.camou>위장</> 효과를 부여하고, 매초 HP를 <@ba.vup>{HP_RECOVERY_PER_SEC}</> 회복, <@ba.vup>{duration}</>초 지속한다(해당 효과 적용 중인 상대에게 중복 시전 불가).\n<@ba.rem>{cnt}회 충전 가능</>",
+			"skillType": 2,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 7,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_zebra_1",
+			"duration": 4,
+			"blackboard": [
+				{
+					"key": "hp_recovery_per_sec",
+					"value": 36
+				},
+				{
+					"key": "cnt",
+					"value": 1
+				}
+			]
+		},
+		{
+			"name": "응급 위장",
+			"rangeId": "x-4",
+			"description": "다음 공격이 주위 HP가 50% 미만인 아군 오퍼레이터에게 <$ba.camou>위장</> 효과를 부여하고, 매초 HP를 <@ba.vup>{HP_RECOVERY_PER_SEC}</> 회복, <@ba.vup>{duration}</>초 지속한다(해당 효과 적용 중인 상대에게 중복 시전 불가).\n<@ba.rem>{cnt}회 충전 가능</>",
+			"skillType": 2,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 6,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_zebra_1",
+			"duration": 4,
+			"blackboard": [
+				{
+					"key": "hp_recovery_per_sec",
+					"value": 40
+				},
+				{
+					"key": "cnt",
+					"value": 1
+				}
+			]
+		},
+		{
+			"name": "응급 위장",
+			"rangeId": "x-4",
+			"description": "다음 공격이 주위 HP가 50% 미만인 아군 오퍼레이터에게 <$ba.camou>위장</> 효과를 부여하고, 매초 HP를 <@ba.vup>{HP_RECOVERY_PER_SEC}</> 회복, <@ba.vup>{duration}</>초 지속한다(해당 효과 적용 중인 상대에게 중복 시전 불가).\n<@ba.rem>{cnt}회 충전 가능</>",
+			"skillType": 2,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 6,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_zebra_1",
+			"duration": 4,
+			"blackboard": [
+				{
+					"key": "hp_recovery_per_sec",
+					"value": 43
+				},
+				{
+					"key": "cnt",
+					"value": 1
+				}
+			]
+		},
+		{
+			"name": "응급 위장",
+			"rangeId": "x-4",
+			"description": "다음 공격이 주위 HP가 50% 미만인 아군 오퍼레이터에게 <$ba.camou>위장</> 효과를 부여하고, 매초 HP를 <@ba.vup>{HP_RECOVERY_PER_SEC}</> 회복, <@ba.vup>{duration}</>초 지속한다(해당 효과 적용 중인 상대에게 중복 시전 불가).\n<@ba.rem>{cnt}회 충전 가능</>",
+			"skillType": 2,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 6,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_zebra_1",
+			"duration": 4,
+			"blackboard": [
+				{
+					"key": "hp_recovery_per_sec",
+					"value": 46
+				},
+				{
+					"key": "cnt",
+					"value": 1
+				}
+			]
+		},
+		{
+			"name": "응급 위장",
+			"rangeId": "x-4",
+			"description": "다음 공격이 주위 HP가 50% 미만인 아군 오퍼레이터에게 <$ba.camou>위장</> 효과를 부여하고, 매초 HP를 <@ba.vup>{HP_RECOVERY_PER_SEC}</> 회복, <@ba.vup>{duration}</>초 지속한다(해당 효과 적용 중인 상대에게 중복 시전 불가).\n<@ba.rem>{cnt}회 충전 가능</>",
+			"skillType": 2,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 5,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_zebra_1",
+			"duration": 4,
+			"blackboard": [
+				{
+					"key": "hp_recovery_per_sec",
+					"value": 50
+				},
+				{
+					"key": "cnt",
+					"value": 1
+				}
+			]
+		},
+		{
+			"name": "응급 위장",
+			"rangeId": "x-4",
+			"description": "다음 공격이 주위 HP가 50% 미만인 아군 오퍼레이터에게 <$ba.camou>위장</> 효과를 부여하고, 매초 HP를 <@ba.vup>{HP_RECOVERY_PER_SEC}</> 회복, <@ba.vup>{duration}</>초 지속한다(해당 효과 적용 중인 상대에게 중복 시전 불가).\n<@ba.rem>{cnt}회 충전 가능</>",
+			"skillType": 2,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 5,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_zebra_1",
+			"duration": 4,
+			"blackboard": [
+				{
+					"key": "hp_recovery_per_sec",
+					"value": 55
+				},
+				{
+					"key": "cnt",
+					"value": 2
+				}
+			]
+		},
+		{
+			"name": "응급 위장",
+			"rangeId": "x-4",
+			"description": "다음 공격이 주위 HP가 50% 미만인 아군 오퍼레이터에게 <$ba.camou>위장</> 효과를 부여하고, 매초 HP를 <@ba.vup>{HP_RECOVERY_PER_SEC}</> 회복, <@ba.vup>{duration}</>초 지속한다(해당 효과 적용 중인 상대에게 중복 시전 불가).\n<@ba.rem>{cnt}회 충전 가능</>",
+			"skillType": 2,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 5,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_zebra_1",
+			"duration": 4,
+			"blackboard": [
+				{
+					"key": "hp_recovery_per_sec",
+					"value": 60
+				},
+				{
+					"key": "cnt",
+					"value": 2
+				}
+			]
+		},
+		{
+			"name": "응급 위장",
+			"rangeId": "x-4",
+			"description": "다음 공격이 주위 HP가 50% 미만인 아군 오퍼레이터에게 <$ba.camou>위장</> 효과를 부여하고, 매초 HP를 <@ba.vup>{HP_RECOVERY_PER_SEC}</> 회복, <@ba.vup>{duration}</>초 지속한다(해당 효과 적용 중인 상대에게 중복 시전 불가).\n<@ba.rem>{cnt}회 충전 가능</>",
+			"skillType": 2,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 4,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_zebra_1",
+			"duration": 4,
+			"blackboard": [
+				{
+					"key": "hp_recovery_per_sec",
+					"value": 70
+				},
+				{
+					"key": "cnt",
+					"value": 2
+				}
+			]
+		}
+	]
+}

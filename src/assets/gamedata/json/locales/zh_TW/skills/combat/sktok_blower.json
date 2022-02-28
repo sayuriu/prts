@@ -1,0 +1,45 @@
+{
+	"skillId": "sktok_blower",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "氣流",
+			"rangeId": null,
+			"description": "向前方3格吹出氣流；與氣流<@ba.vup>同向</>/<@ba.vdown>逆向</>部署的幹員攻擊<@ba.vup>提升</>/<@ba.vdown>降低</>；<@ba.vdown>同向</>/<@ba.vup>逆向</>移動的敵人移速<@ba.vdown>提升</>/<@ba.vup>降低</>",
+			"skillType": 0,
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 0,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": "sktok_blower",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "blower_s_character[equal].atk",
+					"value": 0.3
+				},
+				{
+					"key": "blower_s_character[vertical].atk",
+					"value": 0
+				},
+				{
+					"key": "blower_s_character[opposite].atk",
+					"value": -0.3
+				},
+				{
+					"key": "blower_s_enemy[equal].move_speed",
+					"value": 0.8
+				},
+				{
+					"key": "blower_s_enemy[opposite].move_speed",
+					"value": -0.5
+				}
+			]
+		}
+	]
+}

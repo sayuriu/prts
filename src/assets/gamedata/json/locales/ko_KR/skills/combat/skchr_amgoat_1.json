@@ -1,0 +1,307 @@
+{
+	"skillId": "skchr_amgoat_1",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "듀엣 아리아",
+			"rangeId": null,
+			"description": "공격 속도 <@ba.vup>+{amgoat_s_1[a].attack_speed}</>\n2회 이상 스킬 사용 시 공격력 <@ba.vup>+{amgoat_s_1[b].atk:0%}</> 효과 추가",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 45,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_amgoat_1",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "amgoat_s_1[a].attack_speed",
+					"value": 30
+				},
+				{
+					"key": "amgoat_s_1[b].attack_speed",
+					"value": 30
+				},
+				{
+					"key": "amgoat_s_1[b].atk",
+					"value": 0.3
+				}
+			]
+		},
+		{
+			"name": "듀엣 아리아",
+			"rangeId": null,
+			"description": "공격 속도 <@ba.vup>+{amgoat_s_1[a].attack_speed}</>\n2회 이상 스킬 사용 시 공격력 <@ba.vup>+{amgoat_s_1[b].atk:0%}</> 효과 추가",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 44,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_amgoat_1",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "amgoat_s_1[a].attack_speed",
+					"value": 32
+				},
+				{
+					"key": "amgoat_s_1[b].attack_speed",
+					"value": 32
+				},
+				{
+					"key": "amgoat_s_1[b].atk",
+					"value": 0.32
+				}
+			]
+		},
+		{
+			"name": "듀엣 아리아",
+			"rangeId": null,
+			"description": "공격 속도 <@ba.vup>+{amgoat_s_1[a].attack_speed}</>\n2회 이상 스킬 사용 시 공격력 <@ba.vup>+{amgoat_s_1[b].atk:0%}</> 효과 추가",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 43,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_amgoat_1",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "amgoat_s_1[a].attack_speed",
+					"value": 35
+				},
+				{
+					"key": "amgoat_s_1[b].attack_speed",
+					"value": 35
+				},
+				{
+					"key": "amgoat_s_1[b].atk",
+					"value": 0.35
+				}
+			]
+		},
+		{
+			"name": "듀엣 아리아",
+			"rangeId": null,
+			"description": "공격 속도 <@ba.vup>+{amgoat_s_1[a].attack_speed}</>\n2회 이상 스킬 사용 시 공격력 <@ba.vup>+{amgoat_s_1[b].atk:0%}</> 효과 추가",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 42,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_amgoat_1",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "amgoat_s_1[a].attack_speed",
+					"value": 38
+				},
+				{
+					"key": "amgoat_s_1[b].attack_speed",
+					"value": 38
+				},
+				{
+					"key": "amgoat_s_1[b].atk",
+					"value": 0.38
+				}
+			]
+		},
+		{
+			"name": "듀엣 아리아",
+			"rangeId": null,
+			"description": "공격 속도 <@ba.vup>+{amgoat_s_1[a].attack_speed}</>\n2회 이상 스킬 사용 시 공격력 <@ba.vup>+{amgoat_s_1[b].atk:0%}</> 효과 추가",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 41,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_amgoat_1",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "amgoat_s_1[a].attack_speed",
+					"value": 40
+				},
+				{
+					"key": "amgoat_s_1[b].attack_speed",
+					"value": 40
+				},
+				{
+					"key": "amgoat_s_1[b].atk",
+					"value": 0.4
+				}
+			]
+		},
+		{
+			"name": "듀엣 아리아",
+			"rangeId": null,
+			"description": "공격 속도 <@ba.vup>+{amgoat_s_1[a].attack_speed}</>\n2회 이상 스킬 사용 시 공격력 <@ba.vup>+{amgoat_s_1[b].atk:0%}</> 효과 추가",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 40,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_amgoat_1",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "amgoat_s_1[a].attack_speed",
+					"value": 42
+				},
+				{
+					"key": "amgoat_s_1[b].attack_speed",
+					"value": 42
+				},
+				{
+					"key": "amgoat_s_1[b].atk",
+					"value": 0.42
+				}
+			]
+		},
+		{
+			"name": "듀엣 아리아",
+			"rangeId": null,
+			"description": "공격 속도 <@ba.vup>+{amgoat_s_1[a].attack_speed}</>\n2회 이상 스킬 사용 시 공격력 <@ba.vup>+{amgoat_s_1[b].atk:0%}</> 효과 추가",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 39,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_amgoat_1",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "amgoat_s_1[a].attack_speed",
+					"value": 45
+				},
+				{
+					"key": "amgoat_s_1[b].attack_speed",
+					"value": 45
+				},
+				{
+					"key": "amgoat_s_1[b].atk",
+					"value": 0.45
+				}
+			]
+		},
+		{
+			"name": "듀엣 아리아",
+			"rangeId": null,
+			"description": "공격 속도 <@ba.vup>+{amgoat_s_1[a].attack_speed}</>\n2회 이상 스킬 사용 시 공격력 <@ba.vup>+{amgoat_s_1[b].atk:0%}</> 효과 추가",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 38,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_amgoat_1",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "amgoat_s_1[a].attack_speed",
+					"value": 50
+				},
+				{
+					"key": "amgoat_s_1[b].attack_speed",
+					"value": 50
+				},
+				{
+					"key": "amgoat_s_1[b].atk",
+					"value": 0.5
+				}
+			]
+		},
+		{
+			"name": "듀엣 아리아",
+			"rangeId": null,
+			"description": "공격 속도 <@ba.vup>+{amgoat_s_1[a].attack_speed}</>\n2회 이상 스킬 사용 시 공격력 <@ba.vup>+{amgoat_s_1[b].atk:0%}</> 효과 추가",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 37,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_amgoat_1",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "amgoat_s_1[a].attack_speed",
+					"value": 55
+				},
+				{
+					"key": "amgoat_s_1[b].attack_speed",
+					"value": 55
+				},
+				{
+					"key": "amgoat_s_1[b].atk",
+					"value": 0.55
+				}
+			]
+		},
+		{
+			"name": "듀엣 아리아",
+			"rangeId": null,
+			"description": "공격 속도 <@ba.vup>+{amgoat_s_1[a].attack_speed}</>\n2회 이상 스킬 사용 시 공격력 <@ba.vup>+{amgoat_s_1[b].atk:0%}</> 효과 추가",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 35,
+				"initSp": 25,
+				"increment": 1
+			},
+			"prefabId": "skchr_amgoat_1",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "amgoat_s_1[a].attack_speed",
+					"value": 60
+				},
+				{
+					"key": "amgoat_s_1[b].attack_speed",
+					"value": 60
+				},
+				{
+					"key": "amgoat_s_1[b].atk",
+					"value": 0.6
+				}
+			]
+		}
+	]
+}

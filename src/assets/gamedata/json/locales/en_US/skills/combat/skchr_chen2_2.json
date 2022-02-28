@@ -1,0 +1,467 @@
+{
+	"skillId": "skchr_chen2_2",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "'Night of Violet'",
+			"rangeId": null,
+			"description": "ATK <@ba.vup>+{atk:0%}</>, attacks create a layer of sticky liquid within Attack Range that lasts for {attack@projectile_life_time} seconds. Ground enemies passing over the sticky liquid have Movement Speed <@ba.vup>{attack@move_speed:0%}</> and DEF <@ba.vup>{attack@def}</> (Does not stack). <$ba.charged>Charged</> effect: Changes to {attack@another_trigger_time} ammo\n<@ba.rem>Skill activation grants {attack@trigger_time} ammo and the skill ends when all ammo is used (Can manually deactivate skill)</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 30,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_chen2_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.35
+				},
+				{
+					"key": "attack@move_speed",
+					"value": -0.1
+				},
+				{
+					"key": "attack@def",
+					"value": -50
+				},
+				{
+					"key": "attack@projectile_life_time",
+					"value": 5
+				},
+				{
+					"key": "attack@trigger_time",
+					"value": 8
+				},
+				{
+					"key": "attack@another_trigger_time",
+					"value": 20
+				},
+				{
+					"key": "atk_scale",
+					"value": 1.5
+				}
+			]
+		},
+		{
+			"name": "'Night of Violet'",
+			"rangeId": null,
+			"description": "ATK <@ba.vup>+{atk:0%}</>, attacks create a layer of sticky liquid within Attack Range that lasts for {attack@projectile_life_time} seconds. Ground enemies passing over the sticky liquid have Movement Speed <@ba.vup>{attack@move_speed:0%}</> and DEF <@ba.vup>{attack@def}</> (Does not stack). <$ba.charged>Charged</> effect: Changes to {attack@another_trigger_time} ammo\n<@ba.rem>Skill activation grants {attack@trigger_time} ammo and the skill ends when all ammo is used (Can manually deactivate skill)</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 29,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_chen2_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.4
+				},
+				{
+					"key": "attack@move_speed",
+					"value": -0.1
+				},
+				{
+					"key": "attack@def",
+					"value": -50
+				},
+				{
+					"key": "attack@projectile_life_time",
+					"value": 5
+				},
+				{
+					"key": "attack@trigger_time",
+					"value": 8
+				},
+				{
+					"key": "attack@another_trigger_time",
+					"value": 20
+				},
+				{
+					"key": "atk_scale",
+					"value": 1.5
+				}
+			]
+		},
+		{
+			"name": "'Night of Violet'",
+			"rangeId": null,
+			"description": "ATK <@ba.vup>+{atk:0%}</>, attacks create a layer of sticky liquid within Attack Range that lasts for {attack@projectile_life_time} seconds. Ground enemies passing over the sticky liquid have Movement Speed <@ba.vup>{attack@move_speed:0%}</> and DEF <@ba.vup>{attack@def}</> (Does not stack). <$ba.charged>Charged</> effect: Changes to {attack@another_trigger_time} ammo\n<@ba.rem>Skill activation grants {attack@trigger_time} ammo and the skill ends when all ammo is used (Can manually deactivate skill)</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 28,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_chen2_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.45
+				},
+				{
+					"key": "attack@move_speed",
+					"value": -0.1
+				},
+				{
+					"key": "attack@def",
+					"value": -50
+				},
+				{
+					"key": "attack@projectile_life_time",
+					"value": 5
+				},
+				{
+					"key": "attack@trigger_time",
+					"value": 8
+				},
+				{
+					"key": "attack@another_trigger_time",
+					"value": 20
+				},
+				{
+					"key": "atk_scale",
+					"value": 1.5
+				}
+			]
+		},
+		{
+			"name": "'Night of Violet'",
+			"rangeId": null,
+			"description": "ATK <@ba.vup>+{atk:0%}</>, attacks create a layer of sticky liquid within Attack Range that lasts for {attack@projectile_life_time} seconds. Ground enemies passing over the sticky liquid have Movement Speed <@ba.vup>{attack@move_speed:0%}</> and DEF <@ba.vup>{attack@def}</> (Does not stack). <$ba.charged>Charged</> effect: Changes to {attack@another_trigger_time} ammo\n<@ba.rem>Skill activation grants {attack@trigger_time} ammo and the skill ends when all ammo is used (Can manually deactivate skill)</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 27,
+				"initSp": 5,
+				"increment": 1
+			},
+			"prefabId": "skchr_chen2_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.5
+				},
+				{
+					"key": "attack@move_speed",
+					"value": -0.2
+				},
+				{
+					"key": "attack@def",
+					"value": -100
+				},
+				{
+					"key": "attack@projectile_life_time",
+					"value": 5
+				},
+				{
+					"key": "attack@trigger_time",
+					"value": 8
+				},
+				{
+					"key": "attack@another_trigger_time",
+					"value": 20
+				},
+				{
+					"key": "atk_scale",
+					"value": 1.5
+				}
+			]
+		},
+		{
+			"name": "'Night of Violet'",
+			"rangeId": null,
+			"description": "ATK <@ba.vup>+{atk:0%}</>, attacks create a layer of sticky liquid within Attack Range that lasts for {attack@projectile_life_time} seconds. Ground enemies passing over the sticky liquid have Movement Speed <@ba.vup>{attack@move_speed:0%}</> and DEF <@ba.vup>{attack@def}</> (Does not stack). <$ba.charged>Charged</> effect: Changes to {attack@another_trigger_time} ammo\n<@ba.rem>Skill activation grants {attack@trigger_time} ammo and the skill ends when all ammo is used (Can manually deactivate skill)</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 26,
+				"initSp": 5,
+				"increment": 1
+			},
+			"prefabId": "skchr_chen2_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.55
+				},
+				{
+					"key": "attack@move_speed",
+					"value": -0.2
+				},
+				{
+					"key": "attack@def",
+					"value": -100
+				},
+				{
+					"key": "attack@projectile_life_time",
+					"value": 5
+				},
+				{
+					"key": "attack@trigger_time",
+					"value": 8
+				},
+				{
+					"key": "attack@another_trigger_time",
+					"value": 20
+				},
+				{
+					"key": "atk_scale",
+					"value": 1.5
+				}
+			]
+		},
+		{
+			"name": "'Night of Violet'",
+			"rangeId": null,
+			"description": "ATK <@ba.vup>+{atk:0%}</>, attacks create a layer of sticky liquid within Attack Range that lasts for {attack@projectile_life_time} seconds. Ground enemies passing over the sticky liquid have Movement Speed <@ba.vup>{attack@move_speed:0%}</> and DEF <@ba.vup>{attack@def}</> (Does not stack). <$ba.charged>Charged</> effect: Changes to {attack@another_trigger_time} ammo\n<@ba.rem>Skill activation grants {attack@trigger_time} ammo and the skill ends when all ammo is used (Can manually deactivate skill)</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 25,
+				"initSp": 5,
+				"increment": 1
+			},
+			"prefabId": "skchr_chen2_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.6
+				},
+				{
+					"key": "attack@move_speed",
+					"value": -0.2
+				},
+				{
+					"key": "attack@def",
+					"value": -100
+				},
+				{
+					"key": "attack@projectile_life_time",
+					"value": 5
+				},
+				{
+					"key": "attack@trigger_time",
+					"value": 8
+				},
+				{
+					"key": "attack@another_trigger_time",
+					"value": 20
+				},
+				{
+					"key": "atk_scale",
+					"value": 1.5
+				}
+			]
+		},
+		{
+			"name": "'Night of Violet'",
+			"rangeId": null,
+			"description": "ATK <@ba.vup>+{atk:0%}</>, attacks create a layer of sticky liquid within Attack Range that lasts for {attack@projectile_life_time} seconds. Ground enemies passing over the sticky liquid have Movement Speed <@ba.vup>{attack@move_speed:0%}</> and DEF <@ba.vup>{attack@def}</> (Does not stack). <$ba.charged>Charged</> effect: Changes to {attack@another_trigger_time} ammo\n<@ba.rem>Skill activation grants {attack@trigger_time} ammo and the skill ends when all ammo is used (Can manually deactivate skill)</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 24,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_chen2_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.65
+				},
+				{
+					"key": "attack@move_speed",
+					"value": -0.3
+				},
+				{
+					"key": "attack@def",
+					"value": -150
+				},
+				{
+					"key": "attack@projectile_life_time",
+					"value": 5
+				},
+				{
+					"key": "attack@trigger_time",
+					"value": 8
+				},
+				{
+					"key": "attack@another_trigger_time",
+					"value": 20
+				},
+				{
+					"key": "atk_scale",
+					"value": 1.5
+				}
+			]
+		},
+		{
+			"name": "'Night of Violet'",
+			"rangeId": null,
+			"description": "ATK <@ba.vup>+{atk:0%}</>, attacks create a layer of sticky liquid within Attack Range that lasts for {attack@projectile_life_time} seconds. Ground enemies passing over the sticky liquid have Movement Speed <@ba.vup>{attack@move_speed:0%}</> and DEF <@ba.vup>{attack@def}</> (Does not stack). <$ba.charged>Charged</> effect: Changes to {attack@another_trigger_time} ammo\n<@ba.rem>Skill activation grants {attack@trigger_time} ammo and the skill ends when all ammo is used (Can manually deactivate skill)</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 23,
+				"initSp": 11,
+				"increment": 1
+			},
+			"prefabId": "skchr_chen2_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.7
+				},
+				{
+					"key": "attack@move_speed",
+					"value": -0.3
+				},
+				{
+					"key": "attack@def",
+					"value": -150
+				},
+				{
+					"key": "attack@projectile_life_time",
+					"value": 5
+				},
+				{
+					"key": "attack@trigger_time",
+					"value": 8
+				},
+				{
+					"key": "attack@another_trigger_time",
+					"value": 20
+				},
+				{
+					"key": "atk_scale",
+					"value": 1.5
+				}
+			]
+		},
+		{
+			"name": "'Night of Violet'",
+			"rangeId": null,
+			"description": "ATK <@ba.vup>+{atk:0%}</>, attacks create a layer of sticky liquid within Attack Range that lasts for {attack@projectile_life_time} seconds. Ground enemies passing over the sticky liquid have Movement Speed <@ba.vup>{attack@move_speed:0%}</> and DEF <@ba.vup>{attack@def}</> (Does not stack). <$ba.charged>Charged</> effect: Changes to {attack@another_trigger_time} ammo\n<@ba.rem>Skill activation grants {attack@trigger_time} ammo and the skill ends when all ammo is used (Can manually deactivate skill)</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 22,
+				"initSp": 11,
+				"increment": 1
+			},
+			"prefabId": "skchr_chen2_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.75
+				},
+				{
+					"key": "attack@move_speed",
+					"value": -0.35
+				},
+				{
+					"key": "attack@def",
+					"value": -170
+				},
+				{
+					"key": "attack@projectile_life_time",
+					"value": 5
+				},
+				{
+					"key": "attack@trigger_time",
+					"value": 8
+				},
+				{
+					"key": "attack@another_trigger_time",
+					"value": 20
+				},
+				{
+					"key": "atk_scale",
+					"value": 1.5
+				}
+			]
+		},
+		{
+			"name": "'Night of Violet'",
+			"rangeId": null,
+			"description": "ATK <@ba.vup>+{atk:0%}</>, attacks create a layer of sticky liquid within Attack Range that lasts for {attack@projectile_life_time} seconds. Ground enemies passing over the sticky liquid have Movement Speed <@ba.vup>{attack@move_speed:0%}</> and DEF <@ba.vup>{attack@def}</> (Does not stack). <$ba.charged>Charged</> effect: Changes to {attack@another_trigger_time} ammo\n<@ba.rem>Skill activation grants {attack@trigger_time} ammo and the skill ends when all ammo is used (Can manually deactivate skill)</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 20,
+				"initSp": 12,
+				"increment": 1
+			},
+			"prefabId": "skchr_chen2_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.8
+				},
+				{
+					"key": "attack@move_speed",
+					"value": -0.35
+				},
+				{
+					"key": "attack@def",
+					"value": -170
+				},
+				{
+					"key": "attack@projectile_life_time",
+					"value": 5
+				},
+				{
+					"key": "attack@trigger_time",
+					"value": 8
+				},
+				{
+					"key": "attack@another_trigger_time",
+					"value": 20
+				},
+				{
+					"key": "atk_scale",
+					"value": 1.5
+				}
+			]
+		}
+	]
+}

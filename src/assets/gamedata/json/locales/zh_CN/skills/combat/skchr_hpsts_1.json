@@ -1,0 +1,307 @@
+{
+	"skillId": "skchr_hpsts_1",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "坚守模式",
+			"rangeId": null,
+			"description": "阻挡数<@ba.vup>+1</>，防御力<@ba.vup>+{def:0%}</>，每秒额外恢复最大生命的<@ba.vup>{hp_recovery_per_sec_by_max_hp_ratio:0%}</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 50,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_hpsts_1",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "def",
+					"value": 0.6
+				},
+				{
+					"key": "block_cnt",
+					"value": 1
+				},
+				{
+					"key": "hp_recovery_per_sec_by_max_hp_ratio",
+					"value": 0.02
+				}
+			]
+		},
+		{
+			"name": "坚守模式",
+			"rangeId": null,
+			"description": "阻挡数<@ba.vup>+1</>，防御力<@ba.vup>+{def:0%}</>，每秒额外恢复最大生命的<@ba.vup>{hp_recovery_per_sec_by_max_hp_ratio:0%}</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 50,
+				"initSp": 21,
+				"increment": 1
+			},
+			"prefabId": "skchr_hpsts_1",
+			"duration": 21,
+			"blackboard": [
+				{
+					"key": "def",
+					"value": 0.65
+				},
+				{
+					"key": "block_cnt",
+					"value": 1
+				},
+				{
+					"key": "hp_recovery_per_sec_by_max_hp_ratio",
+					"value": 0.02
+				}
+			]
+		},
+		{
+			"name": "坚守模式",
+			"rangeId": null,
+			"description": "阻挡数<@ba.vup>+1</>，防御力<@ba.vup>+{def:0%}</>，每秒额外恢复最大生命的<@ba.vup>{hp_recovery_per_sec_by_max_hp_ratio:0%}</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 50,
+				"initSp": 22,
+				"increment": 1
+			},
+			"prefabId": "skchr_hpsts_1",
+			"duration": 22,
+			"blackboard": [
+				{
+					"key": "def",
+					"value": 0.7
+				},
+				{
+					"key": "block_cnt",
+					"value": 1
+				},
+				{
+					"key": "hp_recovery_per_sec_by_max_hp_ratio",
+					"value": 0.02
+				}
+			]
+		},
+		{
+			"name": "坚守模式",
+			"rangeId": null,
+			"description": "阻挡数<@ba.vup>+1</>，防御力<@ba.vup>+{def:0%}</>，每秒额外恢复最大生命的<@ba.vup>{hp_recovery_per_sec_by_max_hp_ratio:0%}</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 50,
+				"initSp": 25,
+				"increment": 1
+			},
+			"prefabId": "skchr_hpsts_1",
+			"duration": 23,
+			"blackboard": [
+				{
+					"key": "def",
+					"value": 0.75
+				},
+				{
+					"key": "block_cnt",
+					"value": 1
+				},
+				{
+					"key": "hp_recovery_per_sec_by_max_hp_ratio",
+					"value": 0.03
+				}
+			]
+		},
+		{
+			"name": "坚守模式",
+			"rangeId": null,
+			"description": "阻挡数<@ba.vup>+1</>，防御力<@ba.vup>+{def:0%}</>，每秒额外恢复最大生命的<@ba.vup>{hp_recovery_per_sec_by_max_hp_ratio:0%}</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 50,
+				"initSp": 26,
+				"increment": 1
+			},
+			"prefabId": "skchr_hpsts_1",
+			"duration": 24,
+			"blackboard": [
+				{
+					"key": "def",
+					"value": 0.8
+				},
+				{
+					"key": "block_cnt",
+					"value": 1
+				},
+				{
+					"key": "hp_recovery_per_sec_by_max_hp_ratio",
+					"value": 0.03
+				}
+			]
+		},
+		{
+			"name": "坚守模式",
+			"rangeId": null,
+			"description": "阻挡数<@ba.vup>+1</>，防御力<@ba.vup>+{def:0%}</>，每秒额外恢复最大生命的<@ba.vup>{hp_recovery_per_sec_by_max_hp_ratio:0%}</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 50,
+				"initSp": 27,
+				"increment": 1
+			},
+			"prefabId": "skchr_hpsts_1",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "def",
+					"value": 0.85
+				},
+				{
+					"key": "block_cnt",
+					"value": 1
+				},
+				{
+					"key": "hp_recovery_per_sec_by_max_hp_ratio",
+					"value": 0.03
+				}
+			]
+		},
+		{
+			"name": "坚守模式",
+			"rangeId": null,
+			"description": "阻挡数<@ba.vup>+1</>，防御力<@ba.vup>+{def:0%}</>，每秒额外恢复最大生命的<@ba.vup>{hp_recovery_per_sec_by_max_hp_ratio:0%}</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 50,
+				"initSp": 30,
+				"increment": 1
+			},
+			"prefabId": "skchr_hpsts_1",
+			"duration": 26,
+			"blackboard": [
+				{
+					"key": "def",
+					"value": 0.9
+				},
+				{
+					"key": "block_cnt",
+					"value": 1
+				},
+				{
+					"key": "hp_recovery_per_sec_by_max_hp_ratio",
+					"value": 0.04
+				}
+			]
+		},
+		{
+			"name": "坚守模式",
+			"rangeId": null,
+			"description": "阻挡数<@ba.vup>+1</>，防御力<@ba.vup>+{def:0%}</>，每秒额外恢复最大生命的<@ba.vup>{hp_recovery_per_sec_by_max_hp_ratio:0%}</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 50,
+				"initSp": 33,
+				"increment": 1
+			},
+			"prefabId": "skchr_hpsts_1",
+			"duration": 27,
+			"blackboard": [
+				{
+					"key": "def",
+					"value": 1
+				},
+				{
+					"key": "block_cnt",
+					"value": 1
+				},
+				{
+					"key": "hp_recovery_per_sec_by_max_hp_ratio",
+					"value": 0.04
+				}
+			]
+		},
+		{
+			"name": "坚守模式",
+			"rangeId": null,
+			"description": "阻挡数<@ba.vup>+1</>，防御力<@ba.vup>+{def:0%}</>，每秒额外恢复最大生命的<@ba.vup>{hp_recovery_per_sec_by_max_hp_ratio:0%}</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 50,
+				"initSp": 37,
+				"increment": 1
+			},
+			"prefabId": "skchr_hpsts_1",
+			"duration": 28,
+			"blackboard": [
+				{
+					"key": "def",
+					"value": 1.1
+				},
+				{
+					"key": "block_cnt",
+					"value": 1
+				},
+				{
+					"key": "hp_recovery_per_sec_by_max_hp_ratio",
+					"value": 0.04
+				}
+			]
+		},
+		{
+			"name": "坚守模式",
+			"rangeId": null,
+			"description": "阻挡数<@ba.vup>+1</>，防御力<@ba.vup>+{def:0%}</>，每秒额外恢复最大生命的<@ba.vup>{hp_recovery_per_sec_by_max_hp_ratio:0%}</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 50,
+				"initSp": 40,
+				"increment": 1
+			},
+			"prefabId": "skchr_hpsts_1",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "def",
+					"value": 1.2
+				},
+				{
+					"key": "block_cnt",
+					"value": 1
+				},
+				{
+					"key": "hp_recovery_per_sec_by_max_hp_ratio",
+					"value": 0.05
+				}
+			]
+		}
+	]
+}

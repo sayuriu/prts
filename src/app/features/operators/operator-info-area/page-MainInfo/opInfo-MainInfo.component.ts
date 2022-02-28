@@ -115,11 +115,6 @@ export class OpMainInfoComponent implements OnInit {
 		this.currentOpSubclass = this.currentOpSubclass.toUpperCase().trim().replace(/ +/g, '_') || 'NO_SUBCLASS';
 	}
 
-    log(e: any)
-    {
-        console.log(e);
-    }
-
 	trustDataString = 'NONE';
 	trustDiffData: Optional<CharTrustAttributes> & { maxFavorLevel: number } = { maxFavorLevel: 0};
 	resolveTrustDiff()

@@ -1,0 +1,29 @@
+{
+	"skillId": "sktok_npcsld",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "Form Up!",
+			"rangeId": null,
+			"description": "More likely to be attacked by enemies",
+			"skillType": 0,
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 0,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": "sktok_npcsld",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "taunt_level",
+					"value": 1
+				}
+			]
+		}
+	]
+}

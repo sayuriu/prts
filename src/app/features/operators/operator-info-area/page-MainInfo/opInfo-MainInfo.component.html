@@ -91,7 +91,7 @@
 			<div id="line2" class="line flex flex-row anim-spreadLR" [attr.no-anim]="animAlreadyPlayed">
 				<spacer style="width: 22px;"></spacer>
 				<text-field class="fw"
-					[boundRect]="{ centerChildren: [true], width: 'auto', minHeight: '42px' }"
+					[boundRect]="{ centerChildren: [true], minHeight: '42px' }"
 					[labelField]="{
 						centerChildren: [true],
 						minHeight: '42px',
@@ -211,7 +211,7 @@
 				class="anim-spawn"
                 [attr.no-anim]="animAlreadyPlayed"
 				[attr.data-title]="'Acquired with ' + trustDiffData.maxFavorLevel + ' Trust'"
-				[boundRect]="{ width: 'auto', height: 'auto', maxWidth: '100%'}"
+				[boundRect]="{ maxWidth: '100%'}"
 				[labelField]="{
 					centerChildren: [true],
 					minWidth: '148px',

@@ -18,6 +18,7 @@ export namespace Src_Gamedata {
 		export const medals = 'medal_table.json';
 		export const teams = 'handbook_team_table.json';
 		export const ranges = 'range_table.json';
+        export const skills = 'skill_table.json';
 	}
 }
 
@@ -46,6 +47,11 @@ export namespace GamedataDestination {
 		export const ranges = {
 			_base: 'ranges',
 		};
+        export const charSkill = {
+            _base: 'skills',
+            combat: 'combat/{name}',
+            infrastructure: 'infrastructure/{name}',
+        }
 	}
 }
 
@@ -87,6 +93,22 @@ function parseChar(src: string, dest: string)
 	if (isCN(getLocale(src))) writeJSON(joinPaths('.', 'json', 'char_list.json'), Object.keys(chars));
 	Logger.log(null, Logger.green('done'));
 	Logger.info(header, Logger.green('Write complete!'));
+}
+
+function parseCombatSkill(src: string, dest: string)
+{
+    const { _base, combat } = GamedataDestination.DATA.charSkill;
+    const header = 'Skills-' + getLocale(src);
+    const combatSkills = require(src) as Record<string, any>;
+    createIfNotExist(joinPaths(dest, _base), header);
+    createIfNotExist(joinPaths(dest, _base, 'combat'), header);
+    const tracker = new CountTracker();
+    for (const name in combatSkills) {
+        const data = combatSkills[name];
+        writeJSON(joinPaths(dest, _base, combat.replace('{name}', `${name}.json`)), data);
+        tracker.increment();
+    }
+    Logger.info(header, `${Logger.green(tracker.count)} entries parsed.`);
 }
 
 function parseItem(src: string, dest: string)
@@ -180,6 +202,7 @@ export function JSONParse(locale: Locales) {
 	parseChar(joinPaths(localePath, Src_Gamedata.DATA.characters), destinationPath);
 	parseItem(joinPaths(localePath, Src_Gamedata.DATA.items), destinationPath);
 	parseRangeData(joinPaths(localePath, Src_Gamedata.DATA.ranges), destinationPath);
+    parseCombatSkill(joinPaths(localePath, Src_Gamedata.DATA.skills), destinationPath);
 	// parseMedals(joinPaths(localePath, Aceship.DATA.medals), destinationPath);
 	Logger.cout('\n');
 }

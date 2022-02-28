@@ -1,0 +1,112 @@
+namespace prts
+last-modified 022822 -f mmddyy
+
+~ [json]
+struct [] as SOURCE in {root}/{ACESHIP_DIR_ENV}/
+	tl-akhr.json
+	[UNUSED] tl-effect.json
+	tl-gender.json
+	tl-potential.json
+	tl-subclass.json
+	[UNUSED] tl-type.json?
+	tl-unreadablename.json # To provide alt name for certain Operators
+	named_effects.json
+
+struct <LOCACLES> as SOURCE in {root}/{KENGXIAO_DIR_ENV}/json/*
+	gamedata/{locale}
+		excel
+			character_table.json
+			[UNUSED] token_table.json
+			[UNUSED] gamedata_const.json # Might be useful later
+			[UNUSED] skin_table.json
+			item_table.json
+				items: Object -> items/{type}/{name}
+			medal_table.json
+				medalList: Object[]
+					link: medalType -> medals
+				medalTypeData: Object
+					link: <name>
+			range_table.json
+            skill_table.json
+
+# ------------------------------------------------------>
+struct <LOCACLES> as DEST {root}/src/assets/gamedata/json/*
+	tl-data
+		gender
+			{key} as file:json
+		human_resource
+			{name} as file:json
+		classes.json
+	{locale}
+		chars
+			{char} as file:json
+		items
+			materials
+				{type}
+					{name} as file:json
+				{etc}
+		medals
+			medalList
+				{type}
+					{name} as file:json
+			medalTypeData
+				{type} as file:json
+		teams
+			{team} as file:json
+		charnameLinkID.json -> char
+		range
+			{range} as file:json
+        combat-skills
+            {skill} as file:json
+
+~ [img]
+struct <IMG> as SOURCE in {root}/{ACESHIP_DIR_ENV}/img/*
+	with \[*\] notation as DEST # Anything inside [] refers to paths in "DEST" field.
+	use FileOperations.COPY
+
+	avatars		-> [characters/avatars]
+	characters 	-> [characters/full]
+	portraits	-> [characters/portraits]
+	classes 	-> [characters/ui/classes]
+	skills 		-> [characters/skills/combat]
+
+	ui
+		chara			-> [characters/ui/chara]
+		elite 	 		-> [characters/ui/elite]
+		rank 			-> [characters/ui/skillrank]
+		potential 		-> [characters/ui/potential]
+		subclass 		-> [characters/ui/subclasses]
+		infrastructure  -> [characters/skills/infrastructure]
+
+	enemy		-> [enemies]
+	items 		-> [materials]
+	factions	-> [factions]
+
+# ------------------------------------------------------>
+struct <IMG> as TARGET in {root}/src/assets/gamedata/img/*
+	characters
+		full		# Char full body illustration  [1]
+		avatars		# Char avatars				[Head]
+		portraits	# Char portraits	 [Head, Torso]
+		#
+		skills
+			combat	# Char combat skill
+			infrastructure
+				{type} as file:png	# Inf skill types
+				skill				# Specific skill
+		#
+		ui # Display elements
+			chara 				# For making character portrait card and bg
+			#
+			classes				# Char main class
+			subclasses 			# Pretty straightforward ( ͡° ͜ʖ ͡°)
+			#
+			potential			# Char potential rank
+			elite 				# TFW Elite 3 exists !?
+			skillrank 			# Char skill rank
+	enemy
+	factions
+	materials
+# ------------------------------------------------------>
+struct <TL> as SOURCE in {root}/{ACESHIP_DIR_ENV}/[json] not dir
+struct <TL> as TARGET in {root}/assets/gamedata/json/tl-data

@@ -1,0 +1,189 @@
+{
+	"skillId": "skcom_range_extend",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "回復範囲強化",
+			"rangeId": null,
+			"description": "攻撃範囲<@ba.vup><@ba.vup>+{ABILITY_RANGE_FORWARD_EXTEND}</>、攻撃力<@ba.vup>+{atk:0%}</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 45,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skcom_range_extend",
+			"duration": 19,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.05
+				},
+				{
+					"key": "ability_range_forward_extend",
+					"value": 1
+				}
+			]
+		},
+		{
+			"name": "回復範囲強化",
+			"rangeId": null,
+			"description": "攻撃範囲<@ba.vup><@ba.vup>+{ABILITY_RANGE_FORWARD_EXTEND}</>、攻撃力<@ba.vup>+{atk:0%}</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 44,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skcom_range_extend",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.1
+				},
+				{
+					"key": "ability_range_forward_extend",
+					"value": 1
+				}
+			]
+		},
+		{
+			"name": "回復範囲強化",
+			"rangeId": null,
+			"description": "攻撃範囲<@ba.vup><@ba.vup>+{ABILITY_RANGE_FORWARD_EXTEND}</>、攻撃力<@ba.vup>+{atk:0%}</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 43,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skcom_range_extend",
+			"duration": 21,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.15
+				},
+				{
+					"key": "ability_range_forward_extend",
+					"value": 1
+				}
+			]
+		},
+		{
+			"name": "回復範囲強化",
+			"rangeId": null,
+			"description": "攻撃範囲<@ba.vup><@ba.vup>+{ABILITY_RANGE_FORWARD_EXTEND}</>、攻撃力<@ba.vup>+{atk:0%}</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 40,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skcom_range_extend",
+			"duration": 22,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.2
+				},
+				{
+					"key": "ability_range_forward_extend",
+					"value": 2
+				}
+			]
+		},
+		{
+			"name": "回復範囲強化",
+			"rangeId": null,
+			"description": "攻撃範囲<@ba.vup><@ba.vup>+{ABILITY_RANGE_FORWARD_EXTEND}</>、攻撃力<@ba.vup>+{atk:0%}</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 39,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skcom_range_extend",
+			"duration": 23,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.25
+				},
+				{
+					"key": "ability_range_forward_extend",
+					"value": 2
+				}
+			]
+		},
+		{
+			"name": "回復範囲強化",
+			"rangeId": null,
+			"description": "攻撃範囲<@ba.vup><@ba.vup>+{ABILITY_RANGE_FORWARD_EXTEND}</>、攻撃力<@ba.vup>+{atk:0%}</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 38,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skcom_range_extend",
+			"duration": 24,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.3
+				},
+				{
+					"key": "ability_range_forward_extend",
+					"value": 2
+				}
+			]
+		},
+		{
+			"name": "回復範囲強化",
+			"rangeId": null,
+			"description": "攻撃範囲<@ba.vup><@ba.vup>+{ABILITY_RANGE_FORWARD_EXTEND}</>、攻撃力<@ba.vup>+{atk:0%}</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 35,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skcom_range_extend",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.4
+				},
+				{
+					"key": "ability_range_forward_extend",
+					"value": 2
+				}
+			]
+		}
+	]
+}

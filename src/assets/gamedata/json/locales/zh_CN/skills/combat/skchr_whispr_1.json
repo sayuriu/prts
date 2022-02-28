@@ -1,0 +1,307 @@
+{
+	"skillId": "skchr_whispr_1",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "定向诊断",
+			"rangeId": null,
+			"description": "下次治疗时的治疗量提升至攻击力的<@ba.vup>{heal_scale:0%}</>，额外治疗一名单位（优先选择处于异常状态中的单位）并使其获得<$ba.buffres>抵抗</>，持续<@ba.vup>{status_resistance[limit]}</>秒",
+			"skillType": 2,
+			"spData": {
+				"spType": 2,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 5,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_whispr_1",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "heal_scale",
+					"value": 1.05
+				},
+				{
+					"key": "status_resistance[limit]",
+					"value": 1
+				},
+				{
+					"key": "one_minus_status_resistance",
+					"value": -0.5
+				}
+			]
+		},
+		{
+			"name": "定向诊断",
+			"rangeId": null,
+			"description": "下次治疗时的治疗量提升至攻击力的<@ba.vup>{heal_scale:0%}</>，额外治疗一名单位（优先选择处于异常状态中的单位）并使其获得<$ba.buffres>抵抗</>，持续<@ba.vup>{status_resistance[limit]}</>秒",
+			"skillType": 2,
+			"spData": {
+				"spType": 2,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 4,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_whispr_1",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "heal_scale",
+					"value": 1.05
+				},
+				{
+					"key": "status_resistance[limit]",
+					"value": 2
+				},
+				{
+					"key": "one_minus_status_resistance",
+					"value": -0.5
+				}
+			]
+		},
+		{
+			"name": "定向诊断",
+			"rangeId": null,
+			"description": "下次治疗时的治疗量提升至攻击力的<@ba.vup>{heal_scale:0%}</>，额外治疗一名单位（优先选择处于异常状态中的单位）并使其获得<$ba.buffres>抵抗</>，持续<@ba.vup>{status_resistance[limit]}</>秒",
+			"skillType": 2,
+			"spData": {
+				"spType": 2,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 4,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_whispr_1",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "heal_scale",
+					"value": 1.1
+				},
+				{
+					"key": "status_resistance[limit]",
+					"value": 2
+				},
+				{
+					"key": "one_minus_status_resistance",
+					"value": -0.5
+				}
+			]
+		},
+		{
+			"name": "定向诊断",
+			"rangeId": null,
+			"description": "下次治疗时的治疗量提升至攻击力的<@ba.vup>{heal_scale:0%}</>，额外治疗一名单位（优先选择处于异常状态中的单位）并使其获得<$ba.buffres>抵抗</>，持续<@ba.vup>{status_resistance[limit]}</>秒",
+			"skillType": 2,
+			"spData": {
+				"spType": 2,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 4,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_whispr_1",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "heal_scale",
+					"value": 1.1
+				},
+				{
+					"key": "status_resistance[limit]",
+					"value": 3
+				},
+				{
+					"key": "one_minus_status_resistance",
+					"value": -0.5
+				}
+			]
+		},
+		{
+			"name": "定向诊断",
+			"rangeId": null,
+			"description": "下次治疗时的治疗量提升至攻击力的<@ba.vup>{heal_scale:0%}</>，额外治疗一名单位（优先选择处于异常状态中的单位）并使其获得<$ba.buffres>抵抗</>，持续<@ba.vup>{status_resistance[limit]}</>秒",
+			"skillType": 2,
+			"spData": {
+				"spType": 2,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 3,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_whispr_1",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "heal_scale",
+					"value": 1.15
+				},
+				{
+					"key": "status_resistance[limit]",
+					"value": 3
+				},
+				{
+					"key": "one_minus_status_resistance",
+					"value": -0.5
+				}
+			]
+		},
+		{
+			"name": "定向诊断",
+			"rangeId": null,
+			"description": "下次治疗时的治疗量提升至攻击力的<@ba.vup>{heal_scale:0%}</>，额外治疗一名单位（优先选择处于异常状态中的单位）并使其获得<$ba.buffres>抵抗</>，持续<@ba.vup>{status_resistance[limit]}</>秒",
+			"skillType": 2,
+			"spData": {
+				"spType": 2,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 3,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_whispr_1",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "heal_scale",
+					"value": 1.15
+				},
+				{
+					"key": "status_resistance[limit]",
+					"value": 4
+				},
+				{
+					"key": "one_minus_status_resistance",
+					"value": -0.5
+				}
+			]
+		},
+		{
+			"name": "定向诊断",
+			"rangeId": null,
+			"description": "下次治疗时的治疗量提升至攻击力的<@ba.vup>{heal_scale:0%}</>，额外治疗一名单位（优先选择处于异常状态中的单位）并使其获得<$ba.buffres>抵抗</>，持续<@ba.vup>{status_resistance[limit]}</>秒",
+			"skillType": 2,
+			"spData": {
+				"spType": 2,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 3,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_whispr_1",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "heal_scale",
+					"value": 1.2
+				},
+				{
+					"key": "status_resistance[limit]",
+					"value": 4
+				},
+				{
+					"key": "one_minus_status_resistance",
+					"value": -0.5
+				}
+			]
+		},
+		{
+			"name": "定向诊断",
+			"rangeId": null,
+			"description": "下次治疗时的治疗量提升至攻击力的<@ba.vup>{heal_scale:0%}</>，额外治疗一名单位（优先选择处于异常状态中的单位）并使其获得<$ba.buffres>抵抗</>，持续<@ba.vup>{status_resistance[limit]}</>秒",
+			"skillType": 2,
+			"spData": {
+				"spType": 2,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 2,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_whispr_1",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "heal_scale",
+					"value": 1.2
+				},
+				{
+					"key": "status_resistance[limit]",
+					"value": 5
+				},
+				{
+					"key": "one_minus_status_resistance",
+					"value": -0.5
+				}
+			]
+		},
+		{
+			"name": "定向诊断",
+			"rangeId": null,
+			"description": "下次治疗时的治疗量提升至攻击力的<@ba.vup>{heal_scale:0%}</>，额外治疗一名单位（优先选择处于异常状态中的单位）并使其获得<$ba.buffres>抵抗</>，持续<@ba.vup>{status_resistance[limit]}</>秒",
+			"skillType": 2,
+			"spData": {
+				"spType": 2,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 2,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_whispr_1",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "heal_scale",
+					"value": 1.25
+				},
+				{
+					"key": "status_resistance[limit]",
+					"value": 5
+				},
+				{
+					"key": "one_minus_status_resistance",
+					"value": -0.5
+				}
+			]
+		},
+		{
+			"name": "定向诊断",
+			"rangeId": null,
+			"description": "下次治疗时的治疗量提升至攻击力的<@ba.vup>{heal_scale:0%}</>，额外治疗一名单位（优先选择处于异常状态中的单位）并使其获得<$ba.buffres>抵抗</>，持续<@ba.vup>{status_resistance[limit]}</>秒",
+			"skillType": 2,
+			"spData": {
+				"spType": 2,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 2,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_whispr_1",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "heal_scale",
+					"value": 1.3
+				},
+				{
+					"key": "status_resistance[limit]",
+					"value": 5
+				},
+				{
+					"key": "one_minus_status_resistance",
+					"value": -0.5
+				}
+			]
+		}
+	]
+}

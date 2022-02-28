@@ -1,0 +1,307 @@
+{
+	"skillId": "skchr_kalts_3",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "Command: Meltdown",
+			"rangeId": null,
+			"description": "Mon3tr gains DEF <@ba.vup>+{attack@def:0%}</>, ATK <@ba.vup>+{attack@atk:0%}</> that gradually decays to +0% over the skill duration and deals <@ba.vup>True damage</>. If this skill ends without Mon3tr killing any enemies, Mon3tr loses <@ba.vup>{attack@hp_ratio:0%}</> Max HP. <@ba.rem>This skill is </><$ba.binding><@ba.rem>Tied</> to Mon3tr</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 25,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_kalts_3",
+			"duration": 18,
+			"blackboard": [
+				{
+					"key": "attack@atk",
+					"value": 1.3
+				},
+				{
+					"key": "attack@def",
+					"value": 1
+				},
+				{
+					"key": "attack@hp_ratio",
+					"value": 0.5
+				}
+			]
+		},
+		{
+			"name": "Command: Meltdown",
+			"rangeId": null,
+			"description": "Mon3tr gains DEF <@ba.vup>+{attack@def:0%}</>, ATK <@ba.vup>+{attack@atk:0%}</> that gradually decays to +0% over the skill duration and deals <@ba.vup>True damage</>. If this skill ends without Mon3tr killing any enemies, Mon3tr loses <@ba.vup>{attack@hp_ratio:0%}</> Max HP. <@ba.rem>This skill is </><$ba.binding><@ba.rem>Tied</> to Mon3tr</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 24,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_kalts_3",
+			"duration": 18,
+			"blackboard": [
+				{
+					"key": "attack@atk",
+					"value": 1.4
+				},
+				{
+					"key": "attack@def",
+					"value": 1
+				},
+				{
+					"key": "attack@hp_ratio",
+					"value": 0.5
+				}
+			]
+		},
+		{
+			"name": "Command: Meltdown",
+			"rangeId": null,
+			"description": "Mon3tr gains DEF <@ba.vup>+{attack@def:0%}</>, ATK <@ba.vup>+{attack@atk:0%}</> that gradually decays to +0% over the skill duration and deals <@ba.vup>True damage</>. If this skill ends without Mon3tr killing any enemies, Mon3tr loses <@ba.vup>{attack@hp_ratio:0%}</> Max HP. <@ba.rem>This skill is </><$ba.binding><@ba.rem>Tied</> to Mon3tr</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 23,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_kalts_3",
+			"duration": 18,
+			"blackboard": [
+				{
+					"key": "attack@atk",
+					"value": 1.5
+				},
+				{
+					"key": "attack@def",
+					"value": 1
+				},
+				{
+					"key": "attack@hp_ratio",
+					"value": 0.5
+				}
+			]
+		},
+		{
+			"name": "Command: Meltdown",
+			"rangeId": null,
+			"description": "Mon3tr gains DEF <@ba.vup>+{attack@def:0%}</>, ATK <@ba.vup>+{attack@atk:0%}</> that gradually decays to +0% over the skill duration and deals <@ba.vup>True damage</>. If this skill ends without Mon3tr killing any enemies, Mon3tr loses <@ba.vup>{attack@hp_ratio:0%}</> Max HP. <@ba.rem>This skill is </><$ba.binding><@ba.rem>Tied</> to Mon3tr</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 22,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_kalts_3",
+			"duration": 18,
+			"blackboard": [
+				{
+					"key": "attack@atk",
+					"value": 1.6
+				},
+				{
+					"key": "attack@def",
+					"value": 1.2
+				},
+				{
+					"key": "attack@hp_ratio",
+					"value": 0.5
+				}
+			]
+		},
+		{
+			"name": "Command: Meltdown",
+			"rangeId": null,
+			"description": "Mon3tr gains DEF <@ba.vup>+{attack@def:0%}</>, ATK <@ba.vup>+{attack@atk:0%}</> that gradually decays to +0% over the skill duration and deals <@ba.vup>True damage</>. If this skill ends without Mon3tr killing any enemies, Mon3tr loses <@ba.vup>{attack@hp_ratio:0%}</> Max HP. <@ba.rem>This skill is </><$ba.binding><@ba.rem>Tied</> to Mon3tr</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 21,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_kalts_3",
+			"duration": 18,
+			"blackboard": [
+				{
+					"key": "attack@atk",
+					"value": 1.7
+				},
+				{
+					"key": "attack@def",
+					"value": 1.2
+				},
+				{
+					"key": "attack@hp_ratio",
+					"value": 0.5
+				}
+			]
+		},
+		{
+			"name": "Command: Meltdown",
+			"rangeId": null,
+			"description": "Mon3tr gains DEF <@ba.vup>+{attack@def:0%}</>, ATK <@ba.vup>+{attack@atk:0%}</> that gradually decays to +0% over the skill duration and deals <@ba.vup>True damage</>. If this skill ends without Mon3tr killing any enemies, Mon3tr loses <@ba.vup>{attack@hp_ratio:0%}</> Max HP. <@ba.rem>This skill is </><$ba.binding><@ba.rem>Tied</> to Mon3tr</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 20,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_kalts_3",
+			"duration": 18,
+			"blackboard": [
+				{
+					"key": "attack@atk",
+					"value": 1.8
+				},
+				{
+					"key": "attack@def",
+					"value": 1.2
+				},
+				{
+					"key": "attack@hp_ratio",
+					"value": 0.5
+				}
+			]
+		},
+		{
+			"name": "Command: Meltdown",
+			"rangeId": null,
+			"description": "Mon3tr gains DEF <@ba.vup>+{attack@def:0%}</>, ATK <@ba.vup>+{attack@atk:0%}</> that gradually decays to +0% over the skill duration and deals <@ba.vup>True damage</>. If this skill ends without Mon3tr killing any enemies, Mon3tr loses <@ba.vup>{attack@hp_ratio:0%}</> Max HP. <@ba.rem>This skill is </><$ba.binding><@ba.rem>Tied</> to Mon3tr</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 19,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_kalts_3",
+			"duration": 18,
+			"blackboard": [
+				{
+					"key": "attack@atk",
+					"value": 1.9
+				},
+				{
+					"key": "attack@def",
+					"value": 1.4
+				},
+				{
+					"key": "attack@hp_ratio",
+					"value": 0.5
+				}
+			]
+		},
+		{
+			"name": "Command: Meltdown",
+			"rangeId": null,
+			"description": "Mon3tr gains DEF <@ba.vup>+{attack@def:0%}</>, ATK <@ba.vup>+{attack@atk:0%}</> that gradually decays to +0% over the skill duration and deals <@ba.vup>True damage</>. If this skill ends without Mon3tr killing any enemies, Mon3tr loses <@ba.vup>{attack@hp_ratio:0%}</> Max HP. <@ba.rem>This skill is </><$ba.binding><@ba.rem>Tied</> to Mon3tr</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 18,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_kalts_3",
+			"duration": 18,
+			"blackboard": [
+				{
+					"key": "attack@atk",
+					"value": 2.1
+				},
+				{
+					"key": "attack@def",
+					"value": 1.6
+				},
+				{
+					"key": "attack@hp_ratio",
+					"value": 0.5
+				}
+			]
+		},
+		{
+			"name": "Command: Meltdown",
+			"rangeId": null,
+			"description": "Mon3tr gains DEF <@ba.vup>+{attack@def:0%}</>, ATK <@ba.vup>+{attack@atk:0%}</> that gradually decays to +0% over the skill duration and deals <@ba.vup>True damage</>. If this skill ends without Mon3tr killing any enemies, Mon3tr loses <@ba.vup>{attack@hp_ratio:0%}</> Max HP. <@ba.rem>This skill is </><$ba.binding><@ba.rem>Tied</> to Mon3tr</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 17,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_kalts_3",
+			"duration": 19,
+			"blackboard": [
+				{
+					"key": "attack@atk",
+					"value": 2.3
+				},
+				{
+					"key": "attack@def",
+					"value": 1.8
+				},
+				{
+					"key": "attack@hp_ratio",
+					"value": 0.5
+				}
+			]
+		},
+		{
+			"name": "Command: Meltdown",
+			"rangeId": null,
+			"description": "Mon3tr gains DEF <@ba.vup>+{attack@def:0%}</>, ATK <@ba.vup>+{attack@atk:0%}</> that gradually decays to +0% over the skill duration and deals <@ba.vup>True damage</>. If this skill ends without Mon3tr killing any enemies, Mon3tr loses <@ba.vup>{attack@hp_ratio:0%}</> Max HP. <@ba.rem>This skill is </><$ba.binding><@ba.rem>Tied</> to Mon3tr</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 15,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_kalts_3",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "attack@atk",
+					"value": 2.6
+				},
+				{
+					"key": "attack@def",
+					"value": 2
+				},
+				{
+					"key": "attack@hp_ratio",
+					"value": 0.5
+				}
+			]
+		}
+	]
+}

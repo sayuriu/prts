@@ -1,0 +1,307 @@
+{
+	"skillId": "skchr_kalts_3",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "명령: 용해",
+			"rangeId": null,
+			"description": "Mon3tr의 방어력 <@ba.vup>+{attack@def:0%}</>, 스킬 지속 기간 동안 공격력이 <@ba.vup>+{attack@atk:0%}</>에서 점차 +0%로 하락, 대미지 유형이 <@ba.vup>트루</> 대미지로 변경, 해당 기간에 적을 처치하지 못하면 스킬 종료 후 최대 HP의 <@ba.vup>{attack@hp_ratio:0%}</>만큼 HP를 잃는다. <@ba.rem>해당 스킬은 Mon3tr와</> <$ba.binding><@ba.rem>연동</></>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 25,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_kalts_3",
+			"duration": 18,
+			"blackboard": [
+				{
+					"key": "attack@atk",
+					"value": 1.3
+				},
+				{
+					"key": "attack@def",
+					"value": 1
+				},
+				{
+					"key": "attack@hp_ratio",
+					"value": 0.5
+				}
+			]
+		},
+		{
+			"name": "명령: 용해",
+			"rangeId": null,
+			"description": "Mon3tr의 방어력 <@ba.vup>+{attack@def:0%}</>, 스킬 지속 기간 동안 공격력이 <@ba.vup>+{attack@atk:0%}</>에서 점차 +0%로 하락, 대미지 유형이 <@ba.vup>트루</> 대미지로 변경, 해당 기간에 적을 처치하지 못하면 스킬 종료 후 최대 HP의 <@ba.vup>{attack@hp_ratio:0%}</>만큼 HP를 잃는다. <@ba.rem>해당 스킬은 Mon3tr와</> <$ba.binding><@ba.rem>연동</></>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 24,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_kalts_3",
+			"duration": 18,
+			"blackboard": [
+				{
+					"key": "attack@atk",
+					"value": 1.4
+				},
+				{
+					"key": "attack@def",
+					"value": 1
+				},
+				{
+					"key": "attack@hp_ratio",
+					"value": 0.5
+				}
+			]
+		},
+		{
+			"name": "명령: 용해",
+			"rangeId": null,
+			"description": "Mon3tr의 방어력 <@ba.vup>+{attack@def:0%}</>, 스킬 지속 기간 동안 공격력이 <@ba.vup>+{attack@atk:0%}</>에서 점차 +0%로 하락, 대미지 유형이 <@ba.vup>트루</> 대미지로 변경, 해당 기간에 적을 처치하지 못하면 스킬 종료 후 최대 HP의 <@ba.vup>{attack@hp_ratio:0%}</>만큼 HP를 잃는다. <@ba.rem>해당 스킬은 Mon3tr와</> <$ba.binding><@ba.rem>연동</></>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 23,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_kalts_3",
+			"duration": 18,
+			"blackboard": [
+				{
+					"key": "attack@atk",
+					"value": 1.5
+				},
+				{
+					"key": "attack@def",
+					"value": 1
+				},
+				{
+					"key": "attack@hp_ratio",
+					"value": 0.5
+				}
+			]
+		},
+		{
+			"name": "명령: 용해",
+			"rangeId": null,
+			"description": "Mon3tr의 방어력 <@ba.vup>+{attack@def:0%}</>, 스킬 지속 기간 동안 공격력이 <@ba.vup>+{attack@atk:0%}</>에서 점차 +0%로 하락, 대미지 유형이 <@ba.vup>트루</> 대미지로 변경, 해당 기간에 적을 처치하지 못하면 스킬 종료 후 최대 HP의 <@ba.vup>{attack@hp_ratio:0%}</>만큼 HP를 잃는다. <@ba.rem>해당 스킬은 Mon3tr와</> <$ba.binding><@ba.rem>연동</></>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 22,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_kalts_3",
+			"duration": 18,
+			"blackboard": [
+				{
+					"key": "attack@atk",
+					"value": 1.6
+				},
+				{
+					"key": "attack@def",
+					"value": 1.2
+				},
+				{
+					"key": "attack@hp_ratio",
+					"value": 0.5
+				}
+			]
+		},
+		{
+			"name": "명령: 용해",
+			"rangeId": null,
+			"description": "Mon3tr의 방어력 <@ba.vup>+{attack@def:0%}</>, 스킬 지속 기간 동안 공격력이 <@ba.vup>+{attack@atk:0%}</>에서 점차 +0%로 하락, 대미지 유형이 <@ba.vup>트루</> 대미지로 변경, 해당 기간에 적을 처치하지 못하면 스킬 종료 후 최대 HP의 <@ba.vup>{attack@hp_ratio:0%}</>만큼 HP를 잃는다. <@ba.rem>해당 스킬은 Mon3tr와</> <$ba.binding><@ba.rem>연동</></>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 21,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_kalts_3",
+			"duration": 18,
+			"blackboard": [
+				{
+					"key": "attack@atk",
+					"value": 1.7
+				},
+				{
+					"key": "attack@def",
+					"value": 1.2
+				},
+				{
+					"key": "attack@hp_ratio",
+					"value": 0.5
+				}
+			]
+		},
+		{
+			"name": "명령: 용해",
+			"rangeId": null,
+			"description": "Mon3tr의 방어력 <@ba.vup>+{attack@def:0%}</>, 스킬 지속 기간 동안 공격력이 <@ba.vup>+{attack@atk:0%}</>에서 점차 +0%로 하락, 대미지 유형이 <@ba.vup>트루</> 대미지로 변경, 해당 기간에 적을 처치하지 못하면 스킬 종료 후 최대 HP의 <@ba.vup>{attack@hp_ratio:0%}</>만큼 HP를 잃는다. <@ba.rem>해당 스킬은 Mon3tr와</> <$ba.binding><@ba.rem>연동</></>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 20,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_kalts_3",
+			"duration": 18,
+			"blackboard": [
+				{
+					"key": "attack@atk",
+					"value": 1.8
+				},
+				{
+					"key": "attack@def",
+					"value": 1.2
+				},
+				{
+					"key": "attack@hp_ratio",
+					"value": 0.5
+				}
+			]
+		},
+		{
+			"name": "명령: 용해",
+			"rangeId": null,
+			"description": "Mon3tr의 방어력 <@ba.vup>+{attack@def:0%}</>, 스킬 지속 기간 동안 공격력이 <@ba.vup>+{attack@atk:0%}</>에서 점차 +0%로 하락, 대미지 유형이 <@ba.vup>트루</> 대미지로 변경, 해당 기간에 적을 처치하지 못하면 스킬 종료 후 최대 HP의 <@ba.vup>{attack@hp_ratio:0%}</>만큼 HP를 잃는다. <@ba.rem>해당 스킬은 Mon3tr와</> <$ba.binding><@ba.rem>연동</></>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 19,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_kalts_3",
+			"duration": 18,
+			"blackboard": [
+				{
+					"key": "attack@atk",
+					"value": 1.9
+				},
+				{
+					"key": "attack@def",
+					"value": 1.4
+				},
+				{
+					"key": "attack@hp_ratio",
+					"value": 0.5
+				}
+			]
+		},
+		{
+			"name": "명령: 용해",
+			"rangeId": null,
+			"description": "Mon3tr의 방어력 <@ba.vup>+{attack@def:0%}</>, 스킬 지속 기간 동안 공격력이 <@ba.vup>+{attack@atk:0%}</>에서 점차 +0%로 하락, 대미지 유형이 <@ba.vup>트루</> 대미지로 변경, 해당 기간에 적을 처치하지 못하면 스킬 종료 후 최대 HP의 <@ba.vup>{attack@hp_ratio:0%}</>만큼 HP를 잃는다. <@ba.rem>해당 스킬은 Mon3tr와</> <$ba.binding><@ba.rem>연동</></>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 18,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_kalts_3",
+			"duration": 18,
+			"blackboard": [
+				{
+					"key": "attack@atk",
+					"value": 2.1
+				},
+				{
+					"key": "attack@def",
+					"value": 1.6
+				},
+				{
+					"key": "attack@hp_ratio",
+					"value": 0.5
+				}
+			]
+		},
+		{
+			"name": "명령: 용해",
+			"rangeId": null,
+			"description": "Mon3tr의 방어력 <@ba.vup>+{attack@def:0%}</>, 스킬 지속 기간 동안 공격력이 <@ba.vup>+{attack@atk:0%}</>에서 점차 +0%로 하락, 대미지 유형이 <@ba.vup>트루</> 대미지로 변경, 해당 기간에 적을 처치하지 못하면 스킬 종료 후 최대 HP의 <@ba.vup>{attack@hp_ratio:0%}</>만큼 HP를 잃는다. <@ba.rem>해당 스킬은 Mon3tr와</> <$ba.binding><@ba.rem>연동</></>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 17,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_kalts_3",
+			"duration": 19,
+			"blackboard": [
+				{
+					"key": "attack@atk",
+					"value": 2.3
+				},
+				{
+					"key": "attack@def",
+					"value": 1.8
+				},
+				{
+					"key": "attack@hp_ratio",
+					"value": 0.5
+				}
+			]
+		},
+		{
+			"name": "명령: 용해",
+			"rangeId": null,
+			"description": "Mon3tr의 방어력 <@ba.vup>+{attack@def:0%}</>, 스킬 지속 기간 동안 공격력이 <@ba.vup>+{attack@atk:0%}</>에서 점차 +0%로 하락, 대미지 유형이 <@ba.vup>트루</> 대미지로 변경, 해당 기간에 적을 처치하지 못하면 스킬 종료 후 최대 HP의 <@ba.vup>{attack@hp_ratio:0%}</>만큼 HP를 잃는다. <@ba.rem>해당 스킬은 Mon3tr와</> <$ba.binding><@ba.rem>연동</></>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 15,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_kalts_3",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "attack@atk",
+					"value": 2.6
+				},
+				{
+					"key": "attack@def",
+					"value": 2
+				},
+				{
+					"key": "attack@hp_ratio",
+					"value": 0.5
+				}
+			]
+		}
+	]
+}

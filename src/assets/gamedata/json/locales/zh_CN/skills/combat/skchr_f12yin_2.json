@@ -1,0 +1,347 @@
+{
+	"skillId": "skchr_f12yin_2",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "横扫架势",
+			"rangeId": "0-1",
+			"description": "<@ba.rem>可以在下列状态和初始状态间切换：</>\\n防御力<@ba.vdown>-{-def:0%}</>，攻击距离<@ba.vdown>缩短</>，攻击力<@ba.vup>+{atk:0%}</>，阻挡数<@ba.vup>+{block_cnt}</>，同时攻击阻挡的所有敌人，每秒恢复最大生命的<@ba.vup>{HP_RECOVERY_PER_SEC_BY_MAX_HP_RATIO:0.0%}</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 10,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_f12yin_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.2
+				},
+				{
+					"key": "def",
+					"value": -0.3
+				},
+				{
+					"key": "hp_recovery_per_sec_by_max_hp_ratio",
+					"value": 0.03
+				},
+				{
+					"key": "block_cnt",
+					"value": 1
+				}
+			]
+		},
+		{
+			"name": "横扫架势",
+			"rangeId": "0-1",
+			"description": "<@ba.rem>可以在下列状态和初始状态间切换：</>\\n防御力<@ba.vdown>-{-def:0%}</>，攻击距离<@ba.vdown>缩短</>，攻击力<@ba.vup>+{atk:0%}</>，阻挡数<@ba.vup>+{block_cnt}</>，同时攻击阻挡的所有敌人，每秒恢复最大生命的<@ba.vup>{HP_RECOVERY_PER_SEC_BY_MAX_HP_RATIO:0.0%}</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 10,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_f12yin_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.25
+				},
+				{
+					"key": "def",
+					"value": -0.3
+				},
+				{
+					"key": "hp_recovery_per_sec_by_max_hp_ratio",
+					"value": 0.03
+				},
+				{
+					"key": "block_cnt",
+					"value": 1
+				}
+			]
+		},
+		{
+			"name": "横扫架势",
+			"rangeId": "0-1",
+			"description": "<@ba.rem>可以在下列状态和初始状态间切换：</>\\n防御力<@ba.vdown>-{-def:0%}</>，攻击距离<@ba.vdown>缩短</>，攻击力<@ba.vup>+{atk:0%}</>，阻挡数<@ba.vup>+{block_cnt}</>，同时攻击阻挡的所有敌人，每秒恢复最大生命的<@ba.vup>{HP_RECOVERY_PER_SEC_BY_MAX_HP_RATIO:0.0%}</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 10,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_f12yin_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.3
+				},
+				{
+					"key": "def",
+					"value": -0.3
+				},
+				{
+					"key": "hp_recovery_per_sec_by_max_hp_ratio",
+					"value": 0.03
+				},
+				{
+					"key": "block_cnt",
+					"value": 1
+				}
+			]
+		},
+		{
+			"name": "横扫架势",
+			"rangeId": "0-1",
+			"description": "<@ba.rem>可以在下列状态和初始状态间切换：</>\\n防御力<@ba.vdown>-{-def:0%}</>，攻击距离<@ba.vdown>缩短</>，攻击力<@ba.vup>+{atk:0%}</>，阻挡数<@ba.vup>+{block_cnt}</>，同时攻击阻挡的所有敌人，每秒恢复最大生命的<@ba.vup>{HP_RECOVERY_PER_SEC_BY_MAX_HP_RATIO:0.0%}</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 9,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_f12yin_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.35
+				},
+				{
+					"key": "def",
+					"value": -0.3
+				},
+				{
+					"key": "hp_recovery_per_sec_by_max_hp_ratio",
+					"value": 0.04
+				},
+				{
+					"key": "block_cnt",
+					"value": 1
+				}
+			]
+		},
+		{
+			"name": "横扫架势",
+			"rangeId": "0-1",
+			"description": "<@ba.rem>可以在下列状态和初始状态间切换：</>\\n防御力<@ba.vdown>-{-def:0%}</>，攻击距离<@ba.vdown>缩短</>，攻击力<@ba.vup>+{atk:0%}</>，阻挡数<@ba.vup>+{block_cnt}</>，同时攻击阻挡的所有敌人，每秒恢复最大生命的<@ba.vup>{HP_RECOVERY_PER_SEC_BY_MAX_HP_RATIO:0.0%}</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 9,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_f12yin_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.4
+				},
+				{
+					"key": "def",
+					"value": -0.3
+				},
+				{
+					"key": "hp_recovery_per_sec_by_max_hp_ratio",
+					"value": 0.04
+				},
+				{
+					"key": "block_cnt",
+					"value": 1
+				}
+			]
+		},
+		{
+			"name": "横扫架势",
+			"rangeId": "0-1",
+			"description": "<@ba.rem>可以在下列状态和初始状态间切换：</>\\n防御力<@ba.vdown>-{-def:0%}</>，攻击距离<@ba.vdown>缩短</>，攻击力<@ba.vup>+{atk:0%}</>，阻挡数<@ba.vup>+{block_cnt}</>，同时攻击阻挡的所有敌人，每秒恢复最大生命的<@ba.vup>{HP_RECOVERY_PER_SEC_BY_MAX_HP_RATIO:0.0%}</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 9,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_f12yin_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.45
+				},
+				{
+					"key": "def",
+					"value": -0.3
+				},
+				{
+					"key": "hp_recovery_per_sec_by_max_hp_ratio",
+					"value": 0.04
+				},
+				{
+					"key": "block_cnt",
+					"value": 1
+				}
+			]
+		},
+		{
+			"name": "横扫架势",
+			"rangeId": "0-1",
+			"description": "<@ba.rem>可以在下列状态和初始状态间切换：</>\\n防御力<@ba.vdown>-{-def:0%}</>，攻击距离<@ba.vdown>缩短</>，攻击力<@ba.vup>+{atk:0%}</>，阻挡数<@ba.vup>+{block_cnt}</>，同时攻击阻挡的所有敌人，每秒恢复最大生命的<@ba.vup>{HP_RECOVERY_PER_SEC_BY_MAX_HP_RATIO:0.0%}</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 8,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_f12yin_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.5
+				},
+				{
+					"key": "def",
+					"value": -0.25
+				},
+				{
+					"key": "hp_recovery_per_sec_by_max_hp_ratio",
+					"value": 0.05
+				},
+				{
+					"key": "block_cnt",
+					"value": 1
+				}
+			]
+		},
+		{
+			"name": "横扫架势",
+			"rangeId": "0-1",
+			"description": "<@ba.rem>可以在下列状态和初始状态间切换：</>\\n防御力<@ba.vdown>-{-def:0%}</>，攻击距离<@ba.vdown>缩短</>，攻击力<@ba.vup>+{atk:0%}</>，阻挡数<@ba.vup>+{block_cnt}</>，同时攻击阻挡的所有敌人，每秒恢复最大生命的<@ba.vup>{HP_RECOVERY_PER_SEC_BY_MAX_HP_RATIO:0.0%}</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 7,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_f12yin_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.6
+				},
+				{
+					"key": "def",
+					"value": -0.25
+				},
+				{
+					"key": "hp_recovery_per_sec_by_max_hp_ratio",
+					"value": 0.055
+				},
+				{
+					"key": "block_cnt",
+					"value": 1
+				}
+			]
+		},
+		{
+			"name": "横扫架势",
+			"rangeId": "0-1",
+			"description": "<@ba.rem>可以在下列状态和初始状态间切换：</>\\n防御力<@ba.vdown>-{-def:0%}</>，攻击距离<@ba.vdown>缩短</>，攻击力<@ba.vup>+{atk:0%}</>，阻挡数<@ba.vup>+{block_cnt}</>，同时攻击阻挡的所有敌人，每秒恢复最大生命的<@ba.vup>{HP_RECOVERY_PER_SEC_BY_MAX_HP_RATIO:0.0%}</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 6,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_f12yin_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.7
+				},
+				{
+					"key": "def",
+					"value": -0.25
+				},
+				{
+					"key": "hp_recovery_per_sec_by_max_hp_ratio",
+					"value": 0.06
+				},
+				{
+					"key": "block_cnt",
+					"value": 1
+				}
+			]
+		},
+		{
+			"name": "横扫架势",
+			"rangeId": "0-1",
+			"description": "<@ba.rem>可以在下列状态和初始状态间切换：</>\\n防御力<@ba.vdown>-{-def:0%}</>，攻击距离<@ba.vdown>缩短</>，攻击力<@ba.vup>+{atk:0%}</>，阻挡数<@ba.vup>+{block_cnt}</>，同时攻击阻挡的所有敌人，每秒恢复最大生命的<@ba.vup>{HP_RECOVERY_PER_SEC_BY_MAX_HP_RATIO:0.0%}</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 5,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_f12yin_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.8
+				},
+				{
+					"key": "def",
+					"value": -0.2
+				},
+				{
+					"key": "hp_recovery_per_sec_by_max_hp_ratio",
+					"value": 0.07
+				},
+				{
+					"key": "block_cnt",
+					"value": 1
+				}
+			]
+		}
+	]
+}

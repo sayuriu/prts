@@ -1,0 +1,347 @@
+{
+	"skillId": "skchr_slchan_2",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "Binding Chains",
+			"rangeId": "3-14",
+			"description": "Immediately drags up to <@ba.vup>{max_target}</> targets in a large frontal area towards this unit <@ba.vup>slightly</>, dealing <@ba.vup>{atk_scale:0%}</> <@ba.vup>True damage</> and <$ba.stun>Stunning</> them for <@ba.vup>{stun}</> seconds",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 25,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_slchan_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 1.3
+				},
+				{
+					"key": "stun",
+					"value": 1.5
+				},
+				{
+					"key": "max_target",
+					"value": 2
+				},
+				{
+					"key": "force",
+					"value": 0
+				}
+			]
+		},
+		{
+			"name": "Binding Chains",
+			"rangeId": "3-14",
+			"description": "Immediately drags up to <@ba.vup>{max_target}</> targets in a large frontal area towards this unit <@ba.vup>slightly</>, dealing <@ba.vup>{atk_scale:0%}</> <@ba.vup>True damage</> and <$ba.stun>Stunning</> them for <@ba.vup>{stun}</> seconds",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 24,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_slchan_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 1.35
+				},
+				{
+					"key": "stun",
+					"value": 1.5
+				},
+				{
+					"key": "max_target",
+					"value": 2
+				},
+				{
+					"key": "force",
+					"value": 0
+				}
+			]
+		},
+		{
+			"name": "Binding Chains",
+			"rangeId": "3-14",
+			"description": "Immediately drags up to <@ba.vup>{max_target}</> targets in a large frontal area towards this unit <@ba.vup>slightly</>, dealing <@ba.vup>{atk_scale:0%}</> <@ba.vup>True damage</> and <$ba.stun>Stunning</> them for <@ba.vup>{stun}</> seconds",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 23,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_slchan_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 1.4
+				},
+				{
+					"key": "stun",
+					"value": 1.5
+				},
+				{
+					"key": "max_target",
+					"value": 2
+				},
+				{
+					"key": "force",
+					"value": 0
+				}
+			]
+		},
+		{
+			"name": "Binding Chains",
+			"rangeId": "3-14",
+			"description": "Immediately drags up to <@ba.vup>{max_target}</> targets in a large frontal area towards this unit <@ba.vup>moderately</>, dealing <@ba.vup>{atk_scale:0%}</> <@ba.vup>True damage</> and <$ba.stun>Stunning</> them for <@ba.vup>{stun}</> seconds",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 22,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_slchan_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 1.5
+				},
+				{
+					"key": "stun",
+					"value": 1.5
+				},
+				{
+					"key": "max_target",
+					"value": 2
+				},
+				{
+					"key": "force",
+					"value": 1
+				}
+			]
+		},
+		{
+			"name": "Binding Chains",
+			"rangeId": "3-14",
+			"description": "Immediately drags up to <@ba.vup>{max_target}</> targets in a large frontal area towards this unit <@ba.vup>moderately</>, dealing <@ba.vup>{atk_scale:0%}</> <@ba.vup>True damage</> and <$ba.stun>Stunning</> them for <@ba.vup>{stun}</> seconds",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 21,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_slchan_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 1.55
+				},
+				{
+					"key": "stun",
+					"value": 1.5
+				},
+				{
+					"key": "max_target",
+					"value": 2
+				},
+				{
+					"key": "force",
+					"value": 1
+				}
+			]
+		},
+		{
+			"name": "Binding Chains",
+			"rangeId": "3-14",
+			"description": "Immediately drags up to <@ba.vup>{max_target}</> targets in a large frontal area towards this unit <@ba.vup>moderately</>, dealing <@ba.vup>{atk_scale:0%}</> <@ba.vup>True damage</> and <$ba.stun>Stunning</> them for <@ba.vup>{stun}</> seconds",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 20,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_slchan_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 1.6
+				},
+				{
+					"key": "stun",
+					"value": 1.5
+				},
+				{
+					"key": "max_target",
+					"value": 2
+				},
+				{
+					"key": "force",
+					"value": 1
+				}
+			]
+		},
+		{
+			"name": "Binding Chains",
+			"rangeId": "3-14",
+			"description": "Immediately drags up to <@ba.vup>{max_target}</> targets in a large frontal area towards this unit <@ba.vup>moderately</>, dealing <@ba.vup>{atk_scale:0%}</> <@ba.vup>True damage</> and <$ba.stun>Stunning</> them for <@ba.vup>{stun}</> seconds",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 19,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_slchan_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 1.7
+				},
+				{
+					"key": "stun",
+					"value": 1.5
+				},
+				{
+					"key": "max_target",
+					"value": 2
+				},
+				{
+					"key": "force",
+					"value": 1
+				}
+			]
+		},
+		{
+			"name": "Binding Chains",
+			"rangeId": "3-14",
+			"description": "Immediately drags up to <@ba.vup>{max_target}</> targets in a large frontal area towards this unit <@ba.vup>moderately</>, dealing <@ba.vup>{atk_scale:0%}</> <@ba.vup>True damage</> and <$ba.stun>Stunning</> them for <@ba.vup>{stun}</> seconds",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 18,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_slchan_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 1.8
+				},
+				{
+					"key": "stun",
+					"value": 2
+				},
+				{
+					"key": "max_target",
+					"value": 3
+				},
+				{
+					"key": "force",
+					"value": 1
+				}
+			]
+		},
+		{
+			"name": "Binding Chains",
+			"rangeId": "3-14",
+			"description": "Immediately drags up to <@ba.vup>{max_target}</> targets in a large frontal area towards this unit <@ba.vup>moderately</>, dealing <@ba.vup>{atk_scale:0%}</> <@ba.vup>True damage</> and <$ba.stun>Stunning</> them for <@ba.vup>{stun}</> seconds",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 17,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_slchan_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 1.9
+				},
+				{
+					"key": "stun",
+					"value": 2.5
+				},
+				{
+					"key": "max_target",
+					"value": 3
+				},
+				{
+					"key": "force",
+					"value": 1
+				}
+			]
+		},
+		{
+			"name": "Binding Chains",
+			"rangeId": "3-14",
+			"description": "Immediately drags up to <@ba.vup>{max_target}</> targets in a large frontal area towards this unit <@ba.vup>significantly</>, dealing <@ba.vup>{atk_scale:0%}</> <@ba.vup>True damage</> and <$ba.stun>Stunning</> them for <@ba.vup>{stun}</> seconds",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 15,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_slchan_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 2
+				},
+				{
+					"key": "stun",
+					"value": 3
+				},
+				{
+					"key": "max_target",
+					"value": 3
+				},
+				{
+					"key": "force",
+					"value": 2
+				}
+			]
+		}
+	]
+}

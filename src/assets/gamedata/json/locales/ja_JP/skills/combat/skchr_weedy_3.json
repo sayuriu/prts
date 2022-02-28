@@ -1,0 +1,467 @@
+{
+	"skillId": "skchr_weedy_3",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "LN2キャノン",
+			"rangeId": "4-1",
+			"description": "圧縮液体窒素砲を発射し、攻撃対象とその周囲の敵全員に攻撃力の<@ba.vup>{atk_scale:0%}</>の範囲術ダメージを与え、<@ba.vup>相当の力で</>突き飛ばし、次の状態を付与：<@ba.vup>{duration}</>秒間、移動距離に応じて<@ba.vup>確定</>ダメージを受ける\n<@ba.rem>自身の隣接４マス内の蓄水砲も同時に圧縮液体窒素砲を発射する</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 43,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_weedy_3",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "force",
+					"value": 1
+				},
+				{
+					"key": "stun",
+					"value": 0
+				},
+				{
+					"key": "atk_scale",
+					"value": 2.6
+				},
+				{
+					"key": "duration",
+					"value": 4
+				},
+				{
+					"key": "dist",
+					"value": 1
+				},
+				{
+					"key": "value",
+					"value": 1200
+				},
+				{
+					"key": "interval",
+					"value": 0.066
+				}
+			]
+		},
+		{
+			"name": "LN2キャノン",
+			"rangeId": "4-1",
+			"description": "圧縮液体窒素砲を発射し、攻撃対象とその周囲の敵全員に攻撃力の<@ba.vup>{atk_scale:0%}</>の範囲術ダメージを与え、<@ba.vup>相当の力で</>突き飛ばし、次の状態を付与：<@ba.vup>{duration}</>秒間、移動距離に応じて<@ba.vup>確定</>ダメージを受ける\n<@ba.rem>自身の隣接４マス内の蓄水砲も同時に圧縮液体窒素砲を発射する</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 42,
+				"initSp": 11,
+				"increment": 1
+			},
+			"prefabId": "skchr_weedy_3",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "force",
+					"value": 1
+				},
+				{
+					"key": "stun",
+					"value": 0
+				},
+				{
+					"key": "atk_scale",
+					"value": 2.7
+				},
+				{
+					"key": "duration",
+					"value": 4
+				},
+				{
+					"key": "dist",
+					"value": 1
+				},
+				{
+					"key": "value",
+					"value": 1200
+				},
+				{
+					"key": "interval",
+					"value": 0.066
+				}
+			]
+		},
+		{
+			"name": "LN2キャノン",
+			"rangeId": "4-1",
+			"description": "圧縮液体窒素砲を発射し、攻撃対象とその周囲の敵全員に攻撃力の<@ba.vup>{atk_scale:0%}</>の範囲術ダメージを与え、<@ba.vup>相当の力で</>突き飛ばし、次の状態を付与：<@ba.vup>{duration}</>秒間、移動距離に応じて<@ba.vup>確定</>ダメージを受ける\n<@ba.rem>自身の隣接４マス内の蓄水砲も同時に圧縮液体窒素砲を発射する</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 41,
+				"initSp": 12,
+				"increment": 1
+			},
+			"prefabId": "skchr_weedy_3",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "force",
+					"value": 1
+				},
+				{
+					"key": "stun",
+					"value": 0
+				},
+				{
+					"key": "atk_scale",
+					"value": 2.8
+				},
+				{
+					"key": "duration",
+					"value": 4
+				},
+				{
+					"key": "dist",
+					"value": 1
+				},
+				{
+					"key": "value",
+					"value": 1200
+				},
+				{
+					"key": "interval",
+					"value": 0.066
+				}
+			]
+		},
+		{
+			"name": "LN2キャノン",
+			"rangeId": "4-1",
+			"description": "圧縮液体窒素砲を発射し、攻撃対象とその周囲の敵全員に攻撃力の<@ba.vup>{atk_scale:0%}</>の範囲術ダメージを与え、<@ba.vup>相当の力で</>突き飛ばし、次の状態を付与：<@ba.vup>{duration}</>秒間、移動距離に応じて<@ba.vup>確定</>ダメージを受ける\n<@ba.rem>自身の隣接４マス内の蓄水砲も同時に圧縮液体窒素砲を発射する</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 40,
+				"initSp": 13,
+				"increment": 1
+			},
+			"prefabId": "skchr_weedy_3",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "force",
+					"value": 1
+				},
+				{
+					"key": "stun",
+					"value": 0
+				},
+				{
+					"key": "atk_scale",
+					"value": 2.9
+				},
+				{
+					"key": "duration",
+					"value": 5
+				},
+				{
+					"key": "dist",
+					"value": 1
+				},
+				{
+					"key": "value",
+					"value": 1200
+				},
+				{
+					"key": "interval",
+					"value": 0.066
+				}
+			]
+		},
+		{
+			"name": "LN2キャノン",
+			"rangeId": "4-1",
+			"description": "圧縮液体窒素砲を発射し、攻撃対象とその周囲の敵全員に攻撃力の<@ba.vup>{atk_scale:0%}</>の範囲術ダメージを与え、<@ba.vup>相当の力で</>突き飛ばし、次の状態を付与：<@ba.vup>{duration}</>秒間、移動距離に応じて<@ba.vup>確定</>ダメージを受ける\n<@ba.rem>自身の隣接４マス内の蓄水砲も同時に圧縮液体窒素砲を発射する</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 39,
+				"initSp": 14,
+				"increment": 1
+			},
+			"prefabId": "skchr_weedy_3",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "force",
+					"value": 1
+				},
+				{
+					"key": "stun",
+					"value": 0
+				},
+				{
+					"key": "atk_scale",
+					"value": 3
+				},
+				{
+					"key": "duration",
+					"value": 5
+				},
+				{
+					"key": "dist",
+					"value": 1
+				},
+				{
+					"key": "value",
+					"value": 1200
+				},
+				{
+					"key": "interval",
+					"value": 0.066
+				}
+			]
+		},
+		{
+			"name": "LN2キャノン",
+			"rangeId": "4-1",
+			"description": "圧縮液体窒素砲を発射し、攻撃対象とその周囲の敵全員に攻撃力の<@ba.vup>{atk_scale:0%}</>の範囲術ダメージを与え、<@ba.vup>相当の力で</>突き飛ばし、次の状態を付与：<@ba.vup>{duration}</>秒間、移動距離に応じて<@ba.vup>確定</>ダメージを受ける\n<@ba.rem>自身の隣接４マス内の蓄水砲も同時に圧縮液体窒素砲を発射する</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 38,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_weedy_3",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "force",
+					"value": 1
+				},
+				{
+					"key": "stun",
+					"value": 0
+				},
+				{
+					"key": "atk_scale",
+					"value": 3.1
+				},
+				{
+					"key": "duration",
+					"value": 5
+				},
+				{
+					"key": "dist",
+					"value": 1
+				},
+				{
+					"key": "value",
+					"value": 1200
+				},
+				{
+					"key": "interval",
+					"value": 0.066
+				}
+			]
+		},
+		{
+			"name": "LN2キャノン",
+			"rangeId": "4-1",
+			"description": "圧縮液体窒素砲を発射し、攻撃対象とその周囲の敵全員に攻撃力の<@ba.vup>{atk_scale:0%}</>の範囲術ダメージを与え、<@ba.vup>かなりの力で</>突き飛ばし、次の状態を付与：<@ba.vup>{duration}</>秒間、移動距離に応じて<@ba.vup>確定</>ダメージを受ける\n<@ba.rem>自身の隣接４マス内の蓄水砲も同時に圧縮液体窒素砲を発射する</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 37,
+				"initSp": 16,
+				"increment": 1
+			},
+			"prefabId": "skchr_weedy_3",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "force",
+					"value": 2
+				},
+				{
+					"key": "stun",
+					"value": 0
+				},
+				{
+					"key": "atk_scale",
+					"value": 3.2
+				},
+				{
+					"key": "duration",
+					"value": 6
+				},
+				{
+					"key": "dist",
+					"value": 1
+				},
+				{
+					"key": "value",
+					"value": 1200
+				},
+				{
+					"key": "interval",
+					"value": 0.066
+				}
+			]
+		},
+		{
+			"name": "LN2キャノン",
+			"rangeId": "4-1",
+			"description": "圧縮液体窒素砲を発射し、攻撃対象とその周囲の敵全員に攻撃力の<@ba.vup>{atk_scale:0%}</>の範囲術ダメージを与え、<@ba.vup>かなりの力で</>突き飛ばし、次の状態を付与：<@ba.vup>{duration}</>秒間、移動距離に応じて<@ba.vup>確定</>ダメージを受ける\n<@ba.rem>自身の隣接４マス内の蓄水砲も同時に圧縮液体窒素砲を発射する</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 36,
+				"initSp": 17,
+				"increment": 1
+			},
+			"prefabId": "skchr_weedy_3",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "force",
+					"value": 2
+				},
+				{
+					"key": "stun",
+					"value": 0
+				},
+				{
+					"key": "atk_scale",
+					"value": 3.3
+				},
+				{
+					"key": "duration",
+					"value": 6
+				},
+				{
+					"key": "dist",
+					"value": 1
+				},
+				{
+					"key": "value",
+					"value": 1200
+				},
+				{
+					"key": "interval",
+					"value": 0.066
+				}
+			]
+		},
+		{
+			"name": "LN2キャノン",
+			"rangeId": "4-1",
+			"description": "圧縮液体窒素砲を発射し、攻撃対象とその周囲の敵全員に攻撃力の<@ba.vup>{atk_scale:0%}</>の範囲術ダメージを与え、<@ba.vup>かなりの力で</>突き飛ばし、次の状態を付与：<@ba.vup>{duration}</>秒間、移動距離に応じて<@ba.vup>確定</>ダメージを受ける\n<@ba.rem>自身の隣接４マス内の蓄水砲も同時に圧縮液体窒素砲を発射する</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 35,
+				"initSp": 18,
+				"increment": 1
+			},
+			"prefabId": "skchr_weedy_3",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "force",
+					"value": 2
+				},
+				{
+					"key": "stun",
+					"value": 0
+				},
+				{
+					"key": "atk_scale",
+					"value": 3.4
+				},
+				{
+					"key": "duration",
+					"value": 7
+				},
+				{
+					"key": "dist",
+					"value": 1
+				},
+				{
+					"key": "value",
+					"value": 1200
+				},
+				{
+					"key": "interval",
+					"value": 0.066
+				}
+			]
+		},
+		{
+			"name": "LN2キャノン",
+			"rangeId": "4-1",
+			"description": "圧縮液体窒素砲を発射し、攻撃対象とその周囲の敵全員に攻撃力の<@ba.vup>{atk_scale:0%}</>の範囲術ダメージを与え、<@ba.vup>力強く</>突き飛ばし、次の状態を付与：<@ba.vup>{duration}</>秒間、移動距離に応じて<@ba.vup>確定</>ダメージを受ける\n<@ba.rem>自身の隣接４マス内の蓄水砲も同時に圧縮液体窒素砲を発射する</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 33,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_weedy_3",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "force",
+					"value": 3
+				},
+				{
+					"key": "stun",
+					"value": 0
+				},
+				{
+					"key": "atk_scale",
+					"value": 3.5
+				},
+				{
+					"key": "duration",
+					"value": 8
+				},
+				{
+					"key": "dist",
+					"value": 1
+				},
+				{
+					"key": "value",
+					"value": 1200
+				},
+				{
+					"key": "interval",
+					"value": 0.066
+				}
+			]
+		}
+	]
+}

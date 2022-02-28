@@ -1,0 +1,347 @@
+{
+	"skillId": "skchr_myrtle_2",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "治癒の翅",
+			"rangeId": "x-4",
+			"description": "効果時間内所持コストが徐々に増加(合計<@ba.vup>{value}</>)\n攻撃しなくなり、周囲一定範囲内の味方1人のHPを回復(1秒ごとテンニンカの攻撃力の<@ba.vup>{attack@heal_scale:0%}</>)",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 35,
+				"initSp": 5,
+				"increment": 1
+			},
+			"prefabId": "skchr_myrtle_2",
+			"duration": 16,
+			"blackboard": [
+				{
+					"key": "attack@heal_scale",
+					"value": 0.25
+				},
+				{
+					"key": "interval",
+					"value": 1
+				},
+				{
+					"key": "value",
+					"value": 16
+				},
+				{
+					"key": "cost",
+					"value": 1
+				}
+			]
+		},
+		{
+			"name": "治癒の翅",
+			"rangeId": "x-4",
+			"description": "効果時間内所持コストが徐々に増加(合計<@ba.vup>{value}</>)\n攻撃しなくなり、周囲一定範囲内の味方1人のHPを回復(1秒ごとテンニンカの攻撃力の<@ba.vup>{attack@heal_scale:0%}</>)",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 34,
+				"initSp": 5,
+				"increment": 1
+			},
+			"prefabId": "skchr_myrtle_2",
+			"duration": 16,
+			"blackboard": [
+				{
+					"key": "attack@heal_scale",
+					"value": 0.25
+				},
+				{
+					"key": "interval",
+					"value": 1
+				},
+				{
+					"key": "value",
+					"value": 16
+				},
+				{
+					"key": "cost",
+					"value": 1
+				}
+			]
+		},
+		{
+			"name": "治癒の翅",
+			"rangeId": "x-4",
+			"description": "効果時間内所持コストが徐々に増加(合計<@ba.vup>{value}</>)\n攻撃しなくなり、周囲一定範囲内の味方1人のHPを回復(1秒ごとテンニンカの攻撃力の<@ba.vup>{attack@heal_scale:0%}</>)",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 33,
+				"initSp": 5,
+				"increment": 1
+			},
+			"prefabId": "skchr_myrtle_2",
+			"duration": 16,
+			"blackboard": [
+				{
+					"key": "attack@heal_scale",
+					"value": 0.25
+				},
+				{
+					"key": "interval",
+					"value": 1
+				},
+				{
+					"key": "value",
+					"value": 16
+				},
+				{
+					"key": "cost",
+					"value": 1
+				}
+			]
+		},
+		{
+			"name": "治癒の翅",
+			"rangeId": "x-4",
+			"description": "効果時間内所持コストが徐々に増加(合計<@ba.vup>{value}</>)\n攻撃しなくなり、周囲一定範囲内の味方1人のHPを回復(1秒ごとテンニンカの攻撃力の<@ba.vup>{attack@heal_scale:0%}</>)",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 31,
+				"initSp": 6,
+				"increment": 1
+			},
+			"prefabId": "skchr_myrtle_2",
+			"duration": 16,
+			"blackboard": [
+				{
+					"key": "attack@heal_scale",
+					"value": 0.3
+				},
+				{
+					"key": "interval",
+					"value": 1
+				},
+				{
+					"key": "value",
+					"value": 16
+				},
+				{
+					"key": "cost",
+					"value": 1
+				}
+			]
+		},
+		{
+			"name": "治癒の翅",
+			"rangeId": "x-4",
+			"description": "効果時間内所持コストが徐々に増加(合計<@ba.vup>{value}</>)\n攻撃しなくなり、周囲一定範囲内の味方1人のHPを回復(1秒ごとテンニンカの攻撃力の<@ba.vup>{attack@heal_scale:0%}</>)",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 30,
+				"initSp": 6,
+				"increment": 1
+			},
+			"prefabId": "skchr_myrtle_2",
+			"duration": 16,
+			"blackboard": [
+				{
+					"key": "attack@heal_scale",
+					"value": 0.3
+				},
+				{
+					"key": "interval",
+					"value": 1
+				},
+				{
+					"key": "value",
+					"value": 16
+				},
+				{
+					"key": "cost",
+					"value": 1
+				}
+			]
+		},
+		{
+			"name": "治癒の翅",
+			"rangeId": "x-4",
+			"description": "効果時間内所持コストが徐々に増加(合計<@ba.vup>{value}</>)\n攻撃しなくなり、周囲一定範囲内の味方1人のHPを回復(1秒ごとテンニンカの攻撃力の<@ba.vup>{attack@heal_scale:0%}</>)",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 29,
+				"initSp": 6,
+				"increment": 1
+			},
+			"prefabId": "skchr_myrtle_2",
+			"duration": 16,
+			"blackboard": [
+				{
+					"key": "attack@heal_scale",
+					"value": 0.3
+				},
+				{
+					"key": "interval",
+					"value": 1
+				},
+				{
+					"key": "value",
+					"value": 16
+				},
+				{
+					"key": "cost",
+					"value": 1
+				}
+			]
+		},
+		{
+			"name": "治癒の翅",
+			"rangeId": "x-4",
+			"description": "効果時間内所持コストが徐々に増加(合計<@ba.vup>{value}</>)\n攻撃しなくなり、周囲一定範囲内の味方1人のHPを回復(1秒ごとテンニンカの攻撃力の<@ba.vup>{attack@heal_scale:0%}</>)",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 27,
+				"initSp": 7,
+				"increment": 1
+			},
+			"prefabId": "skchr_myrtle_2",
+			"duration": 16,
+			"blackboard": [
+				{
+					"key": "attack@heal_scale",
+					"value": 0.35
+				},
+				{
+					"key": "interval",
+					"value": 1
+				},
+				{
+					"key": "value",
+					"value": 16
+				},
+				{
+					"key": "cost",
+					"value": 1
+				}
+			]
+		},
+		{
+			"name": "治癒の翅",
+			"rangeId": "x-4",
+			"description": "効果時間内所持コストが徐々に増加(合計<@ba.vup>{value}</>)\n攻撃しなくなり、周囲一定範囲内の味方1人のHPを回復(1秒ごとテンニンカの攻撃力の<@ba.vup>{attack@heal_scale:0%}</>)",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 26,
+				"initSp": 8,
+				"increment": 1
+			},
+			"prefabId": "skchr_myrtle_2",
+			"duration": 16,
+			"blackboard": [
+				{
+					"key": "attack@heal_scale",
+					"value": 0.4
+				},
+				{
+					"key": "interval",
+					"value": 1
+				},
+				{
+					"key": "value",
+					"value": 16
+				},
+				{
+					"key": "cost",
+					"value": 1
+				}
+			]
+		},
+		{
+			"name": "治癒の翅",
+			"rangeId": "x-4",
+			"description": "効果時間内所持コストが徐々に増加(合計<@ba.vup>{value}</>)\n攻撃しなくなり、周囲一定範囲内の味方1人のHPを回復(1秒ごとテンニンカの攻撃力の<@ba.vup>{attack@heal_scale:0%}</>)",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 25,
+				"initSp": 9,
+				"increment": 1
+			},
+			"prefabId": "skchr_myrtle_2",
+			"duration": 16,
+			"blackboard": [
+				{
+					"key": "attack@heal_scale",
+					"value": 0.45
+				},
+				{
+					"key": "interval",
+					"value": 1
+				},
+				{
+					"key": "value",
+					"value": 16
+				},
+				{
+					"key": "cost",
+					"value": 1
+				}
+			]
+		},
+		{
+			"name": "治癒の翅",
+			"rangeId": "x-4",
+			"description": "効果時間内所持コストが徐々に増加(合計<@ba.vup>{value}</>)\n攻撃しなくなり、周囲一定範囲内の味方1人のHPを回復(1秒ごとテンニンカの攻撃力の<@ba.vup>{attack@heal_scale:0%}</>)",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 24,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_myrtle_2",
+			"duration": 16,
+			"blackboard": [
+				{
+					"key": "attack@heal_scale",
+					"value": 0.5
+				},
+				{
+					"key": "interval",
+					"value": 1
+				},
+				{
+					"key": "value",
+					"value": 16
+				},
+				{
+					"key": "cost",
+					"value": 1
+				}
+			]
+		}
+	]
+}

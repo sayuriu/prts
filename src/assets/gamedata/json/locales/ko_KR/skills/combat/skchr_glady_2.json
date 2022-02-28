@@ -1,0 +1,347 @@
+{
+	"skillId": "skchr_glady_2",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "갈증의 노해 장악",
+			"rangeId": "3-14",
+			"description": "공격 딜레이가 <@ba.vdown>어느 정도 증가</>, 공격 범위 확대, 매회 공격이 저지된 2개의 목표를 우선으로 공격력 <@ba.vup>{attack@atk_scale:0%}</>의 물리 대미지를 주고, <@ba.vup>아주 살짝</> 자신의 앞으로 끌어당긴다.",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 35,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_glady_2",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": 0.5
+				},
+				{
+					"key": "attack@max_target",
+					"value": 2
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 1.2
+				},
+				{
+					"key": "attack@force",
+					"value": 0
+				}
+			]
+		},
+		{
+			"name": "갈증의 노해 장악",
+			"rangeId": "3-14",
+			"description": "공격 딜레이가 <@ba.vdown>어느 정도 증가</>, 공격 범위 확대, 매회 공격이 저지된 2개의 목표를 우선으로 공격력 <@ba.vup>{attack@atk_scale:0%}</>의 물리 대미지를 주고, <@ba.vup>아주 살짝</> 자신의 앞으로 끌어당긴다.",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 34,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_glady_2",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": 0.5
+				},
+				{
+					"key": "attack@max_target",
+					"value": 2
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 1.25
+				},
+				{
+					"key": "attack@force",
+					"value": 0
+				}
+			]
+		},
+		{
+			"name": "갈증의 노해 장악",
+			"rangeId": "3-14",
+			"description": "공격 딜레이가 <@ba.vdown>어느 정도 증가</>, 공격 범위 확대, 매회 공격이 저지된 2개의 목표를 우선으로 공격력 <@ba.vup>{attack@atk_scale:0%}</>의 물리 대미지를 주고, <@ba.vup>아주 살짝</> 자신의 앞으로 끌어당긴다.",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 33,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_glady_2",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": 0.5
+				},
+				{
+					"key": "attack@max_target",
+					"value": 2
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 1.3
+				},
+				{
+					"key": "attack@force",
+					"value": 0
+				}
+			]
+		},
+		{
+			"name": "갈증의 노해 장악",
+			"rangeId": "3-14",
+			"description": "공격 딜레이가 <@ba.vdown>어느 정도 증가</>, 공격 범위 확대, 매회 공격이 저지된 2개의 목표를 우선으로 공격력 <@ba.vup>{attack@atk_scale:0%}</>의 물리 대미지를 주고, <@ba.vup>어느 정도</> 자신의 앞으로 끌어당긴다.",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 32,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_glady_2",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": 0.5
+				},
+				{
+					"key": "attack@max_target",
+					"value": 2
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 1.35
+				},
+				{
+					"key": "attack@force",
+					"value": 1
+				}
+			]
+		},
+		{
+			"name": "갈증의 노해 장악",
+			"rangeId": "3-14",
+			"description": "공격 딜레이가 <@ba.vdown>어느 정도 증가</>, 공격 범위 확대, 매회 공격이 저지된 2개의 목표를 우선으로 공격력 <@ba.vup>{attack@atk_scale:0%}</>의 물리 대미지를 주고, <@ba.vup>어느 정도</> 자신의 앞으로 끌어당긴다.",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 31,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_glady_2",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": 0.5
+				},
+				{
+					"key": "attack@max_target",
+					"value": 2
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 1.4
+				},
+				{
+					"key": "attack@force",
+					"value": 1
+				}
+			]
+		},
+		{
+			"name": "갈증의 노해 장악",
+			"rangeId": "3-14",
+			"description": "공격 딜레이가 <@ba.vdown>어느 정도 증가</>, 공격 범위 확대, 매회 공격이 저지된 2개의 목표를 우선으로 공격력 <@ba.vup>{attack@atk_scale:0%}</>의 물리 대미지를 주고, <@ba.vup>어느 정도</> 자신의 앞으로 끌어당긴다.",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 30,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_glady_2",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": 0.5
+				},
+				{
+					"key": "attack@max_target",
+					"value": 2
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 1.45
+				},
+				{
+					"key": "attack@force",
+					"value": 1
+				}
+			]
+		},
+		{
+			"name": "갈증의 노해 장악",
+			"rangeId": "3-14",
+			"description": "공격 딜레이가 <@ba.vdown>어느 정도 증가</>, 공격 범위 확대, 매회 공격이 저지된 2개의 목표를 우선으로 공격력 <@ba.vup>{attack@atk_scale:0%}</>의 물리 대미지를 주고, <@ba.vup>어느 정도</> 자신의 앞으로 끌어당긴다.",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 29,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_glady_2",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": 0.5
+				},
+				{
+					"key": "attack@max_target",
+					"value": 2
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 1.5
+				},
+				{
+					"key": "attack@force",
+					"value": 1
+				}
+			]
+		},
+		{
+			"name": "갈증의 노해 장악",
+			"rangeId": "3-14",
+			"description": "공격 딜레이가 <@ba.vdown>어느 정도 증가</>, 공격 범위 확대, 매회 공격이 저지된 2개의 목표를 우선으로 공격력 <@ba.vup>{attack@atk_scale:0%}</>의 물리 대미지를 주고, <@ba.vup>어느 정도</> 자신의 앞으로 끌어당긴다.",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 28,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_glady_2",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": 0.5
+				},
+				{
+					"key": "attack@max_target",
+					"value": 2
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 1.6
+				},
+				{
+					"key": "attack@force",
+					"value": 1
+				}
+			]
+		},
+		{
+			"name": "갈증의 노해 장악",
+			"rangeId": "3-14",
+			"description": "공격 딜레이가 <@ba.vdown>어느 정도 증가</>, 공격 범위 확대, 매회 공격이 저지된 2개의 목표를 우선으로 공격력 <@ba.vup>{attack@atk_scale:0%}</>의 물리 대미지를 주고, <@ba.vup>어느 정도</> 자신의 앞으로 끌어당긴다.",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 27,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_glady_2",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": 0.5
+				},
+				{
+					"key": "attack@max_target",
+					"value": 2
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 1.7
+				},
+				{
+					"key": "attack@force",
+					"value": 1
+				}
+			]
+		},
+		{
+			"name": "갈증의 노해 장악",
+			"rangeId": "3-14",
+			"description": "공격 딜레이가 <@ba.vdown>어느 정도 증가</>, 공격 범위 확대, 매회 공격이 저지된 2개의 목표를 우선으로 공격력 <@ba.vup>{attack@atk_scale:0%}</>의 물리 대미지를 주고, <@ba.vup>비교적 많이</> 자신의 앞으로 끌어당긴다.",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 25,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_glady_2",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": 0.5
+				},
+				{
+					"key": "attack@max_target",
+					"value": 2
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 1.8
+				},
+				{
+					"key": "attack@force",
+					"value": 2
+				}
+			]
+		}
+	]
+}

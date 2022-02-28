@@ -1,0 +1,307 @@
+{
+	"skillId": "skchr_sesa_2",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "ディレイドボンバー",
+			"rangeId": null,
+			"description": "遅延で起爆する榴弾を発射し、爆発時攻撃力の<@ba.vup>{attack@atk_scale:0%}</>の物理ダメージを与え、攻撃対象の攻撃速度を<@ba.vup>{attack@duration}</>秒間<@ba.vup>-{-attack@attack_speed}</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 50,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_sesa_2",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "attack@atk_scale",
+					"value": 1.7
+				},
+				{
+					"key": "attack@attack_speed",
+					"value": -3
+				},
+				{
+					"key": "attack@duration",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "ディレイドボンバー",
+			"rangeId": null,
+			"description": "遅延で起爆する榴弾を発射し、爆発時攻撃力の<@ba.vup>{attack@atk_scale:0%}</>の物理ダメージを与え、攻撃対象の攻撃速度を<@ba.vup>{attack@duration}</>秒間<@ba.vup>-{-attack@attack_speed}</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 49,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_sesa_2",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "attack@atk_scale",
+					"value": 1.75
+				},
+				{
+					"key": "attack@attack_speed",
+					"value": -3
+				},
+				{
+					"key": "attack@duration",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "ディレイドボンバー",
+			"rangeId": null,
+			"description": "遅延で起爆する榴弾を発射し、爆発時攻撃力の<@ba.vup>{attack@atk_scale:0%}</>の物理ダメージを与え、攻撃対象の攻撃速度を<@ba.vup>{attack@duration}</>秒間<@ba.vup>-{-attack@attack_speed}</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 48,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_sesa_2",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "attack@atk_scale",
+					"value": 1.8
+				},
+				{
+					"key": "attack@attack_speed",
+					"value": -3
+				},
+				{
+					"key": "attack@duration",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "ディレイドボンバー",
+			"rangeId": null,
+			"description": "遅延で起爆する榴弾を発射し、爆発時攻撃力の<@ba.vup>{attack@atk_scale:0%}</>の物理ダメージを与え、攻撃対象の攻撃速度を<@ba.vup>{attack@duration}</>秒間<@ba.vup>-{-attack@attack_speed}</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 47,
+				"initSp": 12,
+				"increment": 1
+			},
+			"prefabId": "skchr_sesa_2",
+			"duration": 26,
+			"blackboard": [
+				{
+					"key": "attack@atk_scale",
+					"value": 1.9
+				},
+				{
+					"key": "attack@attack_speed",
+					"value": -6
+				},
+				{
+					"key": "attack@duration",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "ディレイドボンバー",
+			"rangeId": null,
+			"description": "遅延で起爆する榴弾を発射し、爆発時攻撃力の<@ba.vup>{attack@atk_scale:0%}</>の物理ダメージを与え、攻撃対象の攻撃速度を<@ba.vup>{attack@duration}</>秒間<@ba.vup>-{-attack@attack_speed}</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 46,
+				"initSp": 12,
+				"increment": 1
+			},
+			"prefabId": "skchr_sesa_2",
+			"duration": 26,
+			"blackboard": [
+				{
+					"key": "attack@atk_scale",
+					"value": 1.95
+				},
+				{
+					"key": "attack@attack_speed",
+					"value": -6
+				},
+				{
+					"key": "attack@duration",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "ディレイドボンバー",
+			"rangeId": null,
+			"description": "遅延で起爆する榴弾を発射し、爆発時攻撃力の<@ba.vup>{attack@atk_scale:0%}</>の物理ダメージを与え、攻撃対象の攻撃速度を<@ba.vup>{attack@duration}</>秒間<@ba.vup>-{-attack@attack_speed}</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 45,
+				"initSp": 12,
+				"increment": 1
+			},
+			"prefabId": "skchr_sesa_2",
+			"duration": 26,
+			"blackboard": [
+				{
+					"key": "attack@atk_scale",
+					"value": 2
+				},
+				{
+					"key": "attack@attack_speed",
+					"value": -6
+				},
+				{
+					"key": "attack@duration",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "ディレイドボンバー",
+			"rangeId": null,
+			"description": "遅延で起爆する榴弾を発射し、爆発時攻撃力の<@ba.vup>{attack@atk_scale:0%}</>の物理ダメージを与え、攻撃対象の攻撃速度を<@ba.vup>{attack@duration}</>秒間<@ba.vup>-{-attack@attack_speed}</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 44,
+				"initSp": 14,
+				"increment": 1
+			},
+			"prefabId": "skchr_sesa_2",
+			"duration": 27,
+			"blackboard": [
+				{
+					"key": "attack@atk_scale",
+					"value": 2.1
+				},
+				{
+					"key": "attack@attack_speed",
+					"value": -10
+				},
+				{
+					"key": "attack@duration",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "ディレイドボンバー",
+			"rangeId": null,
+			"description": "遅延で起爆する榴弾を発射し、爆発時攻撃力の<@ba.vup>{attack@atk_scale:0%}</>の物理ダメージを与え、攻撃対象の攻撃速度を<@ba.vup>{attack@duration}</>秒間<@ba.vup>-{-attack@attack_speed}</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 43,
+				"initSp": 16,
+				"increment": 1
+			},
+			"prefabId": "skchr_sesa_2",
+			"duration": 28,
+			"blackboard": [
+				{
+					"key": "attack@atk_scale",
+					"value": 2.2
+				},
+				{
+					"key": "attack@attack_speed",
+					"value": -13
+				},
+				{
+					"key": "attack@duration",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "ディレイドボンバー",
+			"rangeId": null,
+			"description": "遅延で起爆する榴弾を発射し、爆発時攻撃力の<@ba.vup>{attack@atk_scale:0%}</>の物理ダメージを与え、攻撃対象の攻撃速度を<@ba.vup>{attack@duration}</>秒間<@ba.vup>-{-attack@attack_speed}</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 42,
+				"initSp": 18,
+				"increment": 1
+			},
+			"prefabId": "skchr_sesa_2",
+			"duration": 29,
+			"blackboard": [
+				{
+					"key": "attack@atk_scale",
+					"value": 2.3
+				},
+				{
+					"key": "attack@attack_speed",
+					"value": -16
+				},
+				{
+					"key": "attack@duration",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "ディレイドボンバー",
+			"rangeId": null,
+			"description": "遅延で起爆する榴弾を発射し、爆発時攻撃力の<@ba.vup>{attack@atk_scale:0%}</>の物理ダメージを与え、攻撃対象の攻撃速度を<@ba.vup>{attack@duration}</>秒間<@ba.vup>-{-attack@attack_speed}</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 40,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_sesa_2",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "attack@atk_scale",
+					"value": 2.4
+				},
+				{
+					"key": "attack@attack_speed",
+					"value": -20
+				},
+				{
+					"key": "attack@duration",
+					"value": 3
+				}
+			]
+		}
+	]
+}

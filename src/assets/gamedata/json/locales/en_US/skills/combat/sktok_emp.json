@@ -1,0 +1,59 @@
+{
+	"skillId": "sktok_emp",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "EMP Blast",
+			"rangeId": "x-4",
+			"description": "Consumes <@ba.vup>{cost}</> DP to immediately deal damage to all nearby enemies and <$ba.stun>Stun</> the targets hit for <@ba.vup>{stun}</> seconds",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 5,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "sktok_emp",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "stun",
+					"value": 7
+				},
+				{
+					"key": "cost",
+					"value": 10
+				}
+			]
+		},
+		{
+			"name": "EMP Blast",
+			"rangeId": "x-4",
+			"description": "Consumes <@ba.vup>{cost}</> DP to immediately deal damage to all nearby enemies and <$ba.stun>Stun</> the targets hit for <@ba.vup>{stun}</> seconds",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 5,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "sktok_emp",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "stun",
+					"value": 15
+				},
+				{
+					"key": "cost",
+					"value": 10
+				}
+			]
+		}
+	]
+}

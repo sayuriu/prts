@@ -1,0 +1,347 @@
+{
+	"skillId": "skchr_aosta_2",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "Shadow Nails",
+			"rangeId": null,
+			"description": "Attack Interval <@ba.vup>increases</>, ATK <@ba.vup>+{atk:0%}</> and every attack <$ba.root>Binds</> the targets for <@ba.vup>{attack@frozen_duration}</> seconds. The damage multiplier of this unit's Talent is doubled",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 60,
+				"initSp": 11,
+				"increment": 1
+			},
+			"prefabId": "skchr_aosta_2",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": 0.5
+				},
+				{
+					"key": "atk",
+					"value": 0.2
+				},
+				{
+					"key": "attack@frozen_duration",
+					"value": 0.8
+				},
+				{
+					"key": "talent_scale",
+					"value": 2
+				}
+			]
+		},
+		{
+			"name": "Shadow Nails",
+			"rangeId": null,
+			"description": "Attack Interval <@ba.vup>increases</>, ATK <@ba.vup>+{atk:0%}</> and every attack <$ba.root>Binds</> the targets for <@ba.vup>{attack@frozen_duration}</> seconds. The damage multiplier of this unit's Talent is doubled",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 59,
+				"initSp": 12,
+				"increment": 1
+			},
+			"prefabId": "skchr_aosta_2",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": 0.5
+				},
+				{
+					"key": "atk",
+					"value": 0.25
+				},
+				{
+					"key": "attack@frozen_duration",
+					"value": 0.8
+				},
+				{
+					"key": "talent_scale",
+					"value": 2
+				}
+			]
+		},
+		{
+			"name": "Shadow Nails",
+			"rangeId": null,
+			"description": "Attack Interval <@ba.vup>increases</>, ATK <@ba.vup>+{atk:0%}</> and every attack <$ba.root>Binds</> the targets for <@ba.vup>{attack@frozen_duration}</> seconds. The damage multiplier of this unit's Talent is doubled",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 58,
+				"initSp": 13,
+				"increment": 1
+			},
+			"prefabId": "skchr_aosta_2",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": 0.5
+				},
+				{
+					"key": "atk",
+					"value": 0.3
+				},
+				{
+					"key": "attack@frozen_duration",
+					"value": 0.8
+				},
+				{
+					"key": "talent_scale",
+					"value": 2
+				}
+			]
+		},
+		{
+			"name": "Shadow Nails",
+			"rangeId": null,
+			"description": "Attack Interval <@ba.vup>increases</>, ATK <@ba.vup>+{atk:0%}</> and every attack <$ba.root>Binds</> the targets for <@ba.vup>{attack@frozen_duration}</> seconds. The damage multiplier of this unit's Talent is doubled",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 57,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_aosta_2",
+			"duration": 21,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": 0.5
+				},
+				{
+					"key": "atk",
+					"value": 0.35
+				},
+				{
+					"key": "attack@frozen_duration",
+					"value": 1
+				},
+				{
+					"key": "talent_scale",
+					"value": 2
+				}
+			]
+		},
+		{
+			"name": "Shadow Nails",
+			"rangeId": null,
+			"description": "Attack Interval <@ba.vup>increases</>, ATK <@ba.vup>+{atk:0%}</> and every attack <$ba.root>Binds</> the targets for <@ba.vup>{attack@frozen_duration}</> seconds. The damage multiplier of this unit's Talent is doubled",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 56,
+				"initSp": 16,
+				"increment": 1
+			},
+			"prefabId": "skchr_aosta_2",
+			"duration": 21,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": 0.5
+				},
+				{
+					"key": "atk",
+					"value": 0.4
+				},
+				{
+					"key": "attack@frozen_duration",
+					"value": 1
+				},
+				{
+					"key": "talent_scale",
+					"value": 2
+				}
+			]
+		},
+		{
+			"name": "Shadow Nails",
+			"rangeId": null,
+			"description": "Attack Interval <@ba.vup>increases</>, ATK <@ba.vup>+{atk:0%}</> and every attack <$ba.root>Binds</> the targets for <@ba.vup>{attack@frozen_duration}</> seconds. The damage multiplier of this unit's Talent is doubled",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 55,
+				"initSp": 17,
+				"increment": 1
+			},
+			"prefabId": "skchr_aosta_2",
+			"duration": 21,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": 0.5
+				},
+				{
+					"key": "atk",
+					"value": 0.45
+				},
+				{
+					"key": "attack@frozen_duration",
+					"value": 1
+				},
+				{
+					"key": "talent_scale",
+					"value": 2
+				}
+			]
+		},
+		{
+			"name": "Shadow Nails",
+			"rangeId": null,
+			"description": "Attack Interval <@ba.vup>increases</>, ATK <@ba.vup>+{atk:0%}</> and every attack <$ba.root>Binds</> the targets for <@ba.vup>{attack@frozen_duration}</> seconds. The damage multiplier of this unit's Talent is doubled",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 54,
+				"initSp": 19,
+				"increment": 1
+			},
+			"prefabId": "skchr_aosta_2",
+			"duration": 22,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": 0.5
+				},
+				{
+					"key": "atk",
+					"value": 0.5
+				},
+				{
+					"key": "attack@frozen_duration",
+					"value": 1.2
+				},
+				{
+					"key": "talent_scale",
+					"value": 2
+				}
+			]
+		},
+		{
+			"name": "Shadow Nails",
+			"rangeId": null,
+			"description": "Attack Interval <@ba.vup>increases</>, ATK <@ba.vup>+{atk:0%}</> and every attack <$ba.root>Binds</> the targets for <@ba.vup>{attack@frozen_duration}</> seconds. The damage multiplier of this unit's Talent is doubled",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 53,
+				"initSp": 21,
+				"increment": 1
+			},
+			"prefabId": "skchr_aosta_2",
+			"duration": 23,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": 0.5
+				},
+				{
+					"key": "atk",
+					"value": 0.55
+				},
+				{
+					"key": "attack@frozen_duration",
+					"value": 1.2
+				},
+				{
+					"key": "talent_scale",
+					"value": 2
+				}
+			]
+		},
+		{
+			"name": "Shadow Nails",
+			"rangeId": null,
+			"description": "Attack Interval <@ba.vup>increases</>, ATK <@ba.vup>+{atk:0%}</> and every attack <$ba.root>Binds</> the targets for <@ba.vup>{attack@frozen_duration}</> seconds. The damage multiplier of this unit's Talent is doubled",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 52,
+				"initSp": 23,
+				"increment": 1
+			},
+			"prefabId": "skchr_aosta_2",
+			"duration": 24,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": 0.5
+				},
+				{
+					"key": "atk",
+					"value": 0.6
+				},
+				{
+					"key": "attack@frozen_duration",
+					"value": 1.2
+				},
+				{
+					"key": "talent_scale",
+					"value": 2
+				}
+			]
+		},
+		{
+			"name": "Shadow Nails",
+			"rangeId": null,
+			"description": "Attack Interval <@ba.vup>increases</>, ATK <@ba.vup>+{atk:0%}</> and every attack <$ba.root>Binds</> the targets for <@ba.vup>{attack@frozen_duration}</> seconds. The damage multiplier of this unit's Talent is doubled",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 50,
+				"initSp": 25,
+				"increment": 1
+			},
+			"prefabId": "skchr_aosta_2",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": 0.5
+				},
+				{
+					"key": "atk",
+					"value": 0.7
+				},
+				{
+					"key": "attack@frozen_duration",
+					"value": 1.5
+				},
+				{
+					"key": "talent_scale",
+					"value": 2
+				}
+			]
+		}
+	]
+}

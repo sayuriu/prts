@@ -1,0 +1,387 @@
+{
+	"skillId": "skchr_nian_3",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "철의 방어",
+			"rangeId": "x-2",
+			"description": "공격력 <@ba.vup>+{nian_s_3[self].atk:0%}</>, 주변의 다른 아군 오퍼레이터의 방어력이 <@ba.vup>+{nian_s_3[ally].def:0%}</>, 저지 가능 수 <@ba.vup>+1</>, 추가로 <$ba.buffres>저항</> 효과를 준다",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 85,
+				"initSp": 40,
+				"increment": 1
+			},
+			"prefabId": "skchr_nian_3",
+			"duration": 40,
+			"blackboard": [
+				{
+					"key": "nian_s_3[self].block_cnt",
+					"value": 0
+				},
+				{
+					"key": "nian_s_3[ally].block_cnt",
+					"value": 1
+				},
+				{
+					"key": "nian_s_3[ally].def",
+					"value": 0.3
+				},
+				{
+					"key": "one_minus_status_resistance",
+					"value": -0.5
+				},
+				{
+					"key": "nian_s_3[self].atk",
+					"value": 0.55
+				}
+			]
+		},
+		{
+			"name": "철의 방어",
+			"rangeId": "x-2",
+			"description": "공격력 <@ba.vup>+{nian_s_3[self].atk:0%}</>, 주변의 다른 아군 오퍼레이터의 방어력이 <@ba.vup>+{nian_s_3[ally].def:0%}</>, 저지 가능 수 <@ba.vup>+1</>, 추가로 <$ba.buffres>저항</> 효과를 준다",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 85,
+				"initSp": 42,
+				"increment": 1
+			},
+			"prefabId": "skchr_nian_3",
+			"duration": 40,
+			"blackboard": [
+				{
+					"key": "nian_s_3[self].block_cnt",
+					"value": 0
+				},
+				{
+					"key": "nian_s_3[ally].block_cnt",
+					"value": 1
+				},
+				{
+					"key": "nian_s_3[ally].def",
+					"value": 0.3
+				},
+				{
+					"key": "one_minus_status_resistance",
+					"value": -0.5
+				},
+				{
+					"key": "nian_s_3[self].atk",
+					"value": 0.55
+				}
+			]
+		},
+		{
+			"name": "철의 방어",
+			"rangeId": "x-2",
+			"description": "공격력 <@ba.vup>+{nian_s_3[self].atk:0%}</>, 주변의 다른 아군 오퍼레이터의 방어력이 <@ba.vup>+{nian_s_3[ally].def:0%}</>, 저지 가능 수 <@ba.vup>+1</>, 추가로 <$ba.buffres>저항</> 효과를 준다",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 85,
+				"initSp": 44,
+				"increment": 1
+			},
+			"prefabId": "skchr_nian_3",
+			"duration": 40,
+			"blackboard": [
+				{
+					"key": "nian_s_3[self].block_cnt",
+					"value": 0
+				},
+				{
+					"key": "nian_s_3[ally].block_cnt",
+					"value": 1
+				},
+				{
+					"key": "nian_s_3[ally].def",
+					"value": 0.3
+				},
+				{
+					"key": "one_minus_status_resistance",
+					"value": -0.5
+				},
+				{
+					"key": "nian_s_3[self].atk",
+					"value": 0.6
+				}
+			]
+		},
+		{
+			"name": "철의 방어",
+			"rangeId": "x-2",
+			"description": "공격력 <@ba.vup>+{nian_s_3[self].atk:0%}</>, 주변의 다른 아군 오퍼레이터의 방어력이 <@ba.vup>+{nian_s_3[ally].def:0%}</>, 저지 가능 수 <@ba.vup>+1</>, 추가로 <$ba.buffres>저항</> 효과를 준다",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 85,
+				"initSp": 48,
+				"increment": 1
+			},
+			"prefabId": "skchr_nian_3",
+			"duration": 40,
+			"blackboard": [
+				{
+					"key": "nian_s_3[self].block_cnt",
+					"value": 0
+				},
+				{
+					"key": "nian_s_3[ally].block_cnt",
+					"value": 1
+				},
+				{
+					"key": "nian_s_3[ally].def",
+					"value": 0.4
+				},
+				{
+					"key": "one_minus_status_resistance",
+					"value": -0.5
+				},
+				{
+					"key": "nian_s_3[self].atk",
+					"value": 0.65
+				}
+			]
+		},
+		{
+			"name": "철의 방어",
+			"rangeId": "x-2",
+			"description": "공격력 <@ba.vup>+{nian_s_3[self].atk:0%}</>, 주변의 다른 아군 오퍼레이터의 방어력이 <@ba.vup>+{nian_s_3[ally].def:0%}</>, 저지 가능 수 <@ba.vup>+1</>, 추가로 <$ba.buffres>저항</> 효과를 준다",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 85,
+				"initSp": 50,
+				"increment": 1
+			},
+			"prefabId": "skchr_nian_3",
+			"duration": 40,
+			"blackboard": [
+				{
+					"key": "nian_s_3[self].block_cnt",
+					"value": 0
+				},
+				{
+					"key": "nian_s_3[ally].block_cnt",
+					"value": 1
+				},
+				{
+					"key": "nian_s_3[ally].def",
+					"value": 0.4
+				},
+				{
+					"key": "one_minus_status_resistance",
+					"value": -0.5
+				},
+				{
+					"key": "nian_s_3[self].atk",
+					"value": 0.7
+				}
+			]
+		},
+		{
+			"name": "철의 방어",
+			"rangeId": "x-2",
+			"description": "공격력 <@ba.vup>+{nian_s_3[self].atk:0%}</>, 주변의 다른 아군 오퍼레이터의 방어력이 <@ba.vup>+{nian_s_3[ally].def:0%}</>, 저지 가능 수 <@ba.vup>+1</>, 추가로 <$ba.buffres>저항</> 효과를 준다",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 85,
+				"initSp": 52,
+				"increment": 1
+			},
+			"prefabId": "skchr_nian_3",
+			"duration": 40,
+			"blackboard": [
+				{
+					"key": "nian_s_3[self].block_cnt",
+					"value": 0
+				},
+				{
+					"key": "nian_s_3[ally].block_cnt",
+					"value": 1
+				},
+				{
+					"key": "nian_s_3[ally].def",
+					"value": 0.4
+				},
+				{
+					"key": "one_minus_status_resistance",
+					"value": -0.5
+				},
+				{
+					"key": "nian_s_3[self].atk",
+					"value": 0.75
+				}
+			]
+		},
+		{
+			"name": "철의 방어",
+			"rangeId": "x-2",
+			"description": "공격력 <@ba.vup>+{nian_s_3[self].atk:0%}</>, 주변의 다른 아군 오퍼레이터의 방어력이 <@ba.vup>+{nian_s_3[ally].def:0%}</>, 저지 가능 수 <@ba.vup>+1</>, 추가로 <$ba.buffres>저항</> 효과를 준다",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 85,
+				"initSp": 56,
+				"increment": 1
+			},
+			"prefabId": "skchr_nian_3",
+			"duration": 40,
+			"blackboard": [
+				{
+					"key": "nian_s_3[self].block_cnt",
+					"value": 0
+				},
+				{
+					"key": "nian_s_3[ally].block_cnt",
+					"value": 1
+				},
+				{
+					"key": "nian_s_3[ally].def",
+					"value": 0.5
+				},
+				{
+					"key": "one_minus_status_resistance",
+					"value": -0.5
+				},
+				{
+					"key": "nian_s_3[self].atk",
+					"value": 0.8
+				}
+			]
+		},
+		{
+			"name": "철의 방어",
+			"rangeId": "x-2",
+			"description": "공격력 <@ba.vup>+{nian_s_3[self].atk:0%}</>, 주변의 다른 아군 오퍼레이터의 방어력이 <@ba.vup>+{nian_s_3[ally].def:0%}</>, 저지 가능 수 <@ba.vup>+1</>, 추가로 <$ba.buffres>저항</> 효과를 준다",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 85,
+				"initSp": 60,
+				"increment": 1
+			},
+			"prefabId": "skchr_nian_3",
+			"duration": 41,
+			"blackboard": [
+				{
+					"key": "nian_s_3[self].block_cnt",
+					"value": 0
+				},
+				{
+					"key": "nian_s_3[ally].block_cnt",
+					"value": 1
+				},
+				{
+					"key": "nian_s_3[ally].def",
+					"value": 0.6
+				},
+				{
+					"key": "one_minus_status_resistance",
+					"value": -0.5
+				},
+				{
+					"key": "nian_s_3[self].atk",
+					"value": 0.9
+				}
+			]
+		},
+		{
+			"name": "철의 방어",
+			"rangeId": "x-2",
+			"description": "공격력 <@ba.vup>+{nian_s_3[self].atk:0%}</>, 주변의 다른 아군 오퍼레이터의 방어력이 <@ba.vup>+{nian_s_3[ally].def:0%}</>, 저지 가능 수 <@ba.vup>+1</>, 추가로 <$ba.buffres>저항</> 효과를 준다",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 85,
+				"initSp": 64,
+				"increment": 1
+			},
+			"prefabId": "skchr_nian_3",
+			"duration": 42,
+			"blackboard": [
+				{
+					"key": "nian_s_3[self].block_cnt",
+					"value": 0
+				},
+				{
+					"key": "nian_s_3[ally].block_cnt",
+					"value": 1
+				},
+				{
+					"key": "nian_s_3[ally].def",
+					"value": 0.7
+				},
+				{
+					"key": "one_minus_status_resistance",
+					"value": -0.5
+				},
+				{
+					"key": "nian_s_3[self].atk",
+					"value": 1
+				}
+			]
+		},
+		{
+			"name": "철의 방어",
+			"rangeId": "x-2",
+			"description": "공격력 <@ba.vup>+{nian_s_3[self].atk:0%}</>, 주변의 다른 아군 오퍼레이터의 방어력이 <@ba.vup>+{nian_s_3[ally].def:0%}</>, 저지 가능 수 <@ba.vup>+1</>, 추가로 <$ba.buffres>저항</> 효과를 준다",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 85,
+				"initSp": 70,
+				"increment": 1
+			},
+			"prefabId": "skchr_nian_3",
+			"duration": 45,
+			"blackboard": [
+				{
+					"key": "nian_s_3[self].block_cnt",
+					"value": 0
+				},
+				{
+					"key": "nian_s_3[ally].block_cnt",
+					"value": 1
+				},
+				{
+					"key": "nian_s_3[ally].def",
+					"value": 0.8
+				},
+				{
+					"key": "one_minus_status_resistance",
+					"value": -0.5
+				},
+				{
+					"key": "nian_s_3[self].atk",
+					"value": 1.2
+				}
+			]
+		}
+	]
+}

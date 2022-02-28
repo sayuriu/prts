@@ -1,0 +1,347 @@
+{
+	"skillId": "skchr_cgbird_2",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "Arts Shield",
+			"rangeId": null,
+			"description": "The next heal generates a shield on all affected target for <@ba.vup>{duration}</> seconds\nThe shields can absorb damage equal to <@ba.vup>{atk_scale:0%}</> of Nightingale's ATK <@ba.vup>Arts damage</> and the targets' RES <@ba.vup>+{magic_resistance}</>; <@ba.rem>Can store {ct} charge(s)</>",
+			"skillType": 2,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 11,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_cgbird_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 0.4
+				},
+				{
+					"key": "magic_resistance",
+					"value": 5
+				},
+				{
+					"key": "duration",
+					"value": 3
+				},
+				{
+					"key": "ct",
+					"value": 1
+				}
+			]
+		},
+		{
+			"name": "Arts Shield",
+			"rangeId": null,
+			"description": "The next heal generates a shield on all affected target for <@ba.vup>{duration}</> seconds\nThe shields can absorb damage equal to <@ba.vup>{atk_scale:0%}</> of Nightingale's ATK <@ba.vup>Arts damage</> and the targets' RES <@ba.vup>+{magic_resistance}</>; <@ba.rem>Can store {ct} charge(s)</>",
+			"skillType": 2,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 11,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_cgbird_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 0.43
+				},
+				{
+					"key": "magic_resistance",
+					"value": 5
+				},
+				{
+					"key": "duration",
+					"value": 3
+				},
+				{
+					"key": "ct",
+					"value": 1
+				}
+			]
+		},
+		{
+			"name": "Arts Shield",
+			"rangeId": null,
+			"description": "The next heal generates a shield on all affected target for <@ba.vup>{duration}</> seconds\nThe shields can absorb damage equal to <@ba.vup>{atk_scale:0%}</> of Nightingale's ATK <@ba.vup>Arts damage</> and the targets' RES <@ba.vup>+{magic_resistance}</>; <@ba.rem>Can store {ct} charge(s)</>",
+			"skillType": 2,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 11,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_cgbird_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 0.46
+				},
+				{
+					"key": "magic_resistance",
+					"value": 5
+				},
+				{
+					"key": "duration",
+					"value": 3
+				},
+				{
+					"key": "ct",
+					"value": 1
+				}
+			]
+		},
+		{
+			"name": "Arts Shield",
+			"rangeId": null,
+			"description": "The next heal generates a shield on all affected target for <@ba.vup>{duration}</> seconds\nThe shields can absorb damage equal to <@ba.vup>{atk_scale:0%}</> of Nightingale's ATK <@ba.vup>Arts damage</> and the targets' RES <@ba.vup>+{magic_resistance}</>; <@ba.rem>Can store {ct} charge(s)</>",
+			"skillType": 2,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 10,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_cgbird_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 0.5
+				},
+				{
+					"key": "magic_resistance",
+					"value": 10
+				},
+				{
+					"key": "duration",
+					"value": 3.5
+				},
+				{
+					"key": "ct",
+					"value": 2
+				}
+			]
+		},
+		{
+			"name": "Arts Shield",
+			"rangeId": null,
+			"description": "The next heal generates a shield on all affected target for <@ba.vup>{duration}</> seconds\nThe shields can absorb damage equal to <@ba.vup>{atk_scale:0%}</> of Nightingale's ATK <@ba.vup>Arts damage</> and the targets' RES <@ba.vup>+{magic_resistance}</>; <@ba.rem>Can store {ct} charge(s)</>",
+			"skillType": 2,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 10,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_cgbird_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 0.53
+				},
+				{
+					"key": "magic_resistance",
+					"value": 10
+				},
+				{
+					"key": "duration",
+					"value": 3.5
+				},
+				{
+					"key": "ct",
+					"value": 2
+				}
+			]
+		},
+		{
+			"name": "Arts Shield",
+			"rangeId": null,
+			"description": "The next heal generates a shield on all affected target for <@ba.vup>{duration}</> seconds\nThe shields can absorb damage equal to <@ba.vup>{atk_scale:0%}</> of Nightingale's ATK <@ba.vup>Arts damage</> and the targets' RES <@ba.vup>+{magic_resistance}</>; <@ba.rem>Can store {ct} charge(s)</>",
+			"skillType": 2,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 10,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_cgbird_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 0.56
+				},
+				{
+					"key": "magic_resistance",
+					"value": 10
+				},
+				{
+					"key": "duration",
+					"value": 3.5
+				},
+				{
+					"key": "ct",
+					"value": 2
+				}
+			]
+		},
+		{
+			"name": "Arts Shield",
+			"rangeId": null,
+			"description": "The next heal generates a shield on all affected target for <@ba.vup>{duration}</> seconds\nThe shields can absorb damage equal to <@ba.vup>{atk_scale:0%}</> of Nightingale's ATK <@ba.vup>Arts damage</> and the targets' RES <@ba.vup>+{magic_resistance}</>; <@ba.rem>Can store {ct} charge(s)</>",
+			"skillType": 2,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 10,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_cgbird_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 0.6
+				},
+				{
+					"key": "magic_resistance",
+					"value": 15
+				},
+				{
+					"key": "duration",
+					"value": 4
+				},
+				{
+					"key": "ct",
+					"value": 2
+				}
+			]
+		},
+		{
+			"name": "Arts Shield",
+			"rangeId": null,
+			"description": "The next heal generates a shield on all affected target for <@ba.vup>{duration}</> seconds\nThe shields can absorb damage equal to <@ba.vup>{atk_scale:0%}</> of Nightingale's ATK <@ba.vup>Arts damage</> and the targets' RES <@ba.vup>+{magic_resistance}</>; <@ba.rem>Can store {ct} charge(s)</>",
+			"skillType": 2,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 3,
+				"spCost": 9,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_cgbird_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 0.7
+				},
+				{
+					"key": "magic_resistance",
+					"value": 15
+				},
+				{
+					"key": "duration",
+					"value": 4
+				},
+				{
+					"key": "ct",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "Arts Shield",
+			"rangeId": null,
+			"description": "The next heal generates a shield on all affected target for <@ba.vup>{duration}</> seconds\nThe shields can absorb damage equal to <@ba.vup>{atk_scale:0%}</> of Nightingale's ATK <@ba.vup>Arts damage</> and the targets' RES <@ba.vup>+{magic_resistance}</>; <@ba.rem>Can store {ct} charge(s)</>",
+			"skillType": 2,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 3,
+				"spCost": 9,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_cgbird_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 0.8
+				},
+				{
+					"key": "magic_resistance",
+					"value": 15
+				},
+				{
+					"key": "duration",
+					"value": 4
+				},
+				{
+					"key": "ct",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "Arts Shield",
+			"rangeId": null,
+			"description": "The next heal generates a shield on all affected target for <@ba.vup>{duration}</> seconds\nThe shields can absorb damage equal to <@ba.vup>{atk_scale:0%}</> of Nightingale's ATK <@ba.vup>Arts damage</> and the targets' RES <@ba.vup>+{magic_resistance}</>; <@ba.rem>Can store {ct} charge(s)</>",
+			"skillType": 2,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 3,
+				"spCost": 8,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_cgbird_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 0.9
+				},
+				{
+					"key": "magic_resistance",
+					"value": 20
+				},
+				{
+					"key": "duration",
+					"value": 5
+				},
+				{
+					"key": "ct",
+					"value": 3
+				}
+			]
+		}
+	]
+}

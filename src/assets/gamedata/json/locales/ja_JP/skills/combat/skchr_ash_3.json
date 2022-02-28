@@ -1,0 +1,387 @@
+{
+	"skillId": "skchr_ash_3",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "ブリーチング弾",
+			"rangeId": "4-1",
+			"description": "前方にブリーチング弾を発射し、途中で接触した敵全員に攻撃力の<@ba.vup>{atk_scale:0%}</>の物理ダメージを与え、<@ba.vup>相当の力で</>突き飛ばす。その後、爆発で周囲一定範囲内の敵に攻撃力の<@ba.vup>{not_hitwall_scale:0%}</>の物理ダメージを与える（高台にぶつかると直ちに爆発し、攻撃力の<@ba.vup>{hitwall_scale:0%}</>の物理ダメージを与える）\n<@ba.rem>1回の配置につき、2回まで使用可能</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 25,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_ash_3",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 2
+				},
+				{
+					"key": "force",
+					"value": 1
+				},
+				{
+					"key": "not_hitwall_scale",
+					"value": 3
+				},
+				{
+					"key": "hitwall_scale",
+					"value": 6
+				},
+				{
+					"key": "range_radius",
+					"value": 1.5
+				}
+			]
+		},
+		{
+			"name": "ブリーチング弾",
+			"rangeId": "4-1",
+			"description": "前方にブリーチング弾を発射し、途中で接触した敵全員に攻撃力の<@ba.vup>{atk_scale:0%}</>の物理ダメージを与え、<@ba.vup>相当の力で</>突き飛ばす。その後、爆発で周囲一定範囲内の敵に攻撃力の<@ba.vup>{not_hitwall_scale:0%}</>の物理ダメージを与える（高台にぶつかると直ちに爆発し、攻撃力の<@ba.vup>{hitwall_scale:0%}</>の物理ダメージを与える）\n<@ba.rem>1回の配置につき、2回まで使用可能</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 25,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_ash_3",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 2.1
+				},
+				{
+					"key": "force",
+					"value": 1
+				},
+				{
+					"key": "not_hitwall_scale",
+					"value": 3.1
+				},
+				{
+					"key": "hitwall_scale",
+					"value": 6.2
+				},
+				{
+					"key": "range_radius",
+					"value": 1.5
+				}
+			]
+		},
+		{
+			"name": "ブリーチング弾",
+			"rangeId": "4-1",
+			"description": "前方にブリーチング弾を発射し、途中で接触した敵全員に攻撃力の<@ba.vup>{atk_scale:0%}</>の物理ダメージを与え、<@ba.vup>相当の力で</>突き飛ばす。その後、爆発で周囲一定範囲内の敵に攻撃力の<@ba.vup>{not_hitwall_scale:0%}</>の物理ダメージを与える（高台にぶつかると直ちに爆発し、攻撃力の<@ba.vup>{hitwall_scale:0%}</>の物理ダメージを与える）\n<@ba.rem>1回の配置につき、2回まで使用可能</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 25,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_ash_3",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 2.2
+				},
+				{
+					"key": "force",
+					"value": 1
+				},
+				{
+					"key": "not_hitwall_scale",
+					"value": 3.2
+				},
+				{
+					"key": "hitwall_scale",
+					"value": 6.4
+				},
+				{
+					"key": "range_radius",
+					"value": 1.5
+				}
+			]
+		},
+		{
+			"name": "ブリーチング弾",
+			"rangeId": "4-1",
+			"description": "前方にブリーチング弾を発射し、途中で接触した敵全員に攻撃力の<@ba.vup>{atk_scale:0%}</>の物理ダメージを与え、<@ba.vup>相当の力で</>突き飛ばす。その後、爆発で周囲一定範囲内の敵に攻撃力の<@ba.vup>{not_hitwall_scale:0%}</>の物理ダメージを与える（高台にぶつかると直ちに爆発し、攻撃力の<@ba.vup>{hitwall_scale:0%}</>の物理ダメージを与える）\n<@ba.rem>1回の配置につき、2回まで使用可能</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 25,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_ash_3",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 2.3
+				},
+				{
+					"key": "force",
+					"value": 1
+				},
+				{
+					"key": "not_hitwall_scale",
+					"value": 3.3
+				},
+				{
+					"key": "hitwall_scale",
+					"value": 6.6
+				},
+				{
+					"key": "range_radius",
+					"value": 1.5
+				}
+			]
+		},
+		{
+			"name": "ブリーチング弾",
+			"rangeId": "4-1",
+			"description": "前方にブリーチング弾を発射し、途中で接触した敵全員に攻撃力の<@ba.vup>{atk_scale:0%}</>の物理ダメージを与え、<@ba.vup>相当の力で</>突き飛ばす。その後、爆発で周囲一定範囲内の敵に攻撃力の<@ba.vup>{not_hitwall_scale:0%}</>の物理ダメージを与える（高台にぶつかると直ちに爆発し、攻撃力の<@ba.vup>{hitwall_scale:0%}</>の物理ダメージを与える）\n<@ba.rem>1回の配置につき、2回まで使用可能</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 25,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_ash_3",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 2.4
+				},
+				{
+					"key": "force",
+					"value": 1
+				},
+				{
+					"key": "not_hitwall_scale",
+					"value": 3.4
+				},
+				{
+					"key": "hitwall_scale",
+					"value": 6.8
+				},
+				{
+					"key": "range_radius",
+					"value": 1.5
+				}
+			]
+		},
+		{
+			"name": "ブリーチング弾",
+			"rangeId": "4-1",
+			"description": "前方にブリーチング弾を発射し、途中で接触した敵全員に攻撃力の<@ba.vup>{atk_scale:0%}</>の物理ダメージを与え、<@ba.vup>相当の力で</>突き飛ばす。その後、爆発で周囲一定範囲内の敵に攻撃力の<@ba.vup>{not_hitwall_scale:0%}</>の物理ダメージを与える（高台にぶつかると直ちに爆発し、攻撃力の<@ba.vup>{hitwall_scale:0%}</>の物理ダメージを与える）\n<@ba.rem>1回の配置につき、2回まで使用可能</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 25,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_ash_3",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 2.5
+				},
+				{
+					"key": "force",
+					"value": 1
+				},
+				{
+					"key": "not_hitwall_scale",
+					"value": 3.5
+				},
+				{
+					"key": "hitwall_scale",
+					"value": 7
+				},
+				{
+					"key": "range_radius",
+					"value": 1.5
+				}
+			]
+		},
+		{
+			"name": "ブリーチング弾",
+			"rangeId": "4-1",
+			"description": "前方にブリーチング弾を発射し、途中で接触した敵全員に攻撃力の<@ba.vup>{atk_scale:0%}</>の物理ダメージを与え、<@ba.vup>かなりの力で</>突き飛ばす。その後、爆発で周囲一定範囲内の敵に攻撃力の<@ba.vup>{not_hitwall_scale:0%}</>の物理ダメージを与える（高台にぶつかると直ちに爆発し、攻撃力の<@ba.vup>{hitwall_scale:0%}</>の物理ダメージを与える）\n<@ba.rem>1回の配置につき、2回まで使用可能</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 25,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_ash_3",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 2.6
+				},
+				{
+					"key": "force",
+					"value": 2
+				},
+				{
+					"key": "not_hitwall_scale",
+					"value": 3.6
+				},
+				{
+					"key": "hitwall_scale",
+					"value": 7.2
+				},
+				{
+					"key": "range_radius",
+					"value": 1.5
+				}
+			]
+		},
+		{
+			"name": "ブリーチング弾",
+			"rangeId": "4-1",
+			"description": "前方にブリーチング弾を発射し、途中で接触した敵全員に攻撃力の<@ba.vup>{atk_scale:0%}</>の物理ダメージを与え、<@ba.vup>かなりの力で</>突き飛ばす。その後、爆発で周囲一定範囲内の敵に攻撃力の<@ba.vup>{not_hitwall_scale:0%}</>の物理ダメージを与える（高台にぶつかると直ちに爆発し、攻撃力の<@ba.vup>{hitwall_scale:0%}</>の物理ダメージを与える）\n<@ba.rem>1回の配置につき、2回まで使用可能</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 25,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_ash_3",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 2.7
+				},
+				{
+					"key": "force",
+					"value": 2
+				},
+				{
+					"key": "not_hitwall_scale",
+					"value": 3.7
+				},
+				{
+					"key": "hitwall_scale",
+					"value": 7.4
+				},
+				{
+					"key": "range_radius",
+					"value": 1.5
+				}
+			]
+		},
+		{
+			"name": "ブリーチング弾",
+			"rangeId": "4-1",
+			"description": "前方にブリーチング弾を発射し、途中で接触した敵全員に攻撃力の<@ba.vup>{atk_scale:0%}</>の物理ダメージを与え、<@ba.vup>かなりの力で</>突き飛ばす。その後、爆発で周囲一定範囲内の敵に攻撃力の<@ba.vup>{not_hitwall_scale:0%}</>の物理ダメージを与える（高台にぶつかると直ちに爆発し、攻撃力の<@ba.vup>{hitwall_scale:0%}</>の物理ダメージを与える）\n<@ba.rem>1回の配置につき、2回まで使用可能</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 25,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_ash_3",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 2.8
+				},
+				{
+					"key": "force",
+					"value": 2
+				},
+				{
+					"key": "not_hitwall_scale",
+					"value": 3.8
+				},
+				{
+					"key": "hitwall_scale",
+					"value": 7.6
+				},
+				{
+					"key": "range_radius",
+					"value": 1.5
+				}
+			]
+		},
+		{
+			"name": "ブリーチング弾",
+			"rangeId": "4-1",
+			"description": "前方にブリーチング弾を発射し、途中で接触した敵全員に攻撃力の<@ba.vup>{atk_scale:0%}</>の物理ダメージを与え、<@ba.vup>かなりの力で</>突き飛ばす。その後、爆発で周囲一定範囲内の敵に攻撃力の<@ba.vup>{not_hitwall_scale:0%}</>の物理ダメージを与える（高台にぶつかると直ちに爆発し、攻撃力の<@ba.vup>{hitwall_scale:0%}</>の物理ダメージを与える）\n<@ba.rem>1回の配置につき、2回まで使用可能</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 25,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_ash_3",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 3
+				},
+				{
+					"key": "force",
+					"value": 2
+				},
+				{
+					"key": "not_hitwall_scale",
+					"value": 4
+				},
+				{
+					"key": "hitwall_scale",
+					"value": 8
+				},
+				{
+					"key": "range_radius",
+					"value": 1.5
+				}
+			]
+		}
+	]
+}

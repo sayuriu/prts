@@ -1,0 +1,24 @@
+{
+	"skillId": "sktok_dsbell",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "응급치료 프로토콜",
+			"rangeId": "x-2",
+			"description": "활성화 시 지속해서 주변 큰 범위 내 아군에 누적된 <$ba.dt.neural>신경 손상</>을 치료해주고, <자동 점검 기계>에 의해 활성화되면 치료 능력이 대폭 향상된다.",
+			"skillType": 0,
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 0,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": "sktok_dsbell",
+			"duration": 0,
+			"blackboard": []
+		}
+	]
+}

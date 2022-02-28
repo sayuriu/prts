@@ -1,0 +1,347 @@
+{
+	"skillId": "skchr_glady_2",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "Waterless Grasp of the Raging Seas",
+			"rangeId": "3-14",
+			"description": "Attack Interval <@ba.vdown>increases</>, Attack Range expands; Each attack targets 2 enemies, prioritizes blocked enemies, deals <@ba.vup>{attack@atk_scale:0%}</> ATK as Physical damage and drags them towards this unit <@ba.vup>slightly</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 35,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_glady_2",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": 0.5
+				},
+				{
+					"key": "attack@max_target",
+					"value": 2
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 1.2
+				},
+				{
+					"key": "attack@force",
+					"value": 0
+				}
+			]
+		},
+		{
+			"name": "Waterless Grasp of the Raging Seas",
+			"rangeId": "3-14",
+			"description": "Attack Interval <@ba.vdown>increases</>, Attack Range expands; Each attack targets 2 enemies, prioritizes blocked enemies, deals <@ba.vup>{attack@atk_scale:0%}</> ATK as Physical damage and drags them towards this unit <@ba.vup>slightly</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 34,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_glady_2",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": 0.5
+				},
+				{
+					"key": "attack@max_target",
+					"value": 2
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 1.25
+				},
+				{
+					"key": "attack@force",
+					"value": 0
+				}
+			]
+		},
+		{
+			"name": "Waterless Grasp of the Raging Seas",
+			"rangeId": "3-14",
+			"description": "Attack Interval <@ba.vdown>increases</>, Attack Range expands; Each attack targets 2 enemies, prioritizes blocked enemies, deals <@ba.vup>{attack@atk_scale:0%}</> ATK as Physical damage and drags them towards this unit <@ba.vup>slightly</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 33,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_glady_2",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": 0.5
+				},
+				{
+					"key": "attack@max_target",
+					"value": 2
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 1.3
+				},
+				{
+					"key": "attack@force",
+					"value": 0
+				}
+			]
+		},
+		{
+			"name": "Waterless Grasp of the Raging Seas",
+			"rangeId": "3-14",
+			"description": "Attack Interval <@ba.vdown>increases</>, Attack Range expands; Each attack targets 2 enemies, prioritizes blocked enemies, deals <@ba.vup>{attack@atk_scale:0%}</> ATK as Physical damage and drags them towards this unit <@ba.vup>moderately</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 32,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_glady_2",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": 0.5
+				},
+				{
+					"key": "attack@max_target",
+					"value": 2
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 1.35
+				},
+				{
+					"key": "attack@force",
+					"value": 1
+				}
+			]
+		},
+		{
+			"name": "Waterless Grasp of the Raging Seas",
+			"rangeId": "3-14",
+			"description": "Attack Interval <@ba.vdown>increases</>, Attack Range expands; Each attack targets 2 enemies, prioritizes blocked enemies, deals <@ba.vup>{attack@atk_scale:0%}</> ATK as Physical damage and drags them towards this unit <@ba.vup>moderately</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 31,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_glady_2",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": 0.5
+				},
+				{
+					"key": "attack@max_target",
+					"value": 2
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 1.4
+				},
+				{
+					"key": "attack@force",
+					"value": 1
+				}
+			]
+		},
+		{
+			"name": "Waterless Grasp of the Raging Seas",
+			"rangeId": "3-14",
+			"description": "Attack Interval <@ba.vdown>increases</>, Attack Range expands; Each attack targets 2 enemies, prioritizes blocked enemies, deals <@ba.vup>{attack@atk_scale:0%}</> ATK as Physical damage and drags them towards this unit <@ba.vup>moderately</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 30,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_glady_2",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": 0.5
+				},
+				{
+					"key": "attack@max_target",
+					"value": 2
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 1.45
+				},
+				{
+					"key": "attack@force",
+					"value": 1
+				}
+			]
+		},
+		{
+			"name": "Waterless Grasp of the Raging Seas",
+			"rangeId": "3-14",
+			"description": "Attack Interval <@ba.vdown>increases</>, Attack Range expands; Each attack targets 2 enemies, prioritizes blocked enemies, deals <@ba.vup>{attack@atk_scale:0%}</> ATK as Physical damage and drags them towards this unit <@ba.vup>moderately</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 29,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_glady_2",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": 0.5
+				},
+				{
+					"key": "attack@max_target",
+					"value": 2
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 1.5
+				},
+				{
+					"key": "attack@force",
+					"value": 1
+				}
+			]
+		},
+		{
+			"name": "Waterless Grasp of the Raging Seas",
+			"rangeId": "3-14",
+			"description": "Attack Interval <@ba.vdown>increases</>, Attack Range expands; Each attack targets 2 enemies, prioritizes blocked enemies, deals <@ba.vup>{attack@atk_scale:0%}</> ATK as Physical damage and drags them towards this unit <@ba.vup>moderately</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 28,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_glady_2",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": 0.5
+				},
+				{
+					"key": "attack@max_target",
+					"value": 2
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 1.6
+				},
+				{
+					"key": "attack@force",
+					"value": 1
+				}
+			]
+		},
+		{
+			"name": "Waterless Grasp of the Raging Seas",
+			"rangeId": "3-14",
+			"description": "Attack Interval <@ba.vdown>increases</>, Attack Range expands; Each attack targets 2 enemies, prioritizes blocked enemies, deals <@ba.vup>{attack@atk_scale:0%}</> ATK as Physical damage and drags them towards this unit <@ba.vup>moderately</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 27,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_glady_2",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": 0.5
+				},
+				{
+					"key": "attack@max_target",
+					"value": 2
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 1.7
+				},
+				{
+					"key": "attack@force",
+					"value": 1
+				}
+			]
+		},
+		{
+			"name": "Waterless Grasp of the Raging Seas",
+			"rangeId": "3-14",
+			"description": "Attack Interval <@ba.vdown>increases</>, Attack Range expands; Each attack targets 2 enemies, prioritizes blocked enemies, deals <@ba.vup>{attack@atk_scale:0%}</> ATK as Physical damage and drags them towards this unit <@ba.vup>significantly</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 25,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_glady_2",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": 0.5
+				},
+				{
+					"key": "attack@max_target",
+					"value": 2
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 1.8
+				},
+				{
+					"key": "attack@force",
+					"value": 2
+				}
+			]
+		}
+	]
+}

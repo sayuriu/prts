@@ -1,0 +1,267 @@
+{
+	"skillId": "skchr_kroos2_2",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "封喉",
+			"rangeId": null,
+			"description": "攻击间隔<@ba.vup>略微缩短</>，攻击变为<@ba.vup>2</>连射，击中目标<@ba.vup>{attack@max_stack_count}</>次后技能剩余时间内攻击变为<@ba.vup>4</>连射",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 50,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_kroos2_2",
+			"duration": 22,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": -0.15
+				},
+				{
+					"key": "attack@max_stack_count",
+					"value": 40
+				}
+			]
+		},
+		{
+			"name": "封喉",
+			"rangeId": null,
+			"description": "攻击间隔<@ba.vup>略微缩短</>，攻击变为<@ba.vup>2</>连射，击中目标<@ba.vup>{attack@max_stack_count}</>次后技能剩余时间内攻击变为<@ba.vup>4</>连射",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 49,
+				"initSp": 11,
+				"increment": 1
+			},
+			"prefabId": "skchr_kroos2_2",
+			"duration": 22,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": -0.15
+				},
+				{
+					"key": "attack@max_stack_count",
+					"value": 40
+				}
+			]
+		},
+		{
+			"name": "封喉",
+			"rangeId": null,
+			"description": "攻击间隔<@ba.vup>略微缩短</>，攻击变为<@ba.vup>2</>连射，击中目标<@ba.vup>{attack@max_stack_count}</>次后技能剩余时间内攻击变为<@ba.vup>4</>连射",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 48,
+				"initSp": 12,
+				"increment": 1
+			},
+			"prefabId": "skchr_kroos2_2",
+			"duration": 22,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": -0.15
+				},
+				{
+					"key": "attack@max_stack_count",
+					"value": 40
+				}
+			]
+		},
+		{
+			"name": "封喉",
+			"rangeId": null,
+			"description": "攻击间隔<@ba.vup>少量缩短</>，攻击变为<@ba.vup>2</>连射，击中目标<@ba.vup>{attack@max_stack_count}</>次后技能剩余时间内攻击变为<@ba.vup>4</>连射",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 45,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_kroos2_2",
+			"duration": 24,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": -0.22
+				},
+				{
+					"key": "attack@max_stack_count",
+					"value": 40
+				}
+			]
+		},
+		{
+			"name": "封喉",
+			"rangeId": null,
+			"description": "攻击间隔<@ba.vup>少量缩短</>，攻击变为<@ba.vup>2</>连射，击中目标<@ba.vup>{attack@max_stack_count}</>次后技能剩余时间内攻击变为<@ba.vup>4</>连射",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 44,
+				"initSp": 16,
+				"increment": 1
+			},
+			"prefabId": "skchr_kroos2_2",
+			"duration": 24,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": -0.22
+				},
+				{
+					"key": "attack@max_stack_count",
+					"value": 40
+				}
+			]
+		},
+		{
+			"name": "封喉",
+			"rangeId": null,
+			"description": "攻击间隔<@ba.vup>少量缩短</>，攻击变为<@ba.vup>2</>连射，击中目标<@ba.vup>{attack@max_stack_count}</>次后技能剩余时间内攻击变为<@ba.vup>4</>连射",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 43,
+				"initSp": 17,
+				"increment": 1
+			},
+			"prefabId": "skchr_kroos2_2",
+			"duration": 24,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": -0.22
+				},
+				{
+					"key": "attack@max_stack_count",
+					"value": 40
+				}
+			]
+		},
+		{
+			"name": "封喉",
+			"rangeId": null,
+			"description": "攻击间隔<@ba.vup>一定程度缩短</>，攻击变为<@ba.vup>2</>连射，击中目标<@ba.vup>{attack@max_stack_count}</>次后技能剩余时间内攻击变为<@ba.vup>4</>连射",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 40,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_kroos2_2",
+			"duration": 26,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": -0.3
+				},
+				{
+					"key": "attack@max_stack_count",
+					"value": 40
+				}
+			]
+		},
+		{
+			"name": "封喉",
+			"rangeId": null,
+			"description": "攻击间隔<@ba.vup>一定程度缩短</>，攻击变为<@ba.vup>2</>连射，击中目标<@ba.vup>{attack@max_stack_count}</>次后技能剩余时间内攻击变为<@ba.vup>4</>连射",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 40,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_kroos2_2",
+			"duration": 28,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": -0.3
+				},
+				{
+					"key": "attack@max_stack_count",
+					"value": 36
+				}
+			]
+		},
+		{
+			"name": "封喉",
+			"rangeId": null,
+			"description": "攻击间隔<@ba.vup>一定程度缩短</>，攻击变为<@ba.vup>2</>连射，击中目标<@ba.vup>{attack@max_stack_count}</>次后技能剩余时间内攻击变为<@ba.vup>4</>连射",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 40,
+				"initSp": 25,
+				"increment": 1
+			},
+			"prefabId": "skchr_kroos2_2",
+			"duration": 28,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": -0.3
+				},
+				{
+					"key": "attack@max_stack_count",
+					"value": 32
+				}
+			]
+		},
+		{
+			"name": "封喉",
+			"rangeId": null,
+			"description": "攻击间隔<@ba.vup>较大幅度缩短</>，攻击变为<@ba.vup>2</>连射，击中目标<@ba.vup>{attack@max_stack_count}</>次后技能剩余时间内攻击变为<@ba.vup>4</>连射",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 35,
+				"initSp": 25,
+				"increment": 1
+			},
+			"prefabId": "skchr_kroos2_2",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": -0.375
+				},
+				{
+					"key": "attack@max_stack_count",
+					"value": 32
+				}
+			]
+		}
+	]
+}

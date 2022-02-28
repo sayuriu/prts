@@ -1,0 +1,109 @@
+{
+	"skillId": "sktok_tower",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "法术传输协议",
+			"rangeId": "x-5",
+			"description": "每次攻击对一名敌方单位造成<@ba.vup>{talent@tower_t_4[magic_attack].atk_scale:0%}</>生命上限的法术伤害；每{talent@tower_t_5[heal][persistent].interval}秒恢复一名友方单位<@ba.vup>{attack@tower_heal[target].hp_ratio:0%}</>生命值",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 100,
+				"initSp": 50,
+				"increment": 0
+			},
+			"prefabId": "sktok_tower",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "talent_range_flag",
+					"value": 1
+				},
+				{
+					"key": "talent@tower_t_4[magic_attack].atk_scale",
+					"value": 0.05
+				},
+				{
+					"key": "talent@tower_t_5[heal][persistent].interval",
+					"value": 5
+				},
+				{
+					"key": "attack@tower_heal[target].hp_ratio",
+					"value": 0.1
+				}
+			]
+		},
+		{
+			"name": "法术传输协议",
+			"rangeId": "x-5",
+			"description": "每次攻击对一名敌方单位造成<@ba.vup>{talent@tower_t_4[magic_attack].atk_scale:0%}</>生命上限的法术伤害；每{talent@tower_t_5[heal][persistent].interval}秒恢复一名友方单位<@ba.vup>{attack@tower_heal[target].hp_ratio:0%}</>生命值",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 100,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": "sktok_tower",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "talent_range_flag",
+					"value": 1
+				},
+				{
+					"key": "talent@tower_t_4[magic_attack].atk_scale",
+					"value": 0.05
+				},
+				{
+					"key": "talent@tower_t_5[heal][persistent].interval",
+					"value": 5
+				},
+				{
+					"key": "attack@tower_heal[target].hp_ratio",
+					"value": 0.1
+				}
+			]
+		},
+		{
+			"name": "法术传输协议",
+			"rangeId": "x-5",
+			"description": "每次攻击对一名敌方单位造成<@ba.vup>{talent@tower_t_4[magic_attack].atk_scale:0%}</>生命上限的法术伤害；每{talent@tower_t_5[heal][persistent].interval}秒恢复一名友方单位<@ba.vup>{attack@tower_heal[target].hp_ratio:0%}</>生命值",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 100,
+				"initSp": 100,
+				"increment": 0
+			},
+			"prefabId": "sktok_tower",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "talent_range_flag",
+					"value": 1
+				},
+				{
+					"key": "talent@tower_t_4[magic_attack].atk_scale",
+					"value": 0.05
+				},
+				{
+					"key": "talent@tower_t_5[heal][persistent].interval",
+					"value": 5
+				},
+				{
+					"key": "attack@tower_heal[target].hp_ratio",
+					"value": 0.1
+				}
+			]
+		}
+	]
+}

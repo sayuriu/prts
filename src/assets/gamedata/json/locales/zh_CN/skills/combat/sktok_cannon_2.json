@@ -1,0 +1,37 @@
+{
+	"skillId": "sktok_cannon_2",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "脉冲束流",
+			"rangeId": null,
+			"description": "消耗<@ba.vup>{cost}</>点部署费用，对攻击范围内所有敌人造成<@ba.vup>{damage}</>点真实伤害并使其<$ba.stun>晕眩</><@ba.vup>{stun}</>秒",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 50,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": "sktok_cannon_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "cost",
+					"value": 10
+				},
+				{
+					"key": "damage",
+					"value": 5000
+				},
+				{
+					"key": "stun",
+					"value": 7
+				}
+			]
+		}
+	]
+}

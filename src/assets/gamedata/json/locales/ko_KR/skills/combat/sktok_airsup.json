@@ -1,0 +1,24 @@
+{
+	"skillId": "sktok_airsup",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "공중 지원 파견",
+			"rangeId": null,
+			"description": "용병단이 설치한 이동식 전술 격납고, 수요에 따라 수시로 드론을 띄워 작전 지원이 가능하나 자금 문제로 드론의 연료가 부족한 상태.",
+			"skillType": 0,
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 0,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": "sktok_airsup",
+			"duration": 0,
+			"blackboard": []
+		}
+	]
+}

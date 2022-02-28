@@ -1,0 +1,267 @@
+{
+	"skillId": "skchr_blemsh_2",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "破邪輝光",
+			"rangeId": "x-1",
+			"description": "攻撃力<@ba.vup>+{atk:0%}</>、自身と同じマス内にいる地面上の敵全員を<$ba.sleep>睡眠</>させ、周囲一定範囲内の味方全員のHPを1秒ごとに攻撃力の<@ba.vup>{attack@atk_to_hp_recovery_ratio:0%}</>回復",
+			"skillType": 1,
+			"spData": {
+				"spType": 4,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 20,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_blemsh_2",
+			"duration": 10,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.4
+				},
+				{
+					"key": "attack@atk_to_hp_recovery_ratio",
+					"value": 0.15
+				}
+			]
+		},
+		{
+			"name": "破邪輝光",
+			"rangeId": "x-1",
+			"description": "攻撃力<@ba.vup>+{atk:0%}</>、自身と同じマス内にいる地面上の敵全員を<$ba.sleep>睡眠</>させ、周囲一定範囲内の味方全員のHPを1秒ごとに攻撃力の<@ba.vup>{attack@atk_to_hp_recovery_ratio:0%}</>回復",
+			"skillType": 1,
+			"spData": {
+				"spType": 4,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 20,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_blemsh_2",
+			"duration": 10,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.45
+				},
+				{
+					"key": "attack@atk_to_hp_recovery_ratio",
+					"value": 0.15
+				}
+			]
+		},
+		{
+			"name": "破邪輝光",
+			"rangeId": "x-1",
+			"description": "攻撃力<@ba.vup>+{atk:0%}</>、自身と同じマス内にいる地面上の敵全員を<$ba.sleep>睡眠</>させ、周囲一定範囲内の味方全員のHPを1秒ごとに攻撃力の<@ba.vup>{attack@atk_to_hp_recovery_ratio:0%}</>回復",
+			"skillType": 1,
+			"spData": {
+				"spType": 4,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 20,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_blemsh_2",
+			"duration": 10,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.5
+				},
+				{
+					"key": "attack@atk_to_hp_recovery_ratio",
+					"value": 0.15
+				}
+			]
+		},
+		{
+			"name": "破邪輝光",
+			"rangeId": "x-1",
+			"description": "攻撃力<@ba.vup>+{atk:0%}</>、自身と同じマス内にいる地面上の敵全員を<$ba.sleep>睡眠</>させ、周囲一定範囲内の味方全員のHPを1秒ごとに攻撃力の<@ba.vup>{attack@atk_to_hp_recovery_ratio:0%}</>回復",
+			"skillType": 1,
+			"spData": {
+				"spType": 4,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 18,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_blemsh_2",
+			"duration": 10,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.55
+				},
+				{
+					"key": "attack@atk_to_hp_recovery_ratio",
+					"value": 0.16
+				}
+			]
+		},
+		{
+			"name": "破邪輝光",
+			"rangeId": "x-1",
+			"description": "攻撃力<@ba.vup>+{atk:0%}</>、自身と同じマス内にいる地面上の敵全員を<$ba.sleep>睡眠</>させ、周囲一定範囲内の味方全員のHPを1秒ごとに攻撃力の<@ba.vup>{attack@atk_to_hp_recovery_ratio:0%}</>回復",
+			"skillType": 1,
+			"spData": {
+				"spType": 4,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 18,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_blemsh_2",
+			"duration": 10,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.6
+				},
+				{
+					"key": "attack@atk_to_hp_recovery_ratio",
+					"value": 0.16
+				}
+			]
+		},
+		{
+			"name": "破邪輝光",
+			"rangeId": "x-1",
+			"description": "攻撃力<@ba.vup>+{atk:0%}</>、自身と同じマス内にいる地面上の敵全員を<$ba.sleep>睡眠</>させ、周囲一定範囲内の味方全員のHPを1秒ごとに攻撃力の<@ba.vup>{attack@atk_to_hp_recovery_ratio:0%}</>回復",
+			"skillType": 1,
+			"spData": {
+				"spType": 4,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 18,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_blemsh_2",
+			"duration": 10,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.65
+				},
+				{
+					"key": "attack@atk_to_hp_recovery_ratio",
+					"value": 0.16
+				}
+			]
+		},
+		{
+			"name": "破邪輝光",
+			"rangeId": "x-1",
+			"description": "攻撃力<@ba.vup>+{atk:0%}</>、自身と同じマス内にいる地面上の敵全員を<$ba.sleep>睡眠</>させ、周囲一定範囲内の味方全員のHPを1秒ごとに攻撃力の<@ba.vup>{attack@atk_to_hp_recovery_ratio:0%}</>回復",
+			"skillType": 1,
+			"spData": {
+				"spType": 4,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 16,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_blemsh_2",
+			"duration": 10,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.7
+				},
+				{
+					"key": "attack@atk_to_hp_recovery_ratio",
+					"value": 0.17
+				}
+			]
+		},
+		{
+			"name": "破邪輝光",
+			"rangeId": "x-1",
+			"description": "攻撃力<@ba.vup>+{atk:0%}</>、自身と同じマス内にいる地面上の敵全員を<$ba.sleep>睡眠</>させ、周囲一定範囲内の味方全員のHPを1秒ごとに攻撃力の<@ba.vup>{attack@atk_to_hp_recovery_ratio:0%}</>回復",
+			"skillType": 1,
+			"spData": {
+				"spType": 4,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 15,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_blemsh_2",
+			"duration": 10,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.8
+				},
+				{
+					"key": "attack@atk_to_hp_recovery_ratio",
+					"value": 0.18
+				}
+			]
+		},
+		{
+			"name": "破邪輝光",
+			"rangeId": "x-1",
+			"description": "攻撃力<@ba.vup>+{atk:0%}</>、自身と同じマス内にいる地面上の敵全員を<$ba.sleep>睡眠</>させ、周囲一定範囲内の味方全員のHPを1秒ごとに攻撃力の<@ba.vup>{attack@atk_to_hp_recovery_ratio:0%}</>回復",
+			"skillType": 1,
+			"spData": {
+				"spType": 4,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 14,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_blemsh_2",
+			"duration": 10,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.9
+				},
+				{
+					"key": "attack@atk_to_hp_recovery_ratio",
+					"value": 0.19
+				}
+			]
+		},
+		{
+			"name": "破邪輝光",
+			"rangeId": "x-1",
+			"description": "攻撃力<@ba.vup>+{atk:0%}</>、自身と同じマス内にいる地面上の敵全員を<$ba.sleep>睡眠</>させ、周囲一定範囲内の味方全員のHPを1秒ごとに攻撃力の<@ba.vup>{attack@atk_to_hp_recovery_ratio:0%}</>回復",
+			"skillType": 1,
+			"spData": {
+				"spType": 4,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 12,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_blemsh_2",
+			"duration": 10,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 1.1
+				},
+				{
+					"key": "attack@atk_to_hp_recovery_ratio",
+					"value": 0.2
+				}
+			]
+		}
+	]
+}

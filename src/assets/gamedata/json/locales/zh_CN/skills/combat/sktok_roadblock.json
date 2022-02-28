@@ -1,0 +1,24 @@
+{
+	"skillId": "sktok_roadblock",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "道路阻塞",
+			"rangeId": null,
+			"description": "可以阻挡乌萨斯平民与斗士塔露拉前进。可被我方单位击毁",
+			"skillType": 0,
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 0,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": "sktok_roadblock",
+			"duration": -1,
+			"blackboard": []
+		}
+	]
+}

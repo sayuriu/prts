@@ -27,6 +27,7 @@
                 (onAnimationEnd)="setAnimsPlayed($event)"
                 [animAlreadyPlayed]="animsPlayed[1]"
                 [currentOperator]="currentOp"
+                [currentOperatorSkills]="opCombatSkills"
             ></op-info-skills>
 		</page>
 		<page id="stats" *ngIf="currentMenuIndex === 2">

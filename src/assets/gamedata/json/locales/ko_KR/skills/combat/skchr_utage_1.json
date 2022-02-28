@@ -1,0 +1,267 @@
+{
+	"skillId": "skchr_utage_1",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "한눈팔기",
+			"rangeId": null,
+			"description": "공격을 중지하고,  저지 가능 수가 <@ba.vup>0</>으로 변경,  방어력이 <@ba.vup>+{def:0%}</>,  1초마다 최대 HP의 <@ba.vup>{hp_recovery_per_sec_by_max_hp_ratio:0%}</>만큼 회복한다",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 15,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_utage_1",
+			"duration": 8,
+			"blackboard": [
+				{
+					"key": "def",
+					"value": 1
+				},
+				{
+					"key": "hp_recovery_per_sec_by_max_hp_ratio",
+					"value": 0.06
+				}
+			]
+		},
+		{
+			"name": "한눈팔기",
+			"rangeId": null,
+			"description": "공격을 중지하고,  저지 가능 수가 <@ba.vup>0</>으로 변경,  방어력이 <@ba.vup>+{def:0%}</>,  1초마다 최대 HP의 <@ba.vup>{hp_recovery_per_sec_by_max_hp_ratio:0%}</>만큼 회복한다",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 15,
+				"initSp": 1,
+				"increment": 1
+			},
+			"prefabId": "skchr_utage_1",
+			"duration": 8,
+			"blackboard": [
+				{
+					"key": "def",
+					"value": 1.1
+				},
+				{
+					"key": "hp_recovery_per_sec_by_max_hp_ratio",
+					"value": 0.06
+				}
+			]
+		},
+		{
+			"name": "한눈팔기",
+			"rangeId": null,
+			"description": "공격을 중지하고,  저지 가능 수가 <@ba.vup>0</>으로 변경,  방어력이 <@ba.vup>+{def:0%}</>,  1초마다 최대 HP의 <@ba.vup>{hp_recovery_per_sec_by_max_hp_ratio:0%}</>만큼 회복한다",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 15,
+				"initSp": 2,
+				"increment": 1
+			},
+			"prefabId": "skchr_utage_1",
+			"duration": 8,
+			"blackboard": [
+				{
+					"key": "def",
+					"value": 1.2
+				},
+				{
+					"key": "hp_recovery_per_sec_by_max_hp_ratio",
+					"value": 0.06
+				}
+			]
+		},
+		{
+			"name": "한눈팔기",
+			"rangeId": null,
+			"description": "공격을 중지하고,  저지 가능 수가 <@ba.vup>0</>으로 변경,  방어력이 <@ba.vup>+{def:0%}</>,  1초마다 최대 HP의 <@ba.vup>{hp_recovery_per_sec_by_max_hp_ratio:0%}</>만큼 회복한다",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 15,
+				"initSp": 3,
+				"increment": 1
+			},
+			"prefabId": "skchr_utage_1",
+			"duration": 8,
+			"blackboard": [
+				{
+					"key": "def",
+					"value": 1.3
+				},
+				{
+					"key": "hp_recovery_per_sec_by_max_hp_ratio",
+					"value": 0.07
+				}
+			]
+		},
+		{
+			"name": "한눈팔기",
+			"rangeId": null,
+			"description": "공격을 중지하고,  저지 가능 수가 <@ba.vup>0</>으로 변경,  방어력이 <@ba.vup>+{def:0%}</>,  1초마다 최대 HP의 <@ba.vup>{hp_recovery_per_sec_by_max_hp_ratio:0%}</>만큼 회복한다",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 15,
+				"initSp": 4,
+				"increment": 1
+			},
+			"prefabId": "skchr_utage_1",
+			"duration": 8,
+			"blackboard": [
+				{
+					"key": "def",
+					"value": 1.4
+				},
+				{
+					"key": "hp_recovery_per_sec_by_max_hp_ratio",
+					"value": 0.07
+				}
+			]
+		},
+		{
+			"name": "한눈팔기",
+			"rangeId": null,
+			"description": "공격을 중지하고,  저지 가능 수가 <@ba.vup>0</>으로 변경,  방어력이 <@ba.vup>+{def:0%}</>,  1초마다 최대 HP의 <@ba.vup>{hp_recovery_per_sec_by_max_hp_ratio:0%}</>만큼 회복한다",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 15,
+				"initSp": 5,
+				"increment": 1
+			},
+			"prefabId": "skchr_utage_1",
+			"duration": 8,
+			"blackboard": [
+				{
+					"key": "def",
+					"value": 1.5
+				},
+				{
+					"key": "hp_recovery_per_sec_by_max_hp_ratio",
+					"value": 0.07
+				}
+			]
+		},
+		{
+			"name": "한눈팔기",
+			"rangeId": null,
+			"description": "공격을 중지하고,  저지 가능 수가 <@ba.vup>0</>으로 변경,  방어력이 <@ba.vup>+{def:0%}</>,  1초마다 최대 HP의 <@ba.vup>{hp_recovery_per_sec_by_max_hp_ratio:0%}</>만큼 회복한다",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 15,
+				"initSp": 6,
+				"increment": 1
+			},
+			"prefabId": "skchr_utage_1",
+			"duration": 8,
+			"blackboard": [
+				{
+					"key": "def",
+					"value": 1.6
+				},
+				{
+					"key": "hp_recovery_per_sec_by_max_hp_ratio",
+					"value": 0.08
+				}
+			]
+		},
+		{
+			"name": "한눈팔기",
+			"rangeId": null,
+			"description": "공격을 중지하고,  저지 가능 수가 <@ba.vup>0</>으로 변경,  방어력이 <@ba.vup>+{def:0%}</>,  1초마다 최대 HP의 <@ba.vup>{hp_recovery_per_sec_by_max_hp_ratio:0%}</>만큼 회복한다",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 15,
+				"initSp": 7,
+				"increment": 1
+			},
+			"prefabId": "skchr_utage_1",
+			"duration": 8,
+			"blackboard": [
+				{
+					"key": "def",
+					"value": 1.7
+				},
+				{
+					"key": "hp_recovery_per_sec_by_max_hp_ratio",
+					"value": 0.08
+				}
+			]
+		},
+		{
+			"name": "한눈팔기",
+			"rangeId": null,
+			"description": "공격을 중지하고,  저지 가능 수가 <@ba.vup>0</>으로 변경,  방어력이 <@ba.vup>+{def:0%}</>,  1초마다 최대 HP의 <@ba.vup>{hp_recovery_per_sec_by_max_hp_ratio:0%}</>만큼 회복한다",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 15,
+				"initSp": 8,
+				"increment": 1
+			},
+			"prefabId": "skchr_utage_1",
+			"duration": 8,
+			"blackboard": [
+				{
+					"key": "def",
+					"value": 1.8
+				},
+				{
+					"key": "hp_recovery_per_sec_by_max_hp_ratio",
+					"value": 0.08
+				}
+			]
+		},
+		{
+			"name": "한눈팔기",
+			"rangeId": null,
+			"description": "공격을 중지하고,  저지 가능 수가 <@ba.vup>0</>으로 변경,  방어력이 <@ba.vup>+{def:0%}</>,  1초마다 최대 HP의 <@ba.vup>{hp_recovery_per_sec_by_max_hp_ratio:0%}</>만큼 회복한다",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 15,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_utage_1",
+			"duration": 8,
+			"blackboard": [
+				{
+					"key": "def",
+					"value": 2
+				},
+				{
+					"key": "hp_recovery_per_sec_by_max_hp_ratio",
+					"value": 0.1
+				}
+			]
+		}
+	]
+}

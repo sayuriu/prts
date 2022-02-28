@@ -1,0 +1,307 @@
+{
+	"skillId": "skchr_jaksel_2",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "全神経集中！",
+			"rangeId": null,
+			"description": "攻撃しなくなる。物理回避<@ba.vup>+{jaksel_skill_2[evade].prob:0%}</>、回避発動する度に自身の攻撃力の<@ba.vup>{attack@atk_scale:0%}</>の物理ダメージで敵1体に反撃する（反撃の発動最短間隔が攻撃間隔の<@ba.vup>{base_attack_time:0%}</>）",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 40,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_jaksel_2",
+			"duration": 10,
+			"blackboard": [
+				{
+					"key": "jaksel_skill_2[evade].prob",
+					"value": 0.4
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 1.2
+				},
+				{
+					"key": "base_attack_time",
+					"value": 1
+				}
+			]
+		},
+		{
+			"name": "全神経集中！",
+			"rangeId": null,
+			"description": "攻撃しなくなる。物理回避<@ba.vup>+{jaksel_skill_2[evade].prob:0%}</>、回避発動する度に自身の攻撃力の<@ba.vup>{attack@atk_scale:0%}</>の物理ダメージで敵1体に反撃する（反撃の発動最短間隔が攻撃間隔の<@ba.vup>{base_attack_time:0%}</>）",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 40,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_jaksel_2",
+			"duration": 10,
+			"blackboard": [
+				{
+					"key": "jaksel_skill_2[evade].prob",
+					"value": 0.4
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 1.25
+				},
+				{
+					"key": "base_attack_time",
+					"value": 1
+				}
+			]
+		},
+		{
+			"name": "全神経集中！",
+			"rangeId": null,
+			"description": "攻撃しなくなる。物理回避<@ba.vup>+{jaksel_skill_2[evade].prob:0%}</>、回避発動する度に自身の攻撃力の<@ba.vup>{attack@atk_scale:0%}</>の物理ダメージで敵1体に反撃する（反撃の発動最短間隔が攻撃間隔の<@ba.vup>{base_attack_time:0%}</>）",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 40,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_jaksel_2",
+			"duration": 10,
+			"blackboard": [
+				{
+					"key": "jaksel_skill_2[evade].prob",
+					"value": 0.4
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 1.3
+				},
+				{
+					"key": "base_attack_time",
+					"value": 1
+				}
+			]
+		},
+		{
+			"name": "全神経集中！",
+			"rangeId": null,
+			"description": "攻撃しなくなる。物理回避<@ba.vup>+{jaksel_skill_2[evade].prob:0%}</>、回避発動する度に自身の攻撃力の<@ba.vup>{attack@atk_scale:0%}</>の物理ダメージで敵1体に反撃する（反撃の発動最短間隔が攻撃間隔の<@ba.vup>{base_attack_time:0%}</>）",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 38,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_jaksel_2",
+			"duration": 10,
+			"blackboard": [
+				{
+					"key": "jaksel_skill_2[evade].prob",
+					"value": 0.5
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 1.35
+				},
+				{
+					"key": "base_attack_time",
+					"value": 0.8
+				}
+			]
+		},
+		{
+			"name": "全神経集中！",
+			"rangeId": null,
+			"description": "攻撃しなくなる。物理回避<@ba.vup>+{jaksel_skill_2[evade].prob:0%}</>、回避発動する度に自身の攻撃力の<@ba.vup>{attack@atk_scale:0%}</>の物理ダメージで敵1体に反撃する（反撃の発動最短間隔が攻撃間隔の<@ba.vup>{base_attack_time:0%}</>）",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 38,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_jaksel_2",
+			"duration": 10,
+			"blackboard": [
+				{
+					"key": "jaksel_skill_2[evade].prob",
+					"value": 0.5
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 1.4
+				},
+				{
+					"key": "base_attack_time",
+					"value": 0.8
+				}
+			]
+		},
+		{
+			"name": "全神経集中！",
+			"rangeId": null,
+			"description": "攻撃しなくなる。物理回避<@ba.vup>+{jaksel_skill_2[evade].prob:0%}</>、回避発動する度に自身の攻撃力の<@ba.vup>{attack@atk_scale:0%}</>の物理ダメージで敵1体に反撃する（反撃の発動最短間隔が攻撃間隔の<@ba.vup>{base_attack_time:0%}</>）",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 38,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_jaksel_2",
+			"duration": 10,
+			"blackboard": [
+				{
+					"key": "jaksel_skill_2[evade].prob",
+					"value": 0.5
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 1.45
+				},
+				{
+					"key": "base_attack_time",
+					"value": 0.8
+				}
+			]
+		},
+		{
+			"name": "全神経集中！",
+			"rangeId": null,
+			"description": "攻撃しなくなる。物理回避<@ba.vup>+{jaksel_skill_2[evade].prob:0%}</>、回避発動する度に自身の攻撃力の<@ba.vup>{attack@atk_scale:0%}</>の物理ダメージで敵1体に反撃する（反撃の発動最短間隔が攻撃間隔の<@ba.vup>{base_attack_time:0%}</>）",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 35,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_jaksel_2",
+			"duration": 15,
+			"blackboard": [
+				{
+					"key": "jaksel_skill_2[evade].prob",
+					"value": 0.6
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 1.5
+				},
+				{
+					"key": "base_attack_time",
+					"value": 0.6
+				}
+			]
+		},
+		{
+			"name": "全神経集中！",
+			"rangeId": null,
+			"description": "攻撃しなくなる。物理回避<@ba.vup>+{jaksel_skill_2[evade].prob:0%}</>、回避発動する度に自身の攻撃力の<@ba.vup>{attack@atk_scale:0%}</>の物理ダメージで敵1体に反撃する（反撃の発動最短間隔が攻撃間隔の<@ba.vup>{base_attack_time:0%}</>）",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 30,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_jaksel_2",
+			"duration": 16,
+			"blackboard": [
+				{
+					"key": "jaksel_skill_2[evade].prob",
+					"value": 0.6
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 1.55
+				},
+				{
+					"key": "base_attack_time",
+					"value": 0.6
+				}
+			]
+		},
+		{
+			"name": "全神経集中！",
+			"rangeId": null,
+			"description": "攻撃しなくなる。物理回避<@ba.vup>+{jaksel_skill_2[evade].prob:0%}</>、回避発動する度に自身の攻撃力の<@ba.vup>{attack@atk_scale:0%}</>の物理ダメージで敵1体に反撃する（反撃の発動最短間隔が攻撃間隔の<@ba.vup>{base_attack_time:0%}</>）",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 30,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_jaksel_2",
+			"duration": 17,
+			"blackboard": [
+				{
+					"key": "jaksel_skill_2[evade].prob",
+					"value": 0.6
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 1.6
+				},
+				{
+					"key": "base_attack_time",
+					"value": 0.6
+				}
+			]
+		},
+		{
+			"name": "全神経集中！",
+			"rangeId": null,
+			"description": "攻撃しなくなる。物理回避<@ba.vup>+{jaksel_skill_2[evade].prob:0%}</>、回避発動する度に自身の攻撃力の<@ba.vup>{attack@atk_scale:0%}</>の物理ダメージで敵1体に反撃する（反撃の発動最短間隔が攻撃間隔の<@ba.vup>{base_attack_time:0%}</>）",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 30,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_jaksel_2",
+			"duration": 18,
+			"blackboard": [
+				{
+					"key": "jaksel_skill_2[evade].prob",
+					"value": 0.7
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 1.6
+				},
+				{
+					"key": "base_attack_time",
+					"value": 0.5
+				}
+			]
+		}
+	]
+}

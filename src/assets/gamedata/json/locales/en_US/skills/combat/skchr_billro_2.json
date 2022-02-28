@@ -1,0 +1,347 @@
+{
+	"skillId": "skchr_billro_2",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "Sand Fetters",
+			"rangeId": null,
+			"description": "Attack Interval <@ba.vup>reduces slightly</> and every attack inflicts <$ba.sluggish>Slow</> for {attack@sluggish} seconds;\n<$ba.charged>Charged</> effect: ATK <@ba.vup>+{atk:0%}</> and instead of <$ba.sluggish>Slowing</>, <$ba.root>Binds</> targets for <@ba.vup>{attack@root}</> seconds",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 25,
+				"initSp": 1,
+				"increment": 1
+			},
+			"prefabId": "skchr_billro_2",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": -0.4
+				},
+				{
+					"key": "attack@sluggish",
+					"value": 0.3
+				},
+				{
+					"key": "atk",
+					"value": 0.05
+				},
+				{
+					"key": "attack@root",
+					"value": 0.2
+				}
+			]
+		},
+		{
+			"name": "Sand Fetters",
+			"rangeId": null,
+			"description": "Attack Interval <@ba.vup>reduces slightly</> and every attack inflicts <$ba.sluggish>Slow</> for {attack@sluggish} seconds;\n<$ba.charged>Charged</> effect: ATK <@ba.vup>+{atk:0%}</> and instead of <$ba.sluggish>Slowing</>, <$ba.root>Binds</> targets for <@ba.vup>{attack@root}</> seconds",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 25,
+				"initSp": 2,
+				"increment": 1
+			},
+			"prefabId": "skchr_billro_2",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": -0.4
+				},
+				{
+					"key": "attack@sluggish",
+					"value": 0.3
+				},
+				{
+					"key": "atk",
+					"value": 0.05
+				},
+				{
+					"key": "attack@root",
+					"value": 0.3
+				}
+			]
+		},
+		{
+			"name": "Sand Fetters",
+			"rangeId": null,
+			"description": "Attack Interval <@ba.vup>reduces slightly</> and every attack inflicts <$ba.sluggish>Slow</> for {attack@sluggish} seconds;\n<$ba.charged>Charged</> effect: ATK <@ba.vup>+{atk:0%}</> and instead of <$ba.sluggish>Slowing</>, <$ba.root>Binds</> targets for <@ba.vup>{attack@root}</> seconds",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 25,
+				"initSp": 3,
+				"increment": 1
+			},
+			"prefabId": "skchr_billro_2",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": -0.4
+				},
+				{
+					"key": "attack@sluggish",
+					"value": 0.3
+				},
+				{
+					"key": "atk",
+					"value": 0.1
+				},
+				{
+					"key": "attack@root",
+					"value": 0.3
+				}
+			]
+		},
+		{
+			"name": "Sand Fetters",
+			"rangeId": null,
+			"description": "Attack Interval <@ba.vup>reduces</> and every attack inflicts <$ba.sluggish>Slow</> for {attack@sluggish} seconds;\n<$ba.charged>Charged</> effect: ATK <@ba.vup>+{atk:0%}</> and instead of <$ba.sluggish>Slowing</>, <$ba.root>Binds</> targets for <@ba.vup>{attack@root}</> seconds",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 25,
+				"initSp": 4,
+				"increment": 1
+			},
+			"prefabId": "skchr_billro_2",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": -0.6
+				},
+				{
+					"key": "attack@sluggish",
+					"value": 0.3
+				},
+				{
+					"key": "atk",
+					"value": 0.1
+				},
+				{
+					"key": "attack@root",
+					"value": 0.3
+				}
+			]
+		},
+		{
+			"name": "Sand Fetters",
+			"rangeId": null,
+			"description": "Attack Interval <@ba.vup>reduces</> and every attack inflicts <$ba.sluggish>Slow</> for {attack@sluggish} seconds;\n<$ba.charged>Charged</> effect: ATK <@ba.vup>+{atk:0%}</> and instead of <$ba.sluggish>Slowing</>, <$ba.root>Binds</> targets for <@ba.vup>{attack@root}</> seconds",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 25,
+				"initSp": 5,
+				"increment": 1
+			},
+			"prefabId": "skchr_billro_2",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": -0.6
+				},
+				{
+					"key": "attack@sluggish",
+					"value": 0.3
+				},
+				{
+					"key": "atk",
+					"value": 0.1
+				},
+				{
+					"key": "attack@root",
+					"value": 0.4
+				}
+			]
+		},
+		{
+			"name": "Sand Fetters",
+			"rangeId": null,
+			"description": "Attack Interval <@ba.vup>reduces</> and every attack inflicts <$ba.sluggish>Slow</> for {attack@sluggish} seconds;\n<$ba.charged>Charged</> effect: ATK <@ba.vup>+{atk:0%}</> and instead of <$ba.sluggish>Slowing</>, <$ba.root>Binds</> targets for <@ba.vup>{attack@root}</> seconds",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 25,
+				"initSp": 6,
+				"increment": 1
+			},
+			"prefabId": "skchr_billro_2",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": -0.6
+				},
+				{
+					"key": "attack@sluggish",
+					"value": 0.3
+				},
+				{
+					"key": "atk",
+					"value": 0.15
+				},
+				{
+					"key": "attack@root",
+					"value": 0.4
+				}
+			]
+		},
+		{
+			"name": "Sand Fetters",
+			"rangeId": null,
+			"description": "Attack Interval <@ba.vup>reduces greatly</> and every attack inflicts <$ba.sluggish>Slow</> for {attack@sluggish} seconds;\n<$ba.charged>Charged</> effect: ATK <@ba.vup>+{atk:0%}</> and instead of <$ba.sluggish>Slowing</>, <$ba.root>Binds</> targets for <@ba.vup>{attack@root}</> seconds",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 25,
+				"initSp": 7,
+				"increment": 1
+			},
+			"prefabId": "skchr_billro_2",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": -0.8
+				},
+				{
+					"key": "attack@sluggish",
+					"value": 0.3
+				},
+				{
+					"key": "atk",
+					"value": 0.15
+				},
+				{
+					"key": "attack@root",
+					"value": 0.4
+				}
+			]
+		},
+		{
+			"name": "Sand Fetters",
+			"rangeId": null,
+			"description": "Attack Interval <@ba.vup>reduces greatly</> and every attack inflicts <$ba.sluggish>Slow</> for {attack@sluggish} seconds;\n<$ba.charged>Charged</> effect: ATK <@ba.vup>+{atk:0%}</> and instead of <$ba.sluggish>Slowing</>, <$ba.root>Binds</> targets for <@ba.vup>{attack@root}</> seconds",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 25,
+				"initSp": 8,
+				"increment": 1
+			},
+			"prefabId": "skchr_billro_2",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": -0.8
+				},
+				{
+					"key": "attack@sluggish",
+					"value": 0.3
+				},
+				{
+					"key": "atk",
+					"value": 0.15
+				},
+				{
+					"key": "attack@root",
+					"value": 0.5
+				}
+			]
+		},
+		{
+			"name": "Sand Fetters",
+			"rangeId": null,
+			"description": "Attack Interval <@ba.vup>reduces greatly</> and every attack inflicts <$ba.sluggish>Slow</> for {attack@sluggish} seconds;\n<$ba.charged>Charged</> effect: ATK <@ba.vup>+{atk:0%}</> and instead of <$ba.sluggish>Slowing</>, <$ba.root>Binds</> targets for <@ba.vup>{attack@root}</> seconds",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 25,
+				"initSp": 9,
+				"increment": 1
+			},
+			"prefabId": "skchr_billro_2",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": -0.8
+				},
+				{
+					"key": "attack@sluggish",
+					"value": 0.3
+				},
+				{
+					"key": "atk",
+					"value": 0.2
+				},
+				{
+					"key": "attack@root",
+					"value": 0.5
+				}
+			]
+		},
+		{
+			"name": "Sand Fetters",
+			"rangeId": null,
+			"description": "Attack Interval <@ba.vup>reduces significantly</> and every attack inflicts <$ba.sluggish>Slow</> for {attack@sluggish} seconds;\n<$ba.charged>Charged</> effect: ATK <@ba.vup>+{atk:0%}</> and instead of <$ba.sluggish>Slowing</>, <$ba.root>Binds</> targets for <@ba.vup>{attack@root}</> seconds",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 25,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_billro_2",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": -1.1
+				},
+				{
+					"key": "attack@sluggish",
+					"value": 0.3
+				},
+				{
+					"key": "atk",
+					"value": 0.2
+				},
+				{
+					"key": "attack@root",
+					"value": 0.6
+				}
+			]
+		}
+	]
+}

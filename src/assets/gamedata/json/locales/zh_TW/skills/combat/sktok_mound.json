@@ -1,0 +1,59 @@
+{
+	"skillId": "sktok_mound",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "風沙掩體",
+			"rangeId": null,
+			"description": "阻擋<@ba.vup>沙塵暴</>，加固後立即回復所有生命值、防禦力<@ba.vup>+{def}</>且不再受到<@ba.vup>沙塵暴</>的傷害但可以被<高能源石炸彈>直接摧毀。",
+			"skillType": 2,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 10,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": "sktok_mound",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "hp_ratio",
+					"value": 1
+				},
+				{
+					"key": "def",
+					"value": 400
+				}
+			]
+		},
+		{
+			"name": "風沙掩體",
+			"rangeId": null,
+			"description": "加固狀態：阻擋<@ba.vup>沙塵暴</>，不再受到<@ba.vup>沙塵暴</>的傷害但可以被<高能源石炸彈>直接摧毀。",
+			"skillType": 2,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 10,
+				"initSp": 10,
+				"increment": 0
+			},
+			"prefabId": "sktok_mound",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "hp_ratio",
+					"value": 1
+				},
+				{
+					"key": "def",
+					"value": 400
+				}
+			]
+		}
+	]
+}

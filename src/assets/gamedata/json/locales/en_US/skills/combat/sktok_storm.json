@@ -1,0 +1,53 @@
+{
+	"skillId": "sktok_storm",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "Sandstorm",
+			"rangeId": null,
+			"description": "-",
+			"skillType": 2,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "sktok_storm",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "damage",
+					"value": 100
+				},
+				{
+					"key": "interval",
+					"value": 2
+				},
+				{
+					"key": "atk",
+					"value": -0.5
+				},
+				{
+					"key": "sand_storm[enemy].move_speed",
+					"value": -0.4
+				},
+				{
+					"key": "respawn_time",
+					"value": 1.5
+				},
+				{
+					"key": "duration",
+					"value": 1500
+				},
+				{
+					"key": "skill_max_trigger_time",
+					"value": 1
+				}
+			]
+		}
+	]
+}

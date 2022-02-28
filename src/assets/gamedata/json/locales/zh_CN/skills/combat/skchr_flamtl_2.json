@@ -1,0 +1,427 @@
+{
+	"skillId": "skchr_flamtl_2",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "“红松林”",
+			"rangeId": "x-1",
+			"description": "立即获得<@ba.vup>{cost}</>点部署费用；对周围最多6名敌人造成<@ba.vup>两次</>相当于攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害，并令击中目标<$ba.stun>晕眩</><@ba.vup>{stun}</>秒；范围内友方单位获得<@ba.vup>{flamtl_s_2.prob:0%}</>的物理闪避，持续<@ba.vup>{flamtl_s_2.duration}</>秒",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 40,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_flamtl_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "cost",
+					"value": 10
+				},
+				{
+					"key": "atk_scale",
+					"value": 1.5
+				},
+				{
+					"key": "stun",
+					"value": 0.5
+				},
+				{
+					"key": "max_target",
+					"value": 6
+				},
+				{
+					"key": "flamtl_s_2.prob",
+					"value": 0.35
+				},
+				{
+					"key": "flamtl_s_2.duration",
+					"value": 10
+				}
+			]
+		},
+		{
+			"name": "“红松林”",
+			"rangeId": "x-1",
+			"description": "立即获得<@ba.vup>{cost}</>点部署费用；对周围最多6名敌人造成<@ba.vup>两次</>相当于攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害，并令击中目标<$ba.stun>晕眩</><@ba.vup>{stun}</>秒；范围内友方单位获得<@ba.vup>{flamtl_s_2.prob:0%}</>的物理闪避，持续<@ba.vup>{flamtl_s_2.duration}</>秒",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 40,
+				"initSp": 21,
+				"increment": 1
+			},
+			"prefabId": "skchr_flamtl_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "cost",
+					"value": 10
+				},
+				{
+					"key": "atk_scale",
+					"value": 1.6
+				},
+				{
+					"key": "stun",
+					"value": 0.5
+				},
+				{
+					"key": "max_target",
+					"value": 6
+				},
+				{
+					"key": "flamtl_s_2.prob",
+					"value": 0.35
+				},
+				{
+					"key": "flamtl_s_2.duration",
+					"value": 10
+				}
+			]
+		},
+		{
+			"name": "“红松林”",
+			"rangeId": "x-1",
+			"description": "立即获得<@ba.vup>{cost}</>点部署费用；对周围最多6名敌人造成<@ba.vup>两次</>相当于攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害，并令击中目标<$ba.stun>晕眩</><@ba.vup>{stun}</>秒；范围内友方单位获得<@ba.vup>{flamtl_s_2.prob:0%}</>的物理闪避，持续<@ba.vup>{flamtl_s_2.duration}</>秒",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 40,
+				"initSp": 22,
+				"increment": 1
+			},
+			"prefabId": "skchr_flamtl_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "cost",
+					"value": 10
+				},
+				{
+					"key": "atk_scale",
+					"value": 1.7
+				},
+				{
+					"key": "stun",
+					"value": 0.5
+				},
+				{
+					"key": "max_target",
+					"value": 6
+				},
+				{
+					"key": "flamtl_s_2.prob",
+					"value": 0.35
+				},
+				{
+					"key": "flamtl_s_2.duration",
+					"value": 10
+				}
+			]
+		},
+		{
+			"name": "“红松林”",
+			"rangeId": "x-1",
+			"description": "立即获得<@ba.vup>{cost}</>点部署费用；对周围最多6名敌人造成<@ba.vup>两次</>相当于攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害，并令击中目标<$ba.stun>晕眩</><@ba.vup>{stun}</>秒；范围内友方单位获得<@ba.vup>{flamtl_s_2.prob:0%}</>的物理闪避，持续<@ba.vup>{flamtl_s_2.duration}</>秒",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 40,
+				"initSp": 23,
+				"increment": 1
+			},
+			"prefabId": "skchr_flamtl_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "cost",
+					"value": 11
+				},
+				{
+					"key": "atk_scale",
+					"value": 1.8
+				},
+				{
+					"key": "stun",
+					"value": 0.5
+				},
+				{
+					"key": "max_target",
+					"value": 6
+				},
+				{
+					"key": "flamtl_s_2.prob",
+					"value": 0.4
+				},
+				{
+					"key": "flamtl_s_2.duration",
+					"value": 10
+				}
+			]
+		},
+		{
+			"name": "“红松林”",
+			"rangeId": "x-1",
+			"description": "立即获得<@ba.vup>{cost}</>点部署费用；对周围最多6名敌人造成<@ba.vup>两次</>相当于攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害，并令击中目标<$ba.stun>晕眩</><@ba.vup>{stun}</>秒；范围内友方单位获得<@ba.vup>{flamtl_s_2.prob:0%}</>的物理闪避，持续<@ba.vup>{flamtl_s_2.duration}</>秒",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 40,
+				"initSp": 24,
+				"increment": 1
+			},
+			"prefabId": "skchr_flamtl_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "cost",
+					"value": 11
+				},
+				{
+					"key": "atk_scale",
+					"value": 1.9
+				},
+				{
+					"key": "stun",
+					"value": 0.5
+				},
+				{
+					"key": "max_target",
+					"value": 6
+				},
+				{
+					"key": "flamtl_s_2.prob",
+					"value": 0.4
+				},
+				{
+					"key": "flamtl_s_2.duration",
+					"value": 10
+				}
+			]
+		},
+		{
+			"name": "“红松林”",
+			"rangeId": "x-1",
+			"description": "立即获得<@ba.vup>{cost}</>点部署费用；对周围最多6名敌人造成<@ba.vup>两次</>相当于攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害，并令击中目标<$ba.stun>晕眩</><@ba.vup>{stun}</>秒；范围内友方单位获得<@ba.vup>{flamtl_s_2.prob:0%}</>的物理闪避，持续<@ba.vup>{flamtl_s_2.duration}</>秒",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 40,
+				"initSp": 25,
+				"increment": 1
+			},
+			"prefabId": "skchr_flamtl_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "cost",
+					"value": 11
+				},
+				{
+					"key": "atk_scale",
+					"value": 2
+				},
+				{
+					"key": "stun",
+					"value": 0.5
+				},
+				{
+					"key": "max_target",
+					"value": 6
+				},
+				{
+					"key": "flamtl_s_2.prob",
+					"value": 0.4
+				},
+				{
+					"key": "flamtl_s_2.duration",
+					"value": 10
+				}
+			]
+		},
+		{
+			"name": "“红松林”",
+			"rangeId": "x-1",
+			"description": "立即获得<@ba.vup>{cost}</>点部署费用；对周围最多6名敌人造成<@ba.vup>两次</>相当于攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害，并令击中目标<$ba.stun>晕眩</><@ba.vup>{stun}</>秒；范围内友方单位获得<@ba.vup>{flamtl_s_2.prob:0%}</>的物理闪避，持续<@ba.vup>{flamtl_s_2.duration}</>秒",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 40,
+				"initSp": 26,
+				"increment": 1
+			},
+			"prefabId": "skchr_flamtl_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "cost",
+					"value": 12
+				},
+				{
+					"key": "atk_scale",
+					"value": 2.1
+				},
+				{
+					"key": "stun",
+					"value": 0.5
+				},
+				{
+					"key": "max_target",
+					"value": 6
+				},
+				{
+					"key": "flamtl_s_2.prob",
+					"value": 0.45
+				},
+				{
+					"key": "flamtl_s_2.duration",
+					"value": 10
+				}
+			]
+		},
+		{
+			"name": "“红松林”",
+			"rangeId": "x-1",
+			"description": "立即获得<@ba.vup>{cost}</>点部署费用；对周围最多6名敌人造成<@ba.vup>两次</>相当于攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害，并令击中目标<$ba.stun>晕眩</><@ba.vup>{stun}</>秒；范围内友方单位获得<@ba.vup>{flamtl_s_2.prob:0%}</>的物理闪避，持续<@ba.vup>{flamtl_s_2.duration}</>秒",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 40,
+				"initSp": 27,
+				"increment": 1
+			},
+			"prefabId": "skchr_flamtl_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "cost",
+					"value": 12
+				},
+				{
+					"key": "atk_scale",
+					"value": 2.2
+				},
+				{
+					"key": "stun",
+					"value": 0.5
+				},
+				{
+					"key": "max_target",
+					"value": 6
+				},
+				{
+					"key": "flamtl_s_2.prob",
+					"value": 0.45
+				},
+				{
+					"key": "flamtl_s_2.duration",
+					"value": 10
+				}
+			]
+		},
+		{
+			"name": "“红松林”",
+			"rangeId": "x-1",
+			"description": "立即获得<@ba.vup>{cost}</>点部署费用；对周围最多6名敌人造成<@ba.vup>两次</>相当于攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害，并令击中目标<$ba.stun>晕眩</><@ba.vup>{stun}</>秒；范围内友方单位获得<@ba.vup>{flamtl_s_2.prob:0%}</>的物理闪避，持续<@ba.vup>{flamtl_s_2.duration}</>秒",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 40,
+				"initSp": 28,
+				"increment": 1
+			},
+			"prefabId": "skchr_flamtl_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "cost",
+					"value": 12
+				},
+				{
+					"key": "atk_scale",
+					"value": 2.3
+				},
+				{
+					"key": "stun",
+					"value": 0.5
+				},
+				{
+					"key": "max_target",
+					"value": 6
+				},
+				{
+					"key": "flamtl_s_2.prob",
+					"value": 0.5
+				},
+				{
+					"key": "flamtl_s_2.duration",
+					"value": 10
+				}
+			]
+		},
+		{
+			"name": "“红松林”",
+			"rangeId": "x-1",
+			"description": "立即获得<@ba.vup>{cost}</>点部署费用；对周围最多6名敌人造成<@ba.vup>两次</>相当于攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害，并令击中目标<$ba.stun>晕眩</><@ba.vup>{stun}</>秒；范围内友方单位获得<@ba.vup>{flamtl_s_2.prob:0%}</>的物理闪避，持续<@ba.vup>{flamtl_s_2.duration}</>秒",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 40,
+				"initSp": 30,
+				"increment": 1
+			},
+			"prefabId": "skchr_flamtl_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "cost",
+					"value": 13
+				},
+				{
+					"key": "atk_scale",
+					"value": 2.4
+				},
+				{
+					"key": "stun",
+					"value": 0.5
+				},
+				{
+					"key": "max_target",
+					"value": 6
+				},
+				{
+					"key": "flamtl_s_2.prob",
+					"value": 0.5
+				},
+				{
+					"key": "flamtl_s_2.duration",
+					"value": 10
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,427 @@
+{
+	"skillId": "skchr_lmlee_2",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "驱凶辟邪",
+			"rangeId": null,
+			"description": "被动效果：攻击速度<@ba.vup>+{attack_speed}</>；主动开启：标记目标使其更易受我方攻击，<@ba.vup>{paper_duration}</>秒后标记爆炸对周围造成<@ba.vup>{default_atk_scale:0%}</>的法术伤害。期间我方每对目标造成一次伤害，爆炸伤害增加老鲤攻击力的<@ba.vup>{factor_atk_scale:0%}</>（最多增加<@ba.vup>{max_stack_cnt}</>次，达到上限或目标被击倒时提前爆炸）",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 12,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_lmlee_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "default_atk_scale",
+					"value": 2
+				},
+				{
+					"key": "factor_atk_scale",
+					"value": 0.05
+				},
+				{
+					"key": "max_stack_cnt",
+					"value": 20
+				},
+				{
+					"key": "taunt_level",
+					"value": 1
+				},
+				{
+					"key": "paper_duration",
+					"value": 5
+				},
+				{
+					"key": "attack_speed",
+					"value": 10
+				}
+			]
+		},
+		{
+			"name": "驱凶辟邪",
+			"rangeId": null,
+			"description": "被动效果：攻击速度<@ba.vup>+{attack_speed}</>；主动开启：标记目标使其更易受我方攻击，<@ba.vup>{paper_duration}</>秒后标记爆炸对周围造成<@ba.vup>{default_atk_scale:0%}</>的法术伤害。期间我方每对目标造成一次伤害，爆炸伤害增加老鲤攻击力的<@ba.vup>{factor_atk_scale:0%}</>（最多增加<@ba.vup>{max_stack_cnt}</>次，达到上限或目标被击倒时提前爆炸）",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 12,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_lmlee_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "default_atk_scale",
+					"value": 2.1
+				},
+				{
+					"key": "factor_atk_scale",
+					"value": 0.05
+				},
+				{
+					"key": "max_stack_cnt",
+					"value": 20
+				},
+				{
+					"key": "taunt_level",
+					"value": 1
+				},
+				{
+					"key": "paper_duration",
+					"value": 5
+				},
+				{
+					"key": "attack_speed",
+					"value": 10
+				}
+			]
+		},
+		{
+			"name": "驱凶辟邪",
+			"rangeId": null,
+			"description": "被动效果：攻击速度<@ba.vup>+{attack_speed}</>；主动开启：标记目标使其更易受我方攻击，<@ba.vup>{paper_duration}</>秒后标记爆炸对周围造成<@ba.vup>{default_atk_scale:0%}</>的法术伤害。期间我方每对目标造成一次伤害，爆炸伤害增加老鲤攻击力的<@ba.vup>{factor_atk_scale:0%}</>（最多增加<@ba.vup>{max_stack_cnt}</>次，达到上限或目标被击倒时提前爆炸）",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 12,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_lmlee_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "default_atk_scale",
+					"value": 2.2
+				},
+				{
+					"key": "factor_atk_scale",
+					"value": 0.05
+				},
+				{
+					"key": "max_stack_cnt",
+					"value": 20
+				},
+				{
+					"key": "taunt_level",
+					"value": 1
+				},
+				{
+					"key": "paper_duration",
+					"value": 5
+				},
+				{
+					"key": "attack_speed",
+					"value": 10
+				}
+			]
+		},
+		{
+			"name": "驱凶辟邪",
+			"rangeId": null,
+			"description": "被动效果：攻击速度<@ba.vup>+{attack_speed}</>；主动开启：标记目标使其更易受我方攻击，<@ba.vup>{paper_duration}</>秒后标记爆炸对周围造成<@ba.vup>{default_atk_scale:0%}</>的法术伤害。期间我方每对目标造成一次伤害，爆炸伤害增加老鲤攻击力的<@ba.vup>{factor_atk_scale:0%}</>（最多增加<@ba.vup>{max_stack_cnt}</>次，达到上限或目标被击倒时提前爆炸）",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 11,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_lmlee_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "default_atk_scale",
+					"value": 2.3
+				},
+				{
+					"key": "factor_atk_scale",
+					"value": 0.1
+				},
+				{
+					"key": "max_stack_cnt",
+					"value": 20
+				},
+				{
+					"key": "taunt_level",
+					"value": 1
+				},
+				{
+					"key": "paper_duration",
+					"value": 5
+				},
+				{
+					"key": "attack_speed",
+					"value": 15
+				}
+			]
+		},
+		{
+			"name": "驱凶辟邪",
+			"rangeId": null,
+			"description": "被动效果：攻击速度<@ba.vup>+{attack_speed}</>；主动开启：标记目标使其更易受我方攻击，<@ba.vup>{paper_duration}</>秒后标记爆炸对周围造成<@ba.vup>{default_atk_scale:0%}</>的法术伤害。期间我方每对目标造成一次伤害，爆炸伤害增加老鲤攻击力的<@ba.vup>{factor_atk_scale:0%}</>（最多增加<@ba.vup>{max_stack_cnt}</>次，达到上限或目标被击倒时提前爆炸）",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 11,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_lmlee_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "default_atk_scale",
+					"value": 2.4
+				},
+				{
+					"key": "factor_atk_scale",
+					"value": 0.1
+				},
+				{
+					"key": "max_stack_cnt",
+					"value": 20
+				},
+				{
+					"key": "taunt_level",
+					"value": 1
+				},
+				{
+					"key": "paper_duration",
+					"value": 5
+				},
+				{
+					"key": "attack_speed",
+					"value": 15
+				}
+			]
+		},
+		{
+			"name": "驱凶辟邪",
+			"rangeId": null,
+			"description": "被动效果：攻击速度<@ba.vup>+{attack_speed}</>；主动开启：标记目标使其更易受我方攻击，<@ba.vup>{paper_duration}</>秒后标记爆炸对周围造成<@ba.vup>{default_atk_scale:0%}</>的法术伤害。期间我方每对目标造成一次伤害，爆炸伤害增加老鲤攻击力的<@ba.vup>{factor_atk_scale:0%}</>（最多增加<@ba.vup>{max_stack_cnt}</>次，达到上限或目标被击倒时提前爆炸）",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 11,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_lmlee_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "default_atk_scale",
+					"value": 2.5
+				},
+				{
+					"key": "factor_atk_scale",
+					"value": 0.1
+				},
+				{
+					"key": "max_stack_cnt",
+					"value": 20
+				},
+				{
+					"key": "taunt_level",
+					"value": 1
+				},
+				{
+					"key": "paper_duration",
+					"value": 5
+				},
+				{
+					"key": "attack_speed",
+					"value": 15
+				}
+			]
+		},
+		{
+			"name": "驱凶辟邪",
+			"rangeId": null,
+			"description": "被动效果：攻击速度<@ba.vup>+{attack_speed}</>；主动开启：标记目标使其更易受我方攻击，<@ba.vup>{paper_duration}</>秒后标记爆炸对周围造成<@ba.vup>{default_atk_scale:0%}</>的法术伤害。期间我方每对目标造成一次伤害，爆炸伤害增加老鲤攻击力的<@ba.vup>{factor_atk_scale:0%}</>（最多增加<@ba.vup>{max_stack_cnt}</>次，达到上限或目标被击倒时提前爆炸）",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 10,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_lmlee_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "default_atk_scale",
+					"value": 2.6
+				},
+				{
+					"key": "factor_atk_scale",
+					"value": 0.15
+				},
+				{
+					"key": "max_stack_cnt",
+					"value": 25
+				},
+				{
+					"key": "taunt_level",
+					"value": 1
+				},
+				{
+					"key": "paper_duration",
+					"value": 5
+				},
+				{
+					"key": "attack_speed",
+					"value": 20
+				}
+			]
+		},
+		{
+			"name": "驱凶辟邪",
+			"rangeId": null,
+			"description": "被动效果：攻击速度<@ba.vup>+{attack_speed}</>；主动开启：标记目标使其更易受我方攻击，<@ba.vup>{paper_duration}</>秒后标记爆炸对周围造成<@ba.vup>{default_atk_scale:0%}</>的法术伤害。期间我方每对目标造成一次伤害，爆炸伤害增加老鲤攻击力的<@ba.vup>{factor_atk_scale:0%}</>（最多增加<@ba.vup>{max_stack_cnt}</>次，达到上限或目标被击倒时提前爆炸）",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 9,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_lmlee_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "default_atk_scale",
+					"value": 2.7
+				},
+				{
+					"key": "factor_atk_scale",
+					"value": 0.15
+				},
+				{
+					"key": "max_stack_cnt",
+					"value": 25
+				},
+				{
+					"key": "taunt_level",
+					"value": 1
+				},
+				{
+					"key": "paper_duration",
+					"value": 5
+				},
+				{
+					"key": "attack_speed",
+					"value": 20
+				}
+			]
+		},
+		{
+			"name": "驱凶辟邪",
+			"rangeId": null,
+			"description": "被动效果：攻击速度<@ba.vup>+{attack_speed}</>；主动开启：标记目标使其更易受我方攻击，<@ba.vup>{paper_duration}</>秒后标记爆炸对周围造成<@ba.vup>{default_atk_scale:0%}</>的法术伤害。期间我方每对目标造成一次伤害，爆炸伤害增加老鲤攻击力的<@ba.vup>{factor_atk_scale:0%}</>（最多增加<@ba.vup>{max_stack_cnt}</>次，达到上限或目标被击倒时提前爆炸）",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 8,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_lmlee_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "default_atk_scale",
+					"value": 2.8
+				},
+				{
+					"key": "factor_atk_scale",
+					"value": 0.15
+				},
+				{
+					"key": "max_stack_cnt",
+					"value": 25
+				},
+				{
+					"key": "taunt_level",
+					"value": 1
+				},
+				{
+					"key": "paper_duration",
+					"value": 5
+				},
+				{
+					"key": "attack_speed",
+					"value": 20
+				}
+			]
+		},
+		{
+			"name": "驱凶辟邪",
+			"rangeId": null,
+			"description": "被动效果：攻击速度<@ba.vup>+{attack_speed}</>；主动开启：标记目标使其更易受我方攻击，<@ba.vup>{paper_duration}</>秒后标记爆炸对周围造成<@ba.vup>{default_atk_scale:0%}</>的法术伤害。期间我方每对目标造成一次伤害，爆炸伤害增加老鲤攻击力的<@ba.vup>{factor_atk_scale:0%}</>（最多增加<@ba.vup>{max_stack_cnt}</>次，达到上限或目标被击倒时提前爆炸）",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 7,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_lmlee_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "default_atk_scale",
+					"value": 3
+				},
+				{
+					"key": "factor_atk_scale",
+					"value": 0.2
+				},
+				{
+					"key": "max_stack_cnt",
+					"value": 30
+				},
+				{
+					"key": "taunt_level",
+					"value": 1
+				},
+				{
+					"key": "paper_duration",
+					"value": 5
+				},
+				{
+					"key": "attack_speed",
+					"value": 30
+				}
+			]
+		}
+	]
+}

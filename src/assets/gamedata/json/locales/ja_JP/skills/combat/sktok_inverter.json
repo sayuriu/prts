@@ -1,0 +1,29 @@
+{
+	"skillId": "sktok_inverter",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "事象震動",
+			"rangeId": "x-1",
+			"description": "配置後爆発し、隣接4マス内にいる敵全員に<@ba.vup>{attack@damage}</>の術ダメージを与え、さらに範囲内にいる敵全員と晦明の印の<@ba.vup>属性変化</>を与える",
+			"skillType": 0,
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 0,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": "sktok_inverter",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "attack@damage",
+					"value": 500
+				}
+			]
+		}
+	]
+}

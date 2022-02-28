@@ -1,0 +1,387 @@
+{
+	"skillId": "skchr_blackd_2",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "衝鋒號令·防禦",
+			"rangeId": null,
+			"description": "立即獲得<@ba.vup>{blackd_s_2[once].cost}</>點部署費用\n技能持續期間內逐漸獲得<@ba.vup>{blackd_s_2[period].trig_cnt}</>點部署費用，防禦力<@ba.vup>+{blackd_s_2[period].def:0%}</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 40,
+				"initSp": 12,
+				"increment": 1
+			},
+			"prefabId": "skchr_blackd_2",
+			"duration": 15,
+			"blackboard": [
+				{
+					"key": "blackd_s_2[period].def",
+					"value": 0.3
+				},
+				{
+					"key": "blackd_s_2[period].cost",
+					"value": 1
+				},
+				{
+					"key": "blackd_s_2[period].interval",
+					"value": 1.87
+				},
+				{
+					"key": "blackd_s_2[period].trig_cnt",
+					"value": 8
+				},
+				{
+					"key": "blackd_s_2[once].cost",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "衝鋒號令·防禦",
+			"rangeId": null,
+			"description": "立即獲得<@ba.vup>{blackd_s_2[once].cost}</>點部署費用\n技能持續期間內逐漸獲得<@ba.vup>{blackd_s_2[period].trig_cnt}</>點部署費用，防禦力<@ba.vup>+{blackd_s_2[period].def:0%}</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 39,
+				"initSp": 12,
+				"increment": 1
+			},
+			"prefabId": "skchr_blackd_2",
+			"duration": 15,
+			"blackboard": [
+				{
+					"key": "blackd_s_2[period].def",
+					"value": 0.33
+				},
+				{
+					"key": "blackd_s_2[period].cost",
+					"value": 1
+				},
+				{
+					"key": "blackd_s_2[period].interval",
+					"value": 1.87
+				},
+				{
+					"key": "blackd_s_2[period].trig_cnt",
+					"value": 8
+				},
+				{
+					"key": "blackd_s_2[once].cost",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "衝鋒號令·防禦",
+			"rangeId": null,
+			"description": "立即獲得<@ba.vup>{blackd_s_2[once].cost}</>點部署費用\n技能持續期間內逐漸獲得<@ba.vup>{blackd_s_2[period].trig_cnt}</>點部署費用，防禦力<@ba.vup>+{blackd_s_2[period].def:0%}</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 38,
+				"initSp": 12,
+				"increment": 1
+			},
+			"prefabId": "skchr_blackd_2",
+			"duration": 15,
+			"blackboard": [
+				{
+					"key": "blackd_s_2[period].def",
+					"value": 0.37
+				},
+				{
+					"key": "blackd_s_2[period].cost",
+					"value": 1
+				},
+				{
+					"key": "blackd_s_2[period].interval",
+					"value": 1.87
+				},
+				{
+					"key": "blackd_s_2[period].trig_cnt",
+					"value": 8
+				},
+				{
+					"key": "blackd_s_2[once].cost",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "衝鋒號令·防禦",
+			"rangeId": null,
+			"description": "立即獲得<@ba.vup>{blackd_s_2[once].cost}</>點部署費用\n技能持續期間內逐漸獲得<@ba.vup>{blackd_s_2[period].trig_cnt}</>點部署費用，防禦力<@ba.vup>+{blackd_s_2[period].def:0%}</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 37,
+				"initSp": 13,
+				"increment": 1
+			},
+			"prefabId": "skchr_blackd_2",
+			"duration": 15,
+			"blackboard": [
+				{
+					"key": "blackd_s_2[period].def",
+					"value": 0.4
+				},
+				{
+					"key": "blackd_s_2[period].cost",
+					"value": 1
+				},
+				{
+					"key": "blackd_s_2[period].interval",
+					"value": 1.87
+				},
+				{
+					"key": "blackd_s_2[period].trig_cnt",
+					"value": 8
+				},
+				{
+					"key": "blackd_s_2[once].cost",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "衝鋒號令·防禦",
+			"rangeId": null,
+			"description": "立即獲得<@ba.vup>{blackd_s_2[once].cost}</>點部署費用\n技能持續期間內逐漸獲得<@ba.vup>{blackd_s_2[period].trig_cnt}</>點部署費用，防禦力<@ba.vup>+{blackd_s_2[period].def:0%}</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 36,
+				"initSp": 13,
+				"increment": 1
+			},
+			"prefabId": "skchr_blackd_2",
+			"duration": 15,
+			"blackboard": [
+				{
+					"key": "blackd_s_2[period].def",
+					"value": 0.43
+				},
+				{
+					"key": "blackd_s_2[period].cost",
+					"value": 1
+				},
+				{
+					"key": "blackd_s_2[period].interval",
+					"value": 1.87
+				},
+				{
+					"key": "blackd_s_2[period].trig_cnt",
+					"value": 8
+				},
+				{
+					"key": "blackd_s_2[once].cost",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "衝鋒號令·防禦",
+			"rangeId": null,
+			"description": "立即獲得<@ba.vup>{blackd_s_2[once].cost}</>點部署費用\n技能持續期間內逐漸獲得<@ba.vup>{blackd_s_2[period].trig_cnt}</>點部署費用，防禦力<@ba.vup>+{blackd_s_2[period].def:0%}</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 35,
+				"initSp": 13,
+				"increment": 1
+			},
+			"prefabId": "skchr_blackd_2",
+			"duration": 15,
+			"blackboard": [
+				{
+					"key": "blackd_s_2[period].def",
+					"value": 0.47
+				},
+				{
+					"key": "blackd_s_2[period].cost",
+					"value": 1
+				},
+				{
+					"key": "blackd_s_2[period].interval",
+					"value": 1.87
+				},
+				{
+					"key": "blackd_s_2[period].trig_cnt",
+					"value": 8
+				},
+				{
+					"key": "blackd_s_2[once].cost",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "衝鋒號令·防禦",
+			"rangeId": null,
+			"description": "立即獲得<@ba.vup>{blackd_s_2[once].cost}</>點部署費用\n技能持續期間內逐漸獲得<@ba.vup>{blackd_s_2[period].trig_cnt}</>點部署費用，防禦力<@ba.vup>+{blackd_s_2[period].def:0%}</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 34,
+				"initSp": 14,
+				"increment": 1
+			},
+			"prefabId": "skchr_blackd_2",
+			"duration": 15,
+			"blackboard": [
+				{
+					"key": "blackd_s_2[period].def",
+					"value": 0.5
+				},
+				{
+					"key": "blackd_s_2[period].cost",
+					"value": 1
+				},
+				{
+					"key": "blackd_s_2[period].interval",
+					"value": 1.87
+				},
+				{
+					"key": "blackd_s_2[period].trig_cnt",
+					"value": 8
+				},
+				{
+					"key": "blackd_s_2[once].cost",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "衝鋒號令·防禦",
+			"rangeId": null,
+			"description": "立即獲得<@ba.vup>{blackd_s_2[once].cost}</>點部署費用\n技能持續期間內逐漸獲得<@ba.vup>{blackd_s_2[period].trig_cnt}</>點部署費用，防禦力<@ba.vup>+{blackd_s_2[period].def:0%}</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 33,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_blackd_2",
+			"duration": 15,
+			"blackboard": [
+				{
+					"key": "blackd_s_2[period].def",
+					"value": 0.6
+				},
+				{
+					"key": "blackd_s_2[period].cost",
+					"value": 1
+				},
+				{
+					"key": "blackd_s_2[period].interval",
+					"value": 1.87
+				},
+				{
+					"key": "blackd_s_2[period].trig_cnt",
+					"value": 8
+				},
+				{
+					"key": "blackd_s_2[once].cost",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "衝鋒號令·防禦",
+			"rangeId": null,
+			"description": "立即獲得<@ba.vup>{blackd_s_2[once].cost}</>點部署費用\n技能持續期間內逐漸獲得<@ba.vup>{blackd_s_2[period].trig_cnt}</>點部署費用，防禦力<@ba.vup>+{blackd_s_2[period].def:0%}</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 32,
+				"initSp": 16,
+				"increment": 1
+			},
+			"prefabId": "skchr_blackd_2",
+			"duration": 15,
+			"blackboard": [
+				{
+					"key": "blackd_s_2[period].def",
+					"value": 0.7
+				},
+				{
+					"key": "blackd_s_2[period].cost",
+					"value": 1
+				},
+				{
+					"key": "blackd_s_2[period].interval",
+					"value": 1.87
+				},
+				{
+					"key": "blackd_s_2[period].trig_cnt",
+					"value": 8
+				},
+				{
+					"key": "blackd_s_2[once].cost",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "衝鋒號令·防禦",
+			"rangeId": null,
+			"description": "立即獲得<@ba.vup>{blackd_s_2[once].cost}</>點部署費用\n技能持續期間內逐漸獲得<@ba.vup>{blackd_s_2[period].trig_cnt}</>點部署費用，防禦力<@ba.vup>+{blackd_s_2[period].def:0%}</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 30,
+				"initSp": 17,
+				"increment": 1
+			},
+			"prefabId": "skchr_blackd_2",
+			"duration": 15,
+			"blackboard": [
+				{
+					"key": "blackd_s_2[period].def",
+					"value": 0.8
+				},
+				{
+					"key": "blackd_s_2[period].cost",
+					"value": 1
+				},
+				{
+					"key": "blackd_s_2[period].interval",
+					"value": 1.87
+				},
+				{
+					"key": "blackd_s_2[period].trig_cnt",
+					"value": 8
+				},
+				{
+					"key": "blackd_s_2[once].cost",
+					"value": 3
+				}
+			]
+		}
+	]
+}

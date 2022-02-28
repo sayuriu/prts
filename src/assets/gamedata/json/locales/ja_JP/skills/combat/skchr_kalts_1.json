@@ -1,0 +1,307 @@
+{
+	"skillId": "skchr_kalts_1",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "指令：構造強化",
+			"rangeId": null,
+			"description": "自身と「Mon3tr」の防御力<@ba.vup>+{def:0%}</>、自身が<@ba.vup>{prob:0%}</>の確率で物理ダメージをガードする",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 30,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_kalts_1",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "def",
+					"value": 0.6
+				},
+				{
+					"key": "attack@def",
+					"value": 0.6
+				},
+				{
+					"key": "prob",
+					"value": 0.2
+				}
+			]
+		},
+		{
+			"name": "指令：構造強化",
+			"rangeId": null,
+			"description": "自身と「Mon3tr」の防御力<@ba.vup>+{def:0%}</>、自身が<@ba.vup>{prob:0%}</>の確率で物理ダメージをガードする",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 29,
+				"initSp": 1,
+				"increment": 1
+			},
+			"prefabId": "skchr_kalts_1",
+			"duration": 31,
+			"blackboard": [
+				{
+					"key": "def",
+					"value": 0.7
+				},
+				{
+					"key": "attack@def",
+					"value": 0.7
+				},
+				{
+					"key": "prob",
+					"value": 0.2
+				}
+			]
+		},
+		{
+			"name": "指令：構造強化",
+			"rangeId": null,
+			"description": "自身と「Mon3tr」の防御力<@ba.vup>+{def:0%}</>、自身が<@ba.vup>{prob:0%}</>の確率で物理ダメージをガードする",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 28,
+				"initSp": 2,
+				"increment": 1
+			},
+			"prefabId": "skchr_kalts_1",
+			"duration": 32,
+			"blackboard": [
+				{
+					"key": "def",
+					"value": 0.8
+				},
+				{
+					"key": "attack@def",
+					"value": 0.8
+				},
+				{
+					"key": "prob",
+					"value": 0.2
+				}
+			]
+		},
+		{
+			"name": "指令：構造強化",
+			"rangeId": null,
+			"description": "自身と「Mon3tr」の防御力<@ba.vup>+{def:0%}</>、自身が<@ba.vup>{prob:0%}</>の確率で物理ダメージをガードする",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 27,
+				"initSp": 3,
+				"increment": 1
+			},
+			"prefabId": "skchr_kalts_1",
+			"duration": 33,
+			"blackboard": [
+				{
+					"key": "def",
+					"value": 0.9
+				},
+				{
+					"key": "attack@def",
+					"value": 0.9
+				},
+				{
+					"key": "prob",
+					"value": 0.3
+				}
+			]
+		},
+		{
+			"name": "指令：構造強化",
+			"rangeId": null,
+			"description": "自身と「Mon3tr」の防御力<@ba.vup>+{def:0%}</>、自身が<@ba.vup>{prob:0%}</>の確率で物理ダメージをガードする",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 26,
+				"initSp": 4,
+				"increment": 1
+			},
+			"prefabId": "skchr_kalts_1",
+			"duration": 34,
+			"blackboard": [
+				{
+					"key": "def",
+					"value": 1
+				},
+				{
+					"key": "attack@def",
+					"value": 1
+				},
+				{
+					"key": "prob",
+					"value": 0.3
+				}
+			]
+		},
+		{
+			"name": "指令：構造強化",
+			"rangeId": null,
+			"description": "自身と「Mon3tr」の防御力<@ba.vup>+{def:0%}</>、自身が<@ba.vup>{prob:0%}</>の確率で物理ダメージをガードする",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 25,
+				"initSp": 5,
+				"increment": 1
+			},
+			"prefabId": "skchr_kalts_1",
+			"duration": 35,
+			"blackboard": [
+				{
+					"key": "def",
+					"value": 1.1
+				},
+				{
+					"key": "attack@def",
+					"value": 1.1
+				},
+				{
+					"key": "prob",
+					"value": 0.3
+				}
+			]
+		},
+		{
+			"name": "指令：構造強化",
+			"rangeId": null,
+			"description": "自身と「Mon3tr」の防御力<@ba.vup>+{def:0%}</>、自身が<@ba.vup>{prob:0%}</>の確率で物理ダメージをガードする",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 24,
+				"initSp": 6,
+				"increment": 1
+			},
+			"prefabId": "skchr_kalts_1",
+			"duration": 36,
+			"blackboard": [
+				{
+					"key": "def",
+					"value": 1.2
+				},
+				{
+					"key": "attack@def",
+					"value": 1.2
+				},
+				{
+					"key": "prob",
+					"value": 0.4
+				}
+			]
+		},
+		{
+			"name": "指令：構造強化",
+			"rangeId": null,
+			"description": "自身と「Mon3tr」の防御力<@ba.vup>+{def:0%}</>、自身が<@ba.vup>{prob:0%}</>の確率で物理ダメージをガードする",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 23,
+				"initSp": 7,
+				"increment": 1
+			},
+			"prefabId": "skchr_kalts_1",
+			"duration": 37,
+			"blackboard": [
+				{
+					"key": "def",
+					"value": 1.3
+				},
+				{
+					"key": "attack@def",
+					"value": 1.3
+				},
+				{
+					"key": "prob",
+					"value": 0.4
+				}
+			]
+		},
+		{
+			"name": "指令：構造強化",
+			"rangeId": null,
+			"description": "自身と「Mon3tr」の防御力<@ba.vup>+{def:0%}</>、自身が<@ba.vup>{prob:0%}</>の確率で物理ダメージをガードする",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 22,
+				"initSp": 8,
+				"increment": 1
+			},
+			"prefabId": "skchr_kalts_1",
+			"duration": 38,
+			"blackboard": [
+				{
+					"key": "def",
+					"value": 1.4
+				},
+				{
+					"key": "attack@def",
+					"value": 1.4
+				},
+				{
+					"key": "prob",
+					"value": 0.4
+				}
+			]
+		},
+		{
+			"name": "指令：構造強化",
+			"rangeId": null,
+			"description": "自身と「Mon3tr」の防御力<@ba.vup>+{def:0%}</>、自身が<@ba.vup>{prob:0%}</>の確率で物理ダメージをガードする",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 20,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_kalts_1",
+			"duration": 40,
+			"blackboard": [
+				{
+					"key": "def",
+					"value": 1.5
+				},
+				{
+					"key": "attack@def",
+					"value": 1.5
+				},
+				{
+					"key": "prob",
+					"value": 0.5
+				}
+			]
+		}
+	]
+}

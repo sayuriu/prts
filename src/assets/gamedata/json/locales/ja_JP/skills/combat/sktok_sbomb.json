@@ -1,0 +1,24 @@
+{
+	"skillId": "sktok_sbomb",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "起爆",
+			"rangeId": null,
+			"description": "範囲内の敵全員に攻撃力の<@ba.vup>100%</>の確定ダメージを与え、<土石構造>を破壊する。",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 25,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "sktok_sbomb",
+			"duration": 0,
+			"blackboard": []
+		}
+	]
+}

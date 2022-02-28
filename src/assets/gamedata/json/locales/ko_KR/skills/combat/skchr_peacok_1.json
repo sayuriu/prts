@@ -1,0 +1,347 @@
+{
+	"skillId": "skchr_peacok_1",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "단죄",
+			"rangeId": null,
+			"description": "다음 공격의 공격력이 <@ba.vup>{atk_scale:0%}</>까지 상승 (<@ba.vup>{peacok_s_1[crit].prob:0%}</> 확률로 <@ba.vup>{atk_scale_fake:0%}</>로 변경) \n<@ba.rem>3회 충전 가능</>",
+			"skillType": 2,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 3,
+				"spCost": 7,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_peacok_1",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 1.4
+				},
+				{
+					"key": "peacok_s_1[crit].prob",
+					"value": 0.05
+				},
+				{
+					"key": "peacok_s_1[crit].atk_scale",
+					"value": 4
+				},
+				{
+					"key": "atk_scale_fake",
+					"value": 5.6
+				}
+			]
+		},
+		{
+			"name": "단죄",
+			"rangeId": null,
+			"description": "다음 공격의 공격력이 <@ba.vup>{atk_scale:0%}</>까지 상승 (<@ba.vup>{peacok_s_1[crit].prob:0%}</> 확률로 <@ba.vup>{atk_scale_fake:0%}</>로 변경) \n<@ba.rem>3회 충전 가능</>",
+			"skillType": 2,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 3,
+				"spCost": 7,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_peacok_1",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 1.45
+				},
+				{
+					"key": "peacok_s_1[crit].prob",
+					"value": 0.05
+				},
+				{
+					"key": "peacok_s_1[crit].atk_scale",
+					"value": 4
+				},
+				{
+					"key": "atk_scale_fake",
+					"value": 5.8
+				}
+			]
+		},
+		{
+			"name": "단죄",
+			"rangeId": null,
+			"description": "다음 공격의 공격력이 <@ba.vup>{atk_scale:0%}</>까지 상승 (<@ba.vup>{peacok_s_1[crit].prob:0%}</> 확률로 <@ba.vup>{atk_scale_fake:0%}</>로 변경) \n<@ba.rem>3회 충전 가능</>",
+			"skillType": 2,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 3,
+				"spCost": 7,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_peacok_1",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 1.5
+				},
+				{
+					"key": "peacok_s_1[crit].prob",
+					"value": 0.05
+				},
+				{
+					"key": "peacok_s_1[crit].atk_scale",
+					"value": 4
+				},
+				{
+					"key": "atk_scale_fake",
+					"value": 6
+				}
+			]
+		},
+		{
+			"name": "단죄",
+			"rangeId": null,
+			"description": "다음 공격의 공격력이 <@ba.vup>{atk_scale:0%}</>까지 상승 (<@ba.vup>{peacok_s_1[crit].prob:0%}</> 확률로 <@ba.vup>{atk_scale_fake:0%}</>로 변경) \n<@ba.rem>3회 충전 가능</>",
+			"skillType": 2,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 3,
+				"spCost": 6,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_peacok_1",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 1.55
+				},
+				{
+					"key": "peacok_s_1[crit].prob",
+					"value": 0.05
+				},
+				{
+					"key": "peacok_s_1[crit].atk_scale",
+					"value": 4
+				},
+				{
+					"key": "atk_scale_fake",
+					"value": 6.2
+				}
+			]
+		},
+		{
+			"name": "단죄",
+			"rangeId": null,
+			"description": "다음 공격의 공격력이 <@ba.vup>{atk_scale:0%}</>까지 상승 (<@ba.vup>{peacok_s_1[crit].prob:0%}</> 확률로 <@ba.vup>{atk_scale_fake:0%}</>로 변경) \n<@ba.rem>3회 충전 가능</>",
+			"skillType": 2,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 3,
+				"spCost": 6,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_peacok_1",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 1.6
+				},
+				{
+					"key": "peacok_s_1[crit].prob",
+					"value": 0.05
+				},
+				{
+					"key": "peacok_s_1[crit].atk_scale",
+					"value": 4
+				},
+				{
+					"key": "atk_scale_fake",
+					"value": 6.4
+				}
+			]
+		},
+		{
+			"name": "단죄",
+			"rangeId": null,
+			"description": "다음 공격의 공격력이 <@ba.vup>{atk_scale:0%}</>까지 상승 (<@ba.vup>{peacok_s_1[crit].prob:0%}</> 확률로 <@ba.vup>{atk_scale_fake:0%}</>로 변경) \n<@ba.rem>3회 충전 가능</>",
+			"skillType": 2,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 3,
+				"spCost": 6,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_peacok_1",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 1.65
+				},
+				{
+					"key": "peacok_s_1[crit].prob",
+					"value": 0.05
+				},
+				{
+					"key": "peacok_s_1[crit].atk_scale",
+					"value": 4
+				},
+				{
+					"key": "atk_scale_fake",
+					"value": 6.6
+				}
+			]
+		},
+		{
+			"name": "단죄",
+			"rangeId": null,
+			"description": "다음 공격의 공격력이 <@ba.vup>{atk_scale:0%}</>까지 상승 (<@ba.vup>{peacok_s_1[crit].prob:0%}</> 확률로 <@ba.vup>{atk_scale_fake:0%}</>로 변경) \n<@ba.rem>3회 충전 가능</>",
+			"skillType": 2,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 3,
+				"spCost": 5,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_peacok_1",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 1.7
+				},
+				{
+					"key": "peacok_s_1[crit].prob",
+					"value": 0.05
+				},
+				{
+					"key": "peacok_s_1[crit].atk_scale",
+					"value": 4
+				},
+				{
+					"key": "atk_scale_fake",
+					"value": 6.8
+				}
+			]
+		},
+		{
+			"name": "단죄",
+			"rangeId": null,
+			"description": "다음 공격의 공격력이 <@ba.vup>{atk_scale:0%}</>까지 상승 (<@ba.vup>{peacok_s_1[crit].prob:0%}</> 확률로 <@ba.vup>{atk_scale_fake:0%}</>로 변경) \n<@ba.rem>3회 충전 가능</>",
+			"skillType": 2,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 3,
+				"spCost": 5,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_peacok_1",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 1.8
+				},
+				{
+					"key": "peacok_s_1[crit].prob",
+					"value": 0.05
+				},
+				{
+					"key": "peacok_s_1[crit].atk_scale",
+					"value": 4
+				},
+				{
+					"key": "atk_scale_fake",
+					"value": 7.2
+				}
+			]
+		},
+		{
+			"name": "단죄",
+			"rangeId": null,
+			"description": "다음 공격의 공격력이 <@ba.vup>{atk_scale:0%}</>까지 상승 (<@ba.vup>{peacok_s_1[crit].prob:0%}</> 확률로 <@ba.vup>{atk_scale_fake:0%}</>로 변경) \n<@ba.rem>3회 충전 가능</>",
+			"skillType": 2,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 3,
+				"spCost": 5,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_peacok_1",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 1.9
+				},
+				{
+					"key": "peacok_s_1[crit].prob",
+					"value": 0.05
+				},
+				{
+					"key": "peacok_s_1[crit].atk_scale",
+					"value": 4
+				},
+				{
+					"key": "atk_scale_fake",
+					"value": 7.6
+				}
+			]
+		},
+		{
+			"name": "단죄",
+			"rangeId": null,
+			"description": "다음 공격의 공격력이 <@ba.vup>{atk_scale:0%}</>까지 상승 (<@ba.vup>{peacok_s_1[crit].prob:0%}</> 확률로 <@ba.vup>{atk_scale_fake:0%}</>로 변경) \n<@ba.rem>3회 충전 가능</>",
+			"skillType": 2,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 3,
+				"spCost": 4,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_peacok_1",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 2
+				},
+				{
+					"key": "peacok_s_1[crit].prob",
+					"value": 0.05
+				},
+				{
+					"key": "peacok_s_1[crit].atk_scale",
+					"value": 4
+				},
+				{
+					"key": "atk_scale_fake",
+					"value": 8
+				}
+			]
+		}
+	]
+}

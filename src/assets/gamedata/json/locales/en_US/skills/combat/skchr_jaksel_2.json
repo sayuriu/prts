@@ -1,0 +1,307 @@
+{
+	"skillId": "skchr_jaksel_2",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "Pay Close Attention!",
+			"rangeId": null,
+			"description": "Stops attacking and gains <@ba.vup>{jaksel_skill_2[evade].prob:0%}</> Physical dodge; After a successful dodge, counterattacks the enemy for <@ba.vup>{attack@atk_scale:0%}</> ATK as Physical damage (Counterattack frequency cannot be faster than <@ba.vup>{base_attack_time:0%}</> of the attack interval)",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 40,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_jaksel_2",
+			"duration": 10,
+			"blackboard": [
+				{
+					"key": "jaksel_skill_2[evade].prob",
+					"value": 0.4
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 1.2
+				},
+				{
+					"key": "base_attack_time",
+					"value": 1
+				}
+			]
+		},
+		{
+			"name": "Pay Close Attention!",
+			"rangeId": null,
+			"description": "Stops attacking and gains <@ba.vup>{jaksel_skill_2[evade].prob:0%}</> Physical dodge; After a successful dodge, counterattacks the enemy for <@ba.vup>{attack@atk_scale:0%}</> ATK as Physical damage (Counterattack frequency cannot be faster than <@ba.vup>{base_attack_time:0%}</> of the attack interval)",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 40,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_jaksel_2",
+			"duration": 10,
+			"blackboard": [
+				{
+					"key": "jaksel_skill_2[evade].prob",
+					"value": 0.4
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 1.25
+				},
+				{
+					"key": "base_attack_time",
+					"value": 1
+				}
+			]
+		},
+		{
+			"name": "Pay Close Attention!",
+			"rangeId": null,
+			"description": "Stops attacking and gains <@ba.vup>{jaksel_skill_2[evade].prob:0%}</> Physical dodge; After a successful dodge, counterattacks the enemy for <@ba.vup>{attack@atk_scale:0%}</> ATK as Physical damage (Counterattack frequency cannot be faster than <@ba.vup>{base_attack_time:0%}</> of the attack interval)",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 40,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_jaksel_2",
+			"duration": 10,
+			"blackboard": [
+				{
+					"key": "jaksel_skill_2[evade].prob",
+					"value": 0.4
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 1.3
+				},
+				{
+					"key": "base_attack_time",
+					"value": 1
+				}
+			]
+		},
+		{
+			"name": "Pay Close Attention!",
+			"rangeId": null,
+			"description": "Stops attacking and gains <@ba.vup>{jaksel_skill_2[evade].prob:0%}</> Physical dodge; After a successful dodge, counterattacks the enemy for <@ba.vup>{attack@atk_scale:0%}</> ATK as Physical damage (Counterattack frequency cannot be faster than <@ba.vup>{base_attack_time:0%}</> of the attack interval)",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 38,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_jaksel_2",
+			"duration": 10,
+			"blackboard": [
+				{
+					"key": "jaksel_skill_2[evade].prob",
+					"value": 0.5
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 1.35
+				},
+				{
+					"key": "base_attack_time",
+					"value": 0.8
+				}
+			]
+		},
+		{
+			"name": "Pay Close Attention!",
+			"rangeId": null,
+			"description": "Stops attacking and gains <@ba.vup>{jaksel_skill_2[evade].prob:0%}</> Physical dodge; After a successful dodge, counterattacks the enemy for <@ba.vup>{attack@atk_scale:0%}</> ATK as Physical damage (Counterattack frequency cannot be faster than <@ba.vup>{base_attack_time:0%}</> of the attack interval)",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 38,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_jaksel_2",
+			"duration": 10,
+			"blackboard": [
+				{
+					"key": "jaksel_skill_2[evade].prob",
+					"value": 0.5
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 1.4
+				},
+				{
+					"key": "base_attack_time",
+					"value": 0.8
+				}
+			]
+		},
+		{
+			"name": "Pay Close Attention!",
+			"rangeId": null,
+			"description": "Stops attacking and gains <@ba.vup>{jaksel_skill_2[evade].prob:0%}</> Physical dodge; After a successful dodge, counterattacks the enemy for <@ba.vup>{attack@atk_scale:0%}</> ATK as Physical damage (Counterattack frequency cannot be faster than <@ba.vup>{base_attack_time:0%}</> of the attack interval)",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 38,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_jaksel_2",
+			"duration": 10,
+			"blackboard": [
+				{
+					"key": "jaksel_skill_2[evade].prob",
+					"value": 0.5
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 1.45
+				},
+				{
+					"key": "base_attack_time",
+					"value": 0.8
+				}
+			]
+		},
+		{
+			"name": "Pay Close Attention!",
+			"rangeId": null,
+			"description": "Stops attacking and gains <@ba.vup>{jaksel_skill_2[evade].prob:0%}</> Physical dodge; After a successful dodge, counterattacks the enemy for <@ba.vup>{attack@atk_scale:0%}</> ATK as Physical damage (Counterattack frequency cannot be faster than <@ba.vup>{base_attack_time:0%}</> of the attack interval)",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 35,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_jaksel_2",
+			"duration": 15,
+			"blackboard": [
+				{
+					"key": "jaksel_skill_2[evade].prob",
+					"value": 0.6
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 1.5
+				},
+				{
+					"key": "base_attack_time",
+					"value": 0.6
+				}
+			]
+		},
+		{
+			"name": "Pay Close Attention!",
+			"rangeId": null,
+			"description": "Stops attacking and gains <@ba.vup>{jaksel_skill_2[evade].prob:0%}</> Physical dodge; After a successful dodge, counterattacks the enemy for <@ba.vup>{attack@atk_scale:0%}</> ATK as Physical damage (Counterattack frequency cannot be faster than <@ba.vup>{base_attack_time:0%}</> of the attack interval)",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 30,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_jaksel_2",
+			"duration": 16,
+			"blackboard": [
+				{
+					"key": "jaksel_skill_2[evade].prob",
+					"value": 0.6
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 1.55
+				},
+				{
+					"key": "base_attack_time",
+					"value": 0.6
+				}
+			]
+		},
+		{
+			"name": "Pay Close Attention!",
+			"rangeId": null,
+			"description": "Stops attacking and gains <@ba.vup>{jaksel_skill_2[evade].prob:0%}</> Physical dodge; After a successful dodge, counterattacks the enemy for <@ba.vup>{attack@atk_scale:0%}</> ATK as Physical damage (Counterattack frequency cannot be faster than <@ba.vup>{base_attack_time:0%}</> of the attack interval)",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 30,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_jaksel_2",
+			"duration": 17,
+			"blackboard": [
+				{
+					"key": "jaksel_skill_2[evade].prob",
+					"value": 0.6
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 1.6
+				},
+				{
+					"key": "base_attack_time",
+					"value": 0.6
+				}
+			]
+		},
+		{
+			"name": "Pay Close Attention!",
+			"rangeId": null,
+			"description": "Stops attacking and gains <@ba.vup>{jaksel_skill_2[evade].prob:0%}</> Physical dodge; After a successful dodge, counterattacks the enemy for <@ba.vup>{attack@atk_scale:0%}</> ATK as Physical damage (Counterattack frequency cannot be faster than <@ba.vup>{base_attack_time:0%}</> of the attack interval)",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 30,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_jaksel_2",
+			"duration": 18,
+			"blackboard": [
+				{
+					"key": "jaksel_skill_2[evade].prob",
+					"value": 0.7
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 1.6
+				},
+				{
+					"key": "base_attack_time",
+					"value": 0.5
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,59 @@
+{
+	"skillId": "sktok_factory_2",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "生产线",
+			"rangeId": null,
+			"description": "消耗<@ba.vup>{cost}</>点部署费用，部署一架二手无人机",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 50,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": "sktok_factory_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "cost",
+					"value": 10
+				},
+				{
+					"key": "branch_id",
+					"value": 1
+				}
+			]
+		},
+		{
+			"name": "生产线",
+			"rangeId": null,
+			"description": "消耗<@ba.vup>{cost}</>点部署费用，部署一架二手无人机",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 50,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": "sktok_factory_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "cost",
+					"value": 10
+				},
+				{
+					"key": "branch_id",
+					"value": 2
+				}
+			]
+		}
+	]
+}

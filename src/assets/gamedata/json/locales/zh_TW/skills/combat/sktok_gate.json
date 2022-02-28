@@ -1,0 +1,29 @@
+{
+	"skillId": "sktok_gate",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "關閉閘門",
+			"rangeId": null,
+			"description": "消耗<@ba.vup>{cost}</>點部署費用，關閉閘門",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 5,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "sktok_gate",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "cost",
+					"value": 10
+				}
+			]
+		}
+	]
+}

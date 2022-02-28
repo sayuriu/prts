@@ -1,0 +1,427 @@
+{
+	"skillId": "skchr_liskam_2",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "反击电弧",
+			"rangeId": null,
+			"description": "攻击间隔<@ba.vdown>增大</>，攻击力<@ba.vup>+{atk:0%}</>，每次攻击对最多<@ba.vup>{attack@max_target}</>个敌人造成<@ba.vup>法术伤害</>，并有<@ba.vup>{attack@buff_prob:0%}</>概率使命中目标<$ba.stun>晕眩</><@ba.vup>{attack@stun}</>秒\\n<@ba.rem>持续时间结束后雷蛇<$ba.stun>晕眩</>{stun}秒</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 4,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 44,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_liskam_2",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.85
+				},
+				{
+					"key": "base_attack_time",
+					"value": 0.7
+				},
+				{
+					"key": "attack@buff_prob",
+					"value": 0.1
+				},
+				{
+					"key": "attack@stun",
+					"value": 1
+				},
+				{
+					"key": "stun",
+					"value": 5
+				},
+				{
+					"key": "attack@max_target",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "反击电弧",
+			"rangeId": null,
+			"description": "攻击间隔<@ba.vdown>增大</>，攻击力<@ba.vup>+{atk:0%}</>，每次攻击对最多<@ba.vup>{attack@max_target}</>个敌人造成<@ba.vup>法术伤害</>，并有<@ba.vup>{attack@buff_prob:0%}</>概率使命中目标<$ba.stun>晕眩</><@ba.vup>{attack@stun}</>秒\\n<@ba.rem>持续时间结束后雷蛇<$ba.stun>晕眩</>{stun}秒</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 4,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 43,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_liskam_2",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.9
+				},
+				{
+					"key": "base_attack_time",
+					"value": 0.7
+				},
+				{
+					"key": "attack@buff_prob",
+					"value": 0.1
+				},
+				{
+					"key": "attack@stun",
+					"value": 1
+				},
+				{
+					"key": "stun",
+					"value": 5
+				},
+				{
+					"key": "attack@max_target",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "反击电弧",
+			"rangeId": null,
+			"description": "攻击间隔<@ba.vdown>增大</>，攻击力<@ba.vup>+{atk:0%}</>，每次攻击对最多<@ba.vup>{attack@max_target}</>个敌人造成<@ba.vup>法术伤害</>，并有<@ba.vup>{attack@buff_prob:0%}</>概率使命中目标<$ba.stun>晕眩</><@ba.vup>{attack@stun}</>秒\\n<@ba.rem>持续时间结束后雷蛇<$ba.stun>晕眩</>{stun}秒</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 4,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 42,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_liskam_2",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.95
+				},
+				{
+					"key": "base_attack_time",
+					"value": 0.7
+				},
+				{
+					"key": "attack@buff_prob",
+					"value": 0.1
+				},
+				{
+					"key": "attack@stun",
+					"value": 1
+				},
+				{
+					"key": "stun",
+					"value": 5
+				},
+				{
+					"key": "attack@max_target",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "反击电弧",
+			"rangeId": null,
+			"description": "攻击间隔<@ba.vdown>增大</>，攻击力<@ba.vup>+{atk:0%}</>，每次攻击对最多<@ba.vup>{attack@max_target}</>个敌人造成<@ba.vup>法术伤害</>，并有<@ba.vup>{attack@buff_prob:0%}</>概率使命中目标<$ba.stun>晕眩</><@ba.vup>{attack@stun}</>秒\\n<@ba.rem>持续时间结束后雷蛇<$ba.stun>晕眩</>{stun}秒</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 4,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 41,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_liskam_2",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 1.05
+				},
+				{
+					"key": "base_attack_time",
+					"value": 0.7
+				},
+				{
+					"key": "attack@buff_prob",
+					"value": 0.15
+				},
+				{
+					"key": "attack@stun",
+					"value": 1
+				},
+				{
+					"key": "stun",
+					"value": 5
+				},
+				{
+					"key": "attack@max_target",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "反击电弧",
+			"rangeId": null,
+			"description": "攻击间隔<@ba.vdown>增大</>，攻击力<@ba.vup>+{atk:0%}</>，每次攻击对最多<@ba.vup>{attack@max_target}</>个敌人造成<@ba.vup>法术伤害</>，并有<@ba.vup>{attack@buff_prob:0%}</>概率使命中目标<$ba.stun>晕眩</><@ba.vup>{attack@stun}</>秒\\n<@ba.rem>持续时间结束后雷蛇<$ba.stun>晕眩</>{stun}秒</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 4,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 40,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_liskam_2",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 1.1
+				},
+				{
+					"key": "base_attack_time",
+					"value": 0.7
+				},
+				{
+					"key": "attack@buff_prob",
+					"value": 0.15
+				},
+				{
+					"key": "attack@stun",
+					"value": 1
+				},
+				{
+					"key": "stun",
+					"value": 5
+				},
+				{
+					"key": "attack@max_target",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "反击电弧",
+			"rangeId": null,
+			"description": "攻击间隔<@ba.vdown>增大</>，攻击力<@ba.vup>+{atk:0%}</>，每次攻击对最多<@ba.vup>{attack@max_target}</>个敌人造成<@ba.vup>法术伤害</>，并有<@ba.vup>{attack@buff_prob:0%}</>概率使命中目标<$ba.stun>晕眩</><@ba.vup>{attack@stun}</>秒\\n<@ba.rem>持续时间结束后雷蛇<$ba.stun>晕眩</>{stun}秒</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 4,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 39,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_liskam_2",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 1.15
+				},
+				{
+					"key": "base_attack_time",
+					"value": 0.7
+				},
+				{
+					"key": "attack@buff_prob",
+					"value": 0.15
+				},
+				{
+					"key": "attack@stun",
+					"value": 1
+				},
+				{
+					"key": "stun",
+					"value": 5
+				},
+				{
+					"key": "attack@max_target",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "反击电弧",
+			"rangeId": null,
+			"description": "攻击间隔<@ba.vdown>增大</>，攻击力<@ba.vup>+{atk:0%}</>，每次攻击对最多<@ba.vup>{attack@max_target}</>个敌人造成<@ba.vup>法术伤害</>，并有<@ba.vup>{attack@buff_prob:0%}</>概率使命中目标<$ba.stun>晕眩</><@ba.vup>{attack@stun}</>秒\\n<@ba.rem>持续时间结束后雷蛇<$ba.stun>晕眩</>{stun}秒</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 4,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 38,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_liskam_2",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 1.25
+				},
+				{
+					"key": "base_attack_time",
+					"value": 0.7
+				},
+				{
+					"key": "attack@buff_prob",
+					"value": 0.2
+				},
+				{
+					"key": "attack@stun",
+					"value": 1
+				},
+				{
+					"key": "stun",
+					"value": 5
+				},
+				{
+					"key": "attack@max_target",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "反击电弧",
+			"rangeId": null,
+			"description": "攻击间隔<@ba.vdown>增大</>，攻击力<@ba.vup>+{atk:0%}</>，每次攻击对最多<@ba.vup>{attack@max_target}</>个敌人造成<@ba.vup>法术伤害</>，并有<@ba.vup>{attack@buff_prob:0%}</>概率使命中目标<$ba.stun>晕眩</><@ba.vup>{attack@stun}</>秒\\n<@ba.rem>持续时间结束后雷蛇<$ba.stun>晕眩</>{stun}秒</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 4,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 37,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_liskam_2",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 1.5
+				},
+				{
+					"key": "base_attack_time",
+					"value": 0.7
+				},
+				{
+					"key": "attack@buff_prob",
+					"value": 0.2
+				},
+				{
+					"key": "attack@stun",
+					"value": 1
+				},
+				{
+					"key": "stun",
+					"value": 5
+				},
+				{
+					"key": "attack@max_target",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "反击电弧",
+			"rangeId": null,
+			"description": "攻击间隔<@ba.vdown>增大</>，攻击力<@ba.vup>+{atk:0%}</>，每次攻击对最多<@ba.vup>{attack@max_target}</>个敌人造成<@ba.vup>法术伤害</>，并有<@ba.vup>{attack@buff_prob:0%}</>概率使命中目标<$ba.stun>晕眩</><@ba.vup>{attack@stun}</>秒\\n<@ba.rem>持续时间结束后雷蛇<$ba.stun>晕眩</>{stun}秒</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 4,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 36,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_liskam_2",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 1.75
+				},
+				{
+					"key": "base_attack_time",
+					"value": 0.7
+				},
+				{
+					"key": "attack@buff_prob",
+					"value": 0.2
+				},
+				{
+					"key": "attack@stun",
+					"value": 1
+				},
+				{
+					"key": "stun",
+					"value": 5
+				},
+				{
+					"key": "attack@max_target",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "反击电弧",
+			"rangeId": null,
+			"description": "攻击间隔<@ba.vdown>增大</>，攻击力<@ba.vup>+{atk:0%}</>，每次攻击对最多<@ba.vup>{attack@max_target}</>个敌人造成<@ba.vup>法术伤害</>，并有<@ba.vup>{attack@buff_prob:0%}</>概率使命中目标<$ba.stun>晕眩</><@ba.vup>{attack@stun}</>秒\\n<@ba.rem>持续时间结束后雷蛇<$ba.stun>晕眩</>{stun}秒</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 4,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 34,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_liskam_2",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 2
+				},
+				{
+					"key": "base_attack_time",
+					"value": 0.7
+				},
+				{
+					"key": "attack@buff_prob",
+					"value": 0.25
+				},
+				{
+					"key": "attack@stun",
+					"value": 1
+				},
+				{
+					"key": "stun",
+					"value": 5
+				},
+				{
+					"key": "attack@max_target",
+					"value": 4
+				}
+			]
+		}
+	]
+}

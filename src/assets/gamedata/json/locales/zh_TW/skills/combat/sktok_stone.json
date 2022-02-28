@@ -1,0 +1,24 @@
+{
+	"skillId": "sktok_stone",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "阻擋路線",
+			"rangeId": null,
+			"description": "初始部署在場景中，改變敵人的行進路線\n<@ba.rem>如果障礙阻擋了敵人，敵人會破壞此障礙</>",
+			"skillType": 0,
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 0,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": null,
+			"duration": 0,
+			"blackboard": []
+		}
+	]
+}

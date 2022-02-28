@@ -1,0 +1,45 @@
+{
+	"skillId": "sktok_farm",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "기동!",
+			"rangeId": null,
+			"description": "배치 코스트를 <@ba.vup>{cost}</> 소모, 방어력 <@ba.vup>+{def:0%}</>, 마항<@ba.vup>+{magic_resistance}</>, 매초마다 HP를 10씩 회복, 배치 오퍼레이터 유닛 수 <@ba.vup>+{value}</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 120,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "sktok_farm",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "value",
+					"value": 1
+				},
+				{
+					"key": "def",
+					"value": 2
+				},
+				{
+					"key": "magic_resistance",
+					"value": 20
+				},
+				{
+					"key": "hp_recovery_per_sec",
+					"value": 10
+				},
+				{
+					"key": "cost",
+					"value": 20
+				}
+			]
+		}
+	]
+}

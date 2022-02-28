@@ -1,0 +1,29 @@
+{
+	"skillId": "sktok_antidr",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "Drone Interference",
+			"rangeId": "x-3",
+			"description": "Enemy's drones within range <@ba.vup>cannot attack</>, <@ba.vup>lose their special ability</> and <@ba.vup>lose 50% Movement Speed</>\n<@ba.rem>Enemies will attack this drone first</>",
+			"skillType": 0,
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 0,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": "sktok_antidr",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "move_speed",
+					"value": 0.5
+				}
+			]
+		}
+	]
+}

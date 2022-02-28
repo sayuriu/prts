@@ -1,0 +1,387 @@
+{
+	"skillId": "skchr_thorns_3",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "데스트레자",
+			"rangeId": "3-3",
+			"description": "공격 범위 <@ba.vup>확대</>, 공격력 <@ba.vup>+{atk:0%}</>, 공격 속도 <@ba.vup>+{attack_speed}</>, 원거리 공격의 공격력이 더 이상 저하되지 않는다\n<@ba.rem>두 번째 및 그 이후부터 사용 시엔 능력이 초기 상태의 2배로 변경되고, 지속 시간이 무한대가 된다</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 2,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 15,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_thorns_3",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.26
+				},
+				{
+					"key": "attack_speed",
+					"value": 12
+				},
+				{
+					"key": "thorns_s_3[b].atk",
+					"value": 0.52
+				},
+				{
+					"key": "thorns_s_3[b].attack_speed",
+					"value": 24
+				},
+				{
+					"key": "thorns_s_3[b].duration",
+					"value": -1
+				}
+			]
+		},
+		{
+			"name": "데스트레자",
+			"rangeId": "3-3",
+			"description": "공격 범위 <@ba.vup>확대</>, 공격력 <@ba.vup>+{atk:0%}</>, 공격 속도 <@ba.vup>+{attack_speed}</>, 원거리 공격의 공격력이 더 이상 저하되지 않는다\n<@ba.rem>두 번째 및 그 이후부터 사용 시엔 능력이 초기 상태의 2배로 변경되고, 지속 시간이 무한대가 된다</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 2,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 15,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_thorns_3",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.28
+				},
+				{
+					"key": "attack_speed",
+					"value": 12
+				},
+				{
+					"key": "thorns_s_3[b].atk",
+					"value": 0.56
+				},
+				{
+					"key": "thorns_s_3[b].attack_speed",
+					"value": 24
+				},
+				{
+					"key": "thorns_s_3[b].duration",
+					"value": -1
+				}
+			]
+		},
+		{
+			"name": "데스트레자",
+			"rangeId": "3-3",
+			"description": "공격 범위 <@ba.vup>확대</>, 공격력 <@ba.vup>+{atk:0%}</>, 공격 속도 <@ba.vup>+{attack_speed}</>, 원거리 공격의 공격력이 더 이상 저하되지 않는다\n<@ba.rem>두 번째 및 그 이후부터 사용 시엔 능력이 초기 상태의 2배로 변경되고, 지속 시간이 무한대가 된다</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 2,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 15,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_thorns_3",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.3
+				},
+				{
+					"key": "attack_speed",
+					"value": 12
+				},
+				{
+					"key": "thorns_s_3[b].atk",
+					"value": 0.6
+				},
+				{
+					"key": "thorns_s_3[b].attack_speed",
+					"value": 24
+				},
+				{
+					"key": "thorns_s_3[b].duration",
+					"value": -1
+				}
+			]
+		},
+		{
+			"name": "데스트레자",
+			"rangeId": "3-3",
+			"description": "공격 범위 <@ba.vup>확대</>, 공격력 <@ba.vup>+{atk:0%}</>, 공격 속도 <@ba.vup>+{attack_speed}</>, 원거리 공격의 공격력이 더 이상 저하되지 않는다\n<@ba.rem>두 번째 및 그 이후부터 사용 시엔 능력이 초기 상태의 2배로 변경되고, 지속 시간이 무한대가 된다</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 2,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 15,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_thorns_3",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.33
+				},
+				{
+					"key": "attack_speed",
+					"value": 14
+				},
+				{
+					"key": "thorns_s_3[b].atk",
+					"value": 0.66
+				},
+				{
+					"key": "thorns_s_3[b].attack_speed",
+					"value": 28
+				},
+				{
+					"key": "thorns_s_3[b].duration",
+					"value": -1
+				}
+			]
+		},
+		{
+			"name": "데스트레자",
+			"rangeId": "3-3",
+			"description": "공격 범위 <@ba.vup>확대</>, 공격력 <@ba.vup>+{atk:0%}</>, 공격 속도 <@ba.vup>+{attack_speed}</>, 원거리 공격의 공격력이 더 이상 저하되지 않는다\n<@ba.rem>두 번째 및 그 이후부터 사용 시엔 능력이 초기 상태의 2배로 변경되고, 지속 시간이 무한대가 된다</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 2,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 15,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_thorns_3",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.35
+				},
+				{
+					"key": "attack_speed",
+					"value": 14
+				},
+				{
+					"key": "thorns_s_3[b].atk",
+					"value": 0.7
+				},
+				{
+					"key": "thorns_s_3[b].attack_speed",
+					"value": 28
+				},
+				{
+					"key": "thorns_s_3[b].duration",
+					"value": -1
+				}
+			]
+		},
+		{
+			"name": "데스트레자",
+			"rangeId": "3-3",
+			"description": "공격 범위 <@ba.vup>확대</>, 공격력 <@ba.vup>+{atk:0%}</>, 공격 속도 <@ba.vup>+{attack_speed}</>, 원거리 공격의 공격력이 더 이상 저하되지 않는다\n<@ba.rem>두 번째 및 그 이후부터 사용 시엔 능력이 초기 상태의 2배로 변경되고, 지속 시간이 무한대가 된다</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 2,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 15,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_thorns_3",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.37
+				},
+				{
+					"key": "attack_speed",
+					"value": 14
+				},
+				{
+					"key": "thorns_s_3[b].atk",
+					"value": 0.74
+				},
+				{
+					"key": "thorns_s_3[b].attack_speed",
+					"value": 28
+				},
+				{
+					"key": "thorns_s_3[b].duration",
+					"value": -1
+				}
+			]
+		},
+		{
+			"name": "데스트레자",
+			"rangeId": "3-3",
+			"description": "공격 범위 <@ba.vup>확대</>, 공격력 <@ba.vup>+{atk:0%}</>, 공격 속도 <@ba.vup>+{attack_speed}</>, 원거리 공격의 공격력이 더 이상 저하되지 않는다\n<@ba.rem>두 번째 및 그 이후부터 사용 시엔 능력이 초기 상태의 2배로 변경되고, 지속 시간이 무한대가 된다</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 2,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 15,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_thorns_3",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.4
+				},
+				{
+					"key": "attack_speed",
+					"value": 16
+				},
+				{
+					"key": "thorns_s_3[b].atk",
+					"value": 0.8
+				},
+				{
+					"key": "thorns_s_3[b].attack_speed",
+					"value": 32
+				},
+				{
+					"key": "thorns_s_3[b].duration",
+					"value": -1
+				}
+			]
+		},
+		{
+			"name": "데스트레자",
+			"rangeId": "3-3",
+			"description": "공격 범위 <@ba.vup>확대</>, 공격력 <@ba.vup>+{atk:0%}</>, 공격 속도 <@ba.vup>+{attack_speed}</>, 원거리 공격의 공격력이 더 이상 저하되지 않는다\n<@ba.rem>두 번째 및 그 이후부터 사용 시엔 능력이 초기 상태의 2배로 변경되고, 지속 시간이 무한대가 된다</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 2,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 15,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_thorns_3",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.45
+				},
+				{
+					"key": "attack_speed",
+					"value": 19
+				},
+				{
+					"key": "thorns_s_3[b].atk",
+					"value": 0.9
+				},
+				{
+					"key": "thorns_s_3[b].attack_speed",
+					"value": 38
+				},
+				{
+					"key": "thorns_s_3[b].duration",
+					"value": -1
+				}
+			]
+		},
+		{
+			"name": "데스트레자",
+			"rangeId": "3-3",
+			"description": "공격 범위 <@ba.vup>확대</>, 공격력 <@ba.vup>+{atk:0%}</>, 공격 속도 <@ba.vup>+{attack_speed}</>, 원거리 공격의 공격력이 더 이상 저하되지 않는다\n<@ba.rem>두 번째 및 그 이후부터 사용 시엔 능력이 초기 상태의 2배로 변경되고, 지속 시간이 무한대가 된다</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 2,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 15,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_thorns_3",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.5
+				},
+				{
+					"key": "attack_speed",
+					"value": 22
+				},
+				{
+					"key": "thorns_s_3[b].atk",
+					"value": 1
+				},
+				{
+					"key": "thorns_s_3[b].attack_speed",
+					"value": 44
+				},
+				{
+					"key": "thorns_s_3[b].duration",
+					"value": -1
+				}
+			]
+		},
+		{
+			"name": "데스트레자",
+			"rangeId": "3-3",
+			"description": "공격 범위 <@ba.vup>확대</>, 공격력 <@ba.vup>+{atk:0%}</>, 공격 속도 <@ba.vup>+{attack_speed}</>, 원거리 공격의 공격력이 더 이상 저하되지 않는다\n<@ba.rem>두 번째 및 그 이후부터 사용 시엔 능력이 초기 상태의 2배로 변경되고, 지속 시간이 무한대가 된다</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 2,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 15,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_thorns_3",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.6
+				},
+				{
+					"key": "attack_speed",
+					"value": 25
+				},
+				{
+					"key": "thorns_s_3[b].atk",
+					"value": 1.2
+				},
+				{
+					"key": "thorns_s_3[b].attack_speed",
+					"value": 50
+				},
+				{
+					"key": "thorns_s_3[b].duration",
+					"value": -1
+				}
+			]
+		}
+	]
+}

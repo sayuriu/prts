@@ -1,0 +1,307 @@
+{
+	"skillId": "skchr_waaifu_1",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "촌경",
+			"rangeId": null,
+			"description": "배치 후 공격력 <@ba.vup>+{waaifu_s_1[self].atk:0%}</>, 공격당한 적이 <@ba.vup>{attack@waaifu_s_1[debuff].duration}</>초간 공격력 <@ba.vup>-{-attack@waaifu_s_1[debuff].atk:0%}</>",
+			"skillType": 0,
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 0,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": "skchr_waaifu_1",
+			"duration": 10,
+			"blackboard": [
+				{
+					"key": "waaifu_s_1[self].atk",
+					"value": 0.25
+				},
+				{
+					"key": "attack@waaifu_s_1[debuff].atk",
+					"value": -0.2
+				},
+				{
+					"key": "attack@waaifu_s_1[debuff].duration",
+					"value": 2
+				}
+			]
+		},
+		{
+			"name": "촌경",
+			"rangeId": null,
+			"description": "배치 후 공격력 <@ba.vup>+{waaifu_s_1[self].atk:0%}</>, 공격당한 적이 <@ba.vup>{attack@waaifu_s_1[debuff].duration}</>초간 공격력 <@ba.vup>-{-attack@waaifu_s_1[debuff].atk:0%}</>",
+			"skillType": 0,
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 0,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": "skchr_waaifu_1",
+			"duration": 10,
+			"blackboard": [
+				{
+					"key": "waaifu_s_1[self].atk",
+					"value": 0.3
+				},
+				{
+					"key": "attack@waaifu_s_1[debuff].atk",
+					"value": -0.2
+				},
+				{
+					"key": "attack@waaifu_s_1[debuff].duration",
+					"value": 2
+				}
+			]
+		},
+		{
+			"name": "촌경",
+			"rangeId": null,
+			"description": "배치 후 공격력 <@ba.vup>+{waaifu_s_1[self].atk:0%}</>, 공격당한 적이 <@ba.vup>{attack@waaifu_s_1[debuff].duration}</>초간 공격력 <@ba.vup>-{-attack@waaifu_s_1[debuff].atk:0%}</>",
+			"skillType": 0,
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 0,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": "skchr_waaifu_1",
+			"duration": 10,
+			"blackboard": [
+				{
+					"key": "waaifu_s_1[self].atk",
+					"value": 0.35
+				},
+				{
+					"key": "attack@waaifu_s_1[debuff].atk",
+					"value": -0.2
+				},
+				{
+					"key": "attack@waaifu_s_1[debuff].duration",
+					"value": 2
+				}
+			]
+		},
+		{
+			"name": "촌경",
+			"rangeId": null,
+			"description": "배치 후 공격력 <@ba.vup>+{waaifu_s_1[self].atk:0%}</>, 공격당한 적이 <@ba.vup>{attack@waaifu_s_1[debuff].duration}</>초간 공격력 <@ba.vup>-{-attack@waaifu_s_1[debuff].atk:0%}</>",
+			"skillType": 0,
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 0,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": "skchr_waaifu_1",
+			"duration": 10,
+			"blackboard": [
+				{
+					"key": "waaifu_s_1[self].atk",
+					"value": 0.4
+				},
+				{
+					"key": "attack@waaifu_s_1[debuff].atk",
+					"value": -0.25
+				},
+				{
+					"key": "attack@waaifu_s_1[debuff].duration",
+					"value": 2
+				}
+			]
+		},
+		{
+			"name": "촌경",
+			"rangeId": null,
+			"description": "배치 후 공격력 <@ba.vup>+{waaifu_s_1[self].atk:0%}</>, 공격당한 적이 <@ba.vup>{attack@waaifu_s_1[debuff].duration}</>초간 공격력 <@ba.vup>-{-attack@waaifu_s_1[debuff].atk:0%}</>",
+			"skillType": 0,
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 0,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": "skchr_waaifu_1",
+			"duration": 10,
+			"blackboard": [
+				{
+					"key": "waaifu_s_1[self].atk",
+					"value": 0.45
+				},
+				{
+					"key": "attack@waaifu_s_1[debuff].atk",
+					"value": -0.25
+				},
+				{
+					"key": "attack@waaifu_s_1[debuff].duration",
+					"value": 2
+				}
+			]
+		},
+		{
+			"name": "촌경",
+			"rangeId": null,
+			"description": "배치 후 공격력 <@ba.vup>+{waaifu_s_1[self].atk:0%}</>, 공격당한 적이 <@ba.vup>{attack@waaifu_s_1[debuff].duration}</>초간 공격력 <@ba.vup>-{-attack@waaifu_s_1[debuff].atk:0%}</>",
+			"skillType": 0,
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 0,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": "skchr_waaifu_1",
+			"duration": 10,
+			"blackboard": [
+				{
+					"key": "waaifu_s_1[self].atk",
+					"value": 0.5
+				},
+				{
+					"key": "attack@waaifu_s_1[debuff].atk",
+					"value": -0.25
+				},
+				{
+					"key": "attack@waaifu_s_1[debuff].duration",
+					"value": 2
+				}
+			]
+		},
+		{
+			"name": "촌경",
+			"rangeId": null,
+			"description": "배치 후 공격력 <@ba.vup>+{waaifu_s_1[self].atk:0%}</>, 공격당한 적이 <@ba.vup>{attack@waaifu_s_1[debuff].duration}</>초간 공격력 <@ba.vup>-{-attack@waaifu_s_1[debuff].atk:0%}</>",
+			"skillType": 0,
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 0,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": "skchr_waaifu_1",
+			"duration": 10,
+			"blackboard": [
+				{
+					"key": "waaifu_s_1[self].atk",
+					"value": 0.55
+				},
+				{
+					"key": "attack@waaifu_s_1[debuff].atk",
+					"value": -0.3
+				},
+				{
+					"key": "attack@waaifu_s_1[debuff].duration",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "촌경",
+			"rangeId": null,
+			"description": "배치 후 공격력 <@ba.vup>+{waaifu_s_1[self].atk:0%}</>, 공격당한 적이 <@ba.vup>{attack@waaifu_s_1[debuff].duration}</>초간 공격력 <@ba.vup>-{-attack@waaifu_s_1[debuff].atk:0%}</>",
+			"skillType": 0,
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 0,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": "skchr_waaifu_1",
+			"duration": 10,
+			"blackboard": [
+				{
+					"key": "waaifu_s_1[self].atk",
+					"value": 0.6
+				},
+				{
+					"key": "attack@waaifu_s_1[debuff].atk",
+					"value": -0.33
+				},
+				{
+					"key": "attack@waaifu_s_1[debuff].duration",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "촌경",
+			"rangeId": null,
+			"description": "배치 후 공격력 <@ba.vup>+{waaifu_s_1[self].atk:0%}</>, 공격당한 적이 <@ba.vup>{attack@waaifu_s_1[debuff].duration}</>초간 공격력 <@ba.vup>-{-attack@waaifu_s_1[debuff].atk:0%}</>",
+			"skillType": 0,
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 0,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": "skchr_waaifu_1",
+			"duration": 10,
+			"blackboard": [
+				{
+					"key": "waaifu_s_1[self].atk",
+					"value": 0.65
+				},
+				{
+					"key": "attack@waaifu_s_1[debuff].atk",
+					"value": -0.36
+				},
+				{
+					"key": "attack@waaifu_s_1[debuff].duration",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "촌경",
+			"rangeId": null,
+			"description": "배치 후 공격력 <@ba.vup>+{waaifu_s_1[self].atk:0%}</>, 공격당한 적이 <@ba.vup>{attack@waaifu_s_1[debuff].duration}</>초간 공격력 <@ba.vup>-{-attack@waaifu_s_1[debuff].atk:0%}</>",
+			"skillType": 0,
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 0,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": "skchr_waaifu_1",
+			"duration": 10,
+			"blackboard": [
+				{
+					"key": "waaifu_s_1[self].atk",
+					"value": 0.7
+				},
+				{
+					"key": "attack@waaifu_s_1[debuff].atk",
+					"value": -0.4
+				},
+				{
+					"key": "attack@waaifu_s_1[debuff].duration",
+					"value": 3
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,347 @@
+{
+	"skillId": "skchr_huang_3",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "Boiling Burst",
+			"rangeId": null,
+			"description": "Upon skill activation, ATK and DEF gradually increases to <@ba.vup>+{atk:0%}</>, and attacks slice all enemies in front of this unit. When this skill ends, this unit loses <@ba.vdown>{hp_ratio:0%}</> HP and deals <@ba.vup>{damage_by_atk_scale:0%}</> ATK as Physical damage to all surrounding enemies",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 45,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_huang_3",
+			"duration": 10,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.3
+				},
+				{
+					"key": "def",
+					"value": 0.3
+				},
+				{
+					"key": "hp_ratio",
+					"value": 0.25
+				},
+				{
+					"key": "damage_by_atk_scale",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "Boiling Burst",
+			"rangeId": null,
+			"description": "Upon skill activation, ATK and DEF gradually increases to <@ba.vup>+{atk:0%}</>, and attacks slice all enemies in front of this unit. When this skill ends, this unit loses <@ba.vdown>{hp_ratio:0%}</> HP and deals <@ba.vup>{damage_by_atk_scale:0%}</> ATK as Physical damage to all surrounding enemies",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 44,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_huang_3",
+			"duration": 10,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.35
+				},
+				{
+					"key": "def",
+					"value": 0.35
+				},
+				{
+					"key": "hp_ratio",
+					"value": 0.25
+				},
+				{
+					"key": "damage_by_atk_scale",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "Boiling Burst",
+			"rangeId": null,
+			"description": "Upon skill activation, ATK and DEF gradually increases to <@ba.vup>+{atk:0%}</>, and attacks slice all enemies in front of this unit. When this skill ends, this unit loses <@ba.vdown>{hp_ratio:0%}</> HP and deals <@ba.vup>{damage_by_atk_scale:0%}</> ATK as Physical damage to all surrounding enemies",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 43,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_huang_3",
+			"duration": 10,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.4
+				},
+				{
+					"key": "def",
+					"value": 0.4
+				},
+				{
+					"key": "hp_ratio",
+					"value": 0.25
+				},
+				{
+					"key": "damage_by_atk_scale",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "Boiling Burst",
+			"rangeId": null,
+			"description": "Upon skill activation, ATK and DEF gradually increases to <@ba.vup>+{atk:0%}</>, and attacks slice all enemies in front of this unit. When this skill ends, this unit loses <@ba.vdown>{hp_ratio:0%}</> HP and deals <@ba.vup>{damage_by_atk_scale:0%}</> ATK as Physical damage to all surrounding enemies",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 42,
+				"initSp": 17,
+				"increment": 1
+			},
+			"prefabId": "skchr_huang_3",
+			"duration": 10,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.45
+				},
+				{
+					"key": "def",
+					"value": 0.45
+				},
+				{
+					"key": "hp_ratio",
+					"value": 0.25
+				},
+				{
+					"key": "damage_by_atk_scale",
+					"value": 3.2
+				}
+			]
+		},
+		{
+			"name": "Boiling Burst",
+			"rangeId": null,
+			"description": "Upon skill activation, ATK and DEF gradually increases to <@ba.vup>+{atk:0%}</>, and attacks slice all enemies in front of this unit. When this skill ends, this unit loses <@ba.vdown>{hp_ratio:0%}</> HP and deals <@ba.vup>{damage_by_atk_scale:0%}</> ATK as Physical damage to all surrounding enemies",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 41,
+				"initSp": 17,
+				"increment": 1
+			},
+			"prefabId": "skchr_huang_3",
+			"duration": 10,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.5
+				},
+				{
+					"key": "def",
+					"value": 0.5
+				},
+				{
+					"key": "hp_ratio",
+					"value": 0.25
+				},
+				{
+					"key": "damage_by_atk_scale",
+					"value": 3.2
+				}
+			]
+		},
+		{
+			"name": "Boiling Burst",
+			"rangeId": null,
+			"description": "Upon skill activation, ATK and DEF gradually increases to <@ba.vup>+{atk:0%}</>, and attacks slice all enemies in front of this unit. When this skill ends, this unit loses <@ba.vdown>{hp_ratio:0%}</> HP and deals <@ba.vup>{damage_by_atk_scale:0%}</> ATK as Physical damage to all surrounding enemies",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 40,
+				"initSp": 17,
+				"increment": 1
+			},
+			"prefabId": "skchr_huang_3",
+			"duration": 10,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.55
+				},
+				{
+					"key": "def",
+					"value": 0.55
+				},
+				{
+					"key": "hp_ratio",
+					"value": 0.25
+				},
+				{
+					"key": "damage_by_atk_scale",
+					"value": 3.2
+				}
+			]
+		},
+		{
+			"name": "Boiling Burst",
+			"rangeId": null,
+			"description": "Upon skill activation, ATK and DEF gradually increases to <@ba.vup>+{atk:0%}</>, and attacks slice all enemies in front of this unit. When this skill ends, this unit loses <@ba.vdown>{hp_ratio:0%}</> HP and deals <@ba.vup>{damage_by_atk_scale:0%}</> ATK as Physical damage to all surrounding enemies",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 39,
+				"initSp": 19,
+				"increment": 1
+			},
+			"prefabId": "skchr_huang_3",
+			"duration": 10,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.6
+				},
+				{
+					"key": "def",
+					"value": 0.6
+				},
+				{
+					"key": "hp_ratio",
+					"value": 0.25
+				},
+				{
+					"key": "damage_by_atk_scale",
+					"value": 3.4
+				}
+			]
+		},
+		{
+			"name": "Boiling Burst",
+			"rangeId": null,
+			"description": "Upon skill activation, ATK and DEF gradually increases to <@ba.vup>+{atk:0%}</>, and attacks slice all enemies in front of this unit. When this skill ends, this unit loses <@ba.vdown>{hp_ratio:0%}</> HP and deals <@ba.vup>{damage_by_atk_scale:0%}</> ATK as Physical damage to all surrounding enemies",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 38,
+				"initSp": 21,
+				"increment": 1
+			},
+			"prefabId": "skchr_huang_3",
+			"duration": 10,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.65
+				},
+				{
+					"key": "def",
+					"value": 0.65
+				},
+				{
+					"key": "hp_ratio",
+					"value": 0.25
+				},
+				{
+					"key": "damage_by_atk_scale",
+					"value": 3.6
+				}
+			]
+		},
+		{
+			"name": "Boiling Burst",
+			"rangeId": null,
+			"description": "Upon skill activation, ATK and DEF gradually increases to <@ba.vup>+{atk:0%}</>, and attacks slice all enemies in front of this unit. When this skill ends, this unit loses <@ba.vdown>{hp_ratio:0%}</> HP and deals <@ba.vup>{damage_by_atk_scale:0%}</> ATK as Physical damage to all surrounding enemies",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 37,
+				"initSp": 23,
+				"increment": 1
+			},
+			"prefabId": "skchr_huang_3",
+			"duration": 10,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.7
+				},
+				{
+					"key": "def",
+					"value": 0.7
+				},
+				{
+					"key": "hp_ratio",
+					"value": 0.25
+				},
+				{
+					"key": "damage_by_atk_scale",
+					"value": 3.8
+				}
+			]
+		},
+		{
+			"name": "Boiling Burst",
+			"rangeId": null,
+			"description": "Upon skill activation, ATK and DEF gradually increases to <@ba.vup>+{atk:0%}</>, and attacks slice all enemies in front of this unit. When this skill ends, this unit loses <@ba.vdown>{hp_ratio:0%}</> HP and deals <@ba.vup>{damage_by_atk_scale:0%}</> ATK as Physical damage to all surrounding enemies",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 35,
+				"initSp": 25,
+				"increment": 1
+			},
+			"prefabId": "skchr_huang_3",
+			"duration": 10,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.8
+				},
+				{
+					"key": "def",
+					"value": 0.8
+				},
+				{
+					"key": "hp_ratio",
+					"value": 0.25
+				},
+				{
+					"key": "damage_by_atk_scale",
+					"value": 4
+				}
+			]
+		}
+	]
+}

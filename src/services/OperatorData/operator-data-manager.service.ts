@@ -3,6 +3,7 @@ import { Subject } from 'rxjs';
 
 import { CHAR_NAME, SUMMON_NAME, TRAP_NAME, Operator } from '@struct/Operator/Char';
 import { CharFaction, defaultCharFaction } from '@struct/Operator/CharFaction';
+import { CharCombatSkill } from '@struct/Operator/DetailedSkill';
 import { Locales } from '@struct/Basic';
 import { ImageDataService } from '../image-data.service';
 import { arrayAtMany, emptyFunc, Nullable, NullablePromise, Optional } from '@utils/utils';
@@ -37,6 +38,8 @@ const Data_JSON = {
 	_base: 'locales/{locales}/',
 	characters: 'characters/{id}.json',
 	range: 'ranges/{id}.json',
+    skill_combat: 'skills/combat/{id}.json',
+    skill_infrastructure: 'skills/infrastructure/{id}.json',
 
 	materials: 'items/materials/{type}/{id}.json',
 	materials_types: 'items/types/{id}.json',
@@ -68,6 +71,7 @@ export class OperatorDataManagerService {
 	events: Subject<this>;
 	charList!: CharData;
 	isLoaded = false;
+    private _locale: Locales = 'en_US';
 	readonly imagePath = 'gamedata/img';
 	readonly statPropMap = StatsPropMap;
 
@@ -95,7 +99,12 @@ export class OperatorDataManagerService {
 				};
 			});
 	}
-
+    setLocale(locale: Locales) {
+        this._locale = locale;
+    }
+    get locale() {
+        return this._locale;
+    }
 	private async loadAssets()
 	{
 		console.log('Loading operator index...');
@@ -130,13 +139,41 @@ export class OperatorDataManagerService {
 			.replace('{locales}', preferredLocale)
 			.replace('{id}', charId);
 
-		return this.JSONAssets.load(charPath, {
-			lifetime: 600000,
-			onExpire: (d) => {
-				console.log('Destroyed', d.id, d);
-			}
-		}) as NullablePromise<Operator>;
+		try {
+            const res = await this.JSONAssets.load(charPath, {
+                lifetime: 600000,
+                onExpire: (d) => {
+                    console.log('Destroyed', d.id, d);
+                }
+            }) as Nullable<Operator>;
+            return res;
+        }
+        catch (e) {
+            // console.error(e);
+            return null;
+        }
 	}
+    async getCharCombatSkillData(skillId: string, preferredLocale: Locales = 'en_US'): NullablePromise<CharCombatSkill>
+    {
+        const { _base, skill_combat } = Data_JSON;
+        const skillPath = (_base + skill_combat)
+            .replace('{locales}', preferredLocale)
+            .replace('{id}', skillId);
+
+        try {
+            const res = await this.JSONAssets.load(skillPath, {
+                lifetime: 600000,
+                onExpire: (d) => {
+                    console.log('Destroyed', d.id, d);
+                }
+            }) as Nullable<CharCombatSkill>;
+            return res;
+        }
+        catch (e) {
+            // console.error(e);
+            return null;
+        }
+    }
 	async getFactionData(factionId: string, preferredLocale: Locales = 'en_US'): Promise<CharFaction>
 	{
 		const { _base, teams } = Data_JSON;
@@ -144,14 +181,19 @@ export class OperatorDataManagerService {
 			.replace('{locales}', preferredLocale)
 			.replace('{id}', factionId);
 
-		const value = await this.JSONAssets.load(teamPath, {
-			lifetime: 600000,
-			onExpire: (d) => {
-				console.log('Destroyed', d.id, d);
-			}
-		}) as unknown as CharFaction;
-
-		return value ?? defaultCharFaction;
+        try {
+            const value = await this.JSONAssets.load(teamPath, {
+                lifetime: 600000,
+                onExpire: (d) => {
+                    console.log('Destroyed', d.id, d);
+                }
+            }) as unknown as CharFaction;
+            return value ?? defaultCharFaction;
+        }
+        catch (e) {
+            // console.error(e);
+            return defaultCharFaction;
+        }
 	}
 	async loadOpImages(charId: string, type: 'avatars' | 'portraits' | 'full', id?: string, ex?: boolean): NullablePromise<Blob>
 	async loadOpImages(charId: CHAR_NAME, type: 'avatars' | 'portraits' | 'full', id?: string, ex = false): NullablePromise<Blob>

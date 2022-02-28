@@ -1,0 +1,189 @@
+{
+	"skillId": "skcom_quickattack[1]",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "迅速攻撃α",
+			"rangeId": null,
+			"description": "攻撃力<@ba.vup>+{atk:0%}</>、攻撃速度<@ba.vup>+{attack_speed}</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 55,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skcom_quickattack",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.06
+				},
+				{
+					"key": "attack_speed",
+					"value": 10
+				}
+			]
+		},
+		{
+			"name": "迅速攻撃α",
+			"rangeId": null,
+			"description": "攻撃力<@ba.vup>+{atk:0%}</>、攻撃速度<@ba.vup>+{attack_speed}</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 54,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skcom_quickattack",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.09
+				},
+				{
+					"key": "attack_speed",
+					"value": 10
+				}
+			]
+		},
+		{
+			"name": "迅速攻撃α",
+			"rangeId": null,
+			"description": "攻撃力<@ba.vup>+{atk:0%}</>、攻撃速度<@ba.vup>+{attack_speed}</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 53,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skcom_quickattack",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.12
+				},
+				{
+					"key": "attack_speed",
+					"value": 10
+				}
+			]
+		},
+		{
+			"name": "迅速攻撃α",
+			"rangeId": null,
+			"description": "攻撃力<@ba.vup>+{atk:0%}</>、攻撃速度<@ba.vup>+{attack_speed}</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 50,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skcom_quickattack",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.15
+				},
+				{
+					"key": "attack_speed",
+					"value": 15
+				}
+			]
+		},
+		{
+			"name": "迅速攻撃α",
+			"rangeId": null,
+			"description": "攻撃力<@ba.vup>+{atk:0%}</>、攻撃速度<@ba.vup>+{attack_speed}</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 49,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skcom_quickattack",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.19
+				},
+				{
+					"key": "attack_speed",
+					"value": 15
+				}
+			]
+		},
+		{
+			"name": "迅速攻撃α",
+			"rangeId": null,
+			"description": "攻撃力<@ba.vup>+{atk:0%}</>、攻撃速度<@ba.vup>+{attack_speed}</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 48,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skcom_quickattack",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.22
+				},
+				{
+					"key": "attack_speed",
+					"value": 15
+				}
+			]
+		},
+		{
+			"name": "迅速攻撃α",
+			"rangeId": null,
+			"description": "攻撃力<@ba.vup>+{atk:0%}</>、攻撃速度<@ba.vup>+{attack_speed}</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 45,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skcom_quickattack",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.25
+				},
+				{
+					"key": "attack_speed",
+					"value": 25
+				}
+			]
+		}
+	]
+}

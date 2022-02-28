@@ -4,8 +4,9 @@ import { CHAR_NAME, Operator } from '@struct/Operator/Char';
 import { Locales, Range } from '@struct/Basic';
 import { OperatorDataManagerService, zh_CN_CharIndex } from '@services/OperatorData/operator-data-manager.service';
 import { AnimationFunctions } from '@utils/anims';
-import { waitAsync } from '@utils/utils';
+import { Nullable, waitAsync } from '@utils/utils';
 import { Title, Meta } from '@angular/platform-browser';
+import { CharCombatSkill } from '@struct/Operator/DetailedSkill';
 
 @Component({
 	selector: 'app-operator-info-area',
@@ -103,9 +104,8 @@ export class OperatorInfoAreaComponent implements OnInit, OnChanges
 	pagesVisible = false;
 	ngOnInit(): void {
 		this.visible = true;
-
 		this.init().then(async () => {
-			this.menuVisible = true
+			this.menuVisible = true;
 			this.pagesVisible = true;
 			await waitAsync(600);
 			this.setMenuIndex(0);
@@ -116,10 +116,19 @@ export class OperatorInfoAreaComponent implements OnInit, OnChanges
 			this.init();
 	}
 
+    opCombatSkills!: Nullable<CharCombatSkill>[];
+    async fetchOpSkills()
+    {
+        this.opCombatSkills = new Array(this.currentOp.skills.length).fill(null);
+        for (let i = 0; i < this.currentOp.skills.length; i++)
+            this.opCombatSkills[i] = await this.manager.getCharCombatSkillData(this.currentOp.skills[i]!.skillId);
+    }
+
 	async init()
 	{
 		this.currentOp = await this.manager.getCharData(this.opId as CHAR_NAME, this.serverLocale) as Operator;
 		this.currentOpCN = await this.manager.getCharData(this.opId as CHAR_NAME, 'zh_CN') as Operator;
+        await this.fetchOpSkills();
 		this.title.setTitle(`${this.currentOp.name ?? 'Operators'} - PRTS Analysis OS`);
 		console.log(this.currentOp);
 		console.log('%c ', `font-size: 1000px; height: 720px; width: 540px; background:url('https://prts.vercel.app/assets/gamedata/img/characters/avatars/${this.opId}.png') repeat;`);

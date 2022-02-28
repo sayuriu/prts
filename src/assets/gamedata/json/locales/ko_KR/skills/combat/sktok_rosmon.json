@@ -1,0 +1,427 @@
+{
+	"skillId": "sktok_rosmon",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "전술 장비 소환",
+			"rangeId": null,
+			"description": "출현 시 주변의 적을 <@ba.vup>{stun}</>초간 <$ba.stun>기절</>시킨다",
+			"skillType": 2,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "sktok_rosmon",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": -0.5
+				},
+				{
+					"key": "atk",
+					"value": 0.1
+				},
+				{
+					"key": "attack@max_target",
+					"value": 2
+				},
+				{
+					"key": "def",
+					"value": 1
+				},
+				{
+					"key": "attack@append_atk_scale",
+					"value": 0.5
+				},
+				{
+					"key": "stun",
+					"value": 1.5
+				}
+			]
+		},
+		{
+			"name": "전술 장비 소환",
+			"rangeId": null,
+			"description": "출현 시 주변의 적을 <@ba.vup>{stun}</>초간 <$ba.stun>기절</>시킨다",
+			"skillType": 2,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "sktok_rosmon",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": -0.5
+				},
+				{
+					"key": "atk",
+					"value": 0.15
+				},
+				{
+					"key": "attack@max_target",
+					"value": 2
+				},
+				{
+					"key": "def",
+					"value": 1
+				},
+				{
+					"key": "attack@append_atk_scale",
+					"value": 0.5
+				},
+				{
+					"key": "stun",
+					"value": 1.5
+				}
+			]
+		},
+		{
+			"name": "전술 장비 소환",
+			"rangeId": null,
+			"description": "출현 시 주변의 적을 <@ba.vup>{stun}</>초간 <$ba.stun>기절</>시킨다",
+			"skillType": 2,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "sktok_rosmon",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": -0.5
+				},
+				{
+					"key": "atk",
+					"value": 0.2
+				},
+				{
+					"key": "attack@max_target",
+					"value": 2
+				},
+				{
+					"key": "def",
+					"value": 1
+				},
+				{
+					"key": "attack@append_atk_scale",
+					"value": 0.5
+				},
+				{
+					"key": "stun",
+					"value": 1.5
+				}
+			]
+		},
+		{
+			"name": "전술 장비 소환",
+			"rangeId": null,
+			"description": "출현 시 주변의 적을 <@ba.vup>{stun}</>초간 <$ba.stun>기절</>시킨다",
+			"skillType": 2,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "sktok_rosmon",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": -0.5
+				},
+				{
+					"key": "atk",
+					"value": 0.25
+				},
+				{
+					"key": "attack@max_target",
+					"value": 2
+				},
+				{
+					"key": "def",
+					"value": 1
+				},
+				{
+					"key": "attack@append_atk_scale",
+					"value": 0.5
+				},
+				{
+					"key": "stun",
+					"value": 2
+				}
+			]
+		},
+		{
+			"name": "전술 장비 소환",
+			"rangeId": null,
+			"description": "출현 시 주변의 적을 <@ba.vup>{stun}</>초간 <$ba.stun>기절</>시킨다",
+			"skillType": 2,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "sktok_rosmon",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": -0.5
+				},
+				{
+					"key": "atk",
+					"value": 0.3
+				},
+				{
+					"key": "attack@max_target",
+					"value": 2
+				},
+				{
+					"key": "def",
+					"value": 1
+				},
+				{
+					"key": "attack@append_atk_scale",
+					"value": 0.5
+				},
+				{
+					"key": "stun",
+					"value": 2
+				}
+			]
+		},
+		{
+			"name": "전술 장비 소환",
+			"rangeId": null,
+			"description": "출현 시 주변의 적을 <@ba.vup>{stun}</>초간 <$ba.stun>기절</>시킨다",
+			"skillType": 2,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "sktok_rosmon",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": -0.5
+				},
+				{
+					"key": "atk",
+					"value": 0.35
+				},
+				{
+					"key": "attack@max_target",
+					"value": 2
+				},
+				{
+					"key": "def",
+					"value": 1
+				},
+				{
+					"key": "attack@append_atk_scale",
+					"value": 0.5
+				},
+				{
+					"key": "stun",
+					"value": 2
+				}
+			]
+		},
+		{
+			"name": "전술 장비 소환",
+			"rangeId": null,
+			"description": "출현 시 주변의 적을 <@ba.vup>{stun}</>초간 <$ba.stun>기절</>시킨다",
+			"skillType": 2,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "sktok_rosmon",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": -0.5
+				},
+				{
+					"key": "atk",
+					"value": 0.4
+				},
+				{
+					"key": "attack@max_target",
+					"value": 2
+				},
+				{
+					"key": "def",
+					"value": 1
+				},
+				{
+					"key": "attack@append_atk_scale",
+					"value": 0.5
+				},
+				{
+					"key": "stun",
+					"value": 2.5
+				}
+			]
+		},
+		{
+			"name": "전술 장비 소환",
+			"rangeId": null,
+			"description": "출현 시 주변의 적을 <@ba.vup>{stun}</>초간 <$ba.stun>기절</>시킨다",
+			"skillType": 2,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "sktok_rosmon",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": -0.5
+				},
+				{
+					"key": "atk",
+					"value": 0.5
+				},
+				{
+					"key": "attack@max_target",
+					"value": 2
+				},
+				{
+					"key": "def",
+					"value": 1
+				},
+				{
+					"key": "attack@append_atk_scale",
+					"value": 0.5
+				},
+				{
+					"key": "stun",
+					"value": 2.5
+				}
+			]
+		},
+		{
+			"name": "전술 장비 소환",
+			"rangeId": null,
+			"description": "출현 시 주변의 적을 <@ba.vup>{stun}</>초간 <$ba.stun>기절</>시킨다",
+			"skillType": 2,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "sktok_rosmon",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": -0.5
+				},
+				{
+					"key": "atk",
+					"value": 0.6
+				},
+				{
+					"key": "attack@max_target",
+					"value": 2
+				},
+				{
+					"key": "def",
+					"value": 1
+				},
+				{
+					"key": "attack@append_atk_scale",
+					"value": 0.5
+				},
+				{
+					"key": "stun",
+					"value": 2.5
+				}
+			]
+		},
+		{
+			"name": "전술 장비 소환",
+			"rangeId": null,
+			"description": "출현 시 주변의 적을 <@ba.vup>{stun}</>초간 <$ba.stun>기절</>시킨다",
+			"skillType": 2,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "sktok_rosmon",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": -0.5
+				},
+				{
+					"key": "atk",
+					"value": 0.75
+				},
+				{
+					"key": "attack@max_target",
+					"value": 2
+				},
+				{
+					"key": "def",
+					"value": 1
+				},
+				{
+					"key": "attack@append_atk_scale",
+					"value": 0.5
+				},
+				{
+					"key": "stun",
+					"value": 3
+				}
+			]
+		}
+	]
+}

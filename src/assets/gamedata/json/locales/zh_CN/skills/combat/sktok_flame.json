@@ -1,0 +1,83 @@
+{
+	"skillId": "sktok_flame",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "能量结晶",
+			"rangeId": null,
+			"description": "25秒后自爆，向周身四方向发出火球，击中目标时造成<@ba.vup>{damage}</>点法术伤害，并使其施加【烈焚灼息】（每秒受到真实伤害且伤害递增，可被<$ba.buffres>抵抗</>）",
+			"skillType": 2,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 25,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "sktok_flame",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "damage",
+					"value": 1000
+				},
+				{
+					"key": "dragon_fire.duration",
+					"value": 30.5
+				},
+				{
+					"key": "dragon_fire.basedamage",
+					"value": 50
+				},
+				{
+					"key": "dragon_fire.addondamage",
+					"value": 180
+				},
+				{
+					"key": "dragon_fire.addonduration",
+					"value": 30
+				}
+			]
+		},
+		{
+			"name": "能量结晶",
+			"rangeId": null,
+			"description": "25秒后自爆，向周身四方向发出火球，击中目标时造成<@ba.vup>{damage}</>点法术伤害，并使其施加【烈焚灼息】（每秒受到真实伤害且伤害递增，可被<$ba.buffres>抵抗</>）",
+			"skillType": 2,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 25,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "sktok_flame",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "damage",
+					"value": 1500
+				},
+				{
+					"key": "dragon_fire.duration",
+					"value": 30.5
+				},
+				{
+					"key": "dragon_fire.basedamage",
+					"value": 50
+				},
+				{
+					"key": "dragon_fire.addondamage",
+					"value": 180
+				},
+				{
+					"key": "dragon_fire.addonduration",
+					"value": 30
+				}
+			]
+		}
+	]
+}

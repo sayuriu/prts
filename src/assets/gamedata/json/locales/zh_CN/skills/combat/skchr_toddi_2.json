@@ -1,0 +1,387 @@
+{
+	"skillId": "skchr_toddi_2",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "便携破城矢",
+			"rangeId": null,
+			"description": "攻击间隔稍微延长，发射龙矢对敌人造成相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害，击中目标后稍微延迟爆炸，对目标以及周围敌人造成相当于攻击力<@ba.vup>{attack@splash_atk_scale:0%}</>的物理伤害\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后技能结束（期间可随时停止技能）</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 50,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_toddi_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": 0.3
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 1.5
+				},
+				{
+					"key": "attack@splash_atk_scale",
+					"value": 0.6
+				},
+				{
+					"key": "attack@trigger_time",
+					"value": 10
+				},
+				{
+					"key": "attack@splash_projectile_delay_time",
+					"value": 1.5
+				}
+			]
+		},
+		{
+			"name": "便携破城矢",
+			"rangeId": null,
+			"description": "攻击间隔稍微延长，发射龙矢对敌人造成相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害，击中目标后稍微延迟爆炸，对目标以及周围敌人造成相当于攻击力<@ba.vup>{attack@splash_atk_scale:0%}</>的物理伤害\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后技能结束（期间可随时停止技能）</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 49,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_toddi_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": 0.3
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 1.6
+				},
+				{
+					"key": "attack@splash_atk_scale",
+					"value": 0.6
+				},
+				{
+					"key": "attack@trigger_time",
+					"value": 10
+				},
+				{
+					"key": "attack@splash_projectile_delay_time",
+					"value": 1.5
+				}
+			]
+		},
+		{
+			"name": "便携破城矢",
+			"rangeId": null,
+			"description": "攻击间隔稍微延长，发射龙矢对敌人造成相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害，击中目标后稍微延迟爆炸，对目标以及周围敌人造成相当于攻击力<@ba.vup>{attack@splash_atk_scale:0%}</>的物理伤害\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后技能结束（期间可随时停止技能）</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 48,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_toddi_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": 0.3
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 1.7
+				},
+				{
+					"key": "attack@splash_atk_scale",
+					"value": 0.6
+				},
+				{
+					"key": "attack@trigger_time",
+					"value": 10
+				},
+				{
+					"key": "attack@splash_projectile_delay_time",
+					"value": 1.5
+				}
+			]
+		},
+		{
+			"name": "便携破城矢",
+			"rangeId": null,
+			"description": "攻击间隔稍微延长，发射龙矢对敌人造成相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害，击中目标后稍微延迟爆炸，对目标以及周围敌人造成相当于攻击力<@ba.vup>{attack@splash_atk_scale:0%}</>的物理伤害\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后技能结束（期间可随时停止技能）</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 47,
+				"initSp": 21,
+				"increment": 1
+			},
+			"prefabId": "skchr_toddi_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": 0.3
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 1.8
+				},
+				{
+					"key": "attack@splash_atk_scale",
+					"value": 0.65
+				},
+				{
+					"key": "attack@trigger_time",
+					"value": 10
+				},
+				{
+					"key": "attack@splash_projectile_delay_time",
+					"value": 1.5
+				}
+			]
+		},
+		{
+			"name": "便携破城矢",
+			"rangeId": null,
+			"description": "攻击间隔稍微延长，发射龙矢对敌人造成相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害，击中目标后稍微延迟爆炸，对目标以及周围敌人造成相当于攻击力<@ba.vup>{attack@splash_atk_scale:0%}</>的物理伤害\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后技能结束（期间可随时停止技能）</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 46,
+				"initSp": 21,
+				"increment": 1
+			},
+			"prefabId": "skchr_toddi_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": 0.3
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 1.9
+				},
+				{
+					"key": "attack@splash_atk_scale",
+					"value": 0.65
+				},
+				{
+					"key": "attack@trigger_time",
+					"value": 10
+				},
+				{
+					"key": "attack@splash_projectile_delay_time",
+					"value": 1.5
+				}
+			]
+		},
+		{
+			"name": "便携破城矢",
+			"rangeId": null,
+			"description": "攻击间隔稍微延长，发射龙矢对敌人造成相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害，击中目标后稍微延迟爆炸，对目标以及周围敌人造成相当于攻击力<@ba.vup>{attack@splash_atk_scale:0%}</>的物理伤害\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后技能结束（期间可随时停止技能）</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 45,
+				"initSp": 21,
+				"increment": 1
+			},
+			"prefabId": "skchr_toddi_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": 0.3
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 2
+				},
+				{
+					"key": "attack@splash_atk_scale",
+					"value": 0.65
+				},
+				{
+					"key": "attack@trigger_time",
+					"value": 10
+				},
+				{
+					"key": "attack@splash_projectile_delay_time",
+					"value": 1.5
+				}
+			]
+		},
+		{
+			"name": "便携破城矢",
+			"rangeId": null,
+			"description": "攻击间隔稍微延长，发射龙矢对敌人造成相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害，击中目标后稍微延迟爆炸，对目标以及周围敌人造成相当于攻击力<@ba.vup>{attack@splash_atk_scale:0%}</>的物理伤害\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后技能结束（期间可随时停止技能）</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 44,
+				"initSp": 22,
+				"increment": 1
+			},
+			"prefabId": "skchr_toddi_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": 0.3
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 2.1
+				},
+				{
+					"key": "attack@splash_atk_scale",
+					"value": 0.7
+				},
+				{
+					"key": "attack@trigger_time",
+					"value": 10
+				},
+				{
+					"key": "attack@splash_projectile_delay_time",
+					"value": 1.5
+				}
+			]
+		},
+		{
+			"name": "便携破城矢",
+			"rangeId": null,
+			"description": "攻击间隔稍微延长，发射龙矢对敌人造成相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害，击中目标后稍微延迟爆炸，对目标以及周围敌人造成相当于攻击力<@ba.vup>{attack@splash_atk_scale:0%}</>的物理伤害\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后技能结束（期间可随时停止技能）</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 43,
+				"initSp": 23,
+				"increment": 1
+			},
+			"prefabId": "skchr_toddi_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": 0.3
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 2.2
+				},
+				{
+					"key": "attack@splash_atk_scale",
+					"value": 0.7
+				},
+				{
+					"key": "attack@trigger_time",
+					"value": 10
+				},
+				{
+					"key": "attack@splash_projectile_delay_time",
+					"value": 1.5
+				}
+			]
+		},
+		{
+			"name": "便携破城矢",
+			"rangeId": null,
+			"description": "攻击间隔稍微延长，发射龙矢对敌人造成相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害，击中目标后稍微延迟爆炸，对目标以及周围敌人造成相当于攻击力<@ba.vup>{attack@splash_atk_scale:0%}</>的物理伤害\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后技能结束（期间可随时停止技能）</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 42,
+				"initSp": 24,
+				"increment": 1
+			},
+			"prefabId": "skchr_toddi_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": 0.3
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 2.3
+				},
+				{
+					"key": "attack@splash_atk_scale",
+					"value": 0.7
+				},
+				{
+					"key": "attack@trigger_time",
+					"value": 10
+				},
+				{
+					"key": "attack@splash_projectile_delay_time",
+					"value": 1.5
+				}
+			]
+		},
+		{
+			"name": "便携破城矢",
+			"rangeId": null,
+			"description": "攻击间隔稍微延长，发射龙矢对敌人造成相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害，击中目标后稍微延迟爆炸，对目标以及周围敌人造成相当于攻击力<@ba.vup>{attack@splash_atk_scale:0%}</>的物理伤害\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后技能结束（期间可随时停止技能）</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 40,
+				"initSp": 25,
+				"increment": 1
+			},
+			"prefabId": "skchr_toddi_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": 0.3
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 2.4
+				},
+				{
+					"key": "attack@splash_atk_scale",
+					"value": 0.8
+				},
+				{
+					"key": "attack@trigger_time",
+					"value": 10
+				},
+				{
+					"key": "attack@splash_projectile_delay_time",
+					"value": 1.5
+				}
+			]
+		}
+	]
+}

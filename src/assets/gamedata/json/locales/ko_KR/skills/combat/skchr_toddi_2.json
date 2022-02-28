@@ -1,0 +1,387 @@
+{
+	"skillId": "skchr_toddi_2",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "휴대용 공성 화살",
+			"rangeId": null,
+			"description": "공격 딜레이 '약간' 증가, 드래곤 화살을 발사해 적에게 공격력 <@ba.vup>{attack@atk_scale:0%}</>만큼의 물리 대미지를 주고, 적중된 목표는 잠깐 지연 후 폭파한다. 목표 및 주변의 적에게 공격력 <@ba.vup>{attack@splash_atk_scale:0%}</>의 물리 대미지를 준다.\n<@ba.rem>공격 시 {attack@trigger_time}발의 탄약이 장전되고 탄약을 소진하면 스킬이 종료 (해당 기간에 수시로 스킬 중단 가능)</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 50,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_toddi_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": 0.3
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 1.5
+				},
+				{
+					"key": "attack@splash_atk_scale",
+					"value": 0.6
+				},
+				{
+					"key": "attack@trigger_time",
+					"value": 10
+				},
+				{
+					"key": "attack@splash_projectile_delay_time",
+					"value": 1.5
+				}
+			]
+		},
+		{
+			"name": "휴대용 공성 화살",
+			"rangeId": null,
+			"description": "공격 딜레이 '약간' 증가, 드래곤 화살을 발사해 적에게 공격력 <@ba.vup>{attack@atk_scale:0%}</>만큼의 물리 대미지를 주고, 적중된 목표는 잠깐 지연 후 폭파한다. 목표 및 주변의 적에게 공격력 <@ba.vup>{attack@splash_atk_scale:0%}</>의 물리 대미지를 준다.\n<@ba.rem>공격 시 {attack@trigger_time}발의 탄약이 장전되고 탄약을 소진하면 스킬이 종료 (해당 기간에 수시로 스킬 중단 가능)</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 49,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_toddi_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": 0.3
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 1.6
+				},
+				{
+					"key": "attack@splash_atk_scale",
+					"value": 0.6
+				},
+				{
+					"key": "attack@trigger_time",
+					"value": 10
+				},
+				{
+					"key": "attack@splash_projectile_delay_time",
+					"value": 1.5
+				}
+			]
+		},
+		{
+			"name": "휴대용 공성 화살",
+			"rangeId": null,
+			"description": "공격 딜레이 '약간' 증가, 드래곤 화살을 발사해 적에게 공격력 <@ba.vup>{attack@atk_scale:0%}</>만큼의 물리 대미지를 주고, 적중된 목표는 잠깐 지연 후 폭파한다. 목표 및 주변의 적에게 공격력 <@ba.vup>{attack@splash_atk_scale:0%}</>의 물리 대미지를 준다.\n<@ba.rem>공격 시 {attack@trigger_time}발의 탄약이 장전되고 탄약을 소진하면 스킬이 종료 (해당 기간에 수시로 스킬 중단 가능)</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 48,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_toddi_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": 0.3
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 1.7
+				},
+				{
+					"key": "attack@splash_atk_scale",
+					"value": 0.6
+				},
+				{
+					"key": "attack@trigger_time",
+					"value": 10
+				},
+				{
+					"key": "attack@splash_projectile_delay_time",
+					"value": 1.5
+				}
+			]
+		},
+		{
+			"name": "휴대용 공성 화살",
+			"rangeId": null,
+			"description": "공격 딜레이 '약간' 증가, 드래곤 화살을 발사해 적에게 공격력 <@ba.vup>{attack@atk_scale:0%}</>만큼의 물리 대미지를 주고, 적중된 목표는 잠깐 지연 후 폭파한다. 목표 및 주변의 적에게 공격력 <@ba.vup>{attack@splash_atk_scale:0%}</>의 물리 대미지를 준다.\n<@ba.rem>공격 시 {attack@trigger_time}발의 탄약이 장전되고 탄약을 소진하면 스킬이 종료 (해당 기간에 수시로 스킬 중단 가능)</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 47,
+				"initSp": 21,
+				"increment": 1
+			},
+			"prefabId": "skchr_toddi_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": 0.3
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 1.8
+				},
+				{
+					"key": "attack@splash_atk_scale",
+					"value": 0.65
+				},
+				{
+					"key": "attack@trigger_time",
+					"value": 10
+				},
+				{
+					"key": "attack@splash_projectile_delay_time",
+					"value": 1.5
+				}
+			]
+		},
+		{
+			"name": "휴대용 공성 화살",
+			"rangeId": null,
+			"description": "공격 딜레이 '약간' 증가, 드래곤 화살을 발사해 적에게 공격력 <@ba.vup>{attack@atk_scale:0%}</>만큼의 물리 대미지를 주고, 적중된 목표는 잠깐 지연 후 폭파한다. 목표 및 주변의 적에게 공격력 <@ba.vup>{attack@splash_atk_scale:0%}</>의 물리 대미지를 준다.\n<@ba.rem>공격 시 {attack@trigger_time}발의 탄약이 장전되고 탄약을 소진하면 스킬이 종료 (해당 기간에 수시로 스킬 중단 가능)</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 46,
+				"initSp": 21,
+				"increment": 1
+			},
+			"prefabId": "skchr_toddi_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": 0.3
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 1.9
+				},
+				{
+					"key": "attack@splash_atk_scale",
+					"value": 0.65
+				},
+				{
+					"key": "attack@trigger_time",
+					"value": 10
+				},
+				{
+					"key": "attack@splash_projectile_delay_time",
+					"value": 1.5
+				}
+			]
+		},
+		{
+			"name": "휴대용 공성 화살",
+			"rangeId": null,
+			"description": "공격 딜레이 '약간' 증가, 드래곤 화살을 발사해 적에게 공격력 <@ba.vup>{attack@atk_scale:0%}</>만큼의 물리 대미지를 주고, 적중된 목표는 잠깐 지연 후 폭파한다. 목표 및 주변의 적에게 공격력 <@ba.vup>{attack@splash_atk_scale:0%}</>의 물리 대미지를 준다.\n<@ba.rem>공격 시 {attack@trigger_time}발의 탄약이 장전되고 탄약을 소진하면 스킬이 종료 (해당 기간에 수시로 스킬 중단 가능)</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 45,
+				"initSp": 21,
+				"increment": 1
+			},
+			"prefabId": "skchr_toddi_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": 0.3
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 2
+				},
+				{
+					"key": "attack@splash_atk_scale",
+					"value": 0.65
+				},
+				{
+					"key": "attack@trigger_time",
+					"value": 10
+				},
+				{
+					"key": "attack@splash_projectile_delay_time",
+					"value": 1.5
+				}
+			]
+		},
+		{
+			"name": "휴대용 공성 화살",
+			"rangeId": null,
+			"description": "공격 딜레이 '약간' 증가, 드래곤 화살을 발사해 적에게 공격력 <@ba.vup>{attack@atk_scale:0%}</>만큼의 물리 대미지를 주고, 적중된 목표는 잠깐 지연 후 폭파한다. 목표 및 주변의 적에게 공격력 <@ba.vup>{attack@splash_atk_scale:0%}</>의 물리 대미지를 준다.\n<@ba.rem>공격 시 {attack@trigger_time}발의 탄약이 장전되고 탄약을 소진하면 스킬이 종료 (해당 기간에 수시로 스킬 중단 가능)</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 44,
+				"initSp": 22,
+				"increment": 1
+			},
+			"prefabId": "skchr_toddi_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": 0.3
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 2.1
+				},
+				{
+					"key": "attack@splash_atk_scale",
+					"value": 0.7
+				},
+				{
+					"key": "attack@trigger_time",
+					"value": 10
+				},
+				{
+					"key": "attack@splash_projectile_delay_time",
+					"value": 1.5
+				}
+			]
+		},
+		{
+			"name": "휴대용 공성 화살",
+			"rangeId": null,
+			"description": "공격 딜레이 '약간' 증가, 드래곤 화살을 발사해 적에게 공격력 <@ba.vup>{attack@atk_scale:0%}</>만큼의 물리 대미지를 주고, 적중된 목표는 잠깐 지연 후 폭파한다. 목표 및 주변의 적에게 공격력 <@ba.vup>{attack@splash_atk_scale:0%}</>의 물리 대미지를 준다.\n<@ba.rem>공격 시 {attack@trigger_time}발의 탄약이 장전되고 탄약을 소진하면 스킬이 종료 (해당 기간에 수시로 스킬 중단 가능)</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 43,
+				"initSp": 23,
+				"increment": 1
+			},
+			"prefabId": "skchr_toddi_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": 0.3
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 2.2
+				},
+				{
+					"key": "attack@splash_atk_scale",
+					"value": 0.7
+				},
+				{
+					"key": "attack@trigger_time",
+					"value": 10
+				},
+				{
+					"key": "attack@splash_projectile_delay_time",
+					"value": 1.5
+				}
+			]
+		},
+		{
+			"name": "휴대용 공성 화살",
+			"rangeId": null,
+			"description": "공격 딜레이 '약간' 증가, 드래곤 화살을 발사해 적에게 공격력 <@ba.vup>{attack@atk_scale:0%}</>만큼의 물리 대미지를 주고, 적중된 목표는 잠깐 지연 후 폭파한다. 목표 및 주변의 적에게 공격력 <@ba.vup>{attack@splash_atk_scale:0%}</>의 물리 대미지를 준다.\n<@ba.rem>공격 시 {attack@trigger_time}발의 탄약이 장전되고 탄약을 소진하면 스킬이 종료 (해당 기간에 수시로 스킬 중단 가능)</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 42,
+				"initSp": 24,
+				"increment": 1
+			},
+			"prefabId": "skchr_toddi_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": 0.3
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 2.3
+				},
+				{
+					"key": "attack@splash_atk_scale",
+					"value": 0.7
+				},
+				{
+					"key": "attack@trigger_time",
+					"value": 10
+				},
+				{
+					"key": "attack@splash_projectile_delay_time",
+					"value": 1.5
+				}
+			]
+		},
+		{
+			"name": "휴대용 공성 화살",
+			"rangeId": null,
+			"description": "공격 딜레이 '약간' 증가, 드래곤 화살을 발사해 적에게 공격력 <@ba.vup>{attack@atk_scale:0%}</>만큼의 물리 대미지를 주고, 적중된 목표는 잠깐 지연 후 폭파한다. 목표 및 주변의 적에게 공격력 <@ba.vup>{attack@splash_atk_scale:0%}</>의 물리 대미지를 준다.\n<@ba.rem>공격 시 {attack@trigger_time}발의 탄약이 장전되고 탄약을 소진하면 스킬이 종료 (해당 기간에 수시로 스킬 중단 가능)</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 40,
+				"initSp": 25,
+				"increment": 1
+			},
+			"prefabId": "skchr_toddi_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": 0.3
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 2.4
+				},
+				{
+					"key": "attack@splash_atk_scale",
+					"value": 0.8
+				},
+				{
+					"key": "attack@trigger_time",
+					"value": 10
+				},
+				{
+					"key": "attack@splash_projectile_delay_time",
+					"value": 1.5
+				}
+			]
+		}
+	]
+}

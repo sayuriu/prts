@@ -1,0 +1,347 @@
+{
+	"skillId": "skchr_crow_2",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "Reap",
+			"rangeId": null,
+			"description": "Attack Interval <@ba.vup>reduces slightly</>, ATK <@ba.vup>+{atk:0%}</>. ATK increases by an additional <@ba.vup>+{crow_s_2[atk].atk:0%}</> against enemies with less than <@ba.vup>{hp_ratio:0%}</> HP",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 50,
+				"initSp": 30,
+				"increment": 1
+			},
+			"prefabId": "skchr_crow_2",
+			"duration": 21,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.3
+				},
+				{
+					"key": "crow_s_2[atk].atk",
+					"value": 0.3
+				},
+				{
+					"key": "hp_ratio",
+					"value": 0.5
+				},
+				{
+					"key": "base_attack_time",
+					"value": -0.3
+				}
+			]
+		},
+		{
+			"name": "Reap",
+			"rangeId": null,
+			"description": "Attack Interval <@ba.vup>reduces slightly</>, ATK <@ba.vup>+{atk:0%}</>. ATK increases by an additional <@ba.vup>+{crow_s_2[atk].atk:0%}</> against enemies with less than <@ba.vup>{hp_ratio:0%}</> HP",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 49,
+				"initSp": 30,
+				"increment": 1
+			},
+			"prefabId": "skchr_crow_2",
+			"duration": 21,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.35
+				},
+				{
+					"key": "crow_s_2[atk].atk",
+					"value": 0.3
+				},
+				{
+					"key": "hp_ratio",
+					"value": 0.5
+				},
+				{
+					"key": "base_attack_time",
+					"value": -0.3
+				}
+			]
+		},
+		{
+			"name": "Reap",
+			"rangeId": null,
+			"description": "Attack Interval <@ba.vup>reduces slightly</>, ATK <@ba.vup>+{atk:0%}</>. ATK increases by an additional <@ba.vup>+{crow_s_2[atk].atk:0%}</> against enemies with less than <@ba.vup>{hp_ratio:0%}</> HP",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 48,
+				"initSp": 30,
+				"increment": 1
+			},
+			"prefabId": "skchr_crow_2",
+			"duration": 21,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.4
+				},
+				{
+					"key": "crow_s_2[atk].atk",
+					"value": 0.3
+				},
+				{
+					"key": "hp_ratio",
+					"value": 0.5
+				},
+				{
+					"key": "base_attack_time",
+					"value": -0.3
+				}
+			]
+		},
+		{
+			"name": "Reap",
+			"rangeId": null,
+			"description": "Attack Interval <@ba.vup>reduces moderately</>, ATK <@ba.vup>+{atk:0%}</>. ATK increases by an additional <@ba.vup>+{crow_s_2[atk].atk:0%}</> against enemies with less than <@ba.vup>{hp_ratio:0%}</> HP",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 47,
+				"initSp": 30,
+				"increment": 1
+			},
+			"prefabId": "skchr_crow_2",
+			"duration": 23,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.4
+				},
+				{
+					"key": "crow_s_2[atk].atk",
+					"value": 0.3
+				},
+				{
+					"key": "hp_ratio",
+					"value": 0.5
+				},
+				{
+					"key": "base_attack_time",
+					"value": -0.35
+				}
+			]
+		},
+		{
+			"name": "Reap",
+			"rangeId": null,
+			"description": "Attack Interval <@ba.vup>reduces moderately</>, ATK <@ba.vup>+{atk:0%}</>. ATK increases by an additional <@ba.vup>+{crow_s_2[atk].atk:0%}</> against enemies with less than <@ba.vup>{hp_ratio:0%}</> HP",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 46,
+				"initSp": 30,
+				"increment": 1
+			},
+			"prefabId": "skchr_crow_2",
+			"duration": 23,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.45
+				},
+				{
+					"key": "crow_s_2[atk].atk",
+					"value": 0.4
+				},
+				{
+					"key": "hp_ratio",
+					"value": 0.5
+				},
+				{
+					"key": "base_attack_time",
+					"value": -0.35
+				}
+			]
+		},
+		{
+			"name": "Reap",
+			"rangeId": null,
+			"description": "Attack Interval <@ba.vup>reduces moderately</>, ATK <@ba.vup>+{atk:0%}</>. ATK increases by an additional <@ba.vup>+{crow_s_2[atk].atk:0%}</> against enemies with less than <@ba.vup>{hp_ratio:0%}</> HP",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 45,
+				"initSp": 30,
+				"increment": 1
+			},
+			"prefabId": "skchr_crow_2",
+			"duration": 23,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.5
+				},
+				{
+					"key": "crow_s_2[atk].atk",
+					"value": 0.4
+				},
+				{
+					"key": "hp_ratio",
+					"value": 0.5
+				},
+				{
+					"key": "base_attack_time",
+					"value": -0.35
+				}
+			]
+		},
+		{
+			"name": "Reap",
+			"rangeId": null,
+			"description": "Attack Interval <@ba.vup>reduces moderately</>, ATK <@ba.vup>+{atk:0%}</>. ATK increases by an additional <@ba.vup>+{crow_s_2[atk].atk:0%}</> against enemies with less than <@ba.vup>{hp_ratio:0%}</> HP",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 44,
+				"initSp": 30,
+				"increment": 1
+			},
+			"prefabId": "skchr_crow_2",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.55
+				},
+				{
+					"key": "crow_s_2[atk].atk",
+					"value": 0.4
+				},
+				{
+					"key": "hp_ratio",
+					"value": 0.5
+				},
+				{
+					"key": "base_attack_time",
+					"value": -0.35
+				}
+			]
+		},
+		{
+			"name": "Reap",
+			"rangeId": null,
+			"description": "Attack Interval <@ba.vup>reduces</>, ATK <@ba.vup>+{atk:0%}</>. ATK increases by an additional <@ba.vup>+{crow_s_2[atk].atk:0%}</> against enemies with less than <@ba.vup>{hp_ratio:0%}</> HP",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 43,
+				"initSp": 30,
+				"increment": 1
+			},
+			"prefabId": "skchr_crow_2",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.6
+				},
+				{
+					"key": "crow_s_2[atk].atk",
+					"value": 0.4
+				},
+				{
+					"key": "hp_ratio",
+					"value": 0.5
+				},
+				{
+					"key": "base_attack_time",
+					"value": -0.4
+				}
+			]
+		},
+		{
+			"name": "Reap",
+			"rangeId": null,
+			"description": "Attack Interval <@ba.vup>reduces</>, ATK <@ba.vup>+{atk:0%}</>. ATK increases by an additional <@ba.vup>+{crow_s_2[atk].atk:0%}</> against enemies with less than <@ba.vup>{hp_ratio:0%}</> HP",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 42,
+				"initSp": 30,
+				"increment": 1
+			},
+			"prefabId": "skchr_crow_2",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.65
+				},
+				{
+					"key": "crow_s_2[atk].atk",
+					"value": 0.4
+				},
+				{
+					"key": "hp_ratio",
+					"value": 0.5
+				},
+				{
+					"key": "base_attack_time",
+					"value": -0.4
+				}
+			]
+		},
+		{
+			"name": "Reap",
+			"rangeId": null,
+			"description": "Attack Interval <@ba.vup>reduces greatly</>, ATK <@ba.vup>+{atk:0%}</>. ATK increases by an additional <@ba.vup>+{crow_s_2[atk].atk:0%}</> against enemies with less than <@ba.vup>{hp_ratio:0%}</> HP",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 40,
+				"initSp": 30,
+				"increment": 1
+			},
+			"prefabId": "skchr_crow_2",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.7
+				},
+				{
+					"key": "crow_s_2[atk].atk",
+					"value": 0.5
+				},
+				{
+					"key": "hp_ratio",
+					"value": 0.5
+				},
+				{
+					"key": "base_attack_time",
+					"value": -0.5
+				}
+			]
+		}
+	]
+}

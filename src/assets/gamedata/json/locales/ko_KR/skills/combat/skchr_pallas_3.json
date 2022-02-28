@@ -1,0 +1,427 @@
+{
+	"skillId": "skchr_pallas_3",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "용감의 축복",
+			"rangeId": null,
+			"description": "공격력 <@ba.vup>+{atk:0%}</>, 추가로 적 2명 공격, 자신의 전방 한 칸이 근거리 위치일 경우, 해당 위치에 배치된 아군 오퍼레이터는 다음과 같은 버프 효과 획득: HP가 <@ba.vup>{attack@peak_performance.hp_ratio:0%}</>보다 높을 경우, 공격력 <@ba.vup>+{attack@peak_performance.atk:0%}</>의 <$ba.strong>기운 충만</> 효과 획득, 방어력 <@ba.vup>+{attack@def:0%}</>, 저지 가능 수 <@ba.vup>+{attack@block_cnt}</> (해당 위치에 오퍼레이터가 없거나 근거리 위치가 아닐 경우 자신이 해당 효과 획득)",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 60,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_pallas_3",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.4
+				},
+				{
+					"key": "attack@max_target",
+					"value": 3
+				},
+				{
+					"key": "attack@peak_performance.atk",
+					"value": 0.3
+				},
+				{
+					"key": "attack@def",
+					"value": 0.15
+				},
+				{
+					"key": "attack@peak_performance.hp_ratio",
+					"value": 0.8
+				},
+				{
+					"key": "attack@block_cnt",
+					"value": 1
+				}
+			]
+		},
+		{
+			"name": "용감의 축복",
+			"rangeId": null,
+			"description": "공격력 <@ba.vup>+{atk:0%}</>, 추가로 적 2명 공격, 자신의 전방 한 칸이 근거리 위치일 경우, 해당 위치에 배치된 아군 오퍼레이터는 다음과 같은 버프 효과 획득: HP가 <@ba.vup>{attack@peak_performance.hp_ratio:0%}</>보다 높을 경우, 공격력 <@ba.vup>+{attack@peak_performance.atk:0%}</>의 <$ba.strong>기운 충만</> 효과 획득, 방어력 <@ba.vup>+{attack@def:0%}</>, 저지 가능 수 <@ba.vup>+{attack@block_cnt}</> (해당 위치에 오퍼레이터가 없거나 근거리 위치가 아닐 경우 자신이 해당 효과 획득)",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 60,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_pallas_3",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.45
+				},
+				{
+					"key": "attack@max_target",
+					"value": 3
+				},
+				{
+					"key": "attack@peak_performance.atk",
+					"value": 0.3
+				},
+				{
+					"key": "attack@def",
+					"value": 0.15
+				},
+				{
+					"key": "attack@peak_performance.hp_ratio",
+					"value": 0.8
+				},
+				{
+					"key": "attack@block_cnt",
+					"value": 1
+				}
+			]
+		},
+		{
+			"name": "용감의 축복",
+			"rangeId": null,
+			"description": "공격력 <@ba.vup>+{atk:0%}</>, 추가로 적 2명 공격, 자신의 전방 한 칸이 근거리 위치일 경우, 해당 위치에 배치된 아군 오퍼레이터는 다음과 같은 버프 효과 획득: HP가 <@ba.vup>{attack@peak_performance.hp_ratio:0%}</>보다 높을 경우, 공격력 <@ba.vup>+{attack@peak_performance.atk:0%}</>의 <$ba.strong>기운 충만</> 효과 획득, 방어력 <@ba.vup>+{attack@def:0%}</>, 저지 가능 수 <@ba.vup>+{attack@block_cnt}</> (해당 위치에 오퍼레이터가 없거나 근거리 위치가 아닐 경우 자신이 해당 효과 획득)",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 60,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_pallas_3",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.5
+				},
+				{
+					"key": "attack@max_target",
+					"value": 3
+				},
+				{
+					"key": "attack@peak_performance.atk",
+					"value": 0.3
+				},
+				{
+					"key": "attack@def",
+					"value": 0.15
+				},
+				{
+					"key": "attack@peak_performance.hp_ratio",
+					"value": 0.8
+				},
+				{
+					"key": "attack@block_cnt",
+					"value": 1
+				}
+			]
+		},
+		{
+			"name": "용감의 축복",
+			"rangeId": null,
+			"description": "공격력 <@ba.vup>+{atk:0%}</>, 추가로 적 2명 공격, 자신의 전방 한 칸이 근거리 위치일 경우, 해당 위치에 배치된 아군 오퍼레이터는 다음과 같은 버프 효과 획득: HP가 <@ba.vup>{attack@peak_performance.hp_ratio:0%}</>보다 높을 경우, 공격력 <@ba.vup>+{attack@peak_performance.atk:0%}</>의 <$ba.strong>기운 충만</> 효과 획득, 방어력 <@ba.vup>+{attack@def:0%}</>, 저지 가능 수 <@ba.vup>+{attack@block_cnt}</> (해당 위치에 오퍼레이터가 없거나 근거리 위치가 아닐 경우 자신이 해당 효과 획득)",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 55,
+				"initSp": 25,
+				"increment": 1
+			},
+			"prefabId": "skchr_pallas_3",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.55
+				},
+				{
+					"key": "attack@max_target",
+					"value": 3
+				},
+				{
+					"key": "attack@peak_performance.atk",
+					"value": 0.35
+				},
+				{
+					"key": "attack@def",
+					"value": 0.2
+				},
+				{
+					"key": "attack@peak_performance.hp_ratio",
+					"value": 0.8
+				},
+				{
+					"key": "attack@block_cnt",
+					"value": 1
+				}
+			]
+		},
+		{
+			"name": "용감의 축복",
+			"rangeId": null,
+			"description": "공격력 <@ba.vup>+{atk:0%}</>, 추가로 적 2명 공격, 자신의 전방 한 칸이 근거리 위치일 경우, 해당 위치에 배치된 아군 오퍼레이터는 다음과 같은 버프 효과 획득: HP가 <@ba.vup>{attack@peak_performance.hp_ratio:0%}</>보다 높을 경우, 공격력 <@ba.vup>+{attack@peak_performance.atk:0%}</>의 <$ba.strong>기운 충만</> 효과 획득, 방어력 <@ba.vup>+{attack@def:0%}</>, 저지 가능 수 <@ba.vup>+{attack@block_cnt}</> (해당 위치에 오퍼레이터가 없거나 근거리 위치가 아닐 경우 자신이 해당 효과 획득)",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 55,
+				"initSp": 25,
+				"increment": 1
+			},
+			"prefabId": "skchr_pallas_3",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.6
+				},
+				{
+					"key": "attack@max_target",
+					"value": 3
+				},
+				{
+					"key": "attack@peak_performance.atk",
+					"value": 0.35
+				},
+				{
+					"key": "attack@def",
+					"value": 0.2
+				},
+				{
+					"key": "attack@peak_performance.hp_ratio",
+					"value": 0.8
+				},
+				{
+					"key": "attack@block_cnt",
+					"value": 1
+				}
+			]
+		},
+		{
+			"name": "용감의 축복",
+			"rangeId": null,
+			"description": "공격력 <@ba.vup>+{atk:0%}</>, 추가로 적 2명 공격, 자신의 전방 한 칸이 근거리 위치일 경우, 해당 위치에 배치된 아군 오퍼레이터는 다음과 같은 버프 효과 획득: HP가 <@ba.vup>{attack@peak_performance.hp_ratio:0%}</>보다 높을 경우, 공격력 <@ba.vup>+{attack@peak_performance.atk:0%}</>의 <$ba.strong>기운 충만</> 효과 획득, 방어력 <@ba.vup>+{attack@def:0%}</>, 저지 가능 수 <@ba.vup>+{attack@block_cnt}</> (해당 위치에 오퍼레이터가 없거나 근거리 위치가 아닐 경우 자신이 해당 효과 획득)",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 55,
+				"initSp": 25,
+				"increment": 1
+			},
+			"prefabId": "skchr_pallas_3",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.65
+				},
+				{
+					"key": "attack@max_target",
+					"value": 3
+				},
+				{
+					"key": "attack@peak_performance.atk",
+					"value": 0.35
+				},
+				{
+					"key": "attack@def",
+					"value": 0.2
+				},
+				{
+					"key": "attack@peak_performance.hp_ratio",
+					"value": 0.8
+				},
+				{
+					"key": "attack@block_cnt",
+					"value": 1
+				}
+			]
+		},
+		{
+			"name": "용감의 축복",
+			"rangeId": null,
+			"description": "공격력 <@ba.vup>+{atk:0%}</>, 추가로 적 2명 공격, 자신의 전방 한 칸이 근거리 위치일 경우, 해당 위치에 배치된 아군 오퍼레이터는 다음과 같은 버프 효과 획득: HP가 <@ba.vup>{attack@peak_performance.hp_ratio:0%}</>보다 높을 경우, 공격력 <@ba.vup>+{attack@peak_performance.atk:0%}</>의 <$ba.strong>기운 충만</> 효과 획득, 방어력 <@ba.vup>+{attack@def:0%}</>, 저지 가능 수 <@ba.vup>+{attack@block_cnt}</> (해당 위치에 오퍼레이터가 없거나 근거리 위치가 아닐 경우 자신이 해당 효과 획득)",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 50,
+				"initSp": 30,
+				"increment": 1
+			},
+			"prefabId": "skchr_pallas_3",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.7
+				},
+				{
+					"key": "attack@max_target",
+					"value": 3
+				},
+				{
+					"key": "attack@peak_performance.atk",
+					"value": 0.4
+				},
+				{
+					"key": "attack@def",
+					"value": 0.25
+				},
+				{
+					"key": "attack@peak_performance.hp_ratio",
+					"value": 0.8
+				},
+				{
+					"key": "attack@block_cnt",
+					"value": 1
+				}
+			]
+		},
+		{
+			"name": "용감의 축복",
+			"rangeId": null,
+			"description": "공격력 <@ba.vup>+{atk:0%}</>, 추가로 적 2명 공격, 자신의 전방 한 칸이 근거리 위치일 경우, 해당 위치에 배치된 아군 오퍼레이터는 다음과 같은 버프 효과 획득: HP가 <@ba.vup>{attack@peak_performance.hp_ratio:0%}</>보다 높을 경우, 공격력 <@ba.vup>+{attack@peak_performance.atk:0%}</>의 <$ba.strong>기운 충만</> 효과 획득, 방어력 <@ba.vup>+{attack@def:0%}</>, 저지 가능 수 <@ba.vup>+{attack@block_cnt}</> (해당 위치에 오퍼레이터가 없거나 근거리 위치가 아닐 경우 자신이 해당 효과 획득)",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 50,
+				"initSp": 30,
+				"increment": 1
+			},
+			"prefabId": "skchr_pallas_3",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.8
+				},
+				{
+					"key": "attack@max_target",
+					"value": 3
+				},
+				{
+					"key": "attack@peak_performance.atk",
+					"value": 0.45
+				},
+				{
+					"key": "attack@def",
+					"value": 0.3
+				},
+				{
+					"key": "attack@peak_performance.hp_ratio",
+					"value": 0.8
+				},
+				{
+					"key": "attack@block_cnt",
+					"value": 1
+				}
+			]
+		},
+		{
+			"name": "용감의 축복",
+			"rangeId": null,
+			"description": "공격력 <@ba.vup>+{atk:0%}</>, 추가로 적 2명 공격, 자신의 전방 한 칸이 근거리 위치일 경우, 해당 위치에 배치된 아군 오퍼레이터는 다음과 같은 버프 효과 획득: HP가 <@ba.vup>{attack@peak_performance.hp_ratio:0%}</>보다 높을 경우, 공격력 <@ba.vup>+{attack@peak_performance.atk:0%}</>의 <$ba.strong>기운 충만</> 효과 획득, 방어력 <@ba.vup>+{attack@def:0%}</>, 저지 가능 수 <@ba.vup>+{attack@block_cnt}</> (해당 위치에 오퍼레이터가 없거나 근거리 위치가 아닐 경우 자신이 해당 효과 획득)",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 50,
+				"initSp": 35,
+				"increment": 1
+			},
+			"prefabId": "skchr_pallas_3",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.9
+				},
+				{
+					"key": "attack@max_target",
+					"value": 3
+				},
+				{
+					"key": "attack@peak_performance.atk",
+					"value": 0.45
+				},
+				{
+					"key": "attack@def",
+					"value": 0.3
+				},
+				{
+					"key": "attack@peak_performance.hp_ratio",
+					"value": 0.8
+				},
+				{
+					"key": "attack@block_cnt",
+					"value": 1
+				}
+			]
+		},
+		{
+			"name": "용감의 축복",
+			"rangeId": null,
+			"description": "공격력 <@ba.vup>+{atk:0%}</>, 추가로 적 2명 공격, 자신의 전방 한 칸이 근거리 위치일 경우, 해당 위치에 배치된 아군 오퍼레이터는 다음과 같은 버프 효과 획득: HP가 <@ba.vup>{attack@peak_performance.hp_ratio:0%}</>보다 높을 경우, 공격력 <@ba.vup>+{attack@peak_performance.atk:0%}</>의 <$ba.strong>기운 충만</> 효과 획득, 방어력 <@ba.vup>+{attack@def:0%}</>, 저지 가능 수 <@ba.vup>+{attack@block_cnt}</> (해당 위치에 오퍼레이터가 없거나 근거리 위치가 아닐 경우 자신이 해당 효과 획득)",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 50,
+				"initSp": 35,
+				"increment": 1
+			},
+			"prefabId": "skchr_pallas_3",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 1
+				},
+				{
+					"key": "attack@max_target",
+					"value": 3
+				},
+				{
+					"key": "attack@peak_performance.atk",
+					"value": 0.5
+				},
+				{
+					"key": "attack@def",
+					"value": 0.35
+				},
+				{
+					"key": "attack@peak_performance.hp_ratio",
+					"value": 0.8
+				},
+				{
+					"key": "attack@block_cnt",
+					"value": 1
+				}
+			]
+		}
+	]
+}

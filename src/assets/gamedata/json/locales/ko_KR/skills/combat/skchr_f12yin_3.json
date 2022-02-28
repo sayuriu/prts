@@ -1,0 +1,387 @@
+{
+	"skillId": "skchr_f12yin_3",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "지진쇄암격",
+			"rangeId": "x-5",
+			"description": "공격 딜레이 <@ba.vdown>증가</>, 공격력 <@ba.vup>+{atk:0%}</>, 공격이 <@ba.vup>2</>연격으로 변경, 제1재능의 발동 확률이 <@ba.vup>{talent@prob:0%}</>까지 상승, 매 공격마다 주위의 최대 <@ba.vup>{attack@max_target}</>명의 적 공격, 적을 <@ba.vup>어느 정도</> 밀어낸다.",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 50,
+				"initSp": 25,
+				"increment": 1
+			},
+			"prefabId": "skchr_f12yin_3",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": 0.7
+				},
+				{
+					"key": "atk",
+					"value": 0.4
+				},
+				{
+					"key": "talent@prob",
+					"value": 0.4
+				},
+				{
+					"key": "attack@force",
+					"value": 1
+				},
+				{
+					"key": "attack@max_target",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "지진쇄암격",
+			"rangeId": "x-5",
+			"description": "공격 딜레이 <@ba.vdown>증가</>, 공격력 <@ba.vup>+{atk:0%}</>, 공격이 <@ba.vup>2</>연격으로 변경, 제1재능의 발동 확률이 <@ba.vup>{talent@prob:0%}</>까지 상승, 매 공격마다 주위의 최대 <@ba.vup>{attack@max_target}</>명의 적 공격, 적을 <@ba.vup>어느 정도</> 밀어낸다.",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 49,
+				"initSp": 25,
+				"increment": 1
+			},
+			"prefabId": "skchr_f12yin_3",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": 0.7
+				},
+				{
+					"key": "atk",
+					"value": 0.45
+				},
+				{
+					"key": "talent@prob",
+					"value": 0.42
+				},
+				{
+					"key": "attack@force",
+					"value": 1
+				},
+				{
+					"key": "attack@max_target",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "지진쇄암격",
+			"rangeId": "x-5",
+			"description": "공격 딜레이 <@ba.vdown>증가</>, 공격력 <@ba.vup>+{atk:0%}</>, 공격이 <@ba.vup>2</>연격으로 변경, 제1재능의 발동 확률이 <@ba.vup>{talent@prob:0%}</>까지 상승, 매 공격마다 주위의 최대 <@ba.vup>{attack@max_target}</>명의 적 공격, 적을 <@ba.vup>어느 정도</> 밀어낸다.",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 48,
+				"initSp": 25,
+				"increment": 1
+			},
+			"prefabId": "skchr_f12yin_3",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": 0.7
+				},
+				{
+					"key": "atk",
+					"value": 0.5
+				},
+				{
+					"key": "talent@prob",
+					"value": 0.44
+				},
+				{
+					"key": "attack@force",
+					"value": 1
+				},
+				{
+					"key": "attack@max_target",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "지진쇄암격",
+			"rangeId": "x-5",
+			"description": "공격 딜레이 <@ba.vdown>증가</>, 공격력 <@ba.vup>+{atk:0%}</>, 공격이 <@ba.vup>2</>연격으로 변경, 제1재능의 발동 확률이 <@ba.vup>{talent@prob:0%}</>까지 상승, 매 공격마다 주위의 최대 <@ba.vup>{attack@max_target}</>명의 적 공격, 적을 <@ba.vup>어느 정도</> 밀어낸다.",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 47,
+				"initSp": 25,
+				"increment": 1
+			},
+			"prefabId": "skchr_f12yin_3",
+			"duration": 26,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": 0.7
+				},
+				{
+					"key": "atk",
+					"value": 0.55
+				},
+				{
+					"key": "talent@prob",
+					"value": 0.48
+				},
+				{
+					"key": "attack@force",
+					"value": 1
+				},
+				{
+					"key": "attack@max_target",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "지진쇄암격",
+			"rangeId": "x-5",
+			"description": "공격 딜레이 <@ba.vdown>증가</>, 공격력 <@ba.vup>+{atk:0%}</>, 공격이 <@ba.vup>2</>연격으로 변경, 제1재능의 발동 확률이 <@ba.vup>{talent@prob:0%}</>까지 상승, 매 공격마다 주위의 최대 <@ba.vup>{attack@max_target}</>명의 적 공격, 적을 <@ba.vup>어느 정도</> 밀어낸다.",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 46,
+				"initSp": 25,
+				"increment": 1
+			},
+			"prefabId": "skchr_f12yin_3",
+			"duration": 26,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": 0.7
+				},
+				{
+					"key": "atk",
+					"value": 0.6
+				},
+				{
+					"key": "talent@prob",
+					"value": 0.5
+				},
+				{
+					"key": "attack@force",
+					"value": 1
+				},
+				{
+					"key": "attack@max_target",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "지진쇄암격",
+			"rangeId": "x-5",
+			"description": "공격 딜레이 <@ba.vdown>증가</>, 공격력 <@ba.vup>+{atk:0%}</>, 공격이 <@ba.vup>2</>연격으로 변경, 제1재능의 발동 확률이 <@ba.vup>{talent@prob:0%}</>까지 상승, 매 공격마다 주위의 최대 <@ba.vup>{attack@max_target}</>명의 적 공격, 적을 <@ba.vup>어느 정도</> 밀어낸다.",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 45,
+				"initSp": 25,
+				"increment": 1
+			},
+			"prefabId": "skchr_f12yin_3",
+			"duration": 26,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": 0.7
+				},
+				{
+					"key": "atk",
+					"value": 0.65
+				},
+				{
+					"key": "talent@prob",
+					"value": 0.52
+				},
+				{
+					"key": "attack@force",
+					"value": 1
+				},
+				{
+					"key": "attack@max_target",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "지진쇄암격",
+			"rangeId": "x-5",
+			"description": "공격 딜레이 <@ba.vdown>증가</>, 공격력 <@ba.vup>+{atk:0%}</>, 공격이 <@ba.vup>2</>연격으로 변경, 제1재능의 발동 확률이 <@ba.vup>{talent@prob:0%}</>까지 상승, 매 공격마다 주위의 최대 <@ba.vup>{attack@max_target}</>명의 적 공격, 적을 <@ba.vup>어느 정도</> 밀어낸다.",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 44,
+				"initSp": 25,
+				"increment": 1
+			},
+			"prefabId": "skchr_f12yin_3",
+			"duration": 27,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": 0.7
+				},
+				{
+					"key": "atk",
+					"value": 0.7
+				},
+				{
+					"key": "talent@prob",
+					"value": 0.55
+				},
+				{
+					"key": "attack@force",
+					"value": 1
+				},
+				{
+					"key": "attack@max_target",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "지진쇄암격",
+			"rangeId": "x-5",
+			"description": "공격 딜레이 <@ba.vdown>증가</>, 공격력 <@ba.vup>+{atk:0%}</>, 공격이 <@ba.vup>2</>연격으로 변경, 제1재능의 발동 확률이 <@ba.vup>{talent@prob:0%}</>까지 상승, 매 공격마다 주위의 최대 <@ba.vup>{attack@max_target}</>명의 적 공격, 적을 <@ba.vup>어느 정도</> 밀어낸다.",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 43,
+				"initSp": 25,
+				"increment": 1
+			},
+			"prefabId": "skchr_f12yin_3",
+			"duration": 28,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": 0.7
+				},
+				{
+					"key": "atk",
+					"value": 0.8
+				},
+				{
+					"key": "talent@prob",
+					"value": 0.6
+				},
+				{
+					"key": "attack@force",
+					"value": 1
+				},
+				{
+					"key": "attack@max_target",
+					"value": 4
+				}
+			]
+		},
+		{
+			"name": "지진쇄암격",
+			"rangeId": "x-5",
+			"description": "공격 딜레이 <@ba.vdown>증가</>, 공격력 <@ba.vup>+{atk:0%}</>, 공격이 <@ba.vup>2</>연격으로 변경, 제1재능의 발동 확률이 <@ba.vup>{talent@prob:0%}</>까지 상승, 매 공격마다 주위의 최대 <@ba.vup>{attack@max_target}</>명의 적 공격, 적을 <@ba.vup>어느 정도</> 밀어낸다.",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 42,
+				"initSp": 25,
+				"increment": 1
+			},
+			"prefabId": "skchr_f12yin_3",
+			"duration": 29,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": 0.7
+				},
+				{
+					"key": "atk",
+					"value": 0.9
+				},
+				{
+					"key": "talent@prob",
+					"value": 0.65
+				},
+				{
+					"key": "attack@force",
+					"value": 1
+				},
+				{
+					"key": "attack@max_target",
+					"value": 4
+				}
+			]
+		},
+		{
+			"name": "지진쇄암격",
+			"rangeId": "x-5",
+			"description": "공격 딜레이 <@ba.vdown>증가</>, 공격력 <@ba.vup>+{atk:0%}</>, 공격이 <@ba.vup>2</>연격으로 변경, 제1재능의 발동 확률이 <@ba.vup>{talent@prob:0%}</>까지 상승, 매 공격마다 주위의 최대 <@ba.vup>{attack@max_target}</>명의 적 공격, 적을 <@ba.vup>어느 정도</> 밀어낸다.",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 40,
+				"initSp": 25,
+				"increment": 1
+			},
+			"prefabId": "skchr_f12yin_3",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": 0.7
+				},
+				{
+					"key": "atk",
+					"value": 1
+				},
+				{
+					"key": "talent@prob",
+					"value": 0.75
+				},
+				{
+					"key": "attack@force",
+					"value": 1
+				},
+				{
+					"key": "attack@max_target",
+					"value": 4
+				}
+			]
+		}
+	]
+}

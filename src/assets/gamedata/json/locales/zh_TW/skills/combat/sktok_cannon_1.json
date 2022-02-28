@@ -1,0 +1,29 @@
+{
+	"skillId": "sktok_cannon_1",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "脈衝束流",
+			"rangeId": "x-5",
+			"description": "相鄰範圍內每存在一個我方單位，每秒回復<@ba.vup>1</>點技力；相鄰的我方單位防禦力下降<@ba.vup>50%</>，更容易受到敵方攻擊；消耗<@ba.vup>{cost}</>點部署費用，對<@ba.vup>下層測試區</>的敵人造成<@ba.vup>5000</>點真實傷害並使其<$ba.stun>暈眩</><@ba.vup>7</>秒",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 50,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": "sktok_cannon_1",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "cost",
+					"value": 10
+				}
+			]
+		}
+	]
+}

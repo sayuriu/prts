@@ -9,21 +9,34 @@
             <button
                 class="skill rel h-auto w-auto no-border overflow-hidden"
                 [id]="'op-skill-' + (i + 1)"
-                *ngFor="let skill of currentOperator.skills; let i =index"
+                *ngFor="let skill of currentOperator.skills; let i = index"
                 [ngClass]="currentSkillIndex === i ? 'current no-pointer' : 'cur-pointer'"
+                [class.visible]="currentFocus === i"
                 (click)="setCurrentSkill(i)"
             >
-                <div class="skill-cnt-title abs t0 r0">SKILL_{{i + 1}}</div>
-                <div class="skill-header">
-                    <div id="op-skill-img">
-                        <img [src]="'/assets/gamedata/img/characters/skills/combat/skill_icon_' + skill!.skillId + '.png'">
-                    </div>
-                    <div id="op-skill-overview" class="flex flex-col j-flex-space-between">
+                <div class="skill-cnt-title abs t0 r0 z0">SKILL_{{i + 1}}</div>
+                <div class="skill-header flex flex-row">
+                    <img id="op-skill-img" [src]="'/assets/gamedata/img/characters/skills/combat/skill_icon_' + skill!.skillId + '.png'">
+                    <div id="op-skill-overview" class="flex flex-col j-flex-space-between z1">
                         <div id="op-skill-name">
-
+                            <p class="no-margin">{{currentOperatorSkills[i]!.levels[currentCombatSkillLevel]?.name ?? 'Unknown'}}</p>
                         </div>
                         <div id="op-skill-characteristics" class="flex flex-row flex-wrap">
-
+                            <text-field
+                                [boundRect]="{ centerChildren: [true], height: '33px' }"
+                                [labelField]="{
+                                    centerChildren: [true],
+                                    height: '100%',
+                                    width: '108px',
+                                    borderMatrixOverride: ['', '0', '', ''],
+							        border: '1px solid black'
+                                }"
+                                [labelFieldText]="{
+                                    textValue: 'SP Charge',
+                                    textSize: '18px',
+                                    textAlign: 'center'
+                                }"
+                            ></text-field>
                         </div>
                     </div>
                 </div>

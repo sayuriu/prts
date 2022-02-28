@@ -1,0 +1,29 @@
+{
+	"skillId": "sktok_frosts_friend",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "寒潮",
+			"rangeId": "x-1",
+			"description": "發射一道寒霜衝擊波，使周圍敵方單位陷入<$ba.cold>寒冷</>狀態{freeze}秒",
+			"skillType": 2,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 15,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "sktok_frosts_friend",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "freeze",
+					"value": 10
+				}
+			]
+		}
+	]
+}

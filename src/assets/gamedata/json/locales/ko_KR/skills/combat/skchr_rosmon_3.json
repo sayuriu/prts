@@ -1,0 +1,427 @@
+{
+	"skillId": "skchr_rosmon_3",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "\"네가 원하는 대로\"",
+			"rangeId": null,
+			"description": "공격 딜레이 <@ba.vup>단축</>, 공격력 <@ba.vup>+{atk:0%}</>, <@ba.vup>{attack@max_target}</>명의 적을 동시 공격하지만, <@ba.rem>저지 당한</> 적만을 목표로 선택. 공격 범위 내 지면에 전술 장비 2개 배치 (배치 후 주변 적 <@ba.vup>{stun}</>초간 <$ba.stun>기절</>, 저지 당한 적 방어력 <@ba.vup>-160</>)",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 80,
+				"initSp": 35,
+				"increment": 1
+			},
+			"prefabId": "skchr_rosmon_3",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": -0.5
+				},
+				{
+					"key": "atk",
+					"value": 0.1
+				},
+				{
+					"key": "attack@max_target",
+					"value": 2
+				},
+				{
+					"key": "def",
+					"value": 1
+				},
+				{
+					"key": "attack@append_atk_scale",
+					"value": 0.5
+				},
+				{
+					"key": "stun",
+					"value": 1.5
+				}
+			]
+		},
+		{
+			"name": "\"네가 원하는 대로\"",
+			"rangeId": null,
+			"description": "공격 딜레이 <@ba.vup>단축</>, 공격력 <@ba.vup>+{atk:0%}</>, <@ba.vup>{attack@max_target}</>명의 적을 동시 공격하지만, <@ba.rem>저지 당한</> 적만을 목표로 선택. 공격 범위 내 지면에 전술 장비 2개 배치 (배치 후 주변 적 <@ba.vup>{stun}</>초간 <$ba.stun>기절</>, 저지 당한 적 방어력 <@ba.vup>-160</>)",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 79,
+				"initSp": 35,
+				"increment": 1
+			},
+			"prefabId": "skchr_rosmon_3",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": -0.5
+				},
+				{
+					"key": "atk",
+					"value": 0.15
+				},
+				{
+					"key": "attack@max_target",
+					"value": 2
+				},
+				{
+					"key": "def",
+					"value": 1
+				},
+				{
+					"key": "attack@append_atk_scale",
+					"value": 0.5
+				},
+				{
+					"key": "stun",
+					"value": 1.5
+				}
+			]
+		},
+		{
+			"name": "\"네가 원하는 대로\"",
+			"rangeId": null,
+			"description": "공격 딜레이 <@ba.vup>단축</>, 공격력 <@ba.vup>+{atk:0%}</>, <@ba.vup>{attack@max_target}</>명의 적을 동시 공격하지만, <@ba.rem>저지 당한</> 적만을 목표로 선택. 공격 범위 내 지면에 전술 장비 2개 배치 (배치 후 주변 적 <@ba.vup>{stun}</>초간 <$ba.stun>기절</>, 저지 당한 적 방어력 <@ba.vup>-160</>)",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 78,
+				"initSp": 35,
+				"increment": 1
+			},
+			"prefabId": "skchr_rosmon_3",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": -0.5
+				},
+				{
+					"key": "atk",
+					"value": 0.2
+				},
+				{
+					"key": "attack@max_target",
+					"value": 2
+				},
+				{
+					"key": "def",
+					"value": 1
+				},
+				{
+					"key": "attack@append_atk_scale",
+					"value": 0.5
+				},
+				{
+					"key": "stun",
+					"value": 1.5
+				}
+			]
+		},
+		{
+			"name": "\"네가 원하는 대로\"",
+			"rangeId": null,
+			"description": "공격 딜레이 <@ba.vup>단축</>, 공격력 <@ba.vup>+{atk:0%}</>, <@ba.vup>{attack@max_target}</>명의 적을 동시 공격하지만, <@ba.rem>저지 당한</> 적만을 목표로 선택. 공격 범위 내 지면에 전술 장비 2개 배치 (배치 후 주변 적 <@ba.vup>{stun}</>초간 <$ba.stun>기절</>, 저지 당한 적 방어력 <@ba.vup>-160</>)",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 77,
+				"initSp": 35,
+				"increment": 1
+			},
+			"prefabId": "skchr_rosmon_3",
+			"duration": 26,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": -0.5
+				},
+				{
+					"key": "atk",
+					"value": 0.25
+				},
+				{
+					"key": "attack@max_target",
+					"value": 2
+				},
+				{
+					"key": "def",
+					"value": 1
+				},
+				{
+					"key": "attack@append_atk_scale",
+					"value": 0.5
+				},
+				{
+					"key": "stun",
+					"value": 2
+				}
+			]
+		},
+		{
+			"name": "\"네가 원하는 대로\"",
+			"rangeId": null,
+			"description": "공격 딜레이 <@ba.vup>단축</>, 공격력 <@ba.vup>+{atk:0%}</>, <@ba.vup>{attack@max_target}</>명의 적을 동시 공격하지만, <@ba.rem>저지 당한</> 적만을 목표로 선택. 공격 범위 내 지면에 전술 장비 2개 배치 (배치 후 주변 적 <@ba.vup>{stun}</>초간 <$ba.stun>기절</>, 저지 당한 적 방어력 <@ba.vup>-160</>)",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 76,
+				"initSp": 35,
+				"increment": 1
+			},
+			"prefabId": "skchr_rosmon_3",
+			"duration": 26,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": -0.5
+				},
+				{
+					"key": "atk",
+					"value": 0.3
+				},
+				{
+					"key": "attack@max_target",
+					"value": 2
+				},
+				{
+					"key": "def",
+					"value": 1
+				},
+				{
+					"key": "attack@append_atk_scale",
+					"value": 0.5
+				},
+				{
+					"key": "stun",
+					"value": 2
+				}
+			]
+		},
+		{
+			"name": "\"네가 원하는 대로\"",
+			"rangeId": null,
+			"description": "공격 딜레이 <@ba.vup>단축</>, 공격력 <@ba.vup>+{atk:0%}</>, <@ba.vup>{attack@max_target}</>명의 적을 동시 공격하지만, <@ba.rem>저지 당한</> 적만을 목표로 선택. 공격 범위 내 지면에 전술 장비 2개 배치 (배치 후 주변 적 <@ba.vup>{stun}</>초간 <$ba.stun>기절</>, 저지 당한 적 방어력 <@ba.vup>-160</>)",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 75,
+				"initSp": 35,
+				"increment": 1
+			},
+			"prefabId": "skchr_rosmon_3",
+			"duration": 26,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": -0.5
+				},
+				{
+					"key": "atk",
+					"value": 0.35
+				},
+				{
+					"key": "attack@max_target",
+					"value": 2
+				},
+				{
+					"key": "def",
+					"value": 1
+				},
+				{
+					"key": "attack@append_atk_scale",
+					"value": 0.5
+				},
+				{
+					"key": "stun",
+					"value": 2
+				}
+			]
+		},
+		{
+			"name": "\"네가 원하는 대로\"",
+			"rangeId": null,
+			"description": "공격 딜레이 <@ba.vup>단축</>, 공격력 <@ba.vup>+{atk:0%}</>, <@ba.vup>{attack@max_target}</>명의 적을 동시 공격하지만, <@ba.rem>저지 당한</> 적만을 목표로 선택. 공격 범위 내 지면에 전술 장비 2개 배치 (배치 후 주변 적 <@ba.vup>{stun}</>초간 <$ba.stun>기절</>, 저지 당한 적 방어력 <@ba.vup>-160</>)",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 74,
+				"initSp": 35,
+				"increment": 1
+			},
+			"prefabId": "skchr_rosmon_3",
+			"duration": 27,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": -0.5
+				},
+				{
+					"key": "atk",
+					"value": 0.4
+				},
+				{
+					"key": "attack@max_target",
+					"value": 2
+				},
+				{
+					"key": "def",
+					"value": 1
+				},
+				{
+					"key": "attack@append_atk_scale",
+					"value": 0.5
+				},
+				{
+					"key": "stun",
+					"value": 2.5
+				}
+			]
+		},
+		{
+			"name": "\"네가 원하는 대로\"",
+			"rangeId": null,
+			"description": "공격 딜레이 <@ba.vup>단축</>, 공격력 <@ba.vup>+{atk:0%}</>, <@ba.vup>{attack@max_target}</>명의 적을 동시 공격하지만, <@ba.rem>저지 당한</> 적만을 목표로 선택. 공격 범위 내 지면에 전술 장비 2개 배치 (배치 후 주변 적 <@ba.vup>{stun}</>초간 <$ba.stun>기절</>, 저지 당한 적 방어력 <@ba.vup>-160</>)",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 70,
+				"initSp": 35,
+				"increment": 1
+			},
+			"prefabId": "skchr_rosmon_3",
+			"duration": 28,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": -0.5
+				},
+				{
+					"key": "atk",
+					"value": 0.5
+				},
+				{
+					"key": "attack@max_target",
+					"value": 2
+				},
+				{
+					"key": "def",
+					"value": 1
+				},
+				{
+					"key": "attack@append_atk_scale",
+					"value": 0.5
+				},
+				{
+					"key": "stun",
+					"value": 2.5
+				}
+			]
+		},
+		{
+			"name": "\"네가 원하는 대로\"",
+			"rangeId": null,
+			"description": "공격 딜레이 <@ba.vup>단축</>, 공격력 <@ba.vup>+{atk:0%}</>, <@ba.vup>{attack@max_target}</>명의 적을 동시 공격하지만, <@ba.rem>저지 당한</> 적만을 목표로 선택. 공격 범위 내 지면에 전술 장비 2개 배치 (배치 후 주변 적 <@ba.vup>{stun}</>초간 <$ba.stun>기절</>, 저지 당한 적 방어력 <@ba.vup>-160</>)",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 66,
+				"initSp": 35,
+				"increment": 1
+			},
+			"prefabId": "skchr_rosmon_3",
+			"duration": 29,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": -0.5
+				},
+				{
+					"key": "atk",
+					"value": 0.6
+				},
+				{
+					"key": "attack@max_target",
+					"value": 2
+				},
+				{
+					"key": "def",
+					"value": 1
+				},
+				{
+					"key": "attack@append_atk_scale",
+					"value": 0.5
+				},
+				{
+					"key": "stun",
+					"value": 2.5
+				}
+			]
+		},
+		{
+			"name": "\"네가 원하는 대로\"",
+			"rangeId": null,
+			"description": "공격 딜레이 <@ba.vup>단축</>, 공격력 <@ba.vup>+{atk:0%}</>, <@ba.vup>{attack@max_target}</>명의 적을 동시 공격하지만, <@ba.rem>저지 당한</> 적만을 목표로 선택. 공격 범위 내 지면에 전술 장비 2개 배치 (배치 후 주변 적 <@ba.vup>{stun}</>초간 <$ba.stun>기절</>, 저지 당한 적 방어력 <@ba.vup>-160</>)",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 60,
+				"initSp": 35,
+				"increment": 1
+			},
+			"prefabId": "skchr_rosmon_3",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": -0.5
+				},
+				{
+					"key": "atk",
+					"value": 0.75
+				},
+				{
+					"key": "attack@max_target",
+					"value": 2
+				},
+				{
+					"key": "def",
+					"value": 1
+				},
+				{
+					"key": "attack@append_atk_scale",
+					"value": 0.5
+				},
+				{
+					"key": "stun",
+					"value": 3
+				}
+			]
+		}
+	]
+}

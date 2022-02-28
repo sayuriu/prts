@@ -1,0 +1,387 @@
+{
+	"skillId": "skchr_toddi_2",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "携帯破城矢",
+			"rangeId": null,
+			"description": "通常攻撃の間隔がわずかに延長し、竜矢を射出して敵に攻撃力の<@ba.vup>{attack@atk_scale:0%}</>物理ダメージを与え、一定時間後爆発して攻撃対象と周囲一定範囲内の敵全員に攻撃力の<@ba.vup>{attack@splash_atk_scale:0%}</>の物理ダメージを与える\n<@ba.rem>合計{attack@trigger_time}本の矢を撃ち切るとスキルが終了（手動でスキルを停止可能）</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 50,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_toddi_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": 0.3
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 1.5
+				},
+				{
+					"key": "attack@splash_atk_scale",
+					"value": 0.6
+				},
+				{
+					"key": "attack@trigger_time",
+					"value": 10
+				},
+				{
+					"key": "attack@splash_projectile_delay_time",
+					"value": 1.5
+				}
+			]
+		},
+		{
+			"name": "携帯破城矢",
+			"rangeId": null,
+			"description": "通常攻撃の間隔がわずかに延長し、竜矢を射出して敵に攻撃力の<@ba.vup>{attack@atk_scale:0%}</>物理ダメージを与え、一定時間後爆発して攻撃対象と周囲一定範囲内の敵全員に攻撃力の<@ba.vup>{attack@splash_atk_scale:0%}</>の物理ダメージを与える\n<@ba.rem>合計{attack@trigger_time}本の矢を撃ち切るとスキルが終了（手動でスキルを停止可能）</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 49,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_toddi_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": 0.3
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 1.6
+				},
+				{
+					"key": "attack@splash_atk_scale",
+					"value": 0.6
+				},
+				{
+					"key": "attack@trigger_time",
+					"value": 10
+				},
+				{
+					"key": "attack@splash_projectile_delay_time",
+					"value": 1.5
+				}
+			]
+		},
+		{
+			"name": "携帯破城矢",
+			"rangeId": null,
+			"description": "通常攻撃の間隔がわずかに延長し、竜矢を射出して敵に攻撃力の<@ba.vup>{attack@atk_scale:0%}</>物理ダメージを与え、一定時間後爆発して攻撃対象と周囲一定範囲内の敵全員に攻撃力の<@ba.vup>{attack@splash_atk_scale:0%}</>の物理ダメージを与える\n<@ba.rem>合計{attack@trigger_time}本の矢を撃ち切るとスキルが終了（手動でスキルを停止可能）</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 48,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_toddi_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": 0.3
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 1.7
+				},
+				{
+					"key": "attack@splash_atk_scale",
+					"value": 0.6
+				},
+				{
+					"key": "attack@trigger_time",
+					"value": 10
+				},
+				{
+					"key": "attack@splash_projectile_delay_time",
+					"value": 1.5
+				}
+			]
+		},
+		{
+			"name": "携帯破城矢",
+			"rangeId": null,
+			"description": "通常攻撃の間隔がわずかに延長し、竜矢を射出して敵に攻撃力の<@ba.vup>{attack@atk_scale:0%}</>物理ダメージを与え、一定時間後爆発して攻撃対象と周囲一定範囲内の敵全員に攻撃力の<@ba.vup>{attack@splash_atk_scale:0%}</>の物理ダメージを与える\n<@ba.rem>合計{attack@trigger_time}本の矢を撃ち切るとスキルが終了（手動でスキルを停止可能）</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 47,
+				"initSp": 21,
+				"increment": 1
+			},
+			"prefabId": "skchr_toddi_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": 0.3
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 1.8
+				},
+				{
+					"key": "attack@splash_atk_scale",
+					"value": 0.65
+				},
+				{
+					"key": "attack@trigger_time",
+					"value": 10
+				},
+				{
+					"key": "attack@splash_projectile_delay_time",
+					"value": 1.5
+				}
+			]
+		},
+		{
+			"name": "携帯破城矢",
+			"rangeId": null,
+			"description": "通常攻撃の間隔がわずかに延長し、竜矢を射出して敵に攻撃力の<@ba.vup>{attack@atk_scale:0%}</>物理ダメージを与え、一定時間後爆発して攻撃対象と周囲一定範囲内の敵全員に攻撃力の<@ba.vup>{attack@splash_atk_scale:0%}</>の物理ダメージを与える\n<@ba.rem>合計{attack@trigger_time}本の矢を撃ち切るとスキルが終了（手動でスキルを停止可能）</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 46,
+				"initSp": 21,
+				"increment": 1
+			},
+			"prefabId": "skchr_toddi_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": 0.3
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 1.9
+				},
+				{
+					"key": "attack@splash_atk_scale",
+					"value": 0.65
+				},
+				{
+					"key": "attack@trigger_time",
+					"value": 10
+				},
+				{
+					"key": "attack@splash_projectile_delay_time",
+					"value": 1.5
+				}
+			]
+		},
+		{
+			"name": "携帯破城矢",
+			"rangeId": null,
+			"description": "通常攻撃の間隔がわずかに延長し、竜矢を射出して敵に攻撃力の<@ba.vup>{attack@atk_scale:0%}</>物理ダメージを与え、一定時間後爆発して攻撃対象と周囲一定範囲内の敵全員に攻撃力の<@ba.vup>{attack@splash_atk_scale:0%}</>の物理ダメージを与える\n<@ba.rem>合計{attack@trigger_time}本の矢を撃ち切るとスキルが終了（手動でスキルを停止可能）</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 45,
+				"initSp": 21,
+				"increment": 1
+			},
+			"prefabId": "skchr_toddi_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": 0.3
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 2
+				},
+				{
+					"key": "attack@splash_atk_scale",
+					"value": 0.65
+				},
+				{
+					"key": "attack@trigger_time",
+					"value": 10
+				},
+				{
+					"key": "attack@splash_projectile_delay_time",
+					"value": 1.5
+				}
+			]
+		},
+		{
+			"name": "携帯破城矢",
+			"rangeId": null,
+			"description": "通常攻撃の間隔がわずかに延長し、竜矢を射出して敵に攻撃力の<@ba.vup>{attack@atk_scale:0%}</>物理ダメージを与え、一定時間後爆発して攻撃対象と周囲一定範囲内の敵全員に攻撃力の<@ba.vup>{attack@splash_atk_scale:0%}</>の物理ダメージを与える\n<@ba.rem>合計{attack@trigger_time}本の矢を撃ち切るとスキルが終了（手動でスキルを停止可能）</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 44,
+				"initSp": 22,
+				"increment": 1
+			},
+			"prefabId": "skchr_toddi_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": 0.3
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 2.1
+				},
+				{
+					"key": "attack@splash_atk_scale",
+					"value": 0.7
+				},
+				{
+					"key": "attack@trigger_time",
+					"value": 10
+				},
+				{
+					"key": "attack@splash_projectile_delay_time",
+					"value": 1.5
+				}
+			]
+		},
+		{
+			"name": "携帯破城矢",
+			"rangeId": null,
+			"description": "通常攻撃の間隔がわずかに延長し、竜矢を射出して敵に攻撃力の<@ba.vup>{attack@atk_scale:0%}</>物理ダメージを与え、一定時間後爆発して攻撃対象と周囲一定範囲内の敵全員に攻撃力の<@ba.vup>{attack@splash_atk_scale:0%}</>の物理ダメージを与える\n<@ba.rem>合計{attack@trigger_time}本の矢を撃ち切るとスキルが終了（手動でスキルを停止可能）</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 43,
+				"initSp": 23,
+				"increment": 1
+			},
+			"prefabId": "skchr_toddi_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": 0.3
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 2.2
+				},
+				{
+					"key": "attack@splash_atk_scale",
+					"value": 0.7
+				},
+				{
+					"key": "attack@trigger_time",
+					"value": 10
+				},
+				{
+					"key": "attack@splash_projectile_delay_time",
+					"value": 1.5
+				}
+			]
+		},
+		{
+			"name": "携帯破城矢",
+			"rangeId": null,
+			"description": "通常攻撃の間隔がわずかに延長し、竜矢を射出して敵に攻撃力の<@ba.vup>{attack@atk_scale:0%}</>物理ダメージを与え、一定時間後爆発して攻撃対象と周囲一定範囲内の敵全員に攻撃力の<@ba.vup>{attack@splash_atk_scale:0%}</>の物理ダメージを与える\n<@ba.rem>合計{attack@trigger_time}本の矢を撃ち切るとスキルが終了（手動でスキルを停止可能）</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 42,
+				"initSp": 24,
+				"increment": 1
+			},
+			"prefabId": "skchr_toddi_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": 0.3
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 2.3
+				},
+				{
+					"key": "attack@splash_atk_scale",
+					"value": 0.7
+				},
+				{
+					"key": "attack@trigger_time",
+					"value": 10
+				},
+				{
+					"key": "attack@splash_projectile_delay_time",
+					"value": 1.5
+				}
+			]
+		},
+		{
+			"name": "携帯破城矢",
+			"rangeId": null,
+			"description": "通常攻撃の間隔がわずかに延長し、竜矢を射出して敵に攻撃力の<@ba.vup>{attack@atk_scale:0%}</>物理ダメージを与え、一定時間後爆発して攻撃対象と周囲一定範囲内の敵全員に攻撃力の<@ba.vup>{attack@splash_atk_scale:0%}</>の物理ダメージを与える\n<@ba.rem>合計{attack@trigger_time}本の矢を撃ち切るとスキルが終了（手動でスキルを停止可能）</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 40,
+				"initSp": 25,
+				"increment": 1
+			},
+			"prefabId": "skchr_toddi_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": 0.3
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 2.4
+				},
+				{
+					"key": "attack@splash_atk_scale",
+					"value": 0.8
+				},
+				{
+					"key": "attack@trigger_time",
+					"value": 10
+				},
+				{
+					"key": "attack@splash_projectile_delay_time",
+					"value": 1.5
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"skillId": "sktok_dstnta",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "Devour",
+			"rangeId": null,
+			"description": "<$ba.stun>Stuns</> the target and continually inflicts Physical damage and Nervous Impairment",
+			"skillType": 2,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 1,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": "sktok_dstnta",
+			"duration": 999999,
+			"blackboard": [
+				{
+					"key": "ep_damage_ratio",
+					"value": 1
+				}
+			]
+		}
+	]
+}

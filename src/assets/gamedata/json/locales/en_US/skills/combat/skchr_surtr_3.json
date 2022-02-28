@@ -1,0 +1,467 @@
+{
+	"skillId": "skchr_surtr_3",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "Twilight",
+			"rangeId": null,
+			"description": "Immediately recover all HP; ATK <@ba.vup>+{atk:0%}</>, attack range <@ba.vup>+{ability_range_forward_extend}</>, attack target count <@ba.vup>+2</> and Max HP <@ba.vup>+{max_hp}</>. Gradually lose HP (HP loss caps at {hp_ratio:0%}/second after <@ba.vup>{duration}</> seconds); <@ba.rem>Unlimited duration</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 10,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_surtr_3",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 1.8
+				},
+				{
+					"key": "ability_range_forward_extend",
+					"value": 2
+				},
+				{
+					"key": "max_hp",
+					"value": 5000
+				},
+				{
+					"key": "interval",
+					"value": 0.2
+				},
+				{
+					"key": "hp_ratio",
+					"value": 0.2
+				},
+				{
+					"key": "duration",
+					"value": 60
+				},
+				{
+					"key": "attack@max_target",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "Twilight",
+			"rangeId": null,
+			"description": "Immediately recover all HP; ATK <@ba.vup>+{atk:0%}</>, attack range <@ba.vup>+{ability_range_forward_extend}</>, attack target count <@ba.vup>+2</> and Max HP <@ba.vup>+{max_hp}</>. Gradually lose HP (HP loss caps at {hp_ratio:0%}/second after <@ba.vup>{duration}</> seconds); <@ba.rem>Unlimited duration</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 10,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_surtr_3",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 1.9
+				},
+				{
+					"key": "ability_range_forward_extend",
+					"value": 2
+				},
+				{
+					"key": "max_hp",
+					"value": 5000
+				},
+				{
+					"key": "interval",
+					"value": 0.2
+				},
+				{
+					"key": "hp_ratio",
+					"value": 0.2
+				},
+				{
+					"key": "duration",
+					"value": 60
+				},
+				{
+					"key": "attack@max_target",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "Twilight",
+			"rangeId": null,
+			"description": "Immediately recover all HP; ATK <@ba.vup>+{atk:0%}</>, attack range <@ba.vup>+{ability_range_forward_extend}</>, attack target count <@ba.vup>+2</> and Max HP <@ba.vup>+{max_hp}</>. Gradually lose HP (HP loss caps at {hp_ratio:0%}/second after <@ba.vup>{duration}</> seconds); <@ba.rem>Unlimited duration</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 10,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_surtr_3",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 2
+				},
+				{
+					"key": "ability_range_forward_extend",
+					"value": 2
+				},
+				{
+					"key": "max_hp",
+					"value": 5000
+				},
+				{
+					"key": "interval",
+					"value": 0.2
+				},
+				{
+					"key": "hp_ratio",
+					"value": 0.2
+				},
+				{
+					"key": "duration",
+					"value": 60
+				},
+				{
+					"key": "attack@max_target",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "Twilight",
+			"rangeId": null,
+			"description": "Immediately recover all HP; ATK <@ba.vup>+{atk:0%}</>, attack range <@ba.vup>+{ability_range_forward_extend}</>, attack target count <@ba.vup>+2</> and Max HP <@ba.vup>+{max_hp}</>. Gradually lose HP (HP loss caps at {hp_ratio:0%}/second after <@ba.vup>{duration}</> seconds); <@ba.rem>Unlimited duration</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 9,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_surtr_3",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 2.1
+				},
+				{
+					"key": "ability_range_forward_extend",
+					"value": 2
+				},
+				{
+					"key": "max_hp",
+					"value": 5000
+				},
+				{
+					"key": "interval",
+					"value": 0.2
+				},
+				{
+					"key": "hp_ratio",
+					"value": 0.2
+				},
+				{
+					"key": "duration",
+					"value": 60
+				},
+				{
+					"key": "attack@max_target",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "Twilight",
+			"rangeId": null,
+			"description": "Immediately recover all HP; ATK <@ba.vup>+{atk:0%}</>, attack range <@ba.vup>+{ability_range_forward_extend}</>, attack target count <@ba.vup>+2</> and Max HP <@ba.vup>+{max_hp}</>. Gradually lose HP (HP loss caps at {hp_ratio:0%}/second after <@ba.vup>{duration}</> seconds); <@ba.rem>Unlimited duration</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 9,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_surtr_3",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 2.2
+				},
+				{
+					"key": "ability_range_forward_extend",
+					"value": 2
+				},
+				{
+					"key": "max_hp",
+					"value": 5000
+				},
+				{
+					"key": "interval",
+					"value": 0.2
+				},
+				{
+					"key": "hp_ratio",
+					"value": 0.2
+				},
+				{
+					"key": "duration",
+					"value": 60
+				},
+				{
+					"key": "attack@max_target",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "Twilight",
+			"rangeId": null,
+			"description": "Immediately recover all HP; ATK <@ba.vup>+{atk:0%}</>, attack range <@ba.vup>+{ability_range_forward_extend}</>, attack target count <@ba.vup>+2</> and Max HP <@ba.vup>+{max_hp}</>. Gradually lose HP (HP loss caps at {hp_ratio:0%}/second after <@ba.vup>{duration}</> seconds); <@ba.rem>Unlimited duration</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 9,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_surtr_3",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 2.3
+				},
+				{
+					"key": "ability_range_forward_extend",
+					"value": 2
+				},
+				{
+					"key": "max_hp",
+					"value": 5000
+				},
+				{
+					"key": "interval",
+					"value": 0.2
+				},
+				{
+					"key": "hp_ratio",
+					"value": 0.2
+				},
+				{
+					"key": "duration",
+					"value": 60
+				},
+				{
+					"key": "attack@max_target",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "Twilight",
+			"rangeId": null,
+			"description": "Immediately recover all HP; ATK <@ba.vup>+{atk:0%}</>, attack range <@ba.vup>+{ability_range_forward_extend}</>, attack target count <@ba.vup>+2</> and Max HP <@ba.vup>+{max_hp}</>. Gradually lose HP (HP loss caps at {hp_ratio:0%}/second after <@ba.vup>{duration}</> seconds); <@ba.rem>Unlimited duration</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 8,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_surtr_3",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 2.4
+				},
+				{
+					"key": "ability_range_forward_extend",
+					"value": 2
+				},
+				{
+					"key": "max_hp",
+					"value": 5000
+				},
+				{
+					"key": "interval",
+					"value": 0.2
+				},
+				{
+					"key": "hp_ratio",
+					"value": 0.2
+				},
+				{
+					"key": "duration",
+					"value": 60
+				},
+				{
+					"key": "attack@max_target",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "Twilight",
+			"rangeId": null,
+			"description": "Immediately recover all HP; ATK <@ba.vup>+{atk:0%}</>, attack range <@ba.vup>+{ability_range_forward_extend}</>, attack target count <@ba.vup>+2</> and Max HP <@ba.vup>+{max_hp}</>. Gradually lose HP (HP loss caps at {hp_ratio:0%}/second after <@ba.vup>{duration}</> seconds); <@ba.rem>Unlimited duration</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 7,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_surtr_3",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 2.7
+				},
+				{
+					"key": "ability_range_forward_extend",
+					"value": 2
+				},
+				{
+					"key": "max_hp",
+					"value": 5000
+				},
+				{
+					"key": "interval",
+					"value": 0.2
+				},
+				{
+					"key": "hp_ratio",
+					"value": 0.2
+				},
+				{
+					"key": "duration",
+					"value": 60
+				},
+				{
+					"key": "attack@max_target",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "Twilight",
+			"rangeId": null,
+			"description": "Immediately recover all HP; ATK <@ba.vup>+{atk:0%}</>, attack range <@ba.vup>+{ability_range_forward_extend}</>, attack target count <@ba.vup>+2</> and Max HP <@ba.vup>+{max_hp}</>. Gradually lose HP (HP loss caps at {hp_ratio:0%}/second after <@ba.vup>{duration}</> seconds); <@ba.rem>Unlimited duration</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 6,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_surtr_3",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 3
+				},
+				{
+					"key": "ability_range_forward_extend",
+					"value": 2
+				},
+				{
+					"key": "max_hp",
+					"value": 5000
+				},
+				{
+					"key": "interval",
+					"value": 0.2
+				},
+				{
+					"key": "hp_ratio",
+					"value": 0.2
+				},
+				{
+					"key": "duration",
+					"value": 60
+				},
+				{
+					"key": "attack@max_target",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "Twilight",
+			"rangeId": null,
+			"description": "Immediately recover all HP; ATK <@ba.vup>+{atk:0%}</>, attack range <@ba.vup>+{ability_range_forward_extend}</>, attack target count <@ba.vup>+3</> and Max HP <@ba.vup>+{max_hp}</>. Gradually lose HP (HP loss caps at {hp_ratio:0%}/second after <@ba.vup>{duration}</> seconds); <@ba.rem>Unlimited duration</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 5,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_surtr_3",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 3.3
+				},
+				{
+					"key": "ability_range_forward_extend",
+					"value": 2
+				},
+				{
+					"key": "max_hp",
+					"value": 5000
+				},
+				{
+					"key": "interval",
+					"value": 0.2
+				},
+				{
+					"key": "hp_ratio",
+					"value": 0.2
+				},
+				{
+					"key": "duration",
+					"value": 60
+				},
+				{
+					"key": "attack@max_target",
+					"value": 4
+				}
+			]
+		}
+	]
+}

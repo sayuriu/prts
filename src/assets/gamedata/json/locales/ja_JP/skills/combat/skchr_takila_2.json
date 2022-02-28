@@ -1,0 +1,347 @@
+{
+	"skillId": "skchr_takila_2",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "極刃奇襲",
+			"rangeId": "2-3",
+			"description": "攻撃範囲<@ba.vup>拡大</>、敵<@ba.vup>2</>体を同時に攻撃、通常攻撃が敵に攻撃力の<@ba.vup>{attack@atk_scale:0%}</>の物理ダメージを与える\n<$ba.charged>オーバーチャージ</>追加効果：敵<@ba.vup>3</>体を同時に攻撃、継続時間が<@ba.vup>{enhance_duration}</>秒まで延長\n<@ba.rem>手動でスキルを停止可能</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 30,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_takila_2",
+			"duration": 15,
+			"blackboard": [
+				{
+					"key": "attack@atk_scale",
+					"value": 1.4
+				},
+				{
+					"key": "enhance_duration",
+					"value": 30
+				},
+				{
+					"key": "attack@plus_max_target",
+					"value": 3
+				},
+				{
+					"key": "attack@plus_atk_scale",
+					"value": 1.4
+				}
+			]
+		},
+		{
+			"name": "極刃奇襲",
+			"rangeId": "2-3",
+			"description": "攻撃範囲<@ba.vup>拡大</>、敵<@ba.vup>2</>体を同時に攻撃、通常攻撃が敵に攻撃力の<@ba.vup>{attack@atk_scale:0%}</>の物理ダメージを与える\n<$ba.charged>オーバーチャージ</>追加効果：敵<@ba.vup>3</>体を同時に攻撃、継続時間が<@ba.vup>{enhance_duration}</>秒まで延長\n<@ba.rem>手動でスキルを停止可能</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 30,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_takila_2",
+			"duration": 15,
+			"blackboard": [
+				{
+					"key": "attack@atk_scale",
+					"value": 1.5
+				},
+				{
+					"key": "enhance_duration",
+					"value": 30
+				},
+				{
+					"key": "attack@plus_max_target",
+					"value": 3
+				},
+				{
+					"key": "attack@plus_atk_scale",
+					"value": 1.5
+				}
+			]
+		},
+		{
+			"name": "極刃奇襲",
+			"rangeId": "2-3",
+			"description": "攻撃範囲<@ba.vup>拡大</>、敵<@ba.vup>2</>体を同時に攻撃、通常攻撃が敵に攻撃力の<@ba.vup>{attack@atk_scale:0%}</>の物理ダメージを与える\n<$ba.charged>オーバーチャージ</>追加効果：敵<@ba.vup>3</>体を同時に攻撃、継続時間が<@ba.vup>{enhance_duration}</>秒まで延長\n<@ba.rem>手動でスキルを停止可能</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 30,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_takila_2",
+			"duration": 15,
+			"blackboard": [
+				{
+					"key": "attack@atk_scale",
+					"value": 1.6
+				},
+				{
+					"key": "enhance_duration",
+					"value": 30
+				},
+				{
+					"key": "attack@plus_max_target",
+					"value": 3
+				},
+				{
+					"key": "attack@plus_atk_scale",
+					"value": 1.6
+				}
+			]
+		},
+		{
+			"name": "極刃奇襲",
+			"rangeId": "2-3",
+			"description": "攻撃範囲<@ba.vup>拡大</>、敵<@ba.vup>2</>体を同時に攻撃、通常攻撃が敵に攻撃力の<@ba.vup>{attack@atk_scale:0%}</>の物理ダメージを与える\n<$ba.charged>オーバーチャージ</>追加効果：敵<@ba.vup>3</>体を同時に攻撃、継続時間が<@ba.vup>{enhance_duration}</>秒まで延長\n<@ba.rem>手動でスキルを停止可能</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 25,
+				"initSp": 5,
+				"increment": 1
+			},
+			"prefabId": "skchr_takila_2",
+			"duration": 15,
+			"blackboard": [
+				{
+					"key": "attack@atk_scale",
+					"value": 1.7
+				},
+				{
+					"key": "enhance_duration",
+					"value": 30
+				},
+				{
+					"key": "attack@plus_max_target",
+					"value": 3
+				},
+				{
+					"key": "attack@plus_atk_scale",
+					"value": 1.7
+				}
+			]
+		},
+		{
+			"name": "極刃奇襲",
+			"rangeId": "2-3",
+			"description": "攻撃範囲<@ba.vup>拡大</>、敵<@ba.vup>2</>体を同時に攻撃、通常攻撃が敵に攻撃力の<@ba.vup>{attack@atk_scale:0%}</>の物理ダメージを与える\n<$ba.charged>オーバーチャージ</>追加効果：敵<@ba.vup>3</>体を同時に攻撃、継続時間が<@ba.vup>{enhance_duration}</>秒まで延長\n<@ba.rem>手動でスキルを停止可能</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 25,
+				"initSp": 5,
+				"increment": 1
+			},
+			"prefabId": "skchr_takila_2",
+			"duration": 15,
+			"blackboard": [
+				{
+					"key": "attack@atk_scale",
+					"value": 1.8
+				},
+				{
+					"key": "enhance_duration",
+					"value": 30
+				},
+				{
+					"key": "attack@plus_max_target",
+					"value": 3
+				},
+				{
+					"key": "attack@plus_atk_scale",
+					"value": 1.8
+				}
+			]
+		},
+		{
+			"name": "極刃奇襲",
+			"rangeId": "2-3",
+			"description": "攻撃範囲<@ba.vup>拡大</>、敵<@ba.vup>2</>体を同時に攻撃、通常攻撃が敵に攻撃力の<@ba.vup>{attack@atk_scale:0%}</>の物理ダメージを与える\n<$ba.charged>オーバーチャージ</>追加効果：敵<@ba.vup>3</>体を同時に攻撃、継続時間が<@ba.vup>{enhance_duration}</>秒まで延長\n<@ba.rem>手動でスキルを停止可能</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 25,
+				"initSp": 5,
+				"increment": 1
+			},
+			"prefabId": "skchr_takila_2",
+			"duration": 15,
+			"blackboard": [
+				{
+					"key": "attack@atk_scale",
+					"value": 1.9
+				},
+				{
+					"key": "enhance_duration",
+					"value": 30
+				},
+				{
+					"key": "attack@plus_max_target",
+					"value": 3
+				},
+				{
+					"key": "attack@plus_atk_scale",
+					"value": 1.9
+				}
+			]
+		},
+		{
+			"name": "極刃奇襲",
+			"rangeId": "2-3",
+			"description": "攻撃範囲<@ba.vup>拡大</>、敵<@ba.vup>2</>体を同時に攻撃、通常攻撃が敵に攻撃力の<@ba.vup>{attack@atk_scale:0%}</>の物理ダメージを与える\n<$ba.charged>オーバーチャージ</>追加効果：敵<@ba.vup>3</>体を同時に攻撃、継続時間が<@ba.vup>{enhance_duration}</>秒まで延長\n<@ba.rem>手動でスキルを停止可能</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 20,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_takila_2",
+			"duration": 15,
+			"blackboard": [
+				{
+					"key": "attack@atk_scale",
+					"value": 2
+				},
+				{
+					"key": "enhance_duration",
+					"value": 30
+				},
+				{
+					"key": "attack@plus_max_target",
+					"value": 3
+				},
+				{
+					"key": "attack@plus_atk_scale",
+					"value": 2
+				}
+			]
+		},
+		{
+			"name": "極刃奇襲",
+			"rangeId": "2-3",
+			"description": "攻撃範囲<@ba.vup>拡大</>、敵<@ba.vup>2</>体を同時に攻撃、通常攻撃が敵に攻撃力の<@ba.vup>{attack@atk_scale:0%}</>の物理ダメージを与える\n<$ba.charged>オーバーチャージ</>追加効果：敵<@ba.vup>3</>体を同時に攻撃、継続時間が<@ba.vup>{enhance_duration}</>秒まで延長\n<@ba.rem>手動でスキルを停止可能</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 20,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_takila_2",
+			"duration": 15,
+			"blackboard": [
+				{
+					"key": "attack@atk_scale",
+					"value": 2.1
+				},
+				{
+					"key": "enhance_duration",
+					"value": 30
+				},
+				{
+					"key": "attack@plus_max_target",
+					"value": 3
+				},
+				{
+					"key": "attack@plus_atk_scale",
+					"value": 2.1
+				}
+			]
+		},
+		{
+			"name": "極刃奇襲",
+			"rangeId": "2-3",
+			"description": "攻撃範囲<@ba.vup>拡大</>、敵<@ba.vup>2</>体を同時に攻撃、通常攻撃が敵に攻撃力の<@ba.vup>{attack@atk_scale:0%}</>の物理ダメージを与える\n<$ba.charged>オーバーチャージ</>追加効果：敵<@ba.vup>3</>体を同時に攻撃、継続時間が<@ba.vup>{enhance_duration}</>秒まで延長\n<@ba.rem>手動でスキルを停止可能</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 20,
+				"initSp": 12,
+				"increment": 1
+			},
+			"prefabId": "skchr_takila_2",
+			"duration": 15,
+			"blackboard": [
+				{
+					"key": "attack@atk_scale",
+					"value": 2.2
+				},
+				{
+					"key": "enhance_duration",
+					"value": 30
+				},
+				{
+					"key": "attack@plus_max_target",
+					"value": 3
+				},
+				{
+					"key": "attack@plus_atk_scale",
+					"value": 2.2
+				}
+			]
+		},
+		{
+			"name": "極刃奇襲",
+			"rangeId": "2-3",
+			"description": "攻撃範囲<@ba.vup>拡大</>、敵<@ba.vup>2</>体を同時に攻撃、通常攻撃が敵に攻撃力の<@ba.vup>{attack@atk_scale:0%}</>の物理ダメージを与える\n<$ba.charged>オーバーチャージ</>追加効果：敵<@ba.vup>3</>体を同時に攻撃、継続時間が<@ba.vup>{enhance_duration}</>秒まで延長\n<@ba.rem>手動でスキルを停止可能</>",
+			"skillType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 20,
+				"initSp": 12,
+				"increment": 1
+			},
+			"prefabId": "skchr_takila_2",
+			"duration": 15,
+			"blackboard": [
+				{
+					"key": "attack@atk_scale",
+					"value": 2.3
+				},
+				{
+					"key": "enhance_duration",
+					"value": 30
+				},
+				{
+					"key": "attack@plus_max_target",
+					"value": 3
+				},
+				{
+					"key": "attack@plus_atk_scale",
+					"value": 2.3
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,83 @@
+{
+	"skillId": "sktok_flame",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "에너지 결정",
+			"rangeId": null,
+			"description": "25초 후 자폭하여 사방으로 화염구를 발사, 명중한 목표에게 <@ba.vup>{damage}</>의 마법 대미지와 [타들어가는 숨결](매초 트루 대미지를 입히고 대미지는 점차 증가, 단 <$ba.buffres>저항</>가능)을 가한다",
+			"skillType": 2,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 25,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "sktok_flame",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "damage",
+					"value": 1000
+				},
+				{
+					"key": "dragon_fire.duration",
+					"value": 30.5
+				},
+				{
+					"key": "dragon_fire.basedamage",
+					"value": 50
+				},
+				{
+					"key": "dragon_fire.addondamage",
+					"value": 180
+				},
+				{
+					"key": "dragon_fire.addonduration",
+					"value": 30
+				}
+			]
+		},
+		{
+			"name": "에너지 결정",
+			"rangeId": null,
+			"description": "25초 후 자폭하여 사방으로 화염구를 발사, 명중한 목표에게 <@ba.vup>{damage}</>의 마법 대미지와 [타들어가는 숨결](매초 트루 대미지를 입히고 대미지는 점차 증가, 단 <$ba.buffres>저항</>가능)을 가한다",
+			"skillType": 2,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 25,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "sktok_flame",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "damage",
+					"value": 1500
+				},
+				{
+					"key": "dragon_fire.duration",
+					"value": 30.5
+				},
+				{
+					"key": "dragon_fire.basedamage",
+					"value": 50
+				},
+				{
+					"key": "dragon_fire.addondamage",
+					"value": 180
+				},
+				{
+					"key": "dragon_fire.addonduration",
+					"value": 30
+				}
+			]
+		}
+	]
+}
