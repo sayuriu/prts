@@ -28,7 +28,10 @@ export abstract class CacheXMLBasedService<E>
 					this.save(id, value, options.lifetime, options.onExpire);
 					resolve(value);
 				})
-				.catch(reject);
+				.catch(e => {
+                    // console.error(e);
+                    reject(e);
+                });
 		})
 	}
 	protected abstract save(path: string, data: E, timeout?: number, onExpire?: (data: Entity<E>) => void): void;

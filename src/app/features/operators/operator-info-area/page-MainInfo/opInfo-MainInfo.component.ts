@@ -4,7 +4,7 @@ import { OperatorDataManagerService } from '@services/OperatorData/operator-data
 import { defaultCharFaction } from '@struct/Operator/CharFaction';
 import { Operator } from '@struct/Operator/Char';
 import { CharTrustAttributes } from '@root/src/struct/Operator/CharTrustData';
-import { Optional, Nullable } from '@utils/utils';
+import { Optional, Nullable, Undef } from '@utils/utils';
 
 import Gender_Male from '@assets/gamedata/json/tl-data/gender/男.json';
 import Gender_Female from '@assets/gamedata/json/tl-data/gender/女.json';
@@ -48,7 +48,7 @@ export class OpMainInfoComponent implements OnInit {
 	@Input() currentOperatorCN!: Operator;
 	currentOpFaction = defaultCharFaction;
     currentOpNation = defaultCharFaction;
-	readonly opGender = Object.fromEntries([['男', Gender_Male], ['女', Gender_Female], ['断罪', Gender_Conviction]]);
+	readonly opGender : { [key: string]: Undef<typeof Gender_Conviction> } = Object.fromEntries([['男', Gender_Male], ['女', Gender_Female], ['断罪', Gender_Conviction]]);
 
 	factionImgURL!: string;
 	rarity!: 0[];
@@ -69,7 +69,7 @@ export class OpMainInfoComponent implements OnInit {
             clearTimeout(this.animID);
     }
 
-	readonly genderColor: Record<string, string> = {
+	readonly genderColor: Record<string, Undef<string>> = {
 		'男': '#0e59e4',	// M
 		'女': '#e02350',	// F
 		'断罪': '#6f6f6f',	// N

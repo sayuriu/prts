@@ -19,6 +19,7 @@ export namespace Src_Gamedata {
 		export const teams = 'handbook_team_table.json';
 		export const ranges = 'range_table.json';
         export const skills = 'skill_table.json';
+        export const gamedataConst = 'gamedata_const.json';
 	}
 }
 
@@ -51,6 +52,9 @@ export namespace GamedataDestination {
             _base: 'skills',
             combat: 'combat/{name}',
             infrastructure: 'infrastructure/{name}',
+        }
+        export const gamedataConst = {
+            _base: 'gamedata-const',
         }
 	}
 }
@@ -188,6 +192,22 @@ function parseRangeData(src: string, dest: string)
 	Logger.info(header, `${Logger.green(tracker.count)} entries parsed.`);
 }
 
+function parseGamedataConst(src: string, dest: string, ...keys: string[])
+{
+    const header = 'Gamedata-' + getLocale(src);
+    const GamedataConst = require(src);
+    const { _base } = GamedataDestination.DATA.gamedataConst;
+    createIfNotExist(joinPaths(dest, _base), header);
+    for (const key of keys)
+    {
+        if (key in GamedataConst)
+        {
+            Logger.info(header, `Writing ${Logger.yellow(`${key}.json...`)}`, false);
+            writeJSON(joinPaths(dest, _base, `${key}.json`), GamedataConst[key]);
+            Logger.log(null, Logger.green('done'));
+        }
+    }
+}
 
 export function JSONParse(locale: Locales) {
 	if (!AvailableLocales[locale])
@@ -203,6 +223,7 @@ export function JSONParse(locale: Locales) {
 	parseItem(joinPaths(localePath, Src_Gamedata.DATA.items), destinationPath);
 	parseRangeData(joinPaths(localePath, Src_Gamedata.DATA.ranges), destinationPath);
     parseCombatSkill(joinPaths(localePath, Src_Gamedata.DATA.skills), destinationPath);
+    parseGamedataConst(joinPaths(localePath, Src_Gamedata.DATA.gamedataConst), destinationPath, 'richTextStyles', 'termDescriptionDict');
 	// parseMedals(joinPaths(localePath, Aceship.DATA.medals), destinationPath);
 	Logger.cout('\n');
 }

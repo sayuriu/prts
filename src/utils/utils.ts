@@ -38,6 +38,7 @@ export function arrayAt<T>(arr: T[], index: number): Nullable<T>
 
 export const emptyFunc = () => {};
 
+export type Undef<T> = T | undefined;
 export type Nullable<T> = T | null;
 export type NullablePromise<T> = Promise<Nullable<T>>;
 export type ValueOf<T> = T[keyof T];

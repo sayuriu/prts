@@ -20,7 +20,7 @@ interface SkillLevelData {
 }
 
 interface SkillSpData {
-    spType: Range<0, 3>;
+    spType: 1 | 2 | 4 | 8;
     levelUpCost: Nullable<unknown>;
     maxChargeTime: number;
     spCost: number;

@@ -1,4 +1,4 @@
-import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
+import { Component, EventEmitter, Input, OnChanges, OnInit, Output, SimpleChanges } from '@angular/core';
 import { AnimManagerService } from '@services/anim-manager.service';
 import { OperatorDataManagerService } from '@services/OperatorData/operator-data-manager.service';
 import { CharCombatSkill } from '@struct/Operator/DetailedSkill';
@@ -10,10 +10,10 @@ import { Nullable, waitAsync } from '@utils/utils';
 	templateUrl: './opInfo-Skills.component.html',
 	styleUrls: ['./opInfo-Skills.component.scss']
 })
-export class OpSkillsComponent implements OnInit {
+export class OpSkillsComponent implements OnInit, OnChanges {
 
 	constructor(
-        private anime: AnimManagerService,
+        public anime: AnimManagerService,
         private manager: OperatorDataManagerService,
     ) { }
 
@@ -27,11 +27,15 @@ export class OpSkillsComponent implements OnInit {
     currentCombatSkillLevel = 0;
     currentSkillIndex = -1;
     currentFocus = -1;
+    changingSkill = false;
+    mapToIndex = (_: any, index: number) => index;
     async setCurrentSkill(newIndex: number) {
+        this.changingSkill = true;
         this.removeFocus(this.currentFocus);
-        this.currentSkillIndex = newIndex;
-        await waitAsync(200);
+        await waitAsync(300);
         this.focusOn(newIndex);
+        this.currentSkillIndex = newIndex;
+        this.changingSkill = false;
     }
     removeFocus(index: number) {
         if (this.currentFocus === index)
@@ -49,6 +53,32 @@ export class OpSkillsComponent implements OnInit {
         waitAsync(150).then(() => this.setCurrentSkill(0));
 	}
 
+    ngOnChanges(changes: SimpleChanges): void {
+        // console.log(changes);
+    }
+
+    processSkillDesc(input: string)
+    {
+        // input.replace(/<[@](.+?)>(.+?)<\/>/g, ())
+        return input;
+    }
+
+    handleSkillLevelChange(input: any, event: any)
+    {
+        this.currentCombatSkillLevel = input.value;
+    }
+
+    //? this is stupid
+    add1(input: number)
+    {
+        return new Number(input).valueOf() + 1;
+    }
+    getSkillLevelData(index: unknown)
+    {
+        return this.currentOperatorSkills[index as number]!.levels;
+    }
+    //?
+
     resolveSpType(spType: number) {
         switch (spType) {
             case 1: return 'Per second';
@@ -58,12 +88,21 @@ export class OpSkillsComponent implements OnInit {
             default: return 'Unknown';
         }
     }
-    resolveSkilType(skilType: number)
+    resolveSpTypeColor(type: number) {
+        switch (type) {
+            case 1: return { bg: '#22ECBC', text: '#000000' };
+            case 2: return { bg: '#EF0F0F', text: '#FFFFFF' };
+            case 4: return { bg: '#FF7A00', text: '#000000' };
+            case 8: return { bg: '#00A3FF', text: '#FFFFFF' };
+            default: return { bg: '#C4C4C4', text: '#FFFFFF' };
+        }
+    }
+    resolveSkillType(skilType: number)
     {
         switch (skilType) {
-            case 0 : return "Passive";
-            case 1 : return "Manual";
-            case 2 : return "Auto";
+            case 0 : return 'Passive';
+            case 1 : return 'Manual';
+            case 2 : return 'Auto';
             default: return 'Unknown';
         }
     }

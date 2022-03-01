@@ -165,7 +165,7 @@ export class OperatorDataManagerService {
                 lifetime: 600000,
                 onExpire: (d) => {
                     console.log('Destroyed', d.id, d);
-                }
+                },
             }) as Nullable<CharCombatSkill>;
             return res;
         }

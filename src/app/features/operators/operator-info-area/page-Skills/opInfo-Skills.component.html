@@ -16,12 +16,12 @@
             >
                 <div class="skill-cnt-title abs t0 r0 z0">SKILL_{{i + 1}}</div>
                 <div class="skill-header flex flex-row">
-                    <img id="op-skill-img" [src]="'/assets/gamedata/img/characters/skills/combat/skill_icon_' + skill!.skillId + '.png'">
+                    <img id="op-skill-img" class="transition-all" [src]="'/assets/gamedata/img/characters/skills/combat/skill_icon_' + currentOperator.skills[i]!.skillId + '.png'">
                     <div id="op-skill-overview" class="flex flex-col j-flex-space-between z1">
                         <div id="op-skill-name">
                             <p class="no-margin">{{currentOperatorSkills[i]!.levels[currentCombatSkillLevel]?.name ?? 'Unknown'}}</p>
                         </div>
-                        <div id="op-skill-characteristics" class="flex flex-row flex-wrap">
+                        <div id="op-skill-characteristics" class="flex flex-row flex-wrap transition-all">
                             <text-field
                                 [boundRect]="{ centerChildren: [true], height: '33px' }"
                                 [labelField]="{
@@ -36,21 +36,100 @@
                                     textSize: '18px',
                                     textAlign: 'center'
                                 }"
+                                [valueField]="{
+                                    centerChildren: [true],
+                                    height: '100%',
+                                    width: (resolveSpType(currentOperatorSkills[i]!.levels[currentCombatSkillLevel].spData.spType).length + 6) + 'ch',
+                                    borderFgMatchBg: true,
+                                    border: '1px solid black',
+                                    background: resolveSpTypeColor(currentOperatorSkills[i]!.levels[currentCombatSkillLevel].spData.spType).bg
+                                }"
+                                [valueFieldText]="{
+                                    textValue: resolveSpType(currentOperatorSkills[i]!.levels[currentCombatSkillLevel].spData.spType),
+                                    textSize: '18px',
+                                    textAlign: 'center',
+                                    textColor: resolveSpTypeColor(currentOperatorSkills[i]!.levels[currentCombatSkillLevel].spData.spType).text,
+                                    fontWeight: '500'
+                                }"
+                            ></text-field>
+                            <spacer style="width: 10px; height: 36px"></spacer>
+                            <text-field
+                                [boundRect]="{ centerChildren: [true], height: '33px' }"
+                                [labelField]="{
+                                    centerChildren: [true],
+                                    height: '100%',
+                                    width: '88px',
+                                    borderMatrixOverride: ['', '0', '', ''],
+							        border: '1px solid black'
+                                }"
+                                [labelFieldText]="{
+                                    textValue: 'Trigger',
+                                    textSize: '18px',
+                                    textAlign: 'center'
+                                }"
+                                [valueField]="{
+                                    centerChildren: [true],
+                                    height: '100%',
+                                    width: (resolveSkillType(currentOperatorSkills[i]!.levels[currentCombatSkillLevel].skillType).length + 5) + 'ch',
+                                    borderFgMatchBg: true,
+                                    border: '1px solid black',
+                                    background: '#3F3F3F'
+                                }"
+                                [valueFieldText]="{
+                                    textValue: resolveSkillType(currentOperatorSkills[i]!.levels[currentCombatSkillLevel].skillType),
+                                    textSize: '18px',
+                                    textAlign: 'center',
+                                    textColor: '#FFFFFF'
+                                }"
+                            ></text-field>
+                            <spacer style="width: 10px; height: 36px"></spacer>
+                            <text-field
+                                [boundRect]="{ centerChildren: [true], height: '33px' }"
+                                [labelField]="{
+                                    centerChildren: [true],
+                                    height: '100%',
+                                    width: '97px',
+                                    borderMatrixOverride: ['', '0', '', ''],
+							        border: '1px solid black'
+                                }"
+                                [labelFieldText]="{
+                                    textValue: 'Duration',
+                                    textSize: '18px',
+                                    textAlign: 'center'
+                                }"
+                                [valueField]="{
+                                    centerChildren: [true],
+                                    height: '100%',
+                                    width: (currentOperatorSkills[i]!.levels[currentCombatSkillLevel].duration.toString().length + 7) + 'ch',
+                                    borderFgMatchBg: true,
+                                    border: '1px solid black',
+                                    background: '#3F3F3F',
+                                    extraCSS: { transition: 'width 0.4s ' + anime.timeFunc.Forceful }
+                                }"
+                                [valueFieldText]="{
+                                    textValue: ' ' + (currentOperatorSkills[i]!.levels[currentCombatSkillLevel].duration.toString() + 's').replace('-1s', '∞').replace(' 0s', 'None').trim(),
+                                    textSize: currentOperatorSkills[i]!.levels[currentCombatSkillLevel].duration === -1 ? '37px' : '18px',
+                                    textAlign: 'center',
+                                    textColor: '#FFFFFF'
+                                }"
                             ></text-field>
                         </div>
                     </div>
                 </div>
                 <div class="skill-desc rel">
-                    <div id="op-skill-currentlevel" class="abs b0 r0">
-
-                    </div>
-                    <div id="op-skill-desc">
+                    <!--? Weird behaviour: z-index doesn't work unless grid v-->
+                    <div id="op-skill-desc" class="rel grid transition-all">
+                        <div id="op-skill-currentlevel" class="abs grid b0 r0 z0 transition-all">
+                            <div class="z0 transition-all" style="background-image: url(/assets/gamedata/img/characters/ui/skillrank/bg.png)"></div>
+                            <div class="z0 transition-all" [style.background-image]="'url(/assets/gamedata/img/characters/ui/skillrank/' + (currentCombatSkillLevel < 7 ? add1(currentCombatSkillLevel) : ('m-' + (currentCombatSkillLevel - 6))) + '.png)'"></div>
+                        </div>
                         <!-- use innerHTML -->
+                        <div id="content" class="z2" [innerHTML]="currentOperatorSkills[i]!.levels[currentCombatSkillLevel]?.description ?? 'The weilder has refused to disclose this art.'"></div>
                     </div>
                 </div>
                 <div class="skill-bottom-group">
                     <div id="left-section">
-
+                        <input class="pointer-all" #input type="range" value="0" min="0" [attr.max]="getSkillLevelData(i).length - 1" (input)="handleSkillLevelChange(input, $event)">
                     </div>
                     <div id="right-section">
 

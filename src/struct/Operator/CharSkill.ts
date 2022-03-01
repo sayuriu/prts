@@ -7,7 +7,8 @@ export interface CharSkill<L extends Range<1, 4>>
 	//TODO: parser needed for the following fields
 	overridePrefabKey: string | null;
 	overrideTokenKey: string | null;
-	levelUpCostCond: SkillUpCost;
+    /** For skills level 8 - 10 (Mastery). */
+	levelUpCostCond: SkillUpCost[];
 }
 
 interface SkillUpCost

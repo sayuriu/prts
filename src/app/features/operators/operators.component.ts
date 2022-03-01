@@ -15,7 +15,6 @@ const anim_AppearDisappear = AppearDisappear();
 	selector: 'app-feature-operators',
 	templateUrl: './operators.component.html',
 	styleUrls: ['./operators.component.scss'],
-	providers: [OperatorDataManagerService],
 	animations: [
 		anim_AppearDisappear,
 	]

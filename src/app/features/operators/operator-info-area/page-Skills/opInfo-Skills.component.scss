@@ -1,11 +1,15 @@
 @import '../../../../../anims';
 
+.transition-all {
+    transition: all 0.5s $forceful;
+}
+
 #container {
     #combat-skills {
         background-color: hsl(0, 0%, 46%);
     }
     .skill-cnt-title {
-        line-height: 70px;
+        line-height: 80px;
         font-size: 65px;
         color:hsla(0, 0%, 100%, .3);
         font-weight: lighter;
@@ -22,7 +26,7 @@
             background-color: hsla(0, 0%, 13%, .7);
             transition:
                 all 0.5s $forceful,
-                max-height 0.3s $forceful,
+                max-height 0.4s $forceful,
                 background-color 0.5s $forceful;
             #op-skill-img {
                 float: left;
@@ -30,11 +34,13 @@
                 opacity: .5;
                 aspect-ratio: 1;
                 height: 105px;
-                transition: all 0.5s $forceful;
+            }
+            &:not(.current) * {
+                pointer-events: none;
             }
             &.current {
                 background-color: hsl(0, 0%, 78%);
-                max-height: 1000px;
+                max-height: 750px;
                 margin: 0;
                 // transition-delay: 0, 0.5s, 0;
                 .skill-cnt-title {
@@ -50,7 +56,7 @@
                 }
             }
             &:hover:not(.current) {
-                background-color: hsla(0, 0%, 27%, 0.7);
+                background-color: hsla(0, 0%, 27%, 0.8);
             }
         }
     }
@@ -61,23 +67,64 @@
 }
 #op-skill-name {
     opacity: 0;
-    margin-bottom: 15px;
+    margin-bottom: 12px;
     transform: translateX(30px);
-    transition: all 0.5s $forceful;
-    background-color:hsl(0, 0%, 24%);
+    transition: all 0.5s $forceful 0.3s;
+    background-color:hsla(0, 0%, 0%, .7);
+    align-self: baseline;
     p {
-        margin: 0 7px;
+        margin: 5px 7px;
         font-size: 26px;
         color:hsl(0, 0%, 95%)
     }
 }
 #op-skill-characteristics {
     opacity: 0;
+    transform: translateX(15px);
+    transition-delay: 0.15s;
+}
+.skill-desc { margin: 0 15px 15px 15px; }
+#op-skill-desc {
+    background-color: hsl(0, 0%, 25%);
+    opacity: 0;
+    #content {
+        padding: 22px 11px 21px 24px;
+        text-align: left;
+        font-size: 20px;
+        color: white;
+    }
+}
+#op-skill-currentlevel {
+    opacity: 0;
+    transform: translateX(15px);
+    grid-template: 80px / 80px;
+    div {
+        aspect-ratio: 1;
+        height: 80px;
+        grid-row-start: 1;
+        grid-column-start: 1;
+        z-index: 0;
+        background-size: contain;
+    }
 }
 
 #skill-list .skill.visible {
     #op-skill-name {
         opacity: 1;
         transform: translateX(0);
+        transition-delay: 0s;
+    }
+    #op-skill-characteristics {
+        opacity: 1;
+        transform: translateX(0);
+        transition-delay: 0.3s;
+    }
+    #op-skill-desc {
+        opacity: 1;
+    }
+    #op-skill-currentlevel {
+        opacity: 1;
+        transform: translateX(0);
+        transition-delay: 0.5s;
     }
 }

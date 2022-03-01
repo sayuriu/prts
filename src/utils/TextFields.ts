@@ -24,6 +24,7 @@ export interface TextFieldMetadata extends ExcludeProp<BoundRectMetadata, 'cente
 	textAlign?: string;
 	textDecor?: string;
 	textSize?: string;
+    fontWeight?: string;
 	asHTML?: boolean;
 }
 
@@ -106,6 +107,7 @@ export class TextField extends BoundRect implements TextFieldMetadata {
 	textAlign: string = '';
 	textDecor: string = '';
 	textSize: string = '';
+    fontWeight: string = '';
 	asHTML: boolean = false;
 
 	constructor(metadata: TextFieldMetadata = { textValue: '' }) {
@@ -119,7 +121,8 @@ export class TextField extends BoundRect implements TextFieldMetadata {
 			'color': this.textColor,
 			'text-align': this.textAlign,
 			'text-decoration': this.textDecor,
-			'font-size': this.textSize
+			'font-size': this.textSize,
+            'font-weight': this.fontWeight,
 		})
 	}
 
