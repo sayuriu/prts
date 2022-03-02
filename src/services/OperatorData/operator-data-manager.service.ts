@@ -4,14 +4,16 @@ import { Subject } from 'rxjs';
 import { CHAR_NAME, SUMMON_NAME, TRAP_NAME, Operator } from '@struct/Operator/Char';
 import { CharFaction, defaultCharFaction } from '@struct/Operator/CharFaction';
 import { CharCombatSkill } from '@struct/Operator/DetailedSkill';
+import { CharTrustAttributes } from '@struct/Operator/CharTrustData';
 import { Locales } from '@struct/Basic';
 import { ImageDataService } from '../image-data.service';
-import { arrayAtMany, emptyFunc, Nullable, NullablePromise, Optional } from '@utils/utils';
+import { arrayAtMany, emptyFunc, getDefault, Nullable, NullablePromise, Optional } from '@utils/utils';
 import { JSONLoadService } from '@services/OperatorData/jsonload.service';
 import { join } from '@utils/PathUtils';
-import { CharTrustAttributes } from '@root/src/struct/Operator/CharTrustData';
 
 import StatsPropMap from '@assets/gamedata/json/StatsPropMap.json';
+
+export type RichColor_zh_CN = typeof import('@assets/gamedata/json/locales/zh_CN/gamedata-const/richTextStyles.json');
 
 export type en_US_CharIndex = typeof import('@assets/gamedata/json/locales/en_US/charnameLinkID.json');
 export type ja_JP_CharIndex = typeof import('@assets/gamedata/json/locales/ja_JP/charnameLinkID.json');
@@ -44,6 +46,7 @@ const Data_JSON = {
 	materials: 'items/materials/{type}/{id}.json',
 	materials_types: 'items/types/{id}.json',
 	materials_indexes: ['itemToType.json', 'typeToItems.json'],
+    term_descriptions: 'gamedata-const/termDescriptionDict.json',
 
 	teams: 'teams/{id}.json',
 
@@ -69,11 +72,17 @@ const Data_IMG = {
 })
 export class OperatorDataManagerService {
 	events: Subject<this>;
-	charList!: CharData;
 	isLoaded = false;
+	private _charList!: CharData;
     private _locale: Locales = 'en_US';
+    private richTextStyles!: Nullable<RichColor_zh_CN>;
 	readonly imagePath = 'gamedata/img';
 	readonly statPropMap = StatsPropMap;
+
+    get charList()
+    {
+        return this._charList;
+    }
 
 	constructor(
 		public cachedImages: ImageDataService,
@@ -89,7 +98,7 @@ export class OperatorDataManagerService {
 			.catch(() => {
 				this.events.next(this);
 				console.error('Failed to load operator index!');
-				this.charList = {
+				this._charList = {
 					en_US: null,
 					ja_JP: null,
 					ko_KR: null,
@@ -98,6 +107,7 @@ export class OperatorDataManagerService {
 					ex: null,
 				};
 			});
+        this.loadRichTextStyles();
 	}
     setLocale(locale: Locales) {
         this._locale = locale;
@@ -108,7 +118,7 @@ export class OperatorDataManagerService {
 	private async loadAssets()
 	{
 		console.log('Loading operator index...');
-		this.charList = {
+		this._charList = {
 			en_US: await import('@assets/gamedata/json/locales/en_US/charnameLinkID.json').then(getDefault),
 			ja_JP: await import('@assets/gamedata/json/locales/ja_JP/charnameLinkID.json').then(getDefault),
 			ko_KR: await import('@assets/gamedata/json/locales/ko_KR/charnameLinkID.json').then(getDefault),
@@ -117,22 +127,41 @@ export class OperatorDataManagerService {
 			ex: await import('@assets/gamedata/json/locales/ex/charnameLinkID.json').then(getDefault),
 		}
 	}
-	getCharId(charName: string, preferredLocale: Locales): [Nullable<string>, Locales]
+    private async loadRichTextStyles()
+    {
+        console.log('Loading rich text styles...');
+        try {
+            this.richTextStyles = await import('@assets/gamedata/json/locales/zh_CN/gamedata-const/richTextStyles.json').then(getDefault);
+            console.log('Rich text styles loaded.');
+        }
+        catch (e) {
+            console.error('Failed to load rich text styles!');
+            this.richTextStyles = null;
+        }
+    }
+	getCharId(charName: string, preferredLocale = this.locale): [Nullable<string>, Locales]
 	{
+        //TODO
 		// @ts-ignore
-		if (this.charList[preferredLocale][charName])
-			// @ts-ignore
-			return [this.charList[preferredLocale][charName], preferredLocale];
+		if (this._charList[preferredLocale][charName])
+        {
+            this.setLocale(preferredLocale);
+            // @ts-ignore
+            return [this._charList[preferredLocale][charName], preferredLocale];
+        }
 
-		for (let locale in this.charList)
+		for (let locale in this._charList)
 		{
-			const key = this.charList[locale as Locales];
-			if (key && key[charName as keyof typeof key])
-				return [key[charName as keyof typeof key], locale as Locales];
+			const key = this._charList[locale as Locales];
+			if (key && charName in key)
+            {
+                this.setLocale(locale as Locales);
+                return [key[charName as keyof typeof key], locale as Locales];
+            }
 		}
 		return [null, preferredLocale];
 	}
-	async getCharData(charId: CHAR_NAME, preferredLocale: Locales = 'en_US')
+	async getCharData(charId: CHAR_NAME, preferredLocale = this.locale)
 	{
 		const { _base, characters } = Data_JSON;
 		const charPath = (_base + characters)
@@ -153,7 +182,7 @@ export class OperatorDataManagerService {
             return null;
         }
 	}
-    async getCharCombatSkillData(skillId: string, preferredLocale: Locales = 'en_US'): NullablePromise<CharCombatSkill>
+    async getCharCombatSkillData(skillId: string, preferredLocale = this.locale): NullablePromise<CharCombatSkill>
     {
         const { _base, skill_combat } = Data_JSON;
         const skillPath = (_base + skill_combat)
@@ -174,7 +203,7 @@ export class OperatorDataManagerService {
             return null;
         }
     }
-	async getFactionData(factionId: string, preferredLocale: Locales = 'en_US'): Promise<CharFaction>
+	async getFactionData(factionId: string, preferredLocale = this.locale): Promise<CharFaction>
 	{
 		const { _base, teams } = Data_JSON;
 		const teamPath = (_base + teams)
@@ -195,6 +224,19 @@ export class OperatorDataManagerService {
             return defaultCharFaction;
         }
 	}
+    async getTermDescriptionDict(preferredLocale = this.locale): Promise<Record<string, TermDescription>>
+    {
+        const { _base, term_descriptions } = Data_JSON;
+        const termPath = (_base + term_descriptions)
+            .replace('{locales}', preferredLocale);
+        const res = await this.JSONAssets.load(termPath, {
+            lifetime: 600000,
+            onExpire: (d) => {
+                console.log('Destroyed', d.id, d);
+            }
+        }) as Nullable<Record<string, TermDescription>>;
+        return res ?? {};
+    }
 	async loadOpImages(charId: string, type: 'avatars' | 'portraits' | 'full', id?: string, ex?: boolean): NullablePromise<Blob>
 	async loadOpImages(charId: CHAR_NAME, type: 'avatars' | 'portraits' | 'full', id?: string, ex = false): NullablePromise<Blob>
 	{
@@ -216,7 +258,12 @@ export class OperatorDataManagerService {
 	{
 		return await this.JSONAssets.load(`tl-data/human_resource/${charNameCN}.json`, { onExpire: emptyFunc });
 	}
-
+    getRichTextStyles(tag: string)
+    {
+        if (this.richTextStyles && tag in this.richTextStyles)
+            return this.richTextStyles[tag as keyof RichColor_zh_CN];
+        return null;
+    }
 	resolveTrustData(trustStatsData: Operator['favorKeyFrames'])
 	{
 		let out: Optional<CharTrustAttributes> = {};
@@ -280,12 +327,9 @@ interface OpClass {
 	en: string;
 }
 
-interface HasDefault<T extends unknown> extends Record<string, unknown>
+interface TermDescription
 {
-	default: T;
-}
-
-function getDefault<T>(obj: T)
-{
-	return (obj as unknown as HasDefault<T>).default;
+    termId: string;
+    termName: string;
+    description: string;
 }

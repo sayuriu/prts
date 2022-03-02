@@ -94,7 +94,6 @@ export class OperatorInfoAreaComponent implements OnInit, OnChanges
 	) { }
 
 	@Input() opId!: string;
-	@Input() serverLocale!: Locales;
 	@Input() visible = false;
 	@Output() onOperatorChange = new EventEmitter<OperatorHeaderData>();
 
@@ -121,12 +120,12 @@ export class OperatorInfoAreaComponent implements OnInit, OnChanges
     {
         this.opCombatSkills = new Array(this.currentOp.skills.length).fill(null);
         for (let i = 0; i < this.currentOp.skills.length; i++)
-            this.opCombatSkills[i] = await this.manager.getCharCombatSkillData(this.currentOp.skills[i]!.skillId, this.serverLocale);
+            this.opCombatSkills[i] = await this.manager.getCharCombatSkillData(this.currentOp.skills[i]!.skillId);
     }
 
 	async init()
 	{
-		this.currentOp = await this.manager.getCharData(this.opId as CHAR_NAME, this.serverLocale) as Operator;
+		this.currentOp = await this.manager.getCharData(this.opId as CHAR_NAME) as Operator;
 		this.currentOpCN = await this.manager.getCharData(this.opId as CHAR_NAME, 'zh_CN') as Operator;
         await this.fetchOpSkills();
         //! title

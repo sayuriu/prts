@@ -3,6 +3,7 @@ import { Router, RouterOutlet } from '@angular/router';
 
 import { ErrorService } from '@services/error.service';
 import { NotifService } from '@services/notif.service';
+import { ConnectionService } from '@services/connection.service';
 
 import { routeAnims } from '@utils/anims';
 import { version } from '@utils/package';
@@ -26,6 +27,7 @@ export class AppComponent implements OnInit {
 			// private errorService: ErrorService,
 			public router: Router,
 			private notif: NotifService,
+            private connection: ConnectionService,
 		)
 	{}
 
@@ -45,7 +47,13 @@ export class AppComponent implements OnInit {
 				this.notif.currentMessage?.message === 'Entered fullscreen.'
 			)
 			this.notif.skipCurrent();
-		}).bind(this))
+		}).bind(this));
+        window.addEventListener('online', () => {
+            this.connection.updateStatus(true);
+        })
+        window.addEventListener('offline', () => {
+            this.connection.updateStatus(false);
+        });
 	}
 
 	prepareOutlet(outlet: RouterOutlet) {

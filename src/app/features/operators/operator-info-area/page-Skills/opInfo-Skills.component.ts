@@ -1,40 +1,58 @@
 import { Component, EventEmitter, Input, OnChanges, OnInit, Output, SimpleChanges } from '@angular/core';
+import { FormControl } from '@angular/forms';
+
 import { AnimManagerService } from '@services/anim-manager.service';
 import { OperatorDataManagerService } from '@services/OperatorData/operator-data-manager.service';
 import { CharCombatSkill } from '@struct/Operator/DetailedSkill';
 import { Operator } from '@struct/Operator/Char';
 import { Nullable, waitAsync } from '@utils/utils';
+import { DomSanitizer } from '@angular/platform-browser';
+
+class Utils {
+    add1(input: number)
+    {
+        return new Number(input).valueOf() + 1;
+    }
+    parseNumber(input: string)
+    {
+        return new Number(input).valueOf();
+    }
+}
 
 @Component({
 	selector: 'op-info-skills',
 	templateUrl: './opInfo-Skills.component.html',
 	styleUrls: ['./opInfo-Skills.component.scss']
 })
-export class OpSkillsComponent implements OnInit, OnChanges {
+export class OpSkillsComponent extends Utils implements OnInit, OnChanges {
 
 	constructor(
         public anime: AnimManagerService,
+        public sanitizer: DomSanitizer,
         private manager: OperatorDataManagerService,
-    ) { }
+    ) {
+        super();
+    }
 
 	@Input() currentOperator!: Operator;
+    @Input() currentOperatorSkills!: Nullable<CharCombatSkill>[];
+    @Output() onSkillIndexChange = new EventEmitter<number>();
 
     @Output() onAnimationEnd = new EventEmitter<1>();
     @Input() animAlreadyPlayed: Nullable<''> = null;
-    @Input() currentOperatorSkills!: Nullable<CharCombatSkill>[];
     animID = -1;
 
-    currentCombatSkillLevel = 0;
+    currentCombatSkillLevel = new FormControl(0);
     currentSkillIndex = -1;
     currentFocus = -1;
     changingSkill = false;
-    mapToIndex = (_: any, index: number) => index;
     async setCurrentSkill(newIndex: number) {
         this.changingSkill = true;
         this.removeFocus(this.currentFocus);
         await waitAsync(300);
         this.focusOn(newIndex);
         this.currentSkillIndex = newIndex;
+        this.updateSkillDescription();
         this.changingSkill = false;
     }
     removeFocus(index: number) {
@@ -57,27 +75,68 @@ export class OpSkillsComponent implements OnInit, OnChanges {
         // console.log(changes);
     }
 
-    processSkillDesc(input: string)
+    currentSkillDescription!: string[];
+    updateSkillDescription() {
+        // this.currentSkillDescription = this.currentOperatorSkills[this.currentSkillIndex]!.levels[this.currentCombatSkillLevel.value]?.description;
+        this.getSkillDesc().then(out => {
+            this.currentSkillDescription = out;
+        });
+    }
+
+    async getSkillDesc()
     {
-        // input.replace(/<[@](.+?)>(.+?)<\/>/g, ())
-        return input;
+        let output = new Array<string>(this.currentOperatorSkills.length).fill('');
+        const termDescriptionDict = await this.manager.getTermDescriptionDict();
+        for (let i = 0; i < output.length; i++)
+        {
+            const currentSkillLevel = this.currentOperatorSkills[i]!.levels[this.currentCombatSkillLevel.value];
+            if (!currentSkillLevel.description)
+            {
+                output[i] = 'The weilder has refused to disclose this art.';
+                continue;
+            }
+            output[i] = currentSkillLevel.description.replace(/<[@$](.+?)>(.+?)<\/>/g, (match: string, tag: string, content: string) => {
+                let out = '';
+                out = content.replace(/\{(.+?)\}/g, (_: string, _txt: string) => {
+                    const blackboardKey = (_txt.match(/[a-zA-Z_]+/) ?? [])[0];
+                    const { key, value } = currentSkillLevel.blackboard.find((item => item.key === blackboardKey)) ?? {};
+                    if (!value)
+                        return '';
+                    if (_txt.match(':0%'))
+                        return new Number((value * 100).toFixed(2)).valueOf().toString() + '%';
+                    return new Number(value.toFixed(2)).toString();
+                });
+                const desc = termDescriptionDict[tag];
+                if (desc)
+                {
+                    out = `<term id="${desc.termId}" name="${desc.termName}" description="${desc.description}">
+                        ${out}</term>`;
+                }
+                const richText = this.manager.getRichTextStyles(tag);
+                if (richText)
+                {
+                    const color = (richText.match(/color=(#[0-9A-F]{6})/) ?? [])[1];
+                    if (color)
+                    {
+                        out =
+                            `<span style="color: ${color}; background: #000">
+                                ${richText
+                                    .replace(/<\/?color(=#[0-9A-F]{6})?>/g, '')
+                                    .replace('{0}', out)}</span>`
+                    }
+                }
+                return out;
+            });
+        }
+        return output;
     }
 
     handleSkillLevelChange(input: any, event: any)
     {
-        this.currentCombatSkillLevel = input.value;
+        this.currentCombatSkillLevel.setValue(this.parseNumber(input.value));
+        this.updateSkillDescription();
     }
 
-    //? this is stupid
-    add1(input: number)
-    {
-        return new Number(input).valueOf() + 1;
-    }
-    getSkillLevelData(index: unknown)
-    {
-        return this.currentOperatorSkills[index as number]!.levels;
-    }
-    //?
 
     resolveSpType(spType: number) {
         switch (spType) {
@@ -104,6 +163,14 @@ export class OpSkillsComponent implements OnInit, OnChanges {
             case 1 : return 'Manual';
             case 2 : return 'Auto';
             default: return 'Unknown';
+        }
+    }
+    resolveSkillDuration(duration: number)
+    {
+        switch (duration) {
+            case 0 : return 'Instant';
+            case -1 : return '∞';
+            default: return duration + 's';
         }
     }
 }

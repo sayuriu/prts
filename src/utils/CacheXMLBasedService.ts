@@ -38,20 +38,20 @@ export abstract class CacheXMLBasedService<E>
 	protected abstract save(id  : string, data: E, timeout?: number, onExpire?: (data: Entity<E>) => void): void;
 	protected _save(id: string, data: E, timeout: number, onExpire: (data: Entity<E>) => void = emptyFunc)
 	{
+        const refThis = this;
 		this._cache.set(
-			id,
-			new Entity<E>(
-				id,
-				data,
-				timeout,
-				setTimeout(() => {
-					const _data = this._cache.get(id)!;
-					_data.onExpire(_data);
-					this._cache.delete(id);
-				}, timeout) as unknown as number,
-				onExpire
-			),
-		);
+            id,
+            new Entity<E>(
+                id,
+                data,
+                timeout,
+                setTimeout(function (this: Entity<E>) {
+                    this.onExpire(this);
+                    refThis._cache.delete(id);
+                }, timeout) as unknown as number,
+                onExpire,
+            )
+        );
 	}
 	protected abstract renew(path: string): void;
 	protected abstract renew(id: string): void;

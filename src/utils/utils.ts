@@ -46,3 +46,13 @@ export type ExcludeProp<T, K extends keyof T> = Pick<T, Exclude<keyof T, K>>;
 
 export type Optional<T> = { [P in keyof T]?: T[P] };
 export type Concrete<T> = { [P in keyof T]-?: T[P] };
+
+export interface HasDefault<T extends unknown> extends Record<string, unknown>
+{
+	default: T;
+}
+
+export function getDefault<T>(obj: T)
+{
+	return (obj as unknown as HasDefault<T>).default;
+}

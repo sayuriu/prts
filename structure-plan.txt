@@ -1,11 +1,11 @@
 struct >
 	#Home
 	main
+    enemies
+		|-:id
 	combat
 		|-maps
 		|	|-:name
-		|-enemies
-			|-:id
 	characters -> operators
 	operators
 		|-:name

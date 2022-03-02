@@ -6,6 +6,33 @@
             [attr.no-anim]="animAlreadyPlayed"
         >COMBAT</div>
         <div id="skill-list" class="flex flex-col">
+            <!--* Start custom component layout-->
+            <!--* Name: InputField -->
+            <!--* Defs: inherits TextField, implements InputField, extendable TextInput, RangeInput -->
+            <div
+                id="skilllevel-control"
+                class="flex flex-row abs t0 a-flex-center a-self-center"
+            >
+                <div id="label">
+                    <p>SKILL_LEVEL</p>
+                </div>
+                <div>
+                    <input
+                        class="pointer-all"
+                        #input
+                        type="range"
+                        min="0"
+                        [attr.max]="(currentOperatorSkills[currentSkillIndex]?.levels ?? []).length - 1"
+                        [attr.value]="currentCombatSkillLevel.value"
+                        (input)="handleSkillLevelChange(input, $event)"
+                    >
+                </div>
+                <div id="level" class="grid fh">
+                    <div class="fw fh" style="background-image: url(/assets/gamedata/img/characters/ui/skillrank/bg.png)"></div>
+                    <div class="fw fh" [style.background-image]="'url(/assets/gamedata/img/characters/ui/skillrank/' + (parseNumber(currentCombatSkillLevel.value) < 7 ? add1(parseNumber(currentCombatSkillLevel.value)) : ('m-' + (parseNumber(currentCombatSkillLevel.value) - 6))) + '.png)'"></div>
+                </div>
+            </div>
+            <!--* End custom component layout-->
             <button
                 class="skill rel h-auto w-auto no-border overflow-hidden"
                 [id]="'op-skill-' + (i + 1)"
@@ -18,8 +45,9 @@
                 <div class="skill-header flex flex-row">
                     <img id="op-skill-img" class="transition-all" [src]="'/assets/gamedata/img/characters/skills/combat/skill_icon_' + currentOperator.skills[i]!.skillId + '.png'">
                     <div id="op-skill-overview" class="flex flex-col j-flex-space-between z1">
-                        <div id="op-skill-name">
-                            <p class="no-margin">{{currentOperatorSkills[i]!.levels[currentCombatSkillLevel]?.name ?? 'Unknown'}}</p>
+                        <div id="op-skill-name" class="grid">
+                            <p class="no-margin main o0">{{currentOperatorSkills[i]!.levels[currentCombatSkillLevel.value]?.name ?? 'Unknown'}}</p>
+                            <p class="no-margin italic o1"><i>{{currentOperatorSkills[i]!.levels[currentCombatSkillLevel.value]?.name ?? 'Unknown'}}</i></p>
                         </div>
                         <div id="op-skill-characteristics" class="flex flex-row flex-wrap transition-all">
                             <text-field
@@ -39,16 +67,16 @@
                                 [valueField]="{
                                     centerChildren: [true],
                                     height: '100%',
-                                    width: (resolveSpType(currentOperatorSkills[i]!.levels[currentCombatSkillLevel].spData.spType).length + 6) + 'ch',
+                                    width: (resolveSpType(currentOperatorSkills[i]!.levels[currentCombatSkillLevel.value].spData.spType).length + 6) + 'ch',
                                     borderFgMatchBg: true,
                                     border: '1px solid black',
-                                    background: resolveSpTypeColor(currentOperatorSkills[i]!.levels[currentCombatSkillLevel].spData.spType).bg
+                                    background: resolveSpTypeColor(currentOperatorSkills[i]!.levels[currentCombatSkillLevel.value].spData.spType).bg
                                 }"
                                 [valueFieldText]="{
-                                    textValue: resolveSpType(currentOperatorSkills[i]!.levels[currentCombatSkillLevel].spData.spType),
+                                    textValue: resolveSpType(currentOperatorSkills[i]!.levels[currentCombatSkillLevel.value].spData.spType),
                                     textSize: '18px',
                                     textAlign: 'center',
-                                    textColor: resolveSpTypeColor(currentOperatorSkills[i]!.levels[currentCombatSkillLevel].spData.spType).text,
+                                    textColor: resolveSpTypeColor(currentOperatorSkills[i]!.levels[currentCombatSkillLevel.value].spData.spType).text,
                                     fontWeight: '500'
                                 }"
                             ></text-field>
@@ -70,13 +98,13 @@
                                 [valueField]="{
                                     centerChildren: [true],
                                     height: '100%',
-                                    width: (resolveSkillType(currentOperatorSkills[i]!.levels[currentCombatSkillLevel].skillType).length + 5) + 'ch',
+                                    width: (resolveSkillType(currentOperatorSkills[i]!.levels[currentCombatSkillLevel.value].skillType).length + 5) + 'ch',
                                     borderFgMatchBg: true,
                                     border: '1px solid black',
                                     background: '#3F3F3F'
                                 }"
                                 [valueFieldText]="{
-                                    textValue: resolveSkillType(currentOperatorSkills[i]!.levels[currentCombatSkillLevel].skillType),
+                                    textValue: resolveSkillType(currentOperatorSkills[i]!.levels[currentCombatSkillLevel.value].skillType),
                                     textSize: '18px',
                                     textAlign: 'center',
                                     textColor: '#FFFFFF'
@@ -100,15 +128,15 @@
                                 [valueField]="{
                                     centerChildren: [true],
                                     height: '100%',
-                                    width: (currentOperatorSkills[i]!.levels[currentCombatSkillLevel].duration.toString().length + 7) + 'ch',
+                                    width: (resolveSkillDuration(currentOperatorSkills[i]!.levels[currentCombatSkillLevel.value].duration).length + 7) + 'ch',
                                     borderFgMatchBg: true,
                                     border: '1px solid black',
                                     background: '#3F3F3F',
                                     extraCSS: { transition: 'width 0.4s ' + anime.timeFunc.Forceful }
                                 }"
                                 [valueFieldText]="{
-                                    textValue: ' ' + (currentOperatorSkills[i]!.levels[currentCombatSkillLevel].duration.toString() + 's').replace('-1s', '∞').replace(' 0s', 'None').trim(),
-                                    textSize: currentOperatorSkills[i]!.levels[currentCombatSkillLevel].duration === -1 ? '37px' : '18px',
+                                    textValue: resolveSkillDuration(currentOperatorSkills[i]!.levels[currentCombatSkillLevel.value].duration),
+                                    textSize: currentOperatorSkills[i]!.levels[currentCombatSkillLevel.value].duration === -1 ? '37px' : '18px',
                                     textAlign: 'center',
                                     textColor: '#FFFFFF'
                                 }"
@@ -121,15 +149,15 @@
                     <div id="op-skill-desc" class="rel grid transition-all">
                         <div id="op-skill-currentlevel" class="abs grid b0 r0 z0 transition-all">
                             <div class="z0 transition-all" style="background-image: url(/assets/gamedata/img/characters/ui/skillrank/bg.png)"></div>
-                            <div class="z0 transition-all" [style.background-image]="'url(/assets/gamedata/img/characters/ui/skillrank/' + (currentCombatSkillLevel < 7 ? add1(currentCombatSkillLevel) : ('m-' + (currentCombatSkillLevel - 6))) + '.png)'"></div>
+                            <div class="z0 transition-all" [style.background-image]="'url(/assets/gamedata/img/characters/ui/skillrank/' + (currentCombatSkillLevel.value < 7 ? add1(currentCombatSkillLevel.value) : ('m-' + (currentCombatSkillLevel.value - 6))) + '.png)'"></div>
                         </div>
                         <!-- use innerHTML -->
-                        <div id="content" class="z2" [innerHTML]="currentOperatorSkills[i]!.levels[currentCombatSkillLevel]?.description ?? 'The weilder has refused to disclose this art.'"></div>
+                        <div id="content" class="z2" [innerHTML]="sanitizer.bypassSecurityTrustHtml(currentSkillDescription[i])"></div>
                     </div>
                 </div>
                 <div class="skill-bottom-group">
                     <div id="left-section">
-                        <input class="pointer-all" #input type="range" value="0" min="0" [attr.max]="getSkillLevelData(i).length - 1" (input)="handleSkillLevelChange(input, $event)">
+
                     </div>
                     <div id="right-section">
 

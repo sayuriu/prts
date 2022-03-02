@@ -86,12 +86,12 @@ export class OperatorsComponent implements OnInit, OnChanges
 
 	private init(overrideCharID?: string, overrideLocale?: Locales) {
 		const query = overrideCharID ?? this.loadOperator();
-		this.locale = overrideLocale ?? this.getLocale();
-		let [op, _loc] = this.manager.getCharId(query ?? '', this.locale);
-		if (this.locale !== _loc)
+		this.manager.setLocale(overrideLocale ?? this.getLocale());
+		let [op, _loc] = this.manager.getCharId(query ?? '', this.manager.locale);
+		if (this.manager.locale !== _loc)
 		{
 			// this.notif.send('Operators', `Operator ${query} is not available in [${this.locale}], using [${_loc}] instead.`, 'warning', { dynamic: true }, 10000);
-			this.locale = _loc;
+			this.manager.setLocale(_loc);
 		}
 		if (!op && this.router.url.includes('/operators'))
 		{
@@ -125,9 +125,9 @@ export class OperatorsComponent implements OnInit, OnChanges
 		waitAsync(500).then(() => {
 			this.opHeaderData = data;
 			this.opHeaderCNName =
-				this.locale !== 'zh_CN' ?
+				this.manager.locale !== 'zh_CN' ?
 				Object.keys(this.manager.charList.zh_CN!).filter(k => this.manager.charList.zh_CN![k as keyof zh_CN_CharIndex] === this.currentOpId)[0] ?? '' :
-				// this.locale !== 'ja_JP' ?
+				// this.manager.locale !== 'ja_JP' ?
 				// (Object.keys(this.manager.charList.ja_JP!).filter(k => this.manager.charList.ja_JP![k as keyof ja_JP_CharIndex] === this.currentOpId)[0] ?? '') :
 				data.appellation;
 			this.manager.cachedImages.load(`gamedata/img/characters/ui/chara/glow-${data.rarity + 1}.png`, { onExpire: emptyFunc }).then(v => {

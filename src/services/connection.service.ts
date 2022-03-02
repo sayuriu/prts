@@ -5,5 +5,14 @@ import { Injectable } from '@angular/core';
 })
 export class ConnectionService {
 
-  constructor() { }
+    constructor() { }
+    private _connected = false;
+    get online()
+    {
+        return this._connected;
+    }
+    updateStatus(online: boolean)
+    {
+        this._connected = online;
+    }
 }
