@@ -82,9 +82,9 @@ export class OperatorUtilsService {
 	{
 		let out = input;
 		for (const { key, value } of blackboard)
-																			//   match key
-			out = out.replace(new RegExp(`\{(${escapeRegExp(key)})(:0%)?\}`, 'g'), (_1, _2, hasPercentage) => {
-                let num = hasPercentage ?
+																			      //   match key
+			out = out.replace(new RegExp(`\{(${escapeRegExp(key)})(:0(%|.0))?\}`, 'g'), (_1, _2, percentageOrDecimal) => {
+                let num = percentageOrDecimal === ':0%' ?
                     new Number((value * 100).toFixed(2)).valueOf().toString() + '%':
                     new Number(value.toFixed(2)).toString();
                 return `<span class="ak-numeric" key="${key}">${num}</span>`;
