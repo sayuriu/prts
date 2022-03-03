@@ -1,0 +1,37 @@
+::ng-deep {
+    // .ak-term, .ak-color, .ak-numeric
+    .ak-term, .ak-color {
+        background: hsl(0, 0%, 8%);
+    }
+    .ak-numeric {
+        background: hsl(0, 0%, 14%);
+        margin: 0 -0.1ch;
+    }
+    .ak-color {
+        margin: 0 -0.2ch;
+    }
+    .ak-term, ak-term-hover-description {
+        pointer-events: all;
+    }
+
+    // pad compenstation
+    .padcomp {
+        margin: 0 0.2ch;
+    }
+
+    .ak-term {
+        &:hover {
+            ak-term-hover-description {
+                opacity: 1;
+            }
+        }
+        u {
+            pointer-events: all;
+        }
+    }
+    ak-term-hover-description {
+        background: #000;
+        color: white;
+    }
+}
+

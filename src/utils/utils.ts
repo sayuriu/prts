@@ -36,6 +36,8 @@ export function arrayAt<T>(arr: T[], index: number): Nullable<T>
 	return [...new Array(...arr).values()][index] ?? null;
 }
 
+export const escapeRegExp = (input: string) => input.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, '\\$&');
+
 export const emptyFunc = () => {};
 
 export type Undef<T> = T | undefined;
@@ -46,6 +48,8 @@ export type ExcludeProp<T, K extends keyof T> = Pick<T, Exclude<keyof T, K>>;
 
 export type Optional<T> = { [P in keyof T]?: T[P] };
 export type Concrete<T> = { [P in keyof T]-?: T[P] };
+
+export type IndexedCallback<P, R> = (params: P, index: number) => R;
 
 export interface HasDefault<T extends unknown> extends Record<string, unknown>
 {

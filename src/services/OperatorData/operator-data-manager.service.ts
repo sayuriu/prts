@@ -12,6 +12,7 @@ import { JSONLoadService } from '@services/OperatorData/jsonload.service';
 import { join } from '@utils/PathUtils';
 
 import StatsPropMap from '@assets/gamedata/json/StatsPropMap.json';
+import { OpClass, TermDescription } from './op-utils.service';
 
 export type RichColor_zh_CN = typeof import('@assets/gamedata/json/locales/zh_CN/gamedata-const/richTextStyles.json');
 
@@ -319,17 +320,4 @@ export class OperatorDataManagerService {
 				return _class[mainClass] as Record<string, OpClass>;
 		return null;
 	}
-}
-
-interface OpClass {
-	name: string;
-    tl: string;
-	en: string;
-}
-
-interface TermDescription
-{
-    termId: string;
-    termName: string;
-    description: string;
 }

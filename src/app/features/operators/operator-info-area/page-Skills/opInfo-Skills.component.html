@@ -11,7 +11,8 @@
             <!--* Defs: inherits TextField, implements InputField, extendable TextInput, RangeInput -->
             <div
                 id="skilllevel-control"
-                class="flex flex-row abs t0 a-flex-center a-self-center"
+                class="flex flex-row a-flex-center a-self-center z5"
+                style="position: fixed; top: 215px"
             >
                 <div id="label">
                     <p>SKILL_LEVEL</p>
@@ -57,7 +58,8 @@
                                     height: '100%',
                                     width: '108px',
                                     borderMatrixOverride: ['', '0', '', ''],
-							        border: '1px solid black'
+							        border: '1px solid black',
+                                    background: '#c4c4c4'
                                 }"
                                 [labelFieldText]="{
                                     textValue: 'SP Charge',
@@ -88,7 +90,8 @@
                                     height: '100%',
                                     width: '88px',
                                     borderMatrixOverride: ['', '0', '', ''],
-							        border: '1px solid black'
+							        border: '1px solid black',
+                                    background: '#c4c4c4'
                                 }"
                                 [labelFieldText]="{
                                     textValue: 'Trigger',
@@ -118,7 +121,8 @@
                                     height: '100%',
                                     width: '97px',
                                     borderMatrixOverride: ['', '0', '', ''],
-							        border: '1px solid black'
+							        border: '1px solid black',
+                                    background: '#c4c4c4'
                                 }"
                                 [labelFieldText]="{
                                     textValue: 'Duration',
@@ -152,7 +156,7 @@
                             <div class="z0 transition-all" [style.background-image]="'url(/assets/gamedata/img/characters/ui/skillrank/' + (currentCombatSkillLevel.value < 7 ? add1(currentCombatSkillLevel.value) : ('m-' + (currentCombatSkillLevel.value - 6))) + '.png)'"></div>
                         </div>
                         <!-- use innerHTML -->
-                        <div id="content" class="z2" [innerHTML]="sanitizer.bypassSecurityTrustHtml(currentSkillDescription[i])"></div>
+                        <div id="content" class="z2 transition-all inline-blk" [innerHTML]="sanitizer.bypassSecurityTrustHtml(currentSkillDescriptions[i])"></div>
                     </div>
                 </div>
                 <div class="skill-bottom-group">
@@ -163,8 +167,11 @@
 
                     </div>
                 </div>
+                <div id="test-dummy" class="transition-all" style="width: auto; height: 400px; background-color: #373737; margin: 21px 15px 15px 15px; text-align: center; font-size: 50px">TEST</div>
             </button>
         </div>
     </div>
-    <div id="infra-skills" class="fw rel odd z1"></div>
+    <div id="infra-skills" class="fw rel odd z1">
+
+    </div>
 </div>

@@ -46,7 +46,7 @@
                 .skill-cnt-title {
                     color:hsla(0, 0%, 0%, .4);
                     font-size: 75px;
-                    margin-right: 10px;
+                    margin: 10px 10px 0 0;
                     line-height: 80px;
                 }
                 #op-skill-img {
@@ -117,10 +117,15 @@
     transition-delay: 0.15s;
 }
 .skill-desc { margin: 0 15px 15px 15px; }
+//?
+#test-dummy,
+//?
 #op-skill-desc {
     background-color: hsl(0, 0%, 25%);
+    padding-right: 30px;
     opacity: 0;
     #content {
+        background-color: transparent;
         padding: 22px 11px 21px 24px;
         text-align: left;
         font-size: 20px;
@@ -128,7 +133,7 @@
     }
 }
 #op-skill-currentlevel {
-    grid-template: 80px / 80px;
+    grid-template: 70px / 70px;
     overflow: hidden;
     transition-timing-function: $forceful;
     transition:
@@ -138,7 +143,7 @@
         opacity: 0;
         transform: translateX(15px);
         aspect-ratio: 1;
-        height: 80px;
+        height: 70px;
         grid-row-start: 1;
         grid-column-start: 1;
         z-index: 0;
@@ -161,8 +166,15 @@
         transform: translateX(0);
         transition-delay: 0.3s;
     }
+    //?
+    #test-dummy,
+    //?
     #op-skill-desc {
         opacity: 1;
+        #content {
+            background-color: hsla(0, 0%, 22%, .3);
+            transition-delay: 0.5s;
+        }
     }
     #op-skill-currentlevel {
         opacity: .7;

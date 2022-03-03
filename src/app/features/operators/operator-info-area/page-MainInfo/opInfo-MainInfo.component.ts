@@ -10,6 +10,7 @@ import Gender_Male from '@assets/gamedata/json/tl-data/gender/男.json';
 import Gender_Female from '@assets/gamedata/json/tl-data/gender/女.json';
 import Gender_Conviction from '@assets/gamedata/json/tl-data/gender/断罪.json'
 import { AnimManagerService } from '@services/anim-manager.service';
+import { OperatorUtilsService } from '@services/OperatorData/op-utils.service';
 // import { trigger, transition, style, stagger, animate, query } from '@angular/animations';
 // import { AnimationFunctions } from '@utils/anims';
 
@@ -40,7 +41,8 @@ export class OpMainInfoComponent implements OnInit {
 	constructor(
 		private manager: OperatorDataManagerService,
         private sanitizer: DomSanitizer,
-        private animManager: AnimManagerService
+        private animManager: AnimManagerService,
+        private opUtils: OperatorUtilsService
     ) { }
 
 
@@ -99,6 +101,7 @@ export class OpMainInfoComponent implements OnInit {
 		this.formatClassName();
 		this.processAvailableTLData();
 		this.resolveTrustDiff();
+        this.opUtils.updateHoverDescListeners();
 	}
 
 	async formatClassName()

@@ -10,6 +10,7 @@ import { version } from '@utils/package';
 import type { BrowserWindow } from '@interfaces/common';
 import { getURLWithoutParams } from '@utils/PathUtils';
 import { isFullScreen } from '@utils/utils';
+import { PopupService } from '../services/popup.service';
 
 
 @Component({
@@ -27,11 +28,13 @@ export class AppComponent implements OnInit {
 			// private errorService: ErrorService,
 			public router: Router,
 			private notif: NotifService,
-            private connection: ConnectionService,
+            public connection: ConnectionService,
+            public popup: PopupService
 		)
 	{}
 
 	ngOnInit() {
+        this.popup.content
 		OverlayUtils.removeLoadStatus();
 		(window as BrowserWindow).__env.AppVersion = version;
 		this.router.malformedUriErrorHandler = (e, serializer, url) => {

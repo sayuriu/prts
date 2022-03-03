@@ -1,14 +1,16 @@
 import { Component, OnChanges, OnInit, SimpleChanges } from '@angular/core';
 import { Router } from '@angular/router';
+import { DomSanitizer } from '@angular/platform-browser';
 
+import { AvailableLocales, Locales } from '@struct/Basic';
 import { AppearDisappear } from '@utils/anims';
 import { emptyFunc, Nullable, waitAsync } from '@utils/utils';
 import { en_US_CharIndex, ja_JP_CharIndex, OperatorDataManagerService, zh_CN_CharIndex } from '@services/OperatorData/operator-data-manager.service';
 import { NotifService } from '@services/notif.service';
-import { AvailableLocales, Locales } from '@struct/Basic';
 import { OperatorHeaderData } from './operator-info-area/operator-info-area.component';
-import { DomSanitizer } from '@angular/platform-browser';
 import { JSONLoadService } from '@services/OperatorData/jsonload.service';
+import { PopupService } from '@services/popup.service';
+import { OperatorUtilsService } from '@services/OperatorData/op-utils.service';
 
 const anim_AppearDisappear = AppearDisappear();
 @Component({
@@ -28,7 +30,8 @@ export class OperatorsComponent implements OnInit, OnChanges
 		private manager: OperatorDataManagerService,
 		private notif: NotifService,
 		private json: JSONLoadService,
-		private sanitizer: DomSanitizer
+		private sanitizer: DomSanitizer,
+        private opUtils: OperatorUtilsService
 	) {}
 
 	headerString!: string;
@@ -37,9 +40,6 @@ export class OperatorsComponent implements OnInit, OnChanges
 	uiAlignmentState!: 'default' | 'fullInfo' | 'fullImg';
 
 	ngOnInit(): void {
-		// //@ts-ignore
-		// globalThis.__prts_opInterface__ = this;
-
 		if (this.manager.isLoaded)
 			this.init();
 		else
@@ -78,11 +78,6 @@ export class OperatorsComponent implements OnInit, OnChanges
         this.UISlow = true;
         this.UIExpanded = !this.UIExpanded;
     }
-
-	// loadChar(currentOpId: string, locale: Locales)
-	// {
-	// 	this.init(currentOpId, locale);
-	// }
 
 	private init(overrideCharID?: string, overrideLocale?: Locales) {
 		const query = overrideCharID ?? this.loadOperator();
@@ -162,7 +157,7 @@ export class OperatorsComponent implements OnInit, OnChanges
 			this.opInfoUIVisible = false;
 			await waitAsync(1000);
 			this.setCurrentOpId(opId);
-			this.pickerUIVisible = true
+			this.pickerUIVisible = true;
 		}
 	}
 

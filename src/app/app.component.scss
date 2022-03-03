@@ -1,6 +1,12 @@
+@import '../arknights';
+
 .router {
 	position: relative;
 }
 #TopLevelUI {
 	z-index: 999;
+}
+pop-up-container {
+    z-index: 1000;
+    opacity: 0;
 }

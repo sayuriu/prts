@@ -7,6 +7,7 @@ import { AnimationFunctions } from '@utils/anims';
 import { Nullable, waitAsync } from '@utils/utils';
 import { Title, Meta } from '@angular/platform-browser';
 import { CharCombatSkill } from '@struct/Operator/DetailedSkill';
+import { OperatorUtilsService } from '@services/OperatorData/op-utils.service';
 
 @Component({
 	selector: 'app-operator-info-area',
@@ -91,6 +92,7 @@ export class OperatorInfoAreaComponent implements OnInit, OnChanges
 	constructor(
 		private manager: OperatorDataManagerService,
 		private title: Title,
+        private opUtils: OperatorUtilsService
 	) { }
 
 	@Input() opId!: string;
@@ -107,7 +109,8 @@ export class OperatorInfoAreaComponent implements OnInit, OnChanges
 			this.menuVisible = true;
 			this.pagesVisible = true;
 			await waitAsync(600);
-			this.setMenuIndex(0);
+			this.setMenuIndex(1);
+            this.opUtils.updateHoverDescListeners();
 		});
 	}
 	ngOnChanges(changes: SimpleChanges): void {
