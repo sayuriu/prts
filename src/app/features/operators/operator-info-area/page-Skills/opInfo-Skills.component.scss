@@ -1,5 +1,9 @@
 @import '../../../../../anims';
 
+p {
+    font-size: 18px;
+}
+
 .transition-all {
     transition: all 0.5s $forceful;
 }
@@ -20,13 +24,16 @@
     #skill-list {
         padding: 40px 22px 35px 22px;
         .skill {
+            & > * {
+                @extend .transition-all;
+            }
             min-height: 80px;
             max-height: 80px;
             margin: 0 6px 0 13px;
             background-color: hsla(0, 0%, 13%, .7);
             transition:
                 all 0.5s $forceful,
-                max-height 0.4s $forceful,
+                max-height 0.6s $forceful,
                 background-color 0.5s $forceful;
             #op-skill-img {
                 float: left;
@@ -40,7 +47,7 @@
             }
             &.current {
                 background-color: hsl(0, 0%, 78%);
-                max-height: 750px;
+                max-height: 900px;
                 margin: 0;
                 // transition-delay: 0, 0.5s, 0;
                 .skill-cnt-title {
@@ -72,6 +79,20 @@
     input {
         width: 260px;
         align-self: center;
+
+        &::-webkit-slider-thumb,
+        &::-moz-range-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            display: inline-block;
+
+            background: rgb(114, 14, 14);
+            height: 16px;
+            width: 16px;
+            border-radius: 0;
+            transform-origin: center;
+            transform: rotate(45deg);
+        }
     }
     #level {
         aspect-ratio: 1;
@@ -116,9 +137,12 @@
     transform: translateX(15px);
     transition-delay: 0.15s;
 }
-.skill-desc { margin: 0 15px 15px 15px; }
+.skill-desc,
+.skill-params,
+.skill-bottom-group { margin: 0 15px 15px 15px; }
+
 //?
-#test-dummy,
+
 //?
 #op-skill-desc {
     background-color: hsl(0, 0%, 25%);
@@ -129,6 +153,7 @@
         padding: 22px 11px 21px 24px;
         text-align: left;
         font-size: 20px;
+        font-style: italic;
         color: white;
     }
 }
@@ -150,8 +175,62 @@
         background-size: contain;
     }
 }
+.skill-params {
+    button { border: 1px inset #000; }
+    svg {
+        aspect-ratio: 139 / 78;
+        height: 12px;
+        width: 44px;
+    }
+}
+.param-list {
+    .param-item.hoverable {
+        .param-key p:not(.param-desc) {
+            text-decoration: underline;
+        }
+        &:hover {
+            background-color: hsl(0, 0%, 7%);
+            .param-desc {
+                max-height: 40px;
+            }
+        }
+    }
+    .param-key {
+        color: hsl(0, 0%, 56%);
+        margin-left: 25px;
+        .param-desc {
+            max-height: 0;
+        }
+    }
+    .param-var {
+        margin-right: 25px;
+        color: hsl(135, 87%, 50%);
+    }
+    .param-var[negative]
+    {
+        color: hsl(0, 88%, 50%);
+    }
+    .param-item:first-child {
+        padding-top: 8px;
+    }
+    .param-item:last-child {
+        padding-bottom: 8px;
+    }
+}
+#skill-range {
+    min-height: 256px;
+    min-width: 280px;
+    border: 1px inset hsl(0, 0%, 0%);
+    p[placeholder]
+    {
+        margin: 8px 20px;
+    }
+}
 
 #skill-list .skill.visible {
+    & > * {
+        opacity: 1;
+    }
     #op-skill-name {
         opacity: 1;
         font-style: normal;
@@ -167,23 +246,26 @@
         transition-delay: 0.3s;
     }
     //?
-    #test-dummy,
+    .skill-params,
     //?
     #op-skill-desc {
         opacity: 1;
         #content {
-            background-color: hsla(0, 0%, 22%, .3);
             transition-delay: 0.5s;
         }
     }
     #op-skill-currentlevel {
         opacity: .7;
+        div {
+            opacity: 1;
+            transform: translateX(0);
+            transition:
+                all 0.5s 0.5s,
+                background-image 0.5s 0s;
+        }
     }
-    #op-skill-currentlevel div {
+    .skill-bottom-group {
         opacity: 1;
-        transform: translateX(0);
-        transition:
-            all 0.5s 0.5s,
-            background-image 0.5s 0s;
+
     }
 }

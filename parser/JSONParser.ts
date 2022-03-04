@@ -190,6 +190,7 @@ function parseRangeData(src: string, dest: string)
 		tracker.increment();
 	}
 	Logger.info(header, `${Logger.green(tracker.count)} entries parsed.`);
+    writeJSON(joinPaths(dest, _base, 'allRanges.json'), ranges);
 }
 
 function parseGamedataConst(src: string, dest: string, ...keys: string[])

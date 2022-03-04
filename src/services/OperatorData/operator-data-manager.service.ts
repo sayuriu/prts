@@ -13,8 +13,12 @@ import { join } from '@utils/PathUtils';
 
 import StatsPropMap from '@assets/gamedata/json/StatsPropMap.json';
 import { OpClass, TermDescription } from './op-utils.service';
+import { AttackRange } from '../../../parser/struct/Operator/AttackRange';
+
+export type ParamDesc = typeof import('@assets/gamedata/json/tl-data/effects.json');
 
 export type RichColor_zh_CN = typeof import('@assets/gamedata/json/locales/zh_CN/gamedata-const/richTextStyles.json');
+export type RangeTables_zh_CN = typeof import('@assets/gamedata/json/locales/zh_CN/ranges/allRanges.json');
 
 export type en_US_CharIndex = typeof import('@assets/gamedata/json/locales/en_US/charnameLinkID.json');
 export type ja_JP_CharIndex = typeof import('@assets/gamedata/json/locales/ja_JP/charnameLinkID.json');
@@ -77,6 +81,9 @@ export class OperatorDataManagerService {
 	private _charList!: CharData;
     private _locale: Locales = 'en_US';
     private richTextStyles!: Nullable<RichColor_zh_CN>;
+    private ranges!: Nullable<RangeTables_zh_CN>;
+    private paramDesc!: Nullable<ParamDesc>;
+
 	readonly imagePath = 'gamedata/img';
 	readonly statPropMap = StatsPropMap;
 
@@ -85,6 +92,12 @@ export class OperatorDataManagerService {
         return this._charList;
     }
 
+    setLocale(locale: Locales) {
+        this._locale = locale;
+    }
+    get locale() {
+        return this._locale;
+    }
 	constructor(
 		public cachedImages: ImageDataService,
 		private JSONAssets: JSONLoadService
@@ -109,13 +122,10 @@ export class OperatorDataManagerService {
 				};
 			});
         this.loadRichTextStyles();
+        this.loadRanges();
+        this.loadParamDesc();
 	}
-    setLocale(locale: Locales) {
-        this._locale = locale;
-    }
-    get locale() {
-        return this._locale;
-    }
+
 	private async loadAssets()
 	{
 		console.log('Loading operator index...');
@@ -140,6 +150,31 @@ export class OperatorDataManagerService {
             this.richTextStyles = null;
         }
     }
+    private async loadRanges()
+    {
+        console.log('Loading ranges...');
+        try {
+            this.ranges = await import('@assets/gamedata/json/locales/zh_CN/ranges/allRanges.json').then(getDefault);
+            console.log('Ranges loaded.');
+        }
+        catch (e) {
+            console.error('Failed to load atk range data!');
+            this.ranges = null;
+        }
+    }
+    private async loadParamDesc()
+    {
+        console.log('Loading param notes...');
+        try {
+            this.paramDesc = await import('@assets/gamedata/json/tl-data/effects.json').then(getDefault);
+            console.log('Param notes loaded.');
+        }
+        catch (e) {
+            console.error('Failed to load param notes!');
+            this.paramDesc = null;
+        }
+    }
+
 	getCharId(charName: string, preferredLocale = this.locale): [Nullable<string>, Locales]
 	{
         //TODO
@@ -238,6 +273,24 @@ export class OperatorDataManagerService {
         }) as Nullable<Record<string, TermDescription>>;
         return res ?? {};
     }
+    getRangeData(rangeId: string): Nullable<AttackRange>
+    {
+        if (this.ranges && rangeId in this.ranges)
+            return this.ranges[rangeId as keyof RangeTables_zh_CN];
+        return null;
+    }
+    getRichTextStyles(tag: string): Nullable<string>
+    {
+        if (this.richTextStyles && tag in this.richTextStyles)
+            return this.richTextStyles[tag as keyof RichColor_zh_CN];
+        return null;
+    }
+    getParamDesc(param: string): Nullable<string> {
+        if (this.paramDesc && param in this.paramDesc)
+            return this.paramDesc[param as keyof ParamDesc];
+        return null;
+    }
+
 	async loadOpImages(charId: string, type: 'avatars' | 'portraits' | 'full', id?: string, ex?: boolean): NullablePromise<Blob>
 	async loadOpImages(charId: CHAR_NAME, type: 'avatars' | 'portraits' | 'full', id?: string, ex = false): NullablePromise<Blob>
 	{
@@ -259,12 +312,7 @@ export class OperatorDataManagerService {
 	{
 		return await this.JSONAssets.load(`tl-data/human_resource/${charNameCN}.json`, { onExpire: emptyFunc });
 	}
-    getRichTextStyles(tag: string)
-    {
-        if (this.richTextStyles && tag in this.richTextStyles)
-            return this.richTextStyles[tag as keyof RichColor_zh_CN];
-        return null;
-    }
+
 	resolveTrustData(trustStatsData: Operator['favorKeyFrames'])
 	{
 		let out: Optional<CharTrustAttributes> = {};

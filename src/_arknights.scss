@@ -11,7 +11,7 @@
         margin: 0 -0.2ch;
     }
     .ak-term, ak-term-hover-description {
-        pointer-events: all;
+
     }
 
     // pad compenstation
@@ -19,12 +19,20 @@
         margin: 0 0.2ch;
     }
 
+    span.term-padcomp {
+        padding: 12px 0;
+        pointer-events: all;
+    }
+    span.ak-term {
+        padding: -12px 0;
+    }
+
     .ak-term {
-        &:hover {
-            ak-term-hover-description {
-                opacity: 1;
-            }
-        }
+        // &:hover {
+        //     ak-term-hover-description {
+        //         opacity: 1;
+        //     }
+        // }
         u {
             pointer-events: all;
         }

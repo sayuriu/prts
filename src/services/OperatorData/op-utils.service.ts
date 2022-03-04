@@ -2,8 +2,9 @@ import { Injectable } from '@angular/core';
 import { PopupService } from '@services/popup.service';
 
 import { BlackboardItem } from '@struct/Operator/BlackBoardItem';
-import { IndexedCallback, escapeRegExp } from '@utils/utils';
+import { IndexedCallback, escapeRegExp, bindEventListeners, padArray } from '@utils/utils';
 import { OperatorDataManagerService } from './operator-data-manager.service';
+import { AttackRange } from '../../../parser/struct/Operator/AttackRange';
 
 @Injectable({
   providedIn: 'root'
@@ -51,11 +52,11 @@ export class OperatorUtilsService {
 			const term = termDescriptionDict[tag];
 			if (term)
 				out = [
-                    '<span ',
+                    '<span class="term-padcomp"><span ',
                         `id="${term.termId.replace(/\./g, '-')}" termId="${term.termId}" name="${term.termName}" description="${term.description}" `,
                         'class="ak-term rel">',
                         `<u class="cur-help">${out}</u>`,
-                    '</span>'
+                    '</span></span>'
                 ].join('');
 			return out;
 		})
@@ -83,7 +84,7 @@ export class OperatorUtilsService {
 		let out = input;
 		for (const { key, value } of blackboard)
 																			      //   match key
-			out = out.replace(new RegExp(`\{(${escapeRegExp(key)})(:0(%|.0))?\}`, 'g'), (_1, _2, percentageOrDecimal) => {
+			out = out.replace(new RegExp(`\{(${escapeRegExp(key)})(:0(%|\.0f?))?\}`, 'g'), (_1, _2, percentageOrDecimal) => {
                 let num = percentageOrDecimal === ':0%' ?
                     new Number((value * 100).toFixed(2)).valueOf().toString() + '%':
                     new Number(value.toFixed(2)).toString();
@@ -91,6 +92,13 @@ export class OperatorUtilsService {
 			});
         return out;
 	}
+
+    sortBlackboard(blackboard: BlackboardItem[])
+    {
+        return blackboard.sort((a, b) => {
+            return a.key.localeCompare(b.key);
+        })
+    }
     createHoverDescription(term: TermDescription)
     {
         if (!term) return '';
@@ -106,44 +114,78 @@ export class OperatorUtilsService {
     }
     updateHoverDescListeners()
     {
-        const match = document.querySelectorAll('.ak-term[id][name] u');
+        return;
+        //!
+        //TODO
+        const match = document.querySelectorAll('span.term-padcomp');
         for (let i = 0; i < match.length; i++)
             this.toolTipListener(match[i] as HTMLElement);
     }
     toolTipListener(element: HTMLElement)
     {
-        const refThis = this;
-        element.addEventListener('mouseenter', function(ev) {
-            console.log(ev);
-            const { x: srcX, y: srcY, width: srcWidth, height: srcHeight } = this.getBoundingClientRect();
-            const [x, y] = determinePosition(srcX, srcY, srcWidth, srcHeight);
-            refThis.popUp.display(
-                refThis.createHoverDescription({
-                    description: this.getAttribute('description') as string,
-                    termName: this.getAttribute('name') as string,
-                    termId: this.getAttribute('id') as string,
-                }),
-                {
-                    x,
-                    y
-                },
-            )
-        });
-        element.addEventListener('mouseleave', function(ev) {
-            console.log(ev);
-            refThis.popUp.clear();
-        });
+        //!
+        //TODO
+//         const refThis = this;
+//
+//         const onLeave = function(this: HTMLElement, ev: MouseEvent) {
+//             console.log("leave")
+//             // element.removeEventListener("mouseleave", onLeave)
+//         }
+//
+//         const onEnter = function(this: HTMLElement, ev: Event) {
+//             console.log("enter");
+//             // element.addEventListener("mouseleave", onLeave)
+//         }
+//
+//         element.addEventListener("mouseleave", onLeave);
+//         element.querySelector('u')?.addEventListener("mouseenter", onEnter);
+
     }
 }
 
-function determinePosition(x: number, y: number, width: number, height: number) {
+function createRangeTable(range: AttackRange, extend?: AttackRange['grids'])
+{
+    const coordinates = new Map<number, number[]>();
+    for (const { row, col } of range.grids)
+    {
+        if (coordinates.has(row))
+            coordinates.get(row)!.push(col);
+        else
+            coordinates.set(row, [col]);
+    }
+    const bias = Math.abs(Math.min(...coordinates.keys()));
+    const shiftedCoordinates = new Map<number, number[]>();
+    [...coordinates.keys()].forEach(key => {
+        const newKey = key + bias;
+        shiftedCoordinates.set(newKey, coordinates.get(key)!);
+    });
+
+    let out: (null | number)[][] = [];
+    for (const [row, cols] of shiftedCoordinates)
+    {
+        out[row] = [];
+        for (const col of cols)
+            out[row][col] = 1;
+        out[row] = padArray(out[row], null);
+    }
+    if (extend)
+        for (const { row, col } of extend)
+            out[row + bias][col] = 2;
+    out = padArray(out, null);
+    return out;
+}
+
+function determinePosition(x: number, y: number, width: number, height: number) : [number, boolean][]
+{
     let _x: number, _y: number;
     const intrusionX = x + width;
     const intrusionY = y + height;
     const { innerWidth, innerHeight } = window;
-    _y = (intrusionY / innerHeight > .5 ) ? (y - 5) : (y + height + 5);
+
+    const lowerHalf = (intrusionY / innerHeight > .5);
+    _y = lowerHalf ? (y - 5) : (y + height + 5);
     _x = x;
-    return [_x, _y];
+    return [[_x, false], [_y, lowerHalf]];
 }
 
 

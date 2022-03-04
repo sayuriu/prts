@@ -15,15 +15,22 @@ export class PopupService {
     }
     visible = false;
     content: SafeHtml = {};
-    initTransform = 'translate(0, 0)';
+    private _initTransform = 'translate(0, 0)';
+    get initTransform() { return this._initTransform; }
+    set initTransform(value: string) {
+        this._initTransform = value;
+    }
+
     display(content: string, location: AbsoluteLocation, axis: 'h' | 'v' = 'h')
     {
+        console.log('display', this);
         this.location = location;
         this.content = this.sanitizer.bypassSecurityTrustHtml(content);
         this.visible = true;
     }
     clear()
     {
+        console.log('clear', this);
         this.visible = false;
         this.content = '';
     }

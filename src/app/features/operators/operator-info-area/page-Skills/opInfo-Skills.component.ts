@@ -34,7 +34,7 @@ implements OnInit, OnChanges, AfterViewChecked {
 	constructor(
         public anime: AnimManagerService,
         public sanitizer: DomSanitizer,
-        private manager: OperatorDataManagerService,
+        public manager: OperatorDataManagerService,
         private opUtils: OperatorUtilsService
     ) {
         super();
@@ -54,6 +54,7 @@ implements OnInit, OnChanges, AfterViewChecked {
     changingSkill = false;
     async setCurrentSkill(newIndex: number) {
         if (this.currentSkillIndex === newIndex) return;
+        // if (this.skillParamsVisible) this.toggleSkillParams();
         this.changingSkill = true;
         this.removeFocus(this.currentFocus);
         await waitAsync(300);
@@ -85,8 +86,27 @@ implements OnInit, OnChanges, AfterViewChecked {
         // console.log(changes);
     }
 
+    viewUpdated = false;
     ngAfterViewChecked(): void {
+        // console.log('ngAfterViewChecked');
+        if (this.viewUpdated) return;
         this.opUtils.updateHoverDescListeners();
+        this.viewUpdated = true;
+        setTimeout(() => this.viewUpdated = false, 200);
+    }
+
+    sortSkillBlackboard(skill: Nullable<CharCombatSkill>) {
+        if (!skill?.levels?.length) return [];
+        return skill.levels[this.currentCombatSkillLevel.value].blackboard.sort((a, b) => {
+            if (a.key < b.key) return -1;
+            if (a.key > b.key) return 1;
+            return 0;
+        });
+    }
+
+    skillParamsVisible = false;
+    toggleSkillParams() {
+        this.skillParamsVisible = !this.skillParamsVisible;
     }
 
     currentSkillDescriptions!: string[];
@@ -107,9 +127,23 @@ implements OnInit, OnChanges, AfterViewChecked {
     }
 
 
-    handleSkillLevelChange(input: any, event: any)
+    handleSkillLevelChange(input: HTMLInputElement, event?: Event)
     {
-        this.currentCombatSkillLevel.setValue(this.parseNumber(input.value));
+        console.log('skillLevelUpdate');
+        if (event instanceof WheelEvent)
+        {
+            if (event.deltaY < 0)
+            {
+                if (this.currentCombatSkillLevel.value + 1 > this.currentOperatorSkills[this.currentSkillIndex]!.levels.length - 1) return;
+                this.currentCombatSkillLevel.setValue(this.currentCombatSkillLevel.value + 1);
+            }
+            else if (event.deltaY > 0)
+            {
+                if (this.currentCombatSkillLevel.value - 1 < 0) return;
+                this.currentCombatSkillLevel.setValue(this.currentCombatSkillLevel.value - 1);
+            }
+        }
+        else this.currentCombatSkillLevel.setValue(input.valueAsNumber);
         this.updateSkillDescription();
     }
 

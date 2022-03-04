@@ -32,7 +32,7 @@ export abstract class CacheXMLBasedService<E>
                     // console.error(e);
                     reject(e);
                 });
-		})
+		});
 	}
 	protected abstract save(path: string, data: E, timeout?: number, onExpire?: (data: Entity<E>) => void): void;
 	protected abstract save(id  : string, data: E, timeout?: number, onExpire?: (data: Entity<E>) => void): void;
@@ -58,6 +58,7 @@ export abstract class CacheXMLBasedService<E>
 	protected _renew(id: string)
 	{
 		const existSession = this._cache.get(id);
+        if (!existSession) return false;
 		if (existSession?.timeoutId)
 			clearTimeout(existSession.timeoutId);
 		this._cache.set(
@@ -75,6 +76,7 @@ export abstract class CacheXMLBasedService<E>
 				existSession
 			)
 		);
+        return true;
 	}
 }
 

@@ -48,6 +48,8 @@
 .overflow-none-x { overflow-x: hidden }
 .overflow-auto { overflow: auto }
 
+.txt-algn-left { text-align: left }
+
 .inline { display: inline }
 .inline-flex { display: inline-flex }
 .inline-blk { display: inline-block }
@@ -84,6 +86,8 @@
 .cur-pointer { cursor: pointer }
 .cur-default { cursor: default }
 .cur-help { cursor: help }
+.cur-resize-ew { cursor: ew-resize }
+.cur-resize-ns { cursor: ns-resize }
 
 .float-l { float: left }
 .float-r { float: right }

@@ -19,13 +19,14 @@
                 </div>
                 <div>
                     <input
-                        class="pointer-all"
+                        class="pointer-all cur-resize-ns"
                         #input
                         type="range"
                         min="0"
                         [attr.max]="(currentOperatorSkills[currentSkillIndex]?.levels ?? []).length - 1"
                         [attr.value]="currentCombatSkillLevel.value"
-                        (input)="handleSkillLevelChange(input, $event)"
+                        (input)="handleSkillLevelChange(input)"
+                        (mousewheel)="handleSkillLevelChange(input, $event)"
                     >
                 </div>
                 <div id="level" class="grid fh">
@@ -159,15 +160,49 @@
                         <div id="content" class="z2 transition-all inline-blk" [innerHTML]="sanitizer.bypassSecurityTrustHtml(currentSkillDescriptions[i])"></div>
                     </div>
                 </div>
-                <div class="skill-bottom-group">
+                <div class="skill-params flex flex-col o0"
+                    *ngIf="currentOperatorSkills[i]!.levels[currentCombatSkillLevel.value]?.blackboard?.length"
+                >
+                    <button class="flex j-flex-space-between pointer-all cur-pointer" (click)="toggleSkillParams()">
+                        <p style="padding-left: 10px; margin: 4px">Parameters</p>
+                        <svg
+                            class="a-self-center transition-all"
+                            width="139" height="78" viewBox="0 0 139 78"
+                            fill="none" xmlns="http://www.w3.org/2000/svg"
+                            [style.transform]="skillParamsVisible ? 'rotate(180deg)' : 'rotate(0deg)'">
+                        >
+                            <rect x="0.109127" y="8.59441" width="12" height="97.9754" transform="rotate(-45 0.109127 8.59441)" fill="#000000"/>
+                            <rect x="130.296" width="12" height="98" transform="rotate(45 130.296 0)" fill="#000000"/>
+                        </svg>
+                    </button>
+                    <div
+                        class="param-list transition-all flex flex-col fw overflow-hidden"
+                        style = "background-color: hsl(0, 0%, 13%); gap: 9px;"
+                        [style.maxHeight]="skillParamsVisible ? (((currentOperatorSkills[i]!.levels[currentCombatSkillLevel.value]?.blackboard?.length ?? 0) * 32 + 35) + 'px') : '0'"
+                    >
+                        <div
+                            class="param-item flex flex-row j-flex-space-between transition-all"
+                            [ngClass]="{ 'cur-help hoverable pointer-all': manager.getParamDesc(blackboardItem.key) }"
+                            *ngFor="let blackboardItem of sortSkillBlackboard(currentOperatorSkills[i])"
+                        >
+                            <div class="param-key flex flex-col">
+                                <p class="no-margin txt-algn-left">{{blackboardItem.key}}</p>
+                                <p class="param-desc no-margin transition-all overflow-hidden txt-algn-left" style="color:#fff" *ngIf="manager.getParamDesc(blackboardItem.key)">{{manager.getParamDesc(blackboardItem.key)}}</p>
+                            </div>
+                            <p class="no-margin param-var" [attr.negative]="blackboardItem.value < 0 ? '' : null">{{blackboardItem.value > 0 ? '+' : ''}}{{blackboardItem.value}}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-bottom-group o0">
                     <div id="left-section">
-
+                        <div id="skill-range" class="rel">
+                            <p placeholder class="abs t0 l0">Range</p>
+                        </div>
                     </div>
                     <div id="right-section">
 
                     </div>
                 </div>
-                <div id="test-dummy" class="transition-all" style="width: auto; height: 400px; background-color: #373737; margin: 21px 15px 15px 15px; text-align: center; font-size: 50px">TEST</div>
             </button>
         </div>
     </div>
