@@ -6,9 +6,10 @@
 <pop-up-container
     class="abs transition-all"
     [ngStyle]="{
-        top: popup.location.x,
-        left: popup.location.y,
-        opacity: popup.visible ? 1 : 0,
-        transform: popup.visible ? 'translate(0) scale(1)' : popup.initTransform
+        top: popup.location.value.y + 'px',
+        left: popup.location.value.x + 'px',
+        opacity: popup.visible.value ? 1 : 0,
+        transform: popup.visible.value ? 'translate(0) scale(1)' : popup.initTransform.value
     }"
+    [innerHTML]="popup.content.value"
 ></pop-up-container>

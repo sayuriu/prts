@@ -5,6 +5,7 @@ import { NotifService } from '@services/notif.service';
 import { ThemeMangerService } from '@services/theme-manger.service';
 import { getURLWithoutParams } from '@utils/PathUtils';
 import { AllowedURLParams, AllowedURLParamMap } from '@utils/URLParams';
+import { isFullScreen } from '@utils/utils';
 
 const generateTimeString = () => `://${new Date().toISOString().substring(0, 21)}`;
 
@@ -29,7 +30,7 @@ export class TopLevelUIComponent implements OnInit {
 	ngOnInit() {
 		this.StartClock();
 		this.startRouteListener();
-		window.addEventListener('resize', () => this.isFullScreen = window.innerWidth === window.screen.width && window.innerHeight === window.screen.height);
+		window.addEventListener('resize', () => this.isFullScreen = isFullScreen());
 	}
 	private StartClock() {
 		this.ActiveClockInv = setInterval(() => this.currentTime = generateTimeString()) as unknown as number;

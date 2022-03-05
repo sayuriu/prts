@@ -4,10 +4,6 @@ p {
     font-size: 18px;
 }
 
-.transition-all {
-    transition: all 0.5s $forceful;
-}
-
 #container {
     #combat-skills {
         background-color: hsl(0, 0%, 46%);
@@ -184,15 +180,23 @@ p {
     }
 }
 .param-list {
-    .param-item.hoverable {
-        .param-key p:not(.param-desc) {
-            text-decoration: underline;
-        }
-        &:hover {
-            background-color: hsl(0, 0%, 7%);
-            .param-desc {
-                max-height: 40px;
+    .param-item {
+        &.hoverable {
+            .param-key p:not(.param-desc) {
+                text-decoration: underline;
             }
+            &:hover {
+                background-color: hsl(0, 0%, 7%);
+                .param-desc {
+                    max-height: 40px;
+                }
+            }
+        }
+        &:first-child {
+            padding-top: 8px;
+        }
+        &:last-child {
+            padding-bottom: 8px;
         }
     }
     .param-key {
@@ -204,17 +208,13 @@ p {
     }
     .param-var {
         margin-right: 25px;
-        color: hsl(135, 87%, 50%);
-    }
-    .param-var[negative]
-    {
-        color: hsl(0, 88%, 50%);
-    }
-    .param-item:first-child {
-        padding-top: 8px;
-    }
-    .param-item:last-child {
-        padding-bottom: 8px;
+        color: #fff;
+        &.positive {
+            color: hsl(135, 87%, 50%);
+        }
+        &.negative {
+            color: hsl(0, 88%, 50%);
+        }
     }
 }
 #skill-range {
@@ -224,6 +224,25 @@ p {
     p[placeholder]
     {
         margin: 8px 20px;
+    }
+    p[NO_DATA]
+    {
+        padding: 6px;
+        border: 1px solid #000;
+        background-color: #c4c4c4;
+    }
+}
+#skilll-range-table {
+    & * {
+        transition: inherit;
+    }
+    gap: 3px;
+    tr {
+
+    }
+    td {
+        width: 25px;
+        height: 25px;
     }
 }
 

@@ -75,3 +75,10 @@ export function padArray<T>(array: T[], fillItem: any)
 
     return arr;
 }
+
+export function get2dArraySize(array: any[], _1stLevelAsWidth = false)
+{
+    return _1stLevelAsWidth ?
+        [Math.max(...array.map(v => v.length)), array.length] :
+        [array.length, Math.max(...array.map(v => v.length))]
+}

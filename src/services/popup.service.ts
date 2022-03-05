@@ -1,5 +1,7 @@
 import { Injectable } from '@angular/core';
+import { FormControl } from '@angular/forms';
 import { DomSanitizer, SafeHtml } from '@angular/platform-browser';
+import { waitAsync } from '../utils/utils';
 
 @Injectable({
   providedIn: 'root'
@@ -9,30 +11,29 @@ export class PopupService {
         private sanitizer: DomSanitizer,
     ) { }
 
-    location: AbsoluteLocation = {
+    location: { value: AbsoluteLocation } & FormControl = new FormControl({
         x: 0,
         y: 0,
-    }
-    visible = false;
-    content: SafeHtml = {};
-    private _initTransform = 'translate(0, 0)';
-    get initTransform() { return this._initTransform; }
-    set initTransform(value: string) {
-        this._initTransform = value;
-    }
+    })
+    visible = new FormControl(false);
+    content = new FormControl({});
+    initTransform = new FormControl('translate(0, 0)');
 
-    display(content: string, location: AbsoluteLocation, axis: 'h' | 'v' = 'h')
+    async display(contentHTML: string, location: AbsoluteLocation, axis: 'h' | 'v' = 'h')
     {
         console.log('display', this);
-        this.location = location;
-        this.content = this.sanitizer.bypassSecurityTrustHtml(content);
-        this.visible = true;
+        this.location.setValue(location);
+        await waitAsync(200);
+        this.content.setValue(this.sanitizer.bypassSecurityTrustHtml(contentHTML));
+        this.visible.setValue(true);
     }
-    clear()
+    async clear()
     {
         console.log('clear', this);
-        this.visible = false;
-        this.content = '';
+        this.visible.setValue(false);
+        await waitAsync(300);
+        this.content.setValue('');
+        this.initTransform.setValue('translate(0, 0)');
     }
 }
 

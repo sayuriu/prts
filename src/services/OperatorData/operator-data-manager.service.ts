@@ -7,15 +7,17 @@ import { CharCombatSkill } from '@struct/Operator/DetailedSkill';
 import { CharTrustAttributes } from '@struct/Operator/CharTrustData';
 import { Locales } from '@struct/Basic';
 import { ImageDataService } from '../image-data.service';
-import { arrayAtMany, emptyFunc, getDefault, Nullable, NullablePromise, Optional } from '@utils/utils';
+import { arrayAtMany, emptyFunc, getDefault, Nullable, NullablePromise, Optional, Undef } from '@utils/utils';
 import { JSONLoadService } from '@services/OperatorData/jsonload.service';
 import { join } from '@utils/PathUtils';
 
-import StatsPropMap from '@assets/gamedata/json/StatsPropMap.json';
 import { OpClass, TermDescription } from './op-utils.service';
 import { AttackRange } from '../../../parser/struct/Operator/AttackRange';
 
-export type ParamDesc = typeof import('@assets/gamedata/json/tl-data/effects.json');
+export type StatsPropMap = typeof import('@assets/gamedata/json/StatsPropMap.json');
+
+export type ParamDesc = typeof import('@assets/gamedata/json/tl-data/paramDesc.json');
+export type ParamSign = typeof import('@assets/gamedata/json/tl-data/paramSign.json');
 
 export type RichColor_zh_CN = typeof import('@assets/gamedata/json/locales/zh_CN/gamedata-const/richTextStyles.json');
 export type RangeTables_zh_CN = typeof import('@assets/gamedata/json/locales/zh_CN/ranges/allRanges.json');
@@ -83,9 +85,10 @@ export class OperatorDataManagerService {
     private richTextStyles!: Nullable<RichColor_zh_CN>;
     private ranges!: Nullable<RangeTables_zh_CN>;
     private paramDesc!: Nullable<ParamDesc>;
+    private paramSign!: Nullable<ParamSign>;
+	private statPropsMap!: Nullable<StatsPropMap>;
 
 	readonly imagePath = 'gamedata/img';
-	readonly statPropMap = StatsPropMap;
 
     get charList()
     {
@@ -124,6 +127,8 @@ export class OperatorDataManagerService {
         this.loadRichTextStyles();
         this.loadRanges();
         this.loadParamDesc();
+        this.loadParamSign();
+        this.loadStatPropsMap();
 	}
 
 	private async loadAssets()
@@ -166,12 +171,36 @@ export class OperatorDataManagerService {
     {
         console.log('Loading param notes...');
         try {
-            this.paramDesc = await import('@assets/gamedata/json/tl-data/effects.json').then(getDefault);
+            this.paramDesc = await import('@assets/gamedata/json/tl-data/paramDesc.json').then(getDefault);
             console.log('Param notes loaded.');
         }
         catch (e) {
             console.error('Failed to load param notes!');
             this.paramDesc = null;
+        }
+    }
+    private async loadParamSign()
+    {
+        console.log('Loading param signs...');
+        try {
+            this.paramSign = await import('@assets/gamedata/json/tl-data/paramSign.json').then(getDefault);
+            console.log('Param signs loaded.');
+        }
+        catch (e) {
+            console.error('Failed to load param signs!');
+            this.paramSign = null;
+        }
+    }
+    private async loadStatPropsMap()
+    {
+        console.log('Loading stat keys map...');
+        try {
+            this.statPropsMap = await import('@assets/gamedata/json/StatsPropMap.json').then(getDefault);
+            console.log('Stat keys map loaded.');
+        }
+        catch (e) {
+            console.error('Failed to load stat keys map!');
+            this.statPropsMap = null;
         }
     }
 
@@ -286,9 +315,30 @@ export class OperatorDataManagerService {
         return null;
     }
     getParamDesc(param: string): Nullable<string> {
-        if (this.paramDesc && param in this.paramDesc)
-            return this.paramDesc[param as keyof ParamDesc];
+        if (this.paramDesc)
+        {
+            if (`{@OVERRIDE}${param}` in this.paramDesc)
+                return this.paramDesc[`{@OVERRIDE}${param}` as keyof ParamDesc];
+            if (param in this.paramDesc)
+                return this.paramDesc[param as keyof ParamDesc];
+        }
         return null;
+    }
+    interpolateParamValue(param: string, value: number): [boolean | null, string]
+    {
+        if (this.paramSign)
+        {
+            const positive = value > 0;
+            const { opposite, sign } = Object.create(this.paramSign[param as keyof ParamSign] ?? {});
+            const out = `${sign ? (positive ? '+' : '-') : ''}${value}`
+            switch (opposite)
+            {
+                case true: return [positive ? false: true, out];
+                case false: return [positive ? true: false, out];
+                default: return [null, out];
+            }
+        }
+        return [null, value.toString()]
     }
 
 	async loadOpImages(charId: string, type: 'avatars' | 'portraits' | 'full', id?: string, ex?: boolean): NullablePromise<Blob>
@@ -344,17 +394,22 @@ export class OperatorDataManagerService {
 					for (const [k, v] of Object.entries(out))
 					{
 						if (['toString', 'maxFavorLevel'].includes(k)) continue;
-						type keyNum = keyof typeof StatsPropMap.num;
-						type keyBool = keyof typeof StatsPropMap.bool;
-						if (typeof v === 'boolean')
-						{
-							str.push(`${v ? '+' : '-'}${refThis.statPropMap.bool[k as keyBool]}`);
-							continue;
-						}
-						const keyName = refThis.statPropMap.num[k as keyNum];
-						if (typeof keyName === 'string')
-							str.push(`${keyName}\u205F${v > 0 ? '+' : '-'}${v}`);
-						else str.push(`${keyName.key}\u205F${v > 0 ? '+' : '-'}${v}${keyName.unit}`);
+                        if (refThis.statPropsMap)
+                        {
+                            type keyNum = keyof StatsPropMap['num'];
+                            type keyBool = keyof StatsPropMap['bool'];
+                            if (typeof v === 'boolean')
+                            {
+                                str.push(`${v ? '+' : '-'}${refThis.statPropsMap.bool[k as keyBool]}`);
+                                continue;
+                            }
+                            const keyName = refThis.statPropsMap.num[k as keyNum];
+                            if (typeof keyName === 'string')
+                                str.push(`${keyName}\u205F${v > 0 ? '+' : '-'}${v}`);
+                            else str.push(`${keyName.key}\u205F${v > 0 ? '+' : '-'}${v}${keyName.unit}`);
+                        }
+                        else
+                            str.push(`${k}\u205F${v > 0 ? '+' : '-'}${v}`);
 					}
 					return str.join('\u2009|\u2009');
 				}

@@ -4,11 +4,13 @@ import { FormControl } from '@angular/forms';
 import { AnimManagerService } from '@services/anim-manager.service';
 import { OperatorUtilsService } from '@services/OperatorData/op-utils.service';
 import { OperatorDataManagerService } from '@services/OperatorData/operator-data-manager.service';
-import { CharCombatSkill } from '@struct/Operator/DetailedSkill';
+import { CharCombatSkill, SkillLevelData } from '@struct/Operator/DetailedSkill';
 import { Operator } from '@struct/Operator/Char';
 import { Nullable, waitAsync } from '@utils/utils';
 import { DomSanitizer } from '@angular/platform-browser';
-import { BlackboardItem } from '@root/src/struct/Operator/BlackBoardItem';
+import { PopupService } from '@services/popup.service';
+import { AttackRange } from '@root/src/struct/Operator/AttackRange';
+import { get2dArraySize } from '../../../../../utils/utils';
 
 class Utils {
     add1(input: number)
@@ -35,7 +37,8 @@ implements OnInit, OnChanges, AfterViewChecked {
         public anime: AnimManagerService,
         public sanitizer: DomSanitizer,
         public manager: OperatorDataManagerService,
-        private opUtils: OperatorUtilsService
+        public popup: PopupService,
+        public opUtils: OperatorUtilsService,
     ) {
         super();
     }
@@ -54,7 +57,6 @@ implements OnInit, OnChanges, AfterViewChecked {
     changingSkill = false;
     async setCurrentSkill(newIndex: number) {
         if (this.currentSkillIndex === newIndex) return;
-        // if (this.skillParamsVisible) this.toggleSkillParams();
         this.changingSkill = true;
         this.removeFocus(this.currentFocus);
         await waitAsync(300);
@@ -72,6 +74,7 @@ implements OnInit, OnChanges, AfterViewChecked {
 
 	ngOnInit() {
         this.currentSkillDescriptions = new Array(this.currentOperatorSkills.length).fill('');
+        this.getEliteRangeData();
         if (!this.anime.enabled)
             this.animAlreadyPlayed = '';
         else
@@ -88,7 +91,6 @@ implements OnInit, OnChanges, AfterViewChecked {
 
     viewUpdated = false;
     ngAfterViewChecked(): void {
-        // console.log('ngAfterViewChecked');
         if (this.viewUpdated) return;
         this.opUtils.updateHoverDescListeners();
         this.viewUpdated = true;
@@ -129,7 +131,6 @@ implements OnInit, OnChanges, AfterViewChecked {
 
     handleSkillLevelChange(input: HTMLInputElement, event?: Event)
     {
-        console.log('skillLevelUpdate');
         if (event instanceof WheelEvent)
         {
             if (event.deltaY < 0)
@@ -147,40 +148,63 @@ implements OnInit, OnChanges, AfterViewChecked {
         this.updateSkillDescription();
     }
 
+    // onSkillParamHover(element: Element, event: Event, inbound: boolean, data: string)
+    // {
+    //     if (inbound)
+    //     {
+    //         const { x, y, height } = (element as HTMLElement).getBoundingClientRect();
+    //         this.popup.initTransform.setValue('translateY(20px)');
+    //         this.popup.display(
+    //             [
+    //                 `<p style="color: #fff; background-color: #000">${data}</p>`,
+    //             ].join(''),
+    //             {
+    //                 x: x + 15,
+    //                 y: y + height,
+    //             },
+    //             'v'
+    //         )
+    //         return;
+    //     }
+    //     this.popup.clear();
+    // }
 
-    resolveSpType(spType: number) {
-        switch (spType) {
-            case 1: return 'Per second';
-            case 2: return 'Offensive';
-            case 4: return 'Defensive';
-            case 8: return 'Always';
-            default: return 'Unknown';
-        }
-    }
-    resolveSpTypeColor(type: number) {
-        switch (type) {
-            case 1: return { bg: '#22ECBC', text: '#000000' };
-            case 2: return { bg: '#EF0F0F', text: '#FFFFFF' };
-            case 4: return { bg: '#FF7A00', text: '#000000' };
-            case 8: return { bg: '#00A3FF', text: '#FFFFFF' };
-            default: return { bg: '#C4C4C4', text: '#FFFFFF' };
-        }
-    }
-    resolveSkillType(skilType: number)
+    atkRangeByElite: [string, number][] = [];
+    currentEliteLevel = 0;
+    getEliteRangeData()
     {
-        switch (skilType) {
-            case 0 : return 'Passive';
-            case 1 : return 'Manual';
-            case 2 : return 'Auto';
-            default: return 'Unknown';
+        for (let i = 0; i < this.currentOperator.phases.length; i++)
+        {
+            const { rangeId } = this.currentOperator.phases[i]!;
+            if (this.atkRangeByElite.findIndex(x => x[0] === rangeId) === -1)
+                this.atkRangeByElite.push([rangeId, i]);
         }
     }
-    resolveSkillDuration(duration: number)
+
+    createSkillRangeTable(currentSkill: SkillLevelData): [Nullable<number>[][], [number, number]] | null
     {
-        switch (duration) {
-            case 0 : return 'Instant';
-            case -1 : return '∞';
-            default: return duration + 's';
+        const extend = currentSkill.blackboard.find(x => x.key === 'ability_range_forward_extend');
+        let rangeData: Nullable<AttackRange> = null;
+        let computed: Nullable<number>[][];
+        if (extend)
+        {
+            rangeData = this.manager.getRangeData(this.currentOperator.phases[this.currentEliteLevel]!.rangeId);
+            if (!rangeData) return null;
+            computed = this.opUtils.createRangeTable(rangeData, extend.value);
+            return [computed, get2dArraySize(computed) as [number, number]];
         }
+
+        rangeData = this.manager.getRangeData(currentSkill.rangeId);
+        if (!rangeData) return null;
+        computed = this.opUtils.createRangeTable(rangeData);
+
+        console.log(computed);
+        return [computed, get2dArraySize(computed) as [number, number]];
+    }
+
+    hasRangeData(skillIndex: number, skillLevel: number)
+    {
+        const { rangeId, blackboard } = this.currentOperatorSkills[skillIndex]!.levels[skillLevel];
+        return !!rangeId || !!blackboard.find(x => x.key === 'ability_range_forward_extend');
     }
 }

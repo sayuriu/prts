@@ -9,7 +9,7 @@ export interface CharCombatSkill {
     levels: SkillLevelData[];
 }
 
-interface SkillLevelData {
+export interface SkillLevelData {
     name: string;
     rangeId: string;
     description: string;
@@ -19,7 +19,7 @@ interface SkillLevelData {
     duration: number;
 }
 
-interface SkillSpData {
+export interface SkillSpData {
     spType: 1 | 2 | 4 | 8;
     levelUpCost: Nullable<unknown>;
     maxChargeTime: number;
