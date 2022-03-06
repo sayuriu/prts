@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { FormControl } from '@angular/forms';
 import { DomSanitizer, SafeHtml } from '@angular/platform-browser';
-import { waitAsync } from '../utils/utils';
+import { waitAsync } from '@utils/utils';
 
 @Injectable({
   providedIn: 'root'

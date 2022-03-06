@@ -71,7 +71,7 @@ export function padArray<T>(array: T[], fillItem: any)
 {
     const arr = new Array(array.length).fill(fillItem);
     for (const i of Object.keys(array).map(Number))
-        if (i !== NaN) arr[i] = array[i];
+        if (!isNaN(i)) arr[i] = array[i];
 
     return arr;
 }

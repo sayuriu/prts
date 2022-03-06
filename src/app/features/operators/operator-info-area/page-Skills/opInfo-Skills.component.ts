@@ -1,25 +1,24 @@
 import { Component, EventEmitter, Input, OnChanges, OnInit, AfterViewChecked, Output, SimpleChanges } from '@angular/core';
 import { FormControl } from '@angular/forms';
+import { DomSanitizer } from '@angular/platform-browser';
 
 import { AnimManagerService } from '@services/anim-manager.service';
 import { OperatorUtilsService } from '@services/OperatorData/op-utils.service';
 import { OperatorDataManagerService } from '@services/OperatorData/operator-data-manager.service';
-import { CharCombatSkill, SkillLevelData } from '@struct/Operator/DetailedSkill';
-import { Operator } from '@struct/Operator/Char';
-import { Nullable, waitAsync } from '@utils/utils';
-import { DomSanitizer } from '@angular/platform-browser';
 import { PopupService } from '@services/popup.service';
-import { AttackRange } from '@root/src/struct/Operator/AttackRange';
-import { get2dArraySize } from '../../../../../utils/utils';
+import { CharCombatSkill, SkillLevelData } from '@struct/Operator/DetailedSkill';
+import { AttackRange } from '@struct/Operator/AttackRange';
+import { Operator } from '@struct/Operator/Char';
+import { Nullable, waitAsync, get2dArraySize } from '@utils/utils';
 
 class Utils {
     add1(input: number)
     {
-        return new Number(input).valueOf() + 1;
+        return Number(input).valueOf() + 1;
     }
     parseNumber(input: string)
     {
-        return new Number(input).valueOf();
+        return Number(input).valueOf();
     }
 }
 
@@ -74,6 +73,7 @@ implements OnInit, OnChanges, AfterViewChecked {
 
 	ngOnInit() {
         this.currentSkillDescriptions = new Array(this.currentOperatorSkills.length).fill('');
+        this.currentSkillRanges = new Array(this.currentOperatorSkills.length).fill([[], [0, 0]]);
         this.getEliteRangeData();
         if (!this.anime.enabled)
             this.animAlreadyPlayed = '';
@@ -111,15 +111,17 @@ implements OnInit, OnChanges, AfterViewChecked {
         this.skillParamsVisible = !this.skillParamsVisible;
     }
 
+    currentSkillRanges!: Nullable<[Nullable<number>[][], [number, number]]>[];
     currentSkillDescriptions!: string[];
     updateSkillDescription() {
         this.opUtils.Interpolate<Nullable<CharCombatSkill>>(
             new Array(...this.currentOperatorSkills),
             (skill, index) => {
-                if (!skill) return '{@NO_PROCESS}The weilder has refused to disclose this art.'
+                if (!skill) return '{@NO_PROCESS}The wielder has refused to disclose this art.'
+                this.currentSkillRanges[index] = this.createSkillRangeTable(skill!.levels[this.currentCombatSkillLevel.value]) ?? [[], [0, 0]];
                 const currentSkillLevel = skill.levels[this.currentCombatSkillLevel.value];
                 if (!currentSkillLevel.description)
-                    return '{@NO_PROCESS}The weilder has refused to disclose this art.'
+                    return '{@NO_PROCESS}The wielder has refused to disclose this art.'
                 return currentSkillLevel.description;
             },
             (skill) => skill?.levels[this.currentCombatSkillLevel.value]?.blackboard ?? [],
@@ -127,7 +129,6 @@ implements OnInit, OnChanges, AfterViewChecked {
             this.currentSkillDescriptions = out;
         });
     }
-
 
     handleSkillLevelChange(input: HTMLInputElement, event?: Event)
     {
@@ -184,7 +185,7 @@ implements OnInit, OnChanges, AfterViewChecked {
     createSkillRangeTable(currentSkill: SkillLevelData): [Nullable<number>[][], [number, number]] | null
     {
         const extend = currentSkill.blackboard.find(x => x.key === 'ability_range_forward_extend');
-        let rangeData: Nullable<AttackRange> = null;
+        let rangeData: Nullable<AttackRange>;
         let computed: Nullable<number>[][];
         if (extend)
         {
@@ -198,7 +199,6 @@ implements OnInit, OnChanges, AfterViewChecked {
         if (!rangeData) return null;
         computed = this.opUtils.createRangeTable(rangeData);
 
-        console.log(computed);
         return [computed, get2dArraySize(computed) as [number, number]];
     }
 

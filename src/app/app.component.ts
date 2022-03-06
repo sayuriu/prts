@@ -50,10 +50,10 @@ export class AppComponent implements OnInit {
         this.router.events.subscribe(e => {
             let extra: Record<string, string> = {};
             extra[name.replace(/ +/g, '-')] = version;
-            this.meta.addTag({
+            this.meta.updateTag({
                 name,
                 version,
-            })
+            }, 'RHODESISLAND')
             this.title.setTitle(name);
             this.connection.updateMetadata(appMetadata);
         });

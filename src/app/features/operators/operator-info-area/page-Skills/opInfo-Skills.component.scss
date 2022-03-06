@@ -43,7 +43,7 @@ p {
             }
             &.current {
                 background-color: hsl(0, 0%, 78%);
-                max-height: 900px;
+                max-height: 1000px;
                 margin: 0;
                 // transition-delay: 0, 0.5s, 0;
                 .skill-cnt-title {
@@ -232,17 +232,85 @@ p {
         background-color: #c4c4c4;
     }
 }
-#skilll-range-table {
+#skill-range-table {
+    padding: 12px;
     & * {
         transition: inherit;
     }
-    gap: 3px;
+    gap: 6px;
     tr {
-
+        height: 36px;
     }
     td {
-        width: 25px;
-        height: 25px;
+        width: 36px;
+        height: inherit;
+        div:not(.abs) {
+            border: 3px solid hsl(0, 0%, 77%);
+            width: 30px;
+            height: 30px;
+            z-index: 0;
+            &.active, &.extended {
+                background: repeating-linear-gradient(
+                    45deg,
+                    #{hsl(39, 100%, 47%)},
+                    #{hsl(39, 100%, 47%)} 8px,
+                    transparent 8px,
+                    transparent 16px
+                );
+            }
+            &.extended {
+                border: 3px solid hsl(140, 100%, 39%);
+            }
+            &.character {
+                background: #000;
+            }
+            &.inactive {
+                background: linear-gradient(
+                    to top left,
+                    hsla(0, 0%, 0%, 0) 0%,
+                    hsla(0, 0%, 0%, 0) calc(50% - 2px),
+                    hsl(0, 0%, 0%) 50%,
+                    hsla(0, 0%, 0%, 0) calc(50% + 2px),
+                    hsla(0, 0%, 0%, 0) 100%
+                );
+                border: 2px inset #000;
+                padding: 1px;
+                opacity: .65;
+            }
+        }
+        .abs {
+            top: calc(100% + 20px);
+            transition-delay: 0.3s;
+            background: #000;
+            color: #fff;
+            z-index: 1;
+            p {
+                margin: 0;
+                padding: 4px;
+                white-space: nowrap;
+                i {
+                    align-self: flex-end;
+                    font-style: normal;
+                    opacity: .5;
+                    font-size: 16px;
+                    font-weight: 300;
+                }
+                &.tile-coord {
+                    border-bottom: 1px solid hsl(0, 0%, 33%);
+                }
+                &:not(.tile-coord)
+                {
+                    border-top: 1px solid hsl(0, 0%, 33%);
+                }
+            }
+        }
+        &:hover {
+            .abs {
+                top: calc(100% + 5px);
+                opacity: 1;
+                transition-delay: 0;
+            }
+        }
     }
 }
 
@@ -285,6 +353,5 @@ p {
     }
     .skill-bottom-group {
         opacity: 1;
-
     }
 }

@@ -126,16 +126,11 @@ $emblem-margin-left: math.div(79px, 1920px) * 100vw;
 	}
 
 	#Clock {
-		font-weight: 300;
 		right: var(--clockAbsRight);
 		margin-top: var(--clockMargin);
 		font-family: JetBrains Mono;
 		font-weight: normal;
-
-		transition:
-			background 2s ease 0.5s,
-			color 2s ease 0.5s,
-			right 2s $forceful;
+        
 
 		&[state='default'] {
 			background: var(--globalForegroundInverse);

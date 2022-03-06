@@ -7,6 +7,7 @@ export interface CharCombatSkill {
     iconId: Nullable<string>;
     hidden: boolean;
     levels: SkillLevelData[];
+    skillId: string;
 }
 
 export interface SkillLevelData {

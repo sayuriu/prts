@@ -22,6 +22,7 @@ import { OpMainInfoComponent } from '@featureComponents/operators/operator-info-
 import { OpStatsComponent } from '@featureComponents/operators/operator-info-area/page-Stats/opInfo-Stats.component';
 import { OpSkillsComponent } from '@featureComponents/operators/operator-info-area/page-Skills/opInfo-Skills.component';
 import { LabelledButtonComponent } from './labelled-button/labelled-button.component';
+import {NgVarDirective} from "@root/src/app/ng-var.directive";
 
 @NgModule({
   declarations: [
@@ -41,7 +42,8 @@ import { LabelledButtonComponent } from './labelled-button/labelled-button.compo
     OperatorPickerAreaComponent,
     NotifOverlayComponent,
     InfoTextFieldComponent,
-    LabelledButtonComponent
+    LabelledButtonComponent,
+    NgVarDirective,
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),

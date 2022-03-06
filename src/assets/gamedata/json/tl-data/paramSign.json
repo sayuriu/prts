@@ -1,8 +1,4 @@
 {
-    "hp_ratio": {
-        "opposite": true,
-        "sign": true
-    },
     "atk_scale": {
         "opposite": false,
         "sign": true
@@ -25,5 +21,36 @@
     },
     "attack@max_target": {
         "opposite": false
+    },
+    "attack@move_speed": {
+        "opposite": true,
+        "sign": true
+    },
+    "def": {
+        "opposite": false,
+        "sign": true
+    },
+    "hp_recovery_per_sec_by_max_hp_ratio": {
+        "opposite": false
+    },
+    "base_attack_time": {
+        "opposite": true,
+        "sign": true
+    },
+    "attack@atk": {
+        "opposite": false,
+        "sign": true
+    },
+    "attack_speed": {
+        "opposite": false,
+        "sign": true
+    },
+    "attack@atk_to_hp_recovery_ratio": {
+        "opposite": false,
+        "sign": true
+    },
+    "move_speed": {
+        "opposite": true,
+        "sign": true
     }
 }

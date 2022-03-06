@@ -4,7 +4,7 @@ import { Injectable } from '@angular/core';
 import { BlackboardItem } from '@struct/Operator/BlackBoardItem';
 import { IndexedCallback, escapeRegExp, bindEventListeners, padArray, Nullable } from '@utils/utils';
 import { OperatorDataManagerService } from './operator-data-manager.service';
-import { AttackRange } from '../../../parser/struct/Operator/AttackRange';
+import { AttackRange } from '@struct/Operator/AttackRange';
 
 @Injectable({
   providedIn: 'root'
@@ -83,13 +83,16 @@ export class OperatorUtilsService {
 	{
 		let out = input;
 		for (const { key, value } of blackboard)
-																				  //   match key
-			out = out.replace(new RegExp(`\{(${escapeRegExp(key)})(:0(%|\.0f?))?\}`, 'g'), (_1, _2, percentageOrDecimal) => {
-				let num = percentageOrDecimal === ':0%' ?
-					new Number((value * 100).toFixed(2)).valueOf().toString() + '%':
-					new Number(value.toFixed(2)).toString();
-				return `<span class="ak-numeric" key="${key}">${num}</span>`;
-			});
+			out = out.replace(
+                new RegExp(`\{(-)?(${escapeRegExp(key)})(:0(%|\.0(f|%)?)?)?\}`, 'ig'),
+            //match key
+                (_1, isNegative, _key, _4, isDecimal, floatOrPercent) => {
+                    let num = (`${floatOrPercent}` + `${isDecimal}`).includes('%') ?
+                        new Number((value * 100 * (isNegative ? -1 : 1)).toFixed(2)).valueOf().toString() + '%':
+                        new Number((value * (isNegative ? -1 : 1)).toFixed(2)).toString();
+                    return `<span class="ak-numeric" key="${key}">${num}</span>`;
+			    }
+            );
 		return out;
 	}
 
@@ -181,18 +184,25 @@ export class OperatorUtilsService {
 	createRangeTable(range: AttackRange, extend?: AttackRange['grids'] | number)
 	{
 		const coordinates = new Map<number, number[]>();
+        let biasX = 0;
+        let biasY = 0;
 		for (const { row, col } of range.grids)
 		{
+            if (row < biasY)
+                biasY = row;
+            if (col < biasX)
+                biasX = col;
 			if (coordinates.has(row))
 				coordinates.get(row)!.push(col);
 			else
 				coordinates.set(row, [col]);
 		}
-		const bias = Math.abs(Math.min(...coordinates.keys()));
+		biasY = Math.abs(biasY);
+        biasX = Math.abs(biasX);
 		const shiftedCoordinates = new Map<number, number[]>();
 		[...coordinates.keys()].forEach(key => {
-			const newKey = key + bias;
-			shiftedCoordinates.set(newKey, coordinates.get(key)!);
+			const newKey = key + biasY;
+			shiftedCoordinates.set(newKey, coordinates.get(key)!.map((_, idx) => idx));
 		});
 
 		let out: Nullable<number>[][] = [];
@@ -210,10 +220,10 @@ export class OperatorUtilsService {
 					out[row] = out[row].concat(new Array(extend).fill(2))
 			else
 				for (const { row, col } of extend)
-					out[row + bias][col] = 2;
+					out[row + biasY][col] = 2;
 		}
 		out = padArray(out, null);
-        out[bias][0] = 3;
+        out[biasY][biasX] = 3;
 		return out as Nullable<number>[][];
 	}
 }

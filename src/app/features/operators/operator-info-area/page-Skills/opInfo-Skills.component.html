@@ -38,221 +38,240 @@
             <button
                 class="skill rel h-auto w-auto no-border overflow-hidden"
                 [id]="'op-skill-' + (i + 1)"
-                *ngFor="let skill of currentOperator.skills; let i = index"
+                *ngFor="
+                    let skill of currentOperator.skills;
+                    let i = index;
+                "
                 [ngClass]="currentSkillIndex === i ? 'current no-pointer' : 'cur-pointer'"
                 [class.visible]="currentFocus === i"
                 (click)="setCurrentSkill(i)"
             >
-                <div class="skill-cnt-title abs t0 r0 z0">SKILL_{{i + 1}}</div>
-                <div class="skill-header flex flex-row">
-                    <img id="op-skill-img" class="transition-all" [src]="'/assets/gamedata/img/characters/skills/combat/skill_icon_' + currentOperator.skills[i]!.skillId + '.png'">
-                    <div id="op-skill-overview" class="flex flex-col j-flex-space-between z1">
-                        <div id="op-skill-name" class="grid">
-                            <p class="no-margin main o0">{{currentOperatorSkills[i]!.levels[currentCombatSkillLevel.value]?.name ?? 'Unknown'}}</p>
-                            <p class="no-margin italic o1"><i>{{currentOperatorSkills[i]!.levels[currentCombatSkillLevel.value]?.name ?? 'Unknown'}}</i></p>
-                        </div>
-                        <div id="op-skill-characteristics" style="gap: 10px" class="flex flex-row flex-wrap transition-all">
-                            <text-field
-                                [boundRect]="{ centerChildren: [true], height: '33px' }"
-                                [labelField]="{
-                                    centerChildren: [true],
-                                    height: '100%',
-                                    width: '108px',
-                                    borderMatrixOverride: ['', '0', '', ''],
-							        border: '1px solid black',
-                                    background: '#c4c4c4'
-                                }"
-                                [labelFieldText]="{
-                                    textValue: 'SP Charge',
-                                    textSize: '18px',
-                                    textAlign: 'center'
-                                }"
-                                [valueField]="{
-                                    centerChildren: [true],
-                                    height: '100%',
-                                    width: (opUtils.resolveSpType(currentOperatorSkills[i]!.levels[currentCombatSkillLevel.value].spData.spType).length + 6) + 'ch',
-                                    borderFgMatchBg: true,
-                                    border: '1px solid black',
-                                    background: opUtils.resolveSpTypeColor(currentOperatorSkills[i]!.levels[currentCombatSkillLevel.value].spData.spType).bg
-                                }"
-                                [valueFieldText]="{
-                                    textValue: opUtils.resolveSpType(currentOperatorSkills[i]!.levels[currentCombatSkillLevel.value].spData.spType),
-                                    textSize: '18px',
-                                    textAlign: 'center',
-                                    textColor: opUtils.resolveSpTypeColor(currentOperatorSkills[i]!.levels[currentCombatSkillLevel.value].spData.spType).text,
-                                    fontWeight: '500'
-                                }"
-                            ></text-field>
-                            <text-field
-                                [boundRect]="{ centerChildren: [true], height: '33px' }"
-                                [labelField]="{
-                                    centerChildren: [true],
-                                    height: '100%',
-                                    width: '88px',
-                                    borderMatrixOverride: ['', '0', '', ''],
-							        border: '1px solid black',
-                                    background: '#c4c4c4'
-                                }"
-                                [labelFieldText]="{
-                                    textValue: 'Trigger',
-                                    textSize: '18px',
-                                    textAlign: 'center'
-                                }"
-                                [valueField]="{
-                                    centerChildren: [true],
-                                    height: '100%',
-                                    width: (opUtils.resolveSkillType(currentOperatorSkills[i]!.levels[currentCombatSkillLevel.value].skillType).length + 5) + 'ch',
-                                    borderFgMatchBg: true,
-                                    border: '1px solid black',
-                                    background: '#3F3F3F'
-                                }"
-                                [valueFieldText]="{
-                                    textValue: opUtils.resolveSkillType(currentOperatorSkills[i]!.levels[currentCombatSkillLevel.value].skillType),
-                                    textSize: '18px',
-                                    textAlign: 'center',
-                                    textColor: '#FFFFFF'
-                                }"
-                            ></text-field>
-                            <text-field
-                                [boundRect]="{ centerChildren: [true], height: '33px' }"
-                                [labelField]="{
-                                    centerChildren: [true],
-                                    height: '100%',
-                                    width: '97px',
-                                    borderMatrixOverride: ['', '0', '', ''],
-							        border: '1px solid black',
-                                    background: '#c4c4c4'
-                                }"
-                                [labelFieldText]="{
-                                    textValue: 'Duration',
-                                    textSize: '18px',
-                                    textAlign: 'center'
-                                }"
-                                [valueField]="{
-                                    centerChildren: [true],
-                                    height: '100%',
-                                    width: (opUtils.resolveSkillDuration(currentOperatorSkills[i]!.levels[currentCombatSkillLevel.value].duration).length + 7) + 'ch',
-                                    borderFgMatchBg: true,
-                                    border: '1px solid black',
-                                    background: '#3F3F3F',
-                                    extraCSS: { transition: 'width 0.4s ' + anime.timeFunc.Forceful }
-                                }"
-                                [valueFieldText]="{
-                                    textValue: opUtils.resolveSkillDuration(currentOperatorSkills[i]!.levels[currentCombatSkillLevel.value].duration),
-                                    textSize: currentOperatorSkills[i]!.levels[currentCombatSkillLevel.value].duration === -1 ? '37px' : '18px',
-                                    textAlign: 'center',
-                                    textColor: '#FFFFFF'
-                                }"
-                            ></text-field>
-                        </div>
-                    </div>
-                </div>
-                <div class="skill-desc rel">
-                    <!--? Weird behaviour: z-index doesn't work unless grid v-->
-                    <div id="op-skill-desc" class="rel grid transition-all">
-                        <div id="op-skill-currentlevel" class="abs grid b0 r0 z0 transition-all">
-                            <div class="z0 transition-all" style="background-image: url(/assets/gamedata/img/characters/ui/skillrank/bg.png)"></div>
-                            <div class="z0 transition-all" [style.background-image]="'url(/assets/gamedata/img/characters/ui/skillrank/' + (currentCombatSkillLevel.value < 7 ? add1(currentCombatSkillLevel.value) : ('m-' + (currentCombatSkillLevel.value - 6))) + '.png)'"></div>
-                        </div>
-                        <!-- use innerHTML -->
-                        <div id="content" class="z2 transition-all inline-blk" [innerHTML]="sanitizer.bypassSecurityTrustHtml(currentSkillDescriptions[i])"></div>
-                    </div>
-                </div>
-                <div class="skill-params flex flex-col o0"
-                    *ngIf="currentOperatorSkills[i]!.levels[currentCombatSkillLevel.value]?.blackboard?.length"
-                >
-                    <button class="flex j-flex-space-between pointer-all cur-pointer" (click)="toggleSkillParams()">
-                        <p style="padding-left: 10px; margin: 4px">Parameters</p>
-                        <svg
-                            class="a-self-center transition-all"
-                            width="139" height="78" viewBox="0 0 139 78"
-                            fill="none" xmlns="http://www.w3.org/2000/svg"
-                            [style.transform]="skillParamsVisible ? 'rotate(180deg)' : 'rotate(0deg)'">
-                        >
-                            <rect x="0.109127" y="8.59441" width="12" height="97.9754" transform="rotate(-45 0.109127 8.59441)" fill="#000000"/>
-                            <rect x="130.296" width="12" height="98" transform="rotate(45 130.296 0)" fill="#000000"/>
-                        </svg>
-                    </button>
-                    <div
-                        class="param-list transition-all flex flex-col fw overflow-hidden"
-                        style = "background-color: hsl(0, 0%, 13%); gap: 9px;"
-                        [style.maxHeight]="skillParamsVisible ? (((currentOperatorSkills[i]!.levels[currentCombatSkillLevel.value]?.blackboard?.length ?? 0) * 32 + 35) + 'px') : '0'"
-                    >
-                        <div
-                            #param_item
-                            class="param-item flex flex-row j-flex-space-between transition-all"
-                            [ngClass]="{ 'cur-help hoverable pointer-all': manager.getParamDesc(blackboardItem.key) }"
-                            *ngFor="let blackboardItem of sortSkillBlackboard(currentOperatorSkills[i])"
-                        >
-                         <!-- (mouseenter)="manager.getParamDesc(blackboardItem.key) ? onSkillParamHover(param_item, $event, true, manager.getParamDesc(blackboardItem.key)!) : null"
-                          (mouseleave)="manager.getParamDesc(blackboardItem.key) ? onSkillParamHover(param_item, $event, false, manager.getParamDesc(blackboardItem.key)!) : null" -->
-                            <div class="param-key flex flex-col">
-                                <p class="no-margin txt-algn-left">{{blackboardItem.key}}</p>
-                                <p class="param-desc no-margin transition-all overflow-hidden txt-algn-left" style="color:#fff" *ngIf="manager.getParamDesc(blackboardItem.key)">{{manager.getParamDesc(blackboardItem.key)}}</p>
+                <ng-container *ngVar="currentOperatorSkills[i]!.levels[currentCombatSkillLevel.value] as currentSkillLevelInfo">
+                    <div class="skill-cnt-title abs t0 r0 z0">SKILL_{{i + 1}}</div>
+                    <div class="skill-header flex flex-row">
+                        <img id="op-skill-img" class="transition-all" [src]="(currentOperatorSkills[i]?.iconId || currentOperatorSkills[i]?.skillId) ? ('/assets/gamedata/img/characters/skills/combat/skill_icon_' + (currentOperatorSkills[i]!.iconId ?? currentOperatorSkills[i]!.skillId) + '.png') : 'assets/img/ui/no_data_class.png'" alt="">
+                        <div id="op-skill-overview" class="flex flex-col j-flex-space-between z1">
+                            <div id="op-skill-name" class="grid">
+                                <p class="no-margin main o0">{{currentSkillLevelInfo?.name ?? 'Unknown'}}</p>
+                                <p class="no-margin italic o1"><i>{{currentSkillLevelInfo?.name ?? 'Unknown'}}</i></p>
                             </div>
-                            <p
-                                class="no-margin param-var"
-                                *ngIf="manager.interpolateParamValue(blackboardItem.key, blackboardItem.value) as interpolatedParam"
-                                [ngClass]="{
-                                    'negative': interpolatedParam[0] === false,
-                                    'positive': interpolatedParam[0] === true
-                                }"
-                            >{{interpolatedParam[1]}}</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="skill-bottom-group o0">
-                    <div id="left-section">
-                        <div
-                            id="skill-range"
-                            class="rel flex a-flex-center j-flex-center"
-                            [style.background]="hasRangeData(i, currentCombatSkillLevel.value) ? '' : 'linear-gradient(to top left, rgba(0,0,0,0) 0%, rgba(0,0,0,0) calc(50% - 2px), rgba(0,0,0,1) 50%, rgba(0,0,0,0) calc(50% + 2px), rgba(0,0,0,0) 100%)'"
-                        >
-                            <p placeholder class="abs t0 l0">Range</p>
-                            <table
-                                id="skill-range-table"
-                                class="transition-all"
-                                *ngIf="createSkillRangeTable(currentOperatorSkills[i]!.levels[currentCombatSkillLevel.value]) as rangeTable"
-                                [ngStyle]="{
-                                    height: (rangeTable[1][0] * 25 + (rangeTable[1][0] - 1) * 3) + 'px',
-                                    width: (rangeTable[1][1] * 25 + (rangeTable[1][1] - 1) * 3) + 'px'
-                                }"
+                            <div
+                                id="op-skill-characteristics"
+                                style="gap: 10px"
+                                class="flex flex-row flex-wrap transition-all"
+                                *ngVar="currentSkillLevelInfo.spData.spType as skillType;"
                             >
-                                <tr
-                                    *ngFor="
-                                        let row of rangeTable[0];
-                                        let rowIndex = index;
-                                        let rowLength = count
-                                    "
-                                    [ngStyle]="{
-                                        height: (rowLength * 25 + (rowLength - 1) * 3) + 'px',
-                                        width: 'auto'
+                                <text-field
+                                    [boundRect]="{ centerChildren: [true], height: '33px' }"
+                                    [labelField]="{
+                                        centerChildren: [true],
+                                        height: '100%',
+                                        width: '108px',
+                                        borderMatrixOverride: ['', '0', '', ''],
+                                        border: '1px solid black',
+                                        background: '#c4c4c4'
                                     }"
-                                >
-                                    <td
-                                        class="skill-range-cell"
-                                        *ngFor="
-                                            let cell of row;
-                                            let cellIndex = index;
-                                            let cellLength = count
-                                        "
-                                        [style.width]="(cellLength * 25 + (cellLength - 2) * 3) + 'px'"
-                                        [ngSwitch]="cell"
-                                    >
-                                        <div class="fh fw" style="background: hsl(32, 100%, 52%);" *ngSwitchCase="1"></div>
-                                        <div class="fh fw" style="background: rgb(7, 255, 69);" *ngSwitchCase="2"></div>
-                                        <div class="fh fw" style="background: #000;" *ngSwitchCase="3"></div>
-                                        <div class="fh fw" style="background: transparent; border: 1px inset #000" *ngSwitchCase="null"></div>
-                                    </td>
-                                </tr>
-                            </table>
-                            <p NO_DATA *ngIf="!hasRangeData(i, currentCombatSkillLevel.value)">NO_DATA</p>
+                                    [labelFieldText]="{
+                                        textValue: 'SP Charge',
+                                        textSize: '18px',
+                                        textAlign: 'center'
+                                    }"
+                                    [valueField]="{
+                                        centerChildren: [true],
+                                        height: '100%',
+                                        width: (opUtils.resolveSpType(skillType).length + 6) + 'ch',
+                                        borderFgMatchBg: true,
+                                        border: '1px solid black',
+                                        background: opUtils.resolveSpTypeColor(skillType).bg
+                                    }"
+                                    [valueFieldText]="{
+                                        textValue: opUtils.resolveSpType(skillType),
+                                        textSize: '18px',
+                                        textAlign: 'center',
+                                        textColor: opUtils.resolveSpTypeColor(skillType).text,
+                                        fontWeight: '500'
+                                    }"
+                                ></text-field>
+                                <text-field
+                                    [boundRect]="{ centerChildren: [true], height: '33px' }"
+                                    *ngVar="opUtils.resolveSkillType(currentSkillLevelInfo.skillType) as skilltypeString"
+                                    [labelField]="{
+                                        centerChildren: [true],
+                                        height: '100%',
+                                        width: '88px',
+                                        borderMatrixOverride: ['', '0', '', ''],
+                                        border: '1px solid black',
+                                        background: '#c4c4c4'
+                                    }"
+                                    [labelFieldText]="{
+                                        textValue: 'Trigger',
+                                        textSize: '18px',
+                                        textAlign: 'center'
+                                    }"
+                                    [valueField]="{
+                                        centerChildren: [true],
+                                        height: '100%',
+                                        width: (skilltypeString.length + 5) + 'ch',
+                                        borderFgMatchBg: true,
+                                        border: '1px solid black',
+                                        background: '#3F3F3F'
+                                    }"
+                                    [valueFieldText]="{
+                                        textValue: skilltypeString,
+                                        textSize: '18px',
+                                        textAlign: 'center',
+                                        textColor: '#FFFFFF'
+                                    }"
+                                ></text-field>
+                                <text-field
+                                    [boundRect]="{ centerChildren: [true], height: '33px' }"
+                                    *ngVar="opUtils.resolveSkillDuration(currentSkillLevelInfo.duration) as currentSkillLevelDuration"
+                                    [labelField]="{
+                                        centerChildren: [true],
+                                        height: '100%',
+                                        width: '97px',
+                                        borderMatrixOverride: ['', '0', '', ''],
+                                        border: '1px solid black',
+                                        background: '#c4c4c4'
+                                    }"
+                                    [labelFieldText]="{
+                                        textValue: 'Duration',
+                                        textSize: '18px',
+                                        textAlign: 'center'
+                                    }"
+                                    [valueField]="{
+                                        centerChildren: [true],
+                                        height: '100%',
+                                        width: (currentSkillLevelDuration.length + 6) + 'ch',
+                                        borderFgMatchBg: true,
+                                        border: '1px solid black',
+                                        background: '#3F3F3F',
+                                        extraCSS: { transition: 'width 0.4s ' + anime.timeFunc.Forceful }
+                                    }"
+                                    [valueFieldText]="{
+                                        textValue: currentSkillLevelDuration,
+                                        textSize: currentSkillLevelInfo.duration === -1 ? '37px' : '18px',
+                                        textAlign: 'center',
+                                        textColor: '#FFFFFF'
+                                    }"
+                                ></text-field>
+                            </div>
                         </div>
                     </div>
-                    <div id="right-section">
-
+                    <div class="skill-desc rel">
+                        <!--? Weird behaviour: z-index doesn't work unless grid v-->
+                        <div id="op-skill-desc" class="rel grid transition-all">
+                            <div id="op-skill-currentlevel" class="abs grid b0 r0 z0 transition-all">
+                                <div class="z0 transition-all" style="background-image: url(/assets/gamedata/img/characters/ui/skillrank/bg.png)"></div>
+                                <div class="z0 transition-all" [style.background-image]="'url(/assets/gamedata/img/characters/ui/skillrank/' + (currentCombatSkillLevel.value < 7 ? add1(currentCombatSkillLevel.value) : ('m-' + (currentCombatSkillLevel.value - 6))) + '.png)'"></div>
+                            </div>
+                            <!-- use innerHTML -->
+                            <div id="content" class="z2 transition-all inline-blk" [innerHTML]="sanitizer.bypassSecurityTrustHtml(currentSkillDescriptions[i])"></div>
+                        </div>
                     </div>
-                </div>
+                    <div class="skill-params flex flex-col o0"
+                        *ngIf="currentSkillLevelInfo?.blackboard?.length"
+                    >
+                        <button class="flex j-flex-space-between pointer-all cur-pointer" (click)="toggleSkillParams()">
+                            <p style="padding-left: 10px; margin: 4px">Parameters</p>
+                            <svg
+                                class="a-self-center transition-all"
+                                width="139" height="78" viewBox="0 0 139 78"
+                                fill="none" xmlns="http://www.w3.org/2000/svg"
+                                [style.transform]="skillParamsVisible ? 'rotate(180deg)' : 'rotate(0deg)'">
+                            >
+                                <rect x="0.109127" y="8.59441" width="12" height="97.9754" transform="rotate(-45 0.109127 8.59441)" fill="#000000"/>
+                                <rect x="130.296" width="12" height="98" transform="rotate(45 130.296 0)" fill="#000000"/>
+                            </svg>
+                        </button>
+                        <div
+                            class="param-list transition-all flex flex-col fw overflow-hidden"
+                            style = "background-color: hsl(0, 0%, 13%); gap: 9px;"
+                            [style.maxHeight]="skillParamsVisible ? (((currentSkillLevelInfo?.blackboard?.length ?? 0) * 32 + 35) + 'px') : '0'"
+                        >
+                            <div
+                                class="param-item flex flex-row j-flex-space-between transition-all"
+                                [ngClass]="{'cur-help hoverable pointer-all': manager.getParamDesc(blackboardItem.key) }"
+                                *ngFor="let blackboardItem of sortSkillBlackboard(currentOperatorSkills[i])"
+                            >
+                             <!-- (mouseenter)="manager.getParamDesc(blackboardItem.key) ? onSkillParamHover(param_item, $event, true, manager.getParamDesc(blackboardItem.key)!) : null"
+                              (mouseleave)="manager.getParamDesc(blackboardItem.key) ? onSkillParamHover(param_item, $event, false, manager.getParamDesc(blackboardItem.key)!) : null" -->
+                                <div class="param-key flex flex-col">
+                                    <p class="no-margin txt-algn-left">{{blackboardItem.key}}</p>
+                                    <p class="param-desc no-margin transition-all overflow-hidden txt-algn-left" style="color:#fff" *ngIf="manager.getParamDesc(blackboardItem.key)">{{manager.getParamDesc(blackboardItem.key)}}</p>
+                                </div>
+                                <p
+                                    class="no-margin param-var"
+                                    *ngIf="manager.interpolateParamValue(blackboardItem.key, blackboardItem.value) as interpolatedParam"
+                                    [ngClass]="{
+                                        'negative': interpolatedParam[0] === false,
+                                        'positive': interpolatedParam[0] === true
+                                    }"
+                                >{{interpolatedParam[1]}}</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-bottom-group o0">
+                        <div id="left-section">
+                            <div
+                                id="skill-range"
+                                class="rel flex a-flex-center j-flex-center"
+                                *ngVar="!!hasRangeData(i, currentCombatSkillLevel.value) as hasRangeData"
+                                [style.background]="hasRangeData ? '' : 'linear-gradient(to top left, rgba(0,0,0,0) 0%, rgba(0,0,0,0) calc(50% - 2px), rgba(0,0,0,1) 50%, rgba(0,0,0,0) calc(50% + 2px), rgba(0,0,0,0) 100%)'"
+                            >
+                                <p placeholder class="abs t0 l0">Range</p>
+                                <ng-container *ngIf="hasRangeData">
+                                    <table
+                                        id="skill-range-table"
+                                        class="transition-all"
+                                        [ngStyle]="{
+                                            height: (currentSkillRanges[i]![1][0] * 36) + 'px',
+                                            width: (currentSkillRanges[i]![1][1] * 36) + 'px'
+                                        }"
+                                    >
+                                        <tr
+                                            *ngFor="
+                                                let row of currentSkillRanges[i]![0];
+                                                let rowIndex = index;
+                                                let rowLength = count
+                                            "
+                                            [ngStyle]="{
+                                                width: (rowLength * 36) + 'px'
+                                            }"
+                                        >
+                                            <td
+                                                class="skill-range-cell pointer-all rel"
+                                                *ngFor="
+                                                    let cell of row;
+                                                    let cellIndex = index;
+                                                    let cellLength = count
+                                                "
+                                                [ngSwitch]="cell"
+                                            >
+                                                <div class="active" *ngSwitchCase="1"></div>
+                                                <div class="extended" *ngSwitchCase="2"></div>
+                                                <div class="character" *ngSwitchCase="3"></div>
+                                                <div class="inactive" *ngSwitchCase="null"></div>
+                                                <div class="range-tile-desc abs w-auto flex flex-col o0 no-pointer">
+                                                    ▲
+                                                    <p class="tile-coord inline-flex"><i>ROW</i>&ThinSpace;{{rowIndex}}&nbsp;<i>COL</i>&ThinSpace;{{cellIndex}}</p>
+                                                    <p *ngSwitchCase="1">Skill effective range.</p>
+                                                    <p *ngSwitchCase="2">Extended range from skill.</p>
+                                                    <p *ngSwitchCase="3">{{currentOperator.name.split(' ')[0]}} stands here.</p>
+                                                    <p *ngSwitchCase="null">This tile has no effect.</p>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </ng-container>
+                                <p NO_DATA *ngIf="!hasRangeData">NO_DATA</p>
+                            </div>
+                        </div>
+                        <div id="right-section">
+                            <div id="skill-stats"></div>
+                        </div>
+                    </div>
+                </ng-container>
             </button>
         </div>
     </div>

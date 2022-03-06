@@ -1,18 +1,18 @@
 import { Injectable } from '@angular/core';
 import { Subject } from 'rxjs';
 
-import { CHAR_NAME, SUMMON_NAME, TRAP_NAME, Operator } from '@struct/Operator/Char';
+import { CHAR_NAME, Operator } from '@struct/Operator/Char';
 import { CharFaction, defaultCharFaction } from '@struct/Operator/CharFaction';
 import { CharCombatSkill } from '@struct/Operator/DetailedSkill';
 import { CharTrustAttributes } from '@struct/Operator/CharTrustData';
 import { Locales } from '@struct/Basic';
 import { ImageDataService } from '../image-data.service';
-import { arrayAtMany, emptyFunc, getDefault, Nullable, NullablePromise, Optional, Undef } from '@utils/utils';
+import { arrayAtMany, emptyFunc, ExcludeProp, getDefault, Nullable, NullablePromise, Optional } from '@utils/utils';
 import { JSONLoadService } from '@services/OperatorData/jsonload.service';
 import { join } from '@utils/PathUtils';
 
 import { OpClass, TermDescription } from './op-utils.service';
-import { AttackRange } from '../../../parser/struct/Operator/AttackRange';
+import { AttackRange } from '@struct/Operator/AttackRange';
 
 export type StatsPropMap = typeof import('@assets/gamedata/json/StatsPropMap.json');
 
@@ -234,13 +234,12 @@ export class OperatorDataManagerService {
 			.replace('{id}', charId);
 
 		try {
-            const res = await this.JSONAssets.load(charPath, {
+            return await this.JSONAssets.load(charPath, {
                 lifetime: 600000,
                 onExpire: (d) => {
                     console.log('Destroyed', d.id, d);
                 }
             }) as Nullable<Operator>;
-            return res;
         }
         catch (e) {
             // console.error(e);
@@ -255,13 +254,12 @@ export class OperatorDataManagerService {
             .replace('{id}', skillId);
 
         try {
-            const res = await this.JSONAssets.load(skillPath, {
+            return await this.JSONAssets.load(skillPath, {
                 lifetime: 600000,
                 onExpire: (d) => {
                     console.log('Destroyed', d.id, d);
                 },
             }) as Nullable<CharCombatSkill>;
-            return res;
         }
         catch (e) {
             // console.error(e);
@@ -317,10 +315,10 @@ export class OperatorDataManagerService {
     getParamDesc(param: string): Nullable<string> {
         if (this.paramDesc)
         {
-            if (`{@OVERRIDE}${param}` in this.paramDesc)
-                return this.paramDesc[`{@OVERRIDE}${param}` as keyof ParamDesc];
-            if (param in this.paramDesc)
-                return this.paramDesc[param as keyof ParamDesc];
+            if (param in this.paramDesc.overrides)
+                return this.paramDesc.overrides[param as keyof ParamDesc['overrides']];
+            if (param in this.paramDesc && param !== 'overrides')
+                return this.paramDesc[param as keyof ExcludeProp<ParamDesc, 'overrides'>];
         }
         return null;
     }
@@ -330,7 +328,7 @@ export class OperatorDataManagerService {
         {
             const positive = value > 0;
             const { opposite, sign } = Object.create(this.paramSign[param as keyof ParamSign] ?? {});
-            const out = `${sign ? (positive ? '+' : '-') : ''}${value}`
+            const out = `${sign ? (positive ? '+' : '-') : ''}${Math.abs(value)}`;
             switch (opposite)
             {
                 case true: return [positive ? false: true, out];
@@ -338,7 +336,7 @@ export class OperatorDataManagerService {
                 default: return [null, out];
             }
         }
-        return [null, value.toString()]
+        return [null, value.toString()];
     }
 
 	async loadOpImages(charId: string, type: 'avatars' | 'portraits' | 'full', id?: string, ex?: boolean): NullablePromise<Blob>
