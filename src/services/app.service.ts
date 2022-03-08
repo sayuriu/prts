@@ -4,7 +4,7 @@ import { Meta } from '@angular/platform-browser';
 @Injectable({
   providedIn: 'root'
 })
-export class ConnectionService {
+export class AppService {
 
     constructor(
         private metadata: Meta
@@ -14,7 +14,7 @@ export class ConnectionService {
     {
         return this._connected;
     }
-    updateStatus(online: boolean)
+    updateConnectionStatus(online: boolean)
     {
         this._connected = online;
     }

@@ -1,19 +1,22 @@
 [~done]
 [improve] override images with "_override" suffix in assets parsing
+[improve] set locale as built-in state for OperatorDataManagerService
 [old] package.json: has '"postbuild": "gulp compress",' ln18
 [add] some how get operator gender from aceship
 [bug] slider input changes ref index [operators -> skills]
+[add] tag style interpolation [named_effects.json]
 ------------------------------
 [~ongoing]
 [add] operator skill pages
-[add] tag style interpolation [named_effects.json]
 ------------------------------
+[~queue]
 [improve] change text src to svg for better scaling anim
 [improve] NotifService: use css-defined duration instead of decremental interval
 [improve] optimize CSS (replace redundant props with HTML util classes)
-[improve] set locale as built-in state for OperatorDataManagerService
 [add] glitchy interface for the NoScript display
 [add] op class preferred key for display [ClassFavKey.json]
 [bug] unhandled OnExpire of XMLService
 [add] unified logger service instead of console
-[improve] modulalize pages
+[improve] modularize pages
+[improve] also use interpolation on operators#MainInfo
+[add | 1.1.x-operators] offline support (indexedDB)

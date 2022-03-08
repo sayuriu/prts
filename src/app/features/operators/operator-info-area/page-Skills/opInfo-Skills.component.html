@@ -165,7 +165,6 @@
                                 <div class="z0 transition-all" style="background-image: url(/assets/gamedata/img/characters/ui/skillrank/bg.png)"></div>
                                 <div class="z0 transition-all" [style.background-image]="'url(/assets/gamedata/img/characters/ui/skillrank/' + (currentCombatSkillLevel.value < 7 ? add1(currentCombatSkillLevel.value) : ('m-' + (currentCombatSkillLevel.value - 6))) + '.png)'"></div>
                             </div>
-                            <!-- use innerHTML -->
                             <div id="content" class="z2 transition-all inline-blk" [innerHTML]="sanitizer.bypassSecurityTrustHtml(currentSkillDescriptions[i])"></div>
                         </div>
                     </div>
@@ -186,15 +185,15 @@
                         </button>
                         <div
                             class="param-list transition-all flex flex-col fw overflow-hidden"
-                            style = "background-color: hsl(0, 0%, 13%); gap: 9px;"
-                            [style.maxHeight]="skillParamsVisible ? (((currentSkillLevelInfo?.blackboard?.length ?? 0) * 32 + 35) + 'px') : '0'"
+                            style = "background-color: hsl(0, 0%, 13%)"
+                            [style.maxHeight]="skillParamsVisible ? (((currentSkillLevelInfo?.blackboard?.length ?? 0) * 37.5 + 35) + 'px') : '0'"
                         >
                             <div
                                 class="param-item flex flex-row j-flex-space-between transition-all"
                                 [ngClass]="{'cur-help hoverable pointer-all': manager.getParamDesc(blackboardItem.key) }"
                                 *ngFor="let blackboardItem of sortSkillBlackboard(currentOperatorSkills[i])"
                             >
-                             <!-- (mouseenter)="manager.getParamDesc(blackboardItem.key) ? onSkillParamHover(param_item, $event, true, manager.getParamDesc(blackboardItem.key)!) : null"
+                                <!--
                               (mouseleave)="manager.getParamDesc(blackboardItem.key) ? onSkillParamHover(param_item, $event, false, manager.getParamDesc(blackboardItem.key)!) : null" -->
                                 <div class="param-key flex flex-col">
                                     <p class="no-margin txt-algn-left">{{blackboardItem.key}}</p>
@@ -211,8 +210,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="skill-bottom-group o0">
-                        <div id="left-section">
+                    <div class="skill-bottom-group o0 flex" [style.gap]="'12px'">
+                        <div id="left-section" class="flex-grow-1">
                             <div
                                 id="skill-range"
                                 class="rel flex a-flex-center j-flex-center"
@@ -252,10 +251,10 @@
                                                 <div class="extended" *ngSwitchCase="2"></div>
                                                 <div class="character" *ngSwitchCase="3"></div>
                                                 <div class="inactive" *ngSwitchCase="null"></div>
+                                                <div class="arrow abs o0"></div>
                                                 <div class="range-tile-desc abs w-auto flex flex-col o0 no-pointer">
-                                                    ▲
                                                     <p class="tile-coord inline-flex"><i>ROW</i>&ThinSpace;{{rowIndex}}&nbsp;<i>COL</i>&ThinSpace;{{cellIndex}}</p>
-                                                    <p *ngSwitchCase="1">Skill effective range.</p>
+                                                    <p *ngSwitchCase="1">{{currentOperator.name.split(' ')[0]}}&apos;s attack range.</p>
                                                     <p *ngSwitchCase="2">Extended range from skill.</p>
                                                     <p *ngSwitchCase="3">{{currentOperator.name.split(' ')[0]}} stands here.</p>
                                                     <p *ngSwitchCase="null">This tile has no effect.</p>
@@ -267,8 +266,83 @@
                                 <p NO_DATA *ngIf="!hasRangeData">NO_DATA</p>
                             </div>
                         </div>
-                        <div id="right-section">
-                            <div id="skill-stats"></div>
+                        <div id="right-section" class="flex flex-col fh">
+                            <text-field
+                                [boundRect]="{ centerChildren: [true], height: '33px' }"
+                                [labelField]="{
+                                        centerChildren: [true],
+                                        height: '100%',
+                                        width: '122px',
+                                        borderMatrixOverride: ['', '0', '', ''],
+                                        border: '1px solid black',
+                                        background: '#c4c4c4'
+                                    }"
+                                [labelFieldText]="{
+                                        textValue: 'Initial SP',
+                                        textSize: '18px',
+                                        textAlign: 'center'
+                                    }"
+                                [valueField]="{
+                                        centerChildren: [true],
+                                        height: '100%',
+                                        width: (currentSkillLevelInfo.spData.initSp.toString().length + 2) + 'ch',
+                                        borderFgMatchBg: true,
+                                        border: '1px solid black',
+                                        background: '#3F3F3F'
+                                    }"
+                                [valueFieldText]="{
+                                        textValue: currentSkillLevelInfo.spData.initSp,
+                                        textSize: '18px',
+                                        textAlign: 'center',
+                                        textColor: '#FFFFFF'
+                                    }"
+                            ></text-field>
+                            <text-field
+                                class="a.self-flstart"
+                                [boundRect]="{ centerChildren: [true], height: '33px' }"
+                                [labelField]="{
+                                        centerChildren: [true],
+                                        height: '100%',
+                                        width: '102px',
+                                        borderMatrixOverride: ['', '0', '', ''],
+                                        border: '1px solid black',
+                                        background: '#c4c4c4'
+                                    }"
+                                [labelFieldText]="{
+                                        textValue: 'SP Cost',
+                                        textSize: '18px',
+                                        textAlign: 'center'
+                                    }"
+                                [valueField]="{
+                                        centerChildren: [true],
+                                        height: '100%',
+                                        width: (currentSkillLevelInfo.spData.spCost.toString().length + 2) + 'ch',
+                                        borderFgMatchBg: true,
+                                        border: '1px solid black',
+                                        background: '#3F3F3F',
+                                        extraCSS: { transition: 'width 0.4s ' + anime.timeFunc.Forceful }
+                                    }"
+                                [valueFieldText]="{
+                                        textValue: currentSkillLevelInfo.spData.spCost,
+                                        textSize: '18px',
+                                        textAlign: 'center',
+                                        textColor: '#FFFFFF'
+                                    }"
+                            ></text-field>
+                            <div id="skill-mat">
+                                <p *ngIf="!(currentOperator.allSkillLvlup[currentCombatSkillLevel.value - 1] || currentOperator.skills[i]!.levelUpCostCond[currentCombatSkillLevel.value - 7])" @AppearDisappear>NO_DATA</p>
+                                <div class="skill-mat-list flex pointer-all" *ngIf="(currentCombatSkillLevel.value > 6 ? currentOperator.skills[i]!.levelUpCostCond[currentCombatSkillLevel.value - 7] : currentOperator.allSkillLvlup[currentCombatSkillLevel.value - 1]) as item" @AppearDisappear>
+                                    <div
+                                        *ngFor="let mat of (currentCombatSkillLevel.value > 6 ? item.levelUpCost! : item.lvlUpCost!)"
+                                        class="skill-mat-item rel pointer-all"
+                                    >
+                                        <div class="skill-mat-desc abs bfull">
+                                            <p>{{mat.id}}&MediumSpace;<i>{{mat.count}}</i></p>
+                                        </div>
+                                        <img class="fw fh" [src]="manager.getMatImg(mat.id)" alt="">
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </ng-container>

@@ -109,7 +109,7 @@ export class OperatorInfoAreaComponent implements OnInit, OnChanges
 			this.menuVisible = true;
 			this.pagesVisible = true;
 			await waitAsync(600);
-			this.setMenuIndex(0);
+			this.setMenuIndex(1);
             this.opUtils.updateHoverDescListeners();
 		});
 	}
@@ -150,9 +150,9 @@ export class OperatorInfoAreaComponent implements OnInit, OnChanges
 		});
 	}
 
-    animsPlayed: (null | '')[] = [null, null, null];
+    animsPlayed: Nullable<''>[] = [null, null, null];
 	currentMenuIndex: number = -1;
-	setMenuIndex(index: Range<0, 3> | -1)
+	setMenuIndex(index: Range<0, 6> | -1)
 	{
 		this.currentMenuIndex = index;
 	}

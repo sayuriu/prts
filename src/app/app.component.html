@@ -4,12 +4,16 @@
 </div>
 <notif-overlay id="Notifications"></notif-overlay>
 <pop-up-container
-    class="abs transition-all"
+    class="abs transition-all overflow-hidden txt-algn-center no-pointer"
     [ngStyle]="{
         top: popup.location.value.y + 'px',
         left: popup.location.value.x + 'px',
         opacity: popup.visible.value ? 1 : 0,
-        transform: popup.visible.value ? 'translate(0) scale(1)' : popup.initTransform.value
+        transform: popup.visible.value ? 'translate(0) scale(1)' : popup.initTransform.value,
+        maxWidth: (popup.textContent.value.length + 2) + 'ch',
+        whiteSpace: 'nowrap'
     }"
     [innerHTML]="popup.content.value"
 ></pop-up-container>
+<div id="screenIsPortrait" class="abs t0 l0 pointer-all" *ngIf="isPortrait || screenTooSmall" @AppearDisappear></div>
+<div id="invalidScreen" class="abs t0 l0 pointer-all" *ngIf="isPortrait || screenTooSmall" @AppearDisappear></div>

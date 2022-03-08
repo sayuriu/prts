@@ -10,6 +10,9 @@ import { CharCombatSkill, SkillLevelData } from '@struct/Operator/DetailedSkill'
 import { AttackRange } from '@struct/Operator/AttackRange';
 import { Operator } from '@struct/Operator/Char';
 import { Nullable, waitAsync, get2dArraySize } from '@utils/utils';
+import {AnimationFunctions, AppearDisappear} from "@utils/anims";
+
+const appearDisappear = AppearDisappear('0.3s ' + AnimationFunctions.Forceful);
 
 class Utils {
     add1(input: number)
@@ -25,7 +28,10 @@ class Utils {
 @Component({
 	selector: 'op-info-skills',
 	templateUrl: './opInfo-Skills.component.html',
-	styleUrls: ['./opInfo-Skills.component.scss']
+	styleUrls: ['./opInfo-Skills.component.scss'],
+    animations: [
+        appearDisappear,
+    ]
 })
 export
 class OpSkillsComponent
@@ -149,26 +155,30 @@ implements OnInit, OnChanges, AfterViewChecked {
         this.updateSkillDescription();
     }
 
-    // onSkillParamHover(element: Element, event: Event, inbound: boolean, data: string)
-    // {
-    //     if (inbound)
-    //     {
-    //         const { x, y, height } = (element as HTMLElement).getBoundingClientRect();
-    //         this.popup.initTransform.setValue('translateY(20px)');
-    //         this.popup.display(
-    //             [
-    //                 `<p style="color: #fff; background-color: #000">${data}</p>`,
-    //             ].join(''),
-    //             {
-    //                 x: x + 15,
-    //                 y: y + height,
-    //             },
-    //             'v'
-    //         )
-    //         return;
-    //     }
-    //     this.popup.clear();
-    // }
+    onSkillParamHover(element: Element, event: Event, inbound: boolean, data: string)
+    {
+        if (inbound)
+        {
+            const { x, y, height } = (element as HTMLElement).getBoundingClientRect();
+            this.popup.initTransform.setValue('translateY(20px)');
+            this.popup.display({
+                html: [
+                    `<p style="color: #fff; background-color: #000">${data}</p>`,
+                ].join(''),
+                text: data,
+                location: {
+                    x: x + 15,
+                    y: y + height - 20,
+                },
+            })
+            return;
+        }
+        // this.popup.clear();
+    }
+
+    log(...args: any[]) {
+        console.log(...args);
+    }
 
     atkRangeByElite: [string, number][] = [];
     currentEliteLevel = 0;

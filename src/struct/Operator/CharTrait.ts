@@ -1,6 +1,7 @@
 import { HasCandidate, Range } from "../Basic";
 import { AttackRange as CharRangeId } from "./AttackRange";
 import { BlackboardItem } from "./BlackBoardItem";
+import {SkillUnlockCond} from "@struct/Operator/CharSkill";
 
 type Range0_2 = Range.$0_2;
 type Range0_5 = Range.$0_5;

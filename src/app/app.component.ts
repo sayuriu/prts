@@ -4,17 +4,18 @@ import { Meta, Title } from '@angular/platform-browser';
 
 import { ErrorService } from '@services/error.service';
 import { NotifService } from '@services/notif.service';
-import { ConnectionService } from '@services/connection.service';
+import { AppService } from '@services/app.service';
 import { PopupService } from '@services/popup.service';
 
-import { routeAnims } from '@utils/anims';
+import { AnimationFunctions, routeAnims } from '@utils/anims';
 import { version, name } from '@utils/package';
 import type { BrowserWindow } from '@interfaces/common';
 import { getURLWithoutParams } from '@utils/PathUtils';
 import { isFullScreen } from '@utils/utils';
+import { AppearDisappear } from '@utils/anims';
 import appMetadata from './app.metadata';
 
-
+const appearDisappear = AppearDisappear(`0.5s ${AnimationFunctions.Forceful}`);
 @Component({
   	selector: 'app-root',
   	templateUrl: './app.component.html',
@@ -22,15 +23,18 @@ import appMetadata from './app.metadata';
 
 	animations: [
 		routeAnims,
+        appearDisappear,
 	],
 })
 export class AppComponent implements OnInit {
+    isPortrait = false;
+    screenTooSmall = false;
 
 	constructor(
 			// private errorService: ErrorService,
 			private notif: NotifService,
 			public router: Router,
-            public connection: ConnectionService,
+            public app: AppService,
             public popup: PopupService,
             public title: Title,
             public meta: Meta,
@@ -38,8 +42,8 @@ export class AppComponent implements OnInit {
 	{}
 
 	ngOnInit() {
-        this.popup.content
 		OverlayUtils.removeLoadStatus();
+        this.isPortrait = window.innerHeight > window.innerWidth;
 		(window as BrowserWindow).__env.AppVersion = version;
         (window as BrowserWindow).__env.AppName = 'PRTS Analysis OS';
 		this.router.malformedUriErrorHandler = (e, serializer, url) => {
@@ -47,7 +51,7 @@ export class AppComponent implements OnInit {
 			this.router.navigateByUrl(path, { replaceUrl: true });
 			return this.router.createUrlTree([path]);
 		}
-        this.router.events.subscribe(e => {
+        this.router.events.subscribe(() => {
             let extra: Record<string, string> = {};
             extra[name.replace(/ +/g, '-')] = version;
             this.meta.updateTag({
@@ -55,7 +59,7 @@ export class AppComponent implements OnInit {
                 version,
             }, 'RHODESISLAND')
             this.title.setTitle(name);
-            this.connection.updateMetadata(appMetadata);
+            this.app.updateMetadata(appMetadata);
         });
 		window.addEventListener('resize', (() =>{
 			if (isFullScreen())
@@ -65,12 +69,15 @@ export class AppComponent implements OnInit {
 				this.notif.currentMessage?.message === 'Entered fullscreen.'
 			)
 			this.notif.skipCurrent();
+            this.isPortrait = window.innerHeight > window.innerWidth;
+            if (this.isPortrait) return;
+            this.screenTooSmall = window.innerHeight < 700 || window.innerWidth < 1300;
 		}).bind(this));
         window.addEventListener('online', () => {
-            this.connection.updateStatus(true);
+            this.app.updateConnectionStatus(true);
         })
         window.addEventListener('offline', () => {
-            this.connection.updateStatus(false);
+            this.app.updateConnectionStatus(false);
         });
 	}
 

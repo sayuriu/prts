@@ -18,7 +18,7 @@ const commonContainerStyle = style({
 
 export class AnimationFunctions
 {
-	static readonly Forceful = 'cubic-bezier(0.88,-0.07, 0.22, 1.01)';
+	static readonly Forceful = 'cubic-bezier(0.88, 0, 0.22, 1.01)';
 }
 
 // #region routeAnims

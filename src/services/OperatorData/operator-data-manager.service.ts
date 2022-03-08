@@ -6,18 +6,21 @@ import { CharFaction, defaultCharFaction } from '@struct/Operator/CharFaction';
 import { CharCombatSkill } from '@struct/Operator/DetailedSkill';
 import { CharTrustAttributes } from '@struct/Operator/CharTrustData';
 import { Locales } from '@struct/Basic';
-import { ImageDataService } from '../image-data.service';
-import { arrayAtMany, emptyFunc, ExcludeProp, getDefault, Nullable, NullablePromise, Optional } from '@utils/utils';
-import { JSONLoadService } from '@services/OperatorData/jsonload.service';
 import { join } from '@utils/PathUtils';
+import { arrayAtMany, emptyFunc, ExcludeProp, getDefault, Nullable, NullablePromise, Optional } from '@utils/utils';
+import { ImageDataService } from '@services/image-data.service';
+import { JSONLoadService } from '@services/OperatorData/jsonload.service';
+import { OpClass, TermDescription } from '@services/OperatorData/op-utils.service';
+import { LogService } from '@services/log.service';
 
-import { OpClass, TermDescription } from './op-utils.service';
 import { AttackRange } from '@struct/Operator/AttackRange';
 
 export type StatsPropMap = typeof import('@assets/gamedata/json/StatsPropMap.json');
 
 export type ParamDesc = typeof import('@assets/gamedata/json/tl-data/paramDesc.json');
 export type ParamSign = typeof import('@assets/gamedata/json/tl-data/paramSign.json');
+
+export type MaterialImgMap = typeof import('@assets/gamedata/json/locales/zh_CN/items/idToImg.json');
 
 export type RichColor_zh_CN = typeof import('@assets/gamedata/json/locales/zh_CN/gamedata-const/richTextStyles.json');
 export type RangeTables_zh_CN = typeof import('@assets/gamedata/json/locales/zh_CN/ranges/allRanges.json');
@@ -29,7 +32,7 @@ export type zh_CN_CharIndex = typeof import('@assets/gamedata/json/locales/zh_CN
 export type zh_TW_CharIndex = typeof import('@assets/gamedata/json/locales/zh_TW/charnameLinkID.json');
 export type EX_CharIndex = typeof import('@assets/gamedata/json/locales/ex/charnameLinkID.json');
 
-type AllCharIndexes = en_US_CharIndex & ja_JP_CharIndex & ko_KR_CharIndex & zh_CN_CharIndex & zh_TW_CharIndex & EX_CharIndex;
+// type AllCharIndexes = en_US_CharIndex & ja_JP_CharIndex & ko_KR_CharIndex & zh_CN_CharIndex & zh_TW_CharIndex & EX_CharIndex;
 // type AllCharIndexNames = keyof (AllCharIndexes);
 // type AllCharIndexIds = ValueOf<AllCharIndexes>;
 
@@ -87,6 +90,7 @@ export class OperatorDataManagerService {
     private paramDesc!: Nullable<ParamDesc>;
     private paramSign!: Nullable<ParamSign>;
 	private statPropsMap!: Nullable<StatsPropMap>;
+    private matImgIdMap!: Nullable<MaterialImgMap>;
 
 	readonly imagePath = 'gamedata/img';
 
@@ -103,7 +107,8 @@ export class OperatorDataManagerService {
     }
 	constructor(
 		public cachedImages: ImageDataService,
-		private JSONAssets: JSONLoadService
+		private JSONAssets: JSONLoadService,
+        // private log: LogService,
 	) {
 		this.events = new Subject<this>();
 		this.loadAssets()
@@ -129,6 +134,7 @@ export class OperatorDataManagerService {
         this.loadParamDesc();
         this.loadParamSign();
         this.loadStatPropsMap();
+        this.loadMatImgIdMap();
 	}
 
 	private async loadAssets()
@@ -201,6 +207,18 @@ export class OperatorDataManagerService {
         catch (e) {
             console.error('Failed to load stat keys map!');
             this.statPropsMap = null;
+        }
+    }
+    private async loadMatImgIdMap()
+    {
+        console.log('Loading mat img id map...');
+        try {
+            this.matImgIdMap = await import('@assets/gamedata/json/locales/zh_CN/items/idToImg.json').then(getDefault);
+            console.log('Mat img id map loaded.');
+        }
+        catch (e) {
+            console.error('Failed to load mat img id map!');
+            this.matImgIdMap = null;
         }
     }
 
@@ -322,6 +340,15 @@ export class OperatorDataManagerService {
         }
         return null;
     }
+    getMatImg(matId: string): string
+    {
+        if (this.matImgIdMap)
+        {
+            if (matId in this.matImgIdMap)
+                return `/assets/gamedata/img/items/${this.matImgIdMap[matId as keyof MaterialImgMap]}.png`;
+        }
+        return '/assets/img/ui/no_data_class.png';
+    }
     interpolateParamValue(param: string, value: number): [boolean | null, string]
     {
         if (this.paramSign)
@@ -331,14 +358,13 @@ export class OperatorDataManagerService {
             const out = `${sign ? (positive ? '+' : '-') : ''}${Math.abs(value)}`;
             switch (opposite)
             {
-                case true: return [positive ? false: true, out];
-                case false: return [positive ? true: false, out];
+                case true: return [!positive, out];
+                case false: return [positive, out];
                 default: return [null, out];
             }
         }
         return [null, value.toString()];
     }
-
 	async loadOpImages(charId: string, type: 'avatars' | 'portraits' | 'full', id?: string, ex?: boolean): NullablePromise<Blob>
 	async loadOpImages(charId: CHAR_NAME, type: 'avatars' | 'portraits' | 'full', id?: string, ex = false): NullablePromise<Blob>
 	{

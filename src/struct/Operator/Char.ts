@@ -2,9 +2,10 @@ import { HasCandidate, WithNameAndDesc } from "../Basic";
 import { CharBasicInfo } from "./CharBasicInfo";
 import { CharPhase } from "./CharPhase";
 import { CharPotential } from "./CharPotential";
-import { CharSkill } from "./CharSkill";
+import {CharSkill, SkillUnlockCond} from "./CharSkill";
 import { CharTrait, CharTraitCandidate } from "./CharTrait";
 import { CharTrustData } from "./CharTrustData";
+import { EvolveItemData } from "@struct/Operator/EvolveItem";
 
 export interface Operator
 extends CharBasicInfo
@@ -23,6 +24,12 @@ extends CharBasicInfo
 	talents: HasCandidate<CharTraitCandidate & WithNameAndDesc>[];
 	potentialRanks: CharPotential[];
 	favorKeyFrames: CharTrustData[];
+    allSkillLvlup: {
+        unlockCond: SkillUnlockCond,
+        lvlUpCost: EvolveItemData[],
+        //! HYPERGRYPH, WHY CAN'T YOU BE CONSISTENT WITH DATA STRUCTURE?
+        levelUpCost?: EvolveItemData[]
+    }[];
 }
 
 export { CHAR_NAME, SUMMON_NAME, TRAP_NAME } from "./CharBasicInfo";

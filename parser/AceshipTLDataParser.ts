@@ -51,12 +51,12 @@ export function ParseTLData()
 	parseTLData('tl-potential.json', 'skill_cn', 'potentials/{key}');
 	parseTLData('tl-unreadablename.json', 'name', 'foreign_names/{key}');
     parseTLData('tl-effect.json', (objSrc: any, targetPath: string) => {
-        let source: Record<string, string> = {};
+        let source: Record<string, string>;
         try {
-            source = require(resolve(joinPaths(DESTINATION_ROOT, 'json/tl-data/effects.json')));
+            source = require(resolve(joinPaths(DESTINATION_ROOT, 'json/tl-data/paramDesc.json')));
         }
         catch (e) {
-            Logger.error(`Parsing tl-effect.json`, `Failed to parse effects.json`);
+            Logger.error(`Parsing tl-effect.json`, `Failed to parse paramDesc.json`);
             source = {}
         }
         let out = Object.assign({}, source);
@@ -66,9 +66,9 @@ export function ParseTLData()
         }
         writeFileSync(resolve(joinPaths(BASE_TL_JSON_PATH, targetPath)), JSON.stringify(out, null, '\t'));
         createRecursive(targetPath);
-    }, 'effect.json');
+    }, 'paramDesc.json');
 	parseTLData('tl-subclass.json', (objSrc: any, targetPath: string) => {
-        let favClassKeys = {};
+        let favClassKeys: Record<string, string>;
         // TODO: Fav class key parser
         try {
             favClassKeys = require(resolve(DESTINATION_ROOT, 'json/tl-data/ClassFavKey.json'));

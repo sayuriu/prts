@@ -40,6 +40,7 @@ export namespace GamedataDestination {
 			materials: 'materials/{type}',
 			itemToType_JSON: 'itemToType.json',
 			typeToItems_JSON: 'typeToItems.json',
+            idToImg_JSON: 'idToImg.json',
 		};
 		export const characters = {
 			_base: 'characters',
@@ -118,7 +119,7 @@ function parseCombatSkill(src: string, dest: string)
 function parseItem(src: string, dest: string)
 {
 	const header = 'Items-' + getLocale(src);
-	const { _base, types, materials, itemToType_JSON, typeToItems_JSON } = GamedataDestination.DATA.items;
+	const { _base, types, materials, itemToType_JSON, typeToItems_JSON, idToImg_JSON } = GamedataDestination.DATA.items;
 	const list = require(src);
 	createIfNotExist(joinPaths(dest, _base), header);
 	createIfNotExist(joinPaths(dest, _base, types), header);
@@ -137,6 +138,7 @@ function parseItem(src: string, dest: string)
 	let FullConcatObj: Record<string, any> = {};
 	const matData: Record<string, any> = {};
 	const matTypes: Record<string, string[]> = {};
+    const matIdToImg: Record<string, string> = {};
 	const tracker = new CountTracker();
 	for (const item in list.items)
 	{
@@ -144,6 +146,7 @@ function parseItem(src: string, dest: string)
 		const itemType = actualItem.itemType;
 		FullConcatObj = concatObjects(FullConcatObj, actualItem);
 		matData[item] = itemType;
+        matIdToImg[item] = actualItem.iconId ?? null;
 		if (!(itemType in matTypes)) matTypes[itemType] = [];
 		matTypes[itemType].push(item);
 		createIfNotExist(joinPaths(dest, _base, materials.replace('{type}', itemType)), header, true);
@@ -159,11 +162,15 @@ function parseItem(src: string, dest: string)
 
 	writeJSON(joinPaths(dest, _base, itemToType_JSON), matData);
 	Logger.log(null, Logger.green('done'));
-	Logger.info(header, `Writing ${Logger.yellow(typeToItems_JSON.replace('../', ''))}...`, false);
 
+	Logger.info(header, `Writing ${Logger.yellow(typeToItems_JSON.replace('../', ''))}...`, false);
 	if (isCN(getLocale(src))) writeJSON(joinPaths('.', 'json', typeToItems_JSON), matTypes);
 	writeJSON(joinPaths(dest, _base, typeToItems_JSON), matTypes);
 	Logger.log(null, Logger.green('done'));
+
+    Logger.info(header, `Writing ${Logger.yellow(idToImg_JSON.replace('../', ''))}...`, false);
+    writeJSON(joinPaths(dest, _base, idToImg_JSON), matIdToImg);
+    Logger.log(null, Logger.green('done'));
 	Logger.info(header, Logger.green('Write complete!'));
 }
 

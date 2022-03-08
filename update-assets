@@ -1,17 +1,16 @@
 #!/bin/bash
-ROOT=$dirname
 ACESHIP_ROOT="aceship/AN-EN-Tags"
 KENGXIAO_ROOT="kengxxiao/ArknightsGameData"
 PARSER_DIR="parser"
 PARSER_SCRIPT="parser.sh"
 
 repo="aceship"
-cd $ACESHIP_ROOT
+cd "$ACESHIP_ROOT" || exit 1
 echo "[$repo] Syncing git..."
 git fetch --all && git reset --hard origin/master
 cd ../../
 repo="kengxxiao"
-cd $KENGXIAO_ROOT
+cd "$KENGXIAO_ROOT" || exit 1
 echo "[$repo] Syncing git..."
 git fetch --all && git reset --hard origin/master
 cd ../../
