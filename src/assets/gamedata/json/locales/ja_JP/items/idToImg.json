@@ -1,494 +1,1970 @@
 {
-	"2001": "sprite_exp_card_t1",
-	"2002": "sprite_exp_card_t2",
-	"2003": "sprite_exp_card_t3",
-	"2004": "sprite_exp_card_t4",
-	"3003": "MTL_GOLD3",
-	"3105": "MTL_BASE_ESS",
-	"3112": "MTL_BASE_SL1",
-	"3113": "MTL_BASE_SL2",
-	"3114": "MTL_BASE_SL3",
-	"3131": "MTL_BASE_SYNTH1",
-	"3132": "MTL_BASE_SYNTH2",
-	"3133": "MTL_BASE_SYNTH3",
-	"3141": "MTL_DIAMOND_SHD",
-	"3211": "MTL_ASC_PIO1",
-	"3212": "MTL_ASC_PIO2",
-	"3213": "MTL_ASC_PIO3",
-	"3221": "MTL_ASC_GRD1",
-	"3222": "MTL_ASC_GRD2",
-	"3223": "MTL_ASC_GRD3",
-	"3231": "MTL_ASC_TNK1",
-	"3232": "MTL_ASC_TNK2",
-	"3233": "MTL_ASC_TNK3",
-	"3241": "MTL_ASC_SNP1",
-	"3242": "MTL_ASC_SNP2",
-	"3243": "MTL_ASC_SNP3",
-	"3251": "MTL_ASC_CST1",
-	"3252": "MTL_ASC_CST2",
-	"3253": "MTL_ASC_CST3",
-	"3261": "MTL_ASC_MED1",
-	"3262": "MTL_ASC_MED2",
-	"3263": "MTL_ASC_MED3",
-	"3271": "MTL_ASC_SUP1",
-	"3272": "MTL_ASC_SUP2",
-	"3273": "MTL_ASC_SUP3",
-	"3281": "MTL_ASC_SPC1",
-	"3282": "MTL_ASC_SPC2",
-	"3283": "MTL_ASC_SPC3",
-	"3301": "MTL_SKILL1",
-	"3302": "MTL_SKILL2",
-	"3303": "MTL_SKILL3",
-	"3401": "COIN_FURN",
-	"4001": "GOLD",
-	"4002": "DIAMOND",
-	"4003": "DIAMOND_SHD",
-	"4004": "HGG_SHD",
-	"4005": "LGG_SHD",
-	"4006": "EXGG_SHD",
-	"5001": "EXP_PLAYER",
-	"6001": "TKT_TRY",
-	"7001": "TKT_RECRUIT",
-	"7002": "TKT_INST_FIN",
-	"7003": "TKT_GACHA",
-	"7004": "TKT_GACHA_10",
-	"30011": "MTL_SL_G1",
-	"30012": "MTL_SL_G2",
-	"30013": "MTL_SL_G3",
-	"30014": "MTL_SL_G4",
-	"30021": "MTL_SL_STRG1",
-	"30022": "MTL_SL_STRG2",
-	"30023": "MTL_SL_STRG3",
-	"30024": "MTL_SL_STRG4",
-	"30031": "MTL_SL_RUSH1",
-	"30032": "MTL_SL_RUSH2",
-	"30033": "MTL_SL_RUSH3",
-	"30034": "MTL_SL_RUSH4",
-	"30041": "MTL_SL_IRON1",
-	"30042": "MTL_SL_IRON2",
-	"30043": "MTL_SL_IRON3",
-	"30044": "MTL_SL_IRON4",
-	"30051": "MTL_SL_KETONE1",
-	"30052": "MTL_SL_KETONE2",
-	"30053": "MTL_SL_KETONE3",
-	"30054": "MTL_SL_KETONE4",
-	"30061": "MTL_SL_BOSS1",
-	"30062": "MTL_SL_BOSS2",
-	"30063": "MTL_SL_BOSS3",
-	"30064": "MTL_SL_BOSS4",
-	"30073": "MTL_SL_ALCOHOL1",
-	"30074": "MTL_SL_ALCOHOL2",
-	"30083": "MTL_SL_MANGANESE1",
-	"30084": "MTL_SL_MANGANESE2",
-	"30093": "MTL_SL_PG1",
-	"30094": "MTL_SL_PG2",
-	"30103": "MTL_SL_RMA7012",
-	"30104": "MTL_SL_RMA7024",
-	"30115": "MTL_SL_PP",
-	"30125": "MTL_SL_BN",
-	"30135": "MTL_SL_DS",
-	"30145": "MTL_SL_OEU",
-	"31013": "MTL_SL_PGEL3",
-	"31014": "MTL_SL_PGEL4",
-	"31023": "MTL_SL_IAM3",
-	"31024": "MTL_SL_IAM4",
-	"31033": "MTL_SL_OC3",
-	"31034": "MTL_SL_OC4",
-	"32001": "MTL_ASC_DI",
-	"SOCIAL_PT": "SOCIAL_PT",
-	"AP_GAMEPLAY": "AP_GAMEPLAY",
-	"base_ap": "AP_BASE",
-	"bilibili001": "bilibili001",
-	"LMTGS_COIN_601": "LMTGS_COIN_601",
-	"LMTGS_COIN_903": "LMTGS_COIN_903",
-	"LMTGS_COIN_1401": "LMTGS_COIN_1401",
-	"LMTGS_COIN_1601": "LMTGS_COIN_1601",
-	"LMTGS_COIN_1803": "LMTGS_COIN_1803",
-	"LMTGS_COIN_2101": "LMTGS_COIN_2101",
-	"EPGS_COIN": "EPGS_COIN",
-	"REP_COIN": "REP_COIN",
-	"CRISIS_SHOP_COIN": "CRISIS_SHOP_COIN",
-	"STORY_REVIEW_COIN": "STORY_REVIEW_COIN",
-	"RETRO_COIN": "RETRO_COIN",
-	"renamingCard": "renamingCard",
-	"renamingCard_0_018": "renamingCard",
-	"renamingCard_30_018": "renamingCard",
-	"ap_supply_lt_100": "ap_supply_lt_100",
-	"ap_supply_lt_60": "ap_supply_lt_60",
-	"ap_supply_lt_010": "ap_supply_lt_10",
-	"LIMITED_TKT_GACHA_10_903": "LIMITED_TKT_GACHA_10_903",
-	"LIMITED_TKT_GACHA_10_1401": "LIMITED_TKT_GACHA_10_1401",
-	"LIMITED_TKT_GACHA_10_1601": "LIMITED_TKT_GACHA_10_1601",
-	"LINKAGE_TKT_GACHA_10_1701": "LINKAGE_TKT_GACHA_10_1701",
-	"LIMITED_TKT_GACHA_10_1803": "LIMITED_TKT_GACHA_10_1803",
-	"LIMITED_TKT_GACHA_10_2101": "LIMITED_TKT_GACHA_10_2101",
-	"voucher_item_4pick1": "voucher_item_4pick1",
-	"voucher_item_4pick1_1803": "voucher_item_4pick1",
-	"voucher_recruitR5_pick2": "voucher_recruitR5_pick2",
-	"voucher_recruitR5_pick1803": "voucher_recruitR5_g",
-	"voucher_item_pick601": "voucher_item_pick601",
-	"voucher_item_pick1401": "voucher_recruitR6_g",
-	"voucher_item_pick1803": "voucher_recruitR6_g",
-	"voucher_elite_II_5": "voucher_elite_II_5",
-	"voucher_skin": "voucher_skin",
-	"2020recruitment10_1": "2020recruitment10_1",
-	"2020recruitment10_2": "2020recruitment10_2",
-	"2020recruitment10_3": "2020recruitment10_3",
-	"2021recruitment10_1": "2021recruitment10_1",
-	"2021recruitment10_2": "2021recruitment10_2",
-	"2021recruitment10_3": "2021recruitment10_3",
-	"voucher_recruitR4_1": "voucher_recruitR4_1",
-	"voucher_recruitR3_1": "voucher_recruitR3_1",
-	"randomMaterialRune_0": "randomMaterialRune_0",
-	"randomMaterialRune_1": "randomMaterialRune_1",
-	"randomMaterialRune_2": "randomMaterialRune_2",
-	"randomMaterialRune_3": "randomMaterialRune_3",
-	"randomMaterialRune_4": "randomMaterialRune_4",
-	"randomMaterialRune_5": "randomMaterialRune_5",
-	"randomMaterialRune_6": "randomMaterialRune_6",
-	"randomMaterial_1": "randomMaterial_1",
-	"randomMaterial_2": "randomMaterial_2",
-	"randomMaterial_3": "randomMaterial_3",
-	"randomMaterial_4": "randomMaterial_4",
-	"randomDiamondShd_1": "randomDiamondShd_1",
-	"randomDiamondShd_2": "randomDiamondShd_2",
-	"mod_unlock_token": "mod_unlock_token",
-	"tier1_pioneer": "tier1_pioneer",
-	"tier1_guard": "tier1_guard",
-	"tier1_tank": "tier1_tank",
-	"tier1_sniper": "tier1_sniper",
-	"tier1_caster": "tier1_caster",
-	"tier1_medic": "tier1_medic",
-	"tier1_supporter": "tier1_supporter",
-	"tier1_special": "tier1_special",
-	"tier2_pioneer": "tier2_pioneer",
-	"tier2_guard": "tier2_guard",
-	"tier2_tank": "tier2_tank",
-	"tier2_sniper": "tier2_sniper",
-	"tier2_caster": "tier2_caster",
-	"tier2_medic": "tier2_medic",
-	"tier2_supporter": "tier2_supporter",
-	"tier2_special": "tier2_special",
-	"tier3_pioneer": "tier3_pioneer",
-	"tier3_guard": "tier3_guard",
-	"tier3_tank": "tier3_tank",
-	"tier3_sniper": "tier3_sniper",
-	"tier3_caster": "tier3_caster",
-	"tier3_medic": "tier3_medic",
-	"tier3_supporter": "tier3_supporter",
-	"tier3_special": "tier3_special",
-	"tier4_pioneer": "tier4_pioneer",
-	"tier4_guard": "tier4_guard",
-	"tier4_tank": "tier4_tank",
-	"tier4_sniper": "tier4_sniper",
-	"tier4_caster": "tier4_caster",
-	"tier4_medic": "tier4_medic",
-	"tier4_supporter": "tier4_supporter",
-	"tier4_special": "tier4_special",
-	"tier5_pioneer": "tier5_pioneer",
-	"tier5_guard": "tier5_guard",
-	"tier5_tank": "tier5_tank",
-	"tier5_sniper": "tier5_sniper",
-	"tier5_caster": "tier5_caster",
-	"tier5_medic": "tier5_medic",
-	"tier5_supporter": "tier5_supporter",
-	"tier5_special": "tier5_special",
-	"tier6_pioneer": "tier6_pioneer",
-	"tier6_guard": "tier6_guard",
-	"tier6_tank": "tier6_tank",
-	"tier6_sniper": "tier6_sniper",
-	"tier6_caster": "tier6_caster",
-	"tier6_medic": "tier6_medic",
-	"tier6_supporter": "tier6_supporter",
-	"tier6_special": "tier6_special",
-	"p_char_285_medic2": "p_char_285_medic2",
-	"p_char_286_cast3": "p_char_286_cast3",
-	"p_char_376_therex": "p_char_376_therex",
-	"p_char_502_nblade": "p_char_502_nblade",
-	"p_char_500_noirc": "p_char_500_noirc",
-	"p_char_503_rang": "p_char_503_rang",
-	"p_char_501_durin": "p_char_501_durin",
-	"p_char_009_12fce": "p_char_009_12fce",
-	"p_char_123_fang": "p_char_123_fang",
-	"p_char_240_wyvern": "p_char_240_wyvern",
-	"p_char_192_falco": "p_char_192_falco",
-	"p_char_208_melan": "p_char_208_melan",
-	"p_char_209_ardign": "p_char_209_ardign",
-	"p_char_122_beagle": "p_char_122_beagle",
-	"p_char_124_kroos": "p_char_124_kroos",
-	"p_char_211_adnach": "p_char_211_adnach",
-	"p_char_121_lava": "p_char_121_lava",
-	"p_char_120_hibisc": "p_char_120_hibisc",
-	"p_char_212_ansel": "p_char_212_ansel",
-	"p_char_210_stward": "p_char_210_stward",
-	"p_char_278_orchid": "p_char_278_orchid",
-	"p_char_282_catap": "p_char_282_catap",
-	"p_char_283_midn": "p_char_283_midn",
-	"p_char_284_spot": "p_char_284_spot",
-	"p_char_281_popka": "p_char_281_popka",
-	"p_char_141_nights": "p_char_141_nights",
-	"p_char_109_fmout": "p_char_109_fmout",
-	"p_char_235_jesica": "p_char_235_jesica",
-	"p_char_126_shotst": "p_char_126_shotst",
-	"p_char_118_yuki": "p_char_118_yuki",
-	"p_char_198_blackd": "p_char_198_blackd",
-	"p_char_149_scave": "p_char_149_scave",
-	"p_char_290_vigna": "p_char_290_vigna",
-	"p_char_130_doberm": "p_char_130_doberm",
-	"p_char_289_gyuki": "p_char_289_gyuki",
-	"p_char_193_frostl": "p_char_193_frostl",
-	"p_char_127_estell": "p_char_127_estell",
-	"p_char_185_frncat": "p_char_185_frncat",
-	"p_char_237_gravel": "p_char_237_gravel",
-	"p_char_236_rope": "p_char_236_rope",
-	"p_char_117_myrrh": "p_char_117_myrrh",
-	"p_char_187_ccheal": "p_char_187_ccheal",
-	"p_char_181_flower": "p_char_181_flower",
-	"p_char_199_yak": "p_char_199_yak",
-	"p_char_150_snakek": "p_char_150_snakek",
-	"p_char_196_sunbr": "p_char_196_sunbr",
-	"p_char_110_deepcl": "p_char_110_deepcl",
-	"p_char_183_skgoat": "p_char_183_skgoat",
-	"p_char_277_sqrrel": "p_char_277_sqrrel",
-	"p_char_137_brownb": "p_char_137_brownb",
-	"p_char_253_greyy": "p_char_253_greyy",
-	"p_char_151_myrtle": "p_char_151_myrtle",
-	"p_char_298_susuro": "p_char_298_susuro",
-	"p_char_260_durnar": "p_char_260_durnar",
-	"p_char_355_ethan": "p_char_355_ethan",
-	"p_char_190_clour": "p_char_190_clour",
-	"p_char_133_mm": "p_char_133_mm",
-	"p_char_302_glaze": "p_char_302_glaze",
-	"p_char_385_finlpp": "p_char_385_finlpp",
-	"p_char_337_utage": "p_char_337_utage",
-	"p_char_301_cutter": "p_char_301_cutter",
-	"p_char_258_podego": "p_char_258_podego",
-	"p_char_328_cammou": "p_char_328_cammou",
-	"p_char_272_strong": "p_char_272_strong",
-	"p_char_366_acdrop": "p_char_366_acdrop",
-	"p_char_271_spikes": "p_char_271_spikes",
-	"p_char_381_bubble": "p_char_381_bubble",
-	"p_char_347_jaksel": "p_char_347_jaksel",
-	"p_char_440_pinecn": "p_char_440_pinecn",
-	"p_char_452_bstalk": "p_char_452_bstalk",
-	"p_char_469_indigo": "p_char_469_indigo",
-	"p_char_128_plosis": "p_char_128_plosis",
-	"p_char_115_headbr": "p_char_115_headbr",
-	"p_char_102_texas": "p_char_102_texas",
-	"p_char_106_franka": "p_char_106_franka",
-	"p_char_155_tiger": "p_char_155_tiger",
-	"p_char_140_whitew": "p_char_140_whitew",
-	"p_char_143_ghost": "p_char_143_ghost",
-	"p_char_129_bluep": "p_char_129_bluep",
-	"p_char_204_platnm": "p_char_204_platnm",
-	"p_char_219_meteo": "p_char_219_meteo",
-	"p_char_002_amiya": "p_char_002_amiya",
-	"p_char_166_skfire": "p_char_166_skfire",
-	"p_char_242_otter": "p_char_242_otter",
-	"p_char_108_silent": "p_char_108_silent",
-	"p_char_171_bldsk": "p_char_171_bldsk",
-	"p_char_148_nearl": "p_char_148_nearl",
-	"p_char_144_red": "p_char_144_red",
-	"p_char_107_liskam": "p_char_107_liskam",
-	"p_char_201_moeshd": "p_char_201_moeshd",
-	"p_char_163_hpsts": "p_char_163_hpsts",
-	"p_char_145_prove": "p_char_145_prove",
-	"p_char_158_milu": "p_char_158_milu",
-	"p_char_173_slchan": "p_char_173_slchan",
-	"p_char_174_slbell": "p_char_174_slbell",
-	"p_char_195_glassb": "p_char_195_glassb",
-	"p_char_101_sora": "p_char_101_sora",
-	"p_char_215_mantic": "p_char_215_mantic",
-	"p_char_241_panda": "p_char_241_panda",
-	"p_char_220_grani": "p_char_220_grani",
-	"p_char_164_nightm": "p_char_164_nightm",
-	"p_char_308_swire": "p_char_308_swire",
-	"p_char_274_astesi": "p_char_274_astesi",
-	"p_char_348_ceylon": "p_char_348_ceylon",
-	"p_char_326_glacus": "p_char_326_glacus",
-	"p_char_275_breeze": "p_char_275_breeze",
-	"p_char_131_flameb": "p_char_131_flameb",
-	"p_char_279_excu": "p_char_279_excu",
-	"p_char_261_sddrag": "p_char_261_sddrag",
-	"p_char_356_broca": "p_char_356_broca",
-	"p_char_243_waaifu": "p_char_243_waaifu",
-	"p_char_325_bison": "p_char_325_bison",
-	"p_char_367_swllow": "p_char_367_swllow",
-	"p_char_226_hmau": "p_char_226_hmau",
-	"p_char_383_snsant": "p_char_383_snsant",
-	"p_char_306_leizi": "p_char_306_leizi",
-	"p_char_379_sesa": "p_char_379_sesa",
-	"p_char_252_bibeak": "p_char_252_bibeak",
-	"p_char_230_savage": "p_char_230_savage",
-	"p_char_254_vodfox": "p_char_254_vodfox",
-	"p_char_333_sidero": "p_char_333_sidero",
-	"p_char_401_elysm": "p_char_401_elysm",
-	"p_char_378_asbest": "p_char_378_asbest",
-	"p_char_343_tknogi": "p_char_343_tknogi",
-	"p_char_405_absin": "p_char_405_absin",
-	"p_char_373_lionhd": "p_char_373_lionhd",
-	"p_char_294_ayer": "p_char_294_ayer",
-	"p_char_345_folnic": "p_char_345_folnic",
-	"p_char_344_beewax": "p_char_344_beewax",
-	"p_char_349_chiave": "p_char_349_chiave",
-	"p_char_336_folivo": "p_char_336_folivo",
-	"p_char_218_cuttle": "p_char_218_cuttle",
-	"p_char_411_tomimi": "p_char_411_tomimi",
-	"p_char_415_flint": "p_char_415_flint",
-	"p_char_365_aprl": "p_char_365_aprl",
-	"p_char_388_mint": "p_char_388_mint",
-	"p_char_346_aosta": "p_char_346_aosta",
-	"p_char_265_sophia": "p_char_265_sophia",
-	"p_char_436_whispr": "p_char_436_whispr",
-	"p_char_214_kafka": "p_char_214_kafka",
-	"p_char_451_robin": "p_char_451_robin",
-	"p_char_338_iris": "p_char_338_iris",
-	"p_char_402_tuye": "p_char_402_tuye",
-	"p_char_455_nothin": "p_char_455_nothin",
-	"p_char_1011_lava2": "p_char_1011_lava2",
-	"p_char_457_blitz": "p_char_457_blitz",
-	"p_char_458_rfrost": "p_char_458_rfrost",
-	"p_char_459_tachak": "p_char_459_tachak",
-	"p_char_363_toddi": "p_char_363_toddi",
-	"p_char_304_zebra": "p_char_304_zebra",
-	"p_char_475_akafyu": "p_char_475_akafyu",
-	"p_char_478_kirara": "p_char_478_kirara",
-	"p_char_369_bena": "p_char_369_bena",
-	"p_char_421_crow": "p_char_421_crow",
-	"p_char_486_takila": "p_char_486_takila",
-	"p_char_103_angel": "p_char_103_angel",
-	"p_char_112_siege": "p_char_112_siege",
-	"p_char_134_ifrit": "p_char_134_ifrit",
-	"p_char_180_amgoat": "p_char_180_amgoat",
-	"p_char_291_aglina": "p_char_291_aglina",
-	"p_char_147_shining": "p_char_147_shining",
-	"p_char_179_cgbird": "p_char_179_cgbird",
-	"p_char_136_hsguma": "p_char_136_hsguma",
-	"p_char_202_demkni": "p_char_202_demkni",
-	"p_char_172_svrash": "p_char_172_svrash",
-	"p_char_263_skadi": "p_char_263_skadi",
-	"p_char_010_chen": "p_char_010_chen",
-	"p_char_340_shwaz": "p_char_340_shwaz",
-	"p_char_188_helage": "p_char_188_helage",
-	"p_char_248_mgllan": "p_char_248_mgllan",
-	"p_char_213_mostma": "p_char_213_mostma",
-	"p_char_225_haak": "p_char_225_haak",
-	"p_char_2014_nian": "p_char_2014_nian",
-	"p_char_017_huang": "p_char_017_huang",
-	"p_char_2013_cerber": "p_char_2013_cerber",
-	"p_char_222_bpipe": "p_char_222_bpipe",
-	"p_char_250_phatom": "p_char_250_phatom",
-	"p_char_400_weedy": "p_char_400_weedy",
-	"p_char_113_cqbw": "p_char_113_cqbw",
-	"p_char_197_poca": "p_char_197_poca",
-	"p_char_358_lisa": "p_char_358_lisa",
-	"p_char_293_thorns": "p_char_293_thorns",
-	"p_char_416_zumama": "p_char_416_zumama",
-	"p_char_350_surtr": "p_char_350_surtr",
-	"p_char_423_blemsh": "p_char_423_blemsh",
-	"p_char_391_rosmon": "p_char_391_rosmon",
-	"p_char_311_mudrok": "p_char_311_mudrok",
-	"p_char_264_f12yin": "p_char_264_f12yin",
-	"p_char_332_archet": "p_char_332_archet",
-	"p_char_2015_dusk": "p_char_2015_dusk",
-	"p_char_362_saga": "p_char_362_saga",
-	"p_char_456_ash": "p_char_456_ash",
-	"p_char_472_pasngr": "p_char_472_pasngr",
-	"p_char_1012_skadi2": "p_char_1012_skadi2",
-	"p_char_003_kalts": "p_char_003_kalts",
-	"p_char_474_glady": "p_char_474_glady",
-	"p_char_426_billro": "p_char_426_billro",
-	"p_char_485_pallas": "p_char_485_pallas",
-	"p_char_1013_chen2": "p_char_1013_chen2",
-	"p_char_437_mizuki": "p_char_437_mizuki",
-	"voucher_full_ceylon": "voucher_full_ceylon",
-	"ap_item_amiya": "ap_item_amiya",
-	"ap_item_chen": "ap_item_chen",
-	"ap_item_texas": "ap_item_texas",
-	"ap_item_doberm": "ap_item_doberm",
-	"ap_item_jesica": "ap_item_jesica",
-	"ap_item_cast3": "ap_item_cast3",
-	"ap_item_closure": "ap_item_closure",
-	"ap_item_catap": "ap_item_catap",
-	"ap_item_blackd": "ap_item_blackd",
-	"ap_item_slchan": "ap_item_slchan",
-	"ap_item_SEC_60": "ap_item_SEC_60",
-	"ap_item_CaH_200": "ap_item_CaH_200",
-	"CRISIS_RUNE_COIN": "CRISIS_RUNE_COIN",
-	"1stact": "1stact",
-	"act1d0_token_gold_rep_1": "1stact",
-	"token_Wristband": "token_Wristband",
-	"et_ObsidianPass": "et_ObsidianPass",
-	"token_Obsidian": "token_Obsidian",
-	"token_ObsidianCoin": "token_ObsidianCoin",
-	"clue_Heavymetal_1": "clue_Heavymetal_1",
-	"clue_Heavymetal_2": "clue_Heavymetal_2",
-	"clue_Heavymetal_3": "clue_Heavymetal_3",
-	"clue_Heavymetal_4": "clue_Heavymetal_4",
-	"clue_Heavymetal_5": "clue_Heavymetal_5",
-	"clue_EDM_1": "clue_EDM_1",
-	"clue_EDM_2": "clue_EDM_2",
-	"clue_EDM_3": "clue_EDM_3",
-	"clue_EDM_4": "clue_EDM_4",
-	"clue_EDM_5": "clue_EDM_5",
-	"clue_Rap_1": "clue_Rap_1",
-	"clue_Rap_2": "clue_Rap_2",
-	"clue_Rap_3": "clue_Rap_3",
-	"clue_Rap_4": "clue_Rap_4",
-	"clue_Rap_5": "clue_Rap_5",
-	"et_ObsidianPass_rep_1": "et_ObsidianPass",
-	"token_Obsidian_rep_1": "token_Obsidian",
-	"token_ObsidianCoin_rep_1": "token_ObsidianCoin",
-	"clue_Heavymetal_1_rep_1": "clue_Heavymetal_1",
-	"clue_Heavymetal_2_rep_1": "clue_Heavymetal_2",
-	"clue_Heavymetal_3_rep_1": "clue_Heavymetal_3",
-	"clue_Heavymetal_4_rep_1": "clue_Heavymetal_4",
-	"clue_Heavymetal_5_rep_1": "clue_Heavymetal_5",
-	"clue_EDM_1_rep_1": "clue_EDM_1",
-	"clue_EDM_2_rep_1": "clue_EDM_2",
-	"clue_EDM_3_rep_1": "clue_EDM_3",
-	"clue_EDM_4_rep_1": "clue_EDM_4",
-	"clue_EDM_5_rep_1": "clue_EDM_5",
-	"clue_Rap_1_rep_1": "clue_Rap_1",
-	"clue_Rap_2_rep_1": "clue_Rap_2",
-	"clue_Rap_3_rep_1": "clue_Rap_3",
-	"clue_Rap_4_rep_1": "clue_Rap_4",
-	"clue_Rap_5_rep_1": "clue_Rap_5",
-	"act4d0_intelligencepoint": "act4d0_intelligencepoint",
-	"act5d0_point_medal": "act5d0_point_medal",
-	"act5d0_point_medal_rep_1": "act5d0_point_medal",
-	"act5d1_point_conbounty": "act5d1_point_conbounty",
-	"act5d1_point_opagrt": "act5d1_point_opagrt",
-	"act6d5_point_firecracker": "act6d5_point_firecracker",
-	"act6d8_point_token": "act6d8_point_token",
-	"act7d5_point_coupon": "act7d5_point_coupon",
-	"act9d0_token_dogTag": "act9d0_token_dogTag",
-	"act9d0_token_dogTag_rep_1": "act9d0_token_dogTag",
-	"act9d4_point_token": "act9d4_point_token",
-	"act10d5_token_biscuit": "act10d5_token_biscuit",
-	"act11d0_token_currency": "act11d0_token_currency",
-	"act11d0_token_currency_rep_1": "act11d0_token_currency",
-	"act11d0_token_warrant": "act11d0_token_warrant",
-	"act12d0_token_components": "act12d0_token_components",
-	"act12d0_token_components_rep_1": "act12d0_token_components",
-	"act12d6_token_mushroom": "act12d6_token_mushroom",
-	"act12d6_token_pancake": "act12d6_token_pancake",
-	"act13d0_token_dial": "act13d0_token_dial",
-	"act13d5_token_securities": "act13d5_token_securities",
-	"act15d0_token_ironSheet": "act15d0_token_ironSheet",
-	"act15d5_token_postcard": "act15d5_token_postcard",
-	"act16d5_token_inker": "act16d5_token_inker",
-	"act17d0_token_form": "act17d0_token_form",
-	"act18d0_token_page": "act18d0_token_page",
-	"act18d3_token_record": "act18d3_token_record",
-	"act7mini_token_permit": "act7mini_token_permit",
-	"act1lock_point_reward": "act1lock_point_reward",
-	"act8mini_token_vigilo": "act8mini_token_vigilo",
-	"act12side_token_coupon": "act12side_token_coupon",
-	"act12side_point_cmemomedal": "act12side_point_cmemomedal",
-	"act12side_token_key01": "act12side_token_key01",
-	"act12side_token_key02": "act12side_token_key02",
-	"act12side_token_key03": "act12side_token_key03",
-	"act12side_token_key04": "act12side_token_key04",
-	"uni_set_guitar": "uni_set_guitar"
+	"2001": {
+		"iconId": "sprite_exp_card_t1",
+		"rarity": 1
+	},
+	"2002": {
+		"iconId": "sprite_exp_card_t2",
+		"rarity": 2
+	},
+	"2003": {
+		"iconId": "sprite_exp_card_t3",
+		"rarity": 3
+	},
+	"2004": {
+		"iconId": "sprite_exp_card_t4",
+		"rarity": 4
+	},
+	"3003": {
+		"iconId": "MTL_GOLD3",
+		"rarity": 3
+	},
+	"3105": {
+		"iconId": "MTL_BASE_ESS",
+		"rarity": 5
+	},
+	"3112": {
+		"iconId": "MTL_BASE_SL1",
+		"rarity": 1
+	},
+	"3113": {
+		"iconId": "MTL_BASE_SL2",
+		"rarity": 2
+	},
+	"3114": {
+		"iconId": "MTL_BASE_SL3",
+		"rarity": 3
+	},
+	"3131": {
+		"iconId": "MTL_BASE_SYNTH1",
+		"rarity": 1
+	},
+	"3132": {
+		"iconId": "MTL_BASE_SYNTH2",
+		"rarity": 2
+	},
+	"3133": {
+		"iconId": "MTL_BASE_SYNTH3",
+		"rarity": 3
+	},
+	"3141": {
+		"iconId": "MTL_DIAMOND_SHD",
+		"rarity": 4
+	},
+	"3211": {
+		"iconId": "MTL_ASC_PIO1",
+		"rarity": 2
+	},
+	"3212": {
+		"iconId": "MTL_ASC_PIO2",
+		"rarity": 3
+	},
+	"3213": {
+		"iconId": "MTL_ASC_PIO3",
+		"rarity": 4
+	},
+	"3221": {
+		"iconId": "MTL_ASC_GRD1",
+		"rarity": 2
+	},
+	"3222": {
+		"iconId": "MTL_ASC_GRD2",
+		"rarity": 3
+	},
+	"3223": {
+		"iconId": "MTL_ASC_GRD3",
+		"rarity": 4
+	},
+	"3231": {
+		"iconId": "MTL_ASC_TNK1",
+		"rarity": 2
+	},
+	"3232": {
+		"iconId": "MTL_ASC_TNK2",
+		"rarity": 3
+	},
+	"3233": {
+		"iconId": "MTL_ASC_TNK3",
+		"rarity": 4
+	},
+	"3241": {
+		"iconId": "MTL_ASC_SNP1",
+		"rarity": 2
+	},
+	"3242": {
+		"iconId": "MTL_ASC_SNP2",
+		"rarity": 3
+	},
+	"3243": {
+		"iconId": "MTL_ASC_SNP3",
+		"rarity": 4
+	},
+	"3251": {
+		"iconId": "MTL_ASC_CST1",
+		"rarity": 2
+	},
+	"3252": {
+		"iconId": "MTL_ASC_CST2",
+		"rarity": 3
+	},
+	"3253": {
+		"iconId": "MTL_ASC_CST3",
+		"rarity": 4
+	},
+	"3261": {
+		"iconId": "MTL_ASC_MED1",
+		"rarity": 2
+	},
+	"3262": {
+		"iconId": "MTL_ASC_MED2",
+		"rarity": 3
+	},
+	"3263": {
+		"iconId": "MTL_ASC_MED3",
+		"rarity": 4
+	},
+	"3271": {
+		"iconId": "MTL_ASC_SUP1",
+		"rarity": 2
+	},
+	"3272": {
+		"iconId": "MTL_ASC_SUP2",
+		"rarity": 3
+	},
+	"3273": {
+		"iconId": "MTL_ASC_SUP3",
+		"rarity": 4
+	},
+	"3281": {
+		"iconId": "MTL_ASC_SPC1",
+		"rarity": 2
+	},
+	"3282": {
+		"iconId": "MTL_ASC_SPC2",
+		"rarity": 3
+	},
+	"3283": {
+		"iconId": "MTL_ASC_SPC3",
+		"rarity": 4
+	},
+	"3301": {
+		"iconId": "MTL_SKILL1",
+		"rarity": 1
+	},
+	"3302": {
+		"iconId": "MTL_SKILL2",
+		"rarity": 2
+	},
+	"3303": {
+		"iconId": "MTL_SKILL3",
+		"rarity": 3
+	},
+	"3401": {
+		"iconId": "COIN_FURN",
+		"rarity": 2
+	},
+	"4001": {
+		"iconId": "GOLD",
+		"rarity": 3
+	},
+	"4002": {
+		"iconId": "DIAMOND",
+		"rarity": 5
+	},
+	"4003": {
+		"iconId": "DIAMOND_SHD",
+		"rarity": 4
+	},
+	"4004": {
+		"iconId": "HGG_SHD",
+		"rarity": 4
+	},
+	"4005": {
+		"iconId": "LGG_SHD",
+		"rarity": 2
+	},
+	"4006": {
+		"iconId": "EXGG_SHD",
+		"rarity": 2
+	},
+	"5001": {
+		"iconId": "EXP_PLAYER",
+		"rarity": 4
+	},
+	"6001": {
+		"iconId": "TKT_TRY",
+		"rarity": 4
+	},
+	"7001": {
+		"iconId": "TKT_RECRUIT",
+		"rarity": 3
+	},
+	"7002": {
+		"iconId": "TKT_INST_FIN",
+		"rarity": 3
+	},
+	"7003": {
+		"iconId": "TKT_GACHA",
+		"rarity": 4
+	},
+	"7004": {
+		"iconId": "TKT_GACHA_10",
+		"rarity": 4
+	},
+	"30011": {
+		"iconId": "MTL_SL_G1",
+		"rarity": 0
+	},
+	"30012": {
+		"iconId": "MTL_SL_G2",
+		"rarity": 1
+	},
+	"30013": {
+		"iconId": "MTL_SL_G3",
+		"rarity": 2
+	},
+	"30014": {
+		"iconId": "MTL_SL_G4",
+		"rarity": 3
+	},
+	"30021": {
+		"iconId": "MTL_SL_STRG1",
+		"rarity": 0
+	},
+	"30022": {
+		"iconId": "MTL_SL_STRG2",
+		"rarity": 1
+	},
+	"30023": {
+		"iconId": "MTL_SL_STRG3",
+		"rarity": 2
+	},
+	"30024": {
+		"iconId": "MTL_SL_STRG4",
+		"rarity": 3
+	},
+	"30031": {
+		"iconId": "MTL_SL_RUSH1",
+		"rarity": 0
+	},
+	"30032": {
+		"iconId": "MTL_SL_RUSH2",
+		"rarity": 1
+	},
+	"30033": {
+		"iconId": "MTL_SL_RUSH3",
+		"rarity": 2
+	},
+	"30034": {
+		"iconId": "MTL_SL_RUSH4",
+		"rarity": 3
+	},
+	"30041": {
+		"iconId": "MTL_SL_IRON1",
+		"rarity": 0
+	},
+	"30042": {
+		"iconId": "MTL_SL_IRON2",
+		"rarity": 1
+	},
+	"30043": {
+		"iconId": "MTL_SL_IRON3",
+		"rarity": 2
+	},
+	"30044": {
+		"iconId": "MTL_SL_IRON4",
+		"rarity": 3
+	},
+	"30051": {
+		"iconId": "MTL_SL_KETONE1",
+		"rarity": 0
+	},
+	"30052": {
+		"iconId": "MTL_SL_KETONE2",
+		"rarity": 1
+	},
+	"30053": {
+		"iconId": "MTL_SL_KETONE3",
+		"rarity": 2
+	},
+	"30054": {
+		"iconId": "MTL_SL_KETONE4",
+		"rarity": 3
+	},
+	"30061": {
+		"iconId": "MTL_SL_BOSS1",
+		"rarity": 0
+	},
+	"30062": {
+		"iconId": "MTL_SL_BOSS2",
+		"rarity": 1
+	},
+	"30063": {
+		"iconId": "MTL_SL_BOSS3",
+		"rarity": 2
+	},
+	"30064": {
+		"iconId": "MTL_SL_BOSS4",
+		"rarity": 3
+	},
+	"30073": {
+		"iconId": "MTL_SL_ALCOHOL1",
+		"rarity": 2
+	},
+	"30074": {
+		"iconId": "MTL_SL_ALCOHOL2",
+		"rarity": 3
+	},
+	"30083": {
+		"iconId": "MTL_SL_MANGANESE1",
+		"rarity": 2
+	},
+	"30084": {
+		"iconId": "MTL_SL_MANGANESE2",
+		"rarity": 3
+	},
+	"30093": {
+		"iconId": "MTL_SL_PG1",
+		"rarity": 2
+	},
+	"30094": {
+		"iconId": "MTL_SL_PG2",
+		"rarity": 3
+	},
+	"30103": {
+		"iconId": "MTL_SL_RMA7012",
+		"rarity": 2
+	},
+	"30104": {
+		"iconId": "MTL_SL_RMA7024",
+		"rarity": 3
+	},
+	"30115": {
+		"iconId": "MTL_SL_PP",
+		"rarity": 4
+	},
+	"30125": {
+		"iconId": "MTL_SL_BN",
+		"rarity": 4
+	},
+	"30135": {
+		"iconId": "MTL_SL_DS",
+		"rarity": 4
+	},
+	"30145": {
+		"iconId": "MTL_SL_OEU",
+		"rarity": 4
+	},
+	"31013": {
+		"iconId": "MTL_SL_PGEL3",
+		"rarity": 2
+	},
+	"31014": {
+		"iconId": "MTL_SL_PGEL4",
+		"rarity": 3
+	},
+	"31023": {
+		"iconId": "MTL_SL_IAM3",
+		"rarity": 2
+	},
+	"31024": {
+		"iconId": "MTL_SL_IAM4",
+		"rarity": 3
+	},
+	"31033": {
+		"iconId": "MTL_SL_OC3",
+		"rarity": 2
+	},
+	"31034": {
+		"iconId": "MTL_SL_OC4",
+		"rarity": 3
+	},
+	"32001": {
+		"iconId": "MTL_ASC_DI",
+		"rarity": 3
+	},
+	"SOCIAL_PT": {
+		"iconId": "SOCIAL_PT",
+		"rarity": 1
+	},
+	"AP_GAMEPLAY": {
+		"iconId": "AP_GAMEPLAY",
+		"rarity": 4
+	},
+	"base_ap": {
+		"iconId": "AP_BASE",
+		"rarity": 4
+	},
+	"bilibili001": {
+		"iconId": "bilibili001",
+		"rarity": 5
+	},
+	"LMTGS_COIN_601": {
+		"iconId": "LMTGS_COIN_601",
+		"rarity": 4
+	},
+	"LMTGS_COIN_903": {
+		"iconId": "LMTGS_COIN_903",
+		"rarity": 4
+	},
+	"LMTGS_COIN_1401": {
+		"iconId": "LMTGS_COIN_1401",
+		"rarity": 4
+	},
+	"LMTGS_COIN_1601": {
+		"iconId": "LMTGS_COIN_1601",
+		"rarity": 4
+	},
+	"LMTGS_COIN_1803": {
+		"iconId": "LMTGS_COIN_1803",
+		"rarity": 4
+	},
+	"LMTGS_COIN_2101": {
+		"iconId": "LMTGS_COIN_2101",
+		"rarity": 4
+	},
+	"EPGS_COIN": {
+		"iconId": "EPGS_COIN",
+		"rarity": 3
+	},
+	"REP_COIN": {
+		"iconId": "REP_COIN",
+		"rarity": 4
+	},
+	"CRISIS_SHOP_COIN": {
+		"iconId": "CRISIS_SHOP_COIN",
+		"rarity": 4
+	},
+	"STORY_REVIEW_COIN": {
+		"iconId": "STORY_REVIEW_COIN",
+		"rarity": 4
+	},
+	"RETRO_COIN": {
+		"iconId": "RETRO_COIN",
+		"rarity": 4
+	},
+	"renamingCard": {
+		"iconId": "renamingCard",
+		"rarity": 4
+	},
+	"renamingCard_0_018": {
+		"iconId": "renamingCard",
+		"rarity": 4
+	},
+	"renamingCard_30_018": {
+		"iconId": "renamingCard",
+		"rarity": 4
+	},
+	"ap_supply_lt_100": {
+		"iconId": "ap_supply_lt_100",
+		"rarity": 4
+	},
+	"ap_supply_lt_60": {
+		"iconId": "ap_supply_lt_60",
+		"rarity": 4
+	},
+	"ap_supply_lt_010": {
+		"iconId": "ap_supply_lt_10",
+		"rarity": 4
+	},
+	"LIMITED_TKT_GACHA_10_903": {
+		"iconId": "LIMITED_TKT_GACHA_10_903",
+		"rarity": 4
+	},
+	"LIMITED_TKT_GACHA_10_1401": {
+		"iconId": "LIMITED_TKT_GACHA_10_1401",
+		"rarity": 4
+	},
+	"LIMITED_TKT_GACHA_10_1601": {
+		"iconId": "LIMITED_TKT_GACHA_10_1601",
+		"rarity": 4
+	},
+	"LINKAGE_TKT_GACHA_10_1701": {
+		"iconId": "LINKAGE_TKT_GACHA_10_1701",
+		"rarity": 4
+	},
+	"LIMITED_TKT_GACHA_10_1803": {
+		"iconId": "LIMITED_TKT_GACHA_10_1803",
+		"rarity": 4
+	},
+	"LIMITED_TKT_GACHA_10_2101": {
+		"iconId": "LIMITED_TKT_GACHA_10_2101",
+		"rarity": 4
+	},
+	"voucher_item_4pick1": {
+		"iconId": "voucher_item_4pick1",
+		"rarity": 4
+	},
+	"voucher_item_4pick1_1803": {
+		"iconId": "voucher_item_4pick1",
+		"rarity": 4
+	},
+	"voucher_recruitR5_pick2": {
+		"iconId": "voucher_recruitR5_pick2",
+		"rarity": 4
+	},
+	"voucher_recruitR5_pick1803": {
+		"iconId": "voucher_recruitR5_g",
+		"rarity": 4
+	},
+	"voucher_item_pick601": {
+		"iconId": "voucher_item_pick601",
+		"rarity": 4
+	},
+	"voucher_item_pick1401": {
+		"iconId": "voucher_recruitR6_g",
+		"rarity": 4
+	},
+	"voucher_item_pick1803": {
+		"iconId": "voucher_recruitR6_g",
+		"rarity": 4
+	},
+	"voucher_elite_II_5": {
+		"iconId": "voucher_elite_II_5",
+		"rarity": 4
+	},
+	"voucher_skin": {
+		"iconId": "voucher_skin",
+		"rarity": 4
+	},
+	"2020recruitment10_1": {
+		"iconId": "2020recruitment10_1",
+		"rarity": 4
+	},
+	"2020recruitment10_2": {
+		"iconId": "2020recruitment10_2",
+		"rarity": 4
+	},
+	"2020recruitment10_3": {
+		"iconId": "2020recruitment10_3",
+		"rarity": 4
+	},
+	"2021recruitment10_1": {
+		"iconId": "2021recruitment10_1",
+		"rarity": 4
+	},
+	"2021recruitment10_2": {
+		"iconId": "2021recruitment10_2",
+		"rarity": 4
+	},
+	"2021recruitment10_3": {
+		"iconId": "2021recruitment10_3",
+		"rarity": 4
+	},
+	"voucher_recruitR4_1": {
+		"iconId": "voucher_recruitR4_1",
+		"rarity": 3
+	},
+	"voucher_recruitR3_1": {
+		"iconId": "voucher_recruitR3_1",
+		"rarity": 2
+	},
+	"randomMaterialRune_0": {
+		"iconId": "randomMaterialRune_0",
+		"rarity": 4
+	},
+	"randomMaterialRune_1": {
+		"iconId": "randomMaterialRune_1",
+		"rarity": 4
+	},
+	"randomMaterialRune_2": {
+		"iconId": "randomMaterialRune_2",
+		"rarity": 4
+	},
+	"randomMaterialRune_3": {
+		"iconId": "randomMaterialRune_3",
+		"rarity": 4
+	},
+	"randomMaterialRune_4": {
+		"iconId": "randomMaterialRune_4",
+		"rarity": 4
+	},
+	"randomMaterialRune_5": {
+		"iconId": "randomMaterialRune_5",
+		"rarity": 4
+	},
+	"randomMaterialRune_6": {
+		"iconId": "randomMaterialRune_6",
+		"rarity": 4
+	},
+	"randomMaterial_1": {
+		"iconId": "randomMaterial_1",
+		"rarity": 4
+	},
+	"randomMaterial_2": {
+		"iconId": "randomMaterial_2",
+		"rarity": 4
+	},
+	"randomMaterial_3": {
+		"iconId": "randomMaterial_3",
+		"rarity": 4
+	},
+	"randomMaterial_4": {
+		"iconId": "randomMaterial_4",
+		"rarity": 4
+	},
+	"randomDiamondShd_1": {
+		"iconId": "randomDiamondShd_1",
+		"rarity": 4
+	},
+	"randomDiamondShd_2": {
+		"iconId": "randomDiamondShd_2",
+		"rarity": 4
+	},
+	"mod_unlock_token": {
+		"iconId": "mod_unlock_token",
+		"rarity": 4
+	},
+	"tier1_pioneer": {
+		"iconId": "tier1_pioneer",
+		"rarity": 0
+	},
+	"tier1_guard": {
+		"iconId": "tier1_guard",
+		"rarity": 0
+	},
+	"tier1_tank": {
+		"iconId": "tier1_tank",
+		"rarity": 0
+	},
+	"tier1_sniper": {
+		"iconId": "tier1_sniper",
+		"rarity": 0
+	},
+	"tier1_caster": {
+		"iconId": "tier1_caster",
+		"rarity": 0
+	},
+	"tier1_medic": {
+		"iconId": "tier1_medic",
+		"rarity": 0
+	},
+	"tier1_supporter": {
+		"iconId": "tier1_supporter",
+		"rarity": 0
+	},
+	"tier1_special": {
+		"iconId": "tier1_special",
+		"rarity": 0
+	},
+	"tier2_pioneer": {
+		"iconId": "tier2_pioneer",
+		"rarity": 1
+	},
+	"tier2_guard": {
+		"iconId": "tier2_guard",
+		"rarity": 1
+	},
+	"tier2_tank": {
+		"iconId": "tier2_tank",
+		"rarity": 1
+	},
+	"tier2_sniper": {
+		"iconId": "tier2_sniper",
+		"rarity": 1
+	},
+	"tier2_caster": {
+		"iconId": "tier2_caster",
+		"rarity": 1
+	},
+	"tier2_medic": {
+		"iconId": "tier2_medic",
+		"rarity": 1
+	},
+	"tier2_supporter": {
+		"iconId": "tier2_supporter",
+		"rarity": 1
+	},
+	"tier2_special": {
+		"iconId": "tier2_special",
+		"rarity": 1
+	},
+	"tier3_pioneer": {
+		"iconId": "tier3_pioneer",
+		"rarity": 2
+	},
+	"tier3_guard": {
+		"iconId": "tier3_guard",
+		"rarity": 2
+	},
+	"tier3_tank": {
+		"iconId": "tier3_tank",
+		"rarity": 2
+	},
+	"tier3_sniper": {
+		"iconId": "tier3_sniper",
+		"rarity": 2
+	},
+	"tier3_caster": {
+		"iconId": "tier3_caster",
+		"rarity": 2
+	},
+	"tier3_medic": {
+		"iconId": "tier3_medic",
+		"rarity": 2
+	},
+	"tier3_supporter": {
+		"iconId": "tier3_supporter",
+		"rarity": 2
+	},
+	"tier3_special": {
+		"iconId": "tier3_special",
+		"rarity": 2
+	},
+	"tier4_pioneer": {
+		"iconId": "tier4_pioneer",
+		"rarity": 3
+	},
+	"tier4_guard": {
+		"iconId": "tier4_guard",
+		"rarity": 3
+	},
+	"tier4_tank": {
+		"iconId": "tier4_tank",
+		"rarity": 3
+	},
+	"tier4_sniper": {
+		"iconId": "tier4_sniper",
+		"rarity": 3
+	},
+	"tier4_caster": {
+		"iconId": "tier4_caster",
+		"rarity": 3
+	},
+	"tier4_medic": {
+		"iconId": "tier4_medic",
+		"rarity": 3
+	},
+	"tier4_supporter": {
+		"iconId": "tier4_supporter",
+		"rarity": 3
+	},
+	"tier4_special": {
+		"iconId": "tier4_special",
+		"rarity": 3
+	},
+	"tier5_pioneer": {
+		"iconId": "tier5_pioneer",
+		"rarity": 4
+	},
+	"tier5_guard": {
+		"iconId": "tier5_guard",
+		"rarity": 4
+	},
+	"tier5_tank": {
+		"iconId": "tier5_tank",
+		"rarity": 4
+	},
+	"tier5_sniper": {
+		"iconId": "tier5_sniper",
+		"rarity": 4
+	},
+	"tier5_caster": {
+		"iconId": "tier5_caster",
+		"rarity": 4
+	},
+	"tier5_medic": {
+		"iconId": "tier5_medic",
+		"rarity": 4
+	},
+	"tier5_supporter": {
+		"iconId": "tier5_supporter",
+		"rarity": 4
+	},
+	"tier5_special": {
+		"iconId": "tier5_special",
+		"rarity": 4
+	},
+	"tier6_pioneer": {
+		"iconId": "tier6_pioneer",
+		"rarity": 5
+	},
+	"tier6_guard": {
+		"iconId": "tier6_guard",
+		"rarity": 5
+	},
+	"tier6_tank": {
+		"iconId": "tier6_tank",
+		"rarity": 5
+	},
+	"tier6_sniper": {
+		"iconId": "tier6_sniper",
+		"rarity": 5
+	},
+	"tier6_caster": {
+		"iconId": "tier6_caster",
+		"rarity": 5
+	},
+	"tier6_medic": {
+		"iconId": "tier6_medic",
+		"rarity": 5
+	},
+	"tier6_supporter": {
+		"iconId": "tier6_supporter",
+		"rarity": 5
+	},
+	"tier6_special": {
+		"iconId": "tier6_special",
+		"rarity": 5
+	},
+	"p_char_285_medic2": {
+		"iconId": "p_char_285_medic2",
+		"rarity": 0
+	},
+	"p_char_286_cast3": {
+		"iconId": "p_char_286_cast3",
+		"rarity": 0
+	},
+	"p_char_376_therex": {
+		"iconId": "p_char_376_therex",
+		"rarity": 0
+	},
+	"p_char_502_nblade": {
+		"iconId": "p_char_502_nblade",
+		"rarity": 1
+	},
+	"p_char_500_noirc": {
+		"iconId": "p_char_500_noirc",
+		"rarity": 1
+	},
+	"p_char_503_rang": {
+		"iconId": "p_char_503_rang",
+		"rarity": 1
+	},
+	"p_char_501_durin": {
+		"iconId": "p_char_501_durin",
+		"rarity": 1
+	},
+	"p_char_009_12fce": {
+		"iconId": "p_char_009_12fce",
+		"rarity": 1
+	},
+	"p_char_123_fang": {
+		"iconId": "p_char_123_fang",
+		"rarity": 2
+	},
+	"p_char_240_wyvern": {
+		"iconId": "p_char_240_wyvern",
+		"rarity": 2
+	},
+	"p_char_192_falco": {
+		"iconId": "p_char_192_falco",
+		"rarity": 2
+	},
+	"p_char_208_melan": {
+		"iconId": "p_char_208_melan",
+		"rarity": 2
+	},
+	"p_char_209_ardign": {
+		"iconId": "p_char_209_ardign",
+		"rarity": 2
+	},
+	"p_char_122_beagle": {
+		"iconId": "p_char_122_beagle",
+		"rarity": 2
+	},
+	"p_char_124_kroos": {
+		"iconId": "p_char_124_kroos",
+		"rarity": 2
+	},
+	"p_char_211_adnach": {
+		"iconId": "p_char_211_adnach",
+		"rarity": 2
+	},
+	"p_char_121_lava": {
+		"iconId": "p_char_121_lava",
+		"rarity": 2
+	},
+	"p_char_120_hibisc": {
+		"iconId": "p_char_120_hibisc",
+		"rarity": 2
+	},
+	"p_char_212_ansel": {
+		"iconId": "p_char_212_ansel",
+		"rarity": 2
+	},
+	"p_char_210_stward": {
+		"iconId": "p_char_210_stward",
+		"rarity": 2
+	},
+	"p_char_278_orchid": {
+		"iconId": "p_char_278_orchid",
+		"rarity": 2
+	},
+	"p_char_282_catap": {
+		"iconId": "p_char_282_catap",
+		"rarity": 2
+	},
+	"p_char_283_midn": {
+		"iconId": "p_char_283_midn",
+		"rarity": 2
+	},
+	"p_char_284_spot": {
+		"iconId": "p_char_284_spot",
+		"rarity": 2
+	},
+	"p_char_281_popka": {
+		"iconId": "p_char_281_popka",
+		"rarity": 2
+	},
+	"p_char_141_nights": {
+		"iconId": "p_char_141_nights",
+		"rarity": 3
+	},
+	"p_char_109_fmout": {
+		"iconId": "p_char_109_fmout",
+		"rarity": 3
+	},
+	"p_char_235_jesica": {
+		"iconId": "p_char_235_jesica",
+		"rarity": 3
+	},
+	"p_char_126_shotst": {
+		"iconId": "p_char_126_shotst",
+		"rarity": 3
+	},
+	"p_char_118_yuki": {
+		"iconId": "p_char_118_yuki",
+		"rarity": 3
+	},
+	"p_char_198_blackd": {
+		"iconId": "p_char_198_blackd",
+		"rarity": 3
+	},
+	"p_char_149_scave": {
+		"iconId": "p_char_149_scave",
+		"rarity": 3
+	},
+	"p_char_290_vigna": {
+		"iconId": "p_char_290_vigna",
+		"rarity": 3
+	},
+	"p_char_130_doberm": {
+		"iconId": "p_char_130_doberm",
+		"rarity": 3
+	},
+	"p_char_289_gyuki": {
+		"iconId": "p_char_289_gyuki",
+		"rarity": 3
+	},
+	"p_char_193_frostl": {
+		"iconId": "p_char_193_frostl",
+		"rarity": 3
+	},
+	"p_char_127_estell": {
+		"iconId": "p_char_127_estell",
+		"rarity": 3
+	},
+	"p_char_185_frncat": {
+		"iconId": "p_char_185_frncat",
+		"rarity": 3
+	},
+	"p_char_237_gravel": {
+		"iconId": "p_char_237_gravel",
+		"rarity": 3
+	},
+	"p_char_236_rope": {
+		"iconId": "p_char_236_rope",
+		"rarity": 3
+	},
+	"p_char_117_myrrh": {
+		"iconId": "p_char_117_myrrh",
+		"rarity": 3
+	},
+	"p_char_187_ccheal": {
+		"iconId": "p_char_187_ccheal",
+		"rarity": 3
+	},
+	"p_char_181_flower": {
+		"iconId": "p_char_181_flower",
+		"rarity": 3
+	},
+	"p_char_199_yak": {
+		"iconId": "p_char_199_yak",
+		"rarity": 3
+	},
+	"p_char_150_snakek": {
+		"iconId": "p_char_150_snakek",
+		"rarity": 3
+	},
+	"p_char_196_sunbr": {
+		"iconId": "p_char_196_sunbr",
+		"rarity": 3
+	},
+	"p_char_110_deepcl": {
+		"iconId": "p_char_110_deepcl",
+		"rarity": 3
+	},
+	"p_char_183_skgoat": {
+		"iconId": "p_char_183_skgoat",
+		"rarity": 3
+	},
+	"p_char_277_sqrrel": {
+		"iconId": "p_char_277_sqrrel",
+		"rarity": 3
+	},
+	"p_char_137_brownb": {
+		"iconId": "p_char_137_brownb",
+		"rarity": 3
+	},
+	"p_char_253_greyy": {
+		"iconId": "p_char_253_greyy",
+		"rarity": 3
+	},
+	"p_char_151_myrtle": {
+		"iconId": "p_char_151_myrtle",
+		"rarity": 3
+	},
+	"p_char_298_susuro": {
+		"iconId": "p_char_298_susuro",
+		"rarity": 3
+	},
+	"p_char_260_durnar": {
+		"iconId": "p_char_260_durnar",
+		"rarity": 3
+	},
+	"p_char_355_ethan": {
+		"iconId": "p_char_355_ethan",
+		"rarity": 3
+	},
+	"p_char_190_clour": {
+		"iconId": "p_char_190_clour",
+		"rarity": 3
+	},
+	"p_char_133_mm": {
+		"iconId": "p_char_133_mm",
+		"rarity": 3
+	},
+	"p_char_302_glaze": {
+		"iconId": "p_char_302_glaze",
+		"rarity": 3
+	},
+	"p_char_385_finlpp": {
+		"iconId": "p_char_385_finlpp",
+		"rarity": 3
+	},
+	"p_char_337_utage": {
+		"iconId": "p_char_337_utage",
+		"rarity": 3
+	},
+	"p_char_301_cutter": {
+		"iconId": "p_char_301_cutter",
+		"rarity": 3
+	},
+	"p_char_258_podego": {
+		"iconId": "p_char_258_podego",
+		"rarity": 3
+	},
+	"p_char_328_cammou": {
+		"iconId": "p_char_328_cammou",
+		"rarity": 3
+	},
+	"p_char_272_strong": {
+		"iconId": "p_char_272_strong",
+		"rarity": 3
+	},
+	"p_char_366_acdrop": {
+		"iconId": "p_char_366_acdrop",
+		"rarity": 3
+	},
+	"p_char_271_spikes": {
+		"iconId": "p_char_271_spikes",
+		"rarity": 3
+	},
+	"p_char_381_bubble": {
+		"iconId": "p_char_381_bubble",
+		"rarity": 3
+	},
+	"p_char_347_jaksel": {
+		"iconId": "p_char_347_jaksel",
+		"rarity": 3
+	},
+	"p_char_440_pinecn": {
+		"iconId": "p_char_440_pinecn",
+		"rarity": 3
+	},
+	"p_char_452_bstalk": {
+		"iconId": "p_char_452_bstalk",
+		"rarity": 3
+	},
+	"p_char_469_indigo": {
+		"iconId": "p_char_469_indigo",
+		"rarity": 3
+	},
+	"p_char_128_plosis": {
+		"iconId": "p_char_128_plosis",
+		"rarity": 4
+	},
+	"p_char_115_headbr": {
+		"iconId": "p_char_115_headbr",
+		"rarity": 4
+	},
+	"p_char_102_texas": {
+		"iconId": "p_char_102_texas",
+		"rarity": 4
+	},
+	"p_char_106_franka": {
+		"iconId": "p_char_106_franka",
+		"rarity": 4
+	},
+	"p_char_155_tiger": {
+		"iconId": "p_char_155_tiger",
+		"rarity": 4
+	},
+	"p_char_140_whitew": {
+		"iconId": "p_char_140_whitew",
+		"rarity": 4
+	},
+	"p_char_143_ghost": {
+		"iconId": "p_char_143_ghost",
+		"rarity": 4
+	},
+	"p_char_129_bluep": {
+		"iconId": "p_char_129_bluep",
+		"rarity": 4
+	},
+	"p_char_204_platnm": {
+		"iconId": "p_char_204_platnm",
+		"rarity": 4
+	},
+	"p_char_219_meteo": {
+		"iconId": "p_char_219_meteo",
+		"rarity": 4
+	},
+	"p_char_002_amiya": {
+		"iconId": "p_char_002_amiya",
+		"rarity": 4
+	},
+	"p_char_166_skfire": {
+		"iconId": "p_char_166_skfire",
+		"rarity": 4
+	},
+	"p_char_242_otter": {
+		"iconId": "p_char_242_otter",
+		"rarity": 4
+	},
+	"p_char_108_silent": {
+		"iconId": "p_char_108_silent",
+		"rarity": 4
+	},
+	"p_char_171_bldsk": {
+		"iconId": "p_char_171_bldsk",
+		"rarity": 4
+	},
+	"p_char_148_nearl": {
+		"iconId": "p_char_148_nearl",
+		"rarity": 4
+	},
+	"p_char_144_red": {
+		"iconId": "p_char_144_red",
+		"rarity": 4
+	},
+	"p_char_107_liskam": {
+		"iconId": "p_char_107_liskam",
+		"rarity": 4
+	},
+	"p_char_201_moeshd": {
+		"iconId": "p_char_201_moeshd",
+		"rarity": 4
+	},
+	"p_char_163_hpsts": {
+		"iconId": "p_char_163_hpsts",
+		"rarity": 4
+	},
+	"p_char_145_prove": {
+		"iconId": "p_char_145_prove",
+		"rarity": 4
+	},
+	"p_char_158_milu": {
+		"iconId": "p_char_158_milu",
+		"rarity": 4
+	},
+	"p_char_173_slchan": {
+		"iconId": "p_char_173_slchan",
+		"rarity": 4
+	},
+	"p_char_174_slbell": {
+		"iconId": "p_char_174_slbell",
+		"rarity": 4
+	},
+	"p_char_195_glassb": {
+		"iconId": "p_char_195_glassb",
+		"rarity": 4
+	},
+	"p_char_101_sora": {
+		"iconId": "p_char_101_sora",
+		"rarity": 4
+	},
+	"p_char_215_mantic": {
+		"iconId": "p_char_215_mantic",
+		"rarity": 4
+	},
+	"p_char_241_panda": {
+		"iconId": "p_char_241_panda",
+		"rarity": 4
+	},
+	"p_char_220_grani": {
+		"iconId": "p_char_220_grani",
+		"rarity": 4
+	},
+	"p_char_164_nightm": {
+		"iconId": "p_char_164_nightm",
+		"rarity": 4
+	},
+	"p_char_308_swire": {
+		"iconId": "p_char_308_swire",
+		"rarity": 4
+	},
+	"p_char_274_astesi": {
+		"iconId": "p_char_274_astesi",
+		"rarity": 4
+	},
+	"p_char_348_ceylon": {
+		"iconId": "p_char_348_ceylon",
+		"rarity": 4
+	},
+	"p_char_326_glacus": {
+		"iconId": "p_char_326_glacus",
+		"rarity": 4
+	},
+	"p_char_275_breeze": {
+		"iconId": "p_char_275_breeze",
+		"rarity": 4
+	},
+	"p_char_131_flameb": {
+		"iconId": "p_char_131_flameb",
+		"rarity": 4
+	},
+	"p_char_279_excu": {
+		"iconId": "p_char_279_excu",
+		"rarity": 4
+	},
+	"p_char_261_sddrag": {
+		"iconId": "p_char_261_sddrag",
+		"rarity": 4
+	},
+	"p_char_356_broca": {
+		"iconId": "p_char_356_broca",
+		"rarity": 4
+	},
+	"p_char_243_waaifu": {
+		"iconId": "p_char_243_waaifu",
+		"rarity": 4
+	},
+	"p_char_325_bison": {
+		"iconId": "p_char_325_bison",
+		"rarity": 4
+	},
+	"p_char_367_swllow": {
+		"iconId": "p_char_367_swllow",
+		"rarity": 4
+	},
+	"p_char_226_hmau": {
+		"iconId": "p_char_226_hmau",
+		"rarity": 4
+	},
+	"p_char_383_snsant": {
+		"iconId": "p_char_383_snsant",
+		"rarity": 4
+	},
+	"p_char_306_leizi": {
+		"iconId": "p_char_306_leizi",
+		"rarity": 4
+	},
+	"p_char_379_sesa": {
+		"iconId": "p_char_379_sesa",
+		"rarity": 4
+	},
+	"p_char_252_bibeak": {
+		"iconId": "p_char_252_bibeak",
+		"rarity": 4
+	},
+	"p_char_230_savage": {
+		"iconId": "p_char_230_savage",
+		"rarity": 4
+	},
+	"p_char_254_vodfox": {
+		"iconId": "p_char_254_vodfox",
+		"rarity": 4
+	},
+	"p_char_333_sidero": {
+		"iconId": "p_char_333_sidero",
+		"rarity": 4
+	},
+	"p_char_401_elysm": {
+		"iconId": "p_char_401_elysm",
+		"rarity": 4
+	},
+	"p_char_378_asbest": {
+		"iconId": "p_char_378_asbest",
+		"rarity": 4
+	},
+	"p_char_343_tknogi": {
+		"iconId": "p_char_343_tknogi",
+		"rarity": 4
+	},
+	"p_char_405_absin": {
+		"iconId": "p_char_405_absin",
+		"rarity": 4
+	},
+	"p_char_373_lionhd": {
+		"iconId": "p_char_373_lionhd",
+		"rarity": 4
+	},
+	"p_char_294_ayer": {
+		"iconId": "p_char_294_ayer",
+		"rarity": 4
+	},
+	"p_char_345_folnic": {
+		"iconId": "p_char_345_folnic",
+		"rarity": 4
+	},
+	"p_char_344_beewax": {
+		"iconId": "p_char_344_beewax",
+		"rarity": 4
+	},
+	"p_char_349_chiave": {
+		"iconId": "p_char_349_chiave",
+		"rarity": 4
+	},
+	"p_char_336_folivo": {
+		"iconId": "p_char_336_folivo",
+		"rarity": 4
+	},
+	"p_char_218_cuttle": {
+		"iconId": "p_char_218_cuttle",
+		"rarity": 4
+	},
+	"p_char_411_tomimi": {
+		"iconId": "p_char_411_tomimi",
+		"rarity": 4
+	},
+	"p_char_415_flint": {
+		"iconId": "p_char_415_flint",
+		"rarity": 4
+	},
+	"p_char_365_aprl": {
+		"iconId": "p_char_365_aprl",
+		"rarity": 4
+	},
+	"p_char_388_mint": {
+		"iconId": "p_char_388_mint",
+		"rarity": 4
+	},
+	"p_char_346_aosta": {
+		"iconId": "p_char_346_aosta",
+		"rarity": 4
+	},
+	"p_char_265_sophia": {
+		"iconId": "p_char_265_sophia",
+		"rarity": 4
+	},
+	"p_char_436_whispr": {
+		"iconId": "p_char_436_whispr",
+		"rarity": 4
+	},
+	"p_char_214_kafka": {
+		"iconId": "p_char_214_kafka",
+		"rarity": 4
+	},
+	"p_char_451_robin": {
+		"iconId": "p_char_451_robin",
+		"rarity": 4
+	},
+	"p_char_338_iris": {
+		"iconId": "p_char_338_iris",
+		"rarity": 4
+	},
+	"p_char_402_tuye": {
+		"iconId": "p_char_402_tuye",
+		"rarity": 4
+	},
+	"p_char_455_nothin": {
+		"iconId": "p_char_455_nothin",
+		"rarity": 4
+	},
+	"p_char_1011_lava2": {
+		"iconId": "p_char_1011_lava2",
+		"rarity": 4
+	},
+	"p_char_457_blitz": {
+		"iconId": "p_char_457_blitz",
+		"rarity": 4
+	},
+	"p_char_458_rfrost": {
+		"iconId": "p_char_458_rfrost",
+		"rarity": 4
+	},
+	"p_char_459_tachak": {
+		"iconId": "p_char_459_tachak",
+		"rarity": 4
+	},
+	"p_char_363_toddi": {
+		"iconId": "p_char_363_toddi",
+		"rarity": 4
+	},
+	"p_char_304_zebra": {
+		"iconId": "p_char_304_zebra",
+		"rarity": 4
+	},
+	"p_char_475_akafyu": {
+		"iconId": "p_char_475_akafyu",
+		"rarity": 4
+	},
+	"p_char_478_kirara": {
+		"iconId": "p_char_478_kirara",
+		"rarity": 4
+	},
+	"p_char_369_bena": {
+		"iconId": "p_char_369_bena",
+		"rarity": 4
+	},
+	"p_char_421_crow": {
+		"iconId": "p_char_421_crow",
+		"rarity": 4
+	},
+	"p_char_486_takila": {
+		"iconId": "p_char_486_takila",
+		"rarity": 4
+	},
+	"p_char_103_angel": {
+		"iconId": "p_char_103_angel",
+		"rarity": 5
+	},
+	"p_char_112_siege": {
+		"iconId": "p_char_112_siege",
+		"rarity": 5
+	},
+	"p_char_134_ifrit": {
+		"iconId": "p_char_134_ifrit",
+		"rarity": 5
+	},
+	"p_char_180_amgoat": {
+		"iconId": "p_char_180_amgoat",
+		"rarity": 5
+	},
+	"p_char_291_aglina": {
+		"iconId": "p_char_291_aglina",
+		"rarity": 5
+	},
+	"p_char_147_shining": {
+		"iconId": "p_char_147_shining",
+		"rarity": 5
+	},
+	"p_char_179_cgbird": {
+		"iconId": "p_char_179_cgbird",
+		"rarity": 5
+	},
+	"p_char_136_hsguma": {
+		"iconId": "p_char_136_hsguma",
+		"rarity": 5
+	},
+	"p_char_202_demkni": {
+		"iconId": "p_char_202_demkni",
+		"rarity": 5
+	},
+	"p_char_172_svrash": {
+		"iconId": "p_char_172_svrash",
+		"rarity": 5
+	},
+	"p_char_263_skadi": {
+		"iconId": "p_char_263_skadi",
+		"rarity": 5
+	},
+	"p_char_010_chen": {
+		"iconId": "p_char_010_chen",
+		"rarity": 5
+	},
+	"p_char_340_shwaz": {
+		"iconId": "p_char_340_shwaz",
+		"rarity": 5
+	},
+	"p_char_188_helage": {
+		"iconId": "p_char_188_helage",
+		"rarity": 5
+	},
+	"p_char_248_mgllan": {
+		"iconId": "p_char_248_mgllan",
+		"rarity": 5
+	},
+	"p_char_213_mostma": {
+		"iconId": "p_char_213_mostma",
+		"rarity": 5
+	},
+	"p_char_225_haak": {
+		"iconId": "p_char_225_haak",
+		"rarity": 5
+	},
+	"p_char_2014_nian": {
+		"iconId": "p_char_2014_nian",
+		"rarity": 5
+	},
+	"p_char_017_huang": {
+		"iconId": "p_char_017_huang",
+		"rarity": 5
+	},
+	"p_char_2013_cerber": {
+		"iconId": "p_char_2013_cerber",
+		"rarity": 5
+	},
+	"p_char_222_bpipe": {
+		"iconId": "p_char_222_bpipe",
+		"rarity": 5
+	},
+	"p_char_250_phatom": {
+		"iconId": "p_char_250_phatom",
+		"rarity": 5
+	},
+	"p_char_400_weedy": {
+		"iconId": "p_char_400_weedy",
+		"rarity": 5
+	},
+	"p_char_113_cqbw": {
+		"iconId": "p_char_113_cqbw",
+		"rarity": 5
+	},
+	"p_char_197_poca": {
+		"iconId": "p_char_197_poca",
+		"rarity": 5
+	},
+	"p_char_358_lisa": {
+		"iconId": "p_char_358_lisa",
+		"rarity": 5
+	},
+	"p_char_293_thorns": {
+		"iconId": "p_char_293_thorns",
+		"rarity": 5
+	},
+	"p_char_416_zumama": {
+		"iconId": "p_char_416_zumama",
+		"rarity": 5
+	},
+	"p_char_350_surtr": {
+		"iconId": "p_char_350_surtr",
+		"rarity": 5
+	},
+	"p_char_423_blemsh": {
+		"iconId": "p_char_423_blemsh",
+		"rarity": 5
+	},
+	"p_char_391_rosmon": {
+		"iconId": "p_char_391_rosmon",
+		"rarity": 5
+	},
+	"p_char_311_mudrok": {
+		"iconId": "p_char_311_mudrok",
+		"rarity": 5
+	},
+	"p_char_264_f12yin": {
+		"iconId": "p_char_264_f12yin",
+		"rarity": 5
+	},
+	"p_char_332_archet": {
+		"iconId": "p_char_332_archet",
+		"rarity": 5
+	},
+	"p_char_2015_dusk": {
+		"iconId": "p_char_2015_dusk",
+		"rarity": 5
+	},
+	"p_char_362_saga": {
+		"iconId": "p_char_362_saga",
+		"rarity": 5
+	},
+	"p_char_456_ash": {
+		"iconId": "p_char_456_ash",
+		"rarity": 5
+	},
+	"p_char_472_pasngr": {
+		"iconId": "p_char_472_pasngr",
+		"rarity": 5
+	},
+	"p_char_1012_skadi2": {
+		"iconId": "p_char_1012_skadi2",
+		"rarity": 5
+	},
+	"p_char_003_kalts": {
+		"iconId": "p_char_003_kalts",
+		"rarity": 5
+	},
+	"p_char_474_glady": {
+		"iconId": "p_char_474_glady",
+		"rarity": 5
+	},
+	"p_char_426_billro": {
+		"iconId": "p_char_426_billro",
+		"rarity": 5
+	},
+	"p_char_485_pallas": {
+		"iconId": "p_char_485_pallas",
+		"rarity": 5
+	},
+	"p_char_1013_chen2": {
+		"iconId": "p_char_1013_chen2",
+		"rarity": 5
+	},
+	"p_char_437_mizuki": {
+		"iconId": "p_char_437_mizuki",
+		"rarity": 5
+	},
+	"voucher_full_ceylon": {
+		"iconId": "voucher_full_ceylon",
+		"rarity": 4
+	},
+	"ap_item_amiya": {
+		"iconId": "ap_item_amiya",
+		"rarity": 4
+	},
+	"ap_item_chen": {
+		"iconId": "ap_item_chen",
+		"rarity": 4
+	},
+	"ap_item_texas": {
+		"iconId": "ap_item_texas",
+		"rarity": 4
+	},
+	"ap_item_doberm": {
+		"iconId": "ap_item_doberm",
+		"rarity": 4
+	},
+	"ap_item_jesica": {
+		"iconId": "ap_item_jesica",
+		"rarity": 4
+	},
+	"ap_item_cast3": {
+		"iconId": "ap_item_cast3",
+		"rarity": 4
+	},
+	"ap_item_closure": {
+		"iconId": "ap_item_closure",
+		"rarity": 4
+	},
+	"ap_item_catap": {
+		"iconId": "ap_item_catap",
+		"rarity": 4
+	},
+	"ap_item_blackd": {
+		"iconId": "ap_item_blackd",
+		"rarity": 4
+	},
+	"ap_item_slchan": {
+		"iconId": "ap_item_slchan",
+		"rarity": 4
+	},
+	"ap_item_SEC_60": {
+		"iconId": "ap_item_SEC_60",
+		"rarity": 4
+	},
+	"ap_item_CaH_200": {
+		"iconId": "ap_item_CaH_200",
+		"rarity": 4
+	},
+	"CRISIS_RUNE_COIN": {
+		"iconId": "CRISIS_RUNE_COIN",
+		"rarity": 4
+	},
+	"1stact": {
+		"iconId": "1stact",
+		"rarity": 3
+	},
+	"act1d0_token_gold_rep_1": {
+		"iconId": "1stact",
+		"rarity": 4
+	},
+	"token_Wristband": {
+		"iconId": "token_Wristband",
+		"rarity": 3
+	},
+	"et_ObsidianPass": {
+		"iconId": "et_ObsidianPass",
+		"rarity": 4
+	},
+	"token_Obsidian": {
+		"iconId": "token_Obsidian",
+		"rarity": 3
+	},
+	"token_ObsidianCoin": {
+		"iconId": "token_ObsidianCoin",
+		"rarity": 3
+	},
+	"clue_Heavymetal_1": {
+		"iconId": "clue_Heavymetal_1",
+		"rarity": 3
+	},
+	"clue_Heavymetal_2": {
+		"iconId": "clue_Heavymetal_2",
+		"rarity": 3
+	},
+	"clue_Heavymetal_3": {
+		"iconId": "clue_Heavymetal_3",
+		"rarity": 3
+	},
+	"clue_Heavymetal_4": {
+		"iconId": "clue_Heavymetal_4",
+		"rarity": 3
+	},
+	"clue_Heavymetal_5": {
+		"iconId": "clue_Heavymetal_5",
+		"rarity": 3
+	},
+	"clue_EDM_1": {
+		"iconId": "clue_EDM_1",
+		"rarity": 3
+	},
+	"clue_EDM_2": {
+		"iconId": "clue_EDM_2",
+		"rarity": 3
+	},
+	"clue_EDM_3": {
+		"iconId": "clue_EDM_3",
+		"rarity": 3
+	},
+	"clue_EDM_4": {
+		"iconId": "clue_EDM_4",
+		"rarity": 3
+	},
+	"clue_EDM_5": {
+		"iconId": "clue_EDM_5",
+		"rarity": 3
+	},
+	"clue_Rap_1": {
+		"iconId": "clue_Rap_1",
+		"rarity": 3
+	},
+	"clue_Rap_2": {
+		"iconId": "clue_Rap_2",
+		"rarity": 3
+	},
+	"clue_Rap_3": {
+		"iconId": "clue_Rap_3",
+		"rarity": 3
+	},
+	"clue_Rap_4": {
+		"iconId": "clue_Rap_4",
+		"rarity": 3
+	},
+	"clue_Rap_5": {
+		"iconId": "clue_Rap_5",
+		"rarity": 3
+	},
+	"et_ObsidianPass_rep_1": {
+		"iconId": "et_ObsidianPass",
+		"rarity": 4
+	},
+	"token_Obsidian_rep_1": {
+		"iconId": "token_Obsidian",
+		"rarity": 3
+	},
+	"token_ObsidianCoin_rep_1": {
+		"iconId": "token_ObsidianCoin",
+		"rarity": 3
+	},
+	"clue_Heavymetal_1_rep_1": {
+		"iconId": "clue_Heavymetal_1",
+		"rarity": 3
+	},
+	"clue_Heavymetal_2_rep_1": {
+		"iconId": "clue_Heavymetal_2",
+		"rarity": 3
+	},
+	"clue_Heavymetal_3_rep_1": {
+		"iconId": "clue_Heavymetal_3",
+		"rarity": 3
+	},
+	"clue_Heavymetal_4_rep_1": {
+		"iconId": "clue_Heavymetal_4",
+		"rarity": 3
+	},
+	"clue_Heavymetal_5_rep_1": {
+		"iconId": "clue_Heavymetal_5",
+		"rarity": 3
+	},
+	"clue_EDM_1_rep_1": {
+		"iconId": "clue_EDM_1",
+		"rarity": 3
+	},
+	"clue_EDM_2_rep_1": {
+		"iconId": "clue_EDM_2",
+		"rarity": 3
+	},
+	"clue_EDM_3_rep_1": {
+		"iconId": "clue_EDM_3",
+		"rarity": 3
+	},
+	"clue_EDM_4_rep_1": {
+		"iconId": "clue_EDM_4",
+		"rarity": 3
+	},
+	"clue_EDM_5_rep_1": {
+		"iconId": "clue_EDM_5",
+		"rarity": 3
+	},
+	"clue_Rap_1_rep_1": {
+		"iconId": "clue_Rap_1",
+		"rarity": 3
+	},
+	"clue_Rap_2_rep_1": {
+		"iconId": "clue_Rap_2",
+		"rarity": 3
+	},
+	"clue_Rap_3_rep_1": {
+		"iconId": "clue_Rap_3",
+		"rarity": 3
+	},
+	"clue_Rap_4_rep_1": {
+		"iconId": "clue_Rap_4",
+		"rarity": 3
+	},
+	"clue_Rap_5_rep_1": {
+		"iconId": "clue_Rap_5",
+		"rarity": 3
+	},
+	"act4d0_intelligencepoint": {
+		"iconId": "act4d0_intelligencepoint",
+		"rarity": 4
+	},
+	"act5d0_point_medal": {
+		"iconId": "act5d0_point_medal",
+		"rarity": 4
+	},
+	"act5d0_point_medal_rep_1": {
+		"iconId": "act5d0_point_medal",
+		"rarity": 4
+	},
+	"act5d1_point_conbounty": {
+		"iconId": "act5d1_point_conbounty",
+		"rarity": 4
+	},
+	"act5d1_point_opagrt": {
+		"iconId": "act5d1_point_opagrt",
+		"rarity": 4
+	},
+	"act6d5_point_firecracker": {
+		"iconId": "act6d5_point_firecracker",
+		"rarity": 4
+	},
+	"act6d8_point_token": {
+		"iconId": "act6d8_point_token",
+		"rarity": 4
+	},
+	"act7d5_point_coupon": {
+		"iconId": "act7d5_point_coupon",
+		"rarity": 4
+	},
+	"act9d0_token_dogTag": {
+		"iconId": "act9d0_token_dogTag",
+		"rarity": 4
+	},
+	"act9d0_token_dogTag_rep_1": {
+		"iconId": "act9d0_token_dogTag",
+		"rarity": 4
+	},
+	"act9d4_point_token": {
+		"iconId": "act9d4_point_token",
+		"rarity": 4
+	},
+	"act10d5_token_biscuit": {
+		"iconId": "act10d5_token_biscuit",
+		"rarity": 4
+	},
+	"act11d0_token_currency": {
+		"iconId": "act11d0_token_currency",
+		"rarity": 4
+	},
+	"act11d0_token_currency_rep_1": {
+		"iconId": "act11d0_token_currency",
+		"rarity": 4
+	},
+	"act11d0_token_warrant": {
+		"iconId": "act11d0_token_warrant",
+		"rarity": 4
+	},
+	"act12d0_token_components": {
+		"iconId": "act12d0_token_components",
+		"rarity": 4
+	},
+	"act12d0_token_components_rep_1": {
+		"iconId": "act12d0_token_components",
+		"rarity": 4
+	},
+	"act12d6_token_mushroom": {
+		"iconId": "act12d6_token_mushroom",
+		"rarity": 4
+	},
+	"act12d6_token_pancake": {
+		"iconId": "act12d6_token_pancake",
+		"rarity": 4
+	},
+	"act13d0_token_dial": {
+		"iconId": "act13d0_token_dial",
+		"rarity": 4
+	},
+	"act13d5_token_securities": {
+		"iconId": "act13d5_token_securities",
+		"rarity": 4
+	},
+	"act15d0_token_ironSheet": {
+		"iconId": "act15d0_token_ironSheet",
+		"rarity": 4
+	},
+	"act15d5_token_postcard": {
+		"iconId": "act15d5_token_postcard",
+		"rarity": 4
+	},
+	"act16d5_token_inker": {
+		"iconId": "act16d5_token_inker",
+		"rarity": 4
+	},
+	"act17d0_token_form": {
+		"iconId": "act17d0_token_form",
+		"rarity": 4
+	},
+	"act18d0_token_page": {
+		"iconId": "act18d0_token_page",
+		"rarity": 4
+	},
+	"act18d3_token_record": {
+		"iconId": "act18d3_token_record",
+		"rarity": 4
+	},
+	"act7mini_token_permit": {
+		"iconId": "act7mini_token_permit",
+		"rarity": 4
+	},
+	"act1lock_point_reward": {
+		"iconId": "act1lock_point_reward",
+		"rarity": 4
+	},
+	"act8mini_token_vigilo": {
+		"iconId": "act8mini_token_vigilo",
+		"rarity": 4
+	},
+	"act12side_token_coupon": {
+		"iconId": "act12side_token_coupon",
+		"rarity": 4
+	},
+	"act12side_point_cmemomedal": {
+		"iconId": "act12side_point_cmemomedal",
+		"rarity": 4
+	},
+	"act12side_token_key01": {
+		"iconId": "act12side_token_key01",
+		"rarity": 4
+	},
+	"act12side_token_key02": {
+		"iconId": "act12side_token_key02",
+		"rarity": 4
+	},
+	"act12side_token_key03": {
+		"iconId": "act12side_token_key03",
+		"rarity": 4
+	},
+	"act12side_token_key04": {
+		"iconId": "act12side_token_key04",
+		"rarity": 4
+	},
+	"uni_set_guitar": {
+		"iconId": "uni_set_guitar",
+		"rarity": 4
+	}
 }

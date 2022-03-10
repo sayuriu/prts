@@ -340,16 +340,19 @@ export class OperatorDataManagerService {
         }
         return null;
     }
-    getMatImg(matId: string): string
+    getMatImg(matId: string): [MaterialImg, MaterialRarityImg]
     {
         if (this.matImgIdMap)
         {
             if (matId in this.matImgIdMap)
-                return `/assets/gamedata/img/items/${this.matImgIdMap[matId as keyof MaterialImgMap]}.png`;
+            {
+                const { iconId, rarity } = this.matImgIdMap[matId as keyof MaterialImgMap];
+                return [`/assets/gamedata/img/items/${iconId}.png`, `/assets/gamedata/img/items/bg/item-${rarity + 1}.png`]
+            }
         }
-        return '/assets/img/ui/no_data_class.png';
+        return ['/assets/img/ui/no_data_class.png', '/assets/img/ui/no_data_class.png'];
     }
-    interpolateParamValue(param: string, value: number): [boolean | null, string]
+    interpolateParamValue(param: string, value: number): [Nullable<boolean>, string]
     {
         if (this.paramSign)
         {
@@ -448,3 +451,6 @@ export class OperatorDataManagerService {
 		return null;
 	}
 }
+
+type MaterialImg = string;
+type MaterialRarityImg = string;

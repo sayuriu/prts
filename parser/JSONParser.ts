@@ -7,6 +7,7 @@ import { Logger } from './utils/Logger';
 import { createIfNotExist, joinPaths } from './utils/PathUtils';
 import { Locales, AvailableLocales } from './struct/Basic';
 import { Operator } from './struct/Operator/Char';
+import { Nullable } from "@utils/utils";
 
 export namespace Src_Gamedata {
 	// -> root/ref/AN-EN-Tags
@@ -138,7 +139,7 @@ function parseItem(src: string, dest: string)
 	let FullConcatObj: Record<string, any> = {};
 	const matData: Record<string, any> = {};
 	const matTypes: Record<string, string[]> = {};
-    const matIdToImg: Record<string, string> = {};
+    const matIdToImg: Record<string, { iconId: Nullable<string>, rarity: number }> = {};
 	const tracker = new CountTracker();
 	for (const item in list.items)
 	{
@@ -146,7 +147,7 @@ function parseItem(src: string, dest: string)
 		const itemType = actualItem.itemType;
 		FullConcatObj = concatObjects(FullConcatObj, actualItem);
 		matData[item] = itemType;
-        matIdToImg[item] = actualItem.iconId ?? null;
+        matIdToImg[item] = { iconId: actualItem.iconId ?? null, rarity: actualItem.rarity ?? null };
 		if (!(itemType in matTypes)) matTypes[itemType] = [];
 		matTypes[itemType].push(item);
 		createIfNotExist(joinPaths(dest, _base, materials.replace('{type}', itemType)), header, true);

@@ -210,7 +210,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="skill-bottom-group o0 flex" [style.gap]="'12px'">
+                    <div class="skill-bottom-group o0 grid" [style.gap]="'12px'">
                         <div id="left-section" class="flex-grow-1">
                             <div
                                 id="skill-range"
@@ -329,17 +329,21 @@
                                         textColor: '#FFFFFF'
                                     }"
                             ></text-field>
-                            <div id="skill-mat">
-                                <p *ngIf="!(currentOperator.allSkillLvlup[currentCombatSkillLevel.value - 1] || currentOperator.skills[i]!.levelUpCostCond[currentCombatSkillLevel.value - 7])" @AppearDisappear>NO_DATA</p>
-                                <div class="skill-mat-list flex pointer-all" *ngIf="(currentCombatSkillLevel.value > 6 ? currentOperator.skills[i]!.levelUpCostCond[currentCombatSkillLevel.value - 7] : currentOperator.allSkillLvlup[currentCombatSkillLevel.value - 1]) as item" @AppearDisappear>
+                            <div id="skill-mat" class="rel flex flex-col" *ngVar="(currentCombatSkillLevel.value > 6 ? currentOperator.skills[i]!.levelUpCostCond[currentCombatSkillLevel.value - 7] : currentOperator.allSkillLvlup[currentCombatSkillLevel.value - 1]) as skillUpgradeReq">
+                                <div placeholder class="flex j-flex-space-between"><p>Requirements</p><p *ngIf="skillUpgradeReq" id="skill-req-lvl"><img class="fh" [src]="'/assets/gamedata/img/characters/ui/elite/' + skillUpgradeReq.unlockCond.phase + '_s_box.png'" alt="">&nbsp;L{{skillUpgradeReq.unlockCond.level}}</p></div>
+                                <p *ngIf="!skillUpgradeReq">NO_DATA</p>
+                                <div class="skill-mat-list flex pointer-all" *ngIf="skillUpgradeReq">
                                     <div
-                                        *ngFor="let mat of (currentCombatSkillLevel.value > 6 ? item.levelUpCost! : item.lvlUpCost!)"
-                                        class="skill-mat-item rel pointer-all"
+                                        *ngFor="let mat of (currentCombatSkillLevel.value > 6 ? skillUpgradeReq.levelUpCost! : skillUpgradeReq.lvlUpCost!)"
+                                        class="skill-mat-item rel grid pointer-all"
                                     >
-                                        <div class="skill-mat-desc abs bfull">
-                                            <p>{{mat.id}}&MediumSpace;<i>{{mat.count}}</i></p>
+                                        <div class="skill-mat-rarity fh fw flex j-flex-center a-flex-center rel z0" [style.background-image]="'url(' + manager.getMatImg(mat.id)[1] + ')'" >
+                                            <div class="skill-mat-img" [style.background-image]="'url(' + manager.getMatImg(mat.id)[0] + ')'"></div>
                                         </div>
-                                        <img class="fw fh" [src]="manager.getMatImg(mat.id)" alt="">
+                                        <p class="skill-mat-amount no-margin z1">{{mat.count}}</p>
+<!--                                        <div class="skill-mat-desc abs bfull z2">-->
+<!--                                            <p>{{mat.id}}&MediumSpace;<i></i></p>-->
+<!--                                        </div>-->
                                     </div>
                                 </div>
                             </div>
