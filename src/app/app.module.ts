@@ -23,6 +23,7 @@ import { OpStatsComponent } from '@featureComponents/operators/operator-info-are
 import { OpSkillsComponent } from '@featureComponents/operators/operator-info-area/page-Skills/opInfo-Skills.component';
 import { LabelledButtonComponent } from './labelled-button/labelled-button.component';
 import {NgVarDirective} from "@root/src/app/ng-var.directive";
+import { InvalidScreenComponent } from './invalid-screen/invalid-screen.component';
 
 @NgModule({
   declarations: [
@@ -44,6 +45,7 @@ import {NgVarDirective} from "@root/src/app/ng-var.directive";
     InfoTextFieldComponent,
     LabelledButtonComponent,
     NgVarDirective,
+    InvalidScreenComponent,
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),

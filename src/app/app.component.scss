@@ -10,9 +10,8 @@ pop-up-container {
     z-index: 1000;
     opacity: 0;
 }
-#screenIsPortrait, #invalidScreen {
+#InvalidScreen {
     z-index: 1001;
     height: 100vh;
     width: 100vw;
-    background: red;
 }

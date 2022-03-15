@@ -8,10 +8,10 @@ interface EntityExpireCallback<T> {
 
 export type XHRModOptions<T> = XHROptions<T> & EntityExpireCallback<T>;
 
-export abstract class CacheXMLBasedService<E>
+export abstract class CachedXMLHttpBasedService<E>
 {
 	abstract readonly CACHE_TIMEOUT_MS: number;
-	protected _cache = new Map<string, Entity<E>>();
+	protected _cache = new Map<string, [Entity<E>, number]>();
 	protected abstract load(path: string, options: XHRModOptions<E>): NullablePromise<E>;
 	protected abstract load(id: string, options: XHRModOptions<E>): NullablePromise<E>;
 	protected _load(id: string, options: XHRModOptions<E>): NullablePromise<E>
@@ -19,8 +19,8 @@ export abstract class CacheXMLBasedService<E>
 		return new Promise((resolve, reject) => {
 			if (this._cache.has(id) && !options.force)
 			{
-				const data = this._cache.get(id)!;
-				if (Date.now() - (data.instantiatedTimestamp + data.lifetime) < 60000) this.renew(id);
+				const data = this._cache.get(id)![0];
+				if (Date.now() - (data.instantiatedTimestamp + data.lifetime) < 5000) this.renew(id);
 				return resolve(data.value);
 			}
 			Fetch<E>(id, options)
@@ -36,21 +36,19 @@ export abstract class CacheXMLBasedService<E>
 	}
 	protected abstract save(path: string, data: E, timeout?: number, onExpire?: (data: Entity<E>) => void): void;
 	protected abstract save(id  : string, data: E, timeout?: number, onExpire?: (data: Entity<E>) => void): void;
-	protected _save(id: string, data: E, timeout: number, onExpire: (data: Entity<E>) => void = emptyFunc)
+	protected _save(instanceID: string | Entity<E>, data: Nullable<E> = null, timeout = -1, onExpire: (data: Entity<E>) => void = emptyFunc)
 	{
-        const refThis = this;
+        const isInstance = instanceID instanceof Entity;
+        let entity = isInstance ? instanceID : new Entity<E>(instanceID, data, timeout, onExpire);
 		this._cache.set(
-            id,
-            new Entity<E>(
-                id,
-                data,
-                timeout,
-                setTimeout(function (this: Entity<E>) {
-                    this.onExpire(this);
-                    refThis._cache.delete(id);
-                }, timeout) as unknown as number,
-                onExpire,
-            )
+            isInstance ? instanceID.id : instanceID,
+           [
+               entity,
+               setTimeout(() => {
+                   entity.onExpire(entity);
+                   this._cache.delete(isInstance ? instanceID.id : instanceID);
+               }, timeout) as unknown as number
+           ]
         );
 	}
 	protected abstract renew(path: string): void;
@@ -59,23 +57,8 @@ export abstract class CacheXMLBasedService<E>
 	{
 		const existSession = this._cache.get(id);
         if (!existSession) return false;
-		if (existSession?.timeoutId)
-			clearTimeout(existSession.timeoutId);
-		this._cache.set(
-			id,
-			new Entity<E>(
-				'',
-				null,
-				0,
-				setTimeout(() => {
-					const data = this._cache.get(id)!;
-					data.onExpire(data);
-					this._cache.delete(id);
-				}, existSession?.lifetime ?? 0) as unknown as number,
-				undefined,
-				existSession
-			)
-		);
+		if (existSession[1]) clearTimeout(existSession[1]);
+        this._save(existSession[0]);
         return true;
 	}
 }
@@ -84,20 +67,14 @@ export class Entity<T extends unknown> implements Expire<Entity<T>>
 {
 	readonly id: string;
 	readonly value: Nullable<T>;
-	private _instantiatedTimestamp: number;
+	readonly instantiatedTimestamp: number;
 	readonly onExpire: (entity: Entity<T>) => void;
 
-	constructor(id: string, data: Nullable<T>, public readonly lifetime: number, public timeoutId: number, onExpire: (data: Entity<T>) => void = emptyFunc, existingInstance?: Entity<T>)
+	constructor(id: string, data: Nullable<T>, public readonly lifetime: number, onExpire: (data: Entity<T>) => void = emptyFunc)
 	{
 		this.id = id;
 		this.value = data;
-		this._instantiatedTimestamp = Date.now();
+		this.instantiatedTimestamp = Date.now();
 		this.onExpire = onExpire;
-		if (existingInstance)
-			Object.assign(this, existingInstance);
-	}
-	get instantiatedTimestamp()
-	{
-		return this._instantiatedTimestamp;
 	}
 }

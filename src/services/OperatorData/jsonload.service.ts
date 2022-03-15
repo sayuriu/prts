@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { defaultOptions } from '@utils/Fetch';
 import { join } from '@utils/PathUtils';
 import { emptyFunc } from '@utils/utils';
-import { CacheXMLBasedService, Entity, XHRModOptions } from '@utils/CacheXMLBasedService';
+import { CachedXMLHttpBasedService, Entity, XHRModOptions } from '@utils/CachedXMLHttpBasedService';
 
 type JSONBasedObject = Record<string | number, unknown>;
 class JSONEntity extends Entity<JSONBasedObject> {}
@@ -10,7 +10,7 @@ class JSONEntity extends Entity<JSONBasedObject> {}
 @Injectable({
 	providedIn: 'root'
 })
-export class JSONLoadService extends CacheXMLBasedService<JSONBasedObject> {
+export class JSONLoadService extends CachedXMLHttpBasedService<JSONBasedObject> {
 	readonly BASE_PATH = 'assets/gamedata/json';
 	readonly CACHE_TIMEOUT_MS = 600000;
 	constructor()

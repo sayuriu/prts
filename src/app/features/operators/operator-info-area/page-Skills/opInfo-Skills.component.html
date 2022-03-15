@@ -1,7 +1,6 @@
 <div id="container" class="h-auto fw">
 	<div id="combat-skills" class="fw rel even z0">
         <div
-            id="section-title"
             class="section-title abs t0 z-1 anim-AbsSnapToTop"
             [attr.no-anim]="animAlreadyPlayed"
         >COMBAT</div>
@@ -26,7 +25,7 @@
                         [attr.max]="(currentOperatorSkills[currentSkillIndex]?.levels ?? []).length - 1"
                         [attr.value]="currentCombatSkillLevel.value"
                         (input)="handleSkillLevelChange(input)"
-                        (mousewheel)="handleSkillLevelChange(input, $event)"
+                        (wheel)="handleSkillLevelChange(input, $event)"
                     >
                 </div>
                 <div id="level" class="grid fh">
@@ -184,17 +183,18 @@
                             </svg>
                         </button>
                         <div
-                            class="param-list transition-all flex flex-col fw overflow-hidden"
+                            class="param-list transition-all flex flex-col fw overflow-hidden pointer-visible"
                             style = "background-color: hsl(0, 0%, 13%)"
                             [style.maxHeight]="skillParamsVisible ? (((currentSkillLevelInfo?.blackboard?.length ?? 0) * 37.5 + 35) + 'px') : '0'"
                         >
+<!--                            (mouseleave)="onSkillParamHover(false)"-->
                             <div
                                 class="param-item flex flex-row j-flex-space-between transition-all"
-                                [ngClass]="{'cur-help hoverable pointer-all': manager.getParamDesc(blackboardItem.key) }"
+                                [ngClass]="{'cur-help hoverable pointer-visible': manager.getParamDesc(blackboardItem.key) }"
                                 *ngFor="let blackboardItem of sortSkillBlackboard(currentOperatorSkills[i])"
                             >
-                                <!--
-                              (mouseleave)="manager.getParamDesc(blackboardItem.key) ? onSkillParamHover(param_item, $event, false, manager.getParamDesc(blackboardItem.key)!) : null" -->
+<!--                            #param_item-->
+<!--                            (mouseenter)="manager.getParamDesc(blackboardItem.key) ? onSkillParamHover(true, param_item, $event, manager.getParamDesc(blackboardItem.key)!) : null"-->
                                 <div class="param-key flex flex-col">
                                     <p class="no-margin txt-algn-left">{{blackboardItem.key}}</p>
                                     <p class="param-desc no-margin transition-all overflow-hidden txt-algn-left" style="color:#fff" *ngIf="manager.getParamDesc(blackboardItem.key)">{{manager.getParamDesc(blackboardItem.key)}}</p>
@@ -330,7 +330,13 @@
                                     }"
                             ></text-field>
                             <div id="skill-mat" class="rel flex flex-col" *ngVar="(currentCombatSkillLevel.value > 6 ? currentOperator.skills[i]!.levelUpCostCond[currentCombatSkillLevel.value - 7] : currentOperator.allSkillLvlup[currentCombatSkillLevel.value - 1]) as skillUpgradeReq">
-                                <div placeholder class="flex j-flex-space-between"><p>Requirements</p><p *ngIf="skillUpgradeReq" id="skill-req-lvl"><img class="fh" [src]="'/assets/gamedata/img/characters/ui/elite/' + skillUpgradeReq.unlockCond.phase + '_s_box.png'" alt="">&nbsp;L{{skillUpgradeReq.unlockCond.level}}</p></div>
+                                <div placeholder class="flex j-flex-space-between">
+                                    <p>Requirements</p>
+                                    <div id="skill-req-lvl" class="flex a-flex-center" *ngIf="skillUpgradeReq">
+                                        <img [src]="'/assets/gamedata/img/characters/ui/elite/' + skillUpgradeReq.unlockCond.phase + '_s_box.png'" alt="">&nbsp;
+                                        <p>L{{skillUpgradeReq.unlockCond.level}}</p>
+                                    </div>
+                                </div>
                                 <p *ngIf="!skillUpgradeReq">NO_DATA</p>
                                 <div class="skill-mat-list flex pointer-all" *ngIf="skillUpgradeReq">
                                     <div
@@ -344,6 +350,14 @@
 <!--                                        <div class="skill-mat-desc abs bfull z2">-->
 <!--                                            <p>{{mat.id}}&MediumSpace;<i></i></p>-->
 <!--                                        </div>-->
+                                    </div>
+                                    <div *ngIf="skillUpgradeReq.levelUpTime">
+                                        <svg style="height: 70px;" width="300" height="300" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="150" cy="150" r="147.5" stroke="black" stroke-width="5"/>
+                                            <path d="M156 45C156 41.6863 153.314 39 150 39C146.686 39 144 41.6863 144 45L156 45ZM144 150L144 156L156 156L156 150L144 150ZM144 45L144 150L156 150L156 45L144 45Z" fill="black"/>
+                                            <path d="M232 156C235.314 156 238 153.314 238 150C238 146.686 235.314 144 232 144V156ZM150 144H144V156H150V144ZM232 144H150V156H232V144Z" fill="black"/>
+                                        </svg>
+                                        {{skillUpgradeReq.levelUpTime}}hr
                                     </div>
                                 </div>
                             </div>

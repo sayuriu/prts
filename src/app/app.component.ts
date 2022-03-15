@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Router, RouterOutlet } from '@angular/router';
 import { Meta, Title } from '@angular/platform-browser';
 
-import { ErrorService } from '@services/error.service';
+// import { ErrorService } from '@services/error.service';
 import { NotifService } from '@services/notif.service';
 import { AppService } from '@services/app.service';
 import { PopupService } from '@services/popup.service';
@@ -42,13 +42,14 @@ export class AppComponent implements OnInit {
 	{}
 
 	ngOnInit() {
+        this.app.updateScreenDimensions(window.innerWidth, window.innerHeight);
 		OverlayUtils.removeLoadStatus();
         this.isPortrait = window.innerHeight > window.innerWidth;
 		(window as BrowserWindow).__env.AppVersion = version;
         (window as BrowserWindow).__env.AppName = 'PRTS Analysis OS';
 		this.router.malformedUriErrorHandler = (e, serializer, url) => {
 			const path = getURLWithoutParams(url);
-			this.router.navigateByUrl(path, { replaceUrl: true });
+			void this.router.navigateByUrl(path, { replaceUrl: true });
 			return this.router.createUrlTree([path]);
 		}
         this.router.events.subscribe(() => {
@@ -69,9 +70,7 @@ export class AppComponent implements OnInit {
 				this.notif.currentMessage?.message === 'Entered fullscreen.'
 			)
 			this.notif.skipCurrent();
-            this.isPortrait = window.innerHeight > window.innerWidth;
-            if (this.isPortrait) return;
-            this.screenTooSmall = window.innerHeight < 700 || window.innerWidth < 1300;
+            this.app.updateScreenDimensions(window.innerWidth, window.innerHeight);
 		}).bind(this));
         window.addEventListener('online', () => {
             this.app.updateConnectionStatus(true);

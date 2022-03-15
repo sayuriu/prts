@@ -88,8 +88,8 @@ export class OperatorUtilsService {
             //match key
                 (_1, isNegative, _key, _4, isDecimal, floatOrPercent) => {
                     let num = (`${floatOrPercent}` + `${isDecimal}`).includes('%') ?
-                        new Number((value * 100 * (isNegative ? -1 : 1)).toFixed(2)).valueOf().toString() + '%':
-                        new Number((value * (isNegative ? -1 : 1)).toFixed(2)).toString();
+                        Number((value * 100 * (isNegative ? -1 : 1)).toFixed(2)).valueOf().toString() + '%':
+                        Number((value * (isNegative ? -1 : 1)).toFixed(2)).toString();
                     return `<span class="ak-numeric" key="${key}">${num}</span>`;
 			    }
             );
@@ -126,23 +126,22 @@ export class OperatorUtilsService {
 	}
 	toolTipListener(element: HTMLElement)
 	{
-		//!
-		//TODO
-		// const refThis = this;
-		//
-		// const onLeave = function(this: HTMLElement, ev: MouseEvent) {
-		// 	console.log("leave")
-		// 	// element.removeEventListener("mouseleave", onLeave)
-		// }
-		//
-		// const onEnter = function(this: HTMLElement, ev: Event) {
-		// 	console.log("enter");
-		// 	// element.addEventListener("mouseleave", onLeave)
-		// }
-		//
-		// element.addEventListener("mouseleave", onLeave);
-		// element.querySelector('u')?.addEventListener("mouseenter", onEnter);
+        return;
+		const refThis = this;
 
+		const onLeave = function(this: GlobalEventHandlers, ev: MouseEvent) {
+			console.log("leave")
+			// element.removeEventListener("mouseleave", onLeave)
+		}
+
+		const onEnter = function(this: GlobalEventHandlers, ev: Event) {
+			console.log("enter");
+			// element.addEventListener("mouseleave", onLeave)
+		}
+
+		element.onmouseleave = onLeave;
+		// @ts-ignore
+        element.querySelector('span')?.onmouseenter = onEnter;
 	}
 
 	resolveSpType(spType: number) {
@@ -163,9 +162,9 @@ export class OperatorUtilsService {
 			default: return { bg: '#C4C4C4', text: '#FFFFFF' };
 		}
 	}
-	resolveSkillType(skilType: number)
+	resolveSkillType(skillType: number)
 	{
-		switch (skilType) {
+		switch (skillType) {
 			case 0 : return 'Passive';
 			case 1 : return 'Manual';
 			case 2 : return 'Auto';

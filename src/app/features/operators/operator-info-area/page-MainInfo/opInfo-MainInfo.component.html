@@ -158,18 +158,18 @@
 				></text-field>
 			</div>
 		</div>
-		<div id="right-section" class="h-auto flex flex-row">
+		<div class="right-section h-auto flex flex-row">
 			<spacer class="fh" style="width: 10px;"></spacer>
 			<div id="faction-img" class="fh rel flex a-flex-center">
 				<p id="label" class="abs t0">{{currentOpFaction.powerName}}</p>
-                <img id="op-faction" class="fw" [src]="factionImgURL">
+                <img id="op-faction" class="fw" [src]="factionImgURL" alt="">
 				<p id="label" class="abs b0" *ngIf="currentOpNation.powerName !== currentOpFaction.powerName">{{currentOpNation.powerName}}◆</p>
 			</div>
 		</div>
 	</div>
 	<div id="class-profession" class="even h-auto fw rel flex z1">
 		<div
-            id="section-title"
+            class="section-title"
             class="section-title abs t0 z-1 anim-AbsSnapToTop"
             [attr.no-anim]="animAlreadyPlayed"
         >CLASS_PROFESSION</div>
@@ -177,17 +177,21 @@
 			<div
 				id="op-class"
 				class="flex flex-col"
-				[style.margin-left]="
-					'calc(19px' + (currentOpSubclass.length > 5 ?
-						' + ' + (currentOpSubclass.length - 5).toString() + ' * 1.5ch' :
-						'')
-					+ ')'"
-				[style.margin-right]="
-					'calc(19px' + (currentOpClass.length > 5 ?
-						' + ' + (currentOpClass.length - 5).toString() + ' * 1.5ch' :
-						'')
-					+ ')'"
-				>
+				[style.margin-left]="[
+                    'calc(19px',
+                    currentOpSubclass.length > 5 ?
+						(' + ' + (currentOpSubclass.length - 5).toString() + ' * 1.5ch') :
+						'',
+					')'
+				].join('')"
+				[style.margin-right]="[
+				    'calc(19px',
+				    currentOpClass.length > 5 ?
+						(' + ' + (currentOpClass.length - 5).toString() + ' * 1.5ch') :
+						'',
+					')'
+				].join('')"
+            >
 				<!-- calc(19px + 5 * 1ch) -->
 				<div id="main" class="flex flex-row z1" [attr.no-anim]="animAlreadyPlayed">
 					<img
@@ -244,7 +248,7 @@
 				}"
 			></text-field>
 		</div>
-		<div id="right-section" class="flex flex-grow-1 j-flex-center z2">
+		<div class="right-section flex flex-grow-1 j-flex-center z2">
 			<div id="op-potential" class="a-self-center anim-spreadUD" [attr.no-anim]="animAlreadyPlayed">
 				<div id="no-potential" *ngIf="!currentOperator.potentialRanks.length">
 					<p class="no-whitespace-warp" style="height: 80%; width:max-content">&#x2009;NO_POTENTIAL&#x2009;</p>
@@ -261,7 +265,7 @@
 	</div>
 	<div id="talents" class="odd h-auto rel flex flex-col" [attr.no-anim]="animAlreadyPlayed">
 		<div
-            id="section-title"
+            class="section-title"
             class="section-title abs t0 z0 anim-AbsSnapToTop"
             [attr.no-anim]="animAlreadyPlayed"
         >TALENTS</div>

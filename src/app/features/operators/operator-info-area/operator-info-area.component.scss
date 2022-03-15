@@ -38,20 +38,20 @@ scroll-container {
 		::ng-deep page {
 			width: 100%;
 			height: auto;
-            #section-title {
+            .section-title {
                 font-weight: 200;
                 // pointer-events: none;
                 animation-delay: 0.5s;
             }
             .odd {
-                #section-title { color:hsla(0, 0%, 0%, .5) }
+                .section-title { color:hsla(0, 0%, 0%, .5) }
                 background: #e3e3e3;
             }
             .even {
-                #section-title { color:hsla(0, 0%, 100%, .5) }
+                .section-title { color:hsla(0, 0%, 100%, .5) }
                 background: #2e2e2e
             }
-            #section-title { left: 22px }
+            .section-title { left: 22px }
 		}
 	}
 }

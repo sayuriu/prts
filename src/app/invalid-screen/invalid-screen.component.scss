@@ -1,0 +1,57 @@
+@import "../../anims";
+
+div {
+    background-color: black;
+
+}
+
+p {
+    color: #fff;
+    padding: 0 8px;
+}
+
+.view-rect {
+    transform-origin: center;
+    border: 1px inset #fff;
+    background: linear-gradient(
+        to top left,
+        hsla(0, 0%, 0%, 0) 0%,
+        hsla(0, 0%, 0%, 0) calc(50% - 2px),
+        hsl(0, 0%, 100%) 50%,
+        hsla(0, 0%, 0%, 0) calc(50% + 2px),
+        hsla(0, 0%, 0%, 0) 100%
+    );
+    & * * {
+        transition: all 0.5s $forceful;
+    }
+    //transition:
+    //    all 1s,
+    //    width 0s,
+    //    height 0s;
+}
+
+.dimensions-x {
+    border-bottom: 2px solid #fff;
+}
+.dimensions-y {
+    border-left: 2px solid #fff;
+}
+
+.message {
+    min-height: 35%;
+    border-top: 1px solid #ccc;
+    color: #fff;
+    h1, p {
+        margin: 0;
+        padding: 20px;
+        font-weight: normal;
+    }
+    h1 {
+        line-height: 1.2em;
+    }
+    p {
+        padding-top: 0;
+        font-size: 18.5px;
+        color: #919191;
+    }
+}

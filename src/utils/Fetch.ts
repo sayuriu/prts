@@ -8,15 +8,21 @@ export interface CallbackOptions
 {
 	/** This executes when the load is complete. */
 	onload?: XHRVoidCallback;
+    /** This executes when the request finishes downloading. */
 	onloadend?: XHRVoidCallback;
+    /** This executes when the request starts downloading content. */
 	onloadstart?: XHRVoidCallback;
+    /** This executes when download progress changes. */
 	onprogress?: XHRVoidCallback;
+    /** This executes when the user aborts the request. */
 	onabort?: XHRVoidCallback;
+    /** This executes when an error occurs. */
 	onerror?: XHRVoidCallback;
 }
 
 export interface XHROptions<T extends unknown> extends CallbackOptions, Expire<T>
 {
+    /** Determines the data type of response. */
 	responseType?: ResponseDataT;
 	force?: boolean;
 	beforeSave?: (data: any) => void;

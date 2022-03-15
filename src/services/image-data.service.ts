@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { CacheXMLBasedService, XHRModOptions, Entity } from '@utils/CacheXMLBasedService';
+import { CachedXMLHttpBasedService, XHRModOptions, Entity } from '@utils/CachedXMLHttpBasedService';
 import { join } from '@utils/PathUtils';
 import { emptyFunc, NullablePromise } from '@utils/utils';
 
@@ -7,7 +7,7 @@ import { emptyFunc, NullablePromise } from '@utils/utils';
 @Injectable({
 	providedIn: 'root'
 })
-export class ImageDataService extends CacheXMLBasedService<Blob> {
+export class ImageDataService extends CachedXMLHttpBasedService<Blob> {
 	readonly BASE_PATH = 'assets';
 	readonly CACHE_TIMEOUT_MS = 600000;
 	constructor()

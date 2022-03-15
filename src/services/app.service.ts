@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Meta } from '@angular/platform-browser';
+import {FormControl} from "@angular/forms";
 
 @Injectable({
   providedIn: 'root'
@@ -36,5 +37,17 @@ export class AppService {
     {
         for (const key of metadata)
             this.metadata.removeTag(`property="${key}"`);
+    }
+    screenDimensions = new FormControl([0, 0]);
+    isPortrait = new FormControl(false);
+    screenTooSmall = new FormControl(false);
+    updateScreenDimensions(width: number, height: number)
+    {
+        this.screenDimensions.setValue([width, height]);
+
+        this.isPortrait.setValue(window.innerHeight > window.innerWidth);
+        if (this.isPortrait.value)
+            return;
+        this.screenTooSmall.setValue(window.innerHeight < 700 || window.innerWidth < 1300);
     }
 }

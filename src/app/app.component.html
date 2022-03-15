@@ -15,5 +15,6 @@
     }"
     [innerHTML]="popup.content.value"
 ></pop-up-container>
-<div id="screenIsPortrait" class="abs t0 l0 pointer-all" *ngIf="isPortrait || screenTooSmall" @AppearDisappear></div>
-<div id="invalidScreen" class="abs t0 l0 pointer-all" *ngIf="isPortrait || screenTooSmall" @AppearDisappear></div>
+<!--<div id="screenIsPortrait" class="abs t0 l0 pointer-all" *ngIf="isPortrait || screenTooSmall" @AppearDisappear></div>-->
+<!--<div id="invalidScreen" class="abs t0 l0 pointer-all" *ngIf="isPortrait || screenTooSmall" @AppearDisappear></div>-->
+<invalid-screen class="abs in0 pointer-all" id="InvalidScreen" *ngIf="app.isPortrait.value || app.screenTooSmall.value" @AppearDisappear></invalid-screen>

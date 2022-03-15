@@ -1,4 +1,4 @@
-import { Component, EventEmitter, Input, OnChanges, OnInit, AfterViewChecked, Output, SimpleChanges } from '@angular/core';
+import { Component, EventEmitter, Input, OnChanges, OnDestroy, OnInit, AfterViewChecked, Output, SimpleChanges } from '@angular/core';
 import { FormControl } from '@angular/forms';
 import { DomSanitizer } from '@angular/platform-browser';
 
@@ -36,7 +36,7 @@ class Utils {
 export
 class OpSkillsComponent
 extends Utils
-implements OnInit, OnChanges, AfterViewChecked {
+implements OnInit, OnChanges, OnDestroy, AfterViewChecked {
 
 	constructor(
         public anime: AnimManagerService,
@@ -95,12 +95,18 @@ implements OnInit, OnChanges, AfterViewChecked {
         // console.log(changes);
     }
 
+    destroyed = false;
+    ngOnDestroy() {
+        this.destroyed = true;
+        this.onSkillParamHover(false);
+    }
+
     viewUpdated = false;
     ngAfterViewChecked(): void {
-        if (this.viewUpdated) return;
-        this.opUtils.updateHoverDescListeners();
-        this.viewUpdated = true;
-        setTimeout(() => this.viewUpdated = false, 200);
+        // if (this.viewUpdated) return;
+        // this.opUtils.updateHoverDescListeners();
+        // this.viewUpdated = true;
+        // setTimeout(() => this.viewUpdated = false, 200);
     }
 
     sortSkillBlackboard(skill: Nullable<CharCombatSkill>) {
@@ -133,6 +139,7 @@ implements OnInit, OnChanges, AfterViewChecked {
             (skill) => skill?.levels[this.currentCombatSkillLevel.value]?.blackboard ?? [],
         ).then(out => {
             this.currentSkillDescriptions = out;
+            this.opUtils.updateHoverDescListeners();
         });
     }
 
@@ -155,8 +162,9 @@ implements OnInit, OnChanges, AfterViewChecked {
         this.updateSkillDescription();
     }
 
-    onSkillParamHover(element: Element, event: Event, inbound: boolean, data: string)
+    onSkillParamHover(inbound: boolean, element?: Element, event?: Event, data?: string)
     {
+        if (this.destroyed) this.popup.clear();
         if (inbound)
         {
             const { x, y, height } = (element as HTMLElement).getBoundingClientRect();
@@ -173,7 +181,7 @@ implements OnInit, OnChanges, AfterViewChecked {
             })
             return;
         }
-        // this.popup.clear();
+        this.popup.clear();
     }
 
     log(...args: any[]) {
