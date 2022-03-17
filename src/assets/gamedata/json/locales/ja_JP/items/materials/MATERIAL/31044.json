@@ -1,0 +1,30 @@
+{
+	"itemId": "31044",
+	"name": "精錬溶剤",
+	"description": "高分子結合によるコーティング剤。基本的な防御性能の他に様々な特性を持つ。高温耐性はそのうちの一つ。",
+	"rarity": 3,
+	"iconId": "MTL_SL_RS",
+	"overrideBkg": null,
+	"stackIconId": null,
+	"sortId": 100043,
+	"usage": "特殊な工程で作られたコーティング剤。 昇進やスキル強化に必要な高ランク素材。",
+	"obtainApproach": null,
+	"classifyType": "MATERIAL",
+	"itemType": "MATERIAL",
+	"stageDropList": [
+		{
+			"stageId": "main_09-03",
+			"occPer": "SOMETIMES"
+		},
+		{
+			"stageId": "main_09-16",
+			"occPer": "SOMETIMES"
+		}
+	],
+	"buildingProductList": [
+		{
+			"roomType": "WORKSHOP",
+			"formulaId": "59"
+		}
+	]
+}

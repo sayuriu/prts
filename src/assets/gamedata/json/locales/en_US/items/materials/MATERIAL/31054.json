@@ -1,0 +1,26 @@
+{
+	"itemId": "31054",
+	"name": "Cutting Fluid Solution",
+	"description": "A biologically stable stock solution. Precautions should be taken to avoid cross-contamination during storage.",
+	"rarity": 3,
+	"iconId": "MTL_SL_PLCF",
+	"overrideBkg": null,
+	"stackIconId": null,
+	"sortId": 100045,
+	"usage": "A stock solution prepared from a variety of active solvents. Can be used for high level upgrades.",
+	"obtainApproach": null,
+	"classifyType": "MATERIAL",
+	"itemType": "MATERIAL",
+	"stageDropList": [
+		{
+			"stageId": "main_09-05",
+			"occPer": "SOMETIMES"
+		}
+	],
+	"buildingProductList": [
+		{
+			"roomType": "WORKSHOP",
+			"formulaId": "60"
+		}
+	]
+}

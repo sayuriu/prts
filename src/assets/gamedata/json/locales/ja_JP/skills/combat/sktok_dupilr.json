@@ -1,0 +1,29 @@
+{
+	"skillId": "sktok_dupilr",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "倒壊",
+			"rangeId": "2-2",
+			"description": "倒された方向の直線2マス内の敵全員に確定ダメージを与え、スタンさせ、範囲内の味方全員を強制撤退させる。その後、範囲内の配置可能なマスに通行不可な<瓦礫>を生成する",
+			"skillType": 1,
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 10,
+				"initSp": 10,
+				"increment": 0
+			},
+			"prefabId": "sktok_dupilr",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "stun",
+					"value": 10
+				}
+			]
+		}
+	]
+}

@@ -1,6 +1,6 @@
 {
 	"name": "レイズ",
-	"description": "<@ba.kw>3</>体目まで跳躍していく<@ba.kw>術ダメージ</>を敵に与え、跳躍する度ダメージが15%減衰し、敵を一瞬<@ba.kw>足止め</>  ",
+	"description": "<@ba.kw>3</>体目まで跳躍していく<@ba.kw>術ダメージ</>を敵に与え、跳躍する度ダメージが15%減衰し、敵を一瞬<$ba.sluggish>足止め</>  ",
 	"canUseGeneralPotentialItem": true,
 	"potentialItemId": "p_char_306_leizi",
 	"nationId": "yan",
@@ -40,7 +40,7 @@
 						"value": 0.5
 					}
 				],
-				"overrideDescripton": "<@ba.kw>{attack@max_target}</>体目まで跳躍していく<@ba.kw>術ダメージ</>を敵に与え、跳躍する度ダメージが15%減衰し、敵を一瞬<@ba.kw>足止め</>(昇進2で効果強化)  ",
+				"overrideDescripton": "<@ba.kw>{attack@max_target}</>体目まで跳躍していく<@ba.kw>術ダメージ</>を敵に与え、跳躍する度ダメージが15%減衰し、敵を一瞬<$ba.sluggish>足止め</>(昇進2で効果強化)  ",
 				"prefabKey": "-1",
 				"rangeId": null
 			},
@@ -60,7 +60,7 @@
 						"value": 0.5
 					}
 				],
-				"overrideDescripton": "<@ba.kw>{attack@max_target}</>体目まで跳躍していく<@ba.kw>術ダメージ</>を敵に与え、跳躍する度ダメージが15%減衰し、敵を一瞬<@ba.kw>足止め</>  ",
+				"overrideDescripton": "<@ba.kw>{attack@max_target}</>体目まで跳躍していく<@ba.kw>術ダメージ</>を敵に与え、跳躍する度ダメージが15%減衰し、敵を一瞬<$ba.sluggish>足止め</>  ",
 				"prefabKey": "-1",
 				"rangeId": null
 			}

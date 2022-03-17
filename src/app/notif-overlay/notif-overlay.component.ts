@@ -1,6 +1,7 @@
 import { trigger, transition, style, animate } from '@angular/animations';
 import { Component, OnInit } from '@angular/core';
 import { Message, NotifService } from '@services/notif.service';
+import { AppService } from '@services/app.service';
 import { AnimationFunctions, AppearDisappear } from '@utils/anims';
 import { waitAsync } from '@utils/utils';
 
@@ -63,7 +64,10 @@ export class NotifOverlayComponent implements OnInit {
 	queue: Message[];
 	currentMessage: Message = emptyMessage;
 
-	constructor(private notif: NotifService) {
+	constructor(
+		private notif: NotifService,
+		private app: AppService,
+	) {
 		this.queue = [];
 		this.notif.events.subscribe((m: Message) => this.onMessage(m));
 	}
@@ -82,6 +86,7 @@ export class NotifOverlayComponent implements OnInit {
 
 	private async processQueue()
 	{
+		if (this.app.isPortrait.value || this.app.screenTooSmall.value) return;
 		if (this.queue.length && !this._activeInterval)
 		{
 			this.currentMessage = this.queue.shift()!;

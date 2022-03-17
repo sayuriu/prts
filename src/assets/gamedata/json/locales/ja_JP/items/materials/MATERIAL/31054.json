@@ -1,0 +1,26 @@
+{
+	"itemId": "31054",
+	"name": "上級切削液",
+	"description": "動物性の、安定した原液。貯蔵する際には異物混入を防ぐ必要がある。",
+	"rarity": 3,
+	"iconId": "MTL_SL_PLCF",
+	"overrideBkg": null,
+	"stackIconId": null,
+	"sortId": 100045,
+	"usage": "活性溶剤を配合して作られた原液。昇進やスキル強化に必要な高ランク素材。",
+	"obtainApproach": null,
+	"classifyType": "MATERIAL",
+	"itemType": "MATERIAL",
+	"stageDropList": [
+		{
+			"stageId": "main_09-05",
+			"occPer": "SOMETIMES"
+		}
+	],
+	"buildingProductList": [
+		{
+			"roomType": "WORKSHOP",
+			"formulaId": "60"
+		}
+	]
+}

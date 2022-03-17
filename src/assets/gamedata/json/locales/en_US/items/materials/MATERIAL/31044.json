@@ -1,0 +1,30 @@
+{
+	"itemId": "31044",
+	"name": "Refined Solvent",
+	"description": "A coating held together by high-molecule polymers. In addition to its baseline protective capabilities, it has also gained other special characteristics, of which heat resistance is but one of many.",
+	"rarity": 3,
+	"iconId": "MTL_SL_RS",
+	"overrideBkg": null,
+	"stackIconId": null,
+	"sortId": 100043,
+	"usage": "A special coating made from a specific formulation process. Can be used for high level upgrades.",
+	"obtainApproach": null,
+	"classifyType": "MATERIAL",
+	"itemType": "MATERIAL",
+	"stageDropList": [
+		{
+			"stageId": "main_09-03",
+			"occPer": "SOMETIMES"
+		},
+		{
+			"stageId": "main_09-16",
+			"occPer": "SOMETIMES"
+		}
+	],
+	"buildingProductList": [
+		{
+			"roomType": "WORKSHOP",
+			"formulaId": "59"
+		}
+	]
+}

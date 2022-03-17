@@ -471,12 +471,32 @@ exports = {
                 description: '部署后立即爆炸，对前方一格造成伤害并小力度推动敌人，直接击倒前方一格的战场支柱',
                 rangeId: 'x-4',
                 blackboard: [{
-                        key: 'dupilr_trait[startdead].duration',
-                        value: 0.5
+                        key: 'wpnsts_t_1[ally].sp',
+                        value: 1
                     },
                     {
-                        key: 'taunt_level',
+                        key: 'wpnsts_t_1[ally].interval',
+                        value: 2
+                    },
+                    {
+                        key: 'wpnsts_t_1[enemy].sp',
                         value: 1
+                    },
+                    {
+                        key: 'wpnsts_t_1[enemy].interval',
+                        value: 2
+                    },
+                    {
+                        key: 'duration',
+                        value: 20
+                    },
+                    {
+                        key: 'stun',
+                        value: 5
+                    },
+                    {
+                        key: 'blast_damage',
+                        value: 1000
                     }
                 ]
             }]
@@ -826,7 +846,7 @@ exports = {
                         value: 0.2
                     },
                     {
-                        key: 'magic_resistance',
+                        key: 'talent_override_rangeid_flag',
                         value: 0.15
                     },
                     {

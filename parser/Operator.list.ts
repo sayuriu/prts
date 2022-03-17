@@ -135,6 +135,7 @@ export const List = {
         thorns: '293',
         ayer: '294',
         susuro: '298',
+        phenxi: '300',
         cutter: '301',
         glaze: '302',
         zebra: '304',
@@ -182,10 +183,12 @@ export const List = {
         pudd: '4004',
         weedy: '400',
         kjera: '4013',
+        kazema: '4016',
         ncdeer: '4019',
         elysm: '401',
         aprot2: '4025',
         tuye: '402',
+        forcer: '4036',
         absin: '405',
         tomimi: '411',
         flint: '415',
@@ -287,7 +290,8 @@ export const List = {
         airbomb: '053',
         dancdol: '054',
         tileblock: '055',
-        sfsuifire: '056'
+        sfsuifire: '056',
+        wpnsts: '057'
     },
     token: {
         healrb: {
@@ -389,6 +393,10 @@ export const List = {
         hypnos: {
             id: '10021',
             unit: 'blkngt'
+        },
+        shadow: {
+            id: '10022',
+            unit: 'kazema'
         },
         friend: {
             id: '023',

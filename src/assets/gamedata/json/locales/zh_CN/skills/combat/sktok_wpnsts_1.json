@@ -1,0 +1,30 @@
+{
+	"skillId": "sktok_wpnsts_1",
+	"iconId": "sktok_wpnsts",
+	"hidden": false,
+	"levels": [
+		{
+			"name": "拉特兰式冰淇淋",
+			"rangeId": "x-1",
+			"description": "使周围所有友方单位每<@ba.vup>2</>秒回复<@ba.vup>1</>点技力\\n被夺取后立刻对周围所有友方单位造成<@ba.vup>1000</>点法术伤害并<$ba.stun>晕眩</><@ba.vup>5</>秒",
+			"skillType": 0,
+			"durationType": 0,
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 0,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": "sktok_wpnsts_1",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "hp_recovery_per_sec",
+					"value": 75
+				}
+			]
+		}
+	]
+}

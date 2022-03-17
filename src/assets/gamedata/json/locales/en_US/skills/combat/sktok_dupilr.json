@@ -1,0 +1,29 @@
+{
+	"skillId": "sktok_dupilr",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "Collapsing Pillar",
+			"rangeId": "2-2",
+			"description": "After being knocked down, deals True damage to enemies within the two tiles and Stuns them; Allied units within the two tiles will be forcibly retreated. <Battlefield Ruins> that blocks the enemy's route will be created on the deployable tiles",
+			"skillType": 1,
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 10,
+				"initSp": 10,
+				"increment": 0
+			},
+			"prefabId": "sktok_dupilr",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "stun",
+					"value": 10
+				}
+			]
+		}
+	]
+}
