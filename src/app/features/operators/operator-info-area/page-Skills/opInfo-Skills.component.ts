@@ -164,12 +164,12 @@ implements OnInit, OnChanges, OnDestroy, AfterViewChecked {
 
     onSkillParamHover(inbound: boolean, element?: Element, event?: Event, data?: string)
     {
-        if (this.destroyed) this.popup.clear();
+        if (this.destroyed) void this.popup.clear();
         if (inbound)
         {
             const { x, y, height } = (element as HTMLElement).getBoundingClientRect();
             this.popup.initTransform.setValue('translateY(20px)');
-            this.popup.display({
+            void this.popup.display({
                 html: [
                     `<p style="color: #fff; background-color: #000">${data}</p>`,
                 ].join(''),
@@ -181,7 +181,7 @@ implements OnInit, OnChanges, OnDestroy, AfterViewChecked {
             })
             return;
         }
-        this.popup.clear();
+        void this.popup.clear();
     }
 
     log(...args: any[]) {

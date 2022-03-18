@@ -62,8 +62,8 @@ export class MainComponent implements OnInit, OnDestroy {
 
 	ngOnInit(): void {
 		this.theme.listen((this.eleRef.nativeElement as HTMLElement).querySelector('.container') as HTMLElement);
-		this.loadCommit();
-		this.loadChangelogs();
+		void this.loadCommit();
+		void this.loadChangelogs();
 		// new Stagger().arrow('#arrow', false);
 	}
     destroyed = false;
@@ -175,13 +175,13 @@ export class MainComponent implements OnInit, OnDestroy {
 			}, 1500);
 			GitUtils.saveMultipleCacheStorageAttr([
 				['LastRefresh', new Date().toISOString()],
-				['Message', new String(cMessage).valueOf()],
-				['Date', new String(date).valueOf()],
-				['Hash', new String(sha).valueOf()],
-				['URL', new String(url).valueOf()],
-				['AuthorName', new String(name).valueOf()],
-				['AuthorUsrname', new String(username).valueOf()],
-				['AuthorURL', new String(auURL).valueOf()]
+				['Message', String(cMessage).valueOf()],
+				['Date', String(date).valueOf()],
+				['Hash', String(sha).valueOf()],
+				['URL', String(url).valueOf()],
+				['AuthorName', String(name).valueOf()],
+				['AuthorUsrname', String(username).valueOf()],
+				['AuthorURL', String(auURL).valueOf()]
 			]);
 			setTimeout(() => {
 				this.loadCommit(true);

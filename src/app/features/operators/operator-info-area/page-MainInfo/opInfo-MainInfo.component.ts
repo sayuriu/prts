@@ -63,7 +63,7 @@ export class OpMainInfoComponent implements OnInit {
             this.animAlreadyPlayed = '';
         else
             this.animID = setTimeout(() => {this.onAnimationEnd.emit(0)}, 5000) as unknown as number;
-		this.init();
+		void this.init();
 	}
 
     ngOnDestroy() {
@@ -171,17 +171,17 @@ export class OpMainInfoComponent implements OnInit {
 	setTLElite(value: number)
 	{
 		this.currentTLElite = value;
-		this.updateOpTLData();
+		void this.updateOpTLData();
 	}
 	setTLPotential(value: number)
 	{
 		this.currentTLPotential = value;
-		this.updateOpTLData();
+		void this.updateOpTLData();
 	}
 	setTLLevel(value: number)
 	{
 		this.currentTLLevel = value;
-		this.updateOpTLData();
+		void this.updateOpTLData();
 	}
 	async updateOpTLData()
 	{

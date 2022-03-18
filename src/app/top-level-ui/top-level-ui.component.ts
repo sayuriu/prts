@@ -118,7 +118,7 @@ export class TopLevelUIComponent implements OnInit {
 					base += base.includes('?') ? `&${params}=${URLParams[params]}` : `?${params}=${URLParams[params]}`;
 			}
 			if ((AllowedURLParams as AllowedURLParamMap)[currentRoute])
-				this.router.navigateByUrl(base, { replaceUrl: true });
+				void this.router.navigateByUrl(base, { replaceUrl: true });
 		}
 	}
 }

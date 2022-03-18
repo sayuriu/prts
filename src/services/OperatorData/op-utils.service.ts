@@ -84,7 +84,7 @@ export class OperatorUtilsService {
 		let out = input;
 		for (const { key, value } of blackboard)
 			out = out.replace(
-                new RegExp(`\{(-)?(${escapeRegExp(key)})(:0(%|\.0(f|%)?)?)?\}`, 'ig'),
+                new RegExp(`\{(-)?(${escapeRegExp(key)})(:0(%|\.0[f%]?)?)?\}`, 'ig'),
             //match key
                 (_1, isNegative, _key, _4, isDecimal, floatOrPercent) => {
                     let num = (`${floatOrPercent}` + `${isDecimal}`).includes('%') ?

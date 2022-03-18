@@ -10,7 +10,6 @@
 			newState = true;
 			time.push('insert ^');
 		}
-		else;
 		timeSinceLast = performance.now();
 		if (state !== newState)
 		{

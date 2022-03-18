@@ -117,7 +117,7 @@ export class OperatorInfoAreaComponent implements OnInit, OnChanges
 	}
 	ngOnChanges(changes: SimpleChanges): void {
 		if (changes.visible && !this.menuVisible && !this.pagesVisible)
-			this.init();
+			void this.init();
 	}
 
     opCombatSkills!: Nullable<CharCombatSkill>[];
@@ -154,8 +154,8 @@ export class OperatorInfoAreaComponent implements OnInit, OnChanges
 
     animsPlayed: Nullable<''>[] = [null, null, null];
 	currentMenuIndex: number = -1;
-	setMenuIndex(index: Range<0, 6> | -1)
-	{
+
+    setMenuIndex(index: number) {
 		this.currentMenuIndex = index;
 	}
     setAnimsPlayed(index: number)

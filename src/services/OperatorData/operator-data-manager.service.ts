@@ -129,12 +129,12 @@ export class OperatorDataManagerService {
 					ex: null,
 				};
 			});
-        this.loadRichTextStyles();
-        this.loadRanges();
-        this.loadParamDesc();
-        this.loadParamSign();
-        this.loadStatPropsMap();
-        this.loadMatImgIdMap();
+        void this.loadRichTextStyles();
+        void this.loadRanges();
+        void this.loadParamDesc();
+        void this.loadParamSign();
+        void this.loadStatPropsMap();
+        void this.loadMatImgIdMap();
 	}
 
 	private async loadAssets()

@@ -16,12 +16,12 @@ export class OperatorPickerAreaComponent implements OnInit, OnChanges
 	filterVisible = false;
 	ngOnInit(): void {
 		this.filterButtonVisible = this.visible;
-		this.ToggleFilterMenu(this.visible);
+		void this.ToggleFilterMenu(this.visible);
 	}
 
 	ngOnChanges(changes: SimpleChanges): void {
 		if (changes.visible)
-			this.ToggleFilterMenu(changes.visible.currentValue);
+			void this.ToggleFilterMenu(changes.visible.currentValue);
 	}
 
 	filterButtonVisible = false;

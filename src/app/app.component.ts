@@ -62,16 +62,17 @@ export class AppComponent implements OnInit {
             this.title.setTitle(name);
             this.app.updateMetadata(appMetadata);
         });
-		window.addEventListener('resize', (() =>{
+        const refThis = this;
+		window.addEventListener('resize', () =>{
 			if (isFullScreen())
-				this.notif.send('System', 'Entered fullscreen.', 'info', {}, 3300)
+                refThis.notif.send('System', 'Entered fullscreen.', 'info', {}, 3300)
 			else if (
-				this.notif.currentMessage?.title === '[SYSTEM]' &&
-				this.notif.currentMessage?.message === 'Entered fullscreen.'
+                refThis.notif.currentMessage?.title === '[SYSTEM]' &&
+                refThis.notif.currentMessage?.message === 'Entered fullscreen.'
 			)
-			this.notif.skipCurrent();
-            this.app.updateScreenDimensions(window.innerWidth, window.innerHeight);
-		}).bind(this));
+            refThis.notif.skipCurrent();
+            refThis.app.updateScreenDimensions(window.innerWidth, window.innerHeight);
+		});
         window.addEventListener('online', () => {
             this.app.updateConnectionStatus(true);
         })

@@ -90,10 +90,10 @@ export class OperatorsComponent implements OnInit, OnChanges
 		}
 		if (!op && this.router.url.includes('/operators'))
 		{
-			this.router.navigate(['/operators'], { replaceUrl: true });
+			void this.router.navigate(['/operators'], { replaceUrl: true });
 			this.headerString = 'Choose a character!';
 		}
-		this.switchView(op);
+		void this.switchView(op);
 	}
 
 	opHeaderData?: OperatorHeaderData;
@@ -113,7 +113,7 @@ export class OperatorsComponent implements OnInit, OnChanges
 			if (res)
 				this.opHeaderForeignName = res.name as string;
 		});
-		const imgblob = await this.manager.loadOpImages(`${this.currentOpId}`, 'avatars', undefined, new Boolean(data.displayNumber.match(/EX\d+/)).valueOf());
+		const imgblob = await this.manager.loadOpImages(`${this.currentOpId}`, 'avatars', undefined, Boolean(data.displayNumber.match(/EX\d+/)).valueOf());
 		if (imgblob)
 			this.opHeaderImg = this.sanitizer.bypassSecurityTrustUrl(URL.createObjectURL(imgblob)) as string;
 		waitAsync(100).then(() => this.opHeaderCodeSize = '20px');
