@@ -1,5 +1,5 @@
 // Auto-generated, @prts110121
-// This a a raw interpretation of the structure.
+// This is a raw interpretation of the structure.
 // Needs optimization.
 
 interface RootObject {

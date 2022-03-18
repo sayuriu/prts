@@ -255,19 +255,14 @@ p {
         transition: inherit;
     }
     gap: 6px;
-    tr {
-        height: 36px;
-        z-index: 1;
-    }
     td {
-        z-index: 1;
+        z-index: 0;
         width: 36px;
         height: inherit;
         div:not(.abs) {
             border: 3px solid hsl(0, 0%, 77%);
             width: 30px;
             height: 30px;
-            z-index: 0;
             &.active, &.extended {
                 background: repeating-linear-gradient(
                     45deg,
@@ -294,8 +289,11 @@ p {
                 );
                 border: 2px inset #000;
                 padding: 1px;
-                opacity: .65;
+                opacity: .06;
             }
+        }
+        .abs {
+            z-index: 2;
         }
         .arrow {
             top: calc(100% + 11px);
@@ -309,7 +307,7 @@ p {
             transition-delay: 0.3s;
             background: #000;
             color: #fff;
-            z-index: 1;
+
             p {
                 margin: 0;
                 padding: 4px;
@@ -331,7 +329,10 @@ p {
             }
         }
         &:hover {
-            z-index: 2;
+            z-index: 1;
+            .abs {
+                z-index: 3;
+            }
             .arrow {
                 top: calc(100% - 4px);
                 opacity: 1;
@@ -340,6 +341,34 @@ p {
                 top: calc(100% + 5px);
                 opacity: 1;
                 transition-delay: 0s;
+            }
+            div:not(.abs).inactive {
+                opacity: .25;
+            }
+        }
+    }
+    tr {
+        height: 36px;
+        z-index: 1;
+        &:last-child {
+            td {
+                .arrow {
+                    top: unset;
+                    bottom: calc(100% + 11px);
+                    clip-path: polygon(25% 0%, 50% 100%, 75% 0%);
+                }
+                .range-tile-desc {
+                    top: unset;
+                    bottom: calc(100% + 20px);
+                }
+                &:hover {
+                    .arrow {
+                        bottom: calc(100% - 4px);
+                    }
+                    .range-tile-desc  {
+                        bottom: calc(100% + 5px);
+                    }
+                }
             }
         }
     }

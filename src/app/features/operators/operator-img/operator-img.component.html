@@ -1,7 +1,15 @@
-<div id="op-img-main" [ngStyle]="opName ? null : {background: 'url(../../../../assets/img/diagonal.png)'}">
-	<img-area>
+<div id="op-img-main"
+     [ngStyle]="opName ?
+        {
+            background: 'url(\u0022/assets/gamedata/img/characters/full/' + opName + '_1.png\u0022) center center / cover'
+        } :
+        { background: 'url(/assets/img/diagonal.png)'}
+">
+	<div id="op-img-full"
 
-	</img-area>
+    >
+
+	</div>
 	<div id="img-side-menu" *ngIf="opName" @slideRtL>
 		<img-option-menu>
 

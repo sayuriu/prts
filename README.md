@@ -6,6 +6,6 @@ This is just an another Arknights toolbox, built with Angular and was designed w
 This also serves as a study project for myself, to get better understanding about Angular and web dev in general.<br><br>
 
 *Current version (main):* [`0.1.30b-121421`](https://github.com/sayuriu/prts/tree/master)<br>
-*Latest beta:* `1.0.31b@031522:operators-page`<br>
+*Latest beta:* `1.0.31b@031822:operators-page`<br>
 [You can check the live site here.](https://beta.prts.tech)<br>
 <b>WARNING!</b>: __*\*Note that it won't be displayed correctly on devices that have viewport size smaller than `1366px x 768px`.*__

@@ -1,4 +1,4 @@
-// import chalk from "chalk";
+import chalk from "chalk";
 import { existsSync, mkdirSync } from "fs";
 import { join } from "path";
 import { Logger } from "./Logger";
@@ -10,7 +10,7 @@ export const joinPaths = (...args: string[]) => normalizePath(join(...args));
 export function createIfNotExist(path: string, header: string | null = null, silentFound: boolean = false) {
 	if (!existsSync(path))
 	{
-		Logger.info(header, `Attempting to create ${underline(path)}...`, false);
+		Logger.info(header, `Attempting to create ${chalk.underline(path)}...`, false);
 		mkdirSync(path);
 		Logger.log(null, Logger.green('done'))
 		return;

@@ -250,14 +250,14 @@
                                                 <div class="active" *ngSwitchCase="1"></div>
                                                 <div class="extended" *ngSwitchCase="2"></div>
                                                 <div class="character" *ngSwitchCase="3"></div>
-                                                <div class="inactive" *ngSwitchCase="null"></div>
-                                                <div class="arrow abs o0"></div>
+                                                <div class="inactive" *ngSwitchDefault></div>
+                                                <div class="arrow abs o0 no-pointer"></div>
                                                 <div class="range-tile-desc abs w-auto flex flex-col o0 no-pointer">
                                                     <p class="tile-coord inline-flex"><i>ROW</i>&ThinSpace;{{rowIndex}}&nbsp;<i>COL</i>&ThinSpace;{{cellIndex}}</p>
                                                     <p *ngSwitchCase="1">{{currentOperator.name.split(' ')[0]}}&apos;s attack range.</p>
                                                     <p *ngSwitchCase="2">Extended range from skill.</p>
                                                     <p *ngSwitchCase="3">{{currentOperator.name.split(' ')[0]}} stands here.</p>
-                                                    <p *ngSwitchCase="null">This tile has no effect.</p>
+                                                    <p *ngSwitchDefault>This tile has no effect.</p>
                                                 </div>
                                             </td>
                                         </tr>

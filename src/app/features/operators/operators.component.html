@@ -72,8 +72,7 @@
 				(onOperatorChange)='setOperatorHeaderData($event)'
 				*ngIf="currentOpId"
 				[opId]="currentOpId"
-				[serverLocale]="locale"
-				[visible]="opInfoUIVisible"
+                [visible]="opInfoUIVisible"
 				@AppearDisappear
 			></app-operator-info-area>
 			<app-operator-picker-area

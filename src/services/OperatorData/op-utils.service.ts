@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 // import { PopupService } from '@services/popup.service';
 
 import { BlackboardItem } from '@struct/Operator/BlackBoardItem';
-import { IndexedCallback, escapeRegExp, bindEventListeners, padArray, Nullable } from '@utils/utils';
+import {IndexedCallback, escapeRegExp, bindEventListeners, padArray, Nullable, copyArray} from '@utils/utils';
 import { OperatorDataManagerService } from './operator-data-manager.service';
 import { AttackRange } from '@struct/Operator/AttackRange';
 
@@ -185,6 +185,7 @@ export class OperatorUtilsService {
 		const coordinates = new Map<number, number[]>();
         let biasX = 0;
         let biasY = 0;
+        let maxLength = 0;
 		for (const { row, col } of range.grids)
 		{
             if (row < biasY)
@@ -201,9 +202,13 @@ export class OperatorUtilsService {
 		const shiftedCoordinates = new Map<number, number[]>();
 		[...coordinates.keys()].forEach(key => {
 			const newKey = key + biasY;
-			shiftedCoordinates.set(newKey, coordinates.get(key)!.map((_, idx) => idx));
+			shiftedCoordinates.set(newKey, coordinates.get(key)!.map((_) => {
+                const sum = _ + biasX;
+                if ((sum + 1) > maxLength)
+                    maxLength = sum + 1;
+                return sum;
+            }));
 		});
-
 		let out: Nullable<number>[][] = [];
 		for (const [row, cols] of shiftedCoordinates)
 		{
@@ -223,7 +228,7 @@ export class OperatorUtilsService {
 		}
 		out = padArray(out, null);
         out[biasY][biasX] = 3;
-		return out as Nullable<number>[][];
+		return out.map(r => copyArray(r, new Array(maxLength).fill(null))) as Nullable<number>[][];
 	}
 }
 

@@ -76,6 +76,15 @@ export function padArray<T>(array: T[], fillItem: any)
     return arr;
 }
 
+export function copyArray<T>(src: T[], dest: T[])
+{
+    if (src.length === dest.length)
+        return new Array(...src);
+    for (let i = 0; i < src.length; i++)
+        dest[i] = src[i];
+    return dest;
+}
+
 export function get2dArraySize(array: any[], _1stLevelAsWidth = false)
 {
     return _1stLevelAsWidth ?

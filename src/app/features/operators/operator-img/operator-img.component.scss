@@ -4,6 +4,8 @@
 	height: 75%;
 	background: hsl(0, 0%, 9%);
 	z-index: 1;
+    background-size: cover;
+    background-position: center;
 
 	img-option-menu,
 	sprite-option-menu {
@@ -24,13 +26,13 @@
 		background: hsl(0, 0%, 77%);
 		border-top: 2px dashed var(--globalForegroundInverse);
 	}
-	img-area {
+	#op-img-full {
 		height: 105%;
 		width: 115%;
 		right: 0;
 		top: 0;
 		position: absolute;
-		background: transparent;
+        background: transparent;
 	}
 }
 #op-img-sprites {

@@ -7,4 +7,4 @@ readdirSync(path).forEach(file => {
 	const data = require(path + '/' + file);
 	value = concatObjects(value, data);
 });
-writeData('./OPERATOR_ALL.data', value, ['This data is meant for contructing data structures.'])
+writeData('./OPERATOR_ALL.data', value, ['This data is meant for constructing data structures.'])
