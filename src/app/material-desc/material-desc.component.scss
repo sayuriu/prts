@@ -1,0 +1,34 @@
+@import '../../anims';
+
+// 670%
+.mat-desc-container {
+    transition: all 0.5s $forceful;
+    &, & * * {
+        color: #fff;
+        background: #000;
+    }
+    .mat-desc-title {
+        gap: 6px;
+        p {
+            white-space: nowrap;
+            overflow: hidden;
+        }
+        .id {
+            max-width: 0;
+            transition: max-width 0.5s $forceful;
+        }
+        .mat-desc-footer {
+            border-top: 1px solid hsl(0, 0%, 69%);
+            p {
+                margin: 4px;
+            }
+        }
+    }
+    &.expanded {
+        .mat-desc-title {
+           .id {
+               max-width: 100%;
+           }
+        }
+    }
+}

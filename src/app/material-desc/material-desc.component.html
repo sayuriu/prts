@@ -1,0 +1,13 @@
+<button class="mat-desc-container no-border" [ngClass]="{ expanded }" (click)="toggleExpand()">
+    <p *ngIf="!item">Loading...</p>
+    <div *ngIf="item" class="flex flex-col">
+        <div class="mat-desc-title flex">
+            <p class="name">{{item.name}}</p>
+            <div class="id"><p>{{item.itemId}}</p></div>
+        </div>
+        <div class="mat-desc-content">
+            <p>{{item.description}}</p>
+        </div>
+        <div class="mat-desc-footer fw"><p><i>Click to {{expanded ? 'collapse' : 'expand'}}</i></p></div>
+    </div>
+</button>
