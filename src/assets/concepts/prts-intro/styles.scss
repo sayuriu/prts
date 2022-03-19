@@ -315,13 +315,21 @@ footer-text {
 		}
 	}
 
+    //@keyframes bg-fade { 
+    //    from {
+    //        background: var(--fgInverse);
+    //    }
+    //    to {
+    //        background: transparent;
+    //    }
+    //}
+
 	animation:
 		blink-3 0.8s steps(1) 		  calc(0.00s + 1.35s) forwards,
 		opacity-in 0.3s $forceful	  calc(0.35s + 1.35s) forwards,
+        //bg-fade 0.4s $forceful        calc(0.35s + 1.35s) forwards,
 		footer-expand 0.7s $slow-down calc(0.85s + 1.35s) forwards;
 }
-
-
 
 .prts-header-beta-badge {
 	--clip-start-left: polygon(0 0, 0 100%, 100% 100%, 100% 0);

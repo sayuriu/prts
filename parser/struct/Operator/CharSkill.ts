@@ -16,6 +16,6 @@ interface SkillUpCost
 		phase: Range.$0_2;
 		level: number;
 	}
-	levelUpTime: number;
+    lvlUpTime: number;
 	levelUpCost: EvolveItemData[];
 }

@@ -254,7 +254,7 @@
                                                 <div class="arrow abs o0 no-pointer"></div>
                                                 <div class="range-tile-desc abs w-auto flex flex-col o0 no-pointer">
                                                     <p class="tile-coord inline-flex"><i>ROW</i>&ThinSpace;{{rowIndex}}&nbsp;<i>COL</i>&ThinSpace;{{cellIndex}}</p>
-                                                    <p *ngSwitchCase="1">{{currentOperator.name.split(' ')[0]}}&apos;s attack range.</p>
+                                                    <p *ngSwitchCase="1">Skill effective range.</p>
                                                     <p *ngSwitchCase="2">Extended range from skill.</p>
                                                     <p *ngSwitchCase="3">{{currentOperator.name.split(' ')[0]}} stands here.</p>
                                                     <p *ngSwitchDefault>This tile has no effect.</p>
@@ -343,6 +343,7 @@
                                         *ngFor="let mat of (currentCombatSkillLevel.value > 6 ? skillUpgradeReq.levelUpCost! : skillUpgradeReq.lvlUpCost!)"
                                         class="skill-mat-item rel grid pointer-all"
                                     >
+                                        <ak-item-desc class="abs bfull r0 no-pointer o0 transition-all" [itemId]="mat.id"></ak-item-desc>
                                         <div class="skill-mat-rarity fh fw flex j-flex-center a-flex-center rel z0" [style.background-image]="'url(' + manager.getMatImg(mat.id)[1] + ')'" >
                                             <div class="skill-mat-img" [style.background-image]="'url(' + manager.getMatImg(mat.id)[0] + ')'"></div>
                                         </div>
@@ -351,13 +352,13 @@
 <!--                                            <p>{{mat.id}}&MediumSpace;<i></i></p>-->
 <!--                                        </div>-->
                                     </div>
-                                    <div *ngIf="skillUpgradeReq.levelUpTime">
-                                        <svg style="height: 70px;" width="300" height="300" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <div class="skill-mat-item grid" *ngIf="skillUpgradeReq.lvlUpTime">
+                                        <svg class="skill-mat-rarity" style="height: 65px; width: 65px" width="300" height="300" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <circle cx="150" cy="150" r="147.5" stroke="black" stroke-width="5"/>
                                             <path d="M156 45C156 41.6863 153.314 39 150 39C146.686 39 144 41.6863 144 45L156 45ZM144 150L144 156L156 156L156 150L144 150ZM144 45L144 150L156 150L156 45L144 45Z" fill="black"/>
                                             <path d="M232 156C235.314 156 238 153.314 238 150C238 146.686 235.314 144 232 144V156ZM150 144H144V156H150V144ZM232 144H150V156H232V144Z" fill="black"/>
                                         </svg>
-                                        {{skillUpgradeReq.levelUpTime}}hr
+                                        <p class="skill-mat-amount no-margin">{{skillUpgradeReq.lvlUpTime / 3600}}hr</p>
                                     </div>
                                 </div>
                             </div>

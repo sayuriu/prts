@@ -10,7 +10,7 @@ export class OpStatsComponent implements OnInit {
 
 	constructor() { }
 
-	@Input() currentOperator!: Operator;
+	@Input() currentOperator!: Operator & { id: string };
 
 	ngOnInit(): void {
 	}

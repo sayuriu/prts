@@ -14,7 +14,7 @@ export interface CharSkill<L extends Range<1, 4>>
 export interface SkillUpCost
 {
 	unlockCond: SkillUnlockCond;
-	levelUpTime: number;
+    lvlUpTime: number;
 	levelUpCost: EvolveItemData[];
     // week ref
     lvlUpCost?: EvolveItemData[];

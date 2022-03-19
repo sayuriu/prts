@@ -39,14 +39,13 @@ import { OperatorUtilsService } from '@services/OperatorData/op-utils.service';
 export class OpMainInfoComponent implements OnInit {
 
 	constructor(
-		private manager: OperatorDataManagerService,
-        private sanitizer: DomSanitizer,
+        public manager: OperatorDataManagerService,
+        public sanitizer: DomSanitizer,
         private animManager: AnimManagerService,
-        private opUtils: OperatorUtilsService
+        public opUtils: OperatorUtilsService
     ) { }
 
-
-	@Input() currentOperator!: Operator;
+	@Input() currentOperator!: Operator & { id: string };
 	@Input() currentOperatorCN!: Operator;
 	currentOpFaction = defaultCharFaction;
     currentOpNation = defaultCharFaction;
@@ -78,6 +77,7 @@ export class OpMainInfoComponent implements OnInit {
 		'unknown': '#000000',
 	}
 
+    currentOpTrait = 'This does not have anything noticeable.'
 	currentOpSubclass = 'NO_SUBCLASS';
 	currentOpClass = 'NO_CLASS';
 	currentOpHR: Record<string, any> = {};
@@ -85,7 +85,7 @@ export class OpMainInfoComponent implements OnInit {
 	async init() {
 		// @ts-ignore
 		if (this.currentOperator.ex) this.currentOperatorCN = this.currentOperator;
-
+        this.currentOpTrait = this.opUtils.interpolateRichStyles(this.currentOperator.description);
 		this.currentOpFaction = await this.manager.getFactionData(this.getFactionID());
         this.currentOpNation = await this.manager.getFactionData(this.currentOperator.nationId);
 		this.factionImgURL = this.sanitizer.bypassSecurityTrustUrl(URL.createObjectURL((await this.manager.loadOpImages('char_nodata', 'avatars', undefined, true))!)) as string;

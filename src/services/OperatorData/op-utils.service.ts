@@ -16,28 +16,27 @@ export class OperatorUtilsService {
 	) { }
 
 	async Interpolate<T extends unknown>(
-		input: T[],
-		stringPreprocess: IndexedCallback<T, string>,
-		blackboard: IndexedCallback<T, BlackboardItem[]>,
-		interpolateOptions: InterpolateOptions = { blackboardValues: true, terms: true, richStyles: true }
+        input: T[],
+        stringPreprocess: IndexedCallback<T, string>,
+        interpolateOptions: InterpolateOptions<T> = { blackboardValues: true, terms: true, richStyles: true }
 	)
 	{
-		const { blackboardValues, terms, richStyles } = interpolateOptions;
+		const { blackboardCB, blackboardValues, terms, richStyles } = interpolateOptions;
 		let output = new Array<string>(input.length).fill('');
 		for (let i = 0; i < output.length; i++)
 		{
 			let _str = stringPreprocess(input[i], i).replace('\n', '<br>');
-			const _blackboard = blackboard(input[i], i);
+			const _blackboard = (blackboardCB ?? (() => []))(input[i], i);
 			if (_str.match('{@NO_PROCESS}'))
 			{
 				output[i] = _str.replace('{@NO_PROCESS}', '');
 				continue;
 			}
-			if (richStyles)
+			if (richStyles ?? true)
 				_str = this.interpolateRichStyles(_str);
-			if (blackboardValues)
+			if (blackboardValues ?? true)
 				_str = this.interpolateBlackboard(_str, _blackboard);
-			if (terms)
+			if (terms ?? true)
 				_str = await this.interpolateTerms(_str);
 
 			output[i] = _str;
@@ -61,7 +60,7 @@ export class OperatorUtilsService {
 			return out;
 		})
 	}
-	private interpolateRichStyles(input: string)
+    interpolateRichStyles(input: string)
 	{
 		return input.replace(/<@(.+?)>(.+?)<\/>/g, (_: string, tag: string, content) => {
 			const richText = this.manager.getRichTextStyles(tag);
@@ -246,7 +245,8 @@ function determinePosition(x: number, y: number, width: number, height: number) 
 }
 
 
-interface InterpolateOptions {
+interface InterpolateOptions<T> {
+    blackboardCB?: IndexedCallback<T, BlackboardItem[]>;
 	blackboardValues?: boolean;
 	terms?: boolean;
 	richStyles?: boolean;

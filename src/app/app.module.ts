@@ -24,6 +24,8 @@ import { OpSkillsComponent } from '@featureComponents/operators/operator-info-ar
 import { LabelledButtonComponent } from './labelled-button/labelled-button.component';
 import {NgVarDirective} from "@root/src/app/ng-var.directive";
 import { InvalidScreenComponent } from './invalid-screen/invalid-screen.component';
+import { ImageComponent } from './image/image.component';
+import { MaterialDescComponent } from './material-desc/material-desc.component';
 
 @NgModule({
   declarations: [
@@ -46,6 +48,8 @@ import { InvalidScreenComponent } from './invalid-screen/invalid-screen.componen
     LabelledButtonComponent,
     NgVarDirective,
     InvalidScreenComponent,
+    ImageComponent,
+    MaterialDescComponent,
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),

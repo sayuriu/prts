@@ -437,6 +437,12 @@ p {
         background: #000;
         padding: 0 0.2ch;
     }
+    &:hover {
+        ak-item-desc {
+            opacity: 1;
+            pointer-events: all;
+        }
+    }
 }
 
 

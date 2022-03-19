@@ -148,7 +148,7 @@
 						background: '#3F3F3F'
 					}"
 					[valueFieldText]="{
-						textValue: currentOperator.description,
+						textValue: currentOpTrait,
 						textSize: '20px',
 						textAlign: 'left',
 						textColor: 'white',
@@ -163,6 +163,12 @@
 			<div id="faction-img" class="fh rel flex a-flex-center">
 				<p id="label" class="abs t0">{{currentOpFaction.powerName}}</p>
                 <img id="op-faction" class="fw" [src]="factionImgURL" alt="">
+<!--                <image-->
+<!--                    class="fw"-->
+<!--                    [url]="'assets/gamedata/img/factions/logo_' + getFactionID() + '.png'"-->
+<!--                    [placeholderURL]="manager.resolveOpImagePath('char_nodata', 'avatars', undefined, true)"-->
+<!--                >-->
+<!--                </image>-->
 				<p id="label" class="abs b0" *ngIf="currentOpNation.powerName !== currentOpFaction.powerName">{{currentOpNation.powerName}}◆</p>
 			</div>
 		</div>
@@ -334,7 +340,7 @@
 				</div>
 				<div id="talent-description" class="flex flex-col">
 					<spacer style="height: 0; width: 0.5px"></spacer>
-					<p><i>{{talent.description}}</i></p>
+					<p><i [innerHTML]="sanitizer.bypassSecurityTrustHtml(opUtils.interpolateRichStyles(talent.description))"></i></p>
 					<spacer style="height: 0; width: 0.5px"></spacer>
 				</div>
 			</div>

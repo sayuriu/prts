@@ -14,6 +14,7 @@ import { OpClass, TermDescription } from '@services/OperatorData/op-utils.servic
 import { LogService } from '@services/log.service';
 
 import { AttackRange } from '@struct/Operator/AttackRange';
+import {ItemMaterial} from "@struct/Item";
 
 export type StatsPropMap = typeof import('@assets/gamedata/json/StatsPropMap.json');
 
@@ -21,6 +22,7 @@ export type ParamDesc = typeof import('@assets/gamedata/json/tl-data/paramDesc.j
 export type ParamSign = typeof import('@assets/gamedata/json/tl-data/paramSign.json');
 
 export type MaterialImgMap = typeof import('@assets/gamedata/json/locales/zh_CN/items/idToImg.json');
+export type MaterialTypeMap = typeof import('@assets/gamedata/json/locales/zh_CN/items/itemToType.json');
 
 export type RichColor_zh_CN = typeof import('@assets/gamedata/json/locales/zh_CN/gamedata-const/richTextStyles.json');
 export type RangeTables_zh_CN = typeof import('@assets/gamedata/json/locales/zh_CN/ranges/allRanges.json');
@@ -91,6 +93,7 @@ export class OperatorDataManagerService {
     private paramSign!: Nullable<ParamSign>;
 	private statPropsMap!: Nullable<StatsPropMap>;
     private matImgIdMap!: Nullable<MaterialImgMap>;
+    private matTypeMap!: Nullable<MaterialTypeMap>;
 
 	readonly imagePath = 'gamedata/img';
 
@@ -135,6 +138,7 @@ export class OperatorDataManagerService {
         void this.loadParamSign();
         void this.loadStatPropsMap();
         void this.loadMatImgIdMap();
+        void this.loadMatTypeMap();
 	}
 
 	private async loadAssets()
@@ -221,6 +225,18 @@ export class OperatorDataManagerService {
             this.matImgIdMap = null;
         }
     }
+    private async loadMatTypeMap()
+    {
+        console.log('Loading mat type map...');
+        try {
+            this.matTypeMap = await import('@assets/gamedata/json/locales/zh_CN/items/itemToType.json').then(getDefault);
+            console.log('Mat type map loaded.');
+        }
+        catch (e) {
+            console.error('Failed to load mat type map!');
+            this.matTypeMap = null;
+        }
+    }
 
 	getCharId(charName: string, preferredLocale = this.locale): [Nullable<string>, Locales]
 	{
@@ -305,6 +321,33 @@ export class OperatorDataManagerService {
             return defaultCharFaction;
         }
 	}
+    resolveItemType(itemId: string)
+    {
+        if (this.matTypeMap && itemId in this.matTypeMap)
+            return this.matTypeMap[itemId as keyof MaterialTypeMap];
+        return null;
+    }
+    async getMaterialData(materialId: string, preferredLocale = this.locale): NullablePromise<ItemMaterial>
+    {
+        const { _base, materials } = Data_JSON;
+        const materialPath = (_base + materials)
+            .replace('{locales}', preferredLocale)
+            .replace('{type}', this.resolveItemType(materialId) ?? '')
+            .replace('{id}', materialId);
+
+        try {
+            return await this.JSONAssets.load(materialPath, {
+                lifetime: 600000,
+                onExpire: (d) => {
+                    console.log('Destroyed', d.id, d);
+                }
+            }) as Nullable<ItemMaterial>;
+        }
+        catch (e) {
+            // console.error(e);
+            return null;
+        }
+    }
     async getTermDescriptionDict(preferredLocale = this.locale): Promise<Record<string, TermDescription>>
     {
         const { _base, term_descriptions } = Data_JSON;
@@ -373,6 +416,10 @@ export class OperatorDataManagerService {
 	{
 		return this.resolveImage(`characters${ex ? '-ex' : ''}/${type}/${charId}${id || ''}.png`);
 	}
+    resolveOpImagePath(charId: string, type: 'avatars' | 'portraits' | 'full', id?: string, ex = false): string
+    {
+        return join(this.imagePath, `characters${ex ? '-ex' : ''}/${type}/${charId}${id || ''}.png`);
+    }
 	async loadFactionImage(faction: string): NullablePromise<Blob>
 	{
 		return this.resolveImage(`factions/logo_${faction}.png`);

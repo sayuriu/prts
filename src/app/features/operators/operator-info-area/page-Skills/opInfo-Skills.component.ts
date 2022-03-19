@@ -48,7 +48,7 @@ implements OnInit, OnChanges, OnDestroy, AfterViewChecked {
         super();
     }
 
-	@Input() currentOperator!: Operator;
+	@Input() currentOperator!: Operator & { id: string };
     @Input() currentOperatorSkills!: Nullable<CharCombatSkill>[];
     @Output() onSkillIndexChange = new EventEmitter<number>();
 
@@ -136,7 +136,9 @@ implements OnInit, OnChanges, OnDestroy, AfterViewChecked {
                     return '{@NO_PROCESS}The wielder has refused to disclose this art.'
                 return currentSkillLevel.description;
             },
-            (skill) => skill?.levels[this.currentCombatSkillLevel.value]?.blackboard ?? [],
+            {
+                blackboardCB: (skill) => skill?.levels[this.currentCombatSkillLevel.value]?.blackboard ?? []
+            },
         ).then(out => {
             this.currentSkillDescriptions = out;
             this.opUtils.updateHoverDescListeners();
@@ -224,5 +226,11 @@ implements OnInit, OnChanges, OnDestroy, AfterViewChecked {
     {
         const { rangeId, blackboard } = this.currentOperatorSkills[skillIndex]!.levels[skillLevel];
         return !!rangeId || !!blackboard.find(x => x.key === 'ability_range_forward_extend');
+    }
+
+    proxy(data: any)
+    {
+       console.log(data);
+       return data;
     }
 }
