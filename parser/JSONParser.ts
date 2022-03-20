@@ -7,7 +7,6 @@ import { Logger } from './utils/Logger';
 import { createIfNotExist, joinPaths } from './utils/PathUtils';
 import { Locales, AvailableLocales } from './struct/Basic';
 import { Operator } from './struct/Operator/Char';
-import { Nullable } from "@utils/utils";
 
 export namespace Src_Gamedata {
 	// -> root/ref/AN-EN-Tags
@@ -21,6 +20,7 @@ export namespace Src_Gamedata {
 		export const ranges = 'range_table.json';
         export const skills = 'skill_table.json';
         export const gamedataConst = 'gamedata_const.json';
+        export const stages = 'stage_table.json';
 	}
 }
 
@@ -57,6 +57,10 @@ export namespace GamedataDestination {
         }
         export const gamedataConst = {
             _base: 'gamedata-const',
+        }
+        export const stages = {
+            _base: 'stages',
+            _link_JSON: 'stageLinkID.json',
         }
 	}
 }
@@ -139,7 +143,7 @@ function parseItem(src: string, dest: string)
 	let FullConcatObj: Record<string, any> = {};
 	const matData: Record<string, any> = {};
 	const matTypes: Record<string, string[]> = {};
-    const matIdToImg: Record<string, { iconId: Nullable<string>, rarity: number }> = {};
+    const matIdToImg: Record<string, { iconId: string | null, rarity: number }> = {};
 	const tracker = new CountTracker();
 	for (const item in list.items)
 	{
@@ -173,6 +177,41 @@ function parseItem(src: string, dest: string)
     writeJSON(joinPaths(dest, _base, idToImg_JSON), matIdToImg);
     Logger.log(null, Logger.green('done'));
 	Logger.info(header, Logger.green('Write complete!'));
+}
+
+function parseStages(src: string, dest: string)
+{
+    const header = 'Stages-' + getLocale(src);
+    const { _base, _link_JSON } = GamedataDestination.DATA.stages;
+    const stages = require(src);
+    createIfNotExist(joinPaths(dest, _base), header);
+    const tracker = new CountTracker();
+    const stageLinkID: Record<string, { [k: string]: string }> = {};
+
+    for (const key in stages)
+    {
+        const isStages = key === 'stages';
+        const data = stages[key];
+        createIfNotExist(joinPaths(dest, _base, isStages ? 'list' : key), header);
+        for (const dataKey in data)
+        {
+            if (isStages)
+            {
+                stageLinkID[dataKey] = {
+                    code: data[dataKey].code,
+                    name: data[dataKey].name,
+                };
+            }
+            writeJSON(
+                joinPaths(dest, _base, isStages ? 'list' : key, `${dataKey}.json`),
+                data[dataKey]
+            );
+            tracker.increment();
+        }
+    }
+    writeJSON(joinPaths(dest, _base, _link_JSON), stageLinkID);
+    Logger.info(header, `${Logger.green(tracker.count)} entries parsed.`);
+    Logger.info(header, Logger.green('Write complete!'));
 }
 
 // function parseMedals(src: string, dest: string)
@@ -233,6 +272,7 @@ export function JSONParse(locale: Locales) {
 	parseRangeData(joinPaths(localePath, Src_Gamedata.DATA.ranges), destinationPath);
     parseCombatSkill(joinPaths(localePath, Src_Gamedata.DATA.skills), destinationPath);
     parseGamedataConst(joinPaths(localePath, Src_Gamedata.DATA.gamedataConst), destinationPath, 'richTextStyles', 'termDescriptionDict');
+    parseStages(joinPaths(localePath, Src_Gamedata.DATA.stages), destinationPath);
 	// parseMedals(joinPaths(localePath, Aceship.DATA.medals), destinationPath);
 	Logger.cout('\n');
 }

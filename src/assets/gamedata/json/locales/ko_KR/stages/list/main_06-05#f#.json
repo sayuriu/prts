@@ -1,0 +1,75 @@
+{
+	"stageType": "MAIN",
+	"difficulty": "FOUR_STAR",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"unlockCondition": [
+		{
+			"stageId": "main_02-08",
+			"completeState": 2
+		},
+		{
+			"stageId": "main_06-05",
+			"completeState": 3
+		}
+	],
+	"stageId": "main_06-05#f#",
+	"levelId": "Obt/Main/level_main_06-05",
+	"zoneId": "main_6",
+	"code": "6-5",
+	"name": "누굴 처리하라고?",
+	"description": "<@lv.fs>제한 조건:</>\n폭주한 적 유닛들이 더 이상 자연적으로 HP를 잃지 않는다.",
+	"hardStagedId": null,
+	"dangerLevel": "-",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_LM_day",
+	"canPractice": true,
+	"canBattleReplay": false,
+	"apCost": 18,
+	"apFailReturn": 9,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 0,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 3,
+	"dailyStageDifficulty": -1,
+	"expGain": 180,
+	"goldGain": 180,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 9,
+	"completeFavor": 18,
+	"slProgress": 0,
+	"displayMainItem": "",
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 0,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 0,
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		]
+	},
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "main_06-05#f#"
+}

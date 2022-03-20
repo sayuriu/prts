@@ -1,0 +1,87 @@
+{
+	"stageType": "ACTIVITY",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"unlockCondition": [
+		{
+			"stageId": "act1lock_c-01",
+			"completeState": 2
+		},
+		{
+			"stageId": "act1lock_a-04",
+			"completeState": 2
+		}
+	],
+	"stageId": "act1lock_b-04",
+	"levelId": "Activities/ACT1LOCK/level_act1lock_b-04",
+	"zoneId": "act1lock_zone1",
+	"code": "LK-DP-D",
+	"name": "白昼之地-坚守",
+	"description": "“从这里看，荷谟伊地区的景色应该很不错。如果不是感染者，能趁最后一日的休假时间爬上山去看看全景该多好啊。”\\n<@lv.item><源石冰晶></>周期性地释放对我方单位施加【寒冷】的范围性寒流\\n<@lv.item><障碍物></>部署以后可以阻挡敌人的行进路线\\n\\n<@tu.ht>驻守效果：<荷谟伊勇士>将前往黄昏秘境</>",
+	"hardStagedId": null,
+	"dangerLevel": "-",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_interlock",
+	"canPractice": false,
+	"canBattleReplay": false,
+	"apCost": 0,
+	"apFailReturn": 0,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": -1,
+	"dailyStageDifficulty": 0,
+	"expGain": 0,
+	"goldGain": 0,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 0,
+	"completeFavor": 0,
+	"slProgress": 0,
+	"displayMainItem": null,
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 0,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act1lock_point_reward",
+				"dropType": 8
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 0,
+				"type": "ACTIVITY_ITEM",
+				"id": "act1lock_point_reward",
+				"dropType": 8
+			},
+			{
+				"occPercent": 0,
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		]
+	},
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "act1lock_a-01"
+}

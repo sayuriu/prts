@@ -1,0 +1,82 @@
+{
+	"stageType": "ACTIVITY",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"unlockCondition": [
+		{
+			"stageId": "act13d5_ex07",
+			"completeState": 2
+		}
+	],
+	"stageId": "act13d5_ex08",
+	"levelId": "Activities/ACT13D5/level_act13d5_ex08",
+	"zoneId": "act13d5_zone2",
+	"code": "MN-EX-8",
+	"name": "오래된 대결",
+	"description": "일부 경기장에 남아있는 옛 경기장. 옛 기사 경기의 결투를 재현한다. 상대는 욕망과 도시가 만들어낸 괴물이다. 영광, 영광은 이미 오래전에 사라졌다.\n<@lv.item><치료 룬></> 배치된 오퍼레이터는 계속해서 생명력 회복\n<@lv.rem>어떤 오퍼레이터든 자유로운 위치에 배치 가능</>",
+	"hardStagedId": "act13d5_ex08#f#",
+	"dangerLevel": "2차 정예화 Lv.30",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_Kazimierz_Final",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 20,
+	"apFailReturn": 19,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": 0,
+	"expGain": 200,
+	"goldGain": 200,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 19,
+	"completeFavor": 20,
+	"slProgress": 0,
+	"displayMainItem": null,
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 0,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act13d5_token_securities",
+				"dropType": 8
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 0,
+				"type": "ACTIVITY_ITEM",
+				"id": "act13d5_token_securities",
+				"dropType": 8
+			},
+			{
+				"occPercent": 0,
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		]
+	},
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "act13d5_ex01"
+}

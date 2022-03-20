@@ -1,0 +1,104 @@
+{
+	"stageType": "ACTIVITY",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"unlockCondition": [
+		{
+			"stageId": "act15d0_05",
+			"completeState": 2
+		}
+	],
+	"stageId": "act15d0_06",
+	"levelId": "Activities/ACT15D0/level_act15d0_06",
+	"zoneId": "act15d0_zone1",
+	"code": "MB-6",
+	"name": "계획 세우기",
+	"description": "좋은 계획은 90%의 리스크를 근심하고, 나머지 10%의 변수를 위해 준비해야 한다.\n<@lv.item><구속 장치></> 범위 내 해방된 적 구속",
+	"hardStagedId": null,
+	"dangerLevel": "1차 정예화 Lv.50",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_Columbia_center",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 15,
+	"apFailReturn": 14,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": 0,
+	"expGain": 150,
+	"goldGain": 150,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 14,
+	"completeFavor": 15,
+	"slProgress": 0,
+	"displayMainItem": null,
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 0,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act15d0_token_ironSheet",
+				"dropType": 8
+			},
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act15d0_token_ironSheet",
+				"dropType": 2
+			},
+			{
+				"type": "MATERIAL",
+				"id": "30023",
+				"dropType": 2
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 0,
+				"type": "ACTIVITY_ITEM",
+				"id": "act15d0_token_ironSheet",
+				"dropType": 8
+			},
+			{
+				"occPercent": 0,
+				"type": "ACTIVITY_ITEM",
+				"id": "act15d0_token_ironSheet",
+				"dropType": 2
+			},
+			{
+				"occPercent": 2,
+				"type": "MATERIAL",
+				"id": "30023",
+				"dropType": 2
+			},
+			{
+				"occPercent": 0,
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		]
+	},
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "act15d0_01"
+}

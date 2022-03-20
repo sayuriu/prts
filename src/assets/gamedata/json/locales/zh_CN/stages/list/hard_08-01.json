@@ -1,0 +1,72 @@
+{
+	"stageType": "SUB",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"unlockCondition": [
+		{
+			"stageId": "main_08-17",
+			"completeState": 2
+		}
+	],
+	"stageId": "hard_08-01",
+	"levelId": "Obt/Hard/level_hard_08-01",
+	"zoneId": "main_8",
+	"code": "H8-1",
+	"name": "狂夜行动-1",
+	"description": "生命可贵却脆弱。\\n<@lv.item><道路障碍物></>可以阻挡乌萨斯平民与斗士塔露拉前进，可被我方单位击毁\\n<@lv.item><乌萨斯平民></>被敌人击杀时扣除关卡生命值",
+	"hardStagedId": null,
+	"dangerLevel": "-",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_iceforest_2",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 10,
+	"apFailReturn": 5,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": -1,
+	"expGain": 100,
+	"goldGain": 100,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 5,
+	"completeFavor": 10,
+	"slProgress": 0,
+	"displayMainItem": "",
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 4,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 0,
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		]
+	},
+	"startButtonOverrideId": "HIGH_DIFFICULTY",
+	"isStagePatch": false,
+	"mainStageId": "main_08-17"
+}

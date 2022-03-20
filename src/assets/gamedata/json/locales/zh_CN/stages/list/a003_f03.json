@@ -1,0 +1,94 @@
+{
+	"stageType": "ACTIVITY",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"unlockCondition": [
+		{
+			"stageId": "a003_06",
+			"completeState": 2
+		}
+	],
+	"stageId": "a003_f03",
+	"levelId": "Activities/ACT3D0/level_act3d0_f03",
+	"zoneId": "act11d7_zone2",
+	"code": "OF-F3",
+	"name": "旋转木马",
+	"description": "守住这里！守住这里干什么？我怎么知道。",
+	"hardStagedId": null,
+	"dangerLevel": "精英1 LV.30",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_Obsidian_Wild",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": -1,
+	"apFailReturn": -1,
+	"etItemId": "et_ObsidianPass_rep_1",
+	"etCost": 15,
+	"etFailReturn": 14,
+	"etButtonStyle": "act11d7",
+	"apProtectTimes": 0,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": 0,
+	"expGain": 0,
+	"goldGain": 0,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 0,
+	"completeFavor": 0,
+	"slProgress": 0,
+	"displayMainItem": null,
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 0,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "token_ObsidianCoin_rep_1",
+				"dropType": 8
+			},
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "token_ObsidianCoin_rep_1",
+				"dropType": 3
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 0,
+				"type": "ACTIVITY_ITEM",
+				"id": "token_ObsidianCoin_rep_1",
+				"dropType": 8
+			},
+			{
+				"occPercent": 0,
+				"type": "ACTIVITY_ITEM",
+				"id": "token_ObsidianCoin_rep_1",
+				"dropType": 3
+			},
+			{
+				"occPercent": 0,
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		]
+	},
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "a003_f01"
+}

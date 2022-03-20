@@ -1,0 +1,82 @@
+{
+	"stageType": "ACTIVITY",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"unlockCondition": [
+		{
+			"stageId": "act17d0_ex05",
+			"completeState": 2
+		}
+	],
+	"stageId": "act17d0_ex06",
+	"levelId": "Activities/act17d0/level_act17d0_ex06",
+	"zoneId": "act17d0_zone2",
+	"code": "OD-EX-6",
+	"name": "待ち伏せ対策",
+	"description": "「逆に、敵が有利な地形を占領した場合、我々は大きな劣勢のもとで戦うこととなる。その際には、冷静に情況を分析し、敵の戦術のほころびを突かねばならない」\n<@lv.item><砂嵐></>砂嵐の中に晒された味方は攻撃力が低下し、HPが減少し続け、再配置時間が上昇する。砂嵐中の敵の移動速度が低下する。",
+	"hardStagedId": "act17d0_ex06#f#",
+	"dangerLevel": "昇進2 LV.20",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_OOD_02",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 15,
+	"apFailReturn": 14,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": 0,
+	"expGain": 150,
+	"goldGain": 150,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 14,
+	"completeFavor": 15,
+	"slProgress": 0,
+	"displayMainItem": null,
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 0,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act17d0_token_form",
+				"dropType": 8
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 0,
+				"type": "ACTIVITY_ITEM",
+				"id": "act17d0_token_form",
+				"dropType": 8
+			},
+			{
+				"occPercent": 0,
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		]
+	},
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "act17d0_ex01"
+}

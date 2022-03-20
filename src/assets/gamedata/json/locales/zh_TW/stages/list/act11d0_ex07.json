@@ -1,0 +1,82 @@
+{
+	"stageType": "ACTIVITY",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"unlockCondition": [
+		{
+			"stageId": "act11d0_ex06",
+			"completeState": 2
+		}
+	],
+	"stageId": "act11d0_ex07",
+	"levelId": "Activities/ACT11D0/level_act11d0_ex07",
+	"zoneId": "act11d0_zone2",
+	"code": "TW-EX-7",
+	"name": "分別計算",
+	"description": "泥岩沒法同時給那麼多造物規劃好行動路徑，它們也不具備自己判斷的智慧，給它們一點小難題，泥岩顧不過來的。\n<@lv.item><\"留聲機\"></>我方與敵方可奪取控制權，啟動後對敵方造成法術傷害，並可治療友方單位\n<@lv.item><障礙物></>部署以後可以阻擋敵人的行進路線",
+	"hardStagedId": "act11d0_ex07#f#",
+	"dangerLevel": "精英2 LV.25",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_Wolumonde",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 20,
+	"apFailReturn": 19,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": 0,
+	"expGain": 200,
+	"goldGain": 200,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 19,
+	"completeFavor": 20,
+	"slProgress": 0,
+	"displayMainItem": null,
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 0,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act11d0_token_currency",
+				"dropType": 8
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 0,
+				"type": "ACTIVITY_ITEM",
+				"id": "act11d0_token_currency",
+				"dropType": 8
+			},
+			{
+				"occPercent": 0,
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		]
+	},
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "act11d0_ex01"
+}

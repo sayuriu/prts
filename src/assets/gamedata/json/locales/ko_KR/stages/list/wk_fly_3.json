@@ -1,0 +1,93 @@
+{
+	"stageType": "DAILY",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"unlockCondition": [
+		{
+			"stageId": "wk_fly_2",
+			"completeState": 2
+		}
+	],
+	"stageId": "wk_fly_3",
+	"levelId": "Obt/Weekly/level_weekly_fly_3",
+	"zoneId": "weekly_6",
+	"code": "CA-3",
+	"name": "순찰로 정리",
+	"description": "적 공군 부대에 맞서라.\n<@lv.rem>본 작전에선 근거리 공격 오퍼레이터 사용 불가</>",
+	"hardStagedId": null,
+	"dangerLevel": "LV.40",
+	"dangerPoint": -1,
+	"loadingPicId": "loading2",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 20,
+	"apFailReturn": 19,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": 3,
+	"expGain": 200,
+	"goldGain": 200,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 10,
+	"completeFavor": 20,
+	"slProgress": 0,
+	"displayMainItem": "3302",
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 0,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "MATERIAL",
+				"id": "3302",
+				"dropType": 2
+			},
+			{
+				"type": "MATERIAL",
+				"id": "3301",
+				"dropType": 2
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 0,
+				"type": "MATERIAL",
+				"id": "3302",
+				"dropType": 2
+			},
+			{
+				"occPercent": 0,
+				"type": "MATERIAL",
+				"id": "3301",
+				"dropType": 2
+			},
+			{
+				"occPercent": 0,
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		]
+	},
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": null
+}

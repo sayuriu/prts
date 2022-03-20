@@ -1,0 +1,100 @@
+{
+	"stageType": "MAIN",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"unlockCondition": [
+		{
+			"stageId": "main_07-15",
+			"completeState": 2
+		}
+	],
+	"stageId": "main_07-16",
+	"levelId": "Obt/Main/level_main_07-16",
+	"zoneId": "main_7",
+	"code": "7-18",
+	"name": "爱国者之死",
+	"description": "感染者游击队“盾”的指挥官。萨卡兹勇士中古老至极的血脉。乌萨斯最壮毅的战争化身。整合运动的脊骨。叶莲娜之父。 \\n<@lv.item><源石祭坛></>周期性向四周释放气体，对我军与敌军造成伤害\\n<@lv.item><干扰地雷></>爆炸时可使四周的所有敌人造成大量伤害并使其15秒内受到的伤害增加",
+	"hardStagedId": "main_07-16#f#",
+	"dangerLevel": "精英2 LV.30",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_CB_under",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 21,
+	"apFailReturn": 20,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": -1,
+	"expGain": 210,
+	"goldGain": 210,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 20,
+	"completeFavor": 21,
+	"slProgress": 133,
+	"displayMainItem": "30043",
+	"hilightMark": true,
+	"bossMark": true,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 0,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "CHAR",
+				"id": "char_002_amiya",
+				"dropType": 1
+			},
+			{
+				"type": "MATERIAL",
+				"id": "30043",
+				"dropType": 2
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 0,
+				"type": "CHAR",
+				"id": "char_002_amiya",
+				"dropType": 1
+			},
+			{
+				"occPercent": 3,
+				"type": "MATERIAL",
+				"id": "30043",
+				"dropType": 2
+			},
+			{
+				"occPercent": 2,
+				"type": "MATERIAL",
+				"id": "30052",
+				"dropType": 2
+			},
+			{
+				"occPercent": 0,
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		]
+	},
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "main_07-16"
+}

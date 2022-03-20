@@ -1,0 +1,126 @@
+{
+	"stageType": "ACTIVITY",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"unlockCondition": [
+		{
+			"stageId": "act13d5_02",
+			"completeState": 2
+		}
+	],
+	"stageId": "act13d5_03",
+	"levelId": "Activities/ACT13D5/level_act13d5_03",
+	"zoneId": "act13d5_zone1",
+	"code": "MN-3",
+	"name": "로즈 미디어 그룹",
+	"description": "로즈 미디어 그룹, 172개의 전문 매체, 새로운 도시 간 네트워크 포털 사업, 당신을 위한 세상으로 통하는 창.\n<@lv.item><치료 룬></>배치된 오퍼레이터는 계속해서 생명력 회복\n<@lv.item><활성 오리지늄></> 배치된 아군 오퍼레이터 및 통과하는 적은 지속적으로 대미지를 입지만, 공격력과 공격 속도가 대폭 상승",
+	"hardStagedId": null,
+	"dangerLevel": "1차 정예화 Lv.20",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_Kazimierz_Trial",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 12,
+	"apFailReturn": 11,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": 0,
+	"expGain": 120,
+	"goldGain": 120,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 11,
+	"completeFavor": 12,
+	"slProgress": 0,
+	"displayMainItem": null,
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 0,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "FURN",
+				"id": "furni_fNearl_cabinet_H_01",
+				"dropType": 8
+			},
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act13d5_token_securities",
+				"dropType": 8
+			},
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act13d5_token_securities",
+				"dropType": 2
+			},
+			{
+				"type": "MATERIAL",
+				"id": "30052",
+				"dropType": 2
+			},
+			{
+				"type": "MATERIAL",
+				"id": "30031",
+				"dropType": 2
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 0,
+				"type": "FURN",
+				"id": "furni_fNearl_cabinet_H_01",
+				"dropType": 8
+			},
+			{
+				"occPercent": 0,
+				"type": "ACTIVITY_ITEM",
+				"id": "act13d5_token_securities",
+				"dropType": 8
+			},
+			{
+				"occPercent": 0,
+				"type": "ACTIVITY_ITEM",
+				"id": "act13d5_token_securities",
+				"dropType": 2
+			},
+			{
+				"occPercent": 1,
+				"type": "MATERIAL",
+				"id": "30052",
+				"dropType": 2
+			},
+			{
+				"occPercent": 0,
+				"type": "MATERIAL",
+				"id": "30031",
+				"dropType": 2
+			},
+			{
+				"occPercent": 0,
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		]
+	},
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "act13d5_st01"
+}

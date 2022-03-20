@@ -7,14 +7,23 @@ import { CharCombatSkill } from '@struct/Operator/DetailedSkill';
 import { CharTrustAttributes } from '@struct/Operator/CharTrustData';
 import { Locales } from '@struct/Basic';
 import { join } from '@utils/PathUtils';
-import { arrayAtMany, emptyFunc, ExcludeProp, getDefault, Nullable, NullablePromise, Optional } from '@utils/utils';
+import {
+    arrayAtMany,
+    emptyFunc,
+    ExcludeProp,
+    getDefault,
+    Nullable,
+    NullablePromise,
+    NullableRecord,
+    Optional
+} from '@utils/utils';
 import { ImageDataService } from '@services/image-data.service';
 import { JSONLoadService } from '@services/OperatorData/jsonload.service';
 import { OpClass, TermDescription } from '@services/OperatorData/op-utils.service';
 import { LogService } from '@services/log.service';
 
 import { AttackRange } from '@struct/Operator/AttackRange';
-import {ItemMaterial} from "@struct/Item";
+import { ItemMaterial } from "@struct/Item";
 
 export type StatsPropMap = typeof import('@assets/gamedata/json/StatsPropMap.json');
 
@@ -61,6 +70,8 @@ const Data_JSON = {
     term_descriptions: 'gamedata-const/termDescriptionDict.json',
 
 	teams: 'teams/{id}.json',
+
+    stage_overview: 'stages/stageLinkID.json',
 
 	//* This can be used for later, but not needed for now.
 	// medals: 'medals/list/{types}/{id}.json',
@@ -238,6 +249,28 @@ export class OperatorDataManagerService {
         }
     }
 
+    stages: NullableRecord<string, Record<string, { code: string, name: string }>> = {};
+    async prefetchStages(preferredLocale: Locales = this.locale)
+    {
+        const { _base, stage_overview } = Data_JSON;
+        this.stages[preferredLocale] = await this.JSONAssets.load(
+            join(_base, stage_overview).replace('{locale}', preferredLocale),
+            {
+                lifetime: Number.MAX_SAFE_INTEGER,
+                onExpire: emptyFunc
+            }
+        ) as Nullable<Record<string, { code: string, name: string }>>;
+    }
+    getStageIdName(stageId: string, preferredLocale: Locales = this.locale)
+    {
+        if (this.stages[preferredLocale])
+            return this.stages[preferredLocale]![stageId];
+        void this.prefetchStages(preferredLocale);
+        return {
+            code: 'unknown',
+            name: 'Unknown',
+        }
+    }
 	getCharId(charName: string, preferredLocale = this.locale): [Nullable<string>, Locales]
 	{
         //TODO

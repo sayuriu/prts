@@ -1,0 +1,105 @@
+{
+	"stageType": "ACTIVITY",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"unlockCondition": [
+		{
+			"stageId": "act12side_01",
+			"completeState": 2
+		}
+	],
+	"stageId": "act12side_02",
+	"levelId": "Activities/ACT12SIDE/level_act12side_02",
+	"zoneId": "act12side_zone1",
+	"code": "DH-2",
+	"name": "First Round",
+	"description": "Ch'en's opponents are not those surrounding her, but the unfamiliar weapon in her hand and her uncooperative teammates. \n<@lv.item><High Tide></> Unable to deploy on flooded tiles. Allied units and enemies in the water will be affected by 'Erosion': Allied units have reduced ASPD, continually receive Corrosion Damage and receive additional Corrosion Damage when attacked; Enemies have reduced ASPD and Movement Speed, and continually lose HP",
+	"hardStagedId": null,
+	"dangerLevel": "LV.40",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_Bolivar_sea",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 9,
+	"apFailReturn": 8,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": 0,
+	"expGain": 90,
+	"goldGain": 90,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 8,
+	"completeFavor": 9,
+	"slProgress": 0,
+	"displayMainItem": null,
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 0,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "FURN",
+				"id": "furni_westCoast_fireplace_01",
+				"dropType": 8
+			},
+			{
+				"type": "CHARM",
+				"id": "charm_coin_1",
+				"dropType": 8
+			},
+			{
+				"type": "CHARM",
+				"id": "charm_coin_1",
+				"dropType": 2
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 0,
+				"type": "FURN",
+				"id": "furni_westCoast_fireplace_01",
+				"dropType": 8
+			},
+			{
+				"occPercent": 0,
+				"type": "CHARM",
+				"id": "charm_coin_1",
+				"dropType": 8
+			},
+			{
+				"occPercent": 0,
+				"type": "CHARM",
+				"id": "charm_coin_1",
+				"dropType": 2
+			},
+			{
+				"occPercent": 0,
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		]
+	},
+	"canUseCharm": true,
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "act12side_st01"
+}

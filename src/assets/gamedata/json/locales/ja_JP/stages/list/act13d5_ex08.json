@@ -1,0 +1,82 @@
+{
+	"stageType": "ACTIVITY",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"unlockCondition": [
+		{
+			"stageId": "act13d5_ex07",
+			"completeState": 2
+		}
+	],
+	"stageId": "act13d5_ex08",
+	"levelId": "Activities/ACT13D5/level_act13d5_ex08",
+	"zoneId": "act13d5_zone2",
+	"code": "MN-EX-8",
+	"name": "古の対決",
+	"description": "この競技場は古の戦場をそのまま採用しており、古くから伝わる決闘方式の試合が期待される。しかし今回の相手は、欲望の都市が造り出した怪物だった。栄光など、とうの昔に潰えた。\n<@lv.item><回復エリア></>配置した味方のHPが徐々に回復する。\n<@lv.rem>本作戦ではオペレーターは遠近の制限を受けず自由な位置に配置可能。</>",
+	"hardStagedId": "act13d5_ex08#f#",
+	"dangerLevel": "昇進2 LV.30",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_Kazimierz_Final",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 20,
+	"apFailReturn": 19,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": 0,
+	"expGain": 200,
+	"goldGain": 200,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 19,
+	"completeFavor": 20,
+	"slProgress": 0,
+	"displayMainItem": null,
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 0,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act13d5_token_securities",
+				"dropType": 8
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 0,
+				"type": "ACTIVITY_ITEM",
+				"id": "act13d5_token_securities",
+				"dropType": 8
+			},
+			{
+				"occPercent": 0,
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		]
+	},
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "act13d5_ex01"
+}

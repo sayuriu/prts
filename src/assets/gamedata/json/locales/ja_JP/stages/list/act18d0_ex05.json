@@ -1,0 +1,82 @@
+{
+	"stageType": "ACTIVITY",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"unlockCondition": [
+		{
+			"stageId": "act18d0_ex04",
+			"completeState": 2
+		}
+	],
+	"stageId": "act18d0_ex05",
+	"levelId": "Activities/act18d0/level_act18d0_ex05",
+	"zoneId": "act18d0_zone2",
+	"code": "WD-EX-5",
+	"name": "十字砲火支援",
+	"description": "戦場は地形が複雑だ。十字砲火に晒された戦況ならば、よく訓練された……あの……隣にいる敵が見えないのか？一番遠い標的を狙わずにはいられないのか？\n<@lv.item><可動式戦術格納庫></>必要に応じて随時ドローンを射出し、敵傭兵チームの作戦支援を行える",
+	"hardStagedId": "act18d0_ex05#f#",
+	"dangerLevel": "昇進2 LV.10",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_OOD_02",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 15,
+	"apFailReturn": 14,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": 0,
+	"expGain": 150,
+	"goldGain": 150,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 14,
+	"completeFavor": 15,
+	"slProgress": 0,
+	"displayMainItem": null,
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 0,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act18d0_token_page",
+				"dropType": 8
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 0,
+				"type": "ACTIVITY_ITEM",
+				"id": "act18d0_token_page",
+				"dropType": 8
+			},
+			{
+				"occPercent": 0,
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		]
+	},
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "act18d0_ex01"
+}

@@ -1,0 +1,105 @@
+{
+	"stageType": "ACTIVITY",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"unlockCondition": [
+		{
+			"stageId": "act12side_tr01",
+			"completeState": 2
+		}
+	],
+	"stageId": "act12side_01",
+	"levelId": "Activities/ACT12SIDE/level_act12side_01",
+	"zoneId": "act12side_zone1",
+	"code": "DH-1",
+	"name": "思いがけぬ参戦",
+	"description": "チェンは、いずれ何らかの事情によりリン・ユーシャと合うだろうと予想していたが、ここまで早いとも、こういう形でとも思っていなかった。\n<@lv.item><満ち潮></>海水に沈んだマスへの配置不可。海水に浸かったユニットは敵味方関係なく【水蝕】状態になる。味方は攻撃速度が低下し、侵蝕ダメージを受け続けると共に、攻撃された際さらに侵蝕ダメージを受ける。敵は攻撃速度と移動速度が低下し、HPが減少し続ける",
+	"hardStagedId": null,
+	"dangerLevel": "LV.20",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_Bolivar_sea",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 9,
+	"apFailReturn": 8,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": 0,
+	"expGain": 90,
+	"goldGain": 90,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 8,
+	"completeFavor": 9,
+	"slProgress": 0,
+	"displayMainItem": null,
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 0,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "FURN",
+				"id": "furni_westCoast_bed_01",
+				"dropType": 8
+			},
+			{
+				"type": "CHARM",
+				"id": "charm_coin_1",
+				"dropType": 8
+			},
+			{
+				"type": "CHARM",
+				"id": "charm_coin_1",
+				"dropType": 2
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 0,
+				"type": "FURN",
+				"id": "furni_westCoast_bed_01",
+				"dropType": 8
+			},
+			{
+				"occPercent": 0,
+				"type": "CHARM",
+				"id": "charm_coin_1",
+				"dropType": 8
+			},
+			{
+				"occPercent": 0,
+				"type": "CHARM",
+				"id": "charm_coin_1",
+				"dropType": 2
+			},
+			{
+				"occPercent": 0,
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		]
+	},
+	"canUseCharm": true,
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "act12side_st01"
+}

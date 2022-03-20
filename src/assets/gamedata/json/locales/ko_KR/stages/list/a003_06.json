@@ -1,0 +1,104 @@
+{
+	"stageType": "ACTIVITY",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"unlockCondition": [
+		{
+			"stageId": "a003_05",
+			"completeState": 2
+		}
+	],
+	"stageId": "a003_06",
+	"levelId": "Activities/ACT3D0/level_act3d0_06",
+	"zoneId": "act11d7_zone1",
+	"code": "OF-6",
+	"name": "킬러 퀸",
+	"description": "진정한 악역은 항상 가장 좋지 않을 때 등장한다…… 물론, 그들에겐 가장 좋을 때겠지만.\n<@lv.rem>일부 등장 캐릭터 사용 불가</>",
+	"hardStagedId": null,
+	"dangerLevel": "1차 정예화 Lv.15",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_Obsidian_Wild",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 28,
+	"apFailReturn": 27,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": 0,
+	"expGain": 280,
+	"goldGain": 280,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 27,
+	"completeFavor": 28,
+	"slProgress": 0,
+	"displayMainItem": null,
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 0,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "FURN",
+				"id": "furni_guitar_carpet_01",
+				"dropType": 8
+			},
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "token_Obsidian_rep_1",
+				"dropType": 3
+			},
+			{
+				"type": "ET_STAGE",
+				"id": "et_ObsidianPass_rep_1",
+				"dropType": 3
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 0,
+				"type": "FURN",
+				"id": "furni_guitar_carpet_01",
+				"dropType": 8
+			},
+			{
+				"occPercent": 0,
+				"type": "ACTIVITY_ITEM",
+				"id": "token_Obsidian_rep_1",
+				"dropType": 3
+			},
+			{
+				"occPercent": 0,
+				"type": "ET_STAGE",
+				"id": "et_ObsidianPass_rep_1",
+				"dropType": 3
+			},
+			{
+				"occPercent": 0,
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		]
+	},
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "a003_st01"
+}

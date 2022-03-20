@@ -111,7 +111,7 @@ export class OperatorInfoAreaComponent implements OnInit, OnChanges
 			this.menuVisible = true;
 			this.pagesVisible = true;
 			await waitAsync(600);
-			this.setMenuIndex(1);
+			this.setMenuIndex(0);
             this.opUtils.updateHoverDescListeners();
 		});
 	}

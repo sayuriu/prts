@@ -1,0 +1,83 @@
+{
+	"stageType": "ACTIVITY",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"unlockCondition": [
+		{
+			"stageId": "act12side_ex06",
+			"completeState": 2
+		}
+	],
+	"stageId": "act12side_ex07",
+	"levelId": "Activities/ACT12SIDE/level_act12side_ex07",
+	"zoneId": "act12side_zone2",
+	"code": "DH-EX-7",
+	"name": "ウェーブプール",
+	"description": "ウォーターパークでも事件を起こそうとした不届き者がいた。彼らは小型遊覧船を奪おうとしたが、残念ながら乗客の中にはスワイヤーお嬢様がいる。\n<@lv.item><深水区域></>配置不可。敵の攻撃速度と移動速度が低下し、HPが減少し続ける\n<@lv.item><特設ボート></>深水区域に設置することが可能。設置したマスにユニットを配置することができる。配置したユニットが撤退する時に破壊される",
+	"hardStagedId": "act12side_ex07#f#",
+	"dangerLevel": "昇進2 LV.25",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_Bolivar_sea",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 20,
+	"apFailReturn": 19,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": 0,
+	"expGain": 200,
+	"goldGain": 200,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 19,
+	"completeFavor": 20,
+	"slProgress": 0,
+	"displayMainItem": null,
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 0,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "CHARM",
+				"id": "charm_coin_3",
+				"dropType": 8
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 0,
+				"type": "CHARM",
+				"id": "charm_coin_3",
+				"dropType": 8
+			},
+			{
+				"occPercent": 0,
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		]
+	},
+	"canUseCharm": true,
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "act12side_ex01"
+}

@@ -1,0 +1,83 @@
+{
+	"stageType": "ACTIVITY",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"unlockCondition": [
+		{
+			"stageId": "act12side_09",
+			"completeState": 2
+		}
+	],
+	"stageId": "act12side_mo01",
+	"levelId": "Activities/ACT12SIDE/level_act12side_mo01",
+	"zoneId": "act12side_zone3",
+	"code": "DH-MO-1",
+	"name": "도솔레스 북부 교외",
+	"description": "도솔레스의 떠들썩한 중심가에서 멀리 떨어진 지역으로, 판초의 강경파 부하들이 도사리고 있다. 일렁이는 파도 속에서 녀석들을 격파할 방법을 찾아라.\n<@lv.item><밀물></> 침수된 지역에 배치할 수 없으며 적군과 아군 모두 '수식' 상태에 빠진다. 수식: 아군의 공격 속도 저하, 지속적인 침식 피해를 입으며, 피격 시 침식 피해를 추가로 입는다. 적군의 공격 속도 및 이동 속도 저하, 지속해서 HP를 잃는다",
+	"hardStagedId": null,
+	"dangerLevel": "-",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_Bolivar_sea",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 0,
+	"apFailReturn": 0,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 0,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 0,
+	"dailyStageDifficulty": 0,
+	"expGain": 0,
+	"goldGain": 0,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 0,
+	"completeFavor": 0,
+	"slProgress": 0,
+	"displayMainItem": null,
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 5,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "CHARM",
+				"id": "charm_coin_3",
+				"dropType": 8
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 0,
+				"type": "CHARM",
+				"id": "charm_coin_3",
+				"dropType": 8
+			},
+			{
+				"occPercent": 0,
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		]
+	},
+	"canUseCharm": true,
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "act12side_s01"
+}

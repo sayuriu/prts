@@ -1,13 +1,37 @@
-<button class="mat-desc-container no-border" [ngClass]="{ expanded }" (click)="toggleExpand()">
+<button class="mat-desc-container no-border overflow-hidden"
+        *ngVar="(withinButton ? 2 : 6) as minLength"
+        [ngClass]="{ expanded }"
+        (click)="toggleExpand()"
+        [style.width]="(expanded && item) ? (limitWidth ?? '540px') : ('calc(140px + ' + (item!.name.length - minLength > 0 ? (item!.name.length - minLength) : 0)  + 'ch)')"
+        (mouseenter)="onMouseEnter()"
+        (mouseleave)="onMouseLeave()"
+>
     <p *ngIf="!item">Loading...</p>
-    <div *ngIf="item" class="flex flex-col">
+    <div *ngIf="item" class="flex flex-col fh rel">
+        <div class="mat-desc-item-img abs o0" [style.background-image]="'url(' + manager.getMatImg(itemId)[0] + ')'"></div>
         <div class="mat-desc-title flex">
-            <p class="name">{{item.name}}</p>
-            <div class="id"><p>{{item.itemId}}</p></div>
+            <p class="name flex-grow-1">{{item.name}}</p>
+            <div class="id overflow-hidden flex"><p>{{(item.rarity + 1) + '⭐' + resolveMatType()}}</p><p>{{item.itemId}}</p></div>
         </div>
-        <div class="mat-desc-content">
-            <p>{{item.description}}</p>
+        <div class="mat-desc-content h-infer overflow-hidden o0 flex flex-col">
+            <p class="mat-desc-description scrollbar-std flex-grow-1 o0" [ngClass]="overflowShown ? 'overflow-y-auto' : 'overflow-hidden'"><i>{{item.description ? ('\u0022' + item.description + '\u0022') : 'Unfortunately, the nature of this item is not yet in PRTS database.'}}</i></p>
+            <div class="mat-desc-obtain-approach o0" *ngIf="item.buildingProductList.length || item.stageDropList.length">
+                <p>How to obtain</p>
+                <div
+                    class="mat-desc-obtain-approach-list scrollbar-std fw"
+                    [style.overflow-y]="overflowShown ? 'auto' : 'hidden'"
+                >
+                    <div class="fw flex j-flex-space-between" *ngFor="let stageData of item.stageDropList ?? []">
+                        <p *ngVar="manager.getStageIdName(stageData.stageId) as stageName">{{stageName.code}} <span>&quot;{{stageName.name}}&quot;</span></p>
+                        <p>{{stageData.occPer}}</p>
+                    </div>
+                    <div class="fw flex j-flex-space-between" *ngFor="let buildProductData of item.buildingProductList ?? []">
+                        <p>{{buildProductData.roomType}}</p>
+                        <p>{{buildProductData.formulaId}}</p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="mat-desc-footer fw"><p><i>Click to {{expanded ? 'collapse' : 'expand'}}</i></p></div>
+        <div class="mat-desc-footer fw"><p><i>{{getAction()}} to {{getExpand()}}</i></p></div>
     </div>
 </button>

@@ -1,0 +1,82 @@
+{
+	"stageType": "ACTIVITY",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"unlockCondition": [
+		{
+			"stageId": "act13d5_ex04",
+			"completeState": 2
+		}
+	],
+	"stageId": "act13d5_ex05",
+	"levelId": "Activities/ACT13D5/level_act13d5_ex05",
+	"zoneId": "act13d5_zone2",
+	"code": "MN-EX-5",
+	"name": "Silent Chorus",
+	"description": "Some arenas have 'Gramophone' devices installed, but end up never using them. During the match with the Left-handed Knight, the Candle Knight extinguished all Arts in the arena simply by raising her hand. Beneath the darkened sky, only her candlelight continued to shine brightly. \n<@lv.item><'Gramophone'></>Both allied and enemy units will fight for control over this device; When activated, deals Arts damage to enemies and heals allies.",
+	"hardStagedId": "act13d5_ex05#f#",
+	"dangerLevel": "Elite 2 Lv. 10",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_Kazimierz_Final",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 15,
+	"apFailReturn": 14,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": 0,
+	"expGain": 150,
+	"goldGain": 150,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 14,
+	"completeFavor": 15,
+	"slProgress": 0,
+	"displayMainItem": null,
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 0,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act13d5_token_securities",
+				"dropType": 8
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 0,
+				"type": "ACTIVITY_ITEM",
+				"id": "act13d5_token_securities",
+				"dropType": 8
+			},
+			{
+				"occPercent": 0,
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		]
+	},
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "act13d5_ex01"
+}

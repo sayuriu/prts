@@ -1,0 +1,88 @@
+{
+	"stageType": "MAIN",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"unlockCondition": [
+		{
+			"stageId": "main_05-09",
+			"completeState": 2
+		}
+	],
+	"stageId": "main_05-10",
+	"levelId": "Obt/Main/level_main_05-10",
+	"zoneId": "main_5",
+	"code": "5-10",
+	"name": "長夜終盡",
+	"description": "我們已深入敵方的陣地，已經沒有退路。運用你的戰術頭腦，從梅菲斯特和浮士德的交叉火力中殺出一條血路！\n<@lv.item><弩炮台></>會定期射出弩箭對我方單位造成物理傷害",
+	"hardStagedId": "main_05-10#f#",
+	"dangerLevel": "精英2 LV.20",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_LM_night",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 21,
+	"apFailReturn": 20,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": -1,
+	"expGain": 210,
+	"goldGain": 210,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 20,
+	"completeFavor": 21,
+	"slProgress": 88,
+	"displayMainItem": "30063",
+	"hilightMark": true,
+	"bossMark": true,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 0,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "MATERIAL",
+				"id": "30063",
+				"dropType": 2
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 3,
+				"type": "MATERIAL",
+				"id": "30063",
+				"dropType": 2
+			},
+			{
+				"occPercent": 2,
+				"type": "MATERIAL",
+				"id": "30012",
+				"dropType": 2
+			},
+			{
+				"occPercent": 0,
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		]
+	},
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "main_05-10"
+}

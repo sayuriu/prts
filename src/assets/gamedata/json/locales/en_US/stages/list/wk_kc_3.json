@@ -1,0 +1,104 @@
+{
+	"stageType": "DAILY",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"unlockCondition": [
+		{
+			"stageId": "wk_kc_2",
+			"completeState": 2
+		}
+	],
+	"stageId": "wk_kc_3",
+	"levelId": "Obt/Weekly/level_weekly_killcost_3",
+	"zoneId": "weekly_7",
+	"code": "LS-3",
+	"name": "Forward Operations Drill",
+	"description": "Defend against the enemy's surprise attack.\n<@lv.rem>Deployment Points will not automatically recover in this operation; You get 1 Deployment Point upon killing 1 enemy.</>",
+	"hardStagedId": null,
+	"dangerLevel": "LV.40",
+	"dangerPoint": -1,
+	"loadingPicId": "loading1",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 20,
+	"apFailReturn": 19,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": 3,
+	"expGain": 200,
+	"goldGain": 200,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 10,
+	"completeFavor": 20,
+	"slProgress": 0,
+	"displayMainItem": "2003",
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 0,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "CARD_EXP",
+				"id": "2003",
+				"dropType": 2
+			},
+			{
+				"type": "CARD_EXP",
+				"id": "2002",
+				"dropType": 2
+			},
+			{
+				"type": "CARD_EXP",
+				"id": "2001",
+				"dropType": 2
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 0,
+				"type": "CARD_EXP",
+				"id": "2003",
+				"dropType": 2
+			},
+			{
+				"occPercent": 0,
+				"type": "CARD_EXP",
+				"id": "2002",
+				"dropType": 2
+			},
+			{
+				"occPercent": 0,
+				"type": "CARD_EXP",
+				"id": "2001",
+				"dropType": 2
+			},
+			{
+				"occPercent": 0,
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		]
+	},
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": null
+}

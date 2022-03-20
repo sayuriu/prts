@@ -1,0 +1,82 @@
+{
+	"stageType": "SUB",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"unlockCondition": [
+		{
+			"stageId": "hard_05-03",
+			"completeState": 2
+		}
+	],
+	"stageId": "hard_05-04",
+	"levelId": "Obt/Hard/level_hard_05-04",
+	"zoneId": "main_5",
+	"code": "H5-4",
+	"name": "연옥 작전-4",
+	"description": "더욱 강해진 파우스트가 대폭 강화된 발리스타와 함께 다시 나타났다. 아군의 배치 위치와 순서를 주의깊게 고려하여, 파우스트의 맹렬한 공격을 막아내라!\n<@lv.item><발리스타></>주기적으로 아군에게 화살을 발사하여 물리 대미지를 준다.",
+	"hardStagedId": null,
+	"dangerLevel": "-",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_C5_hard",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 10,
+	"apFailReturn": 5,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": -1,
+	"expGain": 100,
+	"goldGain": 100,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 5,
+	"completeFavor": 10,
+	"slProgress": 0,
+	"displayMainItem": "",
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 4,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "FURN",
+				"id": "furni_dropS003_zero_01",
+				"dropType": 1
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 0,
+				"type": "FURN",
+				"id": "furni_dropS003_zero_01",
+				"dropType": 1
+			},
+			{
+				"occPercent": 0,
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		]
+	},
+	"startButtonOverrideId": "HIGH_DIFFICULTY",
+	"isStagePatch": false,
+	"mainStageId": "main_05-10"
+}

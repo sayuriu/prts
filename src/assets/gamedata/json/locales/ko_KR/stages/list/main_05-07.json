@@ -1,0 +1,88 @@
+{
+	"stageType": "MAIN",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"unlockCondition": [
+		{
+			"stageId": "main_05-06",
+			"completeState": 2
+		}
+	],
+	"stageId": "main_05-07",
+	"levelId": "Obt/Main/level_main_05-07",
+	"zoneId": "main_5",
+	"code": "5-7",
+	"name": "생과 사를 함께",
+	"description": "드론 프로스트는 주변 아군 유닛의 공격 속도를 대폭 하락시킬 수 있으므로, 빠르게 오퍼레이터를 배치하여 맞서거나 방해장치를 배치하여 영향을 제거해야 한다.\n<@lv.item><방해장치></> 배치 후 주변의 적 드론은 공격 불가, 이동 속도 대폭 감소, 특수 능력 사용 불가",
+	"hardStagedId": "main_05-07#f#",
+	"dangerLevel": "2차 정예화 Lv.10",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_LM_day",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 21,
+	"apFailReturn": 20,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": -1,
+	"expGain": 210,
+	"goldGain": 210,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 20,
+	"completeFavor": 21,
+	"slProgress": 85,
+	"displayMainItem": "30093",
+	"hilightMark": true,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 0,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "MATERIAL",
+				"id": "30093",
+				"dropType": 2
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 3,
+				"type": "MATERIAL",
+				"id": "30093",
+				"dropType": 2
+			},
+			{
+				"occPercent": 2,
+				"type": "MATERIAL",
+				"id": "30042",
+				"dropType": 2
+			},
+			{
+				"occPercent": 0,
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		]
+	},
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "main_05-07"
+}

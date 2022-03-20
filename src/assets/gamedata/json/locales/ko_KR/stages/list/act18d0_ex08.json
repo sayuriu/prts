@@ -1,0 +1,82 @@
+{
+	"stageType": "ACTIVITY",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"unlockCondition": [
+		{
+			"stageId": "act18d0_ex07",
+			"completeState": 2
+		}
+	],
+	"stageId": "act18d0_ex08",
+	"levelId": "Activities/act18d0/level_act18d0_ex08",
+	"zoneId": "act18d0_zone2",
+	"code": "WD-EX-8",
+	"name": "제국의 그림자처럼",
+	"description": "우르수스가 히포그리프의 통치를 무너뜨린 지도 어언 천 년, 제국의 빛났던 시절은 험준한 산들과 고층빌딩을 스치며 지나갔다. 하지만 대지의 드넓은 그림자 위에 뿌려진 황제의 은혜, 그것은 곧 우르수스의 깊은 의지였다.",
+	"hardStagedId": "act18d0_ex08#f#",
+	"dangerLevel": "2차 정예화 Lv.30",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_victoria",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 20,
+	"apFailReturn": 19,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": 0,
+	"expGain": 200,
+	"goldGain": 200,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 19,
+	"completeFavor": 20,
+	"slProgress": 0,
+	"displayMainItem": null,
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 0,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act18d0_token_page",
+				"dropType": 8
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 0,
+				"type": "ACTIVITY_ITEM",
+				"id": "act18d0_token_page",
+				"dropType": 8
+			},
+			{
+				"occPercent": 0,
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		]
+	},
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "act18d0_ex01"
+}

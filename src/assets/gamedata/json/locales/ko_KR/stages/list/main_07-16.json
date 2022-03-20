@@ -1,0 +1,99 @@
+{
+	"stageType": "MAIN",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"unlockCondition": [
+		{
+			"stageId": "main_07-15",
+			"completeState": 2
+		}
+	],
+	"stageId": "main_07-16",
+	"levelId": "Obt/Main/level_main_07-16",
+	"zoneId": "main_7",
+	"code": "7-18",
+	"name": "애국자의 죽음",
+	"description": "감염자 유격대 '방패'의 지휘관. 살카즈 용사들의 오래된 지극의 혈통. 우르수스에서 가장 용감한 전쟁의 화신. 리유니온의 척추이자… 옐레나의 아버지.\n<@lv.item><오리지늄 제단></>주기적으로 주변에 충격파를 발생시켜 아군과 적군에 대미지를 준다\n<@lv.item><방해지뢰></>폭발 시 주변의 모든 적에게 대량의 대미지 및 15초간 받는 대미지 증가",
+	"hardStagedId": "main_07-16#f#",
+	"dangerLevel": "2차 정예화 Lv.30",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_CB_under",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 21,
+	"apFailReturn": 20,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": -1,
+	"expGain": 210,
+	"goldGain": 210,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 20,
+	"completeFavor": 21,
+	"slProgress": 133,
+	"displayMainItem": "30043",
+	"hilightMark": true,
+	"bossMark": true,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 0,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "CHAR",
+				"id": "char_002_amiya",
+				"dropType": 1
+			},
+			{
+				"type": "MATERIAL",
+				"id": "30043",
+				"dropType": 2
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 0,
+				"type": "CHAR",
+				"id": "char_002_amiya",
+				"dropType": 1
+			},
+			{
+				"occPercent": 3,
+				"type": "MATERIAL",
+				"id": "30043",
+				"dropType": 2
+			},
+			{
+				"occPercent": 2,
+				"type": "MATERIAL",
+				"id": "30052",
+				"dropType": 2
+			},
+			{
+				"occPercent": 0,
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		]
+	},
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "main_07-16"
+}

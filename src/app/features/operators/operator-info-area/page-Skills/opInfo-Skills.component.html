@@ -339,19 +339,6 @@
                                 </div>
                                 <p *ngIf="!skillUpgradeReq">NO_DATA</p>
                                 <div class="skill-mat-list flex pointer-all" *ngIf="skillUpgradeReq">
-                                    <div
-                                        *ngFor="let mat of (currentCombatSkillLevel.value > 6 ? skillUpgradeReq.levelUpCost! : skillUpgradeReq.lvlUpCost!)"
-                                        class="skill-mat-item rel grid pointer-all"
-                                    >
-                                        <ak-item-desc class="abs bfull r0 no-pointer o0 transition-all" [itemId]="mat.id"></ak-item-desc>
-                                        <div class="skill-mat-rarity fh fw flex j-flex-center a-flex-center rel z0" [style.background-image]="'url(' + manager.getMatImg(mat.id)[1] + ')'" >
-                                            <div class="skill-mat-img" [style.background-image]="'url(' + manager.getMatImg(mat.id)[0] + ')'"></div>
-                                        </div>
-                                        <p class="skill-mat-amount no-margin z1">{{mat.count}}</p>
-<!--                                        <div class="skill-mat-desc abs bfull z2">-->
-<!--                                            <p>{{mat.id}}&MediumSpace;<i></i></p>-->
-<!--                                        </div>-->
-                                    </div>
                                     <div class="skill-mat-item grid" *ngIf="skillUpgradeReq.lvlUpTime">
                                         <svg class="skill-mat-rarity" style="height: 65px; width: 65px" width="300" height="300" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <circle cx="150" cy="150" r="147.5" stroke="black" stroke-width="5"/>
@@ -360,6 +347,25 @@
                                         </svg>
                                         <p class="skill-mat-amount no-margin">{{skillUpgradeReq.lvlUpTime / 3600}}hr</p>
                                     </div>
+                                    <button
+                                        *ngFor="let mat of (currentCombatSkillLevel.value > 6 ? skillUpgradeReq.levelUpCost! : skillUpgradeReq.lvlUpCost!)"
+                                        class="skill-mat-item rel grid pointer-all no-border"
+                                        (click)="toggleSkillMatExpanded()"
+                                    >
+                                        <ak-item-desc
+                                            class="abs bfull r0 no-pointer o0 transition-all"
+                                            [itemId]="mat.id"
+                                            [expanded]="skillMatUIExpanded"
+                                            (onExpand)="toggleSkillMatExpanded($event)"
+                                        ></ak-item-desc>
+                                        <div class="skill-mat-rarity fh fw flex j-flex-center a-flex-center rel z0" [style.background-image]="'url(' + manager.getMatImg(mat.id)[1] + ')'" >
+                                            <div class="skill-mat-img" [style.background-image]="'url(' + manager.getMatImg(mat.id)[0] + ')'"></div>
+                                        </div>
+                                        <p class="skill-mat-amount no-margin z1">{{mat.count}}</p>
+<!--                                        <div class="skill-mat-desc abs bfull z2">-->
+<!--                                            <p>{{mat.id}}&MediumSpace;<i></i></p>-->
+<!--                                        </div>-->
+                                    </button>
                                 </div>
                             </div>
                         </div>

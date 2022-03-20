@@ -1,4 +1,4 @@
-//This data is meant for contructing data structures.
+//This data is meant for constructing data structures.
 exports = {
     name: 'L-44"留声机"',
     description: '通常不攻击且阻挡数为0，技能未开启时<@ba.kw>{max_stack_cnt}</>秒内攻击力逐渐提升至<@ba.kw>+{atk:0%}</>，技能结束时重置攻击力',

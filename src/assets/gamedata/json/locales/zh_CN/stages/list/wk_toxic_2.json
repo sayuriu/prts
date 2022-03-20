@@ -1,0 +1,83 @@
+{
+	"stageType": "DAILY",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"unlockCondition": [
+		{
+			"stageId": "wk_toxic_1",
+			"completeState": 2
+		}
+	],
+	"stageId": "wk_toxic_2",
+	"levelId": "Obt/Weekly/level_weekly_toxic_2",
+	"zoneId": "weekly_5",
+	"code": "AP-2",
+	"name": "源石运输保全",
+	"description": "在恶劣的作战环境下迎击敌人。\\n<@lv.item><毒性雾霾></>我方单位会持续失去生命",
+	"hardStagedId": null,
+	"dangerLevel": "LV.30",
+	"dangerPoint": -1,
+	"loadingPicId": "loading4",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 15,
+	"apFailReturn": 14,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": 2,
+	"expGain": 150,
+	"goldGain": 150,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 7,
+	"completeFavor": 15,
+	"slProgress": 0,
+	"displayMainItem": "4006",
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 0,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "MATERIAL",
+				"id": "4006",
+				"dropType": 2
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 0,
+				"type": "MATERIAL",
+				"id": "4006",
+				"dropType": 2
+			},
+			{
+				"occPercent": 0,
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		]
+	},
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": null
+}

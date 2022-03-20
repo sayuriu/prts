@@ -1,0 +1,94 @@
+{
+	"stageType": "ACTIVITY",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"unlockCondition": [
+		{
+			"stageId": "a003_07",
+			"completeState": 2
+		}
+	],
+	"stageId": "a003_08",
+	"levelId": "Activities/ACT3D0/level_act3d0_08",
+	"zoneId": "act11d7_zone1",
+	"code": "OF-8",
+	"name": "汐斯塔狂想曲",
+	"description": "虽然只是一个意外，不过，一头巨大的怪兽作为事件的收尾，至少比一个走投无路的反派要来的有趣。\\n<@lv.item><岩浆喷射处></>每隔一定时间会喷出岩浆，对周围8格内的我方单位造成大量伤害且融化障碍物",
+	"hardStagedId": null,
+	"dangerLevel": "精英1 LV.40",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_Obsidian_Cave",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 30,
+	"apFailReturn": 29,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": 0,
+	"expGain": 300,
+	"goldGain": 300,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 29,
+	"completeFavor": 30,
+	"slProgress": 0,
+	"displayMainItem": null,
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 0,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "FURN",
+				"id": "furni_dropS004_kraftwerk_01",
+				"dropType": 8
+			},
+			{
+				"type": "ET_STAGE",
+				"id": "et_ObsidianPass_rep_1",
+				"dropType": 3
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 0,
+				"type": "FURN",
+				"id": "furni_dropS004_kraftwerk_01",
+				"dropType": 8
+			},
+			{
+				"occPercent": 0,
+				"type": "ET_STAGE",
+				"id": "et_ObsidianPass_rep_1",
+				"dropType": 3
+			},
+			{
+				"occPercent": 0,
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		]
+	},
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "a003_st01"
+}

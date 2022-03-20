@@ -78,6 +78,7 @@ implements OnInit, OnChanges, OnDestroy, AfterViewChecked {
     }
 
 	ngOnInit() {
+        void this.manager.prefetchStages()
         this.currentSkillDescriptions = new Array(this.currentOperatorSkills.length).fill('');
         this.currentSkillRanges = new Array(this.currentOperatorSkills.length).fill([[], [0, 0]]);
         this.getEliteRangeData();
@@ -186,9 +187,6 @@ implements OnInit, OnChanges, OnDestroy, AfterViewChecked {
         void this.popup.clear();
     }
 
-    log(...args: any[]) {
-        console.log(...args);
-    }
 
     atkRangeByElite: [string, number][] = [];
     currentEliteLevel = 0;
@@ -228,9 +226,9 @@ implements OnInit, OnChanges, OnDestroy, AfterViewChecked {
         return !!rangeId || !!blackboard.find(x => x.key === 'ability_range_forward_extend');
     }
 
-    proxy(data: any)
+    skillMatUIExpanded: boolean = false;
+    toggleSkillMatExpanded(override?: boolean)
     {
-       console.log(data);
-       return data;
+        this.skillMatUIExpanded = override ?? !this.skillMatUIExpanded;
     }
 }

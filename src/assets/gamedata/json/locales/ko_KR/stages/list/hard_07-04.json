@@ -1,0 +1,82 @@
+{
+	"stageType": "SUB",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"unlockCondition": [
+		{
+			"stageId": "hard_07-03",
+			"completeState": 2
+		}
+	],
+	"stageId": "hard_07-04",
+	"levelId": "Obt/Hard/level_hard_07-04",
+	"zoneId": "main_7",
+	"code": "H7-4",
+	"name": "스타파이어 작전-4",
+	"description": "만약 이들의 과거 전투를 보지 못했다면, 왜 이들이 과거 전장에서 모든 생명들을 공포에 떨게 하였다고 했는지 이해하지 못할 것이다. 어쩌면 누군가는 우르수스가 무엇으로 다른 문명 전체를 없애버렸는지 설명해줄 수 있을지도 모르지만…\n<@lv.item><오리지늄 제단></>주기적으로 주변에 충격파를 발생시켜 아군과 적군에 대미지를 준다",
+	"hardStagedId": null,
+	"dangerLevel": "-",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_CB_under",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 10,
+	"apFailReturn": 5,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": -1,
+	"expGain": 100,
+	"goldGain": 100,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 5,
+	"completeFavor": 10,
+	"slProgress": 0,
+	"displayMainItem": "",
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 4,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "FURN",
+				"id": "furni_dropS007_easyRider_01",
+				"dropType": 1
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 0,
+				"type": "FURN",
+				"id": "furni_dropS007_easyRider_01",
+				"dropType": 1
+			},
+			{
+				"occPercent": 0,
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		]
+	},
+	"startButtonOverrideId": "HIGH_DIFFICULTY",
+	"isStagePatch": false,
+	"mainStageId": "main_07-16"
+}

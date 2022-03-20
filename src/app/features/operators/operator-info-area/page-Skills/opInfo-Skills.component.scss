@@ -410,6 +410,7 @@ p {
     aspect-ratio: 1;
     height: 70px;
     grid-template: 4fr / 4fr;
+    background: transparent;
     & * * {
         z-index: auto;
     }
@@ -419,6 +420,7 @@ p {
         background-position: center;
     }
     .skill-mat-rarity {
+        background-size: cover;
         grid-column-start: 1;
         grid-row-start: 1;
         grid-column-end: 5;

@@ -1,0 +1,72 @@
+{
+	"stageType": "ACTIVITY",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"unlockCondition": [
+		{
+			"stageId": "act12side_05",
+			"completeState": 2
+		}
+	],
+	"stageId": "act12side_tr02",
+	"levelId": "Activities/ACT12SIDE/level_act12side_tr02",
+	"zoneId": "act12side_zone1",
+	"code": "DH-TR-2",
+	"name": "寸歩難行",
+	"description": "エルネストは目的を達成したが、目下の問題は、どうやって逃れるかを考えねばならないことだ…….\n<@lv.item><深水区域></>配置不可。敵の攻撃速度と移動速度が低下し、HPが減少し続ける\n<@lv.item><特設ボート></>深水区域に設置することが可能。設置したマスにユニットを配置することができる。配置したユニットが撤退する時に破壊される",
+	"hardStagedId": null,
+	"dangerLevel": null,
+	"dangerPoint": -1,
+	"loadingPicId": "loading_Bolivar_sea",
+	"canPractice": false,
+	"canBattleReplay": false,
+	"apCost": 0,
+	"apFailReturn": 0,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 0,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": -1,
+	"dailyStageDifficulty": 0,
+	"expGain": 0,
+	"goldGain": 0,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 0,
+	"completeFavor": 0,
+	"slProgress": 0,
+	"displayMainItem": null,
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": true,
+	"isHardPredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 3,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 0,
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		]
+	},
+	"canUseCharm": true,
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "act12side_st01"
+}

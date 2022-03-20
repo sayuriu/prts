@@ -1,0 +1,82 @@
+{
+	"stageType": "ACTIVITY",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"unlockCondition": [
+		{
+			"stageId": "act11d0_ex06",
+			"completeState": 2
+		}
+	],
+	"stageId": "act11d0_ex07",
+	"levelId": "Activities/ACT11D0/level_act11d0_ex07",
+	"zoneId": "act5sre_zone2",
+	"code": "TW-EX-7",
+	"name": "별도 계산",
+	"description": "머드락은 여러 피조물의 이동 경로를 동시에 설정할 수 없고, 피조물은 스스로 판단할 정도의 지혜를 갖추고 있지 않다. 이점을 활용하면 머드락에게 빈틈이 생길 것이다.<@lv.item><'축음기'></>적에게서 축음기의 통제권을 빼앗아라. 아군이 활성화 후 적군에게 마법 대미지를 주며 아군의 HP를 회복한다.\n<@lv.item><장애물></> 배치되면 적의 진격로를 차단",
+	"hardStagedId": "act11d0_ex07#f#",
+	"dangerLevel": "2차 정예화 Lv.25",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_Wolumonde",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 20,
+	"apFailReturn": 19,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": 0,
+	"expGain": 200,
+	"goldGain": 200,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 19,
+	"completeFavor": 20,
+	"slProgress": 0,
+	"displayMainItem": null,
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 0,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act11d0_token_currency_rep_1",
+				"dropType": 8
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 0,
+				"type": "ACTIVITY_ITEM",
+				"id": "act11d0_token_currency_rep_1",
+				"dropType": 8
+			},
+			{
+				"occPercent": 0,
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		]
+	},
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "act11d0_ex01"
+}

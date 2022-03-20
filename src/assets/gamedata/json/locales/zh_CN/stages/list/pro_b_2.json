@@ -1,0 +1,94 @@
+{
+	"stageType": "DAILY",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"unlockCondition": [
+		{
+			"stageId": "pro_b_1",
+			"completeState": 2
+		}
+	],
+	"stageId": "pro_b_2",
+	"levelId": "Obt/Promote/level_promote_b_2",
+	"zoneId": "weekly_2",
+	"code": "PR-B-2",
+	"name": "打击",
+	"description": "获取狙击和术师干员的高级精英化材料。\\n如果能熟练运用狙击和术师职业的话应该会在这场战斗中更加有利。\\n<@lv.item><防空符文></>置于其中的干员会略微减慢攻速，但大幅度提升对空攻击力",
+	"hardStagedId": null,
+	"dangerLevel": "精英1 LV.50",
+	"dangerPoint": -1,
+	"loadingPicId": "loading2",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 36,
+	"apFailReturn": 35,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": 2,
+	"expGain": 360,
+	"goldGain": 360,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 35,
+	"completeFavor": 36,
+	"slProgress": 0,
+	"displayMainItem": "",
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 0,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "MATERIAL",
+				"id": "3242",
+				"dropType": 2
+			},
+			{
+				"type": "MATERIAL",
+				"id": "3252",
+				"dropType": 2
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 2,
+				"type": "MATERIAL",
+				"id": "3242",
+				"dropType": 2
+			},
+			{
+				"occPercent": 2,
+				"type": "MATERIAL",
+				"id": "3252",
+				"dropType": 2
+			},
+			{
+				"occPercent": 0,
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		]
+	},
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": null
+}

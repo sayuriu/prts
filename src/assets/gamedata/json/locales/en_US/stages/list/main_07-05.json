@@ -1,0 +1,88 @@
+{
+	"stageType": "MAIN",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"unlockCondition": [
+		{
+			"stageId": "tr_17",
+			"completeState": 2
+		}
+	],
+	"stageId": "main_07-05",
+	"levelId": "Obt/Main/level_main_07-05",
+	"zoneId": "main_7",
+	"code": "7-6",
+	"name": "Forgotten Lands",
+	"description": "We've encountered guerilla messengers on our way to the central area of the core city. They employ a unique method of communication and commanding, and we may perhaps be able to draw some inspiration from fighting against them...",
+	"hardStagedId": "main_07-05#f#",
+	"dangerLevel": "Elite 2 Lv.1",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_CB_under",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 18,
+	"apFailReturn": 17,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": -1,
+	"expGain": 180,
+	"goldGain": 180,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 17,
+	"completeFavor": 18,
+	"slProgress": 119,
+	"displayMainItem": "30013",
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 0,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "MATERIAL",
+				"id": "30013",
+				"dropType": 2
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 2,
+				"type": "MATERIAL",
+				"id": "30013",
+				"dropType": 2
+			},
+			{
+				"occPercent": 3,
+				"type": "MATERIAL",
+				"id": "30022",
+				"dropType": 2
+			},
+			{
+				"occPercent": 0,
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		]
+	},
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "main_07-05"
+}

@@ -1,0 +1,83 @@
+{
+	"stageType": "ACTIVITY",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"unlockCondition": [
+		{
+			"stageId": "act12side_s02",
+			"completeState": 2
+		}
+	],
+	"stageId": "act12side_s03",
+	"levelId": "Activities/ACT12SIDE/level_act12side_sub-1-3",
+	"zoneId": "act12side_zone3",
+	"code": "DH-S-3",
+	"name": "옛 친구 재회",
+	"description": "비협조적인 재벌들의 경호원만 제압한다면, 스와이어에게 당사자의 입을 벌릴 수단은 얼마든지 있다.\n<@lv.item><깊은 수역></> 해당 지역에 배치할 수 없으며, 적의 공격 속도 및 이동 속도 저하, 지속해서 HP를 잃는다\n<@lv.rem><추가 조건></> 웨이브 리더와 웨이브 리더 쾌속정의 공격력이 감소하는 대신 침식 피해는 대폭 상승",
+	"hardStagedId": "act12side_s03#f#",
+	"dangerLevel": "-",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_Bolivar_street",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 18,
+	"apFailReturn": 17,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": 0,
+	"expGain": 180,
+	"goldGain": 180,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 17,
+	"completeFavor": 18,
+	"slProgress": 0,
+	"displayMainItem": null,
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 0,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "CHARM",
+				"id": "charm_coin_3",
+				"dropType": 8
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 0,
+				"type": "CHARM",
+				"id": "charm_coin_3",
+				"dropType": 8
+			},
+			{
+				"occPercent": 0,
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		]
+	},
+	"canUseCharm": true,
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "act12side_s01"
+}

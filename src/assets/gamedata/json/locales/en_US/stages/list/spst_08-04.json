@@ -1,0 +1,85 @@
+{
+	"stageType": "SPECIAL_STORY",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"unlockCondition": [
+		{
+			"stageId": "main_08-17",
+			"completeState": 2
+		}
+	],
+	"stageId": "spst_08-04",
+	"levelId": null,
+	"zoneId": "main_8",
+	"code": "EG-4",
+	"name": "Burnt Fragment 4",
+	"description": "A matter of trust.",
+	"hardStagedId": null,
+	"dangerLevel": "-",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_burningtower",
+	"canPractice": true,
+	"canBattleReplay": false,
+	"apCost": 0,
+	"apFailReturn": 0,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 0,
+	"diamondOnceDrop": 0,
+	"practiceTicketCost": 0,
+	"dailyStageDifficulty": -1,
+	"expGain": 0,
+	"goldGain": 0,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 0,
+	"completeFavor": 0,
+	"slProgress": 0,
+	"displayMainItem": "",
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isStoryOnly": true,
+	"appearanceStyle": 6,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [],
+		"displayDetailRewards": []
+	},
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": null,
+	"extraCondition": [
+		{
+			"index": 0,
+			"template": "PassStageWithTemplate",
+			"unlockParam": [
+				"2",
+				"main_08-17",
+				"char_1001_amiya2"
+			]
+		}
+	],
+	"extraInfo": [
+		{
+			"stageId": "spst_08-04",
+			"rewards": [
+				{
+					"id": "4002",
+					"count": 1,
+					"type": "DIAMOND"
+				}
+			],
+			"progressInfo": {
+				"progressType": "ONCE",
+				"descList": null
+			}
+		}
+	]
+}

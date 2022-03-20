@@ -1,0 +1,86 @@
+{
+	"stageType": "ACTIVITY",
+	"difficulty": "FOUR_STAR",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"unlockCondition": [
+		{
+			"stageId": "main_02-08",
+			"completeState": 2
+		},
+		{
+			"stageId": "act6d5_01",
+			"completeState": 3
+		}
+	],
+	"stageId": "act6d5_01#f#",
+	"levelId": "Activities/ACT6D5/level_act6d5_01",
+	"zoneId": "main_2",
+	"code": "AF-1",
+	"name": "天の恵み",
+	"description": "<@lv.fs>制限：</>\n遠距離オペレーターのコストが3倍に上昇。\n<@act.timeLimit>開放日時：7月29日16:00~\n8月12日03:59</>",
+	"hardStagedId": null,
+	"dangerLevel": "-",
+	"dangerPoint": -1,
+	"loadingPicId": "loading2",
+	"canPractice": true,
+	"canBattleReplay": false,
+	"apCost": 6,
+	"apFailReturn": 3,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 0,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 3,
+	"dailyStageDifficulty": 0,
+	"expGain": 60,
+	"goldGain": 60,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 3,
+	"completeFavor": 6,
+	"slProgress": 0,
+	"displayMainItem": null,
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 0,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act6d5_point_firecracker",
+				"dropType": 1
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 0,
+				"type": "ACTIVITY_ITEM",
+				"id": "act6d5_point_firecracker",
+				"dropType": 1
+			},
+			{
+				"occPercent": 0,
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		]
+	},
+	"startButtonOverrideId": null,
+	"isStagePatch": true,
+	"mainStageId": "act7d5_01"
+}

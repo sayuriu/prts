@@ -1,0 +1,83 @@
+{
+	"stageType": "ACTIVITY",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"unlockCondition": [
+		{
+			"stageId": "act13d5_ex05",
+			"completeState": 2
+		}
+	],
+	"stageId": "act13d5_ex06",
+	"levelId": "Activities/ACT13D5/level_act13d5_ex06",
+	"zoneId": "act7sre_zone2",
+	"code": "MN-EX-6",
+	"name": "爆弹迷宫",
+	"description": "部分竞技场采用的令人毛骨悚然的赛制。炸弹和阻碍的位置完全由观众投票选出。这是骑士们最没有尊严的一场竞技，不，已经和竞技没什么关系了，不过钱是真的给了很多。\\n<@lv.item><干扰地雷></>爆炸时可使四周的所有敌人造成大量伤害并使其15秒内受到的伤害增加",
+	"hardStagedId": "act13d5_ex06#f#",
+	"dangerLevel": "精英2 LV.20",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_Kazimierz_Final",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 15,
+	"apFailReturn": 14,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": 0,
+	"expGain": 150,
+	"goldGain": 150,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 14,
+	"completeFavor": 15,
+	"slProgress": 0,
+	"displayMainItem": null,
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 0,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act13d5_token_securities_rep_1",
+				"dropType": 8
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 0,
+				"type": "ACTIVITY_ITEM",
+				"id": "act13d5_token_securities_rep_1",
+				"dropType": 8
+			},
+			{
+				"occPercent": 0,
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		]
+	},
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "act13d5_ex01"
+}

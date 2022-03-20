@@ -1,0 +1,82 @@
+{
+	"stageType": "ACTIVITY",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"unlockCondition": [
+		{
+			"stageId": "act15d0_08",
+			"completeState": 2
+		}
+	],
+	"stageId": "act15d0_ex01",
+	"levelId": "Activities/ACT15D0/level_act15d0_ex01",
+	"zoneId": "act15d0_zone2",
+	"code": "MB-EX-1",
+	"name": "大混戰",
+	"description": "對於囚犯們來說，很多時候，走出自己牢房的那一刻，就意味著戰鬥的開始。\n<@lv.item><禁錮裝置></>禁錮作用範圍內已解放的敵人\n<@lv.rem>本次行動中幹員佈置不受近遠程限制</>",
+	"hardStagedId": "act15d0_ex01#f#",
+	"dangerLevel": "精英1 LV.40",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_Columbia",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 10,
+	"apFailReturn": 9,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": 0,
+	"expGain": 100,
+	"goldGain": 100,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 9,
+	"completeFavor": 10,
+	"slProgress": 0,
+	"displayMainItem": null,
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 0,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act15d0_token_ironSheet",
+				"dropType": 8
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 0,
+				"type": "ACTIVITY_ITEM",
+				"id": "act15d0_token_ironSheet",
+				"dropType": 8
+			},
+			{
+				"occPercent": 0,
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		]
+	},
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "act15d0_ex01"
+}

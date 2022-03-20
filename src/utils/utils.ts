@@ -43,6 +43,7 @@ export const emptyFunc = () => {};
 export type Undef<T> = T | undefined;
 export type Nullable<T> = T | null;
 export type NullablePromise<T> = Promise<Nullable<T>>;
+export type NullableRecord<K extends string | number | symbol, T> = Record<K, Nullable<T>>
 export type ValueOf<T> = T[keyof T];
 export type ExcludeProp<T, K extends keyof T> = Pick<T, Exclude<keyof T, K>>;
 

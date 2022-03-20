@@ -1,0 +1,105 @@
+{
+	"stageType": "ACTIVITY",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"unlockCondition": [
+		{
+			"stageId": "a003_st02",
+			"completeState": 2
+		}
+	],
+	"stageId": "a003_02",
+	"levelId": "Activities/ACT3D0/level_act3d0_02",
+	"zoneId": "act11d7_zone1",
+	"code": "OF-2",
+	"name": "演出继续",
+	"description": "演出必须被终止，但是，并不是所有人都这么想。",
+	"hardStagedId": null,
+	"dangerLevel": "LV.25",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_Obsidian_Wild",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 16,
+	"apFailReturn": 15,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": 0,
+	"expGain": 160,
+	"goldGain": 160,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 15,
+	"completeFavor": 16,
+	"slProgress": 0,
+	"displayMainItem": null,
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 0,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "FURN",
+				"id": "furni_guitar_poster2_01",
+				"dropType": 8
+			},
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "token_Obsidian_rep_1",
+				"dropType": 3
+			},
+			{
+				"type": "ET_STAGE",
+				"id": "et_ObsidianPass_rep_1",
+				"dropType": 3
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 0,
+				"type": "FURN",
+				"id": "furni_guitar_poster2_01",
+				"dropType": 8
+			},
+			{
+				"occPercent": 0,
+				"type": "ACTIVITY_ITEM",
+				"id": "token_Obsidian_rep_1",
+				"dropType": 3
+			},
+			{
+				"occPercent": 0,
+				"type": "ET_STAGE",
+				"id": "et_ObsidianPass_rep_1",
+				"dropType": 3
+			},
+			{
+				"occPercent": 0,
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		]
+	},
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "a003_st01"
+}

@@ -1,0 +1,94 @@
+{
+	"stageType": "ACTIVITY",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"unlockCondition": [
+		{
+			"stageId": "act1lock_a-03",
+			"completeState": 2
+		}
+	],
+	"stageId": "act1lock_a-04",
+	"levelId": "Activities/ACT1LOCK/level_act1lock_a-04",
+	"zoneId": "act1lock_zone1",
+	"code": "TB-DB-4",
+	"name": "拂晓之处-物性",
+	"description": "“你不知道？就在不久以前，‘胜利女神’突然出现，带领米诺斯人驱赶走了那些蛮狠侵扰的萨尔贡人……”\\n “那位‘胜利女神’是突然出现的，在米诺斯人取得胜利后便默默地离开了。真可惜，她的功绩要是正式报到十二英雄神殿里去，肯定能被封为大英雄！现在嘛，只是留下了传说让人听听。”",
+	"hardStagedId": null,
+	"dangerLevel": "精英1 LV.10",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_interlock",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 10,
+	"apFailReturn": 9,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": 0,
+	"expGain": 100,
+	"goldGain": 100,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 9,
+	"completeFavor": 10,
+	"slProgress": 0,
+	"displayMainItem": null,
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 0,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act1lock_point_reward",
+				"dropType": 8
+			},
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act1lock_point_reward",
+				"dropType": 3
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 0,
+				"type": "ACTIVITY_ITEM",
+				"id": "act1lock_point_reward",
+				"dropType": 8
+			},
+			{
+				"occPercent": 0,
+				"type": "ACTIVITY_ITEM",
+				"id": "act1lock_point_reward",
+				"dropType": 3
+			},
+			{
+				"occPercent": 0,
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		]
+	},
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "act1lock_a-01"
+}

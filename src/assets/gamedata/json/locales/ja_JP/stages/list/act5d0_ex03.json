@@ -1,0 +1,71 @@
+{
+	"stageType": "ACTIVITY",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"unlockCondition": [
+		{
+			"stageId": "act5d0_ex02",
+			"completeState": 2
+		}
+	],
+	"stageId": "act5d0_ex03",
+	"levelId": "Activities/ACT5D0/level_act5d0_ex03",
+	"zoneId": "act14d7_zone2",
+	"code": "CB-EX3",
+	"name": "林中小屋",
+	"description": "たまにスラムなどでポストモダン建築芸術に出会うことがある。鋼鉄のジャングルで奇特な崇拝を表現しているのかもしれない。\n<@lv.rem><簡易補給所></>オペレーターやコマンドシステムにSPを付与する",
+	"hardStagedId": "act5d0_ex03#f#",
+	"dangerLevel": "昇進1 LV.60",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_PL_Cloudy",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 15,
+	"apFailReturn": 14,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": 0,
+	"expGain": 150,
+	"goldGain": 150,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 14,
+	"completeFavor": 15,
+	"slProgress": 0,
+	"displayMainItem": null,
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 0,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 0,
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		]
+	},
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "act5d0_ex01"
+}
