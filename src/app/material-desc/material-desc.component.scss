@@ -50,11 +50,13 @@
             transition: all 0.5s $forceful 0s;
         }
         .mat-desc-description {
+            transition-duration: 0.3s;
             text-align: left;
             i { color: var(--sub2) }
             max-height: 70px;
         }
         .mat-desc-obtain-approach {
+            transition-duration: 0.3s;
             margin-top: auto;
         }
         .mat-desc-obtain-approach-list {
@@ -65,7 +67,7 @@
                     color: var(--sub3);
                 }
             }
-            max-height: 85px;
+            max-height: 80px;
         }
     }
     .mat-desc-item-img {
@@ -95,10 +97,12 @@
         }
         .mat-desc-description {
             opacity: 1;
+            transition-delay: 0.2s;
+            border-bottom: 1px solid var(--sub3);
         }
         .mat-desc-obtain-approach {
             opacity: 1;
-            transition-delay: 0.2s;
+            transition-delay: 0.3s;
         }
         .mat-desc-content {
             opacity: 1;

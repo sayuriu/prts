@@ -254,7 +254,7 @@ export class OperatorDataManagerService {
     {
         const { _base, stage_overview } = Data_JSON;
         this.stages[preferredLocale] = await this.JSONAssets.load(
-            join(_base, stage_overview).replace('{locale}', preferredLocale),
+            join(_base, stage_overview).replace('{locales}', preferredLocale),
             {
                 lifetime: Number.MAX_SAFE_INTEGER,
                 onExpire: emptyFunc

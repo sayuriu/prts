@@ -2,7 +2,7 @@
         *ngVar="(withinButton ? 2 : 6) as minLength"
         [ngClass]="{ expanded }"
         (click)="toggleExpand()"
-        [style.width]="(expanded && item) ? (limitWidth ?? '540px') : ('calc(140px + ' + (item!.name.length - minLength > 0 ? (item!.name.length - minLength) : 0)  + 'ch)')"
+        [style.width]="(expanded && item) ? (limitWidth ?? '540px') : ('calc(140px + ' + (item ? (item!.name.length - minLength > 0 ? (item!.name.length - minLength) : 0) : 0)  + 'ch)')"
         (mouseenter)="onMouseEnter()"
         (mouseleave)="onMouseLeave()"
 >
@@ -14,7 +14,12 @@
             <div class="id overflow-hidden flex"><p>{{(item.rarity + 1) + '⭐' + resolveMatType()}}</p><p>{{item.itemId}}</p></div>
         </div>
         <div class="mat-desc-content h-infer overflow-hidden o0 flex flex-col">
-            <p class="mat-desc-description scrollbar-std flex-grow-1 o0" [ngClass]="overflowShown ? 'overflow-y-auto' : 'overflow-hidden'"><i>{{item.description ? ('\u0022' + item.description + '\u0022') : 'Unfortunately, the nature of this item is not yet in PRTS database.'}}</i></p>
+            <p class="mat-desc-description scrollbar-std flex-grow-1 o0"
+               [style.overflow-y]="overflowShown ? 'auto' : 'hidden'"
+               [style.padding]="overflowShown ? '2px' : 'unset'"
+            >
+                <i>{{item.description ? ('\u0022' + item.description + '\u0022') : 'Unfortunately, the nature of this item is not yet in PRTS database.'}}</i>
+            </p>
             <div class="mat-desc-obtain-approach o0" *ngIf="item.buildingProductList.length || item.stageDropList.length">
                 <p>How to obtain</p>
                 <div

@@ -1,10 +1,10 @@
 <div class="field-container inert-bound-box flex flex-row" [ngStyle]="_boundRect.toNgStyle()">
 	<div class="field-label inert-bound-box fh w-auto" [ngStyle]="_labelField.toNgStyle()">
 		<p class="field-label-textfield inert-bound-box" *ngIf="!_labelFieldText.asHTML" [ngStyle]="_labelFieldText.toNgStyle()">{{_labelFieldText.textValue}}</p>
-		<p class="field-label-textfield inert-bound-box" *ngIf="_labelFieldText.asHTML" [ngStyle]="_labelFieldText.toNgStyle()" [innerHTML]="_labelFieldText.textValue"></p>
+		<p class="field-label-textfield inert-bound-box" *ngIf="_labelFieldText.asHTML" [ngStyle]="_labelFieldText.toNgStyle()" [innerHTML]="sanitizer.bypassSecurityTrustHtml(_labelFieldText.textValue)"></p>
 	</div>
 	<div class="field-value inert-bound-box fh w-auto" [ngStyle]="_valueField.toNgStyle()">
 		<p class="field-value-textfield inert-bound-box" *ngIf="!_valueFieldText.asHTML" [ngStyle]="_valueFieldText.toNgStyle()">{{_valueFieldText.textValue}}</p>
-		<p class="field-value-textfield inert-bound-box" *ngIf="_valueFieldText.asHTML" [ngStyle]="_valueFieldText.toNgStyle()" [innerHTML]="_valueFieldText.textValue"></p>
+		<p class="field-value-textfield inert-bound-box" *ngIf="_valueFieldText.asHTML" [ngStyle]="_valueFieldText.toNgStyle()" [innerHTML]="sanitizer.bypassSecurityTrustHtml(_valueFieldText.textValue)"></p>
 	</div>
 </div>

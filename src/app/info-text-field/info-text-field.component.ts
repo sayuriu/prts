@@ -1,4 +1,5 @@
 import { Component, OnInit, OnChanges, Input, SimpleChanges } from '@angular/core';
+import { DomSanitizer } from '@angular/platform-browser';
 import { BoundRect, TextField, BoundRectMetadata, TextFieldMetadata } from '@utils/TextFields';
 
 @Component({
@@ -8,7 +9,9 @@ import { BoundRect, TextField, BoundRectMetadata, TextFieldMetadata } from '@uti
 })
 export class InfoTextFieldComponent implements OnInit, OnChanges {
 
-	constructor() {
+	constructor(
+        public sanitizer: DomSanitizer
+    ) {
 		this._boundRect = new BoundRect();
 		this._labelField = new BoundRect();
 		this._valueField = new BoundRect();
