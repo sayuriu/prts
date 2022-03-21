@@ -13,6 +13,8 @@
     * p { margin: 4px; }
     &, & * * {
         color: #fff;
+    }
+    & {
         background: #000;
     }
     .mat-desc-title {
@@ -60,12 +62,14 @@
             margin-top: auto;
         }
         .mat-desc-obtain-approach-list {
+            scroll-behavior: smooth;
+            scroll-snap-type: y mandatory;
             border-top: 1px inset var(--sub1);
-            div p {
-                background: transparent;
-                span {
-                    color: var(--sub3);
-                }
+            div {
+                scroll-snap-align: end;
+            }
+            span {
+                color: var(--sub3);
             }
             max-height: 80px;
         }
@@ -74,8 +78,8 @@
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
-        height: 100px;
-        width: 100px;
+        height: 150px;
+        width: 150px;
         bottom: 23px;
         right: -2px;
         transition: all 0.35s $forceful;
@@ -92,7 +96,7 @@
             }
         }
         .mat-desc-item-img {
-            opacity: .5;
+            opacity: .4;
             transition-delay: 0.3s;
         }
         .mat-desc-description {

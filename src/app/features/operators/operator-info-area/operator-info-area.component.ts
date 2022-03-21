@@ -8,7 +8,7 @@ import { Nullable, waitAsync } from '@utils/utils';
 import { Title, Meta } from '@angular/platform-browser';
 import { CharCombatSkill } from '@struct/Operator/DetailedSkill';
 import { OperatorUtilsService } from '@services/OperatorData/op-utils.service';
-import {PopupService} from "@services/popup.service";
+import { PopupService } from "@services/popup.service";
 
 @Component({
 	selector: 'app-operator-info-area',

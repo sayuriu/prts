@@ -1,6 +1,6 @@
-import {Component, Input, OnInit} from '@angular/core';
-import {ImageDataService} from "@services/image-data.service";
-import {DomSanitizer, SafeUrl} from "@angular/platform-browser";
+import { Component, Input, OnInit } from '@angular/core';
+import { ImageDataService } from "@services/image-data.service";
+import { DomSanitizer, SafeUrl } from "@angular/platform-browser";
 
 @Component({
   selector: 'image',

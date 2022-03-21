@@ -66,6 +66,7 @@ const Data_JSON = {
 
 	materials: 'items/materials/{type}/{id}.json',
 	materials_types: 'items/types/{id}.json',
+    mat_drop_rates: 'items/drop-rates/{id}.json',
 	materials_indexes: ['itemToType.json', 'typeToItems.json'],
     term_descriptions: 'gamedata-const/termDescriptionDict.json',
 
@@ -252,6 +253,8 @@ export class OperatorDataManagerService {
     stages: NullableRecord<string, Record<string, { code: string, name: string }>> = {};
     async prefetchStages(preferredLocale: Locales = this.locale)
     {
+        if (this.stages[preferredLocale])
+            return;
         const { _base, stage_overview } = Data_JSON;
         this.stages[preferredLocale] = await this.JSONAssets.load(
             join(_base, stage_overview).replace('{locales}', preferredLocale),
@@ -261,14 +264,50 @@ export class OperatorDataManagerService {
             }
         ) as Nullable<Record<string, { code: string, name: string }>>;
     }
-    getStageIdName(stageId: string, preferredLocale: Locales = this.locale)
+    getStageIdName(stageId: string, passingElement?: HTMLElement, preferredLocale: Locales = this.locale)
     {
-        if (this.stages[preferredLocale])
-            return this.stages[preferredLocale]![stageId];
+        if (passingElement)
+        {
+            if (passingElement.getAttribute('data-mat-stage-name') && passingElement.getAttribute('data-mat-stage-name') !== '<loading...>')
+                return {
+                    code: passingElement.getAttribute('data-mat-stage')!,
+                    name: passingElement.getAttribute('data-mat-stage-code')!
+                };
+            passingElement.setAttribute('data-mat-stage', stageId);
+            passingElement.setAttribute('data-mat-stage-name', '<loading...>');
+        }
+
+        if (this.stages[preferredLocale] && this.stages[preferredLocale]![stageId])
+        {
+            const { code, name } = this.stages[preferredLocale]![stageId];
+            if (passingElement)
+            {
+                passingElement.setAttribute('data-mat-stage', code);
+                passingElement.setAttribute('data-mat-stage-name', `"${name}"`);
+            }
+            return {
+                code,
+                name: `"${name}"`
+            }
+        }
         void this.prefetchStages(preferredLocale);
+        let name = '<unknown>';
+        if (stageId.match('randomMaterial'))
+            name = stageId.match('Rune') ? `<CC#${(stageId.match(/\d+/) ?? [''])[0]} lootbox>` : `<lootbox>`;
+        if (passingElement) {
+            passingElement.setAttribute('data-mat-stage', stageId);
+            passingElement.setAttribute('data-mat-stage-name', name);
+            if (stageId.match(/(.*)(_(rep|perm))/))
+                passingElement.setAttribute('data-mat-stage-name', `<event stage>`);
+            else
+                this.getMaterialData(stageId, preferredLocale).then(itemData => {
+                    if (itemData)
+                        passingElement.setAttribute('data-mat-stage-name', `<${itemData.name}>`);
+                });
+        }
         return {
-            code: 'unknown',
-            name: 'Unknown',
+            code: stageId,
+            name: `<${name}>`
         }
     }
 	getCharId(charName: string, preferredLocale = this.locale): [Nullable<string>, Locales]
@@ -381,6 +420,26 @@ export class OperatorDataManagerService {
             return null;
         }
     }
+    async getMaterialDropRate(itemId: string, preferredLocale = this.locale)
+    {
+        const { _base, mat_drop_rates } = Data_JSON;
+        const path = join(_base, mat_drop_rates)
+            .replace('{locales}', preferredLocale)
+            .replace('{id}', itemId);
+        try {
+            return await this.JSONAssets.load(path, {
+                lifetime: 6000000,
+                onExpire: (d) => {
+                    console.log('Destroyed', d.id, d);
+                }
+            }) as Nullable<Record<string, Record<string, number>>>;
+        }
+        catch (e) {
+            // console.error(e);
+            return null;
+        }
+    }
+
     async getTermDescriptionDict(preferredLocale = this.locale): Promise<Record<string, TermDescription>>
     {
         const { _base, term_descriptions } = Data_JSON;

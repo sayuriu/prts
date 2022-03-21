@@ -349,14 +349,22 @@
                                     </div>
                                     <button
                                         *ngFor="let mat of (currentCombatSkillLevel.value > 6 ? skillUpgradeReq.levelUpCost! : skillUpgradeReq.lvlUpCost!)"
-                                        class="skill-mat-item rel grid pointer-all no-border"
+                                        class="skill-mat-item rel grid no-border"
+                                        [ngClass]="matDescAvailable ? 'pointer-all' : 'no-pointer'"
+                                        [style.filter]="matDescAvailable ? 'none' : 'grayscale(100%) brightness(50%)'"
                                         (click)="toggleSkillMatExpanded()"
+                                        (mouseenter)="onItemDescHover(itemDesc)"
+                                        (mouseleave)="onItemDescLeave(itemDesc)"
                                     >
                                         <ak-item-desc
-                                            class="abs bfull r0 no-pointer o0 transition-all"
+                                            #itemDesc
+                                            class="abs bfull r0 no-pointer o0 transition-all overflow-hidden"
                                             [itemId]="mat.id"
                                             [expanded]="skillMatUIExpanded"
                                             (onExpand)="toggleSkillMatExpanded($event)"
+                                            [ngStyle]="{
+                                                maxHeight: itemDesc.suggestionVisible ? (itemDesc.expanded ? '245px' : '60px') : '32px'
+                                            }"
                                         ></ak-item-desc>
                                         <div class="skill-mat-rarity fh fw flex j-flex-center a-flex-center rel z0" [style.background-image]="'url(' + manager.getMatImg(mat.id)[1] + ')'" >
                                             <div class="skill-mat-img" [style.background-image]="'url(' + manager.getMatImg(mat.id)[0] + ')'"></div>

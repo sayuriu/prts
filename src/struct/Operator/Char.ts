@@ -2,7 +2,7 @@ import { HasCandidate, WithNameAndDesc } from "../Basic";
 import { CharBasicInfo } from "./CharBasicInfo";
 import { CharPhase } from "./CharPhase";
 import { CharPotential } from "./CharPotential";
-import {CharSkill, SkillUnlockCond} from "./CharSkill";
+import { CharSkill, SkillUnlockCond } from "./CharSkill";
 import { CharTrait, CharTraitCandidate } from "./CharTrait";
 import { CharTrustData } from "./CharTrustData";
 import { EvolveItemData } from "@struct/Operator/EvolveItem";

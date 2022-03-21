@@ -11,7 +11,7 @@
         <div class="mat-desc-item-img abs o0" [style.background-image]="'url(' + manager.getMatImg(itemId)[0] + ')'"></div>
         <div class="mat-desc-title flex">
             <p class="name flex-grow-1">{{item.name}}</p>
-            <div class="id overflow-hidden flex"><p>{{(item.rarity + 1) + '⭐' + resolveMatType()}}</p><p>{{item.itemId}}</p></div>
+            <div class="id overflow-hidden flex"><p *ngVar="opUtils.resolveRarityColor(item.rarity + 1) as itemRarityColor" [ngStyle]="{ color: itemRarityColor.fg, background: itemRarityColor.bg, whiteSpace: 'nowrap' }">&MediumSpace;T{{(item.rarity + 1)}} {{resolveMatType()}}&MediumSpace;</p><p>{{item.itemId}}</p></div>
         </div>
         <div class="mat-desc-content h-infer overflow-hidden o0 flex flex-col">
             <p class="mat-desc-description scrollbar-std flex-grow-1 o0"
@@ -21,18 +21,25 @@
                 <i>{{item.description ? ('\u0022' + item.description + '\u0022') : 'Unfortunately, the nature of this item is not yet in PRTS database.'}}</i>
             </p>
             <div class="mat-desc-obtain-approach o0" *ngIf="item.buildingProductList.length || item.stageDropList.length">
-                <p>How to obtain</p>
+                <div class="flex j-flex-space-between">
+                    <p>How to obtain</p>
+                    <p>{{processAvailability(item)}}</p>
+                </div>
                 <div
                     class="mat-desc-obtain-approach-list scrollbar-std fw"
                     [style.overflow-y]="overflowShown ? 'auto' : 'hidden'"
                 >
-                    <div class="fw flex j-flex-space-between" *ngFor="let stageData of item.stageDropList ?? []">
-                        <p *ngVar="manager.getStageIdName(stageData.stageId) as stageName">{{stageName.code}} <span>&quot;{{stageName.name}}&quot;</span></p>
-                        <p>{{stageData.occPer}}</p>
-                    </div>
                     <div class="fw flex j-flex-space-between" *ngFor="let buildProductData of item.buildingProductList ?? []">
-                        <p>{{buildProductData.roomType}}</p>
-                        <p>{{buildProductData.formulaId}}</p>
+                        <p>{{buildProductData.roomType}} <span>&lt;base facility&gt;</span></p>
+                        <p style="color: #fff; background: #000 ">{{buildProductData.formulaId}}</p>
+                    </div>
+                    <div #item class="fw flex j-flex-space-between" *ngFor="let stageData of dropRates ?? []; let i = index">
+                        <p *ngVar="manager.getStageIdName(stageData.stageId, item)">{{item.getAttribute('data-mat-stage')}} <span>{{item.getAttribute('data-mat-stage-name')}}</span></p>
+                        <p
+                            [style.color]="resolveMatDropRateColor(stageData.rates).fg"
+                            [style.background]="resolveMatDropRateColor(stageData.rates).bg"
+                            [style.font-weight]="i < 3 ? 'bold' : 'unset'"
+                        >{{stageData.rates}}</p>
                     </div>
                 </div>
             </div>

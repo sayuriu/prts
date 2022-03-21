@@ -7,6 +7,7 @@ import { Logger } from './utils/Logger';
 import { createIfNotExist, joinPaths } from './utils/PathUtils';
 import { Locales, AvailableLocales } from './struct/Basic';
 import { Operator } from './struct/Operator/Char';
+import { PenguinParse } from "./PenguinDownload";
 
 export namespace Src_Gamedata {
 	// -> root/ref/AN-EN-Tags
@@ -65,7 +66,7 @@ export namespace GamedataDestination {
 	}
 }
 
-function writeJSON(path: string, data: any) {
+export function writeJSON(path: string, data: any) {
 	writeFile(path, JSON.stringify(data, null, '\t'), (err) => {
 		if (err) throw err;
 	});
@@ -281,7 +282,8 @@ export function parseAll()
 {
 	for (const locale in AvailableLocales)
 		JSONParse(locale as Locales);
-	Logger.success('Parser', 'Parsing complete!');
+    PenguinParse(GamedataDestination.BASE_JSON_LOCALE_PATH);
+	Logger.success('Parser', 'Data parse complete!');
 }
 
 export class CountTracker {

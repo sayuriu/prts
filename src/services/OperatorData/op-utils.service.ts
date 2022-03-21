@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 // import { PopupService } from '@services/popup.service';
 
 import { BlackboardItem } from '@struct/Operator/BlackBoardItem';
-import {IndexedCallback, escapeRegExp, bindEventListeners, padArray, Nullable, copyArray} from '@utils/utils';
+import { IndexedCallback, escapeRegExp, bindEventListeners, padArray, Nullable, copyArray } from '@utils/utils';
 import { OperatorDataManagerService } from './operator-data-manager.service';
 import { AttackRange } from '@struct/Operator/AttackRange';
 
@@ -178,6 +178,45 @@ export class OperatorUtilsService {
 			default: return duration + 's';
 		}
 	}
+
+    resolveRarityColor(rarityLevel: number)
+    {
+        let white = false;
+        let bg;
+        switch(rarityLevel)
+        {
+            default:
+            case 1: {
+                bg = '#7e7e7e';
+                white = true;
+                break;
+            }
+            case 2: {
+                bg = '#ccd158';
+                break;
+            }
+            case 3: {
+                bg = '#06adf2';
+                break;
+            }
+            case 4: {
+                bg = '#edc3f5';
+                break;
+            }
+            case 5: {
+                bg = '#ffd534';
+                break;
+            }
+            case 6: {
+                bg = '#ff7f00';
+                break;
+            }
+        }
+        return {
+            bg,
+            fg: white ? '#fff' : '#000'
+        }
+    }
 
 	createRangeTable(range: AttackRange, extend?: AttackRange['grids'] | number)
 	{

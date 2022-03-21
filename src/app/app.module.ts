@@ -22,7 +22,7 @@ import { OpMainInfoComponent } from '@featureComponents/operators/operator-info-
 import { OpStatsComponent } from '@featureComponents/operators/operator-info-area/page-Stats/opInfo-Stats.component';
 import { OpSkillsComponent } from '@featureComponents/operators/operator-info-area/page-Skills/opInfo-Skills.component';
 import { LabelledButtonComponent } from './labelled-button/labelled-button.component';
-import {NgVarDirective} from "@root/src/app/ng-var.directive";
+import { NgVarDirective } from "@root/src/app/ng-var.directive";
 import { InvalidScreenComponent } from './invalid-screen/invalid-screen.component';
 import { ImageComponent } from './image/image.component';
 import { MaterialDescComponent } from './material-desc/material-desc.component';

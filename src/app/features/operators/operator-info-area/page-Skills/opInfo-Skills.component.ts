@@ -10,7 +10,8 @@ import { CharCombatSkill, SkillLevelData } from '@struct/Operator/DetailedSkill'
 import { AttackRange } from '@struct/Operator/AttackRange';
 import { Operator } from '@struct/Operator/Char';
 import { Nullable, waitAsync, get2dArraySize } from '@utils/utils';
-import {AnimationFunctions, AppearDisappear} from "@utils/anims";
+import { AnimationFunctions, AppearDisappear } from "@utils/anims";
+import { MaterialDescComponent } from "@root/src/app/material-desc/material-desc.component";
 
 const appearDisappear = AppearDisappear('0.3s ' + AnimationFunctions.Forceful);
 
@@ -146,8 +147,17 @@ implements OnInit, OnChanges, OnDestroy, AfterViewChecked {
         });
     }
 
+    matDescAvailable = true;
+    private _matDescWaitTimeout = -1;
     handleSkillLevelChange(input: HTMLInputElement, event?: Event)
     {
+        this.matDescAvailable = false;
+        if (this._matDescWaitTimeout !== -1)
+            clearTimeout(this._matDescWaitTimeout);
+        this._matDescWaitTimeout = setTimeout(() => {
+            this.matDescAvailable = true;
+            this._matDescWaitTimeout = -1;
+        }, 500);
         if (event instanceof WheelEvent)
         {
             if (event.deltaY < 0)
@@ -230,5 +240,21 @@ implements OnInit, OnChanges, OnDestroy, AfterViewChecked {
     toggleSkillMatExpanded(override?: boolean)
     {
         this.skillMatUIExpanded = override ?? !this.skillMatUIExpanded;
+    }
+
+    onItemDescHover(el: MaterialDescComponent)
+    {
+        if (el.expanded)
+            el.suggestionVisible = true;
+        else el.hoverTimeout = setTimeout(() => {
+            el.suggestionVisible = true;
+        }, 700);
+    }
+    onItemDescLeave(el: MaterialDescComponent)
+    {
+        // if (el.expanded) return;
+        el.suggestionVisible = false;
+        clearTimeout(el.hoverTimeout);
+        el.hoverTimeout = -1;
     }
 }

@@ -20,12 +20,27 @@ if [[ ! -d 'json' ]]; then
 	echo "mkdir json"
 	mkdir "json"
 fi
+
+#PENGUINSTATS_PREFETCH=false
+read -p "Prefetch PenguinStats? (y/n) " -n 1 -r
+echo
+if [[ $REPLY =~ ^[Yy]$ ]]; then
+#    PENGUINSTATS_PREFETCH=true
+    echo "tsc PenguinStats.ts --target esnext --module commonjs --moduleResolution node --esmoduleInterop true"
+    tsc PenguinStats.ts --target esnext --module commonjs --moduleResolution node --esmoduleInterop true
+    echo "node PenguinStats.js"
+    node PenguinStats.js
+fi
+
 echo "tsc Parser --target esnext --module commonjs --moduleResolution node --esmoduleInterop true"
 tsc Parser.ts --target esnext --module commonjs --moduleResolution node --esmoduleInterop true
 echo "tsc Operator.list.parser.ts --target esnext --module commonjs --moduleResolution node --esmoduleInterop true"
 tsc Operator.list.parser.ts --target esnext --module commonjs --moduleResolution node --esmoduleInterop true
 echo "tsc ConcatAllObj(Operator) --target esnext --module commonjs --moduleResolution node --esmoduleInterop true"
 tsc 'ConcatAllObj(Operator).ts' --target esnext --module commonjs --moduleResolution node --esmoduleInterop true
+#if [[ $PENGUINSTATS_PREFETCH == true ]]; then
+#
+#fi
 echo "node Parser"
 node Parser.js
 echo "node ConcatAllObj(Operator)"

@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Meta } from '@angular/platform-browser';
-import {FormControl} from "@angular/forms";
+import { FormControl } from "@angular/forms";
 
 @Injectable({
   providedIn: 'root'

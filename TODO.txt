@@ -5,6 +5,7 @@
 [add] some how get operator gender from aceship
 [bug] slider input changes ref index [operators -> skills]
 [add] tag style interpolation [named_effects.json]
+[improve] also use interpolation on operators#MainInfo
 ------------------------------
 [~ongoing]
 [add] operator skill pages
@@ -18,7 +19,6 @@
 [bug] unhandled OnExpire of XMLService
 [add] unified logger service instead of console
 [improve] modularize pages
-[improve] also use interpolation on operators#MainInfo
 [add | 1.1.x-operators] offline support (indexedDB)
 [add] reusable image components
 [change] update intro sequence
