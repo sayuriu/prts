@@ -105,6 +105,7 @@ export function PenguinParse(baseGameLocalePath: string)
         {
             Logger.info(header, `Writing ${itemId}`, false);
             try {
+                //! This call is async, log will never hit
                 writeJSON(joinPaths(outPath, itemId + '.json'), out[itemId]);
                 Logger.green('done\n');
             } catch (err) {

@@ -1,4 +1,960 @@
 {
+	"act9d0_01": {
+		"code": "DM-1",
+		"name": "埋蔵"
+	},
+	"act9d0_02": {
+		"code": "DM-2",
+		"name": "偶然"
+	},
+	"act9d0_03": {
+		"code": "DM-3",
+		"name": "圧迫"
+	},
+	"act9d0_04": {
+		"code": "DM-4",
+		"name": "進軍"
+	},
+	"act9d0_05": {
+		"code": "DM-5",
+		"name": "軍旗"
+	},
+	"act9d0_06": {
+		"code": "DM-6",
+		"name": "遁走"
+	},
+	"act9d0_07": {
+		"code": "DM-7",
+		"name": "亀裂"
+	},
+	"act9d0_08": {
+		"code": "DM-8",
+		"name": "離散"
+	},
+	"act9d0_st01": {
+		"code": "DM-ST-1",
+		"name": "生存"
+	},
+	"act9d0_ex01": {
+		"code": "DM-EX-1",
+		"name": "交戦"
+	},
+	"act9d0_ex01#f#": {
+		"code": "DM-EX-1",
+		"name": "交戦"
+	},
+	"act9d0_ex02": {
+		"code": "DM-EX-2",
+		"name": "爆破"
+	},
+	"act9d0_ex02#f#": {
+		"code": "DM-EX-2",
+		"name": "爆破"
+	},
+	"act9d0_ex03": {
+		"code": "DM-EX-3",
+		"name": "突進"
+	},
+	"act9d0_ex03#f#": {
+		"code": "DM-EX-3",
+		"name": "突進"
+	},
+	"act9d0_ex04": {
+		"code": "DM-EX-4",
+		"name": "審判"
+	},
+	"act9d0_ex04#f#": {
+		"code": "DM-EX-4",
+		"name": "審判"
+	},
+	"act9d0_ex05": {
+		"code": "DM-EX-5",
+		"name": "軍備"
+	},
+	"act9d0_ex05#f#": {
+		"code": "DM-EX-5",
+		"name": "軍備"
+	},
+	"act9d0_ex06": {
+		"code": "DM-EX-6",
+		"name": "対流"
+	},
+	"act9d0_ex06#f#": {
+		"code": "DM-EX-6",
+		"name": "対流"
+	},
+	"act9d0_mo01": {
+		"code": "DM-MO-1",
+		"name": "ターバ村"
+	},
+	"act18d0_01": {
+		"code": "WD-1",
+		"name": "包囲されたレッドホーン"
+	},
+	"act18d0_tr01": {
+		"code": "WD-TR-1",
+		"name": "空中支援対応訓練"
+	},
+	"act18d0_02": {
+		"code": "WD-2",
+		"name": "オアシスの霹靂"
+	},
+	"act18d0_03": {
+		"code": "WD-3",
+		"name": "サボテンの丘"
+	},
+	"act18d0_04": {
+		"code": "WD-4",
+		"name": "鳴砂阻止戦"
+	},
+	"act18d0_st01": {
+		"code": "WD-ST-1",
+		"name": "パインリリー"
+	},
+	"act18d0_05": {
+		"code": "WD-5",
+		"name": "沁礁の地"
+	},
+	"act18d0_06": {
+		"code": "WD-6",
+		"name": "パーディシャーの夢"
+	},
+	"act18d0_07": {
+		"code": "WD-7",
+		"name": "故郷"
+	},
+	"act18d0_08": {
+		"code": "WD-8",
+		"name": "大雪来たれり"
+	},
+	"act18d0_st02": {
+		"code": "WD-ST-2",
+		"name": "異郷より来る者"
+	},
+	"act18d0_ex01": {
+		"code": "WD-EX-1",
+		"name": "群獣戦術"
+	},
+	"act18d0_ex01#f#": {
+		"code": "WD-EX-1",
+		"name": "群獣戦術"
+	},
+	"act18d0_ex02": {
+		"code": "WD-EX-2",
+		"name": "両面戦線"
+	},
+	"act18d0_ex02#f#": {
+		"code": "WD-EX-2",
+		"name": "両面戦線"
+	},
+	"act18d0_ex03": {
+		"code": "WD-EX-3",
+		"name": "遠距離攻撃"
+	},
+	"act18d0_ex03#f#": {
+		"code": "WD-EX-3",
+		"name": "遠距離攻撃"
+	},
+	"act18d0_ex04": {
+		"code": "WD-EX-4",
+		"name": "強行突入"
+	},
+	"act18d0_ex04#f#": {
+		"code": "WD-EX-4",
+		"name": "強行突入"
+	},
+	"act18d0_ex05": {
+		"code": "WD-EX-5",
+		"name": "十字砲火支援"
+	},
+	"act18d0_ex05#f#": {
+		"code": "WD-EX-5",
+		"name": "十字砲火支援"
+	},
+	"act18d0_ex06": {
+		"code": "WD-EX-6",
+		"name": "小隊長"
+	},
+	"act18d0_ex06#f#": {
+		"code": "WD-EX-6",
+		"name": "小隊長"
+	},
+	"act18d0_ex07": {
+		"code": "WD-EX-7",
+		"name": "熟練"
+	},
+	"act18d0_ex07#f#": {
+		"code": "WD-EX-7",
+		"name": "熟練"
+	},
+	"act18d0_ex08": {
+		"code": "WD-EX-8",
+		"name": "帝国の影の如く"
+	},
+	"act18d0_ex08#f#": {
+		"code": "WD-EX-8",
+		"name": "帝国の影の如く"
+	},
+	"act18d3_01": {
+		"code": "SV-1",
+		"name": "侵入者"
+	},
+	"act18d3_tr01": {
+		"code": "SV-TR-1",
+		"name": "痛みの増幅"
+	},
+	"act18d3_02": {
+		"code": "SV-2",
+		"name": "歌い手"
+	},
+	"act18d3_03": {
+		"code": "SV-3",
+		"name": "異邦人"
+	},
+	"act18d3_04": {
+		"code": "SV-4",
+		"name": "海洋"
+	},
+	"act18d3_05": {
+		"code": "SV-5",
+		"name": "捨て去られし者"
+	},
+	"act18d3_06": {
+		"code": "SV-6",
+		"name": "拒食"
+	},
+	"act18d3_07": {
+		"code": "SV-7",
+		"name": "守護者"
+	},
+	"act18d3_st01": {
+		"code": "SV-ST-1",
+		"name": "呼び起こされし悪夢"
+	},
+	"act18d3_08": {
+		"code": "SV-8",
+		"name": "血族"
+	},
+	"act18d3_09": {
+		"code": "SV-9",
+		"name": "信仰者"
+	},
+	"act18d3_st02": {
+		"code": "SV-ST-2",
+		"name": "出国の許し"
+	},
+	"act18d3_ex01": {
+		"code": "SV-EX-1",
+		"name": "噴出"
+	},
+	"act18d3_ex01#f#": {
+		"code": "SV-EX-1",
+		"name": "噴出"
+	},
+	"act18d3_ex02": {
+		"code": "SV-EX-2",
+		"name": "迅速な失敗"
+	},
+	"act18d3_ex02#f#": {
+		"code": "SV-EX-2",
+		"name": "迅速な失敗"
+	},
+	"act18d3_ex03": {
+		"code": "SV-EX-3",
+		"name": "触らぬ魚に祟りなし"
+	},
+	"act18d3_ex03#f#": {
+		"code": "SV-EX-3",
+		"name": "触らぬ魚に祟りなし"
+	},
+	"act18d3_ex04": {
+		"code": "SV-EX-4",
+		"name": "崩壊寸前"
+	},
+	"act18d3_ex04#f#": {
+		"code": "SV-EX-4",
+		"name": "崩壊寸前"
+	},
+	"act18d3_ex05": {
+		"code": "SV-EX-5",
+		"name": "氾濫"
+	},
+	"act18d3_ex05#f#": {
+		"code": "SV-EX-5",
+		"name": "氾濫"
+	},
+	"act18d3_ex06": {
+		"code": "SV-EX-6",
+		"name": "鋭利なる肢体"
+	},
+	"act18d3_ex06#f#": {
+		"code": "SV-EX-6",
+		"name": "鋭利なる肢体"
+	},
+	"act18d3_ex07": {
+		"code": "SV-EX-7",
+		"name": "相容れぬ"
+	},
+	"act18d3_ex07#f#": {
+		"code": "SV-EX-7",
+		"name": "相容れぬ"
+	},
+	"act18d3_ex08": {
+		"code": "SV-EX-8",
+		"name": "自由意志"
+	},
+	"act18d3_ex08#f#": {
+		"code": "SV-EX-8",
+		"name": "自由意志"
+	},
+	"a001_01": {
+		"code": "GT-1",
+		"name": "真昼の太陽"
+	},
+	"a001_02": {
+		"code": "GT-2",
+		"name": "八方美人"
+	},
+	"a001_03": {
+		"code": "GT-3",
+		"name": "思わぬ旅"
+	},
+	"a001_04": {
+		"code": "GT-4",
+		"name": "共犯証言"
+	},
+	"a001_05": {
+		"code": "GT-5",
+		"name": "話が平行線"
+	},
+	"a001_06": {
+		"code": "GT-6",
+		"name": "黄金三角"
+	},
+	"a001_ex01": {
+		"code": "GT-EX-1",
+		"name": "青天霹靂"
+	},
+	"a001_ex02": {
+		"code": "GT-EX-2",
+		"name": "余生孤独"
+	},
+	"a001_ex03": {
+		"code": "GT-EX-3",
+		"name": "狼と踊る"
+	},
+	"a001_ex04": {
+		"code": "GT-HX-1",
+		"name": "碧血金砂"
+	},
+	"a001_ex04#f#": {
+		"code": "GT-HX-1",
+		"name": "碧血金砂"
+	},
+	"a001_ex05": {
+		"code": "GT-HX-2",
+		"name": "百舎重繭"
+	},
+	"a001_ex05#f#": {
+		"code": "GT-HX-2",
+		"name": "百舎重繭"
+	},
+	"a001_ex06": {
+		"code": "GT-HX-3",
+		"name": "昔々西部で"
+	},
+	"a001_ex06#f#": {
+		"code": "GT-HX-3",
+		"name": "昔々西部で"
+	},
+	"a003_st01": {
+		"code": "OF-ST1",
+		"name": "ROCK'N'ROLL"
+	},
+	"a003_01": {
+		"code": "OF-1",
+		"name": "Made in Volcano"
+	},
+	"a003_st02": {
+		"code": "OF-ST2",
+		"name": "ブレイクフリー"
+	},
+	"a003_02": {
+		"code": "OF-2",
+		"name": "ステージ続行"
+	},
+	"a003_03": {
+		"code": "OF-3",
+		"name": "徒競走"
+	},
+	"a003_04": {
+		"code": "OF-4",
+		"name": "ザ・ジェネラル"
+	},
+	"a003_st03": {
+		"code": "OF-ST3",
+		"name": "圧力の下"
+	},
+	"a003_05": {
+		"code": "OF-5",
+		"name": "止めないで"
+	},
+	"a003_06": {
+		"code": "OF-6",
+		"name": "キラークイーン"
+	},
+	"a003_st04": {
+		"code": "OF-ST4",
+		"name": "愛する者"
+	},
+	"a003_07": {
+		"code": "OF-7",
+		"name": "下される鉄槌"
+	},
+	"a003_08": {
+		"code": "OF-8",
+		"name": "シエスタ狂想曲"
+	},
+	"a003_st05": {
+		"code": "OF-ST5",
+		"name": "生涯の愛"
+	},
+	"a003_f01": {
+		"code": "OF-F1",
+		"name": "水上すべり台"
+	},
+	"a003_f02": {
+		"code": "OF-F2",
+		"name": "激流下り"
+	},
+	"a003_f03": {
+		"code": "OF-F3",
+		"name": "メリーゴーランド"
+	},
+	"a003_f04": {
+		"code": "OF-F4",
+		"name": "火山登攀"
+	},
+	"a003_ex01": {
+		"code": "OF-EX1",
+		"name": "ウォームアップ"
+	},
+	"a003_ex01#f#": {
+		"code": "OF-EX1",
+		"name": "ウォームアップ"
+	},
+	"a003_ex02": {
+		"code": "OF-EX2",
+		"name": "盛大なる幕開け"
+	},
+	"a003_ex02#f#": {
+		"code": "OF-EX2",
+		"name": "盛大なる幕開け"
+	},
+	"a003_ex03": {
+		"code": "OF-EX3",
+		"name": "MCタイム"
+	},
+	"a003_ex03#f#": {
+		"code": "OF-EX3",
+		"name": "MCタイム"
+	},
+	"a003_ex04": {
+		"code": "OF-EX4",
+		"name": "佳境へ"
+	},
+	"a003_ex04#f#": {
+		"code": "OF-EX4",
+		"name": "佳境へ"
+	},
+	"a003_ex05": {
+		"code": "OF-EX5",
+		"name": "クライマックス"
+	},
+	"a003_ex05#f#": {
+		"code": "OF-EX5",
+		"name": "クライマックス"
+	},
+	"a003_ex06": {
+		"code": "OF-EX6",
+		"name": "完璧なる幕引き"
+	},
+	"a003_ex06#f#": {
+		"code": "OF-EX6",
+		"name": "完璧なる幕引き"
+	},
+	"act11d7_st01": {
+		"code": "OF-ST6",
+		"name": "潮音との邂逅"
+	},
+	"act5d0_01": {
+		"code": "CB-1",
+		"name": "6:44P.M."
+	},
+	"act5d0_02": {
+		"code": "CB-2",
+		"name": "7:15P.M."
+	},
+	"act5d0_03": {
+		"code": "CB-3",
+		"name": "7:22P.M."
+	},
+	"act5d0_04": {
+		"code": "CB-4",
+		"name": "7:59P.M."
+	},
+	"act5d0_05": {
+		"code": "CB-5",
+		"name": "8:31P.M."
+	},
+	"act5d0_st01": {
+		"code": "CB-ST1",
+		"name": "風吹く夜"
+	},
+	"act5d0_06": {
+		"code": "CB-6",
+		"name": "10:26P.M."
+	},
+	"act5d0_07": {
+		"code": "CB-7",
+		"name": "11:08P.M."
+	},
+	"act5d0_08": {
+		"code": "CB-8",
+		"name": "11:41P.M."
+	},
+	"act5d0_st02": {
+		"code": "CB-ST2",
+		"name": "龍門深夜"
+	},
+	"act5d0_09": {
+		"code": "CB-9",
+		"name": "0:01A.M."
+	},
+	"act5d0_10": {
+		"code": "CB-10",
+		"name": "1:11A.M."
+	},
+	"act5d0_st03": {
+		"code": "CB-ST3",
+		"name": "黎明の刻"
+	},
+	"act5d0_ex01": {
+		"code": "CB-EX1",
+		"name": "集団戦の秘訣"
+	},
+	"act5d0_ex01#f#": {
+		"code": "CB-EX1",
+		"name": "集団戦の秘訣"
+	},
+	"act5d0_ex02": {
+		"code": "CB-EX2",
+		"name": "南轅北轍"
+	},
+	"act5d0_ex02#f#": {
+		"code": "CB-EX2",
+		"name": "南轅北轍"
+	},
+	"act5d0_ex03": {
+		"code": "CB-EX3",
+		"name": "林中小屋"
+	},
+	"act5d0_ex03#f#": {
+		"code": "CB-EX3",
+		"name": "林中小屋"
+	},
+	"act5d0_ex04": {
+		"code": "CB-EX4",
+		"name": "工事現場"
+	},
+	"act5d0_ex04#f#": {
+		"code": "CB-EX4",
+		"name": "工事現場"
+	},
+	"act5d0_ex05": {
+		"code": "CB-EX5",
+		"name": "十字路"
+	},
+	"act5d0_ex05#f#": {
+		"code": "CB-EX5",
+		"name": "十字路"
+	},
+	"act5d0_ex06": {
+		"code": "CB-EX6",
+		"name": "全面衝突"
+	},
+	"act5d0_ex06#f#": {
+		"code": "CB-EX6",
+		"name": "全面衝突"
+	},
+	"act5d0_ex07": {
+		"code": "CB-EX7",
+		"name": "朝練の時間"
+	},
+	"act5d0_ex07#f#": {
+		"code": "CB-EX7",
+		"name": "朝練の時間"
+	},
+	"act5d0_ex08": {
+		"code": "CB-EX8",
+		"name": "日常"
+	},
+	"act5d0_ex08#f#": {
+		"code": "CB-EX8",
+		"name": "日常"
+	},
+	"act11d0_st01": {
+		"code": "TW-ST-1",
+		"name": "オークの老樹の下で"
+	},
+	"act11d0_01": {
+		"code": "TW-1",
+		"name": "黙して語らず"
+	},
+	"act11d0_02": {
+		"code": "TW-2",
+		"name": "反乱の前哨"
+	},
+	"act11d0_tr01": {
+		"code": "TW-TR-1",
+		"name": "装置争奪"
+	},
+	"act11d0_03": {
+		"code": "TW-3",
+		"name": "高塔の花火"
+	},
+	"act11d0_04": {
+		"code": "TW-4",
+		"name": "復讐の魂"
+	},
+	"act11d0_05": {
+		"code": "TW-5",
+		"name": "冬霊挽歌"
+	},
+	"act11d0_06": {
+		"code": "TW-6",
+		"name": "蔓延する怒り"
+	},
+	"act11d0_07": {
+		"code": "TW-7",
+		"name": "山脈の崩落"
+	},
+	"act11d0_08": {
+		"code": "TW-8",
+		"name": "月光の零落"
+	},
+	"act11d0_st02": {
+		"code": "TW-ST-2",
+		"name": "燃え滓の上で"
+	},
+	"act11d0_s01": {
+		"code": "TW-S-1",
+		"name": "三体の巨像"
+	},
+	"act11d0_s01#f#": {
+		"code": "TW-S-1",
+		"name": "三体の巨像"
+	},
+	"act11d0_s02": {
+		"code": "TW-S-2",
+		"name": "一束の哀悼"
+	},
+	"act11d0_s02#f#": {
+		"code": "TW-S-2",
+		"name": "一束の哀悼"
+	},
+	"act11d0_ex01": {
+		"code": "TW-EX-1",
+		"name": "外周警備"
+	},
+	"act11d0_ex01#f#": {
+		"code": "TW-EX-1",
+		"name": "外周警備"
+	},
+	"act11d0_ex02": {
+		"code": "TW-EX-2",
+		"name": "歩みを止める"
+	},
+	"act11d0_ex02#f#": {
+		"code": "TW-EX-2",
+		"name": "歩みを止める"
+	},
+	"act11d0_ex03": {
+		"code": "TW-EX-3",
+		"name": "街の僻地"
+	},
+	"act11d0_ex03#f#": {
+		"code": "TW-EX-3",
+		"name": "街の僻地"
+	},
+	"act11d0_ex04": {
+		"code": "TW-EX-4",
+		"name": "メロディー戦線"
+	},
+	"act11d0_ex04#f#": {
+		"code": "TW-EX-4",
+		"name": "メロディー戦線"
+	},
+	"act11d0_ex05": {
+		"code": "TW-EX-5",
+		"name": "集中防御"
+	},
+	"act11d0_ex05#f#": {
+		"code": "TW-EX-5",
+		"name": "集中防御"
+	},
+	"act11d0_ex06": {
+		"code": "TW-EX-6",
+		"name": "広場の戦い"
+	},
+	"act11d0_ex06#f#": {
+		"code": "TW-EX-6",
+		"name": "広場の戦い"
+	},
+	"act11d0_ex07": {
+		"code": "TW-EX-7",
+		"name": "各個撃破"
+	},
+	"act11d0_ex07#f#": {
+		"code": "TW-EX-7",
+		"name": "各個撃破"
+	},
+	"act11d0_ex08": {
+		"code": "TW-EX-8",
+		"name": "遠方より響く足音"
+	},
+	"act11d0_ex08#f#": {
+		"code": "TW-EX-8",
+		"name": "遠方より響く足音"
+	},
+	"act11d0_mo01": {
+		"code": "TW-MO-1",
+		"name": "ウォルモンド"
+	},
+	"act12d0_01": {
+		"code": "RI-1",
+		"name": "墜落"
+	},
+	"act12d0_02": {
+		"code": "RI-2",
+		"name": "太さ比べ"
+	},
+	"act12d0_tr01": {
+		"code": "RI-TR-1",
+		"name": "おばけ茸"
+	},
+	"act12d0_03": {
+		"code": "RI-3",
+		"name": "昔話"
+	},
+	"act12d0_04": {
+		"code": "RI-4",
+		"name": "機械獣の咆哮"
+	},
+	"act12d0_st01": {
+		"code": "RI-ST-1",
+		"name": "密林の長"
+	},
+	"act12d0_05": {
+		"code": "RI-5",
+		"name": "それぞれの長所"
+	},
+	"act12d0_06": {
+		"code": "RI-6",
+		"name": "邂逅"
+	},
+	"act12d0_st02": {
+		"code": "RI-ST-2",
+		"name": "憩いのひと時"
+	},
+	"act12d0_07": {
+		"code": "RI-7",
+		"name": "先客"
+	},
+	"act12d0_08": {
+		"code": "RI-8",
+		"name": "ガヴィルの拳"
+	},
+	"act12d0_09": {
+		"code": "RI-9",
+		"name": "さらば密林"
+	},
+	"act12d0_ex01": {
+		"code": "RI-EX-1",
+		"name": "東に声して西を撃つ"
+	},
+	"act12d0_ex01#f#": {
+		"code": "RI-EX-1",
+		"name": "東に声して西を撃つ"
+	},
+	"act12d0_ex02": {
+		"code": "RI-EX-2",
+		"name": "徘徊"
+	},
+	"act12d0_ex02#f#": {
+		"code": "RI-EX-2",
+		"name": "徘徊"
+	},
+	"act12d0_ex03": {
+		"code": "RI-EX-3",
+		"name": "ひしめくおばけ茸"
+	},
+	"act12d0_ex03#f#": {
+		"code": "RI-EX-3",
+		"name": "ひしめくおばけ茸"
+	},
+	"act12d0_ex04": {
+		"code": "RI-EX-4",
+		"name": "板挟み"
+	},
+	"act12d0_ex04#f#": {
+		"code": "RI-EX-4",
+		"name": "板挟み"
+	},
+	"act12d0_ex05": {
+		"code": "RI-EX-5",
+		"name": "木陰のトラップ"
+	},
+	"act12d0_ex05#f#": {
+		"code": "RI-EX-5",
+		"name": "木陰のトラップ"
+	},
+	"act12d0_ex06": {
+		"code": "RI-EX-6",
+		"name": "激流"
+	},
+	"act12d0_ex06#f#": {
+		"code": "RI-EX-6",
+		"name": "激流"
+	},
+	"act12d0_ex07": {
+		"code": "RI-EX-7",
+		"name": "ぬかるみ"
+	},
+	"act12d0_ex07#f#": {
+		"code": "RI-EX-7",
+		"name": "ぬかるみ"
+	},
+	"act12d0_ex08": {
+		"code": "RI-EX-8",
+		"name": "鰐突猛進"
+	},
+	"act12d0_ex08#f#": {
+		"code": "RI-EX-8",
+		"name": "鰐突猛進"
+	},
+	"act13d5_st01": {
+		"code": "MN-ST-1",
+		"name": "登壇"
+	},
+	"act13d5_01": {
+		"code": "MN-1",
+		"name": "エレンズチョイス"
+	},
+	"act13d5_tr01": {
+		"code": "MN-TR-1",
+		"name": "練習試合"
+	},
+	"act13d5_02": {
+		"code": "MN-2",
+		"name": "ロアーガード"
+	},
+	"act13d5_03": {
+		"code": "MN-3",
+		"name": "ローズ新聞"
+	},
+	"act13d5_04": {
+		"code": "MN-4",
+		"name": "グローリーシールド"
+	},
+	"act13d5_05": {
+		"code": "MN-5",
+		"name": "スウォマー食品"
+	},
+	"act13d5_06": {
+		"code": "MN-6",
+		"name": "ブルーイヤー酒造"
+	},
+	"act13d5_07": {
+		"code": "MN-7",
+		"name": "ミェシュコグループ"
+	},
+	"act13d5_st02": {
+		"code": "MN-ST-2",
+		"name": "ワイングラス"
+	},
+	"act13d5_08": {
+		"code": "MN-8",
+		"name": "商業連合会"
+	},
+	"act13d5_st03": {
+		"code": "MN-ST-3",
+		"name": "静かなる旅立ち"
+	},
+	"act13d5_ex01": {
+		"code": "MN-EX-1",
+		"name": "通電試験"
+	},
+	"act13d5_ex01#f#": {
+		"code": "MN-EX-1",
+		"name": "通電試験"
+	},
+	"act13d5_ex02": {
+		"code": "MN-EX-2",
+		"name": "氷河スタジアム"
+	},
+	"act13d5_ex02#f#": {
+		"code": "MN-EX-2",
+		"name": "氷河スタジアム"
+	},
+	"act13d5_ex03": {
+		"code": "MN-EX-3",
+		"name": "VIP専用通路"
+	},
+	"act13d5_ex03#f#": {
+		"code": "MN-EX-3",
+		"name": "VIP専用通路"
+	},
+	"act13d5_ex04": {
+		"code": "MN-EX-4",
+		"name": "左から右から"
+	},
+	"act13d5_ex04#f#": {
+		"code": "MN-EX-4",
+		"name": "左から右から"
+	},
+	"act13d5_ex05": {
+		"code": "MN-EX-5",
+		"name": "声なき合唱"
+	},
+	"act13d5_ex05#f#": {
+		"code": "MN-EX-5",
+		"name": "声なき合唱"
+	},
+	"act13d5_ex06": {
+		"code": "MN-EX-6",
+		"name": "爆弾迷宮"
+	},
+	"act13d5_ex06#f#": {
+		"code": "MN-EX-6",
+		"name": "爆弾迷宮"
+	},
+	"act13d5_ex07": {
+		"code": "MN-EX-7",
+		"name": "左腕の戦い"
+	},
+	"act13d5_ex07#f#": {
+		"code": "MN-EX-7",
+		"name": "左腕の戦い"
+	},
+	"act13d5_ex08": {
+		"code": "MN-EX-8",
+		"name": "古の対決"
+	},
+	"act13d5_ex08#f#": {
+		"code": "MN-EX-8",
+		"name": "古の対決"
+	},
 	"main_00-01": {
 		"code": "0-1",
 		"name": "崩落"
@@ -1855,226 +2811,6 @@
 		"code": "PL-5",
 		"name": "盟友"
 	},
-	"act18d3_01": {
-		"code": "SV-1",
-		"name": "侵入者"
-	},
-	"act18d3_tr01": {
-		"code": "SV-TR-1",
-		"name": "痛みの増幅"
-	},
-	"act18d3_02": {
-		"code": "SV-2",
-		"name": "歌い手"
-	},
-	"act18d3_03": {
-		"code": "SV-3",
-		"name": "異邦人"
-	},
-	"act18d3_04": {
-		"code": "SV-4",
-		"name": "海洋"
-	},
-	"act18d3_05": {
-		"code": "SV-5",
-		"name": "捨て去られし者"
-	},
-	"act18d3_06": {
-		"code": "SV-6",
-		"name": "拒食"
-	},
-	"act18d3_07": {
-		"code": "SV-7",
-		"name": "守護者"
-	},
-	"act18d3_st01": {
-		"code": "SV-ST-1",
-		"name": "呼び起こされし悪夢"
-	},
-	"act18d3_08": {
-		"code": "SV-8",
-		"name": "血族"
-	},
-	"act18d3_09": {
-		"code": "SV-9",
-		"name": "信仰者"
-	},
-	"act18d3_st02": {
-		"code": "SV-ST-2",
-		"name": "出国の許し"
-	},
-	"act18d3_ex01": {
-		"code": "SV-EX-1",
-		"name": "噴出"
-	},
-	"act18d3_ex01#f#": {
-		"code": "SV-EX-1",
-		"name": "噴出"
-	},
-	"act18d3_ex02": {
-		"code": "SV-EX-2",
-		"name": "迅速な失敗"
-	},
-	"act18d3_ex02#f#": {
-		"code": "SV-EX-2",
-		"name": "迅速な失敗"
-	},
-	"act18d3_ex03": {
-		"code": "SV-EX-3",
-		"name": "触らぬ魚に祟りなし"
-	},
-	"act18d3_ex03#f#": {
-		"code": "SV-EX-3",
-		"name": "触らぬ魚に祟りなし"
-	},
-	"act18d3_ex04": {
-		"code": "SV-EX-4",
-		"name": "崩壊寸前"
-	},
-	"act18d3_ex04#f#": {
-		"code": "SV-EX-4",
-		"name": "崩壊寸前"
-	},
-	"act18d3_ex05": {
-		"code": "SV-EX-5",
-		"name": "氾濫"
-	},
-	"act18d3_ex05#f#": {
-		"code": "SV-EX-5",
-		"name": "氾濫"
-	},
-	"act18d3_ex06": {
-		"code": "SV-EX-6",
-		"name": "鋭利なる肢体"
-	},
-	"act18d3_ex06#f#": {
-		"code": "SV-EX-6",
-		"name": "鋭利なる肢体"
-	},
-	"act18d3_ex07": {
-		"code": "SV-EX-7",
-		"name": "相容れぬ"
-	},
-	"act18d3_ex07#f#": {
-		"code": "SV-EX-7",
-		"name": "相容れぬ"
-	},
-	"act18d3_ex08": {
-		"code": "SV-EX-8",
-		"name": "自由意志"
-	},
-	"act18d3_ex08#f#": {
-		"code": "SV-EX-8",
-		"name": "自由意志"
-	},
-	"act18d0_01": {
-		"code": "WD-1",
-		"name": "包囲されたレッドホーン"
-	},
-	"act18d0_tr01": {
-		"code": "WD-TR-1",
-		"name": "空中支援対応訓練"
-	},
-	"act18d0_02": {
-		"code": "WD-2",
-		"name": "オアシスの霹靂"
-	},
-	"act18d0_03": {
-		"code": "WD-3",
-		"name": "サボテンの丘"
-	},
-	"act18d0_04": {
-		"code": "WD-4",
-		"name": "鳴砂阻止戦"
-	},
-	"act18d0_st01": {
-		"code": "WD-ST-1",
-		"name": "パインリリー"
-	},
-	"act18d0_05": {
-		"code": "WD-5",
-		"name": "沁礁の地"
-	},
-	"act18d0_06": {
-		"code": "WD-6",
-		"name": "パーディシャーの夢"
-	},
-	"act18d0_07": {
-		"code": "WD-7",
-		"name": "故郷"
-	},
-	"act18d0_08": {
-		"code": "WD-8",
-		"name": "大雪来たれり"
-	},
-	"act18d0_st02": {
-		"code": "WD-ST-2",
-		"name": "異郷より来る者"
-	},
-	"act18d0_ex01": {
-		"code": "WD-EX-1",
-		"name": "群獣戦術"
-	},
-	"act18d0_ex01#f#": {
-		"code": "WD-EX-1",
-		"name": "群獣戦術"
-	},
-	"act18d0_ex02": {
-		"code": "WD-EX-2",
-		"name": "両面戦線"
-	},
-	"act18d0_ex02#f#": {
-		"code": "WD-EX-2",
-		"name": "両面戦線"
-	},
-	"act18d0_ex03": {
-		"code": "WD-EX-3",
-		"name": "遠距離攻撃"
-	},
-	"act18d0_ex03#f#": {
-		"code": "WD-EX-3",
-		"name": "遠距離攻撃"
-	},
-	"act18d0_ex04": {
-		"code": "WD-EX-4",
-		"name": "強行突入"
-	},
-	"act18d0_ex04#f#": {
-		"code": "WD-EX-4",
-		"name": "強行突入"
-	},
-	"act18d0_ex05": {
-		"code": "WD-EX-5",
-		"name": "十字砲火支援"
-	},
-	"act18d0_ex05#f#": {
-		"code": "WD-EX-5",
-		"name": "十字砲火支援"
-	},
-	"act18d0_ex06": {
-		"code": "WD-EX-6",
-		"name": "小隊長"
-	},
-	"act18d0_ex06#f#": {
-		"code": "WD-EX-6",
-		"name": "小隊長"
-	},
-	"act18d0_ex07": {
-		"code": "WD-EX-7",
-		"name": "熟練"
-	},
-	"act18d0_ex07#f#": {
-		"code": "WD-EX-7",
-		"name": "熟練"
-	},
-	"act18d0_ex08": {
-		"code": "WD-EX-8",
-		"name": "帝国の影の如く"
-	},
-	"act18d0_ex08#f#": {
-		"code": "WD-EX-8",
-		"name": "帝国の影の如く"
-	},
 	"act17d0_st01": {
 		"code": "OD-ST-1",
 		"name": "コード「ラマルク」"
@@ -2479,118 +3215,6 @@
 		"code": "MB-EX-8",
 		"name": "早い者勝ち"
 	},
-	"act13d5_st01": {
-		"code": "MN-ST-1",
-		"name": "登壇"
-	},
-	"act13d5_01": {
-		"code": "MN-1",
-		"name": "エレンズチョイス"
-	},
-	"act13d5_tr01": {
-		"code": "MN-TR-1",
-		"name": "練習試合"
-	},
-	"act13d5_02": {
-		"code": "MN-2",
-		"name": "ロアーガード"
-	},
-	"act13d5_03": {
-		"code": "MN-3",
-		"name": "ローズ新聞"
-	},
-	"act13d5_04": {
-		"code": "MN-4",
-		"name": "グローリーシールド"
-	},
-	"act13d5_05": {
-		"code": "MN-5",
-		"name": "スウォマー食品"
-	},
-	"act13d5_06": {
-		"code": "MN-6",
-		"name": "ブルーイヤー酒造"
-	},
-	"act13d5_07": {
-		"code": "MN-7",
-		"name": "ミェシュコグループ"
-	},
-	"act13d5_st02": {
-		"code": "MN-ST-2",
-		"name": "ワイングラス"
-	},
-	"act13d5_08": {
-		"code": "MN-8",
-		"name": "商業連合会"
-	},
-	"act13d5_st03": {
-		"code": "MN-ST-3",
-		"name": "静かなる旅立ち"
-	},
-	"act13d5_ex01": {
-		"code": "MN-EX-1",
-		"name": "通電試験"
-	},
-	"act13d5_ex01#f#": {
-		"code": "MN-EX-1",
-		"name": "通電試験"
-	},
-	"act13d5_ex02": {
-		"code": "MN-EX-2",
-		"name": "氷河スタジアム"
-	},
-	"act13d5_ex02#f#": {
-		"code": "MN-EX-2",
-		"name": "氷河スタジアム"
-	},
-	"act13d5_ex03": {
-		"code": "MN-EX-3",
-		"name": "VIP専用通路"
-	},
-	"act13d5_ex03#f#": {
-		"code": "MN-EX-3",
-		"name": "VIP専用通路"
-	},
-	"act13d5_ex04": {
-		"code": "MN-EX-4",
-		"name": "左から右から"
-	},
-	"act13d5_ex04#f#": {
-		"code": "MN-EX-4",
-		"name": "左から右から"
-	},
-	"act13d5_ex05": {
-		"code": "MN-EX-5",
-		"name": "声なき合唱"
-	},
-	"act13d5_ex05#f#": {
-		"code": "MN-EX-5",
-		"name": "声なき合唱"
-	},
-	"act13d5_ex06": {
-		"code": "MN-EX-6",
-		"name": "爆弾迷宮"
-	},
-	"act13d5_ex06#f#": {
-		"code": "MN-EX-6",
-		"name": "爆弾迷宮"
-	},
-	"act13d5_ex07": {
-		"code": "MN-EX-7",
-		"name": "左腕の戦い"
-	},
-	"act13d5_ex07#f#": {
-		"code": "MN-EX-7",
-		"name": "左腕の戦い"
-	},
-	"act13d5_ex08": {
-		"code": "MN-EX-8",
-		"name": "古の対決"
-	},
-	"act13d5_ex08#f#": {
-		"code": "MN-EX-8",
-		"name": "古の対決"
-	},
 	"act13d0_01": {
 		"code": "FA-1",
 		"name": "慢性中毒"
@@ -2654,338 +3278,6 @@
 	"act13d0_08#f#": {
 		"code": "FA-8",
 		"name": "不落の要害"
-	},
-	"act12d0_01": {
-		"code": "RI-1",
-		"name": "墜落"
-	},
-	"act12d0_02": {
-		"code": "RI-2",
-		"name": "太さ比べ"
-	},
-	"act12d0_tr01": {
-		"code": "RI-TR-1",
-		"name": "おばけ茸"
-	},
-	"act12d0_03": {
-		"code": "RI-3",
-		"name": "昔話"
-	},
-	"act12d0_04": {
-		"code": "RI-4",
-		"name": "機械獣の咆哮"
-	},
-	"act12d0_st01": {
-		"code": "RI-ST-1",
-		"name": "密林の長"
-	},
-	"act12d0_05": {
-		"code": "RI-5",
-		"name": "それぞれの長所"
-	},
-	"act12d0_06": {
-		"code": "RI-6",
-		"name": "邂逅"
-	},
-	"act12d0_st02": {
-		"code": "RI-ST-2",
-		"name": "憩いのひと時"
-	},
-	"act12d0_07": {
-		"code": "RI-7",
-		"name": "先客"
-	},
-	"act12d0_08": {
-		"code": "RI-8",
-		"name": "ガヴィルの拳"
-	},
-	"act12d0_09": {
-		"code": "RI-9",
-		"name": "さらば密林"
-	},
-	"act12d0_ex01": {
-		"code": "RI-EX-1",
-		"name": "東に声して西を撃つ"
-	},
-	"act12d0_ex01#f#": {
-		"code": "RI-EX-1",
-		"name": "東に声して西を撃つ"
-	},
-	"act12d0_ex02": {
-		"code": "RI-EX-2",
-		"name": "徘徊"
-	},
-	"act12d0_ex02#f#": {
-		"code": "RI-EX-2",
-		"name": "徘徊"
-	},
-	"act12d0_ex03": {
-		"code": "RI-EX-3",
-		"name": "ひしめくおばけ茸"
-	},
-	"act12d0_ex03#f#": {
-		"code": "RI-EX-3",
-		"name": "ひしめくおばけ茸"
-	},
-	"act12d0_ex04": {
-		"code": "RI-EX-4",
-		"name": "板挟み"
-	},
-	"act12d0_ex04#f#": {
-		"code": "RI-EX-4",
-		"name": "板挟み"
-	},
-	"act12d0_ex05": {
-		"code": "RI-EX-5",
-		"name": "木陰のトラップ"
-	},
-	"act12d0_ex05#f#": {
-		"code": "RI-EX-5",
-		"name": "木陰のトラップ"
-	},
-	"act12d0_ex06": {
-		"code": "RI-EX-6",
-		"name": "激流"
-	},
-	"act12d0_ex06#f#": {
-		"code": "RI-EX-6",
-		"name": "激流"
-	},
-	"act12d0_ex07": {
-		"code": "RI-EX-7",
-		"name": "ぬかるみ"
-	},
-	"act12d0_ex07#f#": {
-		"code": "RI-EX-7",
-		"name": "ぬかるみ"
-	},
-	"act12d0_ex08": {
-		"code": "RI-EX-8",
-		"name": "鰐突猛進"
-	},
-	"act12d0_ex08#f#": {
-		"code": "RI-EX-8",
-		"name": "鰐突猛進"
-	},
-	"act11d7_st01": {
-		"code": "OF-ST6",
-		"name": "潮音との邂逅"
-	},
-	"act9d0_01": {
-		"code": "DM-1",
-		"name": "埋蔵"
-	},
-	"act9d0_02": {
-		"code": "DM-2",
-		"name": "偶然"
-	},
-	"act9d0_03": {
-		"code": "DM-3",
-		"name": "圧迫"
-	},
-	"act9d0_04": {
-		"code": "DM-4",
-		"name": "進軍"
-	},
-	"act9d0_05": {
-		"code": "DM-5",
-		"name": "軍旗"
-	},
-	"act9d0_06": {
-		"code": "DM-6",
-		"name": "遁走"
-	},
-	"act9d0_07": {
-		"code": "DM-7",
-		"name": "亀裂"
-	},
-	"act9d0_08": {
-		"code": "DM-8",
-		"name": "離散"
-	},
-	"act9d0_st01": {
-		"code": "DM-ST-1",
-		"name": "生存"
-	},
-	"act9d0_ex01": {
-		"code": "DM-EX-1",
-		"name": "交戦"
-	},
-	"act9d0_ex01#f#": {
-		"code": "DM-EX-1",
-		"name": "交戦"
-	},
-	"act9d0_ex02": {
-		"code": "DM-EX-2",
-		"name": "爆破"
-	},
-	"act9d0_ex02#f#": {
-		"code": "DM-EX-2",
-		"name": "爆破"
-	},
-	"act9d0_ex03": {
-		"code": "DM-EX-3",
-		"name": "突進"
-	},
-	"act9d0_ex03#f#": {
-		"code": "DM-EX-3",
-		"name": "突進"
-	},
-	"act9d0_ex04": {
-		"code": "DM-EX-4",
-		"name": "審判"
-	},
-	"act9d0_ex04#f#": {
-		"code": "DM-EX-4",
-		"name": "審判"
-	},
-	"act9d0_ex05": {
-		"code": "DM-EX-5",
-		"name": "軍備"
-	},
-	"act9d0_ex05#f#": {
-		"code": "DM-EX-5",
-		"name": "軍備"
-	},
-	"act9d0_ex06": {
-		"code": "DM-EX-6",
-		"name": "対流"
-	},
-	"act9d0_ex06#f#": {
-		"code": "DM-EX-6",
-		"name": "対流"
-	},
-	"act9d0_mo01": {
-		"code": "DM-MO-1",
-		"name": "ターバ村"
-	},
-	"act11d0_st01": {
-		"code": "TW-ST-1",
-		"name": "オークの老樹の下で"
-	},
-	"act11d0_01": {
-		"code": "TW-1",
-		"name": "黙して語らず"
-	},
-	"act11d0_02": {
-		"code": "TW-2",
-		"name": "反乱の前哨"
-	},
-	"act11d0_tr01": {
-		"code": "TW-TR-1",
-		"name": "装置争奪"
-	},
-	"act11d0_03": {
-		"code": "TW-3",
-		"name": "高塔の花火"
-	},
-	"act11d0_04": {
-		"code": "TW-4",
-		"name": "復讐の魂"
-	},
-	"act11d0_05": {
-		"code": "TW-5",
-		"name": "冬霊挽歌"
-	},
-	"act11d0_06": {
-		"code": "TW-6",
-		"name": "蔓延する怒り"
-	},
-	"act11d0_07": {
-		"code": "TW-7",
-		"name": "山脈の崩落"
-	},
-	"act11d0_08": {
-		"code": "TW-8",
-		"name": "月光の零落"
-	},
-	"act11d0_st02": {
-		"code": "TW-ST-2",
-		"name": "燃え滓の上で"
-	},
-	"act11d0_s01": {
-		"code": "TW-S-1",
-		"name": "三体の巨像"
-	},
-	"act11d0_s01#f#": {
-		"code": "TW-S-1",
-		"name": "三体の巨像"
-	},
-	"act11d0_s02": {
-		"code": "TW-S-2",
-		"name": "一束の哀悼"
-	},
-	"act11d0_s02#f#": {
-		"code": "TW-S-2",
-		"name": "一束の哀悼"
-	},
-	"act11d0_ex01": {
-		"code": "TW-EX-1",
-		"name": "外周警備"
-	},
-	"act11d0_ex01#f#": {
-		"code": "TW-EX-1",
-		"name": "外周警備"
-	},
-	"act11d0_ex02": {
-		"code": "TW-EX-2",
-		"name": "歩みを止める"
-	},
-	"act11d0_ex02#f#": {
-		"code": "TW-EX-2",
-		"name": "歩みを止める"
-	},
-	"act11d0_ex03": {
-		"code": "TW-EX-3",
-		"name": "街の僻地"
-	},
-	"act11d0_ex03#f#": {
-		"code": "TW-EX-3",
-		"name": "街の僻地"
-	},
-	"act11d0_ex04": {
-		"code": "TW-EX-4",
-		"name": "メロディー戦線"
-	},
-	"act11d0_ex04#f#": {
-		"code": "TW-EX-4",
-		"name": "メロディー戦線"
-	},
-	"act11d0_ex05": {
-		"code": "TW-EX-5",
-		"name": "集中防御"
-	},
-	"act11d0_ex05#f#": {
-		"code": "TW-EX-5",
-		"name": "集中防御"
-	},
-	"act11d0_ex06": {
-		"code": "TW-EX-6",
-		"name": "広場の戦い"
-	},
-	"act11d0_ex06#f#": {
-		"code": "TW-EX-6",
-		"name": "広場の戦い"
-	},
-	"act11d0_ex07": {
-		"code": "TW-EX-7",
-		"name": "各個撃破"
-	},
-	"act11d0_ex07#f#": {
-		"code": "TW-EX-7",
-		"name": "各個撃破"
-	},
-	"act11d0_ex08": {
-		"code": "TW-EX-8",
-		"name": "遠方より響く足音"
-	},
-	"act11d0_ex08#f#": {
-		"code": "TW-EX-8",
-		"name": "遠方より響く足音"
-	},
-	"act11d0_mo01": {
-		"code": "TW-MO-1",
-		"name": "ウォルモンド"
 	},
 	"act10d5_01": {
 		"code": "SV-1",
@@ -3155,238 +3447,6 @@
 		"code": "AF-8",
 		"name": "謹賀新年"
 	},
-	"act5d0_01": {
-		"code": "CB-1",
-		"name": "6:44P.M."
-	},
-	"act5d0_02": {
-		"code": "CB-2",
-		"name": "7:15P.M."
-	},
-	"act5d0_03": {
-		"code": "CB-3",
-		"name": "7:22P.M."
-	},
-	"act5d0_04": {
-		"code": "CB-4",
-		"name": "7:59P.M."
-	},
-	"act5d0_05": {
-		"code": "CB-5",
-		"name": "8:31P.M."
-	},
-	"act5d0_st01": {
-		"code": "CB-ST1",
-		"name": "風吹く夜"
-	},
-	"act5d0_06": {
-		"code": "CB-6",
-		"name": "10:26P.M."
-	},
-	"act5d0_07": {
-		"code": "CB-7",
-		"name": "11:08P.M."
-	},
-	"act5d0_08": {
-		"code": "CB-8",
-		"name": "11:41P.M."
-	},
-	"act5d0_st02": {
-		"code": "CB-ST2",
-		"name": "龍門深夜"
-	},
-	"act5d0_09": {
-		"code": "CB-9",
-		"name": "0:01A.M."
-	},
-	"act5d0_10": {
-		"code": "CB-10",
-		"name": "1:11A.M."
-	},
-	"act5d0_st03": {
-		"code": "CB-ST3",
-		"name": "黎明の刻"
-	},
-	"act5d0_ex01": {
-		"code": "CB-EX1",
-		"name": "集団戦の秘訣"
-	},
-	"act5d0_ex01#f#": {
-		"code": "CB-EX1",
-		"name": "集団戦の秘訣"
-	},
-	"act5d0_ex02": {
-		"code": "CB-EX2",
-		"name": "南轅北轍"
-	},
-	"act5d0_ex02#f#": {
-		"code": "CB-EX2",
-		"name": "南轅北轍"
-	},
-	"act5d0_ex03": {
-		"code": "CB-EX3",
-		"name": "林中小屋"
-	},
-	"act5d0_ex03#f#": {
-		"code": "CB-EX3",
-		"name": "林中小屋"
-	},
-	"act5d0_ex04": {
-		"code": "CB-EX4",
-		"name": "工事現場"
-	},
-	"act5d0_ex04#f#": {
-		"code": "CB-EX4",
-		"name": "工事現場"
-	},
-	"act5d0_ex05": {
-		"code": "CB-EX5",
-		"name": "十字路"
-	},
-	"act5d0_ex05#f#": {
-		"code": "CB-EX5",
-		"name": "十字路"
-	},
-	"act5d0_ex06": {
-		"code": "CB-EX6",
-		"name": "全面衝突"
-	},
-	"act5d0_ex06#f#": {
-		"code": "CB-EX6",
-		"name": "全面衝突"
-	},
-	"act5d0_ex07": {
-		"code": "CB-EX7",
-		"name": "朝練の時間"
-	},
-	"act5d0_ex07#f#": {
-		"code": "CB-EX7",
-		"name": "朝練の時間"
-	},
-	"act5d0_ex08": {
-		"code": "CB-EX8",
-		"name": "日常"
-	},
-	"act5d0_ex08#f#": {
-		"code": "CB-EX8",
-		"name": "日常"
-	},
-	"a003_st01": {
-		"code": "OF-ST1",
-		"name": "ROCK'N'ROLL"
-	},
-	"a003_01": {
-		"code": "OF-1",
-		"name": "Made in Volcano"
-	},
-	"a003_st02": {
-		"code": "OF-ST2",
-		"name": "ブレイクフリー"
-	},
-	"a003_02": {
-		"code": "OF-2",
-		"name": "ステージ続行"
-	},
-	"a003_03": {
-		"code": "OF-3",
-		"name": "徒競走"
-	},
-	"a003_04": {
-		"code": "OF-4",
-		"name": "ザ・ジェネラル"
-	},
-	"a003_st03": {
-		"code": "OF-ST3",
-		"name": "圧力の下"
-	},
-	"a003_05": {
-		"code": "OF-5",
-		"name": "止めないで"
-	},
-	"a003_06": {
-		"code": "OF-6",
-		"name": "キラークイーン"
-	},
-	"a003_st04": {
-		"code": "OF-ST4",
-		"name": "愛する者"
-	},
-	"a003_07": {
-		"code": "OF-7",
-		"name": "下される鉄槌"
-	},
-	"a003_08": {
-		"code": "OF-8",
-		"name": "シエスタ狂想曲"
-	},
-	"a003_st05": {
-		"code": "OF-ST5",
-		"name": "生涯の愛"
-	},
-	"a003_f01": {
-		"code": "OF-F1",
-		"name": "水上すべり台"
-	},
-	"a003_f02": {
-		"code": "OF-F2",
-		"name": "激流下り"
-	},
-	"a003_f03": {
-		"code": "OF-F3",
-		"name": "メリーゴーランド"
-	},
-	"a003_f04": {
-		"code": "OF-F4",
-		"name": "火山登攀"
-	},
-	"a003_ex01": {
-		"code": "OF-EX1",
-		"name": "ウォームアップ"
-	},
-	"a003_ex01#f#": {
-		"code": "OF-EX1",
-		"name": "ウォームアップ"
-	},
-	"a003_ex02": {
-		"code": "OF-EX2",
-		"name": "盛大なる幕開け"
-	},
-	"a003_ex02#f#": {
-		"code": "OF-EX2",
-		"name": "盛大なる幕開け"
-	},
-	"a003_ex03": {
-		"code": "OF-EX3",
-		"name": "MCタイム"
-	},
-	"a003_ex03#f#": {
-		"code": "OF-EX3",
-		"name": "MCタイム"
-	},
-	"a003_ex04": {
-		"code": "OF-EX4",
-		"name": "佳境へ"
-	},
-	"a003_ex04#f#": {
-		"code": "OF-EX4",
-		"name": "佳境へ"
-	},
-	"a003_ex05": {
-		"code": "OF-EX5",
-		"name": "クライマックス"
-	},
-	"a003_ex05#f#": {
-		"code": "OF-EX5",
-		"name": "クライマックス"
-	},
-	"a003_ex06": {
-		"code": "OF-EX6",
-		"name": "完璧なる幕引き"
-	},
-	"a003_ex06#f#": {
-		"code": "OF-EX6",
-		"name": "完璧なる幕引き"
-	},
 	"act4d0_01": {
 		"code": "SW-EV-1",
 		"name": "起爆"
@@ -3426,66 +3486,6 @@
 	"act4d0_05#f#": {
 		"code": "SW-EV-5",
 		"name": "遅延作戦"
-	},
-	"a001_01": {
-		"code": "GT-1",
-		"name": "真昼の太陽"
-	},
-	"a001_02": {
-		"code": "GT-2",
-		"name": "八方美人"
-	},
-	"a001_03": {
-		"code": "GT-3",
-		"name": "思わぬ旅"
-	},
-	"a001_04": {
-		"code": "GT-4",
-		"name": "共犯証言"
-	},
-	"a001_05": {
-		"code": "GT-5",
-		"name": "話が平行線"
-	},
-	"a001_06": {
-		"code": "GT-6",
-		"name": "黄金三角"
-	},
-	"a001_ex01": {
-		"code": "GT-EX-1",
-		"name": "青天霹靂"
-	},
-	"a001_ex02": {
-		"code": "GT-EX-2",
-		"name": "余生孤独"
-	},
-	"a001_ex03": {
-		"code": "GT-EX-3",
-		"name": "狼と踊る"
-	},
-	"a001_ex04": {
-		"code": "GT-HX-1",
-		"name": "碧血金砂"
-	},
-	"a001_ex04#f#": {
-		"code": "GT-HX-1",
-		"name": "碧血金砂"
-	},
-	"a001_ex05": {
-		"code": "GT-HX-2",
-		"name": "百舎重繭"
-	},
-	"a001_ex05#f#": {
-		"code": "GT-HX-2",
-		"name": "百舎重繭"
-	},
-	"a001_ex06": {
-		"code": "GT-HX-3",
-		"name": "昔々西部で"
-	},
-	"a001_ex06#f#": {
-		"code": "GT-HX-3",
-		"name": "昔々西部で"
 	},
 	"camp_01": {
 		"code": "ウルサス",

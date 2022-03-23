@@ -350,8 +350,6 @@
                                     <button
                                         *ngFor="let mat of (currentCombatSkillLevel.value > 6 ? skillUpgradeReq.levelUpCost! : skillUpgradeReq.lvlUpCost!)"
                                         class="skill-mat-item rel grid no-border"
-                                        [ngClass]="matDescAvailable ? 'pointer-all' : 'no-pointer'"
-                                        [style.filter]="matDescAvailable ? 'none' : 'grayscale(100%) brightness(50%)'"
                                         (click)="toggleSkillMatExpanded()"
                                         (mouseenter)="onItemDescHover(itemDesc)"
                                         (mouseleave)="onItemDescLeave(itemDesc)"

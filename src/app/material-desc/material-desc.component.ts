@@ -29,29 +29,36 @@ export class MaterialDescComponent implements OnInit, OnChanges {
 
     item: Nullable<ItemMaterial> = null;
     transitioning = false;
-    dropRates!: { stageId: string, rates: string }[];
+    loading = true;
+    dropRates!: { stageId: string, stageName: string, rates: string }[];
 
     async ngOnInit() {
         this.item = await this.manager.getMaterialData(this.itemId);
-        this.dropRates = Object
-            .entries(await this.manager.getMaterialDropRate(this.itemId) ?? {})
-            .map(([key, value]) => {
-                let rate = -1;
-                if (('quanity' in value || 'times' in value))
-                    rate = Number((value.quantity / value.times * 100).toFixed(2));
-                return {
-                    stageId: key,
-                    rates: rate === -1 ? 'N/A%' : (rate.toString() + '%')
-                }
-            })
-            .sort((a, b) => {
+
+        //TODO: Maybe cache this as well? XML may be slow
+        this.dropRates = await Promise.all(
+            Object
+                .entries(await this.manager.getMaterialDropRate(this.itemId) ?? {})
+                .map(async ([key, value]) => {
+                    let rate = -1;
+                    if (('quantity' in value || 'times' in value))
+                        rate = Number((value.quantity / value.times * 100).toFixed(2));
+                    const { code, name } = await this.manager.getStageIdName(key);
+                    return {
+                        stageId: code,
+                        stageName: name,
+                        rates: rate === -1 ? 'N/A%' : (rate.toString() + '%')
+                    }
+                })
+            ).then(v => v.sort((a, b) => {
                 const aUndef = a.rates === 'N/A%' || a.rates === '0%';
                 const bUndef = b.rates === 'N/A%' || b.rates === '0%';
                 if (aUndef && !bUndef) return 1;
                 if (aUndef && bUndef) return 0;
                 if (!aUndef && bUndef) return -1;
                 return parseFloat(b.rates.slice(0, -1)) - parseFloat(a.rates.slice(0, -1));
-            });
+            }));
+        this.loading = false;
     }
 
     ngOnChanges(changes: SimpleChanges) {
@@ -98,7 +105,7 @@ export class MaterialDescComponent implements OnInit, OnChanges {
 
     overflowShown = false;
     toggleExpand() {
-        if (this.transitioning) return;
+        if (this.transitioning || this.loading) return;
         this.transitioning = true;
         this.expanded = !this.expanded;
         this.onExpand.emit(this.expanded);

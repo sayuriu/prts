@@ -1,5 +1,5 @@
 namespace prts
-last-modified 022822 -f mmddyy
+last-modified 032322 -f mmddyy
 
 ~ [json]
 struct [] as SOURCE in {root}/{ACESHIP_DIR_ENV}/
@@ -17,7 +17,7 @@ struct <LOCACLES> as SOURCE in {root}/{KENGXIAO_DIR_ENV}/json/*
 		excel
 			character_table.json
 			[UNUSED] token_table.json
-			[UNUSED] gamedata_const.json # Might be useful later
+			[PARTIAL] gamedata_const.json
 			[UNUSED] skin_table.json
 			item_table.json
 				items: Object -> items/{type}/{name}
@@ -28,6 +28,7 @@ struct <LOCACLES> as SOURCE in {root}/{KENGXIAO_DIR_ENV}/json/*
 					link: <name>
 			range_table.json
             skill_table.json
+            retro_table.json
 
 # ------------------------------------------------------>
 struct <LOCACLES> as DEST {root}/src/assets/gamedata/json/*
@@ -44,15 +45,24 @@ struct <LOCACLES> as DEST {root}/src/assets/gamedata/json/*
 			materials
 				{type}
 					{name} as file:json
-				{etc}
+			types
+			    {name} as file:json
+			drop-rates
+			    {name} as file:json # match id as [materials/{type}/{name}]
+
 		medals
-			medalList
+			list
 				{type}
 					{name} as file:json
-			medalTypeData
+			types
 				{type} as file:json
 		teams
 			{team} as file:json
+		stages
+		    {type}
+		        {name} as file:json
+		    {key}
+		    stageLinkID.json
 		charnameLinkID.json -> char
 		range
 			{range} as file:json
@@ -110,3 +120,15 @@ struct <IMG> as TARGET in {root}/src/assets/gamedata/img/*
 # ------------------------------------------------------>
 struct <TL> as SOURCE in {root}/{ACESHIP_DIR_ENV}/[json] not dir
 struct <TL> as TARGET in {root}/assets/gamedata/json/tl-data
+    [dir] v
+    foreign-names
+    gender
+    human_resource
+    named_effects
+    potentials
+    [dir] use ^
+        {key} as file:json
+    classes.json
+    ClassFavKey.json # overrides tlClassName
+    paramDesc.json
+    paramSign.json

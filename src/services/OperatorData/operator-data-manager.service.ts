@@ -5,6 +5,8 @@ import { CHAR_NAME, Operator } from '@struct/Operator/Char';
 import { CharFaction, defaultCharFaction } from '@struct/Operator/CharFaction';
 import { CharCombatSkill } from '@struct/Operator/DetailedSkill';
 import { CharTrustAttributes } from '@struct/Operator/CharTrustData';
+import { AttackRange } from '@struct/Operator/AttackRange';
+import { ItemMaterial } from "@struct/Item";
 import { Locales } from '@struct/Basic';
 import { join } from '@utils/PathUtils';
 import {
@@ -20,10 +22,9 @@ import {
 import { ImageDataService } from '@services/image-data.service';
 import { JSONLoadService } from '@services/OperatorData/jsonload.service';
 import { OpClass, TermDescription } from '@services/OperatorData/op-utils.service';
+import { NotifService } from "@services/notif.service";
 import { LogService } from '@services/log.service';
 
-import { AttackRange } from '@struct/Operator/AttackRange';
-import { ItemMaterial } from "@struct/Item";
 
 export type StatsPropMap = typeof import('@assets/gamedata/json/StatsPropMap.json');
 
@@ -123,6 +124,7 @@ export class OperatorDataManagerService {
 	constructor(
 		public cachedImages: ImageDataService,
 		private JSONAssets: JSONLoadService,
+        private notif: NotifService,
         // private log: LogService,
 	) {
 		this.events = new Subject<this>();
@@ -264,50 +266,29 @@ export class OperatorDataManagerService {
             }
         ) as Nullable<Record<string, { code: string, name: string }>>;
     }
-    getStageIdName(stageId: string, passingElement?: HTMLElement, preferredLocale: Locales = this.locale)
+    async getStageIdName(stageId: string, preferredLocale: Locales = this.locale): Promise<{ code: string, name: string }>
     {
-        if (passingElement)
-        {
-            if (passingElement.getAttribute('data-mat-stage-name') && passingElement.getAttribute('data-mat-stage-name') !== '<loading...>')
-                return {
-                    code: passingElement.getAttribute('data-mat-stage')!,
-                    name: passingElement.getAttribute('data-mat-stage-code')!
-                };
-            passingElement.setAttribute('data-mat-stage', stageId);
-            passingElement.setAttribute('data-mat-stage-name', '<loading...>');
-        }
-
-        if (this.stages[preferredLocale] && this.stages[preferredLocale]![stageId])
-        {
-            const { code, name } = this.stages[preferredLocale]![stageId];
-            if (passingElement)
-            {
-                passingElement.setAttribute('data-mat-stage', code);
-                passingElement.setAttribute('data-mat-stage-name', `"${name}"`);
-            }
+        stageId = stageId.replace(/_(rep|perm)/g, '');
+        if (!this.stages[preferredLocale])
+            await this.prefetchStages(preferredLocale);
+        if (this.stages[preferredLocale] && this.stages[preferredLocale]![stageId]) {
+            const {code, name} = this.stages[preferredLocale]![stageId];
             return {
                 code,
                 name: `"${name}"`
             }
         }
-        void this.prefetchStages(preferredLocale);
-        let name = '<unknown>';
-        if (stageId.match('randomMaterial'))
-            name = stageId.match('Rune') ? `<CC#${(stageId.match(/\d+/) ?? [''])[0]} lootbox>` : `<lootbox>`;
-        if (passingElement) {
-            passingElement.setAttribute('data-mat-stage', stageId);
-            passingElement.setAttribute('data-mat-stage-name', name);
-            if (stageId.match(/(.*)(_(rep|perm))/))
-                passingElement.setAttribute('data-mat-stage-name', `<event stage>`);
-            else
-                this.getMaterialData(stageId, preferredLocale).then(itemData => {
-                    if (itemData)
-                        passingElement.setAttribute('data-mat-stage-name', `<${itemData.name}>`);
-                });
-        }
+        let _name;
+        // if (stageId.match(/randomMaterial/))
+        //     _name = stageId.match(/Rune/) ? `<CC#${(stageId.match(/\d+/) ?? [''])[0]} lootbox>` : `<lootbox>`;
+        // if (stageId.match(/(.*)(_(rep|perm))/))
+        //     return (await this.getStageIdName(stageId.replace(/(_(rep|perm))/, ''), preferredLocale));
+        // else
+            _name = (await this.getMaterialData(stageId, preferredLocale) ?? {name: '<unknown>'}).name;
+
         return {
             code: stageId,
-            name: `<${name}>`
+            name: `${_name}`
         }
     }
 	getCharId(charName: string, preferredLocale = this.locale): [Nullable<string>, Locales]

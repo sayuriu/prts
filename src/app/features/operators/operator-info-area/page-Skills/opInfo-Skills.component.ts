@@ -80,7 +80,7 @@ implements OnInit, OnChanges, OnDestroy, AfterViewChecked {
 
 	ngOnInit() {
         void this.manager.prefetchStages()
-        this.currentSkillDescriptions = new Array(this.currentOperatorSkills.length).fill('');
+        this.currentSkillDescriptions = new Array(this.currentOperatorSkills.length).fill('Fetching info...');
         this.currentSkillRanges = new Array(this.currentOperatorSkills.length).fill([[], [0, 0]]);
         this.getEliteRangeData();
         if (!this.anime.enabled)
@@ -157,7 +157,7 @@ implements OnInit, OnChanges, OnDestroy, AfterViewChecked {
         this._matDescWaitTimeout = setTimeout(() => {
             this.matDescAvailable = true;
             this._matDescWaitTimeout = -1;
-        }, 500);
+        }, 500) as unknown as number;
         if (event instanceof WheelEvent)
         {
             if (event.deltaY < 0)
@@ -248,7 +248,7 @@ implements OnInit, OnChanges, OnDestroy, AfterViewChecked {
             el.suggestionVisible = true;
         else el.hoverTimeout = setTimeout(() => {
             el.suggestionVisible = true;
-        }, 700);
+        }, 700) as unknown as number;
     }
     onItemDescLeave(el: MaterialDescComponent)
     {

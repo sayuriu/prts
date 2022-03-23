@@ -1,5 +1,5 @@
 // $ tsc AceshipJSONParser.ts --target es2020 --moduleResolution node --module commonjs
-import { writeFile } from 'fs';
+import {existsSync, unlinkSync, writeFileSync} from 'fs';
 import { resolve } from 'path';
 import { ACESHIP_DIR_ROOT, KENGXIAO_DIR_ROOT, DESTINATION_ROOT } from './Env';
 import { concatObjects, writeData } from './utils/ConcatAllObj';
@@ -22,6 +22,7 @@ export namespace Src_Gamedata {
         export const skills = 'skill_table.json';
         export const gamedataConst = 'gamedata_const.json';
         export const stages = 'stage_table.json';
+        export const stages_retro = 'retro_table.json';
 	}
 }
 
@@ -67,9 +68,9 @@ export namespace GamedataDestination {
 }
 
 export function writeJSON(path: string, data: any) {
-	writeFile(path, JSON.stringify(data, null, '\t'), (err) => {
-		if (err) throw err;
-	});
+    if (existsSync(path))
+        unlinkSync(path)
+    writeFileSync(path, JSON.stringify(data, null, '\t'));
 }
 
 // en_US, lang_COUNTRY
@@ -180,36 +181,61 @@ function parseItem(src: string, dest: string)
 	Logger.info(header, Logger.green('Write complete!'));
 }
 
-function parseStages(src: string, dest: string)
+function parseStages(dest: string, ...src: string[])
 {
-    const header = 'Stages-' + getLocale(src);
+    const header = 'Stages-' + getLocale(src[0]);
     const { _base, _link_JSON } = GamedataDestination.DATA.stages;
-    const stages = require(src);
     createIfNotExist(joinPaths(dest, _base), header);
     const tracker = new CountTracker();
     const stageLinkID: Record<string, { [k: string]: string }> = {};
+    const allStageMetadata: Record<string, any> = {};
 
-    for (const key in stages)
+    for (const file of src)
     {
-        const isStages = key === 'stages';
-        const data = stages[key];
-        createIfNotExist(joinPaths(dest, _base, isStages ? 'list' : key), header);
-        for (const dataKey in data)
+        const stages = require(file);
+        for (const key in stages)
         {
-            if (isStages)
+            if (['retroTrailList', 'ruleData', 'zoneToRetro'].includes(key))
             {
-                stageLinkID[dataKey] = {
-                    code: data[dataKey].code,
-                    name: data[dataKey].name,
-                };
+                switch (key)
+                {
+                    case 'retroTrailList':
+                    case 'zoneToRetro':
+                    {
+                        writeJSON(joinPaths(dest, _base, `${key}.json`), stages[key]);
+                        break;
+                    }
+                    default:
+                        continue;
+                }
+                delete stages[key];
             }
-            writeJSON(
-                joinPaths(dest, _base, isStages ? 'list' : key, `${dataKey}.json`),
-                data[dataKey]
-            );
-            tracker.increment();
+            if (!stages[key] || typeof stages[key] !== 'object') continue;
+            const isStages = ['stages', 'stageList'].includes(key);
+            const data = stages[key];
+            createIfNotExist(joinPaths(dest, _base, isStages ? 'list' : key), header);
+            for (const dataKey in data)
+            {
+                if (isStages)
+                    stageLinkID[dataKey] = {
+                        code: data[dataKey].code,
+                        name: data[dataKey].name,
+                    };
+
+                allStageMetadata[dataKey] = data[dataKey];
+                writeJSON(
+                    joinPaths(dest, _base, isStages ? 'list' : key, `${dataKey}.json`),
+                    data[dataKey]
+                );
+                tracker.increment();
+            }
+            delete stages[key];
         }
+
+        allStageMetadata[file.replace('.json', '')] = stages;
     }
+
+    writeJSON(joinPaths(dest, _base, 'stagesMetadata.json'), allStageMetadata);
     writeJSON(joinPaths(dest, _base, _link_JSON), stageLinkID);
     Logger.info(header, `${Logger.green(tracker.count)} entries parsed.`);
     Logger.info(header, Logger.green('Write complete!'));
@@ -273,7 +299,7 @@ export function JSONParse(locale: Locales) {
 	parseRangeData(joinPaths(localePath, Src_Gamedata.DATA.ranges), destinationPath);
     parseCombatSkill(joinPaths(localePath, Src_Gamedata.DATA.skills), destinationPath);
     parseGamedataConst(joinPaths(localePath, Src_Gamedata.DATA.gamedataConst), destinationPath, 'richTextStyles', 'termDescriptionDict');
-    parseStages(joinPaths(localePath, Src_Gamedata.DATA.stages), destinationPath);
+    parseStages(destinationPath, ...[Src_Gamedata.DATA.stages_retro, Src_Gamedata.DATA.stages].map(p => joinPaths(localePath, p)));
 	// parseMedals(joinPaths(localePath, Aceship.DATA.medals), destinationPath);
 	Logger.cout('\n');
 }

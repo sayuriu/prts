@@ -33,8 +33,8 @@
                         <p>{{buildProductData.roomType}} <span>&lt;base facility&gt;</span></p>
                         <p style="color: #fff; background: #000 ">{{buildProductData.formulaId}}</p>
                     </div>
-                    <div #item class="fw flex j-flex-space-between" *ngFor="let stageData of dropRates ?? []; let i = index">
-                        <p *ngVar="manager.getStageIdName(stageData.stageId, item)">{{item.getAttribute('data-mat-stage')}} <span>{{item.getAttribute('data-mat-stage-name')}}</span></p>
+                    <div class="fw flex j-flex-space-between" *ngFor="let stageData of dropRates ?? []; let i = index">
+                        <p>{{stageData.stageId}} <span>{{stageData.stageName}}</span></p>
                         <p
                             [style.color]="resolveMatDropRateColor(stageData.rates).fg"
                             [style.background]="resolveMatDropRateColor(stageData.rates).bg"
@@ -44,6 +44,6 @@
                 </div>
             </div>
         </div>
-        <div class="mat-desc-footer fw"><p><i>{{getAction()}} to {{getExpand()}}</i></p></div>
+        <div class="mat-desc-footer fw"><p><i>{{loading ? 'Fetching info...' : (getAction() + ' to ' + getExpand())}}</i></p></div>
     </div>
 </button>

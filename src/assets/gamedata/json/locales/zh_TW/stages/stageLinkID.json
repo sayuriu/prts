@@ -1,4 +1,496 @@
 {
+	"act9d0_01": {
+		"code": "DM-1",
+		"name": "埋藏"
+	},
+	"act9d0_02": {
+		"code": "DM-2",
+		"name": "偶然"
+	},
+	"act9d0_03": {
+		"code": "DM-3",
+		"name": "擠壓"
+	},
+	"act9d0_04": {
+		"code": "DM-4",
+		"name": "進軍"
+	},
+	"act9d0_05": {
+		"code": "DM-5",
+		"name": "旗幟"
+	},
+	"act9d0_06": {
+		"code": "DM-6",
+		"name": "遠遁"
+	},
+	"act9d0_07": {
+		"code": "DM-7",
+		"name": "龜裂"
+	},
+	"act9d0_08": {
+		"code": "DM-8",
+		"name": "離散"
+	},
+	"act9d0_st01": {
+		"code": "DM-ST-1",
+		"name": "求生"
+	},
+	"act9d0_ex01": {
+		"code": "DM-EX-1",
+		"name": "交鋒"
+	},
+	"act9d0_ex01#f#": {
+		"code": "DM-EX-1",
+		"name": "交鋒"
+	},
+	"act9d0_ex02": {
+		"code": "DM-EX-2",
+		"name": "爆破"
+	},
+	"act9d0_ex02#f#": {
+		"code": "DM-EX-2",
+		"name": "爆破"
+	},
+	"act9d0_ex03": {
+		"code": "DM-EX-3",
+		"name": "突進"
+	},
+	"act9d0_ex03#f#": {
+		"code": "DM-EX-3",
+		"name": "突進"
+	},
+	"act9d0_ex04": {
+		"code": "DM-EX-4",
+		"name": "裁判"
+	},
+	"act9d0_ex04#f#": {
+		"code": "DM-EX-4",
+		"name": "裁判"
+	},
+	"act9d0_ex05": {
+		"code": "DM-EX-5",
+		"name": "備戰"
+	},
+	"act9d0_ex05#f#": {
+		"code": "DM-EX-5",
+		"name": "備戰"
+	},
+	"act9d0_ex06": {
+		"code": "DM-EX-6",
+		"name": "對流"
+	},
+	"act9d0_ex06#f#": {
+		"code": "DM-EX-6",
+		"name": "對流"
+	},
+	"act9d0_mo01": {
+		"code": "DM-MO-1",
+		"name": "塔巴鎮"
+	},
+	"act18d0_01": {
+		"code": "WD-1",
+		"name": "赤角小鎮之圍"
+	},
+	"act18d0_tr01": {
+		"code": "WD-TR-1",
+		"name": "空援應對訓練"
+	},
+	"act18d0_02": {
+		"code": "WD-2",
+		"name": "綠洲驚雷"
+	},
+	"act18d0_03": {
+		"code": "WD-3",
+		"name": "仙人掌沙丘"
+	},
+	"act18d0_04": {
+		"code": "WD-4",
+		"name": "鳴沙阻擊戰"
+	},
+	"act18d0_st01": {
+		"code": "WD-ST-1",
+		"name": "松心百合"
+	},
+	"act18d0_05": {
+		"code": "WD-5",
+		"name": "沁礁之地"
+	},
+	"act18d0_06": {
+		"code": "WD-6",
+		"name": "帕夏的夢"
+	},
+	"act18d0_07": {
+		"code": "WD-7",
+		"name": "家園"
+	},
+	"act18d0_08": {
+		"code": "WD-8",
+		"name": "大雪將至"
+	},
+	"act18d0_st02": {
+		"code": "WD-ST-2",
+		"name": "異鄉來客"
+	},
+	"act18d0_ex01": {
+		"code": "WD-EX-1",
+		"name": "獸群戰術"
+	},
+	"act18d0_ex01#f#": {
+		"code": "WD-EX-1",
+		"name": "獸群戰術"
+	},
+	"act18d0_ex02": {
+		"code": "WD-EX-2",
+		"name": "雙線協同"
+	},
+	"act18d0_ex02#f#": {
+		"code": "WD-EX-2",
+		"name": "雙線協同"
+	},
+	"act18d0_ex03": {
+		"code": "WD-EX-3",
+		"name": "遠程打擊"
+	},
+	"act18d0_ex03#f#": {
+		"code": "WD-EX-3",
+		"name": "遠程打擊"
+	},
+	"act18d0_ex04": {
+		"code": "WD-EX-4",
+		"name": "破門而入"
+	},
+	"act18d0_ex04#f#": {
+		"code": "WD-EX-4",
+		"name": "破門而入"
+	},
+	"act18d0_ex05": {
+		"code": "WD-EX-5",
+		"name": "交叉火力支援"
+	},
+	"act18d0_ex05#f#": {
+		"code": "WD-EX-5",
+		"name": "交叉火力支援"
+	},
+	"act18d0_ex06": {
+		"code": "WD-EX-6",
+		"name": "小隊長"
+	},
+	"act18d0_ex06#f#": {
+		"code": "WD-EX-6",
+		"name": "小隊長"
+	},
+	"act18d0_ex07": {
+		"code": "WD-EX-7",
+		"name": "訓練有素"
+	},
+	"act18d0_ex07#f#": {
+		"code": "WD-EX-7",
+		"name": "訓練有素"
+	},
+	"act18d0_ex08": {
+		"code": "WD-EX-8",
+		"name": "如帝國之影"
+	},
+	"act18d0_ex08#f#": {
+		"code": "WD-EX-8",
+		"name": "如帝國之影"
+	},
+	"a001_01": {
+		"code": "GT-1",
+		"name": "日正當中"
+	},
+	"a001_02": {
+		"code": "GT-2",
+		"name": "察言觀色"
+	},
+	"a001_03": {
+		"code": "GT-3",
+		"name": "意外之旅"
+	},
+	"a001_04": {
+		"code": "GT-4",
+		"name": "污點證人"
+	},
+	"a001_05": {
+		"code": "GT-5",
+		"name": "各抒己見"
+	},
+	"a001_06": {
+		"code": "GT-6",
+		"name": "黃金三角"
+	},
+	"a001_ex01": {
+		"code": "GT-EX-1",
+		"name": "大地驚雷"
+	},
+	"a001_ex02": {
+		"code": "GT-EX-2",
+		"name": "老無所依"
+	},
+	"a001_ex03": {
+		"code": "GT-EX-3",
+		"name": "與狼共舞"
+	},
+	"a001_ex04": {
+		"code": "GT-HX-1",
+		"name": "碧血金沙"
+	},
+	"a001_ex04#f#": {
+		"code": "GT-HX-1",
+		"name": "碧血金沙"
+	},
+	"a001_ex05": {
+		"code": "GT-HX-2",
+		"name": "關山飛渡"
+	},
+	"a001_ex05#f#": {
+		"code": "GT-HX-2",
+		"name": "關山飛渡"
+	},
+	"a001_ex06": {
+		"code": "GT-HX-3",
+		"name": "西部往事"
+	},
+	"a001_ex06#f#": {
+		"code": "GT-HX-3",
+		"name": "西部往事"
+	},
+	"a003_st01": {
+		"code": "OF-ST1",
+		"name": "搖滾起來"
+	},
+	"a003_01": {
+		"code": "OF-1",
+		"name": "火山製造"
+	},
+	"a003_st02": {
+		"code": "OF-ST2",
+		"name": "衝破藩籬"
+	},
+	"a003_02": {
+		"code": "OF-2",
+		"name": "演出繼續"
+	},
+	"a003_03": {
+		"code": "OF-3",
+		"name": "競走賽"
+	},
+	"a003_04": {
+		"code": "OF-4",
+		"name": "他是將軍"
+	},
+	"a003_st03": {
+		"code": "OF-ST3",
+		"name": "壓力之下"
+	},
+	"a003_05": {
+		"code": "OF-5",
+		"name": "別阻止我"
+	},
+	"a003_06": {
+		"code": "OF-6",
+		"name": "殺手女皇"
+	},
+	"a003_st04": {
+		"code": "OF-ST4",
+		"name": "愛某個人"
+	},
+	"a003_07": {
+		"code": "OF-7",
+		"name": "一錘定音"
+	},
+	"a003_08": {
+		"code": "OF-8",
+		"name": "汐斯塔狂想曲"
+	},
+	"a003_st05": {
+		"code": "OF-ST5",
+		"name": "此生摯愛"
+	},
+	"a003_f01": {
+		"code": "OF-F1",
+		"name": "水上滑梯"
+	},
+	"a003_f02": {
+		"code": "OF-F2",
+		"name": "激流勇進"
+	},
+	"a003_f03": {
+		"code": "OF-F3",
+		"name": "旋轉木馬"
+	},
+	"a003_f04": {
+		"code": "OF-F4",
+		"name": "火山攀岩"
+	},
+	"a003_ex01": {
+		"code": "OF-EX1",
+		"name": "預熱活動"
+	},
+	"a003_ex01#f#": {
+		"code": "OF-EX1",
+		"name": "預熱活動"
+	},
+	"a003_ex02": {
+		"code": "OF-EX2",
+		"name": "盛大開幕"
+	},
+	"a003_ex02#f#": {
+		"code": "OF-EX2",
+		"name": "盛大開幕"
+	},
+	"a003_ex03": {
+		"code": "OF-EX3",
+		"name": "採訪環節"
+	},
+	"a003_ex03#f#": {
+		"code": "OF-EX3",
+		"name": "採訪環節"
+	},
+	"a003_ex04": {
+		"code": "OF-EX4",
+		"name": "漸入佳境"
+	},
+	"a003_ex04#f#": {
+		"code": "OF-EX4",
+		"name": "漸入佳境"
+	},
+	"a003_ex05": {
+		"code": "OF-EX5",
+		"name": "高潮迭起"
+	},
+	"a003_ex05#f#": {
+		"code": "OF-EX5",
+		"name": "高潮迭起"
+	},
+	"a003_ex06": {
+		"code": "OF-EX6",
+		"name": "完美落幕"
+	},
+	"a003_ex06#f#": {
+		"code": "OF-EX6",
+		"name": "完美落幕"
+	},
+	"act11d7_st01": {
+		"code": "OF-ST6",
+		"name": "邂逅潮聲"
+	},
+	"act5d0_01": {
+		"code": "CB-1",
+		"name": "6:44P.M."
+	},
+	"act5d0_02": {
+		"code": "CB-2",
+		"name": "7:15P.M."
+	},
+	"act5d0_03": {
+		"code": "CB-3",
+		"name": "7:22P.M."
+	},
+	"act5d0_04": {
+		"code": "CB-4",
+		"name": "7:59P.M."
+	},
+	"act5d0_05": {
+		"code": "CB-5",
+		"name": "8:31P.M."
+	},
+	"act5d0_st01": {
+		"code": "CB-ST1",
+		"name": "晚風輕拂"
+	},
+	"act5d0_06": {
+		"code": "CB-6",
+		"name": "10:26P.M."
+	},
+	"act5d0_07": {
+		"code": "CB-7",
+		"name": "11:08P.M."
+	},
+	"act5d0_08": {
+		"code": "CB-8",
+		"name": "11:41P.M."
+	},
+	"act5d0_st02": {
+		"code": "CB-ST2",
+		"name": "午夜龍門"
+	},
+	"act5d0_09": {
+		"code": "CB-9",
+		"name": "0:01A.M."
+	},
+	"act5d0_10": {
+		"code": "CB-10",
+		"name": "1:11A.M."
+	},
+	"act5d0_st03": {
+		"code": "CB-ST3",
+		"name": "破曉時分"
+	},
+	"act5d0_ex01": {
+		"code": "CB-EX1",
+		"name": "群架訣竅"
+	},
+	"act5d0_ex01#f#": {
+		"code": "CB-EX1",
+		"name": "群架訣竅"
+	},
+	"act5d0_ex02": {
+		"code": "CB-EX2",
+		"name": "南轅北轍"
+	},
+	"act5d0_ex02#f#": {
+		"code": "CB-EX2",
+		"name": "南轅北轍"
+	},
+	"act5d0_ex03": {
+		"code": "CB-EX3",
+		"name": "林中小屋"
+	},
+	"act5d0_ex03#f#": {
+		"code": "CB-EX3",
+		"name": "林中小屋"
+	},
+	"act5d0_ex04": {
+		"code": "CB-EX4",
+		"name": "施工現場"
+	},
+	"act5d0_ex04#f#": {
+		"code": "CB-EX4",
+		"name": "施工現場"
+	},
+	"act5d0_ex05": {
+		"code": "CB-EX5",
+		"name": "十字路口"
+	},
+	"act5d0_ex05#f#": {
+		"code": "CB-EX5",
+		"name": "十字路口"
+	},
+	"act5d0_ex06": {
+		"code": "CB-EX6",
+		"name": "全面衝鋒"
+	},
+	"act5d0_ex06#f#": {
+		"code": "CB-EX6",
+		"name": "全面衝鋒"
+	},
+	"act5d0_ex07": {
+		"code": "CB-EX7",
+		"name": "晨練時間"
+	},
+	"act5d0_ex07#f#": {
+		"code": "CB-EX7",
+		"name": "晨練時間"
+	},
+	"act5d0_ex08": {
+		"code": "CB-EX8",
+		"name": "日常"
+	},
+	"act5d0_ex08#f#": {
+		"code": "CB-EX8",
+		"name": "日常"
+	},
 	"main_00-01": {
 		"code": "0-1",
 		"name": "坍塌"
@@ -1379,114 +1871,6 @@
 		"code": "PR-D-2",
 		"name": "猛攻"
 	},
-	"act18d0_01": {
-		"code": "WD-1",
-		"name": "赤角小鎮之圍"
-	},
-	"act18d0_tr01": {
-		"code": "WD-TR-1",
-		"name": "空援應對訓練"
-	},
-	"act18d0_02": {
-		"code": "WD-2",
-		"name": "綠洲驚雷"
-	},
-	"act18d0_03": {
-		"code": "WD-3",
-		"name": "仙人掌沙丘"
-	},
-	"act18d0_04": {
-		"code": "WD-4",
-		"name": "鳴沙阻擊戰"
-	},
-	"act18d0_st01": {
-		"code": "WD-ST-1",
-		"name": "松心百合"
-	},
-	"act18d0_05": {
-		"code": "WD-5",
-		"name": "沁礁之地"
-	},
-	"act18d0_06": {
-		"code": "WD-6",
-		"name": "帕夏的夢"
-	},
-	"act18d0_07": {
-		"code": "WD-7",
-		"name": "家園"
-	},
-	"act18d0_08": {
-		"code": "WD-8",
-		"name": "大雪將至"
-	},
-	"act18d0_st02": {
-		"code": "WD-ST-2",
-		"name": "異鄉來客"
-	},
-	"act18d0_ex01": {
-		"code": "WD-EX-1",
-		"name": "獸群戰術"
-	},
-	"act18d0_ex01#f#": {
-		"code": "WD-EX-1",
-		"name": "獸群戰術"
-	},
-	"act18d0_ex02": {
-		"code": "WD-EX-2",
-		"name": "雙線協同"
-	},
-	"act18d0_ex02#f#": {
-		"code": "WD-EX-2",
-		"name": "雙線協同"
-	},
-	"act18d0_ex03": {
-		"code": "WD-EX-3",
-		"name": "遠程打擊"
-	},
-	"act18d0_ex03#f#": {
-		"code": "WD-EX-3",
-		"name": "遠程打擊"
-	},
-	"act18d0_ex04": {
-		"code": "WD-EX-4",
-		"name": "破門而入"
-	},
-	"act18d0_ex04#f#": {
-		"code": "WD-EX-4",
-		"name": "破門而入"
-	},
-	"act18d0_ex05": {
-		"code": "WD-EX-5",
-		"name": "交叉火力支援"
-	},
-	"act18d0_ex05#f#": {
-		"code": "WD-EX-5",
-		"name": "交叉火力支援"
-	},
-	"act18d0_ex06": {
-		"code": "WD-EX-6",
-		"name": "小隊長"
-	},
-	"act18d0_ex06#f#": {
-		"code": "WD-EX-6",
-		"name": "小隊長"
-	},
-	"act18d0_ex07": {
-		"code": "WD-EX-7",
-		"name": "訓練有素"
-	},
-	"act18d0_ex07#f#": {
-		"code": "WD-EX-7",
-		"name": "訓練有素"
-	},
-	"act18d0_ex08": {
-		"code": "WD-EX-8",
-		"name": "如帝國之影"
-	},
-	"act18d0_ex08#f#": {
-		"code": "WD-EX-8",
-		"name": "如帝國之影"
-	},
 	"act16d5_st01": {
 		"code": "WR-ST-1",
 		"name": "一鉗之恩"
@@ -2179,98 +2563,6 @@
 		"code": "RI-EX-8",
 		"name": "橫衝直撞"
 	},
-	"act11d7_st01": {
-		"code": "OF-ST6",
-		"name": "邂逅潮聲"
-	},
-	"act9d0_01": {
-		"code": "DM-1",
-		"name": "埋藏"
-	},
-	"act9d0_02": {
-		"code": "DM-2",
-		"name": "偶然"
-	},
-	"act9d0_03": {
-		"code": "DM-3",
-		"name": "擠壓"
-	},
-	"act9d0_04": {
-		"code": "DM-4",
-		"name": "進軍"
-	},
-	"act9d0_05": {
-		"code": "DM-5",
-		"name": "旗幟"
-	},
-	"act9d0_06": {
-		"code": "DM-6",
-		"name": "遠遁"
-	},
-	"act9d0_07": {
-		"code": "DM-7",
-		"name": "龜裂"
-	},
-	"act9d0_08": {
-		"code": "DM-8",
-		"name": "離散"
-	},
-	"act9d0_st01": {
-		"code": "DM-ST-1",
-		"name": "求生"
-	},
-	"act9d0_ex01": {
-		"code": "DM-EX-1",
-		"name": "交鋒"
-	},
-	"act9d0_ex01#f#": {
-		"code": "DM-EX-1",
-		"name": "交鋒"
-	},
-	"act9d0_ex02": {
-		"code": "DM-EX-2",
-		"name": "爆破"
-	},
-	"act9d0_ex02#f#": {
-		"code": "DM-EX-2",
-		"name": "爆破"
-	},
-	"act9d0_ex03": {
-		"code": "DM-EX-3",
-		"name": "突進"
-	},
-	"act9d0_ex03#f#": {
-		"code": "DM-EX-3",
-		"name": "突進"
-	},
-	"act9d0_ex04": {
-		"code": "DM-EX-4",
-		"name": "裁判"
-	},
-	"act9d0_ex04#f#": {
-		"code": "DM-EX-4",
-		"name": "裁判"
-	},
-	"act9d0_ex05": {
-		"code": "DM-EX-5",
-		"name": "備戰"
-	},
-	"act9d0_ex05#f#": {
-		"code": "DM-EX-5",
-		"name": "備戰"
-	},
-	"act9d0_ex06": {
-		"code": "DM-EX-6",
-		"name": "對流"
-	},
-	"act9d0_ex06#f#": {
-		"code": "DM-EX-6",
-		"name": "對流"
-	},
-	"act9d0_mo01": {
-		"code": "DM-MO-1",
-		"name": "塔巴鎮"
-	},
 	"act11d0_st01": {
 		"code": "TW-ST-1",
 		"name": "老櫟樹下"
@@ -2567,238 +2859,6 @@
 		"code": "SA-6",
 		"name": "福禍相依"
 	},
-	"act5d0_01": {
-		"code": "CB-1",
-		"name": "6:44P.M."
-	},
-	"act5d0_02": {
-		"code": "CB-2",
-		"name": "7:15P.M."
-	},
-	"act5d0_03": {
-		"code": "CB-3",
-		"name": "7:22P.M."
-	},
-	"act5d0_04": {
-		"code": "CB-4",
-		"name": "7:59P.M."
-	},
-	"act5d0_05": {
-		"code": "CB-5",
-		"name": "8:31P.M."
-	},
-	"act5d0_st01": {
-		"code": "CB-ST1",
-		"name": "晚風輕拂"
-	},
-	"act5d0_06": {
-		"code": "CB-6",
-		"name": "10:26P.M."
-	},
-	"act5d0_07": {
-		"code": "CB-7",
-		"name": "11:08P.M."
-	},
-	"act5d0_08": {
-		"code": "CB-8",
-		"name": "11:41P.M."
-	},
-	"act5d0_st02": {
-		"code": "CB-ST2",
-		"name": "午夜龍門"
-	},
-	"act5d0_09": {
-		"code": "CB-9",
-		"name": "0:01A.M."
-	},
-	"act5d0_10": {
-		"code": "CB-10",
-		"name": "1:11A.M."
-	},
-	"act5d0_st03": {
-		"code": "CB-ST3",
-		"name": "破曉時分"
-	},
-	"act5d0_ex01": {
-		"code": "CB-EX1",
-		"name": "群架訣竅"
-	},
-	"act5d0_ex01#f#": {
-		"code": "CB-EX1",
-		"name": "群架訣竅"
-	},
-	"act5d0_ex02": {
-		"code": "CB-EX2",
-		"name": "南轅北轍"
-	},
-	"act5d0_ex02#f#": {
-		"code": "CB-EX2",
-		"name": "南轅北轍"
-	},
-	"act5d0_ex03": {
-		"code": "CB-EX3",
-		"name": "林中小屋"
-	},
-	"act5d0_ex03#f#": {
-		"code": "CB-EX3",
-		"name": "林中小屋"
-	},
-	"act5d0_ex04": {
-		"code": "CB-EX4",
-		"name": "施工現場"
-	},
-	"act5d0_ex04#f#": {
-		"code": "CB-EX4",
-		"name": "施工現場"
-	},
-	"act5d0_ex05": {
-		"code": "CB-EX5",
-		"name": "十字路口"
-	},
-	"act5d0_ex05#f#": {
-		"code": "CB-EX5",
-		"name": "十字路口"
-	},
-	"act5d0_ex06": {
-		"code": "CB-EX6",
-		"name": "全面衝鋒"
-	},
-	"act5d0_ex06#f#": {
-		"code": "CB-EX6",
-		"name": "全面衝鋒"
-	},
-	"act5d0_ex07": {
-		"code": "CB-EX7",
-		"name": "晨練時間"
-	},
-	"act5d0_ex07#f#": {
-		"code": "CB-EX7",
-		"name": "晨練時間"
-	},
-	"act5d0_ex08": {
-		"code": "CB-EX8",
-		"name": "日常"
-	},
-	"act5d0_ex08#f#": {
-		"code": "CB-EX8",
-		"name": "日常"
-	},
-	"a003_st01": {
-		"code": "OF-ST1",
-		"name": "搖滾起來"
-	},
-	"a003_01": {
-		"code": "OF-1",
-		"name": "火山製造"
-	},
-	"a003_st02": {
-		"code": "OF-ST2",
-		"name": "衝破藩籬"
-	},
-	"a003_02": {
-		"code": "OF-2",
-		"name": "演出繼續"
-	},
-	"a003_03": {
-		"code": "OF-3",
-		"name": "競走賽"
-	},
-	"a003_04": {
-		"code": "OF-4",
-		"name": "他是將軍"
-	},
-	"a003_st03": {
-		"code": "OF-ST3",
-		"name": "壓力之下"
-	},
-	"a003_05": {
-		"code": "OF-5",
-		"name": "別阻止我"
-	},
-	"a003_06": {
-		"code": "OF-6",
-		"name": "殺手女皇"
-	},
-	"a003_st04": {
-		"code": "OF-ST4",
-		"name": "愛某個人"
-	},
-	"a003_07": {
-		"code": "OF-7",
-		"name": "一錘定音"
-	},
-	"a003_08": {
-		"code": "OF-8",
-		"name": "汐斯塔狂想曲"
-	},
-	"a003_st05": {
-		"code": "OF-ST5",
-		"name": "此生摯愛"
-	},
-	"a003_f01": {
-		"code": "OF-F1",
-		"name": "水上滑梯"
-	},
-	"a003_f02": {
-		"code": "OF-F2",
-		"name": "激流勇進"
-	},
-	"a003_f03": {
-		"code": "OF-F3",
-		"name": "旋轉木馬"
-	},
-	"a003_f04": {
-		"code": "OF-F4",
-		"name": "火山攀岩"
-	},
-	"a003_ex01": {
-		"code": "OF-EX1",
-		"name": "預熱活動"
-	},
-	"a003_ex01#f#": {
-		"code": "OF-EX1",
-		"name": "預熱活動"
-	},
-	"a003_ex02": {
-		"code": "OF-EX2",
-		"name": "盛大開幕"
-	},
-	"a003_ex02#f#": {
-		"code": "OF-EX2",
-		"name": "盛大開幕"
-	},
-	"a003_ex03": {
-		"code": "OF-EX3",
-		"name": "採訪環節"
-	},
-	"a003_ex03#f#": {
-		"code": "OF-EX3",
-		"name": "採訪環節"
-	},
-	"a003_ex04": {
-		"code": "OF-EX4",
-		"name": "漸入佳境"
-	},
-	"a003_ex04#f#": {
-		"code": "OF-EX4",
-		"name": "漸入佳境"
-	},
-	"a003_ex05": {
-		"code": "OF-EX5",
-		"name": "高潮迭起"
-	},
-	"a003_ex05#f#": {
-		"code": "OF-EX5",
-		"name": "高潮迭起"
-	},
-	"a003_ex06": {
-		"code": "OF-EX6",
-		"name": "完美落幕"
-	},
-	"a003_ex06#f#": {
-		"code": "OF-EX6",
-		"name": "完美落幕"
-	},
 	"act4d0_01": {
 		"code": "SW-EV-1",
 		"name": "引爆"
@@ -2838,66 +2898,6 @@
 	"act4d0_05#f#": {
 		"code": "SW-EV-5",
 		"name": "延時毀滅"
-	},
-	"a001_01": {
-		"code": "GT-1",
-		"name": "日正當中"
-	},
-	"a001_02": {
-		"code": "GT-2",
-		"name": "察言觀色"
-	},
-	"a001_03": {
-		"code": "GT-3",
-		"name": "意外之旅"
-	},
-	"a001_04": {
-		"code": "GT-4",
-		"name": "污點證人"
-	},
-	"a001_05": {
-		"code": "GT-5",
-		"name": "各抒己見"
-	},
-	"a001_06": {
-		"code": "GT-6",
-		"name": "黃金三角"
-	},
-	"a001_ex01": {
-		"code": "GT-EX-1",
-		"name": "大地驚雷"
-	},
-	"a001_ex02": {
-		"code": "GT-EX-2",
-		"name": "老無所依"
-	},
-	"a001_ex03": {
-		"code": "GT-EX-3",
-		"name": "與狼共舞"
-	},
-	"a001_ex04": {
-		"code": "GT-HX-1",
-		"name": "碧血金沙"
-	},
-	"a001_ex04#f#": {
-		"code": "GT-HX-1",
-		"name": "碧血金沙"
-	},
-	"a001_ex05": {
-		"code": "GT-HX-2",
-		"name": "關山飛渡"
-	},
-	"a001_ex05#f#": {
-		"code": "GT-HX-2",
-		"name": "關山飛渡"
-	},
-	"a001_ex06": {
-		"code": "GT-HX-3",
-		"name": "西部往事"
-	},
-	"a001_ex06#f#": {
-		"code": "GT-HX-3",
-		"name": "西部往事"
 	},
 	"camp_01": {
 		"code": "烏薩斯",
