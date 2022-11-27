@@ -1,36 +1,6 @@
-@import 'ifNoScript';
-@import 'styles/themes/light';
-@import 'styles/themes/dark';
-@import 'util';
-@import 'anims';
-@import 'scrollbar';
-@import 'hoverDesc';
-
-
-:root {
-	transition: 0.2s ease-in-out;
-	background: var(--globalForeground);
-}
-
-html,
+/* You can add global styles to this file, and also import other style files */
 body {
-	will-change: contents;
-	font-family: JetBrains Mono, Bender, Momcake;
-	position: fixed;
-	width: 100vw;
-	height: 100vh;
-	padding: 0;
-	margin: 0;
-}
-
-::selection {
-	background: hsla(251, 81%, 55%, 0.5);
-}
-
-main {
-	position: relative;
-}
-
-button {
-    font-family: JetBrains Mono;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }

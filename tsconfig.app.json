@@ -3,24 +3,7 @@
   "extends": "./tsconfig.json",
   "compilerOptions": {
     "outDir": "./out-tsc/app",
-    "resolveJsonModule": true,
-    "allowSyntheticDefaultImports": true,
-    "types": [],
-    "baseUrl": "./",
-    "paths": {
-      "@services/*": ["./src/services/*"],
-      "@utils/*": ["./src/utils/*"],
-      "@interfaces/*": ["./src/utils/interfaces/*"],
-      "@featureComponents/*": ["./src/app/features/*"],
-      "@root/*": ["./*"],
-      "@assets/*": ["./src/assets/*"],
-      "@gamedataJSON/*" : ["./src/assets/gamedata/json"],
-      "#Assets": ["./src/Assets.resourcemap.ts"],
-      "@struct/*" : ["./src/struct/*"],
-      "path": [
-        "./node_modules/path-browserify"
-      ]
-    },
+    "types": []
   },
   "files": [
     "src/main.ts",

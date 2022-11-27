@@ -1,0 +1,55 @@
+Path ParameterOverride({ String locale }) {
+    UI @ExternMethod(GET) {
+        /
+        /main
+        group Operators {
+            /operators @View(OP_SELECTION)
+            /operators
+                @Parameters({ Prioritized(String) id, String name })
+                @InvalidParamRedirect(/operators)
+                @View(OP_INFO)
+            /characters @AliasedRedirect(/operators).WithParams(ALL) @Trait(OPENGRAPH)
+            /char @Inherit(/characters)
+        }
+        group Recruit {
+            /recruit @View(HR_RECRUIT)
+            /headhunt @View(HR_HEADHUNT_SELECTION)
+            /headhunt
+                @Parameters({ String banner = "latest" })
+                @AliasedRedirect(/recruit).IfParametersMatch({ banner = "std" })
+                @View(HR_HEADHUNT_BANNER)
+        }
+        group Combat {
+            /enemies @View(ENEMY_SELECTION)
+            /enemies
+                @Parameters({ Required(String) id })
+                @InvalidParamRedirect(/enemies)
+                @View(ENEMY_INFO)
+            /map @View(MAP_SELECTION)
+            /map
+                @Parameters({ Required(String) id })
+                @InvalidParamRedirect(/map)
+                @View(MAP_INFO)
+        }
+    }
+    API @PossibleStatus([500, 200]) @ExternMethod(GET) {
+        /operators Parameters({ Prioritized(String) id, String name }, { Required(String) locale }) @PossibleStatus(404)
+        /materials Parameters(RequireAny({ Prioritized(String) id }, { String query })) @PossibleStatus(404)
+    }
+}
+
+UI {
+    Application {
+        TopLevelUI {}
+        Route {
+
+        }
+    }
+}
+
+Backend {
+    LocalStorage {}
+    CharacterData {}
+    XMLCachedResources {}
+}
+

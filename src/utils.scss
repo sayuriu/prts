@@ -1,0 +1,90 @@
+.wfull { width: 100% }
+.hfull { height: 100% }
+.hauto { height: auto }
+.wauto { width: auto }
+.hinfer { height: inherit }
+.winfer { width: inherit }
+
+.rel { position: relative }
+.abs { position: absolute }
+.stic { position: sticky }
+
+.t0 { top: 0 }
+.tfull { top: 100% }
+.b0 { bottom: 0 }
+.bfull { bottom: 100% }
+.l0 { left: 0 }
+.lfull { left: 100% }
+.r0 { right: 0 }
+.rfull { right: 100% }
+
+.z-1 { z-index: -1 }
+.z0 { z-index: 0 }
+.z1 { z-index: 1 }
+.z2 { z-index: 2 }
+.z3 { z-index: 3 }
+.z4 { z-index: 4 }
+.z5 { z-index: 5 }
+
+.in0 { inset: 0 }
+
+.o0 { opacity: 0 }
+.ohalf { opacity: 0.5 }
+.o1 { opacity: 1 }
+
+.ofhidden { overflow: hidden }
+.ofauto-y { overflow-y: auto }
+.ofscr-y { overflow-y: scroll }
+.ofnone-y { overflow-x: auto }
+.ofauto-x { overflow-x: auto }
+.ofscr-x { overflow-x: scroll }
+.ofnone-x { overflow-x: hidden }
+.ofauto { overflow: auto }
+
+.txt-algn-l { text-align: left }
+.txt-algn-r { text-align: right }
+.txt-algn-c { text-align: center }
+
+.inline { display: inline }
+.inline-f { display: inline-flex }
+.inline-b { display: inline-block }
+.grid { display: grid }
+
+.flex { display: flex }
+.flex-wrap { flex-wrap: wrap }
+.flex-nowrap { flex-wrap: nowrap }
+
+.flex-grow-1 { flex-grow: 1 }
+
+.flex-col { flex-direction: column }
+.flex-row { flex-direction: row }
+.flex-col-rev { flex-direction: column-reverse }
+.flex-row-rev { flex-direction: row-reverse }
+
+.flex-j-between { justify-content: space-between }
+.flex-j-around { justify-content: space-around }
+.flex-j-end { justify-content: flex-end }
+.flex-j-start { justify-content: flex-start }
+.flex-j-center { justify-content: center }
+
+.flex-ai-center { align-items: center }
+.flex-ai-stretch { align-items: stretch }
+
+.self-a-center { align-self: center }
+.self-a-stretch { align-self: stretch }
+.self-a-end { align-self: flex-end }
+.self-a-start { align-self: flex-start }
+
+.no-border { border: 0 }
+.no-margin { margin: 0 }
+.no-padding { padding: 0 }
+
+.no-pointer { pointer-events: none }
+.pointer-all { pointer-events: all }
+.pointer-visible { pointer-events: visible }
+
+.cur-pointer { cursor: pointer }
+.cur-default { cursor: default }
+.cur-help { cursor: help }
+.cur-resize-ew { cursor: ew-resize }
+.cur-resize-ns { cursor: ns-resize }

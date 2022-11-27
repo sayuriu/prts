@@ -3,39 +3,23 @@
   "compileOnSave": false,
   "compilerOptions": {
     "baseUrl": "./",
-    "paths": {
-      "@services/*": ["./src/services/*"],
-      "@utils/*": ["./src/utils/*"],
-      "@interfaces/*": ["./src/utils/interfaces/*"],
-      "@featureComponents/*": ["./src/app/features/*"],
-      "@root/*": ["./*"],
-      "@assets/*": ["./src/assets/*"],
-      "@environments/*": ["./src/environments/*"],
-      "@gamedataJSON/*" : ["./src/assets/gamedata/json"],
-      "#Assets": ["./src/Assets.resourcemap.ts"],
-      "@struct/*" : ["./src/struct/*"],
-      "path": [
-        "./node_modules/path-browserify"
-      ]
-    },
-
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
     "strict": true,
+    "noImplicitOverride": true,
+    "noPropertyAccessFromIndexSignature": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
-    "resolveJsonModule": true,
-    "allowSyntheticDefaultImports": true,
     "sourceMap": true,
     "declaration": false,
     "downlevelIteration": true,
     "experimentalDecorators": true,
     "moduleResolution": "node",
     "importHelpers": true,
-    "target": "es2017",
-    "module": "esnext",
+    "target": "es2020",
+    "module": "es2020",
     "lib": [
-      "esnext",
+      "es2020",
       "dom"
     ]
   },

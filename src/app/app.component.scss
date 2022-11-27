@@ -1,17 +1,11 @@
-@import '../arknights';
+:host {
+    width: 100%;
+    height: 100%;
 
-.router {
-	position: relative;
+    display: grid;
+    grid-template: 100px / auto;
 }
-#TopLevelUI {
-	z-index: 999;
-}
-pop-up-container {
-    z-index: 1000;
-    opacity: 0;
-}
-#InvalidScreen {
-    z-index: 1001;
-    height: 100vh;
-    width: 100vw;
+
+#PRTS_SVG * {
+    fill: #000;
 }
