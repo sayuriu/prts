@@ -1,0 +1,15 @@
+entry {
+    stack { hover
+        bg-anim
+        logo
+        emblem
+        "TAP TO LOGIN"
+    }
+    when click {
+        logo: gone @ngAnim
+        text: gone @ngAnim
+        emblem: shift -> left, anim
+        bg: shift
+        size: shrink
+    }
+}
