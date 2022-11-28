@@ -1,12 +1,15 @@
 /* To learn more about this file see: https://angular.io/config/tsconfig. */
 {
-  "compileOnSave": false,
-  "compilerOptions": {
+    "compileOnSave": false,
+    "compilerOptions": {
     "baseUrl": "./",
-      "paths": {
-          "@pages/*": ["src/app/pages/*"],
-      },
-      "outDir": "./dist/out-tsc",
+    "paths": {
+        "@pages/*": ["src/app/pages/*"],
+        "@directives/*": ["src/app/directives/*"],
+        "@services/*": ["src/app/services/*"],
+        "@utils/*": ["src/app/utils/*"],
+    },
+    "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "noImplicitOverride": true,
@@ -22,14 +25,14 @@
     "target": "es2020",
     "module": "es2020",
     "lib": [
-      "es2020",
-      "dom"
-    ]
-  },
-  "angularCompilerOptions": {
-    "enableI18nLegacyMessageIdFormat": false,
-    "strictInjectionParameters": true,
-    "strictInputAccessModifiers": true,
-    "strictTemplates": true
-  }
+            "es2020",
+            "dom"
+        ]
+    },
+    "angularCompilerOptions": {
+        "enableI18nLegacyMessageIdFormat": false,
+        "strictInjectionParameters": true,
+        "strictInputAccessModifiers": true,
+        "strictTemplates": true
+    }
 }

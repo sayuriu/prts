@@ -1,2 +1,4 @@
-<top-bar id="header-bar" [isEntry]="isEntry"></top-bar>
-<router-outlet id="root-router"></router-outlet>
+<top-bar id="header-bar"></top-bar>
+<div id="root-router" class="rel" [@routeAnimations]="prepareOutlet(outlet)">
+    <router-outlet #outlet="outlet" class="rel"></router-outlet>
+</div>

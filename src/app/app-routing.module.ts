@@ -1,16 +1,18 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { EntryComponent } from "@pages/entry";
 import { MainComponent } from "@pages/main";
+import { BlankComponent } from "@pages/blank";
 
 const routes: Routes = [
     {
         path: '',
-        component: EntryComponent,
+        component: BlankComponent,
+        data: { animation: 'blank' }
     },
     {
         path: 'main',
         component: MainComponent,
+        data: { animation: 'main' }
     }
 ];
 

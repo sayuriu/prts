@@ -5,13 +5,25 @@
     height: 100%;
 
     display: grid;
-    grid-template: 100vh 1fr / 1fr;
+    grid-template: 100vh 1fr 100px / 1fr 100px;
     transition: all 0.7s $forceful;
 }
 
 :host([entry="false"]) {
-    grid-template: 80px 1fr / 1fr;
+    grid-template: 80px 1fr 100px / 1fr 100px;
 }
 
-#header-bar { grid-area: 1 / 1 }
-#root-router { grid-area: 2 / 1 }
+#header-bar { grid-area: 1 / 1 / span 1 / span 2; }
+#root-router {
+    grid-area: 2 / 1 / span 2 / span 2;
+    background: url("/assets/ui/screen.png") repeat;
+    overflow: hidden;
+}
+:host > prts-logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #000;
+    grid-area: 3 / 2 / span 1 / span 1;
+    transition: all 0.7s $forceful;
+}

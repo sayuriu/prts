@@ -1,0 +1,11 @@
+html[theme="dark"] {
+  @import "themes/dark";
+}
+html[theme="light"] {
+  @import "themes/light";
+}
+
+html {
+    --prts-white: hsl(210, 13%, 92%);
+    --prts-black: hsl(210, 13%, 8%);
+}

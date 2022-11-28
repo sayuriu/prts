@@ -1,0 +1,186 @@
+@use "src/utils";
+@import "src/anim";
+
+:host {
+    display: grid;
+    grid-template: 100% / calc(100%) 1fr 0px;
+    transition: all 0.7s $forceful;
+    background: linear-gradient(90deg, #000000 0%, #000000 100%);
+}
+
+:host-context([entry="true"]) {
+
+}
+
+#header-bar--emblem {
+    padding-left: 0;
+    grid-template: 1fr / 1fr;
+    transition: all 0.7s $forceful;
+}
+
+.center {
+    grid-area: 1 / 1 / span 1 / span 1;
+    margin: auto auto auto auto;
+}
+
+//@property --desc-line-scaleX{
+//    syntax: '<number>';
+//    inherits: false;
+//    initial-value:  0.84;
+//}
+//@property --desc-line-transformOrigin{
+//    syntax: '<length> <length>';
+//    inherits: false;
+//    initial-value:  295px 0;
+//}
+//@property --desc-lineU-offset{
+//    syntax: '<length>, <length>';
+//    inherits: false;
+//    initial-value:  0, -16px;
+//}
+//@property --desc-lineD-offset{
+//    syntax: '<number>';
+//    inherits: false;
+//    initial-value:  0, 72px;
+//}
+//@property --title-scale{
+//    syntax: '<number>';
+//    inherits: false;
+//    initial-value:  1.32;
+//}
+//@property --title-offset{
+//    syntax: '<length>, <length>';
+//    inherits: false;
+//    initial-value:  155px, -6px;
+//}
+//@property --desc-scale{
+//    syntax: '<number>';
+//    inherits: false;
+//    initial-value:  0.74;
+//}
+//@property --desc-1-offset{
+//    syntax: '<length>, <length>';
+//    inherits: false;
+//    initial-value:  280px, 52px;
+//}
+//@property --desc-2-offset{
+//    syntax: '<length>, <length>';
+//    inherits: false;
+//    initial-value:  280px, 52px;
+//}
+
+#header-bar--emblem-main {
+    mix-blend-mode: exclusion;
+    height: min(20%, 156px);
+    transform: translateX(0);
+    path {fill: var(--prts-white); }
+    line { stroke: var(--prts-white); }
+    g { transition: all 0.7s $forceful 0s; }
+    transition:
+        transform 0.5s $forceful,
+        height 0.7s $forceful;
+    @keyframes to-default {
+        //to {
+        //    --desc-line-transformOrigin: 295px 0;
+        //    --desc-line-scaleX: 0.84;
+        //    --desc-lineU-offset: 0, -16px;
+        //    --desc-lineD-offset: 0, 72px;
+        //    --title-offset: 155px, -6px;
+        //    --desc-1-offset: 280px, 52px;
+        //    --desc-2-offset: 280px, 52px;
+        //    --desc-scale: 0.74;
+        //    --title-scale: 1.32;
+        //}
+        50% {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+    animation: to-default 0.7s $forceful forwards;
+    --desc-line-scaleX: 0.84;
+    --desc-line-transformOrigin: 295px 0;
+    --desc-lineU-offset: 0, -16px;
+    --desc-lineD-offset: 0, 72px;
+    --title-scale: 1.32;
+    --title-offset: 155px, -6px;
+    --desc-scale: 0.74;
+    --desc-1-offset: 280px, 52px;
+    --desc-2-offset: 280px, 52px;
+}
+
+#emblem-title {
+    transform: scale(var(--title-scale)) translate(var(--title-offset));
+}
+#emblem-desc-lnd {
+    transform-origin: var(--desc-line-transformOrigin);
+    transform: scaleX(var(--desc-line-scaleX)) translate(var(--desc-lineD-offset));
+}
+#emblem-desc-lnu {
+    transform-origin: var(--desc-line-transformOrigin);
+    transform: scaleX(var(--desc-line-scaleX)) translate(var(--desc-lineU-offset));
+}
+#emblem-desc1 {
+    transform: scale(var(--desc-scale)) translate(var(--desc-1-offset));
+}
+#emblem-desc2 {
+    transform: scale(var(--desc-scale)) translate(var(--desc-2-offset));
+}
+
+:host-context([entry="false"]) {
+    :host {
+        grid-template: 100% / calc(500px) 1fr 100px;
+    }
+    #header-bar--emblem {
+        padding-left: 1rem;
+    }
+    #header-bar--emblem-main {
+        height: min(100%, 156px);
+        transform: translateX(-20%);
+        @keyframes to-active {
+        //    from {
+        //        --desc-line-transformOrigin: 0 0;
+        //    }
+        //    50% {
+        //        --desc-line-scaleX: 1.15;
+        //        --desc-lineU-offset: 85px, 20px;
+        //        --desc-lineD-offset: 85px, 40px;
+        //        --title-offset: 0;
+        //        --desc-1-offset: 319px, -32px;
+        //        --desc-2-offset: 319px, -29px;
+        //    }
+        //    to {
+        //        --title-scale: 1.75;
+        //        --desc-scale: 1;
+        //    }
+            50% {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        animation: to-active 0.7s $forceful forwards;
+        g {
+            transition-delay: 0.12s;
+        }
+        --desc-line-transformOrigin: 0 0;
+        --desc-line-scaleX: 1.15;
+        --desc-lineU-offset: 85px, 20px;
+        --desc-lineD-offset: 85px, 40px;
+        --title-offset: 0;
+        --desc-1-offset: 319px, -32px;
+        --desc-2-offset: 319px, -29px;
+        --title-scale: 1.75;
+        --desc-scale: 1;
+    }
+}
+
+#header-bar--setting-toggle {
+    grid-area: 1 / 3 / span 1 / span 1;
+    background: grey;
+}
+// q: the meaning of life in css
+
+
