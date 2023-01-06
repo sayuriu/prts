@@ -5,6 +5,9 @@ body {
     overflow: hidden;
     width: 100vw;
     height: 100vh;
+    background: #000;
+    position: relative;
+    font-family: Oswald, sans-serif;
 }
 @import "utils";
 @import "theme";

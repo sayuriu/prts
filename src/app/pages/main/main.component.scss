@@ -1,0 +1,27 @@
+:host.ng-star-inserted.ng-animating {
+    overflow: hidden;
+}
+
+.page-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.featured {
+    flex: 1;
+}
+
+.menu {
+    flex: 1;
+}
+
+@media screen and (max-width: 900px) {
+    .featured {
+        flex: unset;
+        width: 100%;
+    }
+    .menu {
+        flex: unset;
+        width: 100%;
+    }
+}

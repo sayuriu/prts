@@ -8,6 +8,8 @@
         "@directives/*": ["src/app/directives/*"],
         "@services/*": ["src/app/services/*"],
         "@utils/*": ["src/app/utils/*"],
+        "@struct/*": ["src/app/struct/*"],
+        "@components/*": ["src/app/components/*"],
     },
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,

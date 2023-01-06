@@ -1,0 +1,25 @@
+.project-info__header {
+    align-items: baseline;
+    white-space: nowrap;
+    flex-wrap: wrap;
+    & > span {
+        margin-left: 2.1ch;
+        gap: 1ch;
+        white-space: nowrap;
+    }
+    h1 {
+        margin: 0.5ch 0 0 1ch;
+    }
+}
+p {
+    font-size: 1.3rem;
+    font-weight: 300;
+    margin-left: 3ch;
+    white-space: pre;
+}
+.project-info__footer {
+    strong {
+        font-size: 1.3rem;
+        padding-inline: 1rem;
+    }
+}

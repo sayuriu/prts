@@ -1,39 +1,41 @@
 import { Component, HostBinding } from '@angular/core';
 import { Router, RouterOutlet } from "@angular/router";
 import { animate, query, style, transition, trigger } from "@angular/animations";
+import { absLateralAnimation, AnimFunctions } from "@utils/ng-anim";
+
+const commonTransitionConfig = {
+    durationSeconds: 0.6,
+    ease: AnimFunctions.forceful,
+    optional: true,
+} as const;
+
+const routeAnimations = [
+    transition(
+        '* => blank',
+        absLateralAnimation("UD")(commonTransitionConfig)
+    ),
+    transition(
+        'blank => *',
+        absLateralAnimation("DU")(commonTransitionConfig)
+    ),
+    transition(
+        '* <=> *',
+        absLateralAnimation("LR")(commonTransitionConfig)
+    ),
+]
 
 @Component({
     selector: 'app-root',
     templateUrl: './app.component.html',
     styleUrls: ['./app.component.scss'],
     animations: [
-        trigger('routeAnimations', [
-            transition('* <=> *', [
-                query(':enter, :leave', [
-                    style({
-                        position: 'absolute',
-                        left: 0,
-                        top: 0,
-                    })
-                ], { optional: true }),
-                query(':enter', [
-                    style({ left: '-100%' })
-                ], { optional: true }),
-                query(':leave', [
-                    style({ left: '0%' })
-                ], { optional: true }),
-                query(':enter', [
-                    animate('0.5s ease-in-out', style({ left: '0%' }))
-                ], { optional: true }),
-                query(':leave', [
-                    animate('0.5s ease-in-out', style({ left: '100%' }))
-                ], { optional: true }),
-            ]),
-        ]),
+        trigger('routeAnimations', routeAnimations),
     ]
 })
 export class AppComponent {
-    constructor(public router: Router) {}
+    constructor(public router: Router) {
+        this.router.urlUpdateStrategy = "eager";
+    }
     @HostBinding('attr.entry') get isEntry() {
         return this.router.url === '/';
     }

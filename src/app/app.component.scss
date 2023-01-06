@@ -5,12 +5,18 @@
     height: 100%;
 
     display: grid;
-    grid-template: 100vh 1fr 100px / 1fr 100px;
-    transition: all 0.7s $forceful;
+    grid-template: calc(100vh + 0px) 1fr 100px 0px / 1fr 100px;
+    transition:
+        all 0.7s $forceful,
+        grid-template 0.7s 0.7s $forceful;
+    overflow: hidden;
 }
 
 :host([entry="false"]) {
-    grid-template: 80px 1fr 100px / 1fr 100px;
+    grid-template: calc(0vh + 65px) 1fr 100px 30px / 1fr 100px;
+    transition:
+        all 0.7s $forceful,
+        grid-template 0.7s 0.7s $forceful;
 }
 
 #header-bar { grid-area: 1 / 1 / span 1 / span 2; }
@@ -19,11 +25,15 @@
     background: url("/assets/ui/screen.png") repeat;
     overflow: hidden;
 }
-:host > prts-logo {
+prts-logo {
     width: 100px;
     height: 100px;
     border-radius: 50%;
     background-color: #000;
     grid-area: 3 / 2 / span 1 / span 1;
     transition: all 0.7s $forceful;
+}
+
+app-footer {
+    grid-area: 4 / 1 / span 1 / span 2;
 }

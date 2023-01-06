@@ -1,5 +1,4 @@
 import { Component, OnInit, OnChanges } from '@angular/core';
-import 'gsap';
 
 @Component({
   selector: 'prts-logo',

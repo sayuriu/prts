@@ -1,2 +1,17 @@
-<p>main works!</p>
-<a routerLink="/">entry</a>
+<div class="page-container wfull hfull rel">
+    <div class="featured" style="background: #0c5460">
+        <project-info></project-info>
+        <div class="fw rel" style="aspect-ratio: 890 / 235">
+            <gacha-banner
+                *ngFor="let banner of featuredData[0]"
+                [BannerIMG]="banner.BannerIMG"
+                [ends]="banner.ends"
+                [id]="banner.id"
+                [characters]="banner.characters"
+                [name]="banner.name"
+                [server]="banner.server"
+            ></gacha-banner>
+        </div>
+    </div>
+    <div class="menu" style="background: #00B3FD"></div>
+</div>

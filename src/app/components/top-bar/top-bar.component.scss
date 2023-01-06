@@ -4,13 +4,17 @@
 :host {
     display: grid;
     grid-template: 100% / calc(100%) 1fr 0px;
-    transition: all 0.7s $forceful;
+    transition:
+        all 0.7s $forceful,
+        grid-template 0.7s $forceful;
     background: linear-gradient(90deg, #000000 0%, #000000 100%);
 }
 
-:host-context([entry="true"]) {
-
-}
+//:host-context([entry="false"]) :host {
+//    transition:
+//        all 0.7s $forceful,
+//        grid-template 0.7s 0s $forceful;
+//}
 
 #header-bar--emblem {
     padding-left: 0;
@@ -23,82 +27,35 @@
     margin: auto auto auto auto;
 }
 
-//@property --desc-line-scaleX{
-//    syntax: '<number>';
-//    inherits: false;
-//    initial-value:  0.84;
-//}
-//@property --desc-line-transformOrigin{
-//    syntax: '<length> <length>';
-//    inherits: false;
-//    initial-value:  295px 0;
-//}
-//@property --desc-lineU-offset{
-//    syntax: '<length>, <length>';
-//    inherits: false;
-//    initial-value:  0, -16px;
-//}
-//@property --desc-lineD-offset{
-//    syntax: '<number>';
-//    inherits: false;
-//    initial-value:  0, 72px;
-//}
-//@property --title-scale{
-//    syntax: '<number>';
-//    inherits: false;
-//    initial-value:  1.32;
-//}
-//@property --title-offset{
-//    syntax: '<length>, <length>';
-//    inherits: false;
-//    initial-value:  155px, -6px;
-//}
-//@property --desc-scale{
-//    syntax: '<number>';
-//    inherits: false;
-//    initial-value:  0.74;
-//}
-//@property --desc-1-offset{
-//    syntax: '<length>, <length>';
-//    inherits: false;
-//    initial-value:  280px, 52px;
-//}
-//@property --desc-2-offset{
-//    syntax: '<length>, <length>';
-//    inherits: false;
-//    initial-value:  280px, 52px;
-//}
-
 #header-bar--emblem-main {
     mix-blend-mode: exclusion;
-    height: min(20%, 156px);
-    transform: translateX(0);
+    //height: min(20%, 156px);
+    outline: none;
+    translate: 0 0;
     path {fill: var(--prts-white); }
     line { stroke: var(--prts-white); }
-    g { transition: all 0.7s $forceful 0s; }
-    transition:
-        transform 0.5s $forceful,
-        height 0.7s $forceful;
+    g { transition: all 0.7s $forceful; }
+    transition: all 0.7s $forceful;
     @keyframes to-default {
-        //to {
-        //    --desc-line-transformOrigin: 295px 0;
-        //    --desc-line-scaleX: 0.84;
-        //    --desc-lineU-offset: 0, -16px;
-        //    --desc-lineD-offset: 0, 72px;
-        //    --title-offset: 155px, -6px;
-        //    --desc-1-offset: 280px, 52px;
-        //    --desc-2-offset: 280px, 52px;
-        //    --desc-scale: 0.74;
-        //    --title-scale: 1.32;
+        //from, 25% {
+        //    //height: min(100%, 156px);
+        //    height: 65px;
         //}
-        50% {
-            opacity: 0;
-        }
         to {
-            opacity: 1;
+            height: 141px; //TODO
         }
     }
-    animation: to-default 0.7s $forceful forwards;
+    &.entry {
+        height: 141px;
+    }
+    &.nav {
+        height: 65px;
+    }
+    &:not(.locked) {
+        animation:
+            to-default 0.7s $forceful 0.7s forwards;
+    }
+    height: 65px;
     --desc-line-scaleX: 0.84;
     --desc-line-transformOrigin: 295px 0;
     --desc-lineU-offset: 0, -16px;
@@ -136,34 +93,20 @@
         padding-left: 1rem;
     }
     #header-bar--emblem-main {
-        height: min(100%, 156px);
-        transform: translateX(-20%);
+        //height: min(100%, 156px);
+        g { transition: all 0.7s $forceful 0s; }
+        translate: -40% 0;
         @keyframes to-active {
-        //    from {
-        //        --desc-line-transformOrigin: 0 0;
-        //    }
-        //    50% {
-        //        --desc-line-scaleX: 1.15;
-        //        --desc-lineU-offset: 85px, 20px;
-        //        --desc-lineD-offset: 85px, 40px;
-        //        --title-offset: 0;
-        //        --desc-1-offset: 319px, -32px;
-        //        --desc-2-offset: 319px, -29px;
-        //    }
-        //    to {
-        //        --title-scale: 1.75;
-        //        --desc-scale: 1;
-        //    }
             50% {
-                opacity: 0;
+                height: 65px;
             }
             to {
                 opacity: 1;
+                height: 65px;
             }
         }
-        animation: to-active 0.7s $forceful forwards;
-        g {
-            transition-delay: 0.12s;
+        &:not(.locked) {
+            animation: to-active 1.4s $forceful forwards;
         }
         --desc-line-transformOrigin: 0 0;
         --desc-line-scaleX: 1.15;
@@ -174,6 +117,9 @@
         --desc-2-offset: 319px, -29px;
         --title-scale: 1.75;
         --desc-scale: 1;
+        g {
+            //transition-delay: 0.12s;
+        }
     }
 }
 
@@ -182,5 +128,4 @@
     background: grey;
 }
 // q: the meaning of life in css
-
 
