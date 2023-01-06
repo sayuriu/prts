@@ -1,0 +1,14 @@
+:host {
+    font-family: "Product Sans Light";
+    color: #eee;
+}
+
+p {
+    text-transform: uppercase;
+    margin-left: auto;
+    font-weight: lighter;
+    padding-inline: 0.5rem;
+    strong {
+        font-family: "Product Sans"
+    }
+}
