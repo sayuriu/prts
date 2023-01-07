@@ -10,12 +10,6 @@
     background: linear-gradient(90deg, #000000 0%, #000000 100%);
 }
 
-//:host-context([entry="false"]) :host {
-//    transition:
-//        all 0.7s $forceful,
-//        grid-template 0.7s 0s $forceful;
-//}
-
 #header-bar--emblem {
     padding-left: 0;
     grid-template: 1fr / 1fr;
@@ -37,10 +31,6 @@
     g { transition: all 0.7s $forceful; }
     transition: all 0.7s $forceful;
     @keyframes to-default {
-        //from, 25% {
-        //    //height: min(100%, 156px);
-        //    height: 65px;
-        //}
         to {
             height: 141px; //TODO
         }
@@ -127,5 +117,3 @@
     grid-area: 1 / 3 / span 1 / span 1;
     background: grey;
 }
-// q: the meaning of life in css
-
