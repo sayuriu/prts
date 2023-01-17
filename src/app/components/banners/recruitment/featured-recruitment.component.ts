@@ -1,5 +1,5 @@
-import { Component, Input, OnInit } from '@angular/core';
-import { FeaturedGacha } from "../../../struct/featured";
+import { Component, HostBinding, Input, OnInit } from '@angular/core';
+import { FeaturedGacha } from "@struct/featured";
 
 @Component({
   selector: 'gacha-banner',
@@ -9,8 +9,9 @@ import { FeaturedGacha } from "../../../struct/featured";
 export class GachaComponent implements OnInit, FeaturedGacha {
 
     constructor() { }
+    @HostBinding('class') _boundHTMLClass = 'wfull grid rel'
 
-    @Input() BannerIMG!: string;
+    @Input() bannerIMG!: string;
     @Input() id!: string;
     @Input() characters!: FeaturedGacha['characters'];
     @Input() server!: string;

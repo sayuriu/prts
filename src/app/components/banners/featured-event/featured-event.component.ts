@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 
 @Component({
@@ -9,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
 export class FeaturedEvent implements OnInit {
 
     constructor() { }
-    eventType!: "MAIN_STORY"
+    @Input() eventType!: "MAIN_STORY"
         | "INTERMEZZI"
         | "SIDE_STORY"
         | "SUPPLIES"
@@ -18,8 +18,11 @@ export class FeaturedEvent implements OnInit {
         | "CONTINGENCY_CONTRACT"
         | "INTEGRATED_STRATEGIES";
 
-    ends!: number;
-    name!: string;
+    @Input() ends!: number;
+    @Input() name!: string;
+    @Input() server!: string;
+    @Input() id!: string;
+    @Input() bannerIMG!: string;
 
     ngOnInit(): void {
     }

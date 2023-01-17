@@ -1,0 +1,12 @@
+<div></div>
+<div class="gacha-featured__banner"></div>
+<div class="gacha-featured__characters rel flex flex-d-rr flex-ai-c">
+    <div
+        *ngFor="let character of characters.reverse(), let i = index"
+        class="gacha-featured__characters__img rel"
+        [ngStyle]="{
+            'background': ['center / contain no-repeat url(assets/featured/gacha', id, character.profileUrl].join('/') + ')',
+            'translate': ['calc(', i * 30, '%', ' + 5%)', ' 0'].join('')
+        }"
+    ></div>
+</div>
