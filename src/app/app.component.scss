@@ -24,6 +24,9 @@
     grid-area: 2 / 1 / span 2 / span 2;
     background: url("/assets/ui/screen.png") repeat;
     overflow: hidden;
+    & > *.ng-animating {
+        overflow: hidden;
+    }
 }
 prts-logo {
     width: 100px;

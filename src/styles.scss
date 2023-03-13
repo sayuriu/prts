@@ -8,6 +8,9 @@ body {
     background: #000;
     position: relative;
     font-family: Oswald, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
 }
 @import "utils";
 @import "theme";

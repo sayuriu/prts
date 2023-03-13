@@ -10,8 +10,8 @@ import { ElementDirective } from '@directives/element.directive';
 import { MainComponent } from '@pages/main';
 import { BlankComponent } from '@pages/blank';
 import { ProjectInfoComponent } from '@pages/main/project-info/project-info.component';
-import { GachaComponent } from '@components/banners/gacha/gacha.component';
-import { FeaturedEvent } from '@components/banners/featured-event/featured-event';
+import { FeaturedRecruitmentComponent } from '@components/banners/recruitment/featured-recruitment.component';
+import { FeaturedEventComponent } from '@components/banners/featured-event/featured-event.component';
 import { PagedComponent } from "@utils/componentDef";
 import { FooterComponent } from './components/footer/footer.component';
 
@@ -25,8 +25,8 @@ import { FooterComponent } from './components/footer/footer.component';
         PrtsLogoComponent,
         ProjectInfoComponent,
         PagedComponent,
-        GachaComponent,
-        FeaturedEvent,
+        FeaturedRecruitmentComponent,
+        FeaturedEventComponent,
         FooterComponent
     ],
     imports: [

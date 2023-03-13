@@ -11,10 +11,12 @@ export class MainComponent extends PagedComponent implements OnInit {
     featuredData: [FeaturedGacha[], FeaturedEvent[]] = [[
         {
             ends: Date.now() + 100000,
-            name: "Banner 1",
+            name: "Abyss\nCorrosion",
             server: "EN",
-            BannerIMG: "Rectangle ",
+            bannerIMG: "banner.png",
             id: "abyss_corrosion",
+            mainColor: '#1660B7',
+            accentColor: '#165AAA',
             characters: [
                 {
                     name: "Specter the Unchained",
@@ -63,8 +65,11 @@ export class MainComponent extends PagedComponent implements OnInit {
     ], [
         {
             ends: Date.now() + 100000,
-            name: "Event 1",
+            name: "Stultifera Navis",
             eventType: "MAIN_STORY",
+            server: "EN",
+            bannerIMG: "banner.png",
+            id: "stultifera_navis"
         }
     ]];
     constructor() {

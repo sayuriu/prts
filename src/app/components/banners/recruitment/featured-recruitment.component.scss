@@ -1,6 +1,7 @@
+@import "./../../../../anim";
+
 :host {
-    flex: 1;
-    background: red;
+    aspect-ratio: 890 / 235;
 }
 @media screen and (max-width: 900px) {
     :host {
@@ -8,27 +9,89 @@
     }
 }
 
-
 :host {
-    grid-template-columns: 3.4fr 6.6fr;
-    grid-template-rows: 1em 3fr 1fr;
-    background: #0e8ac2;
+    grid-template-columns: auto auto;
+    grid-template-rows: 2em 1fr clamp(40px, calc(25% - 0.25em), 52px) ;
 }
 
-.gacha-featured__banner {
+.hover {
+    opacity: 0;
+    transition: all 0.45s $forceful;
+    text {
+        translate: -10px 0;
+        transition: inherit;
+    }
+}
+
+%hover-expanded {
+    opacity: 1;
+    text {
+        translate: 10px 0;
+    }
+}
+
+:host:hover:not(:has(> .characters > .character-hover:hover)) .hover-banner {
+    @extend %hover-expanded;
+}
+
+:host:hover:has(> .characters:hover > .character-hover:hover) .hover-character {
+    @extend %hover-expanded;
+}
+
+.label-bg {
+
+}
+
+.header {
+    text-transform: uppercase;
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 1;
+    .server {
+        padding-inline: 0.5em;
+        color: #fff;
+        background: #000;
+    }
+    .text {
+        padding-inline: 0.5em;
+        color: #fff;
+    }
+}
+
+.name {
+    grid-column: 1 / span 1;
+    grid-row: 2 / span 1;
+}
+
+.banner {
+    aspect-ratio: 573 / 182;
     grid-column: 2 / span 1;
     grid-row: 1 / span 2;
-    background: #7d0022;
+    justify-self: flex-end;
 }
 
-.gacha-featured__characters {
+.characters {
     grid-column: 1 / span 2;
     grid-row: 3 / span 1;
-    background: #1e7e34;
 }
 
-.gacha-featured__characters__img {
+.character-hover {
     aspect-ratio: 1;
-    height: 220%;
-    clip-path: polygon(0 27.5%, 100% 27.5%, 100% 72.5%, 0 72.5%);
+    height: clamp(70px, 220%, 112px);
+}
+.character-img {
+    clip-path: polygon(0 26.5%, 100% 26.5%, 100% 73%, 0 73%);
+}
+.character-info {
+    height: 50px;
+    width: 100px;
+    background: blue;
+    translate: -5% -49.5%;
+    transition: all 0.45s $forceful;
+}
+
+// TODO: Use Javascript to animate the card singleton for consistency
+.character-hover:has(> .character-img:hover) > .character-info {
+    &, &:hover {
+        opacity: 1;
+    }
 }

@@ -7,12 +7,12 @@ export const AnimFunctions = {
     'accelerate': [1, 0.25, 0, 1],
     'slow-down': [0.18, 0, 0.08, 1],
     'sudden': [0, 1.04, 0, 1.04],
-};
+} as const;
 
 interface PageTransitionOptions {
     delaySeconds: number;
     durationSeconds: number;
-    ease: number[] | string;
+    ease: readonly number[] | string;
     optional: boolean;
     enter: Omit<Optional<PageTransitionOptions>, 'enter' | 'leave'>;
     leave: Omit<Optional<PageTransitionOptions> , 'enter' | 'leave'>;
@@ -44,8 +44,8 @@ export const absLateralAnimation = (direction: 'UD' | 'DU' | 'LR' | 'RL') => (pa
             optional: leaveOptional = optional,
         } = {}
     } = pageTransitionOptions;
-    const enterEase = normalizeEasings(enterEasings);
-    const leaveEase = normalizeEasings(leaveEasings);
+    const enterEase = normalizeEasings(enterEasings as number[]);
+    const leaveEase = normalizeEasings(leaveEasings as number[]);
     return [
         query(':enter, :leave', [
             style({

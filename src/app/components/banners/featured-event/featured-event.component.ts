@@ -1,22 +1,17 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, HostBinding, Input, OnInit } from '@angular/core';
+import { FeaturedEvent } from "@struct/featured";
 
 
 @Component({
-    selector: 'app-featured-event',
-    templateUrl: './featured-event.html',
-    styleUrls: ['./featured-event.scss']
+    selector: 'featured-event',
+    templateUrl: './featured-event.component.html',
+    styleUrls: ['./featured-event.component.scss']
 })
-export class FeaturedEvent implements OnInit {
+export class FeaturedEventComponent implements OnInit, FeaturedEvent {
 
+    @HostBinding('class') _boundHTMLClass = 'hfull rel'
     constructor() { }
-    @Input() eventType!: "MAIN_STORY"
-        | "INTERMEZZI"
-        | "SIDE_STORY"
-        | "SUPPLIES"
-        | "ANNIHILATION"
-        | "STATIONARY_SEC"
-        | "CONTINGENCY_CONTRACT"
-        | "INTEGRATED_STRATEGIES";
+    @Input() eventType!: FeaturedEvent['eventType'];
 
     @Input() ends!: number;
     @Input() name!: string;

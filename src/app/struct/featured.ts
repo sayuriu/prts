@@ -1,4 +1,17 @@
-export interface FeaturedEvent {
+interface FeaturedEventMetadata {
+    id: string;
+    server: string;
+    name: string;
+    ends: number;
+    bannerIMG: string;
+}
+
+interface ColorMetadata {
+    mainColor: string;
+    accentColor: string;
+}
+
+export interface FeaturedEvent extends FeaturedEventMetadata {
     eventType: "MAIN_STORY"
         | "INTERMEZZI"
         | "SIDE_STORY"
@@ -7,17 +20,10 @@ export interface FeaturedEvent {
         | "STATIONARY_SEC"
         | "CONTINGENCY_CONTRACT"
         | "INTEGRATED_STRATEGIES";
-    ends: number;
-    name: string;
 }
 
-export interface FeaturedGacha {
-    BannerIMG: string;
+export interface FeaturedGacha extends FeaturedEventMetadata, ColorMetadata {
     characters: SimplifiedCharData[];
-    id: string,
-    server: string;
-    name: string;
-    ends: number;
 }
 
 interface SimplifiedCharData {

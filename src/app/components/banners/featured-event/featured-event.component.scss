@@ -1,5 +1,7 @@
 :host {
     flex: 1;
+    background: red;
+    aspect-ratio: 890 / 280;
 }
 @media screen and (max-width: 900px) {
     :host {

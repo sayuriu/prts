@@ -1,17 +1,25 @@
 <div class="page-container wfull hfull rel">
     <div class="featured" style="background: #0c5460">
         <project-info></project-info>
-        <div class="fw rel" style="aspect-ratio: 890 / 235">
-            <gacha-banner
-                *ngFor="let banner of featuredData[0]"
-                [BannerIMG]="banner.BannerIMG"
-                [ends]="banner.ends"
-                [id]="banner.id"
-                [characters]="banner.characters"
-                [name]="banner.name"
-                [server]="banner.server"
-            ></gacha-banner>
-        </div>
+<!--            *ngFor="let banner of featuredData[0]"-->
+        <recruitment-banner
+            [bannerIMG]="featuredData[0][0].bannerIMG"
+            [ends]="featuredData[0][0].ends"
+            [id]="featuredData[0][0].id"
+            [characters]="featuredData[0][0].characters"
+            [name]="featuredData[0][0].name"
+            [server]="featuredData[0][0].server"
+            [accentColor]="featuredData[0][0].accentColor"
+            [mainColor]="featuredData[0][0].mainColor"
+        ></recruitment-banner>
+        <featured-event
+            [server]="featuredData[1][0].server"
+            [name]="featuredData[1][0].name"
+            [ends]="featuredData[1][0].ends"
+            [id]="featuredData[1][0].id"
+            [bannerIMG]="featuredData[1][0].bannerIMG"
+            [eventType]="featuredData[1][0].eventType"
+        ></featured-event>
     </div>
     <div class="menu" style="background: #00B3FD"></div>
 </div>

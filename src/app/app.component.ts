@@ -15,7 +15,7 @@ const routeAnimations = [
         absLateralAnimation("UD")(commonTransitionConfig)
     ),
     transition(
-        'blank => *',
+        'blank => *, * => main',
         absLateralAnimation("DU")(commonTransitionConfig)
     ),
     transition(

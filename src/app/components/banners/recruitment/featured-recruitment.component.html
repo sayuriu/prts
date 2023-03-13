@@ -1,12 +1,46 @@
-<div></div>
-<div class="gacha-featured__banner"></div>
-<div class="gacha-featured__characters rel flex flex-d-rr flex-ai-c">
+<div class="banner flex hfull"
+    [style.background]="[
+        'linear-gradient(90deg,' + mainColor + 'FF 0%, ' + mainColor + '8A 6.04%, ' + mainColor + '00 25.31%)',
+        'center / cover no-repeat url(assets/featured/gacha/' + id + '/' + bannerIMG +  ')'
+    ].join(',')"
+></div>
+<div class="label-bg"
+    [ngStyle]="{
+        background: mainColor,
+        filter: 'drop-shadow(0.5rem 0 0.5rem ' + mainColor + ')'
+    }"
+></div>
+<div class="header flex flex-ai-c">
+    <span class="server self-a-s flex flex-ai-c"><strong>{{server}}</strong></span>
+    <span class="text"><strong>Limited</strong> Recruitment ongoing</span>
+</div>
+<strong class="name">{{name}}</strong>
+<div
+    class="characters rel flex flex-d-rr flex-ai-c"
+    [style.background]="'linear-gradient(92.83deg, ' + accentColor + ' 77.37%, hsl(0 0% 0% / 0.25) 135.74%, hsl(0 0% 0% / 0) 147.02%)'"
+>
+    <svg class="abs label l0 hfull z0" viewBox="0 0 360 52" xmlns="http://www.w3.org/2000/svg">
+        <text opacity="0.12" x="0" y="52" fill="#fff" font-size="64" font-family="Oswald" font-weight="500">FEATURING</text>
+        <g class="hover hover-banner">
+            <path d="M0,0l300 0,50 26,-50 26,-300 0z" fill="#fff"></path>
+            <text x="10" y="42" fill="#000" font-size="40" font-family="Oswald" font-weight="500">GO TO BANNER</text>
+        </g>
+        <g class="hover hover-character">
+            <path d="M0,0l300 0,50 26,-50 26,-300 0z" fill="#fff"></path>
+            <text x="10" y="42" fill="#000" font-size="40" font-family="Oswald" font-weight="500">SEE CHARACTER</text>
+        </g>
+    </svg>
     <div
         *ngFor="let character of characters.reverse(), let i = index"
-        class="gacha-featured__characters__img rel"
-        [ngStyle]="{
-            'background': ['center / contain no-repeat url(assets/featured/gacha', id, character.profileUrl].join('/') + ')',
-            'translate': ['calc(', i * 30, '%', ' + 5%)', ' 0'].join('')
-        }"
-    ></div>
+        class="character-hover rel z1"
+        [style.translate]="'calc(' + (i * 30) + '% + 5%) 0'"
+    >
+        <div
+            class="character-img hfull wfull"
+            [style.background]="'center / contain no-repeat url(assets/featured/gacha/' + id + '/' + character.profileUrl + ')'"
+        ></div>
+        <div class="character-info abs r0 tfull o0">
+
+        </div>
+    </div>
 </div>

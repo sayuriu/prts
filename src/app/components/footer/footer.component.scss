@@ -3,12 +3,25 @@
     color: #eee;
 }
 
-p {
+div {
     text-transform: uppercase;
     margin-left: auto;
     font-weight: lighter;
-    padding-inline: 0.5rem;
+    padding-left: 0.5rem;
+    max-height: 100%;
+    gap: 0.4ch;
     strong {
         font-family: "Product Sans"
+    }
+}
+
+.beta-badge {
+    font-family: "Product Sans";
+    font-weight: bold;
+    //background: hsl(47 100% 50%);
+    color: #000;
+    span {
+        margin: auto;
+        height: fit-content;
     }
 }
