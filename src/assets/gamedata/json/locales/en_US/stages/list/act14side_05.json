@@ -1,0 +1,117 @@
+{
+	"stageType": "ACTIVITY",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
+	"unlockCondition": [
+		{
+			"stageId": "act14side_tr02",
+			"completeState": 2
+		}
+	],
+	"stageId": "act14side_05",
+	"levelId": "Activities/ACT14SIDE/level_act14side_05",
+	"zoneId": "act14side_zone1",
+	"code": "BI-5",
+	"name": "Hunting Grounds",
+	"description": "Seasoned hunters don't solely rely on sheer strength to obtain victory. Even the blood they spill during the hunt can become a deadly trap. \n<@lv.item><Icy Corner></>Applies 'Cold' to units on top of it, and changes the direction of enemies when they are shifted.\n<@lv.item><Penetrating Cold></>During Snowfall, all enemies are pushed in a certain direction.",
+	"hardStagedId": null,
+	"dangerLevel": "Elite 1 Lv. 30",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_BI",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 12,
+	"apFailReturn": 11,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": 0,
+	"expGain": 120,
+	"goldGain": 120,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 11,
+	"completeFavor": 12,
+	"slProgress": 0,
+	"displayMainItem": null,
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 0,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act14side_token_stone",
+				"dropType": 8
+			},
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act14side_token_stone",
+				"dropType": 2
+			},
+			{
+				"type": "MATERIAL",
+				"id": "30032",
+				"dropType": 2
+			},
+			{
+				"type": "MATERIAL",
+				"id": "30022",
+				"dropType": 2
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 0,
+				"type": "ACTIVITY_ITEM",
+				"id": "act14side_token_stone",
+				"dropType": 8
+			},
+			{
+				"occPercent": 0,
+				"type": "ACTIVITY_ITEM",
+				"id": "act14side_token_stone",
+				"dropType": 2
+			},
+			{
+				"occPercent": 0,
+				"type": "MATERIAL",
+				"id": "30032",
+				"dropType": 2
+			},
+			{
+				"occPercent": 2,
+				"type": "MATERIAL",
+				"id": "30022",
+				"dropType": 2
+			},
+			{
+				"occPercent": 0,
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		]
+	},
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "act14side_tr01"
+}

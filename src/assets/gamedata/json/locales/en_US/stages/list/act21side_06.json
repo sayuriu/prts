@@ -1,0 +1,117 @@
+{
+	"stageType": "ACTIVITY",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
+	"unlockCondition": [
+		{
+			"stageId": "act21side_05",
+			"completeState": 2
+		}
+	],
+	"stageId": "act21side_06",
+	"levelId": "Activities/ACT21side/level_act21side_06",
+	"zoneId": "act21side_zone1",
+	"code": "IS-6",
+	"name": "Old Conflicts",
+	"description": "Stand and face the wheels of old, or be run over by them.\n <@lv.item><Blood Ledger></>All enemies are boosted and Famiglia Silencer is summoned when Blood Debt is at max.",
+	"hardStagedId": null,
+	"dangerLevel": "Elite 1 Lv. 60",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_IS_NewCity",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 15,
+	"apFailReturn": 14,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": 0,
+	"expGain": 150,
+	"goldGain": 150,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 14,
+	"completeFavor": 15,
+	"slProgress": 0,
+	"displayMainItem": null,
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 0,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act21side_token_permesso",
+				"dropType": 8
+			},
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act21side_token_permesso",
+				"dropType": 2
+			},
+			{
+				"type": "MATERIAL",
+				"id": "30032",
+				"dropType": 2
+			},
+			{
+				"type": "MATERIAL",
+				"id": "30022",
+				"dropType": 2
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 0,
+				"type": "ACTIVITY_ITEM",
+				"id": "act21side_token_permesso",
+				"dropType": 8
+			},
+			{
+				"occPercent": 0,
+				"type": "ACTIVITY_ITEM",
+				"id": "act21side_token_permesso",
+				"dropType": 2
+			},
+			{
+				"occPercent": 0,
+				"type": "MATERIAL",
+				"id": "30032",
+				"dropType": 2
+			},
+			{
+				"occPercent": 2,
+				"type": "MATERIAL",
+				"id": "30022",
+				"dropType": 2
+			},
+			{
+				"occPercent": 0,
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		]
+	},
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "act21side_st01"
+}

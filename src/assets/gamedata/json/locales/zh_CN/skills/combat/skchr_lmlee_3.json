@@ -7,10 +7,10 @@
 			"name": "贵客盈门",
 			"rangeId": "x-4",
 			"description": "攻击范围<@ba.vup>扩大</>，攻击力和防御力<@ba.vup>+{atk:0%}</>；攻击<@ba.vup>小力度</>推开范围内除当前目标外的敌人。自身容易成为攻击目标，且有<@ba.vup>{prob:0%}</>概率闪避来自范围外的物理或法术伤害\\n<@ba.rem>持续时间无限</>",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 12,
@@ -22,27 +22,33 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.25
+					"value": 0.25,
+					"valueStr": null
 				},
 				{
 					"key": "def",
-					"value": 0.25
+					"value": 0.25,
+					"valueStr": null
 				},
 				{
 					"key": "taunt_level",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "prob",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				},
 				{
 					"key": "attack@prob_knockback",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "attack@force",
-					"value": 0
+					"value": 0,
+					"valueStr": null
 				}
 			]
 		},
@@ -50,10 +56,10 @@
 			"name": "贵客盈门",
 			"rangeId": "x-4",
 			"description": "攻击范围<@ba.vup>扩大</>，攻击力和防御力<@ba.vup>+{atk:0%}</>；攻击<@ba.vup>小力度</>推开范围内除当前目标外的敌人。自身容易成为攻击目标，且有<@ba.vup>{prob:0%}</>概率闪避来自范围外的物理或法术伤害\\n<@ba.rem>持续时间无限</>",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 12,
@@ -65,27 +71,33 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.27
+					"value": 0.27,
+					"valueStr": null
 				},
 				{
 					"key": "def",
-					"value": 0.27
+					"value": 0.27,
+					"valueStr": null
 				},
 				{
 					"key": "taunt_level",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "prob",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				},
 				{
 					"key": "attack@prob_knockback",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "attack@force",
-					"value": 0
+					"value": 0,
+					"valueStr": null
 				}
 			]
 		},
@@ -93,10 +105,10 @@
 			"name": "贵客盈门",
 			"rangeId": "x-4",
 			"description": "攻击范围<@ba.vup>扩大</>，攻击力和防御力<@ba.vup>+{atk:0%}</>；攻击<@ba.vup>小力度</>推开范围内除当前目标外的敌人。自身容易成为攻击目标，且有<@ba.vup>{prob:0%}</>概率闪避来自范围外的物理或法术伤害\\n<@ba.rem>持续时间无限</>",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 12,
@@ -108,27 +120,33 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.29
+					"value": 0.29,
+					"valueStr": null
 				},
 				{
 					"key": "def",
-					"value": 0.29
+					"value": 0.29,
+					"valueStr": null
 				},
 				{
 					"key": "taunt_level",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "prob",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				},
 				{
 					"key": "attack@prob_knockback",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "attack@force",
-					"value": 0
+					"value": 0,
+					"valueStr": null
 				}
 			]
 		},
@@ -136,10 +154,10 @@
 			"name": "贵客盈门",
 			"rangeId": "x-4",
 			"description": "攻击范围<@ba.vup>扩大</>，攻击力和防御力<@ba.vup>+{atk:0%}</>；攻击<@ba.vup>小力度</>推开范围内除当前目标外的敌人。自身容易成为攻击目标，且有<@ba.vup>{prob:0%}</>概率闪避来自范围外的物理或法术伤害\\n<@ba.rem>持续时间无限</>",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 11,
@@ -151,27 +169,33 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.31
+					"value": 0.31,
+					"valueStr": null
 				},
 				{
 					"key": "def",
-					"value": 0.31
+					"value": 0.31,
+					"valueStr": null
 				},
 				{
 					"key": "taunt_level",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "prob",
-					"value": 0.55
+					"value": 0.55,
+					"valueStr": null
 				},
 				{
 					"key": "attack@prob_knockback",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "attack@force",
-					"value": 0
+					"value": 0,
+					"valueStr": null
 				}
 			]
 		},
@@ -179,10 +203,10 @@
 			"name": "贵客盈门",
 			"rangeId": "x-4",
 			"description": "攻击范围<@ba.vup>扩大</>，攻击力和防御力<@ba.vup>+{atk:0%}</>；攻击<@ba.vup>小力度</>推开范围内除当前目标外的敌人。自身容易成为攻击目标，且有<@ba.vup>{prob:0%}</>概率闪避来自范围外的物理或法术伤害\\n<@ba.rem>持续时间无限</>",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 11,
@@ -194,27 +218,33 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.33
+					"value": 0.33,
+					"valueStr": null
 				},
 				{
 					"key": "def",
-					"value": 0.33
+					"value": 0.33,
+					"valueStr": null
 				},
 				{
 					"key": "taunt_level",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "prob",
-					"value": 0.55
+					"value": 0.55,
+					"valueStr": null
 				},
 				{
 					"key": "attack@prob_knockback",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "attack@force",
-					"value": 0
+					"value": 0,
+					"valueStr": null
 				}
 			]
 		},
@@ -222,10 +252,10 @@
 			"name": "贵客盈门",
 			"rangeId": "x-4",
 			"description": "攻击范围<@ba.vup>扩大</>，攻击力和防御力<@ba.vup>+{atk:0%}</>；攻击<@ba.vup>小力度</>推开范围内除当前目标外的敌人。自身容易成为攻击目标，且有<@ba.vup>{prob:0%}</>概率闪避来自范围外的物理或法术伤害\\n<@ba.rem>持续时间无限</>",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 11,
@@ -237,27 +267,33 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.35
+					"value": 0.35,
+					"valueStr": null
 				},
 				{
 					"key": "def",
-					"value": 0.35
+					"value": 0.35,
+					"valueStr": null
 				},
 				{
 					"key": "taunt_level",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "prob",
-					"value": 0.55
+					"value": 0.55,
+					"valueStr": null
 				},
 				{
 					"key": "attack@prob_knockback",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "attack@force",
-					"value": 0
+					"value": 0,
+					"valueStr": null
 				}
 			]
 		},
@@ -265,10 +301,10 @@
 			"name": "贵客盈门",
 			"rangeId": "x-4",
 			"description": "攻击范围<@ba.vup>扩大</>，攻击力和防御力<@ba.vup>+{atk:0%}</>；攻击<@ba.vup>小力度</>推开范围内除当前目标外的敌人。自身容易成为攻击目标，且有<@ba.vup>{prob:0%}</>概率闪避来自范围外的物理或法术伤害\\n<@ba.rem>持续时间无限</>",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 10,
@@ -280,27 +316,33 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.37
+					"value": 0.37,
+					"valueStr": null
 				},
 				{
 					"key": "def",
-					"value": 0.37
+					"value": 0.37,
+					"valueStr": null
 				},
 				{
 					"key": "taunt_level",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "prob",
-					"value": 0.6
+					"value": 0.6,
+					"valueStr": null
 				},
 				{
 					"key": "attack@prob_knockback",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "attack@force",
-					"value": 0
+					"value": 0,
+					"valueStr": null
 				}
 			]
 		},
@@ -308,10 +350,10 @@
 			"name": "贵客盈门",
 			"rangeId": "x-4",
 			"description": "攻击范围<@ba.vup>扩大</>，攻击力和防御力<@ba.vup>+{atk:0%}</>；攻击<@ba.vup>小力度</>推开范围内除当前目标外的敌人。自身容易成为攻击目标，且有<@ba.vup>{prob:0%}</>概率闪避来自范围外的物理或法术伤害\\n<@ba.rem>持续时间无限</>",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 9,
@@ -323,27 +365,33 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.4
+					"value": 0.4,
+					"valueStr": null
 				},
 				{
 					"key": "def",
-					"value": 0.4
+					"value": 0.4,
+					"valueStr": null
 				},
 				{
 					"key": "taunt_level",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "prob",
-					"value": 0.6
+					"value": 0.6,
+					"valueStr": null
 				},
 				{
 					"key": "attack@prob_knockback",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "attack@force",
-					"value": 0
+					"value": 0,
+					"valueStr": null
 				}
 			]
 		},
@@ -351,10 +399,10 @@
 			"name": "贵客盈门",
 			"rangeId": "x-4",
 			"description": "攻击范围<@ba.vup>扩大</>，攻击力和防御力<@ba.vup>+{atk:0%}</>；攻击<@ba.vup>小力度</>推开范围内除当前目标外的敌人。自身容易成为攻击目标，且有<@ba.vup>{prob:0%}</>概率闪避来自范围外的物理或法术伤害\\n<@ba.rem>持续时间无限</>",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 8,
@@ -366,27 +414,33 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.45
+					"value": 0.45,
+					"valueStr": null
 				},
 				{
 					"key": "def",
-					"value": 0.45
+					"value": 0.45,
+					"valueStr": null
 				},
 				{
 					"key": "taunt_level",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "prob",
-					"value": 0.6
+					"value": 0.6,
+					"valueStr": null
 				},
 				{
 					"key": "attack@prob_knockback",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "attack@force",
-					"value": 0
+					"value": 0,
+					"valueStr": null
 				}
 			]
 		},
@@ -394,10 +448,10 @@
 			"name": "贵客盈门",
 			"rangeId": "x-4",
 			"description": "攻击范围<@ba.vup>扩大</>，攻击力和防御力<@ba.vup>+{atk:0%}</>；攻击<@ba.vup>小力度</>推开范围内除当前目标外的敌人。自身容易成为攻击目标，且有<@ba.vup>{prob:0%}</>概率闪避来自范围外的物理或法术伤害\\n<@ba.rem>持续时间无限</>",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 7,
@@ -409,27 +463,33 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				},
 				{
 					"key": "def",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				},
 				{
 					"key": "taunt_level",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "prob",
-					"value": 0.7
+					"value": 0.7,
+					"valueStr": null
 				},
 				{
 					"key": "attack@prob_knockback",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "attack@force",
-					"value": 0
+					"value": 0,
+					"valueStr": null
 				}
 			]
 		}

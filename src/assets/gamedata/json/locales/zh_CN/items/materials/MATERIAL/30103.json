@@ -6,14 +6,18 @@
 	"iconId": "MTL_SL_RMA7012",
 	"overrideBkg": null,
 	"stackIconId": null,
-	"sortId": 100011,
+	"sortId": 100025,
 	"usage": "一种敏感且有良好传导效果的矿物。可用于多种强化场合，也常作为制造站合成项目的原料。",
 	"obtainApproach": null,
 	"classifyType": "MATERIAL",
 	"itemType": "MATERIAL",
 	"stageDropList": [
 		{
-			"stageId": "act15side_08",
+			"stageId": "act12d0_08",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "act18d0_08",
 			"occPer": "USUAL"
 		},
 		{
@@ -21,16 +25,20 @@
 			"occPer": "OFTEN"
 		},
 		{
-			"stageId": "act18d0_08",
+			"stageId": "act15side_08",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "act11mini_08",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "act20side_09",
 			"occPer": "USUAL"
 		},
 		{
 			"stageId": "act15d5_08",
 			"occPer": "OFTEN"
-		},
-		{
-			"stageId": "act12d0_08",
-			"occPer": "USUAL"
 		},
 		{
 			"stageId": "main_02-10",
@@ -58,6 +66,30 @@
 		},
 		{
 			"stageId": "main_09-17",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_10-04",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "tough_10-04",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_11-04",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "tough_11-04",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_12-06",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "tough_12-06",
 			"occPer": "OFTEN"
 		}
 	],

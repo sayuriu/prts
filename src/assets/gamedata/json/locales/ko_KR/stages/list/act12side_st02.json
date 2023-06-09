@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act12side_03",
@@ -10,7 +11,7 @@
 	],
 	"stageId": "act12side_st02",
 	"levelId": null,
-	"zoneId": "act12side_zone1",
+	"zoneId": "act12sre_zone1",
 	"code": "DH-ST-2",
 	"name": "브레이크 타임",
 	"description": "잠깐의 휴식은 곧 다가올 클라이맥스를 위한 것이다.",
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": true,
 	"appearanceStyle": 0,
 	"stageDropInfo": {

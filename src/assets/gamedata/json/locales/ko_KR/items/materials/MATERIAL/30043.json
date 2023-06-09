@@ -6,12 +6,16 @@
 	"iconId": "MTL_SL_IRON3",
 	"overrideBkg": null,
 	"stackIconId": null,
-	"sortId": 100029,
+	"sortId": 100043,
 	"usage": "매우 희귀한 공업 재료. 제조소에서 합성 재료로 쓰이며 각종 강화에 사용된다.",
 	"obtainApproach": null,
 	"classifyType": "MATERIAL",
 	"itemType": "MATERIAL",
 	"stageDropList": [
+		{
+			"stageId": "act9mini_06",
+			"occPer": "OFTEN"
+		},
 		{
 			"stageId": "act15d0_08",
 			"occPer": "USUAL"
@@ -46,6 +50,22 @@
 		},
 		{
 			"stageId": "main_09-15",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_10-10",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_11-09",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "tough_10-10",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "tough_11-09",
 			"occPer": "OFTEN"
 		},
 		{

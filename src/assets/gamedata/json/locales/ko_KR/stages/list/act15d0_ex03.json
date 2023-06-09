@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act15d0_ex02",
@@ -10,7 +11,7 @@
 	],
 	"stageId": "act15d0_ex03",
 	"levelId": "Activities/ACT15D0/level_act15d0_ex03",
-	"zoneId": "act15d0_zone2",
+	"zoneId": "act8sre_zone2",
 	"code": "MB-EX-3",
 	"name": "시공 구멍",
 	"description": "감옥 내 대부분 시설은 정기 점검을 받기 때문에 양호한 상태를 유지한다. 하지만 가끔 취약한 부분이 이용되기도 한다.\n<@lv.item><구속 장치></> 범위 내 해방된 적 구속",
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {
@@ -52,7 +54,7 @@
 		"displayRewards": [
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act15d0_token_ironSheet",
+				"id": "act15d0_token_ironSheet_rep_1",
 				"dropType": 8
 			},
 			{
@@ -65,7 +67,7 @@
 			{
 				"occPercent": 0,
 				"type": "ACTIVITY_ITEM",
-				"id": "act15d0_token_ironSheet",
+				"id": "act15d0_token_ironSheet_rep_1",
 				"dropType": 8
 			},
 			{

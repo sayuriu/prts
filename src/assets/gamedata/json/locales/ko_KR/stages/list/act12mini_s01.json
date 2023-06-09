@@ -1,0 +1,73 @@
+{
+	"stageType": "ACTIVITY",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
+	"unlockCondition": [
+		{
+			"stageId": "act12mini_04",
+			"completeState": 2
+		}
+	],
+	"stageId": "act12mini_s01",
+	"levelId": "Activities/act12mini/level_act12mini_sub-1-1",
+	"zoneId": "act12mini_zone1",
+	"code": "AW-S-1",
+	"name": "뽑을 필요 없는 검",
+	"description": "애초에 그의 등은 그 어떤 명예로도 지탱할 필요가 없다.\n<@lv.item><고정편성></> 지정된 오퍼레이터로 작전 진행",
+	"hardStagedId": null,
+	"dangerLevel": "-",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_Kazimierz_Trial",
+	"canPractice": false,
+	"canBattleReplay": false,
+	"apCost": 0,
+	"apFailReturn": 0,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 0,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": -1,
+	"dailyStageDifficulty": 0,
+	"expGain": 0,
+	"goldGain": 0,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 0,
+	"completeFavor": 0,
+	"slProgress": 0,
+	"displayMainItem": null,
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isSkillSelectablePredefined": true,
+	"isStoryOnly": false,
+	"appearanceStyle": 0,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 0,
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		]
+	},
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "act12mini_01"
+}

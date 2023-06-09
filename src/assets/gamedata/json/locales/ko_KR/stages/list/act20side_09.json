@@ -1,0 +1,106 @@
+{
+	"stageType": "ACTIVITY",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
+	"unlockCondition": [
+		{
+			"stageId": "act20side_08",
+			"completeState": 2
+		}
+	],
+	"stageId": "act20side_09",
+	"levelId": "Activities/ACT20SIDE/level_act20side_09",
+	"zoneId": "act20side_zone1",
+	"code": "IC-9",
+	"name": "돔 위에서",
+	"description": "결전 후 앵글이 서서히 하늘을 올려 비추는 올드한 카메라 무빙, 하지만 쎄루에르차에 있어서는 이게 요약하기에 딱이다.\n<@lv.item><자율차 출발점></> 배치 코스트를 소모하여 자율차 한 대 발사\n<@lv.item><자율차 트랙></> 통과하는 자율차의 방향 전환",
+	"hardStagedId": null,
+	"dangerLevel": "2차 정예화 Lv.20",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_IC_Square",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 21,
+	"apFailReturn": 20,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": 0,
+	"expGain": 210,
+	"goldGain": 210,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 20,
+	"completeFavor": 21,
+	"slProgress": 0,
+	"displayMainItem": null,
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 0,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act20side_token_book",
+				"dropType": 8
+			},
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act20side_token_book",
+				"dropType": 2
+			},
+			{
+				"type": "MATERIAL",
+				"id": "30103",
+				"dropType": 2
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 0,
+				"type": "ACTIVITY_ITEM",
+				"id": "act20side_token_book",
+				"dropType": 8
+			},
+			{
+				"occPercent": 0,
+				"type": "ACTIVITY_ITEM",
+				"id": "act20side_token_book",
+				"dropType": 2
+			},
+			{
+				"occPercent": 2,
+				"type": "MATERIAL",
+				"id": "30103",
+				"dropType": 2
+			},
+			{
+				"occPercent": 0,
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		]
+	},
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "act20side_st01"
+}

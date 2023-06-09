@@ -2,7 +2,10 @@
 	"name": "安赛尔",
 	"description": "恢复友方单位生命",
 	"canUseGeneralPotentialItem": true,
+	"canUseActivityPotentialItem": false,
 	"potentialItemId": "p_char_212_ansel",
+	"activityPotentialItemId": null,
+	"classicPotentialItemId": "class_p_char_212_ansel",
 	"nationId": "rhodes",
 	"groupId": null,
 	"teamId": "reserve4",
@@ -19,7 +22,7 @@
 	"isNotObtainable": false,
 	"isSpChar": false,
 	"maxPotentialLevel": 5,
-	"rarity": 2,
+	"rarity": "TIER_3",
 	"profession": "MEDIC",
 	"subProfessionId": "physician",
 	"trait": null,
@@ -52,7 +55,8 @@
 						"stunImmune": false,
 						"silenceImmune": false,
 						"sleepImmune": false,
-						"frozenImmune": false
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -78,7 +82,8 @@
 						"stunImmune": false,
 						"silenceImmune": false,
 						"sleepImmune": false,
-						"frozenImmune": false
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -112,7 +117,8 @@
 						"stunImmune": false,
 						"silenceImmune": false,
 						"sleepImmune": false,
-						"frozenImmune": false
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -138,7 +144,8 @@
 						"stunImmune": false,
 						"silenceImmune": false,
 						"sleepImmune": false,
-						"frozenImmune": false
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -152,7 +159,7 @@
 			"overrideTokenKey": null,
 			"levelUpCostCond": [],
 			"unlockCond": {
-				"phase": 0,
+				"phase": "PHASE_0",
 				"level": 1
 			}
 		}
@@ -162,7 +169,7 @@
 			"candidates": [
 				{
 					"unlockCondition": {
-						"phase": 1,
+						"phase": "PHASE_1",
 						"level": 1
 					},
 					"requiredPotentialRank": 0,
@@ -173,13 +180,14 @@
 					"blackboard": [
 						{
 							"key": "attack@prob",
-							"value": 0.07
+							"value": 0.07,
+							"valueStr": null
 						}
 					]
 				},
 				{
 					"unlockCondition": {
-						"phase": 1,
+						"phase": "PHASE_1",
 						"level": 1
 					},
 					"requiredPotentialRank": 4,
@@ -190,13 +198,14 @@
 					"blackboard": [
 						{
 							"key": "attack@prob",
-							"value": 0.1
+							"value": 0.1,
+							"valueStr": null
 						}
 					]
 				},
 				{
 					"unlockCondition": {
-						"phase": 1,
+						"phase": "PHASE_1",
 						"level": 55
 					},
 					"requiredPotentialRank": 0,
@@ -207,13 +216,14 @@
 					"blackboard": [
 						{
 							"key": "attack@prob",
-							"value": 0.15
+							"value": 0.15,
+							"valueStr": null
 						}
 					]
 				},
 				{
 					"unlockCondition": {
-						"phase": 1,
+						"phase": "PHASE_1",
 						"level": 55
 					},
 					"requiredPotentialRank": 4,
@@ -224,7 +234,8 @@
 					"blackboard": [
 						{
 							"key": "attack@prob",
-							"value": 0.18
+							"value": 0.18,
+							"valueStr": null
 						}
 					]
 				}
@@ -233,7 +244,7 @@
 	],
 	"potentialRanks": [
 		{
-			"type": 0,
+			"type": "BUFF",
 			"description": "部署费用-1",
 			"buff": {
 				"attributes": {
@@ -244,8 +255,8 @@
 					"abnormalComboImmunes": null,
 					"attributeModifiers": [
 						{
-							"attributeType": 4,
-							"formulaItem": 0,
+							"attributeType": "COST",
+							"formulaItem": "ADDITION",
 							"value": -1,
 							"loadFromBlackboard": false,
 							"fetchBaseValueFromSourceEntity": false
@@ -256,7 +267,7 @@
 			"equivalentCost": null
 		},
 		{
-			"type": 0,
+			"type": "BUFF",
 			"description": "再部署时间-4秒",
 			"buff": {
 				"attributes": {
@@ -267,8 +278,8 @@
 					"abnormalComboImmunes": null,
 					"attributeModifiers": [
 						{
-							"attributeType": 21,
-							"formulaItem": 0,
+							"attributeType": "RESPAWN_TIME",
+							"formulaItem": "ADDITION",
 							"value": -4,
 							"loadFromBlackboard": false,
 							"fetchBaseValueFromSourceEntity": false
@@ -279,7 +290,7 @@
 			"equivalentCost": null
 		},
 		{
-			"type": 0,
+			"type": "BUFF",
 			"description": "攻击力+20",
 			"buff": {
 				"attributes": {
@@ -290,8 +301,8 @@
 					"abnormalComboImmunes": null,
 					"attributeModifiers": [
 						{
-							"attributeType": 1,
-							"formulaItem": 0,
+							"attributeType": "ATK",
+							"formulaItem": "ADDITION",
 							"value": 20,
 							"loadFromBlackboard": false,
 							"fetchBaseValueFromSourceEntity": false
@@ -302,13 +313,13 @@
 			"equivalentCost": null
 		},
 		{
-			"type": 1,
+			"type": "CUSTOM",
 			"description": "天赋效果增强",
 			"buff": null,
 			"equivalentCost": null
 		},
 		{
-			"type": 0,
+			"type": "BUFF",
 			"description": "部署费用-1",
 			"buff": {
 				"attributes": {
@@ -319,8 +330,8 @@
 					"abnormalComboImmunes": null,
 					"attributeModifiers": [
 						{
-							"attributeType": 4,
-							"formulaItem": 0,
+							"attributeType": "COST",
+							"formulaItem": "ADDITION",
 							"value": -1,
 							"loadFromBlackboard": false,
 							"fetchBaseValueFromSourceEntity": false
@@ -355,7 +366,8 @@
 				"stunImmune": false,
 				"silenceImmune": false,
 				"sleepImmune": false,
-				"frozenImmune": false
+				"frozenImmune": false,
+				"levitateImmune": false
 			}
 		},
 		{
@@ -381,14 +393,15 @@
 				"stunImmune": false,
 				"silenceImmune": false,
 				"sleepImmune": false,
-				"frozenImmune": false
+				"frozenImmune": false,
+				"levitateImmune": false
 			}
 		}
 	],
 	"allSkillLvlup": [
 		{
 			"unlockCond": {
-				"phase": 0,
+				"phase": "PHASE_0",
 				"level": 1
 			},
 			"lvlUpCost": [
@@ -401,7 +414,7 @@
 		},
 		{
 			"unlockCond": {
-				"phase": 0,
+				"phase": "PHASE_0",
 				"level": 1
 			},
 			"lvlUpCost": [
@@ -419,7 +432,7 @@
 		},
 		{
 			"unlockCond": {
-				"phase": 0,
+				"phase": "PHASE_0",
 				"level": 1
 			},
 			"lvlUpCost": [
@@ -437,7 +450,7 @@
 		},
 		{
 			"unlockCond": {
-				"phase": 1,
+				"phase": "PHASE_1",
 				"level": 1
 			},
 			"lvlUpCost": [
@@ -455,7 +468,7 @@
 		},
 		{
 			"unlockCond": {
-				"phase": 1,
+				"phase": "PHASE_1",
 				"level": 1
 			},
 			"lvlUpCost": [
@@ -473,7 +486,7 @@
 		},
 		{
 			"unlockCond": {
-				"phase": 1,
+				"phase": "PHASE_1",
 				"level": 1
 			},
 			"lvlUpCost": [

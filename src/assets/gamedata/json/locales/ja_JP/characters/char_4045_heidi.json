@@ -1,0 +1,813 @@
+{
+	"name": "ハイディ",
+	"description": "攻撃しない\n攻撃範囲内の味方全員の<@ba.kw>HP</>を継続回復(1秒ごとに攻撃力の10%回復)\n自身は<$ba.inspire>鼓舞</>状態の効果を受けない",
+	"canUseGeneralPotentialItem": true,
+	"canUseActivityPotentialItem": false,
+	"potentialItemId": "p_char_4045_heidi",
+	"activityPotentialItemId": null,
+	"nationId": "victoria",
+	"groupId": null,
+	"teamId": null,
+	"displayNumber": "VC19",
+	"tokenKey": null,
+	"appellation": "Heidi",
+	"position": "RANGED",
+	"tagList": [
+		"支援",
+		"治療"
+	],
+	"itemUsage": "トランスポーター・ハイディ。彼女のサインはもう見慣れっている。",
+	"itemDesc": "記された物語は全てフィクション、しかしあなたに伝えることは全て真実。",
+	"itemObtainApproach": "イベント",
+	"isNotObtainable": false,
+	"isSpChar": false,
+	"maxPotentialLevel": 5,
+	"rarity": 4,
+	"profession": "SUPPORT",
+	"subProfessionId": "bard",
+	"trait": {
+		"candidates": [
+			{
+				"unlockCondition": {
+					"phase": 0,
+					"level": 1
+				},
+				"requiredPotentialRank": 0,
+				"blackboard": [
+					{
+						"key": "attack@atk_to_hp_recovery_ratio",
+						"value": 0.1
+					}
+				],
+				"overrideDescripton": "攻撃しない\n攻撃範囲内の味方全員の<@ba.kw>HP</>を継続回復(1秒ごとに攻撃力の<@ba.kw>{attack@atk_to_hp_recovery_ratio:0%}</>回復)\n自身は<$ba.inspire>鼓舞</>状態の効果を受けない",
+				"prefabKey": "-1",
+				"rangeId": null
+			}
+		]
+	},
+	"phases": [
+		{
+			"characterPrefabKey": "char_4045_heidi",
+			"rangeId": "x-4",
+			"maxLevel": 50,
+			"attributesKeyFrames": [
+				{
+					"level": 1,
+					"data": {
+						"maxHp": 482,
+						"atk": 126,
+						"def": 107,
+						"magicResistance": 0,
+						"cost": 7,
+						"blockCnt": 1,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 1,
+						"respawnTime": 80,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
+					}
+				},
+				{
+					"level": 50,
+					"data": {
+						"maxHp": 689,
+						"atk": 198,
+						"def": 160,
+						"magicResistance": 0,
+						"cost": 7,
+						"blockCnt": 1,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 1,
+						"respawnTime": 80,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
+					}
+				}
+			],
+			"evolveCost": null
+		},
+		{
+			"characterPrefabKey": "char_4045_heidi",
+			"rangeId": "x-1",
+			"maxLevel": 70,
+			"attributesKeyFrames": [
+				{
+					"level": 1,
+					"data": {
+						"maxHp": 689,
+						"atk": 198,
+						"def": 160,
+						"magicResistance": 0,
+						"cost": 9,
+						"blockCnt": 1,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 1,
+						"respawnTime": 80,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
+					}
+				},
+				{
+					"level": 70,
+					"data": {
+						"maxHp": 945,
+						"atk": 265,
+						"def": 214,
+						"magicResistance": 0,
+						"cost": 9,
+						"blockCnt": 1,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 1,
+						"respawnTime": 80,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
+					}
+				}
+			],
+			"evolveCost": [
+				{
+					"id": "3271",
+					"count": 4,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30032",
+					"count": 5,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30042",
+					"count": 3,
+					"type": "MATERIAL"
+				}
+			]
+		},
+		{
+			"characterPrefabKey": "char_4045_heidi",
+			"rangeId": "x-1",
+			"maxLevel": 80,
+			"attributesKeyFrames": [
+				{
+					"level": 1,
+					"data": {
+						"maxHp": 945,
+						"atk": 265,
+						"def": 214,
+						"magicResistance": 0,
+						"cost": 9,
+						"blockCnt": 1,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 1,
+						"respawnTime": 80,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
+					}
+				},
+				{
+					"level": 80,
+					"data": {
+						"maxHp": 1260,
+						"atk": 320,
+						"def": 268,
+						"magicResistance": 0,
+						"cost": 9,
+						"blockCnt": 1,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 1,
+						"respawnTime": 80,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
+					}
+				}
+			],
+			"evolveCost": [
+				{
+					"id": "3273",
+					"count": 3,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "31044",
+					"count": 9,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30063",
+					"count": 7,
+					"type": "MATERIAL"
+				}
+			]
+		}
+	],
+	"skills": [
+		{
+			"skillId": "skchr_heidi_1",
+			"overridePrefabKey": null,
+			"overrideTokenKey": null,
+			"levelUpCostCond": [
+				{
+					"unlockCond": {
+						"phase": 2,
+						"level": 1
+					},
+					"lvlUpTime": 28800,
+					"levelUpCost": [
+						{
+							"id": "3303",
+							"count": 5,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "31014",
+							"count": 3,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30013",
+							"count": 6,
+							"type": "MATERIAL"
+						}
+					]
+				},
+				{
+					"unlockCond": {
+						"phase": 2,
+						"level": 1
+					},
+					"lvlUpTime": 57600,
+					"levelUpCost": [
+						{
+							"id": "3303",
+							"count": 6,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30104",
+							"count": 3,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30084",
+							"count": 5,
+							"type": "MATERIAL"
+						}
+					]
+				},
+				{
+					"unlockCond": {
+						"phase": 2,
+						"level": 1
+					},
+					"lvlUpTime": 86400,
+					"levelUpCost": [
+						{
+							"id": "3303",
+							"count": 10,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30125",
+							"count": 4,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30064",
+							"count": 3,
+							"type": "MATERIAL"
+						}
+					]
+				}
+			],
+			"unlockCond": {
+				"phase": 0,
+				"level": 1
+			}
+		},
+		{
+			"skillId": "skchr_heidi_2",
+			"overridePrefabKey": null,
+			"overrideTokenKey": null,
+			"levelUpCostCond": [
+				{
+					"unlockCond": {
+						"phase": 2,
+						"level": 1
+					},
+					"lvlUpTime": 28800,
+					"levelUpCost": [
+						{
+							"id": "3303",
+							"count": 5,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "31024",
+							"count": 3,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30103",
+							"count": 3,
+							"type": "MATERIAL"
+						}
+					]
+				},
+				{
+					"unlockCond": {
+						"phase": 2,
+						"level": 1
+					},
+					"lvlUpTime": 57600,
+					"levelUpCost": [
+						{
+							"id": "3303",
+							"count": 6,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "31034",
+							"count": 3,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "31014",
+							"count": 5,
+							"type": "MATERIAL"
+						}
+					]
+				},
+				{
+					"unlockCond": {
+						"phase": 2,
+						"level": 1
+					},
+					"lvlUpTime": 86400,
+					"levelUpCost": [
+						{
+							"id": "3303",
+							"count": 10,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30115",
+							"count": 4,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30044",
+							"count": 4,
+							"type": "MATERIAL"
+						}
+					]
+				}
+			],
+			"unlockCond": {
+				"phase": 1,
+				"level": 1
+			}
+		}
+	],
+	"talents": [
+		{
+			"candidates": [
+				{
+					"unlockCondition": {
+						"phase": 1,
+						"level": 1
+					},
+					"requiredPotentialRank": 0,
+					"prefabKey": "1",
+					"name": "機敏な反抗者",
+					"description": "スキル1装着時、攻撃範囲内の味方全員の攻撃力+2%。スキル2装着時、攻撃範囲内の味方全員の防御力+2%",
+					"rangeId": null,
+					"blackboard": [
+						{
+							"key": "atk",
+							"value": 0.02
+						},
+						{
+							"key": "def",
+							"value": 0.02
+						}
+					]
+				},
+				{
+					"unlockCondition": {
+						"phase": 1,
+						"level": 1
+					},
+					"requiredPotentialRank": 4,
+					"prefabKey": "1",
+					"name": "機敏な反抗者",
+					"description": "スキル1装着時、攻撃範囲内の味方全員の攻撃力+3%<@ba.talpu>（+1%）</>。スキル2装着時、攻撃範囲内の味方全員の防御力+3%<@ba.talpu>（+1%）</>",
+					"rangeId": null,
+					"blackboard": [
+						{
+							"key": "atk",
+							"value": 0.03
+						},
+						{
+							"key": "def",
+							"value": 0.03
+						}
+					]
+				},
+				{
+					"unlockCondition": {
+						"phase": 2,
+						"level": 1
+					},
+					"requiredPotentialRank": 0,
+					"prefabKey": "1",
+					"name": "機敏な反抗者",
+					"description": "スキル1装着時、攻撃範囲内の味方全員の攻撃力+5%。スキル2装着時、攻撃範囲内の味方全員の防御力+5%",
+					"rangeId": null,
+					"blackboard": [
+						{
+							"key": "atk",
+							"value": 0.05
+						},
+						{
+							"key": "def",
+							"value": 0.05
+						}
+					]
+				},
+				{
+					"unlockCondition": {
+						"phase": 2,
+						"level": 1
+					},
+					"requiredPotentialRank": 4,
+					"prefabKey": "1",
+					"name": "機敏な反抗者",
+					"description": "スキル1装着時、攻撃範囲内の味方全員の攻撃力+6%<@ba.talpu>（+1%）</>。スキル2装着時、攻撃範囲内の味方全員の防御力+6%<@ba.talpu>（+1%）</>",
+					"rangeId": null,
+					"blackboard": [
+						{
+							"key": "atk",
+							"value": 0.06
+						},
+						{
+							"key": "def",
+							"value": 0.06
+						}
+					]
+				}
+			]
+		},
+		{
+			"candidates": [
+				{
+					"unlockCondition": {
+						"phase": 2,
+						"level": 1
+					},
+					"requiredPotentialRank": 0,
+					"prefabKey": "2",
+					"name": "専属トランスポーター",
+					"description": "【光冠残蝕】において、攻撃範囲内の味方全員のSP自然回復速度＋0.5sp/秒",
+					"rangeId": null,
+					"blackboard": [
+						{
+							"key": "sp_recovery_per_sec",
+							"value": 0.5
+						}
+					]
+				}
+			]
+		}
+	],
+	"potentialRanks": [
+		{
+			"type": 0,
+			"description": "配置コスト-1",
+			"buff": {
+				"attributes": {
+					"abnormalFlags": null,
+					"abnormalImmunes": null,
+					"abnormalAntis": null,
+					"abnormalCombos": null,
+					"abnormalComboImmunes": null,
+					"attributeModifiers": [
+						{
+							"attributeType": 4,
+							"formulaItem": 0,
+							"value": -1,
+							"loadFromBlackboard": false,
+							"fetchBaseValueFromSourceEntity": false
+						}
+					]
+				}
+			},
+			"equivalentCost": null
+		},
+		{
+			"type": 0,
+			"description": "再配置時間-10秒",
+			"buff": {
+				"attributes": {
+					"abnormalFlags": null,
+					"abnormalImmunes": null,
+					"abnormalAntis": null,
+					"abnormalCombos": null,
+					"abnormalComboImmunes": null,
+					"attributeModifiers": [
+						{
+							"attributeType": 21,
+							"formulaItem": 0,
+							"value": -10,
+							"loadFromBlackboard": false,
+							"fetchBaseValueFromSourceEntity": false
+						}
+					]
+				}
+			},
+			"equivalentCost": null
+		},
+		{
+			"type": 0,
+			"description": "配置コスト-1",
+			"buff": {
+				"attributes": {
+					"abnormalFlags": null,
+					"abnormalImmunes": null,
+					"abnormalAntis": null,
+					"abnormalCombos": null,
+					"abnormalComboImmunes": null,
+					"attributeModifiers": [
+						{
+							"attributeType": 4,
+							"formulaItem": 0,
+							"value": -1,
+							"loadFromBlackboard": false,
+							"fetchBaseValueFromSourceEntity": false
+						}
+					]
+				}
+			},
+			"equivalentCost": null
+		},
+		{
+			"type": 1,
+			"description": "第一素質強化",
+			"buff": null,
+			"equivalentCost": null
+		},
+		{
+			"type": 0,
+			"description": "配置コスト-1",
+			"buff": {
+				"attributes": {
+					"abnormalFlags": null,
+					"abnormalImmunes": null,
+					"abnormalAntis": null,
+					"abnormalCombos": null,
+					"abnormalComboImmunes": null,
+					"attributeModifiers": [
+						{
+							"attributeType": 4,
+							"formulaItem": 0,
+							"value": -1,
+							"loadFromBlackboard": false,
+							"fetchBaseValueFromSourceEntity": false
+						}
+					]
+				}
+			},
+			"equivalentCost": null
+		}
+	],
+	"favorKeyFrames": [
+		{
+			"level": 0,
+			"data": {
+				"maxHp": 0,
+				"atk": 0,
+				"def": 0,
+				"magicResistance": 0,
+				"cost": 0,
+				"blockCnt": 0,
+				"moveSpeed": 0,
+				"attackSpeed": 0,
+				"baseAttackTime": 0,
+				"respawnTime": 0,
+				"hpRecoveryPerSec": 0,
+				"spRecoveryPerSec": 0,
+				"maxDeployCount": 0,
+				"maxDeckStackCnt": 0,
+				"tauntLevel": 0,
+				"massLevel": 0,
+				"baseForceLevel": 0,
+				"stunImmune": false,
+				"silenceImmune": false,
+				"sleepImmune": false,
+				"frozenImmune": false,
+				"levitateImmune": false
+			}
+		},
+		{
+			"level": 50,
+			"data": {
+				"maxHp": 250,
+				"atk": 40,
+				"def": 0,
+				"magicResistance": 0,
+				"cost": 0,
+				"blockCnt": 0,
+				"moveSpeed": 0,
+				"attackSpeed": 0,
+				"baseAttackTime": 0,
+				"respawnTime": 0,
+				"hpRecoveryPerSec": 0,
+				"spRecoveryPerSec": 0,
+				"maxDeployCount": 0,
+				"maxDeckStackCnt": 0,
+				"tauntLevel": 0,
+				"massLevel": 0,
+				"baseForceLevel": 0,
+				"stunImmune": false,
+				"silenceImmune": false,
+				"sleepImmune": false,
+				"frozenImmune": false,
+				"levitateImmune": false
+			}
+		}
+	],
+	"allSkillLvlup": [
+		{
+			"unlockCond": {
+				"phase": 0,
+				"level": 1
+			},
+			"lvlUpCost": [
+				{
+					"id": "3301",
+					"count": 4,
+					"type": "MATERIAL"
+				}
+			]
+		},
+		{
+			"unlockCond": {
+				"phase": 0,
+				"level": 1
+			},
+			"lvlUpCost": [
+				{
+					"id": "3301",
+					"count": 4,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30051",
+					"count": 5,
+					"type": "MATERIAL"
+				}
+			]
+		},
+		{
+			"unlockCond": {
+				"phase": 0,
+				"level": 1
+			},
+			"lvlUpCost": [
+				{
+					"id": "3302",
+					"count": 6,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30062",
+					"count": 2,
+					"type": "MATERIAL"
+				}
+			]
+		},
+		{
+			"unlockCond": {
+				"phase": 1,
+				"level": 1
+			},
+			"lvlUpCost": [
+				{
+					"id": "3302",
+					"count": 6,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30012",
+					"count": 8,
+					"type": "MATERIAL"
+				}
+			]
+		},
+		{
+			"unlockCond": {
+				"phase": 1,
+				"level": 1
+			},
+			"lvlUpCost": [
+				{
+					"id": "3302",
+					"count": 6,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "31043",
+					"count": 4,
+					"type": "MATERIAL"
+				}
+			]
+		},
+		{
+			"unlockCond": {
+				"phase": 1,
+				"level": 1
+			},
+			"lvlUpCost": [
+				{
+					"id": "3303",
+					"count": 6,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "31053",
+					"count": 3,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30103",
+					"count": 2,
+					"type": "MATERIAL"
+				}
+			]
+		}
+	]
+}

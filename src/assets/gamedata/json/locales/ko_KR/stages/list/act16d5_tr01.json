@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act16d5_01",
@@ -10,7 +11,7 @@
 	],
 	"stageId": "act16d5_tr01",
 	"levelId": "Activities/act16d5/level_act16d5_tr01",
-	"zoneId": "act16d5_zone1",
+	"zoneId": "act9sre_zone1",
 	"code": "WR-TR-1",
 	"name": "잠꼬대",
 	"description": "라바는 꿈에서 니엔에게 시에 맞설 방법을 가르쳐달라고 하지만…… 니엔이 아는 모든 것을 가르쳐주기도 전에 꿈에서 깨어버렸다.\n<@lv.item><명암 인장></> 배치된 오퍼레이터는 명암 속성 획득",
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": true,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 3,
 	"stageDropInfo": {

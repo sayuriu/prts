@@ -2,10 +2,11 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "a003_06",
-			"completeState": 2
+			"completeState": "PASS"
 		}
 	],
 	"stageId": "a003_st04",
@@ -44,7 +45,7 @@
 	"isHardPredefined": false,
 	"isSkillSelectablePredefined": false,
 	"isStoryOnly": true,
-	"appearanceStyle": 0,
+	"appearanceStyle": "MAIN_NORMAL",
 	"stageDropInfo": {
 		"firstPassRewards": null,
 		"firstCompleteRewards": null,
@@ -54,19 +55,25 @@
 			{
 				"type": "DIAMOND",
 				"id": "4002",
-				"dropType": 8
+				"dropType": "COMPLETE"
 			}
 		],
 		"displayDetailRewards": [
 			{
-				"occPercent": 0,
+				"occPercent": "ALWAYS",
 				"type": "DIAMOND",
 				"id": "4002",
-				"dropType": 8
+				"dropType": "COMPLETE"
 			}
 		]
 	},
+	"canUseCharm": false,
+	"canUseTech": false,
+	"canUseTrapTool": false,
+	"canUseBattlePerformance": false,
 	"startButtonOverrideId": null,
 	"isStagePatch": false,
-	"mainStageId": "a003_st01"
+	"mainStageId": "a003_st01",
+	"extraCondition": null,
+	"extraInfo": null
 }

@@ -7,10 +7,10 @@
 			"name": "聆听",
 			"rangeId": "x-2",
 			"description": "停止攻击，逐渐回复总共<@ba.vup>{value}</>点部署费用，并在持续时间内锁定周围至多<@ba.vup>{max_target}</>个敌人\\n被锁定的单位移动速度<@ba.vup>-{-move_speed:0%}</>，防御力<@ba.vup>-{-def:0%}</>，失去<$ba.invisible>隐匿</>效果",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 40,
@@ -22,27 +22,33 @@
 			"blackboard": [
 				{
 					"key": "max_target",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				},
 				{
 					"key": "move_speed",
-					"value": -0.6
+					"value": -0.6,
+					"valueStr": null
 				},
 				{
 					"key": "def",
-					"value": -0.2
+					"value": -0.2,
+					"valueStr": null
 				},
 				{
 					"key": "value",
-					"value": 20
+					"value": 20,
+					"valueStr": null
 				},
 				{
 					"key": "interval",
-					"value": 0.75
+					"value": 0.75,
+					"valueStr": null
 				},
 				{
 					"key": "cost",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -50,10 +56,10 @@
 			"name": "聆听",
 			"rangeId": "x-2",
 			"description": "停止攻击，逐渐回复总共<@ba.vup>{value}</>点部署费用，并在持续时间内锁定周围至多<@ba.vup>{max_target}</>个敌人\\n被锁定的单位移动速度<@ba.vup>-{-move_speed:0%}</>，防御力<@ba.vup>-{-def:0%}</>，失去<$ba.invisible>隐匿</>效果",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 39,
@@ -65,27 +71,33 @@
 			"blackboard": [
 				{
 					"key": "max_target",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				},
 				{
 					"key": "move_speed",
-					"value": -0.6
+					"value": -0.6,
+					"valueStr": null
 				},
 				{
 					"key": "def",
-					"value": -0.2
+					"value": -0.2,
+					"valueStr": null
 				},
 				{
 					"key": "value",
-					"value": 20
+					"value": 20,
+					"valueStr": null
 				},
 				{
 					"key": "interval",
-					"value": 0.75
+					"value": 0.75,
+					"valueStr": null
 				},
 				{
 					"key": "cost",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -93,10 +105,10 @@
 			"name": "聆听",
 			"rangeId": "x-2",
 			"description": "停止攻击，逐渐回复总共<@ba.vup>{value}</>点部署费用，并在持续时间内锁定周围至多<@ba.vup>{max_target}</>个敌人\\n被锁定的单位移动速度<@ba.vup>-{-move_speed:0%}</>，防御力<@ba.vup>-{-def:0%}</>，失去<$ba.invisible>隐匿</>效果",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 38,
@@ -108,27 +120,33 @@
 			"blackboard": [
 				{
 					"key": "max_target",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				},
 				{
 					"key": "move_speed",
-					"value": -0.6
+					"value": -0.6,
+					"valueStr": null
 				},
 				{
 					"key": "def",
-					"value": -0.2
+					"value": -0.2,
+					"valueStr": null
 				},
 				{
 					"key": "value",
-					"value": 20
+					"value": 20,
+					"valueStr": null
 				},
 				{
 					"key": "interval",
-					"value": 0.75
+					"value": 0.75,
+					"valueStr": null
 				},
 				{
 					"key": "cost",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -136,10 +154,10 @@
 			"name": "聆听",
 			"rangeId": "x-2",
 			"description": "停止攻击，逐渐回复总共<@ba.vup>{value}</>点部署费用，并在持续时间内锁定周围至多<@ba.vup>{max_target}</>个敌人\\n被锁定的单位移动速度<@ba.vup>-{-move_speed:0%}</>，防御力<@ba.vup>-{-def:0%}</>，失去<$ba.invisible>隐匿</>效果",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 37,
@@ -151,27 +169,33 @@
 			"blackboard": [
 				{
 					"key": "max_target",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				},
 				{
 					"key": "move_speed",
-					"value": -0.6
+					"value": -0.6,
+					"valueStr": null
 				},
 				{
 					"key": "def",
-					"value": -0.22
+					"value": -0.22,
+					"valueStr": null
 				},
 				{
 					"key": "value",
-					"value": 20
+					"value": 20,
+					"valueStr": null
 				},
 				{
 					"key": "interval",
-					"value": 0.75
+					"value": 0.75,
+					"valueStr": null
 				},
 				{
 					"key": "cost",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -179,10 +203,10 @@
 			"name": "聆听",
 			"rangeId": "x-2",
 			"description": "停止攻击，逐渐回复总共<@ba.vup>{value}</>点部署费用，并在持续时间内锁定周围至多<@ba.vup>{max_target}</>个敌人\\n被锁定的单位移动速度<@ba.vup>-{-move_speed:0%}</>，防御力<@ba.vup>-{-def:0%}</>，失去<$ba.invisible>隐匿</>效果",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 36,
@@ -194,27 +218,33 @@
 			"blackboard": [
 				{
 					"key": "max_target",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				},
 				{
 					"key": "move_speed",
-					"value": -0.6
+					"value": -0.6,
+					"valueStr": null
 				},
 				{
 					"key": "def",
-					"value": -0.22
+					"value": -0.22,
+					"valueStr": null
 				},
 				{
 					"key": "value",
-					"value": 20
+					"value": 20,
+					"valueStr": null
 				},
 				{
 					"key": "interval",
-					"value": 0.75
+					"value": 0.75,
+					"valueStr": null
 				},
 				{
 					"key": "cost",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -222,10 +252,10 @@
 			"name": "聆听",
 			"rangeId": "x-2",
 			"description": "停止攻击，逐渐回复总共<@ba.vup>{value}</>点部署费用，并在持续时间内锁定周围至多<@ba.vup>{max_target}</>个敌人\\n被锁定的单位移动速度<@ba.vup>-{-move_speed:0%}</>，防御力<@ba.vup>-{-def:0%}</>，失去<$ba.invisible>隐匿</>效果",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 35,
@@ -237,27 +267,33 @@
 			"blackboard": [
 				{
 					"key": "max_target",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				},
 				{
 					"key": "move_speed",
-					"value": -0.6
+					"value": -0.6,
+					"valueStr": null
 				},
 				{
 					"key": "def",
-					"value": -0.22
+					"value": -0.22,
+					"valueStr": null
 				},
 				{
 					"key": "value",
-					"value": 20
+					"value": 20,
+					"valueStr": null
 				},
 				{
 					"key": "interval",
-					"value": 0.75
+					"value": 0.75,
+					"valueStr": null
 				},
 				{
 					"key": "cost",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -265,10 +301,10 @@
 			"name": "聆听",
 			"rangeId": "x-2",
 			"description": "停止攻击，逐渐回复总共<@ba.vup>{value}</>点部署费用，并在持续时间内锁定周围至多<@ba.vup>{max_target}</>个敌人\\n被锁定的单位移动速度<@ba.vup>-{-move_speed:0%}</>，防御力<@ba.vup>-{-def:0%}</>，失去<$ba.invisible>隐匿</>效果",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 34,
@@ -280,27 +316,33 @@
 			"blackboard": [
 				{
 					"key": "max_target",
-					"value": 4
+					"value": 4,
+					"valueStr": null
 				},
 				{
 					"key": "move_speed",
-					"value": -0.6
+					"value": -0.6,
+					"valueStr": null
 				},
 				{
 					"key": "def",
-					"value": -0.25
+					"value": -0.25,
+					"valueStr": null
 				},
 				{
 					"key": "value",
-					"value": 20
+					"value": 20,
+					"valueStr": null
 				},
 				{
 					"key": "interval",
-					"value": 0.75
+					"value": 0.75,
+					"valueStr": null
 				},
 				{
 					"key": "cost",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -308,10 +350,10 @@
 			"name": "聆听",
 			"rangeId": "x-2",
 			"description": "停止攻击，逐渐回复总共<@ba.vup>{value}</>点部署费用，并在持续时间内锁定周围至多<@ba.vup>{max_target}</>个敌人\\n被锁定的单位移动速度<@ba.vup>-{-move_speed:0%}</>，防御力<@ba.vup>-{-def:0%}</>，失去<$ba.invisible>隐匿</>效果",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 33,
@@ -323,27 +365,33 @@
 			"blackboard": [
 				{
 					"key": "max_target",
-					"value": 4
+					"value": 4,
+					"valueStr": null
 				},
 				{
 					"key": "move_speed",
-					"value": -0.6
+					"value": -0.6,
+					"valueStr": null
 				},
 				{
 					"key": "def",
-					"value": -0.28
+					"value": -0.28,
+					"valueStr": null
 				},
 				{
 					"key": "value",
-					"value": 20
+					"value": 20,
+					"valueStr": null
 				},
 				{
 					"key": "interval",
-					"value": 0.75
+					"value": 0.75,
+					"valueStr": null
 				},
 				{
 					"key": "cost",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -351,10 +399,10 @@
 			"name": "聆听",
 			"rangeId": "x-2",
 			"description": "停止攻击，逐渐回复总共<@ba.vup>{value}</>点部署费用，并在持续时间内锁定周围至多<@ba.vup>{max_target}</>个敌人\\n被锁定的单位移动速度<@ba.vup>-{-move_speed:0%}</>，防御力<@ba.vup>-{-def:0%}</>，失去<$ba.invisible>隐匿</>效果",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 32,
@@ -366,27 +414,33 @@
 			"blackboard": [
 				{
 					"key": "max_target",
-					"value": 4
+					"value": 4,
+					"valueStr": null
 				},
 				{
 					"key": "move_speed",
-					"value": -0.6
+					"value": -0.6,
+					"valueStr": null
 				},
 				{
 					"key": "def",
-					"value": -0.31
+					"value": -0.31,
+					"valueStr": null
 				},
 				{
 					"key": "value",
-					"value": 20
+					"value": 20,
+					"valueStr": null
 				},
 				{
 					"key": "interval",
-					"value": 0.75
+					"value": 0.75,
+					"valueStr": null
 				},
 				{
 					"key": "cost",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -394,10 +448,10 @@
 			"name": "聆听",
 			"rangeId": "x-2",
 			"description": "停止攻击，逐渐回复总共<@ba.vup>{value}</>点部署费用，并在持续时间内锁定周围至多<@ba.vup>{max_target}</>个敌人\\n被锁定的单位移动速度<@ba.vup>-{-move_speed:0%}</>，防御力<@ba.vup>-{-def:0%}</>，失去<$ba.invisible>隐匿</>效果",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 30,
@@ -409,27 +463,33 @@
 			"blackboard": [
 				{
 					"key": "max_target",
-					"value": 4
+					"value": 4,
+					"valueStr": null
 				},
 				{
 					"key": "move_speed",
-					"value": -0.6
+					"value": -0.6,
+					"valueStr": null
 				},
 				{
 					"key": "def",
-					"value": -0.35
+					"value": -0.35,
+					"valueStr": null
 				},
 				{
 					"key": "value",
-					"value": 20
+					"value": 20,
+					"valueStr": null
 				},
 				{
 					"key": "interval",
-					"value": 0.75
+					"value": 0.75,
+					"valueStr": null
 				},
 				{
 					"key": "cost",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		}

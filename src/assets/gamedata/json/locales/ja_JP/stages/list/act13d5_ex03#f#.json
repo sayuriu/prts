@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "FOUR_STAR",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "main_02-08",
@@ -14,10 +15,10 @@
 	],
 	"stageId": "act13d5_ex03#f#",
 	"levelId": "Activities/ACT13D5/level_act13d5_ex03",
-	"zoneId": "act13d5_zone2",
+	"zoneId": "act7sre_zone2",
 	"code": "MN-EX-3",
 	"name": "VIP専用通路",
-	"description": "<@lv.fs>制限：</>\n全ての敵の移動速度が上昇。",
+	"description": "<@lv.fs>制限：</>\n全ての敵の移動速度が上昇",
 	"hardStagedId": null,
 	"dangerLevel": "-",
 	"dangerPoint": -1,
@@ -46,6 +47,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {

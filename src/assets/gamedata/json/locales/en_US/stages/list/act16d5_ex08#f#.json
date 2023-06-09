@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "FOUR_STAR",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "main_02-08",
@@ -14,7 +15,7 @@
 	],
 	"stageId": "act16d5_ex08#f#",
 	"levelId": "Activities/act16d5/level_act16d5_ex08",
-	"zoneId": "act16d5_zone2",
+	"zoneId": "act9sre_zone2",
 	"code": "WR-EX-8",
 	"name": "Rule",
 	"description": "<@lv.fs>Condition:</>\nWhen attacking units of the same attribute, allies have significantly decreased ATK.",
@@ -46,6 +47,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {

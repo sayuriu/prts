@@ -1,0 +1,84 @@
+{
+	"stageType": "ACTIVITY",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
+	"unlockCondition": [
+		{
+			"stageId": "act15side_ex05",
+			"completeState": 2
+		}
+	],
+	"stageId": "act15side_ex06",
+	"levelId": "Activities/ACT15side/level_act15side_ex06",
+	"zoneId": "act15side_zone2",
+	"code": "IW-EX-6",
+	"name": "Frontier Fortress",
+	"description": "In crossing the desert oneself, one is hard-pressed to forget the campaigners gazing home, the spectacle of horns sounding battalions forth. Even in Shangshu, war, the lives, and the blood still lie behind intoxication, blown into dreams along with the wind.",
+	"hardStagedId": "act15side_ex06#f#",
+	"dangerLevel": "Elite 2 Lv. 20",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_IW_Mountain",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 15,
+	"apFailReturn": 14,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": 0,
+	"expGain": 150,
+	"goldGain": 150,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 14,
+	"completeFavor": 15,
+	"slProgress": 0,
+	"displayMainItem": null,
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 0,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act15side_token_tea",
+				"dropType": 8
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 0,
+				"type": "ACTIVITY_ITEM",
+				"id": "act15side_token_tea",
+				"dropType": 8
+			},
+			{
+				"occPercent": 0,
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		]
+	},
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "act15side_ex01"
+}

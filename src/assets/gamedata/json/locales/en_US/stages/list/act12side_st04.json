@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act12side_09",
@@ -10,7 +11,7 @@
 	],
 	"stageId": "act12side_st04",
 	"levelId": null,
-	"zoneId": "act12side_zone1",
+	"zoneId": "act12sre_zone1",
 	"code": "DH-ST-4",
 	"name": "The Usual Lapping Waves",
 	"description": "A bout of danger dismissed as a farce has passed, yet nothing has changed.",
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": true,
 	"appearanceStyle": 0,
 	"stageDropInfo": {

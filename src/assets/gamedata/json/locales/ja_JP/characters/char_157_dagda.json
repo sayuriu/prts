@@ -1,0 +1,789 @@
+{
+	"name": "ダグザ",
+	"description": "敵を1体までブロック",
+	"canUseGeneralPotentialItem": true,
+	"canUseActivityPotentialItem": false,
+	"potentialItemId": "p_char_157_dagda",
+	"activityPotentialItemId": null,
+	"nationId": "victoria",
+	"groupId": "glasgow",
+	"teamId": null,
+	"displayNumber": "GG04",
+	"tokenKey": null,
+	"appellation": "Dagda",
+	"position": "MELEE",
+	"tagList": [
+		"火力",
+		"生存"
+	],
+	"itemUsage": "グラスゴーメンバーダグザ。手に嵌めたメタルクローと共に、静かに出番を待つ。",
+	"itemDesc": "彼女はヴィクトリアの闇夜を、そして闇夜の中にいるあなたを守り続けている。",
+	"itemObtainApproach": "イベント",
+	"isNotObtainable": false,
+	"isSpChar": false,
+	"maxPotentialLevel": 5,
+	"rarity": 4,
+	"profession": "WARRIOR",
+	"subProfessionId": "fighter",
+	"trait": null,
+	"phases": [
+		{
+			"characterPrefabKey": "char_157_dagda",
+			"rangeId": "1-1",
+			"maxLevel": 50,
+			"attributesKeyFrames": [
+				{
+					"level": 1,
+					"data": {
+						"maxHp": 1185,
+						"atk": 236,
+						"def": 134,
+						"magicResistance": 0,
+						"cost": 10,
+						"blockCnt": 1,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 0.78,
+						"respawnTime": 80,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
+					}
+				},
+				{
+					"level": 50,
+					"data": {
+						"maxHp": 1602,
+						"atk": 348,
+						"def": 192,
+						"magicResistance": 0,
+						"cost": 10,
+						"blockCnt": 1,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 0.78,
+						"respawnTime": 80,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
+					}
+				}
+			],
+			"evolveCost": null
+		},
+		{
+			"characterPrefabKey": "char_157_dagda",
+			"rangeId": "1-1",
+			"maxLevel": 70,
+			"attributesKeyFrames": [
+				{
+					"level": 1,
+					"data": {
+						"maxHp": 1602,
+						"atk": 348,
+						"def": 192,
+						"magicResistance": 0,
+						"cost": 12,
+						"blockCnt": 1,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 0.78,
+						"respawnTime": 80,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
+					}
+				},
+				{
+					"level": 70,
+					"data": {
+						"maxHp": 2054,
+						"atk": 464,
+						"def": 260,
+						"magicResistance": 0,
+						"cost": 12,
+						"blockCnt": 1,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 0.78,
+						"respawnTime": 80,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
+					}
+				}
+			],
+			"evolveCost": [
+				{
+					"id": "3221",
+					"count": 4,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30032",
+					"count": 5,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30062",
+					"count": 2,
+					"type": "MATERIAL"
+				}
+			]
+		},
+		{
+			"characterPrefabKey": "char_157_dagda",
+			"rangeId": "1-1",
+			"maxLevel": 80,
+			"attributesKeyFrames": [
+				{
+					"level": 1,
+					"data": {
+						"maxHp": 2054,
+						"atk": 464,
+						"def": 260,
+						"magicResistance": 0,
+						"cost": 12,
+						"blockCnt": 1,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 0.78,
+						"respawnTime": 80,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
+					}
+				},
+				{
+					"level": 80,
+					"data": {
+						"maxHp": 2506,
+						"atk": 574,
+						"def": 310,
+						"magicResistance": 0,
+						"cost": 12,
+						"blockCnt": 1,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 0.78,
+						"respawnTime": 80,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
+					}
+				}
+			],
+			"evolveCost": [
+				{
+					"id": "3223",
+					"count": 3,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "31024",
+					"count": 7,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30013",
+					"count": 21,
+					"type": "MATERIAL"
+				}
+			]
+		}
+	],
+	"skills": [
+		{
+			"skillId": "skchr_dagda_1",
+			"overridePrefabKey": null,
+			"overrideTokenKey": null,
+			"levelUpCostCond": [
+				{
+					"unlockCond": {
+						"phase": 2,
+						"level": 1
+					},
+					"lvlUpTime": 28800,
+					"levelUpCost": [
+						{
+							"id": "3303",
+							"count": 5,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "31024",
+							"count": 3,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "31063",
+							"count": 3,
+							"type": "MATERIAL"
+						}
+					]
+				},
+				{
+					"unlockCond": {
+						"phase": 2,
+						"level": 1
+					},
+					"lvlUpTime": 57600,
+					"levelUpCost": [
+						{
+							"id": "3303",
+							"count": 6,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "31044",
+							"count": 3,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30064",
+							"count": 4,
+							"type": "MATERIAL"
+						}
+					]
+				},
+				{
+					"unlockCond": {
+						"phase": 2,
+						"level": 1
+					},
+					"lvlUpTime": 86400,
+					"levelUpCost": [
+						{
+							"id": "3303",
+							"count": 10,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30125",
+							"count": 4,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30044",
+							"count": 3,
+							"type": "MATERIAL"
+						}
+					]
+				}
+			],
+			"unlockCond": {
+				"phase": 0,
+				"level": 1
+			}
+		},
+		{
+			"skillId": "skchr_dagda_2",
+			"overridePrefabKey": null,
+			"overrideTokenKey": null,
+			"levelUpCostCond": [
+				{
+					"unlockCond": {
+						"phase": 2,
+						"level": 1
+					},
+					"lvlUpTime": 28800,
+					"levelUpCost": [
+						{
+							"id": "3303",
+							"count": 5,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30064",
+							"count": 2,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30033",
+							"count": 4,
+							"type": "MATERIAL"
+						}
+					]
+				},
+				{
+					"unlockCond": {
+						"phase": 2,
+						"level": 1
+					},
+					"lvlUpTime": 57600,
+					"levelUpCost": [
+						{
+							"id": "3303",
+							"count": 6,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "31024",
+							"count": 3,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "31014",
+							"count": 6,
+							"type": "MATERIAL"
+						}
+					]
+				},
+				{
+					"unlockCond": {
+						"phase": 2,
+						"level": 1
+					},
+					"lvlUpTime": 86400,
+					"levelUpCost": [
+						{
+							"id": "3303",
+							"count": 10,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30155",
+							"count": 4,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30014",
+							"count": 3,
+							"type": "MATERIAL"
+						}
+					]
+				}
+			],
+			"unlockCond": {
+				"phase": 1,
+				"level": 1
+			}
+		}
+	],
+	"talents": [
+		{
+			"candidates": [
+				{
+					"unlockCondition": {
+						"phase": 1,
+						"level": 1
+					},
+					"requiredPotentialRank": 0,
+					"prefabKey": "1",
+					"name": "ストリートソウル",
+					"description": "攻撃時、30％の確率でその攻撃のみ攻撃力が130％まで上昇\n配置中、味方【グラスゴー】の隣接4マス内に敵が倒れた度、攻撃力上昇効果が追加で5％上昇（最大190％まで）",
+					"rangeId": null,
+					"blackboard": [
+						{
+							"key": "prob",
+							"value": 0.3
+						},
+						{
+							"key": "atk_scale",
+							"value": 1.3
+						},
+						{
+							"key": "atk_up_max_value",
+							"value": 1.9
+						},
+						{
+							"key": "atk_up_each_time",
+							"value": 0.05
+						}
+					]
+				},
+				{
+					"unlockCondition": {
+						"phase": 2,
+						"level": 1
+					},
+					"requiredPotentialRank": 0,
+					"prefabKey": "1",
+					"name": "ストリートソウル",
+					"description": "攻撃時、30％の確率でその攻撃のみ攻撃力が150％まで上昇\n配置中、味方【グラスゴー】の隣接4マス内に敵が倒れた度、攻撃力上昇効果が追加で5％上昇（最大240％まで）",
+					"rangeId": null,
+					"blackboard": [
+						{
+							"key": "prob",
+							"value": 0.3
+						},
+						{
+							"key": "atk_scale",
+							"value": 1.5
+						},
+						{
+							"key": "atk_up_max_value",
+							"value": 2.4
+						},
+						{
+							"key": "atk_up_each_time",
+							"value": 0.05
+						}
+					]
+				}
+			]
+		},
+		{
+			"candidates": [
+				{
+					"unlockCondition": {
+						"phase": 2,
+						"level": 1
+					},
+					"requiredPotentialRank": 0,
+					"prefabKey": "2",
+					"name": "ナイツスピリッツ",
+					"description": "【淬火煙塵】において、最大HP+20％、攻撃時、自身のHPを与ダメージの20％回復",
+					"rangeId": null,
+					"blackboard": [
+						{
+							"key": "max_hp",
+							"value": 0.2
+						},
+						{
+							"key": "heal_scale",
+							"value": 0.2
+						}
+					]
+				}
+			]
+		}
+	],
+	"potentialRanks": [
+		{
+			"type": 0,
+			"description": "配置コスト-1",
+			"buff": {
+				"attributes": {
+					"abnormalFlags": null,
+					"abnormalImmunes": null,
+					"abnormalAntis": null,
+					"abnormalCombos": null,
+					"abnormalComboImmunes": null,
+					"attributeModifiers": [
+						{
+							"attributeType": 4,
+							"formulaItem": 0,
+							"value": -1,
+							"loadFromBlackboard": false,
+							"fetchBaseValueFromSourceEntity": false
+						}
+					]
+				}
+			},
+			"equivalentCost": null
+		},
+		{
+			"type": 0,
+			"description": "再配置時間-10秒",
+			"buff": {
+				"attributes": {
+					"abnormalFlags": null,
+					"abnormalImmunes": null,
+					"abnormalAntis": null,
+					"abnormalCombos": null,
+					"abnormalComboImmunes": null,
+					"attributeModifiers": [
+						{
+							"attributeType": 21,
+							"formulaItem": 0,
+							"value": -10,
+							"loadFromBlackboard": false,
+							"fetchBaseValueFromSourceEntity": false
+						}
+					]
+				}
+			},
+			"equivalentCost": null
+		},
+		{
+			"type": 0,
+			"description": "配置コスト-1",
+			"buff": {
+				"attributes": {
+					"abnormalFlags": null,
+					"abnormalImmunes": null,
+					"abnormalAntis": null,
+					"abnormalCombos": null,
+					"abnormalComboImmunes": null,
+					"attributeModifiers": [
+						{
+							"attributeType": 4,
+							"formulaItem": 0,
+							"value": -1,
+							"loadFromBlackboard": false,
+							"fetchBaseValueFromSourceEntity": false
+						}
+					]
+				}
+			},
+			"equivalentCost": null
+		},
+		{
+			"type": 0,
+			"description": "攻撃力+24",
+			"buff": {
+				"attributes": {
+					"abnormalFlags": null,
+					"abnormalImmunes": null,
+					"abnormalAntis": null,
+					"abnormalCombos": null,
+					"abnormalComboImmunes": null,
+					"attributeModifiers": [
+						{
+							"attributeType": 1,
+							"formulaItem": 0,
+							"value": 24,
+							"loadFromBlackboard": false,
+							"fetchBaseValueFromSourceEntity": false
+						}
+					]
+				}
+			},
+			"equivalentCost": null
+		},
+		{
+			"type": 0,
+			"description": "配置コスト-1",
+			"buff": {
+				"attributes": {
+					"abnormalFlags": null,
+					"abnormalImmunes": null,
+					"abnormalAntis": null,
+					"abnormalCombos": null,
+					"abnormalComboImmunes": null,
+					"attributeModifiers": [
+						{
+							"attributeType": 4,
+							"formulaItem": 0,
+							"value": -1,
+							"loadFromBlackboard": false,
+							"fetchBaseValueFromSourceEntity": false
+						}
+					]
+				}
+			},
+			"equivalentCost": null
+		}
+	],
+	"favorKeyFrames": [
+		{
+			"level": 0,
+			"data": {
+				"maxHp": 0,
+				"atk": 0,
+				"def": 0,
+				"magicResistance": 0,
+				"cost": 0,
+				"blockCnt": 0,
+				"moveSpeed": 0,
+				"attackSpeed": 0,
+				"baseAttackTime": 0,
+				"respawnTime": 0,
+				"hpRecoveryPerSec": 0,
+				"spRecoveryPerSec": 0,
+				"maxDeployCount": 0,
+				"maxDeckStackCnt": 0,
+				"tauntLevel": 0,
+				"massLevel": 0,
+				"baseForceLevel": 0,
+				"stunImmune": false,
+				"silenceImmune": false,
+				"sleepImmune": false,
+				"frozenImmune": false,
+				"levitateImmune": false
+			}
+		},
+		{
+			"level": 50,
+			"data": {
+				"maxHp": 0,
+				"atk": 40,
+				"def": 35,
+				"magicResistance": 0,
+				"cost": 0,
+				"blockCnt": 0,
+				"moveSpeed": 0,
+				"attackSpeed": 0,
+				"baseAttackTime": 0,
+				"respawnTime": 0,
+				"hpRecoveryPerSec": 0,
+				"spRecoveryPerSec": 0,
+				"maxDeployCount": 0,
+				"maxDeckStackCnt": 0,
+				"tauntLevel": 0,
+				"massLevel": 0,
+				"baseForceLevel": 0,
+				"stunImmune": false,
+				"silenceImmune": false,
+				"sleepImmune": false,
+				"frozenImmune": false,
+				"levitateImmune": false
+			}
+		}
+	],
+	"allSkillLvlup": [
+		{
+			"unlockCond": {
+				"phase": 0,
+				"level": 1
+			},
+			"lvlUpCost": [
+				{
+					"id": "3301",
+					"count": 4,
+					"type": "MATERIAL"
+				}
+			]
+		},
+		{
+			"unlockCond": {
+				"phase": 0,
+				"level": 1
+			},
+			"lvlUpCost": [
+				{
+					"id": "3301",
+					"count": 4,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30051",
+					"count": 5,
+					"type": "MATERIAL"
+				}
+			]
+		},
+		{
+			"unlockCond": {
+				"phase": 0,
+				"level": 1
+			},
+			"lvlUpCost": [
+				{
+					"id": "3302",
+					"count": 6,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30062",
+					"count": 2,
+					"type": "MATERIAL"
+				}
+			]
+		},
+		{
+			"unlockCond": {
+				"phase": 1,
+				"level": 1
+			},
+			"lvlUpCost": [
+				{
+					"id": "3302",
+					"count": 6,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30012",
+					"count": 8,
+					"type": "MATERIAL"
+				}
+			]
+		},
+		{
+			"unlockCond": {
+				"phase": 1,
+				"level": 1
+			},
+			"lvlUpCost": [
+				{
+					"id": "3302",
+					"count": 6,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "31043",
+					"count": 4,
+					"type": "MATERIAL"
+				}
+			]
+		},
+		{
+			"unlockCond": {
+				"phase": 1,
+				"level": 1
+			},
+			"lvlUpCost": [
+				{
+					"id": "3303",
+					"count": 6,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "31063",
+					"count": 3,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30093",
+					"count": 2,
+					"type": "MATERIAL"
+				}
+			]
+		}
+	]
+}

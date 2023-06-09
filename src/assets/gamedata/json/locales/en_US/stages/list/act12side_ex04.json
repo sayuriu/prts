@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act12side_ex03",
@@ -10,10 +11,10 @@
 	],
 	"stageId": "act12side_ex04",
 	"levelId": "Activities/ACT12SIDE/level_act12side_ex04",
-	"zoneId": "act12side_zone2",
+	"zoneId": "act12sre_zone2",
 	"code": "DH-EX-4",
 	"name": "Estuary",
-	"description": "Behind lies the beaches and crowds, while ahead stands those seeking to break through and hide among them. What should be done is obvious. \n<@lv.item><Deep Water Zone></> Unable to deploy on these tiles. Enemies on these tiles have reduced ASPD and Movement Speed, and continually lose HP\n<@lv.item><Custom Floating Platform></> Can be deployed on Deep Water Zones, thereafter any unit can be deployed on that tile. The platform is destroyed when the deployed unit retreats\n<@lv.rem>Tiles do not have ranged/melee restrictions</>",
+	"description": "Behind lies the beaches and crowds, while ahead stands those seeking to break through and hide among them. What should be done is obvious. \n<@lv.item><Deep Water Zone></>Unable to deploy on these tiles. Enemies on these tiles have reduced ASPD and Movement Speed, and continually lose HP\n<@lv.item><Custom Floating Platform></>Can be deployed on Deep Water Zones, thereafter any unit can be deployed on that tile. The platform is destroyed when the deployed unit retreats",
 	"hardStagedId": "act12side_ex04#f#",
 	"dangerLevel": "Elite 1 Lv. 70",
 	"dangerPoint": -1,
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {

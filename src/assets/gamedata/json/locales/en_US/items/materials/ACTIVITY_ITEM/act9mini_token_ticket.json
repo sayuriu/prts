@@ -1,0 +1,41 @@
+{
+	"itemId": "act9mini_token_ticket",
+	"name": "Liść Ticket",
+	"description": "A lottery ticket issued by a company run by a major knight noble family. Some make a fortune overnight while others go bankrupt. Within this little ticket are condensed the joys, sorrows, blood, and tears of those who resign their fate to a throw of the dice.",
+	"rarity": 4,
+	"iconId": "act9mini_token_ticket",
+	"overrideBkg": null,
+	"stackIconId": null,
+	"sortId": -10000,
+	"usage": "A Kazimierz Major lottery ticket bearing the logo of Pinus Sylvestris. This ticket can be exchanged at the Kazimierz Major Prize Exchange Center for corresponding prizes. Put down your chips, and win your fortune!",
+	"obtainApproach": "Limited Event Drop",
+	"classifyType": "NONE",
+	"itemType": "ACTIVITY_ITEM",
+	"stageDropList": [
+		{
+			"stageId": "act9mini_01",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "act9mini_02",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "act9mini_03",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "act9mini_04",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "act9mini_05",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "act9mini_06",
+			"occPer": "ALWAYS"
+		}
+	],
+	"buildingProductList": []
+}

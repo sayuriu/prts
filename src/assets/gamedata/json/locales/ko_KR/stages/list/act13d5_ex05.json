@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act13d5_ex04",
@@ -10,10 +11,10 @@
 	],
 	"stageId": "act13d5_ex05",
 	"levelId": "Activities/ACT13D5/level_act13d5_ex05",
-	"zoneId": "act13d5_zone2",
+	"zoneId": "act7sre_zone2",
 	"code": "MN-EX-5",
 	"name": "소리없는 합창",
-	"description": "일부 경기장에서 샀지만 사용할 수 없는 '축음기' 장치. 좌완의 기사와의 시합에서, 양초의 기사가 손을 들자 경기장 전체의 모든 아츠가 사라졌다. 그리고 어두운 하늘 아래엔 오직 그녀가 들고 있는 등불만이 밝게 빛나고 있었다.\n<@lv.item><'축음기'></>적군과 축음기의 통제권을 쟁탈해야 한다. 아군이 활성화 후 적군에게 마법 대미지를 주며 아군의 HP를 회복한다.",
+	"description": "일부 경기장에서 샀지만 사용할 수 없는 '축음기' 장치. 좌완의 기사와의 시합에서, 양초의 기사가 손을 들자 경기장 전체의 모든 아츠가 사라졌다. 그리고 어두운 하늘 아래엔 오직 그녀가 들고 있는 등불만이 밝게 빛나고 있었다.\n<@lv.item><'축음기'></> 적군과 축음기의 통제권을 쟁탈해야 한다. 아군이 활성화 후 적군에게 마법 대미지를 주며 아군의 HP를 회복한다",
 	"hardStagedId": "act13d5_ex05#f#",
 	"dangerLevel": "2차 정예화 Lv.10",
 	"dangerPoint": -1,
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {
@@ -52,7 +54,7 @@
 		"displayRewards": [
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act13d5_token_securities",
+				"id": "act13d5_token_securities_rep_1",
 				"dropType": 8
 			},
 			{
@@ -65,7 +67,7 @@
 			{
 				"occPercent": 0,
 				"type": "ACTIVITY_ITEM",
-				"id": "act13d5_token_securities",
+				"id": "act13d5_token_securities_rep_1",
 				"dropType": 8
 			},
 			{

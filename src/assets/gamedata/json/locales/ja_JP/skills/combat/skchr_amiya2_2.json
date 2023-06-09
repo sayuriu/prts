@@ -6,8 +6,9 @@
 		{
 			"name": "影霄・絶影",
 			"rangeId": "x-2",
-			"description": "一定範囲内のHPが最も低い敵に攻撃力の<@ba.vup>{atk_scale:0%}</>の術ダメージを<@ba.vup>{times}</>回与える（最後の一撃はダメージ計算係数が倍増し、<@ba.vup>確定</>ダメージになる）。連撃中で撃破した敵１体につき、攻撃力<@ba.vup>+{amiya2_s_2[kill].atk:0%}</>、術耐性<@ba.vup>+{amiya2_s_2[kill].magic_resistance}</>（上限<@ba.vup>{amiya2_s_2[kill].max_stack_cnt}</>回まで）。連撃終了後、スキル効果時間内の通常攻撃が<@ba.vup>確定</>ダメージを与える\n<@ba.rem>1回の作戦につき発動上限1回</>",
+			"description": "一定範囲内のHPが最も低い敵に攻撃力の<@ba.vup>{atk_scale:0%}</>の術ダメージを<@ba.vup>{times}</>回与える（最後の一撃はダメージ計算係数が倍増し、<@ba.vup>確定</>ダメージになる）。連撃中で撃破した敵１体につき、攻撃力<@ba.vup>+{amiya2_s_2[kill].atk:0%}</>、術耐性<@ba.vup>+{amiya2_s_2[kill].magic_resistance}</>（上限<@ba.vup>{amiya2_s_2[kill].max_stack_cnt}</>回まで）。連撃終了後、スキル効果時間内の通常攻撃が<@ba.vup>確定</>ダメージを与えるようになる\n<@ba.rem>1回の作戦につき発動上限1回</>",
 			"skillType": 1,
+			"durationType": 0,
 			"spData": {
 				"spType": 1,
 				"levelUpCost": null,
@@ -52,8 +53,9 @@
 		{
 			"name": "影霄・絶影",
 			"rangeId": "x-2",
-			"description": "一定範囲内のHPが最も低い敵に攻撃力の<@ba.vup>{atk_scale:0%}</>の術ダメージを<@ba.vup>{times}</>回与える（最後の一撃はダメージ計算係数が倍増し、<@ba.vup>確定</>ダメージになる）。連撃中で撃破した敵１体につき、攻撃力<@ba.vup>+{amiya2_s_2[kill].atk:0%}</>、術耐性<@ba.vup>+{amiya2_s_2[kill].magic_resistance}</>（上限<@ba.vup>{amiya2_s_2[kill].max_stack_cnt}</>回まで）。連撃終了後、スキル効果時間内の通常攻撃が<@ba.vup>確定</>ダメージを与える\n<@ba.rem>1回の作戦につき発動上限1回</>",
+			"description": "一定範囲内のHPが最も低い敵に攻撃力の<@ba.vup>{atk_scale:0%}</>の術ダメージを<@ba.vup>{times}</>回与える（最後の一撃はダメージ計算係数が倍増し、<@ba.vup>確定</>ダメージになる）。連撃中で撃破した敵１体につき、攻撃力<@ba.vup>+{amiya2_s_2[kill].atk:0%}</>、術耐性<@ba.vup>+{amiya2_s_2[kill].magic_resistance}</>（上限<@ba.vup>{amiya2_s_2[kill].max_stack_cnt}</>回まで）。連撃終了後、スキル効果時間内の通常攻撃が<@ba.vup>確定</>ダメージを与えるようになる\n<@ba.rem>1回の作戦につき発動上限1回</>",
 			"skillType": 1,
+			"durationType": 0,
 			"spData": {
 				"spType": 1,
 				"levelUpCost": null,
@@ -98,8 +100,9 @@
 		{
 			"name": "影霄・絶影",
 			"rangeId": "x-2",
-			"description": "一定範囲内のHPが最も低い敵に攻撃力の<@ba.vup>{atk_scale:0%}</>の術ダメージを<@ba.vup>{times}</>回与える（最後の一撃はダメージ計算係数が倍増し、<@ba.vup>確定</>ダメージになる）。連撃中で撃破した敵１体につき、攻撃力<@ba.vup>+{amiya2_s_2[kill].atk:0%}</>、術耐性<@ba.vup>+{amiya2_s_2[kill].magic_resistance}</>（上限<@ba.vup>{amiya2_s_2[kill].max_stack_cnt}</>回まで）。連撃終了後、スキル効果時間内の通常攻撃が<@ba.vup>確定</>ダメージを与える\n<@ba.rem>1回の作戦につき発動上限1回</>",
+			"description": "一定範囲内のHPが最も低い敵に攻撃力の<@ba.vup>{atk_scale:0%}</>の術ダメージを<@ba.vup>{times}</>回与える（最後の一撃はダメージ計算係数が倍増し、<@ba.vup>確定</>ダメージになる）。連撃中で撃破した敵１体につき、攻撃力<@ba.vup>+{amiya2_s_2[kill].atk:0%}</>、術耐性<@ba.vup>+{amiya2_s_2[kill].magic_resistance}</>（上限<@ba.vup>{amiya2_s_2[kill].max_stack_cnt}</>回まで）。連撃終了後、スキル効果時間内の通常攻撃が<@ba.vup>確定</>ダメージを与えるようになる\n<@ba.rem>1回の作戦につき発動上限1回</>",
 			"skillType": 1,
+			"durationType": 0,
 			"spData": {
 				"spType": 1,
 				"levelUpCost": null,
@@ -144,8 +147,9 @@
 		{
 			"name": "影霄・絶影",
 			"rangeId": "x-2",
-			"description": "一定範囲内のHPが最も低い敵に攻撃力の<@ba.vup>{atk_scale:0%}</>の術ダメージを<@ba.vup>{times}</>回与える（最後の一撃はダメージ計算係数が倍増し、<@ba.vup>確定</>ダメージになる）。連撃中で撃破した敵１体につき、攻撃力<@ba.vup>+{amiya2_s_2[kill].atk:0%}</>、術耐性<@ba.vup>+{amiya2_s_2[kill].magic_resistance}</>（上限<@ba.vup>{amiya2_s_2[kill].max_stack_cnt}</>回まで）。連撃終了後、スキル効果時間内の通常攻撃が<@ba.vup>確定</>ダメージを与える\n<@ba.rem>1回の作戦につき発動上限1回</>",
+			"description": "一定範囲内のHPが最も低い敵に攻撃力の<@ba.vup>{atk_scale:0%}</>の術ダメージを<@ba.vup>{times}</>回与える（最後の一撃はダメージ計算係数が倍増し、<@ba.vup>確定</>ダメージになる）。連撃中で撃破した敵１体につき、攻撃力<@ba.vup>+{amiya2_s_2[kill].atk:0%}</>、術耐性<@ba.vup>+{amiya2_s_2[kill].magic_resistance}</>（上限<@ba.vup>{amiya2_s_2[kill].max_stack_cnt}</>回まで）。連撃終了後、スキル効果時間内の通常攻撃が<@ba.vup>確定</>ダメージを与えるようになる\n<@ba.rem>1回の作戦につき発動上限1回</>",
 			"skillType": 1,
+			"durationType": 0,
 			"spData": {
 				"spType": 1,
 				"levelUpCost": null,
@@ -190,8 +194,9 @@
 		{
 			"name": "影霄・絶影",
 			"rangeId": "x-2",
-			"description": "一定範囲内のHPが最も低い敵に攻撃力の<@ba.vup>{atk_scale:0%}</>の術ダメージを<@ba.vup>{times}</>回与える（最後の一撃はダメージ計算係数が倍増し、<@ba.vup>確定</>ダメージになる）。連撃中で撃破した敵１体につき、攻撃力<@ba.vup>+{amiya2_s_2[kill].atk:0%}</>、術耐性<@ba.vup>+{amiya2_s_2[kill].magic_resistance}</>（上限<@ba.vup>{amiya2_s_2[kill].max_stack_cnt}</>回まで）。連撃終了後、スキル効果時間内の通常攻撃が<@ba.vup>確定</>ダメージを与える\n<@ba.rem>1回の作戦につき発動上限1回</>",
+			"description": "一定範囲内のHPが最も低い敵に攻撃力の<@ba.vup>{atk_scale:0%}</>の術ダメージを<@ba.vup>{times}</>回与える（最後の一撃はダメージ計算係数が倍増し、<@ba.vup>確定</>ダメージになる）。連撃中で撃破した敵１体につき、攻撃力<@ba.vup>+{amiya2_s_2[kill].atk:0%}</>、術耐性<@ba.vup>+{amiya2_s_2[kill].magic_resistance}</>（上限<@ba.vup>{amiya2_s_2[kill].max_stack_cnt}</>回まで）。連撃終了後、スキル効果時間内の通常攻撃が<@ba.vup>確定</>ダメージを与えるようになる\n<@ba.rem>1回の作戦につき発動上限1回</>",
 			"skillType": 1,
+			"durationType": 0,
 			"spData": {
 				"spType": 1,
 				"levelUpCost": null,
@@ -236,8 +241,9 @@
 		{
 			"name": "影霄・絶影",
 			"rangeId": "x-2",
-			"description": "一定範囲内のHPが最も低い敵に攻撃力の<@ba.vup>{atk_scale:0%}</>の術ダメージを<@ba.vup>{times}</>回与える（最後の一撃はダメージ計算係数が倍増し、<@ba.vup>確定</>ダメージになる）。連撃中で撃破した敵１体につき、攻撃力<@ba.vup>+{amiya2_s_2[kill].atk:0%}</>、術耐性<@ba.vup>+{amiya2_s_2[kill].magic_resistance}</>（上限<@ba.vup>{amiya2_s_2[kill].max_stack_cnt}</>回まで）。連撃終了後、スキル効果時間内の通常攻撃が<@ba.vup>確定</>ダメージを与える\n<@ba.rem>1回の作戦につき発動上限1回</>",
+			"description": "一定範囲内のHPが最も低い敵に攻撃力の<@ba.vup>{atk_scale:0%}</>の術ダメージを<@ba.vup>{times}</>回与える（最後の一撃はダメージ計算係数が倍増し、<@ba.vup>確定</>ダメージになる）。連撃中で撃破した敵１体につき、攻撃力<@ba.vup>+{amiya2_s_2[kill].atk:0%}</>、術耐性<@ba.vup>+{amiya2_s_2[kill].magic_resistance}</>（上限<@ba.vup>{amiya2_s_2[kill].max_stack_cnt}</>回まで）。連撃終了後、スキル効果時間内の通常攻撃が<@ba.vup>確定</>ダメージを与えるようになる\n<@ba.rem>1回の作戦につき発動上限1回</>",
 			"skillType": 1,
+			"durationType": 0,
 			"spData": {
 				"spType": 1,
 				"levelUpCost": null,
@@ -282,8 +288,9 @@
 		{
 			"name": "影霄・絶影",
 			"rangeId": "x-2",
-			"description": "一定範囲内のHPが最も低い敵に攻撃力の<@ba.vup>{atk_scale:0%}</>の術ダメージを<@ba.vup>{times}</>回与える（最後の一撃はダメージ計算係数が倍増し、<@ba.vup>確定</>ダメージになる）。連撃中で撃破した敵１体につき、攻撃力<@ba.vup>+{amiya2_s_2[kill].atk:0%}</>、術耐性<@ba.vup>+{amiya2_s_2[kill].magic_resistance}</>（上限<@ba.vup>{amiya2_s_2[kill].max_stack_cnt}</>回まで）。連撃終了後、スキル効果時間内の通常攻撃が<@ba.vup>確定</>ダメージを与える\n<@ba.rem>1回の作戦につき発動上限1回</>",
+			"description": "一定範囲内のHPが最も低い敵に攻撃力の<@ba.vup>{atk_scale:0%}</>の術ダメージを<@ba.vup>{times}</>回与える（最後の一撃はダメージ計算係数が倍増し、<@ba.vup>確定</>ダメージになる）。連撃中で撃破した敵１体につき、攻撃力<@ba.vup>+{amiya2_s_2[kill].atk:0%}</>、術耐性<@ba.vup>+{amiya2_s_2[kill].magic_resistance}</>（上限<@ba.vup>{amiya2_s_2[kill].max_stack_cnt}</>回まで）。連撃終了後、スキル効果時間内の通常攻撃が<@ba.vup>確定</>ダメージを与えるようになる\n<@ba.rem>1回の作戦につき発動上限1回</>",
 			"skillType": 1,
+			"durationType": 0,
 			"spData": {
 				"spType": 1,
 				"levelUpCost": null,
@@ -328,8 +335,9 @@
 		{
 			"name": "影霄・絶影",
 			"rangeId": "x-2",
-			"description": "一定範囲内のHPが最も低い敵に攻撃力の<@ba.vup>{atk_scale:0%}</>の術ダメージを<@ba.vup>{times}</>回与える（最後の一撃はダメージ計算係数が倍増し、<@ba.vup>確定</>ダメージになる）。連撃中で撃破した敵１体につき、攻撃力<@ba.vup>+{amiya2_s_2[kill].atk:0%}</>、術耐性<@ba.vup>+{amiya2_s_2[kill].magic_resistance}</>（上限<@ba.vup>{amiya2_s_2[kill].max_stack_cnt}</>回まで）。連撃終了後、スキル効果時間内の通常攻撃が<@ba.vup>確定</>ダメージを与える\n<@ba.rem>1回の作戦につき発動上限1回</>",
+			"description": "一定範囲内のHPが最も低い敵に攻撃力の<@ba.vup>{atk_scale:0%}</>の術ダメージを<@ba.vup>{times}</>回与える（最後の一撃はダメージ計算係数が倍増し、<@ba.vup>確定</>ダメージになる）。連撃中で撃破した敵１体につき、攻撃力<@ba.vup>+{amiya2_s_2[kill].atk:0%}</>、術耐性<@ba.vup>+{amiya2_s_2[kill].magic_resistance}</>（上限<@ba.vup>{amiya2_s_2[kill].max_stack_cnt}</>回まで）。連撃終了後、スキル効果時間内の通常攻撃が<@ba.vup>確定</>ダメージを与えるようになる\n<@ba.rem>1回の作戦につき発動上限1回</>",
 			"skillType": 1,
+			"durationType": 0,
 			"spData": {
 				"spType": 1,
 				"levelUpCost": null,
@@ -374,8 +382,9 @@
 		{
 			"name": "影霄・絶影",
 			"rangeId": "x-2",
-			"description": "一定範囲内のHPが最も低い敵に攻撃力の<@ba.vup>{atk_scale:0%}</>の術ダメージを<@ba.vup>{times}</>回与える（最後の一撃はダメージ計算係数が倍増し、<@ba.vup>確定</>ダメージになる）。連撃中で撃破した敵１体につき、攻撃力<@ba.vup>+{amiya2_s_2[kill].atk:0%}</>、術耐性<@ba.vup>+{amiya2_s_2[kill].magic_resistance}</>（上限<@ba.vup>{amiya2_s_2[kill].max_stack_cnt}</>回まで）。連撃終了後、スキル効果時間内の通常攻撃が<@ba.vup>確定</>ダメージを与える\n<@ba.rem>1回の作戦につき発動上限1回</>",
+			"description": "一定範囲内のHPが最も低い敵に攻撃力の<@ba.vup>{atk_scale:0%}</>の術ダメージを<@ba.vup>{times}</>回与える（最後の一撃はダメージ計算係数が倍増し、<@ba.vup>確定</>ダメージになる）。連撃中で撃破した敵１体につき、攻撃力<@ba.vup>+{amiya2_s_2[kill].atk:0%}</>、術耐性<@ba.vup>+{amiya2_s_2[kill].magic_resistance}</>（上限<@ba.vup>{amiya2_s_2[kill].max_stack_cnt}</>回まで）。連撃終了後、スキル効果時間内の通常攻撃が<@ba.vup>確定</>ダメージを与えるようになる\n<@ba.rem>1回の作戦につき発動上限1回</>",
 			"skillType": 1,
+			"durationType": 0,
 			"spData": {
 				"spType": 1,
 				"levelUpCost": null,
@@ -420,8 +429,9 @@
 		{
 			"name": "影霄・絶影",
 			"rangeId": "x-2",
-			"description": "一定範囲内のHPが最も低い敵に攻撃力の<@ba.vup>{atk_scale:0%}</>の術ダメージを<@ba.vup>{times}</>回与える（最後の一撃はダメージ計算係数が倍増し、<@ba.vup>確定</>ダメージになる）。連撃中で撃破した敵１体につき、攻撃力<@ba.vup>+{amiya2_s_2[kill].atk:0%}</>、術耐性<@ba.vup>+{amiya2_s_2[kill].magic_resistance}</>（上限<@ba.vup>{amiya2_s_2[kill].max_stack_cnt}</>回まで）。連撃終了後、スキル効果時間内の通常攻撃が<@ba.vup>確定</>ダメージを与える\n<@ba.rem>1回の作戦につき発動上限1回</>",
+			"description": "一定範囲内のHPが最も低い敵に攻撃力の<@ba.vup>{atk_scale:0%}</>の術ダメージを<@ba.vup>{times}</>回与える（最後の一撃はダメージ計算係数が倍増し、<@ba.vup>確定</>ダメージになる）。連撃中で撃破した敵１体につき、攻撃力<@ba.vup>+{amiya2_s_2[kill].atk:0%}</>、術耐性<@ba.vup>+{amiya2_s_2[kill].magic_resistance}</>（上限<@ba.vup>{amiya2_s_2[kill].max_stack_cnt}</>回まで）。連撃終了後、スキル効果時間内の通常攻撃が<@ba.vup>確定</>ダメージを与えるようになる\n<@ba.rem>1回の作戦につき発動上限1回</>",
 			"skillType": 1,
+			"durationType": 0,
 			"spData": {
 				"spType": 1,
 				"levelUpCost": null,

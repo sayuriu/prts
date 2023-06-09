@@ -7,10 +7,10 @@
 			"name": "爆破范围提升·α型",
 			"rangeId": null,
 			"description": "普通攻击的爆炸范围提升至<@ba.vup>{attack@range_scale:0%}</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 55,
@@ -22,7 +22,8 @@
 			"blackboard": [
 				{
 					"key": "attack@range_scale",
-					"value": 1.5
+					"value": 1.5,
+					"valueStr": null
 				}
 			]
 		},
@@ -30,10 +31,10 @@
 			"name": "爆破范围提升·α型",
 			"rangeId": null,
 			"description": "普通攻击的爆炸范围提升至<@ba.vup>{attack@range_scale:0%}</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 53,
@@ -45,7 +46,8 @@
 			"blackboard": [
 				{
 					"key": "attack@range_scale",
-					"value": 1.5
+					"value": 1.5,
+					"valueStr": null
 				}
 			]
 		},
@@ -53,10 +55,10 @@
 			"name": "爆破范围提升·α型",
 			"rangeId": null,
 			"description": "普通攻击的爆炸范围提升至<@ba.vup>{attack@range_scale:0%}</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 51,
@@ -68,7 +70,8 @@
 			"blackboard": [
 				{
 					"key": "attack@range_scale",
-					"value": 1.5
+					"value": 1.5,
+					"valueStr": null
 				}
 			]
 		},
@@ -76,10 +79,10 @@
 			"name": "爆破范围提升·α型",
 			"rangeId": null,
 			"description": "普通攻击的爆炸范围提升至<@ba.vup>{attack@range_scale:0%}</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 50,
@@ -91,7 +94,8 @@
 			"blackboard": [
 				{
 					"key": "attack@range_scale",
-					"value": 1.75
+					"value": 1.75,
+					"valueStr": null
 				}
 			]
 		},
@@ -99,10 +103,10 @@
 			"name": "爆破范围提升·α型",
 			"rangeId": null,
 			"description": "普通攻击的爆炸范围提升至<@ba.vup>{attack@range_scale:0%}</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 48,
@@ -114,7 +118,8 @@
 			"blackboard": [
 				{
 					"key": "attack@range_scale",
-					"value": 1.75
+					"value": 1.75,
+					"valueStr": null
 				}
 			]
 		},
@@ -122,10 +127,10 @@
 			"name": "爆破范围提升·α型",
 			"rangeId": null,
 			"description": "普通攻击的爆炸范围提升至<@ba.vup>{attack@range_scale:0%}</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 46,
@@ -137,7 +142,8 @@
 			"blackboard": [
 				{
 					"key": "attack@range_scale",
-					"value": 1.75
+					"value": 1.75,
+					"valueStr": null
 				}
 			]
 		},
@@ -145,10 +151,10 @@
 			"name": "爆破范围提升·α型",
 			"rangeId": null,
 			"description": "普通攻击的爆炸范围提升至<@ba.vup>{attack@range_scale:0%}</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 45,
@@ -160,7 +166,8 @@
 			"blackboard": [
 				{
 					"key": "attack@range_scale",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				}
 			]
 		}

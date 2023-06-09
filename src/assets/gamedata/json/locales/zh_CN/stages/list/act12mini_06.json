@@ -1,0 +1,160 @@
+{
+	"stageType": "ACTIVITY",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
+	"unlockCondition": [
+		{
+			"stageId": "act12mini_05",
+			"completeState": "PASS"
+		}
+	],
+	"stageId": "act12mini_06",
+	"levelId": "Activities/act12mini/level_act12mini_06",
+	"zoneId": "act12mini_zone1",
+	"code": "AW-6",
+	"name": "请君入瓮",
+	"description": "比经历灾难更加让人难以忍受的，是等待灾难来临的那段时间。不要一味沉浸在担惊受怕之中，再多做点什么吧。\\n<@lv.item><R系列动力装甲></>吸收周围实验产物回复技力，技力满时激活",
+	"hardStagedId": "act12mini_06#f#",
+	"dangerLevel": "精英2 LV.10",
+	"dangerPoint": -1,
+	"loadingPicId": "loading2",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 15,
+	"apFailReturn": 14,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": 0,
+	"expGain": 150,
+	"goldGain": 150,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 14,
+	"completeFavor": 15,
+	"slProgress": 0,
+	"displayMainItem": null,
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": "MAIN_NORMAL",
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act12mini_token_component",
+				"dropType": "COMPLETE"
+			},
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act12mini_token_component",
+				"dropType": "SPECIAL"
+			},
+			{
+				"type": "MATERIAL",
+				"id": "30042",
+				"dropType": "NORMAL"
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": "COMPLETE"
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": "ALWAYS",
+				"type": "ACTIVITY_ITEM",
+				"id": "act12mini_token_component",
+				"dropType": "COMPLETE"
+			},
+			{
+				"occPercent": "ALWAYS",
+				"type": "ACTIVITY_ITEM",
+				"id": "act12mini_token_component",
+				"dropType": "SPECIAL"
+			},
+			{
+				"occPercent": "ALWAYS",
+				"type": "MATERIAL",
+				"id": "30042",
+				"dropType": "NORMAL"
+			},
+			{
+				"occPercent": "SOMETIMES",
+				"type": "MATERIAL",
+				"id": "30021",
+				"dropType": "ADDITIONAL"
+			},
+			{
+				"occPercent": "SOMETIMES",
+				"type": "MATERIAL",
+				"id": "30041",
+				"dropType": "ADDITIONAL"
+			},
+			{
+				"occPercent": "SOMETIMES",
+				"type": "MATERIAL",
+				"id": "30051",
+				"dropType": "ADDITIONAL"
+			},
+			{
+				"occPercent": "SOMETIMES",
+				"type": "CARD_EXP",
+				"id": "2001",
+				"dropType": "ADDITIONAL"
+			},
+			{
+				"occPercent": "SOMETIMES",
+				"type": "MATERIAL",
+				"id": "30022",
+				"dropType": "ADDITIONAL"
+			},
+			{
+				"occPercent": "SOMETIMES",
+				"type": "MATERIAL",
+				"id": "30042",
+				"dropType": "ADDITIONAL"
+			},
+			{
+				"occPercent": "SOMETIMES",
+				"type": "MATERIAL",
+				"id": "30052",
+				"dropType": "ADDITIONAL"
+			},
+			{
+				"occPercent": "SOMETIMES",
+				"type": "CARD_EXP",
+				"id": "2002",
+				"dropType": "ADDITIONAL"
+			},
+			{
+				"occPercent": "ALWAYS",
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": "COMPLETE"
+			}
+		]
+	},
+	"canUseCharm": false,
+	"canUseTech": false,
+	"canUseTrapTool": false,
+	"canUseBattlePerformance": false,
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "act12mini_01",
+	"extraCondition": null,
+	"extraInfo": null
+}

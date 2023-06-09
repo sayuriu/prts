@@ -1,0 +1,397 @@
+{
+	"skillId": "skchr_mlyss_3",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "浅层非熵适应",
+			"rangeId": null,
+			"description": "立即获得<@ba.vup>{cost}</>点费用，自身与流形攻击力<@ba.vup>+{atk:0%}</>，若流形为近战复制体时每<@ba.vup>{mlyss_s_3[token_melee_trigger].interval}</>秒对周围八格敌人向自己中心<@ba.vup>小力度地</>拖拽并使所有阻挡的单位持续<$ba.stun>晕眩</>，若为远程复制体时刷新所有流形且攻击附带持续<@ba.vup>{mlyss_s_3[unmoveable].duration}</>秒的<$ba.root>束缚</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 45,
+				"initSp": 5,
+				"increment": 1
+			},
+			"prefabId": "skchr_mlyss_3",
+			"duration": 15,
+			"blackboard": [
+				{
+					"key": "cost",
+					"value": 12,
+					"valueStr": null
+				},
+				{
+					"key": "atk",
+					"value": 0.1,
+					"valueStr": null
+				},
+				{
+					"key": "mlyss_s_3[token_melee_trigger].interval",
+					"value": 2,
+					"valueStr": null
+				},
+				{
+					"key": "mlyss_s_3[unmoveable].duration",
+					"value": 1.5,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "浅层非熵适应",
+			"rangeId": null,
+			"description": "立即获得<@ba.vup>{cost}</>点费用，自身与流形攻击力<@ba.vup>+{atk:0%}</>，若流形为近战复制体时每<@ba.vup>{mlyss_s_3[token_melee_trigger].interval}</>秒对周围八格敌人向自己中心<@ba.vup>小力度地</>拖拽并使所有阻挡的单位持续<$ba.stun>晕眩</>，若为远程复制体时刷新所有流形且攻击附带持续<@ba.vup>{mlyss_s_3[unmoveable].duration}</>秒的<$ba.root>束缚</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 44,
+				"initSp": 5,
+				"increment": 1
+			},
+			"prefabId": "skchr_mlyss_3",
+			"duration": 15,
+			"blackboard": [
+				{
+					"key": "cost",
+					"value": 12,
+					"valueStr": null
+				},
+				{
+					"key": "atk",
+					"value": 0.14,
+					"valueStr": null
+				},
+				{
+					"key": "mlyss_s_3[token_melee_trigger].interval",
+					"value": 2,
+					"valueStr": null
+				},
+				{
+					"key": "mlyss_s_3[unmoveable].duration",
+					"value": 1.5,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "浅层非熵适应",
+			"rangeId": null,
+			"description": "立即获得<@ba.vup>{cost}</>点费用，自身与流形攻击力<@ba.vup>+{atk:0%}</>，若流形为近战复制体时每<@ba.vup>{mlyss_s_3[token_melee_trigger].interval}</>秒对周围八格敌人向自己中心<@ba.vup>小力度地</>拖拽并使所有阻挡的单位持续<$ba.stun>晕眩</>，若为远程复制体时刷新所有流形且攻击附带持续<@ba.vup>{mlyss_s_3[unmoveable].duration}</>秒的<$ba.root>束缚</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 43,
+				"initSp": 5,
+				"increment": 1
+			},
+			"prefabId": "skchr_mlyss_3",
+			"duration": 15,
+			"blackboard": [
+				{
+					"key": "cost",
+					"value": 12,
+					"valueStr": null
+				},
+				{
+					"key": "atk",
+					"value": 0.18,
+					"valueStr": null
+				},
+				{
+					"key": "mlyss_s_3[token_melee_trigger].interval",
+					"value": 2,
+					"valueStr": null
+				},
+				{
+					"key": "mlyss_s_3[unmoveable].duration",
+					"value": 1.5,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "浅层非熵适应",
+			"rangeId": null,
+			"description": "立即获得<@ba.vup>{cost}</>点费用，自身与流形攻击力<@ba.vup>+{atk:0%}</>，若流形为近战复制体时每<@ba.vup>{mlyss_s_3[token_melee_trigger].interval}</>秒对周围八格敌人向自己中心<@ba.vup>小力度地</>拖拽并使所有阻挡的单位持续<$ba.stun>晕眩</>，若为远程复制体时刷新所有流形且攻击附带持续<@ba.vup>{mlyss_s_3[unmoveable].duration}</>秒的<$ba.root>束缚</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 42,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_mlyss_3",
+			"duration": 15,
+			"blackboard": [
+				{
+					"key": "cost",
+					"value": 13,
+					"valueStr": null
+				},
+				{
+					"key": "atk",
+					"value": 0.22,
+					"valueStr": null
+				},
+				{
+					"key": "mlyss_s_3[token_melee_trigger].interval",
+					"value": 2,
+					"valueStr": null
+				},
+				{
+					"key": "mlyss_s_3[unmoveable].duration",
+					"value": 1.5,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "浅层非熵适应",
+			"rangeId": null,
+			"description": "立即获得<@ba.vup>{cost}</>点费用，自身与流形攻击力<@ba.vup>+{atk:0%}</>，若流形为近战复制体时每<@ba.vup>{mlyss_s_3[token_melee_trigger].interval}</>秒对周围八格敌人向自己中心<@ba.vup>小力度地</>拖拽并使所有阻挡的单位持续<$ba.stun>晕眩</>，若为远程复制体时刷新所有流形且攻击附带持续<@ba.vup>{mlyss_s_3[unmoveable].duration}</>秒的<$ba.root>束缚</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 41,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_mlyss_3",
+			"duration": 15,
+			"blackboard": [
+				{
+					"key": "cost",
+					"value": 13,
+					"valueStr": null
+				},
+				{
+					"key": "atk",
+					"value": 0.26,
+					"valueStr": null
+				},
+				{
+					"key": "mlyss_s_3[token_melee_trigger].interval",
+					"value": 2,
+					"valueStr": null
+				},
+				{
+					"key": "mlyss_s_3[unmoveable].duration",
+					"value": 1.5,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "浅层非熵适应",
+			"rangeId": null,
+			"description": "立即获得<@ba.vup>{cost}</>点费用，自身与流形攻击力<@ba.vup>+{atk:0%}</>，若流形为近战复制体时每<@ba.vup>{mlyss_s_3[token_melee_trigger].interval}</>秒对周围八格敌人向自己中心<@ba.vup>小力度地</>拖拽并使所有阻挡的单位持续<$ba.stun>晕眩</>，若为远程复制体时刷新所有流形且攻击附带持续<@ba.vup>{mlyss_s_3[unmoveable].duration}</>秒的<$ba.root>束缚</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 40,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_mlyss_3",
+			"duration": 15,
+			"blackboard": [
+				{
+					"key": "cost",
+					"value": 13,
+					"valueStr": null
+				},
+				{
+					"key": "atk",
+					"value": 0.3,
+					"valueStr": null
+				},
+				{
+					"key": "mlyss_s_3[token_melee_trigger].interval",
+					"value": 2,
+					"valueStr": null
+				},
+				{
+					"key": "mlyss_s_3[unmoveable].duration",
+					"value": 1.5,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "浅层非熵适应",
+			"rangeId": null,
+			"description": "立即获得<@ba.vup>{cost}</>点费用，自身与流形攻击力<@ba.vup>+{atk:0%}</>，若流形为近战复制体时每<@ba.vup>{mlyss_s_3[token_melee_trigger].interval}</>秒对周围八格敌人向自己中心<@ba.vup>小力度地</>拖拽并使所有阻挡的单位持续<$ba.stun>晕眩</>，若为远程复制体时刷新所有流形且攻击附带持续<@ba.vup>{mlyss_s_3[unmoveable].duration}</>秒的<$ba.root>束缚</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 39,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_mlyss_3",
+			"duration": 15,
+			"blackboard": [
+				{
+					"key": "cost",
+					"value": 14,
+					"valueStr": null
+				},
+				{
+					"key": "atk",
+					"value": 0.35,
+					"valueStr": null
+				},
+				{
+					"key": "mlyss_s_3[token_melee_trigger].interval",
+					"value": 2,
+					"valueStr": null
+				},
+				{
+					"key": "mlyss_s_3[unmoveable].duration",
+					"value": 1.5,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "浅层非熵适应",
+			"rangeId": null,
+			"description": "立即获得<@ba.vup>{cost}</>点费用，自身与流形攻击力<@ba.vup>+{atk:0%}</>，若流形为近战复制体时每<@ba.vup>{mlyss_s_3[token_melee_trigger].interval}</>秒对周围八格敌人向自己中心<@ba.vup>小力度地</>拖拽并使所有阻挡的单位持续<$ba.stun>晕眩</>，若为远程复制体时刷新所有流形且攻击附带持续<@ba.vup>{mlyss_s_3[unmoveable].duration}</>秒的<$ba.root>束缚</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 38,
+				"initSp": 16,
+				"increment": 1
+			},
+			"prefabId": "skchr_mlyss_3",
+			"duration": 15,
+			"blackboard": [
+				{
+					"key": "cost",
+					"value": 14,
+					"valueStr": null
+				},
+				{
+					"key": "atk",
+					"value": 0.4,
+					"valueStr": null
+				},
+				{
+					"key": "mlyss_s_3[token_melee_trigger].interval",
+					"value": 2,
+					"valueStr": null
+				},
+				{
+					"key": "mlyss_s_3[unmoveable].duration",
+					"value": 1.5,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "浅层非熵适应",
+			"rangeId": null,
+			"description": "立即获得<@ba.vup>{cost}</>点费用，自身与流形攻击力<@ba.vup>+{atk:0%}</>，若流形为近战复制体时每<@ba.vup>{mlyss_s_3[token_melee_trigger].interval}</>秒对周围八格敌人向自己中心<@ba.vup>小力度地</>拖拽并使所有阻挡的单位持续<$ba.stun>晕眩</>，若为远程复制体时刷新所有流形且攻击附带持续<@ba.vup>{mlyss_s_3[unmoveable].duration}</>秒的<$ba.root>束缚</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 37,
+				"initSp": 17,
+				"increment": 1
+			},
+			"prefabId": "skchr_mlyss_3",
+			"duration": 15,
+			"blackboard": [
+				{
+					"key": "cost",
+					"value": 14,
+					"valueStr": null
+				},
+				{
+					"key": "atk",
+					"value": 0.45,
+					"valueStr": null
+				},
+				{
+					"key": "mlyss_s_3[token_melee_trigger].interval",
+					"value": 2,
+					"valueStr": null
+				},
+				{
+					"key": "mlyss_s_3[unmoveable].duration",
+					"value": 1.5,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "浅层非熵适应",
+			"rangeId": null,
+			"description": "立即获得<@ba.vup>{cost}</>点费用，自身与流形攻击力<@ba.vup>+{atk:0%}</>，若流形为近战复制体时每<@ba.vup>{mlyss_s_3[token_melee_trigger].interval}</>秒对周围八格敌人向自己中心<@ba.vup>小力度地</>拖拽并使所有阻挡的单位持续<$ba.stun>晕眩</>，若为远程复制体时刷新所有流形且攻击附带持续<@ba.vup>{mlyss_s_3[unmoveable].duration}</>秒的<$ba.root>束缚</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 35,
+				"initSp": 18,
+				"increment": 1
+			},
+			"prefabId": "skchr_mlyss_3",
+			"duration": 15,
+			"blackboard": [
+				{
+					"key": "cost",
+					"value": 15,
+					"valueStr": null
+				},
+				{
+					"key": "atk",
+					"value": 0.5,
+					"valueStr": null
+				},
+				{
+					"key": "mlyss_s_3[token_melee_trigger].interval",
+					"value": 2,
+					"valueStr": null
+				},
+				{
+					"key": "mlyss_s_3[unmoveable].duration",
+					"value": 1.5,
+					"valueStr": null
+				}
+			]
+		}
+	]
+}

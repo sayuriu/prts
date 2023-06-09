@@ -1,8 +1,10 @@
 {
 	"name": "Blitz",
-	"description": "적 3명 저지 가능",
+	"description": "적 3명 저지 가능, 원거리 공격 가능",
 	"canUseGeneralPotentialItem": true,
+	"canUseActivityPotentialItem": false,
 	"potentialItemId": "p_char_457_blitz",
+	"activityPotentialItemId": null,
 	"nationId": null,
 	"groupId": null,
 	"teamId": "rainbow",
@@ -22,7 +24,7 @@
 	"maxPotentialLevel": 5,
 	"rarity": 4,
 	"profession": "TANK",
-	"subProfessionId": "protector",
+	"subProfessionId": "shotprotector",
 	"trait": null,
 	"phases": [
 		{
@@ -52,7 +54,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -77,7 +81,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -110,7 +116,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -135,7 +143,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -184,7 +194,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -209,7 +221,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -483,7 +497,7 @@
 					"requiredPotentialRank": 0,
 					"prefabKey": "2",
 					"name": "엄폐 방어",
-					"description": "옆 또는 뒤쪽에 고지대가 있으면 25%의 확률로 물리 공격을 막아낸다.",
+					"description": "옆 또는 뒤쪽에 고지대가 있으면 25% 확률로 물리 대미지 무효화",
 					"rangeId": null,
 					"blackboard": [
 						{
@@ -622,7 +636,9 @@
 				"baseForceLevel": 0,
 				"stunImmune": false,
 				"silenceImmune": false,
-				"sleepImmune": false
+				"sleepImmune": false,
+				"frozenImmune": false,
+				"levitateImmune": false
 			}
 		},
 		{
@@ -647,7 +663,9 @@
 				"baseForceLevel": 0,
 				"stunImmune": false,
 				"silenceImmune": false,
-				"sleepImmune": false
+				"sleepImmune": false,
+				"frozenImmune": false,
+				"levitateImmune": false
 			}
 		}
 	],

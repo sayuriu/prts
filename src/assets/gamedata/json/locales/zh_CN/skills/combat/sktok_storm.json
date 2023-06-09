@@ -7,10 +7,10 @@
 			"name": "沙尘暴",
 			"rangeId": null,
 			"description": "-",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 0,
@@ -22,31 +22,38 @@
 			"blackboard": [
 				{
 					"key": "damage",
-					"value": 100
+					"value": 100,
+					"valueStr": null
 				},
 				{
 					"key": "interval",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				},
 				{
 					"key": "atk",
-					"value": -0.5
+					"value": -0.5,
+					"valueStr": null
 				},
 				{
 					"key": "sand_storm[enemy].move_speed",
-					"value": -0.4
+					"value": -0.4,
+					"valueStr": null
 				},
 				{
 					"key": "respawn_time",
-					"value": 1.5
+					"value": 1.5,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 1500
+					"value": 1500,
+					"valueStr": null
 				},
 				{
 					"key": "skill_max_trigger_time",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		}

@@ -1,0 +1,403 @@
+{
+	"name": "チューリップ",
+	"description": "敵を2体までブロック",
+	"canUseGeneralPotentialItem": true,
+	"canUseActivityPotentialItem": false,
+	"potentialItemId": "p_char_513_apionr",
+	"activityPotentialItemId": null,
+	"nationId": null,
+	"groupId": null,
+	"teamId": null,
+	"displayNumber": null,
+	"tokenKey": null,
+	"appellation": "Tulip",
+	"position": "MELEE",
+	"tagList": [
+		"COST回復",
+		"火力"
+	],
+	"itemUsage": "無",
+	"itemDesc": "無",
+	"itemObtainApproach": null,
+	"isNotObtainable": true,
+	"isSpChar": false,
+	"maxPotentialLevel": 0,
+	"rarity": 4,
+	"profession": "PIONEER",
+	"subProfessionId": "pioneer",
+	"trait": null,
+	"phases": [
+		{
+			"characterPrefabKey": "char_513_apionr",
+			"rangeId": "1-1",
+			"maxLevel": 50,
+			"attributesKeyFrames": [
+				{
+					"level": 1,
+					"data": {
+						"maxHp": 691,
+						"atk": 236,
+						"def": 144,
+						"magicResistance": 0,
+						"cost": 10,
+						"blockCnt": 2,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 1.05,
+						"respawnTime": 60,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
+					}
+				},
+				{
+					"level": 50,
+					"data": {
+						"maxHp": 947,
+						"atk": 348,
+						"def": 216,
+						"magicResistance": 0,
+						"cost": 10,
+						"blockCnt": 2,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 1.05,
+						"respawnTime": 60,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
+					}
+				}
+			],
+			"evolveCost": null
+		},
+		{
+			"characterPrefabKey": "char_513_apionr",
+			"rangeId": "1-1",
+			"maxLevel": 70,
+			"attributesKeyFrames": [
+				{
+					"level": 1,
+					"data": {
+						"maxHp": 947,
+						"atk": 348,
+						"def": 216,
+						"magicResistance": 0,
+						"cost": 12,
+						"blockCnt": 2,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 1.05,
+						"respawnTime": 60,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
+					}
+				},
+				{
+					"level": 70,
+					"data": {
+						"maxHp": 1298,
+						"atk": 477,
+						"def": 285,
+						"magicResistance": 0,
+						"cost": 12,
+						"blockCnt": 2,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 1.05,
+						"respawnTime": 60,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
+					}
+				}
+			],
+			"evolveCost": null
+		},
+		{
+			"characterPrefabKey": "char_513_apionr",
+			"rangeId": "1-1",
+			"maxLevel": 80,
+			"attributesKeyFrames": [
+				{
+					"level": 1,
+					"data": {
+						"maxHp": 1298,
+						"atk": 477,
+						"def": 285,
+						"magicResistance": 0,
+						"cost": 12,
+						"blockCnt": 2,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 1.05,
+						"respawnTime": 60,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
+					}
+				},
+				{
+					"level": 80,
+					"data": {
+						"maxHp": 1855,
+						"atk": 582,
+						"def": 357,
+						"magicResistance": 0,
+						"cost": 12,
+						"blockCnt": 2,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 1.05,
+						"respawnTime": 60,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
+					}
+				}
+			],
+			"evolveCost": null
+		}
+	],
+	"skills": [
+		{
+			"skillId": "skchr_apionr_1",
+			"overridePrefabKey": null,
+			"overrideTokenKey": null,
+			"levelUpCostCond": [
+				{
+					"unlockCond": {
+						"phase": 2,
+						"level": 1
+					},
+					"lvlUpTime": 0,
+					"levelUpCost": null
+				},
+				{
+					"unlockCond": {
+						"phase": 2,
+						"level": 1
+					},
+					"lvlUpTime": 0,
+					"levelUpCost": null
+				},
+				{
+					"unlockCond": {
+						"phase": 2,
+						"level": 1
+					},
+					"lvlUpTime": 0,
+					"levelUpCost": null
+				}
+			],
+			"unlockCond": {
+				"phase": 0,
+				"level": 1
+			}
+		}
+	],
+	"talents": [
+		{
+			"candidates": [
+				{
+					"unlockCondition": {
+						"phase": 1,
+						"level": 1
+					},
+					"requiredPotentialRank": 0,
+					"prefabKey": "1",
+					"name": "隔たりなき意志",
+					"description": "配置後、スキルを2回発動する前まで、SP自然回復速度＋0.6sp/秒",
+					"rangeId": null,
+					"blackboard": [
+						{
+							"key": "sp_recovery_per_sec",
+							"value": 0.6
+						},
+						{
+							"key": "cnt",
+							"value": 2
+						}
+					]
+				},
+				{
+					"unlockCondition": {
+						"phase": 2,
+						"level": 1
+					},
+					"requiredPotentialRank": 0,
+					"prefabKey": "1",
+					"name": "隔たりなき意志",
+					"description": "配置後、スキルを2回発動する前まで、SP自然回復速度＋1sp/秒",
+					"rangeId": null,
+					"blackboard": [
+						{
+							"key": "sp_recovery_per_sec",
+							"value": 1
+						},
+						{
+							"key": "cnt",
+							"value": 2
+						}
+					]
+				}
+			]
+		}
+	],
+	"potentialRanks": [],
+	"favorKeyFrames": [
+		{
+			"level": 0,
+			"data": {
+				"maxHp": 0,
+				"atk": 0,
+				"def": 0,
+				"magicResistance": 0,
+				"cost": 0,
+				"blockCnt": 0,
+				"moveSpeed": 0,
+				"attackSpeed": 0,
+				"baseAttackTime": 0,
+				"respawnTime": 0,
+				"hpRecoveryPerSec": 0,
+				"spRecoveryPerSec": 0,
+				"maxDeployCount": 0,
+				"maxDeckStackCnt": 0,
+				"tauntLevel": 0,
+				"massLevel": 0,
+				"baseForceLevel": 0,
+				"stunImmune": false,
+				"silenceImmune": false,
+				"sleepImmune": false,
+				"frozenImmune": false,
+				"levitateImmune": false
+			}
+		},
+		{
+			"level": 50,
+			"data": {
+				"maxHp": 0,
+				"atk": 0,
+				"def": 0,
+				"magicResistance": 0,
+				"cost": 0,
+				"blockCnt": 0,
+				"moveSpeed": 0,
+				"attackSpeed": 0,
+				"baseAttackTime": 0,
+				"respawnTime": 0,
+				"hpRecoveryPerSec": 0,
+				"spRecoveryPerSec": 0,
+				"maxDeployCount": 0,
+				"maxDeckStackCnt": 0,
+				"tauntLevel": 0,
+				"massLevel": 0,
+				"baseForceLevel": 0,
+				"stunImmune": false,
+				"silenceImmune": false,
+				"sleepImmune": false,
+				"frozenImmune": false,
+				"levitateImmune": false
+			}
+		}
+	],
+	"allSkillLvlup": [
+		{
+			"unlockCond": {
+				"phase": 0,
+				"level": 1
+			},
+			"lvlUpCost": null
+		},
+		{
+			"unlockCond": {
+				"phase": 0,
+				"level": 1
+			},
+			"lvlUpCost": null
+		},
+		{
+			"unlockCond": {
+				"phase": 0,
+				"level": 1
+			},
+			"lvlUpCost": null
+		},
+		{
+			"unlockCond": {
+				"phase": 1,
+				"level": 1
+			},
+			"lvlUpCost": null
+		},
+		{
+			"unlockCond": {
+				"phase": 1,
+				"level": 1
+			},
+			"lvlUpCost": null
+		},
+		{
+			"unlockCond": {
+				"phase": 1,
+				"level": 1
+			},
+			"lvlUpCost": null
+		}
+	]
+}

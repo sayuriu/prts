@@ -7,10 +7,10 @@
 			"name": "水灵庇护",
 			"rangeId": null,
 			"description": "攻击力<@ba.vup>+{atk:0%}</>，治疗目标数+1，持续时间内攻击范围内的友方单位获得<$ba.buffres>抵抗</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 80,
@@ -22,15 +22,18 @@
 			"blackboard": [
 				{
 					"key": "attack@max_target",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				},
 				{
 					"key": "atk",
-					"value": 0.3
+					"value": 0.3,
+					"valueStr": null
 				},
 				{
 					"key": "one_minus_status_resistance",
-					"value": -0.5
+					"value": -0.5,
+					"valueStr": null
 				}
 			]
 		},
@@ -38,10 +41,10 @@
 			"name": "水灵庇护",
 			"rangeId": null,
 			"description": "攻击力<@ba.vup>+{atk:0%}</>，治疗目标数+1，持续时间内攻击范围内的友方单位获得<$ba.buffres>抵抗</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 80,
@@ -53,15 +56,18 @@
 			"blackboard": [
 				{
 					"key": "attack@max_target",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				},
 				{
 					"key": "atk",
-					"value": 0.3
+					"value": 0.3,
+					"valueStr": null
 				},
 				{
 					"key": "one_minus_status_resistance",
-					"value": -0.5
+					"value": -0.5,
+					"valueStr": null
 				}
 			]
 		},
@@ -69,10 +75,10 @@
 			"name": "水灵庇护",
 			"rangeId": null,
 			"description": "攻击力<@ba.vup>+{atk:0%}</>，治疗目标数+1，持续时间内攻击范围内的友方单位获得<$ba.buffres>抵抗</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 80,
@@ -84,15 +90,18 @@
 			"blackboard": [
 				{
 					"key": "attack@max_target",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				},
 				{
 					"key": "atk",
-					"value": 0.3
+					"value": 0.3,
+					"valueStr": null
 				},
 				{
 					"key": "one_minus_status_resistance",
-					"value": -0.5
+					"value": -0.5,
+					"valueStr": null
 				}
 			]
 		},
@@ -100,10 +109,10 @@
 			"name": "水灵庇护",
 			"rangeId": null,
 			"description": "攻击力<@ba.vup>+{atk:0%}</>，治疗目标数+1，持续时间内攻击范围内的友方单位获得<$ba.buffres>抵抗</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 80,
@@ -115,15 +124,18 @@
 			"blackboard": [
 				{
 					"key": "attack@max_target",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				},
 				{
 					"key": "atk",
-					"value": 0.4
+					"value": 0.4,
+					"valueStr": null
 				},
 				{
 					"key": "one_minus_status_resistance",
-					"value": -0.5
+					"value": -0.5,
+					"valueStr": null
 				}
 			]
 		},
@@ -131,10 +143,10 @@
 			"name": "水灵庇护",
 			"rangeId": null,
 			"description": "攻击力<@ba.vup>+{atk:0%}</>，治疗目标数+1，持续时间内攻击范围内的友方单位获得<$ba.buffres>抵抗</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 80,
@@ -146,15 +158,18 @@
 			"blackboard": [
 				{
 					"key": "attack@max_target",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				},
 				{
 					"key": "atk",
-					"value": 0.4
+					"value": 0.4,
+					"valueStr": null
 				},
 				{
 					"key": "one_minus_status_resistance",
-					"value": -0.5
+					"value": -0.5,
+					"valueStr": null
 				}
 			]
 		},
@@ -162,10 +177,10 @@
 			"name": "水灵庇护",
 			"rangeId": null,
 			"description": "攻击力<@ba.vup>+{atk:0%}</>，治疗目标数+1，持续时间内攻击范围内的友方单位获得<$ba.buffres>抵抗</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 80,
@@ -177,15 +192,18 @@
 			"blackboard": [
 				{
 					"key": "attack@max_target",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				},
 				{
 					"key": "atk",
-					"value": 0.4
+					"value": 0.4,
+					"valueStr": null
 				},
 				{
 					"key": "one_minus_status_resistance",
-					"value": -0.5
+					"value": -0.5,
+					"valueStr": null
 				}
 			]
 		},
@@ -193,10 +211,10 @@
 			"name": "水灵庇护",
 			"rangeId": null,
 			"description": "攻击力<@ba.vup>+{atk:0%}</>，治疗目标数+1，持续时间内攻击范围内的友方单位获得<$ba.buffres>抵抗</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 80,
@@ -208,15 +226,18 @@
 			"blackboard": [
 				{
 					"key": "attack@max_target",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				},
 				{
 					"key": "atk",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				},
 				{
 					"key": "one_minus_status_resistance",
-					"value": -0.5
+					"value": -0.5,
+					"valueStr": null
 				}
 			]
 		},
@@ -224,10 +245,10 @@
 			"name": "水灵庇护",
 			"rangeId": null,
 			"description": "攻击力<@ba.vup>+{atk:0%}</>，治疗目标数+1，持续时间内攻击范围内的友方单位获得<$ba.buffres>抵抗</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 80,
@@ -239,15 +260,18 @@
 			"blackboard": [
 				{
 					"key": "attack@max_target",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				},
 				{
 					"key": "atk",
-					"value": 0.53
+					"value": 0.53,
+					"valueStr": null
 				},
 				{
 					"key": "one_minus_status_resistance",
-					"value": -0.5
+					"value": -0.5,
+					"valueStr": null
 				}
 			]
 		},
@@ -255,10 +279,10 @@
 			"name": "水灵庇护",
 			"rangeId": null,
 			"description": "攻击力<@ba.vup>+{atk:0%}</>，治疗目标数+1，持续时间内攻击范围内的友方单位获得<$ba.buffres>抵抗</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 80,
@@ -270,15 +294,18 @@
 			"blackboard": [
 				{
 					"key": "attack@max_target",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				},
 				{
 					"key": "atk",
-					"value": 0.56
+					"value": 0.56,
+					"valueStr": null
 				},
 				{
 					"key": "one_minus_status_resistance",
-					"value": -0.5
+					"value": -0.5,
+					"valueStr": null
 				}
 			]
 		},
@@ -286,10 +313,10 @@
 			"name": "水灵庇护",
 			"rangeId": null,
 			"description": "攻击力<@ba.vup>+{atk:0%}</>，治疗目标数+1，持续时间内攻击范围内的友方单位获得<$ba.buffres>抵抗</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 80,
@@ -301,15 +328,18 @@
 			"blackboard": [
 				{
 					"key": "attack@max_target",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				},
 				{
 					"key": "atk",
-					"value": 0.6
+					"value": 0.6,
+					"valueStr": null
 				},
 				{
 					"key": "one_minus_status_resistance",
-					"value": -0.5
+					"value": -0.5,
+					"valueStr": null
 				}
 			]
 		}

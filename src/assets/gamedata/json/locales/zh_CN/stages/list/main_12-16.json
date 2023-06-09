@@ -1,0 +1,155 @@
+{
+	"stageType": "MAIN",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NORMAL",
+	"unlockCondition": [
+		{
+			"stageId": "main_12-15",
+			"completeState": "PASS"
+		}
+	],
+	"stageId": "main_12-16",
+	"levelId": "Obt/Main/level_main_12-16",
+	"zoneId": "main_12",
+	"code": "12-18",
+	"name": "晚安",
+	"description": "今晚我们没有收到任何防空警报，祝各位今夜好梦。\\n我方费用上限大幅降低\\n<@lv.item><街头应急储备></>被摧毁后获得一定费用及费用上限",
+	"hardStagedId": null,
+	"dangerLevel": "精英2 LV.35",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_VC_street2",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 21,
+	"apFailReturn": 20,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": -1,
+	"expGain": 210,
+	"goldGain": 210,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 20,
+	"completeFavor": 21,
+	"slProgress": 244,
+	"displayMainItem": "30033",
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": "MAIN_NORMAL",
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "MATERIAL",
+				"id": "30033",
+				"dropType": "NORMAL"
+			},
+			{
+				"type": "MATERIAL",
+				"id": "30034",
+				"dropType": "SPECIAL"
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": "COMPLETE"
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": "OFTEN",
+				"type": "MATERIAL",
+				"id": "30033",
+				"dropType": "NORMAL"
+			},
+			{
+				"occPercent": "SOMETIMES",
+				"type": "MATERIAL",
+				"id": "30034",
+				"dropType": "SPECIAL"
+			},
+			{
+				"occPercent": "OFTEN",
+				"type": "MATERIAL",
+				"id": "30011",
+				"dropType": "ADDITIONAL"
+			},
+			{
+				"occPercent": "SOMETIMES",
+				"type": "MATERIAL",
+				"id": "30061",
+				"dropType": "ADDITIONAL"
+			},
+			{
+				"occPercent": "OFTEN",
+				"type": "MATERIAL",
+				"id": "30012",
+				"dropType": "ADDITIONAL"
+			},
+			{
+				"occPercent": "SOMETIMES",
+				"type": "MATERIAL",
+				"id": "30062",
+				"dropType": "ADDITIONAL"
+			},
+			{
+				"occPercent": "SOMETIMES",
+				"type": "MATERIAL",
+				"id": "30013",
+				"dropType": "ADDITIONAL"
+			},
+			{
+				"occPercent": "SOMETIMES",
+				"type": "MATERIAL",
+				"id": "30063",
+				"dropType": "ADDITIONAL"
+			},
+			{
+				"occPercent": "SOMETIMES",
+				"type": "MATERIAL",
+				"id": "30073",
+				"dropType": "ADDITIONAL"
+			},
+			{
+				"occPercent": "SOMETIMES",
+				"type": "MATERIAL",
+				"id": "31013",
+				"dropType": "ADDITIONAL"
+			},
+			{
+				"occPercent": "SOMETIMES",
+				"type": "MATERIAL",
+				"id": "3003",
+				"dropType": "ADDITIONAL"
+			},
+			{
+				"occPercent": "ALWAYS",
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": "COMPLETE"
+			}
+		]
+	},
+	"canUseCharm": false,
+	"canUseTech": false,
+	"canUseTrapTool": false,
+	"canUseBattlePerformance": false,
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "main_12-16",
+	"extraCondition": null,
+	"extraInfo": null
+}

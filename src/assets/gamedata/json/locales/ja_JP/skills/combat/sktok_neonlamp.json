@@ -1,0 +1,30 @@
+{
+	"skillId": "sktok_neonlamp",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "「文明の灯火」",
+			"rangeId": "x-1",
+			"description": "視野範囲拡大、継続時間無限",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 50,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "sktok_neonlamp",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "cost",
+					"value": 20
+				}
+			]
+		}
+	]
+}

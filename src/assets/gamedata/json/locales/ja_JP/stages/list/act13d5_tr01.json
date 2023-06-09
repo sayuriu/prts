@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act13d5_01",
@@ -10,7 +11,7 @@
 	],
 	"stageId": "act13d5_tr01",
 	"levelId": "Activities/ACT13D5/level_act13d5_tr01",
-	"zoneId": "act13d5_zone1",
+	"zoneId": "act7sre_zone1",
 	"code": "MN-TR-1",
 	"name": "練習試合",
 	"description": "騎士競技のヒント：試合のレギュレーションをフル活用せよ。\n<@lv.item><ミェシュココイル></>攻撃範囲内に他のミェシュココイルが配置されていると通電状態になる。",
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": true,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 3,
 	"stageDropInfo": {

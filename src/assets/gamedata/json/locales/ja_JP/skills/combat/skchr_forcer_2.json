@@ -1,0 +1,397 @@
+{
+	"skillId": "skchr_forcer_2",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "スタガリングショット",
+			"rangeId": "2-2",
+			"description": "範囲内の全ての敵を前方に<@ba.vup>相当の力で</>突き飛ばし、<@ba.vup>{forcer_s_2[hit_directly].stun}</>秒間<$ba.stun>スタン</>させる（高台にぶつかると、<$ba.stun>スタン</>の効果時間が<@ba.vup>{stun}</>秒になる）。対象が他の敵にぶつかった場合、その敵を<@ba.vup>{forcer_s_2[brush].stun}</>秒間<$ba.stun>スタン</>させる",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 22,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_forcer_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "force",
+					"value": 1
+				},
+				{
+					"key": "stun",
+					"value": 2.7
+				},
+				{
+					"key": "forcer_s_2[brush].stun",
+					"value": 1.6
+				},
+				{
+					"key": "forcer_s_2[hit_directly].stun",
+					"value": 1.6
+				},
+				{
+					"key": "projectile_range",
+					"value": 0.33
+				}
+			]
+		},
+		{
+			"name": "スタガリングショット",
+			"rangeId": "2-2",
+			"description": "範囲内の全ての敵を前方に<@ba.vup>相当の力で</>突き飛ばし、<@ba.vup>{forcer_s_2[hit_directly].stun}</>秒間<$ba.stun>スタン</>させる（高台にぶつかると、<$ba.stun>スタン</>の効果時間が<@ba.vup>{stun}</>秒になる）。対象が他の敵にぶつかった場合、その敵を<@ba.vup>{forcer_s_2[brush].stun}</>秒間<$ba.stun>スタン</>させる",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 22,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_forcer_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "force",
+					"value": 1
+				},
+				{
+					"key": "stun",
+					"value": 2.8
+				},
+				{
+					"key": "forcer_s_2[brush].stun",
+					"value": 1.7
+				},
+				{
+					"key": "forcer_s_2[hit_directly].stun",
+					"value": 1.7
+				},
+				{
+					"key": "projectile_range",
+					"value": 0.33
+				}
+			]
+		},
+		{
+			"name": "スタガリングショット",
+			"rangeId": "2-2",
+			"description": "範囲内の全ての敵を前方に<@ba.vup>相当の力で</>突き飛ばし、<@ba.vup>{forcer_s_2[hit_directly].stun}</>秒間<$ba.stun>スタン</>させる（高台にぶつかると、<$ba.stun>スタン</>の効果時間が<@ba.vup>{stun}</>秒になる）。対象が他の敵にぶつかった場合、その敵を<@ba.vup>{forcer_s_2[brush].stun}</>秒間<$ba.stun>スタン</>させる",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 22,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_forcer_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "force",
+					"value": 1
+				},
+				{
+					"key": "stun",
+					"value": 2.9
+				},
+				{
+					"key": "forcer_s_2[brush].stun",
+					"value": 1.8
+				},
+				{
+					"key": "forcer_s_2[hit_directly].stun",
+					"value": 1.8
+				},
+				{
+					"key": "projectile_range",
+					"value": 0.33
+				}
+			]
+		},
+		{
+			"name": "スタガリングショット",
+			"rangeId": "2-2",
+			"description": "範囲内の全ての敵を前方に<@ba.vup>相当の力で</>突き飛ばし、<@ba.vup>{forcer_s_2[hit_directly].stun}</>秒間<$ba.stun>スタン</>させる（高台にぶつかると、<$ba.stun>スタン</>の効果時間が<@ba.vup>{stun}</>秒になる）。対象が他の敵にぶつかった場合、その敵を<@ba.vup>{forcer_s_2[brush].stun}</>秒間<$ba.stun>スタン</>させる",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 21,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_forcer_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "force",
+					"value": 1
+				},
+				{
+					"key": "stun",
+					"value": 3
+				},
+				{
+					"key": "forcer_s_2[brush].stun",
+					"value": 1.9
+				},
+				{
+					"key": "forcer_s_2[hit_directly].stun",
+					"value": 1.9
+				},
+				{
+					"key": "projectile_range",
+					"value": 0.33
+				}
+			]
+		},
+		{
+			"name": "スタガリングショット",
+			"rangeId": "2-2",
+			"description": "範囲内の全ての敵を前方に<@ba.vup>相当の力で</>突き飛ばし、<@ba.vup>{forcer_s_2[hit_directly].stun}</>秒間<$ba.stun>スタン</>させる（高台にぶつかると、<$ba.stun>スタン</>の効果時間が<@ba.vup>{stun}</>秒になる）。対象が他の敵にぶつかった場合、その敵を<@ba.vup>{forcer_s_2[brush].stun}</>秒間<$ba.stun>スタン</>させる",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 21,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_forcer_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "force",
+					"value": 1
+				},
+				{
+					"key": "stun",
+					"value": 3.1
+				},
+				{
+					"key": "forcer_s_2[brush].stun",
+					"value": 2
+				},
+				{
+					"key": "forcer_s_2[hit_directly].stun",
+					"value": 2
+				},
+				{
+					"key": "projectile_range",
+					"value": 0.33
+				}
+			]
+		},
+		{
+			"name": "スタガリングショット",
+			"rangeId": "2-2",
+			"description": "範囲内の全ての敵を前方に<@ba.vup>相当の力で</>突き飛ばし、<@ba.vup>{forcer_s_2[hit_directly].stun}</>秒間<$ba.stun>スタン</>させる（高台にぶつかると、<$ba.stun>スタン</>の効果時間が<@ba.vup>{stun}</>秒になる）。対象が他の敵にぶつかった場合、その敵を<@ba.vup>{forcer_s_2[brush].stun}</>秒間<$ba.stun>スタン</>させる",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 21,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_forcer_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "force",
+					"value": 1
+				},
+				{
+					"key": "stun",
+					"value": 3.2
+				},
+				{
+					"key": "forcer_s_2[brush].stun",
+					"value": 2.1
+				},
+				{
+					"key": "forcer_s_2[hit_directly].stun",
+					"value": 2.1
+				},
+				{
+					"key": "projectile_range",
+					"value": 0.33
+				}
+			]
+		},
+		{
+			"name": "スタガリングショット",
+			"rangeId": "2-2",
+			"description": "範囲内の全ての敵を前方に<@ba.vup>かなりの力で</>突き飛ばし、<@ba.vup>{forcer_s_2[hit_directly].stun}</>秒間<$ba.stun>スタン</>させる（高台にぶつかると、<$ba.stun>スタン</>の効果時間が<@ba.vup>{stun}</>秒になる）。対象が他の敵にぶつかった場合、その敵を<@ba.vup>{forcer_s_2[brush].stun}</>秒間<$ba.stun>スタン</>させる",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 20,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_forcer_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "force",
+					"value": 2
+				},
+				{
+					"key": "stun",
+					"value": 3.4
+				},
+				{
+					"key": "forcer_s_2[brush].stun",
+					"value": 2.2
+				},
+				{
+					"key": "forcer_s_2[hit_directly].stun",
+					"value": 2.2
+				},
+				{
+					"key": "projectile_range",
+					"value": 0.33
+				}
+			]
+		},
+		{
+			"name": "スタガリングショット",
+			"rangeId": "2-2",
+			"description": "範囲内の全ての敵を前方に<@ba.vup>かなりの力で</>突き飛ばし、<@ba.vup>{forcer_s_2[hit_directly].stun}</>秒間<$ba.stun>スタン</>させる（高台にぶつかると、<$ba.stun>スタン</>の効果時間が<@ba.vup>{stun}</>秒になる）。対象が他の敵にぶつかった場合、その敵を<@ba.vup>{forcer_s_2[brush].stun}</>秒間<$ba.stun>スタン</>させる",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 19,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_forcer_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "force",
+					"value": 2
+				},
+				{
+					"key": "stun",
+					"value": 3.6
+				},
+				{
+					"key": "forcer_s_2[brush].stun",
+					"value": 2.3
+				},
+				{
+					"key": "forcer_s_2[hit_directly].stun",
+					"value": 2.3
+				},
+				{
+					"key": "projectile_range",
+					"value": 0.33
+				}
+			]
+		},
+		{
+			"name": "スタガリングショット",
+			"rangeId": "2-2",
+			"description": "範囲内の全ての敵を前方に<@ba.vup>かなりの力で</>突き飛ばし、<@ba.vup>{forcer_s_2[hit_directly].stun}</>秒間<$ba.stun>スタン</>させる（高台にぶつかると、<$ba.stun>スタン</>の効果時間が<@ba.vup>{stun}</>秒になる）。対象が他の敵にぶつかった場合、その敵を<@ba.vup>{forcer_s_2[brush].stun}</>秒間<$ba.stun>スタン</>させる",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 18,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_forcer_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "force",
+					"value": 2
+				},
+				{
+					"key": "stun",
+					"value": 3.8
+				},
+				{
+					"key": "forcer_s_2[brush].stun",
+					"value": 2.4
+				},
+				{
+					"key": "forcer_s_2[hit_directly].stun",
+					"value": 2.4
+				},
+				{
+					"key": "projectile_range",
+					"value": 0.33
+				}
+			]
+		},
+		{
+			"name": "スタガリングショット",
+			"rangeId": "2-2",
+			"description": "範囲内の全ての敵を前方に<@ba.vup>力強く</>突き飛ばし、<@ba.vup>{forcer_s_2[hit_directly].stun}</>秒間<$ba.stun>スタン</>させる（高台にぶつかると、<$ba.stun>スタン</>の効果時間が<@ba.vup>{stun}</>秒になる）。対象が他の敵にぶつかった場合、その敵を<@ba.vup>{forcer_s_2[brush].stun}</>秒間<$ba.stun>スタン</>させる",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 17,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_forcer_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "force",
+					"value": 3
+				},
+				{
+					"key": "stun",
+					"value": 4
+				},
+				{
+					"key": "forcer_s_2[brush].stun",
+					"value": 2.5
+				},
+				{
+					"key": "forcer_s_2[hit_directly].stun",
+					"value": 2.5
+				},
+				{
+					"key": "projectile_range",
+					"value": 0.33
+				}
+			]
+		}
+	]
+}

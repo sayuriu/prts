@@ -7,8 +7,8 @@
 			"name": "深水",
 			"rangeId": null,
 			"description": "-",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
 				"spType": 8,
 				"levelUpCost": null,
@@ -22,19 +22,62 @@
 			"blackboard": [
 				{
 					"key": "skill_max_trigger_time",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "sea_drown[enemy].damage",
-					"value": 40
+					"value": 40,
+					"valueStr": null
 				},
 				{
 					"key": "sea_drown[enemy].attack_speed",
-					"value": -0.6
+					"value": -0.6,
+					"valueStr": null
 				},
 				{
 					"key": "sea_drown[enemy].move_speed",
-					"value": 0.6
+					"value": 0.6,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "深水",
+			"rangeId": null,
+			"description": "-",
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 0,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": "sktok_tidectrl_3",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "skill_max_trigger_time",
+					"value": 1,
+					"valueStr": null
+				},
+				{
+					"key": "sea_drown[enemy].damage",
+					"value": 0,
+					"valueStr": null
+				},
+				{
+					"key": "sea_drown[enemy].attack_speed",
+					"value": 0,
+					"valueStr": null
+				},
+				{
+					"key": "sea_drown[enemy].move_speed",
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		}

@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act13d5_ex03",
@@ -10,10 +11,10 @@
 	],
 	"stageId": "act13d5_ex04",
 	"levelId": "Activities/ACT13D5/level_act13d5_ex04",
-	"zoneId": "act13d5_zone2",
+	"zoneId": "act7sre_zone2",
 	"code": "MN-EX-4",
 	"name": "퇴로차단",
-	"description": "일부 경기장의 배치를 보면 얼핏 공평해 보이지만, 실제로 싸우기 시작하면 종종 다수가 소수를 핍박하는 상황이 연출되곤 한다.\n<@lv.item><방어 룬></> 배치된 아군 오퍼레이터 방어력 상승\n<@lv.item><스페셜리스트 작전 포인트></>배치된 아군 오퍼레이터가 적을 밀거나 당기는 힘 상승",
+	"description": "일부 경기장의 배치를 보면 얼핏 공평해 보이지만, 실제로 싸우기 시작하면 종종 다수가 소수를 핍박하는 상황이 연출되곤 한다.\n<@lv.item><방어 룬></> 배치된 아군 오퍼레이터 방어력 상승\n<@lv.item><스페셜리스트 작전 포인트></> 배치된 아군 오퍼레이터가 적을 밀거나 당기는 힘 상승",
 	"hardStagedId": "act13d5_ex04#f#",
 	"dangerLevel": "1차 정예화 Lv.70",
 	"dangerPoint": -1,
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {
@@ -52,7 +54,7 @@
 		"displayRewards": [
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act13d5_token_securities",
+				"id": "act13d5_token_securities_rep_1",
 				"dropType": 8
 			},
 			{
@@ -65,7 +67,7 @@
 			{
 				"occPercent": 0,
 				"type": "ACTIVITY_ITEM",
-				"id": "act13d5_token_securities",
+				"id": "act13d5_token_securities_rep_1",
 				"dropType": 8
 			},
 			{

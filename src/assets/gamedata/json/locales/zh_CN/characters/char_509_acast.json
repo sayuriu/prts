@@ -2,7 +2,10 @@
 	"name": "Pith",
 	"description": "攻击造成<@ba.kw>群体法术伤害</>",
 	"canUseGeneralPotentialItem": true,
-	"potentialItemId": "",
+	"canUseActivityPotentialItem": false,
+	"potentialItemId": null,
+	"activityPotentialItemId": null,
+	"classicPotentialItemId": null,
 	"nationId": null,
 	"groupId": null,
 	"teamId": null,
@@ -19,7 +22,7 @@
 	"isNotObtainable": true,
 	"isSpChar": false,
 	"maxPotentialLevel": 0,
-	"rarity": 4,
+	"rarity": "TIER_5",
 	"profession": "CASTER",
 	"subProfessionId": "splashcaster",
 	"trait": null,
@@ -52,7 +55,8 @@
 						"stunImmune": false,
 						"silenceImmune": false,
 						"sleepImmune": false,
-						"frozenImmune": false
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -78,7 +82,8 @@
 						"stunImmune": false,
 						"silenceImmune": false,
 						"sleepImmune": false,
-						"frozenImmune": false
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -112,7 +117,8 @@
 						"stunImmune": false,
 						"silenceImmune": false,
 						"sleepImmune": false,
-						"frozenImmune": false
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -138,7 +144,8 @@
 						"stunImmune": false,
 						"silenceImmune": false,
 						"sleepImmune": false,
-						"frozenImmune": false
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -172,7 +179,8 @@
 						"stunImmune": false,
 						"silenceImmune": false,
 						"sleepImmune": false,
-						"frozenImmune": false
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -198,7 +206,8 @@
 						"stunImmune": false,
 						"silenceImmune": false,
 						"sleepImmune": false,
-						"frozenImmune": false
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -213,7 +222,7 @@
 			"levelUpCostCond": [
 				{
 					"unlockCond": {
-						"phase": 2,
+						"phase": "PHASE_2",
 						"level": 1
 					},
 					"lvlUpTime": 0,
@@ -221,7 +230,7 @@
 				},
 				{
 					"unlockCond": {
-						"phase": 2,
+						"phase": "PHASE_2",
 						"level": 1
 					},
 					"lvlUpTime": 0,
@@ -229,7 +238,7 @@
 				},
 				{
 					"unlockCond": {
-						"phase": 2,
+						"phase": "PHASE_2",
 						"level": 1
 					},
 					"lvlUpTime": 0,
@@ -237,7 +246,7 @@
 				}
 			],
 			"unlockCond": {
-				"phase": 0,
+				"phase": "PHASE_0",
 				"level": 1
 			}
 		}
@@ -247,35 +256,37 @@
 			"candidates": [
 				{
 					"unlockCondition": {
-						"phase": 1,
+						"phase": "PHASE_1",
 						"level": 1
 					},
 					"requiredPotentialRank": 0,
 					"prefabKey": "1",
 					"name": "“见我所见”",
-					"description": "攻击无视目标15法抗",
+					"description": "攻击无视目标15法术抗性",
 					"rangeId": null,
 					"blackboard": [
 						{
 							"key": "magic_resist_penetrate_fixed",
-							"value": 15
+							"value": 15,
+							"valueStr": null
 						}
 					]
 				},
 				{
 					"unlockCondition": {
-						"phase": 2,
+						"phase": "PHASE_2",
 						"level": 1
 					},
 					"requiredPotentialRank": 0,
 					"prefabKey": "1",
 					"name": "“见我所见”",
-					"description": "攻击无视目标20法抗",
+					"description": "攻击无视目标20法术抗性",
 					"rangeId": null,
 					"blackboard": [
 						{
 							"key": "magic_resist_penetrate_fixed",
-							"value": 20
+							"value": 20,
+							"valueStr": null
 						}
 					]
 				}
@@ -307,7 +318,8 @@
 				"stunImmune": false,
 				"silenceImmune": false,
 				"sleepImmune": false,
-				"frozenImmune": false
+				"frozenImmune": false,
+				"levitateImmune": false
 			}
 		},
 		{
@@ -333,49 +345,50 @@
 				"stunImmune": false,
 				"silenceImmune": false,
 				"sleepImmune": false,
-				"frozenImmune": false
+				"frozenImmune": false,
+				"levitateImmune": false
 			}
 		}
 	],
 	"allSkillLvlup": [
 		{
 			"unlockCond": {
-				"phase": 0,
+				"phase": "PHASE_0",
 				"level": 1
 			},
 			"lvlUpCost": null
 		},
 		{
 			"unlockCond": {
-				"phase": 0,
+				"phase": "PHASE_0",
 				"level": 1
 			},
 			"lvlUpCost": null
 		},
 		{
 			"unlockCond": {
-				"phase": 0,
+				"phase": "PHASE_0",
 				"level": 1
 			},
 			"lvlUpCost": null
 		},
 		{
 			"unlockCond": {
-				"phase": 1,
+				"phase": "PHASE_1",
 				"level": 1
 			},
 			"lvlUpCost": null
 		},
 		{
 			"unlockCond": {
-				"phase": 1,
+				"phase": "PHASE_1",
 				"level": 1
 			},
 			"lvlUpCost": null
 		},
 		{
 			"unlockCond": {
-				"phase": 1,
+				"phase": "PHASE_1",
 				"level": 1
 			},
 			"lvlUpCost": null

@@ -6,34 +6,14 @@
 	"iconId": "MTL_SL_ALCOHOL1",
 	"overrideBkg": null,
 	"stackIconId": null,
-	"sortId": 100005,
+	"sortId": 100019,
 	"usage": "片状有机化合物。可用于多种强化场合，也常作为制造站合成项目的原料。",
 	"obtainApproach": null,
 	"classifyType": "MATERIAL",
 	"itemType": "MATERIAL",
 	"stageDropList": [
 		{
-			"stageId": "act16side_07",
-			"occPer": "ALMOST"
-		},
-		{
-			"stageId": "act13side_10",
-			"occPer": "USUAL"
-		},
-		{
-			"stageId": "act8mini_07",
-			"occPer": "USUAL"
-		},
-		{
-			"stageId": "act15d5_06",
-			"occPer": "OFTEN"
-		},
-		{
-			"stageId": "act13d0_06",
-			"occPer": "OFTEN"
-		},
-		{
-			"stageId": "act9d0_07",
+			"stageId": "a001_05",
 			"occPer": "USUAL"
 		},
 		{
@@ -41,12 +21,36 @@
 			"occPer": "USUAL"
 		},
 		{
-			"stageId": "act6d5_07",
+			"stageId": "act9d0_07",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "act13d0_06",
 			"occPer": "OFTEN"
 		},
 		{
-			"stageId": "a001_05",
+			"stageId": "act15d5_06",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "act8mini_07",
 			"occPer": "USUAL"
+		},
+		{
+			"stageId": "act13side_10",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "act16side_07",
+			"occPer": "ALMOST"
+		},
+		{
+			"stageId": "act19side_07",
+			"occPer": "ALMOST"
+		},
+		{
+			"stageId": "act6d5_07",
+			"occPer": "OFTEN"
 		},
 		{
 			"stageId": "main_02-09",
@@ -74,6 +78,30 @@
 		},
 		{
 			"stageId": "main_09-07",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_10-13",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "tough_10-13",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "main_11-11",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "tough_11-11",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_12-05",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "tough_12-05",
 			"occPer": "OFTEN"
 		}
 	],

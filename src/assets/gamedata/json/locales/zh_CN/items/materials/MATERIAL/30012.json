@@ -6,14 +6,14 @@
 	"iconId": "MTL_SL_G2",
 	"overrideBkg": null,
 	"stackIconId": null,
-	"sortId": 100014,
+	"sortId": 100028,
 	"usage": "从地表开采出的岩石固块，可用于多种强化场合，也常作为制造站合成项目的原料。",
 	"obtainApproach": null,
 	"classifyType": "MATERIAL",
 	"itemType": "MATERIAL",
 	"stageDropList": [
 		{
-			"stageId": "act18d3_04",
+			"stageId": "act14side_04",
 			"occPer": "ALMOST"
 		},
 		{
@@ -57,6 +57,18 @@
 			"occPer": "ALMOST"
 		},
 		{
+			"stageId": "act18d3_04",
+			"occPer": "ALMOST"
+		},
+		{
+			"stageId": "act13side_06",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "act13side_04",
+			"occPer": "ALMOST"
+		},
+		{
 			"stageId": "act9d0_04",
 			"occPer": "ALWAYS"
 		},
@@ -65,24 +77,48 @@
 			"occPer": "ALWAYS"
 		},
 		{
-			"stageId": "act13side_04",
+			"stageId": "act16side_04",
 			"occPer": "ALMOST"
 		},
 		{
-			"stageId": "act14side_04",
+			"stageId": "act18side_03",
 			"occPer": "ALMOST"
+		},
+		{
+			"stageId": "act11mini_06",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "act20side_05",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "act20side_03",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "act14mini_06",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "act25side_06",
+			"occPer": "ALWAYS"
 		},
 		{
 			"stageId": "act15side_04",
 			"occPer": "ALMOST"
 		},
 		{
-			"stageId": "act16side_04",
-			"occPer": "ALMOST"
+			"stageId": "main_01-07",
+			"occPer": "ALWAYS"
 		},
 		{
-			"stageId": "act13side_06",
+			"stageId": "sub_02-12",
 			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "main_05-10",
+			"occPer": "USUAL"
 		},
 		{
 			"stageId": "sub_06-1-2",
@@ -91,18 +127,6 @@
 		{
 			"stageId": "main_07-14",
 			"occPer": "USUAL"
-		},
-		{
-			"stageId": "main_05-10",
-			"occPer": "USUAL"
-		},
-		{
-			"stageId": "sub_02-12",
-			"occPer": "ALWAYS"
-		},
-		{
-			"stageId": "main_01-07",
-			"occPer": "ALWAYS"
 		},
 		{
 			"stageId": "sub_05-1-1",

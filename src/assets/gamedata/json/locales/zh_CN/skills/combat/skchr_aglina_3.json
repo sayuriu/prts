@@ -6,11 +6,11 @@
 		{
 			"name": "秘杖·反重力模式",
 			"rangeId": "y-4",
-			"description": "全场所有敌人重量<@ba.vup>下降一个等级</>，攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>，可以攻击<@ba.vup>{attack@max_target}</>个敌人\\n<@ba.rem>技能未开启时无法普通攻击</>",
-			"skillType": 1,
-			"durationType": 0,
+			"description": "全场所有敌人<$ba.weightless>失重</>，攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>，可以攻击<@ba.vup>{attack@max_target}</>个敌人\\n<@ba.rem>技能未开启时无法普通攻击</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 25,
@@ -21,27 +21,25 @@
 			"duration": 10,
 			"blackboard": [
 				{
-					"key": "mass_level",
-					"value": -1
-				},
-				{
 					"key": "atk",
-					"value": 0.75
+					"value": 0.75,
+					"valueStr": null
 				},
 				{
 					"key": "attack@max_target",
-					"value": 4
+					"value": 4,
+					"valueStr": null
 				}
 			]
 		},
 		{
 			"name": "秘杖·反重力模式",
 			"rangeId": "y-4",
-			"description": "全场所有敌人重量<@ba.vup>下降一个等级</>，攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>，可以攻击<@ba.vup>{attack@max_target}</>个敌人\\n<@ba.rem>技能未开启时无法普通攻击</>",
-			"skillType": 1,
-			"durationType": 0,
+			"description": "全场所有敌人<$ba.weightless>失重</>，攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>，可以攻击<@ba.vup>{attack@max_target}</>个敌人\\n<@ba.rem>技能未开启时无法普通攻击</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 25,
@@ -52,27 +50,25 @@
 			"duration": 11,
 			"blackboard": [
 				{
-					"key": "mass_level",
-					"value": -1
-				},
-				{
 					"key": "atk",
-					"value": 0.8
+					"value": 0.8,
+					"valueStr": null
 				},
 				{
 					"key": "attack@max_target",
-					"value": 4
+					"value": 4,
+					"valueStr": null
 				}
 			]
 		},
 		{
 			"name": "秘杖·反重力模式",
 			"rangeId": "y-4",
-			"description": "全场所有敌人重量<@ba.vup>下降一个等级</>，攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>，可以攻击<@ba.vup>{attack@max_target}</>个敌人\\n<@ba.rem>技能未开启时无法普通攻击</>",
-			"skillType": 1,
-			"durationType": 0,
+			"description": "全场所有敌人<$ba.weightless>失重</>，攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>，可以攻击<@ba.vup>{attack@max_target}</>个敌人\\n<@ba.rem>技能未开启时无法普通攻击</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 25,
@@ -83,27 +79,25 @@
 			"duration": 12,
 			"blackboard": [
 				{
-					"key": "mass_level",
-					"value": -1
-				},
-				{
 					"key": "atk",
-					"value": 0.85
+					"value": 0.85,
+					"valueStr": null
 				},
 				{
 					"key": "attack@max_target",
-					"value": 4
+					"value": 4,
+					"valueStr": null
 				}
 			]
 		},
 		{
 			"name": "秘杖·反重力模式",
 			"rangeId": "y-4",
-			"description": "全场所有敌人重量<@ba.vup>下降一个等级</>，攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>，可以攻击<@ba.vup>{attack@max_target}</>个敌人\\n<@ba.rem>技能未开启时无法普通攻击</>",
-			"skillType": 1,
-			"durationType": 0,
+			"description": "全场所有敌人<$ba.weightless>失重</>，攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>，可以攻击<@ba.vup>{attack@max_target}</>个敌人\\n<@ba.rem>技能未开启时无法普通攻击</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 25,
@@ -114,27 +108,25 @@
 			"duration": 14,
 			"blackboard": [
 				{
-					"key": "mass_level",
-					"value": -1
-				},
-				{
 					"key": "atk",
-					"value": 0.9
+					"value": 0.9,
+					"valueStr": null
 				},
 				{
 					"key": "attack@max_target",
-					"value": 4
+					"value": 4,
+					"valueStr": null
 				}
 			]
 		},
 		{
 			"name": "秘杖·反重力模式",
 			"rangeId": "y-4",
-			"description": "全场所有敌人重量<@ba.vup>下降一个等级</>，攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>，可以攻击<@ba.vup>{attack@max_target}</>个敌人\\n<@ba.rem>技能未开启时无法普通攻击</>",
-			"skillType": 1,
-			"durationType": 0,
+			"description": "全场所有敌人<$ba.weightless>失重</>，攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>，可以攻击<@ba.vup>{attack@max_target}</>个敌人\\n<@ba.rem>技能未开启时无法普通攻击</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 25,
@@ -145,27 +137,25 @@
 			"duration": 15,
 			"blackboard": [
 				{
-					"key": "mass_level",
-					"value": -1
-				},
-				{
 					"key": "atk",
-					"value": 0.95
+					"value": 0.95,
+					"valueStr": null
 				},
 				{
 					"key": "attack@max_target",
-					"value": 4
+					"value": 4,
+					"valueStr": null
 				}
 			]
 		},
 		{
 			"name": "秘杖·反重力模式",
 			"rangeId": "y-4",
-			"description": "全场所有敌人重量<@ba.vup>下降一个等级</>，攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>，可以攻击<@ba.vup>{attack@max_target}</>个敌人\\n<@ba.rem>技能未开启时无法普通攻击</>",
-			"skillType": 1,
-			"durationType": 0,
+			"description": "全场所有敌人<$ba.weightless>失重</>，攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>，可以攻击<@ba.vup>{attack@max_target}</>个敌人\\n<@ba.rem>技能未开启时无法普通攻击</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 25,
@@ -176,27 +166,25 @@
 			"duration": 16,
 			"blackboard": [
 				{
-					"key": "mass_level",
-					"value": -1
-				},
-				{
 					"key": "atk",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "attack@max_target",
-					"value": 4
+					"value": 4,
+					"valueStr": null
 				}
 			]
 		},
 		{
 			"name": "秘杖·反重力模式",
 			"rangeId": "y-4",
-			"description": "全场所有敌人重量<@ba.vup>下降一个等级</>，攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>，可以攻击<@ba.vup>{attack@max_target}</>个敌人\\n<@ba.rem>技能未开启时无法普通攻击</>",
-			"skillType": 1,
-			"durationType": 0,
+			"description": "全场所有敌人<$ba.weightless>失重</>，攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>，可以攻击<@ba.vup>{attack@max_target}</>个敌人\\n<@ba.rem>技能未开启时无法普通攻击</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 25,
@@ -207,27 +195,25 @@
 			"duration": 18,
 			"blackboard": [
 				{
-					"key": "mass_level",
-					"value": -1
-				},
-				{
 					"key": "atk",
-					"value": 1.05
+					"value": 1.05,
+					"valueStr": null
 				},
 				{
 					"key": "attack@max_target",
-					"value": 5
+					"value": 5,
+					"valueStr": null
 				}
 			]
 		},
 		{
 			"name": "秘杖·反重力模式",
 			"rangeId": "y-4",
-			"description": "全场所有敌人重量<@ba.vup>下降一个等级</>，攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>，可以攻击<@ba.vup>{attack@max_target}</>个敌人\\n<@ba.rem>技能未开启时无法普通攻击</>",
-			"skillType": 1,
-			"durationType": 0,
+			"description": "全场所有敌人<$ba.weightless>失重</>，攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>，可以攻击<@ba.vup>{attack@max_target}</>个敌人\\n<@ba.rem>技能未开启时无法普通攻击</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 25,
@@ -238,27 +224,25 @@
 			"duration": 20,
 			"blackboard": [
 				{
-					"key": "mass_level",
-					"value": -1
-				},
-				{
 					"key": "atk",
-					"value": 1.2
+					"value": 1.2,
+					"valueStr": null
 				},
 				{
 					"key": "attack@max_target",
-					"value": 5
+					"value": 5,
+					"valueStr": null
 				}
 			]
 		},
 		{
 			"name": "秘杖·反重力模式",
 			"rangeId": "y-4",
-			"description": "全场所有敌人重量<@ba.vup>下降一个等级</>，攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>，可以攻击<@ba.vup>{attack@max_target}</>个敌人\\n<@ba.rem>技能未开启时无法普通攻击</>",
-			"skillType": 1,
-			"durationType": 0,
+			"description": "全场所有敌人<$ba.weightless>失重</>，攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>，可以攻击<@ba.vup>{attack@max_target}</>个敌人\\n<@ba.rem>技能未开启时无法普通攻击</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 25,
@@ -269,27 +253,25 @@
 			"duration": 22,
 			"blackboard": [
 				{
-					"key": "mass_level",
-					"value": -1
-				},
-				{
 					"key": "atk",
-					"value": 1.35
+					"value": 1.35,
+					"valueStr": null
 				},
 				{
 					"key": "attack@max_target",
-					"value": 5
+					"value": 5,
+					"valueStr": null
 				}
 			]
 		},
 		{
 			"name": "秘杖·反重力模式",
 			"rangeId": "y-4",
-			"description": "全场所有敌人重量<@ba.vup>下降一个等级</>，攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>，可以攻击<@ba.vup>{attack@max_target}</>个敌人\\n<@ba.rem>技能未开启时无法普通攻击</>",
-			"skillType": 1,
-			"durationType": 0,
+			"description": "全场所有敌人<$ba.weightless>失重</>，攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>，可以攻击<@ba.vup>{attack@max_target}</>个敌人\\n<@ba.rem>技能未开启时无法普通攻击</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 25,
@@ -300,16 +282,14 @@
 			"duration": 25,
 			"blackboard": [
 				{
-					"key": "mass_level",
-					"value": -1
-				},
-				{
 					"key": "atk",
-					"value": 1.5
+					"value": 1.5,
+					"valueStr": null
 				},
 				{
 					"key": "attack@max_target",
-					"value": 5
+					"value": 5,
+					"valueStr": null
 				}
 			]
 		}

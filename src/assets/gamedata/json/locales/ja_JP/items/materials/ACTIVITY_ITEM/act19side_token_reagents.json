@@ -1,0 +1,49 @@
+{
+	"itemId": "act19side_token_reagents",
+	"name": "謎の試薬",
+	"description": "神経系の動きに非常に敏感であり、従来のアーツユニットの機能を部分的に代替できる。ライン生命警備課の実験用品管理マニュアルでは、この試薬の危険レベルと機密レベルはどちらも最高等級である。",
+	"rarity": 4,
+	"iconId": "act19side_token_reagents",
+	"overrideBkg": null,
+	"stackIconId": null,
+	"sortId": -10000,
+	"usage": "ライン生命エネルギー課が出した最新の研究成果。一定数集めれば、危険物回収所から必要な物資を受け取れる。",
+	"obtainApproach": "イベント",
+	"classifyType": "NONE",
+	"itemType": "ACTIVITY_ITEM",
+	"stageDropList": [
+		{
+			"stageId": "act19side_01",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "act19side_02",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "act19side_03",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "act19side_04",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "act19side_05",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "act19side_06",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "act19side_07",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "act19side_08",
+			"occPer": "ALWAYS"
+		}
+	],
+	"buildingProductList": []
+}

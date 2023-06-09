@@ -2,15 +2,16 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act15side_st02",
-			"completeState": 2
+			"completeState": "PASS"
 		}
 	],
 	"stageId": "act15side_05",
 	"levelId": "Activities/ACT15side/level_act15side_05",
-	"zoneId": "act15side_zone1",
+	"zoneId": "act15sre_zone1",
 	"code": "IW-5",
 	"name": "货与人",
 	"description": "规矩就是规矩，说不清好或坏。正是曾因此遗恨半生，才要将这规矩接着守下去。",
@@ -44,7 +45,7 @@
 	"isHardPredefined": false,
 	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
-	"appearanceStyle": 0,
+	"appearanceStyle": "MAIN_NORMAL",
 	"stageDropInfo": {
 		"firstPassRewards": null,
 		"firstCompleteRewards": null,
@@ -53,64 +54,70 @@
 		"displayRewards": [
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act15side_token_tea",
-				"dropType": 8
+				"id": "act15side_token_tea_rep_1",
+				"dropType": "COMPLETE"
 			},
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act15side_token_tea",
-				"dropType": 2
+				"id": "act15side_token_tea_rep_1",
+				"dropType": "NORMAL"
 			},
 			{
 				"type": "MATERIAL",
 				"id": "30032",
-				"dropType": 2
+				"dropType": "NORMAL"
 			},
 			{
 				"type": "MATERIAL",
 				"id": "30022",
-				"dropType": 2
+				"dropType": "NORMAL"
 			},
 			{
 				"type": "DIAMOND",
 				"id": "4002",
-				"dropType": 8
+				"dropType": "COMPLETE"
 			}
 		],
 		"displayDetailRewards": [
 			{
-				"occPercent": 0,
+				"occPercent": "ALWAYS",
 				"type": "ACTIVITY_ITEM",
-				"id": "act15side_token_tea",
-				"dropType": 8
+				"id": "act15side_token_tea_rep_1",
+				"dropType": "COMPLETE"
 			},
 			{
-				"occPercent": 0,
+				"occPercent": "ALWAYS",
 				"type": "ACTIVITY_ITEM",
-				"id": "act15side_token_tea",
-				"dropType": 2
+				"id": "act15side_token_tea_rep_1",
+				"dropType": "NORMAL"
 			},
 			{
-				"occPercent": 0,
+				"occPercent": "ALWAYS",
 				"type": "MATERIAL",
 				"id": "30032",
-				"dropType": 2
+				"dropType": "NORMAL"
 			},
 			{
-				"occPercent": 2,
+				"occPercent": "USUAL",
 				"type": "MATERIAL",
 				"id": "30022",
-				"dropType": 2
+				"dropType": "NORMAL"
 			},
 			{
-				"occPercent": 0,
+				"occPercent": "ALWAYS",
 				"type": "DIAMOND",
 				"id": "4002",
-				"dropType": 8
+				"dropType": "COMPLETE"
 			}
 		]
 	},
+	"canUseCharm": false,
+	"canUseTech": false,
+	"canUseTrapTool": false,
+	"canUseBattlePerformance": false,
 	"startButtonOverrideId": null,
 	"isStagePatch": false,
-	"mainStageId": "act15side_st01"
+	"mainStageId": "act15side_st01",
+	"extraCondition": null,
+	"extraInfo": null
 }

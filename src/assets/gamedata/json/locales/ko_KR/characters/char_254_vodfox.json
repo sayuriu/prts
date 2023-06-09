@@ -2,7 +2,9 @@
 	"name": "샤마르",
 	"description": "일반 공격으로 적에게 <@ba.kw>마법 대미지</>",
 	"canUseGeneralPotentialItem": true,
+	"canUseActivityPotentialItem": false,
 	"potentialItemId": "p_char_254_vodfox",
+	"activityPotentialItemId": null,
 	"nationId": "siracusa",
 	"groupId": null,
 	"teamId": null,
@@ -51,7 +53,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -76,7 +80,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -109,7 +115,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -134,7 +142,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -183,7 +193,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -208,7 +220,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -654,7 +668,9 @@
 				"baseForceLevel": 0,
 				"stunImmune": false,
 				"silenceImmune": false,
-				"sleepImmune": false
+				"sleepImmune": false,
+				"frozenImmune": false,
+				"levitateImmune": false
 			}
 		},
 		{
@@ -679,7 +695,9 @@
 				"baseForceLevel": 0,
 				"stunImmune": false,
 				"silenceImmune": false,
-				"sleepImmune": false
+				"sleepImmune": false,
+				"frozenImmune": false,
+				"levitateImmune": false
 			}
 		}
 	],

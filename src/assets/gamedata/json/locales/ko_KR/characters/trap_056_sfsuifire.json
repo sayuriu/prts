@@ -1,0 +1,117 @@
+{
+	"name": "단전",
+	"description": "아군 유닛의 공격을 쉽게 받지 않는다",
+	"canUseGeneralPotentialItem": true,
+	"canUseActivityPotentialItem": false,
+	"potentialItemId": null,
+	"activityPotentialItemId": null,
+	"nationId": null,
+	"groupId": null,
+	"teamId": null,
+	"displayNumber": null,
+	"tokenKey": null,
+	"appellation": "Sealed Floor",
+	"position": "NONE",
+	"tagList": null,
+	"itemUsage": null,
+	"itemDesc": null,
+	"itemObtainApproach": null,
+	"isNotObtainable": false,
+	"isSpChar": false,
+	"maxPotentialLevel": 0,
+	"rarity": 0,
+	"profession": "TRAP",
+	"subProfessionId": "notchar2",
+	"trait": null,
+	"phases": [
+		{
+			"characterPrefabKey": "trap_056_sfsuifire",
+			"rangeId": null,
+			"maxLevel": 30,
+			"attributesKeyFrames": [
+				{
+					"level": 1,
+					"data": {
+						"maxHp": 100,
+						"atk": 0,
+						"def": 0,
+						"magicResistance": 0,
+						"cost": 5,
+						"blockCnt": 0,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 1,
+						"respawnTime": 5,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
+					}
+				},
+				{
+					"level": 30,
+					"data": {
+						"maxHp": 100,
+						"atk": 0,
+						"def": 0,
+						"magicResistance": 0,
+						"cost": 5,
+						"blockCnt": 0,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 1,
+						"respawnTime": 5,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
+					}
+				}
+			],
+			"evolveCost": null
+		}
+	],
+	"skills": [],
+	"talents": [
+		{
+			"candidates": [
+				{
+					"unlockCondition": {
+						"phase": 0,
+						"level": 1
+					},
+					"requiredPotentialRank": 0,
+					"prefabKey": "1",
+					"name": null,
+					"description": "-",
+					"rangeId": null,
+					"blackboard": [
+						{
+							"key": "hp_ratio",
+							"value": 0.05
+						}
+					]
+				}
+			]
+		}
+	],
+	"potentialRanks": [],
+	"favorKeyFrames": null,
+	"allSkillLvlup": []
+}

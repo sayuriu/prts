@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act12side_09",
@@ -10,7 +11,7 @@
 	],
 	"stageId": "act12side_mo01",
 	"levelId": "Activities/ACT12SIDE/level_act12side_mo01",
-	"zoneId": "act12side_zone3",
+	"zoneId": "act12sre_zone3",
 	"code": "DH-MO-1",
 	"name": "ドッソレス北郊外",
 	"description": "ドッソレスの騒がしい街並みから離れたこの場所に、パンチョの手下の強硬派は根城を築いている。潮に翻弄されながらも彼らを撃破する道を探せ。\n<@lv.item><満ち潮></>海水に沈んだマスへの配置不可。海水に浸かったユニットは敵味方関係なく【水蝕】状態になる味方は攻撃速度が低下し、侵蝕ダメージを受け続けると共に、攻撃された際さらに侵蝕ダメージを受ける。敵は攻撃速度と移動速度が低下し、HPが減少し続ける",
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 5,
 	"stageDropInfo": {

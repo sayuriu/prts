@@ -1,0 +1,154 @@
+{
+	"stageType": "ACTIVITY",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
+	"unlockCondition": [
+		{
+			"stageId": "act12mini_05",
+			"completeState": 2
+		}
+	],
+	"stageId": "act12mini_06",
+	"levelId": "Activities/act12mini/level_act12mini_06",
+	"zoneId": "act12mini_zone1",
+	"code": "AW-6",
+	"name": "자승자박",
+	"description": "재난보다 더 힘든 건 재난이 닥치기를 기다리는 그 시간이다. 겁에 질려 떨고만 있기보다는, 뭐라도 하는 것이 나을 것이다.\n<@lv.item><R시리즈 파워 아머></> 주위의 실험 산물을 흡수하여 SP 회복, 전부 회복 후 활성화",
+	"hardStagedId": "act12mini_06#f#",
+	"dangerLevel": "2차 정예화 Lv.10",
+	"dangerPoint": -1,
+	"loadingPicId": "loading2",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 15,
+	"apFailReturn": 14,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": 0,
+	"expGain": 150,
+	"goldGain": 150,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 14,
+	"completeFavor": 15,
+	"slProgress": 0,
+	"displayMainItem": null,
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 0,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act12mini_token_component",
+				"dropType": 8
+			},
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act12mini_token_component",
+				"dropType": 3
+			},
+			{
+				"type": "MATERIAL",
+				"id": "30042",
+				"dropType": 2
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 0,
+				"type": "ACTIVITY_ITEM",
+				"id": "act12mini_token_component",
+				"dropType": 8
+			},
+			{
+				"occPercent": 0,
+				"type": "ACTIVITY_ITEM",
+				"id": "act12mini_token_component",
+				"dropType": 3
+			},
+			{
+				"occPercent": 0,
+				"type": "MATERIAL",
+				"id": "30042",
+				"dropType": 2
+			},
+			{
+				"occPercent": 4,
+				"type": "MATERIAL",
+				"id": "30021",
+				"dropType": 4
+			},
+			{
+				"occPercent": 4,
+				"type": "MATERIAL",
+				"id": "30041",
+				"dropType": 4
+			},
+			{
+				"occPercent": 4,
+				"type": "MATERIAL",
+				"id": "30051",
+				"dropType": 4
+			},
+			{
+				"occPercent": 4,
+				"type": "CARD_EXP",
+				"id": "2001",
+				"dropType": 4
+			},
+			{
+				"occPercent": 4,
+				"type": "MATERIAL",
+				"id": "30022",
+				"dropType": 4
+			},
+			{
+				"occPercent": 4,
+				"type": "MATERIAL",
+				"id": "30042",
+				"dropType": 4
+			},
+			{
+				"occPercent": 4,
+				"type": "MATERIAL",
+				"id": "30052",
+				"dropType": 4
+			},
+			{
+				"occPercent": 4,
+				"type": "CARD_EXP",
+				"id": "2002",
+				"dropType": 4
+			},
+			{
+				"occPercent": 0,
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		]
+	},
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "act12mini_01"
+}

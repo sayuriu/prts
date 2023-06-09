@@ -1,0 +1,30 @@
+{
+	"skillId": "sktok_aidkit",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "First Aid",
+			"rangeId": "1-1",
+			"description": "Restore <@ba.vup>1000</> HP to 1 ally within range",
+			"skillType": 0,
+			"durationType": 0,
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 0,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": "sktok_aidkit",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "value",
+					"value": 1000
+				}
+			]
+		}
+	]
+}

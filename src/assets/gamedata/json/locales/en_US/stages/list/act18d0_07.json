@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act18d0_06",
@@ -10,12 +11,12 @@
 	],
 	"stageId": "act18d0_07",
 	"levelId": "Activities/act18d0/level_act18d0_07",
-	"zoneId": "act18d0_zone1",
+	"zoneId": "act10sre_zone1",
 	"code": "WD-7",
 	"name": "Homeland",
 	"description": "The destitute and homeless are entrusted to the estate of the missing magnate. The mercenary assassin glares beneath the moonlight. At dawn, Old Isin looks up to the stars. The chilly morning wind blows, and he still misses his terrible home.\n<@lv.item><Mobile Tactical Hangar></> Deploys drones as needed to assist enemy combatants.",
 	"hardStagedId": null,
-	"dangerLevel": "Elite 1 Lv.70",
+	"dangerLevel": "Elite 1 Lv. 70",
 	"dangerPoint": -1,
 	"loadingPicId": "loading_OOD_02",
 	"canPractice": true,
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {
@@ -52,12 +54,12 @@
 		"displayRewards": [
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act18d0_token_page",
+				"id": "act18d0_token_page_rep_1",
 				"dropType": 8
 			},
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act18d0_token_page",
+				"id": "act18d0_token_page_rep_1",
 				"dropType": 2
 			},
 			{
@@ -75,13 +77,13 @@
 			{
 				"occPercent": 0,
 				"type": "ACTIVITY_ITEM",
-				"id": "act18d0_token_page",
+				"id": "act18d0_token_page_rep_1",
 				"dropType": 8
 			},
 			{
 				"occPercent": 0,
 				"type": "ACTIVITY_ITEM",
-				"id": "act18d0_token_page",
+				"id": "act18d0_token_page_rep_1",
 				"dropType": 2
 			},
 			{

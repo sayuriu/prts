@@ -7,10 +7,10 @@
 			"name": "沙暴守卫",
 			"rangeId": null,
 			"description": "攻击力<@ba.vup>+{atk:0%}</>，防御力<@ba.vup>+{def:0%}</>；\\n<$ba.charged>蓄力</>额外效果：特性效果在技能期间继续生效",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 2,
 				"spCost": 18,
@@ -22,11 +22,13 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.1
+					"value": 0.1,
+					"valueStr": null
 				},
 				{
 					"key": "def",
-					"value": 0.1
+					"value": 0.1,
+					"valueStr": null
 				}
 			]
 		},
@@ -34,10 +36,10 @@
 			"name": "沙暴守卫",
 			"rangeId": null,
 			"description": "攻击力<@ba.vup>+{atk:0%}</>，防御力<@ba.vup>+{def:0%}</>；\\n<$ba.charged>蓄力</>额外效果：特性效果在技能期间继续生效",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 2,
 				"spCost": 18,
@@ -49,11 +51,13 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.15
+					"value": 0.15,
+					"valueStr": null
 				},
 				{
 					"key": "def",
-					"value": 0.2
+					"value": 0.2,
+					"valueStr": null
 				}
 			]
 		},
@@ -61,10 +65,10 @@
 			"name": "沙暴守卫",
 			"rangeId": null,
 			"description": "攻击力<@ba.vup>+{atk:0%}</>，防御力<@ba.vup>+{def:0%}</>；\\n<$ba.charged>蓄力</>额外效果：特性效果在技能期间继续生效",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 2,
 				"spCost": 18,
@@ -76,11 +80,13 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.2
+					"value": 0.2,
+					"valueStr": null
 				},
 				{
 					"key": "def",
-					"value": 0.3
+					"value": 0.3,
+					"valueStr": null
 				}
 			]
 		},
@@ -88,10 +94,10 @@
 			"name": "沙暴守卫",
 			"rangeId": null,
 			"description": "攻击力<@ba.vup>+{atk:0%}</>，防御力<@ba.vup>+{def:0%}</>；\\n<$ba.charged>蓄力</>额外效果：特性效果在技能期间继续生效",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 2,
 				"spCost": 18,
@@ -103,11 +109,13 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.25
+					"value": 0.25,
+					"valueStr": null
 				},
 				{
 					"key": "def",
-					"value": 0.4
+					"value": 0.4,
+					"valueStr": null
 				}
 			]
 		},
@@ -115,10 +123,10 @@
 			"name": "沙暴守卫",
 			"rangeId": null,
 			"description": "攻击力<@ba.vup>+{atk:0%}</>，防御力<@ba.vup>+{def:0%}</>；\\n<$ba.charged>蓄力</>额外效果：特性效果在技能期间继续生效",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 2,
 				"spCost": 18,
@@ -130,11 +138,13 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.3
+					"value": 0.3,
+					"valueStr": null
 				},
 				{
 					"key": "def",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				}
 			]
 		},
@@ -142,10 +152,10 @@
 			"name": "沙暴守卫",
 			"rangeId": null,
 			"description": "攻击力<@ba.vup>+{atk:0%}</>，防御力<@ba.vup>+{def:0%}</>；\\n<$ba.charged>蓄力</>额外效果：特性效果在技能期间继续生效",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 2,
 				"spCost": 18,
@@ -157,11 +167,13 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.35
+					"value": 0.35,
+					"valueStr": null
 				},
 				{
 					"key": "def",
-					"value": 0.6
+					"value": 0.6,
+					"valueStr": null
 				}
 			]
 		},
@@ -169,10 +181,10 @@
 			"name": "沙暴守卫",
 			"rangeId": null,
 			"description": "攻击力<@ba.vup>+{atk:0%}</>，防御力<@ba.vup>+{def:0%}</>；\\n<$ba.charged>蓄力</>额外效果：特性效果在技能期间继续生效",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 2,
 				"spCost": 18,
@@ -184,11 +196,13 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.4
+					"value": 0.4,
+					"valueStr": null
 				},
 				{
 					"key": "def",
-					"value": 0.7
+					"value": 0.7,
+					"valueStr": null
 				}
 			]
 		},
@@ -196,10 +210,10 @@
 			"name": "沙暴守卫",
 			"rangeId": null,
 			"description": "攻击力<@ba.vup>+{atk:0%}</>，防御力<@ba.vup>+{def:0%}</>；\\n<$ba.charged>蓄力</>额外效果：特性效果在技能期间继续生效",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 2,
 				"spCost": 18,
@@ -211,11 +225,13 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.45
+					"value": 0.45,
+					"valueStr": null
 				},
 				{
 					"key": "def",
-					"value": 0.8
+					"value": 0.8,
+					"valueStr": null
 				}
 			]
 		},
@@ -223,10 +239,10 @@
 			"name": "沙暴守卫",
 			"rangeId": null,
 			"description": "攻击力<@ba.vup>+{atk:0%}</>，防御力<@ba.vup>+{def:0%}</>；\\n<$ba.charged>蓄力</>额外效果：特性效果在技能期间继续生效",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 2,
 				"spCost": 18,
@@ -238,11 +254,13 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				},
 				{
 					"key": "def",
-					"value": 0.9
+					"value": 0.9,
+					"valueStr": null
 				}
 			]
 		},
@@ -250,10 +268,10 @@
 			"name": "沙暴守卫",
 			"rangeId": null,
 			"description": "攻击力<@ba.vup>+{atk:0%}</>，防御力<@ba.vup>+{def:0%}</>；\\n<$ba.charged>蓄力</>额外效果：特性效果在技能期间继续生效",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 2,
 				"spCost": 18,
@@ -265,11 +283,13 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.6
+					"value": 0.6,
+					"valueStr": null
 				},
 				{
 					"key": "def",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		}

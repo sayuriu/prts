@@ -1,0 +1,497 @@
+{
+	"skillId": "skchr_quartz_2",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "全力相搏",
+			"rangeId": null,
+			"description": "自身受到的伤害提升<@ba.vdown>{fake_damage:0%}</>，攻击速度<@ba.vup>+{attack_speed}</>，每次攻击造成相当于攻击力<@ba.vup>{attack@s2_atk_scale:0%}</>的物理伤害且有<@ba.vup>{attack@s2_buff_prob:0%}</>概率<$ba.stun>晕眩</>目标<@ba.vup>{attack@s2_stun}</>秒",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 55,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_quartz_2",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "damage_scale",
+					"value": 1.25,
+					"valueStr": null
+				},
+				{
+					"key": "attack_speed",
+					"value": 35,
+					"valueStr": null
+				},
+				{
+					"key": "attack@s2_atk_scale",
+					"value": 0.8,
+					"valueStr": null
+				},
+				{
+					"key": "attack@s2_buff_prob",
+					"value": 0.25,
+					"valueStr": null
+				},
+				{
+					"key": "attack@s2_stun",
+					"value": 2,
+					"valueStr": null
+				},
+				{
+					"key": "fake_damage",
+					"value": 0.25,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "全力相搏",
+			"rangeId": null,
+			"description": "自身受到的伤害提升<@ba.vdown>{fake_damage:0%}</>，攻击速度<@ba.vup>+{attack_speed}</>，每次攻击造成相当于攻击力<@ba.vup>{attack@s2_atk_scale:0%}</>的物理伤害且有<@ba.vup>{attack@s2_buff_prob:0%}</>概率<$ba.stun>晕眩</>目标<@ba.vup>{attack@s2_stun}</>秒",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 55,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_quartz_2",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "damage_scale",
+					"value": 1.25,
+					"valueStr": null
+				},
+				{
+					"key": "attack_speed",
+					"value": 40,
+					"valueStr": null
+				},
+				{
+					"key": "attack@s2_atk_scale",
+					"value": 0.8,
+					"valueStr": null
+				},
+				{
+					"key": "attack@s2_buff_prob",
+					"value": 0.25,
+					"valueStr": null
+				},
+				{
+					"key": "attack@s2_stun",
+					"value": 2,
+					"valueStr": null
+				},
+				{
+					"key": "fake_damage",
+					"value": 0.25,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "全力相搏",
+			"rangeId": null,
+			"description": "自身受到的伤害提升<@ba.vdown>{fake_damage:0%}</>，攻击速度<@ba.vup>+{attack_speed}</>，每次攻击造成相当于攻击力<@ba.vup>{attack@s2_atk_scale:0%}</>的物理伤害且有<@ba.vup>{attack@s2_buff_prob:0%}</>概率<$ba.stun>晕眩</>目标<@ba.vup>{attack@s2_stun}</>秒",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 55,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_quartz_2",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "damage_scale",
+					"value": 1.25,
+					"valueStr": null
+				},
+				{
+					"key": "attack_speed",
+					"value": 45,
+					"valueStr": null
+				},
+				{
+					"key": "attack@s2_atk_scale",
+					"value": 0.8,
+					"valueStr": null
+				},
+				{
+					"key": "attack@s2_buff_prob",
+					"value": 0.25,
+					"valueStr": null
+				},
+				{
+					"key": "attack@s2_stun",
+					"value": 2,
+					"valueStr": null
+				},
+				{
+					"key": "fake_damage",
+					"value": 0.25,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "全力相搏",
+			"rangeId": null,
+			"description": "自身受到的伤害提升<@ba.vdown>{fake_damage:0%}</>，攻击速度<@ba.vup>+{attack_speed}</>，每次攻击造成相当于攻击力<@ba.vup>{attack@s2_atk_scale:0%}</>的物理伤害且有<@ba.vup>{attack@s2_buff_prob:0%}</>概率<$ba.stun>晕眩</>目标<@ba.vup>{attack@s2_stun}</>秒",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 50,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_quartz_2",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "damage_scale",
+					"value": 1.25,
+					"valueStr": null
+				},
+				{
+					"key": "attack_speed",
+					"value": 50,
+					"valueStr": null
+				},
+				{
+					"key": "attack@s2_atk_scale",
+					"value": 0.9,
+					"valueStr": null
+				},
+				{
+					"key": "attack@s2_buff_prob",
+					"value": 0.25,
+					"valueStr": null
+				},
+				{
+					"key": "attack@s2_stun",
+					"value": 2,
+					"valueStr": null
+				},
+				{
+					"key": "fake_damage",
+					"value": 0.25,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "全力相搏",
+			"rangeId": null,
+			"description": "自身受到的伤害提升<@ba.vdown>{fake_damage:0%}</>，攻击速度<@ba.vup>+{attack_speed}</>，每次攻击造成相当于攻击力<@ba.vup>{attack@s2_atk_scale:0%}</>的物理伤害且有<@ba.vup>{attack@s2_buff_prob:0%}</>概率<$ba.stun>晕眩</>目标<@ba.vup>{attack@s2_stun}</>秒",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 50,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_quartz_2",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "damage_scale",
+					"value": 1.25,
+					"valueStr": null
+				},
+				{
+					"key": "attack_speed",
+					"value": 55,
+					"valueStr": null
+				},
+				{
+					"key": "attack@s2_atk_scale",
+					"value": 0.9,
+					"valueStr": null
+				},
+				{
+					"key": "attack@s2_buff_prob",
+					"value": 0.25,
+					"valueStr": null
+				},
+				{
+					"key": "attack@s2_stun",
+					"value": 2,
+					"valueStr": null
+				},
+				{
+					"key": "fake_damage",
+					"value": 0.25,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "全力相搏",
+			"rangeId": null,
+			"description": "自身受到的伤害提升<@ba.vdown>{fake_damage:0%}</>，攻击速度<@ba.vup>+{attack_speed}</>，每次攻击造成相当于攻击力<@ba.vup>{attack@s2_atk_scale:0%}</>的物理伤害且有<@ba.vup>{attack@s2_buff_prob:0%}</>概率<$ba.stun>晕眩</>目标<@ba.vup>{attack@s2_stun}</>秒",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 50,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_quartz_2",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "damage_scale",
+					"value": 1.25,
+					"valueStr": null
+				},
+				{
+					"key": "attack_speed",
+					"value": 60,
+					"valueStr": null
+				},
+				{
+					"key": "attack@s2_atk_scale",
+					"value": 0.9,
+					"valueStr": null
+				},
+				{
+					"key": "attack@s2_buff_prob",
+					"value": 0.25,
+					"valueStr": null
+				},
+				{
+					"key": "attack@s2_stun",
+					"value": 2,
+					"valueStr": null
+				},
+				{
+					"key": "fake_damage",
+					"value": 0.25,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "全力相搏",
+			"rangeId": null,
+			"description": "自身受到的伤害提升<@ba.vdown>{fake_damage:0%}</>，攻击速度<@ba.vup>+{attack_speed}</>，每次攻击造成相当于攻击力<@ba.vup>{attack@s2_atk_scale:0%}</>的物理伤害且有<@ba.vup>{attack@s2_buff_prob:0%}</>概率<$ba.stun>晕眩</>目标<@ba.vup>{attack@s2_stun}</>秒",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 45,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_quartz_2",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "damage_scale",
+					"value": 1.25,
+					"valueStr": null
+				},
+				{
+					"key": "attack_speed",
+					"value": 65,
+					"valueStr": null
+				},
+				{
+					"key": "attack@s2_atk_scale",
+					"value": 1,
+					"valueStr": null
+				},
+				{
+					"key": "attack@s2_buff_prob",
+					"value": 0.25,
+					"valueStr": null
+				},
+				{
+					"key": "attack@s2_stun",
+					"value": 2,
+					"valueStr": null
+				},
+				{
+					"key": "fake_damage",
+					"value": 0.25,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "全力相搏",
+			"rangeId": null,
+			"description": "自身受到的伤害提升<@ba.vdown>{fake_damage:0%}</>，攻击速度<@ba.vup>+{attack_speed}</>，每次攻击造成相当于攻击力<@ba.vup>{attack@s2_atk_scale:0%}</>的物理伤害且有<@ba.vup>{attack@s2_buff_prob:0%}</>概率<$ba.stun>晕眩</>目标<@ba.vup>{attack@s2_stun}</>秒",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 45,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_quartz_2",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "damage_scale",
+					"value": 1.25,
+					"valueStr": null
+				},
+				{
+					"key": "attack_speed",
+					"value": 70,
+					"valueStr": null
+				},
+				{
+					"key": "attack@s2_atk_scale",
+					"value": 1,
+					"valueStr": null
+				},
+				{
+					"key": "attack@s2_buff_prob",
+					"value": 0.25,
+					"valueStr": null
+				},
+				{
+					"key": "attack@s2_stun",
+					"value": 2,
+					"valueStr": null
+				},
+				{
+					"key": "fake_damage",
+					"value": 0.25,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "全力相搏",
+			"rangeId": null,
+			"description": "自身受到的伤害提升<@ba.vdown>{fake_damage:0%}</>，攻击速度<@ba.vup>+{attack_speed}</>，每次攻击造成相当于攻击力<@ba.vup>{attack@s2_atk_scale:0%}</>的物理伤害且有<@ba.vup>{attack@s2_buff_prob:0%}</>概率<$ba.stun>晕眩</>目标<@ba.vup>{attack@s2_stun}</>秒",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 45,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_quartz_2",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "damage_scale",
+					"value": 1.25,
+					"valueStr": null
+				},
+				{
+					"key": "attack_speed",
+					"value": 75,
+					"valueStr": null
+				},
+				{
+					"key": "attack@s2_atk_scale",
+					"value": 1,
+					"valueStr": null
+				},
+				{
+					"key": "attack@s2_buff_prob",
+					"value": 0.25,
+					"valueStr": null
+				},
+				{
+					"key": "attack@s2_stun",
+					"value": 2,
+					"valueStr": null
+				},
+				{
+					"key": "fake_damage",
+					"value": 0.25,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "全力相搏",
+			"rangeId": null,
+			"description": "自身受到的伤害提升<@ba.vdown>{fake_damage:0%}</>，攻击速度<@ba.vup>+{attack_speed}</>，每次攻击造成相当于攻击力<@ba.vup>{attack@s2_atk_scale:0%}</>的物理伤害且有<@ba.vup>{attack@s2_buff_prob:0%}</>概率<$ba.stun>晕眩</>目标<@ba.vup>{attack@s2_stun}</>秒",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 40,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_quartz_2",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "damage_scale",
+					"value": 1.25,
+					"valueStr": null
+				},
+				{
+					"key": "attack_speed",
+					"value": 80,
+					"valueStr": null
+				},
+				{
+					"key": "attack@s2_atk_scale",
+					"value": 1.2,
+					"valueStr": null
+				},
+				{
+					"key": "attack@s2_buff_prob",
+					"value": 0.25,
+					"valueStr": null
+				},
+				{
+					"key": "attack@s2_stun",
+					"value": 2,
+					"valueStr": null
+				},
+				{
+					"key": "fake_damage",
+					"value": 0.25,
+					"valueStr": null
+				}
+			]
+		}
+	]
+}

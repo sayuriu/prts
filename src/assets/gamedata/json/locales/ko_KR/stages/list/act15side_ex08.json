@@ -1,0 +1,84 @@
+{
+	"stageType": "ACTIVITY",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
+	"unlockCondition": [
+		{
+			"stageId": "act15side_ex07",
+			"completeState": 2
+		}
+	],
+	"stageId": "act15side_ex08",
+	"levelId": "Activities/ACT15side/level_act15side_ex08",
+	"zoneId": "act15side_zone2",
+	"code": "IW-EX-8",
+	"name": "망수평",
+	"description": "울부짖는 쉐이 형상을 처음 보는 게 아니다. 놀랍거나 두렵거나, 이 모든 게 마음으로부터 생겨난 것이니, 녀석을 똑바로 맞이하는 건 자신을 똑바로 맞이하는 것과 다름없다.\n<@lv.rem>지상에 원거리 오퍼레이터 배치 가능</>",
+	"hardStagedId": "act15side_ex08#f#",
+	"dangerLevel": "2차 정예화 Lv.30",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_IW_Mountain",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 20,
+	"apFailReturn": 19,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": 0,
+	"expGain": 200,
+	"goldGain": 200,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 19,
+	"completeFavor": 20,
+	"slProgress": 0,
+	"displayMainItem": null,
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 0,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act15side_token_tea",
+				"dropType": 8
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 0,
+				"type": "ACTIVITY_ITEM",
+				"id": "act15side_token_tea",
+				"dropType": 8
+			},
+			{
+				"occPercent": 0,
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		]
+	},
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "act15side_ex01"
+}

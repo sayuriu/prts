@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act18d3_08",
@@ -10,7 +11,7 @@
 	],
 	"stageId": "act18d3_09",
 	"levelId": "Activities/act18d3/level_act18d3_09",
-	"zoneId": "act18d3_zone1",
+	"zoneId": "act11sre_zone1",
 	"code": "SV-9",
 	"name": "信仰者",
 	"description": "「それ」は知恵こそあれど、あまりにも物事に固執しすぎていた。つまり、聡明とは言い難いのだ。無限に広がる海を前にすれば、取るに足らない存在なのである。\n<@lv.item><応急治療施設></>起動中に周囲の味方に蓄積された神経ダメージを治療し続ける",
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {
@@ -52,12 +54,12 @@
 		"displayRewards": [
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act18d3_token_record",
+				"id": "act18d3_token_record_rep_1",
 				"dropType": 8
 			},
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act18d3_token_record",
+				"id": "act18d3_token_record_rep_1",
 				"dropType": 2
 			},
 			{
@@ -75,13 +77,13 @@
 			{
 				"occPercent": 0,
 				"type": "ACTIVITY_ITEM",
-				"id": "act18d3_token_record",
+				"id": "act18d3_token_record_rep_1",
 				"dropType": 8
 			},
 			{
 				"occPercent": 0,
 				"type": "ACTIVITY_ITEM",
-				"id": "act18d3_token_record",
+				"id": "act18d3_token_record_rep_1",
 				"dropType": 2
 			},
 			{

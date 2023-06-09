@@ -2,15 +2,16 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act12side_08",
-			"completeState": 2
+			"completeState": "PASS"
 		}
 	],
 	"stageId": "act12side_09",
 	"levelId": "Activities/ACT12SIDE/level_act12side_09",
-	"zoneId": "act12side_zone1",
+	"zoneId": "act12sre_zone1",
 	"code": "DH-9",
 	"name": "鼠胆龙威",
 	"description": "无人机依然在天上飘荡，节目还在继续转播，危机正在发生，却又仿佛无足轻重，这就是多索雷斯。\\n<@lv.item><深水区></>无法部署，本关中敌人在深水区的生命流失速度大幅提升\\n<@lv.item><特制水上平台></>可部署在深水区，之后该格可部署任意单位，部署的单位撤退时平台损坏",
@@ -44,7 +45,7 @@
 	"isHardPredefined": false,
 	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
-	"appearanceStyle": 0,
+	"appearanceStyle": "MAIN_NORMAL",
 	"stageDropInfo": {
 		"firstPassRewards": null,
 		"firstCompleteRewards": null,
@@ -54,42 +55,47 @@
 			{
 				"type": "CHARM",
 				"id": "charm_coin_3",
-				"dropType": 8
+				"dropType": "COMPLETE"
 			},
 			{
 				"type": "CHARM",
 				"id": "charm_coin_3",
-				"dropType": 2
+				"dropType": "NORMAL"
 			},
 			{
 				"type": "DIAMOND",
 				"id": "4002",
-				"dropType": 8
+				"dropType": "COMPLETE"
 			}
 		],
 		"displayDetailRewards": [
 			{
-				"occPercent": 0,
+				"occPercent": "ALWAYS",
 				"type": "CHARM",
 				"id": "charm_coin_3",
-				"dropType": 8
+				"dropType": "COMPLETE"
 			},
 			{
-				"occPercent": 0,
+				"occPercent": "ALWAYS",
 				"type": "CHARM",
 				"id": "charm_coin_3",
-				"dropType": 2
+				"dropType": "NORMAL"
 			},
 			{
-				"occPercent": 0,
+				"occPercent": "ALWAYS",
 				"type": "DIAMOND",
 				"id": "4002",
-				"dropType": 8
+				"dropType": "COMPLETE"
 			}
 		]
 	},
 	"canUseCharm": true,
+	"canUseTech": false,
+	"canUseTrapTool": false,
+	"canUseBattlePerformance": false,
 	"startButtonOverrideId": null,
 	"isStagePatch": false,
-	"mainStageId": "act12side_st01"
+	"mainStageId": "act12side_st01",
+	"extraCondition": null,
+	"extraInfo": null
 }

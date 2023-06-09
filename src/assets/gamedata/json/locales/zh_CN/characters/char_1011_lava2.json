@@ -2,7 +2,10 @@
 	"name": "炎狱炎熔",
 	"description": "攻击造成<@ba.kw>群体法术伤害</>",
 	"canUseGeneralPotentialItem": true,
+	"canUseActivityPotentialItem": false,
 	"potentialItemId": "p_char_1011_lava2",
+	"activityPotentialItemId": null,
+	"classicPotentialItemId": null,
 	"nationId": "rhodes",
 	"groupId": null,
 	"teamId": null,
@@ -19,7 +22,7 @@
 	"isNotObtainable": false,
 	"isSpChar": true,
 	"maxPotentialLevel": 5,
-	"rarity": 4,
+	"rarity": "TIER_5",
 	"profession": "CASTER",
 	"subProfessionId": "splashcaster",
 	"trait": null,
@@ -52,7 +55,8 @@
 						"stunImmune": false,
 						"silenceImmune": false,
 						"sleepImmune": false,
-						"frozenImmune": false
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -78,7 +82,8 @@
 						"stunImmune": false,
 						"silenceImmune": false,
 						"sleepImmune": false,
-						"frozenImmune": false
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -112,7 +117,8 @@
 						"stunImmune": false,
 						"silenceImmune": false,
 						"sleepImmune": false,
-						"frozenImmune": false
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -138,7 +144,8 @@
 						"stunImmune": false,
 						"silenceImmune": false,
 						"sleepImmune": false,
-						"frozenImmune": false
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -188,7 +195,8 @@
 						"stunImmune": false,
 						"silenceImmune": false,
 						"sleepImmune": false,
-						"frozenImmune": false
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -214,7 +222,8 @@
 						"stunImmune": false,
 						"silenceImmune": false,
 						"sleepImmune": false,
-						"frozenImmune": false
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -245,7 +254,7 @@
 			"levelUpCostCond": [
 				{
 					"unlockCond": {
-						"phase": 2,
+						"phase": "PHASE_2",
 						"level": 1
 					},
 					"lvlUpTime": 28800,
@@ -269,7 +278,7 @@
 				},
 				{
 					"unlockCond": {
-						"phase": 2,
+						"phase": "PHASE_2",
 						"level": 1
 					},
 					"lvlUpTime": 57600,
@@ -293,7 +302,7 @@
 				},
 				{
 					"unlockCond": {
-						"phase": 2,
+						"phase": "PHASE_2",
 						"level": 1
 					},
 					"lvlUpTime": 86400,
@@ -317,7 +326,7 @@
 				}
 			],
 			"unlockCond": {
-				"phase": 0,
+				"phase": "PHASE_0",
 				"level": 1
 			}
 		},
@@ -328,7 +337,7 @@
 			"levelUpCostCond": [
 				{
 					"unlockCond": {
-						"phase": 2,
+						"phase": "PHASE_2",
 						"level": 1
 					},
 					"lvlUpTime": 28800,
@@ -352,7 +361,7 @@
 				},
 				{
 					"unlockCond": {
-						"phase": 2,
+						"phase": "PHASE_2",
 						"level": 1
 					},
 					"lvlUpTime": 57600,
@@ -376,7 +385,7 @@
 				},
 				{
 					"unlockCond": {
-						"phase": 2,
+						"phase": "PHASE_2",
 						"level": 1
 					},
 					"lvlUpTime": 86400,
@@ -400,7 +409,7 @@
 				}
 			],
 			"unlockCond": {
-				"phase": 1,
+				"phase": "PHASE_1",
 				"level": 1
 			}
 		}
@@ -410,85 +419,93 @@
 			"candidates": [
 				{
 					"unlockCondition": {
-						"phase": 1,
+						"phase": "PHASE_1",
 						"level": 1
 					},
 					"requiredPotentialRank": 0,
 					"prefabKey": "1",
 					"name": "咒术阵线",
-					"description": "首次部署后立即获得15点技力，在场时其余友方术师干员初始技力+2",
+					"description": "首次部署后立即获得15点技力，每次部署时使在场术师干员技力+2，在场时其余友方术师干员初始技力+2",
 					"rangeId": null,
 					"blackboard": [
 						{
 							"key": "lava2_t_1[ally].sp",
-							"value": 2
+							"value": 2,
+							"valueStr": null
 						},
 						{
 							"key": "lava2_t_1[self].sp",
-							"value": 15
+							"value": 15,
+							"valueStr": null
 						}
 					]
 				},
 				{
 					"unlockCondition": {
-						"phase": 1,
+						"phase": "PHASE_1",
 						"level": 1
 					},
 					"requiredPotentialRank": 4,
 					"prefabKey": "1",
 					"name": "咒术阵线",
-					"description": "部署后立即获得20<@ba.talpu>（+5）</>点技力，在场时其余友方术师干员初始技力+3<@ba.talpu>（+1）</>",
+					"description": "首次部署后立即获得20<@ba.talpu>（+5）</>点技力，每次部署时使在场术师干员技力+3<@ba.talpu>（+1）</>，在场时其余友方术师干员初始技力+3<@ba.talpu>（+1）</>",
 					"rangeId": null,
 					"blackboard": [
 						{
 							"key": "lava2_t_1[ally].sp",
-							"value": 3
+							"value": 3,
+							"valueStr": null
 						},
 						{
 							"key": "lava2_t_1[self].sp",
-							"value": 20
+							"value": 20,
+							"valueStr": null
 						}
 					]
 				},
 				{
 					"unlockCondition": {
-						"phase": 2,
+						"phase": "PHASE_2",
 						"level": 1
 					},
 					"requiredPotentialRank": 0,
 					"prefabKey": "1",
 					"name": "咒术阵线",
-					"description": "首次部署后立即获得30点技力，在场时其余友方术师干员初始技力+4",
+					"description": "首次部署后立即获得30点技力，每次部署时使在场术师干员技力+4，在场时其余友方术师干员初始技力+4",
 					"rangeId": null,
 					"blackboard": [
 						{
 							"key": "lava2_t_1[ally].sp",
-							"value": 4
+							"value": 4,
+							"valueStr": null
 						},
 						{
 							"key": "lava2_t_1[self].sp",
-							"value": 30
+							"value": 30,
+							"valueStr": null
 						}
 					]
 				},
 				{
 					"unlockCondition": {
-						"phase": 2,
+						"phase": "PHASE_2",
 						"level": 1
 					},
 					"requiredPotentialRank": 4,
 					"prefabKey": "1",
 					"name": "咒术阵线",
-					"description": "部署后立即获得35<@ba.talpu>（+5）</>点技力，在场时其余友方术师干员初始技力+5<@ba.talpu>（+1）</>",
+					"description": "首次部署后立即获得35<@ba.talpu>（+5）</>点技力，每次部署时使在场术师干员技力+5<@ba.talpu>（+1）</>，在场时其余友方术师干员初始技力+5<@ba.talpu>（+1）</>",
 					"rangeId": null,
 					"blackboard": [
 						{
 							"key": "lava2_t_1[ally].sp",
-							"value": 5
+							"value": 5,
+							"valueStr": null
 						},
 						{
 							"key": "lava2_t_1[self].sp",
-							"value": 35
+							"value": 35,
+							"valueStr": null
 						}
 					]
 				}
@@ -497,7 +514,7 @@
 	],
 	"potentialRanks": [
 		{
-			"type": 0,
+			"type": "BUFF",
 			"description": "部署费用-1",
 			"buff": {
 				"attributes": {
@@ -508,8 +525,8 @@
 					"abnormalComboImmunes": null,
 					"attributeModifiers": [
 						{
-							"attributeType": 4,
-							"formulaItem": 0,
+							"attributeType": "COST",
+							"formulaItem": "ADDITION",
 							"value": -1,
 							"loadFromBlackboard": false,
 							"fetchBaseValueFromSourceEntity": false
@@ -520,7 +537,7 @@
 			"equivalentCost": null
 		},
 		{
-			"type": 0,
+			"type": "BUFF",
 			"description": "再部署时间-10秒",
 			"buff": {
 				"attributes": {
@@ -531,8 +548,8 @@
 					"abnormalComboImmunes": null,
 					"attributeModifiers": [
 						{
-							"attributeType": 21,
-							"formulaItem": 0,
+							"attributeType": "RESPAWN_TIME",
+							"formulaItem": "ADDITION",
 							"value": -10,
 							"loadFromBlackboard": false,
 							"fetchBaseValueFromSourceEntity": false
@@ -543,7 +560,7 @@
 			"equivalentCost": null
 		},
 		{
-			"type": 0,
+			"type": "BUFF",
 			"description": "部署费用-1",
 			"buff": {
 				"attributes": {
@@ -554,8 +571,8 @@
 					"abnormalComboImmunes": null,
 					"attributeModifiers": [
 						{
-							"attributeType": 4,
-							"formulaItem": 0,
+							"attributeType": "COST",
+							"formulaItem": "ADDITION",
 							"value": -1,
 							"loadFromBlackboard": false,
 							"fetchBaseValueFromSourceEntity": false
@@ -566,13 +583,13 @@
 			"equivalentCost": null
 		},
 		{
-			"type": 1,
+			"type": "CUSTOM",
 			"description": "天赋效果增强",
 			"buff": null,
 			"equivalentCost": null
 		},
 		{
-			"type": 0,
+			"type": "BUFF",
 			"description": "部署费用-1",
 			"buff": {
 				"attributes": {
@@ -583,8 +600,8 @@
 					"abnormalComboImmunes": null,
 					"attributeModifiers": [
 						{
-							"attributeType": 4,
-							"formulaItem": 0,
+							"attributeType": "COST",
+							"formulaItem": "ADDITION",
 							"value": -1,
 							"loadFromBlackboard": false,
 							"fetchBaseValueFromSourceEntity": false
@@ -619,7 +636,8 @@
 				"stunImmune": false,
 				"silenceImmune": false,
 				"sleepImmune": false,
-				"frozenImmune": false
+				"frozenImmune": false,
+				"levitateImmune": false
 			}
 		},
 		{
@@ -645,14 +663,15 @@
 				"stunImmune": false,
 				"silenceImmune": false,
 				"sleepImmune": false,
-				"frozenImmune": false
+				"frozenImmune": false,
+				"levitateImmune": false
 			}
 		}
 	],
 	"allSkillLvlup": [
 		{
 			"unlockCond": {
-				"phase": 0,
+				"phase": "PHASE_0",
 				"level": 1
 			},
 			"lvlUpCost": [
@@ -665,7 +684,7 @@
 		},
 		{
 			"unlockCond": {
-				"phase": 0,
+				"phase": "PHASE_0",
 				"level": 1
 			},
 			"lvlUpCost": [
@@ -683,7 +702,7 @@
 		},
 		{
 			"unlockCond": {
-				"phase": 0,
+				"phase": "PHASE_0",
 				"level": 1
 			},
 			"lvlUpCost": [
@@ -701,7 +720,7 @@
 		},
 		{
 			"unlockCond": {
-				"phase": 1,
+				"phase": "PHASE_1",
 				"level": 1
 			},
 			"lvlUpCost": [
@@ -719,7 +738,7 @@
 		},
 		{
 			"unlockCond": {
-				"phase": 1,
+				"phase": "PHASE_1",
 				"level": 1
 			},
 			"lvlUpCost": [
@@ -737,7 +756,7 @@
 		},
 		{
 			"unlockCond": {
-				"phase": 1,
+				"phase": "PHASE_1",
 				"level": 1
 			},
 			"lvlUpCost": [

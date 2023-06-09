@@ -2,7 +2,9 @@
 	"name": "ブレミシャイン",
 	"description": "HP回復スキルを所持",
 	"canUseGeneralPotentialItem": true,
+	"canUseActivityPotentialItem": false,
 	"potentialItemId": "p_char_423_blemsh",
+	"activityPotentialItemId": null,
 	"nationId": "kazimierz",
 	"groupId": null,
 	"teamId": null,
@@ -53,7 +55,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -78,7 +82,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -111,7 +117,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -136,7 +144,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -185,7 +195,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -210,7 +222,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -582,7 +596,7 @@
 	"potentialRanks": [
 		{
 			"type": 0,
-			"description": "コスト-1",
+			"description": "配置コスト-1",
 			"buff": {
 				"attributes": {
 					"abnormalFlags": null,
@@ -657,7 +671,7 @@
 		},
 		{
 			"type": 0,
-			"description": "コスト-1",
+			"description": "配置コスト-1",
 			"buff": {
 				"attributes": {
 					"abnormalFlags": null,
@@ -702,7 +716,9 @@
 				"baseForceLevel": 0,
 				"stunImmune": false,
 				"silenceImmune": false,
-				"sleepImmune": false
+				"sleepImmune": false,
+				"frozenImmune": false,
+				"levitateImmune": false
 			}
 		},
 		{
@@ -727,7 +743,9 @@
 				"baseForceLevel": 0,
 				"stunImmune": false,
 				"silenceImmune": false,
-				"sleepImmune": false
+				"sleepImmune": false,
+				"frozenImmune": false,
+				"levitateImmune": false
 			}
 		}
 	],

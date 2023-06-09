@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "FOUR_STAR",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "main_02-08",
@@ -14,7 +15,7 @@
 	],
 	"stageId": "act12side_ex07#f#",
 	"levelId": "Activities/ACT12SIDE/level_act12side_ex07",
-	"zoneId": "act12side_zone2",
+	"zoneId": "act12sre_zone2",
 	"code": "DH-EX-7",
 	"name": "인공 파도",
 	"description": "<@lv.fs>제한 조건: </>\n스테이지 내 6개 위치에 아군 유닛 배치 불가",
@@ -46,6 +47,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {

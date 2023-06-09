@@ -1,0 +1,497 @@
+{
+	"skillId": "skchr_texas2_3",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "剑雨滂沱",
+			"rangeId": "x-4",
+			"description": "部署后立即对周围所有敌人造成两次相当于攻击力<@ba.vup>{appear.atk_scale:0%}</>的法术伤害并使目标<$ba.stun>晕眩</><@ba.vup>{appear.stun}</>秒，之后每秒释放剑雨攻击范围内最多<@ba.vup>{max_target}</>个不同的目标，造成攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害和<@ba.vup>{stun}</>秒<$ba.stun>晕眩</>",
+			"skillType": "PASSIVE",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_texas2_3",
+			"duration": 6,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 0.7,
+					"valueStr": null
+				},
+				{
+					"key": "stun",
+					"value": 0.2,
+					"valueStr": null
+				},
+				{
+					"key": "max_target",
+					"value": 2,
+					"valueStr": null
+				},
+				{
+					"key": "texas2_s_3[sword].interval",
+					"value": 1,
+					"valueStr": null
+				},
+				{
+					"key": "appear.atk_scale",
+					"value": 1,
+					"valueStr": null
+				},
+				{
+					"key": "appear.stun",
+					"value": 1,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "剑雨滂沱",
+			"rangeId": "x-4",
+			"description": "部署后立即对周围所有敌人造成两次相当于攻击力<@ba.vup>{appear.atk_scale:0%}</>的法术伤害并使目标<$ba.stun>晕眩</><@ba.vup>{appear.stun}</>秒，之后每秒释放剑雨攻击范围内最多<@ba.vup>{max_target}</>个不同的目标，造成攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害和<@ba.vup>{stun}</>秒<$ba.stun>晕眩</>",
+			"skillType": "PASSIVE",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_texas2_3",
+			"duration": 6,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 0.75,
+					"valueStr": null
+				},
+				{
+					"key": "stun",
+					"value": 0.2,
+					"valueStr": null
+				},
+				{
+					"key": "max_target",
+					"value": 2,
+					"valueStr": null
+				},
+				{
+					"key": "texas2_s_3[sword].interval",
+					"value": 1,
+					"valueStr": null
+				},
+				{
+					"key": "appear.atk_scale",
+					"value": 1.05,
+					"valueStr": null
+				},
+				{
+					"key": "appear.stun",
+					"value": 1,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "剑雨滂沱",
+			"rangeId": "x-4",
+			"description": "部署后立即对周围所有敌人造成两次相当于攻击力<@ba.vup>{appear.atk_scale:0%}</>的法术伤害并使目标<$ba.stun>晕眩</><@ba.vup>{appear.stun}</>秒，之后每秒释放剑雨攻击范围内最多<@ba.vup>{max_target}</>个不同的目标，造成攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害和<@ba.vup>{stun}</>秒<$ba.stun>晕眩</>",
+			"skillType": "PASSIVE",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_texas2_3",
+			"duration": 6,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 0.8,
+					"valueStr": null
+				},
+				{
+					"key": "stun",
+					"value": 0.2,
+					"valueStr": null
+				},
+				{
+					"key": "max_target",
+					"value": 2,
+					"valueStr": null
+				},
+				{
+					"key": "texas2_s_3[sword].interval",
+					"value": 1,
+					"valueStr": null
+				},
+				{
+					"key": "appear.atk_scale",
+					"value": 1.1,
+					"valueStr": null
+				},
+				{
+					"key": "appear.stun",
+					"value": 1,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "剑雨滂沱",
+			"rangeId": "x-4",
+			"description": "部署后立即对周围所有敌人造成两次相当于攻击力<@ba.vup>{appear.atk_scale:0%}</>的法术伤害并使目标<$ba.stun>晕眩</><@ba.vup>{appear.stun}</>秒，之后每秒释放剑雨攻击范围内最多<@ba.vup>{max_target}</>个不同的目标，造成攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害和<@ba.vup>{stun}</>秒<$ba.stun>晕眩</>",
+			"skillType": "PASSIVE",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_texas2_3",
+			"duration": 6,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 0.85,
+					"valueStr": null
+				},
+				{
+					"key": "stun",
+					"value": 0.2,
+					"valueStr": null
+				},
+				{
+					"key": "max_target",
+					"value": 2,
+					"valueStr": null
+				},
+				{
+					"key": "texas2_s_3[sword].interval",
+					"value": 1,
+					"valueStr": null
+				},
+				{
+					"key": "appear.atk_scale",
+					"value": 1.15,
+					"valueStr": null
+				},
+				{
+					"key": "appear.stun",
+					"value": 1.5,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "剑雨滂沱",
+			"rangeId": "x-4",
+			"description": "部署后立即对周围所有敌人造成两次相当于攻击力<@ba.vup>{appear.atk_scale:0%}</>的法术伤害并使目标<$ba.stun>晕眩</><@ba.vup>{appear.stun}</>秒，之后每秒释放剑雨攻击范围内最多<@ba.vup>{max_target}</>个不同的目标，造成攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害和<@ba.vup>{stun}</>秒<$ba.stun>晕眩</>",
+			"skillType": "PASSIVE",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_texas2_3",
+			"duration": 6,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 0.9,
+					"valueStr": null
+				},
+				{
+					"key": "stun",
+					"value": 0.2,
+					"valueStr": null
+				},
+				{
+					"key": "max_target",
+					"value": 2,
+					"valueStr": null
+				},
+				{
+					"key": "texas2_s_3[sword].interval",
+					"value": 1,
+					"valueStr": null
+				},
+				{
+					"key": "appear.atk_scale",
+					"value": 1.2,
+					"valueStr": null
+				},
+				{
+					"key": "appear.stun",
+					"value": 1.5,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "剑雨滂沱",
+			"rangeId": "x-4",
+			"description": "部署后立即对周围所有敌人造成两次相当于攻击力<@ba.vup>{appear.atk_scale:0%}</>的法术伤害并使目标<$ba.stun>晕眩</><@ba.vup>{appear.stun}</>秒，之后每秒释放剑雨攻击范围内最多<@ba.vup>{max_target}</>个不同的目标，造成攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害和<@ba.vup>{stun}</>秒<$ba.stun>晕眩</>",
+			"skillType": "PASSIVE",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_texas2_3",
+			"duration": 6,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 0.95,
+					"valueStr": null
+				},
+				{
+					"key": "stun",
+					"value": 0.2,
+					"valueStr": null
+				},
+				{
+					"key": "max_target",
+					"value": 2,
+					"valueStr": null
+				},
+				{
+					"key": "texas2_s_3[sword].interval",
+					"value": 1,
+					"valueStr": null
+				},
+				{
+					"key": "appear.atk_scale",
+					"value": 1.25,
+					"valueStr": null
+				},
+				{
+					"key": "appear.stun",
+					"value": 1.5,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "剑雨滂沱",
+			"rangeId": "x-4",
+			"description": "部署后立即对周围所有敌人造成两次相当于攻击力<@ba.vup>{appear.atk_scale:0%}</>的法术伤害并使目标<$ba.stun>晕眩</><@ba.vup>{appear.stun}</>秒，之后每秒释放剑雨攻击范围内最多<@ba.vup>{max_target}</>个不同的目标，造成攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害和<@ba.vup>{stun}</>秒<$ba.stun>晕眩</>",
+			"skillType": "PASSIVE",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_texas2_3",
+			"duration": 7,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 1,
+					"valueStr": null
+				},
+				{
+					"key": "stun",
+					"value": 0.2,
+					"valueStr": null
+				},
+				{
+					"key": "max_target",
+					"value": 3,
+					"valueStr": null
+				},
+				{
+					"key": "texas2_s_3[sword].interval",
+					"value": 1,
+					"valueStr": null
+				},
+				{
+					"key": "appear.atk_scale",
+					"value": 1.3,
+					"valueStr": null
+				},
+				{
+					"key": "appear.stun",
+					"value": 1.5,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "剑雨滂沱",
+			"rangeId": "x-4",
+			"description": "部署后立即对周围所有敌人造成两次相当于攻击力<@ba.vup>{appear.atk_scale:0%}</>的法术伤害并使目标<$ba.stun>晕眩</><@ba.vup>{appear.stun}</>秒，之后每秒释放剑雨攻击范围内最多<@ba.vup>{max_target}</>个不同的目标，造成攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害和<@ba.vup>{stun}</>秒<$ba.stun>晕眩</>",
+			"skillType": "PASSIVE",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_texas2_3",
+			"duration": 7,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 1.1,
+					"valueStr": null
+				},
+				{
+					"key": "stun",
+					"value": 0.2,
+					"valueStr": null
+				},
+				{
+					"key": "max_target",
+					"value": 3,
+					"valueStr": null
+				},
+				{
+					"key": "texas2_s_3[sword].interval",
+					"value": 1,
+					"valueStr": null
+				},
+				{
+					"key": "appear.atk_scale",
+					"value": 1.35,
+					"valueStr": null
+				},
+				{
+					"key": "appear.stun",
+					"value": 2,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "剑雨滂沱",
+			"rangeId": "x-4",
+			"description": "部署后立即对周围所有敌人造成两次相当于攻击力<@ba.vup>{appear.atk_scale:0%}</>的法术伤害并使目标<$ba.stun>晕眩</><@ba.vup>{appear.stun}</>秒，之后每秒释放剑雨攻击范围内最多<@ba.vup>{max_target}</>个不同的目标，造成攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害和<@ba.vup>{stun}</>秒<$ba.stun>晕眩</>",
+			"skillType": "PASSIVE",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_texas2_3",
+			"duration": 8,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 1.2,
+					"valueStr": null
+				},
+				{
+					"key": "stun",
+					"value": 0.2,
+					"valueStr": null
+				},
+				{
+					"key": "max_target",
+					"value": 3,
+					"valueStr": null
+				},
+				{
+					"key": "texas2_s_3[sword].interval",
+					"value": 1,
+					"valueStr": null
+				},
+				{
+					"key": "appear.atk_scale",
+					"value": 1.5,
+					"valueStr": null
+				},
+				{
+					"key": "appear.stun",
+					"value": 2,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "剑雨滂沱",
+			"rangeId": "x-4",
+			"description": "部署后立即对周围所有敌人造成两次相当于攻击力<@ba.vup>{appear.atk_scale:0%}</>的法术伤害并使目标<$ba.stun>晕眩</><@ba.vup>{appear.stun}</>秒，之后每秒释放剑雨攻击范围内最多<@ba.vup>{max_target}</>个不同的目标，造成攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害和<@ba.vup>{stun}</>秒<$ba.stun>晕眩</>",
+			"skillType": "PASSIVE",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_texas2_3",
+			"duration": 8,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 1.3,
+					"valueStr": null
+				},
+				{
+					"key": "stun",
+					"value": 0.2,
+					"valueStr": null
+				},
+				{
+					"key": "max_target",
+					"value": 4,
+					"valueStr": null
+				},
+				{
+					"key": "texas2_s_3[sword].interval",
+					"value": 1,
+					"valueStr": null
+				},
+				{
+					"key": "appear.atk_scale",
+					"value": 1.65,
+					"valueStr": null
+				},
+				{
+					"key": "appear.stun",
+					"value": 2,
+					"valueStr": null
+				}
+			]
+		}
+	]
+}

@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act13d5_07",
@@ -10,7 +11,7 @@
 	],
 	"stageId": "act13d5_st02",
 	"levelId": null,
-	"zoneId": "act13d5_zone1",
+	"zoneId": "act7sre_zone1",
 	"code": "MN-ST-2",
 	"name": "술잔",
 	"description": "유리잔의 수명은 영웅보다 길다.",
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": true,
 	"appearanceStyle": 0,
 	"stageDropInfo": {

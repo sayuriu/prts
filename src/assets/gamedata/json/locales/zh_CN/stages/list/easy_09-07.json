@@ -1,0 +1,90 @@
+{
+	"stageType": "MAIN",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "EASY",
+	"unlockCondition": [
+		{
+			"stageId": "st_09-02",
+			"completeState": "PASS"
+		}
+	],
+	"stageId": "easy_09-07",
+	"levelId": "Obt/Main/level_easy_09-07",
+	"zoneId": "main_9",
+	"code": "9-9",
+	"name": "无辜者",
+	"description": "恶行仍在发生，无辜者为理想而死。战场上出现了奇特的石像，无言地越过废墟。\\n<@lv.ez>环境条件：</>\\n我方单位生命和攻击大幅增加，再部署时间缩短，初始费用增加",
+	"hardStagedId": null,
+	"dangerLevel": "-",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_VC_hillock2",
+	"canPractice": false,
+	"canBattleReplay": false,
+	"apCost": 0,
+	"apFailReturn": 0,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 0,
+	"diamondOnceDrop": 0,
+	"practiceTicketCost": -1,
+	"dailyStageDifficulty": -1,
+	"expGain": 0,
+	"goldGain": 0,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 0,
+	"completeFavor": 0,
+	"slProgress": 0,
+	"displayMainItem": "",
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": "MAIN_NORMAL",
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "MATERIAL",
+				"id": "30073",
+				"dropType": "COMPLETE"
+			},
+			{
+				"type": "GOLD",
+				"id": "4001",
+				"dropType": "COMPLETE"
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": "ALWAYS",
+				"type": "MATERIAL",
+				"id": "30073",
+				"dropType": "COMPLETE"
+			},
+			{
+				"occPercent": "ALWAYS",
+				"type": "GOLD",
+				"id": "4001",
+				"dropType": "COMPLETE"
+			}
+		]
+	},
+	"canUseCharm": false,
+	"canUseTech": false,
+	"canUseTrapTool": false,
+	"canUseBattlePerformance": false,
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "easy_09-07",
+	"extraCondition": null,
+	"extraInfo": null
+}

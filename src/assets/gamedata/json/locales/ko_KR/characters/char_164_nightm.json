@@ -2,7 +2,9 @@
 	"name": "나이트메어",
 	"description": "일반 공격으로 적에게 <@ba.kw>마법 대미지</>",
 	"canUseGeneralPotentialItem": true,
+	"canUseActivityPotentialItem": false,
 	"potentialItemId": "p_char_164_nightm",
+	"activityPotentialItemId": null,
 	"nationId": "victoria",
 	"groupId": null,
 	"teamId": null,
@@ -53,7 +55,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -78,7 +82,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -111,7 +117,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -136,7 +144,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -185,7 +195,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -210,7 +222,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -412,7 +426,7 @@
 					"requiredPotentialRank": 0,
 					"prefabKey": "1",
 					"name": "이중인격",
-					"description": "스킬 1 설정 시 물리 및 마법 회피율 +20%, 스킬 2 장착 시 공격력 +9%",
+					"description": "스킬 1 사용 시 물리 및 마법 회피율 +20%, 스킬 2 사용 시 공격력 +9%",
 					"rangeId": null,
 					"blackboard": [
 						{
@@ -433,7 +447,7 @@
 					"requiredPotentialRank": 4,
 					"prefabKey": "1",
 					"name": "이중인격",
-					"description": "스킬 1 설정 시 물리 및 마법 회피율 +25%<@ba.talpu>(+5%)</>, 스킬 2 장착 시 공격력 +12%<@ba.talpu>(+3%)</>",
+					"description": "스킬 1 사용 시 물리 및 마법 회피율 +25%<@ba.talpu>(+5%)</>, 스킬 2 사용 시 공격력 +12%<@ba.talpu>(+3%)</>",
 					"rangeId": null,
 					"blackboard": [
 						{
@@ -454,7 +468,7 @@
 					"requiredPotentialRank": 0,
 					"prefabKey": "1",
 					"name": "이중인격",
-					"description": "스킬 1 설정 시 물리 및 마법 회피율 +40%, 스킬 2 장착 시 공격력 +15%",
+					"description": "스킬 1 사용 시 물리 및 마법 회피율 +40%, 스킬 2 사용 시 공격력 +15%",
 					"rangeId": null,
 					"blackboard": [
 						{
@@ -475,7 +489,7 @@
 					"requiredPotentialRank": 4,
 					"prefabKey": "1",
 					"name": "이중인격",
-					"description": "스킬 1 설정 시 물리 및 마법 회피율 +45%<@ba.talpu>(+5%)</>, 스킬 2 장착 시 공격력 +18%<@ba.talpu>(+3%)</>",
+					"description": "스킬 1 사용 시 물리 및 마법 회피율 +45%<@ba.talpu>(+5%)</>, 스킬 2 사용 시 공격력 +18%<@ba.talpu>(+3%)</>",
 					"rangeId": null,
 					"blackboard": [
 						{
@@ -614,7 +628,9 @@
 				"baseForceLevel": 0,
 				"stunImmune": false,
 				"silenceImmune": false,
-				"sleepImmune": false
+				"sleepImmune": false,
+				"frozenImmune": false,
+				"levitateImmune": false
 			}
 		},
 		{
@@ -639,7 +655,9 @@
 				"baseForceLevel": 0,
 				"stunImmune": false,
 				"silenceImmune": false,
-				"sleepImmune": false
+				"sleepImmune": false,
+				"frozenImmune": false,
+				"levitateImmune": false
 			}
 		}
 	],

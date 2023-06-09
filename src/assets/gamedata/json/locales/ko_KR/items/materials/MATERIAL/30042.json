@@ -6,14 +6,14 @@
 	"iconId": "MTL_SL_IRON2",
 	"overrideBkg": null,
 	"stackIconId": null,
-	"sortId": 100030,
+	"sortId": 100044,
 	"usage": "보기 드문 공업 재료. 제조소에서 합성 재료로 쓰이며 각종 강화에 사용된다.",
 	"obtainApproach": null,
 	"classifyType": "MATERIAL",
 	"itemType": "MATERIAL",
 	"stageDropList": [
 		{
-			"stageId": "act18d0_04",
+			"stageId": "act16side_05",
 			"occPer": "ALMOST"
 		},
 		{
@@ -41,6 +41,26 @@
 			"occPer": "ALMOST"
 		},
 		{
+			"stageId": "act18d0_04",
+			"occPer": "ALMOST"
+		},
+		{
+			"stageId": "act18d3_06",
+			"occPer": "ALMOST"
+		},
+		{
+			"stageId": "act13side_07",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "act13side_06",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "act10mini_05",
+			"occPer": "ALWAYS"
+		},
+		{
 			"stageId": "act4d0_04",
 			"occPer": "ALWAYS"
 		},
@@ -49,12 +69,20 @@
 			"occPer": "ALMOST"
 		},
 		{
-			"stageId": "act18d3_06",
-			"occPer": "ALMOST"
+			"stageId": "act20side_06",
+			"occPer": "USUAL"
 		},
 		{
-			"stageId": "main_09-14",
+			"stageId": "act19side_04",
 			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "act12mini_06",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "act18side_04",
+			"occPer": "ALMOST"
 		},
 		{
 			"stageId": "main_08-12",
@@ -74,6 +102,18 @@
 		},
 		{
 			"stageId": "main_02-01",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "main_11-05",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "main_09-14",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "tough_11-05",
 			"occPer": "USUAL"
 		},
 		{

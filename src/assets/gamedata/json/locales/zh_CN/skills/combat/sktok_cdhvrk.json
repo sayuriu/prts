@@ -1,0 +1,25 @@
+{
+	"skillId": "sktok_cdhvrk",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "超重，绝缘",
+			"rangeId": null,
+			"description": "处于待部署区时，使其他干员和导能单元的部署费用+2",
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 25,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": null,
+			"duration": -1,
+			"blackboard": []
+		}
+	]
+}

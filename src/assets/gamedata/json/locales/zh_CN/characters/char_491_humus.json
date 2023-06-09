@@ -1,0 +1,777 @@
+{
+	"name": "休谟斯",
+	"description": "无法被友方角色治疗，攻击造成<@ba.kw>群体伤害</>，每攻击到一个敌人回复自身<@ba.kw>{value}</>生命，最大生效数等于阻挡数",
+	"canUseGeneralPotentialItem": true,
+	"canUseActivityPotentialItem": false,
+	"potentialItemId": "p_char_491_humus",
+	"activityPotentialItemId": null,
+	"classicPotentialItemId": "class_p_char_491_humus",
+	"nationId": "rhodes",
+	"groupId": null,
+	"teamId": null,
+	"displayNumber": "R171",
+	"tokenKey": null,
+	"appellation": "Humus",
+	"position": "MELEE",
+	"tagList": [
+		"输出",
+		"生存"
+	],
+	"itemUsage": "废弃物处理专家休谟斯，坚信一切人与物都自有其用处。",
+	"itemDesc": "除了不修边幅什么都修。",
+	"itemObtainApproach": "招募寻访",
+	"isNotObtainable": false,
+	"isSpChar": false,
+	"maxPotentialLevel": 5,
+	"rarity": "TIER_4",
+	"profession": "WARRIOR",
+	"subProfessionId": "reaper",
+	"trait": {
+		"candidates": [
+			{
+				"unlockCondition": {
+					"phase": "PHASE_0",
+					"level": 1
+				},
+				"requiredPotentialRank": 0,
+				"blackboard": [
+					{
+						"key": "value",
+						"value": 50,
+						"valueStr": null
+					}
+				],
+				"overrideDescripton": "无法被友方角色治疗，攻击造成<@ba.kw>群体伤害</>，每攻击到一个敌人回复自身<@ba.kw>{value}</>生命，最大生效数等于阻挡数",
+				"prefabKey": null,
+				"rangeId": null
+			}
+		]
+	},
+	"phases": [
+		{
+			"characterPrefabKey": "char_491_humus",
+			"rangeId": "1-3",
+			"maxLevel": 45,
+			"attributesKeyFrames": [
+				{
+					"level": 1,
+					"data": {
+						"maxHp": 882,
+						"atk": 275,
+						"def": 194,
+						"magicResistance": 0,
+						"cost": 18,
+						"blockCnt": 1,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 1.3,
+						"respawnTime": 70,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
+					}
+				},
+				{
+					"level": 45,
+					"data": {
+						"maxHp": 1225,
+						"atk": 393,
+						"def": 266,
+						"magicResistance": 0,
+						"cost": 18,
+						"blockCnt": 1,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 1.3,
+						"respawnTime": 70,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
+					}
+				}
+			],
+			"evolveCost": null
+		},
+		{
+			"characterPrefabKey": "char_491_humus",
+			"rangeId": "1-3",
+			"maxLevel": 60,
+			"attributesKeyFrames": [
+				{
+					"level": 1,
+					"data": {
+						"maxHp": 1225,
+						"atk": 393,
+						"def": 266,
+						"magicResistance": 0,
+						"cost": 19,
+						"blockCnt": 2,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 1.3,
+						"respawnTime": 70,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
+					}
+				},
+				{
+					"level": 60,
+					"data": {
+						"maxHp": 1612,
+						"atk": 511,
+						"def": 342,
+						"magicResistance": 0,
+						"cost": 19,
+						"blockCnt": 2,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 1.3,
+						"respawnTime": 70,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
+					}
+				}
+			],
+			"evolveCost": [
+				{
+					"id": "3221",
+					"count": 3,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30012",
+					"count": 1,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30062",
+					"count": 1,
+					"type": "MATERIAL"
+				}
+			]
+		},
+		{
+			"characterPrefabKey": "char_491_humus",
+			"rangeId": "1-3",
+			"maxLevel": 70,
+			"attributesKeyFrames": [
+				{
+					"level": 1,
+					"data": {
+						"maxHp": 1612,
+						"atk": 511,
+						"def": 342,
+						"magicResistance": 0,
+						"cost": 21,
+						"blockCnt": 2,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 1.3,
+						"respawnTime": 70,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
+					}
+				},
+				{
+					"level": 70,
+					"data": {
+						"maxHp": 2150,
+						"atk": 616,
+						"def": 403,
+						"magicResistance": 0,
+						"cost": 21,
+						"blockCnt": 2,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 1.3,
+						"respawnTime": 70,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
+					}
+				}
+			],
+			"evolveCost": [
+				{
+					"id": "3222",
+					"count": 5,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30103",
+					"count": 11,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30023",
+					"count": 12,
+					"type": "MATERIAL"
+				}
+			]
+		}
+	],
+	"skills": [
+		{
+			"skillId": "skchr_humus_1",
+			"overridePrefabKey": null,
+			"overrideTokenKey": null,
+			"levelUpCostCond": [
+				{
+					"unlockCond": {
+						"phase": "PHASE_2",
+						"level": 1
+					},
+					"lvlUpTime": 28800,
+					"levelUpCost": [
+						{
+							"id": "3303",
+							"count": 2,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "31034",
+							"count": 1,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30083",
+							"count": 4,
+							"type": "MATERIAL"
+						}
+					]
+				},
+				{
+					"unlockCond": {
+						"phase": "PHASE_2",
+						"level": 1
+					},
+					"lvlUpTime": 57600,
+					"levelUpCost": [
+						{
+							"id": "3303",
+							"count": 4,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "31054",
+							"count": 2,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30044",
+							"count": 2,
+							"type": "MATERIAL"
+						}
+					]
+				},
+				{
+					"unlockCond": {
+						"phase": "PHASE_2",
+						"level": 1
+					},
+					"lvlUpTime": 86400,
+					"levelUpCost": [
+						{
+							"id": "3303",
+							"count": 6,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30125",
+							"count": 2,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30104",
+							"count": 2,
+							"type": "MATERIAL"
+						}
+					]
+				}
+			],
+			"unlockCond": {
+				"phase": "PHASE_0",
+				"level": 1
+			}
+		},
+		{
+			"skillId": "skchr_humus_2",
+			"overridePrefabKey": null,
+			"overrideTokenKey": null,
+			"levelUpCostCond": [
+				{
+					"unlockCond": {
+						"phase": "PHASE_2",
+						"level": 1
+					},
+					"lvlUpTime": 28800,
+					"levelUpCost": [
+						{
+							"id": "3303",
+							"count": 2,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "31014",
+							"count": 1,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "31053",
+							"count": 4,
+							"type": "MATERIAL"
+						}
+					]
+				},
+				{
+					"unlockCond": {
+						"phase": "PHASE_2",
+						"level": 1
+					},
+					"lvlUpTime": 57600,
+					"levelUpCost": [
+						{
+							"id": "3303",
+							"count": 4,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "31044",
+							"count": 2,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30054",
+							"count": 2,
+							"type": "MATERIAL"
+						}
+					]
+				},
+				{
+					"unlockCond": {
+						"phase": "PHASE_2",
+						"level": 1
+					},
+					"lvlUpTime": 86400,
+					"levelUpCost": [
+						{
+							"id": "3303",
+							"count": 6,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30135",
+							"count": 2,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "31034",
+							"count": 2,
+							"type": "MATERIAL"
+						}
+					]
+				}
+			],
+			"unlockCond": {
+				"phase": "PHASE_1",
+				"level": 1
+			}
+		}
+	],
+	"talents": [
+		{
+			"candidates": [
+				{
+					"unlockCondition": {
+						"phase": "PHASE_1",
+						"level": 1
+					},
+					"requiredPotentialRank": 0,
+					"prefabKey": "1",
+					"name": "再回收",
+					"description": "超出自身生命上限的生命值可转化为屏障；最多不超过自身最大生命值的60%",
+					"rangeId": null,
+					"blackboard": [
+						{
+							"key": "max_hp_ratio",
+							"value": 0.6,
+							"valueStr": null
+						}
+					]
+				},
+				{
+					"unlockCondition": {
+						"phase": "PHASE_1",
+						"level": 1
+					},
+					"requiredPotentialRank": 4,
+					"prefabKey": "1",
+					"name": "再回收",
+					"description": "超出自身生命上限的生命值可转化为屏障；最多不超过自身最大生命值的64%<@ba.talpu>（+4%）</>",
+					"rangeId": null,
+					"blackboard": [
+						{
+							"key": "max_hp_ratio",
+							"value": 0.64,
+							"valueStr": null
+						}
+					]
+				},
+				{
+					"unlockCondition": {
+						"phase": "PHASE_2",
+						"level": 1
+					},
+					"requiredPotentialRank": 0,
+					"prefabKey": "1",
+					"name": "再回收",
+					"description": "超出自身生命上限的生命值可转化为屏障；最多不超过自身最大生命值的100%",
+					"rangeId": null,
+					"blackboard": [
+						{
+							"key": "max_hp_ratio",
+							"value": 1,
+							"valueStr": null
+						}
+					]
+				},
+				{
+					"unlockCondition": {
+						"phase": "PHASE_2",
+						"level": 1
+					},
+					"requiredPotentialRank": 4,
+					"prefabKey": "1",
+					"name": "再回收",
+					"description": "超出自身生命上限的生命值可转化为屏障；最多不超过自身最大生命值的104%<@ba.talpu>（+4%）</>",
+					"rangeId": null,
+					"blackboard": [
+						{
+							"key": "max_hp_ratio",
+							"value": 1.04,
+							"valueStr": null
+						}
+					]
+				}
+			]
+		}
+	],
+	"potentialRanks": [
+		{
+			"type": "BUFF",
+			"description": "部署费用-1",
+			"buff": {
+				"attributes": {
+					"abnormalFlags": null,
+					"abnormalImmunes": null,
+					"abnormalAntis": null,
+					"abnormalCombos": null,
+					"abnormalComboImmunes": null,
+					"attributeModifiers": [
+						{
+							"attributeType": "COST",
+							"formulaItem": "ADDITION",
+							"value": -1,
+							"loadFromBlackboard": false,
+							"fetchBaseValueFromSourceEntity": false
+						}
+					]
+				}
+			},
+			"equivalentCost": null
+		},
+		{
+			"type": "BUFF",
+			"description": "再部署时间-4秒",
+			"buff": {
+				"attributes": {
+					"abnormalFlags": null,
+					"abnormalImmunes": null,
+					"abnormalAntis": null,
+					"abnormalCombos": null,
+					"abnormalComboImmunes": null,
+					"attributeModifiers": [
+						{
+							"attributeType": "RESPAWN_TIME",
+							"formulaItem": "ADDITION",
+							"value": -4,
+							"loadFromBlackboard": false,
+							"fetchBaseValueFromSourceEntity": false
+						}
+					]
+				}
+			},
+			"equivalentCost": null
+		},
+		{
+			"type": "BUFF",
+			"description": "攻击力+35",
+			"buff": {
+				"attributes": {
+					"abnormalFlags": null,
+					"abnormalImmunes": null,
+					"abnormalAntis": null,
+					"abnormalCombos": null,
+					"abnormalComboImmunes": null,
+					"attributeModifiers": [
+						{
+							"attributeType": "ATK",
+							"formulaItem": "ADDITION",
+							"value": 35,
+							"loadFromBlackboard": false,
+							"fetchBaseValueFromSourceEntity": false
+						}
+					]
+				}
+			},
+			"equivalentCost": null
+		},
+		{
+			"type": "CUSTOM",
+			"description": "天赋效果增强",
+			"buff": null,
+			"equivalentCost": null
+		},
+		{
+			"type": "BUFF",
+			"description": "部署费用-1",
+			"buff": {
+				"attributes": {
+					"abnormalFlags": null,
+					"abnormalImmunes": null,
+					"abnormalAntis": null,
+					"abnormalCombos": null,
+					"abnormalComboImmunes": null,
+					"attributeModifiers": [
+						{
+							"attributeType": "COST",
+							"formulaItem": "ADDITION",
+							"value": -1,
+							"loadFromBlackboard": false,
+							"fetchBaseValueFromSourceEntity": false
+						}
+					]
+				}
+			},
+			"equivalentCost": null
+		}
+	],
+	"favorKeyFrames": [
+		{
+			"level": 0,
+			"data": {
+				"maxHp": 0,
+				"atk": 0,
+				"def": 0,
+				"magicResistance": 0,
+				"cost": 0,
+				"blockCnt": 0,
+				"moveSpeed": 0,
+				"attackSpeed": 0,
+				"baseAttackTime": 0,
+				"respawnTime": 0,
+				"hpRecoveryPerSec": 0,
+				"spRecoveryPerSec": 0,
+				"maxDeployCount": 0,
+				"maxDeckStackCnt": 0,
+				"tauntLevel": 0,
+				"massLevel": 0,
+				"baseForceLevel": 0,
+				"stunImmune": false,
+				"silenceImmune": false,
+				"sleepImmune": false,
+				"frozenImmune": false,
+				"levitateImmune": false
+			}
+		},
+		{
+			"level": 50,
+			"data": {
+				"maxHp": 0,
+				"atk": 30,
+				"def": 30,
+				"magicResistance": 0,
+				"cost": 0,
+				"blockCnt": 0,
+				"moveSpeed": 0,
+				"attackSpeed": 0,
+				"baseAttackTime": 0,
+				"respawnTime": 0,
+				"hpRecoveryPerSec": 0,
+				"spRecoveryPerSec": 0,
+				"maxDeployCount": 0,
+				"maxDeckStackCnt": 0,
+				"tauntLevel": 0,
+				"massLevel": 0,
+				"baseForceLevel": 0,
+				"stunImmune": false,
+				"silenceImmune": false,
+				"sleepImmune": false,
+				"frozenImmune": false,
+				"levitateImmune": false
+			}
+		}
+	],
+	"allSkillLvlup": [
+		{
+			"unlockCond": {
+				"phase": "PHASE_0",
+				"level": 1
+			},
+			"lvlUpCost": [
+				{
+					"id": "3301",
+					"count": 2,
+					"type": "MATERIAL"
+				}
+			]
+		},
+		{
+			"unlockCond": {
+				"phase": "PHASE_0",
+				"level": 1
+			},
+			"lvlUpCost": [
+				{
+					"id": "3301",
+					"count": 2,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30061",
+					"count": 2,
+					"type": "MATERIAL"
+				}
+			]
+		},
+		{
+			"unlockCond": {
+				"phase": "PHASE_0",
+				"level": 1
+			},
+			"lvlUpCost": [
+				{
+					"id": "3302",
+					"count": 3,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30012",
+					"count": 2,
+					"type": "MATERIAL"
+				}
+			]
+		},
+		{
+			"unlockCond": {
+				"phase": "PHASE_1",
+				"level": 1
+			},
+			"lvlUpCost": [
+				{
+					"id": "3302",
+					"count": 3,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30022",
+					"count": 3,
+					"type": "MATERIAL"
+				}
+			]
+		},
+		{
+			"unlockCond": {
+				"phase": "PHASE_1",
+				"level": 1
+			},
+			"lvlUpCost": [
+				{
+					"id": "3302",
+					"count": 3,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30093",
+					"count": 2,
+					"type": "MATERIAL"
+				}
+			]
+		},
+		{
+			"unlockCond": {
+				"phase": "PHASE_1",
+				"level": 1
+			},
+			"lvlUpCost": [
+				{
+					"id": "3303",
+					"count": 4,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30033",
+					"count": 3,
+					"type": "MATERIAL"
+				}
+			]
+		}
+	]
+}

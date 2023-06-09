@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "FOUR_STAR",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "main_02-08",
@@ -14,7 +15,7 @@
 	],
 	"stageId": "act12side_ex02#f#",
 	"levelId": "Activities/ACT12SIDE/level_act12side_ex02",
-	"zoneId": "act12side_zone2",
+	"zoneId": "act12sre_zone2",
 	"code": "DH-EX-2",
 	"name": "サンシャインビーチ",
 	"description": "<@lv.fs>制限：</>\n<水兵長>と<水兵長搭乗クルーザー>の攻撃力と最大HPが上昇",
@@ -46,6 +47,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {

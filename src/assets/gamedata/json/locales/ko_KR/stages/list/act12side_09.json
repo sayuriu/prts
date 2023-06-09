@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act12side_08",
@@ -10,7 +11,7 @@
 	],
 	"stageId": "act12side_09",
 	"levelId": "Activities/ACT12SIDE/level_act12side_09",
-	"zoneId": "act12side_zone1",
+	"zoneId": "act12sre_zone1",
 	"code": "DH-9",
 	"name": "용쟁쥐투",
 	"description": "드론은 여전히 하늘에 떠 있고 방송은 계속 중계되고 있다. 위태로운 상황인데 오히려 대수롭지 않게 여긴다. 이게 도솔레스 스타일이다.\n<@lv.item><깊은 수역></> 해당 지역에 배치할 수 없으며, 적의 공격 속도 및 이동 속도 저하, 지속해서 HP를 잃는다\n<@lv.item><특제 수상 플랫폼></> 깊은 수역에 설치하여 그 위에 유닛을 배치할 수 있지만, 배치한 유닛이 퇴각하면 플랫폼도 파괴된다",
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {

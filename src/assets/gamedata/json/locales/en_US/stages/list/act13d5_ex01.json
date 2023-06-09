@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act13d5_08",
@@ -10,10 +11,10 @@
 	],
 	"stageId": "act13d5_ex01",
 	"levelId": "Activities/ACT13D5/level_act13d5_ex01",
-	"zoneId": "act13d5_zone2",
+	"zoneId": "act7sre_zone2",
 	"code": "MN-EX-1",
 	"name": "Power-on Test",
-	"description": "Devices used in some arenas to prevent Pincerbeasts from escaping, they often injure knights by accident. \n<@lv.item><Mieszko Coil></>Obtain Activation effect when within range of other Mieszko Coils.",
+	"description": "Devices used in some arenas to prevent gloompincers from escaping, they often injure knights by accident. \n<@lv.item><Mieszko Coil></>Obtain Activation effect when within range of other Mieszko Coils.",
 	"hardStagedId": "act13d5_ex01#f#",
 	"dangerLevel": "Elite 1 Lv. 40",
 	"dangerPoint": -1,
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {
@@ -52,7 +54,7 @@
 		"displayRewards": [
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act13d5_token_securities",
+				"id": "act13d5_token_securities_rep_1",
 				"dropType": 8
 			},
 			{
@@ -65,7 +67,7 @@
 			{
 				"occPercent": 0,
 				"type": "ACTIVITY_ITEM",
-				"id": "act13d5_token_securities",
+				"id": "act13d5_token_securities_rep_1",
 				"dropType": 8
 			},
 			{

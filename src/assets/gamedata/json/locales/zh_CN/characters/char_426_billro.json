@@ -2,7 +2,10 @@
 	"name": "卡涅利安",
 	"description": "通常时<@ba.kw>不攻击</>且防御力和法术抗性大幅度<@ba.kw>提升</>，技能开启时攻击造成<@ba.kw>群体法术伤害</>",
 	"canUseGeneralPotentialItem": true,
+	"canUseActivityPotentialItem": false,
 	"potentialItemId": "p_char_426_billro",
+	"activityPotentialItemId": null,
+	"classicPotentialItemId": null,
 	"nationId": "leithanien",
 	"groupId": null,
 	"teamId": null,
@@ -20,25 +23,27 @@
 	"isNotObtainable": false,
 	"isSpChar": false,
 	"maxPotentialLevel": 5,
-	"rarity": 5,
+	"rarity": "TIER_6",
 	"profession": "CASTER",
 	"subProfessionId": "phalanx",
 	"trait": {
 		"candidates": [
 			{
 				"unlockCondition": {
-					"phase": 0,
+					"phase": "PHASE_0",
 					"level": 1
 				},
 				"requiredPotentialRank": 0,
 				"blackboard": [
 					{
 						"key": "def",
-						"value": 2
+						"value": 2,
+						"valueStr": null
 					},
 					{
 						"key": "magic_resistance",
-						"value": 20
+						"value": 20,
+						"valueStr": null
 					}
 				],
 				"overrideDescripton": null,
@@ -76,7 +81,8 @@
 						"stunImmune": false,
 						"silenceImmune": false,
 						"sleepImmune": false,
-						"frozenImmune": false
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -102,7 +108,8 @@
 						"stunImmune": false,
 						"silenceImmune": false,
 						"sleepImmune": false,
-						"frozenImmune": false
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -136,7 +143,8 @@
 						"stunImmune": false,
 						"silenceImmune": false,
 						"sleepImmune": false,
-						"frozenImmune": false
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -162,7 +170,8 @@
 						"stunImmune": false,
 						"silenceImmune": false,
 						"sleepImmune": false,
-						"frozenImmune": false
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -212,7 +221,8 @@
 						"stunImmune": false,
 						"silenceImmune": false,
 						"sleepImmune": false,
-						"frozenImmune": false
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -238,7 +248,8 @@
 						"stunImmune": false,
 						"silenceImmune": false,
 						"sleepImmune": false,
-						"frozenImmune": false
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -269,7 +280,7 @@
 			"levelUpCostCond": [
 				{
 					"unlockCond": {
-						"phase": 2,
+						"phase": "PHASE_2",
 						"level": 1
 					},
 					"lvlUpTime": 28800,
@@ -293,7 +304,7 @@
 				},
 				{
 					"unlockCond": {
-						"phase": 2,
+						"phase": "PHASE_2",
 						"level": 1
 					},
 					"lvlUpTime": 57600,
@@ -317,7 +328,7 @@
 				},
 				{
 					"unlockCond": {
-						"phase": 2,
+						"phase": "PHASE_2",
 						"level": 1
 					},
 					"lvlUpTime": 86400,
@@ -341,7 +352,7 @@
 				}
 			],
 			"unlockCond": {
-				"phase": 0,
+				"phase": "PHASE_0",
 				"level": 1
 			}
 		},
@@ -352,7 +363,7 @@
 			"levelUpCostCond": [
 				{
 					"unlockCond": {
-						"phase": 2,
+						"phase": "PHASE_2",
 						"level": 1
 					},
 					"lvlUpTime": 28800,
@@ -376,7 +387,7 @@
 				},
 				{
 					"unlockCond": {
-						"phase": 2,
+						"phase": "PHASE_2",
 						"level": 1
 					},
 					"lvlUpTime": 57600,
@@ -400,7 +411,7 @@
 				},
 				{
 					"unlockCond": {
-						"phase": 2,
+						"phase": "PHASE_2",
 						"level": 1
 					},
 					"lvlUpTime": 86400,
@@ -424,7 +435,7 @@
 				}
 			],
 			"unlockCond": {
-				"phase": 1,
+				"phase": "PHASE_1",
 				"level": 1
 			}
 		},
@@ -435,7 +446,7 @@
 			"levelUpCostCond": [
 				{
 					"unlockCond": {
-						"phase": 2,
+						"phase": "PHASE_2",
 						"level": 1
 					},
 					"lvlUpTime": 28800,
@@ -459,7 +470,7 @@
 				},
 				{
 					"unlockCond": {
-						"phase": 2,
+						"phase": "PHASE_2",
 						"level": 1
 					},
 					"lvlUpTime": 57600,
@@ -483,7 +494,7 @@
 				},
 				{
 					"unlockCond": {
-						"phase": 2,
+						"phase": "PHASE_2",
 						"level": 1
 					},
 					"lvlUpTime": 86400,
@@ -507,7 +518,7 @@
 				}
 			],
 			"unlockCond": {
-				"phase": 2,
+				"phase": "PHASE_2",
 				"level": 1
 			}
 		}
@@ -517,7 +528,7 @@
 			"candidates": [
 				{
 					"unlockCondition": {
-						"phase": 1,
+						"phase": "PHASE_1",
 						"level": 1
 					},
 					"requiredPotentialRank": 0,
@@ -528,17 +539,19 @@
 					"blackboard": [
 						{
 							"key": "heal_scale",
-							"value": 0.3
+							"value": 0.3,
+							"valueStr": null
 						},
 						{
 							"key": "billro_t_1[enhance].heal_scale",
-							"value": 0.6
+							"value": 0.6,
+							"valueStr": null
 						}
 					]
 				},
 				{
 					"unlockCondition": {
-						"phase": 1,
+						"phase": "PHASE_1",
 						"level": 1
 					},
 					"requiredPotentialRank": 4,
@@ -549,17 +562,19 @@
 					"blackboard": [
 						{
 							"key": "heal_scale",
-							"value": 0.35
+							"value": 0.35,
+							"valueStr": null
 						},
 						{
 							"key": "billro_t_1[enhance].heal_scale",
-							"value": 0.7
+							"value": 0.7,
+							"valueStr": null
 						}
 					]
 				},
 				{
 					"unlockCondition": {
-						"phase": 2,
+						"phase": "PHASE_2",
 						"level": 1
 					},
 					"requiredPotentialRank": 0,
@@ -570,17 +585,19 @@
 					"blackboard": [
 						{
 							"key": "heal_scale",
-							"value": 0.4
+							"value": 0.4,
+							"valueStr": null
 						},
 						{
 							"key": "billro_t_1[enhance].heal_scale",
-							"value": 0.8
+							"value": 0.8,
+							"valueStr": null
 						}
 					]
 				},
 				{
 					"unlockCondition": {
-						"phase": 2,
+						"phase": "PHASE_2",
 						"level": 1
 					},
 					"requiredPotentialRank": 4,
@@ -591,11 +608,13 @@
 					"blackboard": [
 						{
 							"key": "heal_scale",
-							"value": 0.45
+							"value": 0.45,
+							"valueStr": null
 						},
 						{
 							"key": "billro_t_1[enhance].heal_scale",
-							"value": 0.9
+							"value": 0.9,
+							"valueStr": null
 						}
 					]
 				}
@@ -605,7 +624,7 @@
 			"candidates": [
 				{
 					"unlockCondition": {
-						"phase": 2,
+						"phase": "PHASE_2",
 						"level": 1
 					},
 					"requiredPotentialRank": 0,
@@ -616,7 +635,8 @@
 					"blackboard": [
 						{
 							"key": "sp_recovery_per_sec",
-							"value": 0.6
+							"value": 0.6,
+							"valueStr": null
 						}
 					]
 				}
@@ -625,7 +645,7 @@
 	],
 	"potentialRanks": [
 		{
-			"type": 0,
+			"type": "BUFF",
 			"description": "部署费用-1",
 			"buff": {
 				"attributes": {
@@ -636,8 +656,8 @@
 					"abnormalComboImmunes": null,
 					"attributeModifiers": [
 						{
-							"attributeType": 4,
-							"formulaItem": 0,
+							"attributeType": "COST",
+							"formulaItem": "ADDITION",
 							"value": -1,
 							"loadFromBlackboard": false,
 							"fetchBaseValueFromSourceEntity": false
@@ -648,7 +668,7 @@
 			"equivalentCost": null
 		},
 		{
-			"type": 0,
+			"type": "BUFF",
 			"description": "再部署时间-4秒",
 			"buff": {
 				"attributes": {
@@ -659,8 +679,8 @@
 					"abnormalComboImmunes": null,
 					"attributeModifiers": [
 						{
-							"attributeType": 21,
-							"formulaItem": 0,
+							"attributeType": "RESPAWN_TIME",
+							"formulaItem": "ADDITION",
 							"value": -4,
 							"loadFromBlackboard": false,
 							"fetchBaseValueFromSourceEntity": false
@@ -671,7 +691,7 @@
 			"equivalentCost": null
 		},
 		{
-			"type": 0,
+			"type": "BUFF",
 			"description": "攻击力+34",
 			"buff": {
 				"attributes": {
@@ -682,8 +702,8 @@
 					"abnormalComboImmunes": null,
 					"attributeModifiers": [
 						{
-							"attributeType": 1,
-							"formulaItem": 0,
+							"attributeType": "ATK",
+							"formulaItem": "ADDITION",
 							"value": 34,
 							"loadFromBlackboard": false,
 							"fetchBaseValueFromSourceEntity": false
@@ -694,13 +714,13 @@
 			"equivalentCost": null
 		},
 		{
-			"type": 1,
+			"type": "CUSTOM",
 			"description": "第一天赋效果增强",
 			"buff": null,
 			"equivalentCost": null
 		},
 		{
-			"type": 0,
+			"type": "BUFF",
 			"description": "部署费用-1",
 			"buff": {
 				"attributes": {
@@ -711,8 +731,8 @@
 					"abnormalComboImmunes": null,
 					"attributeModifiers": [
 						{
-							"attributeType": 4,
-							"formulaItem": 0,
+							"attributeType": "COST",
+							"formulaItem": "ADDITION",
 							"value": -1,
 							"loadFromBlackboard": false,
 							"fetchBaseValueFromSourceEntity": false
@@ -747,7 +767,8 @@
 				"stunImmune": false,
 				"silenceImmune": false,
 				"sleepImmune": false,
-				"frozenImmune": false
+				"frozenImmune": false,
+				"levitateImmune": false
 			}
 		},
 		{
@@ -773,14 +794,15 @@
 				"stunImmune": false,
 				"silenceImmune": false,
 				"sleepImmune": false,
-				"frozenImmune": false
+				"frozenImmune": false,
+				"levitateImmune": false
 			}
 		}
 	],
 	"allSkillLvlup": [
 		{
 			"unlockCond": {
-				"phase": 0,
+				"phase": "PHASE_0",
 				"level": 1
 			},
 			"lvlUpCost": [
@@ -793,7 +815,7 @@
 		},
 		{
 			"unlockCond": {
-				"phase": 0,
+				"phase": "PHASE_0",
 				"level": 1
 			},
 			"lvlUpCost": [
@@ -816,7 +838,7 @@
 		},
 		{
 			"unlockCond": {
-				"phase": 0,
+				"phase": "PHASE_0",
 				"level": 1
 			},
 			"lvlUpCost": [
@@ -834,7 +856,7 @@
 		},
 		{
 			"unlockCond": {
-				"phase": 1,
+				"phase": "PHASE_1",
 				"level": 1
 			},
 			"lvlUpCost": [
@@ -857,7 +879,7 @@
 		},
 		{
 			"unlockCond": {
-				"phase": 1,
+				"phase": "PHASE_1",
 				"level": 1
 			},
 			"lvlUpCost": [
@@ -875,7 +897,7 @@
 		},
 		{
 			"unlockCond": {
-				"phase": 1,
+				"phase": "PHASE_1",
 				"level": 1
 			},
 			"lvlUpCost": [

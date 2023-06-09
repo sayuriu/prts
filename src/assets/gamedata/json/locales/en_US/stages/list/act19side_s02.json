@@ -1,0 +1,95 @@
+{
+	"stageType": "ACTIVITY",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
+	"unlockCondition": [
+		{
+			"stageId": "act19side_06",
+			"completeState": 2
+		}
+	],
+	"stageId": "act19side_s02",
+	"levelId": "Activities/act19side/level_act19side_sub-1-2",
+	"zoneId": "act19side_zone1",
+	"code": "DV-S-2",
+	"name": "Checks and Balances",
+	"description": "She encounters the past, and gazes within herself. \n<@lv.hdbg><R-Series Power Armor></> Absorbs nearby experimental products to recover SP. Activates when SP is full. <@lv.hdbg>Some characters cannot be deployed in this stage.</>",
+	"hardStagedId": null,
+	"dangerLevel": "-",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_DV_Headquarters",
+	"canPractice": false,
+	"canBattleReplay": false,
+	"apCost": 0,
+	"apFailReturn": 0,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 0,
+	"diamondOnceDrop": 0,
+	"practiceTicketCost": -1,
+	"dailyStageDifficulty": 0,
+	"expGain": 0,
+	"goldGain": 0,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 0,
+	"completeFavor": 0,
+	"slProgress": 0,
+	"displayMainItem": null,
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 0,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "FURN",
+				"id": "furni_rhineLab_device_01",
+				"dropType": 1
+			},
+			{
+				"type": "MATERIAL",
+				"id": "mod_unlock_token",
+				"dropType": 1
+			},
+			{
+				"type": "GOLD",
+				"id": "4001",
+				"dropType": 1
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 0,
+				"type": "FURN",
+				"id": "furni_rhineLab_device_01",
+				"dropType": 1
+			},
+			{
+				"occPercent": 0,
+				"type": "MATERIAL",
+				"id": "mod_unlock_token",
+				"dropType": 1
+			},
+			{
+				"occPercent": 0,
+				"type": "GOLD",
+				"id": "4001",
+				"dropType": 1
+			}
+		]
+	},
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "act19side_st01"
+}

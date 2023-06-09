@@ -1,0 +1,84 @@
+{
+	"stageType": "ACTIVITY",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
+	"unlockCondition": [
+		{
+			"stageId": "act20side_ex03",
+			"completeState": 2
+		}
+	],
+	"stageId": "act20side_ex04",
+	"levelId": "Activities/ACT20SIDE/level_act20side_ex04",
+	"zoneId": "act20side_zone2",
+	"code": "IC-EX-4",
+	"name": "자리싸움",
+	"description": "모래성 애호가들이 발리볼 스파이크 카트로 인파를 쫓아내고 모래성을 지을 자리를 마련하고 싶었지만, 사람이 많아도 너무 많다.\n<@lv.item><자율차 출발점></> 배치 코스트를 소모하여 자율차 한 대 발사\n<@lv.item><자율차 트랙></> 통과하는 자율차의 방향 전환",
+	"hardStagedId": "act20side_ex04#f#",
+	"dangerLevel": "2차 정예화 Lv.20",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_IC_Street",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 15,
+	"apFailReturn": 14,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": 0,
+	"expGain": 150,
+	"goldGain": 150,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 14,
+	"completeFavor": 15,
+	"slProgress": 0,
+	"displayMainItem": null,
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 0,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act20side_token_book",
+				"dropType": 8
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 0,
+				"type": "ACTIVITY_ITEM",
+				"id": "act20side_token_book",
+				"dropType": 8
+			},
+			{
+				"occPercent": 0,
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		]
+	},
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "act20side_ex01"
+}

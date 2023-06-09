@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act12side_s01",
@@ -10,7 +11,7 @@
 	],
 	"stageId": "act12side_s02",
 	"levelId": "Activities/ACT12SIDE/level_act12side_sub-1-2",
-	"zoneId": "act12side_zone3",
+	"zoneId": "act12sre_zone3",
 	"code": "DH-S-2",
 	"name": "龍争鼠闘",
 	"description": "リン・ユーシャの考えでは、交渉の先に暴力を示すのが、物事が上手くいくコツだ。ついでに、もともとそのつもりであったことだし。\n<@lv.item><満ち潮></>海水に沈んだマスへの配置不可。海水に浸かったユニットは敵味方関係なく【水蝕】状態になる\n<@lv.rem><特殊条件></>【水蝕】による侵蝕ダメージが上昇、<無人爆弾ボート改>のHP減少速度が低下",
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {

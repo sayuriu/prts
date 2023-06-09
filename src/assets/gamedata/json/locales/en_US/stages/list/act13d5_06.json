@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act13d5_05",
@@ -10,10 +11,10 @@
 	],
 	"stageId": "act13d5_06",
 	"levelId": "Activities/ACT13D5/level_act13d5_06",
-	"zoneId": "act13d5_zone1",
+	"zoneId": "act7sre_zone1",
 	"code": "MN-6",
 	"name": "Blue Ear Wine Cellar",
-	"description": "Featuring imported barley from Columbia, Blue Ear Beer goes perfect with the nightly matches! Now with three brand new flavors: salted vegetables, bacon and gemstones! n<@lv.item><Turrets></>Periodically fire bolts, dealing Physical damage to allied units.",
+	"description": "Featuring imported barley from Columbia, Blue Ear Beer goes perfect with the nightly matches! Now with three brand new flavors: salted vegetables, bacon and gemstones! \n<@lv.item><Turrets></>Periodically fire bolts, dealing Physical damage to our units.",
 	"hardStagedId": null,
 	"dangerLevel": "Elite 1 Lv. 50",
 	"dangerPoint": -1,
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {
@@ -52,12 +54,12 @@
 		"displayRewards": [
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act13d5_token_securities",
+				"id": "act13d5_token_securities_rep_1",
 				"dropType": 8
 			},
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act13d5_token_securities",
+				"id": "act13d5_token_securities_rep_1",
 				"dropType": 2
 			},
 			{
@@ -75,13 +77,13 @@
 			{
 				"occPercent": 0,
 				"type": "ACTIVITY_ITEM",
-				"id": "act13d5_token_securities",
+				"id": "act13d5_token_securities_rep_1",
 				"dropType": 8
 			},
 			{
 				"occPercent": 0,
 				"type": "ACTIVITY_ITEM",
-				"id": "act13d5_token_securities",
+				"id": "act13d5_token_securities_rep_1",
 				"dropType": 2
 			},
 			{

@@ -1,0 +1,36 @@
+{
+	"skillId": "sktok_paras",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "繁衍",
+			"rangeId": null,
+			"description": "部署后，生成<@ba.vup>{cnt}</>个<@ba.vup>荧壳源石虫</>",
+			"skillType": "PASSIVE",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": "sktok_paras",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "cnt",
+					"value": 2,
+					"valueStr": null
+				},
+				{
+					"key": "offset_bound",
+					"value": 0.3,
+					"valueStr": null
+				}
+			]
+		}
+	]
+}

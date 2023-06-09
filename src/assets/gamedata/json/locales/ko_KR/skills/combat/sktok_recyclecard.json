@@ -1,0 +1,34 @@
+{
+	"skillId": "sktok_recyclecard",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "재정비",
+			"rangeId": "1-1",
+			"description": "배치 시 전방의 오퍼레이터 1명을 즉시 배치 구역으로 퇴각시키고 재배치 시간 <@ba.vup>-95%</>, 배치 코스트 <@ba.vup>{value}</>, 전승받은 모든 전술 장비 보류\n<@ba.rem>발동 후 소멸(이번 전투에서 다시 출현하지 않음)</>",
+			"skillType": 2,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "sktok_recyclecard",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "respawn_time",
+					"value": 0.05
+				},
+				{
+					"key": "value",
+					"value": -30
+				}
+			]
+		}
+	]
+}

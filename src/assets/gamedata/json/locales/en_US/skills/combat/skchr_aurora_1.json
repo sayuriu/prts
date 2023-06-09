@@ -1,0 +1,357 @@
+{
+	"skillId": "skchr_aurora_1",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "Homeland Protector",
+			"rangeId": null,
+			"description": "Block <@ba.vup>+{block_cnt}</>, DEF <@ba.vup>+{def:0%}</> and gain <$ba.buffres>Resist</>\n<@ba.rem>Aurora is <$ba.stun>Stunned</> for {stun} seconds after skill duration</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 28,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_aurora_1",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "def",
+					"value": 0.6
+				},
+				{
+					"key": "block_cnt",
+					"value": 2
+				},
+				{
+					"key": "stun",
+					"value": 5
+				},
+				{
+					"key": "one_minus_status_resistance",
+					"value": -0.5
+				}
+			]
+		},
+		{
+			"name": "Homeland Protector",
+			"rangeId": null,
+			"description": "Block <@ba.vup>+{block_cnt}</>, DEF <@ba.vup>+{def:0%}</> and gain <$ba.buffres>Resist</>\n<@ba.rem>Aurora is <$ba.stun>Stunned</> for {stun} seconds after skill duration</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 28,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_aurora_1",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "def",
+					"value": 0.8
+				},
+				{
+					"key": "block_cnt",
+					"value": 2
+				},
+				{
+					"key": "stun",
+					"value": 5
+				},
+				{
+					"key": "one_minus_status_resistance",
+					"value": -0.5
+				}
+			]
+		},
+		{
+			"name": "Homeland Protector",
+			"rangeId": null,
+			"description": "Block <@ba.vup>+{block_cnt}</>, DEF <@ba.vup>+{def:0%}</> and gain <$ba.buffres>Resist</>\n<@ba.rem>Aurora is <$ba.stun>Stunned</> for {stun} seconds after skill duration</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 26,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_aurora_1",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "def",
+					"value": 1
+				},
+				{
+					"key": "block_cnt",
+					"value": 2
+				},
+				{
+					"key": "stun",
+					"value": 5
+				},
+				{
+					"key": "one_minus_status_resistance",
+					"value": -0.5
+				}
+			]
+		},
+		{
+			"name": "Homeland Protector",
+			"rangeId": null,
+			"description": "Block <@ba.vup>+{block_cnt}</>, DEF <@ba.vup>+{def:0%}</> and gain <$ba.buffres>Resist</>\n<@ba.rem>Aurora is <$ba.stun>Stunned</> for {stun} seconds after skill duration</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 26,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_aurora_1",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "def",
+					"value": 1.2
+				},
+				{
+					"key": "block_cnt",
+					"value": 2
+				},
+				{
+					"key": "stun",
+					"value": 5
+				},
+				{
+					"key": "one_minus_status_resistance",
+					"value": -0.5
+				}
+			]
+		},
+		{
+			"name": "Homeland Protector",
+			"rangeId": null,
+			"description": "Block <@ba.vup>+{block_cnt}</>, DEF <@ba.vup>+{def:0%}</> and gain <$ba.buffres>Resist</>\n<@ba.rem>Aurora is <$ba.stun>Stunned</> for {stun} seconds after skill duration</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 24,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_aurora_1",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "def",
+					"value": 1.4
+				},
+				{
+					"key": "block_cnt",
+					"value": 2
+				},
+				{
+					"key": "stun",
+					"value": 5
+				},
+				{
+					"key": "one_minus_status_resistance",
+					"value": -0.5
+				}
+			]
+		},
+		{
+			"name": "Homeland Protector",
+			"rangeId": null,
+			"description": "Block <@ba.vup>+{block_cnt}</>, DEF <@ba.vup>+{def:0%}</> and gain <$ba.buffres>Resist</>\n<@ba.rem>Aurora is <$ba.stun>Stunned</> for {stun} seconds after skill duration</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 24,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_aurora_1",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "def",
+					"value": 1.6
+				},
+				{
+					"key": "block_cnt",
+					"value": 2
+				},
+				{
+					"key": "stun",
+					"value": 5
+				},
+				{
+					"key": "one_minus_status_resistance",
+					"value": -0.5
+				}
+			]
+		},
+		{
+			"name": "Homeland Protector",
+			"rangeId": null,
+			"description": "Block <@ba.vup>+{block_cnt}</>, DEF <@ba.vup>+{def:0%}</> and gain <$ba.buffres>Resist</>\n<@ba.rem>Aurora is <$ba.stun>Stunned</> for {stun} seconds after skill duration</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 22,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_aurora_1",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "def",
+					"value": 1.8
+				},
+				{
+					"key": "block_cnt",
+					"value": 2
+				},
+				{
+					"key": "stun",
+					"value": 5
+				},
+				{
+					"key": "one_minus_status_resistance",
+					"value": -0.5
+				}
+			]
+		},
+		{
+			"name": "Homeland Protector",
+			"rangeId": null,
+			"description": "Block <@ba.vup>+{block_cnt}</>, DEF <@ba.vup>+{def:0%}</> and gain <$ba.buffres>Resist</>\n<@ba.rem>Aurora is <$ba.stun>Stunned</> for {stun} seconds after skill duration</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 22,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_aurora_1",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "def",
+					"value": 1.9
+				},
+				{
+					"key": "block_cnt",
+					"value": 2
+				},
+				{
+					"key": "stun",
+					"value": 5
+				},
+				{
+					"key": "one_minus_status_resistance",
+					"value": -0.5
+				}
+			]
+		},
+		{
+			"name": "Homeland Protector",
+			"rangeId": null,
+			"description": "Block <@ba.vup>+{block_cnt}</>, DEF <@ba.vup>+{def:0%}</> and gain <$ba.buffres>Resist</>\n<@ba.rem>Aurora is <$ba.stun>Stunned</> for {stun} seconds after skill duration</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 20,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_aurora_1",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "def",
+					"value": 2
+				},
+				{
+					"key": "block_cnt",
+					"value": 2
+				},
+				{
+					"key": "stun",
+					"value": 5
+				},
+				{
+					"key": "one_minus_status_resistance",
+					"value": -0.5
+				}
+			]
+		},
+		{
+			"name": "Homeland Protector",
+			"rangeId": null,
+			"description": "Block <@ba.vup>+{block_cnt}</>, DEF <@ba.vup>+{def:0%}</> and gain <$ba.buffres>Resist</>\n<@ba.rem>Aurora is <$ba.stun>Stunned</> for {stun} seconds after skill duration</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 20,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_aurora_1",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "def",
+					"value": 2.1
+				},
+				{
+					"key": "block_cnt",
+					"value": 2
+				},
+				{
+					"key": "stun",
+					"value": 5
+				},
+				{
+					"key": "one_minus_status_resistance",
+					"value": -0.5
+				}
+			]
+		}
+	]
+}

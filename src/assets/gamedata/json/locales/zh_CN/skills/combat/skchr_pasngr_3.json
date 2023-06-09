@@ -7,10 +7,10 @@
 			"name": "辉煌裂片",
 			"rangeId": "x-3",
 			"description": "立即寻找大范围内生命值最高的目标，在其位置生成持续<@ba.vup>{duration}</>秒的雷暴区域，期间每<@ba.vup>{interval}</>秒以<@ba.vup>{atk_scale:0%}</>的攻击力对雷暴区域内的随机敌人进行一次额外攻击；<@ba.rem>可充能{ct}次</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 2,
 				"spCost": 35,
@@ -22,31 +22,38 @@
 			"blackboard": [
 				{
 					"key": "atk_scale",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 4
+					"value": 4,
+					"valueStr": null
 				},
 				{
 					"key": "ct",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				},
 				{
 					"key": "projectile_delay_time",
-					"value": 4
+					"value": 4,
+					"valueStr": null
 				},
 				{
 					"key": "interval",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				},
 				{
 					"key": "chain.max_target",
-					"value": 4
+					"value": 4,
+					"valueStr": null
 				},
 				{
 					"key": "sluggish",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				}
 			]
 		},
@@ -54,10 +61,10 @@
 			"name": "辉煌裂片",
 			"rangeId": "x-3",
 			"description": "立即寻找大范围内生命值最高的目标，在其位置生成持续<@ba.vup>{duration}</>秒的雷暴区域，期间每<@ba.vup>{interval}</>秒以<@ba.vup>{atk_scale:0%}</>的攻击力对雷暴区域内的随机敌人进行一次额外攻击；<@ba.rem>可充能{ct}次</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 2,
 				"spCost": 35,
@@ -69,31 +76,38 @@
 			"blackboard": [
 				{
 					"key": "atk_scale",
-					"value": 1.05
+					"value": 1.05,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 4
+					"value": 4,
+					"valueStr": null
 				},
 				{
 					"key": "ct",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				},
 				{
 					"key": "projectile_delay_time",
-					"value": 4
+					"value": 4,
+					"valueStr": null
 				},
 				{
 					"key": "interval",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				},
 				{
 					"key": "chain.max_target",
-					"value": 4
+					"value": 4,
+					"valueStr": null
 				},
 				{
 					"key": "sluggish",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				}
 			]
 		},
@@ -101,10 +115,10 @@
 			"name": "辉煌裂片",
 			"rangeId": "x-3",
 			"description": "立即寻找大范围内生命值最高的目标，在其位置生成持续<@ba.vup>{duration}</>秒的雷暴区域，期间每<@ba.vup>{interval}</>秒以<@ba.vup>{atk_scale:0%}</>的攻击力对雷暴区域内的随机敌人进行一次额外攻击；<@ba.rem>可充能{ct}次</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 2,
 				"spCost": 35,
@@ -116,31 +130,38 @@
 			"blackboard": [
 				{
 					"key": "atk_scale",
-					"value": 1.1
+					"value": 1.1,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 4
+					"value": 4,
+					"valueStr": null
 				},
 				{
 					"key": "ct",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				},
 				{
 					"key": "projectile_delay_time",
-					"value": 4
+					"value": 4,
+					"valueStr": null
 				},
 				{
 					"key": "interval",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				},
 				{
 					"key": "chain.max_target",
-					"value": 4
+					"value": 4,
+					"valueStr": null
 				},
 				{
 					"key": "sluggish",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				}
 			]
 		},
@@ -148,10 +169,10 @@
 			"name": "辉煌裂片",
 			"rangeId": "x-3",
 			"description": "立即寻找大范围内生命值最高的目标，在其位置生成持续<@ba.vup>{duration}</>秒的雷暴区域，期间每<@ba.vup>{interval}</>秒以<@ba.vup>{atk_scale:0%}</>的攻击力对雷暴区域内的随机敌人进行一次额外攻击；<@ba.rem>可充能{ct}次</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 2,
 				"spCost": 35,
@@ -163,31 +184,38 @@
 			"blackboard": [
 				{
 					"key": "atk_scale",
-					"value": 1.15
+					"value": 1.15,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 4
+					"value": 4,
+					"valueStr": null
 				},
 				{
 					"key": "ct",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				},
 				{
 					"key": "projectile_delay_time",
-					"value": 4
+					"value": 4,
+					"valueStr": null
 				},
 				{
 					"key": "interval",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				},
 				{
 					"key": "chain.max_target",
-					"value": 4
+					"value": 4,
+					"valueStr": null
 				},
 				{
 					"key": "sluggish",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				}
 			]
 		},
@@ -195,10 +223,10 @@
 			"name": "辉煌裂片",
 			"rangeId": "x-3",
 			"description": "立即寻找大范围内生命值最高的目标，在其位置生成持续<@ba.vup>{duration}</>秒的雷暴区域，期间每<@ba.vup>{interval}</>秒以<@ba.vup>{atk_scale:0%}</>的攻击力对雷暴区域内的随机敌人进行一次额外攻击；<@ba.rem>可充能{ct}次</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 2,
 				"spCost": 35,
@@ -210,31 +238,38 @@
 			"blackboard": [
 				{
 					"key": "atk_scale",
-					"value": 1.2
+					"value": 1.2,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 4
+					"value": 4,
+					"valueStr": null
 				},
 				{
 					"key": "ct",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				},
 				{
 					"key": "projectile_delay_time",
-					"value": 4
+					"value": 4,
+					"valueStr": null
 				},
 				{
 					"key": "interval",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				},
 				{
 					"key": "chain.max_target",
-					"value": 4
+					"value": 4,
+					"valueStr": null
 				},
 				{
 					"key": "sluggish",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				}
 			]
 		},
@@ -242,10 +277,10 @@
 			"name": "辉煌裂片",
 			"rangeId": "x-3",
 			"description": "立即寻找大范围内生命值最高的目标，在其位置生成持续<@ba.vup>{duration}</>秒的雷暴区域，期间每<@ba.vup>{interval}</>秒以<@ba.vup>{atk_scale:0%}</>的攻击力对雷暴区域内的随机敌人进行一次额外攻击；<@ba.rem>可充能{ct}次</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 2,
 				"spCost": 35,
@@ -257,31 +292,38 @@
 			"blackboard": [
 				{
 					"key": "atk_scale",
-					"value": 1.25
+					"value": 1.25,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 4
+					"value": 4,
+					"valueStr": null
 				},
 				{
 					"key": "ct",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				},
 				{
 					"key": "projectile_delay_time",
-					"value": 4
+					"value": 4,
+					"valueStr": null
 				},
 				{
 					"key": "interval",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				},
 				{
 					"key": "chain.max_target",
-					"value": 4
+					"value": 4,
+					"valueStr": null
 				},
 				{
 					"key": "sluggish",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				}
 			]
 		},
@@ -289,10 +331,10 @@
 			"name": "辉煌裂片",
 			"rangeId": "x-3",
 			"description": "立即寻找大范围内生命值最高的目标，在其位置生成持续<@ba.vup>{duration}</>秒的雷暴区域，期间每<@ba.vup>{interval}</>秒以<@ba.vup>{atk_scale:0%}</>的攻击力对雷暴区域内的随机敌人进行一次额外攻击；<@ba.rem>可充能{ct}次</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 2,
 				"spCost": 34,
@@ -304,31 +346,38 @@
 			"blackboard": [
 				{
 					"key": "atk_scale",
-					"value": 1.3
+					"value": 1.3,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 4
+					"value": 4,
+					"valueStr": null
 				},
 				{
 					"key": "ct",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				},
 				{
 					"key": "projectile_delay_time",
-					"value": 4
+					"value": 4,
+					"valueStr": null
 				},
 				{
 					"key": "interval",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				},
 				{
 					"key": "chain.max_target",
-					"value": 4
+					"value": 4,
+					"valueStr": null
 				},
 				{
 					"key": "sluggish",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				}
 			]
 		},
@@ -336,10 +385,10 @@
 			"name": "辉煌裂片",
 			"rangeId": "x-3",
 			"description": "立即寻找大范围内生命值最高的目标，在其位置生成持续<@ba.vup>{duration}</>秒的雷暴区域，期间每<@ba.vup>{interval}</>秒以<@ba.vup>{atk_scale:0%}</>的攻击力对雷暴区域内的随机敌人进行一次额外攻击；<@ba.rem>可充能{ct}次</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 2,
 				"spCost": 33,
@@ -351,31 +400,38 @@
 			"blackboard": [
 				{
 					"key": "atk_scale",
-					"value": 1.35
+					"value": 1.35,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 4
+					"value": 4,
+					"valueStr": null
 				},
 				{
 					"key": "ct",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				},
 				{
 					"key": "projectile_delay_time",
-					"value": 4
+					"value": 4,
+					"valueStr": null
 				},
 				{
 					"key": "interval",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				},
 				{
 					"key": "chain.max_target",
-					"value": 4
+					"value": 4,
+					"valueStr": null
 				},
 				{
 					"key": "sluggish",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				}
 			]
 		},
@@ -383,10 +439,10 @@
 			"name": "辉煌裂片",
 			"rangeId": "x-3",
 			"description": "立即寻找大范围内生命值最高的目标，在其位置生成持续<@ba.vup>{duration}</>秒的雷暴区域，期间每<@ba.vup>{interval}</>秒以<@ba.vup>{atk_scale:0%}</>的攻击力对雷暴区域内的随机敌人进行一次额外攻击；<@ba.rem>可充能{ct}次</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 2,
 				"spCost": 32,
@@ -398,31 +454,38 @@
 			"blackboard": [
 				{
 					"key": "atk_scale",
-					"value": 1.4
+					"value": 1.4,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 4
+					"value": 4,
+					"valueStr": null
 				},
 				{
 					"key": "ct",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				},
 				{
 					"key": "projectile_delay_time",
-					"value": 4
+					"value": 4,
+					"valueStr": null
 				},
 				{
 					"key": "interval",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				},
 				{
 					"key": "chain.max_target",
-					"value": 4
+					"value": 4,
+					"valueStr": null
 				},
 				{
 					"key": "sluggish",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				}
 			]
 		},
@@ -430,10 +493,10 @@
 			"name": "辉煌裂片",
 			"rangeId": "x-3",
 			"description": "立即寻找大范围内生命值最高的目标，在其位置生成持续<@ba.vup>{duration}</>秒的雷暴区域，期间每<@ba.vup>{interval}</>秒以<@ba.vup>{atk_scale:0%}</>的攻击力对雷暴区域内的随机敌人进行一次额外攻击；<@ba.rem>可充能{ct}次</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 2,
 				"spCost": 30,
@@ -445,31 +508,38 @@
 			"blackboard": [
 				{
 					"key": "atk_scale",
-					"value": 1.5
+					"value": 1.5,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 4
+					"value": 4,
+					"valueStr": null
 				},
 				{
 					"key": "ct",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				},
 				{
 					"key": "projectile_delay_time",
-					"value": 4
+					"value": 4,
+					"valueStr": null
 				},
 				{
 					"key": "interval",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				},
 				{
 					"key": "chain.max_target",
-					"value": 4
+					"value": 4,
+					"valueStr": null
 				},
 				{
 					"key": "sluggish",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				}
 			]
 		}

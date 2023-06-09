@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "main_01-10",
@@ -10,7 +11,7 @@
 	],
 	"stageId": "act12side_s01",
 	"levelId": "Activities/ACT12SIDE/level_act12side_sub-1-1",
-	"zoneId": "act12side_zone3",
+	"zoneId": "act12sre_zone3",
 	"code": "DH-S-1",
 	"name": "귀신이 곡할 노릇",
 	"description": "호시구마와 스와이어는 눈앞의 갱단을 처리할 계획이지만, 첸도 이들을 쫓고 있다는 사실은 모른다.\n<@lv.item><밀물></> 침수된 지역에 배치할 수 없으며 적군과 아군 모두 '수식' 상태에 빠진다\n<@lv.rem><추가 조건></> 적군의 기본 스탯 대폭 상승",
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {

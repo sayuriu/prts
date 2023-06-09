@@ -2,7 +2,9 @@
 	"name": "ドーベルマン",
 	"description": "攻撃距離が<@ba.kw>やや長い</>、自身がブロックしていない敵を攻撃時、攻撃力が120％まで上昇",
 	"canUseGeneralPotentialItem": true,
+	"canUseActivityPotentialItem": false,
 	"potentialItemId": "p_char_130_doberm",
+	"activityPotentialItemId": null,
 	"nationId": "rhodes",
 	"groupId": null,
 	"teamId": null,
@@ -71,7 +73,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -96,7 +100,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -129,7 +135,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -154,7 +162,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -203,7 +213,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -228,7 +240,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -447,7 +461,7 @@
 					"requiredPotentialRank": 4,
 					"prefabKey": "1",
 					"name": "新人担当教官",
-					"description": "配置中、★3ユニットの攻撃力+6%<@ba.talpu>(+1%)",
+					"description": "配置中、★3ユニットの攻撃力+6%<@ba.talpu>（+1%）</>",
 					"rangeId": "x-4",
 					"blackboard": [
 						{
@@ -481,7 +495,7 @@
 					"requiredPotentialRank": 4,
 					"prefabKey": "1",
 					"name": "新人担当教官",
-					"description": "配置中、★3ユニットの攻撃力+11%<@ba.talpu>(+1%)</>",
+					"description": "配置中、★3ユニットの攻撃力+11%<@ba.talpu>（+1%）</>",
 					"rangeId": "x-4",
 					"blackboard": [
 						{
@@ -496,7 +510,7 @@
 	"potentialRanks": [
 		{
 			"type": 0,
-			"description": "コスト-1",
+			"description": "配置コスト-1",
 			"buff": {
 				"attributes": {
 					"abnormalFlags": null,
@@ -571,7 +585,7 @@
 		},
 		{
 			"type": 0,
-			"description": "コスト-1",
+			"description": "配置コスト-1",
 			"buff": {
 				"attributes": {
 					"abnormalFlags": null,
@@ -616,7 +630,9 @@
 				"baseForceLevel": 0,
 				"stunImmune": false,
 				"silenceImmune": false,
-				"sleepImmune": false
+				"sleepImmune": false,
+				"frozenImmune": false,
+				"levitateImmune": false
 			}
 		},
 		{
@@ -641,7 +657,9 @@
 				"baseForceLevel": 0,
 				"stunImmune": false,
 				"silenceImmune": false,
-				"sleepImmune": false
+				"sleepImmune": false,
+				"frozenImmune": false,
+				"levitateImmune": false
 			}
 		}
 	],

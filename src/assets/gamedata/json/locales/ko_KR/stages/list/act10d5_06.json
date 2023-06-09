@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act10d5_05",
@@ -13,7 +14,7 @@
 	"zoneId": "act10d5_zone1",
 	"code": "SV-6",
 	"name": "너덜너덜한 옷차림",
-	"description": "공격은 최선의 방어라고 하지만, 적도 가끔은 같은 생각을 한다.\n<@lv.item><부식된 지표면></>해당 지형에 배치한 아군 유닛 방어력 반감\n<@lv.item><방해지뢰></>폭발 시 주변의 모든 적에게 대량의 대미지 및 15초간 받는 대미지 증가\n<@act.timeLimit>오픈 시간: 9/29 16:00 ~ 10/13 03:59</>",
+	"description": "공격은 최선의 방어라고 하지만, 적도 가끔은 같은 생각을 한다.\n<@lv.item><부식된 지표면></> 해당 지형에 배치한 아군의 방어력 절반 감소\n<@lv.item><방해지뢰></>폭발 시 주변의 모든 적에게 대량의 대미지 및 15초간 받는 대미지 증가\n<@act.timeLimit>오픈 시간: 9/29 16:00 ~ 10/13 03:59</>",
 	"hardStagedId": "act10d5_06#f#",
 	"dangerLevel": "2차 정예화 Lv.25",
 	"dangerPoint": -1,
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {

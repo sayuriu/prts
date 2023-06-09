@@ -1,0 +1,90 @@
+{
+	"stageType": "ACTIVITY",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
+	"unlockCondition": [
+		{
+			"stageId": "act23side_st03",
+			"completeState": "PASS"
+		}
+	],
+	"stageId": "act23side_ex01",
+	"levelId": "Activities/act23side/level_act23side_ex01",
+	"zoneId": "act23side_zone2",
+	"code": "WB-EX-1",
+	"name": "榜上有名",
+	"description": "玉门尚武，能进得了那擂台榜，哪怕排在末尾，客栈里也会有人敬你几碗烈刀子。\\n<@lv.item><玉门天灾工事></>置于其中的单位对地面单位造成的伤害提升，受到来自地面单位的伤害降低\\n<@lv.item><城防路障></>可以阻挡多名敌人",
+	"hardStagedId": "act23side_ex01#f#",
+	"dangerLevel": "精英1 LV.50",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_WB_Desert",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 10,
+	"apFailReturn": 9,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": 0,
+	"expGain": 100,
+	"goldGain": 100,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 9,
+	"completeFavor": 10,
+	"slProgress": 0,
+	"displayMainItem": null,
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": "MAIN_NORMAL",
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act23side_token_spirit",
+				"dropType": "COMPLETE"
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": "COMPLETE"
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": "ALWAYS",
+				"type": "ACTIVITY_ITEM",
+				"id": "act23side_token_spirit",
+				"dropType": "COMPLETE"
+			},
+			{
+				"occPercent": "ALWAYS",
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": "COMPLETE"
+			}
+		]
+	},
+	"canUseCharm": false,
+	"canUseTech": false,
+	"canUseTrapTool": false,
+	"canUseBattlePerformance": false,
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "act23side_ex01",
+	"extraCondition": null,
+	"extraInfo": null
+}

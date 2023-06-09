@@ -1,0 +1,861 @@
+{
+	"name": "니어 더 래디언트 나이트",
+	"description": "적 1명 저지 가능",
+	"canUseGeneralPotentialItem": true,
+	"canUseActivityPotentialItem": false,
+	"potentialItemId": "p_char_1014_nearl2",
+	"activityPotentialItemId": null,
+	"nationId": "kazimierz",
+	"groupId": null,
+	"teamId": null,
+	"displayNumber": "KZ01",
+	"tokenKey": "token_10019_nearl2_sword",
+	"appellation": "Nearl the Radiant Knight",
+	"position": "MELEE",
+	"tagList": [
+		"딜러"
+	],
+	"itemUsage": "니어 더 래디언트 나이트. 뜨거운 태양과 함께 역경을 뚫고 카시미어에서 당신 곁으로 돌아왔습니다.",
+	"itemDesc": "그녀가 있어 여전히 안심된다.",
+	"itemObtainApproach": "인재 채용",
+	"isNotObtainable": false,
+	"isSpChar": true,
+	"maxPotentialLevel": 5,
+	"rarity": 5,
+	"profession": "WARRIOR",
+	"subProfessionId": "fearless",
+	"trait": null,
+	"phases": [
+		{
+			"characterPrefabKey": "char_1014_nearl2",
+			"rangeId": "1-1",
+			"maxLevel": 50,
+			"attributesKeyFrames": [
+				{
+					"level": 1,
+					"data": {
+						"maxHp": 1397,
+						"atk": 473,
+						"def": 130,
+						"magicResistance": 0,
+						"cost": 17,
+						"blockCnt": 1,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 1.5,
+						"respawnTime": 70,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
+					}
+				},
+				{
+					"level": 50,
+					"data": {
+						"maxHp": 1996,
+						"atk": 697,
+						"def": 187,
+						"magicResistance": 0,
+						"cost": 17,
+						"blockCnt": 1,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 1.5,
+						"respawnTime": 70,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
+					}
+				}
+			],
+			"evolveCost": null
+		},
+		{
+			"characterPrefabKey": "char_1014_nearl2",
+			"rangeId": "1-1",
+			"maxLevel": 80,
+			"attributesKeyFrames": [
+				{
+					"level": 1,
+					"data": {
+						"maxHp": 1996,
+						"atk": 697,
+						"def": 187,
+						"magicResistance": 0,
+						"cost": 19,
+						"blockCnt": 1,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 1.5,
+						"respawnTime": 70,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
+					}
+				},
+				{
+					"level": 80,
+					"data": {
+						"maxHp": 2698,
+						"atk": 883,
+						"def": 247,
+						"magicResistance": 0,
+						"cost": 19,
+						"blockCnt": 1,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 1.5,
+						"respawnTime": 70,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
+					}
+				}
+			],
+			"evolveCost": [
+				{
+					"id": "3221",
+					"count": 5,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30062",
+					"count": 5,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30052",
+					"count": 4,
+					"type": "MATERIAL"
+				}
+			]
+		},
+		{
+			"characterPrefabKey": "char_1014_nearl2",
+			"rangeId": "1-1",
+			"maxLevel": 90,
+			"attributesKeyFrames": [
+				{
+					"level": 1,
+					"data": {
+						"maxHp": 2698,
+						"atk": 883,
+						"def": 247,
+						"magicResistance": 0,
+						"cost": 19,
+						"blockCnt": 1,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 1.5,
+						"respawnTime": 70,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
+					}
+				},
+				{
+					"level": 90,
+					"data": {
+						"maxHp": 3550,
+						"atk": 1064,
+						"def": 295,
+						"magicResistance": 0,
+						"cost": 19,
+						"blockCnt": 1,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 1.5,
+						"respawnTime": 70,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
+					}
+				}
+			],
+			"evolveCost": [
+				{
+					"id": "3223",
+					"count": 4,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30115",
+					"count": 4,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "31014",
+					"count": 8,
+					"type": "MATERIAL"
+				}
+			]
+		}
+	],
+	"skills": [
+		{
+			"skillId": "skchr_nearl2_1",
+			"overridePrefabKey": null,
+			"overrideTokenKey": null,
+			"levelUpCostCond": [
+				{
+					"unlockCond": {
+						"phase": 2,
+						"level": 1
+					},
+					"lvlUpTime": 28800,
+					"levelUpCost": [
+						{
+							"id": "3303",
+							"count": 8,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30044",
+							"count": 4,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "31043",
+							"count": 3,
+							"type": "MATERIAL"
+						}
+					]
+				},
+				{
+					"unlockCond": {
+						"phase": 2,
+						"level": 1
+					},
+					"lvlUpTime": 57600,
+					"levelUpCost": [
+						{
+							"id": "3303",
+							"count": 12,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "31044",
+							"count": 4,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "31014",
+							"count": 9,
+							"type": "MATERIAL"
+						}
+					]
+				},
+				{
+					"unlockCond": {
+						"phase": 2,
+						"level": 1
+					},
+					"lvlUpTime": 86400,
+					"levelUpCost": [
+						{
+							"id": "3303",
+							"count": 15,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30115",
+							"count": 6,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "31024",
+							"count": 6,
+							"type": "MATERIAL"
+						}
+					]
+				}
+			],
+			"unlockCond": {
+				"phase": 0,
+				"level": 1
+			}
+		},
+		{
+			"skillId": "skchr_nearl2_2",
+			"overridePrefabKey": null,
+			"overrideTokenKey": null,
+			"levelUpCostCond": [
+				{
+					"unlockCond": {
+						"phase": 2,
+						"level": 1
+					},
+					"lvlUpTime": 28800,
+					"levelUpCost": [
+						{
+							"id": "3303",
+							"count": 8,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30054",
+							"count": 4,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "31013",
+							"count": 4,
+							"type": "MATERIAL"
+						}
+					]
+				},
+				{
+					"unlockCond": {
+						"phase": 2,
+						"level": 1
+					},
+					"lvlUpTime": 57600,
+					"levelUpCost": [
+						{
+							"id": "3303",
+							"count": 12,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30014",
+							"count": 4,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30094",
+							"count": 9,
+							"type": "MATERIAL"
+						}
+					]
+				},
+				{
+					"unlockCond": {
+						"phase": 2,
+						"level": 1
+					},
+					"lvlUpTime": 86400,
+					"levelUpCost": [
+						{
+							"id": "3303",
+							"count": 15,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30135",
+							"count": 6,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "31014",
+							"count": 6,
+							"type": "MATERIAL"
+						}
+					]
+				}
+			],
+			"unlockCond": {
+				"phase": 1,
+				"level": 1
+			}
+		},
+		{
+			"skillId": "skchr_nearl2_3",
+			"overridePrefabKey": null,
+			"overrideTokenKey": null,
+			"levelUpCostCond": [
+				{
+					"unlockCond": {
+						"phase": 2,
+						"level": 1
+					},
+					"lvlUpTime": 28800,
+					"levelUpCost": [
+						{
+							"id": "3303",
+							"count": 8,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30064",
+							"count": 3,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30043",
+							"count": 4,
+							"type": "MATERIAL"
+						}
+					]
+				},
+				{
+					"unlockCond": {
+						"phase": 2,
+						"level": 1
+					},
+					"lvlUpTime": 57600,
+					"levelUpCost": [
+						{
+							"id": "3303",
+							"count": 12,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "31014",
+							"count": 4,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30014",
+							"count": 10,
+							"type": "MATERIAL"
+						}
+					]
+				},
+				{
+					"unlockCond": {
+						"phase": 2,
+						"level": 1
+					},
+					"lvlUpTime": 86400,
+					"levelUpCost": [
+						{
+							"id": "3303",
+							"count": 15,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30145",
+							"count": 6,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30014",
+							"count": 4,
+							"type": "MATERIAL"
+						}
+					]
+				}
+			],
+			"unlockCond": {
+				"phase": 2,
+				"level": 1
+			}
+		}
+	],
+	"talents": [
+		{
+			"candidates": [
+				{
+					"unlockCondition": {
+						"phase": 1,
+						"level": 1
+					},
+					"requiredPotentialRank": 0,
+					"prefabKey": "1",
+					"name": "고난과 어둠을 두려워 말라",
+					"description": "배치 후 주변 4칸의 적에게 공격력의 50%에 해당하는 트루 대미지를 입히고 2초간 <$ba.stun>기절</>시키며, 전에 배치한 오퍼레이터가 [카시미어] 진영인 경우 추가로 대미지를 1회 입힌다",
+					"rangeId": "x-5",
+					"blackboard": [
+						{
+							"key": "atk_scale",
+							"value": 0.5
+						},
+						{
+							"key": "stun",
+							"value": 2
+						}
+					]
+				},
+				{
+					"unlockCondition": {
+						"phase": 2,
+						"level": 1
+					},
+					"requiredPotentialRank": 0,
+					"prefabKey": "1",
+					"name": "고난과 어둠을 두려워 말라",
+					"description": "배치 후 주변 4칸의 적에게 공격력의 80%에 해당하는 트루 대미지를 입히고 3초간 <$ba.stun>기절</>시키며, 전에 배치한 오퍼레이터가 [카시미어] 진영인 경우 추가로 대미지를 1회 입힌다",
+					"rangeId": "x-5",
+					"blackboard": [
+						{
+							"key": "atk_scale",
+							"value": 0.8
+						},
+						{
+							"key": "stun",
+							"value": 3
+						}
+					]
+				}
+			]
+		},
+		{
+			"candidates": [
+				{
+					"unlockCondition": {
+						"phase": 2,
+						"level": 1
+					},
+					"requiredPotentialRank": 0,
+					"prefabKey": "2",
+					"name": "동틀 무렵",
+					"description": "공격 시 적의 방어력 20% 무시",
+					"rangeId": null,
+					"blackboard": [
+						{
+							"key": "def_penetrate",
+							"value": 0.2
+						}
+					]
+				},
+				{
+					"unlockCondition": {
+						"phase": 2,
+						"level": 1
+					},
+					"requiredPotentialRank": 4,
+					"prefabKey": "2",
+					"name": "동틀 무렵",
+					"description": "공격 시 적의 방어력 23%<@ba.talpu>(+3%)</> 무시",
+					"rangeId": null,
+					"blackboard": [
+						{
+							"key": "def_penetrate",
+							"value": 0.23
+						}
+					]
+				}
+			]
+		}
+	],
+	"potentialRanks": [
+		{
+			"type": 0,
+			"description": "배치 코스트 -1",
+			"buff": {
+				"attributes": {
+					"abnormalFlags": null,
+					"abnormalImmunes": null,
+					"abnormalAntis": null,
+					"abnormalCombos": null,
+					"abnormalComboImmunes": null,
+					"attributeModifiers": [
+						{
+							"attributeType": 4,
+							"formulaItem": 0,
+							"value": -1,
+							"loadFromBlackboard": false,
+							"fetchBaseValueFromSourceEntity": false
+						}
+					]
+				}
+			},
+			"equivalentCost": null
+		},
+		{
+			"type": 0,
+			"description": "재배치 시간 -4초",
+			"buff": {
+				"attributes": {
+					"abnormalFlags": null,
+					"abnormalImmunes": null,
+					"abnormalAntis": null,
+					"abnormalCombos": null,
+					"abnormalComboImmunes": null,
+					"attributeModifiers": [
+						{
+							"attributeType": 21,
+							"formulaItem": 0,
+							"value": -4,
+							"loadFromBlackboard": false,
+							"fetchBaseValueFromSourceEntity": false
+						}
+					]
+				}
+			},
+			"equivalentCost": null
+		},
+		{
+			"type": 0,
+			"description": "공격력 +35",
+			"buff": {
+				"attributes": {
+					"abnormalFlags": null,
+					"abnormalImmunes": null,
+					"abnormalAntis": null,
+					"abnormalCombos": null,
+					"abnormalComboImmunes": null,
+					"attributeModifiers": [
+						{
+							"attributeType": 1,
+							"formulaItem": 0,
+							"value": 35,
+							"loadFromBlackboard": false,
+							"fetchBaseValueFromSourceEntity": false
+						}
+					]
+				}
+			},
+			"equivalentCost": null
+		},
+		{
+			"type": 1,
+			"description": "제2재능 강화",
+			"buff": null,
+			"equivalentCost": null
+		},
+		{
+			"type": 0,
+			"description": "배치 코스트 -1",
+			"buff": {
+				"attributes": {
+					"abnormalFlags": null,
+					"abnormalImmunes": null,
+					"abnormalAntis": null,
+					"abnormalCombos": null,
+					"abnormalComboImmunes": null,
+					"attributeModifiers": [
+						{
+							"attributeType": 4,
+							"formulaItem": 0,
+							"value": -1,
+							"loadFromBlackboard": false,
+							"fetchBaseValueFromSourceEntity": false
+						}
+					]
+				}
+			},
+			"equivalentCost": null
+		}
+	],
+	"favorKeyFrames": [
+		{
+			"level": 0,
+			"data": {
+				"maxHp": 0,
+				"atk": 0,
+				"def": 0,
+				"magicResistance": 0,
+				"cost": 0,
+				"blockCnt": 0,
+				"moveSpeed": 0,
+				"attackSpeed": 0,
+				"baseAttackTime": 0,
+				"respawnTime": 0,
+				"hpRecoveryPerSec": 0,
+				"spRecoveryPerSec": 0,
+				"maxDeployCount": 0,
+				"maxDeckStackCnt": 0,
+				"tauntLevel": 0,
+				"massLevel": 0,
+				"baseForceLevel": 0,
+				"stunImmune": false,
+				"silenceImmune": false,
+				"sleepImmune": false,
+				"frozenImmune": false,
+				"levitateImmune": false
+			}
+		},
+		{
+			"level": 50,
+			"data": {
+				"maxHp": 200,
+				"atk": 85,
+				"def": 0,
+				"magicResistance": 0,
+				"cost": 0,
+				"blockCnt": 0,
+				"moveSpeed": 0,
+				"attackSpeed": 0,
+				"baseAttackTime": 0,
+				"respawnTime": 0,
+				"hpRecoveryPerSec": 0,
+				"spRecoveryPerSec": 0,
+				"maxDeployCount": 0,
+				"maxDeckStackCnt": 0,
+				"tauntLevel": 0,
+				"massLevel": 0,
+				"baseForceLevel": 0,
+				"stunImmune": false,
+				"silenceImmune": false,
+				"sleepImmune": false,
+				"frozenImmune": false,
+				"levitateImmune": false
+			}
+		}
+	],
+	"allSkillLvlup": [
+		{
+			"unlockCond": {
+				"phase": 0,
+				"level": 1
+			},
+			"lvlUpCost": [
+				{
+					"id": "3301",
+					"count": 5,
+					"type": "MATERIAL"
+				}
+			]
+		},
+		{
+			"unlockCond": {
+				"phase": 0,
+				"level": 1
+			},
+			"lvlUpCost": [
+				{
+					"id": "3301",
+					"count": 5,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30011",
+					"count": 6,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30061",
+					"count": 4,
+					"type": "MATERIAL"
+				}
+			]
+		},
+		{
+			"unlockCond": {
+				"phase": 0,
+				"level": 1
+			},
+			"lvlUpCost": [
+				{
+					"id": "3302",
+					"count": 8,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30022",
+					"count": 5,
+					"type": "MATERIAL"
+				}
+			]
+		},
+		{
+			"unlockCond": {
+				"phase": 1,
+				"level": 1
+			},
+			"lvlUpCost": [
+				{
+					"id": "3302",
+					"count": 8,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30032",
+					"count": 4,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30042",
+					"count": 4,
+					"type": "MATERIAL"
+				}
+			]
+		},
+		{
+			"unlockCond": {
+				"phase": 1,
+				"level": 1
+			},
+			"lvlUpCost": [
+				{
+					"id": "3302",
+					"count": 8,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30093",
+					"count": 5,
+					"type": "MATERIAL"
+				}
+			]
+		},
+		{
+			"unlockCond": {
+				"phase": 1,
+				"level": 1
+			},
+			"lvlUpCost": [
+				{
+					"id": "3303",
+					"count": 8,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30103",
+					"count": 3,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "31023",
+					"count": 5,
+					"type": "MATERIAL"
+				}
+			]
+		}
+	]
+}

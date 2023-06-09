@@ -1,0 +1,357 @@
+{
+	"skillId": "skchr_aurora_2",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "人工降雪",
+			"rangeId": null,
+			"description": "攻撃力<@ba.vup>+{atk:0%}</>、通常攻撃の間隔を<@ba.vdown>わずかに延長し</>、攻撃対象に<@ba.vup>{attack@cold}</>秒の<$ba.cold>寒冷</>状態を付与する。<$ba.frozen>凍結</>状態の敵を攻撃時、攻撃力が<@ba.vup>{atk_scale:0%}</>まで上昇\n<@ba.rem>合計9発の弾薬を撃ち切るとスキルが終了（手動でスキルを停止可能）</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 26,
+				"initSp": 8,
+				"increment": 1
+			},
+			"prefabId": "skchr_aurora_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.3
+				},
+				{
+					"key": "base_attack_time",
+					"value": 0.25
+				},
+				{
+					"key": "attack@cold",
+					"value": 2.5
+				},
+				{
+					"key": "atk_scale",
+					"value": 2
+				}
+			]
+		},
+		{
+			"name": "人工降雪",
+			"rangeId": null,
+			"description": "攻撃力<@ba.vup>+{atk:0%}</>、通常攻撃の間隔を<@ba.vdown>わずかに延長し</>、攻撃対象に<@ba.vup>{attack@cold}</>秒の<$ba.cold>寒冷</>状態を付与する。<$ba.frozen>凍結</>状態の敵を攻撃時、攻撃力が<@ba.vup>{atk_scale:0%}</>まで上昇\n<@ba.rem>合計9発の弾薬を撃ち切るとスキルが終了（手動でスキルを停止可能）</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 26,
+				"initSp": 8,
+				"increment": 1
+			},
+			"prefabId": "skchr_aurora_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.35
+				},
+				{
+					"key": "base_attack_time",
+					"value": 0.25
+				},
+				{
+					"key": "attack@cold",
+					"value": 2.5
+				},
+				{
+					"key": "atk_scale",
+					"value": 2
+				}
+			]
+		},
+		{
+			"name": "人工降雪",
+			"rangeId": null,
+			"description": "攻撃力<@ba.vup>+{atk:0%}</>、通常攻撃の間隔を<@ba.vdown>わずかに延長し</>、攻撃対象に<@ba.vup>{attack@cold}</>秒の<$ba.cold>寒冷</>状態を付与する。<$ba.frozen>凍結</>状態の敵を攻撃時、攻撃力が<@ba.vup>{atk_scale:0%}</>まで上昇\n<@ba.rem>合計9発の弾薬を撃ち切るとスキルが終了（手動でスキルを停止可能）</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 24,
+				"initSp": 8,
+				"increment": 1
+			},
+			"prefabId": "skchr_aurora_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.4
+				},
+				{
+					"key": "base_attack_time",
+					"value": 0.25
+				},
+				{
+					"key": "attack@cold",
+					"value": 2.5
+				},
+				{
+					"key": "atk_scale",
+					"value": 2
+				}
+			]
+		},
+		{
+			"name": "人工降雪",
+			"rangeId": null,
+			"description": "攻撃力<@ba.vup>+{atk:0%}</>、通常攻撃の間隔を<@ba.vdown>わずかに延長し</>、攻撃対象に<@ba.vup>{attack@cold}</>秒の<$ba.cold>寒冷</>状態を付与する。<$ba.frozen>凍結</>状態の敵を攻撃時、攻撃力が<@ba.vup>{atk_scale:0%}</>まで上昇\n<@ba.rem>合計9発の弾薬を撃ち切るとスキルが終了（手動でスキルを停止可能）</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 24,
+				"initSp": 9,
+				"increment": 1
+			},
+			"prefabId": "skchr_aurora_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.45
+				},
+				{
+					"key": "base_attack_time",
+					"value": 0.25
+				},
+				{
+					"key": "attack@cold",
+					"value": 2.5
+				},
+				{
+					"key": "atk_scale",
+					"value": 2.5
+				}
+			]
+		},
+		{
+			"name": "人工降雪",
+			"rangeId": null,
+			"description": "攻撃力<@ba.vup>+{atk:0%}</>、通常攻撃の間隔を<@ba.vdown>わずかに延長し</>、攻撃対象に<@ba.vup>{attack@cold}</>秒の<$ba.cold>寒冷</>状態を付与する。<$ba.frozen>凍結</>状態の敵を攻撃時、攻撃力が<@ba.vup>{atk_scale:0%}</>まで上昇\n<@ba.rem>合計9発の弾薬を撃ち切るとスキルが終了（手動でスキルを停止可能）</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 22,
+				"initSp": 9,
+				"increment": 1
+			},
+			"prefabId": "skchr_aurora_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.5
+				},
+				{
+					"key": "base_attack_time",
+					"value": 0.25
+				},
+				{
+					"key": "attack@cold",
+					"value": 2.5
+				},
+				{
+					"key": "atk_scale",
+					"value": 2.5
+				}
+			]
+		},
+		{
+			"name": "人工降雪",
+			"rangeId": null,
+			"description": "攻撃力<@ba.vup>+{atk:0%}</>、通常攻撃の間隔を<@ba.vdown>わずかに延長し</>、攻撃対象に<@ba.vup>{attack@cold}</>秒の<$ba.cold>寒冷</>状態を付与する。<$ba.frozen>凍結</>状態の敵を攻撃時、攻撃力が<@ba.vup>{atk_scale:0%}</>まで上昇\n<@ba.rem>合計9発の弾薬を撃ち切るとスキルが終了（手動でスキルを停止可能）</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 22,
+				"initSp": 9,
+				"increment": 1
+			},
+			"prefabId": "skchr_aurora_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.55
+				},
+				{
+					"key": "base_attack_time",
+					"value": 0.25
+				},
+				{
+					"key": "attack@cold",
+					"value": 2.5
+				},
+				{
+					"key": "atk_scale",
+					"value": 2.5
+				}
+			]
+		},
+		{
+			"name": "人工降雪",
+			"rangeId": null,
+			"description": "攻撃力<@ba.vup>+{atk:0%}</>、通常攻撃の間隔を<@ba.vdown>わずかに延長し</>、攻撃対象に<@ba.vup>{attack@cold}</>秒の<$ba.cold>寒冷</>状態を付与する。<$ba.frozen>凍結</>状態の敵を攻撃時、攻撃力が<@ba.vup>{atk_scale:0%}</>まで上昇\n<@ba.rem>合計9発の弾薬を撃ち切るとスキルが終了（手動でスキルを停止可能）</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 20,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_aurora_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.6
+				},
+				{
+					"key": "base_attack_time",
+					"value": 0.25
+				},
+				{
+					"key": "attack@cold",
+					"value": 2.5
+				},
+				{
+					"key": "atk_scale",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "人工降雪",
+			"rangeId": null,
+			"description": "攻撃力<@ba.vup>+{atk:0%}</>、通常攻撃の間隔を<@ba.vdown>わずかに延長し</>、攻撃対象に<@ba.vup>{attack@cold}</>秒の<$ba.cold>寒冷</>状態を付与する。<$ba.frozen>凍結</>状態の敵を攻撃時、攻撃力が<@ba.vup>{atk_scale:0%}</>まで上昇\n<@ba.rem>合計9発の弾薬を撃ち切るとスキルが終了（手動でスキルを停止可能）</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 20,
+				"initSp": 11,
+				"increment": 1
+			},
+			"prefabId": "skchr_aurora_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.65
+				},
+				{
+					"key": "base_attack_time",
+					"value": 0.25
+				},
+				{
+					"key": "attack@cold",
+					"value": 2.5
+				},
+				{
+					"key": "atk_scale",
+					"value": 3.1
+				}
+			]
+		},
+		{
+			"name": "人工降雪",
+			"rangeId": null,
+			"description": "攻撃力<@ba.vup>+{atk:0%}</>、通常攻撃の間隔を<@ba.vdown>わずかに延長し</>、攻撃対象に<@ba.vup>{attack@cold}</>秒の<$ba.cold>寒冷</>状態を付与する。<$ba.frozen>凍結</>状態の敵を攻撃時、攻撃力が<@ba.vup>{atk_scale:0%}</>まで上昇\n<@ba.rem>合計9発の弾薬を撃ち切るとスキルが終了（手動でスキルを停止可能）</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 20,
+				"initSp": 12,
+				"increment": 1
+			},
+			"prefabId": "skchr_aurora_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.7
+				},
+				{
+					"key": "base_attack_time",
+					"value": 0.25
+				},
+				{
+					"key": "attack@cold",
+					"value": 2.5
+				},
+				{
+					"key": "atk_scale",
+					"value": 3.2
+				}
+			]
+		},
+		{
+			"name": "人工降雪",
+			"rangeId": null,
+			"description": "攻撃力<@ba.vup>+{atk:0%}</>、通常攻撃の間隔を<@ba.vdown>わずかに延長し</>、攻撃対象に<@ba.vup>{attack@cold}</>秒の<$ba.cold>寒冷</>状態を付与する。<$ba.frozen>凍結</>状態の敵を攻撃時、攻撃力が<@ba.vup>{atk_scale:0%}</>まで上昇\n<@ba.rem>合計9発の弾薬を撃ち切るとスキルが終了（手動でスキルを停止可能）</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 20,
+				"initSp": 13,
+				"increment": 1
+			},
+			"prefabId": "skchr_aurora_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.75
+				},
+				{
+					"key": "base_attack_time",
+					"value": 0.25
+				},
+				{
+					"key": "attack@cold",
+					"value": 2.5
+				},
+				{
+					"key": "atk_scale",
+					"value": 3.3
+				}
+			]
+		}
+	]
+}

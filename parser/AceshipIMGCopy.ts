@@ -5,7 +5,7 @@ import { CountTracker } from './JSONParser';
 import { createIfNotExist, joinPaths } from './utils/PathUtils';
 
 export namespace AceshipIMGData {
-	export const SOURCE_ROOT = '{ACESHIP_DIR_ENV}\\img'.replace('{ACESHIP_DIR_ENV}', ACESHIP_DIR_ROOT);
+	export const SOURCE_ROOT = '{ACESHIP_DIR_ENV}\\..\\Arknight-Images'.replace('{ACESHIP_DIR_ENV}', ACESHIP_DIR_ROOT);
 	export const DEST_ROOT = '{DESTINATION_ROOT}\\img'.replace('{DESTINATION_ROOT}', DESTINATION_ROOT);
 	export const SOURCE = {
 		characters_avatars: 'avatars',

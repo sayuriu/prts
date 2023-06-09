@@ -6,7 +6,7 @@
 	"iconId": "MTL_SL_MANGANESE2",
 	"overrideBkg": null,
 	"stackIconId": null,
-	"sortId": 100006,
+	"sortId": 100020,
 	"usage": "D32강의 재료 중 하나로써, 정제와 제련에 사용되는 금속 광물이다.",
 	"obtainApproach": null,
 	"classifyType": "MATERIAL",
@@ -26,6 +26,14 @@
 		},
 		{
 			"stageId": "main_09-13",
+			"occPer": "SOMETIMES"
+		},
+		{
+			"stageId": "main_10-06",
+			"occPer": "SOMETIMES"
+		},
+		{
+			"stageId": "tough_10-06",
 			"occPer": "SOMETIMES"
 		}
 	],

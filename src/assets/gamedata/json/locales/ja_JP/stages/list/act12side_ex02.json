@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act12side_ex01",
@@ -10,7 +11,7 @@
 	],
 	"stageId": "act12side_ex02",
 	"levelId": "Activities/ACT12SIDE/level_act12side_ex02",
-	"zoneId": "act12side_zone2",
+	"zoneId": "act12sre_zone2",
 	"code": "DH-EX-2",
 	"name": "サンシャインビーチ",
 	"description": "ビーチはドッソレスのシンボルであるから当然、腹に一物を抱えた者たちが多く潜んでいる。\n<@lv.item><深水区域></>配置不可。敵の攻撃速度と移動速度が低下し、HPが減少し続ける",
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {

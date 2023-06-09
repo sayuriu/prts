@@ -1,0 +1,106 @@
+{
+	"stageType": "ACTIVITY",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
+	"unlockCondition": [
+		{
+			"stageId": "act18side_05",
+			"completeState": 2
+		}
+	],
+	"stageId": "act18side_06",
+	"levelId": "Activities/act18side/level_act18side_06",
+	"zoneId": "act18side_zone1",
+	"code": "LE-6",
+	"name": "Danse Macabre",
+	"description": "We hail from the earth, and shall one day turn to dust upon it... but not today.\n<@lv.item><Waste Energy Interference></> Natural SP recovery speed reduced.\n<@lv.item><Realigned Flux></> Restores natural SP recovery speed of allied Operators within.",
+	"hardStagedId": null,
+	"dangerLevel": "Elite 1 Lv. 70",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_LE1",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 21,
+	"apFailReturn": 20,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": 0,
+	"expGain": 210,
+	"goldGain": 210,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 20,
+	"completeFavor": 21,
+	"slProgress": 0,
+	"displayMainItem": null,
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 0,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act18side_token_pieces",
+				"dropType": 8
+			},
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act18side_token_pieces",
+				"dropType": 2
+			},
+			{
+				"type": "MATERIAL",
+				"id": "30093",
+				"dropType": 2
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 0,
+				"type": "ACTIVITY_ITEM",
+				"id": "act18side_token_pieces",
+				"dropType": 8
+			},
+			{
+				"occPercent": 0,
+				"type": "ACTIVITY_ITEM",
+				"id": "act18side_token_pieces",
+				"dropType": 2
+			},
+			{
+				"occPercent": 2,
+				"type": "MATERIAL",
+				"id": "30093",
+				"dropType": 2
+			},
+			{
+				"occPercent": 0,
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		]
+	},
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "act18side_st01"
+}

@@ -2,7 +2,9 @@
 	"name": "글래디아",
 	"description": "스킬을 통해 적의 위치를 <@ba.kw>강제 이동</>\n원거리 유닛 칸에도 배치 가능",
 	"canUseGeneralPotentialItem": true,
+	"canUseActivityPotentialItem": false,
 	"potentialItemId": "p_char_474_glady",
+	"activityPotentialItemId": null,
 	"nationId": "egir",
 	"groupId": "abyssal",
 	"teamId": null,
@@ -53,7 +55,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -78,7 +82,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -111,7 +117,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -136,7 +144,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -185,7 +195,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -210,7 +222,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -495,7 +509,7 @@
 					"requiredPotentialRank": 0,
 					"prefabKey": "1",
 					"name": "에기르의 파도",
-					"description": "출전 시 모든 [어비설 헌터스] 오퍼레이터가 매초 최대 HP의 1.5% 회복, 적 [시본]으로부터 받는 물리 및 마법 대미지 15% 감소",
+					"description": "전장에 있을 때 모든 [어비설 헌터스] 오퍼레이터가 초당 최대 HP의 1.5% 회복, [바다 괴물]로부터 받는 물리 및 마법 대미지 15% 감소",
 					"rangeId": null,
 					"blackboard": [
 						{
@@ -516,7 +530,7 @@
 					"requiredPotentialRank": 0,
 					"prefabKey": "1",
 					"name": "에기르의 파도",
-					"description": "출전 시 모든 [어비설 헌터스] 오퍼레이터가 매초 최대 HP의 2.5% 회복, 적 [시본]으로부터 받는 물리 및 마법 대미지 25% 감소",
+					"description": "전장에 있을 때 모든 [어비설 헌터스] 오퍼레이터가 초당 최대 HP의 2.5% 회복, [바다 괴물]로부터 받는 물리 및 마법 대미지 25% 감소",
 					"rangeId": null,
 					"blackboard": [
 						{
@@ -701,7 +715,9 @@
 				"baseForceLevel": 0,
 				"stunImmune": false,
 				"silenceImmune": false,
-				"sleepImmune": false
+				"sleepImmune": false,
+				"frozenImmune": false,
+				"levitateImmune": false
 			}
 		},
 		{
@@ -726,7 +742,9 @@
 				"baseForceLevel": 0,
 				"stunImmune": false,
 				"silenceImmune": false,
-				"sleepImmune": false
+				"sleepImmune": false,
+				"frozenImmune": false,
+				"levitateImmune": false
 			}
 		}
 	],

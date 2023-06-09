@@ -1,18 +1,24 @@
 #!/bin/bash
-ACESHIP_ROOT="aceship/AN-EN-Tags"
+ACESHIP_MAIN_ROOT="aceship/AN-EN-Tags"
+ACESHIP_IMG_ROOT="aceship/Arknight-Image"
 KENGXIAO_ROOT="kengxxiao/ArknightsGameData"
 PARSER_DIR="parser"
 PARSER_SCRIPT="parser.sh"
 
-# repo="aceship"
-# cd "$ACESHIP_ROOT" || exit 1
-# echo "[$repo] Syncing git..."
-# git fetch --all && git reset --hard origin/master
-# cd ../../
-# repo="kengxxiao"
-# cd "$KENGXIAO_ROOT" || exit 1
-# echo "[$repo] Syncing git..."
-# git fetch --all && git reset --hard origin/master
-# cd ../../
+ repo="aceship"
+ cd "ACESHIP_MAIN_ROOT" || exit 1
+ echo "[$repo] Syncing git..."
+ git fetch --all && git reset --hard origin/master
+ cd ../../
+ repo="aceship"
+ cd "ACESHIP_IMG_ROOT" || exit 1
+ echo "[$repo] Syncing git..."
+ git fetch --all && git reset --hard origin/master
+ cd ../../
+ repo="kengxxiao"
+ cd "$KENGXIAO_ROOT" || exit 1
+ echo "[$repo] Syncing git..."
+ git fetch --all && git reset --hard origin/master
+ cd ../../
 echo "Running parser..."
 cd $PARSER_DIR && "./$PARSER_SCRIPT"

@@ -7,10 +7,10 @@
 			"name": "旋臂",
 			"rangeId": null,
 			"description": "可以同时攻击<@ba.vup>{attack@max_target}</>个目标，每个目标攻击<@ba.vup>{attack@times}</>次",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 51,
@@ -22,11 +22,13 @@
 			"blackboard": [
 				{
 					"key": "attack@max_target",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				},
 				{
 					"key": "attack@times",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				}
 			]
 		},
@@ -34,10 +36,10 @@
 			"name": "旋臂",
 			"rangeId": null,
 			"description": "可以同时攻击<@ba.vup>{attack@max_target}</>个目标，每个目标攻击<@ba.vup>{attack@times}</>次",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 50,
@@ -49,11 +51,13 @@
 			"blackboard": [
 				{
 					"key": "attack@max_target",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				},
 				{
 					"key": "attack@times",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				}
 			]
 		},
@@ -61,10 +65,10 @@
 			"name": "旋臂",
 			"rangeId": null,
 			"description": "可以同时攻击<@ba.vup>{attack@max_target}</>个目标，每个目标攻击<@ba.vup>{attack@times}</>次",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 49,
@@ -76,11 +80,13 @@
 			"blackboard": [
 				{
 					"key": "attack@max_target",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				},
 				{
 					"key": "attack@times",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				}
 			]
 		},
@@ -88,10 +94,10 @@
 			"name": "旋臂",
 			"rangeId": null,
 			"description": "可以同时攻击<@ba.vup>{attack@max_target}</>个目标，每个目标攻击<@ba.vup>{attack@times}</>次",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 48,
@@ -103,11 +109,13 @@
 			"blackboard": [
 				{
 					"key": "attack@max_target",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				},
 				{
 					"key": "attack@times",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				}
 			]
 		},
@@ -115,10 +123,10 @@
 			"name": "旋臂",
 			"rangeId": null,
 			"description": "可以同时攻击<@ba.vup>{attack@max_target}</>个目标，每个目标攻击<@ba.vup>{attack@times}</>次",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 47,
@@ -130,11 +138,13 @@
 			"blackboard": [
 				{
 					"key": "attack@max_target",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				},
 				{
 					"key": "attack@times",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				}
 			]
 		},
@@ -142,10 +152,10 @@
 			"name": "旋臂",
 			"rangeId": null,
 			"description": "可以同时攻击<@ba.vup>{attack@max_target}</>个目标，每个目标攻击<@ba.vup>{attack@times}</>次",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 46,
@@ -157,11 +167,13 @@
 			"blackboard": [
 				{
 					"key": "attack@max_target",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				},
 				{
 					"key": "attack@times",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				}
 			]
 		},
@@ -169,10 +181,10 @@
 			"name": "旋臂",
 			"rangeId": null,
 			"description": "可以同时攻击<@ba.vup>{attack@max_target}</>个目标，每个目标攻击<@ba.vup>{attack@times}</>次",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 45,
@@ -184,11 +196,13 @@
 			"blackboard": [
 				{
 					"key": "attack@max_target",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				},
 				{
 					"key": "attack@times",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				}
 			]
 		},
@@ -196,10 +210,10 @@
 			"name": "旋臂",
 			"rangeId": null,
 			"description": "可以同时攻击<@ba.vup>{attack@max_target}</>个目标，每个目标攻击<@ba.vup>{attack@times}</>次",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 40,
@@ -211,11 +225,13 @@
 			"blackboard": [
 				{
 					"key": "attack@max_target",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				},
 				{
 					"key": "attack@times",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				}
 			]
 		},
@@ -223,10 +239,10 @@
 			"name": "旋臂",
 			"rangeId": null,
 			"description": "可以同时攻击<@ba.vup>{attack@max_target}</>个目标，每个目标攻击<@ba.vup>{attack@times}</>次",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 35,
@@ -238,11 +254,13 @@
 			"blackboard": [
 				{
 					"key": "attack@max_target",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				},
 				{
 					"key": "attack@times",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				}
 			]
 		},
@@ -250,10 +268,10 @@
 			"name": "旋臂",
 			"rangeId": null,
 			"description": "可以同时攻击<@ba.vup>{attack@max_target}</>个目标，每个目标攻击<@ba.vup>{attack@times}</>次",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 30,
@@ -265,11 +283,13 @@
 			"blackboard": [
 				{
 					"key": "attack@max_target",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				},
 				{
 					"key": "attack@times",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				}
 			]
 		}

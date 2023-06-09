@@ -2,6 +2,7 @@
 	"stageType": "MAIN",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NORMAL",
 	"unlockCondition": [
 		{
 			"stageId": "main_09-01",
@@ -13,7 +14,7 @@
 	"zoneId": "main_9",
 	"code": "9-3",
 	"name": "ティータイム",
-	"description": "陽光の下でくつろぐ人々が、頭上に連なりはじめた暗雲に気付くことはない。",
+	"description": "陽光の下でくつろぐ人々が、頭上を覆いはじめた暗雲に気付くことはない。",
 	"hardStagedId": "main_09-02#f#",
 	"dangerLevel": "昇進1 LV.30",
 	"dangerPoint": -1,
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {

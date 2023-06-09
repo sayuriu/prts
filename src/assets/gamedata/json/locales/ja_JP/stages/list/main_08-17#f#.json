@@ -2,6 +2,7 @@
 	"stageType": "MAIN",
 	"difficulty": "FOUR_STAR",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "main_02-08",
@@ -17,7 +18,7 @@
 	"zoneId": "main_8",
 	"code": "JT8-3",
 	"name": "烈炎の中で「邁進」",
-	"description": "<@lv.fs>制限：</>\n<エネルギー聚合体>によるの術ダメージが上昇",
+	"description": "<@lv.fs>制限：</>\n<エネルギー聚合体>による術ダメージが上昇",
 	"hardStagedId": null,
 	"dangerLevel": "-",
 	"dangerPoint": -1,
@@ -46,6 +47,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {

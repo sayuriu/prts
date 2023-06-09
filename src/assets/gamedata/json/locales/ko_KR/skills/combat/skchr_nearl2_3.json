@@ -1,0 +1,357 @@
+{
+	"skillId": "skchr_nearl2_3",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "눈부신 태양의 승인",
+			"rangeId": "2-1",
+			"description": "주변 4칸의 배치 가능한 지상에 '눈부신 태양'을 소환하여 주위 적에게 공격력의 <@ba.vup>{value:0%}</>에 해당하는 트루 대미지를 입히고 <@ba.vup>{value2}</>초간 <$ba.stun>기절</>시키며, 자신의 공격 범위 <@ba.vup>확대</>, 공격력 <@ba.vup>+{atk:0%}</>, 방어력 <@ba.vup>+{def:0%}</>, 자신과 '눈부신 태양'에 저지당한 적을 공격할 때 대미지 유형이 <@ba.vup>트루 대미지</>로 변경",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 60,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_nearl2_3",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.4
+				},
+				{
+					"key": "def",
+					"value": 0.2
+				},
+				{
+					"key": "value",
+					"value": 0.8
+				},
+				{
+					"key": "value2",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "눈부신 태양의 승인",
+			"rangeId": "2-1",
+			"description": "주변 4칸의 배치 가능한 지상에 '눈부신 태양'을 소환하여 주위 적에게 공격력의 <@ba.vup>{value:0%}</>에 해당하는 트루 대미지를 입히고 <@ba.vup>{value2}</>초간 <$ba.stun>기절</>시키며, 자신의 공격 범위 <@ba.vup>확대</>, 공격력 <@ba.vup>+{atk:0%}</>, 방어력 <@ba.vup>+{def:0%}</>, 자신과 '눈부신 태양'에 저지당한 적을 공격할 때 대미지 유형이 <@ba.vup>트루 대미지</>로 변경",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 60,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_nearl2_3",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.5
+				},
+				{
+					"key": "def",
+					"value": 0.25
+				},
+				{
+					"key": "value",
+					"value": 0.8
+				},
+				{
+					"key": "value2",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "눈부신 태양의 승인",
+			"rangeId": "2-1",
+			"description": "주변 4칸의 배치 가능한 지상에 '눈부신 태양'을 소환하여 주위 적에게 공격력의 <@ba.vup>{value:0%}</>에 해당하는 트루 대미지를 입히고 <@ba.vup>{value2}</>초간 <$ba.stun>기절</>시키며, 자신의 공격 범위 <@ba.vup>확대</>, 공격력 <@ba.vup>+{atk:0%}</>, 방어력 <@ba.vup>+{def:0%}</>, 자신과 '눈부신 태양'에 저지당한 적을 공격할 때 대미지 유형이 <@ba.vup>트루 대미지</>로 변경",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 60,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_nearl2_3",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.6
+				},
+				{
+					"key": "def",
+					"value": 0.3
+				},
+				{
+					"key": "value",
+					"value": 0.8
+				},
+				{
+					"key": "value2",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "눈부신 태양의 승인",
+			"rangeId": "2-1",
+			"description": "주변 4칸의 배치 가능한 지상에 '눈부신 태양'을 소환하여 주위 적에게 공격력의 <@ba.vup>{value:0%}</>에 해당하는 트루 대미지를 입히고 <@ba.vup>{value2}</>초간 <$ba.stun>기절</>시키며, 자신의 공격 범위 <@ba.vup>확대</>, 공격력 <@ba.vup>+{atk:0%}</>, 방어력 <@ba.vup>+{def:0%}</>, 자신과 '눈부신 태양'에 저지당한 적을 공격할 때 대미지 유형이 <@ba.vup>트루 대미지</>로 변경",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 55,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_nearl2_3",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.7
+				},
+				{
+					"key": "def",
+					"value": 0.4
+				},
+				{
+					"key": "value",
+					"value": 0.9
+				},
+				{
+					"key": "value2",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "눈부신 태양의 승인",
+			"rangeId": "2-1",
+			"description": "주변 4칸의 배치 가능한 지상에 '눈부신 태양'을 소환하여 주위 적에게 공격력의 <@ba.vup>{value:0%}</>에 해당하는 트루 대미지를 입히고 <@ba.vup>{value2}</>초간 <$ba.stun>기절</>시키며, 자신의 공격 범위 <@ba.vup>확대</>, 공격력 <@ba.vup>+{atk:0%}</>, 방어력 <@ba.vup>+{def:0%}</>, 자신과 '눈부신 태양'에 저지당한 적을 공격할 때 대미지 유형이 <@ba.vup>트루 대미지</>로 변경",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 55,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_nearl2_3",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.8
+				},
+				{
+					"key": "def",
+					"value": 0.5
+				},
+				{
+					"key": "value",
+					"value": 0.9
+				},
+				{
+					"key": "value2",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "눈부신 태양의 승인",
+			"rangeId": "2-1",
+			"description": "주변 4칸의 배치 가능한 지상에 '눈부신 태양'을 소환하여 주위 적에게 공격력의 <@ba.vup>{value:0%}</>에 해당하는 트루 대미지를 입히고 <@ba.vup>{value2}</>초간 <$ba.stun>기절</>시키며, 자신의 공격 범위 <@ba.vup>확대</>, 공격력 <@ba.vup>+{atk:0%}</>, 방어력 <@ba.vup>+{def:0%}</>, 자신과 '눈부신 태양'에 저지당한 적을 공격할 때 대미지 유형이 <@ba.vup>트루 대미지</>로 변경",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 55,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_nearl2_3",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.9
+				},
+				{
+					"key": "def",
+					"value": 0.6
+				},
+				{
+					"key": "value",
+					"value": 0.9
+				},
+				{
+					"key": "value2",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "눈부신 태양의 승인",
+			"rangeId": "2-1",
+			"description": "주변 4칸의 배치 가능한 지상에 '눈부신 태양'을 소환하여 주위 적에게 공격력의 <@ba.vup>{value:0%}</>에 해당하는 트루 대미지를 입히고 <@ba.vup>{value2}</>초간 <$ba.stun>기절</>시키며, 자신의 공격 범위 <@ba.vup>확대</>, 공격력 <@ba.vup>+{atk:0%}</>, 방어력 <@ba.vup>+{def:0%}</>, 자신과 '눈부신 태양'에 저지당한 적을 공격할 때 대미지 유형이 <@ba.vup>트루 대미지</>로 변경",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 50,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_nearl2_3",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 1
+				},
+				{
+					"key": "def",
+					"value": 0.7
+				},
+				{
+					"key": "value",
+					"value": 1
+				},
+				{
+					"key": "value2",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "눈부신 태양의 승인",
+			"rangeId": "2-1",
+			"description": "주변 4칸의 배치 가능한 지상에 '눈부신 태양'을 소환하여 주위 적에게 공격력의 <@ba.vup>{value:0%}</>에 해당하는 트루 대미지를 입히고 <@ba.vup>{value2}</>초간 <$ba.stun>기절</>시키며, 자신의 공격 범위 <@ba.vup>확대</>, 공격력 <@ba.vup>+{atk:0%}</>, 방어력 <@ba.vup>+{def:0%}</>, 자신과 '눈부신 태양'에 저지당한 적을 공격할 때 대미지 유형이 <@ba.vup>트루 대미지</>로 변경",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 47,
+				"initSp": 25,
+				"increment": 1
+			},
+			"prefabId": "skchr_nearl2_3",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 1.1
+				},
+				{
+					"key": "def",
+					"value": 0.8
+				},
+				{
+					"key": "value",
+					"value": 1.1
+				},
+				{
+					"key": "value2",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "눈부신 태양의 승인",
+			"rangeId": "2-1",
+			"description": "주변 4칸의 배치 가능한 지상에 '눈부신 태양'을 소환하여 주위 적에게 공격력의 <@ba.vup>{value:0%}</>에 해당하는 트루 대미지를 입히고 <@ba.vup>{value2}</>초간 <$ba.stun>기절</>시키며, 자신의 공격 범위 <@ba.vup>확대</>, 공격력 <@ba.vup>+{atk:0%}</>, 방어력 <@ba.vup>+{def:0%}</>, 자신과 '눈부신 태양'에 저지당한 적을 공격할 때 대미지 유형이 <@ba.vup>트루 대미지</>로 변경",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 44,
+				"initSp": 25,
+				"increment": 1
+			},
+			"prefabId": "skchr_nearl2_3",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 1.25
+				},
+				{
+					"key": "def",
+					"value": 0.9
+				},
+				{
+					"key": "value",
+					"value": 1.1
+				},
+				{
+					"key": "value2",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "눈부신 태양의 승인",
+			"rangeId": "2-1",
+			"description": "주변 4칸의 배치 가능한 지상에 '눈부신 태양'을 소환하여 주위 적에게 공격력의 <@ba.vup>{value:0%}</>에 해당하는 트루 대미지를 입히고 <@ba.vup>{value2}</>초간 <$ba.stun>기절</>시키며, 자신의 공격 범위 <@ba.vup>확대</>, 공격력 <@ba.vup>+{atk:0%}</>, 방어력 <@ba.vup>+{def:0%}</>, 자신과 '눈부신 태양'에 저지당한 적을 공격할 때 대미지 유형이 <@ba.vup>트루 대미지</>로 변경",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 40,
+				"initSp": 25,
+				"increment": 1
+			},
+			"prefabId": "skchr_nearl2_3",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 1.4
+				},
+				{
+					"key": "def",
+					"value": 1
+				},
+				{
+					"key": "value",
+					"value": 1.1
+				},
+				{
+					"key": "value2",
+					"value": 3
+				}
+			]
+		}
+	]
+}

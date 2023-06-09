@@ -1,0 +1,84 @@
+{
+	"stageType": "ACTIVITY",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
+	"unlockCondition": [
+		{
+			"stageId": "act16side_ex03",
+			"completeState": 2
+		}
+	],
+	"stageId": "act16side_ex04",
+	"levelId": "Activities/act16side/level_act16side_ex04",
+	"zoneId": "act16side_zone2",
+	"code": "GA-EX-4",
+	"name": "캐러멜 푸딩",
+	"description": "공증소의 통계에 따르면 캐러멜 푸딩을 판매하는 디저트 가게에서 매일 최소 한 건의 싸움이 일어난다고 한다.\n<@lv.item><'젤라토 머신'></> 아군, 적군 모두 점령할 수 있으며, 활성화되면 주변 유닛의 SP 회복",
+	"hardStagedId": "act16side_ex04#f#",
+	"dangerLevel": "2차 정예화 Lv.1",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_GA_Roof",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 15,
+	"apFailReturn": 14,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": 0,
+	"expGain": 150,
+	"goldGain": 150,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 14,
+	"completeFavor": 15,
+	"slProgress": 0,
+	"displayMainItem": null,
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 0,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act16side_token_bolt",
+				"dropType": 8
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 0,
+				"type": "ACTIVITY_ITEM",
+				"id": "act16side_token_bolt",
+				"dropType": 8
+			},
+			{
+				"occPercent": 0,
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		]
+	},
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "act16side_ex01"
+}

@@ -1,0 +1,437 @@
+{
+	"skillId": "skchr_flamtl_3",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "フレイムハート",
+			"rangeId": null,
+			"description": "効果時間内所持コストが徐々に増加（合計<@ba.vup>{value}</>）、通常攻撃の間隔を<@ba.vdown>短縮</>し、攻撃力<@ba.vup>+{atk:0%}</>、ブロック数<@ba.vup>+{block_cnt}</>、物理と術回避<@ba.vup>+{prob:0%}</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 22,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_flamtl_3",
+			"duration": 8,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.3
+				},
+				{
+					"key": "cost",
+					"value": 1
+				},
+				{
+					"key": "prob",
+					"value": 0.6
+				},
+				{
+					"key": "base_attack_time",
+					"value": 0.7
+				},
+				{
+					"key": "block_cnt",
+					"value": 1
+				},
+				{
+					"key": "value",
+					"value": 8
+				}
+			]
+		},
+		{
+			"name": "フレイムハート",
+			"rangeId": null,
+			"description": "効果時間内所持コストが徐々に増加（合計<@ba.vup>{value}</>）、通常攻撃の間隔を<@ba.vdown>短縮</>し、攻撃力<@ba.vup>+{atk:0%}</>、ブロック数<@ba.vup>+{block_cnt}</>、物理と術回避<@ba.vup>+{prob:0%}</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 22,
+				"initSp": 1,
+				"increment": 1
+			},
+			"prefabId": "skchr_flamtl_3",
+			"duration": 8,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.35
+				},
+				{
+					"key": "cost",
+					"value": 1
+				},
+				{
+					"key": "prob",
+					"value": 0.6
+				},
+				{
+					"key": "base_attack_time",
+					"value": 0.7
+				},
+				{
+					"key": "block_cnt",
+					"value": 1
+				},
+				{
+					"key": "value",
+					"value": 8
+				}
+			]
+		},
+		{
+			"name": "フレイムハート",
+			"rangeId": null,
+			"description": "効果時間内所持コストが徐々に増加（合計<@ba.vup>{value}</>）、通常攻撃の間隔を<@ba.vdown>短縮</>し、攻撃力<@ba.vup>+{atk:0%}</>、ブロック数<@ba.vup>+{block_cnt}</>、物理と術回避<@ba.vup>+{prob:0%}</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 21,
+				"initSp": 1,
+				"increment": 1
+			},
+			"prefabId": "skchr_flamtl_3",
+			"duration": 8,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.4
+				},
+				{
+					"key": "cost",
+					"value": 1
+				},
+				{
+					"key": "prob",
+					"value": 0.6
+				},
+				{
+					"key": "base_attack_time",
+					"value": 0.7
+				},
+				{
+					"key": "block_cnt",
+					"value": 1
+				},
+				{
+					"key": "value",
+					"value": 8
+				}
+			]
+		},
+		{
+			"name": "フレイムハート",
+			"rangeId": null,
+			"description": "効果時間内所持コストが徐々に増加（合計<@ba.vup>{value}</>）、通常攻撃の間隔を<@ba.vdown>短縮</>し、攻撃力<@ba.vup>+{atk:0%}</>、ブロック数<@ba.vup>+{block_cnt}</>、物理と術回避<@ba.vup>+{prob:0%}</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 21,
+				"initSp": 2,
+				"increment": 1
+			},
+			"prefabId": "skchr_flamtl_3",
+			"duration": 8,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.45
+				},
+				{
+					"key": "cost",
+					"value": 1
+				},
+				{
+					"key": "prob",
+					"value": 0.6
+				},
+				{
+					"key": "base_attack_time",
+					"value": 0.7
+				},
+				{
+					"key": "block_cnt",
+					"value": 1
+				},
+				{
+					"key": "value",
+					"value": 8
+				}
+			]
+		},
+		{
+			"name": "フレイムハート",
+			"rangeId": null,
+			"description": "効果時間内所持コストが徐々に増加（合計<@ba.vup>{value}</>）、通常攻撃の間隔を<@ba.vdown>短縮</>し、攻撃力<@ba.vup>+{atk:0%}</>、ブロック数<@ba.vup>+{block_cnt}</>、物理と術回避<@ba.vup>+{prob:0%}</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 20,
+				"initSp": 2,
+				"increment": 1
+			},
+			"prefabId": "skchr_flamtl_3",
+			"duration": 8,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.5
+				},
+				{
+					"key": "cost",
+					"value": 1
+				},
+				{
+					"key": "prob",
+					"value": 0.6
+				},
+				{
+					"key": "base_attack_time",
+					"value": 0.7
+				},
+				{
+					"key": "block_cnt",
+					"value": 1
+				},
+				{
+					"key": "value",
+					"value": 8
+				}
+			]
+		},
+		{
+			"name": "フレイムハート",
+			"rangeId": null,
+			"description": "効果時間内所持コストが徐々に増加（合計<@ba.vup>{value}</>）、通常攻撃の間隔を<@ba.vdown>短縮</>し、攻撃力<@ba.vup>+{atk:0%}</>、ブロック数<@ba.vup>+{block_cnt}</>、物理と術回避<@ba.vup>+{prob:0%}</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 20,
+				"initSp": 3,
+				"increment": 1
+			},
+			"prefabId": "skchr_flamtl_3",
+			"duration": 8,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.55
+				},
+				{
+					"key": "cost",
+					"value": 1
+				},
+				{
+					"key": "prob",
+					"value": 0.6
+				},
+				{
+					"key": "base_attack_time",
+					"value": 0.7
+				},
+				{
+					"key": "block_cnt",
+					"value": 1
+				},
+				{
+					"key": "value",
+					"value": 8
+				}
+			]
+		},
+		{
+			"name": "フレイムハート",
+			"rangeId": null,
+			"description": "効果時間内所持コストが徐々に増加（合計<@ba.vup>{value}</>）、通常攻撃の間隔を<@ba.vdown>短縮</>し、攻撃力<@ba.vup>+{atk:0%}</>、ブロック数<@ba.vup>+{block_cnt}</>、物理と術回避<@ba.vup>+{prob:0%}</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 19,
+				"initSp": 3,
+				"increment": 1
+			},
+			"prefabId": "skchr_flamtl_3",
+			"duration": 8,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.6
+				},
+				{
+					"key": "cost",
+					"value": 1
+				},
+				{
+					"key": "prob",
+					"value": 0.8
+				},
+				{
+					"key": "base_attack_time",
+					"value": 0.7
+				},
+				{
+					"key": "block_cnt",
+					"value": 1
+				},
+				{
+					"key": "value",
+					"value": 8
+				}
+			]
+		},
+		{
+			"name": "フレイムハート",
+			"rangeId": null,
+			"description": "効果時間内所持コストが徐々に増加（合計<@ba.vup>{value}</>）、通常攻撃の間隔を<@ba.vdown>短縮</>し、攻撃力<@ba.vup>+{atk:0%}</>、ブロック数<@ba.vup>+{block_cnt}</>、物理と術回避<@ba.vup>+{prob:0%}</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 18,
+				"initSp": 4,
+				"increment": 1
+			},
+			"prefabId": "skchr_flamtl_3",
+			"duration": 8,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.7
+				},
+				{
+					"key": "cost",
+					"value": 1
+				},
+				{
+					"key": "prob",
+					"value": 0.8
+				},
+				{
+					"key": "base_attack_time",
+					"value": 0.7
+				},
+				{
+					"key": "block_cnt",
+					"value": 1
+				},
+				{
+					"key": "value",
+					"value": 8
+				}
+			]
+		},
+		{
+			"name": "フレイムハート",
+			"rangeId": null,
+			"description": "効果時間内所持コストが徐々に増加（合計<@ba.vup>{value}</>）、通常攻撃の間隔を<@ba.vdown>短縮</>し、攻撃力<@ba.vup>+{atk:0%}</>、ブロック数<@ba.vup>+{block_cnt}</>、物理と術回避<@ba.vup>+{prob:0%}</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 17,
+				"initSp": 5,
+				"increment": 1
+			},
+			"prefabId": "skchr_flamtl_3",
+			"duration": 8,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.8
+				},
+				{
+					"key": "cost",
+					"value": 1
+				},
+				{
+					"key": "prob",
+					"value": 0.8
+				},
+				{
+					"key": "base_attack_time",
+					"value": 0.7
+				},
+				{
+					"key": "block_cnt",
+					"value": 1
+				},
+				{
+					"key": "value",
+					"value": 8
+				}
+			]
+		},
+		{
+			"name": "フレイムハート",
+			"rangeId": null,
+			"description": "効果時間内所持コストが徐々に増加（合計<@ba.vup>{value}</>）、通常攻撃の間隔を<@ba.vdown>短縮</>し、攻撃力<@ba.vup>+{atk:0%}</>、ブロック数<@ba.vup>+{block_cnt}</>、物理と術回避<@ba.vup>+{prob:0%}</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 16,
+				"initSp": 6,
+				"increment": 1
+			},
+			"prefabId": "skchr_flamtl_3",
+			"duration": 8,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.9
+				},
+				{
+					"key": "cost",
+					"value": 1
+				},
+				{
+					"key": "prob",
+					"value": 0.8
+				},
+				{
+					"key": "base_attack_time",
+					"value": 0.7
+				},
+				{
+					"key": "block_cnt",
+					"value": 1
+				},
+				{
+					"key": "value",
+					"value": 8
+				}
+			]
+		}
+	]
+}

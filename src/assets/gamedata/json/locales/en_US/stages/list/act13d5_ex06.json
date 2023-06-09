@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act13d5_ex05",
@@ -10,7 +11,7 @@
 	],
 	"stageId": "act13d5_ex06",
 	"levelId": "Activities/ACT13D5/level_act13d5_ex06",
-	"zoneId": "act13d5_zone2",
+	"zoneId": "act7sre_zone2",
 	"code": "MN-EX-6",
 	"name": "Bomb Maze",
 	"description": "A terrifying competition rule used in some arenas. The audience votes on the placement of bombs and obstacles. This is one of the most undignified competitions for the knights. No, it doesn't have much to do with competition anymore, but it does bring in a lot of money. \n<@lv.item><Interference Mine></>Upon explosion, deals heavy damage to enemies in the surrounding 4 tiles and amplifies the damage they take for 15 seconds.",
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {
@@ -52,7 +54,7 @@
 		"displayRewards": [
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act13d5_token_securities",
+				"id": "act13d5_token_securities_rep_1",
 				"dropType": 8
 			},
 			{
@@ -65,7 +67,7 @@
 			{
 				"occPercent": 0,
 				"type": "ACTIVITY_ITEM",
-				"id": "act13d5_token_securities",
+				"id": "act13d5_token_securities_rep_1",
 				"dropType": 8
 			},
 			{

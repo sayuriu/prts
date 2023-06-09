@@ -1,0 +1,41 @@
+{
+	"itemId": "act9mini_token_ticket",
+	"name": "パインリーフチケット",
+	"description": "騎士貴族が経営する企業が発行する騎士競技のチケット。一夜にして大富豪になる者もいれば、破産する者もいる。小さな紙の上には博徒たちの血と涙で悲喜が書かれている。",
+	"rarity": 4,
+	"iconId": "act9mini_token_ticket",
+	"overrideBkg": null,
+	"stackIconId": null,
+	"sortId": -10000,
+	"usage": "レッドパインリーフのロゴが入った騎士競技のチケット。騎士競技の交換窓口で掛け金に応じた払い戻し金を受け取ることができる。さあお気に入りの騎士にベットして、大金持ちになろう！",
+	"obtainApproach": "期間限定ドロップ",
+	"classifyType": "NONE",
+	"itemType": "ACTIVITY_ITEM",
+	"stageDropList": [
+		{
+			"stageId": "act9mini_01",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "act9mini_02",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "act9mini_03",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "act9mini_04",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "act9mini_05",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "act9mini_06",
+			"occPer": "ALWAYS"
+		}
+	],
+	"buildingProductList": []
+}

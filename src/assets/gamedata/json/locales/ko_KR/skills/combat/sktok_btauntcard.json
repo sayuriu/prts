@@ -1,0 +1,34 @@
+{
+	"skillId": "sktok_btauntcard",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "결정화",
+			"rangeId": null,
+			"description": "<@ba.vup>아군의 공격을 받을 수 있으며</>, 25초 후 공격 범위 내 모든 아군 유닛에 <@ba.vup>{damage}</> <@ba.vup>트루 대미지</>를 입히고 <@ba.vup>{stun}</>초간 <$ba.stun>기절</>시킨다\n파괴되면 <@ba.vup>준비 구역</>에서 무작위로 <@ba.vup>4</>명 선별, 그중 <@ba.vup>0-1</>명을 차출(이번 전투에서 다시 출현하지 않음)하고 호출 증표 <@ba.vup>15</> 획득\n<@ba.rem>발동 후 소멸(이번 전투에서 다시 출현하지 않음)</>",
+			"skillType": 2,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 25,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "sktok_btauntcard",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "damage",
+					"value": 1000
+				},
+				{
+					"key": "stun",
+					"value": 5
+				}
+			]
+		}
+	]
+}

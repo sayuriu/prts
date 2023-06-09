@@ -2,10 +2,11 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act16d5_02",
-			"completeState": 2
+			"completeState": "PASS"
 		}
 	],
 	"stageId": "act16d5_03",
@@ -44,7 +45,7 @@
 	"isHardPredefined": false,
 	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
-	"appearanceStyle": 0,
+	"appearanceStyle": "MAIN_NORMAL",
 	"stageDropInfo": {
 		"firstPassRewards": null,
 		"firstCompleteRewards": null,
@@ -54,74 +55,80 @@
 			{
 				"type": "FURN",
 				"id": "furni_inkArt_floorLamp_01",
-				"dropType": 8
+				"dropType": "COMPLETE"
 			},
 			{
 				"type": "ACTIVITY_ITEM",
 				"id": "act16d5_token_inker_rep_1",
-				"dropType": 8
+				"dropType": "COMPLETE"
 			},
 			{
 				"type": "ACTIVITY_ITEM",
 				"id": "act16d5_token_inker_rep_1",
-				"dropType": 2
+				"dropType": "NORMAL"
 			},
 			{
 				"type": "MATERIAL",
 				"id": "30041",
-				"dropType": 2
+				"dropType": "NORMAL"
 			},
 			{
 				"type": "MATERIAL",
 				"id": "30011",
-				"dropType": 2
+				"dropType": "NORMAL"
 			},
 			{
 				"type": "DIAMOND",
 				"id": "4002",
-				"dropType": 8
+				"dropType": "COMPLETE"
 			}
 		],
 		"displayDetailRewards": [
 			{
-				"occPercent": 0,
+				"occPercent": "ALWAYS",
 				"type": "FURN",
 				"id": "furni_inkArt_floorLamp_01",
-				"dropType": 8
+				"dropType": "COMPLETE"
 			},
 			{
-				"occPercent": 0,
+				"occPercent": "ALWAYS",
 				"type": "ACTIVITY_ITEM",
 				"id": "act16d5_token_inker_rep_1",
-				"dropType": 8
+				"dropType": "COMPLETE"
 			},
 			{
-				"occPercent": 0,
+				"occPercent": "ALWAYS",
 				"type": "ACTIVITY_ITEM",
 				"id": "act16d5_token_inker_rep_1",
-				"dropType": 2
+				"dropType": "NORMAL"
 			},
 			{
-				"occPercent": 0,
+				"occPercent": "ALWAYS",
 				"type": "MATERIAL",
 				"id": "30041",
-				"dropType": 2
+				"dropType": "NORMAL"
 			},
 			{
-				"occPercent": 0,
+				"occPercent": "ALWAYS",
 				"type": "MATERIAL",
 				"id": "30011",
-				"dropType": 2
+				"dropType": "NORMAL"
 			},
 			{
-				"occPercent": 0,
+				"occPercent": "ALWAYS",
 				"type": "DIAMOND",
 				"id": "4002",
-				"dropType": 8
+				"dropType": "COMPLETE"
 			}
 		]
 	},
+	"canUseCharm": false,
+	"canUseTech": false,
+	"canUseTrapTool": false,
+	"canUseBattlePerformance": false,
 	"startButtonOverrideId": null,
 	"isStagePatch": false,
-	"mainStageId": "act16d5_st01"
+	"mainStageId": "act16d5_st01",
+	"extraCondition": null,
+	"extraInfo": null
 }

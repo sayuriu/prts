@@ -7,10 +7,10 @@
 			"name": "同步索敌攻击",
 			"rangeId": "3-3",
 			"description": "攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>，释放浮游单元锁定敌人攻击，自身与浮游单元有<@ba.vup>{attack@prob:0%}</>的概率<$ba.stun>晕眩</>敌人<@ba.vup>{attack@stun:0.0}</>秒\\n<@ba.rem>浮游单元锁敌后直至敌人被击杀或技能结束后返回干员身边</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 45,
@@ -22,15 +22,18 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.4
+					"value": 0.4,
+					"valueStr": null
 				},
 				{
 					"key": "attack@prob",
-					"value": 0.2
+					"value": 0.2,
+					"valueStr": null
 				},
 				{
 					"key": "attack@stun",
-					"value": 0.4
+					"value": 0.4,
+					"valueStr": null
 				}
 			]
 		},
@@ -38,10 +41,10 @@
 			"name": "同步索敌攻击",
 			"rangeId": "3-3",
 			"description": "攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>，释放浮游单元锁定敌人攻击，自身与浮游单元有<@ba.vup>{attack@prob:0%}</>的概率<$ba.stun>晕眩</>敌人<@ba.vup>{attack@stun:0.0}</>秒\\n<@ba.rem>浮游单元锁敌后直至敌人被击杀或技能结束后返回干员身边</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 45,
@@ -53,15 +56,18 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.43
+					"value": 0.43,
+					"valueStr": null
 				},
 				{
 					"key": "attack@prob",
-					"value": 0.2
+					"value": 0.2,
+					"valueStr": null
 				},
 				{
 					"key": "attack@stun",
-					"value": 0.4
+					"value": 0.4,
+					"valueStr": null
 				}
 			]
 		},
@@ -69,10 +75,10 @@
 			"name": "同步索敌攻击",
 			"rangeId": "3-3",
 			"description": "攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>，释放浮游单元锁定敌人攻击，自身与浮游单元有<@ba.vup>{attack@prob:0%}</>的概率<$ba.stun>晕眩</>敌人<@ba.vup>{attack@stun:0.0}</>秒\\n<@ba.rem>浮游单元锁敌后直至敌人被击杀或技能结束后返回干员身边</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 45,
@@ -84,15 +90,18 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.46
+					"value": 0.46,
+					"valueStr": null
 				},
 				{
 					"key": "attack@prob",
-					"value": 0.2
+					"value": 0.2,
+					"valueStr": null
 				},
 				{
 					"key": "attack@stun",
-					"value": 0.4
+					"value": 0.4,
+					"valueStr": null
 				}
 			]
 		},
@@ -100,10 +109,10 @@
 			"name": "同步索敌攻击",
 			"rangeId": "3-3",
 			"description": "攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>，释放浮游单元锁定敌人攻击，自身与浮游单元有<@ba.vup>{attack@prob:0%}</>的概率<$ba.stun>晕眩</>敌人<@ba.vup>{attack@stun:0.0}</>秒\\n<@ba.rem>浮游单元锁敌后直至敌人被击杀或技能结束后返回干员身边</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 45,
@@ -115,15 +124,18 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.49
+					"value": 0.49,
+					"valueStr": null
 				},
 				{
 					"key": "attack@prob",
-					"value": 0.23
+					"value": 0.23,
+					"valueStr": null
 				},
 				{
 					"key": "attack@stun",
-					"value": 0.4
+					"value": 0.4,
+					"valueStr": null
 				}
 			]
 		},
@@ -131,10 +143,10 @@
 			"name": "同步索敌攻击",
 			"rangeId": "3-3",
 			"description": "攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>，释放浮游单元锁定敌人攻击，自身与浮游单元有<@ba.vup>{attack@prob:0%}</>的概率<$ba.stun>晕眩</>敌人<@ba.vup>{attack@stun:0.0}</>秒\\n<@ba.rem>浮游单元锁敌后直至敌人被击杀或技能结束后返回干员身边</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 45,
@@ -146,15 +158,18 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.52
+					"value": 0.52,
+					"valueStr": null
 				},
 				{
 					"key": "attack@prob",
-					"value": 0.23
+					"value": 0.23,
+					"valueStr": null
 				},
 				{
 					"key": "attack@stun",
-					"value": 0.4
+					"value": 0.4,
+					"valueStr": null
 				}
 			]
 		},
@@ -162,10 +177,10 @@
 			"name": "同步索敌攻击",
 			"rangeId": "3-3",
 			"description": "攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>，释放浮游单元锁定敌人攻击，自身与浮游单元有<@ba.vup>{attack@prob:0%}</>的概率<$ba.stun>晕眩</>敌人<@ba.vup>{attack@stun:0.0}</>秒\\n<@ba.rem>浮游单元锁敌后直至敌人被击杀或技能结束后返回干员身边</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 45,
@@ -177,15 +192,18 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.55
+					"value": 0.55,
+					"valueStr": null
 				},
 				{
 					"key": "attack@prob",
-					"value": 0.23
+					"value": 0.23,
+					"valueStr": null
 				},
 				{
 					"key": "attack@stun",
-					"value": 0.4
+					"value": 0.4,
+					"valueStr": null
 				}
 			]
 		},
@@ -193,10 +211,10 @@
 			"name": "同步索敌攻击",
 			"rangeId": "3-3",
 			"description": "攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>，释放浮游单元锁定敌人攻击，自身与浮游单元有<@ba.vup>{attack@prob:0%}</>的概率<$ba.stun>晕眩</>敌人<@ba.vup>{attack@stun:0.0}</>秒\\n<@ba.rem>浮游单元锁敌后直至敌人被击杀或技能结束后返回干员身边</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 45,
@@ -208,15 +226,18 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.58
+					"value": 0.58,
+					"valueStr": null
 				},
 				{
 					"key": "attack@prob",
-					"value": 0.23
+					"value": 0.23,
+					"valueStr": null
 				},
 				{
 					"key": "attack@stun",
-					"value": 0.7
+					"value": 0.7,
+					"valueStr": null
 				}
 			]
 		},
@@ -224,10 +245,10 @@
 			"name": "同步索敌攻击",
 			"rangeId": "3-3",
 			"description": "攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>，释放浮游单元锁定敌人攻击，自身与浮游单元有<@ba.vup>{attack@prob:0%}</>的概率<$ba.stun>晕眩</>敌人<@ba.vup>{attack@stun:0.0}</>秒\\n<@ba.rem>浮游单元锁敌后直至敌人被击杀或技能结束后返回干员身边</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 45,
@@ -239,15 +260,18 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.62
+					"value": 0.62,
+					"valueStr": null
 				},
 				{
 					"key": "attack@prob",
-					"value": 0.27
+					"value": 0.27,
+					"valueStr": null
 				},
 				{
 					"key": "attack@stun",
-					"value": 0.7
+					"value": 0.7,
+					"valueStr": null
 				}
 			]
 		},
@@ -255,10 +279,10 @@
 			"name": "同步索敌攻击",
 			"rangeId": "3-3",
 			"description": "攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>，释放浮游单元锁定敌人攻击，自身与浮游单元有<@ba.vup>{attack@prob:0%}</>的概率<$ba.stun>晕眩</>敌人<@ba.vup>{attack@stun:0.0}</>秒\\n<@ba.rem>浮游单元锁敌后直至敌人被击杀或技能结束后返回干员身边</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 45,
@@ -270,15 +294,18 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.66
+					"value": 0.66,
+					"valueStr": null
 				},
 				{
 					"key": "attack@prob",
-					"value": 0.27
+					"value": 0.27,
+					"valueStr": null
 				},
 				{
 					"key": "attack@stun",
-					"value": 0.7
+					"value": 0.7,
+					"valueStr": null
 				}
 			]
 		},
@@ -286,10 +313,10 @@
 			"name": "同步索敌攻击",
 			"rangeId": "3-3",
 			"description": "攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>，释放浮游单元锁定敌人攻击，自身与浮游单元有<@ba.vup>{attack@prob:0%}</>的概率<$ba.stun>晕眩</>敌人<@ba.vup>{attack@stun:0.0}</>秒\\n<@ba.rem>浮游单元锁敌后直至敌人被击杀或技能结束后返回干员身边</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 45,
@@ -301,15 +328,18 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.7
+					"value": 0.7,
+					"valueStr": null
 				},
 				{
 					"key": "attack@prob",
-					"value": 0.27
+					"value": 0.27,
+					"valueStr": null
 				},
 				{
 					"key": "attack@stun",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		}

@@ -7,8 +7,8 @@
 			"name": "坏脾气",
 			"rangeId": "x-5",
 			"description": "对周围四格范围的敌人造成<@ba.vup>{attack@stun}</>秒<$ba.stun>晕眩</>",
-			"skillType": 0,
-			"durationType": 0,
+			"skillType": "PASSIVE",
+			"durationType": "PASSIVE",
 			"spData": {
 				"spType": 8,
 				"levelUpCost": null,
@@ -22,11 +22,13 @@
 			"blackboard": [
 				{
 					"key": "attack@duration",
-					"value": 1.5
+					"value": 1.5,
+					"valueStr": null
 				},
 				{
 					"key": "attack@stun",
-					"value": 12
+					"value": 12,
+					"valueStr": null
 				}
 			]
 		}

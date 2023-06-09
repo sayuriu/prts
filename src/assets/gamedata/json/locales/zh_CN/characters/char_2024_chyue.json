@@ -1,0 +1,916 @@
+{
+	"name": "重岳",
+	"description": "能够阻挡一个敌人",
+	"canUseGeneralPotentialItem": true,
+	"canUseActivityPotentialItem": false,
+	"potentialItemId": "p_char_2024_chyue",
+	"activityPotentialItemId": null,
+	"classicPotentialItemId": null,
+	"nationId": "yan",
+	"groupId": "sui",
+	"teamId": null,
+	"displayNumber": "NM04",
+	"tokenKey": null,
+	"appellation": "Chongyue",
+	"position": "MELEE",
+	"tagList": [
+		"爆发"
+	],
+	"itemUsage": "自称只是一介武人的炎国访客，重岳，可从未有人见他真正出手过。",
+	"itemDesc": "习武没什么门槛，越没门槛的事越难。",
+	"itemObtainApproach": "招募寻访",
+	"isNotObtainable": false,
+	"isSpChar": false,
+	"maxPotentialLevel": 5,
+	"rarity": "TIER_6",
+	"profession": "WARRIOR",
+	"subProfessionId": "fighter",
+	"trait": null,
+	"phases": [
+		{
+			"characterPrefabKey": "char_2024_chyue",
+			"rangeId": "1-1",
+			"maxLevel": 50,
+			"attributesKeyFrames": [
+				{
+					"level": 1,
+					"data": {
+						"maxHp": 1246,
+						"atk": 242,
+						"def": 156,
+						"magicResistance": 0,
+						"cost": 9,
+						"blockCnt": 1,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 0.78,
+						"respawnTime": 70,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
+					}
+				},
+				{
+					"level": 50,
+					"data": {
+						"maxHp": 1684,
+						"atk": 357,
+						"def": 224,
+						"magicResistance": 0,
+						"cost": 9,
+						"blockCnt": 1,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 0.78,
+						"respawnTime": 70,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
+					}
+				}
+			],
+			"evolveCost": null
+		},
+		{
+			"characterPrefabKey": "char_2024_chyue",
+			"rangeId": "1-1",
+			"maxLevel": 80,
+			"attributesKeyFrames": [
+				{
+					"level": 1,
+					"data": {
+						"maxHp": 1684,
+						"atk": 357,
+						"def": 224,
+						"magicResistance": 0,
+						"cost": 11,
+						"blockCnt": 1,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 0.78,
+						"respawnTime": 70,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
+					}
+				},
+				{
+					"level": 80,
+					"data": {
+						"maxHp": 2160,
+						"atk": 477,
+						"def": 304,
+						"magicResistance": 0,
+						"cost": 11,
+						"blockCnt": 1,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 0.78,
+						"respawnTime": 70,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
+					}
+				}
+			],
+			"evolveCost": [
+				{
+					"id": "3221",
+					"count": 5,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30032",
+					"count": 8,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30062",
+					"count": 3,
+					"type": "MATERIAL"
+				}
+			]
+		},
+		{
+			"characterPrefabKey": "char_2024_chyue",
+			"rangeId": "1-1",
+			"maxLevel": 90,
+			"attributesKeyFrames": [
+				{
+					"level": 1,
+					"data": {
+						"maxHp": 2160,
+						"atk": 477,
+						"def": 304,
+						"magicResistance": 0,
+						"cost": 11,
+						"blockCnt": 1,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 0.78,
+						"respawnTime": 70,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
+					}
+				},
+				{
+					"level": 90,
+					"data": {
+						"maxHp": 2635,
+						"atk": 590,
+						"def": 363,
+						"magicResistance": 0,
+						"cost": 11,
+						"blockCnt": 1,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 0.78,
+						"respawnTime": 70,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
+					}
+				}
+			],
+			"evolveCost": [
+				{
+					"id": "3223",
+					"count": 4,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30115",
+					"count": 4,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "31024",
+					"count": 5,
+					"type": "MATERIAL"
+				}
+			]
+		}
+	],
+	"skills": [
+		{
+			"skillId": "skchr_chyue_1",
+			"overridePrefabKey": null,
+			"overrideTokenKey": null,
+			"levelUpCostCond": [
+				{
+					"unlockCond": {
+						"phase": "PHASE_2",
+						"level": 1
+					},
+					"lvlUpTime": 28800,
+					"levelUpCost": [
+						{
+							"id": "3303",
+							"count": 8,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "31014",
+							"count": 4,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30023",
+							"count": 9,
+							"type": "MATERIAL"
+						}
+					]
+				},
+				{
+					"unlockCond": {
+						"phase": "PHASE_2",
+						"level": 1
+					},
+					"lvlUpTime": 57600,
+					"levelUpCost": [
+						{
+							"id": "3303",
+							"count": 12,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30084",
+							"count": 4,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "31034",
+							"count": 7,
+							"type": "MATERIAL"
+						}
+					]
+				},
+				{
+					"unlockCond": {
+						"phase": "PHASE_2",
+						"level": 1
+					},
+					"lvlUpTime": 86400,
+					"levelUpCost": [
+						{
+							"id": "3303",
+							"count": 15,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30135",
+							"count": 6,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "31054",
+							"count": 6,
+							"type": "MATERIAL"
+						}
+					]
+				}
+			],
+			"unlockCond": {
+				"phase": "PHASE_0",
+				"level": 1
+			}
+		},
+		{
+			"skillId": "skchr_chyue_2",
+			"overridePrefabKey": null,
+			"overrideTokenKey": null,
+			"levelUpCostCond": [
+				{
+					"unlockCond": {
+						"phase": "PHASE_2",
+						"level": 1
+					},
+					"lvlUpTime": 28800,
+					"levelUpCost": [
+						{
+							"id": "3303",
+							"count": 8,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30104",
+							"count": 4,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "31023",
+							"count": 5,
+							"type": "MATERIAL"
+						}
+					]
+				},
+				{
+					"unlockCond": {
+						"phase": "PHASE_2",
+						"level": 1
+					},
+					"lvlUpTime": 57600,
+					"levelUpCost": [
+						{
+							"id": "3303",
+							"count": 12,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30074",
+							"count": 4,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30044",
+							"count": 7,
+							"type": "MATERIAL"
+						}
+					]
+				},
+				{
+					"unlockCond": {
+						"phase": "PHASE_2",
+						"level": 1
+					},
+					"lvlUpTime": 86400,
+					"levelUpCost": [
+						{
+							"id": "3303",
+							"count": 15,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30145",
+							"count": 6,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "31064",
+							"count": 4,
+							"type": "MATERIAL"
+						}
+					]
+				}
+			],
+			"unlockCond": {
+				"phase": "PHASE_1",
+				"level": 1
+			}
+		},
+		{
+			"skillId": "skchr_chyue_3",
+			"overridePrefabKey": null,
+			"overrideTokenKey": null,
+			"levelUpCostCond": [
+				{
+					"unlockCond": {
+						"phase": "PHASE_2",
+						"level": 1
+					},
+					"lvlUpTime": 28800,
+					"levelUpCost": [
+						{
+							"id": "3303",
+							"count": 8,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "31064",
+							"count": 4,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30093",
+							"count": 4,
+							"type": "MATERIAL"
+						}
+					]
+				},
+				{
+					"unlockCond": {
+						"phase": "PHASE_2",
+						"level": 1
+					},
+					"lvlUpTime": 57600,
+					"levelUpCost": [
+						{
+							"id": "3303",
+							"count": 12,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "31024",
+							"count": 4,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30064",
+							"count": 6,
+							"type": "MATERIAL"
+						}
+					]
+				},
+				{
+					"unlockCond": {
+						"phase": "PHASE_2",
+						"level": 1
+					},
+					"lvlUpTime": 86400,
+					"levelUpCost": [
+						{
+							"id": "3303",
+							"count": 15,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30155",
+							"count": 6,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30104",
+							"count": 4,
+							"type": "MATERIAL"
+						}
+					]
+				}
+			],
+			"unlockCond": {
+				"phase": "PHASE_2",
+				"level": 1
+			}
+		}
+	],
+	"talents": [
+		{
+			"candidates": [
+				{
+					"unlockCondition": {
+						"phase": "PHASE_1",
+						"level": 1
+					},
+					"requiredPotentialRank": 0,
+					"prefabKey": "1",
+					"name": "止戈",
+					"description": "对目标普通攻击时，有18%的概率使重岳2.5秒内对其造成的伤害提升55%",
+					"rangeId": null,
+					"blackboard": [
+						{
+							"key": "prob",
+							"value": 0.18,
+							"valueStr": null
+						},
+						{
+							"key": "damage_scale",
+							"value": 1.55,
+							"valueStr": null
+						},
+						{
+							"key": "up_duration",
+							"value": 2.5,
+							"valueStr": null
+						}
+					]
+				},
+				{
+					"unlockCondition": {
+						"phase": "PHASE_1",
+						"level": 1
+					},
+					"requiredPotentialRank": 4,
+					"prefabKey": "1",
+					"name": "止戈",
+					"description": "对目标普通攻击时，有20%<@ba.talpu>（+2%）</>的概率使重岳2.5秒内对其造成的伤害提升60%<@ba.talpu>（+5%）</>",
+					"rangeId": null,
+					"blackboard": [
+						{
+							"key": "prob",
+							"value": 0.2,
+							"valueStr": null
+						},
+						{
+							"key": "damage_scale",
+							"value": 1.6,
+							"valueStr": null
+						},
+						{
+							"key": "up_duration",
+							"value": 2.5,
+							"valueStr": null
+						}
+					]
+				},
+				{
+					"unlockCondition": {
+						"phase": "PHASE_2",
+						"level": 1
+					},
+					"requiredPotentialRank": 0,
+					"prefabKey": "1",
+					"name": "止戈",
+					"description": "对目标普通攻击时，有23%的概率使重岳2.5秒内对其造成的伤害提升65%",
+					"rangeId": null,
+					"blackboard": [
+						{
+							"key": "prob",
+							"value": 0.23,
+							"valueStr": null
+						},
+						{
+							"key": "damage_scale",
+							"value": 1.65,
+							"valueStr": null
+						},
+						{
+							"key": "up_duration",
+							"value": 2.5,
+							"valueStr": null
+						}
+					]
+				},
+				{
+					"unlockCondition": {
+						"phase": "PHASE_2",
+						"level": 1
+					},
+					"requiredPotentialRank": 4,
+					"prefabKey": "1",
+					"name": "止戈",
+					"description": "对目标普通攻击时，有25%<@ba.talpu>（+2%）</>的概率使重岳2.5秒内对其造成的伤害提升70%<@ba.talpu>（+5%）</>",
+					"rangeId": null,
+					"blackboard": [
+						{
+							"key": "prob",
+							"value": 0.25,
+							"valueStr": null
+						},
+						{
+							"key": "damage_scale",
+							"value": 1.7,
+							"valueStr": null
+						},
+						{
+							"key": "up_duration",
+							"value": 2.5,
+							"valueStr": null
+						}
+					]
+				}
+			]
+		},
+		{
+			"candidates": [
+				{
+					"unlockCondition": {
+						"phase": "PHASE_2",
+						"level": 1
+					},
+					"requiredPotentialRank": 0,
+					"prefabKey": "2",
+					"name": "万象为宾",
+					"description": "若重岳释放一次技能击倒不少于一个敌人，则回复3点技力",
+					"rangeId": null,
+					"blackboard": [
+						{
+							"key": "sp",
+							"value": 3,
+							"valueStr": null
+						}
+					]
+				}
+			]
+		}
+	],
+	"potentialRanks": [
+		{
+			"type": "BUFF",
+			"description": "部署费用-1",
+			"buff": {
+				"attributes": {
+					"abnormalFlags": null,
+					"abnormalImmunes": null,
+					"abnormalAntis": null,
+					"abnormalCombos": null,
+					"abnormalComboImmunes": null,
+					"attributeModifiers": [
+						{
+							"attributeType": "COST",
+							"formulaItem": "ADDITION",
+							"value": -1,
+							"loadFromBlackboard": false,
+							"fetchBaseValueFromSourceEntity": false
+						}
+					]
+				}
+			},
+			"equivalentCost": null
+		},
+		{
+			"type": "BUFF",
+			"description": "再部署时间-4秒",
+			"buff": {
+				"attributes": {
+					"abnormalFlags": null,
+					"abnormalImmunes": null,
+					"abnormalAntis": null,
+					"abnormalCombos": null,
+					"abnormalComboImmunes": null,
+					"attributeModifiers": [
+						{
+							"attributeType": "RESPAWN_TIME",
+							"formulaItem": "ADDITION",
+							"value": -4,
+							"loadFromBlackboard": false,
+							"fetchBaseValueFromSourceEntity": false
+						}
+					]
+				}
+			},
+			"equivalentCost": null
+		},
+		{
+			"type": "BUFF",
+			"description": "攻击力+24",
+			"buff": {
+				"attributes": {
+					"abnormalFlags": null,
+					"abnormalImmunes": null,
+					"abnormalAntis": null,
+					"abnormalCombos": null,
+					"abnormalComboImmunes": null,
+					"attributeModifiers": [
+						{
+							"attributeType": "ATK",
+							"formulaItem": "ADDITION",
+							"value": 24,
+							"loadFromBlackboard": false,
+							"fetchBaseValueFromSourceEntity": false
+						}
+					]
+				}
+			},
+			"equivalentCost": null
+		},
+		{
+			"type": "CUSTOM",
+			"description": "第一天赋效果增强",
+			"buff": null,
+			"equivalentCost": null
+		},
+		{
+			"type": "BUFF",
+			"description": "部署费用-1",
+			"buff": {
+				"attributes": {
+					"abnormalFlags": null,
+					"abnormalImmunes": null,
+					"abnormalAntis": null,
+					"abnormalCombos": null,
+					"abnormalComboImmunes": null,
+					"attributeModifiers": [
+						{
+							"attributeType": "COST",
+							"formulaItem": "ADDITION",
+							"value": -1,
+							"loadFromBlackboard": false,
+							"fetchBaseValueFromSourceEntity": false
+						}
+					]
+				}
+			},
+			"equivalentCost": null
+		}
+	],
+	"favorKeyFrames": [
+		{
+			"level": 0,
+			"data": {
+				"maxHp": 0,
+				"atk": 0,
+				"def": 0,
+				"magicResistance": 0,
+				"cost": 0,
+				"blockCnt": 0,
+				"moveSpeed": 0,
+				"attackSpeed": 0,
+				"baseAttackTime": 0,
+				"respawnTime": 0,
+				"hpRecoveryPerSec": 0,
+				"spRecoveryPerSec": 0,
+				"maxDeployCount": 0,
+				"maxDeckStackCnt": 0,
+				"tauntLevel": 0,
+				"massLevel": 0,
+				"baseForceLevel": 0,
+				"stunImmune": false,
+				"silenceImmune": false,
+				"sleepImmune": false,
+				"frozenImmune": false,
+				"levitateImmune": false
+			}
+		},
+		{
+			"level": 50,
+			"data": {
+				"maxHp": 0,
+				"atk": 60,
+				"def": 30,
+				"magicResistance": 0,
+				"cost": 0,
+				"blockCnt": 0,
+				"moveSpeed": 0,
+				"attackSpeed": 0,
+				"baseAttackTime": 0,
+				"respawnTime": 0,
+				"hpRecoveryPerSec": 0,
+				"spRecoveryPerSec": 0,
+				"maxDeployCount": 0,
+				"maxDeckStackCnt": 0,
+				"tauntLevel": 0,
+				"massLevel": 0,
+				"baseForceLevel": 0,
+				"stunImmune": false,
+				"silenceImmune": false,
+				"sleepImmune": false,
+				"frozenImmune": false,
+				"levitateImmune": false
+			}
+		}
+	],
+	"allSkillLvlup": [
+		{
+			"unlockCond": {
+				"phase": "PHASE_0",
+				"level": 1
+			},
+			"lvlUpCost": [
+				{
+					"id": "3301",
+					"count": 5,
+					"type": "MATERIAL"
+				}
+			]
+		},
+		{
+			"unlockCond": {
+				"phase": "PHASE_0",
+				"level": 1
+			},
+			"lvlUpCost": [
+				{
+					"id": "3301",
+					"count": 5,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30041",
+					"count": 5,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30021",
+					"count": 4,
+					"type": "MATERIAL"
+				}
+			]
+		},
+		{
+			"unlockCond": {
+				"phase": "PHASE_0",
+				"level": 1
+			},
+			"lvlUpCost": [
+				{
+					"id": "3302",
+					"count": 8,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30052",
+					"count": 4,
+					"type": "MATERIAL"
+				}
+			]
+		},
+		{
+			"unlockCond": {
+				"phase": "PHASE_1",
+				"level": 1
+			},
+			"lvlUpCost": [
+				{
+					"id": "3302",
+					"count": 8,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30062",
+					"count": 3,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30032",
+					"count": 3,
+					"type": "MATERIAL"
+				}
+			]
+		},
+		{
+			"unlockCond": {
+				"phase": "PHASE_1",
+				"level": 1
+			},
+			"lvlUpCost": [
+				{
+					"id": "3302",
+					"count": 8,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30043",
+					"count": 6,
+					"type": "MATERIAL"
+				}
+			]
+		},
+		{
+			"unlockCond": {
+				"phase": "PHASE_1",
+				"level": 1
+			},
+			"lvlUpCost": [
+				{
+					"id": "3303",
+					"count": 8,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "31063",
+					"count": 6,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "31033",
+					"count": 3,
+					"type": "MATERIAL"
+				}
+			]
+		}
+	]
+}

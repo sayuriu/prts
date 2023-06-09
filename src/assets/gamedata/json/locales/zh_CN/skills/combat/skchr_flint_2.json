@@ -7,10 +7,10 @@
 			"name": "锋芒毕露",
 			"rangeId": null,
 			"description": "阻挡数变为0，攻击力<@ba.vup>+{atk:0%}</>，攻击速度<@ba.vup>+{attack_speed}</>，每次攻击对目标造成0.3秒<$ba.sluggish>停顿</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 35,
@@ -22,15 +22,18 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.1
+					"value": 0.1,
+					"valueStr": null
 				},
 				{
 					"key": "attack_speed",
-					"value": 10
+					"value": 10,
+					"valueStr": null
 				},
 				{
 					"key": "attack@sluggish",
-					"value": 0.3
+					"value": 0.3,
+					"valueStr": null
 				}
 			]
 		},
@@ -38,10 +41,10 @@
 			"name": "锋芒毕露",
 			"rangeId": null,
 			"description": "阻挡数变为0，攻击力<@ba.vup>+{atk:0%}</>，攻击速度<@ba.vup>+{attack_speed}</>，每次攻击对目标造成0.3秒<$ba.sluggish>停顿</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 35,
@@ -53,15 +56,18 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.15
+					"value": 0.15,
+					"valueStr": null
 				},
 				{
 					"key": "attack_speed",
-					"value": 15
+					"value": 15,
+					"valueStr": null
 				},
 				{
 					"key": "attack@sluggish",
-					"value": 0.3
+					"value": 0.3,
+					"valueStr": null
 				}
 			]
 		},
@@ -69,10 +75,10 @@
 			"name": "锋芒毕露",
 			"rangeId": null,
 			"description": "阻挡数变为0，攻击力<@ba.vup>+{atk:0%}</>，攻击速度<@ba.vup>+{attack_speed}</>，每次攻击对目标造成0.3秒<$ba.sluggish>停顿</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 35,
@@ -84,15 +90,18 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.2
+					"value": 0.2,
+					"valueStr": null
 				},
 				{
 					"key": "attack_speed",
-					"value": 20
+					"value": 20,
+					"valueStr": null
 				},
 				{
 					"key": "attack@sluggish",
-					"value": 0.3
+					"value": 0.3,
+					"valueStr": null
 				}
 			]
 		},
@@ -100,10 +109,10 @@
 			"name": "锋芒毕露",
 			"rangeId": null,
 			"description": "阻挡数变为0，攻击力<@ba.vup>+{atk:0%}</>，攻击速度<@ba.vup>+{attack_speed}</>，每次攻击对目标造成0.3秒<$ba.sluggish>停顿</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 35,
@@ -115,15 +124,18 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.25
+					"value": 0.25,
+					"valueStr": null
 				},
 				{
 					"key": "attack_speed",
-					"value": 25
+					"value": 25,
+					"valueStr": null
 				},
 				{
 					"key": "attack@sluggish",
-					"value": 0.3
+					"value": 0.3,
+					"valueStr": null
 				}
 			]
 		},
@@ -131,10 +143,10 @@
 			"name": "锋芒毕露",
 			"rangeId": null,
 			"description": "阻挡数变为0，攻击力<@ba.vup>+{atk:0%}</>，攻击速度<@ba.vup>+{attack_speed}</>，每次攻击对目标造成0.3秒<$ba.sluggish>停顿</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 35,
@@ -146,15 +158,18 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.3
+					"value": 0.3,
+					"valueStr": null
 				},
 				{
 					"key": "attack_speed",
-					"value": 30
+					"value": 30,
+					"valueStr": null
 				},
 				{
 					"key": "attack@sluggish",
-					"value": 0.3
+					"value": 0.3,
+					"valueStr": null
 				}
 			]
 		},
@@ -162,10 +177,10 @@
 			"name": "锋芒毕露",
 			"rangeId": null,
 			"description": "阻挡数变为0，攻击力<@ba.vup>+{atk:0%}</>，攻击速度<@ba.vup>+{attack_speed}</>，每次攻击对目标造成0.3秒<$ba.sluggish>停顿</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 35,
@@ -177,15 +192,18 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.35
+					"value": 0.35,
+					"valueStr": null
 				},
 				{
 					"key": "attack_speed",
-					"value": 35
+					"value": 35,
+					"valueStr": null
 				},
 				{
 					"key": "attack@sluggish",
-					"value": 0.3
+					"value": 0.3,
+					"valueStr": null
 				}
 			]
 		},
@@ -193,10 +211,10 @@
 			"name": "锋芒毕露",
 			"rangeId": null,
 			"description": "阻挡数变为0，攻击力<@ba.vup>+{atk:0%}</>，攻击速度<@ba.vup>+{attack_speed}</>，每次攻击对目标造成0.3秒<$ba.sluggish>停顿</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 35,
@@ -208,15 +226,18 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.4
+					"value": 0.4,
+					"valueStr": null
 				},
 				{
 					"key": "attack_speed",
-					"value": 40
+					"value": 40,
+					"valueStr": null
 				},
 				{
 					"key": "attack@sluggish",
-					"value": 0.3
+					"value": 0.3,
+					"valueStr": null
 				}
 			]
 		},
@@ -224,10 +245,10 @@
 			"name": "锋芒毕露",
 			"rangeId": null,
 			"description": "阻挡数变为0，攻击力<@ba.vup>+{atk:0%}</>，攻击速度<@ba.vup>+{attack_speed}</>，每次攻击对目标造成0.3秒<$ba.sluggish>停顿</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 35,
@@ -239,15 +260,18 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.45
+					"value": 0.45,
+					"valueStr": null
 				},
 				{
 					"key": "attack_speed",
-					"value": 45
+					"value": 45,
+					"valueStr": null
 				},
 				{
 					"key": "attack@sluggish",
-					"value": 0.3
+					"value": 0.3,
+					"valueStr": null
 				}
 			]
 		},
@@ -255,10 +279,10 @@
 			"name": "锋芒毕露",
 			"rangeId": null,
 			"description": "阻挡数变为0，攻击力<@ba.vup>+{atk:0%}</>，攻击速度<@ba.vup>+{attack_speed}</>，每次攻击对目标造成0.3秒<$ba.sluggish>停顿</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 35,
@@ -270,15 +294,18 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				},
 				{
 					"key": "attack_speed",
-					"value": 50
+					"value": 50,
+					"valueStr": null
 				},
 				{
 					"key": "attack@sluggish",
-					"value": 0.3
+					"value": 0.3,
+					"valueStr": null
 				}
 			]
 		},
@@ -286,10 +313,10 @@
 			"name": "锋芒毕露",
 			"rangeId": null,
 			"description": "阻挡数变为0，攻击力<@ba.vup>+{atk:0%}</>，攻击速度<@ba.vup>+{attack_speed}</>，每次攻击对目标造成0.3秒<$ba.sluggish>停顿</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 35,
@@ -301,15 +328,18 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.55
+					"value": 0.55,
+					"valueStr": null
 				},
 				{
 					"key": "attack_speed",
-					"value": 55
+					"value": 55,
+					"valueStr": null
 				},
 				{
 					"key": "attack@sluggish",
-					"value": 0.3
+					"value": 0.3,
+					"valueStr": null
 				}
 			]
 		}

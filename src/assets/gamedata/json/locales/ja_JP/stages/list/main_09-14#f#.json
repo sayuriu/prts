@@ -2,7 +2,12 @@
 	"stageType": "MAIN",
 	"difficulty": "FOUR_STAR",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NORMAL",
 	"unlockCondition": [
+		{
+			"stageId": "main_02-08",
+			"completeState": 2
+		},
 		{
 			"stageId": "main_09-14",
 			"completeState": 3
@@ -13,7 +18,7 @@
 	"zoneId": "main_9",
 	"code": "9-16",
 	"name": "包囲網突破",
-	"description": "<@lv.fs>制限：</>\n<ダブリン喚起術師>の放つ浄化の炎のダメージが距離により減衰しない",
+	"description": "<@lv.fs>制限：</>\n<ダブリン喚起術師>の放つ浄化の炎の与ダメージが移動距離により減衰しない",
 	"hardStagedId": null,
 	"dangerLevel": "-",
 	"dangerPoint": -1,
@@ -42,6 +47,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {

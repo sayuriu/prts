@@ -1,0 +1,165 @@
+{
+	"stageType": "MAIN",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "TOUGH",
+	"unlockCondition": [
+		{
+			"stageId": "tough_11-08",
+			"completeState": 2
+		},
+		{
+			"stageId": "st_11-02",
+			"completeState": 2
+		}
+	],
+	"stageId": "tough_11-09",
+	"levelId": "Obt/Main/level_tough_11-09",
+	"zoneId": "main_11",
+	"code": "11-11",
+	"name": "立場の違い",
+	"description": "武器は敵に対して向けるものであり、互いに向けるべきではなかったのだ。\n<@lv.item><アラデルの衛護></>味方に広範囲シールドを展開する。\n<@lv.fs>環境要素：</>\n一部の敵が変化、枯朽の種の攻撃範囲が拡大",
+	"hardStagedId": null,
+	"dangerLevel": null,
+	"dangerPoint": -1,
+	"loadingPicId": "loading_VC_tower",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 21,
+	"apFailReturn": 20,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": -1,
+	"expGain": 210,
+	"goldGain": 210,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 20,
+	"completeFavor": 21,
+	"slProgress": 0,
+	"displayMainItem": "30043",
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 0,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "MATERIAL",
+				"id": "30043",
+				"dropType": 2
+			},
+			{
+				"type": "MATERIAL",
+				"id": "30044",
+				"dropType": 3
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 3,
+				"type": "MATERIAL",
+				"id": "30043",
+				"dropType": 2
+			},
+			{
+				"occPercent": 4,
+				"type": "MATERIAL",
+				"id": "30044",
+				"dropType": 3
+			},
+			{
+				"occPercent": 3,
+				"type": "MATERIAL",
+				"id": "30031",
+				"dropType": 4
+			},
+			{
+				"occPercent": 3,
+				"type": "MATERIAL",
+				"id": "30051",
+				"dropType": 4
+			},
+			{
+				"occPercent": 4,
+				"type": "MATERIAL",
+				"id": "30032",
+				"dropType": 4
+			},
+			{
+				"occPercent": 4,
+				"type": "MATERIAL",
+				"id": "30052",
+				"dropType": 4
+			},
+			{
+				"occPercent": 4,
+				"type": "MATERIAL",
+				"id": "30033",
+				"dropType": 4
+			},
+			{
+				"occPercent": 4,
+				"type": "MATERIAL",
+				"id": "30053",
+				"dropType": 4
+			},
+			{
+				"occPercent": 4,
+				"type": "MATERIAL",
+				"id": "30093",
+				"dropType": 4
+			},
+			{
+				"occPercent": 4,
+				"type": "MATERIAL",
+				"id": "31033",
+				"dropType": 4
+			},
+			{
+				"occPercent": 4,
+				"type": "MATERIAL",
+				"id": "30103",
+				"dropType": 4
+			},
+			{
+				"occPercent": 4,
+				"type": "MATERIAL",
+				"id": "31053",
+				"dropType": 4
+			},
+			{
+				"occPercent": 4,
+				"type": "MATERIAL",
+				"id": "31043",
+				"dropType": 4
+			},
+			{
+				"occPercent": 0,
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		]
+	},
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "tough_11-09"
+}

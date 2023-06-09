@@ -6,8 +6,9 @@
 		{
 			"name": "アンチステルス",
 			"rangeId": "x-3",
-			"description": "起動後周囲一定範囲内の敵全員の<$ba.invisible>ステルス</>状態を無効化する</>",
+			"description": "起動後周囲一定範囲内の敵全員の<$ba.invisible>ステルス</>状態を無効化する",
 			"skillType": 1,
+			"durationType": 0,
 			"spData": {
 				"spType": 1,
 				"levelUpCost": null,

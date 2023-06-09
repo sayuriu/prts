@@ -7,10 +7,10 @@
 			"name": "封喉",
 			"rangeId": null,
 			"description": "攻击间隔<@ba.vup>略微缩短</>，攻击变为<@ba.vup>2</>连射，击中目标<@ba.vup>{attack@max_stack_count}</>次后技能剩余时间内攻击变为<@ba.vup>4</>连射",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 50,
@@ -22,11 +22,13 @@
 			"blackboard": [
 				{
 					"key": "base_attack_time",
-					"value": -0.15
+					"value": -0.15,
+					"valueStr": null
 				},
 				{
 					"key": "attack@max_stack_count",
-					"value": 40
+					"value": 40,
+					"valueStr": null
 				}
 			]
 		},
@@ -34,10 +36,10 @@
 			"name": "封喉",
 			"rangeId": null,
 			"description": "攻击间隔<@ba.vup>略微缩短</>，攻击变为<@ba.vup>2</>连射，击中目标<@ba.vup>{attack@max_stack_count}</>次后技能剩余时间内攻击变为<@ba.vup>4</>连射",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 49,
@@ -49,11 +51,13 @@
 			"blackboard": [
 				{
 					"key": "base_attack_time",
-					"value": -0.15
+					"value": -0.15,
+					"valueStr": null
 				},
 				{
 					"key": "attack@max_stack_count",
-					"value": 40
+					"value": 40,
+					"valueStr": null
 				}
 			]
 		},
@@ -61,10 +65,10 @@
 			"name": "封喉",
 			"rangeId": null,
 			"description": "攻击间隔<@ba.vup>略微缩短</>，攻击变为<@ba.vup>2</>连射，击中目标<@ba.vup>{attack@max_stack_count}</>次后技能剩余时间内攻击变为<@ba.vup>4</>连射",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 48,
@@ -76,11 +80,13 @@
 			"blackboard": [
 				{
 					"key": "base_attack_time",
-					"value": -0.15
+					"value": -0.15,
+					"valueStr": null
 				},
 				{
 					"key": "attack@max_stack_count",
-					"value": 40
+					"value": 40,
+					"valueStr": null
 				}
 			]
 		},
@@ -88,10 +94,10 @@
 			"name": "封喉",
 			"rangeId": null,
 			"description": "攻击间隔<@ba.vup>少量缩短</>，攻击变为<@ba.vup>2</>连射，击中目标<@ba.vup>{attack@max_stack_count}</>次后技能剩余时间内攻击变为<@ba.vup>4</>连射",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 45,
@@ -103,11 +109,13 @@
 			"blackboard": [
 				{
 					"key": "base_attack_time",
-					"value": -0.22
+					"value": -0.22,
+					"valueStr": null
 				},
 				{
 					"key": "attack@max_stack_count",
-					"value": 40
+					"value": 40,
+					"valueStr": null
 				}
 			]
 		},
@@ -115,10 +123,10 @@
 			"name": "封喉",
 			"rangeId": null,
 			"description": "攻击间隔<@ba.vup>少量缩短</>，攻击变为<@ba.vup>2</>连射，击中目标<@ba.vup>{attack@max_stack_count}</>次后技能剩余时间内攻击变为<@ba.vup>4</>连射",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 44,
@@ -130,11 +138,13 @@
 			"blackboard": [
 				{
 					"key": "base_attack_time",
-					"value": -0.22
+					"value": -0.22,
+					"valueStr": null
 				},
 				{
 					"key": "attack@max_stack_count",
-					"value": 40
+					"value": 40,
+					"valueStr": null
 				}
 			]
 		},
@@ -142,10 +152,10 @@
 			"name": "封喉",
 			"rangeId": null,
 			"description": "攻击间隔<@ba.vup>少量缩短</>，攻击变为<@ba.vup>2</>连射，击中目标<@ba.vup>{attack@max_stack_count}</>次后技能剩余时间内攻击变为<@ba.vup>4</>连射",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 43,
@@ -157,11 +167,13 @@
 			"blackboard": [
 				{
 					"key": "base_attack_time",
-					"value": -0.22
+					"value": -0.22,
+					"valueStr": null
 				},
 				{
 					"key": "attack@max_stack_count",
-					"value": 40
+					"value": 40,
+					"valueStr": null
 				}
 			]
 		},
@@ -169,10 +181,10 @@
 			"name": "封喉",
 			"rangeId": null,
 			"description": "攻击间隔<@ba.vup>一定程度缩短</>，攻击变为<@ba.vup>2</>连射，击中目标<@ba.vup>{attack@max_stack_count}</>次后技能剩余时间内攻击变为<@ba.vup>4</>连射",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 40,
@@ -184,11 +196,13 @@
 			"blackboard": [
 				{
 					"key": "base_attack_time",
-					"value": -0.3
+					"value": -0.3,
+					"valueStr": null
 				},
 				{
 					"key": "attack@max_stack_count",
-					"value": 40
+					"value": 40,
+					"valueStr": null
 				}
 			]
 		},
@@ -196,10 +210,10 @@
 			"name": "封喉",
 			"rangeId": null,
 			"description": "攻击间隔<@ba.vup>一定程度缩短</>，攻击变为<@ba.vup>2</>连射，击中目标<@ba.vup>{attack@max_stack_count}</>次后技能剩余时间内攻击变为<@ba.vup>4</>连射",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 40,
@@ -211,11 +225,13 @@
 			"blackboard": [
 				{
 					"key": "base_attack_time",
-					"value": -0.3
+					"value": -0.3,
+					"valueStr": null
 				},
 				{
 					"key": "attack@max_stack_count",
-					"value": 36
+					"value": 36,
+					"valueStr": null
 				}
 			]
 		},
@@ -223,10 +239,10 @@
 			"name": "封喉",
 			"rangeId": null,
 			"description": "攻击间隔<@ba.vup>一定程度缩短</>，攻击变为<@ba.vup>2</>连射，击中目标<@ba.vup>{attack@max_stack_count}</>次后技能剩余时间内攻击变为<@ba.vup>4</>连射",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 40,
@@ -238,11 +254,13 @@
 			"blackboard": [
 				{
 					"key": "base_attack_time",
-					"value": -0.3
+					"value": -0.3,
+					"valueStr": null
 				},
 				{
 					"key": "attack@max_stack_count",
-					"value": 32
+					"value": 32,
+					"valueStr": null
 				}
 			]
 		},
@@ -250,10 +268,10 @@
 			"name": "封喉",
 			"rangeId": null,
 			"description": "攻击间隔<@ba.vup>较大幅度缩短</>，攻击变为<@ba.vup>2</>连射，击中目标<@ba.vup>{attack@max_stack_count}</>次后技能剩余时间内攻击变为<@ba.vup>4</>连射",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 35,
@@ -265,11 +283,13 @@
 			"blackboard": [
 				{
 					"key": "base_attack_time",
-					"value": -0.375
+					"value": -0.375,
+					"valueStr": null
 				},
 				{
 					"key": "attack@max_stack_count",
-					"value": 32
+					"value": 32,
+					"valueStr": null
 				}
 			]
 		}

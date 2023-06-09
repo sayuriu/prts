@@ -1,0 +1,94 @@
+{
+	"stageType": "MAIN",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "TOUGH",
+	"unlockCondition": [
+		{
+			"stageId": "tough_10-02",
+			"completeState": 2
+		},
+		{
+			"stageId": "tr_20",
+			"completeState": 2
+		}
+	],
+	"stageId": "tough_10-03",
+	"levelId": "Obt/Main/level_tough_10-03",
+	"zoneId": "main_10",
+	"code": "10-4",
+	"name": "砲声の警告",
+	"description": "人々が必死にしがみつく日常は、たった一度の轟音によって失われる。\n<@lv.item><ロンディニウム都市防衛副砲></>チャージ完了時、ブロック数が最も多い味方ユニットを中心とした一定範囲内の敵味方全員に確定ダメージを与える。\n<@lv.fs>環境要素：</>\nロンディニウム都市防衛副砲の初期エネルギー値が上昇。コストの自然回復速度が低下",
+	"hardStagedId": null,
+	"dangerLevel": "-",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_VC_harbor",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 21,
+	"apFailReturn": 20,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": -1,
+	"expGain": 210,
+	"goldGain": 210,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 20,
+	"completeFavor": 21,
+	"slProgress": 0,
+	"displayMainItem": "30053",
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 0,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "MATERIAL",
+				"id": "30053",
+				"dropType": 2
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 2,
+				"type": "MATERIAL",
+				"id": "30053",
+				"dropType": 2
+			},
+			{
+				"occPercent": 3,
+				"type": "MATERIAL",
+				"id": "30062",
+				"dropType": 2
+			},
+			{
+				"occPercent": 0,
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		]
+	},
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "tough_10-03"
+}

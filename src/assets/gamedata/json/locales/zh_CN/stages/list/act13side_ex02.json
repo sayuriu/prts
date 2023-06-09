@@ -2,15 +2,16 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act13side_ex01",
-			"completeState": 2
+			"completeState": "PASS"
 		}
 	],
 	"stageId": "act13side_ex02",
 	"levelId": "Activities/act13side/level_act13side_ex02",
-	"zoneId": "act13side_zone2",
+	"zoneId": "act13sre_zone2",
 	"code": "NL-EX-2",
 	"name": "合理推测",
 	"description": "近期一款安眠营养饮料在市场上大受欢迎，需要进一步推广营销，于是小编采访了两位醉倒打盹的骑士，并就此撰写了文章论证该饮料效果。\\n<@lv.item><城市霓虹></>可以提供初始视野，使用后视野范围扩大",
@@ -44,7 +45,7 @@
 	"isHardPredefined": false,
 	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
-	"appearanceStyle": 0,
+	"appearanceStyle": "MAIN_NORMAL",
 	"stageDropInfo": {
 		"firstPassRewards": null,
 		"firstCompleteRewards": null,
@@ -53,31 +54,37 @@
 		"displayRewards": [
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act13side_token_model",
-				"dropType": 8
+				"id": "act13side_token_model_rep_1",
+				"dropType": "COMPLETE"
 			},
 			{
 				"type": "DIAMOND",
 				"id": "4002",
-				"dropType": 8
+				"dropType": "COMPLETE"
 			}
 		],
 		"displayDetailRewards": [
 			{
-				"occPercent": 0,
+				"occPercent": "ALWAYS",
 				"type": "ACTIVITY_ITEM",
-				"id": "act13side_token_model",
-				"dropType": 8
+				"id": "act13side_token_model_rep_1",
+				"dropType": "COMPLETE"
 			},
 			{
-				"occPercent": 0,
+				"occPercent": "ALWAYS",
 				"type": "DIAMOND",
 				"id": "4002",
-				"dropType": 8
+				"dropType": "COMPLETE"
 			}
 		]
 	},
+	"canUseCharm": false,
+	"canUseTech": false,
+	"canUseTrapTool": false,
+	"canUseBattlePerformance": false,
 	"startButtonOverrideId": null,
 	"isStagePatch": false,
-	"mainStageId": "act13side_ex01"
+	"mainStageId": "act13side_ex01",
+	"extraCondition": null,
+	"extraInfo": null
 }

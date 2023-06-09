@@ -1,0 +1,90 @@
+{
+	"stageType": "ACTIVITY",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
+	"unlockCondition": [
+		{
+			"stageId": "act21side_ex07",
+			"completeState": "PASS"
+		}
+	],
+	"stageId": "act21side_ex08",
+	"levelId": "Activities/ACT21side/level_act21side_ex08",
+	"zoneId": "act21side_zone2",
+	"code": "IS-EX-8",
+	"name": "断雨折毫",
+	"description": "就折断不可一世的毫毛吧，这场雨下得够久了。\\n <@lv.item><血债账簿></>“血债帐款”累计满后，所有敌人获得加强，并召唤出“家族暗影灭迹人”",
+	"hardStagedId": "act21side_ex08#f#",
+	"dangerLevel": "精英2 LV.40",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_IS_NewCity",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 20,
+	"apFailReturn": 19,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": 0,
+	"expGain": 200,
+	"goldGain": 200,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 19,
+	"completeFavor": 20,
+	"slProgress": 0,
+	"displayMainItem": null,
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": "MAIN_NORMAL",
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act21side_token_permesso",
+				"dropType": "COMPLETE"
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": "COMPLETE"
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": "ALWAYS",
+				"type": "ACTIVITY_ITEM",
+				"id": "act21side_token_permesso",
+				"dropType": "COMPLETE"
+			},
+			{
+				"occPercent": "ALWAYS",
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": "COMPLETE"
+			}
+		]
+	},
+	"canUseCharm": false,
+	"canUseTech": false,
+	"canUseTrapTool": false,
+	"canUseBattlePerformance": false,
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "act21side_ex01",
+	"extraCondition": null,
+	"extraInfo": null
+}

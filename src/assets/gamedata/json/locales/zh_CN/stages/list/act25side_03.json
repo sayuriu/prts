@@ -1,0 +1,167 @@
+{
+	"stageType": "ACTIVITY",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
+	"unlockCondition": [
+		{
+			"stageId": "act25side_tr01",
+			"completeState": "PASS"
+		}
+	],
+	"stageId": "act25side_03",
+	"levelId": "Activities/act25side/level_act25side_03",
+	"zoneId": "act25side_zone1",
+	"code": "CW-3",
+	"name": "台前幕后",
+	"description": "台上的光鲜，总是伴随着幕后的牺牲。\\n<@lv.item><重力感应></>存在“石块”与重力感应机关：较重的敌人与阻挡数为1及以上的我方干员可踩动，并控制全场重力分力方向；顺/逆重力方向部署的干员攻速提升/降低，敌人移速提升/降低。",
+	"hardStagedId": null,
+	"dangerLevel": "精英1 LV.1",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_CW_BEFORE",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 9,
+	"apFailReturn": 8,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": 0,
+	"expGain": 90,
+	"goldGain": 90,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 8,
+	"completeFavor": 9,
+	"slProgress": 0,
+	"displayMainItem": null,
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": "MAIN_NORMAL",
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act25side_token_fdrchips",
+				"dropType": "COMPLETE"
+			},
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act25side_token_fdrchips",
+				"dropType": "NORMAL"
+			},
+			{
+				"type": "MATERIAL",
+				"id": "30031",
+				"dropType": "NORMAL"
+			},
+			{
+				"type": "MATERIAL",
+				"id": "30061",
+				"dropType": "NORMAL"
+			},
+			{
+				"type": "MATERIAL",
+				"id": "30041",
+				"dropType": "NORMAL"
+			},
+			{
+				"type": "MATERIAL",
+				"id": "30051",
+				"dropType": "NORMAL"
+			},
+			{
+				"type": "MATERIAL",
+				"id": "30021",
+				"dropType": "NORMAL"
+			},
+			{
+				"type": "MATERIAL",
+				"id": "30011",
+				"dropType": "NORMAL"
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": "COMPLETE"
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": "ALWAYS",
+				"type": "ACTIVITY_ITEM",
+				"id": "act25side_token_fdrchips",
+				"dropType": "COMPLETE"
+			},
+			{
+				"occPercent": "ALWAYS",
+				"type": "ACTIVITY_ITEM",
+				"id": "act25side_token_fdrchips",
+				"dropType": "NORMAL"
+			},
+			{
+				"occPercent": "OFTEN",
+				"type": "MATERIAL",
+				"id": "30031",
+				"dropType": "NORMAL"
+			},
+			{
+				"occPercent": "OFTEN",
+				"type": "MATERIAL",
+				"id": "30061",
+				"dropType": "NORMAL"
+			},
+			{
+				"occPercent": "OFTEN",
+				"type": "MATERIAL",
+				"id": "30041",
+				"dropType": "NORMAL"
+			},
+			{
+				"occPercent": "OFTEN",
+				"type": "MATERIAL",
+				"id": "30051",
+				"dropType": "NORMAL"
+			},
+			{
+				"occPercent": "OFTEN",
+				"type": "MATERIAL",
+				"id": "30021",
+				"dropType": "NORMAL"
+			},
+			{
+				"occPercent": "USUAL",
+				"type": "MATERIAL",
+				"id": "30011",
+				"dropType": "NORMAL"
+			},
+			{
+				"occPercent": "ALWAYS",
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": "COMPLETE"
+			}
+		]
+	},
+	"canUseCharm": false,
+	"canUseTech": false,
+	"canUseTrapTool": false,
+	"canUseBattlePerformance": true,
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "act25side_st01",
+	"extraCondition": null,
+	"extraInfo": null
+}

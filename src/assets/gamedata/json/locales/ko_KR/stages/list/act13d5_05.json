@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act13d5_04",
@@ -10,10 +11,10 @@
 	],
 	"stageId": "act13d5_05",
 	"levelId": "Activities/ACT13D5/level_act13d5_05",
-	"zoneId": "act13d5_zone1",
+	"zoneId": "act7sre_zone1",
 	"code": "MN-5",
 	"name": "스워마 식품",
-	"description": "전국 체인 마켓, \"행복은 풍족한 생활로부터.\" 이벤트는 토너먼트 기간에도 계속됩니다. *글룸핀서 사료 신제품 출시, 대량 구매 환영*\n<@lv.item><방공 룬></> 배치된 오퍼레이터는 공격 속도가 조금 저하되지만, 대공 공격력이 대폭 상승",
+	"description": "전국 체인 마켓, “행복은 풍족한 생활로부터.” 이벤트는 토너먼트 기간에도 계속됩니다. *글룸핀서 사료 신제품 출시, 대량 구매 환영*\n<@lv.item><방공 룬></> 배치된 오퍼레이터는 공격 속도가 조금 저하되지만, 대공 공격력이 대폭 상승",
 	"hardStagedId": null,
 	"dangerLevel": "1차 정예화 Lv.40",
 	"dangerPoint": -1,
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {
@@ -57,12 +59,12 @@
 			},
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act13d5_token_securities",
+				"id": "act13d5_token_securities_rep_1",
 				"dropType": 8
 			},
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act13d5_token_securities",
+				"id": "act13d5_token_securities_rep_1",
 				"dropType": 2
 			},
 			{
@@ -91,13 +93,13 @@
 			{
 				"occPercent": 0,
 				"type": "ACTIVITY_ITEM",
-				"id": "act13d5_token_securities",
+				"id": "act13d5_token_securities_rep_1",
 				"dropType": 8
 			},
 			{
 				"occPercent": 0,
 				"type": "ACTIVITY_ITEM",
-				"id": "act13d5_token_securities",
+				"id": "act13d5_token_securities_rep_1",
 				"dropType": 2
 			},
 			{

@@ -7,10 +7,10 @@
 			"name": "指令：熔毁",
 			"rangeId": null,
 			"description": "Mon3tr的防御力<@ba.vup>+{attack@def:0%}</>，技能期间攻击力从<@ba.vup>+{attack@atk:0%}</>逐渐降低至+0%且伤害类型变为<@ba.vup>真实</>，此期间如果未击杀任何敌人则技能结束后流失最大生命的<@ba.vup>{attack@hp_ratio:0%}</>。<@ba.rem>该技能与Mon3tr</><$ba.binding><@ba.rem>绑定</></>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 25,
@@ -22,15 +22,18 @@
 			"blackboard": [
 				{
 					"key": "attack@atk",
-					"value": 1.3
+					"value": 1.3,
+					"valueStr": null
 				},
 				{
 					"key": "attack@def",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "attack@hp_ratio",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				}
 			]
 		},
@@ -38,10 +41,10 @@
 			"name": "指令：熔毁",
 			"rangeId": null,
 			"description": "Mon3tr的防御力<@ba.vup>+{attack@def:0%}</>，技能期间攻击力从<@ba.vup>+{attack@atk:0%}</>逐渐降低至+0%且伤害类型变为<@ba.vup>真实</>，此期间如果未击杀任何敌人则技能结束后流失最大生命的<@ba.vup>{attack@hp_ratio:0%}</>。<@ba.rem>该技能与Mon3tr</><$ba.binding><@ba.rem>绑定</></>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 24,
@@ -53,15 +56,18 @@
 			"blackboard": [
 				{
 					"key": "attack@atk",
-					"value": 1.4
+					"value": 1.4,
+					"valueStr": null
 				},
 				{
 					"key": "attack@def",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "attack@hp_ratio",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				}
 			]
 		},
@@ -69,10 +75,10 @@
 			"name": "指令：熔毁",
 			"rangeId": null,
 			"description": "Mon3tr的防御力<@ba.vup>+{attack@def:0%}</>，技能期间攻击力从<@ba.vup>+{attack@atk:0%}</>逐渐降低至+0%且伤害类型变为<@ba.vup>真实</>，此期间如果未击杀任何敌人则技能结束后流失最大生命的<@ba.vup>{attack@hp_ratio:0%}</>。<@ba.rem>该技能与Mon3tr</><$ba.binding><@ba.rem>绑定</></>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 23,
@@ -84,15 +90,18 @@
 			"blackboard": [
 				{
 					"key": "attack@atk",
-					"value": 1.5
+					"value": 1.5,
+					"valueStr": null
 				},
 				{
 					"key": "attack@def",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "attack@hp_ratio",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				}
 			]
 		},
@@ -100,10 +109,10 @@
 			"name": "指令：熔毁",
 			"rangeId": null,
 			"description": "Mon3tr的防御力<@ba.vup>+{attack@def:0%}</>，技能期间攻击力从<@ba.vup>+{attack@atk:0%}</>逐渐降低至+0%且伤害类型变为<@ba.vup>真实</>，此期间如果未击杀任何敌人则技能结束后流失最大生命的<@ba.vup>{attack@hp_ratio:0%}</>。<@ba.rem>该技能与Mon3tr</><$ba.binding><@ba.rem>绑定</></>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 22,
@@ -115,15 +124,18 @@
 			"blackboard": [
 				{
 					"key": "attack@atk",
-					"value": 1.6
+					"value": 1.6,
+					"valueStr": null
 				},
 				{
 					"key": "attack@def",
-					"value": 1.2
+					"value": 1.2,
+					"valueStr": null
 				},
 				{
 					"key": "attack@hp_ratio",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				}
 			]
 		},
@@ -131,10 +143,10 @@
 			"name": "指令：熔毁",
 			"rangeId": null,
 			"description": "Mon3tr的防御力<@ba.vup>+{attack@def:0%}</>，技能期间攻击力从<@ba.vup>+{attack@atk:0%}</>逐渐降低至+0%且伤害类型变为<@ba.vup>真实</>，此期间如果未击杀任何敌人则技能结束后流失最大生命的<@ba.vup>{attack@hp_ratio:0%}</>。<@ba.rem>该技能与Mon3tr</><$ba.binding><@ba.rem>绑定</></>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 21,
@@ -146,15 +158,18 @@
 			"blackboard": [
 				{
 					"key": "attack@atk",
-					"value": 1.7
+					"value": 1.7,
+					"valueStr": null
 				},
 				{
 					"key": "attack@def",
-					"value": 1.2
+					"value": 1.2,
+					"valueStr": null
 				},
 				{
 					"key": "attack@hp_ratio",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				}
 			]
 		},
@@ -162,10 +177,10 @@
 			"name": "指令：熔毁",
 			"rangeId": null,
 			"description": "Mon3tr的防御力<@ba.vup>+{attack@def:0%}</>，技能期间攻击力从<@ba.vup>+{attack@atk:0%}</>逐渐降低至+0%且伤害类型变为<@ba.vup>真实</>，此期间如果未击杀任何敌人则技能结束后流失最大生命的<@ba.vup>{attack@hp_ratio:0%}</>。<@ba.rem>该技能与Mon3tr</><$ba.binding><@ba.rem>绑定</></>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 20,
@@ -177,15 +192,18 @@
 			"blackboard": [
 				{
 					"key": "attack@atk",
-					"value": 1.8
+					"value": 1.8,
+					"valueStr": null
 				},
 				{
 					"key": "attack@def",
-					"value": 1.2
+					"value": 1.2,
+					"valueStr": null
 				},
 				{
 					"key": "attack@hp_ratio",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				}
 			]
 		},
@@ -193,10 +211,10 @@
 			"name": "指令：熔毁",
 			"rangeId": null,
 			"description": "Mon3tr的防御力<@ba.vup>+{attack@def:0%}</>，技能期间攻击力从<@ba.vup>+{attack@atk:0%}</>逐渐降低至+0%且伤害类型变为<@ba.vup>真实</>，此期间如果未击杀任何敌人则技能结束后流失最大生命的<@ba.vup>{attack@hp_ratio:0%}</>。<@ba.rem>该技能与Mon3tr</><$ba.binding><@ba.rem>绑定</></>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 19,
@@ -208,15 +226,18 @@
 			"blackboard": [
 				{
 					"key": "attack@atk",
-					"value": 1.9
+					"value": 1.9,
+					"valueStr": null
 				},
 				{
 					"key": "attack@def",
-					"value": 1.4
+					"value": 1.4,
+					"valueStr": null
 				},
 				{
 					"key": "attack@hp_ratio",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				}
 			]
 		},
@@ -224,10 +245,10 @@
 			"name": "指令：熔毁",
 			"rangeId": null,
 			"description": "Mon3tr的防御力<@ba.vup>+{attack@def:0%}</>，技能期间攻击力从<@ba.vup>+{attack@atk:0%}</>逐渐降低至+0%且伤害类型变为<@ba.vup>真实</>，此期间如果未击杀任何敌人则技能结束后流失最大生命的<@ba.vup>{attack@hp_ratio:0%}</>。<@ba.rem>该技能与Mon3tr</><$ba.binding><@ba.rem>绑定</></>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 18,
@@ -239,15 +260,18 @@
 			"blackboard": [
 				{
 					"key": "attack@atk",
-					"value": 2.1
+					"value": 2.1,
+					"valueStr": null
 				},
 				{
 					"key": "attack@def",
-					"value": 1.6
+					"value": 1.6,
+					"valueStr": null
 				},
 				{
 					"key": "attack@hp_ratio",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				}
 			]
 		},
@@ -255,10 +279,10 @@
 			"name": "指令：熔毁",
 			"rangeId": null,
 			"description": "Mon3tr的防御力<@ba.vup>+{attack@def:0%}</>，技能期间攻击力从<@ba.vup>+{attack@atk:0%}</>逐渐降低至+0%且伤害类型变为<@ba.vup>真实</>，此期间如果未击杀任何敌人则技能结束后流失最大生命的<@ba.vup>{attack@hp_ratio:0%}</>。<@ba.rem>该技能与Mon3tr</><$ba.binding><@ba.rem>绑定</></>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 17,
@@ -270,15 +294,18 @@
 			"blackboard": [
 				{
 					"key": "attack@atk",
-					"value": 2.3
+					"value": 2.3,
+					"valueStr": null
 				},
 				{
 					"key": "attack@def",
-					"value": 1.8
+					"value": 1.8,
+					"valueStr": null
 				},
 				{
 					"key": "attack@hp_ratio",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				}
 			]
 		},
@@ -286,10 +313,10 @@
 			"name": "指令：熔毁",
 			"rangeId": null,
 			"description": "Mon3tr的防御力<@ba.vup>+{attack@def:0%}</>，技能期间攻击力从<@ba.vup>+{attack@atk:0%}</>逐渐降低至+0%且伤害类型变为<@ba.vup>真实</>，此期间如果未击杀任何敌人则技能结束后流失最大生命的<@ba.vup>{attack@hp_ratio:0%}</>。<@ba.rem>该技能与Mon3tr</><$ba.binding><@ba.rem>绑定</></>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 15,
@@ -301,15 +328,18 @@
 			"blackboard": [
 				{
 					"key": "attack@atk",
-					"value": 2.6
+					"value": 2.6,
+					"valueStr": null
 				},
 				{
 					"key": "attack@def",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				},
 				{
 					"key": "attack@hp_ratio",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				}
 			]
 		}

@@ -1,0 +1,84 @@
+{
+	"stageType": "ACTIVITY",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
+	"unlockCondition": [
+		{
+			"stageId": "act13side_10",
+			"completeState": 2
+		}
+	],
+	"stageId": "act13side_ex01",
+	"levelId": "Activities/act13side/level_act13side_ex01",
+	"zoneId": "act13sre_zone2",
+	"code": "NL-EX-1",
+	"name": "도시 괴담",
+	"description": "그랜드 나이트 영지에서 글룸핀서는 뉴스거리도 안 된다. 그러나, 하수구에서 무리 지어 사는 잔인하고 난폭한 글룸핀서들이 배관을 타고 당신의 집까지 기어 올라간다면?\n<@lv.item><네온사인></> 기본적인 시야를 확보할 수 있으며, 가동 시 시야 범위 확대",
+	"hardStagedId": "act13side_ex01#f#",
+	"dangerLevel": "1차 정예화 Lv.40",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_Kazimierz_Arena",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 10,
+	"apFailReturn": 9,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": 0,
+	"expGain": 100,
+	"goldGain": 100,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 9,
+	"completeFavor": 10,
+	"slProgress": 0,
+	"displayMainItem": null,
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 0,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act13side_token_model_rep_1",
+				"dropType": 8
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 0,
+				"type": "ACTIVITY_ITEM",
+				"id": "act13side_token_model_rep_1",
+				"dropType": 8
+			},
+			{
+				"occPercent": 0,
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		]
+	},
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "act13side_ex01"
+}

@@ -1,0 +1,123 @@
+{
+	"stageType": "ACTIVITY",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
+	"unlockCondition": [
+		{
+			"stageId": "act18side_03",
+			"completeState": "PASS"
+		}
+	],
+	"stageId": "act18side_04",
+	"levelId": "Activities/act18side/level_act18side_04",
+	"zoneId": "act18side_zone1",
+	"code": "LE-4",
+	"name": "惊愕",
+	"description": "女士们、先生们，请安静！即使听闻如此巨响，也还请保持镇定！\\n<@lv.item><废能干扰></>技力自然回复速度下降\\n<@lv.item><重整束流></>恢复处于其中的我方干员技力自然回复速度",
+	"hardStagedId": null,
+	"dangerLevel": "精英1 LV.40",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_LE1",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 12,
+	"apFailReturn": 11,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": 0,
+	"expGain": 120,
+	"goldGain": 120,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 11,
+	"completeFavor": 12,
+	"slProgress": 0,
+	"displayMainItem": null,
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": "MAIN_NORMAL",
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act18side_token_pieces",
+				"dropType": "COMPLETE"
+			},
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act18side_token_pieces",
+				"dropType": "NORMAL"
+			},
+			{
+				"type": "MATERIAL",
+				"id": "30042",
+				"dropType": "NORMAL"
+			},
+			{
+				"type": "MATERIAL",
+				"id": "30022",
+				"dropType": "NORMAL"
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": "COMPLETE"
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": "ALWAYS",
+				"type": "ACTIVITY_ITEM",
+				"id": "act18side_token_pieces",
+				"dropType": "COMPLETE"
+			},
+			{
+				"occPercent": "ALWAYS",
+				"type": "ACTIVITY_ITEM",
+				"id": "act18side_token_pieces",
+				"dropType": "NORMAL"
+			},
+			{
+				"occPercent": "ALMOST",
+				"type": "MATERIAL",
+				"id": "30042",
+				"dropType": "NORMAL"
+			},
+			{
+				"occPercent": "USUAL",
+				"type": "MATERIAL",
+				"id": "30022",
+				"dropType": "NORMAL"
+			},
+			{
+				"occPercent": "ALWAYS",
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": "COMPLETE"
+			}
+		]
+	},
+	"canUseCharm": false,
+	"canUseTech": false,
+	"canUseTrapTool": false,
+	"canUseBattlePerformance": false,
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "act18side_st01",
+	"extraCondition": null,
+	"extraInfo": null
+}

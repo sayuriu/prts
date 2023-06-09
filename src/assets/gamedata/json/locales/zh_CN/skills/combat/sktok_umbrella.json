@@ -1,0 +1,25 @@
+{
+	"skillId": "sktok_umbrella",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "协助隐藏",
+			"rangeId": "x-4",
+			"description": "可部署在低地与高台地块，周围八格范围内所有友方单位获得<$ba.camou>迷彩</>效果",
+			"skillType": "AUTO",
+			"durationType": "LIMITED",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 1,
+				"initSp": 1,
+				"increment": 0
+			},
+			"prefabId": "sktok_umbrella",
+			"duration": 100,
+			"blackboard": []
+		}
+	]
+}

@@ -2,7 +2,9 @@
 	"name": "生まれしもの",
 	"description": "<幼体>形態時<$ba.invisible>ステルス</>状態になる、その後<$ba.invisible>ステルス</>を解除して周囲一定範囲内の対象を<摂食>する。味方の攻撃によって撃破可能",
 	"canUseGeneralPotentialItem": true,
-	"potentialItemId": "",
+	"canUseActivityPotentialItem": false,
+	"potentialItemId": null,
+	"activityPotentialItemId": null,
 	"nationId": null,
 	"groupId": null,
 	"teamId": null,
@@ -49,7 +51,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -74,7 +78,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],

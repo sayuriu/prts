@@ -1,0 +1,165 @@
+{
+	"stageType": "ACTIVITY",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
+	"unlockCondition": [
+		{
+			"stageId": "main_01-10",
+			"completeState": "PASS"
+		}
+	],
+	"stageId": "act11mini_01",
+	"levelId": "Activities/act11mini/level_act11mini_01",
+	"zoneId": "act11mini_zone1",
+	"code": "TC-1",
+	"name": "雪地冰天",
+	"description": "就算是土生土长的谢拉格人，也觉得天气实在太冷了些。\\n<@lv.item><冰面></>对其上的单位施加“寒冷”，增加被冻结敌人在其上的位移距离\\n<@lv.item><拐角冰面></>对其上的单位施加“寒冷”，改变被位移敌人的移动方向\\n<@lv.item><降雪></>周期性对所有单位施加寒冷",
+	"hardStagedId": "act11mini_01#f#",
+	"dangerLevel": "LV.20",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_BI",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 9,
+	"apFailReturn": 8,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": 0,
+	"expGain": 90,
+	"goldGain": 90,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 8,
+	"completeFavor": 9,
+	"slProgress": 0,
+	"displayMainItem": null,
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": "MAIN_NORMAL",
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act11mini_token_card",
+				"dropType": "COMPLETE"
+			},
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act11mini_token_card",
+				"dropType": "SPECIAL"
+			},
+			{
+				"type": "MATERIAL",
+				"id": "30031",
+				"dropType": "NORMAL"
+			},
+			{
+				"type": "MATERIAL",
+				"id": "30061",
+				"dropType": "NORMAL"
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": "COMPLETE"
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": "ALWAYS",
+				"type": "ACTIVITY_ITEM",
+				"id": "act11mini_token_card",
+				"dropType": "COMPLETE"
+			},
+			{
+				"occPercent": "ALWAYS",
+				"type": "ACTIVITY_ITEM",
+				"id": "act11mini_token_card",
+				"dropType": "SPECIAL"
+			},
+			{
+				"occPercent": "ALMOST",
+				"type": "MATERIAL",
+				"id": "30031",
+				"dropType": "NORMAL"
+			},
+			{
+				"occPercent": "USUAL",
+				"type": "MATERIAL",
+				"id": "30061",
+				"dropType": "NORMAL"
+			},
+			{
+				"occPercent": "SOMETIMES",
+				"type": "MATERIAL",
+				"id": "30011",
+				"dropType": "ADDITIONAL"
+			},
+			{
+				"occPercent": "SOMETIMES",
+				"type": "MATERIAL",
+				"id": "30021",
+				"dropType": "ADDITIONAL"
+			},
+			{
+				"occPercent": "SOMETIMES",
+				"type": "MATERIAL",
+				"id": "30031",
+				"dropType": "ADDITIONAL"
+			},
+			{
+				"occPercent": "SOMETIMES",
+				"type": "MATERIAL",
+				"id": "30041",
+				"dropType": "ADDITIONAL"
+			},
+			{
+				"occPercent": "SOMETIMES",
+				"type": "MATERIAL",
+				"id": "30051",
+				"dropType": "ADDITIONAL"
+			},
+			{
+				"occPercent": "SOMETIMES",
+				"type": "MATERIAL",
+				"id": "30061",
+				"dropType": "ADDITIONAL"
+			},
+			{
+				"occPercent": "SOMETIMES",
+				"type": "MATERIAL",
+				"id": "3003",
+				"dropType": "ADDITIONAL"
+			},
+			{
+				"occPercent": "ALWAYS",
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": "COMPLETE"
+			}
+		]
+	},
+	"canUseCharm": false,
+	"canUseTech": false,
+	"canUseTrapTool": false,
+	"canUseBattlePerformance": false,
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "act11mini_01",
+	"extraCondition": null,
+	"extraInfo": null
+}

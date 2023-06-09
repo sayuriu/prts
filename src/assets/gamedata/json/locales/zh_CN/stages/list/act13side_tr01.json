@@ -2,15 +2,16 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act13side_st01",
-			"completeState": 2
+			"completeState": "PASS"
 		}
 	],
 	"stageId": "act13side_tr01",
 	"levelId": "Activities/act13side/level_act13side_tr01",
-	"zoneId": "act13side_zone1",
+	"zoneId": "act13sre_zone1",
 	"code": "NL-TR-1",
 	"name": "城市之光",
 	"description": "学习如何寻找卡西米尔城市的灯光，如何避开城市阴影里的黑暗，如何正确地享受生活。\\n<@lv.item><黑夜></>干员无法被部署在没有视野的地块上，怪物处于没有视野的区域中拥有隐匿特性\\n<@lv.item><城市霓虹></>可以提供初始视野，使用后视野范围扩大",
@@ -44,7 +45,7 @@
 	"isHardPredefined": false,
 	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
-	"appearanceStyle": 3,
+	"appearanceStyle": "TRAINING",
 	"stageDropInfo": {
 		"firstPassRewards": null,
 		"firstCompleteRewards": null,
@@ -54,19 +55,25 @@
 			{
 				"type": "DIAMOND",
 				"id": "4002",
-				"dropType": 8
+				"dropType": "COMPLETE"
 			}
 		],
 		"displayDetailRewards": [
 			{
-				"occPercent": 0,
+				"occPercent": "ALWAYS",
 				"type": "DIAMOND",
 				"id": "4002",
-				"dropType": 8
+				"dropType": "COMPLETE"
 			}
 		]
 	},
+	"canUseCharm": false,
+	"canUseTech": false,
+	"canUseTrapTool": false,
+	"canUseBattlePerformance": false,
 	"startButtonOverrideId": null,
 	"isStagePatch": false,
-	"mainStageId": "act13side_st01"
+	"mainStageId": "act13side_st01",
+	"extraCondition": null,
+	"extraInfo": null
 }

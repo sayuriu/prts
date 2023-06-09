@@ -2,6 +2,7 @@
 	"stageType": "MAIN",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NORMAL",
 	"unlockCondition": [
 		{
 			"stageId": "main_09-13",
@@ -13,7 +14,7 @@
 	"zoneId": "main_9",
 	"code": "9-16",
 	"name": "包囲網突破",
-	"description": "秘密を隠し通すため、敵があらゆる街に押し寄せる。殺戮を止めるためには、身命を賭す他ないだろう。",
+	"description": "秘密を隠し通すため、敵は街中に押し寄せる。殺戮を止めるためには、身命を賭す他ないだろう。",
 	"hardStagedId": "main_09-14#f#",
 	"dangerLevel": "昇進2 LV.1",
 	"dangerPoint": -1,
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {

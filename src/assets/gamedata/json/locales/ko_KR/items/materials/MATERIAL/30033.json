@@ -6,12 +6,28 @@
 	"iconId": "MTL_SL_RUSH3",
 	"overrideBkg": null,
 	"stackIconId": null,
-	"sortId": 100021,
+	"sortId": 100035,
 	"usage": "공업 제조에 꼭 필요한 폴리에스테르 번들. 제조소에서 합성 재료로 쓰이며 각종 강화에 사용된다.",
 	"obtainApproach": null,
 	"classifyType": "MATERIAL",
 	"itemType": "MATERIAL",
 	"stageDropList": [
+		{
+			"stageId": "act13mini_07",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "act19side_06",
+			"occPer": "ALMOST"
+		},
+		{
+			"stageId": "act10mini_07",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "act14side_07",
+			"occPer": "ALMOST"
+		},
 		{
 			"stageId": "act18d0_06",
 			"occPer": "USUAL"

@@ -1,0 +1,49 @@
+{
+	"itemId": "act10mini_token_ticket",
+	"name": "カレドン賃金券",
+	"description": "カレドンでのみ流通している賃金券、造りが粗いけどこの紙切れの一枚一枚が感染者地区の人々の生活を支えている。",
+	"rarity": 4,
+	"iconId": "act10mini_token_ticket",
+	"overrideBkg": null,
+	"stackIconId": null,
+	"sortId": -10000,
+	"usage": "カレドン城で感染者地区の労働者の賃金代わりとして配布されている物資供給券。リサイクルショップで政府からは提供されない物資を購入することができる。",
+	"obtainApproach": "期間限定ドロップ",
+	"classifyType": "NONE",
+	"itemType": "ACTIVITY_ITEM",
+	"stageDropList": [
+		{
+			"stageId": "act10mini_01",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "act10mini_02",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "act10mini_03",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "act10mini_04",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "act10mini_05",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "act10mini_06",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "act10mini_07",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "act10mini_08",
+			"occPer": "ALWAYS"
+		}
+	],
+	"buildingProductList": []
+}

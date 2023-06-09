@@ -1,0 +1,34 @@
+{
+	"skillId": "sktok_bbombcard",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "폭발",
+			"rangeId": null,
+			"description": "오퍼레이터 호출 시 폭발을 일으켜, 전장에 있는 모든 아군 유닛에 <@ba.vup>{damage}</> <@ba.vup>트루 대미지</>를 입히고 <@ba.vup>{stun}</>초간 <$ba.stun>기절</>시킨다",
+			"skillType": 0,
+			"durationType": 0,
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 0,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": null,
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "damage",
+					"value": 500
+				},
+				{
+					"key": "stun",
+					"value": 5
+				}
+			]
+		}
+	]
+}

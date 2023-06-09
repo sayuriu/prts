@@ -2,7 +2,9 @@
 	"name": "망가진 기둥",
 	"description": "인접한 아군 유닛만 공격 가능",
 	"canUseGeneralPotentialItem": true,
-	"potentialItemId": "",
+	"canUseActivityPotentialItem": false,
+	"potentialItemId": null,
+	"activityPotentialItemId": null,
 	"nationId": null,
 	"groupId": null,
 	"teamId": null,
@@ -49,7 +51,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -74,7 +78,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],

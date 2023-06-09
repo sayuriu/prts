@@ -1,0 +1,25 @@
+{
+	"skillId": "sktok_poachr",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "盗猎食材",
+			"rangeId": null,
+			"description": "击倒野生动物时会将其掉落的食材收集拿走，被击倒时会掉落已收集的食材与额外奖励",
+			"skillType": "PASSIVE",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 0,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": "sktok_empty",
+			"duration": 0,
+			"blackboard": []
+		}
+	]
+}

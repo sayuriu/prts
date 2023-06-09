@@ -2,7 +2,9 @@
 	"name": "Dobermann",
 	"description": "Can attack enemies <@ba.kw>from range</>; When attacking enemies not blocked by self, increase ATK to 120%",
 	"canUseGeneralPotentialItem": true,
+	"canUseActivityPotentialItem": false,
 	"potentialItemId": "p_char_130_doberm",
+	"activityPotentialItemId": null,
 	"nationId": "rhodes",
 	"groupId": null,
 	"teamId": null,
@@ -71,7 +73,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -96,7 +100,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -129,7 +135,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -154,7 +162,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -203,7 +213,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -228,7 +240,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -430,7 +444,7 @@
 					"requiredPotentialRank": 0,
 					"prefabKey": "1",
 					"name": "Starter Instructor",
-					"description": "All three-star Operators' ATK +5%",
+					"description": "When deployed, all three-star Operators gain +5% ATK",
 					"rangeId": "x-4",
 					"blackboard": [
 						{
@@ -447,7 +461,7 @@
 					"requiredPotentialRank": 4,
 					"prefabKey": "1",
 					"name": "Starter Instructor",
-					"description": "All three-star Operators' ATK +6% <@ba.talpu>(+1%)</>",
+					"description": "When deployed, all three-star Operators gain +6% <@ba.talpu>(+1%)</> ATK",
 					"rangeId": "x-4",
 					"blackboard": [
 						{
@@ -464,7 +478,7 @@
 					"requiredPotentialRank": 0,
 					"prefabKey": "1",
 					"name": "Starter Instructor",
-					"description": "All three-star Operators' ATK +10%",
+					"description": "When deployed, all three-star Operators gain +10% ATK",
 					"rangeId": "x-4",
 					"blackboard": [
 						{
@@ -481,7 +495,7 @@
 					"requiredPotentialRank": 4,
 					"prefabKey": "1",
 					"name": "Starter Instructor",
-					"description": "All three-star Operators' ATK +11% <@ba.talpu>(+1%)</>",
+					"description": "When deployed, all three-star Operators gain +11% <@ba.talpu>(+1%)</> ATK",
 					"rangeId": "x-4",
 					"blackboard": [
 						{
@@ -616,7 +630,9 @@
 				"baseForceLevel": 0,
 				"stunImmune": false,
 				"silenceImmune": false,
-				"sleepImmune": false
+				"sleepImmune": false,
+				"frozenImmune": false,
+				"levitateImmune": false
 			}
 		},
 		{
@@ -641,7 +657,9 @@
 				"baseForceLevel": 0,
 				"stunImmune": false,
 				"silenceImmune": false,
-				"sleepImmune": false
+				"sleepImmune": false,
+				"frozenImmune": false,
+				"levitateImmune": false
 			}
 		}
 	],

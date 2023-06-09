@@ -2,7 +2,9 @@
 	"name": "Emergency Aid Building",
 	"description": "Activates when there is a friendly unit or <Automatic Maintenance Drone> in the four adjacent tiles",
 	"canUseGeneralPotentialItem": true,
-	"potentialItemId": "",
+	"canUseActivityPotentialItem": false,
+	"potentialItemId": null,
+	"activityPotentialItemId": null,
 	"nationId": null,
 	"groupId": null,
 	"teamId": null,
@@ -49,7 +51,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -74,7 +78,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],

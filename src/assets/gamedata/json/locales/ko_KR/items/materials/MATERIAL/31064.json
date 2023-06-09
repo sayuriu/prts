@@ -1,0 +1,38 @@
+{
+	"itemId": "31064",
+	"name": "합성 소금 팩",
+	"description": "포화 용액을 혼합, 결정화하여 만든 안정적인 결정체. 재료에 다양한 기능을 제공한다.",
+	"rarity": 3,
+	"iconId": "MTL_SL_ZYK",
+	"overrideBkg": null,
+	"stackIconId": null,
+	"sortId": 100006,
+	"usage": "정련을 거쳐 생성된 화합물 결정. 제조소에서 합성 재료로 쓰이며 각종 강화에 사용된다.",
+	"obtainApproach": null,
+	"classifyType": "MATERIAL",
+	"itemType": "MATERIAL",
+	"stageDropList": [
+		{
+			"stageId": "main_11-03",
+			"occPer": "SOMETIMES"
+		},
+		{
+			"stageId": "main_11-13",
+			"occPer": "SOMETIMES"
+		},
+		{
+			"stageId": "tough_11-03",
+			"occPer": "SOMETIMES"
+		},
+		{
+			"stageId": "tough_11-13",
+			"occPer": "SOMETIMES"
+		}
+	],
+	"buildingProductList": [
+		{
+			"roomType": "WORKSHOP",
+			"formulaId": "61"
+		}
+	]
+}

@@ -2,15 +2,16 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act12side_04",
-			"completeState": 2
+			"completeState": "PASS"
 		}
 	],
 	"stageId": "act12side_05",
 	"levelId": "Activities/ACT12SIDE/level_act12side_05",
-	"zoneId": "act12side_zone1",
+	"zoneId": "act12sre_zone1",
 	"code": "DH-5",
 	"name": "曲径求胜",
 	"description": "有的人为了获胜而走捷径，而有的人则是不得已而走捷径。\\n<@lv.item><涨潮></>被淹没的地块无法部署，水中的敌方和我方单位受到“水蚀”：我方攻击速度降低，持续受到侵蚀损伤，被攻击时附带侵蚀损伤；敌方攻击速度和移动速度降低，持续流失生命",
@@ -44,7 +45,7 @@
 	"isHardPredefined": false,
 	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
-	"appearanceStyle": 0,
+	"appearanceStyle": "MAIN_NORMAL",
 	"stageDropInfo": {
 		"firstPassRewards": null,
 		"firstCompleteRewards": null,
@@ -54,53 +55,58 @@
 			{
 				"type": "FURN",
 				"id": "furni_westCoast_wallpaper_01",
-				"dropType": 8
+				"dropType": "COMPLETE"
 			},
 			{
 				"type": "CHARM",
 				"id": "charm_coin_2",
-				"dropType": 8
+				"dropType": "COMPLETE"
 			},
 			{
 				"type": "CHARM",
 				"id": "charm_coin_2",
-				"dropType": 2
+				"dropType": "NORMAL"
 			},
 			{
 				"type": "DIAMOND",
 				"id": "4002",
-				"dropType": 8
+				"dropType": "COMPLETE"
 			}
 		],
 		"displayDetailRewards": [
 			{
-				"occPercent": 0,
+				"occPercent": "ALWAYS",
 				"type": "FURN",
 				"id": "furni_westCoast_wallpaper_01",
-				"dropType": 8
+				"dropType": "COMPLETE"
 			},
 			{
-				"occPercent": 0,
+				"occPercent": "ALWAYS",
 				"type": "CHARM",
 				"id": "charm_coin_2",
-				"dropType": 8
+				"dropType": "COMPLETE"
 			},
 			{
-				"occPercent": 0,
+				"occPercent": "ALWAYS",
 				"type": "CHARM",
 				"id": "charm_coin_2",
-				"dropType": 2
+				"dropType": "NORMAL"
 			},
 			{
-				"occPercent": 0,
+				"occPercent": "ALWAYS",
 				"type": "DIAMOND",
 				"id": "4002",
-				"dropType": 8
+				"dropType": "COMPLETE"
 			}
 		]
 	},
 	"canUseCharm": true,
+	"canUseTech": false,
+	"canUseTrapTool": false,
+	"canUseBattlePerformance": false,
 	"startButtonOverrideId": null,
 	"isStagePatch": false,
-	"mainStageId": "act12side_st01"
+	"mainStageId": "act12side_st01",
+	"extraCondition": null,
+	"extraInfo": null
 }

@@ -6,7 +6,7 @@
 	"iconId": "MTL_SL_MANGANESE2",
 	"overrideBkg": null,
 	"stackIconId": null,
-	"sortId": 100006,
+	"sortId": 100020,
 	"usage": "用于提炼冶炼用的金属矿物。可用于多种强化场合，也常作为制作D32钢的原料之一。",
 	"obtainApproach": null,
 	"classifyType": "MATERIAL",
@@ -26,6 +26,14 @@
 		},
 		{
 			"stageId": "main_09-13",
+			"occPer": "SOMETIMES"
+		},
+		{
+			"stageId": "main_10-06",
+			"occPer": "SOMETIMES"
+		},
+		{
+			"stageId": "tough_10-06",
 			"occPer": "SOMETIMES"
 		}
 	],

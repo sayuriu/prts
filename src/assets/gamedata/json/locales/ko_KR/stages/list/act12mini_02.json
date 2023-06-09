@@ -1,0 +1,161 @@
+{
+	"stageType": "ACTIVITY",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
+	"unlockCondition": [
+		{
+			"stageId": "act12mini_01",
+			"completeState": 2
+		}
+	],
+	"stageId": "act12mini_02",
+	"levelId": "Activities/act12mini/level_act12mini_02",
+	"zoneId": "act12mini_zone1",
+	"code": "AW-2",
+	"name": "배회",
+	"description": "석상은 생각하지 않는다. 그들은 발밑이 길이라고 생각하겠지만, 실은 끝없이 배회하고 있을 뿐이다.\n<@lv.item><'축음기'></> 적군과 축음기의 통제권을 쟁탈해야 한다. 아군이 활성화 후 적군에게 마법 대미지를 주며 아군의 HP를 회복한다",
+	"hardStagedId": "act12mini_02#f#",
+	"dangerLevel": "1차 정예화 Lv.1",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_Wolumonde",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 9,
+	"apFailReturn": 8,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": 0,
+	"expGain": 90,
+	"goldGain": 90,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 8,
+	"completeFavor": 9,
+	"slProgress": 0,
+	"displayMainItem": null,
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 0,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act12mini_token_component",
+				"dropType": 8
+			},
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act12mini_token_component",
+				"dropType": 3
+			},
+			{
+				"type": "MATERIAL",
+				"id": "30031",
+				"dropType": 2
+			},
+			{
+				"type": "MATERIAL",
+				"id": "30061",
+				"dropType": 2
+			},
+			{
+				"type": "MATERIAL",
+				"id": "30041",
+				"dropType": 2
+			},
+			{
+				"type": "MATERIAL",
+				"id": "30051",
+				"dropType": 2
+			},
+			{
+				"type": "MATERIAL",
+				"id": "30021",
+				"dropType": 2
+			},
+			{
+				"type": "MATERIAL",
+				"id": "30011",
+				"dropType": 2
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 0,
+				"type": "ACTIVITY_ITEM",
+				"id": "act12mini_token_component",
+				"dropType": 8
+			},
+			{
+				"occPercent": 0,
+				"type": "ACTIVITY_ITEM",
+				"id": "act12mini_token_component",
+				"dropType": 3
+			},
+			{
+				"occPercent": 3,
+				"type": "MATERIAL",
+				"id": "30031",
+				"dropType": 2
+			},
+			{
+				"occPercent": 3,
+				"type": "MATERIAL",
+				"id": "30061",
+				"dropType": 2
+			},
+			{
+				"occPercent": 3,
+				"type": "MATERIAL",
+				"id": "30041",
+				"dropType": 2
+			},
+			{
+				"occPercent": 3,
+				"type": "MATERIAL",
+				"id": "30051",
+				"dropType": 2
+			},
+			{
+				"occPercent": 3,
+				"type": "MATERIAL",
+				"id": "30021",
+				"dropType": 2
+			},
+			{
+				"occPercent": 2,
+				"type": "MATERIAL",
+				"id": "30011",
+				"dropType": 2
+			},
+			{
+				"occPercent": 0,
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		]
+	},
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "act12mini_01"
+}

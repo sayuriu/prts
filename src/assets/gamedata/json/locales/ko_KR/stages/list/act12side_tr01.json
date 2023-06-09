@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act12side_st01",
@@ -10,7 +11,7 @@
 	],
 	"stageId": "act12side_tr01",
 	"levelId": "Activities/ACT12SIDE/level_act12side_tr01",
-	"zoneId": "act12side_zone1",
+	"zoneId": "act12sre_zone1",
 	"code": "DH-TR-1",
 	"name": "도솔레스 입성",
 	"description": "처음 낯선 곳에 왔을 때 현지인이 소개를 해주면 훨씬 편한 법이다.\n<@lv.item><밀물></> 침수된 지역에 배치할 수 없으며 적군과 아군 모두 '수식' 상태에 빠진다. 수식: 아군의 공격 속도 저하, 지속적인 침식 피해를 입으며, 피격 시 침식 피해를 추가로 입는다. 적군의 공격 속도 및 이동 속도 저하, 지속해서 HP를 잃는다",
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": true,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 3,
 	"stageDropInfo": {

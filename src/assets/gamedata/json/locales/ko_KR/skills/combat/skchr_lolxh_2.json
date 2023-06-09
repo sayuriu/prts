@@ -1,0 +1,317 @@
+{
+	"skillId": "skchr_lolxh_2",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "부러진 칼날",
+			"rangeId": null,
+			"description": "공격력 <@ba.vup>+{atk:0%}</>, 원거리 공격의 공격력이 더 이상 감소하지 않으며, 적 1명을 추가로 공격, 목표의 HP가 50% 미만일 경우 방어력을 <@ba.vup>{attack@def_penetrate_fixed}</> 무시하는 공격 추가로 1회 시전",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 45,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_lolxh_2",
+			"duration": 15,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.1
+				},
+				{
+					"key": "attack@hp_ratio",
+					"value": 0.5
+				},
+				{
+					"key": "attack@def_penetrate_fixed",
+					"value": 100
+				}
+			]
+		},
+		{
+			"name": "부러진 칼날",
+			"rangeId": null,
+			"description": "공격력 <@ba.vup>+{atk:0%}</>, 원거리 공격의 공격력이 더 이상 감소하지 않으며, 적 1명을 추가로 공격, 목표의 HP가 50% 미만일 경우 방어력을 <@ba.vup>{attack@def_penetrate_fixed}</> 무시하는 공격 추가로 1회 시전",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 45,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_lolxh_2",
+			"duration": 15,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.15
+				},
+				{
+					"key": "attack@hp_ratio",
+					"value": 0.5
+				},
+				{
+					"key": "attack@def_penetrate_fixed",
+					"value": 110
+				}
+			]
+		},
+		{
+			"name": "부러진 칼날",
+			"rangeId": null,
+			"description": "공격력 <@ba.vup>+{atk:0%}</>, 원거리 공격의 공격력이 더 이상 감소하지 않으며, 적 1명을 추가로 공격, 목표의 HP가 50% 미만일 경우 방어력을 <@ba.vup>{attack@def_penetrate_fixed}</> 무시하는 공격 추가로 1회 시전",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 45,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_lolxh_2",
+			"duration": 15,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.2
+				},
+				{
+					"key": "attack@hp_ratio",
+					"value": 0.5
+				},
+				{
+					"key": "attack@def_penetrate_fixed",
+					"value": 120
+				}
+			]
+		},
+		{
+			"name": "부러진 칼날",
+			"rangeId": null,
+			"description": "공격력 <@ba.vup>+{atk:0%}</>, 원거리 공격의 공격력이 더 이상 감소하지 않으며, 적 1명을 추가로 공격, 목표의 HP가 50% 미만일 경우 방어력을 <@ba.vup>{attack@def_penetrate_fixed}</> 무시하는 공격 추가로 1회 시전",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 43,
+				"initSp": 5,
+				"increment": 1
+			},
+			"prefabId": "skchr_lolxh_2",
+			"duration": 17,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.25
+				},
+				{
+					"key": "attack@hp_ratio",
+					"value": 0.5
+				},
+				{
+					"key": "attack@def_penetrate_fixed",
+					"value": 130
+				}
+			]
+		},
+		{
+			"name": "부러진 칼날",
+			"rangeId": null,
+			"description": "공격력 <@ba.vup>+{atk:0%}</>, 원거리 공격의 공격력이 더 이상 감소하지 않으며, 적 1명을 추가로 공격, 목표의 HP가 50% 미만일 경우 방어력을 <@ba.vup>{attack@def_penetrate_fixed}</> 무시하는 공격 추가로 1회 시전",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 43,
+				"initSp": 5,
+				"increment": 1
+			},
+			"prefabId": "skchr_lolxh_2",
+			"duration": 17,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.3
+				},
+				{
+					"key": "attack@hp_ratio",
+					"value": 0.5
+				},
+				{
+					"key": "attack@def_penetrate_fixed",
+					"value": 140
+				}
+			]
+		},
+		{
+			"name": "부러진 칼날",
+			"rangeId": null,
+			"description": "공격력 <@ba.vup>+{atk:0%}</>, 원거리 공격의 공격력이 더 이상 감소하지 않으며, 적 1명을 추가로 공격, 목표의 HP가 50% 미만일 경우 방어력을 <@ba.vup>{attack@def_penetrate_fixed}</> 무시하는 공격 추가로 1회 시전",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 43,
+				"initSp": 5,
+				"increment": 1
+			},
+			"prefabId": "skchr_lolxh_2",
+			"duration": 17,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.35
+				},
+				{
+					"key": "attack@hp_ratio",
+					"value": 0.5
+				},
+				{
+					"key": "attack@def_penetrate_fixed",
+					"value": 150
+				}
+			]
+		},
+		{
+			"name": "부러진 칼날",
+			"rangeId": null,
+			"description": "공격력 <@ba.vup>+{atk:0%}</>, 원거리 공격의 공격력이 더 이상 감소하지 않으며, 적 1명을 추가로 공격, 목표의 HP가 50% 미만일 경우 방어력을 <@ba.vup>{attack@def_penetrate_fixed}</> 무시하는 공격 추가로 1회 시전",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 40,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_lolxh_2",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.4
+				},
+				{
+					"key": "attack@hp_ratio",
+					"value": 0.5
+				},
+				{
+					"key": "attack@def_penetrate_fixed",
+					"value": 160
+				}
+			]
+		},
+		{
+			"name": "부러진 칼날",
+			"rangeId": null,
+			"description": "공격력 <@ba.vup>+{atk:0%}</>, 원거리 공격의 공격력이 더 이상 감소하지 않으며, 적 1명을 추가로 공격, 목표의 HP가 50% 미만일 경우 방어력을 <@ba.vup>{attack@def_penetrate_fixed}</> 무시하는 공격 추가로 1회 시전",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 39,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_lolxh_2",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.5
+				},
+				{
+					"key": "attack@hp_ratio",
+					"value": 0.5
+				},
+				{
+					"key": "attack@def_penetrate_fixed",
+					"value": 170
+				}
+			]
+		},
+		{
+			"name": "부러진 칼날",
+			"rangeId": null,
+			"description": "공격력 <@ba.vup>+{atk:0%}</>, 원거리 공격의 공격력이 더 이상 감소하지 않으며, 적 1명을 추가로 공격, 목표의 HP가 50% 미만일 경우 방어력을 <@ba.vup>{attack@def_penetrate_fixed}</> 무시하는 공격 추가로 1회 시전",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 37,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_lolxh_2",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.6
+				},
+				{
+					"key": "attack@hp_ratio",
+					"value": 0.5
+				},
+				{
+					"key": "attack@def_penetrate_fixed",
+					"value": 180
+				}
+			]
+		},
+		{
+			"name": "부러진 칼날",
+			"rangeId": null,
+			"description": "공격력 <@ba.vup>+{atk:0%}</>, 원거리 공격의 공격력이 더 이상 감소하지 않으며, 적 1명을 추가로 공격, 목표의 HP가 50% 미만일 경우 방어력을 <@ba.vup>{attack@def_penetrate_fixed}</> 무시하는 공격 추가로 1회 시전",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 35,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_lolxh_2",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.7
+				},
+				{
+					"key": "attack@hp_ratio",
+					"value": 0.5
+				},
+				{
+					"key": "attack@def_penetrate_fixed",
+					"value": 200
+				}
+			]
+		}
+	]
+}

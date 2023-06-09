@@ -1,0 +1,106 @@
+{
+	"name": "救急バッグ",
+	"description": null,
+	"canUseGeneralPotentialItem": true,
+	"canUseActivityPotentialItem": false,
+	"potentialItemId": null,
+	"activityPotentialItemId": null,
+	"nationId": null,
+	"groupId": null,
+	"teamId": null,
+	"displayNumber": null,
+	"tokenKey": null,
+	"appellation": "First-aid Kit",
+	"position": "NONE",
+	"tagList": null,
+	"itemUsage": null,
+	"itemDesc": null,
+	"itemObtainApproach": null,
+	"isNotObtainable": false,
+	"isSpChar": false,
+	"maxPotentialLevel": 0,
+	"rarity": 0,
+	"profession": "TRAP",
+	"subProfessionId": "notchar2",
+	"trait": null,
+	"phases": [
+		{
+			"characterPrefabKey": "trap_084_aidkit",
+			"rangeId": "1-1",
+			"maxLevel": 30,
+			"attributesKeyFrames": [
+				{
+					"level": 1,
+					"data": {
+						"maxHp": 100,
+						"atk": 800,
+						"def": 200,
+						"magicResistance": 0,
+						"cost": 5,
+						"blockCnt": 0,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 1,
+						"respawnTime": 5,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
+					}
+				},
+				{
+					"level": 30,
+					"data": {
+						"maxHp": 100,
+						"atk": 800,
+						"def": 200,
+						"magicResistance": 0,
+						"cost": 5,
+						"blockCnt": 0,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 1,
+						"respawnTime": 5,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
+					}
+				}
+			],
+			"evolveCost": null
+		}
+	],
+	"skills": [
+		{
+			"skillId": "sktok_aidkit",
+			"overridePrefabKey": null,
+			"overrideTokenKey": null,
+			"levelUpCostCond": [],
+			"unlockCond": {
+				"phase": 0,
+				"level": 1
+			}
+		}
+	],
+	"talents": null,
+	"potentialRanks": [],
+	"favorKeyFrames": null,
+	"allSkillLvlup": []
+}

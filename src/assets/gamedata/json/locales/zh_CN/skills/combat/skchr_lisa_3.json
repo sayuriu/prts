@@ -7,10 +7,10 @@
 			"name": "狐火渺然",
 			"rangeId": "y-8",
 			"description": "<@ba.vdown>停止攻击</>，攻击范围<@ba.vup>扩大</>，第二天赋效果提升至<@ba.vup>{scale_delta_to_one}</>倍，攻击范围内的所有敌人被<$ba.sluggish><@ba.vup>停顿</></>，且每秒回复范围内所有友方单位相当于攻击力<@ba.vup>{attack@atk_to_hp_recovery_ratio:0%}</>的生命",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 70,
@@ -22,11 +22,13 @@
 			"blackboard": [
 				{
 					"key": "scale_delta_to_one",
-					"value": 1.1
+					"value": 1.1,
+					"valueStr": null
 				},
 				{
 					"key": "attack@atk_to_hp_recovery_ratio",
-					"value": 0.07
+					"value": 0.07,
+					"valueStr": null
 				}
 			]
 		},
@@ -34,10 +36,10 @@
 			"name": "狐火渺然",
 			"rangeId": "y-8",
 			"description": "<@ba.vdown>停止攻击</>，攻击范围<@ba.vup>扩大</>，第二天赋效果提升至<@ba.vup>{scale_delta_to_one}</>倍，攻击范围内的所有敌人被<$ba.sluggish><@ba.vup>停顿</></>，且每秒回复范围内所有友方单位相当于攻击力<@ba.vup>{attack@atk_to_hp_recovery_ratio:0%}</>的生命",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 70,
@@ -49,11 +51,13 @@
 			"blackboard": [
 				{
 					"key": "scale_delta_to_one",
-					"value": 1.2
+					"value": 1.2,
+					"valueStr": null
 				},
 				{
 					"key": "attack@atk_to_hp_recovery_ratio",
-					"value": 0.07
+					"value": 0.07,
+					"valueStr": null
 				}
 			]
 		},
@@ -61,10 +65,10 @@
 			"name": "狐火渺然",
 			"rangeId": "y-8",
 			"description": "<@ba.vdown>停止攻击</>，攻击范围<@ba.vup>扩大</>，第二天赋效果提升至<@ba.vup>{scale_delta_to_one}</>倍，攻击范围内的所有敌人被<$ba.sluggish><@ba.vup>停顿</></>，且每秒回复范围内所有友方单位相当于攻击力<@ba.vup>{attack@atk_to_hp_recovery_ratio:0%}</>的生命",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 70,
@@ -76,11 +80,13 @@
 			"blackboard": [
 				{
 					"key": "scale_delta_to_one",
-					"value": 1.3
+					"value": 1.3,
+					"valueStr": null
 				},
 				{
 					"key": "attack@atk_to_hp_recovery_ratio",
-					"value": 0.07
+					"value": 0.07,
+					"valueStr": null
 				}
 			]
 		},
@@ -88,10 +94,10 @@
 			"name": "狐火渺然",
 			"rangeId": "y-8",
 			"description": "<@ba.vdown>停止攻击</>，攻击范围<@ba.vup>扩大</>，第二天赋效果提升至<@ba.vup>{scale_delta_to_one}</>倍，攻击范围内的所有敌人被<$ba.sluggish><@ba.vup>停顿</></>，且每秒回复范围内所有友方单位相当于攻击力<@ba.vup>{attack@atk_to_hp_recovery_ratio:0%}</>的生命",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 70,
@@ -103,11 +109,13 @@
 			"blackboard": [
 				{
 					"key": "scale_delta_to_one",
-					"value": 1.4
+					"value": 1.4,
+					"valueStr": null
 				},
 				{
 					"key": "attack@atk_to_hp_recovery_ratio",
-					"value": 0.09
+					"value": 0.09,
+					"valueStr": null
 				}
 			]
 		},
@@ -115,10 +123,10 @@
 			"name": "狐火渺然",
 			"rangeId": "y-8",
 			"description": "<@ba.vdown>停止攻击</>，攻击范围<@ba.vup>扩大</>，第二天赋效果提升至<@ba.vup>{scale_delta_to_one}</>倍，攻击范围内的所有敌人被<$ba.sluggish><@ba.vup>停顿</></>，且每秒回复范围内所有友方单位相当于攻击力<@ba.vup>{attack@atk_to_hp_recovery_ratio:0%}</>的生命",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 70,
@@ -130,11 +138,13 @@
 			"blackboard": [
 				{
 					"key": "scale_delta_to_one",
-					"value": 1.5
+					"value": 1.5,
+					"valueStr": null
 				},
 				{
 					"key": "attack@atk_to_hp_recovery_ratio",
-					"value": 0.09
+					"value": 0.09,
+					"valueStr": null
 				}
 			]
 		},
@@ -142,10 +152,10 @@
 			"name": "狐火渺然",
 			"rangeId": "y-8",
 			"description": "<@ba.vdown>停止攻击</>，攻击范围<@ba.vup>扩大</>，第二天赋效果提升至<@ba.vup>{scale_delta_to_one}</>倍，攻击范围内的所有敌人被<$ba.sluggish><@ba.vup>停顿</></>，且每秒回复范围内所有友方单位相当于攻击力<@ba.vup>{attack@atk_to_hp_recovery_ratio:0%}</>的生命",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 70,
@@ -157,11 +167,13 @@
 			"blackboard": [
 				{
 					"key": "scale_delta_to_one",
-					"value": 1.6
+					"value": 1.6,
+					"valueStr": null
 				},
 				{
 					"key": "attack@atk_to_hp_recovery_ratio",
-					"value": 0.09
+					"value": 0.09,
+					"valueStr": null
 				}
 			]
 		},
@@ -169,10 +181,10 @@
 			"name": "狐火渺然",
 			"rangeId": "y-8",
 			"description": "<@ba.vdown>停止攻击</>，攻击范围<@ba.vup>扩大</>，第二天赋效果提升至<@ba.vup>{scale_delta_to_one}</>倍，攻击范围内的所有敌人被<$ba.sluggish><@ba.vup>停顿</></>，且每秒回复范围内所有友方单位相当于攻击力<@ba.vup>{attack@atk_to_hp_recovery_ratio:0%}</>的生命",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 70,
@@ -184,11 +196,13 @@
 			"blackboard": [
 				{
 					"key": "scale_delta_to_one",
-					"value": 1.7
+					"value": 1.7,
+					"valueStr": null
 				},
 				{
 					"key": "attack@atk_to_hp_recovery_ratio",
-					"value": 0.11
+					"value": 0.11,
+					"valueStr": null
 				}
 			]
 		},
@@ -196,10 +210,10 @@
 			"name": "狐火渺然",
 			"rangeId": "y-8",
 			"description": "<@ba.vdown>停止攻击</>，攻击范围<@ba.vup>扩大</>，第二天赋效果提升至<@ba.vup>{scale_delta_to_one}</>倍，攻击范围内的所有敌人被<$ba.sluggish><@ba.vup>停顿</></>，且每秒回复范围内所有友方单位相当于攻击力<@ba.vup>{attack@atk_to_hp_recovery_ratio:0%}</>的生命",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 70,
@@ -211,11 +225,13 @@
 			"blackboard": [
 				{
 					"key": "scale_delta_to_one",
-					"value": 1.8
+					"value": 1.8,
+					"valueStr": null
 				},
 				{
 					"key": "attack@atk_to_hp_recovery_ratio",
-					"value": 0.14
+					"value": 0.14,
+					"valueStr": null
 				}
 			]
 		},
@@ -223,10 +239,10 @@
 			"name": "狐火渺然",
 			"rangeId": "y-8",
 			"description": "<@ba.vdown>停止攻击</>，攻击范围<@ba.vup>扩大</>，第二天赋效果提升至<@ba.vup>{scale_delta_to_one}</>倍，攻击范围内的所有敌人被<$ba.sluggish><@ba.vup>停顿</></>，且每秒回复范围内所有友方单位相当于攻击力<@ba.vup>{attack@atk_to_hp_recovery_ratio:0%}</>的生命",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 70,
@@ -238,11 +254,13 @@
 			"blackboard": [
 				{
 					"key": "scale_delta_to_one",
-					"value": 1.9
+					"value": 1.9,
+					"valueStr": null
 				},
 				{
 					"key": "attack@atk_to_hp_recovery_ratio",
-					"value": 0.17
+					"value": 0.17,
+					"valueStr": null
 				}
 			]
 		},
@@ -250,10 +268,10 @@
 			"name": "狐火渺然",
 			"rangeId": "y-8",
 			"description": "<@ba.vdown>停止攻击</>，攻击范围<@ba.vup>扩大</>，第二天赋效果提升至<@ba.vup>{scale_delta_to_one}</>倍，攻击范围内的所有敌人被<$ba.sluggish><@ba.vup>停顿</></>，且每秒回复范围内所有友方单位相当于攻击力<@ba.vup>{attack@atk_to_hp_recovery_ratio:0%}</>的生命",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 70,
@@ -265,11 +283,13 @@
 			"blackboard": [
 				{
 					"key": "scale_delta_to_one",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				},
 				{
 					"key": "attack@atk_to_hp_recovery_ratio",
-					"value": 0.2
+					"value": 0.2,
+					"valueStr": null
 				}
 			]
 		}

@@ -1,0 +1,49 @@
+{
+	"itemId": "act19side_token_reagents",
+	"name": "Mysterious Reagent",
+	"description": "Very sensitive to neural activity, and can replace some of the functions of traditional Arts Units. In the Rhine Lab Defense Section's laboratory supplies management handbook, this test reagent's hazard and confidentiality levels are both listed at maximum.",
+	"rarity": 4,
+	"iconId": "act19side_token_reagents",
+	"overrideBkg": null,
+	"stackIconId": null,
+	"sortId": -10000,
+	"usage": "The latest innovation of Rhine Lab's Energy Section. Collect enough and exchange with the Laboratory Recycling Depot for goods.",
+	"obtainApproach": "Event Stage drop, Event mission reward",
+	"classifyType": "NONE",
+	"itemType": "ACTIVITY_ITEM",
+	"stageDropList": [
+		{
+			"stageId": "act19side_01",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "act19side_02",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "act19side_03",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "act19side_04",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "act19side_05",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "act19side_06",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "act19side_07",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "act19side_08",
+			"occPer": "ALWAYS"
+		}
+	],
+	"buildingProductList": []
+}

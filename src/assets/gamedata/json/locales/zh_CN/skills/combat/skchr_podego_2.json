@@ -7,10 +7,10 @@
 			"name": "孢子扩散",
 			"rangeId": null,
 			"description": "立即投掷一个小瓶，碎裂后在周围产生一个持续<@ba.vup>{projectile_delay_time}</>秒的孢子群\\n孢子群范围内所有敌人被<$ba.sluggish>停顿</>且失去特殊能力，每秒受到相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 35,
@@ -22,11 +22,13 @@
 			"blackboard": [
 				{
 					"key": "projectile_delay_time",
-					"value": 5
+					"value": 5,
+					"valueStr": null
 				},
 				{
 					"key": "atk_scale",
-					"value": 0.4
+					"value": 0.4,
+					"valueStr": null
 				}
 			]
 		},
@@ -34,10 +36,10 @@
 			"name": "孢子扩散",
 			"rangeId": null,
 			"description": "立即投掷一个小瓶，碎裂后在周围产生一个持续<@ba.vup>{projectile_delay_time}</>秒的孢子群\\n孢子群范围内所有敌人被<$ba.sluggish>停顿</>且失去特殊能力，每秒受到相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 34,
@@ -49,11 +51,13 @@
 			"blackboard": [
 				{
 					"key": "projectile_delay_time",
-					"value": 5
+					"value": 5,
+					"valueStr": null
 				},
 				{
 					"key": "atk_scale",
-					"value": 0.4
+					"value": 0.4,
+					"valueStr": null
 				}
 			]
 		},
@@ -61,10 +65,10 @@
 			"name": "孢子扩散",
 			"rangeId": null,
 			"description": "立即投掷一个小瓶，碎裂后在周围产生一个持续<@ba.vup>{projectile_delay_time}</>秒的孢子群\\n孢子群范围内所有敌人被<$ba.sluggish>停顿</>且失去特殊能力，每秒受到相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 33,
@@ -76,11 +80,13 @@
 			"blackboard": [
 				{
 					"key": "projectile_delay_time",
-					"value": 5
+					"value": 5,
+					"valueStr": null
 				},
 				{
 					"key": "atk_scale",
-					"value": 0.4
+					"value": 0.4,
+					"valueStr": null
 				}
 			]
 		},
@@ -88,10 +94,10 @@
 			"name": "孢子扩散",
 			"rangeId": null,
 			"description": "立即投掷一个小瓶，碎裂后在周围产生一个持续<@ba.vup>{projectile_delay_time}</>秒的孢子群\\n孢子群范围内所有敌人被<$ba.sluggish>停顿</>且失去特殊能力，每秒受到相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 32,
@@ -103,11 +109,13 @@
 			"blackboard": [
 				{
 					"key": "projectile_delay_time",
-					"value": 5
+					"value": 5,
+					"valueStr": null
 				},
 				{
 					"key": "atk_scale",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				}
 			]
 		},
@@ -115,10 +123,10 @@
 			"name": "孢子扩散",
 			"rangeId": null,
 			"description": "立即投掷一个小瓶，碎裂后在周围产生一个持续<@ba.vup>{projectile_delay_time}</>秒的孢子群\\n孢子群范围内所有敌人被<$ba.sluggish>停顿</>且失去特殊能力，每秒受到相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 31,
@@ -130,11 +138,13 @@
 			"blackboard": [
 				{
 					"key": "projectile_delay_time",
-					"value": 5
+					"value": 5,
+					"valueStr": null
 				},
 				{
 					"key": "atk_scale",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				}
 			]
 		},
@@ -142,10 +152,10 @@
 			"name": "孢子扩散",
 			"rangeId": null,
 			"description": "立即投掷一个小瓶，碎裂后在周围产生一个持续<@ba.vup>{projectile_delay_time}</>秒的孢子群\\n孢子群范围内所有敌人被<$ba.sluggish>停顿</>且失去特殊能力，每秒受到相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 30,
@@ -157,11 +167,13 @@
 			"blackboard": [
 				{
 					"key": "projectile_delay_time",
-					"value": 5
+					"value": 5,
+					"valueStr": null
 				},
 				{
 					"key": "atk_scale",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				}
 			]
 		},
@@ -169,10 +181,10 @@
 			"name": "孢子扩散",
 			"rangeId": null,
 			"description": "立即投掷一个小瓶，碎裂后在周围产生一个持续<@ba.vup>{projectile_delay_time}</>秒的孢子群\\n孢子群范围内所有敌人被<$ba.sluggish>停顿</>且失去特殊能力，每秒受到相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 29,
@@ -184,11 +196,13 @@
 			"blackboard": [
 				{
 					"key": "projectile_delay_time",
-					"value": 5
+					"value": 5,
+					"valueStr": null
 				},
 				{
 					"key": "atk_scale",
-					"value": 0.6
+					"value": 0.6,
+					"valueStr": null
 				}
 			]
 		},
@@ -196,10 +210,10 @@
 			"name": "孢子扩散",
 			"rangeId": null,
 			"description": "立即投掷一个小瓶，碎裂后在周围产生一个持续<@ba.vup>{projectile_delay_time}</>秒的孢子群\\n孢子群范围内所有敌人被<$ba.sluggish>停顿</>且失去特殊能力，每秒受到相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 27,
@@ -211,11 +225,13 @@
 			"blackboard": [
 				{
 					"key": "projectile_delay_time",
-					"value": 6
+					"value": 6,
+					"valueStr": null
 				},
 				{
 					"key": "atk_scale",
-					"value": 0.65
+					"value": 0.65,
+					"valueStr": null
 				}
 			]
 		},
@@ -223,10 +239,10 @@
 			"name": "孢子扩散",
 			"rangeId": null,
 			"description": "立即投掷一个小瓶，碎裂后在周围产生一个持续<@ba.vup>{projectile_delay_time}</>秒的孢子群\\n孢子群范围内所有敌人被<$ba.sluggish>停顿</>且失去特殊能力，每秒受到相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 25,
@@ -238,11 +254,13 @@
 			"blackboard": [
 				{
 					"key": "projectile_delay_time",
-					"value": 6
+					"value": 6,
+					"valueStr": null
 				},
 				{
 					"key": "atk_scale",
-					"value": 0.7
+					"value": 0.7,
+					"valueStr": null
 				}
 			]
 		},
@@ -250,10 +268,10 @@
 			"name": "孢子扩散",
 			"rangeId": null,
 			"description": "立即投掷一个小瓶，碎裂后在周围产生一个持续<@ba.vup>{projectile_delay_time}</>秒的孢子群\\n孢子群范围内所有敌人被<$ba.sluggish>停顿</>且失去特殊能力，每秒受到相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 23,
@@ -265,11 +283,13 @@
 			"blackboard": [
 				{
 					"key": "projectile_delay_time",
-					"value": 6
+					"value": 6,
+					"valueStr": null
 				},
 				{
 					"key": "atk_scale",
-					"value": 0.8
+					"value": 0.8,
+					"valueStr": null
 				}
 			]
 		}

@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act13d5_02",
@@ -10,10 +11,10 @@
 	],
 	"stageId": "act13d5_03",
 	"levelId": "Activities/ACT13D5/level_act13d5_03",
-	"zoneId": "act13d5_zone1",
+	"zoneId": "act7sre_zone1",
 	"code": "MN-3",
 	"name": "ローズ新聞",
-	"description": "ニュースのことならローズ新聞連合にお任せあれ！172社のメディア大手が集う最先端の都市ネットワークポータルで、大地に通ずる窓を開け！\n<@lv.item><回復エリア></>配置した味方のHPが徐々に回復する。<@lv.item><活性源石></>配置した味方及び通過した敵は継続してダメージを受けるが攻撃力と攻撃速度が大幅に上昇する。",
+	"description": "ニュースのことならローズ新聞連合にお任せあれ！172社のメディア大手が集う最先端の都市ネットワークポータルで、大地に通ずる窓を開け！\n<@lv.item><回復エリア></>配置した味方のHPが徐々に回復する。\n<@lv.item><活性源石></>配置した味方及び通過した敵は継続してダメージを受けるが攻撃力と攻撃速度が大幅に上昇する。",
 	"hardStagedId": null,
 	"dangerLevel": "昇進1 LV.20",
 	"dangerPoint": -1,
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {
@@ -57,12 +59,12 @@
 			},
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act13d5_token_securities",
+				"id": "act13d5_token_securities_rep_1",
 				"dropType": 8
 			},
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act13d5_token_securities",
+				"id": "act13d5_token_securities_rep_1",
 				"dropType": 2
 			},
 			{
@@ -91,13 +93,13 @@
 			{
 				"occPercent": 0,
 				"type": "ACTIVITY_ITEM",
-				"id": "act13d5_token_securities",
+				"id": "act13d5_token_securities_rep_1",
 				"dropType": 8
 			},
 			{
 				"occPercent": 0,
 				"type": "ACTIVITY_ITEM",
-				"id": "act13d5_token_securities",
+				"id": "act13d5_token_securities_rep_1",
 				"dropType": 2
 			},
 			{

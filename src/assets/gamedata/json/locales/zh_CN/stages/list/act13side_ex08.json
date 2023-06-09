@@ -2,15 +2,16 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act13side_ex07",
-			"completeState": 2
+			"completeState": "PASS"
 		}
 	],
 	"stageId": "act13side_ex08",
 	"levelId": "Activities/act13side/level_act13side_ex08",
-	"zoneId": "act13side_zone2",
+	"zoneId": "act13sre_zone2",
 	"code": "NL-EX-8",
 	"name": "独家专访",
 	"description": "这份在血骑士家门口录的声音样本剪辑一下能不能当专访内容？不够？那把他上次的演讲拿过来拼接一下。要快，我们还得做一份临光专访，到时候一起发。\\n<@lv.item><城市霓虹></>可以提供初始视野，使用后视野范围扩大",
@@ -44,7 +45,7 @@
 	"isHardPredefined": false,
 	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
-	"appearanceStyle": 0,
+	"appearanceStyle": "MAIN_NORMAL",
 	"stageDropInfo": {
 		"firstPassRewards": null,
 		"firstCompleteRewards": null,
@@ -53,31 +54,37 @@
 		"displayRewards": [
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act13side_token_model",
-				"dropType": 8
+				"id": "act13side_token_model_rep_1",
+				"dropType": "COMPLETE"
 			},
 			{
 				"type": "DIAMOND",
 				"id": "4002",
-				"dropType": 8
+				"dropType": "COMPLETE"
 			}
 		],
 		"displayDetailRewards": [
 			{
-				"occPercent": 0,
+				"occPercent": "ALWAYS",
 				"type": "ACTIVITY_ITEM",
-				"id": "act13side_token_model",
-				"dropType": 8
+				"id": "act13side_token_model_rep_1",
+				"dropType": "COMPLETE"
 			},
 			{
-				"occPercent": 0,
+				"occPercent": "ALWAYS",
 				"type": "DIAMOND",
 				"id": "4002",
-				"dropType": 8
+				"dropType": "COMPLETE"
 			}
 		]
 	},
+	"canUseCharm": false,
+	"canUseTech": false,
+	"canUseTrapTool": false,
+	"canUseBattlePerformance": false,
 	"startButtonOverrideId": null,
 	"isStagePatch": false,
-	"mainStageId": "act13side_ex01"
+	"mainStageId": "act13side_ex01",
+	"extraCondition": null,
+	"extraInfo": null
 }

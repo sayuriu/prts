@@ -7,10 +7,10 @@
 			"name": "紧急包扎",
 			"rangeId": null,
 			"description": "下次治疗额外回复目标最大生命值的<@ba.vup>{hp_ratio:0%}</>\\n<@ba.rem>只当目标生命值不满一半时才会触发，可充能{ct}次</>",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 2,
+				"spType": "INCREASE_WHEN_ATTACK",
 				"levelUpCost": null,
 				"maxChargeTime": 2,
 				"spCost": 4,
@@ -22,11 +22,13 @@
 			"blackboard": [
 				{
 					"key": "hp_ratio",
-					"value": 0.11
+					"value": 0.11,
+					"valueStr": null
 				},
 				{
 					"key": "ct",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				}
 			]
 		},
@@ -34,10 +36,10 @@
 			"name": "紧急包扎",
 			"rangeId": null,
 			"description": "下次治疗额外回复目标最大生命值的<@ba.vup>{hp_ratio:0%}</>\\n<@ba.rem>只当目标生命值不满一半时才会触发，可充能{ct}次</>",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 2,
+				"spType": "INCREASE_WHEN_ATTACK",
 				"levelUpCost": null,
 				"maxChargeTime": 2,
 				"spCost": 4,
@@ -49,11 +51,13 @@
 			"blackboard": [
 				{
 					"key": "hp_ratio",
-					"value": 0.12
+					"value": 0.12,
+					"valueStr": null
 				},
 				{
 					"key": "ct",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				}
 			]
 		},
@@ -61,10 +65,10 @@
 			"name": "紧急包扎",
 			"rangeId": null,
 			"description": "下次治疗额外回复目标最大生命值的<@ba.vup>{hp_ratio:0%}</>\\n<@ba.rem>只当目标生命值不满一半时才会触发，可充能{ct}次</>",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 2,
+				"spType": "INCREASE_WHEN_ATTACK",
 				"levelUpCost": null,
 				"maxChargeTime": 2,
 				"spCost": 4,
@@ -76,11 +80,13 @@
 			"blackboard": [
 				{
 					"key": "hp_ratio",
-					"value": 0.13
+					"value": 0.13,
+					"valueStr": null
 				},
 				{
 					"key": "ct",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				}
 			]
 		},
@@ -88,10 +94,10 @@
 			"name": "紧急包扎",
 			"rangeId": null,
 			"description": "下次治疗额外回复目标最大生命值的<@ba.vup>{hp_ratio:0%}</>\\n<@ba.rem>只当目标生命值不满一半时才会触发，可充能{ct}次</>",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 2,
+				"spType": "INCREASE_WHEN_ATTACK",
 				"levelUpCost": null,
 				"maxChargeTime": 2,
 				"spCost": 4,
@@ -103,11 +109,13 @@
 			"blackboard": [
 				{
 					"key": "hp_ratio",
-					"value": 0.15
+					"value": 0.15,
+					"valueStr": null
 				},
 				{
 					"key": "ct",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				}
 			]
 		},
@@ -115,10 +123,10 @@
 			"name": "紧急包扎",
 			"rangeId": null,
 			"description": "下次治疗额外回复目标最大生命值的<@ba.vup>{hp_ratio:0%}</>\\n<@ba.rem>只当目标生命值不满一半时才会触发，可充能{ct}次</>",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 2,
+				"spType": "INCREASE_WHEN_ATTACK",
 				"levelUpCost": null,
 				"maxChargeTime": 2,
 				"spCost": 4,
@@ -130,11 +138,13 @@
 			"blackboard": [
 				{
 					"key": "hp_ratio",
-					"value": 0.16
+					"value": 0.16,
+					"valueStr": null
 				},
 				{
 					"key": "ct",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				}
 			]
 		},
@@ -142,10 +152,10 @@
 			"name": "紧急包扎",
 			"rangeId": null,
 			"description": "下次治疗额外回复目标最大生命值的<@ba.vup>{hp_ratio:0%}</>\\n<@ba.rem>只当目标生命值不满一半时才会触发，可充能{ct}次</>",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 2,
+				"spType": "INCREASE_WHEN_ATTACK",
 				"levelUpCost": null,
 				"maxChargeTime": 2,
 				"spCost": 4,
@@ -157,11 +167,13 @@
 			"blackboard": [
 				{
 					"key": "hp_ratio",
-					"value": 0.17
+					"value": 0.17,
+					"valueStr": null
 				},
 				{
 					"key": "ct",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				}
 			]
 		},
@@ -169,10 +181,10 @@
 			"name": "紧急包扎",
 			"rangeId": null,
 			"description": "下次治疗额外回复目标最大生命值的<@ba.vup>{hp_ratio:0%}</>\\n<@ba.rem>只当目标生命值不满一半时才会触发，可充能{ct}次</>",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 2,
+				"spType": "INCREASE_WHEN_ATTACK",
 				"levelUpCost": null,
 				"maxChargeTime": 3,
 				"spCost": 4,
@@ -184,11 +196,13 @@
 			"blackboard": [
 				{
 					"key": "hp_ratio",
-					"value": 0.19
+					"value": 0.19,
+					"valueStr": null
 				},
 				{
 					"key": "ct",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				}
 			]
 		},
@@ -196,10 +210,10 @@
 			"name": "紧急包扎",
 			"rangeId": null,
 			"description": "下次治疗额外回复目标最大生命值的<@ba.vup>{hp_ratio:0%}</>\\n<@ba.rem>只当目标生命值不满一半时才会触发，可充能{ct}次</>",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 2,
+				"spType": "INCREASE_WHEN_ATTACK",
 				"levelUpCost": null,
 				"maxChargeTime": 3,
 				"spCost": 4,
@@ -211,11 +225,13 @@
 			"blackboard": [
 				{
 					"key": "hp_ratio",
-					"value": 0.21
+					"value": 0.21,
+					"valueStr": null
 				},
 				{
 					"key": "ct",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				}
 			]
 		},
@@ -223,10 +239,10 @@
 			"name": "紧急包扎",
 			"rangeId": null,
 			"description": "下次治疗额外回复目标最大生命值的<@ba.vup>{hp_ratio:0%}</>\\n<@ba.rem>只当目标生命值不满一半时才会触发，可充能{ct}次</>",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 2,
+				"spType": "INCREASE_WHEN_ATTACK",
 				"levelUpCost": null,
 				"maxChargeTime": 3,
 				"spCost": 4,
@@ -238,11 +254,13 @@
 			"blackboard": [
 				{
 					"key": "hp_ratio",
-					"value": 0.23
+					"value": 0.23,
+					"valueStr": null
 				},
 				{
 					"key": "ct",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				}
 			]
 		},
@@ -250,10 +268,10 @@
 			"name": "紧急包扎",
 			"rangeId": null,
 			"description": "下次治疗额外回复目标最大生命值的<@ba.vup>{hp_ratio:0%}</>\\n<@ba.rem>只当目标生命值不满一半时才会触发，可充能{ct}次</>",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 2,
+				"spType": "INCREASE_WHEN_ATTACK",
 				"levelUpCost": null,
 				"maxChargeTime": 4,
 				"spCost": 4,
@@ -265,11 +283,13 @@
 			"blackboard": [
 				{
 					"key": "hp_ratio",
-					"value": 0.25
+					"value": 0.25,
+					"valueStr": null
 				},
 				{
 					"key": "ct",
-					"value": 4
+					"value": 4,
+					"valueStr": null
 				}
 			]
 		}

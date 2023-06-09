@@ -6,14 +6,18 @@
 	"iconId": "MTL_SL_PG1",
 	"overrideBkg": null,
 	"stackIconId": null,
-	"sortId": 100009,
+	"sortId": 100023,
 	"usage": "用于加工武器零件的研磨石。可用于多种强化场合，也常作为制造站合成项目的原料。",
 	"obtainApproach": null,
 	"classifyType": "MATERIAL",
 	"itemType": "MATERIAL",
 	"stageDropList": [
 		{
-			"stageId": "act14side_08",
+			"stageId": "a001_06",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "act11d0_08",
 			"occPer": "USUAL"
 		},
 		{
@@ -21,15 +25,23 @@
 			"occPer": "USUAL"
 		},
 		{
-			"stageId": "act11d0_08",
+			"stageId": "act14side_08",
 			"occPer": "USUAL"
 		},
 		{
-			"stageId": "act6d5_08",
+			"stageId": "act18side_06",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "act13mini_08",
 			"occPer": "OFTEN"
 		},
 		{
-			"stageId": "a001_06",
+			"stageId": "act14mini_08",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "act6d5_08",
 			"occPer": "OFTEN"
 		},
 		{
@@ -54,6 +66,22 @@
 		},
 		{
 			"stageId": "main_09-14",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_10-11",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "tough_10-11",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_12-07",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "tough_12-07",
 			"occPer": "OFTEN"
 		}
 	],

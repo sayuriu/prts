@@ -1,0 +1,397 @@
+{
+	"skillId": "skchr_ines_2",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "暗夜无明",
+			"rangeId": "3-13",
+			"description": "攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>，自身获得<$ba.invisible>隐匿</>，每次攻击获得<@ba.vup>{cost}</>点部署费用并<$ba.steal>偷取</>目标<@ba.vup>{attack@steal_atk_speed}</>点攻击速度（最多{attack@steal_atk_speed_max}点，持续至技能结束或伊内丝离场）",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 30,
+				"initSp": 5,
+				"increment": 1
+			},
+			"prefabId": "skchr_ines_2",
+			"duration": 12,
+			"blackboard": [
+				{
+					"key": "cost",
+					"value": 1,
+					"valueStr": null
+				},
+				{
+					"key": "atk",
+					"value": 0.4,
+					"valueStr": null
+				},
+				{
+					"key": "attack@steal_atk_speed",
+					"value": 4,
+					"valueStr": null
+				},
+				{
+					"key": "attack@steal_atk_speed_max",
+					"value": 40,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "暗夜无明",
+			"rangeId": "3-13",
+			"description": "攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>，自身获得<$ba.invisible>隐匿</>，每次攻击获得<@ba.vup>{cost}</>点部署费用并<$ba.steal>偷取</>目标<@ba.vup>{attack@steal_atk_speed}</>点攻击速度（最多{attack@steal_atk_speed_max}点，持续至技能结束或伊内丝离场）",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 29,
+				"initSp": 5,
+				"increment": 1
+			},
+			"prefabId": "skchr_ines_2",
+			"duration": 12,
+			"blackboard": [
+				{
+					"key": "cost",
+					"value": 1,
+					"valueStr": null
+				},
+				{
+					"key": "atk",
+					"value": 0.45,
+					"valueStr": null
+				},
+				{
+					"key": "attack@steal_atk_speed",
+					"value": 4,
+					"valueStr": null
+				},
+				{
+					"key": "attack@steal_atk_speed_max",
+					"value": 40,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "暗夜无明",
+			"rangeId": "3-13",
+			"description": "攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>，自身获得<$ba.invisible>隐匿</>，每次攻击获得<@ba.vup>{cost}</>点部署费用并<$ba.steal>偷取</>目标<@ba.vup>{attack@steal_atk_speed}</>点攻击速度（最多{attack@steal_atk_speed_max}点，持续至技能结束或伊内丝离场）",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 28,
+				"initSp": 5,
+				"increment": 1
+			},
+			"prefabId": "skchr_ines_2",
+			"duration": 12,
+			"blackboard": [
+				{
+					"key": "cost",
+					"value": 1,
+					"valueStr": null
+				},
+				{
+					"key": "atk",
+					"value": 0.5,
+					"valueStr": null
+				},
+				{
+					"key": "attack@steal_atk_speed",
+					"value": 4,
+					"valueStr": null
+				},
+				{
+					"key": "attack@steal_atk_speed_max",
+					"value": 40,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "暗夜无明",
+			"rangeId": "3-13",
+			"description": "攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>，自身获得<$ba.invisible>隐匿</>，每次攻击获得<@ba.vup>{cost}</>点部署费用并<$ba.steal>偷取</>目标<@ba.vup>{attack@steal_atk_speed}</>点攻击速度（最多{attack@steal_atk_speed_max}点，持续至技能结束或伊内丝离场）",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 27,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_ines_2",
+			"duration": 12,
+			"blackboard": [
+				{
+					"key": "cost",
+					"value": 1,
+					"valueStr": null
+				},
+				{
+					"key": "atk",
+					"value": 0.6,
+					"valueStr": null
+				},
+				{
+					"key": "attack@steal_atk_speed",
+					"value": 5,
+					"valueStr": null
+				},
+				{
+					"key": "attack@steal_atk_speed_max",
+					"value": 50,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "暗夜无明",
+			"rangeId": "3-13",
+			"description": "攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>，自身获得<$ba.invisible>隐匿</>，每次攻击获得<@ba.vup>{cost}</>点部署费用并<$ba.steal>偷取</>目标<@ba.vup>{attack@steal_atk_speed}</>点攻击速度（最多{attack@steal_atk_speed_max}点，持续至技能结束或伊内丝离场）",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 26,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_ines_2",
+			"duration": 12,
+			"blackboard": [
+				{
+					"key": "cost",
+					"value": 1,
+					"valueStr": null
+				},
+				{
+					"key": "atk",
+					"value": 0.65,
+					"valueStr": null
+				},
+				{
+					"key": "attack@steal_atk_speed",
+					"value": 5,
+					"valueStr": null
+				},
+				{
+					"key": "attack@steal_atk_speed_max",
+					"value": 50,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "暗夜无明",
+			"rangeId": "3-13",
+			"description": "攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>，自身获得<$ba.invisible>隐匿</>，每次攻击获得<@ba.vup>{cost}</>点部署费用并<$ba.steal>偷取</>目标<@ba.vup>{attack@steal_atk_speed}</>点攻击速度（最多{attack@steal_atk_speed_max}点，持续至技能结束或伊内丝离场）",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 25,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_ines_2",
+			"duration": 12,
+			"blackboard": [
+				{
+					"key": "cost",
+					"value": 1,
+					"valueStr": null
+				},
+				{
+					"key": "atk",
+					"value": 0.7,
+					"valueStr": null
+				},
+				{
+					"key": "attack@steal_atk_speed",
+					"value": 5,
+					"valueStr": null
+				},
+				{
+					"key": "attack@steal_atk_speed_max",
+					"value": 50,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "暗夜无明",
+			"rangeId": "3-13",
+			"description": "攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>，自身获得<$ba.invisible>隐匿</>，每次攻击获得<@ba.vup>{cost}</>点部署费用并<$ba.steal>偷取</>目标<@ba.vup>{attack@steal_atk_speed}</>点攻击速度（最多{attack@steal_atk_speed_max}点，持续至技能结束或伊内丝离场）",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 24,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_ines_2",
+			"duration": 12,
+			"blackboard": [
+				{
+					"key": "cost",
+					"value": 1,
+					"valueStr": null
+				},
+				{
+					"key": "atk",
+					"value": 0.8,
+					"valueStr": null
+				},
+				{
+					"key": "attack@steal_atk_speed",
+					"value": 6,
+					"valueStr": null
+				},
+				{
+					"key": "attack@steal_atk_speed_max",
+					"value": 60,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "暗夜无明",
+			"rangeId": "3-13",
+			"description": "攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>，自身获得<$ba.invisible>隐匿</>，每次攻击获得<@ba.vup>{cost}</>点部署费用并<$ba.steal>偷取</>目标<@ba.vup>{attack@steal_atk_speed}</>点攻击速度（最多{attack@steal_atk_speed_max}点，持续至技能结束或伊内丝离场）",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 23,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_ines_2",
+			"duration": 12,
+			"blackboard": [
+				{
+					"key": "cost",
+					"value": 1,
+					"valueStr": null
+				},
+				{
+					"key": "atk",
+					"value": 0.9,
+					"valueStr": null
+				},
+				{
+					"key": "attack@steal_atk_speed",
+					"value": 6,
+					"valueStr": null
+				},
+				{
+					"key": "attack@steal_atk_speed_max",
+					"value": 60,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "暗夜无明",
+			"rangeId": "3-13",
+			"description": "攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>，自身获得<$ba.invisible>隐匿</>，每次攻击获得<@ba.vup>{cost}</>点部署费用并<$ba.steal>偷取</>目标<@ba.vup>{attack@steal_atk_speed}</>点攻击速度（最多{attack@steal_atk_speed_max}点，持续至技能结束或伊内丝离场）",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 22,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_ines_2",
+			"duration": 12,
+			"blackboard": [
+				{
+					"key": "cost",
+					"value": 1,
+					"valueStr": null
+				},
+				{
+					"key": "atk",
+					"value": 1,
+					"valueStr": null
+				},
+				{
+					"key": "attack@steal_atk_speed",
+					"value": 6,
+					"valueStr": null
+				},
+				{
+					"key": "attack@steal_atk_speed_max",
+					"value": 60,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "暗夜无明",
+			"rangeId": "3-13",
+			"description": "攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>，自身获得<$ba.invisible>隐匿</>，每次攻击获得<@ba.vup>{cost}</>点部署费用并<$ba.steal>偷取</>目标<@ba.vup>{attack@steal_atk_speed}</>点攻击速度（最多{attack@steal_atk_speed_max}点，持续至技能结束或伊内丝离场）",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 20,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_ines_2",
+			"duration": 12,
+			"blackboard": [
+				{
+					"key": "cost",
+					"value": 1,
+					"valueStr": null
+				},
+				{
+					"key": "atk",
+					"value": 1.1,
+					"valueStr": null
+				},
+				{
+					"key": "attack@steal_atk_speed",
+					"value": 7,
+					"valueStr": null
+				},
+				{
+					"key": "attack@steal_atk_speed_max",
+					"value": 70,
+					"valueStr": null
+				}
+			]
+		}
+	]
+}

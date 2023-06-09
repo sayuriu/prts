@@ -1,0 +1,167 @@
+{
+	"stageType": "ACTIVITY",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
+	"unlockCondition": [
+		{
+			"stageId": "act20side_st01",
+			"completeState": "PASS"
+		}
+	],
+	"stageId": "act20side_01",
+	"levelId": "Activities/ACT20SIDE/level_act20side_01",
+	"zoneId": "act20side_zone1",
+	"code": "IC-1",
+	"name": "沉浸式游览",
+	"description": "第一次到际崖城，当然应该把这里的特产尝个遍——但喝酒还是控制一下，你看那群醉汉，源石虫走路都比他们直。",
+	"hardStagedId": null,
+	"dangerLevel": "LV.20",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_IC_Street",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 9,
+	"apFailReturn": 8,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": 0,
+	"expGain": 90,
+	"goldGain": 90,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 8,
+	"completeFavor": 9,
+	"slProgress": 0,
+	"displayMainItem": null,
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": "MAIN_NORMAL",
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act20side_token_book",
+				"dropType": "COMPLETE"
+			},
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act20side_token_book",
+				"dropType": "NORMAL"
+			},
+			{
+				"type": "MATERIAL",
+				"id": "30031",
+				"dropType": "NORMAL"
+			},
+			{
+				"type": "MATERIAL",
+				"id": "30061",
+				"dropType": "NORMAL"
+			},
+			{
+				"type": "MATERIAL",
+				"id": "30041",
+				"dropType": "NORMAL"
+			},
+			{
+				"type": "MATERIAL",
+				"id": "30051",
+				"dropType": "NORMAL"
+			},
+			{
+				"type": "MATERIAL",
+				"id": "30021",
+				"dropType": "NORMAL"
+			},
+			{
+				"type": "MATERIAL",
+				"id": "30011",
+				"dropType": "NORMAL"
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": "COMPLETE"
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": "ALWAYS",
+				"type": "ACTIVITY_ITEM",
+				"id": "act20side_token_book",
+				"dropType": "COMPLETE"
+			},
+			{
+				"occPercent": "ALWAYS",
+				"type": "ACTIVITY_ITEM",
+				"id": "act20side_token_book",
+				"dropType": "NORMAL"
+			},
+			{
+				"occPercent": "OFTEN",
+				"type": "MATERIAL",
+				"id": "30031",
+				"dropType": "NORMAL"
+			},
+			{
+				"occPercent": "OFTEN",
+				"type": "MATERIAL",
+				"id": "30061",
+				"dropType": "NORMAL"
+			},
+			{
+				"occPercent": "OFTEN",
+				"type": "MATERIAL",
+				"id": "30041",
+				"dropType": "NORMAL"
+			},
+			{
+				"occPercent": "OFTEN",
+				"type": "MATERIAL",
+				"id": "30051",
+				"dropType": "NORMAL"
+			},
+			{
+				"occPercent": "OFTEN",
+				"type": "MATERIAL",
+				"id": "30021",
+				"dropType": "NORMAL"
+			},
+			{
+				"occPercent": "USUAL",
+				"type": "MATERIAL",
+				"id": "30011",
+				"dropType": "NORMAL"
+			},
+			{
+				"occPercent": "ALWAYS",
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": "COMPLETE"
+			}
+		]
+	},
+	"canUseCharm": false,
+	"canUseTech": false,
+	"canUseTrapTool": false,
+	"canUseBattlePerformance": false,
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "act20side_st01",
+	"extraCondition": null,
+	"extraInfo": null
+}

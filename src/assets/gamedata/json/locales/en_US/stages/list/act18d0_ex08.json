@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act18d0_ex07",
@@ -10,12 +11,12 @@
 	],
 	"stageId": "act18d0_ex08",
 	"levelId": "Activities/act18d0/level_act18d0_ex08",
-	"zoneId": "act18d0_zone2",
+	"zoneId": "act10sre_zone2",
 	"code": "WD-EX-8",
 	"name": "As the Empire's Shadow",
 	"description": "A thousand years have passed since the people of Ursus overthrew the Hippogryph, and the Empire's glory now sweeps across the highest edifices and mountains. It is Ursus's deepest desire to cast the vast shadow of the Emperor's Will across the land.",
 	"hardStagedId": "act18d0_ex08#f#",
-	"dangerLevel": "Elite 2 Lv.30",
+	"dangerLevel": "Elite 2 Lv. 30",
 	"dangerPoint": -1,
 	"loadingPicId": "loading_victoria",
 	"canPractice": true,
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {
@@ -52,7 +54,7 @@
 		"displayRewards": [
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act18d0_token_page",
+				"id": "act18d0_token_page_rep_1",
 				"dropType": 8
 			},
 			{
@@ -65,7 +67,7 @@
 			{
 				"occPercent": 0,
 				"type": "ACTIVITY_ITEM",
-				"id": "act18d0_token_page",
+				"id": "act18d0_token_page_rep_1",
 				"dropType": 8
 			},
 			{

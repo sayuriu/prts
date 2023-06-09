@@ -1,0 +1,30 @@
+{
+	"skillId": "sktok_neonlamp",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "문명의 빛",
+			"rangeId": "x-1",
+			"description": "시야 범위 확대, 무한 지속",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 50,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "sktok_neonlamp",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "cost",
+					"value": 20
+				}
+			]
+		}
+	]
+}

@@ -7,10 +7,10 @@
 			"name": "亮剑",
 			"rangeId": null,
 			"description": "防御力<@ba.vdown>降至0</>，生命上限<@ba.vup>+{max_hp:0%}</>，每次攻击的攻击力提升至<@ba.vup>{attack@atk_scale:0%}</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 40,
@@ -22,11 +22,13 @@
 			"blackboard": [
 				{
 					"key": "max_hp",
-					"value": 0.2
+					"value": 0.2,
+					"valueStr": null
 				},
 				{
 					"key": "attack@atk_scale",
-					"value": 1.7
+					"value": 1.7,
+					"valueStr": null
 				}
 			]
 		},
@@ -34,10 +36,10 @@
 			"name": "亮剑",
 			"rangeId": null,
 			"description": "防御力<@ba.vdown>降至0</>，生命上限<@ba.vup>+{max_hp:0%}</>，每次攻击的攻击力提升至<@ba.vup>{attack@atk_scale:0%}</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 39,
@@ -49,11 +51,13 @@
 			"blackboard": [
 				{
 					"key": "max_hp",
-					"value": 0.2
+					"value": 0.2,
+					"valueStr": null
 				},
 				{
 					"key": "attack@atk_scale",
-					"value": 1.8
+					"value": 1.8,
+					"valueStr": null
 				}
 			]
 		},
@@ -61,10 +65,10 @@
 			"name": "亮剑",
 			"rangeId": null,
 			"description": "防御力<@ba.vdown>降至0</>，生命上限<@ba.vup>+{max_hp:0%}</>，每次攻击的攻击力提升至<@ba.vup>{attack@atk_scale:0%}</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 38,
@@ -76,11 +80,13 @@
 			"blackboard": [
 				{
 					"key": "max_hp",
-					"value": 0.2
+					"value": 0.2,
+					"valueStr": null
 				},
 				{
 					"key": "attack@atk_scale",
-					"value": 1.9
+					"value": 1.9,
+					"valueStr": null
 				}
 			]
 		},
@@ -88,10 +94,10 @@
 			"name": "亮剑",
 			"rangeId": null,
 			"description": "防御力<@ba.vdown>降至0</>，生命上限<@ba.vup>+{max_hp:0%}</>，每次攻击的攻击力提升至<@ba.vup>{attack@atk_scale:0%}</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 37,
@@ -103,11 +109,13 @@
 			"blackboard": [
 				{
 					"key": "max_hp",
-					"value": 0.2
+					"value": 0.2,
+					"valueStr": null
 				},
 				{
 					"key": "attack@atk_scale",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				}
 			]
 		},
@@ -115,10 +123,10 @@
 			"name": "亮剑",
 			"rangeId": null,
 			"description": "防御力<@ba.vdown>降至0</>，生命上限<@ba.vup>+{max_hp:0%}</>，每次攻击的攻击力提升至<@ba.vup>{attack@atk_scale:0%}</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 36,
@@ -130,11 +138,13 @@
 			"blackboard": [
 				{
 					"key": "max_hp",
-					"value": 0.2
+					"value": 0.2,
+					"valueStr": null
 				},
 				{
 					"key": "attack@atk_scale",
-					"value": 2.1
+					"value": 2.1,
+					"valueStr": null
 				}
 			]
 		},
@@ -142,10 +152,10 @@
 			"name": "亮剑",
 			"rangeId": null,
 			"description": "防御力<@ba.vdown>降至0</>，生命上限<@ba.vup>+{max_hp:0%}</>，每次攻击的攻击力提升至<@ba.vup>{attack@atk_scale:0%}</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 35,
@@ -157,11 +167,13 @@
 			"blackboard": [
 				{
 					"key": "max_hp",
-					"value": 0.2
+					"value": 0.2,
+					"valueStr": null
 				},
 				{
 					"key": "attack@atk_scale",
-					"value": 2.2
+					"value": 2.2,
+					"valueStr": null
 				}
 			]
 		},
@@ -169,10 +181,10 @@
 			"name": "亮剑",
 			"rangeId": null,
 			"description": "防御力<@ba.vdown>降至0</>，生命上限<@ba.vup>+{max_hp:0%}</>，每次攻击的攻击力提升至<@ba.vup>{attack@atk_scale:0%}</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 34,
@@ -184,11 +196,13 @@
 			"blackboard": [
 				{
 					"key": "max_hp",
-					"value": 0.3
+					"value": 0.3,
+					"valueStr": null
 				},
 				{
 					"key": "attack@atk_scale",
-					"value": 2.3
+					"value": 2.3,
+					"valueStr": null
 				}
 			]
 		},
@@ -196,10 +210,10 @@
 			"name": "亮剑",
 			"rangeId": null,
 			"description": "防御力<@ba.vdown>降至0</>，生命上限<@ba.vup>+{max_hp:0%}</>，每次攻击的攻击力提升至<@ba.vup>{attack@atk_scale:0%}</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 33,
@@ -211,11 +225,13 @@
 			"blackboard": [
 				{
 					"key": "max_hp",
-					"value": 0.35
+					"value": 0.35,
+					"valueStr": null
 				},
 				{
 					"key": "attack@atk_scale",
-					"value": 2.5
+					"value": 2.5,
+					"valueStr": null
 				}
 			]
 		},
@@ -223,10 +239,10 @@
 			"name": "亮剑",
 			"rangeId": null,
 			"description": "防御力<@ba.vdown>降至0</>，生命上限<@ba.vup>+{max_hp:0%}</>，每次攻击的攻击力提升至<@ba.vup>{attack@atk_scale:0%}</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 32,
@@ -238,11 +254,13 @@
 			"blackboard": [
 				{
 					"key": "max_hp",
-					"value": 0.4
+					"value": 0.4,
+					"valueStr": null
 				},
 				{
 					"key": "attack@atk_scale",
-					"value": 2.7
+					"value": 2.7,
+					"valueStr": null
 				}
 			]
 		},
@@ -250,10 +268,10 @@
 			"name": "亮剑",
 			"rangeId": null,
 			"description": "防御力<@ba.vdown>降至0</>，生命上限<@ba.vup>+{max_hp:0%}</>，每次攻击的攻击力提升至<@ba.vup>{attack@atk_scale:0%}</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 30,
@@ -265,11 +283,13 @@
 			"blackboard": [
 				{
 					"key": "max_hp",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				},
 				{
 					"key": "attack@atk_scale",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				}
 			]
 		}

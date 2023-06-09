@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act13d5_ex01",
@@ -10,7 +11,7 @@
 	],
 	"stageId": "act13d5_ex02",
 	"levelId": "Activities/ACT13D5/level_act13d5_ex02",
-	"zoneId": "act13d5_zone2",
+	"zoneId": "act7sre_zone2",
 	"code": "MN-EX-2",
 	"name": "Symmetrical Glaciers",
 	"description": "Devices used in some arenas to lower the temperature and avoid heatstroke. It can provide refreshment to the audience while simultaneously complicating the competition. Frost Skull Knight, from Sami, once held a great advantage here. \n<@lv.item><Bush></>Operators deployed on this tile will not be targeted by enemy ranged attacks.\n<@lv.item><Originium Ice Crystal></>Periodically releases a frigid wave that will inflict Cold to affected allied units.",
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {
@@ -57,7 +59,7 @@
 			},
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act13d5_token_securities",
+				"id": "act13d5_token_securities_rep_1",
 				"dropType": 8
 			},
 			{
@@ -76,7 +78,7 @@
 			{
 				"occPercent": 0,
 				"type": "ACTIVITY_ITEM",
-				"id": "act13d5_token_securities",
+				"id": "act13d5_token_securities_rep_1",
 				"dropType": 8
 			},
 			{

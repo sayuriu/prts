@@ -2,7 +2,9 @@
 	"name": "Eunectes",
 	"description": "Only restores SP when blocking enemies",
 	"canUseGeneralPotentialItem": true,
+	"canUseActivityPotentialItem": false,
 	"potentialItemId": "p_char_416_zumama",
+	"activityPotentialItemId": null,
 	"nationId": "sargon",
 	"groupId": null,
 	"teamId": null,
@@ -53,7 +55,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -78,7 +82,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -111,7 +117,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -136,7 +144,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -185,7 +195,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -210,7 +222,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -495,7 +509,7 @@
 					"requiredPotentialRank": 0,
 					"prefabKey": "1",
 					"name": "Peerless Bravery",
-					"description": "When HP is above 50%, attacks deal 108% damage; When HP is 50% or lower, gains 10% <$ba.protect>Sanctuary</> effect",
+					"description": "When HP is above 50%, attacks deal 108% damage; when HP is 50% or lower, gain 10% <$ba.protect>Sanctuary</>",
 					"rangeId": null,
 					"blackboard": [
 						{
@@ -520,7 +534,7 @@
 					"requiredPotentialRank": 4,
 					"prefabKey": "1",
 					"name": "Peerless Bravery",
-					"description": "When HP is above 50%, attacks deal 110% <@ba.talpu>(+2%)</> damage; When HP is 50% or lower, gains 12% <@ba.talpu>(+2%)</> <$ba.protect>Sanctuary</> effect",
+					"description": "When HP is above 50%, attacks deal 110%<@ba.talpu>(+2%)</> damage; when HP is 50% or lower, gain 12%<@ba.talpu>(+2%)</> <$ba.protect>Sanctuary</>",
 					"rangeId": null,
 					"blackboard": [
 						{
@@ -545,7 +559,7 @@
 					"requiredPotentialRank": 0,
 					"prefabKey": "1",
 					"name": "Peerless Bravery",
-					"description": "When HP is above 50%, attacks deal 115% damage; When HP is 50% or lower, gains 20% <$ba.protect>Sanctuary</> effect",
+					"description": "When HP is above 50%, attacks deal 115% damage; when HP is 50% or lower, gain 20% <$ba.protect>Sanctuary</>",
 					"rangeId": null,
 					"blackboard": [
 						{
@@ -570,7 +584,7 @@
 					"requiredPotentialRank": 4,
 					"prefabKey": "1",
 					"name": "Peerless Bravery",
-					"description": "When HP is above 50%, attacks deal 117% <@ba.talpu>(+2%)</> damage; When HP is 50% or lower, gains 22% <@ba.talpu>(+2%)</> <$ba.protect>Sanctuary</> effect",
+					"description": "When HP is above 50%, attacks deal 117%<@ba.talpu>(+2%)</> damage; when HP is 50% or lower, gain 22%<@ba.talpu>(+2%)</> <$ba.protect>Sanctuary</>",
 					"rangeId": null,
 					"blackboard": [
 						{
@@ -734,7 +748,9 @@
 				"baseForceLevel": 0,
 				"stunImmune": false,
 				"silenceImmune": false,
-				"sleepImmune": false
+				"sleepImmune": false,
+				"frozenImmune": false,
+				"levitateImmune": false
 			}
 		},
 		{
@@ -759,7 +775,9 @@
 				"baseForceLevel": 0,
 				"stunImmune": false,
 				"silenceImmune": false,
-				"sleepImmune": false
+				"sleepImmune": false,
+				"frozenImmune": false,
+				"levitateImmune": false
 			}
 		}
 	],

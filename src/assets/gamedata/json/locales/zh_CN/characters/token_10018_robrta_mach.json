@@ -2,7 +2,10 @@
 	"name": "全自动造型仪",
 	"description": "部署后为前方一名友方近战单位提供防护支援（持续数秒）",
 	"canUseGeneralPotentialItem": true,
-	"potentialItemId": "",
+	"canUseActivityPotentialItem": false,
+	"potentialItemId": null,
+	"activityPotentialItemId": null,
+	"classicPotentialItemId": null,
 	"nationId": null,
 	"groupId": null,
 	"teamId": null,
@@ -17,14 +20,14 @@
 	"isNotObtainable": false,
 	"isSpChar": false,
 	"maxPotentialLevel": 0,
-	"rarity": 3,
+	"rarity": "TIER_4",
 	"profession": "TOKEN",
 	"subProfessionId": "notchar1",
 	"trait": {
 		"candidates": [
 			{
 				"unlockCondition": {
-					"phase": 0,
+					"phase": "PHASE_0",
 					"level": 1
 				},
 				"requiredPotentialRank": 0,
@@ -35,7 +38,7 @@
 			},
 			{
 				"unlockCondition": {
-					"phase": 1,
+					"phase": "PHASE_1",
 					"level": 1
 				},
 				"requiredPotentialRank": 0,
@@ -46,7 +49,7 @@
 			},
 			{
 				"unlockCondition": {
-					"phase": 2,
+					"phase": "PHASE_2",
 					"level": 1
 				},
 				"requiredPotentialRank": 0,
@@ -86,7 +89,8 @@
 						"stunImmune": false,
 						"silenceImmune": false,
 						"sleepImmune": false,
-						"frozenImmune": false
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -112,7 +116,8 @@
 						"stunImmune": false,
 						"silenceImmune": false,
 						"sleepImmune": false,
-						"frozenImmune": false
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -146,7 +151,8 @@
 						"stunImmune": false,
 						"silenceImmune": false,
 						"sleepImmune": false,
-						"frozenImmune": false
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -172,7 +178,8 @@
 						"stunImmune": false,
 						"silenceImmune": false,
 						"sleepImmune": false,
-						"frozenImmune": false
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -206,7 +213,8 @@
 						"stunImmune": false,
 						"silenceImmune": false,
 						"sleepImmune": false,
-						"frozenImmune": false
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -232,7 +240,8 @@
 						"stunImmune": false,
 						"silenceImmune": false,
 						"sleepImmune": false,
-						"frozenImmune": false
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -246,7 +255,7 @@
 			"overrideTokenKey": null,
 			"levelUpCostCond": [],
 			"unlockCond": {
-				"phase": 0,
+				"phase": "PHASE_0",
 				"level": 1
 			}
 		},
@@ -256,7 +265,7 @@
 			"overrideTokenKey": null,
 			"levelUpCostCond": [],
 			"unlockCond": {
-				"phase": 0,
+				"phase": "PHASE_0",
 				"level": 1
 			}
 		}
@@ -266,7 +275,7 @@
 			"candidates": [
 				{
 					"unlockCondition": {
-						"phase": 0,
+						"phase": "PHASE_0",
 						"level": 1
 					},
 					"requiredPotentialRank": 0,
@@ -277,17 +286,19 @@
 					"blackboard": [
 						{
 							"key": "def",
-							"value": 0.1
+							"value": 0.1,
+							"valueStr": null
 						},
 						{
 							"key": "duration",
-							"value": 15
+							"value": 15,
+							"valueStr": null
 						}
 					]
 				},
 				{
 					"unlockCondition": {
-						"phase": 0,
+						"phase": "PHASE_0",
 						"level": 1
 					},
 					"requiredPotentialRank": 4,
@@ -298,17 +309,19 @@
 					"blackboard": [
 						{
 							"key": "def",
-							"value": 0.13
+							"value": 0.13,
+							"valueStr": null
 						},
 						{
 							"key": "duration",
-							"value": 15
+							"value": 15,
+							"valueStr": null
 						}
 					]
 				},
 				{
 					"unlockCondition": {
-						"phase": 1,
+						"phase": "PHASE_1",
 						"level": 1
 					},
 					"requiredPotentialRank": 0,
@@ -319,17 +332,19 @@
 					"blackboard": [
 						{
 							"key": "def",
-							"value": 0.2
+							"value": 0.2,
+							"valueStr": null
 						},
 						{
 							"key": "duration",
-							"value": 25
+							"value": 25,
+							"valueStr": null
 						}
 					]
 				},
 				{
 					"unlockCondition": {
-						"phase": 1,
+						"phase": "PHASE_1",
 						"level": 1
 					},
 					"requiredPotentialRank": 4,
@@ -340,17 +355,19 @@
 					"blackboard": [
 						{
 							"key": "def",
-							"value": 0.23
+							"value": 0.23,
+							"valueStr": null
 						},
 						{
 							"key": "duration",
-							"value": 25
+							"value": 25,
+							"valueStr": null
 						}
 					]
 				},
 				{
 					"unlockCondition": {
-						"phase": 2,
+						"phase": "PHASE_2",
 						"level": 1
 					},
 					"requiredPotentialRank": 0,
@@ -361,17 +378,19 @@
 					"blackboard": [
 						{
 							"key": "def",
-							"value": 0.3
+							"value": 0.3,
+							"valueStr": null
 						},
 						{
 							"key": "duration",
-							"value": 25
+							"value": 25,
+							"valueStr": null
 						}
 					]
 				},
 				{
 					"unlockCondition": {
-						"phase": 2,
+						"phase": "PHASE_2",
 						"level": 1
 					},
 					"requiredPotentialRank": 4,
@@ -382,11 +401,13 @@
 					"blackboard": [
 						{
 							"key": "def",
-							"value": 0.33
+							"value": 0.33,
+							"valueStr": null
 						},
 						{
 							"key": "duration",
-							"value": 25
+							"value": 25,
+							"valueStr": null
 						}
 					]
 				}

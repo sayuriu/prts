@@ -1,0 +1,83 @@
+{
+	"stageType": "SUB",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "TOUGH",
+	"unlockCondition": [
+		{
+			"stageId": "tough_10-15",
+			"completeState": "PASS"
+		},
+		{
+			"stageId": "st_10-04",
+			"completeState": "PASS"
+		}
+	],
+	"stageId": "hard_10-01",
+	"levelId": "Obt/Hard/level_hard_10-01",
+	"zoneId": "main_10",
+	"code": "H10-1",
+	"name": "日晕行动-1",
+	"description": "萨迪恩区的每一条窄巷与通道里，都曾有战士以性命相搏。\\n<@lv.item><伦蒂尼姆城防副炮></>能量充满时，对场上阻挡数最高的我方单位周围造成无视敌我的大量真实伤害\\n<@lv.fs>曼弗雷德附加能力：</>\\n攻击时附带凋亡损伤，【军事训练】效果恢复速度大幅加快",
+	"hardStagedId": null,
+	"dangerLevel": "-",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_VC_wall",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 10,
+	"apFailReturn": 9,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": -1,
+	"expGain": 100,
+	"goldGain": 100,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 9,
+	"completeFavor": 10,
+	"slProgress": 0,
+	"displayMainItem": "",
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": "HIGH_DIFFICULTY",
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": "COMPLETE"
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": "ALWAYS",
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": "COMPLETE"
+			}
+		]
+	},
+	"canUseCharm": false,
+	"canUseTech": false,
+	"canUseTrapTool": false,
+	"canUseBattlePerformance": false,
+	"startButtonOverrideId": "HIGH_DIFFICULTY",
+	"isStagePatch": false,
+	"mainStageId": "tough_10-15",
+	"extraCondition": null,
+	"extraInfo": null
+}

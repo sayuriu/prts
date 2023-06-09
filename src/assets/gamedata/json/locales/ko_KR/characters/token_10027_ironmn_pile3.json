@@ -1,0 +1,476 @@
+{
+	"name": "글룸핀서호 - 프로토타입",
+	"description": null,
+	"canUseGeneralPotentialItem": true,
+	"canUseActivityPotentialItem": false,
+	"potentialItemId": null,
+	"activityPotentialItemId": null,
+	"nationId": null,
+	"groupId": null,
+	"teamId": null,
+	"displayNumber": null,
+	"tokenKey": null,
+	"appellation": "Prototype of Feist's Metal Crab",
+	"position": "MELEE",
+	"tagList": null,
+	"itemUsage": null,
+	"itemDesc": null,
+	"itemObtainApproach": null,
+	"isNotObtainable": false,
+	"isSpChar": false,
+	"maxPotentialLevel": 0,
+	"rarity": 5,
+	"profession": "TOKEN",
+	"subProfessionId": "notchar1",
+	"trait": {
+		"candidates": [
+			{
+				"unlockCondition": {
+					"phase": 0,
+					"level": 1
+				},
+				"requiredPotentialRank": 0,
+				"blackboard": [
+					{
+						"key": "hp_ratio",
+						"value": 0.01
+					}
+				],
+				"overrideDescripton": "아군의 공격을 받지만 대미지는 입지 않으며, 기능공 오퍼레이터의 공격을 받을 때마다 HP 1% 회복",
+				"prefabKey": null,
+				"rangeId": null
+			}
+		]
+	},
+	"phases": [
+		{
+			"characterPrefabKey": "token_10027_ironmn_pile3",
+			"rangeId": "3-13",
+			"maxLevel": 50,
+			"attributesKeyFrames": [
+				{
+					"level": 1,
+					"data": {
+						"maxHp": 6000,
+						"atk": 100,
+						"def": 2000,
+						"magicResistance": 0,
+						"cost": 10,
+						"blockCnt": 0,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 1,
+						"respawnTime": 20,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": -2,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
+					}
+				},
+				{
+					"level": 50,
+					"data": {
+						"maxHp": 6000,
+						"atk": 100,
+						"def": 2000,
+						"magicResistance": 0,
+						"cost": 10,
+						"blockCnt": 0,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 1,
+						"respawnTime": 20,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": -2,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
+					}
+				}
+			],
+			"evolveCost": null
+		},
+		{
+			"characterPrefabKey": "token_10027_ironmn_pile3",
+			"rangeId": "3-13",
+			"maxLevel": 80,
+			"attributesKeyFrames": [
+				{
+					"level": 1,
+					"data": {
+						"maxHp": 6000,
+						"atk": 100,
+						"def": 2000,
+						"magicResistance": 0,
+						"cost": 10,
+						"blockCnt": 0,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 1,
+						"respawnTime": 20,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": -2,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
+					}
+				},
+				{
+					"level": 80,
+					"data": {
+						"maxHp": 6000,
+						"atk": 100,
+						"def": 2000,
+						"magicResistance": 0,
+						"cost": 10,
+						"blockCnt": 0,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 1,
+						"respawnTime": 20,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": -2,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
+					}
+				}
+			],
+			"evolveCost": null
+		},
+		{
+			"characterPrefabKey": "token_10027_ironmn_pile3",
+			"rangeId": "3-13",
+			"maxLevel": 90,
+			"attributesKeyFrames": [
+				{
+					"level": 1,
+					"data": {
+						"maxHp": 6000,
+						"atk": 100,
+						"def": 2000,
+						"magicResistance": 0,
+						"cost": 10,
+						"blockCnt": 0,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 1,
+						"respawnTime": 20,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": -2,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
+					}
+				},
+				{
+					"level": 90,
+					"data": {
+						"maxHp": 6000,
+						"atk": 100,
+						"def": 2000,
+						"magicResistance": 0,
+						"cost": 10,
+						"blockCnt": 0,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 1,
+						"respawnTime": 20,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": -2,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
+					}
+				}
+			],
+			"evolveCost": null
+		}
+	],
+	"skills": [
+		{
+			"skillId": "sktok_ironmn_pile3",
+			"overridePrefabKey": null,
+			"overrideTokenKey": null,
+			"levelUpCostCond": [
+				{
+					"unlockCond": {
+						"phase": 2,
+						"level": 1
+					},
+					"lvlUpTime": 0,
+					"levelUpCost": null
+				},
+				{
+					"unlockCond": {
+						"phase": 2,
+						"level": 1
+					},
+					"lvlUpTime": 0,
+					"levelUpCost": null
+				},
+				{
+					"unlockCond": {
+						"phase": 2,
+						"level": 1
+					},
+					"lvlUpTime": 0,
+					"levelUpCost": null
+				}
+			],
+			"unlockCond": {
+				"phase": 0,
+				"level": 1
+			}
+		},
+		{
+			"skillId": "sktok_ironmn_pile3",
+			"overridePrefabKey": null,
+			"overrideTokenKey": null,
+			"levelUpCostCond": [
+				{
+					"unlockCond": {
+						"phase": 2,
+						"level": 1
+					},
+					"lvlUpTime": 0,
+					"levelUpCost": null
+				},
+				{
+					"unlockCond": {
+						"phase": 2,
+						"level": 1
+					},
+					"lvlUpTime": 0,
+					"levelUpCost": null
+				},
+				{
+					"unlockCond": {
+						"phase": 2,
+						"level": 1
+					},
+					"lvlUpTime": 0,
+					"levelUpCost": null
+				}
+			],
+			"unlockCond": {
+				"phase": 1,
+				"level": 1
+			}
+		},
+		{
+			"skillId": "sktok_ironmn_pile3",
+			"overridePrefabKey": null,
+			"overrideTokenKey": null,
+			"levelUpCostCond": [
+				{
+					"unlockCond": {
+						"phase": 2,
+						"level": 1
+					},
+					"lvlUpTime": 0,
+					"levelUpCost": null
+				},
+				{
+					"unlockCond": {
+						"phase": 2,
+						"level": 1
+					},
+					"lvlUpTime": 0,
+					"levelUpCost": null
+				},
+				{
+					"unlockCond": {
+						"phase": 2,
+						"level": 1
+					},
+					"lvlUpTime": 0,
+					"levelUpCost": null
+				}
+			],
+			"unlockCond": {
+				"phase": 2,
+				"level": 1
+			}
+		}
+	],
+	"talents": [
+		{
+			"candidates": [
+				{
+					"unlockCondition": {
+						"phase": 0,
+						"level": 1
+					},
+					"requiredPotentialRank": 0,
+					"prefabKey": "2",
+					"name": "결속의 힘",
+					"description": "뒤에 배치된 오퍼레이터의 피격 대미지 -20%, 무한 지속",
+					"rangeId": null,
+					"blackboard": [
+						{
+							"key": "damage_resistance",
+							"value": 0.2
+						}
+					]
+				}
+			]
+		},
+		{
+			"candidates": [
+				{
+					"unlockCondition": {
+						"phase": 0,
+						"level": 1
+					},
+					"requiredPotentialRank": 0,
+					"prefabKey": "1",
+					"name": null,
+					"description": null,
+					"rangeId": null,
+					"blackboard": [
+						{
+							"key": "max_deck_stack_cnt",
+							"value": 2
+						},
+						{
+							"key": "max_deploy_count",
+							"value": 0
+						}
+					]
+				},
+				{
+					"unlockCondition": {
+						"phase": 1,
+						"level": 1
+					},
+					"requiredPotentialRank": 0,
+					"prefabKey": "1",
+					"name": null,
+					"description": null,
+					"rangeId": null,
+					"blackboard": [
+						{
+							"key": "max_deck_stack_cnt",
+							"value": 2
+						},
+						{
+							"key": "max_deploy_count",
+							"value": 1
+						}
+					]
+				},
+				{
+					"unlockCondition": {
+						"phase": 2,
+						"level": 1
+					},
+					"requiredPotentialRank": 0,
+					"prefabKey": "1",
+					"name": null,
+					"description": null,
+					"rangeId": null,
+					"blackboard": [
+						{
+							"key": "max_deck_stack_cnt",
+							"value": 3
+						},
+						{
+							"key": "max_deploy_count",
+							"value": 1
+						}
+					]
+				}
+			]
+		}
+	],
+	"potentialRanks": [],
+	"favorKeyFrames": null,
+	"allSkillLvlup": [
+		{
+			"unlockCond": {
+				"phase": 0,
+				"level": 1
+			},
+			"lvlUpCost": null
+		},
+		{
+			"unlockCond": {
+				"phase": 0,
+				"level": 1
+			},
+			"lvlUpCost": null
+		},
+		{
+			"unlockCond": {
+				"phase": 0,
+				"level": 1
+			},
+			"lvlUpCost": null
+		},
+		{
+			"unlockCond": {
+				"phase": 1,
+				"level": 1
+			},
+			"lvlUpCost": null
+		},
+		{
+			"unlockCond": {
+				"phase": 1,
+				"level": 1
+			},
+			"lvlUpCost": null
+		},
+		{
+			"unlockCond": {
+				"phase": 1,
+				"level": 1
+			},
+			"lvlUpCost": null
+		}
+	]
+}

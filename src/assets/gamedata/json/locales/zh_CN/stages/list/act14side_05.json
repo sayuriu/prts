@@ -2,15 +2,16 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act14side_tr02",
-			"completeState": 2
+			"completeState": "PASS"
 		}
 	],
 	"stageId": "act14side_05",
 	"levelId": "Activities/ACT14SIDE/level_act14side_05",
-	"zoneId": "act14side_zone1",
+	"zoneId": "act14sre_zone1",
 	"code": "BI-5",
 	"name": "猎场",
 	"description": "老练的猎手不会只依赖纯粹的力量制胜，就连他们在狩猎中流下的鲜血都会成为致命的陷阱。\\n<@lv.item><拐角冰面></>对其上的单位施加“寒冷”，改变被位移敌人的移动方向\\n<@lv.item><刺骨寒风></>降雪时，向特定方向推动所有敌人",
@@ -44,7 +45,7 @@
 	"isHardPredefined": false,
 	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
-	"appearanceStyle": 0,
+	"appearanceStyle": "MAIN_NORMAL",
 	"stageDropInfo": {
 		"firstPassRewards": null,
 		"firstCompleteRewards": null,
@@ -53,64 +54,70 @@
 		"displayRewards": [
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act14side_token_stone",
-				"dropType": 8
+				"id": "act14side_token_stone_rep_1",
+				"dropType": "COMPLETE"
 			},
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act14side_token_stone",
-				"dropType": 2
+				"id": "act14side_token_stone_rep_1",
+				"dropType": "NORMAL"
 			},
 			{
 				"type": "MATERIAL",
 				"id": "30032",
-				"dropType": 2
+				"dropType": "NORMAL"
 			},
 			{
 				"type": "MATERIAL",
 				"id": "30022",
-				"dropType": 2
+				"dropType": "NORMAL"
 			},
 			{
 				"type": "DIAMOND",
 				"id": "4002",
-				"dropType": 8
+				"dropType": "COMPLETE"
 			}
 		],
 		"displayDetailRewards": [
 			{
-				"occPercent": 0,
+				"occPercent": "ALWAYS",
 				"type": "ACTIVITY_ITEM",
-				"id": "act14side_token_stone",
-				"dropType": 8
+				"id": "act14side_token_stone_rep_1",
+				"dropType": "COMPLETE"
 			},
 			{
-				"occPercent": 0,
+				"occPercent": "ALWAYS",
 				"type": "ACTIVITY_ITEM",
-				"id": "act14side_token_stone",
-				"dropType": 2
+				"id": "act14side_token_stone_rep_1",
+				"dropType": "NORMAL"
 			},
 			{
-				"occPercent": 0,
+				"occPercent": "ALWAYS",
 				"type": "MATERIAL",
 				"id": "30032",
-				"dropType": 2
+				"dropType": "NORMAL"
 			},
 			{
-				"occPercent": 2,
+				"occPercent": "USUAL",
 				"type": "MATERIAL",
 				"id": "30022",
-				"dropType": 2
+				"dropType": "NORMAL"
 			},
 			{
-				"occPercent": 0,
+				"occPercent": "ALWAYS",
 				"type": "DIAMOND",
 				"id": "4002",
-				"dropType": 8
+				"dropType": "COMPLETE"
 			}
 		]
 	},
+	"canUseCharm": false,
+	"canUseTech": false,
+	"canUseTrapTool": false,
+	"canUseBattlePerformance": false,
 	"startButtonOverrideId": null,
 	"isStagePatch": false,
-	"mainStageId": "act14side_tr01"
+	"mainStageId": "act14side_tr01",
+	"extraCondition": null,
+	"extraInfo": null
 }

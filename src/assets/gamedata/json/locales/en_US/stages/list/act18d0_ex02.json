@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act18d0_ex01",
@@ -10,12 +11,12 @@
 	],
 	"stageId": "act18d0_ex02",
 	"levelId": "Activities/act18d0/level_act18d0_ex02",
-	"zoneId": "act18d0_zone2",
+	"zoneId": "act10sre_zone2",
 	"code": "WD-EX-2",
 	"name": "Converging Lines",
-	"description": "Well-trained mercenaries are often able to execute two-pronged attacks, and even capture targets in complex terrain— Wait, wait, when did the third squad show up? Who gave the order to act?!\n<@lv.item><Mobile Tactical Hangar></> Deploys drones as needed to assist enemy combatants.",
+	"description": "Well-trained mercenaries are often able to execute two-pronged attacks, and even capture targets in complex terrain— Wait, wait, when did a third team show up? Who gave the order to act?!\n<@lv.item><Mobile Tactical Hangar></> Deploys drones as needed to assist enemy combatants.",
 	"hardStagedId": "act18d0_ex02#f#",
-	"dangerLevel": "Elite 1 Lv.50",
+	"dangerLevel": "Elite 1 Lv. 50",
 	"dangerPoint": -1,
 	"loadingPicId": "loading_OOD_02",
 	"canPractice": true,
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {
@@ -52,7 +54,7 @@
 		"displayRewards": [
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act18d0_token_page",
+				"id": "act18d0_token_page_rep_1",
 				"dropType": 8
 			},
 			{
@@ -65,7 +67,7 @@
 			{
 				"occPercent": 0,
 				"type": "ACTIVITY_ITEM",
-				"id": "act18d0_token_page",
+				"id": "act18d0_token_page_rep_1",
 				"dropType": 8
 			},
 			{

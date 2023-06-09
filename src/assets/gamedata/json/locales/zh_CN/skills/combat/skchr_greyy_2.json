@@ -7,10 +7,10 @@
 			"name": "静电释放",
 			"rangeId": null,
 			"description": "攻击速度<@ba.vup>+{attack_speed}</>，天赋<$ba.sluggish>停顿</>的持续时间提升至<@ba.vup>{talent_scale:0.0}倍</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 60,
@@ -22,11 +22,13 @@
 			"blackboard": [
 				{
 					"key": "attack_speed",
-					"value": 35
+					"value": 35,
+					"valueStr": null
 				},
 				{
 					"key": "talent_scale",
-					"value": 1.5
+					"value": 1.5,
+					"valueStr": null
 				}
 			]
 		},
@@ -34,10 +36,10 @@
 			"name": "静电释放",
 			"rangeId": null,
 			"description": "攻击速度<@ba.vup>+{attack_speed}</>，天赋<$ba.sluggish>停顿</>的持续时间提升至<@ba.vup>{talent_scale:0.0}倍</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 60,
@@ -49,11 +51,13 @@
 			"blackboard": [
 				{
 					"key": "attack_speed",
-					"value": 40
+					"value": 40,
+					"valueStr": null
 				},
 				{
 					"key": "talent_scale",
-					"value": 1.5
+					"value": 1.5,
+					"valueStr": null
 				}
 			]
 		},
@@ -61,10 +65,10 @@
 			"name": "静电释放",
 			"rangeId": null,
 			"description": "攻击速度<@ba.vup>+{attack_speed}</>，天赋<$ba.sluggish>停顿</>的持续时间提升至<@ba.vup>{talent_scale:0.0}倍</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 60,
@@ -76,11 +80,13 @@
 			"blackboard": [
 				{
 					"key": "attack_speed",
-					"value": 45
+					"value": 45,
+					"valueStr": null
 				},
 				{
 					"key": "talent_scale",
-					"value": 1.5
+					"value": 1.5,
+					"valueStr": null
 				}
 			]
 		},
@@ -88,10 +94,10 @@
 			"name": "静电释放",
 			"rangeId": null,
 			"description": "攻击速度<@ba.vup>+{attack_speed}</>，天赋<$ba.sluggish>停顿</>的持续时间提升至<@ba.vup>{talent_scale:0.0}倍</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 60,
@@ -103,11 +109,13 @@
 			"blackboard": [
 				{
 					"key": "attack_speed",
-					"value": 50
+					"value": 50,
+					"valueStr": null
 				},
 				{
 					"key": "talent_scale",
-					"value": 1.6
+					"value": 1.6,
+					"valueStr": null
 				}
 			]
 		},
@@ -115,10 +123,10 @@
 			"name": "静电释放",
 			"rangeId": null,
 			"description": "攻击速度<@ba.vup>+{attack_speed}</>，天赋<$ba.sluggish>停顿</>的持续时间提升至<@ba.vup>{talent_scale:0.0}倍</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 60,
@@ -130,11 +138,13 @@
 			"blackboard": [
 				{
 					"key": "attack_speed",
-					"value": 55
+					"value": 55,
+					"valueStr": null
 				},
 				{
 					"key": "talent_scale",
-					"value": 1.6
+					"value": 1.6,
+					"valueStr": null
 				}
 			]
 		},
@@ -142,10 +152,10 @@
 			"name": "静电释放",
 			"rangeId": null,
 			"description": "攻击速度<@ba.vup>+{attack_speed}</>，天赋<$ba.sluggish>停顿</>的持续时间提升至<@ba.vup>{talent_scale:0.0}倍</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 60,
@@ -157,11 +167,13 @@
 			"blackboard": [
 				{
 					"key": "attack_speed",
-					"value": 60
+					"value": 60,
+					"valueStr": null
 				},
 				{
 					"key": "talent_scale",
-					"value": 1.6
+					"value": 1.6,
+					"valueStr": null
 				}
 			]
 		},
@@ -169,10 +181,10 @@
 			"name": "静电释放",
 			"rangeId": null,
 			"description": "攻击速度<@ba.vup>+{attack_speed}</>，天赋<$ba.sluggish>停顿</>的持续时间提升至<@ba.vup>{talent_scale:0.0}倍</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 60,
@@ -184,11 +196,13 @@
 			"blackboard": [
 				{
 					"key": "attack_speed",
-					"value": 65
+					"value": 65,
+					"valueStr": null
 				},
 				{
 					"key": "talent_scale",
-					"value": 1.7
+					"value": 1.7,
+					"valueStr": null
 				}
 			]
 		},
@@ -196,10 +210,10 @@
 			"name": "静电释放",
 			"rangeId": null,
 			"description": "攻击速度<@ba.vup>+{attack_speed}</>，天赋<$ba.sluggish>停顿</>的持续时间提升至<@ba.vup>{talent_scale:0.0}倍</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 60,
@@ -211,11 +225,13 @@
 			"blackboard": [
 				{
 					"key": "attack_speed",
-					"value": 70
+					"value": 70,
+					"valueStr": null
 				},
 				{
 					"key": "talent_scale",
-					"value": 1.8
+					"value": 1.8,
+					"valueStr": null
 				}
 			]
 		},
@@ -223,10 +239,10 @@
 			"name": "静电释放",
 			"rangeId": null,
 			"description": "攻击速度<@ba.vup>+{attack_speed}</>，天赋<$ba.sluggish>停顿</>的持续时间提升至<@ba.vup>{talent_scale:0.0}倍</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 60,
@@ -238,11 +254,13 @@
 			"blackboard": [
 				{
 					"key": "attack_speed",
-					"value": 75
+					"value": 75,
+					"valueStr": null
 				},
 				{
 					"key": "talent_scale",
-					"value": 1.9
+					"value": 1.9,
+					"valueStr": null
 				}
 			]
 		},
@@ -250,10 +268,10 @@
 			"name": "静电释放",
 			"rangeId": null,
 			"description": "攻击速度<@ba.vup>+{attack_speed}</>，天赋<$ba.sluggish>停顿</>的持续时间提升至<@ba.vup>{talent_scale:0.0}倍</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 60,
@@ -265,11 +283,13 @@
 			"blackboard": [
 				{
 					"key": "attack_speed",
-					"value": 80
+					"value": 80,
+					"valueStr": null
 				},
 				{
 					"key": "talent_scale",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				}
 			]
 		}

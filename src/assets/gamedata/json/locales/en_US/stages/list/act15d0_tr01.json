@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act15d0_01",
@@ -10,10 +11,10 @@
 	],
 	"stageId": "act15d0_tr01",
 	"levelId": "Activities/ACT15D0/level_act15d0_tr01",
-	"zoneId": "act15d0_zone1",
+	"zoneId": "act8sre_zone1",
 	"code": "MB-TR-1",
 	"name": "Shackles and Dances",
-	"description": "One of the most important rules for surviving in prison— get used to those shackles around your body. \n<@lv.item><Imprisonment Device></>Imprisons freed enemies within its effect area.",
+	"description": "One of the most important rules for surviving in prison— get used to those shackles around your body. \n<@lv.item><Imprisonment Device></> Imprisons freed enemies within its effect area",
 	"hardStagedId": null,
 	"dangerLevel": "-",
 	"dangerPoint": -1,
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": true,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 3,
 	"stageDropInfo": {

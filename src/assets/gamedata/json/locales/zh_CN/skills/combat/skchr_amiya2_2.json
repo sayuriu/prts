@@ -7,10 +7,10 @@
 			"name": "影霄·绝影",
 			"rangeId": "x-2",
 			"description": "立即寻找前方生命值最低的目标，进行<@ba.vup>{times}</>次攻击力为<@ba.vup>{atk_scale:0%}</>的法术斩击（最后一击系数加倍且为<@ba.vup>真实</>伤害）；斩击期间每击败一个敌人获得攻击力<@ba.vup>+{amiya2_s_2[kill].atk:0%}</>和法术抗性<@ba.vup>+{amiya2_s_2[kill].magic_resistance}</>（最多叠加<@ba.vup>{amiya2_s_2[kill].max_stack_cnt}</>次），并且接下来的伤害类型变为<@ba.vup>真实</>；<@ba.rem>整场战斗中该技能只能释放一次</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 20,
@@ -22,31 +22,38 @@
 			"blackboard": [
 				{
 					"key": "times",
-					"value": 10
+					"value": 10,
+					"valueStr": null
 				},
 				{
 					"key": "atk_scale",
-					"value": 1.2
+					"value": 1.2,
+					"valueStr": null
 				},
 				{
 					"key": "atk_scale_2",
-					"value": 2.4
+					"value": 2.4,
+					"valueStr": null
 				},
 				{
 					"key": "amiya2_s_2[kill].atk",
-					"value": 0.2
+					"value": 0.2,
+					"valueStr": null
 				},
 				{
 					"key": "amiya2_s_2[kill].magic_resistance",
-					"value": 20
+					"value": 20,
+					"valueStr": null
 				},
 				{
 					"key": "amiya2_s_2[kill].max_stack_cnt",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				},
 				{
 					"key": "talent_scale",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				}
 			]
 		},
@@ -54,10 +61,10 @@
 			"name": "影霄·绝影",
 			"rangeId": "x-2",
 			"description": "立即寻找前方生命值最低的目标，进行<@ba.vup>{times}</>次攻击力为<@ba.vup>{atk_scale:0%}</>的法术斩击（最后一击系数加倍且为<@ba.vup>真实</>伤害）；斩击期间每击败一个敌人获得攻击力<@ba.vup>+{amiya2_s_2[kill].atk:0%}</>和法术抗性<@ba.vup>+{amiya2_s_2[kill].magic_resistance}</>（最多叠加<@ba.vup>{amiya2_s_2[kill].max_stack_cnt}</>次），并且接下来的伤害类型变为<@ba.vup>真实</>；<@ba.rem>整场战斗中该技能只能释放一次</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 20,
@@ -69,31 +76,38 @@
 			"blackboard": [
 				{
 					"key": "times",
-					"value": 10
+					"value": 10,
+					"valueStr": null
 				},
 				{
 					"key": "atk_scale",
-					"value": 1.25
+					"value": 1.25,
+					"valueStr": null
 				},
 				{
 					"key": "atk_scale_2",
-					"value": 2.5
+					"value": 2.5,
+					"valueStr": null
 				},
 				{
 					"key": "amiya2_s_2[kill].atk",
-					"value": 0.2
+					"value": 0.2,
+					"valueStr": null
 				},
 				{
 					"key": "amiya2_s_2[kill].magic_resistance",
-					"value": 20
+					"value": 20,
+					"valueStr": null
 				},
 				{
 					"key": "amiya2_s_2[kill].max_stack_cnt",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				},
 				{
 					"key": "talent_scale",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				}
 			]
 		},
@@ -101,10 +115,10 @@
 			"name": "影霄·绝影",
 			"rangeId": "x-2",
 			"description": "立即寻找前方生命值最低的目标，进行<@ba.vup>{times}</>次攻击力为<@ba.vup>{atk_scale:0%}</>的法术斩击（最后一击系数加倍且为<@ba.vup>真实</>伤害）；斩击期间每击败一个敌人获得攻击力<@ba.vup>+{amiya2_s_2[kill].atk:0%}</>和法术抗性<@ba.vup>+{amiya2_s_2[kill].magic_resistance}</>（最多叠加<@ba.vup>{amiya2_s_2[kill].max_stack_cnt}</>次），并且接下来的伤害类型变为<@ba.vup>真实</>；<@ba.rem>整场战斗中该技能只能释放一次</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 20,
@@ -116,31 +130,38 @@
 			"blackboard": [
 				{
 					"key": "times",
-					"value": 10
+					"value": 10,
+					"valueStr": null
 				},
 				{
 					"key": "atk_scale",
-					"value": 1.3
+					"value": 1.3,
+					"valueStr": null
 				},
 				{
 					"key": "atk_scale_2",
-					"value": 2.6
+					"value": 2.6,
+					"valueStr": null
 				},
 				{
 					"key": "amiya2_s_2[kill].atk",
-					"value": 0.2
+					"value": 0.2,
+					"valueStr": null
 				},
 				{
 					"key": "amiya2_s_2[kill].magic_resistance",
-					"value": 20
+					"value": 20,
+					"valueStr": null
 				},
 				{
 					"key": "amiya2_s_2[kill].max_stack_cnt",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				},
 				{
 					"key": "talent_scale",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				}
 			]
 		},
@@ -148,10 +169,10 @@
 			"name": "影霄·绝影",
 			"rangeId": "x-2",
 			"description": "立即寻找前方生命值最低的目标，进行<@ba.vup>{times}</>次攻击力为<@ba.vup>{atk_scale:0%}</>的法术斩击（最后一击系数加倍且为<@ba.vup>真实</>伤害）；斩击期间每击败一个敌人获得攻击力<@ba.vup>+{amiya2_s_2[kill].atk:0%}</>和法术抗性<@ba.vup>+{amiya2_s_2[kill].magic_resistance}</>（最多叠加<@ba.vup>{amiya2_s_2[kill].max_stack_cnt}</>次），并且接下来的伤害类型变为<@ba.vup>真实</>；<@ba.rem>整场战斗中该技能只能释放一次</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 20,
@@ -163,31 +184,38 @@
 			"blackboard": [
 				{
 					"key": "times",
-					"value": 10
+					"value": 10,
+					"valueStr": null
 				},
 				{
 					"key": "atk_scale",
-					"value": 1.4
+					"value": 1.4,
+					"valueStr": null
 				},
 				{
 					"key": "atk_scale_2",
-					"value": 2.8
+					"value": 2.8,
+					"valueStr": null
 				},
 				{
 					"key": "amiya2_s_2[kill].atk",
-					"value": 0.2
+					"value": 0.2,
+					"valueStr": null
 				},
 				{
 					"key": "amiya2_s_2[kill].magic_resistance",
-					"value": 20
+					"value": 20,
+					"valueStr": null
 				},
 				{
 					"key": "amiya2_s_2[kill].max_stack_cnt",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				},
 				{
 					"key": "talent_scale",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				}
 			]
 		},
@@ -195,10 +223,10 @@
 			"name": "影霄·绝影",
 			"rangeId": "x-2",
 			"description": "立即寻找前方生命值最低的目标，进行<@ba.vup>{times}</>次攻击力为<@ba.vup>{atk_scale:0%}</>的法术斩击（最后一击系数加倍且为<@ba.vup>真实</>伤害）；斩击期间每击败一个敌人获得攻击力<@ba.vup>+{amiya2_s_2[kill].atk:0%}</>和法术抗性<@ba.vup>+{amiya2_s_2[kill].magic_resistance}</>（最多叠加<@ba.vup>{amiya2_s_2[kill].max_stack_cnt}</>次），并且接下来的伤害类型变为<@ba.vup>真实</>；<@ba.rem>整场战斗中该技能只能释放一次</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 20,
@@ -210,31 +238,38 @@
 			"blackboard": [
 				{
 					"key": "times",
-					"value": 10
+					"value": 10,
+					"valueStr": null
 				},
 				{
 					"key": "atk_scale",
-					"value": 1.45
+					"value": 1.45,
+					"valueStr": null
 				},
 				{
 					"key": "atk_scale_2",
-					"value": 2.9
+					"value": 2.9,
+					"valueStr": null
 				},
 				{
 					"key": "amiya2_s_2[kill].atk",
-					"value": 0.2
+					"value": 0.2,
+					"valueStr": null
 				},
 				{
 					"key": "amiya2_s_2[kill].magic_resistance",
-					"value": 20
+					"value": 20,
+					"valueStr": null
 				},
 				{
 					"key": "amiya2_s_2[kill].max_stack_cnt",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				},
 				{
 					"key": "talent_scale",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				}
 			]
 		},
@@ -242,10 +277,10 @@
 			"name": "影霄·绝影",
 			"rangeId": "x-2",
 			"description": "立即寻找前方生命值最低的目标，进行<@ba.vup>{times}</>次攻击力为<@ba.vup>{atk_scale:0%}</>的法术斩击（最后一击系数加倍且为<@ba.vup>真实</>伤害）；斩击期间每击败一个敌人获得攻击力<@ba.vup>+{amiya2_s_2[kill].atk:0%}</>和法术抗性<@ba.vup>+{amiya2_s_2[kill].magic_resistance}</>（最多叠加<@ba.vup>{amiya2_s_2[kill].max_stack_cnt}</>次），并且接下来的伤害类型变为<@ba.vup>真实</>；<@ba.rem>整场战斗中该技能只能释放一次</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 20,
@@ -257,31 +292,38 @@
 			"blackboard": [
 				{
 					"key": "times",
-					"value": 10
+					"value": 10,
+					"valueStr": null
 				},
 				{
 					"key": "atk_scale",
-					"value": 1.5
+					"value": 1.5,
+					"valueStr": null
 				},
 				{
 					"key": "atk_scale_2",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				},
 				{
 					"key": "amiya2_s_2[kill].atk",
-					"value": 0.2
+					"value": 0.2,
+					"valueStr": null
 				},
 				{
 					"key": "amiya2_s_2[kill].magic_resistance",
-					"value": 20
+					"value": 20,
+					"valueStr": null
 				},
 				{
 					"key": "amiya2_s_2[kill].max_stack_cnt",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				},
 				{
 					"key": "talent_scale",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				}
 			]
 		},
@@ -289,10 +331,10 @@
 			"name": "影霄·绝影",
 			"rangeId": "x-2",
 			"description": "立即寻找前方生命值最低的目标，进行<@ba.vup>{times}</>次攻击力为<@ba.vup>{atk_scale:0%}</>的法术斩击（最后一击系数加倍且为<@ba.vup>真实</>伤害）；斩击期间每击败一个敌人获得攻击力<@ba.vup>+{amiya2_s_2[kill].atk:0%}</>和法术抗性<@ba.vup>+{amiya2_s_2[kill].magic_resistance}</>（最多叠加<@ba.vup>{amiya2_s_2[kill].max_stack_cnt}</>次），并且接下来的伤害类型变为<@ba.vup>真实</>；<@ba.rem>整场战斗中该技能只能释放一次</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 20,
@@ -304,31 +346,38 @@
 			"blackboard": [
 				{
 					"key": "times",
-					"value": 10
+					"value": 10,
+					"valueStr": null
 				},
 				{
 					"key": "atk_scale",
-					"value": 1.6
+					"value": 1.6,
+					"valueStr": null
 				},
 				{
 					"key": "atk_scale_2",
-					"value": 3.2
+					"value": 3.2,
+					"valueStr": null
 				},
 				{
 					"key": "amiya2_s_2[kill].atk",
-					"value": 0.25
+					"value": 0.25,
+					"valueStr": null
 				},
 				{
 					"key": "amiya2_s_2[kill].magic_resistance",
-					"value": 20
+					"value": 20,
+					"valueStr": null
 				},
 				{
 					"key": "amiya2_s_2[kill].max_stack_cnt",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				},
 				{
 					"key": "talent_scale",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				}
 			]
 		},
@@ -336,10 +385,10 @@
 			"name": "影霄·绝影",
 			"rangeId": "x-2",
 			"description": "立即寻找前方生命值最低的目标，进行<@ba.vup>{times}</>次攻击力为<@ba.vup>{atk_scale:0%}</>的法术斩击（最后一击系数加倍且为<@ba.vup>真实</>伤害）；斩击期间每击败一个敌人获得攻击力<@ba.vup>+{amiya2_s_2[kill].atk:0%}</>和法术抗性<@ba.vup>+{amiya2_s_2[kill].magic_resistance}</>（最多叠加<@ba.vup>{amiya2_s_2[kill].max_stack_cnt}</>次），并且接下来的伤害类型变为<@ba.vup>真实</>；<@ba.rem>整场战斗中该技能只能释放一次</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 20,
@@ -351,31 +400,38 @@
 			"blackboard": [
 				{
 					"key": "times",
-					"value": 10
+					"value": 10,
+					"valueStr": null
 				},
 				{
 					"key": "atk_scale",
-					"value": 1.8
+					"value": 1.8,
+					"valueStr": null
 				},
 				{
 					"key": "atk_scale_2",
-					"value": 3.6
+					"value": 3.6,
+					"valueStr": null
 				},
 				{
 					"key": "amiya2_s_2[kill].atk",
-					"value": 0.3
+					"value": 0.3,
+					"valueStr": null
 				},
 				{
 					"key": "amiya2_s_2[kill].magic_resistance",
-					"value": 20
+					"value": 20,
+					"valueStr": null
 				},
 				{
 					"key": "amiya2_s_2[kill].max_stack_cnt",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				},
 				{
 					"key": "talent_scale",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				}
 			]
 		},
@@ -383,10 +439,10 @@
 			"name": "影霄·绝影",
 			"rangeId": "x-2",
 			"description": "立即寻找前方生命值最低的目标，进行<@ba.vup>{times}</>次攻击力为<@ba.vup>{atk_scale:0%}</>的法术斩击（最后一击系数加倍且为<@ba.vup>真实</>伤害）；斩击期间每击败一个敌人获得攻击力<@ba.vup>+{amiya2_s_2[kill].atk:0%}</>和法术抗性<@ba.vup>+{amiya2_s_2[kill].magic_resistance}</>（最多叠加<@ba.vup>{amiya2_s_2[kill].max_stack_cnt}</>次），并且接下来的伤害类型变为<@ba.vup>真实</>；<@ba.rem>整场战斗中该技能只能释放一次</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 20,
@@ -398,31 +454,38 @@
 			"blackboard": [
 				{
 					"key": "times",
-					"value": 10
+					"value": 10,
+					"valueStr": null
 				},
 				{
 					"key": "atk_scale",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				},
 				{
 					"key": "atk_scale_2",
-					"value": 4
+					"value": 4,
+					"valueStr": null
 				},
 				{
 					"key": "amiya2_s_2[kill].atk",
-					"value": 0.35
+					"value": 0.35,
+					"valueStr": null
 				},
 				{
 					"key": "amiya2_s_2[kill].magic_resistance",
-					"value": 20
+					"value": 20,
+					"valueStr": null
 				},
 				{
 					"key": "amiya2_s_2[kill].max_stack_cnt",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				},
 				{
 					"key": "talent_scale",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				}
 			]
 		},
@@ -430,10 +493,10 @@
 			"name": "影霄·绝影",
 			"rangeId": "x-2",
 			"description": "立即寻找前方生命值最低的目标，进行<@ba.vup>{times}</>次攻击力为<@ba.vup>{atk_scale:0%}</>的法术斩击（最后一击系数加倍且为<@ba.vup>真实</>伤害）；斩击期间每击败一个敌人获得攻击力<@ba.vup>+{amiya2_s_2[kill].atk:0%}</>和法术抗性<@ba.vup>+{amiya2_s_2[kill].magic_resistance}</>（最多叠加<@ba.vup>{amiya2_s_2[kill].max_stack_cnt}</>次），并且接下来的伤害类型变为<@ba.vup>真实</>；<@ba.rem>整场战斗中该技能只能释放一次</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 20,
@@ -445,31 +508,38 @@
 			"blackboard": [
 				{
 					"key": "times",
-					"value": 10
+					"value": 10,
+					"valueStr": null
 				},
 				{
 					"key": "atk_scale",
-					"value": 2.2
+					"value": 2.2,
+					"valueStr": null
 				},
 				{
 					"key": "atk_scale_2",
-					"value": 4.4
+					"value": 4.4,
+					"valueStr": null
 				},
 				{
 					"key": "amiya2_s_2[kill].atk",
-					"value": 0.4
+					"value": 0.4,
+					"valueStr": null
 				},
 				{
 					"key": "amiya2_s_2[kill].magic_resistance",
-					"value": 20
+					"value": 20,
+					"valueStr": null
 				},
 				{
 					"key": "amiya2_s_2[kill].max_stack_cnt",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				},
 				{
 					"key": "talent_scale",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				}
 			]
 		}

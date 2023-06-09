@@ -1,0 +1,156 @@
+{
+	"stageType": "MAIN",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "TOUGH",
+	"unlockCondition": [
+		{
+			"stageId": "tough_11-07",
+			"completeState": 2
+		}
+	],
+	"stageId": "tough_11-08",
+	"levelId": "Obt/Main/level_tough_11-08",
+	"zoneId": "main_11",
+	"code": "11-9",
+	"name": "목숨을 목숨으로",
+	"description": "무력함은 모든 삶의 바탕색이다.\n<@lv.item><부식된 고목></> 파괴되거나 또는 모든 적을 처치하면 나흐체러르 추종자로 변경\n<@lv.item><알레데일의 가호></> 아군을 위해 보호막 시전\n<@lv.ez>환경 조건:</>\n캐스터, 스나이퍼 오퍼레이터 배치 금지 및 추가 적군 출현",
+	"hardStagedId": null,
+	"dangerLevel": "-",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_VC_street",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 21,
+	"apFailReturn": 20,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": -1,
+	"expGain": 210,
+	"goldGain": 0,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 20,
+	"completeFavor": 21,
+	"slProgress": 0,
+	"displayMainItem": "4001",
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 0,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "GOLD",
+				"id": "4001",
+				"dropType": 2
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 0,
+				"type": "GOLD",
+				"id": "4001",
+				"dropType": 2
+			},
+			{
+				"occPercent": 4,
+				"type": "MATERIAL",
+				"id": "30021",
+				"dropType": 4
+			},
+			{
+				"occPercent": 4,
+				"type": "MATERIAL",
+				"id": "30041",
+				"dropType": 4
+			},
+			{
+				"occPercent": 4,
+				"type": "CARD_EXP",
+				"id": "2001",
+				"dropType": 4
+			},
+			{
+				"occPercent": 3,
+				"type": "MATERIAL",
+				"id": "30022",
+				"dropType": 4
+			},
+			{
+				"occPercent": 4,
+				"type": "MATERIAL",
+				"id": "30042",
+				"dropType": 4
+			},
+			{
+				"occPercent": 4,
+				"type": "CARD_EXP",
+				"id": "2002",
+				"dropType": 4
+			},
+			{
+				"occPercent": 4,
+				"type": "MATERIAL",
+				"id": "30023",
+				"dropType": 4
+			},
+			{
+				"occPercent": 4,
+				"type": "MATERIAL",
+				"id": "30043",
+				"dropType": 4
+			},
+			{
+				"occPercent": 4,
+				"type": "MATERIAL",
+				"id": "30083",
+				"dropType": 4
+			},
+			{
+				"occPercent": 4,
+				"type": "MATERIAL",
+				"id": "31023",
+				"dropType": 4
+			},
+			{
+				"occPercent": 4,
+				"type": "MATERIAL",
+				"id": "31063",
+				"dropType": 4
+			},
+			{
+				"occPercent": 4,
+				"type": "CARD_EXP",
+				"id": "2003",
+				"dropType": 4
+			},
+			{
+				"occPercent": 0,
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		]
+	},
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "tough_11-08"
+}

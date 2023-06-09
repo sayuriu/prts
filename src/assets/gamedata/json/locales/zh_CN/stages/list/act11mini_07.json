@@ -1,0 +1,166 @@
+{
+	"stageType": "ACTIVITY",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
+	"unlockCondition": [
+		{
+			"stageId": "act11mini_06",
+			"completeState": "PASS"
+		}
+	],
+	"stageId": "act11mini_07",
+	"levelId": "Activities/act11mini/level_act11mini_07",
+	"zoneId": "act11mini_zone1",
+	"code": "TC-7",
+	"name": "事到如今",
+	"description": "老熟人们也不是毫无长进，事已至此，只能努力变得更坚韧！更强壮！\\n<@lv.rem><指挥终端></>被摧毁时扣1点关卡生命值\\n<@lv.item><可移动战术机库></>根据需要可随时发射无人机支援敌方佣兵小队作战",
+	"hardStagedId": "act11mini_07#f#",
+	"dangerLevel": "精英2 LV.15",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_PL_Downtown",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 21,
+	"apFailReturn": 20,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": 0,
+	"expGain": 210,
+	"goldGain": 210,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 20,
+	"completeFavor": 21,
+	"slProgress": 0,
+	"displayMainItem": null,
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": "MAIN_NORMAL",
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act11mini_token_card",
+				"dropType": "COMPLETE"
+			},
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act11mini_token_card",
+				"dropType": "SPECIAL"
+			},
+			{
+				"type": "MATERIAL",
+				"id": "30053",
+				"dropType": "NORMAL"
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": "COMPLETE"
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": "ALWAYS",
+				"type": "ACTIVITY_ITEM",
+				"id": "act11mini_token_card",
+				"dropType": "COMPLETE"
+			},
+			{
+				"occPercent": "ALWAYS",
+				"type": "ACTIVITY_ITEM",
+				"id": "act11mini_token_card",
+				"dropType": "SPECIAL"
+			},
+			{
+				"occPercent": "USUAL",
+				"type": "MATERIAL",
+				"id": "30053",
+				"dropType": "NORMAL"
+			},
+			{
+				"occPercent": "OFTEN",
+				"type": "MATERIAL",
+				"id": "30011",
+				"dropType": "ADDITIONAL"
+			},
+			{
+				"occPercent": "SOMETIMES",
+				"type": "MATERIAL",
+				"id": "30061",
+				"dropType": "ADDITIONAL"
+			},
+			{
+				"occPercent": "OFTEN",
+				"type": "MATERIAL",
+				"id": "30012",
+				"dropType": "ADDITIONAL"
+			},
+			{
+				"occPercent": "SOMETIMES",
+				"type": "MATERIAL",
+				"id": "30062",
+				"dropType": "ADDITIONAL"
+			},
+			{
+				"occPercent": "SOMETIMES",
+				"type": "MATERIAL",
+				"id": "30013",
+				"dropType": "ADDITIONAL"
+			},
+			{
+				"occPercent": "SOMETIMES",
+				"type": "MATERIAL",
+				"id": "30063",
+				"dropType": "ADDITIONAL"
+			},
+			{
+				"occPercent": "SOMETIMES",
+				"type": "MATERIAL",
+				"id": "30073",
+				"dropType": "ADDITIONAL"
+			},
+			{
+				"occPercent": "SOMETIMES",
+				"type": "MATERIAL",
+				"id": "31013",
+				"dropType": "ADDITIONAL"
+			},
+			{
+				"occPercent": "SOMETIMES",
+				"type": "MATERIAL",
+				"id": "3003",
+				"dropType": "ADDITIONAL"
+			},
+			{
+				"occPercent": "ALWAYS",
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": "COMPLETE"
+			}
+		]
+	},
+	"canUseCharm": false,
+	"canUseTech": false,
+	"canUseTrapTool": false,
+	"canUseBattlePerformance": false,
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "act11mini_01",
+	"extraCondition": null,
+	"extraInfo": null
+}

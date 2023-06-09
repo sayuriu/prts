@@ -2,7 +2,9 @@
 	"name": "유넥티스",
 	"description": "적을 저지할 때만 SP 회복 가능",
 	"canUseGeneralPotentialItem": true,
+	"canUseActivityPotentialItem": false,
 	"potentialItemId": "p_char_416_zumama",
+	"activityPotentialItemId": null,
 	"nationId": "sargon",
 	"groupId": null,
 	"teamId": null,
@@ -53,7 +55,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -78,7 +82,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -111,7 +117,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -136,7 +144,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -185,7 +195,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -210,7 +222,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -495,7 +509,7 @@
 					"requiredPotentialRank": 0,
 					"prefabKey": "1",
 					"name": "용감무쌍",
-					"description": "HP가 절반 이상일 때 공격력 108%의 대미지를 주고, HP가 절반 이하일 때 10%의 <$ba.protect>가호</> 효과 획득",
+					"description": "HP가 50%보다 높은 경우 공격력의 108%에 해당하는 물리 대미지를 입히고, HP가 50% 이하의 경우 10%의 <$ba.protect>가호</> 효과 획득",
 					"rangeId": null,
 					"blackboard": [
 						{
@@ -520,7 +534,7 @@
 					"requiredPotentialRank": 4,
 					"prefabKey": "1",
 					"name": "용감무쌍",
-					"description": "HP가 절반 이상일 때 공격력 110%<@ba.talpu>(+2%)</>의 대미지를 주고, HP가 절반 이하일 때 12%<@ba.talpu>(+2%)</>의 <$ba.protect>가호</> 효과 획득",
+					"description": "HP가 50%보다 높은 경우 공격력의 110%<@ba.talpu>(+2%)</>에 해당하는 물리 대미지를 입히고, HP가 50% 이하의 경우 12%<@ba.talpu>(+2%)</>의 <$ba.protect>가호</> 효과 획득",
 					"rangeId": null,
 					"blackboard": [
 						{
@@ -545,7 +559,7 @@
 					"requiredPotentialRank": 0,
 					"prefabKey": "1",
 					"name": "용감무쌍",
-					"description": "HP가 절반 이상일 때 공격력 115%의 대미지를 주고, HP가 절반 이하일 때 20%의 <$ba.protect>가호</> 효과 획득",
+					"description": "HP가 50%보다 높은 경우 공격력의 115%에 해당하는 물리 대미지를 입히고, HP가 50% 이하의 경우 20%의 <$ba.protect>가호</> 효과 획득",
 					"rangeId": null,
 					"blackboard": [
 						{
@@ -570,7 +584,7 @@
 					"requiredPotentialRank": 4,
 					"prefabKey": "1",
 					"name": "용감무쌍",
-					"description": "HP가 절반 이상일 때 공격력 117%<@ba.talpu>(+2%)</>의 대미지를 주고, HP가 절반 이하일 때 22%<@ba.talpu>(+2%)</>의 <$ba.protect>가호</> 효과 획득",
+					"description": "HP가 50%보다 높은 경우 공격력의 117%<@ba.talpu>(+2%)</>에 해당하는 물리 대미지를 입히고, HP가 50% 이하의 경우 22%<@ba.talpu>(+2%)</>의 <$ba.protect>가호</> 효과 획득",
 					"rangeId": null,
 					"blackboard": [
 						{
@@ -734,7 +748,9 @@
 				"baseForceLevel": 0,
 				"stunImmune": false,
 				"silenceImmune": false,
-				"sleepImmune": false
+				"sleepImmune": false,
+				"frozenImmune": false,
+				"levitateImmune": false
 			}
 		},
 		{
@@ -759,7 +775,9 @@
 				"baseForceLevel": 0,
 				"stunImmune": false,
 				"silenceImmune": false,
-				"sleepImmune": false
+				"sleepImmune": false,
+				"frozenImmune": false,
+				"levitateImmune": false
 			}
 		}
 	],

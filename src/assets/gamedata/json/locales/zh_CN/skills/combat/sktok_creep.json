@@ -1,0 +1,109 @@
+{
+	"skillId": "sktok_creep",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "溟痕",
+			"rangeId": null,
+			"description": null,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 12,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "sktok_creep",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "damage",
+					"value": 120,
+					"valueStr": null
+				},
+				{
+					"key": "element_damage",
+					"value": 20,
+					"valueStr": null
+				},
+				{
+					"key": "ep_damage_scale",
+					"value": 2,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "溟痕",
+			"rangeId": null,
+			"description": null,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 12,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "sktok_creep",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "damage",
+					"value": 24,
+					"valueStr": null
+				},
+				{
+					"key": "element_damage",
+					"value": 0,
+					"valueStr": null
+				},
+				{
+					"key": "ep_damage_scale",
+					"value": 2,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "溟痕",
+			"rangeId": null,
+			"description": null,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 24,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "sktok_creep",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "damage",
+					"value": 120,
+					"valueStr": null
+				},
+				{
+					"key": "element_damage",
+					"value": 20,
+					"valueStr": null
+				},
+				{
+					"key": "ep_damage_scale",
+					"value": 2,
+					"valueStr": null
+				}
+			]
+		}
+	]
+}

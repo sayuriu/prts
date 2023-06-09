@@ -6,12 +6,24 @@
 	"iconId": "MTL_SL_PG1",
 	"overrideBkg": null,
 	"stackIconId": null,
-	"sortId": 100009,
+	"sortId": 100023,
 	"usage": "무기 부품을 가공하는 데 이용되는 연마석. 제조소에서 합성 재료로 쓰이며 각종 강화에 사용된다.",
 	"obtainApproach": null,
 	"classifyType": "MATERIAL",
 	"itemType": "MATERIAL",
 	"stageDropList": [
+		{
+			"stageId": "act13mini_08",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "act18side_06",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "act14side_08",
+			"occPer": "USUAL"
+		},
 		{
 			"stageId": "act17d0_08",
 			"occPer": "USUAL"
@@ -50,6 +62,14 @@
 		},
 		{
 			"stageId": "main_09-14",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_10-11",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "tough_10-11",
 			"occPer": "OFTEN"
 		}
 	],

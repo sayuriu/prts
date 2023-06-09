@@ -1,0 +1,162 @@
+{
+	"stageType": "MAIN",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "TOUGH",
+	"unlockCondition": [
+		{
+			"stageId": "tough_11-07",
+			"completeState": "PASS"
+		}
+	],
+	"stageId": "tough_11-08",
+	"levelId": "Obt/Main/level_tough_11-08",
+	"zoneId": "main_11",
+	"code": "11-9",
+	"name": "以命换命",
+	"description": "无奈是一切生活的底色。\\n<@lv.item><汲营枯枝></>被摧毁或关卡结束时产生食腐使徒\\n<@lv.item><阿勒黛的卫护></>为我方释放群体屏障\\n<@lv.fs>环境条件：</>\\n禁止部署术师、狙击干员，出现额外的敌人",
+	"hardStagedId": null,
+	"dangerLevel": "-",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_VC_street",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 21,
+	"apFailReturn": 20,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": -1,
+	"expGain": 210,
+	"goldGain": 0,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 20,
+	"completeFavor": 21,
+	"slProgress": 0,
+	"displayMainItem": "4001",
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": "MAIN_NORMAL",
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "GOLD",
+				"id": "4001",
+				"dropType": "NORMAL"
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": "COMPLETE"
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": "ALWAYS",
+				"type": "GOLD",
+				"id": "4001",
+				"dropType": "NORMAL"
+			},
+			{
+				"occPercent": "SOMETIMES",
+				"type": "MATERIAL",
+				"id": "30021",
+				"dropType": "ADDITIONAL"
+			},
+			{
+				"occPercent": "SOMETIMES",
+				"type": "MATERIAL",
+				"id": "30041",
+				"dropType": "ADDITIONAL"
+			},
+			{
+				"occPercent": "SOMETIMES",
+				"type": "CARD_EXP",
+				"id": "2001",
+				"dropType": "ADDITIONAL"
+			},
+			{
+				"occPercent": "OFTEN",
+				"type": "MATERIAL",
+				"id": "30022",
+				"dropType": "ADDITIONAL"
+			},
+			{
+				"occPercent": "SOMETIMES",
+				"type": "MATERIAL",
+				"id": "30042",
+				"dropType": "ADDITIONAL"
+			},
+			{
+				"occPercent": "SOMETIMES",
+				"type": "CARD_EXP",
+				"id": "2002",
+				"dropType": "ADDITIONAL"
+			},
+			{
+				"occPercent": "SOMETIMES",
+				"type": "MATERIAL",
+				"id": "30023",
+				"dropType": "ADDITIONAL"
+			},
+			{
+				"occPercent": "SOMETIMES",
+				"type": "MATERIAL",
+				"id": "30043",
+				"dropType": "ADDITIONAL"
+			},
+			{
+				"occPercent": "SOMETIMES",
+				"type": "MATERIAL",
+				"id": "30083",
+				"dropType": "ADDITIONAL"
+			},
+			{
+				"occPercent": "SOMETIMES",
+				"type": "MATERIAL",
+				"id": "31023",
+				"dropType": "ADDITIONAL"
+			},
+			{
+				"occPercent": "SOMETIMES",
+				"type": "MATERIAL",
+				"id": "31063",
+				"dropType": "ADDITIONAL"
+			},
+			{
+				"occPercent": "SOMETIMES",
+				"type": "CARD_EXP",
+				"id": "2003",
+				"dropType": "ADDITIONAL"
+			},
+			{
+				"occPercent": "ALWAYS",
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": "COMPLETE"
+			}
+		]
+	},
+	"canUseCharm": false,
+	"canUseTech": false,
+	"canUseTrapTool": false,
+	"canUseBattlePerformance": false,
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "tough_11-08",
+	"extraCondition": null,
+	"extraInfo": null
+}

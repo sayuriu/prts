@@ -6,11 +6,11 @@
 		{
 			"name": "除恶",
 			"rangeId": "x-6",
-			"description": "立即获得<@ba.vup>{cost}</>点部署费用；对十字范围内最多<@ba.vup>6</>名地面敌人造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害，之后消灭其中【重伤】的敌方单位。<@ba.rem>可充能{cnt}次</>",
-			"skillType": 1,
-			"durationType": 0,
+			"description": "立即获得<@ba.vup>{cost}</>点部署费用；对十字范围内最多<@ba.vup>6</>名地面敌人造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害，之后消灭其中<$ba.dying>重伤</>的敌方单位。<@ba.rem>可充能{cnt}次</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 20,
@@ -22,26 +22,29 @@
 			"blackboard": [
 				{
 					"key": "atk_scale",
-					"value": 2.5
+					"value": 2.5,
+					"valueStr": null
 				},
 				{
 					"key": "cost",
-					"value": 4
+					"value": 4,
+					"valueStr": null
 				},
 				{
 					"key": "cnt",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
 		{
 			"name": "除恶",
 			"rangeId": "x-6",
-			"description": "立即获得<@ba.vup>{cost}</>点部署费用；对十字范围内最多<@ba.vup>6</>名地面敌人造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害，之后消灭其中【重伤】的敌方单位。<@ba.rem>可充能{cnt}次</>",
-			"skillType": 1,
-			"durationType": 0,
+			"description": "立即获得<@ba.vup>{cost}</>点部署费用；对十字范围内最多<@ba.vup>6</>名地面敌人造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害，之后消灭其中<$ba.dying>重伤</>的敌方单位。<@ba.rem>可充能{cnt}次</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 20,
@@ -53,26 +56,29 @@
 			"blackboard": [
 				{
 					"key": "atk_scale",
-					"value": 2.6
+					"value": 2.6,
+					"valueStr": null
 				},
 				{
 					"key": "cost",
-					"value": 4
+					"value": 4,
+					"valueStr": null
 				},
 				{
 					"key": "cnt",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
 		{
 			"name": "除恶",
 			"rangeId": "x-6",
-			"description": "立即获得<@ba.vup>{cost}</>点部署费用；对十字范围内最多<@ba.vup>6</>名地面敌人造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害，之后消灭其中【重伤】的敌方单位。<@ba.rem>可充能{cnt}次</>",
-			"skillType": 1,
-			"durationType": 0,
+			"description": "立即获得<@ba.vup>{cost}</>点部署费用；对十字范围内最多<@ba.vup>6</>名地面敌人造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害，之后消灭其中<$ba.dying>重伤</>的敌方单位。<@ba.rem>可充能{cnt}次</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 20,
@@ -84,26 +90,29 @@
 			"blackboard": [
 				{
 					"key": "atk_scale",
-					"value": 2.7
+					"value": 2.7,
+					"valueStr": null
 				},
 				{
 					"key": "cost",
-					"value": 4
+					"value": 4,
+					"valueStr": null
 				},
 				{
 					"key": "cnt",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
 		{
 			"name": "除恶",
 			"rangeId": "x-6",
-			"description": "立即获得<@ba.vup>{cost}</>点部署费用；对十字范围内最多<@ba.vup>6</>名地面敌人造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害，之后消灭其中【重伤】的敌方单位。<@ba.rem>可充能{cnt}次</>",
-			"skillType": 1,
-			"durationType": 0,
+			"description": "立即获得<@ba.vup>{cost}</>点部署费用；对十字范围内最多<@ba.vup>6</>名地面敌人造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害，之后消灭其中<$ba.dying>重伤</>的敌方单位。<@ba.rem>可充能{cnt}次</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 2,
 				"spCost": 18,
@@ -115,26 +124,29 @@
 			"blackboard": [
 				{
 					"key": "atk_scale",
-					"value": 2.8
+					"value": 2.8,
+					"valueStr": null
 				},
 				{
 					"key": "cost",
-					"value": 4
+					"value": 4,
+					"valueStr": null
 				},
 				{
 					"key": "cnt",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				}
 			]
 		},
 		{
 			"name": "除恶",
 			"rangeId": "x-6",
-			"description": "立即获得<@ba.vup>{cost}</>点部署费用；对十字范围内最多<@ba.vup>6</>名地面敌人造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害，之后消灭其中【重伤】的敌方单位。<@ba.rem>可充能{cnt}次</>",
-			"skillType": 1,
-			"durationType": 0,
+			"description": "立即获得<@ba.vup>{cost}</>点部署费用；对十字范围内最多<@ba.vup>6</>名地面敌人造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害，之后消灭其中<$ba.dying>重伤</>的敌方单位。<@ba.rem>可充能{cnt}次</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 2,
 				"spCost": 18,
@@ -146,26 +158,29 @@
 			"blackboard": [
 				{
 					"key": "atk_scale",
-					"value": 2.9
+					"value": 2.9,
+					"valueStr": null
 				},
 				{
 					"key": "cost",
-					"value": 4
+					"value": 4,
+					"valueStr": null
 				},
 				{
 					"key": "cnt",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				}
 			]
 		},
 		{
 			"name": "除恶",
 			"rangeId": "x-6",
-			"description": "立即获得<@ba.vup>{cost}</>点部署费用；对十字范围内最多<@ba.vup>6</>名地面敌人造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害，之后消灭其中【重伤】的敌方单位。<@ba.rem>可充能{cnt}次</>",
-			"skillType": 1,
-			"durationType": 0,
+			"description": "立即获得<@ba.vup>{cost}</>点部署费用；对十字范围内最多<@ba.vup>6</>名地面敌人造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害，之后消灭其中<$ba.dying>重伤</>的敌方单位。<@ba.rem>可充能{cnt}次</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 2,
 				"spCost": 18,
@@ -177,26 +192,29 @@
 			"blackboard": [
 				{
 					"key": "atk_scale",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				},
 				{
 					"key": "cost",
-					"value": 4
+					"value": 4,
+					"valueStr": null
 				},
 				{
 					"key": "cnt",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				}
 			]
 		},
 		{
 			"name": "除恶",
 			"rangeId": "x-6",
-			"description": "立即获得<@ba.vup>{cost}</>点部署费用；对十字范围内最多<@ba.vup>6</>名地面敌人造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害，之后消灭其中【重伤】的敌方单位。<@ba.rem>可充能{cnt}次</>",
-			"skillType": 1,
-			"durationType": 0,
+			"description": "立即获得<@ba.vup>{cost}</>点部署费用；对十字范围内最多<@ba.vup>6</>名地面敌人造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害，之后消灭其中<$ba.dying>重伤</>的敌方单位。<@ba.rem>可充能{cnt}次</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 2,
 				"spCost": 16,
@@ -208,26 +226,29 @@
 			"blackboard": [
 				{
 					"key": "atk_scale",
-					"value": 3.2
+					"value": 3.2,
+					"valueStr": null
 				},
 				{
 					"key": "cost",
-					"value": 4
+					"value": 4,
+					"valueStr": null
 				},
 				{
 					"key": "cnt",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				}
 			]
 		},
 		{
 			"name": "除恶",
 			"rangeId": "x-6",
-			"description": "立即获得<@ba.vup>{cost}</>点部署费用；对十字范围内最多<@ba.vup>6</>名地面敌人造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害，之后消灭其中【重伤】的敌方单位。<@ba.rem>可充能{cnt}次</>",
-			"skillType": 1,
-			"durationType": 0,
+			"description": "立即获得<@ba.vup>{cost}</>点部署费用；对十字范围内最多<@ba.vup>6</>名地面敌人造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害，之后消灭其中<$ba.dying>重伤</>的敌方单位。<@ba.rem>可充能{cnt}次</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 3,
 				"spCost": 15,
@@ -239,26 +260,29 @@
 			"blackboard": [
 				{
 					"key": "atk_scale",
-					"value": 3.4
+					"value": 3.4,
+					"valueStr": null
 				},
 				{
 					"key": "cost",
-					"value": 4
+					"value": 4,
+					"valueStr": null
 				},
 				{
 					"key": "cnt",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				}
 			]
 		},
 		{
 			"name": "除恶",
 			"rangeId": "x-6",
-			"description": "立即获得<@ba.vup>{cost}</>点部署费用；对十字范围内最多<@ba.vup>6</>名地面敌人造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害，之后消灭其中【重伤】的敌方单位。<@ba.rem>可充能{cnt}次</>",
-			"skillType": 1,
-			"durationType": 0,
+			"description": "立即获得<@ba.vup>{cost}</>点部署费用；对十字范围内最多<@ba.vup>6</>名地面敌人造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害，之后消灭其中<$ba.dying>重伤</>的敌方单位。<@ba.rem>可充能{cnt}次</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 3,
 				"spCost": 14,
@@ -270,26 +294,29 @@
 			"blackboard": [
 				{
 					"key": "atk_scale",
-					"value": 3.7
+					"value": 3.7,
+					"valueStr": null
 				},
 				{
 					"key": "cost",
-					"value": 4
+					"value": 4,
+					"valueStr": null
 				},
 				{
 					"key": "cnt",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				}
 			]
 		},
 		{
 			"name": "除恶",
 			"rangeId": "x-6",
-			"description": "立即获得<@ba.vup>{cost}</>点部署费用；对十字范围内最多<@ba.vup>6</>名地面敌人造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害，之后消灭其中【重伤】的敌方单位。<@ba.rem>可充能{cnt}次</>",
-			"skillType": 1,
-			"durationType": 0,
+			"description": "立即获得<@ba.vup>{cost}</>点部署费用；对十字范围内最多<@ba.vup>6</>名地面敌人造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害，之后消灭其中<$ba.dying>重伤</>的敌方单位。<@ba.rem>可充能{cnt}次</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 3,
 				"spCost": 13,
@@ -301,15 +328,18 @@
 			"blackboard": [
 				{
 					"key": "atk_scale",
-					"value": 4
+					"value": 4,
+					"valueStr": null
 				},
 				{
 					"key": "cost",
-					"value": 4
+					"value": 4,
+					"valueStr": null
 				},
 				{
 					"key": "cnt",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				}
 			]
 		}

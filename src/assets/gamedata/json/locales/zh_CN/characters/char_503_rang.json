@@ -2,7 +2,10 @@
 	"name": "巡林者",
 	"description": "优先攻击空中单位",
 	"canUseGeneralPotentialItem": true,
+	"canUseActivityPotentialItem": false,
 	"potentialItemId": "p_char_503_rang",
+	"activityPotentialItemId": null,
+	"classicPotentialItemId": null,
 	"nationId": "rhodes",
 	"groupId": null,
 	"teamId": "action4",
@@ -19,7 +22,7 @@
 	"isNotObtainable": false,
 	"isSpChar": false,
 	"maxPotentialLevel": 5,
-	"rarity": 1,
+	"rarity": "TIER_2",
 	"profession": "SNIPER",
 	"subProfessionId": "fastshot",
 	"trait": null,
@@ -52,7 +55,8 @@
 						"stunImmune": false,
 						"silenceImmune": false,
 						"sleepImmune": false,
-						"frozenImmune": false
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -78,7 +82,8 @@
 						"stunImmune": false,
 						"silenceImmune": false,
 						"sleepImmune": false,
-						"frozenImmune": false
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -91,7 +96,7 @@
 			"candidates": [
 				{
 					"unlockCondition": {
-						"phase": 0,
+						"phase": "PHASE_0",
 						"level": 30
 					},
 					"requiredPotentialRank": 0,
@@ -102,7 +107,8 @@
 					"blackboard": [
 						{
 							"key": "atk_scale",
-							"value": 1.5
+							"value": 1.5,
+							"valueStr": null
 						}
 					]
 				}
@@ -111,7 +117,7 @@
 	],
 	"potentialRanks": [
 		{
-			"type": 0,
+			"type": "BUFF",
 			"description": "部署费用-1",
 			"buff": {
 				"attributes": {
@@ -122,8 +128,8 @@
 					"abnormalComboImmunes": null,
 					"attributeModifiers": [
 						{
-							"attributeType": 4,
-							"formulaItem": 0,
+							"attributeType": "COST",
+							"formulaItem": "ADDITION",
 							"value": -1,
 							"loadFromBlackboard": false,
 							"fetchBaseValueFromSourceEntity": false
@@ -134,7 +140,7 @@
 			"equivalentCost": null
 		},
 		{
-			"type": 0,
+			"type": "BUFF",
 			"description": "攻击速度+6",
 			"buff": {
 				"attributes": {
@@ -145,8 +151,8 @@
 					"abnormalComboImmunes": null,
 					"attributeModifiers": [
 						{
-							"attributeType": 7,
-							"formulaItem": 0,
+							"attributeType": "ATTACK_SPEED",
+							"formulaItem": "ADDITION",
 							"value": 6,
 							"loadFromBlackboard": false,
 							"fetchBaseValueFromSourceEntity": false
@@ -157,7 +163,7 @@
 			"equivalentCost": null
 		},
 		{
-			"type": 0,
+			"type": "BUFF",
 			"description": "攻击速度+6",
 			"buff": {
 				"attributes": {
@@ -168,8 +174,8 @@
 					"abnormalComboImmunes": null,
 					"attributeModifiers": [
 						{
-							"attributeType": 7,
-							"formulaItem": 0,
+							"attributeType": "ATTACK_SPEED",
+							"formulaItem": "ADDITION",
 							"value": 6,
 							"loadFromBlackboard": false,
 							"fetchBaseValueFromSourceEntity": false
@@ -180,7 +186,7 @@
 			"equivalentCost": null
 		},
 		{
-			"type": 0,
+			"type": "BUFF",
 			"description": "再部署时间-5秒",
 			"buff": {
 				"attributes": {
@@ -191,8 +197,8 @@
 					"abnormalComboImmunes": null,
 					"attributeModifiers": [
 						{
-							"attributeType": 21,
-							"formulaItem": 0,
+							"attributeType": "RESPAWN_TIME",
+							"formulaItem": "ADDITION",
 							"value": -5,
 							"loadFromBlackboard": false,
 							"fetchBaseValueFromSourceEntity": false
@@ -203,7 +209,7 @@
 			"equivalentCost": null
 		},
 		{
-			"type": 0,
+			"type": "BUFF",
 			"description": "部署费用-1",
 			"buff": {
 				"attributes": {
@@ -214,8 +220,8 @@
 					"abnormalComboImmunes": null,
 					"attributeModifiers": [
 						{
-							"attributeType": 4,
-							"formulaItem": 0,
+							"attributeType": "COST",
+							"formulaItem": "ADDITION",
 							"value": -1,
 							"loadFromBlackboard": false,
 							"fetchBaseValueFromSourceEntity": false
@@ -250,7 +256,8 @@
 				"stunImmune": false,
 				"silenceImmune": false,
 				"sleepImmune": false,
-				"frozenImmune": false
+				"frozenImmune": false,
+				"levitateImmune": false
 			}
 		},
 		{
@@ -276,7 +283,8 @@
 				"stunImmune": false,
 				"silenceImmune": false,
 				"sleepImmune": false,
-				"frozenImmune": false
+				"frozenImmune": false,
+				"levitateImmune": false
 			}
 		}
 	],

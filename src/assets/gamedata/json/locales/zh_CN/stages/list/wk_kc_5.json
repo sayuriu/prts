@@ -2,10 +2,11 @@
 	"stageType": "DAILY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "wk_kc_4",
-			"completeState": 2
+			"completeState": "PASS"
 		}
 	],
 	"stageId": "wk_kc_5",
@@ -44,7 +45,7 @@
 	"isHardPredefined": false,
 	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
-	"appearanceStyle": 0,
+	"appearanceStyle": "MAIN_NORMAL",
 	"stageDropInfo": {
 		"firstPassRewards": null,
 		"firstCompleteRewards": null,
@@ -54,52 +55,58 @@
 			{
 				"type": "CARD_EXP",
 				"id": "2004",
-				"dropType": 2
+				"dropType": "NORMAL"
 			},
 			{
 				"type": "CARD_EXP",
 				"id": "2003",
-				"dropType": 2
+				"dropType": "NORMAL"
 			},
 			{
 				"type": "CARD_EXP",
 				"id": "2002",
-				"dropType": 2
+				"dropType": "NORMAL"
 			},
 			{
 				"type": "DIAMOND",
 				"id": "4002",
-				"dropType": 8
+				"dropType": "COMPLETE"
 			}
 		],
 		"displayDetailRewards": [
 			{
-				"occPercent": 0,
+				"occPercent": "ALWAYS",
 				"type": "CARD_EXP",
 				"id": "2004",
-				"dropType": 2
+				"dropType": "NORMAL"
 			},
 			{
-				"occPercent": 0,
+				"occPercent": "ALWAYS",
 				"type": "CARD_EXP",
 				"id": "2003",
-				"dropType": 2
+				"dropType": "NORMAL"
 			},
 			{
-				"occPercent": 0,
+				"occPercent": "ALWAYS",
 				"type": "CARD_EXP",
 				"id": "2002",
-				"dropType": 2
+				"dropType": "NORMAL"
 			},
 			{
-				"occPercent": 0,
+				"occPercent": "ALWAYS",
 				"type": "DIAMOND",
 				"id": "4002",
-				"dropType": 8
+				"dropType": "COMPLETE"
 			}
 		]
 	},
+	"canUseCharm": false,
+	"canUseTech": false,
+	"canUseTrapTool": false,
+	"canUseBattlePerformance": false,
 	"startButtonOverrideId": null,
 	"isStagePatch": false,
-	"mainStageId": null
+	"mainStageId": null,
+	"extraCondition": null,
+	"extraInfo": null
 }

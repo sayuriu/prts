@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act15d0_05",
@@ -10,10 +11,10 @@
 	],
 	"stageId": "act15d0_06",
 	"levelId": "Activities/ACT15D0/level_act15d0_06",
-	"zoneId": "act15d0_zone1",
+	"zoneId": "act8sre_zone1",
 	"code": "MB-6",
 	"name": "Making Plans",
-	"description": "A good plan should account for 90% of the risks and prepare for the unaccounted 10%. \n<@lv.item><Imprisonment Device></>Imprisons freed enemies within its effect area.",
+	"description": "A good plan should account for 90% of the risks and prepare for the unaccounted 10%. \n<@lv.item><Imprisonment Device></> Imprisons freed enemies within its effect area",
 	"hardStagedId": null,
 	"dangerLevel": "Elite 1 Lv. 50",
 	"dangerPoint": -1,
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {
@@ -52,12 +54,12 @@
 		"displayRewards": [
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act15d0_token_ironSheet",
+				"id": "act15d0_token_ironSheet_rep_1",
 				"dropType": 8
 			},
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act15d0_token_ironSheet",
+				"id": "act15d0_token_ironSheet_rep_1",
 				"dropType": 2
 			},
 			{
@@ -75,13 +77,13 @@
 			{
 				"occPercent": 0,
 				"type": "ACTIVITY_ITEM",
-				"id": "act15d0_token_ironSheet",
+				"id": "act15d0_token_ironSheet_rep_1",
 				"dropType": 8
 			},
 			{
 				"occPercent": 0,
 				"type": "ACTIVITY_ITEM",
-				"id": "act15d0_token_ironSheet",
+				"id": "act15d0_token_ironSheet_rep_1",
 				"dropType": 2
 			},
 			{

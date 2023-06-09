@@ -1,0 +1,279 @@
+{
+	"skillId": "sktok_stdurk_1",
+	"iconId": "sktok_stdurk",
+	"hidden": false,
+	"levels": [
+		{
+			"name": "“咔嚓！”",
+			"rangeId": "3-6",
+			"description": "尝试录制有趣的片段，存储于素材库中。但是有<@ba.vdown>{prob:0%}</>的概率会拍摄失败，<$ba.stun>晕眩</>并无法撤退<@ba.vdown>{stun_duration}</>秒。",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 8,
+				"initSp": 2,
+				"increment": 1
+			},
+			"prefabId": "sktok_stdurk_1",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "prob",
+					"value": 0.3,
+					"valueStr": null
+				},
+				{
+					"key": "stun_duration",
+					"value": 3.5,
+					"valueStr": null
+				},
+				{
+					"key": "talent@respawn_time",
+					"value": 0,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "“咔嚓！”",
+			"rangeId": "3-6",
+			"description": "尝试录制有趣的片段，存储于素材库中。但是有<@ba.vdown>{prob:0%}</>的概率会拍摄失败，<$ba.stun>晕眩</>并无法撤退<@ba.vdown>{stun_duration}</>秒。",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 8,
+				"initSp": 2,
+				"increment": 1
+			},
+			"prefabId": "sktok_stdurk_1",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "prob",
+					"value": 0.3,
+					"valueStr": null
+				},
+				{
+					"key": "stun_duration",
+					"value": 3.5,
+					"valueStr": null
+				},
+				{
+					"key": "talent@respawn_time",
+					"value": -5,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "“咔嚓！”",
+			"rangeId": "3-6",
+			"description": "尝试录制有趣的片段，存储于素材库中。但是有<@ba.vdown>{prob:0%}</>的概率会拍摄失败，<$ba.stun>晕眩</>并无法撤退<@ba.vdown>{stun_duration}</>秒。",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 8,
+				"initSp": 2,
+				"increment": 1
+			},
+			"prefabId": "sktok_stdurk_1",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "prob",
+					"value": 0.15,
+					"valueStr": null
+				},
+				{
+					"key": "stun_duration",
+					"value": 3.5,
+					"valueStr": null
+				},
+				{
+					"key": "talent@respawn_time",
+					"value": -5,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "“咔嚓！”",
+			"rangeId": "3-6",
+			"description": "尝试录制有趣的片段，存储于素材库中。但是有<@ba.vdown>{prob:0%}</>的概率会拍摄失败，<$ba.stun>晕眩</>并无法撤退<@ba.vdown>{stun_duration}</>秒。",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 5,
+				"initSp": 2,
+				"increment": 1
+			},
+			"prefabId": "sktok_stdurk_1",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "prob",
+					"value": 0.15,
+					"valueStr": null
+				},
+				{
+					"key": "stun_duration",
+					"value": 3.5,
+					"valueStr": null
+				},
+				{
+					"key": "talent@respawn_time",
+					"value": -5,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "“咔嚓！”",
+			"rangeId": "3-6",
+			"description": "尝试录制有趣的片段，存储于素材库中。",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 5,
+				"initSp": 2,
+				"increment": 1
+			},
+			"prefabId": "sktok_stdurk_1",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "prob",
+					"value": 0,
+					"valueStr": null
+				},
+				{
+					"key": "stun_duration",
+					"value": 3.5,
+					"valueStr": null
+				},
+				{
+					"key": "talent@respawn_time",
+					"value": -5,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "“咔嚓！”",
+			"rangeId": "3-6",
+			"description": "尝试录制有趣的片段，存储于素材库中。",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 5,
+				"initSp": 2,
+				"increment": 1
+			},
+			"prefabId": "sktok_stdurk_1",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "prob",
+					"value": 0,
+					"valueStr": null
+				},
+				{
+					"key": "stun_duration",
+					"value": 3.5,
+					"valueStr": null
+				},
+				{
+					"key": "talent@respawn_time",
+					"value": -7,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "“咔嚓！”",
+			"rangeId": "3-6",
+			"description": "尝试录制有趣的片段，存储于素材库中。",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 5,
+				"initSp": 5,
+				"increment": 1
+			},
+			"prefabId": "sktok_stdurk_1",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "prob",
+					"value": 0,
+					"valueStr": null
+				},
+				{
+					"key": "stun_duration",
+					"value": 3.5,
+					"valueStr": null
+				},
+				{
+					"key": "talent@respawn_time",
+					"value": -7,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "“咔嚓！”",
+			"rangeId": "3-6",
+			"description": "尝试录制有趣的片段，存储于素材库中。",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 5,
+				"initSp": 2,
+				"increment": 1
+			},
+			"prefabId": "sktok_stdurk_1",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "prob",
+					"value": 0,
+					"valueStr": null
+				},
+				{
+					"key": "stun_duration",
+					"value": 3.5,
+					"valueStr": null
+				},
+				{
+					"key": "talent@respawn_time",
+					"value": 0,
+					"valueStr": null
+				}
+			]
+		}
+	]
+}

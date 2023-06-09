@@ -2,6 +2,7 @@
 	"stageType": "CAMPAIGN",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "main_02-08",
@@ -13,7 +14,7 @@
 	"zoneId": "camp_zone_5",
 	"code": "시에스타",
 	"name": "파도치는 해변",
-	"description": "시에스타 해변의 볼품 없는 작은 백사장. 지금은 시실리안과 폭도들에게 점령되어 있다. 시에스타에서 제공하는 지휘 단말기를 활용해 최대한 빨리 놈들을 몰아내라.\n<@lv.rem><특수 조건></> 배치 코스트가 자동으로 회복되지 않음",
+	"description": "시에스타 해변의 볼품 없는 작은 백사장. 지금은 시칠리안과 폭도들에게 점령되어 있다. 시에스타에서 제공하는 지휘 단말기를 활용해 최대한 빨리 놈들을 몰아내라.\n<@lv.rem><특수 조건></> 배치 코스트가 자동으로 회복되지 않음",
 	"hardStagedId": null,
 	"dangerLevel": "-",
 	"dangerPoint": -1,
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {

@@ -1,0 +1,25 @@
+{
+	"skillId": "sktok_xbmrcl",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "演算",
+			"rangeId": null,
+			"description": "放置后每局结算时会额外获得建设点数（同类建筑最多放置4个）",
+			"skillType": "PASSIVE",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 0,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": "sktok_empty",
+			"duration": -1,
+			"blackboard": []
+		}
+	]
+}

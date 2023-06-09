@@ -7,10 +7,10 @@
 			"name": "救援绳索",
 			"rangeId": null,
 			"description": "立即撤退干员，并减少<@ba.vup>80%</>再部署时间",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 0,
@@ -22,7 +22,8 @@
 			"blackboard": [
 				{
 					"key": "respawn_time",
-					"value": 0.2
+					"value": 0.2,
+					"valueStr": null
 				}
 			]
 		}

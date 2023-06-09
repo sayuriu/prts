@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act12side_09",
@@ -10,7 +11,7 @@
 	],
 	"stageId": "act12side_ex01",
 	"levelId": "Activities/ACT12SIDE/level_act12side_ex01",
-	"zoneId": "act12side_zone2",
+	"zoneId": "act12sre_zone2",
 	"code": "DH-EX-1",
 	"name": "8号商店街",
 	"description": "パンチョの作戦は失敗したが、この都市にはまだ多くの悪が潜んでいる。大会が終わった後、チェンは残りの滞在時間をパトロールにも割いた。",
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {

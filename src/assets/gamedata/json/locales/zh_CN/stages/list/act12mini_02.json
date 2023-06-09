@@ -1,0 +1,167 @@
+{
+	"stageType": "ACTIVITY",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
+	"unlockCondition": [
+		{
+			"stageId": "act12mini_01",
+			"completeState": "PASS"
+		}
+	],
+	"stageId": "act12mini_02",
+	"levelId": "Activities/act12mini/level_act12mini_02",
+	"zoneId": "act12mini_zone1",
+	"code": "AW-2",
+	"name": "圆心徘徊",
+	"description": "石像不会思考。它们以为脚下的是路，其实只是无尽的徘徊。\\n<@lv.item><\"留声机\"></>我方与敌方可夺取控制权，激活后对敌方造成法术伤害，并可治疗友方单位",
+	"hardStagedId": "act12mini_02#f#",
+	"dangerLevel": "精英1 LV.1",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_Wolumonde",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 9,
+	"apFailReturn": 8,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": 0,
+	"expGain": 90,
+	"goldGain": 90,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 8,
+	"completeFavor": 9,
+	"slProgress": 0,
+	"displayMainItem": null,
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": "MAIN_NORMAL",
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act12mini_token_component",
+				"dropType": "COMPLETE"
+			},
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act12mini_token_component",
+				"dropType": "SPECIAL"
+			},
+			{
+				"type": "MATERIAL",
+				"id": "30031",
+				"dropType": "NORMAL"
+			},
+			{
+				"type": "MATERIAL",
+				"id": "30061",
+				"dropType": "NORMAL"
+			},
+			{
+				"type": "MATERIAL",
+				"id": "30041",
+				"dropType": "NORMAL"
+			},
+			{
+				"type": "MATERIAL",
+				"id": "30051",
+				"dropType": "NORMAL"
+			},
+			{
+				"type": "MATERIAL",
+				"id": "30021",
+				"dropType": "NORMAL"
+			},
+			{
+				"type": "MATERIAL",
+				"id": "30011",
+				"dropType": "NORMAL"
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": "COMPLETE"
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": "ALWAYS",
+				"type": "ACTIVITY_ITEM",
+				"id": "act12mini_token_component",
+				"dropType": "COMPLETE"
+			},
+			{
+				"occPercent": "ALWAYS",
+				"type": "ACTIVITY_ITEM",
+				"id": "act12mini_token_component",
+				"dropType": "SPECIAL"
+			},
+			{
+				"occPercent": "OFTEN",
+				"type": "MATERIAL",
+				"id": "30031",
+				"dropType": "NORMAL"
+			},
+			{
+				"occPercent": "OFTEN",
+				"type": "MATERIAL",
+				"id": "30061",
+				"dropType": "NORMAL"
+			},
+			{
+				"occPercent": "OFTEN",
+				"type": "MATERIAL",
+				"id": "30041",
+				"dropType": "NORMAL"
+			},
+			{
+				"occPercent": "OFTEN",
+				"type": "MATERIAL",
+				"id": "30051",
+				"dropType": "NORMAL"
+			},
+			{
+				"occPercent": "OFTEN",
+				"type": "MATERIAL",
+				"id": "30021",
+				"dropType": "NORMAL"
+			},
+			{
+				"occPercent": "USUAL",
+				"type": "MATERIAL",
+				"id": "30011",
+				"dropType": "NORMAL"
+			},
+			{
+				"occPercent": "ALWAYS",
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": "COMPLETE"
+			}
+		]
+	},
+	"canUseCharm": false,
+	"canUseTech": false,
+	"canUseTrapTool": false,
+	"canUseBattlePerformance": false,
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "act12mini_01",
+	"extraCondition": null,
+	"extraInfo": null
+}

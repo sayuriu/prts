@@ -6,7 +6,7 @@
 	"iconId": "MTL_SL_STRG4",
 	"overrideBkg": null,
 	"stackIconId": null,
-	"sortId": 100024,
+	"sortId": 100038,
 	"usage": "공장에서 생산된 대량의 포도당. 제조소에서 합성 재료로 쓰이며 각종 강화에 사용된다.",
 	"obtainApproach": null,
 	"classifyType": "MATERIAL",
@@ -22,6 +22,14 @@
 		},
 		{
 			"stageId": "main_09-04",
+			"occPer": "SOMETIMES"
+		},
+		{
+			"stageId": "main_10-09",
+			"occPer": "SOMETIMES"
+		},
+		{
+			"stageId": "tough_10-09",
 			"occPer": "SOMETIMES"
 		}
 	],

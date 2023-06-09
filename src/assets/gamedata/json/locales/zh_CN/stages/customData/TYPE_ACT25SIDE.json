@@ -1,0 +1,422 @@
+{
+	"permanent_sub_5_Lone_Trail": {
+		"battlePerformanceData": {
+			"act25side_tech1_1": {
+				"itemId": "act25side_tech1_1",
+				"sortId": 1,
+				"itemName": "超重·α",
+				"itemIcon": "act25side_tech1_1",
+				"itemDesc": "“行星碎屑”对敌人伤害增加，附带眩晕",
+				"itemTechType": "TECH_1",
+				"runeData": {
+					"id": "act25side_tech1_1",
+					"points": 0,
+					"mutexGroupKey": null,
+					"description": "行星碎屑对敌人伤害增加，附带晕眩",
+					"runes": [
+						{
+							"key": "enemy_talent_blackb_add",
+							"selector": {
+								"professionMask": 0,
+								"buildableMask": 0,
+								"charIdFilter": null,
+								"enemyIdFilter": null,
+								"enemyIdExcludeFilter": null,
+								"skillIdFilter": null,
+								"tileKeyFilter": null,
+								"groupTagFilter": null,
+								"filterTagFilter": null
+							},
+							"blackboard": [
+								{
+									"key": "HitEnemy.damage_scale",
+									"value": 0.9
+								}
+							]
+						},
+						{
+							"key": "enemy_talent_blackb_add",
+							"selector": {
+								"professionMask": 0,
+								"buildableMask": 0,
+								"charIdFilter": null,
+								"enemyIdFilter": null,
+								"enemyIdExcludeFilter": null,
+								"skillIdFilter": null,
+								"tileKeyFilter": null,
+								"groupTagFilter": null,
+								"filterTagFilter": null
+							},
+							"blackboard": [
+								{
+									"key": "HitEnemy.stun",
+									"value": 1.5
+								}
+							]
+						}
+					]
+				}
+			},
+			"act25side_tech1_2": {
+				"itemId": "act25side_tech1_2",
+				"sortId": 2,
+				"itemName": "超重·β",
+				"itemIcon": "act25side_tech1_2",
+				"itemDesc": "“行星碎屑”对敌人伤害进一步增加，附带眩晕加长",
+				"itemTechType": "TECH_1",
+				"runeData": {
+					"id": "act25side_tech1_2",
+					"points": 0,
+					"mutexGroupKey": null,
+					"description": "行星碎屑对敌人伤害增加，附带晕眩",
+					"runes": [
+						{
+							"key": "enemy_talent_blackb_add",
+							"selector": {
+								"professionMask": 0,
+								"buildableMask": 0,
+								"charIdFilter": null,
+								"enemyIdFilter": null,
+								"enemyIdExcludeFilter": null,
+								"skillIdFilter": null,
+								"tileKeyFilter": null,
+								"groupTagFilter": null,
+								"filterTagFilter": null
+							},
+							"blackboard": [
+								{
+									"key": "HitEnemy.damage_scale",
+									"value": 0.5
+								}
+							]
+						},
+						{
+							"key": "enemy_talent_blackb_add",
+							"selector": {
+								"professionMask": 0,
+								"buildableMask": 0,
+								"charIdFilter": null,
+								"enemyIdFilter": null,
+								"enemyIdExcludeFilter": null,
+								"skillIdFilter": null,
+								"tileKeyFilter": null,
+								"groupTagFilter": null,
+								"filterTagFilter": null
+							},
+							"blackboard": [
+								{
+									"key": "HitEnemy.stun",
+									"value": 1.5
+								}
+							]
+						}
+					]
+				}
+			},
+			"act25side_tech2_1": {
+				"itemId": "act25side_tech2_1",
+				"sortId": 1,
+				"itemName": "重力认知·α",
+				"itemIcon": "act25side_tech2_1",
+				"itemDesc": "“行星碎屑”对敌人推力增加，对我方伤害降低",
+				"itemTechType": "TECH_2",
+				"runeData": {
+					"id": "act25side_tech2_1",
+					"points": 0,
+					"mutexGroupKey": null,
+					"description": "行星碎屑对敌人推力增加，对我方伤害降低",
+					"runes": [
+						{
+							"key": "enemy_talent_blackb_add",
+							"selector": {
+								"professionMask": 0,
+								"buildableMask": 0,
+								"charIdFilter": null,
+								"enemyIdFilter": null,
+								"enemyIdExcludeFilter": null,
+								"skillIdFilter": null,
+								"tileKeyFilter": null,
+								"groupTagFilter": null,
+								"filterTagFilter": null
+							},
+							"blackboard": [
+								{
+									"key": "HitAlly.damage_scale",
+									"value": -0.3
+								}
+							]
+						},
+						{
+							"key": "enemy_talent_blackb_add",
+							"selector": {
+								"professionMask": 0,
+								"buildableMask": 0,
+								"charIdFilter": null,
+								"enemyIdFilter": null,
+								"enemyIdExcludeFilter": null,
+								"skillIdFilter": null,
+								"tileKeyFilter": null,
+								"groupTagFilter": null,
+								"filterTagFilter": null
+							},
+							"blackboard": [
+								{
+									"key": "HitEnemy.force",
+									"value": 1
+								}
+							]
+						}
+					]
+				}
+			},
+			"act25side_tech2_2": {
+				"itemId": "act25side_tech2_2",
+				"sortId": 2,
+				"itemName": "重力认知·β",
+				"itemIcon": "act25side_tech2_2",
+				"itemDesc": "“行星碎屑”对敌人推力进一步增加，对我方伤害进一步降低",
+				"itemTechType": "TECH_2",
+				"runeData": {
+					"id": "act25side_tech2_2",
+					"points": 0,
+					"mutexGroupKey": null,
+					"description": "行星碎屑对敌人推力增加，对我方伤害降低",
+					"runes": [
+						{
+							"key": "enemy_talent_blackb_add",
+							"selector": {
+								"professionMask": 0,
+								"buildableMask": 0,
+								"charIdFilter": null,
+								"enemyIdFilter": null,
+								"enemyIdExcludeFilter": null,
+								"skillIdFilter": null,
+								"tileKeyFilter": null,
+								"groupTagFilter": null,
+								"filterTagFilter": null
+							},
+							"blackboard": [
+								{
+									"key": "HitAlly.damage_scale",
+									"value": -0.3
+								}
+							]
+						},
+						{
+							"key": "enemy_talent_blackb_add",
+							"selector": {
+								"professionMask": 0,
+								"buildableMask": 0,
+								"charIdFilter": null,
+								"enemyIdFilter": null,
+								"enemyIdExcludeFilter": null,
+								"skillIdFilter": null,
+								"tileKeyFilter": null,
+								"groupTagFilter": null,
+								"filterTagFilter": null
+							},
+							"blackboard": [
+								{
+									"key": "HitEnemy.force",
+									"value": 1
+								}
+							]
+						}
+					]
+				}
+			},
+			"act25side_tech3_1": {
+				"itemId": "act25side_tech3_1",
+				"sortId": 1,
+				"itemName": "失重·α",
+				"itemIcon": "act25side_tech3_1",
+				"itemDesc": "“行星碎屑”移动所需攻击次数减少",
+				"itemTechType": "TECH_3",
+				"runeData": {
+					"id": "act25side_tech3_1",
+					"points": 0,
+					"mutexGroupKey": null,
+					"description": "使行星碎屑移动所需攻击次数减少",
+					"runes": [
+						{
+							"key": "enemy_talent_blackb_add",
+							"selector": {
+								"professionMask": 0,
+								"buildableMask": 0,
+								"charIdFilter": null,
+								"enemyIdFilter": null,
+								"enemyIdExcludeFilter": null,
+								"skillIdFilter": null,
+								"tileKeyFilter": null,
+								"groupTagFilter": null,
+								"filterTagFilter": null
+							},
+							"blackboard": [
+								{
+									"key": "HitCounter.max_hit_count",
+									"value": -5
+								}
+							]
+						}
+					]
+				}
+			},
+			"act25side_tech3_2": {
+				"itemId": "act25side_tech3_2",
+				"sortId": 2,
+				"itemName": "失重·β",
+				"itemIcon": "act25side_tech3_2",
+				"itemDesc": "“行星碎屑”移动所需攻击次数进一步减少",
+				"itemTechType": "TECH_3",
+				"runeData": {
+					"id": "act25side_tech3_2",
+					"points": 0,
+					"mutexGroupKey": null,
+					"description": "使行星碎屑移动所需攻击次数减少",
+					"runes": [
+						{
+							"key": "enemy_talent_blackb_add",
+							"selector": {
+								"professionMask": 0,
+								"buildableMask": 0,
+								"charIdFilter": null,
+								"enemyIdFilter": null,
+								"enemyIdExcludeFilter": null,
+								"skillIdFilter": null,
+								"tileKeyFilter": null,
+								"groupTagFilter": null,
+								"filterTagFilter": null
+							},
+							"blackboard": [
+								{
+									"key": "HitCounter.max_hit_count",
+									"value": -5
+								}
+							]
+						}
+					]
+				}
+			},
+			"act25side_tech4_1": {
+				"itemId": "act25side_tech4_1",
+				"sortId": 1,
+				"itemName": "初速度·α",
+				"itemIcon": "act25side_tech4_1",
+				"itemDesc": "推动“行星碎屑”所需推力减轻，逆重力移动距离增加",
+				"itemTechType": "TECH_4",
+				"runeData": {
+					"id": "act25side_tech4_1",
+					"points": 0,
+					"mutexGroupKey": null,
+					"description": "石块被直接推动所需推力减轻，逆重力移动距离增加",
+					"runes": [
+						{
+							"key": "enemy_weight_add",
+							"selector": {
+								"professionMask": 0,
+								"buildableMask": 0,
+								"charIdFilter": null,
+								"enemyIdFilter": null,
+								"enemyIdExcludeFilter": null,
+								"skillIdFilter": null,
+								"tileKeyFilter": null,
+								"groupTagFilter": null,
+								"filterTagFilter": null
+							},
+							"blackboard": [
+								{
+									"key": "value",
+									"value": -1
+								},
+								{
+									"key": "enemy",
+									"valueStr": "enemy_1334_ristar"
+								}
+							]
+						},
+						{
+							"key": "enemy_talent_blackb_add",
+							"selector": {
+								"professionMask": 0,
+								"buildableMask": 0,
+								"charIdFilter": null,
+								"enemyIdFilter": null,
+								"enemyIdExcludeFilter": null,
+								"skillIdFilter": null,
+								"tileKeyFilter": null,
+								"groupTagFilter": null,
+								"filterTagFilter": null
+							},
+							"blackboard": [
+								{
+									"key": "HitCounter.anti_duration",
+									"value": 1
+								}
+							]
+						}
+					]
+				}
+			},
+			"act25side_tech4_2": {
+				"itemId": "act25side_tech4_2",
+				"sortId": 2,
+				"itemName": "初速度·β",
+				"itemIcon": "act25side_tech4_2",
+				"itemDesc": "推动“行星碎屑”所需推力进一步减轻，逆重力移动进一步增加",
+				"itemTechType": "TECH_4",
+				"runeData": {
+					"id": "act25side_tech4_2",
+					"points": 0,
+					"mutexGroupKey": null,
+					"description": "石块被直接推动所需推力减轻，逆重力移动距离增加",
+					"runes": [
+						{
+							"key": "enemy_weight_add",
+							"selector": {
+								"professionMask": 0,
+								"buildableMask": 0,
+								"charIdFilter": null,
+								"enemyIdFilter": null,
+								"enemyIdExcludeFilter": null,
+								"skillIdFilter": null,
+								"tileKeyFilter": null,
+								"groupTagFilter": null,
+								"filterTagFilter": null
+							},
+							"blackboard": [
+								{
+									"key": "value",
+									"value": -1
+								},
+								{
+									"key": "enemy",
+									"valueStr": "enemy_1334_ristar"
+								}
+							]
+						},
+						{
+							"key": "enemy_talent_blackb_add",
+							"selector": {
+								"professionMask": 0,
+								"buildableMask": 0,
+								"charIdFilter": null,
+								"enemyIdFilter": null,
+								"enemyIdExcludeFilter": null,
+								"skillIdFilter": null,
+								"tileKeyFilter": null,
+								"groupTagFilter": null,
+								"filterTagFilter": null
+							},
+							"blackboard": [
+								{
+									"key": "HitCounter.anti_duration",
+									"value": 1.5
+								}
+							]
+						}
+					]
+				}
+			}
+		}
+	}
+}

@@ -2,7 +2,10 @@
 	"name": "特米米",
 	"description": "攻击造成<@ba.kw>法术伤害</>",
 	"canUseGeneralPotentialItem": true,
+	"canUseActivityPotentialItem": false,
 	"potentialItemId": "p_char_411_tomimi",
+	"activityPotentialItemId": null,
+	"classicPotentialItemId": null,
 	"nationId": "sargon",
 	"groupId": null,
 	"teamId": null,
@@ -20,7 +23,7 @@
 	"isNotObtainable": false,
 	"isSpChar": false,
 	"maxPotentialLevel": 5,
-	"rarity": 4,
+	"rarity": "TIER_5",
 	"profession": "CASTER",
 	"subProfessionId": "corecaster",
 	"trait": null,
@@ -53,7 +56,8 @@
 						"stunImmune": false,
 						"silenceImmune": false,
 						"sleepImmune": false,
-						"frozenImmune": false
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -79,7 +83,8 @@
 						"stunImmune": false,
 						"silenceImmune": false,
 						"sleepImmune": false,
-						"frozenImmune": false
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -113,7 +118,8 @@
 						"stunImmune": false,
 						"silenceImmune": false,
 						"sleepImmune": false,
-						"frozenImmune": false
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -139,7 +145,8 @@
 						"stunImmune": false,
 						"silenceImmune": false,
 						"sleepImmune": false,
-						"frozenImmune": false
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -189,7 +196,8 @@
 						"stunImmune": false,
 						"silenceImmune": false,
 						"sleepImmune": false,
-						"frozenImmune": false
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -215,7 +223,8 @@
 						"stunImmune": false,
 						"silenceImmune": false,
 						"sleepImmune": false,
-						"frozenImmune": false
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -246,7 +255,7 @@
 			"levelUpCostCond": [
 				{
 					"unlockCond": {
-						"phase": 2,
+						"phase": "PHASE_2",
 						"level": 1
 					},
 					"lvlUpTime": 28800,
@@ -270,7 +279,7 @@
 				},
 				{
 					"unlockCond": {
-						"phase": 2,
+						"phase": "PHASE_2",
 						"level": 1
 					},
 					"lvlUpTime": 57600,
@@ -294,7 +303,7 @@
 				},
 				{
 					"unlockCond": {
-						"phase": 2,
+						"phase": "PHASE_2",
 						"level": 1
 					},
 					"lvlUpTime": 86400,
@@ -318,7 +327,7 @@
 				}
 			],
 			"unlockCond": {
-				"phase": 0,
+				"phase": "PHASE_0",
 				"level": 1
 			}
 		},
@@ -329,7 +338,7 @@
 			"levelUpCostCond": [
 				{
 					"unlockCond": {
-						"phase": 2,
+						"phase": "PHASE_2",
 						"level": 1
 					},
 					"lvlUpTime": 28800,
@@ -353,7 +362,7 @@
 				},
 				{
 					"unlockCond": {
-						"phase": 2,
+						"phase": "PHASE_2",
 						"level": 1
 					},
 					"lvlUpTime": 57600,
@@ -377,7 +386,7 @@
 				},
 				{
 					"unlockCond": {
-						"phase": 2,
+						"phase": "PHASE_2",
 						"level": 1
 					},
 					"lvlUpTime": 86400,
@@ -401,7 +410,7 @@
 				}
 			],
 			"unlockCond": {
-				"phase": 1,
+				"phase": "PHASE_1",
 				"level": 1
 			}
 		}
@@ -411,103 +420,139 @@
 			"candidates": [
 				{
 					"unlockCondition": {
-						"phase": 0,
+						"phase": "PHASE_0",
 						"level": 1
 					},
 					"requiredPotentialRank": 0,
 					"prefabKey": "1",
 					"name": "荒野法术",
 					"description": "技能开启时，攻击范围缩小，攻击变为物理伤害（只攻击地面敌人），攻击力+50%",
-					"rangeId": null,
+					"rangeId": "1-2",
 					"blackboard": [
 						{
 							"key": "atk",
-							"value": 0.5
+							"value": 0.5,
+							"valueStr": null
+						},
+						{
+							"key": "talent_override_rangeid_flag",
+							"value": 1,
+							"valueStr": null
 						}
 					]
 				},
 				{
 					"unlockCondition": {
-						"phase": 0,
+						"phase": "PHASE_0",
 						"level": 1
 					},
 					"requiredPotentialRank": 4,
 					"prefabKey": "1",
 					"name": "荒野法术",
 					"description": "技能开启时，攻击范围缩小，攻击变为物理伤害（只攻击地面敌人），攻击力+70%<@ba.talpu>（+20%）</>",
-					"rangeId": null,
+					"rangeId": "1-2",
 					"blackboard": [
 						{
 							"key": "atk",
-							"value": 0.7
+							"value": 0.7,
+							"valueStr": null
+						},
+						{
+							"key": "talent_override_rangeid_flag",
+							"value": 1,
+							"valueStr": null
 						}
 					]
 				},
 				{
 					"unlockCondition": {
-						"phase": 1,
+						"phase": "PHASE_1",
 						"level": 1
 					},
 					"requiredPotentialRank": 0,
 					"prefabKey": "1",
 					"name": "荒野法术",
 					"description": "技能开启时，攻击范围缩小，攻击变为物理伤害（只攻击地面敌人），攻击力+75%",
-					"rangeId": null,
+					"rangeId": "1-2",
 					"blackboard": [
 						{
 							"key": "atk",
-							"value": 0.75
+							"value": 0.75,
+							"valueStr": null
+						},
+						{
+							"key": "talent_override_rangeid_flag",
+							"value": 1,
+							"valueStr": null
 						}
 					]
 				},
 				{
 					"unlockCondition": {
-						"phase": 1,
+						"phase": "PHASE_1",
 						"level": 1
 					},
 					"requiredPotentialRank": 4,
 					"prefabKey": "1",
 					"name": "荒野法术",
 					"description": "技能开启时，攻击范围缩小，攻击变为物理伤害（只攻击地面敌人），攻击力+95%<@ba.talpu>（+20%）</>",
-					"rangeId": null,
+					"rangeId": "1-2",
 					"blackboard": [
 						{
 							"key": "atk",
-							"value": 0.95
+							"value": 0.95,
+							"valueStr": null
+						},
+						{
+							"key": "talent_override_rangeid_flag",
+							"value": 1,
+							"valueStr": null
 						}
 					]
 				},
 				{
 					"unlockCondition": {
-						"phase": 2,
+						"phase": "PHASE_2",
 						"level": 1
 					},
 					"requiredPotentialRank": 0,
 					"prefabKey": "1",
 					"name": "荒野法术",
 					"description": "技能开启时，攻击范围缩小，攻击变为物理伤害（只攻击地面敌人），攻击力+100%",
-					"rangeId": null,
+					"rangeId": "1-2",
 					"blackboard": [
 						{
 							"key": "atk",
-							"value": 1
+							"value": 1,
+							"valueStr": null
+						},
+						{
+							"key": "talent_override_rangeid_flag",
+							"value": 1,
+							"valueStr": null
 						}
 					]
 				},
 				{
 					"unlockCondition": {
-						"phase": 2,
+						"phase": "PHASE_2",
 						"level": 1
 					},
 					"requiredPotentialRank": 4,
 					"prefabKey": "1",
 					"name": "荒野法术",
 					"description": "技能开启时，攻击范围缩小，攻击变为物理伤害（只攻击地面敌人），攻击力+120%<@ba.talpu>（+20%）</>",
-					"rangeId": null,
+					"rangeId": "1-2",
 					"blackboard": [
 						{
 							"key": "atk",
-							"value": 1.2
+							"value": 1.2,
+							"valueStr": null
+						},
+						{
+							"key": "talent_override_rangeid_flag",
+							"value": 1,
+							"valueStr": null
 						}
 					]
 				}
@@ -516,7 +561,7 @@
 	],
 	"potentialRanks": [
 		{
-			"type": 0,
+			"type": "BUFF",
 			"description": "部署费用-1",
 			"buff": {
 				"attributes": {
@@ -527,8 +572,8 @@
 					"abnormalComboImmunes": null,
 					"attributeModifiers": [
 						{
-							"attributeType": 4,
-							"formulaItem": 0,
+							"attributeType": "COST",
+							"formulaItem": "ADDITION",
 							"value": -1,
 							"loadFromBlackboard": false,
 							"fetchBaseValueFromSourceEntity": false
@@ -539,7 +584,7 @@
 			"equivalentCost": null
 		},
 		{
-			"type": 0,
+			"type": "BUFF",
 			"description": "再部署时间-10秒",
 			"buff": {
 				"attributes": {
@@ -550,8 +595,8 @@
 					"abnormalComboImmunes": null,
 					"attributeModifiers": [
 						{
-							"attributeType": 21,
-							"formulaItem": 0,
+							"attributeType": "RESPAWN_TIME",
+							"formulaItem": "ADDITION",
 							"value": -10,
 							"loadFromBlackboard": false,
 							"fetchBaseValueFromSourceEntity": false
@@ -562,7 +607,7 @@
 			"equivalentCost": null
 		},
 		{
-			"type": 0,
+			"type": "BUFF",
 			"description": "部署费用-1",
 			"buff": {
 				"attributes": {
@@ -573,8 +618,8 @@
 					"abnormalComboImmunes": null,
 					"attributeModifiers": [
 						{
-							"attributeType": 4,
-							"formulaItem": 0,
+							"attributeType": "COST",
+							"formulaItem": "ADDITION",
 							"value": -1,
 							"loadFromBlackboard": false,
 							"fetchBaseValueFromSourceEntity": false
@@ -585,13 +630,13 @@
 			"equivalentCost": null
 		},
 		{
-			"type": 1,
+			"type": "CUSTOM",
 			"description": "天赋效果增强",
 			"buff": null,
 			"equivalentCost": null
 		},
 		{
-			"type": 0,
+			"type": "BUFF",
 			"description": "部署费用-1",
 			"buff": {
 				"attributes": {
@@ -602,8 +647,8 @@
 					"abnormalComboImmunes": null,
 					"attributeModifiers": [
 						{
-							"attributeType": 4,
-							"formulaItem": 0,
+							"attributeType": "COST",
+							"formulaItem": "ADDITION",
 							"value": -1,
 							"loadFromBlackboard": false,
 							"fetchBaseValueFromSourceEntity": false
@@ -638,7 +683,8 @@
 				"stunImmune": false,
 				"silenceImmune": false,
 				"sleepImmune": false,
-				"frozenImmune": false
+				"frozenImmune": false,
+				"levitateImmune": false
 			}
 		},
 		{
@@ -664,14 +710,15 @@
 				"stunImmune": false,
 				"silenceImmune": false,
 				"sleepImmune": false,
-				"frozenImmune": false
+				"frozenImmune": false,
+				"levitateImmune": false
 			}
 		}
 	],
 	"allSkillLvlup": [
 		{
 			"unlockCond": {
-				"phase": 0,
+				"phase": "PHASE_0",
 				"level": 1
 			},
 			"lvlUpCost": [
@@ -684,7 +731,7 @@
 		},
 		{
 			"unlockCond": {
-				"phase": 0,
+				"phase": "PHASE_0",
 				"level": 1
 			},
 			"lvlUpCost": [
@@ -702,7 +749,7 @@
 		},
 		{
 			"unlockCond": {
-				"phase": 0,
+				"phase": "PHASE_0",
 				"level": 1
 			},
 			"lvlUpCost": [
@@ -720,7 +767,7 @@
 		},
 		{
 			"unlockCond": {
-				"phase": 1,
+				"phase": "PHASE_1",
 				"level": 1
 			},
 			"lvlUpCost": [
@@ -738,7 +785,7 @@
 		},
 		{
 			"unlockCond": {
-				"phase": 1,
+				"phase": "PHASE_1",
 				"level": 1
 			},
 			"lvlUpCost": [
@@ -756,7 +803,7 @@
 		},
 		{
 			"unlockCond": {
-				"phase": 1,
+				"phase": "PHASE_1",
 				"level": 1
 			},
 			"lvlUpCost": [

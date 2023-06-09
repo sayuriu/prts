@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act12side_ex01",
@@ -10,10 +11,10 @@
 	],
 	"stageId": "act12side_ex02",
 	"levelId": "Activities/ACT12SIDE/level_act12side_ex02",
-	"zoneId": "act12side_zone2",
+	"zoneId": "act12sre_zone2",
 	"code": "DH-EX-2",
 	"name": "Sun-bathed Beach",
-	"description": "Beaches are the symbol of Dossoles. Naturally, many with ill intentions lurk within. \n<@lv.item><Deep Water Zone></> Unable to deploy on these tiles. Enemies on these tiles have reduced ASPD and Movement Speed, and continually lose HP",
+	"description": "Beaches are the symbol of Dossoles. Naturally, many with ill intentions lurk within. \n<@lv.item><Deep Water Zone></>Unable to deploy on these tiles. Enemies on these tiles have reduced ASPD and Movement Speed, and continually lose HP",
 	"hardStagedId": "act12side_ex02#f#",
 	"dangerLevel": "Elite 1 Lv. 50",
 	"dangerPoint": -1,
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {

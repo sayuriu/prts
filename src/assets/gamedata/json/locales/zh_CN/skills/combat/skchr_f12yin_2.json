@@ -7,10 +7,10 @@
 			"name": "横扫架势",
 			"rangeId": "0-1",
 			"description": "<@ba.rem>可以在下列状态和初始状态间切换：</>\\n防御力<@ba.vdown>-{-def:0%}</>，攻击距离<@ba.vdown>缩短</>，攻击力<@ba.vup>+{atk:0%}</>，阻挡数<@ba.vup>+{block_cnt}</>，同时攻击阻挡的所有敌人，每秒恢复最大生命的<@ba.vup>{HP_RECOVERY_PER_SEC_BY_MAX_HP_RATIO:0.0%}</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 10,
@@ -22,19 +22,23 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.2
+					"value": 0.2,
+					"valueStr": null
 				},
 				{
 					"key": "def",
-					"value": -0.3
+					"value": -0.3,
+					"valueStr": null
 				},
 				{
 					"key": "hp_recovery_per_sec_by_max_hp_ratio",
-					"value": 0.03
+					"value": 0.03,
+					"valueStr": null
 				},
 				{
 					"key": "block_cnt",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -42,10 +46,10 @@
 			"name": "横扫架势",
 			"rangeId": "0-1",
 			"description": "<@ba.rem>可以在下列状态和初始状态间切换：</>\\n防御力<@ba.vdown>-{-def:0%}</>，攻击距离<@ba.vdown>缩短</>，攻击力<@ba.vup>+{atk:0%}</>，阻挡数<@ba.vup>+{block_cnt}</>，同时攻击阻挡的所有敌人，每秒恢复最大生命的<@ba.vup>{HP_RECOVERY_PER_SEC_BY_MAX_HP_RATIO:0.0%}</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 10,
@@ -57,19 +61,23 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.25
+					"value": 0.25,
+					"valueStr": null
 				},
 				{
 					"key": "def",
-					"value": -0.3
+					"value": -0.3,
+					"valueStr": null
 				},
 				{
 					"key": "hp_recovery_per_sec_by_max_hp_ratio",
-					"value": 0.03
+					"value": 0.03,
+					"valueStr": null
 				},
 				{
 					"key": "block_cnt",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -77,10 +85,10 @@
 			"name": "横扫架势",
 			"rangeId": "0-1",
 			"description": "<@ba.rem>可以在下列状态和初始状态间切换：</>\\n防御力<@ba.vdown>-{-def:0%}</>，攻击距离<@ba.vdown>缩短</>，攻击力<@ba.vup>+{atk:0%}</>，阻挡数<@ba.vup>+{block_cnt}</>，同时攻击阻挡的所有敌人，每秒恢复最大生命的<@ba.vup>{HP_RECOVERY_PER_SEC_BY_MAX_HP_RATIO:0.0%}</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 10,
@@ -92,19 +100,23 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.3
+					"value": 0.3,
+					"valueStr": null
 				},
 				{
 					"key": "def",
-					"value": -0.3
+					"value": -0.3,
+					"valueStr": null
 				},
 				{
 					"key": "hp_recovery_per_sec_by_max_hp_ratio",
-					"value": 0.03
+					"value": 0.03,
+					"valueStr": null
 				},
 				{
 					"key": "block_cnt",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -112,10 +124,10 @@
 			"name": "横扫架势",
 			"rangeId": "0-1",
 			"description": "<@ba.rem>可以在下列状态和初始状态间切换：</>\\n防御力<@ba.vdown>-{-def:0%}</>，攻击距离<@ba.vdown>缩短</>，攻击力<@ba.vup>+{atk:0%}</>，阻挡数<@ba.vup>+{block_cnt}</>，同时攻击阻挡的所有敌人，每秒恢复最大生命的<@ba.vup>{HP_RECOVERY_PER_SEC_BY_MAX_HP_RATIO:0.0%}</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 9,
@@ -127,19 +139,23 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.35
+					"value": 0.35,
+					"valueStr": null
 				},
 				{
 					"key": "def",
-					"value": -0.3
+					"value": -0.3,
+					"valueStr": null
 				},
 				{
 					"key": "hp_recovery_per_sec_by_max_hp_ratio",
-					"value": 0.04
+					"value": 0.04,
+					"valueStr": null
 				},
 				{
 					"key": "block_cnt",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -147,10 +163,10 @@
 			"name": "横扫架势",
 			"rangeId": "0-1",
 			"description": "<@ba.rem>可以在下列状态和初始状态间切换：</>\\n防御力<@ba.vdown>-{-def:0%}</>，攻击距离<@ba.vdown>缩短</>，攻击力<@ba.vup>+{atk:0%}</>，阻挡数<@ba.vup>+{block_cnt}</>，同时攻击阻挡的所有敌人，每秒恢复最大生命的<@ba.vup>{HP_RECOVERY_PER_SEC_BY_MAX_HP_RATIO:0.0%}</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 9,
@@ -162,19 +178,23 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.4
+					"value": 0.4,
+					"valueStr": null
 				},
 				{
 					"key": "def",
-					"value": -0.3
+					"value": -0.3,
+					"valueStr": null
 				},
 				{
 					"key": "hp_recovery_per_sec_by_max_hp_ratio",
-					"value": 0.04
+					"value": 0.04,
+					"valueStr": null
 				},
 				{
 					"key": "block_cnt",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -182,10 +202,10 @@
 			"name": "横扫架势",
 			"rangeId": "0-1",
 			"description": "<@ba.rem>可以在下列状态和初始状态间切换：</>\\n防御力<@ba.vdown>-{-def:0%}</>，攻击距离<@ba.vdown>缩短</>，攻击力<@ba.vup>+{atk:0%}</>，阻挡数<@ba.vup>+{block_cnt}</>，同时攻击阻挡的所有敌人，每秒恢复最大生命的<@ba.vup>{HP_RECOVERY_PER_SEC_BY_MAX_HP_RATIO:0.0%}</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 9,
@@ -197,19 +217,23 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.45
+					"value": 0.45,
+					"valueStr": null
 				},
 				{
 					"key": "def",
-					"value": -0.3
+					"value": -0.3,
+					"valueStr": null
 				},
 				{
 					"key": "hp_recovery_per_sec_by_max_hp_ratio",
-					"value": 0.04
+					"value": 0.04,
+					"valueStr": null
 				},
 				{
 					"key": "block_cnt",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -217,10 +241,10 @@
 			"name": "横扫架势",
 			"rangeId": "0-1",
 			"description": "<@ba.rem>可以在下列状态和初始状态间切换：</>\\n防御力<@ba.vdown>-{-def:0%}</>，攻击距离<@ba.vdown>缩短</>，攻击力<@ba.vup>+{atk:0%}</>，阻挡数<@ba.vup>+{block_cnt}</>，同时攻击阻挡的所有敌人，每秒恢复最大生命的<@ba.vup>{HP_RECOVERY_PER_SEC_BY_MAX_HP_RATIO:0.0%}</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 8,
@@ -232,19 +256,23 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				},
 				{
 					"key": "def",
-					"value": -0.25
+					"value": -0.25,
+					"valueStr": null
 				},
 				{
 					"key": "hp_recovery_per_sec_by_max_hp_ratio",
-					"value": 0.05
+					"value": 0.05,
+					"valueStr": null
 				},
 				{
 					"key": "block_cnt",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -252,10 +280,10 @@
 			"name": "横扫架势",
 			"rangeId": "0-1",
 			"description": "<@ba.rem>可以在下列状态和初始状态间切换：</>\\n防御力<@ba.vdown>-{-def:0%}</>，攻击距离<@ba.vdown>缩短</>，攻击力<@ba.vup>+{atk:0%}</>，阻挡数<@ba.vup>+{block_cnt}</>，同时攻击阻挡的所有敌人，每秒恢复最大生命的<@ba.vup>{HP_RECOVERY_PER_SEC_BY_MAX_HP_RATIO:0.0%}</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 7,
@@ -267,19 +295,23 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.6
+					"value": 0.6,
+					"valueStr": null
 				},
 				{
 					"key": "def",
-					"value": -0.25
+					"value": -0.25,
+					"valueStr": null
 				},
 				{
 					"key": "hp_recovery_per_sec_by_max_hp_ratio",
-					"value": 0.055
+					"value": 0.055,
+					"valueStr": null
 				},
 				{
 					"key": "block_cnt",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -287,10 +319,10 @@
 			"name": "横扫架势",
 			"rangeId": "0-1",
 			"description": "<@ba.rem>可以在下列状态和初始状态间切换：</>\\n防御力<@ba.vdown>-{-def:0%}</>，攻击距离<@ba.vdown>缩短</>，攻击力<@ba.vup>+{atk:0%}</>，阻挡数<@ba.vup>+{block_cnt}</>，同时攻击阻挡的所有敌人，每秒恢复最大生命的<@ba.vup>{HP_RECOVERY_PER_SEC_BY_MAX_HP_RATIO:0.0%}</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 6,
@@ -302,19 +334,23 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.7
+					"value": 0.7,
+					"valueStr": null
 				},
 				{
 					"key": "def",
-					"value": -0.25
+					"value": -0.25,
+					"valueStr": null
 				},
 				{
 					"key": "hp_recovery_per_sec_by_max_hp_ratio",
-					"value": 0.06
+					"value": 0.06,
+					"valueStr": null
 				},
 				{
 					"key": "block_cnt",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -322,10 +358,10 @@
 			"name": "横扫架势",
 			"rangeId": "0-1",
 			"description": "<@ba.rem>可以在下列状态和初始状态间切换：</>\\n防御力<@ba.vdown>-{-def:0%}</>，攻击距离<@ba.vdown>缩短</>，攻击力<@ba.vup>+{atk:0%}</>，阻挡数<@ba.vup>+{block_cnt}</>，同时攻击阻挡的所有敌人，每秒恢复最大生命的<@ba.vup>{HP_RECOVERY_PER_SEC_BY_MAX_HP_RATIO:0.0%}</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 5,
@@ -337,19 +373,23 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.8
+					"value": 0.8,
+					"valueStr": null
 				},
 				{
 					"key": "def",
-					"value": -0.2
+					"value": -0.2,
+					"valueStr": null
 				},
 				{
 					"key": "hp_recovery_per_sec_by_max_hp_ratio",
-					"value": 0.07
+					"value": 0.07,
+					"valueStr": null
 				},
 				{
 					"key": "block_cnt",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		}

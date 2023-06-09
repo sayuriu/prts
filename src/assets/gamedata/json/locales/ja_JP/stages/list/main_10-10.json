@@ -1,0 +1,167 @@
+{
+	"stageType": "MAIN",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NORMAL",
+	"unlockCondition": [
+		{
+			"stageId": "main_10-09",
+			"completeState": 2
+		}
+	],
+	"stageId": "main_10-10",
+	"levelId": "Obt/Main/level_main_10-10",
+	"zoneId": "main_10",
+	"code": "10-11",
+	"name": "穴だらけ",
+	"description": "破壊された建物の隙間に、彼らは一筋の日差しを探す。\n<@lv.item><ロンディニウム都市防衛副砲></>チャージ完了時、ブロック数が最も多い味方ユニットを中心とした一定範囲内の敵味方全員に確定ダメージを与える。",
+	"hardStagedId": null,
+	"dangerLevel": "昇進2 LV.25",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_VC_factory",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 24,
+	"apFailReturn": 23,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": -1,
+	"expGain": 240,
+	"goldGain": 240,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 23,
+	"completeFavor": 24,
+	"slProgress": 194,
+	"displayMainItem": "30043",
+	"hilightMark": true,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 0,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "MATERIAL",
+				"id": "30043",
+				"dropType": 2
+			},
+			{
+				"type": "MATERIAL",
+				"id": "30044",
+				"dropType": 3
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 3,
+				"type": "MATERIAL",
+				"id": "30043",
+				"dropType": 2
+			},
+			{
+				"occPercent": 4,
+				"type": "MATERIAL",
+				"id": "30044",
+				"dropType": 3
+			},
+			{
+				"occPercent": 4,
+				"type": "MATERIAL",
+				"id": "30021",
+				"dropType": 4
+			},
+			{
+				"occPercent": 4,
+				"type": "MATERIAL",
+				"id": "30041",
+				"dropType": 4
+			},
+			{
+				"occPercent": 4,
+				"type": "CARD_EXP",
+				"id": "2001",
+				"dropType": 4
+			},
+			{
+				"occPercent": 4,
+				"type": "MATERIAL",
+				"id": "30022",
+				"dropType": 4
+			},
+			{
+				"occPercent": 4,
+				"type": "MATERIAL",
+				"id": "30042",
+				"dropType": 4
+			},
+			{
+				"occPercent": 4,
+				"type": "CARD_EXP",
+				"id": "2002",
+				"dropType": 4
+			},
+			{
+				"occPercent": 4,
+				"type": "MATERIAL",
+				"id": "30023",
+				"dropType": 4
+			},
+			{
+				"occPercent": 4,
+				"type": "MATERIAL",
+				"id": "30043",
+				"dropType": 4
+			},
+			{
+				"occPercent": 4,
+				"type": "MATERIAL",
+				"id": "30083",
+				"dropType": 4
+			},
+			{
+				"occPercent": 4,
+				"type": "MATERIAL",
+				"id": "31023",
+				"dropType": 4
+			},
+			{
+				"occPercent": 4,
+				"type": "MATERIAL",
+				"id": "31063",
+				"dropType": 4
+			},
+			{
+				"occPercent": 4,
+				"type": "CARD_EXP",
+				"id": "2003",
+				"dropType": 4
+			},
+			{
+				"occPercent": 0,
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		]
+	},
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "main_10-10"
+}

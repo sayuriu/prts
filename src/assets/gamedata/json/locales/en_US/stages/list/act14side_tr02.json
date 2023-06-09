@@ -1,0 +1,73 @@
+{
+	"stageType": "ACTIVITY",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
+	"unlockCondition": [
+		{
+			"stageId": "act14side_04",
+			"completeState": 2
+		}
+	],
+	"stageId": "act14side_tr02",
+	"levelId": "Activities/ACT14SIDE/level_act14side_tr02",
+	"zoneId": "act14side_zone1",
+	"code": "BI-TR-2",
+	"name": "The Way of Ice",
+	"description": "Time, land, and people. Bring them all over to your side.\n<@lv.item><Icy Corner></>Applies 'Cold' to units on top of it, and changes the direction of enemies when they are shifted.\n<@lv.item><Penetrating Cold></>During Snowfall, all enemies are pushed in a certain direction.",
+	"hardStagedId": null,
+	"dangerLevel": "-",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_BI",
+	"canPractice": false,
+	"canBattleReplay": false,
+	"apCost": 0,
+	"apFailReturn": 0,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 0,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": -1,
+	"dailyStageDifficulty": 0,
+	"expGain": 0,
+	"goldGain": 0,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 0,
+	"completeFavor": 0,
+	"slProgress": 0,
+	"displayMainItem": null,
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": true,
+	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 3,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 0,
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		]
+	},
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "act14side_tr01"
+}

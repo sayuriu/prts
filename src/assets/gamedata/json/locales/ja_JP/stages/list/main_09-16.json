@@ -2,6 +2,7 @@
 	"stageType": "MAIN",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NORMAL",
 	"unlockCondition": [
 		{
 			"stageId": "main_09-15",
@@ -13,7 +14,7 @@
 	"zoneId": "main_9",
 	"code": "9-18",
 	"name": "「夜明け」",
-	"description": "彼女の光が空の漆黒を穿つ。\n<@lv.item><脆い石柱></>隣接する味方ユニットの攻撃で倒壊させることができる。倒壊した方向2マスの対象に確定ダメージを与え、敵の進行を阻む瓦礫を生成する。\n<@lv.item><爆破装置></>前方1マスの脆い石柱を破壊する。",
+	"description": "彼女の光が漆黒の帷を穿つ。\n<@lv.item><脆い石柱></>隣接する味方ユニットの攻撃で倒壊させることができる。倒壊した方向2マスの対象に確定ダメージを与え、敵の進行を阻む瓦礫を生成する。\n<@lv.item><爆破装置></>前方1マスの脆い石柱を破壊する。",
 	"hardStagedId": "main_09-16#f#",
 	"dangerLevel": "昇進2 LV.10",
 	"dangerPoint": -1,
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {
@@ -137,6 +139,12 @@
 				"occPercent": 4,
 				"type": "MATERIAL",
 				"id": "31023",
+				"dropType": 4
+			},
+			{
+				"occPercent": 4,
+				"type": "MATERIAL",
+				"id": "31063",
 				"dropType": 4
 			},
 			{

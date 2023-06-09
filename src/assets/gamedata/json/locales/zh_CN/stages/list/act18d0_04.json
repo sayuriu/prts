@@ -2,15 +2,16 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act18d0_03",
-			"completeState": 2
+			"completeState": "PASS"
 		}
 	],
 	"stageId": "act18d0_04",
 	"levelId": "Activities/act18d0/level_act18d0_04",
-	"zoneId": "act18d0_zone1",
+	"zoneId": "act10sre_zone1",
 	"code": "WD-4",
 	"name": "鸣沙阻击战",
 	"description": "沙粒在发出声响，如凯尔希所说那般，追兵如期而至，自投罗网。",
@@ -44,7 +45,7 @@
 	"isHardPredefined": false,
 	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
-	"appearanceStyle": 0,
+	"appearanceStyle": "MAIN_NORMAL",
 	"stageDropInfo": {
 		"firstPassRewards": null,
 		"firstCompleteRewards": null,
@@ -53,64 +54,70 @@
 		"displayRewards": [
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act18d0_token_page",
-				"dropType": 8
+				"id": "act18d0_token_page_rep_1",
+				"dropType": "COMPLETE"
 			},
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act18d0_token_page",
-				"dropType": 2
+				"id": "act18d0_token_page_rep_1",
+				"dropType": "NORMAL"
 			},
 			{
 				"type": "MATERIAL",
 				"id": "30042",
-				"dropType": 2
+				"dropType": "NORMAL"
 			},
 			{
 				"type": "MATERIAL",
 				"id": "30012",
-				"dropType": 2
+				"dropType": "NORMAL"
 			},
 			{
 				"type": "DIAMOND",
 				"id": "4002",
-				"dropType": 8
+				"dropType": "COMPLETE"
 			}
 		],
 		"displayDetailRewards": [
 			{
-				"occPercent": 0,
+				"occPercent": "ALWAYS",
 				"type": "ACTIVITY_ITEM",
-				"id": "act18d0_token_page",
-				"dropType": 8
+				"id": "act18d0_token_page_rep_1",
+				"dropType": "COMPLETE"
 			},
 			{
-				"occPercent": 0,
+				"occPercent": "ALWAYS",
 				"type": "ACTIVITY_ITEM",
-				"id": "act18d0_token_page",
-				"dropType": 2
+				"id": "act18d0_token_page_rep_1",
+				"dropType": "NORMAL"
 			},
 			{
-				"occPercent": 1,
+				"occPercent": "ALMOST",
 				"type": "MATERIAL",
 				"id": "30042",
-				"dropType": 2
+				"dropType": "NORMAL"
 			},
 			{
-				"occPercent": 1,
+				"occPercent": "ALMOST",
 				"type": "MATERIAL",
 				"id": "30012",
-				"dropType": 2
+				"dropType": "NORMAL"
 			},
 			{
-				"occPercent": 0,
+				"occPercent": "ALWAYS",
 				"type": "DIAMOND",
 				"id": "4002",
-				"dropType": 8
+				"dropType": "COMPLETE"
 			}
 		]
 	},
+	"canUseCharm": false,
+	"canUseTech": false,
+	"canUseTrapTool": false,
+	"canUseBattlePerformance": false,
 	"startButtonOverrideId": null,
 	"isStagePatch": false,
-	"mainStageId": "act18d0_01"
+	"mainStageId": "act18d0_01",
+	"extraCondition": null,
+	"extraInfo": null
 }

@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act13d5_ex01",
@@ -10,10 +11,10 @@
 	],
 	"stageId": "act13d5_ex02",
 	"levelId": "Activities/ACT13D5/level_act13d5_ex02",
-	"zoneId": "act13d5_zone2",
+	"zoneId": "act7sre_zone2",
 	"code": "MN-EX-2",
 	"name": "대칭 빙하",
-	"description": "일부 경기장에서 더위를 막기 위해 설치한 냉각 장치. 관중들은 더 시원하다고 느낄 수 있지만, 경기가 더 복잡해 질 수 있다. 사미 출신인 전율하는 해골의 기사는 여기서 우세를 점한 적 있다.\n<@lv.item><수풀></>배치된 오퍼레이터는 적의 원거리 공격 대상이 되지 않음\n<@lv.item><오리지늄 얼음 결정></>주기적으로 아군 유닛에 [냉기] 범위 디버프를 주는 한기를 내뿜는다",
+	"description": "일부 경기장에서 더위를 막기 위해 설치한 냉각 장치. 관중들은 더 시원하다고 느낄 수 있지만, 경기가 더 복잡해 질 수 있다. 사미 출신인 전율하는 해골의 기사는 여기서 우세를 점한 적 있다.\n<@lv.item><수풀></>배치된 오퍼레이터는 적의 원거리 공격 대상이 되지 않음\n<@lv.item><오리지늄 얼음 결정></> 주기적으로 아군 유닛에 [냉기] 범위 디버프를 주는 한기를 내뿜는다",
 	"hardStagedId": "act13d5_ex02#f#",
 	"dangerLevel": "1차 정예화 Lv.50",
 	"dangerPoint": -1,
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {
@@ -57,7 +59,7 @@
 			},
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act13d5_token_securities",
+				"id": "act13d5_token_securities_rep_1",
 				"dropType": 8
 			},
 			{
@@ -76,7 +78,7 @@
 			{
 				"occPercent": 0,
 				"type": "ACTIVITY_ITEM",
-				"id": "act13d5_token_securities",
+				"id": "act13d5_token_securities_rep_1",
 				"dropType": 8
 			},
 			{

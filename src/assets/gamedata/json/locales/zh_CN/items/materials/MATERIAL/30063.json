@@ -6,12 +6,16 @@
 	"iconId": "MTL_SL_BOSS3",
 	"overrideBkg": null,
 	"stackIconId": null,
-	"sortId": 100017,
+	"sortId": 100031,
 	"usage": "收缴来的全新机械装置，可用于多种强化场合，也常作为制造站合成项目的原料。",
 	"obtainApproach": null,
 	"classifyType": "MATERIAL",
 	"itemType": "MATERIAL",
 	"stageDropList": [
+		{
+			"stageId": "act12mini_08",
+			"occPer": "OFTEN"
+		},
 		{
 			"stageId": "act15side_06",
 			"occPer": "USUAL"
@@ -50,6 +54,22 @@
 		},
 		{
 			"stageId": "main_09-08",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_11-06",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "tough_11-06",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_11-18",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "tough_11-18",
 			"occPer": "OFTEN"
 		}
 	],

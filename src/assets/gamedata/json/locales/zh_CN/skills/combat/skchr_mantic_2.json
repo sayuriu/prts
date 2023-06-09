@@ -7,10 +7,10 @@
 			"name": "蓄力毒尾击",
 			"rangeId": null,
 			"description": "攻击前摇和攻击间隔<@ba.vdown>增大</>，攻击力<@ba.vup>+{atk:0%}</>，使命中目标<$ba.stun>晕眩</><@ba.vup>{attack@stun:0.0}</>秒",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 20,
@@ -22,15 +22,18 @@
 			"blackboard": [
 				{
 					"key": "base_attack_time",
-					"value": 1.7
+					"value": 1.7,
+					"valueStr": null
 				},
 				{
 					"key": "atk",
-					"value": 0.3
+					"value": 0.3,
+					"valueStr": null
 				},
 				{
 					"key": "attack@stun",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				}
 			]
 		},
@@ -38,10 +41,10 @@
 			"name": "蓄力毒尾击",
 			"rangeId": null,
 			"description": "攻击前摇和攻击间隔<@ba.vdown>增大</>，攻击力<@ba.vup>+{atk:0%}</>，使命中目标<$ba.stun>晕眩</><@ba.vup>{attack@stun:0.0}</>秒",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 20,
@@ -53,15 +56,18 @@
 			"blackboard": [
 				{
 					"key": "base_attack_time",
-					"value": 1.7
+					"value": 1.7,
+					"valueStr": null
 				},
 				{
 					"key": "atk",
-					"value": 0.35
+					"value": 0.35,
+					"valueStr": null
 				},
 				{
 					"key": "attack@stun",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				}
 			]
 		},
@@ -69,10 +75,10 @@
 			"name": "蓄力毒尾击",
 			"rangeId": null,
 			"description": "攻击前摇和攻击间隔<@ba.vdown>增大</>，攻击力<@ba.vup>+{atk:0%}</>，使命中目标<$ba.stun>晕眩</><@ba.vup>{attack@stun:0.0}</>秒",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 20,
@@ -84,15 +90,18 @@
 			"blackboard": [
 				{
 					"key": "base_attack_time",
-					"value": 1.7
+					"value": 1.7,
+					"valueStr": null
 				},
 				{
 					"key": "atk",
-					"value": 0.4
+					"value": 0.4,
+					"valueStr": null
 				},
 				{
 					"key": "attack@stun",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				}
 			]
 		},
@@ -100,10 +109,10 @@
 			"name": "蓄力毒尾击",
 			"rangeId": null,
 			"description": "攻击前摇和攻击间隔<@ba.vdown>增大</>，攻击力<@ba.vup>+{atk:0%}</>，使命中目标<$ba.stun>晕眩</><@ba.vup>{attack@stun:0.0}</>秒",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 20,
@@ -115,15 +124,18 @@
 			"blackboard": [
 				{
 					"key": "base_attack_time",
-					"value": 1.7
+					"value": 1.7,
+					"valueStr": null
 				},
 				{
 					"key": "atk",
-					"value": 0.45
+					"value": 0.45,
+					"valueStr": null
 				},
 				{
 					"key": "attack@stun",
-					"value": 0.6
+					"value": 0.6,
+					"valueStr": null
 				}
 			]
 		},
@@ -131,10 +143,10 @@
 			"name": "蓄力毒尾击",
 			"rangeId": null,
 			"description": "攻击前摇和攻击间隔<@ba.vdown>增大</>，攻击力<@ba.vup>+{atk:0%}</>，使命中目标<$ba.stun>晕眩</><@ba.vup>{attack@stun:0.0}</>秒",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 20,
@@ -146,15 +158,18 @@
 			"blackboard": [
 				{
 					"key": "base_attack_time",
-					"value": 1.7
+					"value": 1.7,
+					"valueStr": null
 				},
 				{
 					"key": "atk",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				},
 				{
 					"key": "attack@stun",
-					"value": 0.6
+					"value": 0.6,
+					"valueStr": null
 				}
 			]
 		},
@@ -162,10 +177,10 @@
 			"name": "蓄力毒尾击",
 			"rangeId": null,
 			"description": "攻击前摇和攻击间隔<@ba.vdown>增大</>，攻击力<@ba.vup>+{atk:0%}</>，使命中目标<$ba.stun>晕眩</><@ba.vup>{attack@stun:0.0}</>秒",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 20,
@@ -177,15 +192,18 @@
 			"blackboard": [
 				{
 					"key": "base_attack_time",
-					"value": 1.7
+					"value": 1.7,
+					"valueStr": null
 				},
 				{
 					"key": "atk",
-					"value": 0.55
+					"value": 0.55,
+					"valueStr": null
 				},
 				{
 					"key": "attack@stun",
-					"value": 0.6
+					"value": 0.6,
+					"valueStr": null
 				}
 			]
 		},
@@ -193,10 +211,10 @@
 			"name": "蓄力毒尾击",
 			"rangeId": null,
 			"description": "攻击前摇和攻击间隔<@ba.vdown>增大</>，攻击力<@ba.vup>+{atk:0%}</>，使命中目标<$ba.stun>晕眩</><@ba.vup>{attack@stun:0.0}</>秒",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 20,
@@ -208,15 +226,18 @@
 			"blackboard": [
 				{
 					"key": "base_attack_time",
-					"value": 1.7
+					"value": 1.7,
+					"valueStr": null
 				},
 				{
 					"key": "atk",
-					"value": 0.6
+					"value": 0.6,
+					"valueStr": null
 				},
 				{
 					"key": "attack@stun",
-					"value": 0.7
+					"value": 0.7,
+					"valueStr": null
 				}
 			]
 		},
@@ -224,10 +245,10 @@
 			"name": "蓄力毒尾击",
 			"rangeId": null,
 			"description": "攻击前摇和攻击间隔<@ba.vdown>增大</>，攻击力<@ba.vup>+{atk:0%}</>，使命中目标<$ba.stun>晕眩</><@ba.vup>{attack@stun:0.0}</>秒",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 20,
@@ -239,15 +260,18 @@
 			"blackboard": [
 				{
 					"key": "base_attack_time",
-					"value": 1.7
+					"value": 1.7,
+					"valueStr": null
 				},
 				{
 					"key": "atk",
-					"value": 0.7
+					"value": 0.7,
+					"valueStr": null
 				},
 				{
 					"key": "attack@stun",
-					"value": 0.8
+					"value": 0.8,
+					"valueStr": null
 				}
 			]
 		},
@@ -255,10 +279,10 @@
 			"name": "蓄力毒尾击",
 			"rangeId": null,
 			"description": "攻击前摇和攻击间隔<@ba.vdown>增大</>，攻击力<@ba.vup>+{atk:0%}</>，使命中目标<$ba.stun>晕眩</><@ba.vup>{attack@stun:0.0}</>秒",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 20,
@@ -270,15 +294,18 @@
 			"blackboard": [
 				{
 					"key": "base_attack_time",
-					"value": 1.7
+					"value": 1.7,
+					"valueStr": null
 				},
 				{
 					"key": "atk",
-					"value": 0.8
+					"value": 0.8,
+					"valueStr": null
 				},
 				{
 					"key": "attack@stun",
-					"value": 0.9
+					"value": 0.9,
+					"valueStr": null
 				}
 			]
 		},
@@ -286,10 +313,10 @@
 			"name": "蓄力毒尾击",
 			"rangeId": null,
 			"description": "攻击前摇和攻击间隔<@ba.vdown>增大</>，攻击力<@ba.vup>+{atk:0%}</>，使命中目标<$ba.stun>晕眩</><@ba.vup>{attack@stun:0.0}</>秒",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 20,
@@ -301,15 +328,18 @@
 			"blackboard": [
 				{
 					"key": "base_attack_time",
-					"value": 1.7
+					"value": 1.7,
+					"valueStr": null
 				},
 				{
 					"key": "atk",
-					"value": 0.9
+					"value": 0.9,
+					"valueStr": null
 				},
 				{
 					"key": "attack@stun",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		}

@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act12side_tr01",
@@ -10,7 +11,7 @@
 	],
 	"stageId": "act12side_01",
 	"levelId": "Activities/ACT12SIDE/level_act12side_01",
-	"zoneId": "act12side_zone1",
+	"zoneId": "act12sre_zone1",
 	"code": "DH-1",
 	"name": "뜻밖의 입선",
 	"description": "첸은 어쩌면 이 도시에서 린 위시아와 마주칠 수도 있겠다는 예감이 들었지만, 이렇게 빨리, 그것도 이런 방식일 줄은 몰랐다.\n<@lv.item><밀물></> 침수된 지역에 배치할 수 없으며 적군과 아군 모두 '수식' 상태에 빠진다. 수식: 아군의 공격 속도 저하, 지속적인 침식 피해를 입으며, 피격 시 침식 피해를 추가로 입는다. 적군의 공격 속도 및 이동 속도 저하, 지속해서 HP를 잃는다",
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {

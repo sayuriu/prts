@@ -1,0 +1,397 @@
+{
+	"skillId": "skchr_nearl2_2",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "闇を払う暁光",
+			"rangeId": null,
+			"description": "パッシブ：配置可能数に<@ba.vup>カウントされない</>\n配置後、攻撃力<@ba.vup>+{atk:0%}</>、<$ba.shield>シールド</><@ba.vup>{times}</>枚獲得\n効果時間終了後、自動的に撤退する。撤退後、次回までの再配置時間が<@ba.vup>+{value:0%}</>されるが、直前に配置したオペレーターが【カジミエーシュ】に属する場合、再配置時間延長効果を<@ba.vup>無効化</>する",
+			"skillType": 0,
+			"durationType": 0,
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": "skchr_nearl2_2",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.6
+				},
+				{
+					"key": "times",
+					"value": 2
+				},
+				{
+					"key": "respawn_time",
+					"value": 1.25
+				},
+				{
+					"key": "nearl2_s_2[withdraw][combo].respawn_time",
+					"value": 1
+				},
+				{
+					"key": "value",
+					"value": 0.25
+				}
+			]
+		},
+		{
+			"name": "闇を払う暁光",
+			"rangeId": null,
+			"description": "パッシブ：配置可能数に<@ba.vup>カウントされない</>\n配置後、攻撃力<@ba.vup>+{atk:0%}</>、<$ba.shield>シールド</><@ba.vup>{times}</>枚獲得\n効果時間終了後、自動的に撤退する。撤退後、次回までの再配置時間が<@ba.vup>+{value:0%}</>されるが、直前に配置したオペレーターが【カジミエーシュ】に属する場合、再配置時間延長効果を<@ba.vup>無効化</>する",
+			"skillType": 0,
+			"durationType": 0,
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": "skchr_nearl2_2",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.7
+				},
+				{
+					"key": "times",
+					"value": 2
+				},
+				{
+					"key": "respawn_time",
+					"value": 1.25
+				},
+				{
+					"key": "nearl2_s_2[withdraw][combo].respawn_time",
+					"value": 1
+				},
+				{
+					"key": "value",
+					"value": 0.25
+				}
+			]
+		},
+		{
+			"name": "闇を払う暁光",
+			"rangeId": null,
+			"description": "パッシブ：配置可能数に<@ba.vup>カウントされない</>\n配置後、攻撃力<@ba.vup>+{atk:0%}</>、<$ba.shield>シールド</><@ba.vup>{times}</>枚獲得\n効果時間終了後、自動的に撤退する。撤退後、次回までの再配置時間が<@ba.vup>+{value:0%}</>されるが、直前に配置したオペレーターが【カジミエーシュ】に属する場合、再配置時間延長効果を<@ba.vup>無効化</>する",
+			"skillType": 0,
+			"durationType": 0,
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": "skchr_nearl2_2",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.8
+				},
+				{
+					"key": "times",
+					"value": 2
+				},
+				{
+					"key": "respawn_time",
+					"value": 1.25
+				},
+				{
+					"key": "nearl2_s_2[withdraw][combo].respawn_time",
+					"value": 1
+				},
+				{
+					"key": "value",
+					"value": 0.25
+				}
+			]
+		},
+		{
+			"name": "闇を払う暁光",
+			"rangeId": null,
+			"description": "パッシブ：配置可能数に<@ba.vup>カウントされない</>\n配置後、攻撃力<@ba.vup>+{atk:0%}</>、<$ba.shield>シールド</><@ba.vup>{times}</>枚獲得\n効果時間終了後、自動的に撤退する。撤退後、次回までの再配置時間が<@ba.vup>+{value:0%}</>されるが、直前に配置したオペレーターが【カジミエーシュ】に属する場合、再配置時間延長効果を<@ba.vup>無効化</>する",
+			"skillType": 0,
+			"durationType": 0,
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": "skchr_nearl2_2",
+			"duration": 22,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.9
+				},
+				{
+					"key": "times",
+					"value": 3
+				},
+				{
+					"key": "respawn_time",
+					"value": 1.25
+				},
+				{
+					"key": "nearl2_s_2[withdraw][combo].respawn_time",
+					"value": 1
+				},
+				{
+					"key": "value",
+					"value": 0.25
+				}
+			]
+		},
+		{
+			"name": "闇を払う暁光",
+			"rangeId": null,
+			"description": "パッシブ：配置可能数に<@ba.vup>カウントされない</>\n配置後、攻撃力<@ba.vup>+{atk:0%}</>、<$ba.shield>シールド</><@ba.vup>{times}</>枚獲得\n効果時間終了後、自動的に撤退する。撤退後、次回までの再配置時間が<@ba.vup>+{value:0%}</>されるが、直前に配置したオペレーターが【カジミエーシュ】に属する場合、再配置時間延長効果を<@ba.vup>無効化</>する",
+			"skillType": 0,
+			"durationType": 0,
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": "skchr_nearl2_2",
+			"duration": 22,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 1
+				},
+				{
+					"key": "times",
+					"value": 3
+				},
+				{
+					"key": "respawn_time",
+					"value": 1.25
+				},
+				{
+					"key": "nearl2_s_2[withdraw][combo].respawn_time",
+					"value": 1
+				},
+				{
+					"key": "value",
+					"value": 0.25
+				}
+			]
+		},
+		{
+			"name": "闇を払う暁光",
+			"rangeId": null,
+			"description": "パッシブ：配置可能数に<@ba.vup>カウントされない</>\n配置後、攻撃力<@ba.vup>+{atk:0%}</>、<$ba.shield>シールド</><@ba.vup>{times}</>枚獲得\n効果時間終了後、自動的に撤退する。撤退後、次回までの再配置時間が<@ba.vup>+{value:0%}</>されるが、直前に配置したオペレーターが【カジミエーシュ】に属する場合、再配置時間延長効果を<@ba.vup>無効化</>する",
+			"skillType": 0,
+			"durationType": 0,
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": "skchr_nearl2_2",
+			"duration": 22,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 1.1
+				},
+				{
+					"key": "times",
+					"value": 3
+				},
+				{
+					"key": "respawn_time",
+					"value": 1.25
+				},
+				{
+					"key": "nearl2_s_2[withdraw][combo].respawn_time",
+					"value": 1
+				},
+				{
+					"key": "value",
+					"value": 0.25
+				}
+			]
+		},
+		{
+			"name": "闇を払う暁光",
+			"rangeId": null,
+			"description": "パッシブ：配置可能数に<@ba.vup>カウントされない</>\n配置後、攻撃力<@ba.vup>+{atk:0%}</>、<$ba.shield>シールド</><@ba.vup>{times}</>枚獲得\n効果時間終了後、自動的に撤退する。撤退後、次回までの再配置時間が<@ba.vup>+{value:0%}</>されるが、直前に配置したオペレーターが【カジミエーシュ】に属する場合、再配置時間延長効果を<@ba.vup>無効化</>する",
+			"skillType": 0,
+			"durationType": 0,
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": "skchr_nearl2_2",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 1.2
+				},
+				{
+					"key": "times",
+					"value": 3
+				},
+				{
+					"key": "respawn_time",
+					"value": 1.25
+				},
+				{
+					"key": "nearl2_s_2[withdraw][combo].respawn_time",
+					"value": 1
+				},
+				{
+					"key": "value",
+					"value": 0.25
+				}
+			]
+		},
+		{
+			"name": "闇を払う暁光",
+			"rangeId": null,
+			"description": "パッシブ：配置可能数に<@ba.vup>カウントされない</>\n配置後、攻撃力<@ba.vup>+{atk:0%}</>、<$ba.shield>シールド</><@ba.vup>{times}</>枚獲得\n効果時間終了後、自動的に撤退する。撤退後、次回までの再配置時間が<@ba.vup>+{value:0%}</>されるが、直前に配置したオペレーターが【カジミエーシュ】に属する場合、再配置時間延長効果を<@ba.vup>無効化</>する",
+			"skillType": 0,
+			"durationType": 0,
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": "skchr_nearl2_2",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 1.3
+				},
+				{
+					"key": "times",
+					"value": 4
+				},
+				{
+					"key": "respawn_time",
+					"value": 1.25
+				},
+				{
+					"key": "nearl2_s_2[withdraw][combo].respawn_time",
+					"value": 1
+				},
+				{
+					"key": "value",
+					"value": 0.25
+				}
+			]
+		},
+		{
+			"name": "闇を払う暁光",
+			"rangeId": null,
+			"description": "パッシブ：配置可能数に<@ba.vup>カウントされない</>\n配置後、攻撃力<@ba.vup>+{atk:0%}</>、<$ba.shield>シールド</><@ba.vup>{times}</>枚獲得\n効果時間終了後、自動的に撤退する。撤退後、次回までの再配置時間が<@ba.vup>+{value:0%}</>されるが、直前に配置したオペレーターが【カジミエーシュ】に属する場合、再配置時間延長効果を<@ba.vup>無効化</>する",
+			"skillType": 0,
+			"durationType": 0,
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": "skchr_nearl2_2",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 1.45
+				},
+				{
+					"key": "times",
+					"value": 4
+				},
+				{
+					"key": "respawn_time",
+					"value": 1.25
+				},
+				{
+					"key": "nearl2_s_2[withdraw][combo].respawn_time",
+					"value": 1
+				},
+				{
+					"key": "value",
+					"value": 0.25
+				}
+			]
+		},
+		{
+			"name": "闇を払う暁光",
+			"rangeId": null,
+			"description": "パッシブ：配置可能数に<@ba.vup>カウントされない</>\n配置後、攻撃力<@ba.vup>+{atk:0%}</>、<$ba.shield>シールド</><@ba.vup>{times}</>枚獲得\n効果時間終了後、自動的に撤退する。撤退後、次回までの再配置時間が<@ba.vup>+{value:0%}</>されるが、直前に配置したオペレーターが【カジミエーシュ】に属する場合、再配置時間延長効果を<@ba.vup>無効化</>する",
+			"skillType": 0,
+			"durationType": 0,
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": "skchr_nearl2_2",
+			"duration": 27,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 1.6
+				},
+				{
+					"key": "times",
+					"value": 4
+				},
+				{
+					"key": "respawn_time",
+					"value": 1.25
+				},
+				{
+					"key": "nearl2_s_2[withdraw][combo].respawn_time",
+					"value": 1
+				},
+				{
+					"key": "value",
+					"value": 0.25
+				}
+			]
+		}
+	]
+}

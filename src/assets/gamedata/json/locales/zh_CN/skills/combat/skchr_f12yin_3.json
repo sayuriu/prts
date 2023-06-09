@@ -7,10 +7,10 @@
 			"name": "震地碎岩击",
 			"rangeId": "x-5",
 			"description": "攻击间隔<@ba.vdown>增大</>，攻击力<@ba.vup>+{atk:0%}</>，攻击变为<@ba.vup>2</>连击，第一天赋的发动几率提升至<@ba.vup>{talent@prob:0%}</>，每次攻击周围最多<@ba.vup>{attack@max_target}</>个敌人并将其<@ba.vup>中等力度地</>推动",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 50,
@@ -22,23 +22,28 @@
 			"blackboard": [
 				{
 					"key": "base_attack_time",
-					"value": 0.7
+					"value": 0.7,
+					"valueStr": null
 				},
 				{
 					"key": "atk",
-					"value": 0.4
+					"value": 0.4,
+					"valueStr": null
 				},
 				{
 					"key": "talent@prob",
-					"value": 0.4
+					"value": 0.4,
+					"valueStr": null
 				},
 				{
 					"key": "attack@force",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "attack@max_target",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				}
 			]
 		},
@@ -46,10 +51,10 @@
 			"name": "震地碎岩击",
 			"rangeId": "x-5",
 			"description": "攻击间隔<@ba.vdown>增大</>，攻击力<@ba.vup>+{atk:0%}</>，攻击变为<@ba.vup>2</>连击，第一天赋的发动几率提升至<@ba.vup>{talent@prob:0%}</>，每次攻击周围最多<@ba.vup>{attack@max_target}</>个敌人并将其<@ba.vup>中等力度地</>推动",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 49,
@@ -61,23 +66,28 @@
 			"blackboard": [
 				{
 					"key": "base_attack_time",
-					"value": 0.7
+					"value": 0.7,
+					"valueStr": null
 				},
 				{
 					"key": "atk",
-					"value": 0.45
+					"value": 0.45,
+					"valueStr": null
 				},
 				{
 					"key": "talent@prob",
-					"value": 0.42
+					"value": 0.42,
+					"valueStr": null
 				},
 				{
 					"key": "attack@force",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "attack@max_target",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				}
 			]
 		},
@@ -85,10 +95,10 @@
 			"name": "震地碎岩击",
 			"rangeId": "x-5",
 			"description": "攻击间隔<@ba.vdown>增大</>，攻击力<@ba.vup>+{atk:0%}</>，攻击变为<@ba.vup>2</>连击，第一天赋的发动几率提升至<@ba.vup>{talent@prob:0%}</>，每次攻击周围最多<@ba.vup>{attack@max_target}</>个敌人并将其<@ba.vup>中等力度地</>推动",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 48,
@@ -100,23 +110,28 @@
 			"blackboard": [
 				{
 					"key": "base_attack_time",
-					"value": 0.7
+					"value": 0.7,
+					"valueStr": null
 				},
 				{
 					"key": "atk",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				},
 				{
 					"key": "talent@prob",
-					"value": 0.44
+					"value": 0.44,
+					"valueStr": null
 				},
 				{
 					"key": "attack@force",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "attack@max_target",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				}
 			]
 		},
@@ -124,10 +139,10 @@
 			"name": "震地碎岩击",
 			"rangeId": "x-5",
 			"description": "攻击间隔<@ba.vdown>增大</>，攻击力<@ba.vup>+{atk:0%}</>，攻击变为<@ba.vup>2</>连击，第一天赋的发动几率提升至<@ba.vup>{talent@prob:0%}</>，每次攻击周围最多<@ba.vup>{attack@max_target}</>个敌人并将其<@ba.vup>中等力度地</>推动",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 47,
@@ -139,23 +154,28 @@
 			"blackboard": [
 				{
 					"key": "base_attack_time",
-					"value": 0.7
+					"value": 0.7,
+					"valueStr": null
 				},
 				{
 					"key": "atk",
-					"value": 0.55
+					"value": 0.55,
+					"valueStr": null
 				},
 				{
 					"key": "talent@prob",
-					"value": 0.48
+					"value": 0.48,
+					"valueStr": null
 				},
 				{
 					"key": "attack@force",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "attack@max_target",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				}
 			]
 		},
@@ -163,10 +183,10 @@
 			"name": "震地碎岩击",
 			"rangeId": "x-5",
 			"description": "攻击间隔<@ba.vdown>增大</>，攻击力<@ba.vup>+{atk:0%}</>，攻击变为<@ba.vup>2</>连击，第一天赋的发动几率提升至<@ba.vup>{talent@prob:0%}</>，每次攻击周围最多<@ba.vup>{attack@max_target}</>个敌人并将其<@ba.vup>中等力度地</>推动",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 46,
@@ -178,23 +198,28 @@
 			"blackboard": [
 				{
 					"key": "base_attack_time",
-					"value": 0.7
+					"value": 0.7,
+					"valueStr": null
 				},
 				{
 					"key": "atk",
-					"value": 0.6
+					"value": 0.6,
+					"valueStr": null
 				},
 				{
 					"key": "talent@prob",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				},
 				{
 					"key": "attack@force",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "attack@max_target",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				}
 			]
 		},
@@ -202,10 +227,10 @@
 			"name": "震地碎岩击",
 			"rangeId": "x-5",
 			"description": "攻击间隔<@ba.vdown>增大</>，攻击力<@ba.vup>+{atk:0%}</>，攻击变为<@ba.vup>2</>连击，第一天赋的发动几率提升至<@ba.vup>{talent@prob:0%}</>，每次攻击周围最多<@ba.vup>{attack@max_target}</>个敌人并将其<@ba.vup>中等力度地</>推动",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 45,
@@ -217,23 +242,28 @@
 			"blackboard": [
 				{
 					"key": "base_attack_time",
-					"value": 0.7
+					"value": 0.7,
+					"valueStr": null
 				},
 				{
 					"key": "atk",
-					"value": 0.65
+					"value": 0.65,
+					"valueStr": null
 				},
 				{
 					"key": "talent@prob",
-					"value": 0.52
+					"value": 0.52,
+					"valueStr": null
 				},
 				{
 					"key": "attack@force",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "attack@max_target",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				}
 			]
 		},
@@ -241,10 +271,10 @@
 			"name": "震地碎岩击",
 			"rangeId": "x-5",
 			"description": "攻击间隔<@ba.vdown>增大</>，攻击力<@ba.vup>+{atk:0%}</>，攻击变为<@ba.vup>2</>连击，第一天赋的发动几率提升至<@ba.vup>{talent@prob:0%}</>，每次攻击周围最多<@ba.vup>{attack@max_target}</>个敌人并将其<@ba.vup>中等力度地</>推动",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 44,
@@ -256,23 +286,28 @@
 			"blackboard": [
 				{
 					"key": "base_attack_time",
-					"value": 0.7
+					"value": 0.7,
+					"valueStr": null
 				},
 				{
 					"key": "atk",
-					"value": 0.7
+					"value": 0.7,
+					"valueStr": null
 				},
 				{
 					"key": "talent@prob",
-					"value": 0.55
+					"value": 0.55,
+					"valueStr": null
 				},
 				{
 					"key": "attack@force",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "attack@max_target",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				}
 			]
 		},
@@ -280,10 +315,10 @@
 			"name": "震地碎岩击",
 			"rangeId": "x-5",
 			"description": "攻击间隔<@ba.vdown>增大</>，攻击力<@ba.vup>+{atk:0%}</>，攻击变为<@ba.vup>2</>连击，第一天赋的发动几率提升至<@ba.vup>{talent@prob:0%}</>，每次攻击周围最多<@ba.vup>{attack@max_target}</>个敌人并将其<@ba.vup>中等力度地</>推动",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 43,
@@ -295,23 +330,28 @@
 			"blackboard": [
 				{
 					"key": "base_attack_time",
-					"value": 0.7
+					"value": 0.7,
+					"valueStr": null
 				},
 				{
 					"key": "atk",
-					"value": 0.8
+					"value": 0.8,
+					"valueStr": null
 				},
 				{
 					"key": "talent@prob",
-					"value": 0.6
+					"value": 0.6,
+					"valueStr": null
 				},
 				{
 					"key": "attack@force",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "attack@max_target",
-					"value": 4
+					"value": 4,
+					"valueStr": null
 				}
 			]
 		},
@@ -319,10 +359,10 @@
 			"name": "震地碎岩击",
 			"rangeId": "x-5",
 			"description": "攻击间隔<@ba.vdown>增大</>，攻击力<@ba.vup>+{atk:0%}</>，攻击变为<@ba.vup>2</>连击，第一天赋的发动几率提升至<@ba.vup>{talent@prob:0%}</>，每次攻击周围最多<@ba.vup>{attack@max_target}</>个敌人并将其<@ba.vup>中等力度地</>推动",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 42,
@@ -334,23 +374,28 @@
 			"blackboard": [
 				{
 					"key": "base_attack_time",
-					"value": 0.7
+					"value": 0.7,
+					"valueStr": null
 				},
 				{
 					"key": "atk",
-					"value": 0.9
+					"value": 0.9,
+					"valueStr": null
 				},
 				{
 					"key": "talent@prob",
-					"value": 0.65
+					"value": 0.65,
+					"valueStr": null
 				},
 				{
 					"key": "attack@force",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "attack@max_target",
-					"value": 4
+					"value": 4,
+					"valueStr": null
 				}
 			]
 		},
@@ -358,10 +403,10 @@
 			"name": "震地碎岩击",
 			"rangeId": "x-5",
 			"description": "攻击间隔<@ba.vdown>增大</>，攻击力<@ba.vup>+{atk:0%}</>，攻击变为<@ba.vup>2</>连击，第一天赋的发动几率提升至<@ba.vup>{talent@prob:0%}</>，每次攻击周围最多<@ba.vup>{attack@max_target}</>个敌人并将其<@ba.vup>中等力度地</>推动",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 40,
@@ -373,23 +418,28 @@
 			"blackboard": [
 				{
 					"key": "base_attack_time",
-					"value": 0.7
+					"value": 0.7,
+					"valueStr": null
 				},
 				{
 					"key": "atk",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "talent@prob",
-					"value": 0.75
+					"value": 0.75,
+					"valueStr": null
 				},
 				{
 					"key": "attack@force",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "attack@max_target",
-					"value": 4
+					"value": 4,
+					"valueStr": null
 				}
 			]
 		}

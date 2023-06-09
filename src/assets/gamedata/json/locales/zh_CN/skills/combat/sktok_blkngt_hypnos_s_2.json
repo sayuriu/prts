@@ -6,9 +6,9 @@
 		{
 			"name": "食梦",
 			"rangeId": null,
-			"description": "可以攻击并优先攻击沉睡的目标",
-			"skillType": 0,
-			"durationType": 0,
+			"description": "可以攻击并优先攻击<$ba.sleep>沉睡</>的目标",
+			"skillType": "PASSIVE",
+			"durationType": "PASSIVE",
 			"spData": {
 				"spType": 8,
 				"levelUpCost": null,

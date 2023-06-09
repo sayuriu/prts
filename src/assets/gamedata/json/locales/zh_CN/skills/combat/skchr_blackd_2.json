@@ -7,10 +7,10 @@
 			"name": "冲锋号令·防御",
 			"rangeId": null,
 			"description": "立即获得<@ba.vup>{blackd_s_2[once].cost}</>点部署费用\\n技能持续期间内逐渐获得<@ba.vup>{blackd_s_2[period].trig_cnt}</>点部署费用，防御力<@ba.vup>+{blackd_s_2[period].def:0%}</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 40,
@@ -22,23 +22,28 @@
 			"blackboard": [
 				{
 					"key": "blackd_s_2[period].def",
-					"value": 0.3
+					"value": 0.3,
+					"valueStr": null
 				},
 				{
 					"key": "blackd_s_2[period].cost",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "blackd_s_2[period].interval",
-					"value": 1.87
+					"value": 1.87,
+					"valueStr": null
 				},
 				{
 					"key": "blackd_s_2[period].trig_cnt",
-					"value": 8
+					"value": 8,
+					"valueStr": null
 				},
 				{
 					"key": "blackd_s_2[once].cost",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				}
 			]
 		},
@@ -46,10 +51,10 @@
 			"name": "冲锋号令·防御",
 			"rangeId": null,
 			"description": "立即获得<@ba.vup>{blackd_s_2[once].cost}</>点部署费用\\n技能持续期间内逐渐获得<@ba.vup>{blackd_s_2[period].trig_cnt}</>点部署费用，防御力<@ba.vup>+{blackd_s_2[period].def:0%}</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 39,
@@ -61,23 +66,28 @@
 			"blackboard": [
 				{
 					"key": "blackd_s_2[period].def",
-					"value": 0.33
+					"value": 0.33,
+					"valueStr": null
 				},
 				{
 					"key": "blackd_s_2[period].cost",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "blackd_s_2[period].interval",
-					"value": 1.87
+					"value": 1.87,
+					"valueStr": null
 				},
 				{
 					"key": "blackd_s_2[period].trig_cnt",
-					"value": 8
+					"value": 8,
+					"valueStr": null
 				},
 				{
 					"key": "blackd_s_2[once].cost",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				}
 			]
 		},
@@ -85,10 +95,10 @@
 			"name": "冲锋号令·防御",
 			"rangeId": null,
 			"description": "立即获得<@ba.vup>{blackd_s_2[once].cost}</>点部署费用\\n技能持续期间内逐渐获得<@ba.vup>{blackd_s_2[period].trig_cnt}</>点部署费用，防御力<@ba.vup>+{blackd_s_2[period].def:0%}</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 38,
@@ -100,23 +110,28 @@
 			"blackboard": [
 				{
 					"key": "blackd_s_2[period].def",
-					"value": 0.37
+					"value": 0.37,
+					"valueStr": null
 				},
 				{
 					"key": "blackd_s_2[period].cost",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "blackd_s_2[period].interval",
-					"value": 1.87
+					"value": 1.87,
+					"valueStr": null
 				},
 				{
 					"key": "blackd_s_2[period].trig_cnt",
-					"value": 8
+					"value": 8,
+					"valueStr": null
 				},
 				{
 					"key": "blackd_s_2[once].cost",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				}
 			]
 		},
@@ -124,10 +139,10 @@
 			"name": "冲锋号令·防御",
 			"rangeId": null,
 			"description": "立即获得<@ba.vup>{blackd_s_2[once].cost}</>点部署费用\\n技能持续期间内逐渐获得<@ba.vup>{blackd_s_2[period].trig_cnt}</>点部署费用，防御力<@ba.vup>+{blackd_s_2[period].def:0%}</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 37,
@@ -139,23 +154,28 @@
 			"blackboard": [
 				{
 					"key": "blackd_s_2[period].def",
-					"value": 0.4
+					"value": 0.4,
+					"valueStr": null
 				},
 				{
 					"key": "blackd_s_2[period].cost",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "blackd_s_2[period].interval",
-					"value": 1.87
+					"value": 1.87,
+					"valueStr": null
 				},
 				{
 					"key": "blackd_s_2[period].trig_cnt",
-					"value": 8
+					"value": 8,
+					"valueStr": null
 				},
 				{
 					"key": "blackd_s_2[once].cost",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				}
 			]
 		},
@@ -163,10 +183,10 @@
 			"name": "冲锋号令·防御",
 			"rangeId": null,
 			"description": "立即获得<@ba.vup>{blackd_s_2[once].cost}</>点部署费用\\n技能持续期间内逐渐获得<@ba.vup>{blackd_s_2[period].trig_cnt}</>点部署费用，防御力<@ba.vup>+{blackd_s_2[period].def:0%}</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 36,
@@ -178,23 +198,28 @@
 			"blackboard": [
 				{
 					"key": "blackd_s_2[period].def",
-					"value": 0.43
+					"value": 0.43,
+					"valueStr": null
 				},
 				{
 					"key": "blackd_s_2[period].cost",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "blackd_s_2[period].interval",
-					"value": 1.87
+					"value": 1.87,
+					"valueStr": null
 				},
 				{
 					"key": "blackd_s_2[period].trig_cnt",
-					"value": 8
+					"value": 8,
+					"valueStr": null
 				},
 				{
 					"key": "blackd_s_2[once].cost",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				}
 			]
 		},
@@ -202,10 +227,10 @@
 			"name": "冲锋号令·防御",
 			"rangeId": null,
 			"description": "立即获得<@ba.vup>{blackd_s_2[once].cost}</>点部署费用\\n技能持续期间内逐渐获得<@ba.vup>{blackd_s_2[period].trig_cnt}</>点部署费用，防御力<@ba.vup>+{blackd_s_2[period].def:0%}</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 35,
@@ -217,23 +242,28 @@
 			"blackboard": [
 				{
 					"key": "blackd_s_2[period].def",
-					"value": 0.47
+					"value": 0.47,
+					"valueStr": null
 				},
 				{
 					"key": "blackd_s_2[period].cost",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "blackd_s_2[period].interval",
-					"value": 1.87
+					"value": 1.87,
+					"valueStr": null
 				},
 				{
 					"key": "blackd_s_2[period].trig_cnt",
-					"value": 8
+					"value": 8,
+					"valueStr": null
 				},
 				{
 					"key": "blackd_s_2[once].cost",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				}
 			]
 		},
@@ -241,10 +271,10 @@
 			"name": "冲锋号令·防御",
 			"rangeId": null,
 			"description": "立即获得<@ba.vup>{blackd_s_2[once].cost}</>点部署费用\\n技能持续期间内逐渐获得<@ba.vup>{blackd_s_2[period].trig_cnt}</>点部署费用，防御力<@ba.vup>+{blackd_s_2[period].def:0%}</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 34,
@@ -256,23 +286,28 @@
 			"blackboard": [
 				{
 					"key": "blackd_s_2[period].def",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				},
 				{
 					"key": "blackd_s_2[period].cost",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "blackd_s_2[period].interval",
-					"value": 1.87
+					"value": 1.87,
+					"valueStr": null
 				},
 				{
 					"key": "blackd_s_2[period].trig_cnt",
-					"value": 8
+					"value": 8,
+					"valueStr": null
 				},
 				{
 					"key": "blackd_s_2[once].cost",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				}
 			]
 		},
@@ -280,10 +315,10 @@
 			"name": "冲锋号令·防御",
 			"rangeId": null,
 			"description": "立即获得<@ba.vup>{blackd_s_2[once].cost}</>点部署费用\\n技能持续期间内逐渐获得<@ba.vup>{blackd_s_2[period].trig_cnt}</>点部署费用，防御力<@ba.vup>+{blackd_s_2[period].def:0%}</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 33,
@@ -295,23 +330,28 @@
 			"blackboard": [
 				{
 					"key": "blackd_s_2[period].def",
-					"value": 0.6
+					"value": 0.6,
+					"valueStr": null
 				},
 				{
 					"key": "blackd_s_2[period].cost",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "blackd_s_2[period].interval",
-					"value": 1.87
+					"value": 1.87,
+					"valueStr": null
 				},
 				{
 					"key": "blackd_s_2[period].trig_cnt",
-					"value": 8
+					"value": 8,
+					"valueStr": null
 				},
 				{
 					"key": "blackd_s_2[once].cost",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				}
 			]
 		},
@@ -319,10 +359,10 @@
 			"name": "冲锋号令·防御",
 			"rangeId": null,
 			"description": "立即获得<@ba.vup>{blackd_s_2[once].cost}</>点部署费用\\n技能持续期间内逐渐获得<@ba.vup>{blackd_s_2[period].trig_cnt}</>点部署费用，防御力<@ba.vup>+{blackd_s_2[period].def:0%}</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 32,
@@ -334,23 +374,28 @@
 			"blackboard": [
 				{
 					"key": "blackd_s_2[period].def",
-					"value": 0.7
+					"value": 0.7,
+					"valueStr": null
 				},
 				{
 					"key": "blackd_s_2[period].cost",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "blackd_s_2[period].interval",
-					"value": 1.87
+					"value": 1.87,
+					"valueStr": null
 				},
 				{
 					"key": "blackd_s_2[period].trig_cnt",
-					"value": 8
+					"value": 8,
+					"valueStr": null
 				},
 				{
 					"key": "blackd_s_2[once].cost",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				}
 			]
 		},
@@ -358,10 +403,10 @@
 			"name": "冲锋号令·防御",
 			"rangeId": null,
 			"description": "立即获得<@ba.vup>{blackd_s_2[once].cost}</>点部署费用\\n技能持续期间内逐渐获得<@ba.vup>{blackd_s_2[period].trig_cnt}</>点部署费用，防御力<@ba.vup>+{blackd_s_2[period].def:0%}</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 30,
@@ -373,23 +418,28 @@
 			"blackboard": [
 				{
 					"key": "blackd_s_2[period].def",
-					"value": 0.8
+					"value": 0.8,
+					"valueStr": null
 				},
 				{
 					"key": "blackd_s_2[period].cost",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "blackd_s_2[period].interval",
-					"value": 1.87
+					"value": 1.87,
+					"valueStr": null
 				},
 				{
 					"key": "blackd_s_2[period].trig_cnt",
-					"value": 8
+					"value": 8,
+					"valueStr": null
 				},
 				{
 					"key": "blackd_s_2[once].cost",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				}
 			]
 		}

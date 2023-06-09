@@ -1,18 +1,19 @@
 //This data is meant for constructing data structures.
 exports = {
-    name: 'L-44"留声机"',
-    description: '通常不攻击且阻挡数为0，技能未开启时<@ba.kw>{max_stack_cnt}</>秒内攻击力逐渐提升至<@ba.kw>+{atk:0%}</>，技能结束时重置攻击力',
+    name: 'R-31a重型动力装甲',
+    description: '不攻击，持续恢复范围内所有友军<@ba.kw>生命</>（每秒恢复相当于自身攻击力10%的生命），自身不受<$ba.inspire>鼓舞</>影响，且不受<@ba.kw>部署数量</>限制，但再部署时间极长',
     potentialItemId: 'p_char_1012_skadi2',
     nationId: 'leithanien',
     displayNumber: 'R001',
-    appellation: "Seaborn's Filial Generation",
+    appellation: 'Liability Clearing Procedures for Discharged Personnel',
     position: 'RANGED',
     tagList: ['费用回复', '费用回复', '控场', '爆发'],
     itemUsage: '罗德岛特种机器人Thermal-EX（亦作THRM-EX），被工程师可露希尔派来执行战地作战任务。',
-    itemDesc: '这就是你的选择吗？他或许想要一个锚点来固定住自己，他会紧紧抓牢你。',
+    itemDesc: '罗德岛的消防部门一度对她的到来感到紧张，幸好她在多年的点火活动中同样总结出了灭火的心得。',
     itemObtainApproach: '招募寻访、见习任务',
+    rarity: 'TIER_5',
     profession: 'WARRIOR',
-    subProfessionId: 'artsprotector',
+    subProfessionId: 'incantationmedic',
     phases: [{
             characterPrefabKey: 'token_10000_silent_healrb',
             rangeId: '3-13',
@@ -20,53 +21,109 @@ exports = {
             attributesKeyFrames: [{
                     level: 1,
                     data: {
-                        maxHp: 699,
-                        atk: 276,
-                        def: 48,
-                        magicResistance: 10,
-                        cost: 18,
+                        maxHp: 3000,
+                        atk: 0,
+                        def: 300,
+                        magicResistance: 0,
+                        cost: 5,
                         blockCnt: 1,
                         moveSpeed: 1,
                         attackSpeed: 100,
-                        baseAttackTime: 1.6,
-                        respawnTime: 70,
+                        baseAttackTime: 1,
+                        respawnTime: 10,
                         hpRecoveryPerSec: 0,
                         spRecoveryPerSec: 1,
                         maxDeployCount: 1,
                         maxDeckStackCnt: 0,
-                        tauntLevel: 0,
+                        tauntLevel: -1,
                         massLevel: 0,
                         baseForceLevel: 0,
                         stunImmune: false,
                         silenceImmune: false,
                         sleepImmune: false,
-                        frozenImmune: false
+                        frozenImmune: false,
+                        levitateImmune: false
                     }
                 },
                 {
-                    level: 50,
+                    level: 2,
                     data: {
-                        maxHp: 958,
-                        atk: 390,
-                        def: 81,
-                        magicResistance: 10,
-                        cost: 18,
+                        maxHp: 4000,
+                        atk: 0,
+                        def: 300,
+                        magicResistance: 0,
+                        cost: 5,
                         blockCnt: 1,
                         moveSpeed: 1,
                         attackSpeed: 100,
-                        baseAttackTime: 1.6,
-                        respawnTime: 70,
+                        baseAttackTime: 1,
+                        respawnTime: 10,
                         hpRecoveryPerSec: 0,
                         spRecoveryPerSec: 1,
                         maxDeployCount: 1,
                         maxDeckStackCnt: 0,
-                        tauntLevel: 0,
+                        tauntLevel: -1,
                         massLevel: 0,
                         baseForceLevel: 0,
                         stunImmune: false,
                         silenceImmune: false,
                         sleepImmune: false,
-                        frozenImmune: false
+                        frozenImmune: false,
+                        levitateImmune: false
+                    }
+                },
+                {
+                    level: 3,
+                    data: {
+                        maxHp: 5000,
+                        atk: 0,
+                        def: 400,
+                        magicResistance: 0,
+                        cost: 5,
+                        blockCnt: 1,
+                        moveSpeed: 1,
+                        attackSpeed: 100,
+                        baseAttackTime: 1,
+                        respawnTime: 10,
+                        hpRecoveryPerSec: 0,
+                        spRecoveryPerSec: 1,
+                        maxDeployCount: 1,
+                        maxDeckStackCnt: 0,
+                        tauntLevel: -1,
+                        massLevel: 0,
+                        baseForceLevel: 0,
+                        stunImmune: false,
+                        silenceImmune: false,
+                        sleepImmune: false,
+                        frozenImmune: false,
+                        levitateImmune: false
+                    }
+                },
+                {
+                    level: 30,
+                    data: {
+                        maxHp: 5000,
+                        atk: 0,
+                        def: 400,
+                        magicResistance: 0,
+                        cost: 5,
+                        blockCnt: 1,
+                        moveSpeed: 1,
+                        attackSpeed: 100,
+                        baseAttackTime: 1,
+                        respawnTime: 10,
+                        hpRecoveryPerSec: 0,
+                        spRecoveryPerSec: 1,
+                        maxDeployCount: 1,
+                        maxDeckStackCnt: 0,
+                        tauntLevel: -1,
+                        massLevel: 0,
+                        baseForceLevel: 0,
+                        stunImmune: false,
+                        silenceImmune: false,
+                        sleepImmune: false,
+                        frozenImmune: false,
+                        levitateImmune: false
                     }
                 }
             ],
@@ -99,7 +156,8 @@ exports = {
                         stunImmune: false,
                         silenceImmune: false,
                         sleepImmune: false,
-                        frozenImmune: false
+                        frozenImmune: false,
+                        levitateImmune: false
                     }
                 },
                 {
@@ -125,7 +183,8 @@ exports = {
                         stunImmune: false,
                         silenceImmune: false,
                         sleepImmune: false,
-                        frozenImmune: false
+                        frozenImmune: false,
+                        levitateImmune: false
                     }
                 }
             ],
@@ -173,7 +232,8 @@ exports = {
                         stunImmune: false,
                         silenceImmune: false,
                         sleepImmune: false,
-                        frozenImmune: false
+                        frozenImmune: false,
+                        levitateImmune: false
                     }
                 },
                 {
@@ -199,7 +259,8 @@ exports = {
                         stunImmune: false,
                         silenceImmune: false,
                         sleepImmune: false,
-                        frozenImmune: false
+                        frozenImmune: false,
+                        levitateImmune: false
                     }
                 }
             ],
@@ -227,7 +288,7 @@ exports = {
             overrideTokenKey: null,
             levelUpCostCond: [{
                     unlockCond: {
-                        phase: 2,
+                        phase: 'PHASE_2',
                         level: 1
                     },
                     lvlUpTime: 28800,
@@ -250,7 +311,7 @@ exports = {
                 },
                 {
                     unlockCond: {
-                        phase: 2,
+                        phase: 'PHASE_2',
                         level: 1
                     },
                     lvlUpTime: 57600,
@@ -273,7 +334,7 @@ exports = {
                 },
                 {
                     unlockCond: {
-                        phase: 2,
+                        phase: 'PHASE_2',
                         level: 1
                     },
                     lvlUpTime: 86400,
@@ -296,17 +357,17 @@ exports = {
                 }
             ],
             unlockCond: {
-                phase: 0,
+                phase: 'PHASE_0',
                 level: 1
             }
         },
         {
             skillId: 'sktok_blkngt_hypnos_s_2',
             overridePrefabKey: null,
-            overrideTokenKey: 'token_10005_mgllan_drone2',
+            overrideTokenKey: 'token_10029_slent2_protrb',
             levelUpCostCond: [{
                     unlockCond: {
-                        phase: 2,
+                        phase: 'PHASE_2',
                         level: 1
                     },
                     lvlUpTime: 28800,
@@ -329,7 +390,7 @@ exports = {
                 },
                 {
                     unlockCond: {
-                        phase: 2,
+                        phase: 'PHASE_2',
                         level: 1
                     },
                     lvlUpTime: 57600,
@@ -352,7 +413,7 @@ exports = {
                 },
                 {
                     unlockCond: {
-                        phase: 2,
+                        phase: 'PHASE_2',
                         level: 1
                     },
                     lvlUpTime: 86400,
@@ -375,17 +436,17 @@ exports = {
                 }
             ],
             unlockCond: {
-                phase: 1,
+                phase: 'PHASE_1',
                 level: 1
             }
         },
         {
-            skillId: 'sktok_mgllan_drone1',
+            skillId: 'sktok_mlyss_wtrman_3',
             overridePrefabKey: null,
             overrideTokenKey: 'token_10005_mgllan_drone3',
             levelUpCostCond: [{
                     unlockCond: {
-                        phase: 2,
+                        phase: 'PHASE_2',
                         level: 1
                     },
                     lvlUpTime: 28800,
@@ -408,7 +469,7 @@ exports = {
                 },
                 {
                     unlockCond: {
-                        phase: 2,
+                        phase: 'PHASE_2',
                         level: 1
                     },
                     lvlUpTime: 57600,
@@ -431,7 +492,7 @@ exports = {
                 },
                 {
                     unlockCond: {
-                        phase: 2,
+                        phase: 'PHASE_2',
                         level: 1
                     },
                     lvlUpTime: 86400,
@@ -454,49 +515,133 @@ exports = {
                 }
             ],
             unlockCond: {
-                phase: 2,
+                phase: 'PHASE_2',
                 level: 1
             }
         }
     ],
     talents: [{
             candidates: [{
+                    unlockCondition: {
+                        phase: 'PHASE_0',
+                        level: 1
+                    },
+                    requiredPotentialRank: 0,
+                    prefabKey: '-1',
+                    name: null,
+                    description: '所有深海猎人干员的战术装备上限+5，每次获得战术装备时额外获得一件',
+                    rangeId: 'x-1',
+                    blackboard: [{
+                            key: 'taunt_level',
+                            value: 0.25,
+                            valueStr: null
+                        },
+                        {
+                            key: 'attack_speed',
+                            value: 0,
+                            valueStr: '击倒<老练猎手>，拿回食材并获得额外奖励！'
+                        },
+                        {
+                            key: 'up_duration',
+                            value: 5,
+                            valueStr: null
+                        },
+                        {
+                            key: 'attack@duration',
+                            value: 10,
+                            valueStr: null
+                        }
+                    ]
+                },
+                {
+                    unlockCondition: {
+                        phase: 'PHASE_0',
+                        level: 2
+                    },
+                    requiredPotentialRank: 0,
+                    prefabKey: '1',
+                    name: null,
+                    description: null,
+                    rangeId: 'x-2',
+                    blackboard: [{
+                        key: 'unlock',
+                        value: 1,
+                        valueStr: null
+                    }]
+                },
+                {
+                    unlockCondition: {
+                        phase: 'PHASE_0',
+                        level: 3
+                    },
+                    requiredPotentialRank: 0,
+                    prefabKey: '1',
+                    name: null,
+                    description: null,
+                    rangeId: 'x-3',
+                    blackboard: [{
+                        key: 'unlock',
+                        value: 1,
+                        valueStr: null
+                    }]
+                }
+            ]
+        },
+        {
+            candidates: [{
+                    unlockCondition: {
+                        phase: 'PHASE_0',
+                        level: 1
+                    },
+                    requiredPotentialRank: 0,
+                    prefabKey: '-1',
+                    name: null,
+                    description: null,
+                    rangeId: null,
+                    blackboard: [{
+                        key: 'unlock',
+                        value: 0,
+                        valueStr: null
+                    }]
+                },
+                {
+                    unlockCondition: {
+                        phase: 'PHASE_0',
+                        level: 2
+                    },
+                    requiredPotentialRank: 0,
+                    prefabKey: '1',
+                    name: null,
+                    description: null,
+                    rangeId: null,
+                    blackboard: [{
+                        key: 'unlock',
+                        value: 1,
+                        valueStr: null
+                    }]
+                }
+            ]
+        },
+        {
+            candidates: [{
                 unlockCondition: {
-                    phase: 0,
+                    phase: 'PHASE_0',
                     level: 1
                 },
                 requiredPotentialRank: 0,
-                prefabKey: '1',
+                prefabKey: '3',
                 name: null,
-                description: '部署后立即爆炸，对前方一格造成伤害并小力度推动敌人，直接击倒前方一格的战场支柱',
-                rangeId: 'x-4',
+                description: '场上所有敌人攻击速度<@ba.vup>-40</>，移动速度<@ba.vup>-80%</>；当前再部署时间<@ba.vup>减半</>',
+                rangeId: null,
                 blackboard: [{
-                        key: 'wpnsts_t_1[ally].sp',
-                        value: 1
+                        key: 'atk',
+                        value: 0,
+                        valueStr: null
                     },
                     {
-                        key: 'wpnsts_t_1[ally].interval',
-                        value: 2
-                    },
-                    {
-                        key: 'wpnsts_t_1[enemy].sp',
-                        value: 1
-                    },
-                    {
-                        key: 'wpnsts_t_1[enemy].interval',
-                        value: 2
-                    },
-                    {
-                        key: 'duration',
-                        value: 20
-                    },
-                    {
-                        key: 'stun',
-                        value: 5
-                    },
-                    {
-                        key: 'blast_damage',
-                        value: 1000
+                        key: 'attack_speed',
+                        value: 50,
+                        valueStr: null
                     }
                 ]
             }]
@@ -504,44 +649,13 @@ exports = {
         {
             candidates: [{
                 unlockCondition: {
-                    phase: 0,
-                    level: 1
-                },
-                requiredPotentialRank: 0,
-                prefabKey: '2',
-                name: null,
-                description: '-',
-                rangeId: null,
-                blackboard: [{
-                    key: 'ep_recovery_per_sec',
-                    value: 75
-                }]
-            }]
-        },
-        {
-            candidates: [{
-                unlockCondition: {
-                    phase: 0,
-                    level: 1
-                },
-                requiredPotentialRank: 0,
-                prefabKey: '3',
-                name: null,
-                description: null,
-                rangeId: null,
-                blackboard: []
-            }]
-        },
-        {
-            candidates: [{
-                unlockCondition: {
-                    phase: 0,
+                    phase: 'PHASE_0',
                     level: 1
                 },
                 requiredPotentialRank: 0,
                 prefabKey: '4',
                 name: null,
-                description: null,
+                description: '场上所有敌人攻击速度<@ba.vup>-40</>，移动速度<@ba.vup>-80%</>；<@ba.vup>清除</>当前再部署时间',
                 rangeId: null,
                 blackboard: []
             }]
@@ -549,7 +663,7 @@ exports = {
         {
             candidates: [{
                 unlockCondition: {
-                    phase: 0,
+                    phase: 'PHASE_0',
                     level: 1
                 },
                 requiredPotentialRank: 0,
@@ -562,7 +676,7 @@ exports = {
         }
     ],
     potentialRanks: [{
-            type: 0,
+            type: 'CUSTOM',
             description: '生命上限+200',
             buff: {
                 attributes: {
@@ -572,8 +686,8 @@ exports = {
                     abnormalCombos: null,
                     abnormalComboImmunes: null,
                     attributeModifiers: [{
-                        attributeType: 0,
-                        formulaItem: 0,
+                        attributeType: 'MAX_HP',
+                        formulaItem: 'ADDITION',
                         value: 200,
                         loadFromBlackboard: false,
                         fetchBaseValueFromSourceEntity: false
@@ -583,7 +697,7 @@ exports = {
             equivalentCost: null
         },
         {
-            type: 0,
+            type: 'CUSTOM',
             description: '再部署时间-10秒',
             buff: {
                 attributes: {
@@ -593,8 +707,8 @@ exports = {
                     abnormalCombos: null,
                     abnormalComboImmunes: null,
                     attributeModifiers: [{
-                        attributeType: 4,
-                        formulaItem: 0,
+                        attributeType: 'RESPAWN_TIME',
+                        formulaItem: 'ADDITION',
                         value: -1,
                         loadFromBlackboard: false,
                         fetchBaseValueFromSourceEntity: false
@@ -604,7 +718,7 @@ exports = {
             equivalentCost: null
         },
         {
-            type: 0,
+            type: 'CUSTOM',
             description: '再部署时间-5秒',
             buff: {
                 attributes: {
@@ -614,8 +728,8 @@ exports = {
                     abnormalCombos: null,
                     abnormalComboImmunes: null,
                     attributeModifiers: [{
-                        attributeType: 1,
-                        formulaItem: 0,
+                        attributeType: 'MAGIC_RESISTANCE',
+                        formulaItem: 'ADDITION',
                         value: 30,
                         loadFromBlackboard: false,
                         fetchBaseValueFromSourceEntity: false
@@ -625,7 +739,7 @@ exports = {
             equivalentCost: null
         },
         {
-            type: 0,
+            type: 'CUSTOM',
             description: '再部署时间-10秒',
             buff: {
                 attributes: {
@@ -635,8 +749,8 @@ exports = {
                     abnormalCombos: null,
                     abnormalComboImmunes: null,
                     attributeModifiers: [{
-                        attributeType: 4,
-                        formulaItem: 0,
+                        attributeType: 'RESPAWN_TIME',
+                        formulaItem: 'ADDITION',
                         value: -1,
                         loadFromBlackboard: false,
                         fetchBaseValueFromSourceEntity: false
@@ -646,7 +760,7 @@ exports = {
             equivalentCost: null
         },
         {
-            type: 1,
+            type: 'CUSTOM',
             description: '第二天赋效果增强',
             buff: {
                 attributes: {
@@ -656,8 +770,8 @@ exports = {
                     abnormalCombos: null,
                     abnormalComboImmunes: null,
                     attributeModifiers: [{
-                        attributeType: 4,
-                        formulaItem: 0,
+                        attributeType: 'COST',
+                        formulaItem: 'ADDITION',
                         value: -1,
                         loadFromBlackboard: false,
                         fetchBaseValueFromSourceEntity: false
@@ -690,7 +804,8 @@ exports = {
                 stunImmune: false,
                 silenceImmune: false,
                 sleepImmune: false,
-                frozenImmune: false
+                frozenImmune: false,
+                levitateImmune: false
             }
         },
         {
@@ -716,13 +831,14 @@ exports = {
                 stunImmune: false,
                 silenceImmune: false,
                 sleepImmune: false,
-                frozenImmune: false
+                frozenImmune: false,
+                levitateImmune: false
             }
         }
     ],
     allSkillLvlup: [{
             unlockCond: {
-                phase: 0,
+                phase: 'PHASE_0',
                 level: 1
             },
             lvlUpCost: [{
@@ -733,7 +849,7 @@ exports = {
         },
         {
             unlockCond: {
-                phase: 0,
+                phase: 'PHASE_0',
                 level: 1
             },
             lvlUpCost: [{
@@ -755,7 +871,7 @@ exports = {
         },
         {
             unlockCond: {
-                phase: 0,
+                phase: 'PHASE_0',
                 level: 1
             },
             lvlUpCost: [{
@@ -772,7 +888,7 @@ exports = {
         },
         {
             unlockCond: {
-                phase: 1,
+                phase: 'PHASE_1',
                 level: 1
             },
             lvlUpCost: [{
@@ -794,7 +910,7 @@ exports = {
         },
         {
             unlockCond: {
-                phase: 1,
+                phase: 'PHASE_1',
                 level: 1
             },
             lvlUpCost: [{
@@ -811,7 +927,7 @@ exports = {
         },
         {
             unlockCond: {
-                phase: 1,
+                phase: 'PHASE_1',
                 level: 1
             },
             lvlUpCost: [{
@@ -833,63 +949,71 @@ exports = {
         }
     ],
     tokenKey: 'token_10017_skadi2_dedant',
+    classicPotentialItemId: 'class_p_char_147_shining',
     groupId: 'blacksteel',
     trait: {
         candidates: [{
                 unlockCondition: {
-                    phase: 0,
+                    phase: 'PHASE_0',
                     level: 1
                 },
                 requiredPotentialRank: 0,
                 blackboard: [{
                         key: 'attack@atk_to_hp_recovery_ratio',
-                        value: 0.2
+                        value: 0.2,
+                        valueStr: null
                     },
                     {
-                        key: 'talent_override_rangeid_flag',
-                        value: 0.15
+                        key: 'attack@chain.atk_scale',
+                        value: 0.15,
+                        valueStr: null
                     },
                     {
                         key: 'max_atk_scale',
-                        value: 1.1
+                        value: 1.1,
+                        valueStr: null
                     },
                     {
-                        key: 'max_stack_cnt',
-                        value: 6
+                        key: 'talent_override_rangeid_flag',
+                        value: 6,
+                        valueStr: null
                     }
                 ],
-                overrideDescripton: '恢复友方单位生命，并回复相当于攻击力<@ba.kw>{ep_heal_ratio:0%}</>的<$ba.dt.element>元素损伤</>（可以回复未受伤友方单位的<$ba.dt.element>元素损伤</>）',
+                overrideDescripton: '部署时消耗<@ba.vup>1</>掷骰次数，部署后根据掷骰结果使敌人的速度在<@ba.vup>15</>秒内降低，可能<@ba.vup>减少</>我方再部署时间，点数越大，效果越强\\n每场战斗仅可使用<@ba.vup>1</>次骰子',
                 prefabKey: '-1',
                 rangeId: '1-3'
             },
             {
                 unlockCondition: {
-                    phase: 1,
+                    phase: 'PHASE_1',
                     level: 1
                 },
                 requiredPotentialRank: 0,
                 blackboard: [{
-                        key: 'attack@max_target',
-                        value: 4
+                        key: 'attack@chain.max_target',
+                        value: 4,
+                        valueStr: null
                     },
                     {
                         key: 'attack@sluggish',
-                        value: 0.5
+                        value: 0.5,
+                        valueStr: null
                     }
                 ],
-                overrideDescripton: '攻击造成<@ba.kw>法术伤害</>，且会在<@ba.kw>{attack@max_target}</>个敌人间跳跃，每次跳跃伤害降低15%并造成短暂<$ba.sluggish>停顿</>',
+                overrideDescripton: '攻击造成<@ba.kw>法术伤害</>，且会在<@ba.kw>{attack@chain.max_target}</>个敌人间跳跃，每次跳跃伤害降低15%并造成短暂<$ba.sluggish>停顿</>',
                 prefabKey: '-1',
                 rangeId: null
             },
             {
                 unlockCondition: {
-                    phase: 2,
+                    phase: 'PHASE_2',
                     level: 1
                 },
                 requiredPotentialRank: 0,
                 blackboard: [{
                     key: 'value',
-                    value: 70
+                    value: 70,
+                    valueStr: null
                 }],
                 overrideDescripton: '不成为其他角色的治疗目标，每次攻击到敌人后回复自身<@ba.kw>{value}</>生命',
                 prefabKey: null,
@@ -897,5 +1021,6 @@ exports = {
             }
         ]
     },
-    teamId: 'followers'
+    teamId: 'followers',
+    activityPotentialItemId: 'voucher_ulika'
 }

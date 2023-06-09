@@ -1,0 +1,397 @@
+{
+	"skillId": "skchr_nearl2_2",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "밤의 광채",
+			"rangeId": null,
+			"description": "패시브 효과: 배치 인원 수 <@ba.vup>소모하지 않음</>\n배치 후 공격력 <@ba.vup>+{atk:0%}</>, <@ba.vup>{times}</>회의 <$ba.shield>실드</> 획득, 스킬 종료 후 자동 퇴각, 재배치 시간 <@ba.vup>{value:0%}</> 증가, 전에 배치한 오퍼레이터가 [카시미어] 진영인 경우, 재배치 시간이 <@ba.vup>연장되지 않음</>",
+			"skillType": 0,
+			"durationType": 0,
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": "skchr_nearl2_2",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.6
+				},
+				{
+					"key": "times",
+					"value": 2
+				},
+				{
+					"key": "respawn_time",
+					"value": 1.25
+				},
+				{
+					"key": "nearl2_s_2[withdraw][combo].respawn_time",
+					"value": 1
+				},
+				{
+					"key": "value",
+					"value": 0.25
+				}
+			]
+		},
+		{
+			"name": "밤의 광채",
+			"rangeId": null,
+			"description": "패시브 효과: 배치 인원 수 <@ba.vup>소모하지 않음</>\n배치 후 공격력 <@ba.vup>+{atk:0%}</>, <@ba.vup>{times}</>회의 <$ba.shield>실드</> 획득, 스킬 종료 후 자동 퇴각, 재배치 시간 <@ba.vup>{value:0%}</> 증가, 전에 배치한 오퍼레이터가 [카시미어] 진영인 경우, 재배치 시간이 <@ba.vup>연장되지 않음</>",
+			"skillType": 0,
+			"durationType": 0,
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": "skchr_nearl2_2",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.7
+				},
+				{
+					"key": "times",
+					"value": 2
+				},
+				{
+					"key": "respawn_time",
+					"value": 1.25
+				},
+				{
+					"key": "nearl2_s_2[withdraw][combo].respawn_time",
+					"value": 1
+				},
+				{
+					"key": "value",
+					"value": 0.25
+				}
+			]
+		},
+		{
+			"name": "밤의 광채",
+			"rangeId": null,
+			"description": "패시브 효과: 배치 인원 수 <@ba.vup>소모하지 않음</>\n배치 후 공격력 <@ba.vup>+{atk:0%}</>, <@ba.vup>{times}</>회의 <$ba.shield>실드</> 획득, 스킬 종료 후 자동 퇴각, 재배치 시간 <@ba.vup>{value:0%}</> 증가, 전에 배치한 오퍼레이터가 [카시미어] 진영인 경우, 재배치 시간이 <@ba.vup>연장되지 않음</>",
+			"skillType": 0,
+			"durationType": 0,
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": "skchr_nearl2_2",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.8
+				},
+				{
+					"key": "times",
+					"value": 2
+				},
+				{
+					"key": "respawn_time",
+					"value": 1.25
+				},
+				{
+					"key": "nearl2_s_2[withdraw][combo].respawn_time",
+					"value": 1
+				},
+				{
+					"key": "value",
+					"value": 0.25
+				}
+			]
+		},
+		{
+			"name": "밤의 광채",
+			"rangeId": null,
+			"description": "패시브 효과: 배치 인원 수 <@ba.vup>소모하지 않음</>\n배치 후 공격력 <@ba.vup>+{atk:0%}</>, <@ba.vup>{times}</>회의 <$ba.shield>실드</> 획득, 스킬 종료 후 자동 퇴각, 재배치 시간 <@ba.vup>{value:0%}</> 증가, 전에 배치한 오퍼레이터가 [카시미어] 진영인 경우, 재배치 시간이 <@ba.vup>연장되지 않음</>",
+			"skillType": 0,
+			"durationType": 0,
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": "skchr_nearl2_2",
+			"duration": 22,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.9
+				},
+				{
+					"key": "times",
+					"value": 3
+				},
+				{
+					"key": "respawn_time",
+					"value": 1.25
+				},
+				{
+					"key": "nearl2_s_2[withdraw][combo].respawn_time",
+					"value": 1
+				},
+				{
+					"key": "value",
+					"value": 0.25
+				}
+			]
+		},
+		{
+			"name": "밤의 광채",
+			"rangeId": null,
+			"description": "패시브 효과: 배치 인원 수 <@ba.vup>소모하지 않음</>\n배치 후 공격력 <@ba.vup>+{atk:0%}</>, <@ba.vup>{times}</>회의 <$ba.shield>실드</> 획득, 스킬 종료 후 자동 퇴각, 재배치 시간 <@ba.vup>{value:0%}</> 증가, 전에 배치한 오퍼레이터가 [카시미어] 진영인 경우, 재배치 시간이 <@ba.vup>연장되지 않음</>",
+			"skillType": 0,
+			"durationType": 0,
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": "skchr_nearl2_2",
+			"duration": 22,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 1
+				},
+				{
+					"key": "times",
+					"value": 3
+				},
+				{
+					"key": "respawn_time",
+					"value": 1.25
+				},
+				{
+					"key": "nearl2_s_2[withdraw][combo].respawn_time",
+					"value": 1
+				},
+				{
+					"key": "value",
+					"value": 0.25
+				}
+			]
+		},
+		{
+			"name": "밤의 광채",
+			"rangeId": null,
+			"description": "패시브 효과: 배치 인원 수 <@ba.vup>소모하지 않음</>\n배치 후 공격력 <@ba.vup>+{atk:0%}</>, <@ba.vup>{times}</>회의 <$ba.shield>실드</> 획득, 스킬 종료 후 자동 퇴각, 재배치 시간 <@ba.vup>{value:0%}</> 증가, 전에 배치한 오퍼레이터가 [카시미어] 진영인 경우, 재배치 시간이 <@ba.vup>연장되지 않음</>",
+			"skillType": 0,
+			"durationType": 0,
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": "skchr_nearl2_2",
+			"duration": 22,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 1.1
+				},
+				{
+					"key": "times",
+					"value": 3
+				},
+				{
+					"key": "respawn_time",
+					"value": 1.25
+				},
+				{
+					"key": "nearl2_s_2[withdraw][combo].respawn_time",
+					"value": 1
+				},
+				{
+					"key": "value",
+					"value": 0.25
+				}
+			]
+		},
+		{
+			"name": "밤의 광채",
+			"rangeId": null,
+			"description": "패시브 효과: 배치 인원 수 <@ba.vup>소모하지 않음</>\n배치 후 공격력 <@ba.vup>+{atk:0%}</>, <@ba.vup>{times}</>회의 <$ba.shield>실드</> 획득, 스킬 종료 후 자동 퇴각, 재배치 시간 <@ba.vup>{value:0%}</> 증가, 전에 배치한 오퍼레이터가 [카시미어] 진영인 경우, 재배치 시간이 <@ba.vup>연장되지 않음</>",
+			"skillType": 0,
+			"durationType": 0,
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": "skchr_nearl2_2",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 1.2
+				},
+				{
+					"key": "times",
+					"value": 3
+				},
+				{
+					"key": "respawn_time",
+					"value": 1.25
+				},
+				{
+					"key": "nearl2_s_2[withdraw][combo].respawn_time",
+					"value": 1
+				},
+				{
+					"key": "value",
+					"value": 0.25
+				}
+			]
+		},
+		{
+			"name": "밤의 광채",
+			"rangeId": null,
+			"description": "패시브 효과: 배치 인원 수 <@ba.vup>소모하지 않음</>\n배치 후 공격력 <@ba.vup>+{atk:0%}</>, <@ba.vup>{times}</>회의 <$ba.shield>실드</> 획득, 스킬 종료 후 자동 퇴각, 재배치 시간 <@ba.vup>{value:0%}</> 증가, 전에 배치한 오퍼레이터가 [카시미어] 진영인 경우, 재배치 시간이 <@ba.vup>연장되지 않음</>",
+			"skillType": 0,
+			"durationType": 0,
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": "skchr_nearl2_2",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 1.3
+				},
+				{
+					"key": "times",
+					"value": 4
+				},
+				{
+					"key": "respawn_time",
+					"value": 1.25
+				},
+				{
+					"key": "nearl2_s_2[withdraw][combo].respawn_time",
+					"value": 1
+				},
+				{
+					"key": "value",
+					"value": 0.25
+				}
+			]
+		},
+		{
+			"name": "밤의 광채",
+			"rangeId": null,
+			"description": "패시브 효과: 배치 인원 수 <@ba.vup>소모하지 않음</>\n배치 후 공격력 <@ba.vup>+{atk:0%}</>, <@ba.vup>{times}</>회의 <$ba.shield>실드</> 획득, 스킬 종료 후 자동 퇴각, 재배치 시간 <@ba.vup>{value:0%}</> 증가, 전에 배치한 오퍼레이터가 [카시미어] 진영인 경우, 재배치 시간이 <@ba.vup>연장되지 않음</>",
+			"skillType": 0,
+			"durationType": 0,
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": "skchr_nearl2_2",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 1.45
+				},
+				{
+					"key": "times",
+					"value": 4
+				},
+				{
+					"key": "respawn_time",
+					"value": 1.25
+				},
+				{
+					"key": "nearl2_s_2[withdraw][combo].respawn_time",
+					"value": 1
+				},
+				{
+					"key": "value",
+					"value": 0.25
+				}
+			]
+		},
+		{
+			"name": "밤의 광채",
+			"rangeId": null,
+			"description": "패시브 효과: 배치 인원 수 <@ba.vup>소모하지 않음</>\n배치 후 공격력 <@ba.vup>+{atk:0%}</>, <@ba.vup>{times}</>회의 <$ba.shield>실드</> 획득, 스킬 종료 후 자동 퇴각, 재배치 시간 <@ba.vup>{value:0%}</> 증가, 전에 배치한 오퍼레이터가 [카시미어] 진영인 경우, 재배치 시간이 <@ba.vup>연장되지 않음</>",
+			"skillType": 0,
+			"durationType": 0,
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": "skchr_nearl2_2",
+			"duration": 27,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 1.6
+				},
+				{
+					"key": "times",
+					"value": 4
+				},
+				{
+					"key": "respawn_time",
+					"value": 1.25
+				},
+				{
+					"key": "nearl2_s_2[withdraw][combo].respawn_time",
+					"value": 1
+				},
+				{
+					"key": "value",
+					"value": 0.25
+				}
+			]
+		}
+	]
+}

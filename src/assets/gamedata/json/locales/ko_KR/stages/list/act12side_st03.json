@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act12side_06",
@@ -10,7 +11,7 @@
 	],
 	"stageId": "act12side_st03",
 	"levelId": null,
-	"zoneId": "act12side_zone1",
+	"zoneId": "act12sre_zone1",
 	"code": "DH-ST-3",
 	"name": "자승자박",
 	"description": "물론, 첸은 에르네스토의 나쁜 의도를 알고 있다. 하지만 그녀도 혼자는 아니다.",
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": true,
 	"appearanceStyle": 0,
 	"stageDropInfo": {

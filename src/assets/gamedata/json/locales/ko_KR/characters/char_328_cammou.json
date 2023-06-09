@@ -1,8 +1,10 @@
 {
 	"name": "클릭",
-	"description": "<@ba.kw>부유 유닛</>을 조작하여 적에게 <@ba.kw>마법 대미지</>\n부유 유닛은 연속으로 동일한 적을 공격할 시 대미지가 증가한다 (최고 오퍼레이터의 110% 공격력에 해당하는 대미지)",
+	"description": "<@ba.kw>공중 유닛</>을 조작하여 적에게 <@ba.kw>마법 대미지</>\n공중 유닛은 연속으로 동일한 적을 공격할 시 대미지가 증가한다 (최고 오퍼레이터의 110% 공격력에 해당하는 대미지)",
 	"canUseGeneralPotentialItem": true,
+	"canUseActivityPotentialItem": false,
 	"potentialItemId": "p_char_328_cammou",
+	"activityPotentialItemId": null,
 	"nationId": "rhodes",
 	"groupId": null,
 	"teamId": null,
@@ -49,7 +51,7 @@
 						"value": 6
 					}
 				],
-				"overrideDescripton": "<@ba.kw>부유 유닛</>을 조작하여 적에게 <@ba.kw>마법 대미지</>\n부유 유닛은 연속으로 동일한 적을 공격할 시 대미지가 증가한다 (최고 오퍼레이터의 110% 공격력에 해당하는 대미지)",
+				"overrideDescripton": "<@ba.kw>공중 유닛</>을 조작하여 적에게 <@ba.kw>마법 대미지</>\n공중 유닛은 연속으로 동일한 적을 공격할 시 대미지가 증가한다 (최고 오퍼레이터의 110% 공격력에 해당하는 대미지)",
 				"prefabKey": null,
 				"rangeId": null
 			}
@@ -83,7 +85,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -108,7 +112,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -141,7 +147,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -166,7 +174,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -215,7 +225,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -240,7 +252,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -442,7 +456,7 @@
 					"requiredPotentialRank": 0,
 					"prefabKey": "1",
 					"name": "손발이 척척",
-					"description": "자신과 부유 유닛의 공격속도 +6",
+					"description": "자신과 공중 유닛의 공격속도 +6",
 					"rangeId": null,
 					"blackboard": [
 						{
@@ -459,7 +473,7 @@
 					"requiredPotentialRank": 0,
 					"prefabKey": "1",
 					"name": "손발이 척척",
-					"description": "자신과 부유 유닛의 공격속도 +12",
+					"description": "자신과 공중 유닛의 공격속도 +12",
 					"rangeId": null,
 					"blackboard": [
 						{
@@ -611,7 +625,9 @@
 				"baseForceLevel": 0,
 				"stunImmune": false,
 				"silenceImmune": false,
-				"sleepImmune": false
+				"sleepImmune": false,
+				"frozenImmune": false,
+				"levitateImmune": false
 			}
 		},
 		{
@@ -636,7 +652,9 @@
 				"baseForceLevel": 0,
 				"stunImmune": false,
 				"silenceImmune": false,
-				"sleepImmune": false
+				"sleepImmune": false,
+				"frozenImmune": false,
+				"levitateImmune": false
 			}
 		}
 	],

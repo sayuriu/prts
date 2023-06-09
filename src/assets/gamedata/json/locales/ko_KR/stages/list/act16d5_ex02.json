@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act16d5_ex01",
@@ -10,7 +11,7 @@
 	],
 	"stageId": "act16d5_ex02",
 	"levelId": "Activities/act16d5/level_act16d5_ex02",
-	"zoneId": "act16d5_zone2",
+	"zoneId": "act9sre_zone2",
 	"code": "WR-EX-2",
 	"name": "질투",
 	"description": "사실 이런 감정을 느껴본 적은 거의 없지만, 그녀가 본 수많은 복잡한 감정 중 가장 쉽게 사람을 흥분하게 만드는 감정임은 확실하다.\n<@lv.item><명암 인장></> 배치된 오퍼레이터는 명암 속성 획득",
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {
@@ -52,7 +54,7 @@
 		"displayRewards": [
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act16d5_token_inker",
+				"id": "act16d5_token_inker_rep_1",
 				"dropType": 8
 			},
 			{
@@ -65,7 +67,7 @@
 			{
 				"occPercent": 0,
 				"type": "ACTIVITY_ITEM",
-				"id": "act16d5_token_inker",
+				"id": "act16d5_token_inker_rep_1",
 				"dropType": 8
 			},
 			{

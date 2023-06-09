@@ -6,15 +6,15 @@
 	"iconId": "MTL_SL_RUSH2",
 	"overrideBkg": null,
 	"stackIconId": null,
-	"sortId": 100022,
+	"sortId": 100036,
 	"usage": "工业制造所需的零散聚酸酯，可用于多种强化场合，也常作为制造站合成项目的原料。",
 	"obtainApproach": null,
 	"classifyType": "MATERIAL",
 	"itemType": "MATERIAL",
 	"stageDropList": [
 		{
-			"stageId": "act18d3_05",
-			"occPer": "ALWAYS"
+			"stageId": "act19side_03",
+			"occPer": "USUAL"
 		},
 		{
 			"stageId": "act11d0_04",
@@ -45,12 +45,12 @@
 			"occPer": "ALWAYS"
 		},
 		{
-			"stageId": "act7d5_03",
+			"stageId": "act18d3_05",
 			"occPer": "ALWAYS"
 		},
 		{
-			"stageId": "a001_04",
-			"occPer": "USUAL"
+			"stageId": "act13side_04",
+			"occPer": "ALWAYS"
 		},
 		{
 			"stageId": "act14side_05",
@@ -61,7 +61,39 @@
 			"occPer": "ALWAYS"
 		},
 		{
-			"stageId": "act13side_04",
+			"stageId": "a001_04",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "act20side_03",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "act22side_03",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "act14mini_05",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "act25side_04",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "act7d5_03",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "main_01-08",
+			"occPer": "ALMOST"
+		},
+		{
+			"stageId": "main_06-05",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_06-08",
 			"occPer": "ALWAYS"
 		},
 		{
@@ -69,16 +101,12 @@
 			"occPer": "ALWAYS"
 		},
 		{
-			"stageId": "main_06-08",
-			"occPer": "ALWAYS"
-		},
-		{
-			"stageId": "main_06-05",
+			"stageId": "main_10-14",
 			"occPer": "OFTEN"
 		},
 		{
-			"stageId": "main_01-08",
-			"occPer": "ALMOST"
+			"stageId": "tough_10-14",
+			"occPer": "OFTEN"
 		},
 		{
 			"stageId": "sub_05-2-1",

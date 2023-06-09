@@ -2,6 +2,7 @@
 	"stageType": "MAIN",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NORMAL",
 	"unlockCondition": [
 		{
 			"stageId": "main_09-10",
@@ -13,7 +14,7 @@
 	"zoneId": "main_9",
 	"code": "9-13",
 	"name": "戦場救護",
-	"description": "その先に助けを求める感染者がいる限り、ロドスは烈火の海をも越えていく。",
+	"description": "その先に助けを求める感染者がいる限り、ロドスは燃え盛る炎すらも超えていく。",
 	"hardStagedId": "main_09-11#f#",
 	"dangerLevel": "昇進1 LV.70",
 	"dangerPoint": -1,
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {

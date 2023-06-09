@@ -6,7 +6,7 @@
 	"iconId": "MTL_SL_CCF",
 	"overrideBkg": null,
 	"stackIconId": null,
-	"sortId": 100046,
+	"sortId": 100009,
 	"usage": "金属加工に欠かせない工業用試薬。 昇進やスキル強化に必要な素材。",
 	"obtainApproach": null,
 	"classifyType": "MATERIAL",
@@ -14,6 +14,22 @@
 	"stageDropList": [
 		{
 			"stageId": "main_09-05",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_10-15",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "main_11-14",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "tough_10-15",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "tough_11-14",
 			"occPer": "OFTEN"
 		}
 	],

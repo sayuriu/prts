@@ -7,8 +7,8 @@
 			"name": "剧目宣告",
 			"rangeId": "x-4",
 			"description": "使周围的我方单位攻击力<@ba.vdown>-25%</>并持续受到真实伤害",
-			"skillType": 0,
-			"durationType": 0,
+			"skillType": "PASSIVE",
+			"durationType": "PASSIVE",
 			"spData": {
 				"spType": 8,
 				"levelUpCost": null,
@@ -22,11 +22,13 @@
 			"blackboard": [
 				{
 					"key": "atk_scale",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				},
 				{
 					"key": "interval",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				}
 			]
 		}

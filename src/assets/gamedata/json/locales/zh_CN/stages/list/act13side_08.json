@@ -2,15 +2,16 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act13side_07",
-			"completeState": 2
+			"completeState": "PASS"
 		}
 	],
 	"stageId": "act13side_08",
 	"levelId": "Activities/act13side/level_act13side_08",
-	"zoneId": "act13side_zone1",
+	"zoneId": "act13sre_zone1",
 	"code": "NL-8",
 	"name": "最后的怯薛",
 	"description": "梦魇注视着自己的前世——蹲坐在黄沙前的老骑士热泪盈眶，他的可汗就在不远处，打磨弯刀。\\n<@lv.item><城市霓虹></>可以提供初始视野，使用后视野范围扩大\\n<@lv.item><骑士之徽></>使用后可以永久提供某一格地块的视野",
@@ -44,7 +45,7 @@
 	"isHardPredefined": false,
 	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
-	"appearanceStyle": 0,
+	"appearanceStyle": "MAIN_NORMAL",
 	"stageDropInfo": {
 		"firstPassRewards": null,
 		"firstCompleteRewards": null,
@@ -53,53 +54,59 @@
 		"displayRewards": [
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act13side_token_model",
-				"dropType": 8
+				"id": "act13side_token_model_rep_1",
+				"dropType": "COMPLETE"
 			},
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act13side_token_model",
-				"dropType": 2
+				"id": "act13side_token_model_rep_1",
+				"dropType": "NORMAL"
 			},
 			{
 				"type": "MATERIAL",
 				"id": "30023",
-				"dropType": 2
+				"dropType": "NORMAL"
 			},
 			{
 				"type": "DIAMOND",
 				"id": "4002",
-				"dropType": 8
+				"dropType": "COMPLETE"
 			}
 		],
 		"displayDetailRewards": [
 			{
-				"occPercent": 0,
+				"occPercent": "ALWAYS",
 				"type": "ACTIVITY_ITEM",
-				"id": "act13side_token_model",
-				"dropType": 8
+				"id": "act13side_token_model_rep_1",
+				"dropType": "COMPLETE"
 			},
 			{
-				"occPercent": 0,
+				"occPercent": "ALWAYS",
 				"type": "ACTIVITY_ITEM",
-				"id": "act13side_token_model",
-				"dropType": 2
+				"id": "act13side_token_model_rep_1",
+				"dropType": "NORMAL"
 			},
 			{
-				"occPercent": 1,
+				"occPercent": "ALMOST",
 				"type": "MATERIAL",
 				"id": "30023",
-				"dropType": 2
+				"dropType": "NORMAL"
 			},
 			{
-				"occPercent": 0,
+				"occPercent": "ALWAYS",
 				"type": "DIAMOND",
 				"id": "4002",
-				"dropType": 8
+				"dropType": "COMPLETE"
 			}
 		]
 	},
+	"canUseCharm": false,
+	"canUseTech": false,
+	"canUseTrapTool": false,
+	"canUseBattlePerformance": false,
 	"startButtonOverrideId": null,
 	"isStagePatch": false,
-	"mainStageId": "act13side_st01"
+	"mainStageId": "act13side_st01",
+	"extraCondition": null,
+	"extraInfo": null
 }

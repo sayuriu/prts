@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "FOUR_STAR",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "main_02-08",
@@ -14,10 +15,10 @@
 	],
 	"stageId": "act12side_s04#f#",
 	"levelId": "Activities/ACT12SIDE/level_act12side_sub-1-4",
-	"zoneId": "act12side_zone3",
+	"zoneId": "act12sre_zone3",
 	"code": "DH-S-4",
 	"name": "Final Investigation",
-	"description": "<@lv.fs>Condition:</>\nDockworker Leaders have increased HP and do not lose additional HP under 'Erosion'",
+	"description": "<@lv.fs>Condition:</>\nDockworker Leaders have increased HP and do not lose additional HP from 'Erosion'",
 	"hardStagedId": null,
 	"dangerLevel": "-",
 	"dangerPoint": -1,
@@ -46,6 +47,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {

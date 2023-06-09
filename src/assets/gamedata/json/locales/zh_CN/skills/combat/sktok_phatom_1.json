@@ -6,9 +6,9 @@
 		{
 			"name": "暗夜魅影",
 			"rangeId": null,
-			"description": "部署后立即获得<@ba.vup>{prob:0%}</>的物理闪避和可吸收相当于自己最大生命<@ba.vup>{hp_ratio:0%}</>物理伤害的护盾，持续<@ba.vup>{duration}</>秒",
-			"skillType": 0,
-			"durationType": 0,
+			"description": "部署后立即获得<@ba.vup>{prob:0%}</>的物理闪避和可吸收相当于自己最大生命<@ba.vup>{hp_ratio:0%}</>物理伤害的<$ba.barrier>屏障</>，持续<@ba.vup>{duration}</>秒",
+			"skillType": "PASSIVE",
+			"durationType": "PASSIVE",
 			"spData": {
 				"spType": 8,
 				"levelUpCost": null,
@@ -22,24 +22,27 @@
 			"blackboard": [
 				{
 					"key": "prob",
-					"value": 0.2
+					"value": 0.2,
+					"valueStr": null
 				},
 				{
 					"key": "hp_ratio",
-					"value": 0.2
+					"value": 0.2,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 10
+					"value": 10,
+					"valueStr": null
 				}
 			]
 		},
 		{
 			"name": "暗夜魅影",
 			"rangeId": null,
-			"description": "部署后立即获得<@ba.vup>{prob:0%}</>的物理闪避和可吸收相当于自己最大生命<@ba.vup>{hp_ratio:0%}</>物理伤害的护盾，持续<@ba.vup>{duration}</>秒",
-			"skillType": 0,
-			"durationType": 0,
+			"description": "部署后立即获得<@ba.vup>{prob:0%}</>的物理闪避和可吸收相当于自己最大生命<@ba.vup>{hp_ratio:0%}</>物理伤害的<$ba.barrier>屏障</>，持续<@ba.vup>{duration}</>秒",
+			"skillType": "PASSIVE",
+			"durationType": "PASSIVE",
 			"spData": {
 				"spType": 8,
 				"levelUpCost": null,
@@ -53,24 +56,27 @@
 			"blackboard": [
 				{
 					"key": "prob",
-					"value": 0.2
+					"value": 0.2,
+					"valueStr": null
 				},
 				{
 					"key": "hp_ratio",
-					"value": 0.25
+					"value": 0.25,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 10
+					"value": 10,
+					"valueStr": null
 				}
 			]
 		},
 		{
 			"name": "暗夜魅影",
 			"rangeId": null,
-			"description": "部署后立即获得<@ba.vup>{prob:0%}</>的物理闪避和可吸收相当于自己最大生命<@ba.vup>{hp_ratio:0%}</>物理伤害的护盾，持续<@ba.vup>{duration}</>秒",
-			"skillType": 0,
-			"durationType": 0,
+			"description": "部署后立即获得<@ba.vup>{prob:0%}</>的物理闪避和可吸收相当于自己最大生命<@ba.vup>{hp_ratio:0%}</>物理伤害的<$ba.barrier>屏障</>，持续<@ba.vup>{duration}</>秒",
+			"skillType": "PASSIVE",
+			"durationType": "PASSIVE",
 			"spData": {
 				"spType": 8,
 				"levelUpCost": null,
@@ -84,24 +90,27 @@
 			"blackboard": [
 				{
 					"key": "prob",
-					"value": 0.2
+					"value": 0.2,
+					"valueStr": null
 				},
 				{
 					"key": "hp_ratio",
-					"value": 0.3
+					"value": 0.3,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 10
+					"value": 10,
+					"valueStr": null
 				}
 			]
 		},
 		{
 			"name": "暗夜魅影",
 			"rangeId": null,
-			"description": "部署后立即获得<@ba.vup>{prob:0%}</>的物理闪避和可吸收相当于自己最大生命<@ba.vup>{hp_ratio:0%}</>物理伤害的护盾，持续<@ba.vup>{duration}</>秒",
-			"skillType": 0,
-			"durationType": 0,
+			"description": "部署后立即获得<@ba.vup>{prob:0%}</>的物理闪避和可吸收相当于自己最大生命<@ba.vup>{hp_ratio:0%}</>物理伤害的<$ba.barrier>屏障</>，持续<@ba.vup>{duration}</>秒",
+			"skillType": "PASSIVE",
+			"durationType": "PASSIVE",
 			"spData": {
 				"spType": 8,
 				"levelUpCost": null,
@@ -115,24 +124,27 @@
 			"blackboard": [
 				{
 					"key": "prob",
-					"value": 0.3
+					"value": 0.3,
+					"valueStr": null
 				},
 				{
 					"key": "hp_ratio",
-					"value": 0.35
+					"value": 0.35,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 10
+					"value": 10,
+					"valueStr": null
 				}
 			]
 		},
 		{
 			"name": "暗夜魅影",
 			"rangeId": null,
-			"description": "部署后立即获得<@ba.vup>{prob:0%}</>的物理闪避和可吸收相当于自己最大生命<@ba.vup>{hp_ratio:0%}</>物理伤害的护盾，持续<@ba.vup>{duration}</>秒",
-			"skillType": 0,
-			"durationType": 0,
+			"description": "部署后立即获得<@ba.vup>{prob:0%}</>的物理闪避和可吸收相当于自己最大生命<@ba.vup>{hp_ratio:0%}</>物理伤害的<$ba.barrier>屏障</>，持续<@ba.vup>{duration}</>秒",
+			"skillType": "PASSIVE",
+			"durationType": "PASSIVE",
 			"spData": {
 				"spType": 8,
 				"levelUpCost": null,
@@ -146,24 +158,27 @@
 			"blackboard": [
 				{
 					"key": "prob",
-					"value": 0.3
+					"value": 0.3,
+					"valueStr": null
 				},
 				{
 					"key": "hp_ratio",
-					"value": 0.4
+					"value": 0.4,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 10
+					"value": 10,
+					"valueStr": null
 				}
 			]
 		},
 		{
 			"name": "暗夜魅影",
 			"rangeId": null,
-			"description": "部署后立即获得<@ba.vup>{prob:0%}</>的物理闪避和可吸收相当于自己最大生命<@ba.vup>{hp_ratio:0%}</>物理伤害的护盾，持续<@ba.vup>{duration}</>秒",
-			"skillType": 0,
-			"durationType": 0,
+			"description": "部署后立即获得<@ba.vup>{prob:0%}</>的物理闪避和可吸收相当于自己最大生命<@ba.vup>{hp_ratio:0%}</>物理伤害的<$ba.barrier>屏障</>，持续<@ba.vup>{duration}</>秒",
+			"skillType": "PASSIVE",
+			"durationType": "PASSIVE",
 			"spData": {
 				"spType": 8,
 				"levelUpCost": null,
@@ -177,24 +192,27 @@
 			"blackboard": [
 				{
 					"key": "prob",
-					"value": 0.3
+					"value": 0.3,
+					"valueStr": null
 				},
 				{
 					"key": "hp_ratio",
-					"value": 0.45
+					"value": 0.45,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 10
+					"value": 10,
+					"valueStr": null
 				}
 			]
 		},
 		{
 			"name": "暗夜魅影",
 			"rangeId": null,
-			"description": "部署后立即获得<@ba.vup>{prob:0%}</>的物理闪避和可吸收相当于自己最大生命<@ba.vup>{hp_ratio:0%}</>物理伤害的护盾，持续<@ba.vup>{duration}</>秒",
-			"skillType": 0,
-			"durationType": 0,
+			"description": "部署后立即获得<@ba.vup>{prob:0%}</>的物理闪避和可吸收相当于自己最大生命<@ba.vup>{hp_ratio:0%}</>物理伤害的<$ba.barrier>屏障</>，持续<@ba.vup>{duration}</>秒",
+			"skillType": "PASSIVE",
+			"durationType": "PASSIVE",
 			"spData": {
 				"spType": 8,
 				"levelUpCost": null,
@@ -208,24 +226,27 @@
 			"blackboard": [
 				{
 					"key": "prob",
-					"value": 0.4
+					"value": 0.4,
+					"valueStr": null
 				},
 				{
 					"key": "hp_ratio",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 10
+					"value": 10,
+					"valueStr": null
 				}
 			]
 		},
 		{
 			"name": "暗夜魅影",
 			"rangeId": null,
-			"description": "部署后立即获得<@ba.vup>{prob:0%}</>的物理闪避和可吸收相当于自己最大生命<@ba.vup>{hp_ratio:0%}</>物理伤害的护盾，持续<@ba.vup>{duration}</>秒",
-			"skillType": 0,
-			"durationType": 0,
+			"description": "部署后立即获得<@ba.vup>{prob:0%}</>的物理闪避和可吸收相当于自己最大生命<@ba.vup>{hp_ratio:0%}</>物理伤害的<$ba.barrier>屏障</>，持续<@ba.vup>{duration}</>秒",
+			"skillType": "PASSIVE",
+			"durationType": "PASSIVE",
 			"spData": {
 				"spType": 8,
 				"levelUpCost": null,
@@ -239,24 +260,27 @@
 			"blackboard": [
 				{
 					"key": "prob",
-					"value": 0.4
+					"value": 0.4,
+					"valueStr": null
 				},
 				{
 					"key": "hp_ratio",
-					"value": 0.6
+					"value": 0.6,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 10
+					"value": 10,
+					"valueStr": null
 				}
 			]
 		},
 		{
 			"name": "暗夜魅影",
 			"rangeId": null,
-			"description": "部署后立即获得<@ba.vup>{prob:0%}</>的物理闪避和可吸收相当于自己最大生命<@ba.vup>{hp_ratio:0%}</>物理伤害的护盾，持续<@ba.vup>{duration}</>秒",
-			"skillType": 0,
-			"durationType": 0,
+			"description": "部署后立即获得<@ba.vup>{prob:0%}</>的物理闪避和可吸收相当于自己最大生命<@ba.vup>{hp_ratio:0%}</>物理伤害的<$ba.barrier>屏障</>，持续<@ba.vup>{duration}</>秒",
+			"skillType": "PASSIVE",
+			"durationType": "PASSIVE",
 			"spData": {
 				"spType": 8,
 				"levelUpCost": null,
@@ -270,24 +294,27 @@
 			"blackboard": [
 				{
 					"key": "prob",
-					"value": 0.4
+					"value": 0.4,
+					"valueStr": null
 				},
 				{
 					"key": "hp_ratio",
-					"value": 0.7
+					"value": 0.7,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 10
+					"value": 10,
+					"valueStr": null
 				}
 			]
 		},
 		{
 			"name": "暗夜魅影",
 			"rangeId": null,
-			"description": "部署后立即获得<@ba.vup>{prob:0%}</>的物理闪避和可吸收相当于自己最大生命<@ba.vup>{hp_ratio:0%}</>物理伤害的护盾，持续<@ba.vup>{duration}</>秒",
-			"skillType": 0,
-			"durationType": 0,
+			"description": "部署后立即获得<@ba.vup>{prob:0%}</>的物理闪避和可吸收相当于自己最大生命<@ba.vup>{hp_ratio:0%}</>物理伤害的<$ba.barrier>屏障</>，持续<@ba.vup>{duration}</>秒",
+			"skillType": "PASSIVE",
+			"durationType": "PASSIVE",
 			"spData": {
 				"spType": 8,
 				"levelUpCost": null,
@@ -301,15 +328,18 @@
 			"blackboard": [
 				{
 					"key": "prob",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				},
 				{
 					"key": "hp_ratio",
-					"value": 0.8
+					"value": 0.8,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 10
+					"value": 10,
+					"valueStr": null
 				}
 			]
 		}

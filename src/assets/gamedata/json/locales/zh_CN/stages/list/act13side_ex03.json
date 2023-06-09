@@ -2,15 +2,16 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act13side_ex02",
-			"completeState": 2
+			"completeState": "PASS"
 		}
 	],
 	"stageId": "act13side_ex03",
 	"levelId": "Activities/act13side/level_act13side_ex03",
-	"zoneId": "act13side_zone2",
+	"zoneId": "act13sre_zone2",
 	"code": "NL-EX-3",
 	"name": "素材复用",
 	"description": "另外一款大集团研发的安眠饮料好像也快要上市了，于是在修改了一下先前的骑士发言，并增加了几个人名后，新的文章崭新出炉。\\n<@lv.item><骑士之徽></>使用后可以永久提供某一格地块的视野",
@@ -44,7 +45,7 @@
 	"isHardPredefined": false,
 	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
-	"appearanceStyle": 0,
+	"appearanceStyle": "MAIN_NORMAL",
 	"stageDropInfo": {
 		"firstPassRewards": null,
 		"firstCompleteRewards": null,
@@ -53,31 +54,37 @@
 		"displayRewards": [
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act13side_token_model",
-				"dropType": 8
+				"id": "act13side_token_model_rep_1",
+				"dropType": "COMPLETE"
 			},
 			{
 				"type": "DIAMOND",
 				"id": "4002",
-				"dropType": 8
+				"dropType": "COMPLETE"
 			}
 		],
 		"displayDetailRewards": [
 			{
-				"occPercent": 0,
+				"occPercent": "ALWAYS",
 				"type": "ACTIVITY_ITEM",
-				"id": "act13side_token_model",
-				"dropType": 8
+				"id": "act13side_token_model_rep_1",
+				"dropType": "COMPLETE"
 			},
 			{
-				"occPercent": 0,
+				"occPercent": "ALWAYS",
 				"type": "DIAMOND",
 				"id": "4002",
-				"dropType": 8
+				"dropType": "COMPLETE"
 			}
 		]
 	},
+	"canUseCharm": false,
+	"canUseTech": false,
+	"canUseTrapTool": false,
+	"canUseBattlePerformance": false,
 	"startButtonOverrideId": null,
 	"isStagePatch": false,
-	"mainStageId": "act13side_ex01"
+	"mainStageId": "act13side_ex01",
+	"extraCondition": null,
+	"extraInfo": null
 }

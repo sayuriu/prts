@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act18d0_st02",
@@ -10,12 +11,12 @@
 	],
 	"stageId": "act18d0_ex01",
 	"levelId": "Activities/act18d0/level_act18d0_ex01",
-	"zoneId": "act18d0_zone2",
+	"zoneId": "act10sre_zone2",
 	"code": "WD-EX-1",
 	"name": "Pack Tactics",
 	"description": "Nobody knows the origins of this 'hound' species, but the people of Bolívar were the first to use them in battle. Well-trained hounds provided a significant advantage on the field.\n<@lv.item><Mobile Tactical Hangar></> Deploys drones as needed to assist enemy combatants.",
 	"hardStagedId": "act18d0_ex01#f#",
-	"dangerLevel": "Elite 1 Lv.40",
+	"dangerLevel": "Elite 1 Lv. 40",
 	"dangerPoint": -1,
 	"loadingPicId": "loading_OOD_02",
 	"canPractice": true,
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {
@@ -52,7 +54,7 @@
 		"displayRewards": [
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act18d0_token_page",
+				"id": "act18d0_token_page_rep_1",
 				"dropType": 8
 			},
 			{
@@ -65,7 +67,7 @@
 			{
 				"occPercent": 0,
 				"type": "ACTIVITY_ITEM",
-				"id": "act18d0_token_page",
+				"id": "act18d0_token_page_rep_1",
 				"dropType": 8
 			},
 			{

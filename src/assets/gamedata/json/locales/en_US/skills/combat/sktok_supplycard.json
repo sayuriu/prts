@@ -1,0 +1,38 @@
+{
+	"skillId": "sktok_supplycard",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "Dispatch",
+			"rangeId": null,
+			"description": "On deployment, view a random selection of <@ba.vup>{range_num}</> units from the <@ba.vup>Preparation Area</> and select <@ba.vup>0-{can_select_num}</> units to be transferred to the Deployment Waiting Zone.\n<@ba.rem>After activation, this unit disappears (will not appear again in this battle)</>",
+			"skillType": 2,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "sktok_supplycard",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "value",
+					"value": 1
+				},
+				{
+					"key": "range_num",
+					"value": 4
+				},
+				{
+					"key": "can_select_num",
+					"value": 2
+				}
+			]
+		}
+	]
+}

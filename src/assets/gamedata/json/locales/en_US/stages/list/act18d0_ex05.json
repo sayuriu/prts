@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act18d0_ex04",
@@ -10,12 +11,12 @@
 	],
 	"stageId": "act18d0_ex05",
 	"levelId": "Activities/act18d0/level_act18d0_ex05",
-	"zoneId": "act18d0_zone2",
+	"zoneId": "act10sre_zone2",
 	"code": "WD-EX-5",
 	"name": "Crossfire Support",
 	"description": "A battlefield's terrain is complex. When encountering a combat situation with asymmetrical firepower, a well-trained... Hey... Can't you see the enemy right next to you? Do you seriously have to chase the farthest target?\n<@lv.item><Mobile Tactical Hangar></> Deploys drones as needed to assist enemy combatants.",
 	"hardStagedId": "act18d0_ex05#f#",
-	"dangerLevel": "Elite 2 Lv.10",
+	"dangerLevel": "Elite 2 Lv. 10",
 	"dangerPoint": -1,
 	"loadingPicId": "loading_OOD_02",
 	"canPractice": true,
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {
@@ -52,7 +54,7 @@
 		"displayRewards": [
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act18d0_token_page",
+				"id": "act18d0_token_page_rep_1",
 				"dropType": 8
 			},
 			{
@@ -65,7 +67,7 @@
 			{
 				"occPercent": 0,
 				"type": "ACTIVITY_ITEM",
-				"id": "act18d0_token_page",
+				"id": "act18d0_token_page_rep_1",
 				"dropType": 8
 			},
 			{

@@ -1,0 +1,277 @@
+{
+	"skillId": "skchr_ironmn_1",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "ハイパーブースト",
+			"rangeId": null,
+			"description": "パッシブ：装置の効果対象の攻撃力<@ba.vup>+12%</>\nアクティブ：装置を1個獲得し、通常攻撃が攻撃対象に攻撃力の<@ba.vup>{attack@atk_scale:0%}</>の物理ダメージを与え、装置の効果が<@ba.vup>{fake_scale}</>倍まで上昇\n<@ba.rem>スキル終了時、配置中の装置を全て破壊</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 55,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_ironmn_1",
+			"duration": 15,
+			"blackboard": [
+				{
+					"key": "attack@atk_scale",
+					"value": 1.1
+				},
+				{
+					"key": "fake_scale",
+					"value": 2
+				}
+			]
+		},
+		{
+			"name": "ハイパーブースト",
+			"rangeId": null,
+			"description": "パッシブ：装置の効果対象の攻撃力<@ba.vup>+12%</>\nアクティブ：装置を1個獲得し、通常攻撃が攻撃対象に攻撃力の<@ba.vup>{attack@atk_scale:0%}</>の物理ダメージを与え、装置の効果が<@ba.vup>{fake_scale}</>倍まで上昇\n<@ba.rem>スキル終了時、配置中の装置を全て破壊</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 55,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_ironmn_1",
+			"duration": 15,
+			"blackboard": [
+				{
+					"key": "attack@atk_scale",
+					"value": 1.2
+				},
+				{
+					"key": "fake_scale",
+					"value": 2
+				}
+			]
+		},
+		{
+			"name": "ハイパーブースト",
+			"rangeId": null,
+			"description": "パッシブ：装置の効果対象の攻撃力<@ba.vup>+12%</>\nアクティブ：装置を1個獲得し、通常攻撃が攻撃対象に攻撃力の<@ba.vup>{attack@atk_scale:0%}</>の物理ダメージを与え、装置の効果が<@ba.vup>{fake_scale}</>倍まで上昇\n<@ba.rem>スキル終了時、配置中の装置を全て破壊</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 55,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_ironmn_1",
+			"duration": 15,
+			"blackboard": [
+				{
+					"key": "attack@atk_scale",
+					"value": 1.3
+				},
+				{
+					"key": "fake_scale",
+					"value": 2
+				}
+			]
+		},
+		{
+			"name": "ハイパーブースト",
+			"rangeId": null,
+			"description": "パッシブ：装置の効果対象の攻撃力<@ba.vup>+12%</>\nアクティブ：装置を1個獲得し、通常攻撃が攻撃対象に攻撃力の<@ba.vup>{attack@atk_scale:0%}</>の物理ダメージを与え、装置の効果が<@ba.vup>{fake_scale}</>倍まで上昇\n<@ba.rem>スキル終了時、配置中の装置を全て破壊</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 50,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_ironmn_1",
+			"duration": 16,
+			"blackboard": [
+				{
+					"key": "attack@atk_scale",
+					"value": 1.4
+				},
+				{
+					"key": "fake_scale",
+					"value": 2.5
+				}
+			]
+		},
+		{
+			"name": "ハイパーブースト",
+			"rangeId": null,
+			"description": "パッシブ：装置の効果対象の攻撃力<@ba.vup>+12%</>\nアクティブ：装置を1個獲得し、通常攻撃が攻撃対象に攻撃力の<@ba.vup>{attack@atk_scale:0%}</>の物理ダメージを与え、装置の効果が<@ba.vup>{fake_scale}</>倍まで上昇\n<@ba.rem>スキル終了時、配置中の装置を全て破壊</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 50,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_ironmn_1",
+			"duration": 16,
+			"blackboard": [
+				{
+					"key": "attack@atk_scale",
+					"value": 1.5
+				},
+				{
+					"key": "fake_scale",
+					"value": 2.5
+				}
+			]
+		},
+		{
+			"name": "ハイパーブースト",
+			"rangeId": null,
+			"description": "パッシブ：装置の効果対象の攻撃力<@ba.vup>+12%</>\nアクティブ：装置を1個獲得し、通常攻撃が攻撃対象に攻撃力の<@ba.vup>{attack@atk_scale:0%}</>の物理ダメージを与え、装置の効果が<@ba.vup>{fake_scale}</>倍まで上昇\n<@ba.rem>スキル終了時、配置中の装置を全て破壊</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 50,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_ironmn_1",
+			"duration": 16,
+			"blackboard": [
+				{
+					"key": "attack@atk_scale",
+					"value": 1.6
+				},
+				{
+					"key": "fake_scale",
+					"value": 2.5
+				}
+			]
+		},
+		{
+			"name": "ハイパーブースト",
+			"rangeId": null,
+			"description": "パッシブ：装置の効果対象の攻撃力<@ba.vup>+12%</>\nアクティブ：装置を1個獲得し、通常攻撃が攻撃対象に攻撃力の<@ba.vup>{attack@atk_scale:0%}</>の物理ダメージを与え、装置の効果が<@ba.vup>{fake_scale}</>倍まで上昇\n<@ba.rem>スキル終了時、配置中の装置を全て破壊</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 45,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_ironmn_1",
+			"duration": 17,
+			"blackboard": [
+				{
+					"key": "attack@atk_scale",
+					"value": 1.7
+				},
+				{
+					"key": "fake_scale",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "ハイパーブースト",
+			"rangeId": null,
+			"description": "パッシブ：装置の効果対象の攻撃力<@ba.vup>+12%</>\nアクティブ：装置を1個獲得し、通常攻撃が攻撃対象に攻撃力の<@ba.vup>{attack@atk_scale:0%}</>の物理ダメージを与え、装置の効果が<@ba.vup>{fake_scale}</>倍まで上昇\n<@ba.rem>スキル終了時、配置中の装置を全て破壊</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 45,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_ironmn_1",
+			"duration": 18,
+			"blackboard": [
+				{
+					"key": "attack@atk_scale",
+					"value": 1.8
+				},
+				{
+					"key": "fake_scale",
+					"value": 3.5
+				}
+			]
+		},
+		{
+			"name": "ハイパーブースト",
+			"rangeId": null,
+			"description": "パッシブ：装置の効果対象の攻撃力<@ba.vup>+12%</>\nアクティブ：装置を1個獲得し、通常攻撃が攻撃対象に攻撃力の<@ba.vup>{attack@atk_scale:0%}</>の物理ダメージを与え、装置の効果が<@ba.vup>{fake_scale}</>倍まで上昇\n<@ba.rem>スキル終了時、配置中の装置を全て破壊</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 45,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_ironmn_1",
+			"duration": 19,
+			"blackboard": [
+				{
+					"key": "attack@atk_scale",
+					"value": 1.9
+				},
+				{
+					"key": "fake_scale",
+					"value": 3.5
+				}
+			]
+		},
+		{
+			"name": "ハイパーブースト",
+			"rangeId": null,
+			"description": "パッシブ：装置の効果対象の攻撃力<@ba.vup>+12%</>\nアクティブ：装置を1個獲得し、通常攻撃が攻撃対象に攻撃力の<@ba.vup>{attack@atk_scale:0%}</>の物理ダメージを与え、装置の効果が<@ba.vup>{fake_scale}</>倍まで上昇\n<@ba.rem>スキル終了時、配置中の装置を全て破壊</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 45,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_ironmn_1",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "attack@atk_scale",
+					"value": 2
+				},
+				{
+					"key": "fake_scale",
+					"value": 4
+				}
+			]
+		}
+	]
+}

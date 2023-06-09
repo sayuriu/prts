@@ -1,0 +1,73 @@
+{
+	"stageType": "ACTIVITY",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
+	"unlockCondition": [
+		{
+			"stageId": "act19side_02",
+			"completeState": 2
+		}
+	],
+	"stageId": "act19side_tr01",
+	"levelId": "Activities/act19side/level_act19side_tr01",
+	"zoneId": "act19side_zone1",
+	"code": "DV-TR-1",
+	"name": "실험 기지 복도",
+	"description": "'약점'이 '고충'일 수도 있고, '도움'이 '속박'일 수도 있다.\n<@lv.item><R 시리즈 기동 장갑></> 주변의 실험 산물을 흡수하며, SP가 다 차면 활성화",
+	"hardStagedId": null,
+	"dangerLevel": "-",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_DV_Headquarters",
+	"canPractice": false,
+	"canBattleReplay": false,
+	"apCost": 0,
+	"apFailReturn": 0,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 0,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": -1,
+	"dailyStageDifficulty": 0,
+	"expGain": 0,
+	"goldGain": 0,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 0,
+	"completeFavor": 0,
+	"slProgress": 0,
+	"displayMainItem": null,
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": true,
+	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 3,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 0,
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		]
+	},
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "act19side_st01"
+}

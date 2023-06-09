@@ -1,0 +1,773 @@
+{
+	"name": "오로라",
+	"description": "적을 저지할 때만 SP 회복 가능",
+	"canUseGeneralPotentialItem": true,
+	"canUseActivityPotentialItem": false,
+	"potentialItemId": "p_char_422_aurora",
+	"activityPotentialItemId": null,
+	"nationId": "kjerag",
+	"groupId": "karlan",
+	"teamId": null,
+	"displayNumber": "JC09",
+	"tokenKey": null,
+	"appellation": "Aurora",
+	"position": "MELEE",
+	"tagList": [
+		"딜러",
+		"방어형"
+	],
+	"itemUsage": "디펜더 오퍼레이터 오로라. 당신이 필요로 할 때 늘 곁에 있을 겁니다.",
+	"itemDesc": "눈보라가 거세질수록 그녀의 손은 더욱더 따뜻해진다.",
+	"itemObtainApproach": "인재 채용",
+	"isNotObtainable": false,
+	"isSpChar": false,
+	"maxPotentialLevel": 5,
+	"rarity": 4,
+	"profession": "TANK",
+	"subProfessionId": "duelist",
+	"trait": null,
+	"phases": [
+		{
+			"characterPrefabKey": "char_422_aurora",
+			"rangeId": "1-1",
+			"maxLevel": 50,
+			"attributesKeyFrames": [
+				{
+					"level": 1,
+					"data": {
+						"maxHp": 1696,
+						"atk": 413,
+						"def": 257,
+						"magicResistance": 0,
+						"cost": 28,
+						"blockCnt": 1,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 1.6,
+						"respawnTime": 70,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
+					}
+				},
+				{
+					"level": 50,
+					"data": {
+						"maxHp": 2356,
+						"atk": 582,
+						"def": 378,
+						"magicResistance": 0,
+						"cost": 28,
+						"blockCnt": 1,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 1.6,
+						"respawnTime": 70,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
+					}
+				}
+			],
+			"evolveCost": null
+		},
+		{
+			"characterPrefabKey": "char_422_aurora",
+			"rangeId": "1-1",
+			"maxLevel": 70,
+			"attributesKeyFrames": [
+				{
+					"level": 1,
+					"data": {
+						"maxHp": 2356,
+						"atk": 582,
+						"def": 378,
+						"magicResistance": 0,
+						"cost": 30,
+						"blockCnt": 1,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 1.6,
+						"respawnTime": 70,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
+					}
+				},
+				{
+					"level": 70,
+					"data": {
+						"maxHp": 3100,
+						"atk": 747,
+						"def": 512,
+						"magicResistance": 0,
+						"cost": 30,
+						"blockCnt": 1,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 1.6,
+						"respawnTime": 70,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
+					}
+				}
+			],
+			"evolveCost": [
+				{
+					"id": "3231",
+					"count": 4,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30062",
+					"count": 3,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30052",
+					"count": 2,
+					"type": "MATERIAL"
+				}
+			]
+		},
+		{
+			"characterPrefabKey": "char_422_aurora",
+			"rangeId": "1-1",
+			"maxLevel": 80,
+			"attributesKeyFrames": [
+				{
+					"level": 1,
+					"data": {
+						"maxHp": 3100,
+						"atk": 747,
+						"def": 512,
+						"magicResistance": 0,
+						"cost": 32,
+						"blockCnt": 1,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 1.6,
+						"respawnTime": 70,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
+					}
+				},
+				{
+					"level": 80,
+					"data": {
+						"maxHp": 4027,
+						"atk": 901,
+						"def": 640,
+						"magicResistance": 0,
+						"cost": 32,
+						"blockCnt": 1,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 1.6,
+						"respawnTime": 70,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
+					}
+				}
+			],
+			"evolveCost": [
+				{
+					"id": "3233",
+					"count": 3,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30074",
+					"count": 9,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30013",
+					"count": 19,
+					"type": "MATERIAL"
+				}
+			]
+		}
+	],
+	"skills": [
+		{
+			"skillId": "skchr_aurora_1",
+			"overridePrefabKey": null,
+			"overrideTokenKey": null,
+			"levelUpCostCond": [
+				{
+					"unlockCond": {
+						"phase": 2,
+						"level": 1
+					},
+					"lvlUpTime": 28800,
+					"levelUpCost": [
+						{
+							"id": "3303",
+							"count": 5,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30084",
+							"count": 3,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "31053",
+							"count": 2,
+							"type": "MATERIAL"
+						}
+					]
+				},
+				{
+					"unlockCond": {
+						"phase": 2,
+						"level": 1
+					},
+					"lvlUpTime": 57600,
+					"levelUpCost": [
+						{
+							"id": "3303",
+							"count": 6,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "31024",
+							"count": 3,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30104",
+							"count": 5,
+							"type": "MATERIAL"
+						}
+					]
+				},
+				{
+					"unlockCond": {
+						"phase": 2,
+						"level": 1
+					},
+					"lvlUpTime": 86400,
+					"levelUpCost": [
+						{
+							"id": "3303",
+							"count": 10,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30115",
+							"count": 4,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30074",
+							"count": 5,
+							"type": "MATERIAL"
+						}
+					]
+				}
+			],
+			"unlockCond": {
+				"phase": 0,
+				"level": 1
+			}
+		},
+		{
+			"skillId": "skchr_aurora_2",
+			"overridePrefabKey": null,
+			"overrideTokenKey": null,
+			"levelUpCostCond": [
+				{
+					"unlockCond": {
+						"phase": 2,
+						"level": 1
+					},
+					"lvlUpTime": 28800,
+					"levelUpCost": [
+						{
+							"id": "3303",
+							"count": 5,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30094",
+							"count": 3,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30073",
+							"count": 4,
+							"type": "MATERIAL"
+						}
+					]
+				},
+				{
+					"unlockCond": {
+						"phase": 2,
+						"level": 1
+					},
+					"lvlUpTime": 57600,
+					"levelUpCost": [
+						{
+							"id": "3303",
+							"count": 6,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30044",
+							"count": 3,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "31024",
+							"count": 5,
+							"type": "MATERIAL"
+						}
+					]
+				},
+				{
+					"unlockCond": {
+						"phase": 2,
+						"level": 1
+					},
+					"lvlUpTime": 86400,
+					"levelUpCost": [
+						{
+							"id": "3303",
+							"count": 10,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30135",
+							"count": 4,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30104",
+							"count": 4,
+							"type": "MATERIAL"
+						}
+					]
+				}
+			],
+			"unlockCond": {
+				"phase": 1,
+				"level": 1
+			}
+		}
+	],
+	"talents": [
+		{
+			"candidates": [
+				{
+					"unlockCondition": {
+						"phase": 1,
+						"level": 1
+					},
+					"requiredPotentialRank": 0,
+					"prefabKey": "1",
+					"name": "저온 휴식",
+					"description": "스킬 미발동 및 SP가 최대치의 50% 이하일 경우, 공격을 멈추고 초당 최대 HP의 1.5%만큼 HP 회복",
+					"rangeId": null,
+					"blackboard": [
+						{
+							"key": "hp_recovery_per_sec_by_max_hp_ratio",
+							"value": 0.015
+						},
+						{
+							"key": "sp_ratio",
+							"value": 0.5
+						}
+					]
+				},
+				{
+					"unlockCondition": {
+						"phase": 1,
+						"level": 1
+					},
+					"requiredPotentialRank": 4,
+					"prefabKey": "1",
+					"name": "저온 휴식",
+					"description": "스킬 미발동 및 SP가 최대치의 50% 이하일 경우, 공격을 멈추고 초당 최대 HP의 2%<@ba.talpu>(+0.5%)</>만큼 HP 회복",
+					"rangeId": null,
+					"blackboard": [
+						{
+							"key": "hp_recovery_per_sec_by_max_hp_ratio",
+							"value": 0.02
+						},
+						{
+							"key": "sp_ratio",
+							"value": 0.5
+						}
+					]
+				},
+				{
+					"unlockCondition": {
+						"phase": 2,
+						"level": 1
+					},
+					"requiredPotentialRank": 0,
+					"prefabKey": "1",
+					"name": "저온 휴식",
+					"description": "스킬 미발동 및 SP가 최대치의 50% 이하일 경우, 공격을 멈추고 초당 최대 HP의 3%만큼 HP 회복",
+					"rangeId": null,
+					"blackboard": [
+						{
+							"key": "hp_recovery_per_sec_by_max_hp_ratio",
+							"value": 0.03
+						},
+						{
+							"key": "sp_ratio",
+							"value": 0.5
+						}
+					]
+				},
+				{
+					"unlockCondition": {
+						"phase": 2,
+						"level": 1
+					},
+					"requiredPotentialRank": 4,
+					"prefabKey": "1",
+					"name": "저온 휴식",
+					"description": "스킬 미발동 및 SP가 최대치의 50% 이하일 경우, 공격을 멈추고 초당 최대 HP의 3.5%<@ba.talpu>(+0.5%)</>만큼 HP 회복",
+					"rangeId": null,
+					"blackboard": [
+						{
+							"key": "hp_recovery_per_sec_by_max_hp_ratio",
+							"value": 0.035
+						},
+						{
+							"key": "sp_ratio",
+							"value": 0.5
+						}
+					]
+				}
+			]
+		}
+	],
+	"potentialRanks": [
+		{
+			"type": 0,
+			"description": "배치 코스트 -1",
+			"buff": {
+				"attributes": {
+					"abnormalFlags": null,
+					"abnormalImmunes": null,
+					"abnormalAntis": null,
+					"abnormalCombos": null,
+					"abnormalComboImmunes": null,
+					"attributeModifiers": [
+						{
+							"attributeType": 4,
+							"formulaItem": 0,
+							"value": -1,
+							"loadFromBlackboard": false,
+							"fetchBaseValueFromSourceEntity": false
+						}
+					]
+				}
+			},
+			"equivalentCost": null
+		},
+		{
+			"type": 0,
+			"description": "재배치 시간 -4초",
+			"buff": {
+				"attributes": {
+					"abnormalFlags": null,
+					"abnormalImmunes": null,
+					"abnormalAntis": null,
+					"abnormalCombos": null,
+					"abnormalComboImmunes": null,
+					"attributeModifiers": [
+						{
+							"attributeType": 21,
+							"formulaItem": 0,
+							"value": -4,
+							"loadFromBlackboard": false,
+							"fetchBaseValueFromSourceEntity": false
+						}
+					]
+				}
+			},
+			"equivalentCost": null
+		},
+		{
+			"type": 0,
+			"description": "방어력 +27",
+			"buff": {
+				"attributes": {
+					"abnormalFlags": null,
+					"abnormalImmunes": null,
+					"abnormalAntis": null,
+					"abnormalCombos": null,
+					"abnormalComboImmunes": null,
+					"attributeModifiers": [
+						{
+							"attributeType": 2,
+							"formulaItem": 0,
+							"value": 27,
+							"loadFromBlackboard": false,
+							"fetchBaseValueFromSourceEntity": false
+						}
+					]
+				}
+			},
+			"equivalentCost": null
+		},
+		{
+			"type": 1,
+			"description": "제1재능 강화",
+			"buff": null,
+			"equivalentCost": null
+		},
+		{
+			"type": 0,
+			"description": "배치 코스트 -1",
+			"buff": {
+				"attributes": {
+					"abnormalFlags": null,
+					"abnormalImmunes": null,
+					"abnormalAntis": null,
+					"abnormalCombos": null,
+					"abnormalComboImmunes": null,
+					"attributeModifiers": [
+						{
+							"attributeType": 4,
+							"formulaItem": 0,
+							"value": -1,
+							"loadFromBlackboard": false,
+							"fetchBaseValueFromSourceEntity": false
+						}
+					]
+				}
+			},
+			"equivalentCost": null
+		}
+	],
+	"favorKeyFrames": [
+		{
+			"level": 0,
+			"data": {
+				"maxHp": 0,
+				"atk": 0,
+				"def": 0,
+				"magicResistance": 0,
+				"cost": 0,
+				"blockCnt": 0,
+				"moveSpeed": 0,
+				"attackSpeed": 0,
+				"baseAttackTime": 0,
+				"respawnTime": 0,
+				"hpRecoveryPerSec": 0,
+				"spRecoveryPerSec": 0,
+				"maxDeployCount": 0,
+				"maxDeckStackCnt": 0,
+				"tauntLevel": 0,
+				"massLevel": 0,
+				"baseForceLevel": 0,
+				"stunImmune": false,
+				"silenceImmune": false,
+				"sleepImmune": false,
+				"frozenImmune": false,
+				"levitateImmune": false
+			}
+		},
+		{
+			"level": 50,
+			"data": {
+				"maxHp": 0,
+				"atk": 55,
+				"def": 55,
+				"magicResistance": 0,
+				"cost": 0,
+				"blockCnt": 0,
+				"moveSpeed": 0,
+				"attackSpeed": 0,
+				"baseAttackTime": 0,
+				"respawnTime": 0,
+				"hpRecoveryPerSec": 0,
+				"spRecoveryPerSec": 0,
+				"maxDeployCount": 0,
+				"maxDeckStackCnt": 0,
+				"tauntLevel": 0,
+				"massLevel": 0,
+				"baseForceLevel": 0,
+				"stunImmune": false,
+				"silenceImmune": false,
+				"sleepImmune": false,
+				"frozenImmune": false,
+				"levitateImmune": false
+			}
+		}
+	],
+	"allSkillLvlup": [
+		{
+			"unlockCond": {
+				"phase": 0,
+				"level": 1
+			},
+			"lvlUpCost": [
+				{
+					"id": "3301",
+					"count": 4,
+					"type": "MATERIAL"
+				}
+			]
+		},
+		{
+			"unlockCond": {
+				"phase": 0,
+				"level": 1
+			},
+			"lvlUpCost": [
+				{
+					"id": "3301",
+					"count": 4,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30011",
+					"count": 10,
+					"type": "MATERIAL"
+				}
+			]
+		},
+		{
+			"unlockCond": {
+				"phase": 0,
+				"level": 1
+			},
+			"lvlUpCost": [
+				{
+					"id": "3302",
+					"count": 6,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30022",
+					"count": 3,
+					"type": "MATERIAL"
+				}
+			]
+		},
+		{
+			"unlockCond": {
+				"phase": 1,
+				"level": 1
+			},
+			"lvlUpCost": [
+				{
+					"id": "3302",
+					"count": 6,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30032",
+					"count": 5,
+					"type": "MATERIAL"
+				}
+			]
+		},
+		{
+			"unlockCond": {
+				"phase": 1,
+				"level": 1
+			},
+			"lvlUpCost": [
+				{
+					"id": "3302",
+					"count": 6,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "31013",
+					"count": 4,
+					"type": "MATERIAL"
+				}
+			]
+		},
+		{
+			"unlockCond": {
+				"phase": 1,
+				"level": 1
+			},
+			"lvlUpCost": [
+				{
+					"id": "3303",
+					"count": 6,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "31023",
+					"count": 3,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30083",
+					"count": 3,
+					"type": "MATERIAL"
+				}
+			]
+		}
+	]
+}

@@ -7,8 +7,8 @@
 			"name": "大幅涨潮",
 			"rangeId": null,
 			"description": "-",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
 				"spType": 8,
 				"levelUpCost": null,
@@ -22,35 +22,43 @@
 			"blackboard": [
 				{
 					"key": "skill_max_trigger_time",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "sea_drown[enemy].damage",
-					"value": 100
+					"value": 100,
+					"valueStr": null
 				},
 				{
 					"key": "sea_drown[enemy].attack_speed",
-					"value": -0.6
+					"value": -0.6,
+					"valueStr": null
 				},
 				{
 					"key": "sea_drown[enemy].move_speed",
-					"value": 0.6
+					"value": 0.6,
+					"valueStr": null
 				},
 				{
 					"key": "sea_drown[ally][attack_speed_down].attack_speed",
-					"value": -0.6
+					"value": -0.6,
+					"valueStr": null
 				},
 				{
 					"key": "sea_drown[ally].ep_damage_ratio",
-					"value": 0.25
+					"value": 0.25,
+					"valueStr": null
 				},
 				{
 					"key": "sea_drown[ally].value",
-					"value": 40
+					"value": 40,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 20
+					"value": 20,
+					"valueStr": null
 				}
 			]
 		},
@@ -58,8 +66,8 @@
 			"name": "大幅涨潮",
 			"rangeId": null,
 			"description": "-",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
 				"spType": 8,
 				"levelUpCost": null,
@@ -73,35 +81,43 @@
 			"blackboard": [
 				{
 					"key": "skill_max_trigger_time",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "sea_drown[enemy].damage",
-					"value": 100
+					"value": 100,
+					"valueStr": null
 				},
 				{
 					"key": "sea_drown[enemy].attack_speed",
-					"value": -0.6
+					"value": -0.6,
+					"valueStr": null
 				},
 				{
 					"key": "sea_drown[enemy].move_speed",
-					"value": 0.6
+					"value": 0.6,
+					"valueStr": null
 				},
 				{
 					"key": "sea_drown[ally][attack_speed_down].attack_speed",
-					"value": -0.8
+					"value": -0.8,
+					"valueStr": null
 				},
 				{
 					"key": "sea_drown[ally].ep_damage_ratio",
-					"value": 0.25
+					"value": 0.25,
+					"valueStr": null
 				},
 				{
 					"key": "sea_drown[ally].value",
-					"value": 40
+					"value": 40,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 20
+					"value": 20,
+					"valueStr": null
 				}
 			]
 		}

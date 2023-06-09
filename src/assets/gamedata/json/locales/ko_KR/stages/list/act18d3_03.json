@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act18d3_02",
@@ -10,7 +11,7 @@
 	],
 	"stageId": "act18d3_03",
 	"levelId": "Activities/act18d3/level_act18d3_03",
-	"zoneId": "act18d3_zone1",
+	"zoneId": "act11sre_zone1",
 	"code": "SV-3",
 	"name": "외부자",
 	"description": "음모가 눈에 뜨일 정도로 뻔하다면 그건 정말로 깨뜨리기 어렵거나, 아니면 주모자가 바보라는 뜻이다.",
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {
@@ -57,12 +59,12 @@
 			},
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act18d3_token_record",
+				"id": "act18d3_token_record_rep_1",
 				"dropType": 8
 			},
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act18d3_token_record",
+				"id": "act18d3_token_record_rep_1",
 				"dropType": 2
 			},
 			{
@@ -91,13 +93,13 @@
 			{
 				"occPercent": 0,
 				"type": "ACTIVITY_ITEM",
-				"id": "act18d3_token_record",
+				"id": "act18d3_token_record_rep_1",
 				"dropType": 8
 			},
 			{
 				"occPercent": 0,
 				"type": "ACTIVITY_ITEM",
-				"id": "act18d3_token_record",
+				"id": "act18d3_token_record_rep_1",
 				"dropType": 2
 			},
 			{

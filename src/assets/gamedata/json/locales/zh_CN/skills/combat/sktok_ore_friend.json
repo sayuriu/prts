@@ -7,10 +7,10 @@
 			"name": "脉冲波",
 			"rangeId": "x-1",
 			"description": "向四周喷发脉冲波，对周围所有敌方单位造成<@ba.vup>{value}</>真实伤害。",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 15,
@@ -22,7 +22,8 @@
 			"blackboard": [
 				{
 					"key": "value",
-					"value": 2000
+					"value": 2000,
+					"valueStr": null
 				}
 			]
 		}

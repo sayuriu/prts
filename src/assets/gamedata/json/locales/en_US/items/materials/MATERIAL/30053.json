@@ -6,12 +6,20 @@
 	"iconId": "MTL_SL_KETONE3",
 	"overrideBkg": null,
 	"stackIconId": null,
-	"sortId": 100033,
+	"sortId": 100047,
 	"usage": "A modest amount of industrial organic compound. Can be used for a variety of upgrades and for production in the Factory.",
 	"obtainApproach": null,
 	"classifyType": "MATERIAL",
 	"itemType": "MATERIAL",
 	"stageDropList": [
+		{
+			"stageId": "act20side_07",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "act11mini_07",
+			"occPer": "USUAL"
+		},
 		{
 			"stageId": "act18d0_07",
 			"occPer": "USUAL"
@@ -55,6 +63,14 @@
 		{
 			"stageId": "main_08-17",
 			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_10-03",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "tough_10-03",
+			"occPer": "USUAL"
 		},
 		{
 			"stageId": "sub_09-1-1",

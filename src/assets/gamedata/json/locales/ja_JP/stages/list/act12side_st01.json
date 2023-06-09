@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "main_01-10",
@@ -10,7 +11,7 @@
 	],
 	"stageId": "act12side_st01",
 	"levelId": null,
-	"zoneId": "act12side_zone1",
+	"zoneId": "act12sre_zone1",
 	"code": "DH-ST-1",
 	"name": "思わぬ遭遇",
 	"description": "突然の行先変更、予想もしていなかった再会、享楽の都市、奇妙な依頼、チェンのバカンスが始まった。",
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": true,
 	"appearanceStyle": 0,
 	"stageDropInfo": {

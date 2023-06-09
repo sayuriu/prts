@@ -2,10 +2,11 @@
 	"stageType": "SPECIAL_STORY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "main_08-09",
-			"completeState": 2
+			"completeState": "PASS"
 		}
 	],
 	"stageId": "spst_08-02",
@@ -44,7 +45,7 @@
 	"isHardPredefined": false,
 	"isSkillSelectablePredefined": false,
 	"isStoryOnly": true,
-	"appearanceStyle": 6,
+	"appearanceStyle": "SPECIAL_STORY",
 	"stageDropInfo": {
 		"firstPassRewards": null,
 		"firstCompleteRewards": null,
@@ -53,6 +54,10 @@
 		"displayRewards": [],
 		"displayDetailRewards": []
 	},
+	"canUseCharm": false,
+	"canUseTech": false,
+	"canUseTrapTool": false,
+	"canUseBattlePerformance": false,
 	"startButtonOverrideId": null,
 	"isStagePatch": false,
 	"mainStageId": null,

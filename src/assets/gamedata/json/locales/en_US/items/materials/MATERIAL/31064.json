@@ -1,0 +1,38 @@
+{
+	"itemId": "31064",
+	"name": "Transmuted Salt Agglomerate",
+	"description": "A stable crystalline body, manufactured as a crystal blend within saturated solutions. Can provide materials with a diverse array of capabilities.",
+	"rarity": 3,
+	"iconId": "MTL_SL_ZYK",
+	"overrideBkg": null,
+	"stackIconId": null,
+	"sortId": 100006,
+	"usage": "A compound crystal mass that has undergone high-tolerance refinement. Used in a variety of strengthening projects, and is a common material in synthetic items at factories.",
+	"obtainApproach": null,
+	"classifyType": "MATERIAL",
+	"itemType": "MATERIAL",
+	"stageDropList": [
+		{
+			"stageId": "main_11-03",
+			"occPer": "SOMETIMES"
+		},
+		{
+			"stageId": "main_11-13",
+			"occPer": "SOMETIMES"
+		},
+		{
+			"stageId": "tough_11-03",
+			"occPer": "SOMETIMES"
+		},
+		{
+			"stageId": "tough_11-13",
+			"occPer": "SOMETIMES"
+		}
+	],
+	"buildingProductList": [
+		{
+			"roomType": "WORKSHOP",
+			"formulaId": "61"
+		}
+	]
+}

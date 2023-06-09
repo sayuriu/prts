@@ -1,0 +1,397 @@
+{
+	"skillId": "skchr_heyak_3",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "博览者的狂语",
+			"rangeId": "3-10",
+			"description": "攻击范围<@ba.vup>扩大</>，攻击间隔<@ba.vdown>延长</>，攻击变为向前吹出平行的旋风，旋风伤害随行进距离正比增强并在行进三格后达到最大，使命中的第一个目标<$ba.levitate>浮空</><@ba.vup>{attack@levitate}</>秒，并造成最高<@ba.vup>{attack@max_atk_scale:0%}</>攻击力的法术伤害",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 70,
+				"initSp": 40,
+				"increment": 1
+			},
+			"prefabId": "skchr_heyak_3",
+			"duration": 45,
+			"blackboard": [
+				{
+					"key": "attack@min_atk_scale",
+					"value": 2.13,
+					"valueStr": null
+				},
+				{
+					"key": "attack@max_atk_scale",
+					"value": 3.2,
+					"valueStr": null
+				},
+				{
+					"key": "attack@levitate",
+					"value": 1.6,
+					"valueStr": null
+				},
+				{
+					"key": "base_attack_time",
+					"value": 1.4,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "博览者的狂语",
+			"rangeId": "3-10",
+			"description": "攻击范围<@ba.vup>扩大</>，攻击间隔<@ba.vdown>延长</>，攻击变为向前吹出平行的旋风，旋风伤害随行进距离正比增强并在行进三格后达到最大，使命中的第一个目标<$ba.levitate>浮空</><@ba.vup>{attack@levitate}</>秒，并造成最高<@ba.vup>{attack@max_atk_scale:0%}</>攻击力的法术伤害",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 69,
+				"initSp": 40,
+				"increment": 1
+			},
+			"prefabId": "skchr_heyak_3",
+			"duration": 45,
+			"blackboard": [
+				{
+					"key": "attack@min_atk_scale",
+					"value": 2.2,
+					"valueStr": null
+				},
+				{
+					"key": "attack@max_atk_scale",
+					"value": 3.3,
+					"valueStr": null
+				},
+				{
+					"key": "attack@levitate",
+					"value": 1.6,
+					"valueStr": null
+				},
+				{
+					"key": "base_attack_time",
+					"value": 1.4,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "博览者的狂语",
+			"rangeId": "3-10",
+			"description": "攻击范围<@ba.vup>扩大</>，攻击间隔<@ba.vdown>延长</>，攻击变为向前吹出平行的旋风，旋风伤害随行进距离正比增强并在行进三格后达到最大，使命中的第一个目标<$ba.levitate>浮空</><@ba.vup>{attack@levitate}</>秒，并造成最高<@ba.vup>{attack@max_atk_scale:0%}</>攻击力的法术伤害",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 68,
+				"initSp": 40,
+				"increment": 1
+			},
+			"prefabId": "skchr_heyak_3",
+			"duration": 45,
+			"blackboard": [
+				{
+					"key": "attack@min_atk_scale",
+					"value": 2.27,
+					"valueStr": null
+				},
+				{
+					"key": "attack@max_atk_scale",
+					"value": 3.4,
+					"valueStr": null
+				},
+				{
+					"key": "attack@levitate",
+					"value": 1.6,
+					"valueStr": null
+				},
+				{
+					"key": "base_attack_time",
+					"value": 1.4,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "博览者的狂语",
+			"rangeId": "3-10",
+			"description": "攻击范围<@ba.vup>扩大</>，攻击间隔<@ba.vdown>延长</>，攻击变为向前吹出平行的旋风，旋风伤害随行进距离正比增强并在行进三格后达到最大，使命中的第一个目标<$ba.levitate>浮空</><@ba.vup>{attack@levitate}</>秒，并造成最高<@ba.vup>{attack@max_atk_scale:0%}</>攻击力的法术伤害",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 67,
+				"initSp": 41,
+				"increment": 1
+			},
+			"prefabId": "skchr_heyak_3",
+			"duration": 45,
+			"blackboard": [
+				{
+					"key": "attack@min_atk_scale",
+					"value": 2.33,
+					"valueStr": null
+				},
+				{
+					"key": "attack@max_atk_scale",
+					"value": 3.5,
+					"valueStr": null
+				},
+				{
+					"key": "attack@levitate",
+					"value": 1.8,
+					"valueStr": null
+				},
+				{
+					"key": "base_attack_time",
+					"value": 1.4,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "博览者的狂语",
+			"rangeId": "3-10",
+			"description": "攻击范围<@ba.vup>扩大</>，攻击间隔<@ba.vdown>延长</>，攻击变为向前吹出平行的旋风，旋风伤害随行进距离正比增强并在行进三格后达到最大，使命中的第一个目标<$ba.levitate>浮空</><@ba.vup>{attack@levitate}</>秒，并造成最高<@ba.vup>{attack@max_atk_scale:0%}</>攻击力的法术伤害",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 66,
+				"initSp": 41,
+				"increment": 1
+			},
+			"prefabId": "skchr_heyak_3",
+			"duration": 45,
+			"blackboard": [
+				{
+					"key": "attack@min_atk_scale",
+					"value": 2.4,
+					"valueStr": null
+				},
+				{
+					"key": "attack@max_atk_scale",
+					"value": 3.6,
+					"valueStr": null
+				},
+				{
+					"key": "attack@levitate",
+					"value": 1.8,
+					"valueStr": null
+				},
+				{
+					"key": "base_attack_time",
+					"value": 1.4,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "博览者的狂语",
+			"rangeId": "3-10",
+			"description": "攻击范围<@ba.vup>扩大</>，攻击间隔<@ba.vdown>延长</>，攻击变为向前吹出平行的旋风，旋风伤害随行进距离正比增强并在行进三格后达到最大，使命中的第一个目标<$ba.levitate>浮空</><@ba.vup>{attack@levitate}</>秒，并造成最高<@ba.vup>{attack@max_atk_scale:0%}</>攻击力的法术伤害",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 65,
+				"initSp": 41,
+				"increment": 1
+			},
+			"prefabId": "skchr_heyak_3",
+			"duration": 45,
+			"blackboard": [
+				{
+					"key": "attack@min_atk_scale",
+					"value": 2.47,
+					"valueStr": null
+				},
+				{
+					"key": "attack@max_atk_scale",
+					"value": 3.7,
+					"valueStr": null
+				},
+				{
+					"key": "attack@levitate",
+					"value": 1.8,
+					"valueStr": null
+				},
+				{
+					"key": "base_attack_time",
+					"value": 1.4,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "博览者的狂语",
+			"rangeId": "3-10",
+			"description": "攻击范围<@ba.vup>扩大</>，攻击间隔<@ba.vdown>延长</>，攻击变为向前吹出平行的旋风，旋风伤害随行进距离正比增强并在行进三格后达到最大，使命中的第一个目标<$ba.levitate>浮空</><@ba.vup>{attack@levitate}</>秒，并造成最高<@ba.vup>{attack@max_atk_scale:0%}</>攻击力的法术伤害",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 64,
+				"initSp": 42,
+				"increment": 1
+			},
+			"prefabId": "skchr_heyak_3",
+			"duration": 45,
+			"blackboard": [
+				{
+					"key": "attack@min_atk_scale",
+					"value": 2.53,
+					"valueStr": null
+				},
+				{
+					"key": "attack@max_atk_scale",
+					"value": 3.8,
+					"valueStr": null
+				},
+				{
+					"key": "attack@levitate",
+					"value": 2,
+					"valueStr": null
+				},
+				{
+					"key": "base_attack_time",
+					"value": 1.4,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "博览者的狂语",
+			"rangeId": "3-10",
+			"description": "攻击范围<@ba.vup>扩大</>，攻击间隔<@ba.vdown>延长</>，攻击变为向前吹出平行的旋风，旋风伤害随行进距离正比增强并在行进三格后达到最大，使命中的第一个目标<$ba.levitate>浮空</><@ba.vup>{attack@levitate}</>秒，并造成最高<@ba.vup>{attack@max_atk_scale:0%}</>攻击力的法术伤害",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 63,
+				"initSp": 43,
+				"increment": 1
+			},
+			"prefabId": "skchr_heyak_3",
+			"duration": 45,
+			"blackboard": [
+				{
+					"key": "attack@min_atk_scale",
+					"value": 2.67,
+					"valueStr": null
+				},
+				{
+					"key": "attack@max_atk_scale",
+					"value": 4,
+					"valueStr": null
+				},
+				{
+					"key": "attack@levitate",
+					"value": 2,
+					"valueStr": null
+				},
+				{
+					"key": "base_attack_time",
+					"value": 1.4,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "博览者的狂语",
+			"rangeId": "3-10",
+			"description": "攻击范围<@ba.vup>扩大</>，攻击间隔<@ba.vdown>延长</>，攻击变为向前吹出平行的旋风，旋风伤害随行进距离正比增强并在行进三格后达到最大，使命中的第一个目标<$ba.levitate>浮空</><@ba.vup>{attack@levitate}</>秒，并造成最高<@ba.vup>{attack@max_atk_scale:0%}</>攻击力的法术伤害",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 62,
+				"initSp": 44,
+				"increment": 1
+			},
+			"prefabId": "skchr_heyak_3",
+			"duration": 45,
+			"blackboard": [
+				{
+					"key": "attack@min_atk_scale",
+					"value": 2.73,
+					"valueStr": null
+				},
+				{
+					"key": "attack@max_atk_scale",
+					"value": 4.1,
+					"valueStr": null
+				},
+				{
+					"key": "attack@levitate",
+					"value": 2,
+					"valueStr": null
+				},
+				{
+					"key": "base_attack_time",
+					"value": 1.4,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "博览者的狂语",
+			"rangeId": "3-10",
+			"description": "攻击范围<@ba.vup>扩大</>，攻击间隔<@ba.vdown>延长</>，攻击变为向前吹出平行的旋风，旋风伤害随行进距离正比增强并在行进三格后达到最大，使命中的第一个目标<$ba.levitate>浮空</><@ba.vup>{attack@levitate}</>秒，并造成最高<@ba.vup>{attack@max_atk_scale:0%}</>攻击力的法术伤害",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 60,
+				"initSp": 45,
+				"increment": 1
+			},
+			"prefabId": "skchr_heyak_3",
+			"duration": 45,
+			"blackboard": [
+				{
+					"key": "attack@min_atk_scale",
+					"value": 2.8,
+					"valueStr": null
+				},
+				{
+					"key": "attack@max_atk_scale",
+					"value": 4.2,
+					"valueStr": null
+				},
+				{
+					"key": "attack@levitate",
+					"value": 2.2,
+					"valueStr": null
+				},
+				{
+					"key": "base_attack_time",
+					"value": 1.4,
+					"valueStr": null
+				}
+			]
+		}
+	]
+}

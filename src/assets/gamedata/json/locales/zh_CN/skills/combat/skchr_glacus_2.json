@@ -7,10 +7,10 @@
 			"name": "反制电磁脉冲",
 			"rangeId": "x-3",
 			"description": "向周围发射一道冲击波，击中的所有敌人受到攻击力<@ba.vup>{atk_scale[normal]:0%}</>的法术伤害并<$ba.root>束缚</><@ba.vup>{frozen}</>秒；如果目标是【无人机】，受到的伤害加倍并将效果改为<$ba.stun>晕眩</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 40,
@@ -22,19 +22,23 @@
 			"blackboard": [
 				{
 					"key": "atk_scale[drone]",
-					"value": 4
+					"value": 4,
+					"valueStr": null
 				},
 				{
 					"key": "atk_scale[normal]",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				},
 				{
 					"key": "frozen",
-					"value": 3.5
+					"value": 3.5,
+					"valueStr": null
 				},
 				{
 					"key": "stun",
-					"value": 3.5
+					"value": 3.5,
+					"valueStr": null
 				}
 			]
 		},
@@ -42,10 +46,10 @@
 			"name": "反制电磁脉冲",
 			"rangeId": "x-3",
 			"description": "向周围发射一道冲击波，击中的所有敌人受到攻击力<@ba.vup>{atk_scale[normal]:0%}</>的法术伤害并<$ba.root>束缚</><@ba.vup>{frozen}</>秒；如果目标是【无人机】，受到的伤害加倍并将效果改为<$ba.stun>晕眩</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 39,
@@ -57,19 +61,23 @@
 			"blackboard": [
 				{
 					"key": "atk_scale[drone]",
-					"value": 4.4
+					"value": 4.4,
+					"valueStr": null
 				},
 				{
 					"key": "atk_scale[normal]",
-					"value": 2.2
+					"value": 2.2,
+					"valueStr": null
 				},
 				{
 					"key": "frozen",
-					"value": 3.5
+					"value": 3.5,
+					"valueStr": null
 				},
 				{
 					"key": "stun",
-					"value": 3.5
+					"value": 3.5,
+					"valueStr": null
 				}
 			]
 		},
@@ -77,10 +85,10 @@
 			"name": "反制电磁脉冲",
 			"rangeId": "x-3",
 			"description": "向周围发射一道冲击波，击中的所有敌人受到攻击力<@ba.vup>{atk_scale[normal]:0%}</>的法术伤害并<$ba.root>束缚</><@ba.vup>{frozen}</>秒；如果目标是【无人机】，受到的伤害加倍并将效果改为<$ba.stun>晕眩</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 38,
@@ -92,19 +100,23 @@
 			"blackboard": [
 				{
 					"key": "atk_scale[drone]",
-					"value": 4.8
+					"value": 4.8,
+					"valueStr": null
 				},
 				{
 					"key": "atk_scale[normal]",
-					"value": 2.4
+					"value": 2.4,
+					"valueStr": null
 				},
 				{
 					"key": "frozen",
-					"value": 3.5
+					"value": 3.5,
+					"valueStr": null
 				},
 				{
 					"key": "stun",
-					"value": 3.5
+					"value": 3.5,
+					"valueStr": null
 				}
 			]
 		},
@@ -112,10 +124,10 @@
 			"name": "反制电磁脉冲",
 			"rangeId": "x-3",
 			"description": "向周围发射一道冲击波，击中的所有敌人受到攻击力<@ba.vup>{atk_scale[normal]:0%}</>的法术伤害并<$ba.root>束缚</><@ba.vup>{frozen}</>秒；如果目标是【无人机】，受到的伤害加倍并将效果改为<$ba.stun>晕眩</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 37,
@@ -127,19 +139,23 @@
 			"blackboard": [
 				{
 					"key": "atk_scale[drone]",
-					"value": 5.2
+					"value": 5.2,
+					"valueStr": null
 				},
 				{
 					"key": "atk_scale[normal]",
-					"value": 2.6
+					"value": 2.6,
+					"valueStr": null
 				},
 				{
 					"key": "frozen",
-					"value": 4
+					"value": 4,
+					"valueStr": null
 				},
 				{
 					"key": "stun",
-					"value": 4
+					"value": 4,
+					"valueStr": null
 				}
 			]
 		},
@@ -147,10 +163,10 @@
 			"name": "反制电磁脉冲",
 			"rangeId": "x-3",
 			"description": "向周围发射一道冲击波，击中的所有敌人受到攻击力<@ba.vup>{atk_scale[normal]:0%}</>的法术伤害并<$ba.root>束缚</><@ba.vup>{frozen}</>秒；如果目标是【无人机】，受到的伤害加倍并将效果改为<$ba.stun>晕眩</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 36,
@@ -162,19 +178,23 @@
 			"blackboard": [
 				{
 					"key": "atk_scale[drone]",
-					"value": 5.6
+					"value": 5.6,
+					"valueStr": null
 				},
 				{
 					"key": "atk_scale[normal]",
-					"value": 2.8
+					"value": 2.8,
+					"valueStr": null
 				},
 				{
 					"key": "frozen",
-					"value": 4
+					"value": 4,
+					"valueStr": null
 				},
 				{
 					"key": "stun",
-					"value": 4
+					"value": 4,
+					"valueStr": null
 				}
 			]
 		},
@@ -182,10 +202,10 @@
 			"name": "反制电磁脉冲",
 			"rangeId": "x-3",
 			"description": "向周围发射一道冲击波，击中的所有敌人受到攻击力<@ba.vup>{atk_scale[normal]:0%}</>的法术伤害并<$ba.root>束缚</><@ba.vup>{frozen}</>秒；如果目标是【无人机】，受到的伤害加倍并将效果改为<$ba.stun>晕眩</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 35,
@@ -197,19 +217,23 @@
 			"blackboard": [
 				{
 					"key": "atk_scale[drone]",
-					"value": 6
+					"value": 6,
+					"valueStr": null
 				},
 				{
 					"key": "atk_scale[normal]",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				},
 				{
 					"key": "frozen",
-					"value": 4
+					"value": 4,
+					"valueStr": null
 				},
 				{
 					"key": "stun",
-					"value": 4
+					"value": 4,
+					"valueStr": null
 				}
 			]
 		},
@@ -217,10 +241,10 @@
 			"name": "反制电磁脉冲",
 			"rangeId": "x-3",
 			"description": "向周围发射一道冲击波，击中的所有敌人受到攻击力<@ba.vup>{atk_scale[normal]:0%}</>的法术伤害并<$ba.root>束缚</><@ba.vup>{frozen}</>秒；如果目标是【无人机】，受到的伤害加倍并将效果改为<$ba.stun>晕眩</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 34,
@@ -232,19 +256,23 @@
 			"blackboard": [
 				{
 					"key": "atk_scale[drone]",
-					"value": 6.4
+					"value": 6.4,
+					"valueStr": null
 				},
 				{
 					"key": "atk_scale[normal]",
-					"value": 3.2
+					"value": 3.2,
+					"valueStr": null
 				},
 				{
 					"key": "frozen",
-					"value": 4.5
+					"value": 4.5,
+					"valueStr": null
 				},
 				{
 					"key": "stun",
-					"value": 4.5
+					"value": 4.5,
+					"valueStr": null
 				}
 			]
 		},
@@ -252,10 +280,10 @@
 			"name": "反制电磁脉冲",
 			"rangeId": "x-3",
 			"description": "向周围发射一道冲击波，击中的所有敌人受到攻击力<@ba.vup>{atk_scale[normal]:0%}</>的法术伤害并<$ba.root>束缚</><@ba.vup>{frozen}</>秒；如果目标是【无人机】，受到的伤害加倍并将效果改为<$ba.stun>晕眩</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 33,
@@ -267,19 +295,23 @@
 			"blackboard": [
 				{
 					"key": "atk_scale[drone]",
-					"value": 6.8
+					"value": 6.8,
+					"valueStr": null
 				},
 				{
 					"key": "atk_scale[normal]",
-					"value": 3.4
+					"value": 3.4,
+					"valueStr": null
 				},
 				{
 					"key": "frozen",
-					"value": 5
+					"value": 5,
+					"valueStr": null
 				},
 				{
 					"key": "stun",
-					"value": 5
+					"value": 5,
+					"valueStr": null
 				}
 			]
 		},
@@ -287,10 +319,10 @@
 			"name": "反制电磁脉冲",
 			"rangeId": "x-3",
 			"description": "向周围发射一道冲击波，击中的所有敌人受到攻击力<@ba.vup>{atk_scale[normal]:0%}</>的法术伤害并<$ba.root>束缚</><@ba.vup>{frozen}</>秒；如果目标是【无人机】，受到的伤害加倍并将效果改为<$ba.stun>晕眩</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 32,
@@ -302,19 +334,23 @@
 			"blackboard": [
 				{
 					"key": "atk_scale[drone]",
-					"value": 7.2
+					"value": 7.2,
+					"valueStr": null
 				},
 				{
 					"key": "atk_scale[normal]",
-					"value": 3.6
+					"value": 3.6,
+					"valueStr": null
 				},
 				{
 					"key": "frozen",
-					"value": 5.5
+					"value": 5.5,
+					"valueStr": null
 				},
 				{
 					"key": "stun",
-					"value": 5.5
+					"value": 5.5,
+					"valueStr": null
 				}
 			]
 		},
@@ -322,10 +358,10 @@
 			"name": "反制电磁脉冲",
 			"rangeId": "x-3",
 			"description": "向周围发射一道冲击波，击中的所有敌人受到攻击力<@ba.vup>{atk_scale[normal]:0%}</>的法术伤害并<$ba.root>束缚</><@ba.vup>{frozen}</>秒；如果目标是【无人机】，受到的伤害加倍并将效果改为<$ba.stun>晕眩</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 30,
@@ -337,19 +373,23 @@
 			"blackboard": [
 				{
 					"key": "atk_scale[drone]",
-					"value": 8
+					"value": 8,
+					"valueStr": null
 				},
 				{
 					"key": "atk_scale[normal]",
-					"value": 4
+					"value": 4,
+					"valueStr": null
 				},
 				{
 					"key": "frozen",
-					"value": 6
+					"value": 6,
+					"valueStr": null
 				},
 				{
 					"key": "stun",
-					"value": 6
+					"value": 6,
+					"valueStr": null
 				}
 			]
 		}

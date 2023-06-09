@@ -1,0 +1,277 @@
+{
+	"skillId": "skchr_kroos2_2",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "봉후",
+			"rangeId": null,
+			"description": "공격 딜레이 <@ba.vup>매우 약간 감소</>, 공격이 <@ba.vup>2</>연 사격으로 변경, 공격이 <@ba.vup>{attack@max_stack_count}</>회 적중 후 스킬의 남은 시간 동안 공격이 <@ba.vup>4</>연 사격으로 변경",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 50,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_kroos2_2",
+			"duration": 22,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": -0.15
+				},
+				{
+					"key": "attack@max_stack_count",
+					"value": 40
+				}
+			]
+		},
+		{
+			"name": "봉후",
+			"rangeId": null,
+			"description": "공격 딜레이 <@ba.vup>매우 약간 감소</>, 공격이 <@ba.vup>2</>연 사격으로 변경, 공격이 <@ba.vup>{attack@max_stack_count}</>회 적중 후 스킬의 남은 시간 동안 공격이 <@ba.vup>4</>연 사격으로 변경",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 49,
+				"initSp": 11,
+				"increment": 1
+			},
+			"prefabId": "skchr_kroos2_2",
+			"duration": 22,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": -0.15
+				},
+				{
+					"key": "attack@max_stack_count",
+					"value": 40
+				}
+			]
+		},
+		{
+			"name": "봉후",
+			"rangeId": null,
+			"description": "공격 딜레이 <@ba.vup>매우 약간 감소</>, 공격이 <@ba.vup>2</>연 사격으로 변경, 공격이 <@ba.vup>{attack@max_stack_count}</>회 적중 후 스킬의 남은 시간 동안 공격이 <@ba.vup>4</>연 사격으로 변경",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 48,
+				"initSp": 12,
+				"increment": 1
+			},
+			"prefabId": "skchr_kroos2_2",
+			"duration": 22,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": -0.15
+				},
+				{
+					"key": "attack@max_stack_count",
+					"value": 40
+				}
+			]
+		},
+		{
+			"name": "봉후",
+			"rangeId": null,
+			"description": "공격 딜레이 <@ba.vup>조금 감소</>, 공격이 <@ba.vup>2</>연 사격으로 변경, 공격이 <@ba.vup>{attack@max_stack_count}</>회 적중 후 스킬의 남은 시간 동안 공격이 <@ba.vup>4</>연 사격으로 변경",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 45,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_kroos2_2",
+			"duration": 24,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": -0.22
+				},
+				{
+					"key": "attack@max_stack_count",
+					"value": 40
+				}
+			]
+		},
+		{
+			"name": "봉후",
+			"rangeId": null,
+			"description": "공격 딜레이 <@ba.vup>조금 감소</>, 공격이 <@ba.vup>2</>연 사격으로 변경, 공격이 <@ba.vup>{attack@max_stack_count}</>회 적중 후 스킬의 남은 시간 동안 공격이 <@ba.vup>4</>연 사격으로 변경",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 44,
+				"initSp": 16,
+				"increment": 1
+			},
+			"prefabId": "skchr_kroos2_2",
+			"duration": 24,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": -0.22
+				},
+				{
+					"key": "attack@max_stack_count",
+					"value": 40
+				}
+			]
+		},
+		{
+			"name": "봉후",
+			"rangeId": null,
+			"description": "공격 딜레이 <@ba.vup>조금 감소</>, 공격이 <@ba.vup>2</>연 사격으로 변경, 공격이 <@ba.vup>{attack@max_stack_count}</>회 적중 후 스킬의 남은 시간 동안 공격이 <@ba.vup>4</>연 사격으로 변경",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 43,
+				"initSp": 17,
+				"increment": 1
+			},
+			"prefabId": "skchr_kroos2_2",
+			"duration": 24,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": -0.22
+				},
+				{
+					"key": "attack@max_stack_count",
+					"value": 40
+				}
+			]
+		},
+		{
+			"name": "봉후",
+			"rangeId": null,
+			"description": "공격 딜레이 <@ba.vup>어느 정도 감소</>, 공격이 <@ba.vup>2</>연 사격으로 변경, 공격이 <@ba.vup>{attack@max_stack_count}</>회 적중 후 스킬의 남은 시간 동안 공격이 <@ba.vup>4</>연 사격으로 변경",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 40,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_kroos2_2",
+			"duration": 26,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": -0.3
+				},
+				{
+					"key": "attack@max_stack_count",
+					"value": 40
+				}
+			]
+		},
+		{
+			"name": "봉후",
+			"rangeId": null,
+			"description": "공격 딜레이 <@ba.vup>어느 정도 감소</>, 공격이 <@ba.vup>2</>연 사격으로 변경, 공격이 <@ba.vup>{attack@max_stack_count}</>회 적중 후 스킬의 남은 시간 동안 공격이 <@ba.vup>4</>연 사격으로 변경",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 40,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_kroos2_2",
+			"duration": 28,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": -0.3
+				},
+				{
+					"key": "attack@max_stack_count",
+					"value": 36
+				}
+			]
+		},
+		{
+			"name": "봉후",
+			"rangeId": null,
+			"description": "공격 딜레이 <@ba.vup>어느 정도 감소</>, 공격이 <@ba.vup>2</>연 사격으로 변경, 공격이 <@ba.vup>{attack@max_stack_count}</>회 적중 후 스킬의 남은 시간 동안 공격이 <@ba.vup>4</>연 사격으로 변경",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 40,
+				"initSp": 25,
+				"increment": 1
+			},
+			"prefabId": "skchr_kroos2_2",
+			"duration": 28,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": -0.3
+				},
+				{
+					"key": "attack@max_stack_count",
+					"value": 32
+				}
+			]
+		},
+		{
+			"name": "봉후",
+			"rangeId": null,
+			"description": "공격 딜레이 <@ba.vup>많이 감소</>, 공격이 <@ba.vup>2</>연 사격으로 변경, 공격이 <@ba.vup>{attack@max_stack_count}</>회 적중 후 스킬의 남은 시간 동안 공격이 <@ba.vup>4</>연 사격으로 변경",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 35,
+				"initSp": 25,
+				"increment": 1
+			},
+			"prefabId": "skchr_kroos2_2",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "base_attack_time",
+					"value": -0.375
+				},
+				{
+					"key": "attack@max_stack_count",
+					"value": 32
+				}
+			]
+		}
+	]
+}

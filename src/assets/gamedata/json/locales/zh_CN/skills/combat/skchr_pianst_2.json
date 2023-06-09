@@ -1,0 +1,597 @@
+{
+	"skillId": "skchr_pianst_2",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "曲惊四座",
+			"rangeId": null,
+			"description": "生命上限<@ba.vup>+{max_hp:0%}</>，自身更容易受到敌人攻击，每次受到攻击使自身攻击力提升<@ba.vup>+{atk:0%}</>（最多<@ba.vup>{max_stack_cnt}</>层），技能结束时对周围所有敌人造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 40,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_pianst_2",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "max_hp",
+					"value": 0.3,
+					"valueStr": null
+				},
+				{
+					"key": "atk",
+					"value": 0.16,
+					"valueStr": null
+				},
+				{
+					"key": "max_stack_cnt",
+					"value": 10,
+					"valueStr": null
+				},
+				{
+					"key": "atk_scale",
+					"value": 1.5,
+					"valueStr": null
+				},
+				{
+					"key": "pianst_s_2_fxbound_1",
+					"value": 3,
+					"valueStr": null
+				},
+				{
+					"key": "pianst_s_2_fxbound_2",
+					"value": 7,
+					"valueStr": null
+				},
+				{
+					"key": "interval",
+					"value": 18.6,
+					"valueStr": null
+				},
+				{
+					"key": "taunt_level",
+					"value": 1,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "曲惊四座",
+			"rangeId": null,
+			"description": "生命上限<@ba.vup>+{max_hp:0%}</>，自身更容易受到敌人攻击，每次受到攻击使自身攻击力提升<@ba.vup>+{atk:0%}</>（最多<@ba.vup>{max_stack_cnt}</>层），技能结束时对周围所有敌人造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 39,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_pianst_2",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "max_hp",
+					"value": 0.35,
+					"valueStr": null
+				},
+				{
+					"key": "atk",
+					"value": 0.17,
+					"valueStr": null
+				},
+				{
+					"key": "max_stack_cnt",
+					"value": 10,
+					"valueStr": null
+				},
+				{
+					"key": "atk_scale",
+					"value": 1.5,
+					"valueStr": null
+				},
+				{
+					"key": "pianst_s_2_fxbound_1",
+					"value": 3,
+					"valueStr": null
+				},
+				{
+					"key": "pianst_s_2_fxbound_2",
+					"value": 7,
+					"valueStr": null
+				},
+				{
+					"key": "interval",
+					"value": 18.6,
+					"valueStr": null
+				},
+				{
+					"key": "taunt_level",
+					"value": 1,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "曲惊四座",
+			"rangeId": null,
+			"description": "生命上限<@ba.vup>+{max_hp:0%}</>，自身更容易受到敌人攻击，每次受到攻击使自身攻击力提升<@ba.vup>+{atk:0%}</>（最多<@ba.vup>{max_stack_cnt}</>层），技能结束时对周围所有敌人造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 38,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_pianst_2",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "max_hp",
+					"value": 0.4,
+					"valueStr": null
+				},
+				{
+					"key": "atk",
+					"value": 0.18,
+					"valueStr": null
+				},
+				{
+					"key": "max_stack_cnt",
+					"value": 10,
+					"valueStr": null
+				},
+				{
+					"key": "atk_scale",
+					"value": 1.5,
+					"valueStr": null
+				},
+				{
+					"key": "pianst_s_2_fxbound_1",
+					"value": 3,
+					"valueStr": null
+				},
+				{
+					"key": "pianst_s_2_fxbound_2",
+					"value": 7,
+					"valueStr": null
+				},
+				{
+					"key": "interval",
+					"value": 18.6,
+					"valueStr": null
+				},
+				{
+					"key": "taunt_level",
+					"value": 1,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "曲惊四座",
+			"rangeId": null,
+			"description": "生命上限<@ba.vup>+{max_hp:0%}</>，自身更容易受到敌人攻击，每次受到攻击使自身攻击力提升<@ba.vup>+{atk:0%}</>（最多<@ba.vup>{max_stack_cnt}</>层），技能结束时对周围所有敌人造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 37,
+				"initSp": 3,
+				"increment": 1
+			},
+			"prefabId": "skchr_pianst_2",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "max_hp",
+					"value": 0.5,
+					"valueStr": null
+				},
+				{
+					"key": "atk",
+					"value": 0.2,
+					"valueStr": null
+				},
+				{
+					"key": "max_stack_cnt",
+					"value": 10,
+					"valueStr": null
+				},
+				{
+					"key": "atk_scale",
+					"value": 1.7,
+					"valueStr": null
+				},
+				{
+					"key": "pianst_s_2_fxbound_1",
+					"value": 3,
+					"valueStr": null
+				},
+				{
+					"key": "pianst_s_2_fxbound_2",
+					"value": 7,
+					"valueStr": null
+				},
+				{
+					"key": "interval",
+					"value": 18.6,
+					"valueStr": null
+				},
+				{
+					"key": "taunt_level",
+					"value": 1,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "曲惊四座",
+			"rangeId": null,
+			"description": "生命上限<@ba.vup>+{max_hp:0%}</>，自身更容易受到敌人攻击，每次受到攻击使自身攻击力提升<@ba.vup>+{atk:0%}</>（最多<@ba.vup>{max_stack_cnt}</>层），技能结束时对周围所有敌人造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 36,
+				"initSp": 3,
+				"increment": 1
+			},
+			"prefabId": "skchr_pianst_2",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "max_hp",
+					"value": 0.55,
+					"valueStr": null
+				},
+				{
+					"key": "atk",
+					"value": 0.21,
+					"valueStr": null
+				},
+				{
+					"key": "max_stack_cnt",
+					"value": 10,
+					"valueStr": null
+				},
+				{
+					"key": "atk_scale",
+					"value": 1.7,
+					"valueStr": null
+				},
+				{
+					"key": "pianst_s_2_fxbound_1",
+					"value": 3,
+					"valueStr": null
+				},
+				{
+					"key": "pianst_s_2_fxbound_2",
+					"value": 7,
+					"valueStr": null
+				},
+				{
+					"key": "interval",
+					"value": 18.6,
+					"valueStr": null
+				},
+				{
+					"key": "taunt_level",
+					"value": 1,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "曲惊四座",
+			"rangeId": null,
+			"description": "生命上限<@ba.vup>+{max_hp:0%}</>，自身更容易受到敌人攻击，每次受到攻击使自身攻击力提升<@ba.vup>+{atk:0%}</>（最多<@ba.vup>{max_stack_cnt}</>层），技能结束时对周围所有敌人造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 35,
+				"initSp": 3,
+				"increment": 1
+			},
+			"prefabId": "skchr_pianst_2",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "max_hp",
+					"value": 0.6,
+					"valueStr": null
+				},
+				{
+					"key": "atk",
+					"value": 0.22,
+					"valueStr": null
+				},
+				{
+					"key": "max_stack_cnt",
+					"value": 10,
+					"valueStr": null
+				},
+				{
+					"key": "atk_scale",
+					"value": 1.7,
+					"valueStr": null
+				},
+				{
+					"key": "pianst_s_2_fxbound_1",
+					"value": 3,
+					"valueStr": null
+				},
+				{
+					"key": "pianst_s_2_fxbound_2",
+					"value": 7,
+					"valueStr": null
+				},
+				{
+					"key": "interval",
+					"value": 18.6,
+					"valueStr": null
+				},
+				{
+					"key": "taunt_level",
+					"value": 1,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "曲惊四座",
+			"rangeId": null,
+			"description": "生命上限<@ba.vup>+{max_hp:0%}</>，自身更容易受到敌人攻击，每次受到攻击使自身攻击力提升<@ba.vup>+{atk:0%}</>（最多<@ba.vup>{max_stack_cnt}</>层），技能结束时对周围所有敌人造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 34,
+				"initSp": 6,
+				"increment": 1
+			},
+			"prefabId": "skchr_pianst_2",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "max_hp",
+					"value": 0.7,
+					"valueStr": null
+				},
+				{
+					"key": "atk",
+					"value": 0.24,
+					"valueStr": null
+				},
+				{
+					"key": "max_stack_cnt",
+					"value": 10,
+					"valueStr": null
+				},
+				{
+					"key": "atk_scale",
+					"value": 1.9,
+					"valueStr": null
+				},
+				{
+					"key": "pianst_s_2_fxbound_1",
+					"value": 3,
+					"valueStr": null
+				},
+				{
+					"key": "pianst_s_2_fxbound_2",
+					"value": 7,
+					"valueStr": null
+				},
+				{
+					"key": "interval",
+					"value": 18.6,
+					"valueStr": null
+				},
+				{
+					"key": "taunt_level",
+					"value": 1,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "曲惊四座",
+			"rangeId": null,
+			"description": "生命上限<@ba.vup>+{max_hp:0%}</>，自身更容易受到敌人攻击，每次受到攻击使自身攻击力提升<@ba.vup>+{atk:0%}</>（最多<@ba.vup>{max_stack_cnt}</>层），技能结束时对周围所有敌人造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 33,
+				"initSp": 8,
+				"increment": 1
+			},
+			"prefabId": "skchr_pianst_2",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "max_hp",
+					"value": 0.8,
+					"valueStr": null
+				},
+				{
+					"key": "atk",
+					"value": 0.26,
+					"valueStr": null
+				},
+				{
+					"key": "max_stack_cnt",
+					"value": 10,
+					"valueStr": null
+				},
+				{
+					"key": "atk_scale",
+					"value": 2.1,
+					"valueStr": null
+				},
+				{
+					"key": "pianst_s_2_fxbound_1",
+					"value": 3,
+					"valueStr": null
+				},
+				{
+					"key": "pianst_s_2_fxbound_2",
+					"value": 7,
+					"valueStr": null
+				},
+				{
+					"key": "interval",
+					"value": 18.6,
+					"valueStr": null
+				},
+				{
+					"key": "taunt_level",
+					"value": 1,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "曲惊四座",
+			"rangeId": null,
+			"description": "生命上限<@ba.vup>+{max_hp:0%}</>，自身更容易受到敌人攻击，每次受到攻击使自身攻击力提升<@ba.vup>+{atk:0%}</>（最多<@ba.vup>{max_stack_cnt}</>层），技能结束时对周围所有敌人造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 32,
+				"initSp": 9,
+				"increment": 1
+			},
+			"prefabId": "skchr_pianst_2",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "max_hp",
+					"value": 0.9,
+					"valueStr": null
+				},
+				{
+					"key": "atk",
+					"value": 0.28,
+					"valueStr": null
+				},
+				{
+					"key": "max_stack_cnt",
+					"value": 10,
+					"valueStr": null
+				},
+				{
+					"key": "atk_scale",
+					"value": 2.3,
+					"valueStr": null
+				},
+				{
+					"key": "pianst_s_2_fxbound_1",
+					"value": 3,
+					"valueStr": null
+				},
+				{
+					"key": "pianst_s_2_fxbound_2",
+					"value": 7,
+					"valueStr": null
+				},
+				{
+					"key": "interval",
+					"value": 18.6,
+					"valueStr": null
+				},
+				{
+					"key": "taunt_level",
+					"value": 1,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "曲惊四座",
+			"rangeId": null,
+			"description": "生命上限<@ba.vup>+{max_hp:0%}</>，自身更容易受到敌人攻击，每次受到攻击使自身攻击力提升<@ba.vup>+{atk:0%}</>（最多<@ba.vup>{max_stack_cnt}</>层），技能结束时对周围所有敌人造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 30,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_pianst_2",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "max_hp",
+					"value": 1,
+					"valueStr": null
+				},
+				{
+					"key": "atk",
+					"value": 0.3,
+					"valueStr": null
+				},
+				{
+					"key": "max_stack_cnt",
+					"value": 10,
+					"valueStr": null
+				},
+				{
+					"key": "atk_scale",
+					"value": 2.5,
+					"valueStr": null
+				},
+				{
+					"key": "pianst_s_2_fxbound_1",
+					"value": 3,
+					"valueStr": null
+				},
+				{
+					"key": "pianst_s_2_fxbound_2",
+					"value": 7,
+					"valueStr": null
+				},
+				{
+					"key": "interval",
+					"value": 18.6,
+					"valueStr": null
+				},
+				{
+					"key": "taunt_level",
+					"value": 1,
+					"valueStr": null
+				}
+			]
+		}
+	]
+}

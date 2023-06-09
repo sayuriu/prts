@@ -2,7 +2,9 @@
 	"name": "Tuye",
 	"description": "Restores the HP of allies",
 	"canUseGeneralPotentialItem": true,
+	"canUseActivityPotentialItem": false,
 	"potentialItemId": "p_char_402_tuye",
+	"activityPotentialItemId": null,
 	"nationId": "sargon",
 	"groupId": null,
 	"teamId": null,
@@ -51,7 +53,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -76,7 +80,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -109,7 +115,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -134,7 +142,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -183,7 +193,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -208,7 +220,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -410,7 +424,7 @@
 					"requiredPotentialRank": 0,
 					"prefabKey": "1",
 					"name": "Water Storage",
-					"description": "If Tuye does not heal for 4 seconds, increase the heal amount of the next heal to 130% ATK",
+					"description": "After 4 seconds without healing, increase the amount of the next heal to 130% ATK",
 					"rangeId": null,
 					"blackboard": [
 						{
@@ -431,7 +445,7 @@
 					"requiredPotentialRank": 4,
 					"prefabKey": "1",
 					"name": "Water Storage",
-					"description": "If Tuye does not heal for 4 seconds, increase the heal amount of the next heal to 135% ATK <@ba.talpu>(+5%)</>",
+					"description": "After 4 seconds without healing, increase the amount of the next heal to 135%<@ba.talpu>(+5%)</> ATK",
 					"rangeId": null,
 					"blackboard": [
 						{
@@ -452,7 +466,7 @@
 					"requiredPotentialRank": 0,
 					"prefabKey": "1",
 					"name": "Water Storage",
-					"description": "If Tuye does not heal for 4 seconds, increase the heal amount of the next heal to 150% ATK",
+					"description": "After 4 seconds without healing, increase the amount of the next heal to 150% ATK",
 					"rangeId": null,
 					"blackboard": [
 						{
@@ -473,7 +487,7 @@
 					"requiredPotentialRank": 4,
 					"prefabKey": "1",
 					"name": "Water Storage",
-					"description": "If Tuye does not heal for 4 seconds, increase the heal amount of the next heal to 155% ATK <@ba.talpu>(+5%)</>",
+					"description": "After 4 seconds without healing, increase the amount of the next heal to 155%<@ba.talpu>(+5%)</> ATK",
 					"rangeId": null,
 					"blackboard": [
 						{
@@ -612,7 +626,9 @@
 				"baseForceLevel": 0,
 				"stunImmune": false,
 				"silenceImmune": false,
-				"sleepImmune": false
+				"sleepImmune": false,
+				"frozenImmune": false,
+				"levitateImmune": false
 			}
 		},
 		{
@@ -637,7 +653,9 @@
 				"baseForceLevel": 0,
 				"stunImmune": false,
 				"silenceImmune": false,
-				"sleepImmune": false
+				"sleepImmune": false,
+				"frozenImmune": false,
+				"levitateImmune": false
 			}
 		}
 	],

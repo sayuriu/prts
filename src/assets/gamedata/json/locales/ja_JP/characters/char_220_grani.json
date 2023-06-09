@@ -2,7 +2,9 @@
 	"name": "グラニ",
 	"description": "敵を倒す度所持コスト+1\n撤退時に初期配置時のコストを返却",
 	"canUseGeneralPotentialItem": true,
+	"canUseActivityPotentialItem": false,
 	"potentialItemId": "p_char_220_grani",
+	"activityPotentialItemId": null,
 	"nationId": "victoria",
 	"groupId": null,
 	"teamId": null,
@@ -71,7 +73,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -96,7 +100,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -129,7 +135,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -154,7 +162,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -203,7 +213,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -228,7 +240,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -496,7 +510,7 @@
 	"potentialRanks": [
 		{
 			"type": 0,
-			"description": "コスト-1",
+			"description": "配置コスト-1",
 			"buff": {
 				"attributes": {
 					"abnormalFlags": null,
@@ -542,7 +556,7 @@
 		},
 		{
 			"type": 0,
-			"description": "コスト-1",
+			"description": "配置コスト-1",
 			"buff": {
 				"attributes": {
 					"abnormalFlags": null,
@@ -571,7 +585,7 @@
 		},
 		{
 			"type": 0,
-			"description": "コスト-1",
+			"description": "配置コスト-1",
 			"buff": {
 				"attributes": {
 					"abnormalFlags": null,
@@ -616,7 +630,9 @@
 				"baseForceLevel": 0,
 				"stunImmune": false,
 				"silenceImmune": false,
-				"sleepImmune": false
+				"sleepImmune": false,
+				"frozenImmune": false,
+				"levitateImmune": false
 			}
 		},
 		{
@@ -641,7 +657,9 @@
 				"baseForceLevel": 0,
 				"stunImmune": false,
 				"silenceImmune": false,
-				"sleepImmune": false
+				"sleepImmune": false,
+				"frozenImmune": false,
+				"levitateImmune": false
 			}
 		}
 	],

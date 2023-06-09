@@ -1,0 +1,84 @@
+{
+	"stageType": "ACTIVITY",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
+	"unlockCondition": [
+		{
+			"stageId": "act14side_ex01",
+			"completeState": 2
+		}
+	],
+	"stageId": "act14side_ex02",
+	"levelId": "Activities/ACT14SIDE/level_act14side_ex02",
+	"zoneId": "act14side_zone2",
+	"code": "BI-EX-2",
+	"name": "オーバーエクステンション",
+	"description": "戦局の風向きは初めに考えていたものと少し異なるかもしれないが、この程度の小細工は貴殿の前では役に立たない。\n<@lv.item><氷面></>当該マスの上のユニットに「寒冷」を付与し、凍結状態で強制移動中の敵の移動距離を延長\n<@lv.item><凍てつく風></>降雪時、特定の方向に全ての敵を押し出し強制移動させる",
+	"hardStagedId": "act14side_ex02#f#",
+	"dangerLevel": "昇進1 LV.55",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_BI",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 10,
+	"apFailReturn": 9,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": 0,
+	"expGain": 100,
+	"goldGain": 100,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 9,
+	"completeFavor": 10,
+	"slProgress": 0,
+	"displayMainItem": null,
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 0,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act14side_token_stone",
+				"dropType": 8
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 0,
+				"type": "ACTIVITY_ITEM",
+				"id": "act14side_token_stone",
+				"dropType": 8
+			},
+			{
+				"occPercent": 0,
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		]
+	},
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "act14side_ex01"
+}

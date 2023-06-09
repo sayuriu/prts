@@ -2,15 +2,16 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "main_01-10",
-			"completeState": 2
+			"completeState": "PASS"
 		}
 	],
 	"stageId": "act18d0_01",
 	"levelId": "Activities/act18d0/level_act18d0_01",
-	"zoneId": "act18d0_zone1",
+	"zoneId": "act10sre_zone1",
 	"code": "WD-1",
 	"name": "赤角小镇之围",
 	"description": "这座平平无奇的萨尔贡小镇，因为一支哥伦比亚队伍的到来而深陷混乱。",
@@ -44,7 +45,7 @@
 	"isHardPredefined": false,
 	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
-	"appearanceStyle": 0,
+	"appearanceStyle": "MAIN_NORMAL",
 	"stageDropInfo": {
 		"firstPassRewards": null,
 		"firstCompleteRewards": null,
@@ -54,118 +55,80 @@
 			{
 				"type": "FURN",
 				"id": "furni_icu_blackboard_01",
-				"dropType": 8
+				"dropType": "COMPLETE"
 			},
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act18d0_token_page",
-				"dropType": 8
+				"id": "act18d0_token_page_rep_1",
+				"dropType": "COMPLETE"
 			},
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act18d0_token_page",
-				"dropType": 2
+				"id": "act18d0_token_page_rep_1",
+				"dropType": "NORMAL"
 			},
 			{
 				"type": "MATERIAL",
 				"id": "30031",
-				"dropType": 2
+				"dropType": "NORMAL"
 			},
 			{
 				"type": "MATERIAL",
 				"id": "30061",
-				"dropType": 2
-			},
-			{
-				"type": "MATERIAL",
-				"id": "30041",
-				"dropType": 2
-			},
-			{
-				"type": "MATERIAL",
-				"id": "30051",
-				"dropType": 2
-			},
-			{
-				"type": "MATERIAL",
-				"id": "30021",
-				"dropType": 2
-			},
-			{
-				"type": "MATERIAL",
-				"id": "30011",
-				"dropType": 2
+				"dropType": "NORMAL"
 			},
 			{
 				"type": "DIAMOND",
 				"id": "4002",
-				"dropType": 8
+				"dropType": "COMPLETE"
 			}
 		],
 		"displayDetailRewards": [
 			{
-				"occPercent": 0,
+				"occPercent": "ALWAYS",
 				"type": "FURN",
 				"id": "furni_icu_blackboard_01",
-				"dropType": 8
+				"dropType": "COMPLETE"
 			},
 			{
-				"occPercent": 0,
+				"occPercent": "ALWAYS",
 				"type": "ACTIVITY_ITEM",
-				"id": "act18d0_token_page",
-				"dropType": 8
+				"id": "act18d0_token_page_rep_1",
+				"dropType": "COMPLETE"
 			},
 			{
-				"occPercent": 0,
+				"occPercent": "ALWAYS",
 				"type": "ACTIVITY_ITEM",
-				"id": "act18d0_token_page",
-				"dropType": 2
+				"id": "act18d0_token_page_rep_1",
+				"dropType": "NORMAL"
 			},
 			{
-				"occPercent": 2,
+				"occPercent": "USUAL",
 				"type": "MATERIAL",
 				"id": "30031",
-				"dropType": 2
+				"dropType": "NORMAL"
 			},
 			{
-				"occPercent": 3,
+				"occPercent": "OFTEN",
 				"type": "MATERIAL",
 				"id": "30061",
-				"dropType": 2
+				"dropType": "NORMAL"
 			},
 			{
-				"occPercent": 3,
-				"type": "MATERIAL",
-				"id": "30041",
-				"dropType": 2
-			},
-			{
-				"occPercent": 3,
-				"type": "MATERIAL",
-				"id": "30051",
-				"dropType": 2
-			},
-			{
-				"occPercent": 2,
-				"type": "MATERIAL",
-				"id": "30021",
-				"dropType": 2
-			},
-			{
-				"occPercent": 1,
-				"type": "MATERIAL",
-				"id": "30011",
-				"dropType": 2
-			},
-			{
-				"occPercent": 0,
+				"occPercent": "ALWAYS",
 				"type": "DIAMOND",
 				"id": "4002",
-				"dropType": 8
+				"dropType": "COMPLETE"
 			}
 		]
 	},
+	"canUseCharm": false,
+	"canUseTech": false,
+	"canUseTrapTool": false,
+	"canUseBattlePerformance": false,
 	"startButtonOverrideId": null,
 	"isStagePatch": false,
-	"mainStageId": "act18d0_01"
+	"mainStageId": "act18d0_01",
+	"extraCondition": null,
+	"extraInfo": null
 }

@@ -1,0 +1,357 @@
+{
+	"skillId": "skchr_aurora_2",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "Artificial Snowfall",
+			"rangeId": null,
+			"description": "Attack Interval <@ba.vdown>increases slightly</>, ATK <@ba.vup>+{atk:0%}</>. Attacks inflict <$ba.cold>Cold</> for <@ba.vup>{attack@cold}</> seconds to the target; If the target is already <$ba.frozen>Frozen</>, the attack will instead deal <@ba.vup>{atk_scale:0%}</> of ATK as damage\n<@ba.rem>Skill activation grants 9 ammo and the skill ends when all ammo is used (Can manually deactivate skill)</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 26,
+				"initSp": 8,
+				"increment": 1
+			},
+			"prefabId": "skchr_aurora_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.3
+				},
+				{
+					"key": "base_attack_time",
+					"value": 0.25
+				},
+				{
+					"key": "attack@cold",
+					"value": 2.5
+				},
+				{
+					"key": "atk_scale",
+					"value": 2
+				}
+			]
+		},
+		{
+			"name": "Artificial Snowfall",
+			"rangeId": null,
+			"description": "Attack Interval <@ba.vdown>increases slightly</>, ATK <@ba.vup>+{atk:0%}</>. Attacks inflict <$ba.cold>Cold</> for <@ba.vup>{attack@cold}</> seconds to the target; If the target is already <$ba.frozen>Frozen</>, the attack will instead deal <@ba.vup>{atk_scale:0%}</> of ATK as damage\n<@ba.rem>Skill activation grants 9 ammo and the skill ends when all ammo is used (Can manually deactivate skill)</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 26,
+				"initSp": 8,
+				"increment": 1
+			},
+			"prefabId": "skchr_aurora_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.35
+				},
+				{
+					"key": "base_attack_time",
+					"value": 0.25
+				},
+				{
+					"key": "attack@cold",
+					"value": 2.5
+				},
+				{
+					"key": "atk_scale",
+					"value": 2
+				}
+			]
+		},
+		{
+			"name": "Artificial Snowfall",
+			"rangeId": null,
+			"description": "Attack Interval <@ba.vdown>increases slightly</>, ATK <@ba.vup>+{atk:0%}</>. Attacks inflict <$ba.cold>Cold</> for <@ba.vup>{attack@cold}</> seconds to the target; If the target is already <$ba.frozen>Frozen</>, the attack will instead deal <@ba.vup>{atk_scale:0%}</> of ATK as damage\n<@ba.rem>Skill activation grants 9 ammo and the skill ends when all ammo is used (Can manually deactivate skill)</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 24,
+				"initSp": 8,
+				"increment": 1
+			},
+			"prefabId": "skchr_aurora_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.4
+				},
+				{
+					"key": "base_attack_time",
+					"value": 0.25
+				},
+				{
+					"key": "attack@cold",
+					"value": 2.5
+				},
+				{
+					"key": "atk_scale",
+					"value": 2
+				}
+			]
+		},
+		{
+			"name": "Artificial Snowfall",
+			"rangeId": null,
+			"description": "Attack Interval <@ba.vdown>increases slightly</>, ATK <@ba.vup>+{atk:0%}</>. Attacks inflict <$ba.cold>Cold</> for <@ba.vup>{attack@cold}</> seconds to the target; If the target is already <$ba.frozen>Frozen</>, the attack will instead deal <@ba.vup>{atk_scale:0%}</> of ATK as damage\n<@ba.rem>Skill activation grants 9 ammo and the skill ends when all ammo is used (Can manually deactivate skill)</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 24,
+				"initSp": 9,
+				"increment": 1
+			},
+			"prefabId": "skchr_aurora_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.45
+				},
+				{
+					"key": "base_attack_time",
+					"value": 0.25
+				},
+				{
+					"key": "attack@cold",
+					"value": 2.5
+				},
+				{
+					"key": "atk_scale",
+					"value": 2.5
+				}
+			]
+		},
+		{
+			"name": "Artificial Snowfall",
+			"rangeId": null,
+			"description": "Attack Interval <@ba.vdown>increases slightly</>, ATK <@ba.vup>+{atk:0%}</>. Attacks inflict <$ba.cold>Cold</> for <@ba.vup>{attack@cold}</> seconds to the target; If the target is already <$ba.frozen>Frozen</>, the attack will instead deal <@ba.vup>{atk_scale:0%}</> of ATK as damage\n<@ba.rem>Skill activation grants 9 ammo and the skill ends when all ammo is used (Can manually deactivate skill)</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 22,
+				"initSp": 9,
+				"increment": 1
+			},
+			"prefabId": "skchr_aurora_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.5
+				},
+				{
+					"key": "base_attack_time",
+					"value": 0.25
+				},
+				{
+					"key": "attack@cold",
+					"value": 2.5
+				},
+				{
+					"key": "atk_scale",
+					"value": 2.5
+				}
+			]
+		},
+		{
+			"name": "Artificial Snowfall",
+			"rangeId": null,
+			"description": "Attack Interval <@ba.vdown>increases slightly</>, ATK <@ba.vup>+{atk:0%}</>. Attacks inflict <$ba.cold>Cold</> for <@ba.vup>{attack@cold}</> seconds to the target; If the target is already <$ba.frozen>Frozen</>, the attack will instead deal <@ba.vup>{atk_scale:0%}</> of ATK as damage\n<@ba.rem>Skill activation grants 9 ammo and the skill ends when all ammo is used (Can manually deactivate skill)</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 22,
+				"initSp": 9,
+				"increment": 1
+			},
+			"prefabId": "skchr_aurora_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.55
+				},
+				{
+					"key": "base_attack_time",
+					"value": 0.25
+				},
+				{
+					"key": "attack@cold",
+					"value": 2.5
+				},
+				{
+					"key": "atk_scale",
+					"value": 2.5
+				}
+			]
+		},
+		{
+			"name": "Artificial Snowfall",
+			"rangeId": null,
+			"description": "Attack Interval <@ba.vdown>increases slightly</>, ATK <@ba.vup>+{atk:0%}</>. Attacks inflict <$ba.cold>Cold</> for <@ba.vup>{attack@cold}</> seconds to the target; If the target is already <$ba.frozen>Frozen</>, the attack will instead deal <@ba.vup>{atk_scale:0%}</> of ATK as damage\n<@ba.rem>Skill activation grants 9 ammo and the skill ends when all ammo is used (Can manually deactivate skill)</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 20,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_aurora_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.6
+				},
+				{
+					"key": "base_attack_time",
+					"value": 0.25
+				},
+				{
+					"key": "attack@cold",
+					"value": 2.5
+				},
+				{
+					"key": "atk_scale",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "Artificial Snowfall",
+			"rangeId": null,
+			"description": "Attack Interval <@ba.vdown>increases slightly</>, ATK <@ba.vup>+{atk:0%}</>. Attacks inflict <$ba.cold>Cold</> for <@ba.vup>{attack@cold}</> seconds to the target; If the target is already <$ba.frozen>Frozen</>, the attack will instead deal <@ba.vup>{atk_scale:0%}</> of ATK as damage\n<@ba.rem>Skill activation grants 9 ammo and the skill ends when all ammo is used (Can manually deactivate skill)</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 20,
+				"initSp": 11,
+				"increment": 1
+			},
+			"prefabId": "skchr_aurora_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.65
+				},
+				{
+					"key": "base_attack_time",
+					"value": 0.25
+				},
+				{
+					"key": "attack@cold",
+					"value": 2.5
+				},
+				{
+					"key": "atk_scale",
+					"value": 3.1
+				}
+			]
+		},
+		{
+			"name": "Artificial Snowfall",
+			"rangeId": null,
+			"description": "Attack Interval <@ba.vdown>increases slightly</>, ATK <@ba.vup>+{atk:0%}</>. Attacks inflict <$ba.cold>Cold</> for <@ba.vup>{attack@cold}</> seconds to the target; If the target is already <$ba.frozen>Frozen</>, the attack will instead deal <@ba.vup>{atk_scale:0%}</> of ATK as damage\n<@ba.rem>Skill activation grants 9 ammo and the skill ends when all ammo is used (Can manually deactivate skill)</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 20,
+				"initSp": 12,
+				"increment": 1
+			},
+			"prefabId": "skchr_aurora_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.7
+				},
+				{
+					"key": "base_attack_time",
+					"value": 0.25
+				},
+				{
+					"key": "attack@cold",
+					"value": 2.5
+				},
+				{
+					"key": "atk_scale",
+					"value": 3.2
+				}
+			]
+		},
+		{
+			"name": "Artificial Snowfall",
+			"rangeId": null,
+			"description": "Attack Interval <@ba.vdown>increases slightly</>, ATK <@ba.vup>+{atk:0%}</>. Attacks inflict <$ba.cold>Cold</> for <@ba.vup>{attack@cold}</> seconds to the target; If the target is already <$ba.frozen>Frozen</>, the attack will instead deal <@ba.vup>{atk_scale:0%}</> of ATK as damage\n<@ba.rem>Skill activation grants 9 ammo and the skill ends when all ammo is used (Can manually deactivate skill)</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 20,
+				"initSp": 13,
+				"increment": 1
+			},
+			"prefabId": "skchr_aurora_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.75
+				},
+				{
+					"key": "base_attack_time",
+					"value": 0.25
+				},
+				{
+					"key": "attack@cold",
+					"value": 2.5
+				},
+				{
+					"key": "atk_scale",
+					"value": 3.3
+				}
+			]
+		}
+	]
+}

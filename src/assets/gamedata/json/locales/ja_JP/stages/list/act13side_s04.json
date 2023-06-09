@@ -1,0 +1,84 @@
+{
+	"stageType": "ACTIVITY",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
+	"unlockCondition": [
+		{
+			"stageId": "act13side_s03",
+			"completeState": 2
+		}
+	],
+	"stageId": "act13side_s04",
+	"levelId": "Activities/act13side/level_act13side_sub-1-4",
+	"zoneId": "act13sre_zone3",
+	"code": "NL-S-4",
+	"name": "ブラッドゴブレット駐屯地",
+	"description": "ブラッドゴブレット騎士団の本部がここにそびえ立っている。血騎士は自分の部屋を持ち、美酒で客人を歓待することもあれば、鮮血の如く赤き刃で敵を退ける時もある。\n<@lv.item><都市のネオン></>隣接4マスの視野を確保する。起動すると確保できる視野の範囲が拡大する。\n<@lv.item><騎士の紋章></>使用すると、対象マスの視野を確保し続ける。\n<@lv.rem><特殊条件></>全ての敵の防御力と最大HPが上昇",
+	"hardStagedId": "act13side_s04#f#",
+	"dangerLevel": "-",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_Kazimierz_Arena",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 20,
+	"apFailReturn": 19,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": 0,
+	"expGain": 200,
+	"goldGain": 200,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 19,
+	"completeFavor": 20,
+	"slProgress": 0,
+	"displayMainItem": null,
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 0,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act13side_token_model_rep_1",
+				"dropType": 8
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 0,
+				"type": "ACTIVITY_ITEM",
+				"id": "act13side_token_model_rep_1",
+				"dropType": 8
+			},
+			{
+				"occPercent": 0,
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		]
+	},
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "act13side_s01"
+}

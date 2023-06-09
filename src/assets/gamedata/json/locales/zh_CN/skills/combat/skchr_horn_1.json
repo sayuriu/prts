@@ -1,0 +1,397 @@
+{
+	"skillId": "skchr_horn_1",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "照明榴弹",
+			"rangeId": null,
+			"description": "下次攻击时造成<@ba.vup>{atk_scale:0%}</>攻击力的物理伤害，若为远程攻击则溅射范围<@ba.vup>扩大</>且在周围产生一个持续<@ba.vup>{projectile_delay_time}</>秒的照明区域使敌人<$ba.invisible>隐匿</>失效\\n<@ba.rem>可充能{cnt}次</>",
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 8,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_horn_1",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 1.6,
+					"valueStr": null
+				},
+				{
+					"key": "projectile_delay_time",
+					"value": 5,
+					"valueStr": null
+				},
+				{
+					"key": "projectile_range",
+					"value": 1.7,
+					"valueStr": null
+				},
+				{
+					"key": "cnt",
+					"value": 1,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "照明榴弹",
+			"rangeId": null,
+			"description": "下次攻击时造成<@ba.vup>{atk_scale:0%}</>攻击力的物理伤害，若为远程攻击则溅射范围<@ba.vup>扩大</>且在周围产生一个持续<@ba.vup>{projectile_delay_time}</>秒的照明区域使敌人<$ba.invisible>隐匿</>失效\\n<@ba.rem>可充能{cnt}次</>",
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 8,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_horn_1",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 1.7,
+					"valueStr": null
+				},
+				{
+					"key": "projectile_delay_time",
+					"value": 5,
+					"valueStr": null
+				},
+				{
+					"key": "projectile_range",
+					"value": 1.7,
+					"valueStr": null
+				},
+				{
+					"key": "cnt",
+					"value": 1,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "照明榴弹",
+			"rangeId": null,
+			"description": "下次攻击时造成<@ba.vup>{atk_scale:0%}</>攻击力的物理伤害，若为远程攻击则溅射范围<@ba.vup>扩大</>且在周围产生一个持续<@ba.vup>{projectile_delay_time}</>秒的照明区域使敌人<$ba.invisible>隐匿</>失效\\n<@ba.rem>可充能{cnt}次</>",
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 8,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_horn_1",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 1.8,
+					"valueStr": null
+				},
+				{
+					"key": "projectile_delay_time",
+					"value": 5,
+					"valueStr": null
+				},
+				{
+					"key": "projectile_range",
+					"value": 1.7,
+					"valueStr": null
+				},
+				{
+					"key": "cnt",
+					"value": 1,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "照明榴弹",
+			"rangeId": null,
+			"description": "下次攻击时造成<@ba.vup>{atk_scale:0%}</>攻击力的物理伤害，若为远程攻击则溅射范围<@ba.vup>扩大</>且在周围产生一个持续<@ba.vup>{projectile_delay_time}</>秒的照明区域使敌人<$ba.invisible>隐匿</>失效\\n<@ba.rem>可充能{cnt}次</>",
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 7,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_horn_1",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 1.9,
+					"valueStr": null
+				},
+				{
+					"key": "projectile_delay_time",
+					"value": 6,
+					"valueStr": null
+				},
+				{
+					"key": "projectile_range",
+					"value": 1.7,
+					"valueStr": null
+				},
+				{
+					"key": "cnt",
+					"value": 1,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "照明榴弹",
+			"rangeId": null,
+			"description": "下次攻击时造成<@ba.vup>{atk_scale:0%}</>攻击力的物理伤害，若为远程攻击则溅射范围<@ba.vup>扩大</>且在周围产生一个持续<@ba.vup>{projectile_delay_time}</>秒的照明区域使敌人<$ba.invisible>隐匿</>失效\\n<@ba.rem>可充能{cnt}次</>",
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 7,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_horn_1",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 2,
+					"valueStr": null
+				},
+				{
+					"key": "projectile_delay_time",
+					"value": 6,
+					"valueStr": null
+				},
+				{
+					"key": "projectile_range",
+					"value": 1.7,
+					"valueStr": null
+				},
+				{
+					"key": "cnt",
+					"value": 1,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "照明榴弹",
+			"rangeId": null,
+			"description": "下次攻击时造成<@ba.vup>{atk_scale:0%}</>攻击力的物理伤害，若为远程攻击则溅射范围<@ba.vup>扩大</>且在周围产生一个持续<@ba.vup>{projectile_delay_time}</>秒的照明区域使敌人<$ba.invisible>隐匿</>失效\\n<@ba.rem>可充能{cnt}次</>",
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 7,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_horn_1",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 2.1,
+					"valueStr": null
+				},
+				{
+					"key": "projectile_delay_time",
+					"value": 6,
+					"valueStr": null
+				},
+				{
+					"key": "projectile_range",
+					"value": 1.7,
+					"valueStr": null
+				},
+				{
+					"key": "cnt",
+					"value": 1,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "照明榴弹",
+			"rangeId": null,
+			"description": "下次攻击时造成<@ba.vup>{atk_scale:0%}</>攻击力的物理伤害，若为远程攻击则溅射范围<@ba.vup>扩大</>且在周围产生一个持续<@ba.vup>{projectile_delay_time}</>秒的照明区域使敌人<$ba.invisible>隐匿</>失效\\n<@ba.rem>可充能{cnt}次</>",
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 6,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_horn_1",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 2.2,
+					"valueStr": null
+				},
+				{
+					"key": "projectile_delay_time",
+					"value": 7,
+					"valueStr": null
+				},
+				{
+					"key": "projectile_range",
+					"value": 1.7,
+					"valueStr": null
+				},
+				{
+					"key": "cnt",
+					"value": 2,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "照明榴弹",
+			"rangeId": null,
+			"description": "下次攻击时造成<@ba.vup>{atk_scale:0%}</>攻击力的物理伤害，若为远程攻击则溅射范围<@ba.vup>扩大</>且在周围产生一个持续<@ba.vup>{projectile_delay_time}</>秒的照明区域使敌人<$ba.invisible>隐匿</>失效\\n<@ba.rem>可充能{cnt}次</>",
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 5,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_horn_1",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 2.4,
+					"valueStr": null
+				},
+				{
+					"key": "projectile_delay_time",
+					"value": 7,
+					"valueStr": null
+				},
+				{
+					"key": "projectile_range",
+					"value": 1.7,
+					"valueStr": null
+				},
+				{
+					"key": "cnt",
+					"value": 2,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "照明榴弹",
+			"rangeId": null,
+			"description": "下次攻击时造成<@ba.vup>{atk_scale:0%}</>攻击力的物理伤害，若为远程攻击则溅射范围<@ba.vup>扩大</>且在周围产生一个持续<@ba.vup>{projectile_delay_time}</>秒的照明区域使敌人<$ba.invisible>隐匿</>失效\\n<@ba.rem>可充能{cnt}次</>",
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 5,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_horn_1",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 2.6,
+					"valueStr": null
+				},
+				{
+					"key": "projectile_delay_time",
+					"value": 7,
+					"valueStr": null
+				},
+				{
+					"key": "projectile_range",
+					"value": 1.7,
+					"valueStr": null
+				},
+				{
+					"key": "cnt",
+					"value": 2,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "照明榴弹",
+			"rangeId": null,
+			"description": "下次攻击时造成<@ba.vup>{atk_scale:0%}</>攻击力的物理伤害，若为远程攻击则溅射范围<@ba.vup>扩大</>且在周围产生一个持续<@ba.vup>{projectile_delay_time}</>秒的照明区域使敌人<$ba.invisible>隐匿</>失效\\n<@ba.rem>可充能{cnt}次</>",
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 5,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_horn_1",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 2.8,
+					"valueStr": null
+				},
+				{
+					"key": "projectile_delay_time",
+					"value": 8,
+					"valueStr": null
+				},
+				{
+					"key": "projectile_range",
+					"value": 1.7,
+					"valueStr": null
+				},
+				{
+					"key": "cnt",
+					"value": 2,
+					"valueStr": null
+				}
+			]
+		}
+	]
+}

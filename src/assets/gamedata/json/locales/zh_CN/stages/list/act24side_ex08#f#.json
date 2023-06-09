@@ -1,0 +1,83 @@
+{
+	"stageType": "ACTIVITY",
+	"difficulty": "FOUR_STAR",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
+	"unlockCondition": [
+		{
+			"stageId": "act24side_ex08",
+			"completeState": "PASS"
+		},
+		{
+			"stageId": "act24side_ex08",
+			"completeState": "COMPLETE"
+		}
+	],
+	"stageId": "act24side_ex08#f#",
+	"levelId": "Activities/act24side/level_act24side_ex08",
+	"zoneId": "act24side_zone2",
+	"code": "CF-EX-8",
+	"name": "炬火燎原",
+	"description": "<@lv.mhtx>终有一日，大地的火光会令天空恐惧。</>\\n<@lv.mhfs>附加条件：</><@lv.mhtx>火龙的生命值与攻击力提升，作战道具的再部署时间大幅增加</>",
+	"hardStagedId": null,
+	"dangerLevel": "精英2 LV.40",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_CF_Village",
+	"canPractice": true,
+	"canBattleReplay": false,
+	"apCost": 20,
+	"apFailReturn": 10,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 0,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 3,
+	"dailyStageDifficulty": 0,
+	"expGain": 200,
+	"goldGain": 200,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 10,
+	"completeFavor": 20,
+	"slProgress": 0,
+	"displayMainItem": null,
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": "MAIN_NORMAL",
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": "COMPLETE"
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": "ALWAYS",
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": "COMPLETE"
+			}
+		]
+	},
+	"canUseCharm": false,
+	"canUseTech": false,
+	"canUseTrapTool": true,
+	"canUseBattlePerformance": false,
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "act24side_ex01",
+	"extraCondition": null,
+	"extraInfo": null
+}

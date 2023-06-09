@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act13d5_ex04",
@@ -10,7 +11,7 @@
 	],
 	"stageId": "act13d5_ex05",
 	"levelId": "Activities/ACT13D5/level_act13d5_ex05",
-	"zoneId": "act13d5_zone2",
+	"zoneId": "act7sre_zone2",
 	"code": "MN-EX-5",
 	"name": "Silent Chorus",
 	"description": "Some arenas have 'Gramophone' devices installed, but end up never using them. During the match with the Left-handed Knight, the Candle Knight extinguished all Arts in the arena simply by raising her hand. Beneath the darkened sky, only her candlelight continued to shine brightly. \n<@lv.item><'Gramophone'></>Both allied and enemy units will fight for control over this device; When activated, deals Arts damage to enemies and heals allies.",
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {
@@ -52,7 +54,7 @@
 		"displayRewards": [
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act13d5_token_securities",
+				"id": "act13d5_token_securities_rep_1",
 				"dropType": 8
 			},
 			{
@@ -65,7 +67,7 @@
 			{
 				"occPercent": 0,
 				"type": "ACTIVITY_ITEM",
-				"id": "act13d5_token_securities",
+				"id": "act13d5_token_securities_rep_1",
 				"dropType": 8
 			},
 			{

@@ -1,0 +1,38 @@
+{
+	"skillId": "sktok_recodr_2",
+	"iconId": "sktok_recodr",
+	"hidden": false,
+	"levels": [
+		{
+			"name": "実体プログラム",
+			"rangeId": null,
+			"description": "当WAVE中、味方オペレーターの攻撃力、防御力と最大HPを大幅に上昇させる。<@ba.rem>次WAVEに進むと効果終了</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 15,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "sktok_recodr_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 2
+				},
+				{
+					"key": "def",
+					"value": 2
+				},
+				{
+					"key": "max_hp",
+					"value": 2
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,94 @@
+{
+	"stageType": "ACTIVITY",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
+	"unlockCondition": [
+		{
+			"stageId": "act25side_s03_a",
+			"completeState": "PASS"
+		},
+		{
+			"stageId": "act25side_s03_b",
+			"completeState": "PASS"
+		}
+	],
+	"stageId": "act25side_s04",
+	"levelId": "Activities/act25side/level_act25side_sub-1-4",
+	"zoneId": "act25side_zone3",
+	"code": "CW-S-4",
+	"name": "新星爆发",
+	"description": "璀璨而又孤独。\\n<@lv.item><重力感应></>存在重力感应机关与“行星碎屑”\\n<@lv.rem>本次行动中干员部署不受近远程限制，敌人重量大幅减少</>",
+	"hardStagedId": "act25side_s04#f#",
+	"dangerLevel": "-",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_CW_AFTER",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 25,
+	"apFailReturn": 24,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": 0,
+	"expGain": 250,
+	"goldGain": 250,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 24,
+	"completeFavor": 25,
+	"slProgress": 0,
+	"displayMainItem": null,
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": "MAIN_NORMAL",
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act25side_token_fdrchips",
+				"dropType": "COMPLETE"
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": "COMPLETE"
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": "ALWAYS",
+				"type": "ACTIVITY_ITEM",
+				"id": "act25side_token_fdrchips",
+				"dropType": "COMPLETE"
+			},
+			{
+				"occPercent": "ALWAYS",
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": "COMPLETE"
+			}
+		]
+	},
+	"canUseCharm": false,
+	"canUseTech": false,
+	"canUseTrapTool": false,
+	"canUseBattlePerformance": true,
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "act25side_s01_a",
+	"extraCondition": null,
+	"extraInfo": null
+}

@@ -1,0 +1,88 @@
+{
+	"stageType": "ACTIVITY",
+	"difficulty": "FOUR_STAR",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
+	"unlockCondition": [
+		{
+			"stageId": "main_02-08",
+			"completeState": 2
+		},
+		{
+			"stageId": "act9mini_02",
+			"completeState": 3
+		}
+	],
+	"stageId": "act9mini_02#f#",
+	"levelId": "Activities/act9mini/level_act9mini_02",
+	"zoneId": "act9mini_zone1",
+	"code": "PS-2",
+	"name": "Cusp of the Storm",
+	"description": "<@lv.fs>Condition: </>\nGuard Operators cannot be deployed.",
+	"hardStagedId": null,
+	"dangerLevel": "-",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_LM_rain",
+	"canPractice": true,
+	"canBattleReplay": false,
+	"apCost": 6,
+	"apFailReturn": 3,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 0,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 3,
+	"dailyStageDifficulty": 0,
+	"expGain": 60,
+	"goldGain": 60,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 3,
+	"completeFavor": 6,
+	"slProgress": 0,
+	"displayMainItem": null,
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 0,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act9mini_token_ticket",
+				"dropType": 1
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 0,
+				"type": "ACTIVITY_ITEM",
+				"id": "act9mini_token_ticket",
+				"dropType": 1
+			},
+			{
+				"occPercent": 0,
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		]
+	},
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "act9mini_01"
+}

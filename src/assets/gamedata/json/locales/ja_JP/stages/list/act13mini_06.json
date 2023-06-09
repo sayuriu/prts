@@ -1,0 +1,154 @@
+{
+	"stageType": "ACTIVITY",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
+	"unlockCondition": [
+		{
+			"stageId": "act13mini_05",
+			"completeState": 2
+		}
+	],
+	"stageId": "act13mini_06",
+	"levelId": "Activities/act13mini/level_act13mini_06",
+	"zoneId": "act13mini_zone1",
+	"code": "BW-6",
+	"name": "雨の中の蜃気楼",
+	"description": "土砂降りの前が視界に映る街道を歪ませ、蜃気楼が現実と虚像の狭間から浮かび上がる。\n<@lv.item><晦明の印></>配置した味方が対応する晦明属性を獲得する。\n<@lv.item><朝暮の印></>通過した敵の晦明属性が各ユニットにつき一度だけ変化する。",
+	"hardStagedId": "act13mini_06#f#",
+	"dangerLevel": "昇進2 LV.10",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_Painting_Day",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 15,
+	"apFailReturn": 14,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": 0,
+	"expGain": 150,
+	"goldGain": 150,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 14,
+	"completeFavor": 15,
+	"slProgress": 0,
+	"displayMainItem": null,
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 0,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act13mini_token_can",
+				"dropType": 8
+			},
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act13mini_token_can",
+				"dropType": 3
+			},
+			{
+				"type": "MATERIAL",
+				"id": "30022",
+				"dropType": 2
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 0,
+				"type": "ACTIVITY_ITEM",
+				"id": "act13mini_token_can",
+				"dropType": 8
+			},
+			{
+				"occPercent": 0,
+				"type": "ACTIVITY_ITEM",
+				"id": "act13mini_token_can",
+				"dropType": 3
+			},
+			{
+				"occPercent": 0,
+				"type": "MATERIAL",
+				"id": "30022",
+				"dropType": 2
+			},
+			{
+				"occPercent": 4,
+				"type": "MATERIAL",
+				"id": "30021",
+				"dropType": 4
+			},
+			{
+				"occPercent": 4,
+				"type": "MATERIAL",
+				"id": "30041",
+				"dropType": 4
+			},
+			{
+				"occPercent": 4,
+				"type": "MATERIAL",
+				"id": "30051",
+				"dropType": 4
+			},
+			{
+				"occPercent": 4,
+				"type": "CARD_EXP",
+				"id": "2001",
+				"dropType": 4
+			},
+			{
+				"occPercent": 4,
+				"type": "MATERIAL",
+				"id": "30022",
+				"dropType": 4
+			},
+			{
+				"occPercent": 4,
+				"type": "MATERIAL",
+				"id": "30042",
+				"dropType": 4
+			},
+			{
+				"occPercent": 4,
+				"type": "MATERIAL",
+				"id": "30052",
+				"dropType": 4
+			},
+			{
+				"occPercent": 4,
+				"type": "CARD_EXP",
+				"id": "2002",
+				"dropType": 4
+			},
+			{
+				"occPercent": 0,
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		]
+	},
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "act13mini_01"
+}

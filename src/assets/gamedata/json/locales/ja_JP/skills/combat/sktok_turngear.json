@@ -1,0 +1,25 @@
+{
+	"skillId": "sktok_turngear",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "方向転換！",
+			"rangeId": null,
+			"description": "通過した<@ba.vup>セルカー</>を自身の配置方向へと方向転換し、対象のセルカーの移動速度を一定時間上昇させる",
+			"skillType": 0,
+			"durationType": 0,
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 0,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": null,
+			"duration": -1,
+			"blackboard": []
+		}
+	]
+}

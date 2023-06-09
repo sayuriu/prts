@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act16d5_02",
@@ -10,7 +11,7 @@
 	],
 	"stageId": "act16d5_03",
 	"levelId": "Activities/act16d5/level_act16d5_03",
-	"zoneId": "act16d5_zone1",
+	"zoneId": "act9sre_zone1",
 	"code": "WR-3",
 	"name": "해를 향해",
 	"description": "라바는 자신이 공간 영역에서 태양을 쫓는 날이 올 줄은 꿈에도 몰랐다.\n<@lv.item><명암 인장></> 배치된 오퍼레이터는 명암 속성 획득",
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {
@@ -57,12 +59,12 @@
 			},
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act16d5_token_inker",
+				"id": "act16d5_token_inker_rep_1",
 				"dropType": 8
 			},
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act16d5_token_inker",
+				"id": "act16d5_token_inker_rep_1",
 				"dropType": 2
 			},
 			{
@@ -91,13 +93,13 @@
 			{
 				"occPercent": 0,
 				"type": "ACTIVITY_ITEM",
-				"id": "act16d5_token_inker",
+				"id": "act16d5_token_inker_rep_1",
 				"dropType": 8
 			},
 			{
 				"occPercent": 0,
 				"type": "ACTIVITY_ITEM",
-				"id": "act16d5_token_inker",
+				"id": "act16d5_token_inker_rep_1",
 				"dropType": 2
 			},
 			{

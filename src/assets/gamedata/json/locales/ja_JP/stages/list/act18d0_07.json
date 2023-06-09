@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act18d0_06",
@@ -10,7 +11,7 @@
 	],
 	"stageId": "act18d0_07",
 	"levelId": "Activities/act18d0/level_act18d0_07",
-	"zoneId": "act18d0_zone1",
+	"zoneId": "act10sre_zone1",
 	"code": "WD-7",
 	"name": "故郷",
 	"description": "貧しい者や帰る場所のない者は失踪した富豪の遺産に身を委ねる。傭兵や殺し屋は月明かりの下に虎視眈々と狙いを定め、月が沈むまで戦いに耽る。年老いたイシンは満天の星を見上げた。骨に沁みる冷たい夜明けの風の中で、彼はいまだあのどうしようもなくひどい家を忘れがたく恋しく思っていた。\n<@lv.item><可動式戦術格納庫></>必要に応じて随時ドローンを射出し、敵傭兵チームの作戦支援を行える",
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {
@@ -52,12 +54,12 @@
 		"displayRewards": [
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act18d0_token_page",
+				"id": "act18d0_token_page_rep_1",
 				"dropType": 8
 			},
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act18d0_token_page",
+				"id": "act18d0_token_page_rep_1",
 				"dropType": 2
 			},
 			{
@@ -75,13 +77,13 @@
 			{
 				"occPercent": 0,
 				"type": "ACTIVITY_ITEM",
-				"id": "act18d0_token_page",
+				"id": "act18d0_token_page_rep_1",
 				"dropType": 8
 			},
 			{
 				"occPercent": 0,
 				"type": "ACTIVITY_ITEM",
-				"id": "act18d0_token_page",
+				"id": "act18d0_token_page_rep_1",
 				"dropType": 2
 			},
 			{

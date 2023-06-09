@@ -1,0 +1,397 @@
+{
+	"skillId": "skchr_blkngt_1",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "비몽사몽",
+			"rangeId": null,
+			"description": "배치 코스트 <@ba.vup>{cost}</> 즉시 획득, 슬럼버풋이 수면 상태가 되어 초당 최대 HP의 <@ba.vup>{hp_recovery_per_sec_by_max_hp_ratio:0%}</>만큼 회복한다. 슬럼버풋이 깨어나면 <@ba.vup>{blkngt_hypnos_s_1[rage].duration}</>초 동안 공격력 <@ba.vup>+{blkngt_hypnos_s_1[rage].atk:0%}</>, 공격 속도 <@ba.vup>+{blkngt_hypnos_s_1[rage].attack_speed:0%}</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 34,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_blkngt_1",
+			"duration": 10,
+			"blackboard": [
+				{
+					"key": "cost",
+					"value": 11
+				},
+				{
+					"key": "hp_recovery_per_sec_by_max_hp_ratio",
+					"value": 0.07
+				},
+				{
+					"key": "blkngt_hypnos_s_1[rage].atk",
+					"value": 0.2
+				},
+				{
+					"key": "blkngt_hypnos_s_1[rage].attack_speed",
+					"value": 0.2
+				},
+				{
+					"key": "blkngt_hypnos_s_1[rage].duration",
+					"value": 10
+				}
+			]
+		},
+		{
+			"name": "비몽사몽",
+			"rangeId": null,
+			"description": "배치 코스트 <@ba.vup>{cost}</> 즉시 획득, 슬럼버풋이 수면 상태가 되어 초당 최대 HP의 <@ba.vup>{hp_recovery_per_sec_by_max_hp_ratio:0%}</>만큼 회복한다. 슬럼버풋이 깨어나면 <@ba.vup>{blkngt_hypnos_s_1[rage].duration}</>초 동안 공격력 <@ba.vup>+{blkngt_hypnos_s_1[rage].atk:0%}</>, 공격 속도 <@ba.vup>+{blkngt_hypnos_s_1[rage].attack_speed:0%}</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 33,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_blkngt_1",
+			"duration": 10,
+			"blackboard": [
+				{
+					"key": "cost",
+					"value": 11
+				},
+				{
+					"key": "hp_recovery_per_sec_by_max_hp_ratio",
+					"value": 0.08
+				},
+				{
+					"key": "blkngt_hypnos_s_1[rage].atk",
+					"value": 0.23
+				},
+				{
+					"key": "blkngt_hypnos_s_1[rage].attack_speed",
+					"value": 0.23
+				},
+				{
+					"key": "blkngt_hypnos_s_1[rage].duration",
+					"value": 10
+				}
+			]
+		},
+		{
+			"name": "비몽사몽",
+			"rangeId": null,
+			"description": "배치 코스트 <@ba.vup>{cost}</> 즉시 획득, 슬럼버풋이 수면 상태가 되어 초당 최대 HP의 <@ba.vup>{hp_recovery_per_sec_by_max_hp_ratio:0%}</>만큼 회복한다. 슬럼버풋이 깨어나면 <@ba.vup>{blkngt_hypnos_s_1[rage].duration}</>초 동안 공격력 <@ba.vup>+{blkngt_hypnos_s_1[rage].atk:0%}</>, 공격 속도 <@ba.vup>+{blkngt_hypnos_s_1[rage].attack_speed:0%}</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 32,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_blkngt_1",
+			"duration": 10,
+			"blackboard": [
+				{
+					"key": "cost",
+					"value": 11
+				},
+				{
+					"key": "hp_recovery_per_sec_by_max_hp_ratio",
+					"value": 0.09
+				},
+				{
+					"key": "blkngt_hypnos_s_1[rage].atk",
+					"value": 0.26
+				},
+				{
+					"key": "blkngt_hypnos_s_1[rage].attack_speed",
+					"value": 0.26
+				},
+				{
+					"key": "blkngt_hypnos_s_1[rage].duration",
+					"value": 10
+				}
+			]
+		},
+		{
+			"name": "비몽사몽",
+			"rangeId": null,
+			"description": "배치 코스트 <@ba.vup>{cost}</> 즉시 획득, 슬럼버풋이 수면 상태가 되어 초당 최대 HP의 <@ba.vup>{hp_recovery_per_sec_by_max_hp_ratio:0%}</>만큼 회복한다. 슬럼버풋이 깨어나면 <@ba.vup>{blkngt_hypnos_s_1[rage].duration}</>초 동안 공격력 <@ba.vup>+{blkngt_hypnos_s_1[rage].atk:0%}</>, 공격 속도 <@ba.vup>+{blkngt_hypnos_s_1[rage].attack_speed:0%}</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 31,
+				"initSp": 12,
+				"increment": 1
+			},
+			"prefabId": "skchr_blkngt_1",
+			"duration": 10,
+			"blackboard": [
+				{
+					"key": "cost",
+					"value": 11
+				},
+				{
+					"key": "hp_recovery_per_sec_by_max_hp_ratio",
+					"value": 0.1
+				},
+				{
+					"key": "blkngt_hypnos_s_1[rage].atk",
+					"value": 0.3
+				},
+				{
+					"key": "blkngt_hypnos_s_1[rage].attack_speed",
+					"value": 0.3
+				},
+				{
+					"key": "blkngt_hypnos_s_1[rage].duration",
+					"value": 10
+				}
+			]
+		},
+		{
+			"name": "비몽사몽",
+			"rangeId": null,
+			"description": "배치 코스트 <@ba.vup>{cost}</> 즉시 획득, 슬럼버풋이 수면 상태가 되어 초당 최대 HP의 <@ba.vup>{hp_recovery_per_sec_by_max_hp_ratio:0%}</>만큼 회복한다. 슬럼버풋이 깨어나면 <@ba.vup>{blkngt_hypnos_s_1[rage].duration}</>초 동안 공격력 <@ba.vup>+{blkngt_hypnos_s_1[rage].atk:0%}</>, 공격 속도 <@ba.vup>+{blkngt_hypnos_s_1[rage].attack_speed:0%}</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 30,
+				"initSp": 12,
+				"increment": 1
+			},
+			"prefabId": "skchr_blkngt_1",
+			"duration": 10,
+			"blackboard": [
+				{
+					"key": "cost",
+					"value": 11
+				},
+				{
+					"key": "hp_recovery_per_sec_by_max_hp_ratio",
+					"value": 0.11
+				},
+				{
+					"key": "blkngt_hypnos_s_1[rage].atk",
+					"value": 0.33
+				},
+				{
+					"key": "blkngt_hypnos_s_1[rage].attack_speed",
+					"value": 0.33
+				},
+				{
+					"key": "blkngt_hypnos_s_1[rage].duration",
+					"value": 10
+				}
+			]
+		},
+		{
+			"name": "비몽사몽",
+			"rangeId": null,
+			"description": "배치 코스트 <@ba.vup>{cost}</> 즉시 획득, 슬럼버풋이 수면 상태가 되어 초당 최대 HP의 <@ba.vup>{hp_recovery_per_sec_by_max_hp_ratio:0%}</>만큼 회복한다. 슬럼버풋이 깨어나면 <@ba.vup>{blkngt_hypnos_s_1[rage].duration}</>초 동안 공격력 <@ba.vup>+{blkngt_hypnos_s_1[rage].atk:0%}</>, 공격 속도 <@ba.vup>+{blkngt_hypnos_s_1[rage].attack_speed:0%}</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 29,
+				"initSp": 12,
+				"increment": 1
+			},
+			"prefabId": "skchr_blkngt_1",
+			"duration": 10,
+			"blackboard": [
+				{
+					"key": "cost",
+					"value": 11
+				},
+				{
+					"key": "hp_recovery_per_sec_by_max_hp_ratio",
+					"value": 0.12
+				},
+				{
+					"key": "blkngt_hypnos_s_1[rage].atk",
+					"value": 0.36
+				},
+				{
+					"key": "blkngt_hypnos_s_1[rage].attack_speed",
+					"value": 0.36
+				},
+				{
+					"key": "blkngt_hypnos_s_1[rage].duration",
+					"value": 10
+				}
+			]
+		},
+		{
+			"name": "비몽사몽",
+			"rangeId": null,
+			"description": "배치 코스트 <@ba.vup>{cost}</> 즉시 획득, 슬럼버풋이 수면 상태가 되어 초당 최대 HP의 <@ba.vup>{hp_recovery_per_sec_by_max_hp_ratio:0%}</>만큼 회복한다. 슬럼버풋이 깨어나면 <@ba.vup>{blkngt_hypnos_s_1[rage].duration}</>초 동안 공격력 <@ba.vup>+{blkngt_hypnos_s_1[rage].atk:0%}</>, 공격 속도 <@ba.vup>+{blkngt_hypnos_s_1[rage].attack_speed:0%}</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 28,
+				"initSp": 14,
+				"increment": 1
+			},
+			"prefabId": "skchr_blkngt_1",
+			"duration": 10,
+			"blackboard": [
+				{
+					"key": "cost",
+					"value": 11
+				},
+				{
+					"key": "hp_recovery_per_sec_by_max_hp_ratio",
+					"value": 0.13
+				},
+				{
+					"key": "blkngt_hypnos_s_1[rage].atk",
+					"value": 0.4
+				},
+				{
+					"key": "blkngt_hypnos_s_1[rage].attack_speed",
+					"value": 0.4
+				},
+				{
+					"key": "blkngt_hypnos_s_1[rage].duration",
+					"value": 10
+				}
+			]
+		},
+		{
+			"name": "비몽사몽",
+			"rangeId": null,
+			"description": "배치 코스트 <@ba.vup>{cost}</> 즉시 획득, 슬럼버풋이 수면 상태가 되어 초당 최대 HP의 <@ba.vup>{hp_recovery_per_sec_by_max_hp_ratio:0%}</>만큼 회복한다. 슬럼버풋이 깨어나면 <@ba.vup>{blkngt_hypnos_s_1[rage].duration}</>초 동안 공격력 <@ba.vup>+{blkngt_hypnos_s_1[rage].atk:0%}</>, 공격 속도 <@ba.vup>+{blkngt_hypnos_s_1[rage].attack_speed:0%}</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 27,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_blkngt_1",
+			"duration": 10,
+			"blackboard": [
+				{
+					"key": "cost",
+					"value": 11
+				},
+				{
+					"key": "hp_recovery_per_sec_by_max_hp_ratio",
+					"value": 0.14
+				},
+				{
+					"key": "blkngt_hypnos_s_1[rage].atk",
+					"value": 0.45
+				},
+				{
+					"key": "blkngt_hypnos_s_1[rage].attack_speed",
+					"value": 0.45
+				},
+				{
+					"key": "blkngt_hypnos_s_1[rage].duration",
+					"value": 10
+				}
+			]
+		},
+		{
+			"name": "비몽사몽",
+			"rangeId": null,
+			"description": "배치 코스트 <@ba.vup>{cost}</> 즉시 획득, 슬럼버풋이 수면 상태가 되어 초당 최대 HP의 <@ba.vup>{hp_recovery_per_sec_by_max_hp_ratio:0%}</>만큼 회복한다. 슬럼버풋이 깨어나면 <@ba.vup>{blkngt_hypnos_s_1[rage].duration}</>초 동안 공격력 <@ba.vup>+{blkngt_hypnos_s_1[rage].atk:0%}</>, 공격 속도 <@ba.vup>+{blkngt_hypnos_s_1[rage].attack_speed:0%}</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 26,
+				"initSp": 16,
+				"increment": 1
+			},
+			"prefabId": "skchr_blkngt_1",
+			"duration": 10,
+			"blackboard": [
+				{
+					"key": "cost",
+					"value": 11
+				},
+				{
+					"key": "hp_recovery_per_sec_by_max_hp_ratio",
+					"value": 0.14
+				},
+				{
+					"key": "blkngt_hypnos_s_1[rage].atk",
+					"value": 0.5
+				},
+				{
+					"key": "blkngt_hypnos_s_1[rage].attack_speed",
+					"value": 0.5
+				},
+				{
+					"key": "blkngt_hypnos_s_1[rage].duration",
+					"value": 10
+				}
+			]
+		},
+		{
+			"name": "비몽사몽",
+			"rangeId": null,
+			"description": "배치 코스트 <@ba.vup>{cost}</> 즉시 획득, 슬럼버풋이 수면 상태가 되어 초당 최대 HP의 <@ba.vup>{hp_recovery_per_sec_by_max_hp_ratio:0%}</>만큼 회복한다. 슬럼버풋이 깨어나면 <@ba.vup>{blkngt_hypnos_s_1[rage].duration}</>초 동안 공격력 <@ba.vup>+{blkngt_hypnos_s_1[rage].atk:0%}</>, 공격 속도 <@ba.vup>+{blkngt_hypnos_s_1[rage].attack_speed:0%}</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 25,
+				"initSp": 17,
+				"increment": 1
+			},
+			"prefabId": "skchr_blkngt_1",
+			"duration": 10,
+			"blackboard": [
+				{
+					"key": "cost",
+					"value": 11
+				},
+				{
+					"key": "hp_recovery_per_sec_by_max_hp_ratio",
+					"value": 0.14
+				},
+				{
+					"key": "blkngt_hypnos_s_1[rage].atk",
+					"value": 0.55
+				},
+				{
+					"key": "blkngt_hypnos_s_1[rage].attack_speed",
+					"value": 0.55
+				},
+				{
+					"key": "blkngt_hypnos_s_1[rage].duration",
+					"value": 10
+				}
+			]
+		}
+	]
+}

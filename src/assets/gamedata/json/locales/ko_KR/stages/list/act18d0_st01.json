@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act18d0_04",
@@ -10,7 +11,7 @@
 	],
 	"stageId": "act18d0_st01",
 	"levelId": null,
-	"zoneId": "act18d0_zone1",
+	"zoneId": "act10sre_zone1",
 	"code": "WD-ST-1",
 	"name": "파인릴리",
 	"description": "그 어떤 흙도 몇 떨기의 꽃이 피고 지는 것에 관심을 갖진 않을 것이다…… 땅은 개의치 않고, 땅은 만물을 포용한다.",
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": true,
 	"appearanceStyle": 0,
 	"stageDropInfo": {

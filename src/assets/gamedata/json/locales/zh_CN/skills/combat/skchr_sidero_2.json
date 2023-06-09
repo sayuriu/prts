@@ -7,10 +7,10 @@
 			"name": "破浪回神",
 			"rangeId": "0-1",
 			"description": "攻击距离<@ba.vdown>缩短</>，攻击力<@ba.vup>+{atk:0%}</>，每秒恢复最大生命的<@ba.vup>{hp_recovery_per_sec_by_max_hp_ratio:0%}</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 40,
@@ -22,11 +22,13 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.4
+					"value": 0.4,
+					"valueStr": null
 				},
 				{
 					"key": "hp_recovery_per_sec_by_max_hp_ratio",
-					"value": 0.05
+					"value": 0.05,
+					"valueStr": null
 				}
 			]
 		},
@@ -34,10 +36,10 @@
 			"name": "破浪回神",
 			"rangeId": "0-1",
 			"description": "攻击距离<@ba.vdown>缩短</>，攻击力<@ba.vup>+{atk:0%}</>，每秒恢复最大生命的<@ba.vup>{hp_recovery_per_sec_by_max_hp_ratio:0%}</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 39,
@@ -49,11 +51,13 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.45
+					"value": 0.45,
+					"valueStr": null
 				},
 				{
 					"key": "hp_recovery_per_sec_by_max_hp_ratio",
-					"value": 0.05
+					"value": 0.05,
+					"valueStr": null
 				}
 			]
 		},
@@ -61,10 +65,10 @@
 			"name": "破浪回神",
 			"rangeId": "0-1",
 			"description": "攻击距离<@ba.vdown>缩短</>，攻击力<@ba.vup>+{atk:0%}</>，每秒恢复最大生命的<@ba.vup>{hp_recovery_per_sec_by_max_hp_ratio:0%}</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 38,
@@ -76,11 +80,13 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				},
 				{
 					"key": "hp_recovery_per_sec_by_max_hp_ratio",
-					"value": 0.05
+					"value": 0.05,
+					"valueStr": null
 				}
 			]
 		},
@@ -88,10 +94,10 @@
 			"name": "破浪回神",
 			"rangeId": "0-1",
 			"description": "攻击距离<@ba.vdown>缩短</>，攻击力<@ba.vup>+{atk:0%}</>，每秒恢复最大生命的<@ba.vup>{hp_recovery_per_sec_by_max_hp_ratio:0%}</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 37,
@@ -103,11 +109,13 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.6
+					"value": 0.6,
+					"valueStr": null
 				},
 				{
 					"key": "hp_recovery_per_sec_by_max_hp_ratio",
-					"value": 0.06
+					"value": 0.06,
+					"valueStr": null
 				}
 			]
 		},
@@ -115,10 +123,10 @@
 			"name": "破浪回神",
 			"rangeId": "0-1",
 			"description": "攻击距离<@ba.vdown>缩短</>，攻击力<@ba.vup>+{atk:0%}</>，每秒恢复最大生命的<@ba.vup>{hp_recovery_per_sec_by_max_hp_ratio:0%}</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 36,
@@ -130,11 +138,13 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.65
+					"value": 0.65,
+					"valueStr": null
 				},
 				{
 					"key": "hp_recovery_per_sec_by_max_hp_ratio",
-					"value": 0.06
+					"value": 0.06,
+					"valueStr": null
 				}
 			]
 		},
@@ -142,10 +152,10 @@
 			"name": "破浪回神",
 			"rangeId": "0-1",
 			"description": "攻击距离<@ba.vdown>缩短</>，攻击力<@ba.vup>+{atk:0%}</>，每秒恢复最大生命的<@ba.vup>{hp_recovery_per_sec_by_max_hp_ratio:0%}</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 35,
@@ -157,11 +167,13 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.7
+					"value": 0.7,
+					"valueStr": null
 				},
 				{
 					"key": "hp_recovery_per_sec_by_max_hp_ratio",
-					"value": 0.06
+					"value": 0.06,
+					"valueStr": null
 				}
 			]
 		},
@@ -169,10 +181,10 @@
 			"name": "破浪回神",
 			"rangeId": "0-1",
 			"description": "攻击距离<@ba.vdown>缩短</>，攻击力<@ba.vup>+{atk:0%}</>，每秒恢复最大生命的<@ba.vup>{hp_recovery_per_sec_by_max_hp_ratio:0%}</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 34,
@@ -184,11 +196,13 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.8
+					"value": 0.8,
+					"valueStr": null
 				},
 				{
 					"key": "hp_recovery_per_sec_by_max_hp_ratio",
-					"value": 0.07
+					"value": 0.07,
+					"valueStr": null
 				}
 			]
 		},
@@ -196,10 +210,10 @@
 			"name": "破浪回神",
 			"rangeId": "0-1",
 			"description": "攻击距离<@ba.vdown>缩短</>，攻击力<@ba.vup>+{atk:0%}</>，每秒恢复最大生命的<@ba.vup>{hp_recovery_per_sec_by_max_hp_ratio:0%}</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 33,
@@ -211,11 +225,13 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.9
+					"value": 0.9,
+					"valueStr": null
 				},
 				{
 					"key": "hp_recovery_per_sec_by_max_hp_ratio",
-					"value": 0.07
+					"value": 0.07,
+					"valueStr": null
 				}
 			]
 		},
@@ -223,10 +239,10 @@
 			"name": "破浪回神",
 			"rangeId": "0-1",
 			"description": "攻击距离<@ba.vdown>缩短</>，攻击力<@ba.vup>+{atk:0%}</>，每秒恢复最大生命的<@ba.vup>{hp_recovery_per_sec_by_max_hp_ratio:0%}</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 32,
@@ -238,11 +254,13 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "hp_recovery_per_sec_by_max_hp_ratio",
-					"value": 0.07
+					"value": 0.07,
+					"valueStr": null
 				}
 			]
 		},
@@ -250,10 +268,10 @@
 			"name": "破浪回神",
 			"rangeId": "0-1",
 			"description": "攻击距离<@ba.vdown>缩短</>，攻击力<@ba.vup>+{atk:0%}</>，每秒恢复最大生命的<@ba.vup>{hp_recovery_per_sec_by_max_hp_ratio:0%}</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 30,
@@ -265,11 +283,13 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 1.1
+					"value": 1.1,
+					"valueStr": null
 				},
 				{
 					"key": "hp_recovery_per_sec_by_max_hp_ratio",
-					"value": 0.08
+					"value": 0.08,
+					"valueStr": null
 				}
 			]
 		}

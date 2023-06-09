@@ -1,0 +1,25 @@
+{
+	"skillId": "sktok_tbattbc",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "钳兽壳粉",
+			"rangeId": null,
+			"description": "\"暴食之果\"的攻击力<@ba.vup>+20%</>，防御力<@ba.vup>+20%</>(可叠加)",
+			"skillType": "PASSIVE",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 0,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": null,
+			"duration": -1,
+			"blackboard": []
+		}
+	]
+}

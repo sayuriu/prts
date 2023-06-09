@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act12side_04",
@@ -10,7 +11,7 @@
 	],
 	"stageId": "act12side_05",
 	"levelId": "Activities/ACT12SIDE/level_act12side_05",
-	"zoneId": "act12side_zone1",
+	"zoneId": "act12sre_zone1",
 	"code": "DH-5",
 	"name": "急がば回れ",
 	"description": "勝利を得るために近道を選ぶものもいれば、そうでなくとも近道を選択せざるを得ない者もいる。\n<@lv.item><満ち潮></>海水に沈んだマスへの配置不可。海水に浸かったユニットは敵味方関係なく【水蝕】状態になる。味方は攻撃速度が低下し、侵蝕ダメージを受け続けると共に、攻撃された際さらに侵蝕ダメージを受ける。敵は攻撃速度と移動速度が低下し、HPが減少し続ける",
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {

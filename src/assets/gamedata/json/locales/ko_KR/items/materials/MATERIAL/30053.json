@@ -6,12 +6,20 @@
 	"iconId": "MTL_SL_KETONE3",
 	"overrideBkg": null,
 	"stackIconId": null,
-	"sortId": 100033,
+	"sortId": 100047,
 	"usage": "일정량 이상의 공업용 유기 화합물. 제조소에서 합성 재료로 쓰이며 각종 강화에 사용된다.",
 	"obtainApproach": null,
 	"classifyType": "MATERIAL",
 	"itemType": "MATERIAL",
 	"stageDropList": [
+		{
+			"stageId": "act20side_07",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "act11mini_07",
+			"occPer": "USUAL"
+		},
 		{
 			"stageId": "act18d0_07",
 			"occPer": "USUAL"
@@ -55,6 +63,14 @@
 		{
 			"stageId": "main_08-17",
 			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_10-03",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "tough_10-03",
+			"occPer": "USUAL"
 		},
 		{
 			"stageId": "sub_09-1-1",

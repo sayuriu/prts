@@ -1,0 +1,447 @@
+{
+	"skillId": "skchr_mlynar_3",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "未照耀的荣光",
+			"rangeId": "3-18",
+			"description": "攻击范围<@ba.vup>扩大</>，特性提升至<@ba.vup>{trait_up}</>倍（每击倒一名敌人时特性倍率<@ba.vup>{per_kill_reduce:0%}</>），攻击对<@ba.vup>{attack@max_target}</>个目标造成相当于<@ba.vup>{attack@atk_scale:0%}</>攻击力的物理伤害。范围内所有敌人受到卡西米尔干员攻击时额外附带玛恩纳<@ba.vup>{atk_scale:0%}</>攻击力的<@ba.vup>真实</>伤害",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 55,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_mlynar_3",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "attack@atk_scale",
+					"value": 1.1,
+					"valueStr": null
+				},
+				{
+					"key": "atk_scale",
+					"value": 0.08,
+					"valueStr": null
+				},
+				{
+					"key": "attack@max_target",
+					"value": 5,
+					"valueStr": null
+				},
+				{
+					"key": "trait_up",
+					"value": 2,
+					"valueStr": null
+				},
+				{
+					"key": "per_kill_reduce",
+					"value": -0.1,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "未照耀的荣光",
+			"rangeId": "3-18",
+			"description": "攻击范围<@ba.vup>扩大</>，特性提升至<@ba.vup>{trait_up}</>倍（每击倒一名敌人时特性倍率<@ba.vup>{per_kill_reduce:0%}</>），攻击对<@ba.vup>{attack@max_target}</>个目标造成相当于<@ba.vup>{attack@atk_scale:0%}</>攻击力的物理伤害。范围内所有敌人受到卡西米尔干员攻击时额外附带玛恩纳<@ba.vup>{atk_scale:0%}</>攻击力的<@ba.vup>真实</>伤害",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 55,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_mlynar_3",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "attack@atk_scale",
+					"value": 1.15,
+					"valueStr": null
+				},
+				{
+					"key": "atk_scale",
+					"value": 0.08,
+					"valueStr": null
+				},
+				{
+					"key": "attack@max_target",
+					"value": 5,
+					"valueStr": null
+				},
+				{
+					"key": "trait_up",
+					"value": 2,
+					"valueStr": null
+				},
+				{
+					"key": "per_kill_reduce",
+					"value": -0.1,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "未照耀的荣光",
+			"rangeId": "3-18",
+			"description": "攻击范围<@ba.vup>扩大</>，特性提升至<@ba.vup>{trait_up}</>倍（每击倒一名敌人时特性倍率<@ba.vup>{per_kill_reduce:0%}</>），攻击对<@ba.vup>{attack@max_target}</>个目标造成相当于<@ba.vup>{attack@atk_scale:0%}</>攻击力的物理伤害。范围内所有敌人受到卡西米尔干员攻击时额外附带玛恩纳<@ba.vup>{atk_scale:0%}</>攻击力的<@ba.vup>真实</>伤害",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 55,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_mlynar_3",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "attack@atk_scale",
+					"value": 1.2,
+					"valueStr": null
+				},
+				{
+					"key": "atk_scale",
+					"value": 0.08,
+					"valueStr": null
+				},
+				{
+					"key": "attack@max_target",
+					"value": 5,
+					"valueStr": null
+				},
+				{
+					"key": "trait_up",
+					"value": 2,
+					"valueStr": null
+				},
+				{
+					"key": "per_kill_reduce",
+					"value": -0.1,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "未照耀的荣光",
+			"rangeId": "3-18",
+			"description": "攻击范围<@ba.vup>扩大</>，特性提升至<@ba.vup>{trait_up}</>倍（每击倒一名敌人时特性倍率<@ba.vup>{per_kill_reduce:0%}</>），攻击对<@ba.vup>{attack@max_target}</>个目标造成相当于<@ba.vup>{attack@atk_scale:0%}</>攻击力的物理伤害。范围内所有敌人受到卡西米尔干员攻击时额外附带玛恩纳<@ba.vup>{atk_scale:0%}</>攻击力的<@ba.vup>真实</>伤害",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 50,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_mlynar_3",
+			"duration": 26,
+			"blackboard": [
+				{
+					"key": "attack@atk_scale",
+					"value": 1.25,
+					"valueStr": null
+				},
+				{
+					"key": "atk_scale",
+					"value": 0.1,
+					"valueStr": null
+				},
+				{
+					"key": "attack@max_target",
+					"value": 5,
+					"valueStr": null
+				},
+				{
+					"key": "trait_up",
+					"value": 2,
+					"valueStr": null
+				},
+				{
+					"key": "per_kill_reduce",
+					"value": -0.1,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "未照耀的荣光",
+			"rangeId": "3-18",
+			"description": "攻击范围<@ba.vup>扩大</>，特性提升至<@ba.vup>{trait_up}</>倍（每击倒一名敌人时特性倍率<@ba.vup>{per_kill_reduce:0%}</>），攻击对<@ba.vup>{attack@max_target}</>个目标造成相当于<@ba.vup>{attack@atk_scale:0%}</>攻击力的物理伤害。范围内所有敌人受到卡西米尔干员攻击时额外附带玛恩纳<@ba.vup>{atk_scale:0%}</>攻击力的<@ba.vup>真实</>伤害",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 50,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_mlynar_3",
+			"duration": 26,
+			"blackboard": [
+				{
+					"key": "attack@atk_scale",
+					"value": 1.3,
+					"valueStr": null
+				},
+				{
+					"key": "atk_scale",
+					"value": 0.1,
+					"valueStr": null
+				},
+				{
+					"key": "attack@max_target",
+					"value": 5,
+					"valueStr": null
+				},
+				{
+					"key": "trait_up",
+					"value": 2,
+					"valueStr": null
+				},
+				{
+					"key": "per_kill_reduce",
+					"value": -0.1,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "未照耀的荣光",
+			"rangeId": "3-18",
+			"description": "攻击范围<@ba.vup>扩大</>，特性提升至<@ba.vup>{trait_up}</>倍（每击倒一名敌人时特性倍率<@ba.vup>{per_kill_reduce:0%}</>），攻击对<@ba.vup>{attack@max_target}</>个目标造成相当于<@ba.vup>{attack@atk_scale:0%}</>攻击力的物理伤害。范围内所有敌人受到卡西米尔干员攻击时额外附带玛恩纳<@ba.vup>{atk_scale:0%}</>攻击力的<@ba.vup>真实</>伤害",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 50,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_mlynar_3",
+			"duration": 26,
+			"blackboard": [
+				{
+					"key": "attack@atk_scale",
+					"value": 1.4,
+					"valueStr": null
+				},
+				{
+					"key": "atk_scale",
+					"value": 0.1,
+					"valueStr": null
+				},
+				{
+					"key": "attack@max_target",
+					"value": 5,
+					"valueStr": null
+				},
+				{
+					"key": "trait_up",
+					"value": 2,
+					"valueStr": null
+				},
+				{
+					"key": "per_kill_reduce",
+					"value": -0.1,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "未照耀的荣光",
+			"rangeId": "3-18",
+			"description": "攻击范围<@ba.vup>扩大</>，特性提升至<@ba.vup>{trait_up}</>倍（每击倒一名敌人时特性倍率<@ba.vup>{per_kill_reduce:0%}</>），攻击对<@ba.vup>{attack@max_target}</>个目标造成相当于<@ba.vup>{attack@atk_scale:0%}</>攻击力的物理伤害。范围内所有敌人受到卡西米尔干员攻击时额外附带玛恩纳<@ba.vup>{atk_scale:0%}</>攻击力的<@ba.vup>真实</>伤害",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 45,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_mlynar_3",
+			"duration": 26,
+			"blackboard": [
+				{
+					"key": "attack@atk_scale",
+					"value": 1.5,
+					"valueStr": null
+				},
+				{
+					"key": "atk_scale",
+					"value": 0.11,
+					"valueStr": null
+				},
+				{
+					"key": "attack@max_target",
+					"value": 5,
+					"valueStr": null
+				},
+				{
+					"key": "trait_up",
+					"value": 2,
+					"valueStr": null
+				},
+				{
+					"key": "per_kill_reduce",
+					"value": -0.1,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "未照耀的荣光",
+			"rangeId": "3-18",
+			"description": "攻击范围<@ba.vup>扩大</>，特性提升至<@ba.vup>{trait_up}</>倍（每击倒一名敌人时特性倍率<@ba.vup>{per_kill_reduce:0%}</>），攻击对<@ba.vup>{attack@max_target}</>个目标造成相当于<@ba.vup>{attack@atk_scale:0%}</>攻击力的物理伤害。范围内所有敌人受到卡西米尔干员攻击时额外附带玛恩纳<@ba.vup>{atk_scale:0%}</>攻击力的<@ba.vup>真实</>伤害",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 45,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_mlynar_3",
+			"duration": 27,
+			"blackboard": [
+				{
+					"key": "attack@atk_scale",
+					"value": 1.6,
+					"valueStr": null
+				},
+				{
+					"key": "atk_scale",
+					"value": 0.11,
+					"valueStr": null
+				},
+				{
+					"key": "attack@max_target",
+					"value": 5,
+					"valueStr": null
+				},
+				{
+					"key": "trait_up",
+					"value": 2,
+					"valueStr": null
+				},
+				{
+					"key": "per_kill_reduce",
+					"value": -0.1,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "未照耀的荣光",
+			"rangeId": "3-18",
+			"description": "攻击范围<@ba.vup>扩大</>，特性提升至<@ba.vup>{trait_up}</>倍（每击倒一名敌人时特性倍率<@ba.vup>{per_kill_reduce:0%}</>），攻击对<@ba.vup>{attack@max_target}</>个目标造成相当于<@ba.vup>{attack@atk_scale:0%}</>攻击力的物理伤害。范围内所有敌人受到卡西米尔干员攻击时额外附带玛恩纳<@ba.vup>{atk_scale:0%}</>攻击力的<@ba.vup>真实</>伤害",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 45,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_mlynar_3",
+			"duration": 27,
+			"blackboard": [
+				{
+					"key": "attack@atk_scale",
+					"value": 1.7,
+					"valueStr": null
+				},
+				{
+					"key": "atk_scale",
+					"value": 0.11,
+					"valueStr": null
+				},
+				{
+					"key": "attack@max_target",
+					"value": 5,
+					"valueStr": null
+				},
+				{
+					"key": "trait_up",
+					"value": 2,
+					"valueStr": null
+				},
+				{
+					"key": "per_kill_reduce",
+					"value": -0.1,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "未照耀的荣光",
+			"rangeId": "3-18",
+			"description": "攻击范围<@ba.vup>扩大</>，特性提升至<@ba.vup>{trait_up}</>倍（每击倒一名敌人时特性倍率<@ba.vup>{per_kill_reduce:0%}</>），攻击对<@ba.vup>{attack@max_target}</>个目标造成相当于<@ba.vup>{attack@atk_scale:0%}</>攻击力的物理伤害。范围内所有敌人受到卡西米尔干员攻击时额外附带玛恩纳<@ba.vup>{atk_scale:0%}</>攻击力的<@ba.vup>真实</>伤害",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 42,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_mlynar_3",
+			"duration": 28,
+			"blackboard": [
+				{
+					"key": "attack@atk_scale",
+					"value": 1.8,
+					"valueStr": null
+				},
+				{
+					"key": "atk_scale",
+					"value": 0.12,
+					"valueStr": null
+				},
+				{
+					"key": "attack@max_target",
+					"value": 5,
+					"valueStr": null
+				},
+				{
+					"key": "trait_up",
+					"value": 2,
+					"valueStr": null
+				},
+				{
+					"key": "per_kill_reduce",
+					"value": -0.1,
+					"valueStr": null
+				}
+			]
+		}
+	]
+}

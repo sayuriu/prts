@@ -7,10 +7,10 @@
 			"name": "阴晴圆缺",
 			"rangeId": null,
 			"description": "技能开启时，攻击力<@ba.vup>+{atk:0%}</>，且以下三种效果中随机获得一种：每次攻击使目标攻击速度<@ba.vup>{nothin_s_2[a][attack_speed_down].attack_speed}</>（持续<@ba.vup>{nothin_s_2[a][attack_speed_down].duration}</>秒且不叠加）；攻击速度<@ba.vup>+{attack_speed}</>；获得<@ba.vup>+{prob:0%}</>的物理闪避，阻挡数<@ba.vup>+{block_cnt}</>\\n<@ba.rem>技能持续时间无限，可主动关闭技能</>；",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 10,
@@ -22,27 +22,33 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.2
+					"value": 0.2,
+					"valueStr": null
 				},
 				{
 					"key": "nothin_s_2[a][attack_speed_down].attack_speed",
-					"value": -20
+					"value": -20,
+					"valueStr": null
 				},
 				{
 					"key": "nothin_s_2[a][attack_speed_down].duration",
-					"value": 5
+					"value": 5,
+					"valueStr": null
 				},
 				{
 					"key": "attack_speed",
-					"value": 15
+					"value": 15,
+					"valueStr": null
 				},
 				{
 					"key": "prob",
-					"value": 0.3
+					"value": 0.3,
+					"valueStr": null
 				},
 				{
 					"key": "block_cnt",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -50,10 +56,10 @@
 			"name": "阴晴圆缺",
 			"rangeId": null,
 			"description": "技能开启时，攻击力<@ba.vup>+{atk:0%}</>，且以下三种效果中随机获得一种：每次攻击使目标攻击速度<@ba.vup>{nothin_s_2[a][attack_speed_down].attack_speed}</>（持续<@ba.vup>{nothin_s_2[a][attack_speed_down].duration}</>秒且不叠加）；攻击速度<@ba.vup>+{attack_speed}</>；获得<@ba.vup>+{prob:0%}</>的物理闪避，阻挡数<@ba.vup>+{block_cnt}</>\\n<@ba.rem>技能持续时间无限，可主动关闭技能</>；",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 10,
@@ -65,27 +71,33 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.23
+					"value": 0.23,
+					"valueStr": null
 				},
 				{
 					"key": "nothin_s_2[a][attack_speed_down].attack_speed",
-					"value": -20
+					"value": -20,
+					"valueStr": null
 				},
 				{
 					"key": "nothin_s_2[a][attack_speed_down].duration",
-					"value": 5
+					"value": 5,
+					"valueStr": null
 				},
 				{
 					"key": "attack_speed",
-					"value": 15
+					"value": 15,
+					"valueStr": null
 				},
 				{
 					"key": "prob",
-					"value": 0.3
+					"value": 0.3,
+					"valueStr": null
 				},
 				{
 					"key": "block_cnt",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -93,10 +105,10 @@
 			"name": "阴晴圆缺",
 			"rangeId": null,
 			"description": "技能开启时，攻击力<@ba.vup>+{atk:0%}</>，且以下三种效果中随机获得一种：每次攻击使目标攻击速度<@ba.vup>{nothin_s_2[a][attack_speed_down].attack_speed}</>（持续<@ba.vup>{nothin_s_2[a][attack_speed_down].duration}</>秒且不叠加）；攻击速度<@ba.vup>+{attack_speed}</>；获得<@ba.vup>+{prob:0%}</>的物理闪避，阻挡数<@ba.vup>+{block_cnt}</>\\n<@ba.rem>技能持续时间无限，可主动关闭技能</>；",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 10,
@@ -108,27 +120,33 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.26
+					"value": 0.26,
+					"valueStr": null
 				},
 				{
 					"key": "nothin_s_2[a][attack_speed_down].attack_speed",
-					"value": -20
+					"value": -20,
+					"valueStr": null
 				},
 				{
 					"key": "nothin_s_2[a][attack_speed_down].duration",
-					"value": 5
+					"value": 5,
+					"valueStr": null
 				},
 				{
 					"key": "attack_speed",
-					"value": 15
+					"value": 15,
+					"valueStr": null
 				},
 				{
 					"key": "prob",
-					"value": 0.3
+					"value": 0.3,
+					"valueStr": null
 				},
 				{
 					"key": "block_cnt",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -136,10 +154,10 @@
 			"name": "阴晴圆缺",
 			"rangeId": null,
 			"description": "技能开启时，攻击力<@ba.vup>+{atk:0%}</>，且以下三种效果中随机获得一种：每次攻击使目标攻击速度<@ba.vup>{nothin_s_2[a][attack_speed_down].attack_speed}</>（持续<@ba.vup>{nothin_s_2[a][attack_speed_down].duration}</>秒且不叠加）；攻击速度<@ba.vup>+{attack_speed}</>；获得<@ba.vup>+{prob:0%}</>的物理闪避，阻挡数<@ba.vup>+{block_cnt}</>\\n<@ba.rem>技能持续时间无限，可主动关闭技能</>；",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 7,
@@ -151,27 +169,33 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.3
+					"value": 0.3,
+					"valueStr": null
 				},
 				{
 					"key": "nothin_s_2[a][attack_speed_down].attack_speed",
-					"value": -25
+					"value": -25,
+					"valueStr": null
 				},
 				{
 					"key": "nothin_s_2[a][attack_speed_down].duration",
-					"value": 5
+					"value": 5,
+					"valueStr": null
 				},
 				{
 					"key": "attack_speed",
-					"value": 20
+					"value": 20,
+					"valueStr": null
 				},
 				{
 					"key": "prob",
-					"value": 0.35
+					"value": 0.35,
+					"valueStr": null
 				},
 				{
 					"key": "block_cnt",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -179,10 +203,10 @@
 			"name": "阴晴圆缺",
 			"rangeId": null,
 			"description": "技能开启时，攻击力<@ba.vup>+{atk:0%}</>，且以下三种效果中随机获得一种：每次攻击使目标攻击速度<@ba.vup>{nothin_s_2[a][attack_speed_down].attack_speed}</>（持续<@ba.vup>{nothin_s_2[a][attack_speed_down].duration}</>秒且不叠加）；攻击速度<@ba.vup>+{attack_speed}</>；获得<@ba.vup>+{prob:0%}</>的物理闪避，阻挡数<@ba.vup>+{block_cnt}</>\\n<@ba.rem>技能持续时间无限，可主动关闭技能</>；",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 7,
@@ -194,27 +218,33 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.33
+					"value": 0.33,
+					"valueStr": null
 				},
 				{
 					"key": "nothin_s_2[a][attack_speed_down].attack_speed",
-					"value": -25
+					"value": -25,
+					"valueStr": null
 				},
 				{
 					"key": "nothin_s_2[a][attack_speed_down].duration",
-					"value": 5
+					"value": 5,
+					"valueStr": null
 				},
 				{
 					"key": "attack_speed",
-					"value": 20
+					"value": 20,
+					"valueStr": null
 				},
 				{
 					"key": "prob",
-					"value": 0.35
+					"value": 0.35,
+					"valueStr": null
 				},
 				{
 					"key": "block_cnt",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -222,10 +252,10 @@
 			"name": "阴晴圆缺",
 			"rangeId": null,
 			"description": "技能开启时，攻击力<@ba.vup>+{atk:0%}</>，且以下三种效果中随机获得一种：每次攻击使目标攻击速度<@ba.vup>{nothin_s_2[a][attack_speed_down].attack_speed}</>（持续<@ba.vup>{nothin_s_2[a][attack_speed_down].duration}</>秒且不叠加）；攻击速度<@ba.vup>+{attack_speed}</>；获得<@ba.vup>+{prob:0%}</>的物理闪避，阻挡数<@ba.vup>+{block_cnt}</>\\n<@ba.rem>技能持续时间无限，可主动关闭技能</>；",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 7,
@@ -237,27 +267,33 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.36
+					"value": 0.36,
+					"valueStr": null
 				},
 				{
 					"key": "nothin_s_2[a][attack_speed_down].attack_speed",
-					"value": -25
+					"value": -25,
+					"valueStr": null
 				},
 				{
 					"key": "nothin_s_2[a][attack_speed_down].duration",
-					"value": 5
+					"value": 5,
+					"valueStr": null
 				},
 				{
 					"key": "attack_speed",
-					"value": 20
+					"value": 20,
+					"valueStr": null
 				},
 				{
 					"key": "prob",
-					"value": 0.35
+					"value": 0.35,
+					"valueStr": null
 				},
 				{
 					"key": "block_cnt",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -265,10 +301,10 @@
 			"name": "阴晴圆缺",
 			"rangeId": null,
 			"description": "技能开启时，攻击力<@ba.vup>+{atk:0%}</>，且以下三种效果中随机获得一种：每次攻击使目标攻击速度<@ba.vup>{nothin_s_2[a][attack_speed_down].attack_speed}</>（持续<@ba.vup>{nothin_s_2[a][attack_speed_down].duration}</>秒且不叠加）；攻击速度<@ba.vup>+{attack_speed}</>；获得<@ba.vup>+{prob:0%}</>的物理闪避，阻挡数<@ba.vup>+{block_cnt}</>\\n<@ba.rem>技能持续时间无限，可主动关闭技能</>；",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 5,
@@ -280,27 +316,33 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.4
+					"value": 0.4,
+					"valueStr": null
 				},
 				{
 					"key": "nothin_s_2[a][attack_speed_down].attack_speed",
-					"value": -30
+					"value": -30,
+					"valueStr": null
 				},
 				{
 					"key": "nothin_s_2[a][attack_speed_down].duration",
-					"value": 5
+					"value": 5,
+					"valueStr": null
 				},
 				{
 					"key": "attack_speed",
-					"value": 25
+					"value": 25,
+					"valueStr": null
 				},
 				{
 					"key": "prob",
-					"value": 0.4
+					"value": 0.4,
+					"valueStr": null
 				},
 				{
 					"key": "block_cnt",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -308,10 +350,10 @@
 			"name": "阴晴圆缺",
 			"rangeId": null,
 			"description": "技能开启时，攻击力<@ba.vup>+{atk:0%}</>，且以下三种效果中随机获得一种：每次攻击使目标攻击速度<@ba.vup>{nothin_s_2[a][attack_speed_down].attack_speed}</>（持续<@ba.vup>{nothin_s_2[a][attack_speed_down].duration}</>秒且不叠加）；攻击速度<@ba.vup>+{attack_speed}</>；获得<@ba.vup>+{prob:0%}</>的物理闪避，阻挡数<@ba.vup>+{block_cnt}</>\\n<@ba.rem>技能持续时间无限，可主动关闭技能</>；",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 5,
@@ -323,27 +365,33 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				},
 				{
 					"key": "nothin_s_2[a][attack_speed_down].attack_speed",
-					"value": -30
+					"value": -30,
+					"valueStr": null
 				},
 				{
 					"key": "nothin_s_2[a][attack_speed_down].duration",
-					"value": 5
+					"value": 5,
+					"valueStr": null
 				},
 				{
 					"key": "attack_speed",
-					"value": 25
+					"value": 25,
+					"valueStr": null
 				},
 				{
 					"key": "prob",
-					"value": 0.45
+					"value": 0.45,
+					"valueStr": null
 				},
 				{
 					"key": "block_cnt",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -351,10 +399,10 @@
 			"name": "阴晴圆缺",
 			"rangeId": null,
 			"description": "技能开启时，攻击力<@ba.vup>+{atk:0%}</>，且以下三种效果中随机获得一种：每次攻击使目标攻击速度<@ba.vup>{nothin_s_2[a][attack_speed_down].attack_speed}</>（持续<@ba.vup>{nothin_s_2[a][attack_speed_down].duration}</>秒且不叠加）；攻击速度<@ba.vup>+{attack_speed}</>；获得<@ba.vup>+{prob:0%}</>的物理闪避，阻挡数<@ba.vup>+{block_cnt}</>\\n<@ba.rem>技能持续时间无限，可主动关闭技能</>；",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 5,
@@ -366,27 +414,33 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.55
+					"value": 0.55,
+					"valueStr": null
 				},
 				{
 					"key": "nothin_s_2[a][attack_speed_down].attack_speed",
-					"value": -30
+					"value": -30,
+					"valueStr": null
 				},
 				{
 					"key": "nothin_s_2[a][attack_speed_down].duration",
-					"value": 5
+					"value": 5,
+					"valueStr": null
 				},
 				{
 					"key": "attack_speed",
-					"value": 28
+					"value": 28,
+					"valueStr": null
 				},
 				{
 					"key": "prob",
-					"value": 0.45
+					"value": 0.45,
+					"valueStr": null
 				},
 				{
 					"key": "block_cnt",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -394,10 +448,10 @@
 			"name": "阴晴圆缺",
 			"rangeId": null,
 			"description": "技能开启时，攻击力<@ba.vup>+{atk:0%}</>，且以下三种效果中随机获得一种：每次攻击使目标攻击速度<@ba.vup>{nothin_s_2[a][attack_speed_down].attack_speed}</>（持续<@ba.vup>{nothin_s_2[a][attack_speed_down].duration}</>秒且不叠加）；攻击速度<@ba.vup>+{attack_speed}</>；获得<@ba.vup>+{prob:0%}</>的物理闪避，阻挡数<@ba.vup>+{block_cnt}</>\\n<@ba.rem>技能持续时间无限，可主动关闭技能</>；",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 5,
@@ -409,27 +463,33 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.6
+					"value": 0.6,
+					"valueStr": null
 				},
 				{
 					"key": "nothin_s_2[a][attack_speed_down].attack_speed",
-					"value": -35
+					"value": -35,
+					"valueStr": null
 				},
 				{
 					"key": "nothin_s_2[a][attack_speed_down].duration",
-					"value": 5
+					"value": 5,
+					"valueStr": null
 				},
 				{
 					"key": "attack_speed",
-					"value": 28
+					"value": 28,
+					"valueStr": null
 				},
 				{
 					"key": "prob",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				},
 				{
 					"key": "block_cnt",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		}

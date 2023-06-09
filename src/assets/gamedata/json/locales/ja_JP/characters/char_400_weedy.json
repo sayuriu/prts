@@ -2,7 +2,9 @@
 	"name": "ウィーディ",
 	"description": "ブロック中の<@ba.kw>敵全員</>を同時に攻撃\n遠距離マスにも配置可能",
 	"canUseGeneralPotentialItem": true,
+	"canUseActivityPotentialItem": false,
 	"potentialItemId": "p_char_400_weedy",
+	"activityPotentialItemId": null,
 	"nationId": "rhodes",
 	"groupId": null,
 	"teamId": null,
@@ -53,7 +55,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -78,7 +82,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -111,7 +117,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -136,7 +144,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -185,7 +195,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -210,7 +222,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -495,7 +509,7 @@
 					"requiredPotentialRank": 0,
 					"prefabKey": "1",
 					"name": "工事用蓄水砲",
-					"description": "「工事用蓄水砲」を1体召喚可能（配置から15秒後強制退場）。蓄水砲は敵1体を攻撃し、攻撃対象を普通の力で突き飛ばす",
+					"description": "「工事用蓄水砲」を配置可能（配置から15秒後強制退場）。蓄水砲は敵1体を攻撃し、攻撃対象を普通の力で突き飛ばす",
 					"rangeId": null,
 					"blackboard": [
 						{
@@ -512,7 +526,7 @@
 					"requiredPotentialRank": 0,
 					"prefabKey": "1",
 					"name": "工事用蓄水砲",
-					"description": "「工事用蓄水砲」を1体召喚可能（配置から20秒後強制退場）。蓄水砲は敵1体を攻撃し、攻撃対象を普通の力で突き飛ばす",
+					"description": "「工事用蓄水砲」を配置可能（配置から20秒後強制退場）。蓄水砲は敵1体を攻撃し、攻撃対象を普通の力で突き飛ばす",
 					"rangeId": null,
 					"blackboard": [
 						{
@@ -543,7 +557,7 @@
 	"potentialRanks": [
 		{
 			"type": 0,
-			"description": "コスト-1",
+			"description": "配置コスト-1",
 			"buff": {
 				"attributes": {
 					"abnormalFlags": null,
@@ -635,7 +649,7 @@
 		},
 		{
 			"type": 0,
-			"description": "コスト-1",
+			"description": "配置コスト-1",
 			"buff": {
 				"attributes": {
 					"abnormalFlags": null,
@@ -680,7 +694,9 @@
 				"baseForceLevel": 0,
 				"stunImmune": false,
 				"silenceImmune": false,
-				"sleepImmune": false
+				"sleepImmune": false,
+				"frozenImmune": false,
+				"levitateImmune": false
 			}
 		},
 		{
@@ -705,7 +721,9 @@
 				"baseForceLevel": 0,
 				"stunImmune": false,
 				"silenceImmune": false,
-				"sleepImmune": false
+				"sleepImmune": false,
+				"frozenImmune": false,
+				"levitateImmune": false
 			}
 		}
 	],

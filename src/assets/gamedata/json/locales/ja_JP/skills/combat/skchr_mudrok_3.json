@@ -6,8 +6,9 @@
 		{
 			"name": "悪土の血脈",
 			"rangeId": "x-1",
-			"description": "スキル発動時から<@ba.vup>{sleep}</>秒間行動しなくなり、ダメージを受けない状態に入り、周囲一定範囲内の敵全員の移動速度<@ba.vup>-{-move_speed:0%}</>。その後、範囲内の地面にいる敵全員に<@ba.vup>{stun}</>秒間<$ba.stun>スタン</>させ、通常攻撃の間隔が<@ba.vup>短縮</>し、攻撃力<@ba.vup>+{atk:0%}</>、防御力<@ba.vup>+{def:0%}</>、ブロック中の敵全員を同時に攻撃",
+			"description": "スキル発動時から<@ba.vup>{sleep}</>秒間行動しなくなり、ダメージを受けない状態に入り、周囲一定範囲内の敵全員の移動速度<@ba.vup>-{-move_speed:0%}</>。その後、範囲内の地面にいる敵全員を<@ba.vup>{stun}</>秒間<$ba.stun>スタン</>させ、通常攻撃の間隔を<@ba.vup>短縮</>し、攻撃力<@ba.vup>+{atk:0%}</>、防御力<@ba.vup>+{def:0%}</>、ブロック中の敵全員を同時に攻撃",
 			"skillType": 1,
+			"durationType": 0,
 			"spData": {
 				"spType": 1,
 				"levelUpCost": null,
@@ -52,8 +53,9 @@
 		{
 			"name": "悪土の血脈",
 			"rangeId": "x-1",
-			"description": "スキル発動時から<@ba.vup>{sleep}</>秒間行動しなくなり、ダメージを受けない状態に入り、周囲一定範囲内の敵全員の移動速度<@ba.vup>-{-move_speed:0%}</>。その後、範囲内の地面にいる敵全員に<@ba.vup>{stun}</>秒間<$ba.stun>スタン</>させ、通常攻撃の間隔が<@ba.vup>短縮</>し、攻撃力<@ba.vup>+{atk:0%}</>、防御力<@ba.vup>+{def:0%}</>、ブロック中の敵全員を同時に攻撃",
+			"description": "スキル発動時から<@ba.vup>{sleep}</>秒間行動しなくなり、ダメージを受けない状態に入り、周囲一定範囲内の敵全員の移動速度<@ba.vup>-{-move_speed:0%}</>。その後、範囲内の地面にいる敵全員を<@ba.vup>{stun}</>秒間<$ba.stun>スタン</>させ、通常攻撃の間隔を<@ba.vup>短縮</>し、攻撃力<@ba.vup>+{atk:0%}</>、防御力<@ba.vup>+{def:0%}</>、ブロック中の敵全員を同時に攻撃",
 			"skillType": 1,
+			"durationType": 0,
 			"spData": {
 				"spType": 1,
 				"levelUpCost": null,
@@ -98,8 +100,9 @@
 		{
 			"name": "悪土の血脈",
 			"rangeId": "x-1",
-			"description": "スキル発動時から<@ba.vup>{sleep}</>秒間行動しなくなり、ダメージを受けない状態に入り、周囲一定範囲内の敵全員の移動速度<@ba.vup>-{-move_speed:0%}</>。その後、範囲内の地面にいる敵全員に<@ba.vup>{stun}</>秒間<$ba.stun>スタン</>させ、通常攻撃の間隔が<@ba.vup>短縮</>し、攻撃力<@ba.vup>+{atk:0%}</>、防御力<@ba.vup>+{def:0%}</>、ブロック中の敵全員を同時に攻撃",
+			"description": "スキル発動時から<@ba.vup>{sleep}</>秒間行動しなくなり、ダメージを受けない状態に入り、周囲一定範囲内の敵全員の移動速度<@ba.vup>-{-move_speed:0%}</>。その後、範囲内の地面にいる敵全員を<@ba.vup>{stun}</>秒間<$ba.stun>スタン</>させ、通常攻撃の間隔を<@ba.vup>短縮</>し、攻撃力<@ba.vup>+{atk:0%}</>、防御力<@ba.vup>+{def:0%}</>、ブロック中の敵全員を同時に攻撃",
 			"skillType": 1,
+			"durationType": 0,
 			"spData": {
 				"spType": 1,
 				"levelUpCost": null,
@@ -144,8 +147,9 @@
 		{
 			"name": "悪土の血脈",
 			"rangeId": "x-1",
-			"description": "スキル発動時から<@ba.vup>{sleep}</>秒間行動しなくなり、ダメージを受けない状態に入り、周囲一定範囲内の敵全員の移動速度<@ba.vup>-{-move_speed:0%}</>。その後、範囲内の地面にいる敵全員に<@ba.vup>{stun}</>秒間<$ba.stun>スタン</>させ、通常攻撃の間隔が<@ba.vup>短縮</>し、攻撃力<@ba.vup>+{atk:0%}</>、防御力<@ba.vup>+{def:0%}</>、ブロック中の敵全員を同時に攻撃",
+			"description": "スキル発動時から<@ba.vup>{sleep}</>秒間行動しなくなり、ダメージを受けない状態に入り、周囲一定範囲内の敵全員の移動速度<@ba.vup>-{-move_speed:0%}</>。その後、範囲内の地面にいる敵全員を<@ba.vup>{stun}</>秒間<$ba.stun>スタン</>させ、通常攻撃の間隔を<@ba.vup>短縮</>し、攻撃力<@ba.vup>+{atk:0%}</>、防御力<@ba.vup>+{def:0%}</>、ブロック中の敵全員を同時に攻撃",
 			"skillType": 1,
+			"durationType": 0,
 			"spData": {
 				"spType": 1,
 				"levelUpCost": null,
@@ -190,8 +194,9 @@
 		{
 			"name": "悪土の血脈",
 			"rangeId": "x-1",
-			"description": "スキル発動時から<@ba.vup>{sleep}</>秒間行動しなくなり、ダメージを受けない状態に入り、周囲一定範囲内の敵全員の移動速度<@ba.vup>-{-move_speed:0%}</>。その後、範囲内の地面にいる敵全員に<@ba.vup>{stun}</>秒間<$ba.stun>スタン</>させ、通常攻撃の間隔が<@ba.vup>短縮</>し、攻撃力<@ba.vup>+{atk:0%}</>、防御力<@ba.vup>+{def:0%}</>、ブロック中の敵全員を同時に攻撃",
+			"description": "スキル発動時から<@ba.vup>{sleep}</>秒間行動しなくなり、ダメージを受けない状態に入り、周囲一定範囲内の敵全員の移動速度<@ba.vup>-{-move_speed:0%}</>。その後、範囲内の地面にいる敵全員を<@ba.vup>{stun}</>秒間<$ba.stun>スタン</>させ、通常攻撃の間隔を<@ba.vup>短縮</>し、攻撃力<@ba.vup>+{atk:0%}</>、防御力<@ba.vup>+{def:0%}</>、ブロック中の敵全員を同時に攻撃",
 			"skillType": 1,
+			"durationType": 0,
 			"spData": {
 				"spType": 1,
 				"levelUpCost": null,
@@ -236,8 +241,9 @@
 		{
 			"name": "悪土の血脈",
 			"rangeId": "x-1",
-			"description": "スキル発動時から<@ba.vup>{sleep}</>秒間行動しなくなり、ダメージを受けない状態に入り、周囲一定範囲内の敵全員の移動速度<@ba.vup>-{-move_speed:0%}</>。その後、範囲内の地面にいる敵全員に<@ba.vup>{stun}</>秒間<$ba.stun>スタン</>させ、通常攻撃の間隔が<@ba.vup>短縮</>し、攻撃力<@ba.vup>+{atk:0%}</>、防御力<@ba.vup>+{def:0%}</>、ブロック中の敵全員を同時に攻撃",
+			"description": "スキル発動時から<@ba.vup>{sleep}</>秒間行動しなくなり、ダメージを受けない状態に入り、周囲一定範囲内の敵全員の移動速度<@ba.vup>-{-move_speed:0%}</>。その後、範囲内の地面にいる敵全員を<@ba.vup>{stun}</>秒間<$ba.stun>スタン</>させ、通常攻撃の間隔を<@ba.vup>短縮</>し、攻撃力<@ba.vup>+{atk:0%}</>、防御力<@ba.vup>+{def:0%}</>、ブロック中の敵全員を同時に攻撃",
 			"skillType": 1,
+			"durationType": 0,
 			"spData": {
 				"spType": 1,
 				"levelUpCost": null,
@@ -282,8 +288,9 @@
 		{
 			"name": "悪土の血脈",
 			"rangeId": "x-1",
-			"description": "スキル発動時から<@ba.vup>{sleep}</>秒間行動しなくなり、ダメージを受けない状態に入り、周囲一定範囲内の敵全員の移動速度<@ba.vup>-{-move_speed:0%}</>。その後、範囲内の地面にいる敵全員に<@ba.vup>{stun}</>秒間<$ba.stun>スタン</>させ、通常攻撃の間隔が<@ba.vup>短縮</>し、攻撃力<@ba.vup>+{atk:0%}</>、防御力<@ba.vup>+{def:0%}</>、ブロック中の敵全員を同時に攻撃",
+			"description": "スキル発動時から<@ba.vup>{sleep}</>秒間行動しなくなり、ダメージを受けない状態に入り、周囲一定範囲内の敵全員の移動速度<@ba.vup>-{-move_speed:0%}</>。その後、範囲内の地面にいる敵全員を<@ba.vup>{stun}</>秒間<$ba.stun>スタン</>させ、通常攻撃の間隔を<@ba.vup>短縮</>し、攻撃力<@ba.vup>+{atk:0%}</>、防御力<@ba.vup>+{def:0%}</>、ブロック中の敵全員を同時に攻撃",
 			"skillType": 1,
+			"durationType": 0,
 			"spData": {
 				"spType": 1,
 				"levelUpCost": null,
@@ -328,8 +335,9 @@
 		{
 			"name": "悪土の血脈",
 			"rangeId": "x-1",
-			"description": "スキル発動時から<@ba.vup>{sleep}</>秒間行動しなくなり、ダメージを受けない状態に入り、周囲一定範囲内の敵全員の移動速度<@ba.vup>-{-move_speed:0%}</>。その後、範囲内の地面にいる敵全員に<@ba.vup>{stun}</>秒間<$ba.stun>スタン</>させ、通常攻撃の間隔が<@ba.vup>短縮</>し、攻撃力<@ba.vup>+{atk:0%}</>、防御力<@ba.vup>+{def:0%}</>、ブロック中の敵全員を同時に攻撃",
+			"description": "スキル発動時から<@ba.vup>{sleep}</>秒間行動しなくなり、ダメージを受けない状態に入り、周囲一定範囲内の敵全員の移動速度<@ba.vup>-{-move_speed:0%}</>。その後、範囲内の地面にいる敵全員を<@ba.vup>{stun}</>秒間<$ba.stun>スタン</>させ、通常攻撃の間隔を<@ba.vup>短縮</>し、攻撃力<@ba.vup>+{atk:0%}</>、防御力<@ba.vup>+{def:0%}</>、ブロック中の敵全員を同時に攻撃",
 			"skillType": 1,
+			"durationType": 0,
 			"spData": {
 				"spType": 1,
 				"levelUpCost": null,
@@ -374,8 +382,9 @@
 		{
 			"name": "悪土の血脈",
 			"rangeId": "x-1",
-			"description": "スキル発動時から<@ba.vup>{sleep}</>秒間行動しなくなり、ダメージを受けない状態に入り、周囲一定範囲内の敵全員の移動速度<@ba.vup>-{-move_speed:0%}</>。その後、範囲内の地面にいる敵全員に<@ba.vup>{stun}</>秒間<$ba.stun>スタン</>させ、通常攻撃の間隔が<@ba.vup>短縮</>し、攻撃力<@ba.vup>+{atk:0%}</>、防御力<@ba.vup>+{def:0%}</>、ブロック中の敵全員を同時に攻撃",
+			"description": "スキル発動時から<@ba.vup>{sleep}</>秒間行動しなくなり、ダメージを受けない状態に入り、周囲一定範囲内の敵全員の移動速度<@ba.vup>-{-move_speed:0%}</>。その後、範囲内の地面にいる敵全員を<@ba.vup>{stun}</>秒間<$ba.stun>スタン</>させ、通常攻撃の間隔を<@ba.vup>短縮</>し、攻撃力<@ba.vup>+{atk:0%}</>、防御力<@ba.vup>+{def:0%}</>、ブロック中の敵全員を同時に攻撃",
 			"skillType": 1,
+			"durationType": 0,
 			"spData": {
 				"spType": 1,
 				"levelUpCost": null,
@@ -420,8 +429,9 @@
 		{
 			"name": "悪土の血脈",
 			"rangeId": "x-1",
-			"description": "スキル発動時から<@ba.vup>{sleep}</>秒間行動しなくなり、ダメージを受けない状態に入り、周囲一定範囲内の敵全員の移動速度<@ba.vup>-{-move_speed:0%}</>。その後、範囲内の地面にいる敵全員に<@ba.vup>{stun}</>秒間<$ba.stun>スタン</>させ、通常攻撃の間隔が<@ba.vup>短縮</>し、攻撃力<@ba.vup>+{atk:0%}</>、防御力<@ba.vup>+{def:0%}</>、ブロック中の敵全員を同時に攻撃",
+			"description": "スキル発動時から<@ba.vup>{sleep}</>秒間行動しなくなり、ダメージを受けない状態に入り、周囲一定範囲内の敵全員の移動速度<@ba.vup>-{-move_speed:0%}</>。その後、範囲内の地面にいる敵全員を<@ba.vup>{stun}</>秒間<$ba.stun>スタン</>させ、通常攻撃の間隔を<@ba.vup>短縮</>し、攻撃力<@ba.vup>+{atk:0%}</>、防御力<@ba.vup>+{def:0%}</>、ブロック中の敵全員を同時に攻撃",
 			"skillType": 1,
+			"durationType": 0,
 			"spData": {
 				"spType": 1,
 				"levelUpCost": null,

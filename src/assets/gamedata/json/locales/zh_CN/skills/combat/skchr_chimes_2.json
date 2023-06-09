@@ -1,0 +1,447 @@
+{
+	"skillId": "skchr_chimes_2",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "乡心无改",
+			"rangeId": null,
+			"description": "停止攻击，获得<@ba.vup>{damage_resistance:0%}</>的<$ba.protect>庇护</>，攻击力逐渐增至<@ba.vup>+{atk:0%}</>。技能结束时对前方所有地面敌人造成此时攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害并使其<$ba.stun>晕眩</><@ba.vup>{attack@stun}</>秒\\n<@ba.rem>可主动关闭技能（期间可随时停止技能）</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 35,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_chimes_2",
+			"duration": 5,
+			"blackboard": [
+				{
+					"key": "damage_resistance",
+					"value": 0.2,
+					"valueStr": null
+				},
+				{
+					"key": "atk",
+					"value": 0.5,
+					"valueStr": null
+				},
+				{
+					"key": "attack@stun",
+					"value": 1,
+					"valueStr": null
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 1.4,
+					"valueStr": null
+				},
+				{
+					"key": "maxcnt",
+					"value": 5,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "乡心无改",
+			"rangeId": null,
+			"description": "停止攻击，获得<@ba.vup>{damage_resistance:0%}</>的<$ba.protect>庇护</>，攻击力逐渐增至<@ba.vup>+{atk:0%}</>。技能结束时对前方所有地面敌人造成此时攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害并使其<$ba.stun>晕眩</><@ba.vup>{attack@stun}</>秒\\n<@ba.rem>可主动关闭技能（期间可随时停止技能）</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 35,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_chimes_2",
+			"duration": 5,
+			"blackboard": [
+				{
+					"key": "damage_resistance",
+					"value": 0.2,
+					"valueStr": null
+				},
+				{
+					"key": "atk",
+					"value": 0.5,
+					"valueStr": null
+				},
+				{
+					"key": "attack@stun",
+					"value": 1,
+					"valueStr": null
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 1.5,
+					"valueStr": null
+				},
+				{
+					"key": "maxcnt",
+					"value": 5,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "乡心无改",
+			"rangeId": null,
+			"description": "停止攻击，获得<@ba.vup>{damage_resistance:0%}</>的<$ba.protect>庇护</>，攻击力逐渐增至<@ba.vup>+{atk:0%}</>。技能结束时对前方所有地面敌人造成此时攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害并使其<$ba.stun>晕眩</><@ba.vup>{attack@stun}</>秒\\n<@ba.rem>可主动关闭技能（期间可随时停止技能）</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 35,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_chimes_2",
+			"duration": 5,
+			"blackboard": [
+				{
+					"key": "damage_resistance",
+					"value": 0.2,
+					"valueStr": null
+				},
+				{
+					"key": "atk",
+					"value": 0.5,
+					"valueStr": null
+				},
+				{
+					"key": "attack@stun",
+					"value": 1,
+					"valueStr": null
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 1.6,
+					"valueStr": null
+				},
+				{
+					"key": "maxcnt",
+					"value": 5,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "乡心无改",
+			"rangeId": null,
+			"description": "停止攻击，获得<@ba.vup>{damage_resistance:0%}</>的<$ba.protect>庇护</>，攻击力逐渐增至<@ba.vup>+{atk:0%}</>。技能结束时对前方所有地面敌人造成此时攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害并使其<$ba.stun>晕眩</><@ba.vup>{attack@stun}</>秒\\n<@ba.rem>可主动关闭技能（期间可随时停止技能）</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 30,
+				"initSp": 3,
+				"increment": 1
+			},
+			"prefabId": "skchr_chimes_2",
+			"duration": 5,
+			"blackboard": [
+				{
+					"key": "damage_resistance",
+					"value": 0.25,
+					"valueStr": null
+				},
+				{
+					"key": "atk",
+					"value": 0.5,
+					"valueStr": null
+				},
+				{
+					"key": "attack@stun",
+					"value": 1,
+					"valueStr": null
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 1.7,
+					"valueStr": null
+				},
+				{
+					"key": "maxcnt",
+					"value": 5,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "乡心无改",
+			"rangeId": null,
+			"description": "停止攻击，获得<@ba.vup>{damage_resistance:0%}</>的<$ba.protect>庇护</>，攻击力逐渐增至<@ba.vup>+{atk:0%}</>。技能结束时对前方所有地面敌人造成此时攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害并使其<$ba.stun>晕眩</><@ba.vup>{attack@stun}</>秒\\n<@ba.rem>可主动关闭技能（期间可随时停止技能）</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 30,
+				"initSp": 3,
+				"increment": 1
+			},
+			"prefabId": "skchr_chimes_2",
+			"duration": 5,
+			"blackboard": [
+				{
+					"key": "damage_resistance",
+					"value": 0.25,
+					"valueStr": null
+				},
+				{
+					"key": "atk",
+					"value": 0.5,
+					"valueStr": null
+				},
+				{
+					"key": "attack@stun",
+					"value": 1,
+					"valueStr": null
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 1.8,
+					"valueStr": null
+				},
+				{
+					"key": "maxcnt",
+					"value": 5,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "乡心无改",
+			"rangeId": null,
+			"description": "停止攻击，获得<@ba.vup>{damage_resistance:0%}</>的<$ba.protect>庇护</>，攻击力逐渐增至<@ba.vup>+{atk:0%}</>。技能结束时对前方所有地面敌人造成此时攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害并使其<$ba.stun>晕眩</><@ba.vup>{attack@stun}</>秒\\n<@ba.rem>可主动关闭技能（期间可随时停止技能）</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 30,
+				"initSp": 3,
+				"increment": 1
+			},
+			"prefabId": "skchr_chimes_2",
+			"duration": 5,
+			"blackboard": [
+				{
+					"key": "damage_resistance",
+					"value": 0.25,
+					"valueStr": null
+				},
+				{
+					"key": "atk",
+					"value": 0.5,
+					"valueStr": null
+				},
+				{
+					"key": "attack@stun",
+					"value": 1,
+					"valueStr": null
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 1.9,
+					"valueStr": null
+				},
+				{
+					"key": "maxcnt",
+					"value": 5,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "乡心无改",
+			"rangeId": null,
+			"description": "停止攻击，获得<@ba.vup>{damage_resistance:0%}</>的<$ba.protect>庇护</>，攻击力逐渐增至<@ba.vup>+{atk:0%}</>。技能结束时对前方所有地面敌人造成此时攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害并使其<$ba.stun>晕眩</><@ba.vup>{attack@stun}</>秒\\n<@ba.rem>可主动关闭技能（期间可随时停止技能）</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 25,
+				"initSp": 5,
+				"increment": 1
+			},
+			"prefabId": "skchr_chimes_2",
+			"duration": 5,
+			"blackboard": [
+				{
+					"key": "damage_resistance",
+					"value": 0.3,
+					"valueStr": null
+				},
+				{
+					"key": "atk",
+					"value": 0.5,
+					"valueStr": null
+				},
+				{
+					"key": "attack@stun",
+					"value": 1,
+					"valueStr": null
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 2,
+					"valueStr": null
+				},
+				{
+					"key": "maxcnt",
+					"value": 5,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "乡心无改",
+			"rangeId": null,
+			"description": "停止攻击，获得<@ba.vup>{damage_resistance:0%}</>的<$ba.protect>庇护</>，攻击力逐渐增至<@ba.vup>+{atk:0%}</>。技能结束时对前方所有地面敌人造成此时攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害并使其<$ba.stun>晕眩</><@ba.vup>{attack@stun}</>秒\\n<@ba.rem>可主动关闭技能（期间可随时停止技能）</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 25,
+				"initSp": 6,
+				"increment": 1
+			},
+			"prefabId": "skchr_chimes_2",
+			"duration": 5,
+			"blackboard": [
+				{
+					"key": "damage_resistance",
+					"value": 0.32,
+					"valueStr": null
+				},
+				{
+					"key": "atk",
+					"value": 0.5,
+					"valueStr": null
+				},
+				{
+					"key": "attack@stun",
+					"value": 1,
+					"valueStr": null
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 2.1,
+					"valueStr": null
+				},
+				{
+					"key": "maxcnt",
+					"value": 5,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "乡心无改",
+			"rangeId": null,
+			"description": "停止攻击，获得<@ba.vup>{damage_resistance:0%}</>的<$ba.protect>庇护</>，攻击力逐渐增至<@ba.vup>+{atk:0%}</>。技能结束时对前方所有地面敌人造成此时攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害并使其<$ba.stun>晕眩</><@ba.vup>{attack@stun}</>秒\\n<@ba.rem>可主动关闭技能（期间可随时停止技能）</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 25,
+				"initSp": 8,
+				"increment": 1
+			},
+			"prefabId": "skchr_chimes_2",
+			"duration": 5,
+			"blackboard": [
+				{
+					"key": "damage_resistance",
+					"value": 0.35,
+					"valueStr": null
+				},
+				{
+					"key": "atk",
+					"value": 0.5,
+					"valueStr": null
+				},
+				{
+					"key": "attack@stun",
+					"value": 1,
+					"valueStr": null
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 2.2,
+					"valueStr": null
+				},
+				{
+					"key": "maxcnt",
+					"value": 5,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "乡心无改",
+			"rangeId": null,
+			"description": "停止攻击，获得<@ba.vup>{damage_resistance:0%}</>的<$ba.protect>庇护</>，攻击力逐渐增至<@ba.vup>+{atk:0%}</>。技能结束时对前方所有地面敌人造成此时攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害并使其<$ba.stun>晕眩</><@ba.vup>{attack@stun}</>秒\\n<@ba.rem>可主动关闭技能（期间可随时停止技能）</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 25,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_chimes_2",
+			"duration": 5,
+			"blackboard": [
+				{
+					"key": "damage_resistance",
+					"value": 0.4,
+					"valueStr": null
+				},
+				{
+					"key": "atk",
+					"value": 0.5,
+					"valueStr": null
+				},
+				{
+					"key": "attack@stun",
+					"value": 1,
+					"valueStr": null
+				},
+				{
+					"key": "attack@atk_scale",
+					"value": 2.3,
+					"valueStr": null
+				},
+				{
+					"key": "maxcnt",
+					"value": 5,
+					"valueStr": null
+				}
+			]
+		}
+	]
+}

@@ -6,9 +6,9 @@
 		{
 			"name": "鼠群",
 			"rangeId": null,
-			"description": "部署后获得可吸收相当于自己最大生命<@ba.vup>{hp_ratio:0%}</>的护盾，该护盾会在<@ba.vup>{duration}</>秒内持续衰减",
-			"skillType": 0,
-			"durationType": 0,
+			"description": "部署后获得可吸收相当于自己最大生命<@ba.vup>{hp_ratio:0%}</>的<$ba.barrier>屏障</>，该屏障会在<@ba.vup>{duration}</>秒内持续衰减",
+			"skillType": "PASSIVE",
+			"durationType": "PASSIVE",
 			"spData": {
 				"spType": 8,
 				"levelUpCost": null,
@@ -22,20 +22,22 @@
 			"blackboard": [
 				{
 					"key": "hp_ratio",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 10
+					"value": 10,
+					"valueStr": null
 				}
 			]
 		},
 		{
 			"name": "鼠群",
 			"rangeId": null,
-			"description": "部署后获得可吸收相当于自己最大生命<@ba.vup>{hp_ratio:0%}</>的护盾，该护盾会在<@ba.vup>{duration}</>秒内持续衰减",
-			"skillType": 0,
-			"durationType": 0,
+			"description": "部署后获得可吸收相当于自己最大生命<@ba.vup>{hp_ratio:0%}</>的<$ba.barrier>屏障</>，该屏障会在<@ba.vup>{duration}</>秒内持续衰减",
+			"skillType": "PASSIVE",
+			"durationType": "PASSIVE",
 			"spData": {
 				"spType": 8,
 				"levelUpCost": null,
@@ -49,20 +51,22 @@
 			"blackboard": [
 				{
 					"key": "hp_ratio",
-					"value": 1.1
+					"value": 1.1,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 10
+					"value": 10,
+					"valueStr": null
 				}
 			]
 		},
 		{
 			"name": "鼠群",
 			"rangeId": null,
-			"description": "部署后获得可吸收相当于自己最大生命<@ba.vup>{hp_ratio:0%}</>的护盾，该护盾会在<@ba.vup>{duration}</>秒内持续衰减",
-			"skillType": 0,
-			"durationType": 0,
+			"description": "部署后获得可吸收相当于自己最大生命<@ba.vup>{hp_ratio:0%}</>的<$ba.barrier>屏障</>，该屏障会在<@ba.vup>{duration}</>秒内持续衰减",
+			"skillType": "PASSIVE",
+			"durationType": "PASSIVE",
 			"spData": {
 				"spType": 8,
 				"levelUpCost": null,
@@ -76,20 +80,22 @@
 			"blackboard": [
 				{
 					"key": "hp_ratio",
-					"value": 1.2
+					"value": 1.2,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 10
+					"value": 10,
+					"valueStr": null
 				}
 			]
 		},
 		{
 			"name": "鼠群",
 			"rangeId": null,
-			"description": "部署后获得可吸收相当于自己最大生命<@ba.vup>{hp_ratio:0%}</>的护盾，该护盾会在<@ba.vup>{duration}</>秒内持续衰减",
-			"skillType": 0,
-			"durationType": 0,
+			"description": "部署后获得可吸收相当于自己最大生命<@ba.vup>{hp_ratio:0%}</>的<$ba.barrier>屏障</>，该屏障会在<@ba.vup>{duration}</>秒内持续衰减",
+			"skillType": "PASSIVE",
+			"durationType": "PASSIVE",
 			"spData": {
 				"spType": 8,
 				"levelUpCost": null,
@@ -103,20 +109,22 @@
 			"blackboard": [
 				{
 					"key": "hp_ratio",
-					"value": 1.4
+					"value": 1.4,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 10
+					"value": 10,
+					"valueStr": null
 				}
 			]
 		},
 		{
 			"name": "鼠群",
 			"rangeId": null,
-			"description": "部署后获得可吸收相当于自己最大生命<@ba.vup>{hp_ratio:0%}</>的护盾，该护盾会在<@ba.vup>{duration}</>秒内持续衰减",
-			"skillType": 0,
-			"durationType": 0,
+			"description": "部署后获得可吸收相当于自己最大生命<@ba.vup>{hp_ratio:0%}</>的<$ba.barrier>屏障</>，该屏障会在<@ba.vup>{duration}</>秒内持续衰减",
+			"skillType": "PASSIVE",
+			"durationType": "PASSIVE",
 			"spData": {
 				"spType": 8,
 				"levelUpCost": null,
@@ -130,20 +138,22 @@
 			"blackboard": [
 				{
 					"key": "hp_ratio",
-					"value": 1.5
+					"value": 1.5,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 10
+					"value": 10,
+					"valueStr": null
 				}
 			]
 		},
 		{
 			"name": "鼠群",
 			"rangeId": null,
-			"description": "部署后获得可吸收相当于自己最大生命<@ba.vup>{hp_ratio:0%}</>的护盾，该护盾会在<@ba.vup>{duration}</>秒内持续衰减",
-			"skillType": 0,
-			"durationType": 0,
+			"description": "部署后获得可吸收相当于自己最大生命<@ba.vup>{hp_ratio:0%}</>的<$ba.barrier>屏障</>，该屏障会在<@ba.vup>{duration}</>秒内持续衰减",
+			"skillType": "PASSIVE",
+			"durationType": "PASSIVE",
 			"spData": {
 				"spType": 8,
 				"levelUpCost": null,
@@ -157,20 +167,22 @@
 			"blackboard": [
 				{
 					"key": "hp_ratio",
-					"value": 1.6
+					"value": 1.6,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 10
+					"value": 10,
+					"valueStr": null
 				}
 			]
 		},
 		{
 			"name": "鼠群",
 			"rangeId": null,
-			"description": "部署后获得可吸收相当于自己最大生命<@ba.vup>{hp_ratio:0%}</>的护盾，该护盾会在<@ba.vup>{duration}</>秒内持续衰减",
-			"skillType": 0,
-			"durationType": 0,
+			"description": "部署后获得可吸收相当于自己最大生命<@ba.vup>{hp_ratio:0%}</>的<$ba.barrier>屏障</>，该屏障会在<@ba.vup>{duration}</>秒内持续衰减",
+			"skillType": "PASSIVE",
+			"durationType": "PASSIVE",
 			"spData": {
 				"spType": 8,
 				"levelUpCost": null,
@@ -184,20 +196,22 @@
 			"blackboard": [
 				{
 					"key": "hp_ratio",
-					"value": 1.8
+					"value": 1.8,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 10
+					"value": 10,
+					"valueStr": null
 				}
 			]
 		},
 		{
 			"name": "鼠群",
 			"rangeId": null,
-			"description": "部署后获得可吸收相当于自己最大生命<@ba.vup>{hp_ratio:0%}</>的护盾，该护盾会在<@ba.vup>{duration}</>秒内持续衰减",
-			"skillType": 0,
-			"durationType": 0,
+			"description": "部署后获得可吸收相当于自己最大生命<@ba.vup>{hp_ratio:0%}</>的<$ba.barrier>屏障</>，该屏障会在<@ba.vup>{duration}</>秒内持续衰减",
+			"skillType": "PASSIVE",
+			"durationType": "PASSIVE",
 			"spData": {
 				"spType": 8,
 				"levelUpCost": null,
@@ -211,20 +225,22 @@
 			"blackboard": [
 				{
 					"key": "hp_ratio",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 10
+					"value": 10,
+					"valueStr": null
 				}
 			]
 		},
 		{
 			"name": "鼠群",
 			"rangeId": null,
-			"description": "部署后获得可吸收相当于自己最大生命<@ba.vup>{hp_ratio:0%}</>的护盾，该护盾会在<@ba.vup>{duration}</>秒内持续衰减",
-			"skillType": 0,
-			"durationType": 0,
+			"description": "部署后获得可吸收相当于自己最大生命<@ba.vup>{hp_ratio:0%}</>的<$ba.barrier>屏障</>，该屏障会在<@ba.vup>{duration}</>秒内持续衰减",
+			"skillType": "PASSIVE",
+			"durationType": "PASSIVE",
 			"spData": {
 				"spType": 8,
 				"levelUpCost": null,
@@ -238,20 +254,22 @@
 			"blackboard": [
 				{
 					"key": "hp_ratio",
-					"value": 2.2
+					"value": 2.2,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 10
+					"value": 10,
+					"valueStr": null
 				}
 			]
 		},
 		{
 			"name": "鼠群",
 			"rangeId": null,
-			"description": "部署后获得可吸收相当于自己最大生命<@ba.vup>{hp_ratio:0%}</>的护盾，该护盾会在<@ba.vup>{duration}</>秒内持续衰减",
-			"skillType": 0,
-			"durationType": 0,
+			"description": "部署后获得可吸收相当于自己最大生命<@ba.vup>{hp_ratio:0%}</>的<$ba.barrier>屏障</>，该屏障会在<@ba.vup>{duration}</>秒内持续衰减",
+			"skillType": "PASSIVE",
+			"durationType": "PASSIVE",
 			"spData": {
 				"spType": 8,
 				"levelUpCost": null,
@@ -265,11 +283,13 @@
 			"blackboard": [
 				{
 					"key": "hp_ratio",
-					"value": 2.5
+					"value": 2.5,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 10
+					"value": 10,
+					"valueStr": null
 				}
 			]
 		}

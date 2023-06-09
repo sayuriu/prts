@@ -7,10 +7,10 @@
 			"name": "舍身突击",
 			"rangeId": null,
 			"description": "攻击力<@ba.vup>+{atk:0%}</>，不再成为其他角色的治疗目标",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 4,
+				"spType": "INCREASE_WHEN_TAKEN_DAMAGE",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 25,
@@ -22,11 +22,13 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.85
+					"value": 0.85,
+					"valueStr": null
 				},
 				{
 					"key": "block_cnt",
-					"value": 0
+					"value": 0,
+					"valueStr": null
 				}
 			]
 		},
@@ -34,10 +36,10 @@
 			"name": "舍身突击",
 			"rangeId": null,
 			"description": "攻击力<@ba.vup>+{atk:0%}</>，不再成为其他角色的治疗目标",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 4,
+				"spType": "INCREASE_WHEN_TAKEN_DAMAGE",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 25,
@@ -49,11 +51,13 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.9
+					"value": 0.9,
+					"valueStr": null
 				},
 				{
 					"key": "block_cnt",
-					"value": 0
+					"value": 0,
+					"valueStr": null
 				}
 			]
 		},
@@ -61,10 +65,10 @@
 			"name": "舍身突击",
 			"rangeId": null,
 			"description": "攻击力<@ba.vup>+{atk:0%}</>，不再成为其他角色的治疗目标",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 4,
+				"spType": "INCREASE_WHEN_TAKEN_DAMAGE",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 25,
@@ -76,11 +80,13 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.95
+					"value": 0.95,
+					"valueStr": null
 				},
 				{
 					"key": "block_cnt",
-					"value": 0
+					"value": 0,
+					"valueStr": null
 				}
 			]
 		},
@@ -88,10 +94,10 @@
 			"name": "舍身突击",
 			"rangeId": null,
 			"description": "攻击力<@ba.vup>+{atk:0%}</>，不再成为其他角色的治疗目标",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 4,
+				"spType": "INCREASE_WHEN_TAKEN_DAMAGE",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 24,
@@ -103,11 +109,13 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "block_cnt",
-					"value": 0
+					"value": 0,
+					"valueStr": null
 				}
 			]
 		},
@@ -115,10 +123,10 @@
 			"name": "舍身突击",
 			"rangeId": null,
 			"description": "攻击力<@ba.vup>+{atk:0%}</>，不再成为其他角色的治疗目标",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 4,
+				"spType": "INCREASE_WHEN_TAKEN_DAMAGE",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 24,
@@ -130,11 +138,13 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 1.05
+					"value": 1.05,
+					"valueStr": null
 				},
 				{
 					"key": "block_cnt",
-					"value": 0
+					"value": 0,
+					"valueStr": null
 				}
 			]
 		},
@@ -142,10 +152,10 @@
 			"name": "舍身突击",
 			"rangeId": null,
 			"description": "攻击力<@ba.vup>+{atk:0%}</>，不再成为其他角色的治疗目标",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 4,
+				"spType": "INCREASE_WHEN_TAKEN_DAMAGE",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 24,
@@ -157,11 +167,13 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 1.1
+					"value": 1.1,
+					"valueStr": null
 				},
 				{
 					"key": "block_cnt",
-					"value": 0
+					"value": 0,
+					"valueStr": null
 				}
 			]
 		},
@@ -169,10 +181,10 @@
 			"name": "舍身突击",
 			"rangeId": null,
 			"description": "攻击力<@ba.vup>+{atk:0%}</>，不再成为其他角色的治疗目标",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 4,
+				"spType": "INCREASE_WHEN_TAKEN_DAMAGE",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 23,
@@ -184,11 +196,13 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 1.15
+					"value": 1.15,
+					"valueStr": null
 				},
 				{
 					"key": "block_cnt",
-					"value": 0
+					"value": 0,
+					"valueStr": null
 				}
 			]
 		},
@@ -196,10 +210,10 @@
 			"name": "舍身突击",
 			"rangeId": null,
 			"description": "攻击力<@ba.vup>+{atk:0%}</>，不再成为其他角色的治疗目标",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 4,
+				"spType": "INCREASE_WHEN_TAKEN_DAMAGE",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 22,
@@ -211,11 +225,13 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 1.25
+					"value": 1.25,
+					"valueStr": null
 				},
 				{
 					"key": "block_cnt",
-					"value": 0
+					"value": 0,
+					"valueStr": null
 				}
 			]
 		},
@@ -223,10 +239,10 @@
 			"name": "舍身突击",
 			"rangeId": null,
 			"description": "攻击力<@ba.vup>+{atk:0%}</>，不再成为其他角色的治疗目标",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 4,
+				"spType": "INCREASE_WHEN_TAKEN_DAMAGE",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 21,
@@ -238,11 +254,13 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 1.35
+					"value": 1.35,
+					"valueStr": null
 				},
 				{
 					"key": "block_cnt",
-					"value": 0
+					"value": 0,
+					"valueStr": null
 				}
 			]
 		},
@@ -250,10 +268,10 @@
 			"name": "舍身突击",
 			"rangeId": null,
 			"description": "攻击力<@ba.vup>+{atk:0%}</>，不再成为其他角色的治疗目标",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 4,
+				"spType": "INCREASE_WHEN_TAKEN_DAMAGE",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 20,
@@ -265,11 +283,13 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 1.5
+					"value": 1.5,
+					"valueStr": null
 				},
 				{
 					"key": "block_cnt",
-					"value": 0
+					"value": 0,
+					"valueStr": null
 				}
 			]
 		}

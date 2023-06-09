@@ -6,7 +6,7 @@
 	"iconId": "MTL_SL_MANGANESE1",
 	"overrideBkg": null,
 	"stackIconId": null,
-	"sortId": 100007,
+	"sortId": 100021,
 	"usage": "정제와 제련에 사용되는 금속 광물. 제조소에서 합성 재료로 쓰이며 각종 강화에 사용된다.",
 	"obtainApproach": null,
 	"classifyType": "MATERIAL",
@@ -47,6 +47,22 @@
 		{
 			"stageId": "main_09-13",
 			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_10-06",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_10-14",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "tough_10-06",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "tough_10-14",
+			"occPer": "USUAL"
 		}
 	],
 	"buildingProductList": []

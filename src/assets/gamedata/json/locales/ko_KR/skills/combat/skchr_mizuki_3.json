@@ -8,6 +8,7 @@
 			"rangeId": "y-4",
 			"description": "공격 범위 <@ba.vup>확대</>, 공격력 <@ba.vup>+{atk:0%}</>, 제1재능의 공격이 적 <@ba.vup>2</>명을 추가로 공격하여 상대를 <@ba.vup>{attack@stun}</>초간 <$ba.stun>기절</>. 매회 공격 시 적중된 적이 3명 미만일 경우, 자신의 HP가 최대 HP의 <@ba.vup>{attack@hp_ratio:0%}</>만큼 감소",
 			"skillType": 1,
+			"durationType": 0,
 			"spData": {
 				"spType": 1,
 				"levelUpCost": null,
@@ -30,6 +31,10 @@
 				{
 					"key": "attack@hp_ratio",
 					"value": 0.15
+				},
+				{
+					"key": "attack@max_target",
+					"value": 2
 				}
 			]
 		},
@@ -38,6 +43,7 @@
 			"rangeId": "y-4",
 			"description": "공격 범위 <@ba.vup>확대</>, 공격력 <@ba.vup>+{atk:0%}</>, 제1재능의 공격이 적 <@ba.vup>2</>명을 추가로 공격하여 상대를 <@ba.vup>{attack@stun}</>초간 <$ba.stun>기절</>. 매회 공격 시 적중된 적이 3명 미만일 경우, 자신의 HP가 최대 HP의 <@ba.vup>{attack@hp_ratio:0%}</>만큼 감소",
 			"skillType": 1,
+			"durationType": 0,
 			"spData": {
 				"spType": 1,
 				"levelUpCost": null,
@@ -60,6 +66,10 @@
 				{
 					"key": "attack@hp_ratio",
 					"value": 0.15
+				},
+				{
+					"key": "attack@max_target",
+					"value": 2
 				}
 			]
 		},
@@ -68,6 +78,7 @@
 			"rangeId": "y-4",
 			"description": "공격 범위 <@ba.vup>확대</>, 공격력 <@ba.vup>+{atk:0%}</>, 제1재능의 공격이 적 <@ba.vup>2</>명을 추가로 공격하여 상대를 <@ba.vup>{attack@stun}</>초간 <$ba.stun>기절</>. 매회 공격 시 적중된 적이 3명 미만일 경우, 자신의 HP가 최대 HP의 <@ba.vup>{attack@hp_ratio:0%}</>만큼 감소",
 			"skillType": 1,
+			"durationType": 0,
 			"spData": {
 				"spType": 1,
 				"levelUpCost": null,
@@ -90,6 +101,10 @@
 				{
 					"key": "attack@hp_ratio",
 					"value": 0.15
+				},
+				{
+					"key": "attack@max_target",
+					"value": 2
 				}
 			]
 		},
@@ -98,6 +113,7 @@
 			"rangeId": "y-4",
 			"description": "공격 범위 <@ba.vup>확대</>, 공격력 <@ba.vup>+{atk:0%}</>, 제1재능의 공격이 적 <@ba.vup>2</>명을 추가로 공격하여 상대를 <@ba.vup>{attack@stun}</>초간 <$ba.stun>기절</>. 매회 공격 시 적중된 적이 3명 미만일 경우, 자신의 HP가 최대 HP의 <@ba.vup>{attack@hp_ratio:0%}</>만큼 감소",
 			"skillType": 1,
+			"durationType": 0,
 			"spData": {
 				"spType": 1,
 				"levelUpCost": null,
@@ -120,6 +136,10 @@
 				{
 					"key": "attack@hp_ratio",
 					"value": 0.15
+				},
+				{
+					"key": "attack@max_target",
+					"value": 2
 				}
 			]
 		},
@@ -128,6 +148,7 @@
 			"rangeId": "y-4",
 			"description": "공격 범위 <@ba.vup>확대</>, 공격력 <@ba.vup>+{atk:0%}</>, 제1재능의 공격이 적 <@ba.vup>2</>명을 추가로 공격하여 상대를 <@ba.vup>{attack@stun}</>초간 <$ba.stun>기절</>. 매회 공격 시 적중된 적이 3명 미만일 경우, 자신의 HP가 최대 HP의 <@ba.vup>{attack@hp_ratio:0%}</>만큼 감소",
 			"skillType": 1,
+			"durationType": 0,
 			"spData": {
 				"spType": 1,
 				"levelUpCost": null,
@@ -150,6 +171,10 @@
 				{
 					"key": "attack@hp_ratio",
 					"value": 0.15
+				},
+				{
+					"key": "attack@max_target",
+					"value": 2
 				}
 			]
 		},
@@ -158,6 +183,7 @@
 			"rangeId": "y-4",
 			"description": "공격 범위 <@ba.vup>확대</>, 공격력 <@ba.vup>+{atk:0%}</>, 제1재능의 공격이 적 <@ba.vup>2</>명을 추가로 공격하여 상대를 <@ba.vup>{attack@stun}</>초간 <$ba.stun>기절</>. 매회 공격 시 적중된 적이 3명 미만일 경우, 자신의 HP가 최대 HP의 <@ba.vup>{attack@hp_ratio:0%}</>만큼 감소",
 			"skillType": 1,
+			"durationType": 0,
 			"spData": {
 				"spType": 1,
 				"levelUpCost": null,
@@ -180,6 +206,10 @@
 				{
 					"key": "attack@hp_ratio",
 					"value": 0.15
+				},
+				{
+					"key": "attack@max_target",
+					"value": 2
 				}
 			]
 		},
@@ -188,6 +218,7 @@
 			"rangeId": "y-4",
 			"description": "공격 범위 <@ba.vup>확대</>, 공격력 <@ba.vup>+{atk:0%}</>, 제1재능의 공격이 적 <@ba.vup>2</>명을 추가로 공격하여 상대를 <@ba.vup>{attack@stun}</>초간 <$ba.stun>기절</>. 매회 공격 시 적중된 적이 3명 미만일 경우, 자신의 HP가 최대 HP의 <@ba.vup>{attack@hp_ratio:0%}</>만큼 감소",
 			"skillType": 1,
+			"durationType": 0,
 			"spData": {
 				"spType": 1,
 				"levelUpCost": null,
@@ -210,6 +241,10 @@
 				{
 					"key": "attack@hp_ratio",
 					"value": 0.15
+				},
+				{
+					"key": "attack@max_target",
+					"value": 2
 				}
 			]
 		},
@@ -218,6 +253,7 @@
 			"rangeId": "y-4",
 			"description": "공격 범위 <@ba.vup>확대</>, 공격력 <@ba.vup>+{atk:0%}</>, 제1재능의 공격이 적 <@ba.vup>2</>명을 추가로 공격하여 상대를 <@ba.vup>{attack@stun}</>초간 <$ba.stun>기절</>. 매회 공격 시 적중된 적이 3명 미만일 경우, 자신의 HP가 최대 HP의 <@ba.vup>{attack@hp_ratio:0%}</>만큼 감소",
 			"skillType": 1,
+			"durationType": 0,
 			"spData": {
 				"spType": 1,
 				"levelUpCost": null,
@@ -240,6 +276,10 @@
 				{
 					"key": "attack@hp_ratio",
 					"value": 0.15
+				},
+				{
+					"key": "attack@max_target",
+					"value": 2
 				}
 			]
 		},
@@ -248,6 +288,7 @@
 			"rangeId": "y-4",
 			"description": "공격 범위 <@ba.vup>확대</>, 공격력 <@ba.vup>+{atk:0%}</>, 제1재능의 공격이 적 <@ba.vup>2</>명을 추가로 공격하여 상대를 <@ba.vup>{attack@stun}</>초간 <$ba.stun>기절</>. 매회 공격 시 적중된 적이 3명 미만일 경우, 자신의 HP가 최대 HP의 <@ba.vup>{attack@hp_ratio:0%}</>만큼 감소",
 			"skillType": 1,
+			"durationType": 0,
 			"spData": {
 				"spType": 1,
 				"levelUpCost": null,
@@ -270,6 +311,10 @@
 				{
 					"key": "attack@hp_ratio",
 					"value": 0.12
+				},
+				{
+					"key": "attack@max_target",
+					"value": 2
 				}
 			]
 		},
@@ -278,6 +323,7 @@
 			"rangeId": "y-4",
 			"description": "공격 범위 <@ba.vup>확대</>, 공격력 <@ba.vup>+{atk:0%}</>, 제1재능의 공격이 적 <@ba.vup>2</>명을 추가로 공격하여 상대를 <@ba.vup>{attack@stun}</>초간 <$ba.stun>기절</>. 매회 공격 시 적중된 적이 3명 미만일 경우, 자신의 HP가 최대 HP의 <@ba.vup>{attack@hp_ratio:0%}</>만큼 감소",
 			"skillType": 1,
+			"durationType": 0,
 			"spData": {
 				"spType": 1,
 				"levelUpCost": null,
@@ -300,6 +346,10 @@
 				{
 					"key": "attack@hp_ratio",
 					"value": 0.12
+				},
+				{
+					"key": "attack@max_target",
+					"value": 2
 				}
 			]
 		}

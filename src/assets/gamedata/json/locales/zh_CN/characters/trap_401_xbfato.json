@@ -1,0 +1,107 @@
+{
+	"name": "采集实习站",
+	"description": "可部署在低地",
+	"canUseGeneralPotentialItem": true,
+	"canUseActivityPotentialItem": false,
+	"potentialItemId": null,
+	"activityPotentialItemId": null,
+	"classicPotentialItemId": null,
+	"nationId": null,
+	"groupId": null,
+	"teamId": null,
+	"displayNumber": null,
+	"tokenKey": null,
+	"appellation": "Basic Harvester Hub",
+	"position": "NONE",
+	"tagList": null,
+	"itemUsage": null,
+	"itemDesc": null,
+	"itemObtainApproach": null,
+	"isNotObtainable": false,
+	"isSpChar": false,
+	"maxPotentialLevel": 0,
+	"rarity": "TIER_1",
+	"profession": "TRAP",
+	"subProfessionId": "notchar2",
+	"trait": null,
+	"phases": [
+		{
+			"characterPrefabKey": "trap_401_xbfato",
+			"rangeId": "3-15",
+			"maxLevel": 30,
+			"attributesKeyFrames": [
+				{
+					"level": 1,
+					"data": {
+						"maxHp": 7000,
+						"atk": 0,
+						"def": 600,
+						"magicResistance": 0,
+						"cost": 5,
+						"blockCnt": 1,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 1,
+						"respawnTime": 10,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": -1,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
+					}
+				},
+				{
+					"level": 30,
+					"data": {
+						"maxHp": 7000,
+						"atk": 0,
+						"def": 600,
+						"magicResistance": 0,
+						"cost": 5,
+						"blockCnt": 1,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 1,
+						"respawnTime": 10,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": -1,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
+					}
+				}
+			],
+			"evolveCost": null
+		}
+	],
+	"skills": [
+		{
+			"skillId": "sktok_xbfato",
+			"overridePrefabKey": null,
+			"overrideTokenKey": null,
+			"levelUpCostCond": [],
+			"unlockCond": {
+				"phase": "PHASE_0",
+				"level": 1
+			}
+		}
+	],
+	"talents": null,
+	"potentialRanks": [],
+	"favorKeyFrames": null,
+	"allSkillLvlup": []
+}

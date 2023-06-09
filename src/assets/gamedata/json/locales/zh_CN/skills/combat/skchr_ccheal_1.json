@@ -7,10 +7,10 @@
 			"name": "活力再生",
 			"rangeId": null,
 			"description": "下次治疗时为目标增加一个增益，每秒持续恢复相当于嘉维尔攻击力<@ba.vup>{heal_scale:0%}</>（血量低于一半时为<@ba.vup>{heal_scale_2:0%}</>）的生命，持续<@ba.vup>{duration}</>秒\\n<@ba.rem>可充能{ct}次</>",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 10,
@@ -22,27 +22,33 @@
 			"blackboard": [
 				{
 					"key": "heal_scale",
-					"value": 0.2
+					"value": 0.2,
+					"valueStr": null
 				},
 				{
 					"key": "heal_scale_2",
-					"value": 0.4
+					"value": 0.4,
+					"valueStr": null
 				},
 				{
 					"key": "hp_ratio",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				},
 				{
 					"key": "interval",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 4
+					"value": 4,
+					"valueStr": null
 				},
 				{
 					"key": "ct",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -50,10 +56,10 @@
 			"name": "活力再生",
 			"rangeId": null,
 			"description": "下次治疗时为目标增加一个增益，每秒持续恢复相当于嘉维尔攻击力<@ba.vup>{heal_scale:0%}</>（血量低于一半时为<@ba.vup>{heal_scale_2:0%}</>）的生命，持续<@ba.vup>{duration}</>秒\\n<@ba.rem>可充能{ct}次</>",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 10,
@@ -65,27 +71,33 @@
 			"blackboard": [
 				{
 					"key": "heal_scale",
-					"value": 0.21
+					"value": 0.21,
+					"valueStr": null
 				},
 				{
 					"key": "heal_scale_2",
-					"value": 0.42
+					"value": 0.42,
+					"valueStr": null
 				},
 				{
 					"key": "hp_ratio",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				},
 				{
 					"key": "interval",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 4
+					"value": 4,
+					"valueStr": null
 				},
 				{
 					"key": "ct",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -93,10 +105,10 @@
 			"name": "活力再生",
 			"rangeId": null,
 			"description": "下次治疗时为目标增加一个增益，每秒持续恢复相当于嘉维尔攻击力<@ba.vup>{heal_scale:0%}</>（血量低于一半时为<@ba.vup>{heal_scale_2:0%}</>）的生命，持续<@ba.vup>{duration}</>秒\\n<@ba.rem>可充能{ct}次</>",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 10,
@@ -108,27 +120,33 @@
 			"blackboard": [
 				{
 					"key": "heal_scale",
-					"value": 0.22
+					"value": 0.22,
+					"valueStr": null
 				},
 				{
 					"key": "heal_scale_2",
-					"value": 0.44
+					"value": 0.44,
+					"valueStr": null
 				},
 				{
 					"key": "hp_ratio",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				},
 				{
 					"key": "interval",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 4
+					"value": 4,
+					"valueStr": null
 				},
 				{
 					"key": "ct",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -136,10 +154,10 @@
 			"name": "活力再生",
 			"rangeId": null,
 			"description": "下次治疗时为目标增加一个增益，每秒持续恢复相当于嘉维尔攻击力<@ba.vup>{heal_scale:0%}</>（血量低于一半时为<@ba.vup>{heal_scale_2:0%}</>）的生命，持续<@ba.vup>{duration}</>秒\\n<@ba.rem>可充能{ct}次</>",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 9,
@@ -151,27 +169,33 @@
 			"blackboard": [
 				{
 					"key": "heal_scale",
-					"value": 0.23
+					"value": 0.23,
+					"valueStr": null
 				},
 				{
 					"key": "heal_scale_2",
-					"value": 0.46
+					"value": 0.46,
+					"valueStr": null
 				},
 				{
 					"key": "hp_ratio",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				},
 				{
 					"key": "interval",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 4
+					"value": 4,
+					"valueStr": null
 				},
 				{
 					"key": "ct",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -179,10 +203,10 @@
 			"name": "活力再生",
 			"rangeId": null,
 			"description": "下次治疗时为目标增加一个增益，每秒持续恢复相当于嘉维尔攻击力<@ba.vup>{heal_scale:0%}</>（血量低于一半时为<@ba.vup>{heal_scale_2:0%}</>）的生命，持续<@ba.vup>{duration}</>秒\\n<@ba.rem>可充能{ct}次</>",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 9,
@@ -194,27 +218,33 @@
 			"blackboard": [
 				{
 					"key": "heal_scale",
-					"value": 0.24
+					"value": 0.24,
+					"valueStr": null
 				},
 				{
 					"key": "heal_scale_2",
-					"value": 0.48
+					"value": 0.48,
+					"valueStr": null
 				},
 				{
 					"key": "hp_ratio",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				},
 				{
 					"key": "interval",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 4
+					"value": 4,
+					"valueStr": null
 				},
 				{
 					"key": "ct",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -222,10 +252,10 @@
 			"name": "活力再生",
 			"rangeId": null,
 			"description": "下次治疗时为目标增加一个增益，每秒持续恢复相当于嘉维尔攻击力<@ba.vup>{heal_scale:0%}</>（血量低于一半时为<@ba.vup>{heal_scale_2:0%}</>）的生命，持续<@ba.vup>{duration}</>秒\\n<@ba.rem>可充能{ct}次</>",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 9,
@@ -237,27 +267,33 @@
 			"blackboard": [
 				{
 					"key": "heal_scale",
-					"value": 0.25
+					"value": 0.25,
+					"valueStr": null
 				},
 				{
 					"key": "heal_scale_2",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				},
 				{
 					"key": "hp_ratio",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				},
 				{
 					"key": "interval",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 4
+					"value": 4,
+					"valueStr": null
 				},
 				{
 					"key": "ct",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -265,10 +301,10 @@
 			"name": "活力再生",
 			"rangeId": null,
 			"description": "下次治疗时为目标增加一个增益，每秒持续恢复相当于嘉维尔攻击力<@ba.vup>{heal_scale:0%}</>（血量低于一半时为<@ba.vup>{heal_scale_2:0%}</>）的生命，持续<@ba.vup>{duration}</>秒\\n<@ba.rem>可充能{ct}次</>",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 2,
 				"spCost": 9,
@@ -280,27 +316,33 @@
 			"blackboard": [
 				{
 					"key": "heal_scale",
-					"value": 0.26
+					"value": 0.26,
+					"valueStr": null
 				},
 				{
 					"key": "heal_scale_2",
-					"value": 0.52
+					"value": 0.52,
+					"valueStr": null
 				},
 				{
 					"key": "hp_ratio",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				},
 				{
 					"key": "interval",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 4
+					"value": 4,
+					"valueStr": null
 				},
 				{
 					"key": "ct",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				}
 			]
 		},
@@ -308,10 +350,10 @@
 			"name": "活力再生",
 			"rangeId": null,
 			"description": "下次治疗时为目标增加一个增益，每秒持续恢复相当于嘉维尔攻击力<@ba.vup>{heal_scale:0%}</>（血量低于一半时为<@ba.vup>{heal_scale_2:0%}</>）的生命，持续<@ba.vup>{duration}</>秒\\n<@ba.rem>可充能{ct}次</>",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 2,
 				"spCost": 9,
@@ -323,27 +365,33 @@
 			"blackboard": [
 				{
 					"key": "heal_scale",
-					"value": 0.29
+					"value": 0.29,
+					"valueStr": null
 				},
 				{
 					"key": "heal_scale_2",
-					"value": 0.58
+					"value": 0.58,
+					"valueStr": null
 				},
 				{
 					"key": "hp_ratio",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				},
 				{
 					"key": "interval",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 5
+					"value": 5,
+					"valueStr": null
 				},
 				{
 					"key": "ct",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				}
 			]
 		},
@@ -351,10 +399,10 @@
 			"name": "活力再生",
 			"rangeId": null,
 			"description": "下次治疗时为目标增加一个增益，每秒持续恢复相当于嘉维尔攻击力<@ba.vup>{heal_scale:0%}</>（血量低于一半时为<@ba.vup>{heal_scale_2:0%}</>）的生命，持续<@ba.vup>{duration}</>秒\\n<@ba.rem>可充能{ct}次</>",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 2,
 				"spCost": 9,
@@ -366,27 +414,33 @@
 			"blackboard": [
 				{
 					"key": "heal_scale",
-					"value": 0.32
+					"value": 0.32,
+					"valueStr": null
 				},
 				{
 					"key": "heal_scale_2",
-					"value": 0.64
+					"value": 0.64,
+					"valueStr": null
 				},
 				{
 					"key": "hp_ratio",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				},
 				{
 					"key": "interval",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 5
+					"value": 5,
+					"valueStr": null
 				},
 				{
 					"key": "ct",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				}
 			]
 		},
@@ -394,10 +448,10 @@
 			"name": "活力再生",
 			"rangeId": null,
 			"description": "下次治疗时为目标增加一个增益，每秒持续恢复相当于嘉维尔攻击力<@ba.vup>{heal_scale:0%}</>（血量低于一半时为<@ba.vup>{heal_scale_2:0%}</>）的生命，持续<@ba.vup>{duration}</>秒\\n<@ba.rem>可充能{ct}次</>",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 3,
 				"spCost": 8,
@@ -409,27 +463,33 @@
 			"blackboard": [
 				{
 					"key": "heal_scale",
-					"value": 0.35
+					"value": 0.35,
+					"valueStr": null
 				},
 				{
 					"key": "heal_scale_2",
-					"value": 0.7
+					"value": 0.7,
+					"valueStr": null
 				},
 				{
 					"key": "hp_ratio",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				},
 				{
 					"key": "interval",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 5
+					"value": 5,
+					"valueStr": null
 				},
 				{
 					"key": "ct",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				}
 			]
 		}

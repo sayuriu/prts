@@ -2,15 +2,16 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act16side_ex04",
-			"completeState": 2
+			"completeState": "PASS"
 		}
 	],
 	"stageId": "act16side_ex05",
 	"levelId": "Activities/act16side/level_act16side_ex05",
-	"zoneId": "act16side_zone2",
+	"zoneId": "act16sre_zone2",
 	"code": "GA-EX-5",
 	"name": "年轮卷",
 	"description": "有时候，甜品商也会为顾客制造一些难题，来增加获得甜品时的成就感。但愿他们的甜品确实值得。\\n<@lv.item><“冰淇淋机”></>我方与敌方可夺取控制权，激活后回复周围友方单位技力",
@@ -44,7 +45,7 @@
 	"isHardPredefined": false,
 	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
-	"appearanceStyle": 0,
+	"appearanceStyle": "MAIN_NORMAL",
 	"stageDropInfo": {
 		"firstPassRewards": null,
 		"firstCompleteRewards": null,
@@ -53,31 +54,37 @@
 		"displayRewards": [
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act16side_token_bolt",
-				"dropType": 8
+				"id": "act16side_token_bolt_rep_1",
+				"dropType": "COMPLETE"
 			},
 			{
 				"type": "DIAMOND",
 				"id": "4002",
-				"dropType": 8
+				"dropType": "COMPLETE"
 			}
 		],
 		"displayDetailRewards": [
 			{
-				"occPercent": 0,
+				"occPercent": "ALWAYS",
 				"type": "ACTIVITY_ITEM",
-				"id": "act16side_token_bolt",
-				"dropType": 8
+				"id": "act16side_token_bolt_rep_1",
+				"dropType": "COMPLETE"
 			},
 			{
-				"occPercent": 0,
+				"occPercent": "ALWAYS",
 				"type": "DIAMOND",
 				"id": "4002",
-				"dropType": 8
+				"dropType": "COMPLETE"
 			}
 		]
 	},
+	"canUseCharm": false,
+	"canUseTech": false,
+	"canUseTrapTool": false,
+	"canUseBattlePerformance": false,
 	"startButtonOverrideId": null,
 	"isStagePatch": false,
-	"mainStageId": "act16side_ex01"
+	"mainStageId": "act16side_ex01",
+	"extraCondition": null,
+	"extraInfo": null
 }

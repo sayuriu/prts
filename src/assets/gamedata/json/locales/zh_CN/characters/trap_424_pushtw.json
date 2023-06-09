@@ -1,0 +1,187 @@
+{
+	"name": "喷拒器",
+	"description": "高低地都可部署",
+	"canUseGeneralPotentialItem": true,
+	"canUseActivityPotentialItem": false,
+	"potentialItemId": null,
+	"activityPotentialItemId": null,
+	"classicPotentialItemId": null,
+	"nationId": null,
+	"groupId": null,
+	"teamId": null,
+	"displayNumber": null,
+	"tokenKey": null,
+	"appellation": "Gas Jet Thrower",
+	"position": "NONE",
+	"tagList": null,
+	"itemUsage": null,
+	"itemDesc": null,
+	"itemObtainApproach": null,
+	"isNotObtainable": false,
+	"isSpChar": false,
+	"maxPotentialLevel": 0,
+	"rarity": "TIER_1",
+	"profession": "TRAP",
+	"subProfessionId": "notchar2",
+	"trait": null,
+	"phases": [
+		{
+			"characterPrefabKey": "trap_424_pushtw",
+			"rangeId": null,
+			"maxLevel": 30,
+			"attributesKeyFrames": [
+				{
+					"level": 1,
+					"data": {
+						"maxHp": 5000,
+						"atk": 0,
+						"def": 200,
+						"magicResistance": 0,
+						"cost": 5,
+						"blockCnt": 1,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 1,
+						"respawnTime": 20,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": -1,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
+					}
+				},
+				{
+					"level": 2,
+					"data": {
+						"maxHp": 7000,
+						"atk": 0,
+						"def": 300,
+						"magicResistance": 0,
+						"cost": 5,
+						"blockCnt": 1,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 1,
+						"respawnTime": 20,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": -1,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
+					}
+				},
+				{
+					"level": 30,
+					"data": {
+						"maxHp": 7000,
+						"atk": 0,
+						"def": 300,
+						"magicResistance": 0,
+						"cost": 5,
+						"blockCnt": 1,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 1,
+						"respawnTime": 20,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": -1,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
+					}
+				}
+			],
+			"evolveCost": null
+		}
+	],
+	"skills": [
+		{
+			"skillId": "sktok_pushtw",
+			"overridePrefabKey": null,
+			"overrideTokenKey": null,
+			"levelUpCostCond": [],
+			"unlockCond": {
+				"phase": "PHASE_0",
+				"level": 1
+			}
+		}
+	],
+	"talents": [
+		{
+			"candidates": [
+				{
+					"unlockCondition": {
+						"phase": "PHASE_0",
+						"level": 1
+					},
+					"requiredPotentialRank": 0,
+					"prefabKey": "1",
+					"name": null,
+					"description": null,
+					"rangeId": "3-2",
+					"blackboard": []
+				},
+				{
+					"unlockCondition": {
+						"phase": "PHASE_0",
+						"level": 2
+					},
+					"requiredPotentialRank": 0,
+					"prefabKey": "1",
+					"name": null,
+					"description": null,
+					"rangeId": "4-1",
+					"blackboard": []
+				}
+			]
+		},
+		{
+			"candidates": [
+				{
+					"unlockCondition": {
+						"phase": "PHASE_0",
+						"level": 1
+					},
+					"requiredPotentialRank": 0,
+					"prefabKey": "-1",
+					"name": null,
+					"description": null,
+					"rangeId": null,
+					"blackboard": []
+				}
+			]
+		}
+	],
+	"potentialRanks": [],
+	"favorKeyFrames": null,
+	"allSkillLvlup": [
+		{
+			"unlockCond": {
+				"phase": "PHASE_0",
+				"level": 2
+			},
+			"lvlUpCost": null
+		}
+	]
+}

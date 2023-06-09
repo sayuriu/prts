@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act12side_s02",
@@ -10,7 +11,7 @@
 	],
 	"stageId": "act12side_s03",
 	"levelId": "Activities/ACT12SIDE/level_act12side_sub-1-3",
-	"zoneId": "act12side_zone3",
+	"zoneId": "act12sre_zone3",
 	"code": "DH-S-3",
 	"name": "旧友との再会",
 	"description": "協力しない金持ちのボディーガードさえ押さえてしまえば、スワイヤーにはいくらでも当事者の口を開かせる方法があった。\n<@lv.item><深水区域></>配置不可。敵の攻撃速度と移動速度が低下し、HPが減少し続ける\n<@lv.rem><特殊条件></><造波術師隊長>と<造波術師隊長搭乗ボート>の攻撃力が低下するが、与える侵蝕ダメージは大幅に上昇",
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {

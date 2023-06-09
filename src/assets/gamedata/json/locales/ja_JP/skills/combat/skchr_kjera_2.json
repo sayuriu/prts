@@ -1,0 +1,357 @@
+{
+	"skillId": "skchr_kjera_2",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "心意のままに",
+			"rangeId": null,
+			"description": "攻撃力<@ba.vup>+{atk:0%}</>、浮遊ユニットの数<@ba.vup>+{attack@cnt}</>、自動索敵して攻撃する浮遊ユニットを放出し、自身と浮遊ユニットの攻撃時、<@ba.vup>{attack@prob:0%}</>の確率で攻撃対象に<@ba.vup>{attack@cold}</>秒の<$ba.cold>寒冷</>状態を付与する\n<@ba.rem>索敵中の浮遊ユニットは目標が倒された時あるいはスキル終了時、索敵を中断する</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 50,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_kjera_2",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.2
+				},
+				{
+					"key": "attack@cnt",
+					"value": 1
+				},
+				{
+					"key": "attack@prob",
+					"value": 0.15
+				},
+				{
+					"key": "attack@cold",
+					"value": 2.5
+				}
+			]
+		},
+		{
+			"name": "心意のままに",
+			"rangeId": null,
+			"description": "攻撃力<@ba.vup>+{atk:0%}</>、浮遊ユニットの数<@ba.vup>+{attack@cnt}</>、自動索敵して攻撃する浮遊ユニットを放出し、自身と浮遊ユニットの攻撃時、<@ba.vup>{attack@prob:0%}</>の確率で攻撃対象に<@ba.vup>{attack@cold}</>秒の<$ba.cold>寒冷</>状態を付与する\n<@ba.rem>索敵中の浮遊ユニットは目標が倒された時あるいはスキル終了時、索敵を中断する</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 49,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_kjera_2",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.23
+				},
+				{
+					"key": "attack@cnt",
+					"value": 1
+				},
+				{
+					"key": "attack@prob",
+					"value": 0.15
+				},
+				{
+					"key": "attack@cold",
+					"value": 2.5
+				}
+			]
+		},
+		{
+			"name": "心意のままに",
+			"rangeId": null,
+			"description": "攻撃力<@ba.vup>+{atk:0%}</>、浮遊ユニットの数<@ba.vup>+{attack@cnt}</>、自動索敵して攻撃する浮遊ユニットを放出し、自身と浮遊ユニットの攻撃時、<@ba.vup>{attack@prob:0%}</>の確率で攻撃対象に<@ba.vup>{attack@cold}</>秒の<$ba.cold>寒冷</>状態を付与する\n<@ba.rem>索敵中の浮遊ユニットは目標が倒された時あるいはスキル終了時、索敵を中断する</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 48,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_kjera_2",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.26
+				},
+				{
+					"key": "attack@cnt",
+					"value": 1
+				},
+				{
+					"key": "attack@prob",
+					"value": 0.15
+				},
+				{
+					"key": "attack@cold",
+					"value": 2.5
+				}
+			]
+		},
+		{
+			"name": "心意のままに",
+			"rangeId": null,
+			"description": "攻撃力<@ba.vup>+{atk:0%}</>、浮遊ユニットの数<@ba.vup>+{attack@cnt}</>、自動索敵して攻撃する浮遊ユニットを放出し、自身と浮遊ユニットの攻撃時、<@ba.vup>{attack@prob:0%}</>の確率で攻撃対象に<@ba.vup>{attack@cold}</>秒の<$ba.cold>寒冷</>状態を付与する\n<@ba.rem>索敵中の浮遊ユニットは目標が倒された時あるいはスキル終了時、索敵を中断する</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 47,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_kjera_2",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.29
+				},
+				{
+					"key": "attack@cnt",
+					"value": 1
+				},
+				{
+					"key": "attack@prob",
+					"value": 0.15
+				},
+				{
+					"key": "attack@cold",
+					"value": 2.5
+				}
+			]
+		},
+		{
+			"name": "心意のままに",
+			"rangeId": null,
+			"description": "攻撃力<@ba.vup>+{atk:0%}</>、浮遊ユニットの数<@ba.vup>+{attack@cnt}</>、自動索敵して攻撃する浮遊ユニットを放出し、自身と浮遊ユニットの攻撃時、<@ba.vup>{attack@prob:0%}</>の確率で攻撃対象に<@ba.vup>{attack@cold}</>秒の<$ba.cold>寒冷</>状態を付与する\n<@ba.rem>索敵中の浮遊ユニットは目標が倒された時あるいはスキル終了時、索敵を中断する</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 46,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_kjera_2",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.32
+				},
+				{
+					"key": "attack@cnt",
+					"value": 1
+				},
+				{
+					"key": "attack@prob",
+					"value": 0.15
+				},
+				{
+					"key": "attack@cold",
+					"value": 2.5
+				}
+			]
+		},
+		{
+			"name": "心意のままに",
+			"rangeId": null,
+			"description": "攻撃力<@ba.vup>+{atk:0%}</>、浮遊ユニットの数<@ba.vup>+{attack@cnt}</>、自動索敵して攻撃する浮遊ユニットを放出し、自身と浮遊ユニットの攻撃時、<@ba.vup>{attack@prob:0%}</>の確率で攻撃対象に<@ba.vup>{attack@cold}</>秒の<$ba.cold>寒冷</>状態を付与する\n<@ba.rem>索敵中の浮遊ユニットは目標が倒された時あるいはスキル終了時、索敵を中断する</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 45,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_kjera_2",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.35
+				},
+				{
+					"key": "attack@cnt",
+					"value": 1
+				},
+				{
+					"key": "attack@prob",
+					"value": 0.15
+				},
+				{
+					"key": "attack@cold",
+					"value": 2.5
+				}
+			]
+		},
+		{
+			"name": "心意のままに",
+			"rangeId": null,
+			"description": "攻撃力<@ba.vup>+{atk:0%}</>、浮遊ユニットの数<@ba.vup>+{attack@cnt}</>、自動索敵して攻撃する浮遊ユニットを放出し、自身と浮遊ユニットの攻撃時、<@ba.vup>{attack@prob:0%}</>の確率で攻撃対象に<@ba.vup>{attack@cold}</>秒の<$ba.cold>寒冷</>状態を付与する\n<@ba.rem>索敵中の浮遊ユニットは目標が倒された時あるいはスキル終了時、索敵を中断する</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 44,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_kjera_2",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.4
+				},
+				{
+					"key": "attack@cnt",
+					"value": 1
+				},
+				{
+					"key": "attack@prob",
+					"value": 0.2
+				},
+				{
+					"key": "attack@cold",
+					"value": 2.5
+				}
+			]
+		},
+		{
+			"name": "心意のままに",
+			"rangeId": null,
+			"description": "攻撃力<@ba.vup>+{atk:0%}</>、浮遊ユニットの数<@ba.vup>+{attack@cnt}</>、自動索敵して攻撃する浮遊ユニットを放出し、自身と浮遊ユニットの攻撃時、<@ba.vup>{attack@prob:0%}</>の確率で攻撃対象に<@ba.vup>{attack@cold}</>秒の<$ba.cold>寒冷</>状態を付与する\n<@ba.rem>索敵中の浮遊ユニットは目標が倒された時あるいはスキル終了時、索敵を中断する</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 43,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_kjera_2",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.45
+				},
+				{
+					"key": "attack@cnt",
+					"value": 1
+				},
+				{
+					"key": "attack@prob",
+					"value": 0.22
+				},
+				{
+					"key": "attack@cold",
+					"value": 2.5
+				}
+			]
+		},
+		{
+			"name": "心意のままに",
+			"rangeId": null,
+			"description": "攻撃力<@ba.vup>+{atk:0%}</>、浮遊ユニットの数<@ba.vup>+{attack@cnt}</>、自動索敵して攻撃する浮遊ユニットを放出し、自身と浮遊ユニットの攻撃時、<@ba.vup>{attack@prob:0%}</>の確率で攻撃対象に<@ba.vup>{attack@cold}</>秒の<$ba.cold>寒冷</>状態を付与する\n<@ba.rem>索敵中の浮遊ユニットは目標が倒された時あるいはスキル終了時、索敵を中断する</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 42,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_kjera_2",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.5
+				},
+				{
+					"key": "attack@cnt",
+					"value": 1
+				},
+				{
+					"key": "attack@prob",
+					"value": 0.22
+				},
+				{
+					"key": "attack@cold",
+					"value": 2.5
+				}
+			]
+		},
+		{
+			"name": "心意のままに",
+			"rangeId": null,
+			"description": "攻撃力<@ba.vup>+{atk:0%}</>、浮遊ユニットの数<@ba.vup>+{attack@cnt}</>、自動索敵して攻撃する浮遊ユニットを放出し、自身と浮遊ユニットの攻撃時、<@ba.vup>{attack@prob:0%}</>の確率で攻撃対象に<@ba.vup>{attack@cold}</>秒の<$ba.cold>寒冷</>状態を付与する\n<@ba.rem>索敵中の浮遊ユニットは目標が倒された時あるいはスキル終了時、索敵を中断する</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 40,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_kjera_2",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.55
+				},
+				{
+					"key": "attack@cnt",
+					"value": 1
+				},
+				{
+					"key": "attack@prob",
+					"value": 0.22
+				},
+				{
+					"key": "attack@cold",
+					"value": 2.5
+				}
+			]
+		}
+	]
+}

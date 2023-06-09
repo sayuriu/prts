@@ -7,10 +7,10 @@
 			"name": "反制治疗",
 			"rangeId": "x-4",
 			"description": "下一次攻击改为周围的一名友方单位恢复相当于攻击力<@ba.vup>{heal_scale:0%}</>的生命",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 4,
+				"spType": "INCREASE_WHEN_TAKEN_DAMAGE",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 6,
@@ -22,7 +22,8 @@
 			"blackboard": [
 				{
 					"key": "heal_scale",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -30,10 +31,10 @@
 			"name": "反制治疗",
 			"rangeId": "x-4",
 			"description": "下一次攻击改为周围的一名友方单位恢复相当于攻击力<@ba.vup>{heal_scale:0%}</>的生命",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 4,
+				"spType": "INCREASE_WHEN_TAKEN_DAMAGE",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 6,
@@ -45,7 +46,8 @@
 			"blackboard": [
 				{
 					"key": "heal_scale",
-					"value": 1.05
+					"value": 1.05,
+					"valueStr": null
 				}
 			]
 		},
@@ -53,10 +55,10 @@
 			"name": "反制治疗",
 			"rangeId": "x-4",
 			"description": "下一次攻击改为周围的一名友方单位恢复相当于攻击力<@ba.vup>{heal_scale:0%}</>的生命",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 4,
+				"spType": "INCREASE_WHEN_TAKEN_DAMAGE",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 6,
@@ -68,7 +70,8 @@
 			"blackboard": [
 				{
 					"key": "heal_scale",
-					"value": 1.1
+					"value": 1.1,
+					"valueStr": null
 				}
 			]
 		},
@@ -76,10 +79,10 @@
 			"name": "反制治疗",
 			"rangeId": "x-4",
 			"description": "下一次攻击改为周围的一名友方单位恢复相当于攻击力<@ba.vup>{heal_scale:0%}</>的生命",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 4,
+				"spType": "INCREASE_WHEN_TAKEN_DAMAGE",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 6,
@@ -91,7 +94,8 @@
 			"blackboard": [
 				{
 					"key": "heal_scale",
-					"value": 1.2
+					"value": 1.2,
+					"valueStr": null
 				}
 			]
 		},
@@ -99,10 +103,10 @@
 			"name": "反制治疗",
 			"rangeId": "x-4",
 			"description": "下一次攻击改为周围的一名友方单位恢复相当于攻击力<@ba.vup>{heal_scale:0%}</>的生命",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 4,
+				"spType": "INCREASE_WHEN_TAKEN_DAMAGE",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 6,
@@ -114,7 +118,8 @@
 			"blackboard": [
 				{
 					"key": "heal_scale",
-					"value": 1.25
+					"value": 1.25,
+					"valueStr": null
 				}
 			]
 		},
@@ -122,10 +127,10 @@
 			"name": "反制治疗",
 			"rangeId": "x-4",
 			"description": "下一次攻击改为周围的一名友方单位恢复相当于攻击力<@ba.vup>{heal_scale:0%}</>的生命",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 4,
+				"spType": "INCREASE_WHEN_TAKEN_DAMAGE",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 6,
@@ -137,7 +142,8 @@
 			"blackboard": [
 				{
 					"key": "heal_scale",
-					"value": 1.3
+					"value": 1.3,
+					"valueStr": null
 				}
 			]
 		},
@@ -145,10 +151,10 @@
 			"name": "反制治疗",
 			"rangeId": "x-4",
 			"description": "下一次攻击改为周围的一名友方单位恢复相当于攻击力<@ba.vup>{heal_scale:0%}</>的生命",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 4,
+				"spType": "INCREASE_WHEN_TAKEN_DAMAGE",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 5,
@@ -160,7 +166,8 @@
 			"blackboard": [
 				{
 					"key": "heal_scale",
-					"value": 1.4
+					"value": 1.4,
+					"valueStr": null
 				}
 			]
 		},
@@ -168,10 +175,10 @@
 			"name": "反制治疗",
 			"rangeId": "x-4",
 			"description": "下一次攻击改为周围的一名友方单位恢复相当于攻击力<@ba.vup>{heal_scale:0%}</>的生命",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 4,
+				"spType": "INCREASE_WHEN_TAKEN_DAMAGE",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 5,
@@ -183,7 +190,8 @@
 			"blackboard": [
 				{
 					"key": "heal_scale",
-					"value": 1.5
+					"value": 1.5,
+					"valueStr": null
 				}
 			]
 		},
@@ -191,10 +199,10 @@
 			"name": "反制治疗",
 			"rangeId": "x-4",
 			"description": "下一次攻击改为周围的一名友方单位恢复相当于攻击力<@ba.vup>{heal_scale:0%}</>的生命",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 4,
+				"spType": "INCREASE_WHEN_TAKEN_DAMAGE",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 5,
@@ -206,7 +214,8 @@
 			"blackboard": [
 				{
 					"key": "heal_scale",
-					"value": 1.6
+					"value": 1.6,
+					"valueStr": null
 				}
 			]
 		},
@@ -214,10 +223,10 @@
 			"name": "反制治疗",
 			"rangeId": "x-4",
 			"description": "下一次攻击改为周围的一名友方单位恢复相当于攻击力<@ba.vup>{heal_scale:0%}</>的生命",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 4,
+				"spType": "INCREASE_WHEN_TAKEN_DAMAGE",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 4,
@@ -229,7 +238,8 @@
 			"blackboard": [
 				{
 					"key": "heal_scale",
-					"value": 1.7
+					"value": 1.7,
+					"valueStr": null
 				}
 			]
 		}

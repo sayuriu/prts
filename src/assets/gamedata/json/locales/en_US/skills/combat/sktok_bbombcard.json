@@ -1,0 +1,34 @@
+{
+	"skillId": "sktok_bbombcard",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "Explode",
+			"rangeId": null,
+			"description": "When transferred, explodes and deals <@ba.vup>{damage}</> <@ba.vup>True</> damage to all allied units and <$ba.stun>Stuns</> them for <@ba.vup>{stun}</> seconds",
+			"skillType": 0,
+			"durationType": 0,
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 0,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": null,
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "damage",
+					"value": 500
+				},
+				{
+					"key": "stun",
+					"value": 5
+				}
+			]
+		}
+	]
+}

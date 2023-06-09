@@ -1,0 +1,80 @@
+{
+	"stageType": "ACTIVITY",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
+	"unlockCondition": [],
+	"stageId": "act17side_ex07",
+	"levelId": "Activities/act17side/level_act17side_ex07",
+	"zoneId": "act17side_zone4",
+	"code": "SN-EX-7",
+	"name": "위기의 항구",
+	"description": "앞에는 만장 높이의 파도고, 뒤에는 불빛으로 환한 도시다. 물러설 길이 없다.\n<@lv.item><성도의 손></> 배치한 방향으로 '성도의 손'을 발사하여 적을 기절시키고 대미지를 입힌다",
+	"hardStagedId": "act17side_ex07#f#",
+	"dangerLevel": "2차 정예화 Lv.25",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_SN_Boat",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 20,
+	"apFailReturn": 19,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": 0,
+	"expGain": 200,
+	"goldGain": 200,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 19,
+	"completeFavor": 20,
+	"slProgress": 0,
+	"displayMainItem": null,
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 0,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act17side_token_compass",
+				"dropType": 8
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 0,
+				"type": "ACTIVITY_ITEM",
+				"id": "act17side_token_compass",
+				"dropType": 8
+			},
+			{
+				"occPercent": 0,
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		]
+	},
+	"canUseTech": true,
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "act17side_ex01"
+}

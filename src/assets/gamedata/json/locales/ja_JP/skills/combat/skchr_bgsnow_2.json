@@ -1,0 +1,277 @@
+{
+	"skillId": "skchr_bgsnow_2",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "リフレイン",
+			"rangeId": "3-1",
+			"description": "パッシブ：「タイプライター」再配置時間が<@ba.vup>{respawn_time:0%}</>まで短縮\nアクティブ：前方の敵に3回連続で自身の攻撃力の<@ba.vup>{atk_scale:0%}</>の物理ダメージを与える\n<@ba.rem>1回チャージ可能</>",
+			"skillType": 1,
+			"durationType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 12,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_bgsnow_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 1.6
+				},
+				{
+					"key": "respawn_time",
+					"value": 0.7
+				}
+			]
+		},
+		{
+			"name": "リフレイン",
+			"rangeId": "3-1",
+			"description": "パッシブ：「タイプライター」再配置時間が<@ba.vup>{respawn_time:0%}</>まで短縮\nアクティブ：前方の敵に3回連続で自身の攻撃力の<@ba.vup>{atk_scale:0%}</>の物理ダメージを与える\n<@ba.rem>1回チャージ可能</>",
+			"skillType": 1,
+			"durationType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 12,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_bgsnow_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 1.65
+				},
+				{
+					"key": "respawn_time",
+					"value": 0.7
+				}
+			]
+		},
+		{
+			"name": "リフレイン",
+			"rangeId": "3-1",
+			"description": "パッシブ：「タイプライター」再配置時間が<@ba.vup>{respawn_time:0%}</>まで短縮\nアクティブ：前方の敵に3回連続で自身の攻撃力の<@ba.vup>{atk_scale:0%}</>の物理ダメージを与える\n<@ba.rem>1回チャージ可能</>",
+			"skillType": 1,
+			"durationType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 12,
+				"initSp": 3,
+				"increment": 1
+			},
+			"prefabId": "skchr_bgsnow_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 1.7
+				},
+				{
+					"key": "respawn_time",
+					"value": 0.7
+				}
+			]
+		},
+		{
+			"name": "リフレイン",
+			"rangeId": "3-1",
+			"description": "パッシブ：「タイプライター」再配置時間が<@ba.vup>{respawn_time:0%}</>まで短縮\nアクティブ：前方の敵に3回連続で自身の攻撃力の<@ba.vup>{atk_scale:0%}</>の物理ダメージを与える\n<@ba.rem>2回チャージ可能</>",
+			"skillType": 1,
+			"durationType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 11,
+				"initSp": 3,
+				"increment": 1
+			},
+			"prefabId": "skchr_bgsnow_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 1.8
+				},
+				{
+					"key": "respawn_time",
+					"value": 0.65
+				}
+			]
+		},
+		{
+			"name": "リフレイン",
+			"rangeId": "3-1",
+			"description": "パッシブ：「タイプライター」再配置時間が<@ba.vup>{respawn_time:0%}</>まで短縮\nアクティブ：前方の敵に3回連続で自身の攻撃力の<@ba.vup>{atk_scale:0%}</>の物理ダメージを与える\n<@ba.rem>2回チャージ可能</>",
+			"skillType": 1,
+			"durationType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 11,
+				"initSp": 3,
+				"increment": 1
+			},
+			"prefabId": "skchr_bgsnow_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 1.85
+				},
+				{
+					"key": "respawn_time",
+					"value": 0.65
+				}
+			]
+		},
+		{
+			"name": "リフレイン",
+			"rangeId": "3-1",
+			"description": "パッシブ：「タイプライター」再配置時間が<@ba.vup>{respawn_time:0%}</>まで短縮\nアクティブ：前方の敵に3回連続で自身の攻撃力の<@ba.vup>{atk_scale:0%}</>の物理ダメージを与える\n<@ba.rem>2回チャージ可能</>",
+			"skillType": 1,
+			"durationType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 11,
+				"initSp": 6,
+				"increment": 1
+			},
+			"prefabId": "skchr_bgsnow_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 1.9
+				},
+				{
+					"key": "respawn_time",
+					"value": 0.65
+				}
+			]
+		},
+		{
+			"name": "リフレイン",
+			"rangeId": "3-1",
+			"description": "パッシブ：「タイプライター」再配置時間が<@ba.vup>{respawn_time:0%}</>まで短縮\nアクティブ：前方の敵に3回連続で自身の攻撃力の<@ba.vup>{atk_scale:0%}</>の物理ダメージを与える\n<@ba.rem>2回チャージ可能</>",
+			"skillType": 1,
+			"durationType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 10,
+				"initSp": 6,
+				"increment": 1
+			},
+			"prefabId": "skchr_bgsnow_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 2
+				},
+				{
+					"key": "respawn_time",
+					"value": 0.6
+				}
+			]
+		},
+		{
+			"name": "リフレイン",
+			"rangeId": "3-1",
+			"description": "パッシブ：「タイプライター」再配置時間が<@ba.vup>{respawn_time:0%}</>まで短縮\nアクティブ：前方の敵に3回連続で自身の攻撃力の<@ba.vup>{atk_scale:0%}</>の物理ダメージを与える\n<@ba.rem>2回チャージ可能</>",
+			"skillType": 1,
+			"durationType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 10,
+				"initSp": 6,
+				"increment": 1
+			},
+			"prefabId": "skchr_bgsnow_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 2.1
+				},
+				{
+					"key": "respawn_time",
+					"value": 0.6
+				}
+			]
+		},
+		{
+			"name": "リフレイン",
+			"rangeId": "3-1",
+			"description": "パッシブ：「タイプライター」再配置時間が<@ba.vup>{respawn_time:0%}</>まで短縮\nアクティブ：前方の敵に3回連続で自身の攻撃力の<@ba.vup>{atk_scale:0%}</>の物理ダメージを与える\n<@ba.rem>2回チャージ可能</>",
+			"skillType": 1,
+			"durationType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 10,
+				"initSp": 9,
+				"increment": 1
+			},
+			"prefabId": "skchr_bgsnow_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 2.2
+				},
+				{
+					"key": "respawn_time",
+					"value": 0.6
+				}
+			]
+		},
+		{
+			"name": "リフレイン",
+			"rangeId": "3-1",
+			"description": "パッシブ：「タイプライター」再配置時間が<@ba.vup>{respawn_time:0%}</>まで短縮\nアクティブ：前方の敵に3回連続で自身の攻撃力の<@ba.vup>{atk_scale:0%}</>の物理ダメージを与える\n<@ba.rem>2回チャージ可能</>",
+			"skillType": 1,
+			"durationType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 9,
+				"initSp": 9,
+				"increment": 1
+			},
+			"prefabId": "skchr_bgsnow_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 2.3
+				},
+				{
+					"key": "respawn_time",
+					"value": 0.5
+				}
+			]
+		}
+	]
+}

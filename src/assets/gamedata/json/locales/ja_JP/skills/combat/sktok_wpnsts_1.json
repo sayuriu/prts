@@ -1,0 +1,30 @@
+{
+	"skillId": "sktok_wpnsts_1",
+	"iconId": "sktok_wpnsts",
+	"hidden": false,
+	"levels": [
+		{
+			"name": "ジェラート供給",
+			"rangeId": "x-1",
+			"description": "周囲の味方全員が<@ba.vup>2</>秒ごとSPが<@ba.vup>1</>回復。\n制御権が奪取されると、周囲の味方全員に<@ba.vup>1000</>の術ダメージを与え、<@ba.vup>5</>秒間<$ba.stun>スタン</>させる",
+			"skillType": 0,
+			"durationType": 0,
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 0,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": "sktok_wpnsts_1",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "hp_recovery_per_sec",
+					"value": 75
+				}
+			]
+		}
+	]
+}

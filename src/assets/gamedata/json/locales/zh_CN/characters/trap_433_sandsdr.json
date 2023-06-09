@@ -1,0 +1,142 @@
+{
+	"name": "“沙卒”",
+	"description": "攻击造成<@ba.kw>法术伤害</>，且会在<@ba.kw>3</>个敌人间跳跃，每次跳跃伤害降低15%并造成短暂<$ba.sluggish>停顿</>",
+	"canUseGeneralPotentialItem": true,
+	"canUseActivityPotentialItem": false,
+	"potentialItemId": null,
+	"activityPotentialItemId": null,
+	"classicPotentialItemId": null,
+	"nationId": null,
+	"groupId": null,
+	"teamId": null,
+	"displayNumber": null,
+	"tokenKey": null,
+	"appellation": "“Sand Soldier”",
+	"position": "NONE",
+	"tagList": null,
+	"itemUsage": null,
+	"itemDesc": null,
+	"itemObtainApproach": null,
+	"isNotObtainable": false,
+	"isSpChar": false,
+	"maxPotentialLevel": 0,
+	"rarity": "TIER_1",
+	"profession": "TRAP",
+	"subProfessionId": "notchar2",
+	"trait": {
+		"candidates": [
+			{
+				"unlockCondition": {
+					"phase": "PHASE_0",
+					"level": 1
+				},
+				"requiredPotentialRank": 0,
+				"blackboard": [
+					{
+						"key": "attack@max_target",
+						"value": 3,
+						"valueStr": null
+					},
+					{
+						"key": "attack@sluggish",
+						"value": 0.5,
+						"valueStr": null
+					}
+				],
+				"overrideDescripton": "攻击造成<@ba.kw>法术伤害</>，且会在<@ba.kw>{attack@max_target}</>个敌人间跳跃，每次跳跃伤害降低15%并造成短暂<$ba.sluggish>停顿</>",
+				"prefabKey": "-1",
+				"rangeId": null
+			}
+		]
+	},
+	"phases": [
+		{
+			"characterPrefabKey": "trap_433_sandsdr",
+			"rangeId": "3-1",
+			"maxLevel": 30,
+			"attributesKeyFrames": [
+				{
+					"level": 1,
+					"data": {
+						"maxHp": 1000,
+						"atk": 300,
+						"def": 200,
+						"magicResistance": 0,
+						"cost": 5,
+						"blockCnt": 0,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 2.3,
+						"respawnTime": 5,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": -1,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
+					}
+				},
+				{
+					"level": 30,
+					"data": {
+						"maxHp": 1000,
+						"atk": 300,
+						"def": 200,
+						"magicResistance": 0,
+						"cost": 5,
+						"blockCnt": 0,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 2.3,
+						"respawnTime": 5,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": -1,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
+					}
+				}
+			],
+			"evolveCost": null
+		}
+	],
+	"skills": [
+		{
+			"skillId": "sktok_sandsdr_1",
+			"overridePrefabKey": null,
+			"overrideTokenKey": null,
+			"levelUpCostCond": [],
+			"unlockCond": {
+				"phase": "PHASE_0",
+				"level": 1
+			}
+		},
+		{
+			"skillId": "sktok_sandsdr_2",
+			"overridePrefabKey": null,
+			"overrideTokenKey": null,
+			"levelUpCostCond": [],
+			"unlockCond": {
+				"phase": "PHASE_0",
+				"level": 1
+			}
+		}
+	],
+	"talents": null,
+	"potentialRanks": [],
+	"favorKeyFrames": null,
+	"allSkillLvlup": []
+}

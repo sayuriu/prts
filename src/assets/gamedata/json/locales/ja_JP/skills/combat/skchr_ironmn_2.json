@@ -1,0 +1,317 @@
+{
+	"skillId": "skchr_ironmn_2",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "供給効率化システム",
+			"rangeId": null,
+			"description": "パッシブ：装置の効果対象のSPを3.5秒ごとに<@ba.vup>1</>回復\nアクティブ：攻撃力<@ba.vup>+{atk:0%}</>、防御力<@ba.vup>+{def:0%}</>、ブロック中の敵全員を同時に攻撃。さらに装置の効果が「対象のSPを<@ba.vup>{fake_interval}</>秒ごとに<@ba.vup>1</>回復」になるが、装置のHP減少速度+100％\n<@ba.rem>スキル終了時、装置を1個獲得</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 65,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_ironmn_2",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.1
+				},
+				{
+					"key": "def",
+					"value": 0.1
+				},
+				{
+					"key": "fake_interval",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "供給効率化システム",
+			"rangeId": null,
+			"description": "パッシブ：装置の効果対象のSPを3.5秒ごとに<@ba.vup>1</>回復\nアクティブ：攻撃力<@ba.vup>+{atk:0%}</>、防御力<@ba.vup>+{def:0%}</>、ブロック中の敵全員を同時に攻撃。さらに装置の効果が「対象のSPを<@ba.vup>{fake_interval}</>秒ごとに<@ba.vup>1</>回復」になるが、装置のHP減少速度+100％\n<@ba.rem>スキル終了時、装置を1個獲得</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 65,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_ironmn_2",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.15
+				},
+				{
+					"key": "def",
+					"value": 0.15
+				},
+				{
+					"key": "fake_interval",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "供給効率化システム",
+			"rangeId": null,
+			"description": "パッシブ：装置の効果対象のSPを3.5秒ごとに<@ba.vup>1</>回復\nアクティブ：攻撃力<@ba.vup>+{atk:0%}</>、防御力<@ba.vup>+{def:0%}</>、ブロック中の敵全員を同時に攻撃。さらに装置の効果が「対象のSPを<@ba.vup>{fake_interval}</>秒ごとに<@ba.vup>1</>回復」になるが、装置のHP減少速度+100％\n<@ba.rem>スキル終了時、装置を1個獲得</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 65,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_ironmn_2",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.2
+				},
+				{
+					"key": "def",
+					"value": 0.2
+				},
+				{
+					"key": "fake_interval",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "供給効率化システム",
+			"rangeId": null,
+			"description": "パッシブ：装置の効果対象のSPを3.5秒ごとに<@ba.vup>1</>回復\nアクティブ：攻撃力<@ba.vup>+{atk:0%}</>、防御力<@ba.vup>+{def:0%}</>、ブロック中の敵全員を同時に攻撃。さらに装置の効果が「対象のSPを<@ba.vup>{fake_interval}</>秒ごとに<@ba.vup>1</>回復」になるが、装置のHP減少速度+100％\n<@ba.rem>スキル終了時、装置を1個獲得</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 60,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_ironmn_2",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.25
+				},
+				{
+					"key": "def",
+					"value": 0.25
+				},
+				{
+					"key": "fake_interval",
+					"value": 2.5
+				}
+			]
+		},
+		{
+			"name": "供給効率化システム",
+			"rangeId": null,
+			"description": "パッシブ：装置の効果対象のSPを3.5秒ごとに<@ba.vup>1</>回復\nアクティブ：攻撃力<@ba.vup>+{atk:0%}</>、防御力<@ba.vup>+{def:0%}</>、ブロック中の敵全員を同時に攻撃。さらに装置の効果が「対象のSPを<@ba.vup>{fake_interval}</>秒ごとに<@ba.vup>1</>回復」になるが、装置のHP減少速度+100％\n<@ba.rem>スキル終了時、装置を1個獲得</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 60,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_ironmn_2",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.3
+				},
+				{
+					"key": "def",
+					"value": 0.3
+				},
+				{
+					"key": "fake_interval",
+					"value": 2.5
+				}
+			]
+		},
+		{
+			"name": "供給効率化システム",
+			"rangeId": null,
+			"description": "パッシブ：装置の効果対象のSPを3.5秒ごとに<@ba.vup>1</>回復\nアクティブ：攻撃力<@ba.vup>+{atk:0%}</>、防御力<@ba.vup>+{def:0%}</>、ブロック中の敵全員を同時に攻撃。さらに装置の効果が「対象のSPを<@ba.vup>{fake_interval}</>秒ごとに<@ba.vup>1</>回復」になるが、装置のHP減少速度+100％\n<@ba.rem>スキル終了時、装置を1個獲得</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 60,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_ironmn_2",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.35
+				},
+				{
+					"key": "def",
+					"value": 0.35
+				},
+				{
+					"key": "fake_interval",
+					"value": 2.5
+				}
+			]
+		},
+		{
+			"name": "供給効率化システム",
+			"rangeId": null,
+			"description": "パッシブ：装置の効果対象のSPを3.5秒ごとに<@ba.vup>1</>回復\nアクティブ：攻撃力<@ba.vup>+{atk:0%}</>、防御力<@ba.vup>+{def:0%}</>、ブロック中の敵全員を同時に攻撃。さらに装置の効果が「対象のSPを<@ba.vup>{fake_interval}</>秒ごとに<@ba.vup>1</>回復」になるが、装置のHP減少速度+100％\n<@ba.rem>スキル終了時、装置を1個獲得</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 55,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_ironmn_2",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.4
+				},
+				{
+					"key": "def",
+					"value": 0.4
+				},
+				{
+					"key": "fake_interval",
+					"value": 2
+				}
+			]
+		},
+		{
+			"name": "供給効率化システム",
+			"rangeId": null,
+			"description": "パッシブ：装置の効果対象のSPを3.5秒ごとに<@ba.vup>1</>回復\nアクティブ：攻撃力<@ba.vup>+{atk:0%}</>、防御力<@ba.vup>+{def:0%}</>、ブロック中の敵全員を同時に攻撃。さらに装置の効果が「対象のSPを<@ba.vup>{fake_interval}</>秒ごとに<@ba.vup>1</>回復」になるが、装置のHP減少速度+100％\n<@ba.rem>スキル終了時、装置を1個獲得</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 53,
+				"initSp": 25,
+				"increment": 1
+			},
+			"prefabId": "skchr_ironmn_2",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.45
+				},
+				{
+					"key": "def",
+					"value": 0.45
+				},
+				{
+					"key": "fake_interval",
+					"value": 2
+				}
+			]
+		},
+		{
+			"name": "供給効率化システム",
+			"rangeId": null,
+			"description": "パッシブ：装置の効果対象のSPを3.5秒ごとに<@ba.vup>1</>回復\nアクティブ：攻撃力<@ba.vup>+{atk:0%}</>、防御力<@ba.vup>+{def:0%}</>、ブロック中の敵全員を同時に攻撃。さらに装置の効果が「対象のSPを<@ba.vup>{fake_interval}</>秒ごとに<@ba.vup>1</>回復」になるが、装置のHP減少速度+100％\n<@ba.rem>スキル終了時、装置を1個獲得</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 51,
+				"initSp": 25,
+				"increment": 1
+			},
+			"prefabId": "skchr_ironmn_2",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.5
+				},
+				{
+					"key": "def",
+					"value": 0.5
+				},
+				{
+					"key": "fake_interval",
+					"value": 2
+				}
+			]
+		},
+		{
+			"name": "供給効率化システム",
+			"rangeId": null,
+			"description": "パッシブ：装置の効果対象のSPを3.5秒ごとに<@ba.vup>1</>回復\nアクティブ：攻撃力<@ba.vup>+{atk:0%}</>、防御力<@ba.vup>+{def:0%}</>、ブロック中の敵全員を同時に攻撃。さらに装置の効果が「対象のSPを<@ba.vup>{fake_interval}</>秒ごとに<@ba.vup>1</>回復」になるが、装置のHP減少速度+100％\n<@ba.rem>スキル終了時、装置を1個獲得</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 50,
+				"initSp": 25,
+				"increment": 1
+			},
+			"prefabId": "skchr_ironmn_2",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.6
+				},
+				{
+					"key": "def",
+					"value": 0.6
+				},
+				{
+					"key": "fake_interval",
+					"value": 2
+				}
+			]
+		}
+	]
+}

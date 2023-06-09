@@ -2,15 +2,16 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act13side_09",
-			"completeState": 2
+			"completeState": "PASS"
 		}
 	],
 	"stageId": "act13side_10",
 	"levelId": "Activities/act13side/level_act13side_10",
-	"zoneId": "act13side_zone1",
+	"zoneId": "act13sre_zone1",
 	"code": "NL-10",
 	"name": "耀骑士",
 	"description": "有一位心怀信念的骑士站了出来，我们却嘲她愚蠢。可真要是没有骑士心怀信念，我们却又去责备时代。\\n<@lv.item><城市霓虹></>可以提供初始视野，使用后视野范围扩大",
@@ -44,7 +45,7 @@
 	"isHardPredefined": false,
 	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
-	"appearanceStyle": 0,
+	"appearanceStyle": "MAIN_NORMAL",
 	"stageDropInfo": {
 		"firstPassRewards": null,
 		"firstCompleteRewards": null,
@@ -53,53 +54,59 @@
 		"displayRewards": [
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act13side_token_model",
-				"dropType": 8
+				"id": "act13side_token_model_rep_1",
+				"dropType": "COMPLETE"
 			},
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act13side_token_model",
-				"dropType": 2
+				"id": "act13side_token_model_rep_1",
+				"dropType": "NORMAL"
 			},
 			{
 				"type": "MATERIAL",
 				"id": "30073",
-				"dropType": 2
+				"dropType": "NORMAL"
 			},
 			{
 				"type": "DIAMOND",
 				"id": "4002",
-				"dropType": 8
+				"dropType": "COMPLETE"
 			}
 		],
 		"displayDetailRewards": [
 			{
-				"occPercent": 0,
+				"occPercent": "ALWAYS",
 				"type": "ACTIVITY_ITEM",
-				"id": "act13side_token_model",
-				"dropType": 8
+				"id": "act13side_token_model_rep_1",
+				"dropType": "COMPLETE"
 			},
 			{
-				"occPercent": 0,
+				"occPercent": "ALWAYS",
 				"type": "ACTIVITY_ITEM",
-				"id": "act13side_token_model",
-				"dropType": 2
+				"id": "act13side_token_model_rep_1",
+				"dropType": "NORMAL"
 			},
 			{
-				"occPercent": 2,
+				"occPercent": "USUAL",
 				"type": "MATERIAL",
 				"id": "30073",
-				"dropType": 2
+				"dropType": "NORMAL"
 			},
 			{
-				"occPercent": 0,
+				"occPercent": "ALWAYS",
 				"type": "DIAMOND",
 				"id": "4002",
-				"dropType": 8
+				"dropType": "COMPLETE"
 			}
 		]
 	},
+	"canUseCharm": false,
+	"canUseTech": false,
+	"canUseTrapTool": false,
+	"canUseBattlePerformance": false,
 	"startButtonOverrideId": null,
 	"isStagePatch": false,
-	"mainStageId": "act13side_st01"
+	"mainStageId": "act13side_st01",
+	"extraCondition": null,
+	"extraInfo": null
 }

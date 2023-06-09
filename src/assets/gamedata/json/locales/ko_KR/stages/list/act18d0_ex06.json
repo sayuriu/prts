@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act18d0_ex05",
@@ -10,7 +11,7 @@
 	],
 	"stageId": "act18d0_ex06",
 	"levelId": "Activities/act18d0/level_act18d0_ex06",
-	"zoneId": "act18d0_zone2",
+	"zoneId": "act10sre_zone2",
 	"code": "WD-EX-6",
 	"name": "팀장",
 	"description": "용병의 작전은 무조건 '계급'을 따라야 한다. 그렇기에 각 팀의 팀장은 보통 훈련을 가장 잘 받은…… 뭐, 아무튼, 가장 잘 훈련된 인원이 맡는다.\n<@lv.item><이동식 전술 격납고></> 수요에 따라 수시로 드론을 띄워 적군 용병팀의 작전을 지원한다.\n<@lv.item><장애물></> 배치되면 적의 진격로를 차단",
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {
@@ -52,7 +54,7 @@
 		"displayRewards": [
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act18d0_token_page",
+				"id": "act18d0_token_page_rep_1",
 				"dropType": 8
 			},
 			{
@@ -65,7 +67,7 @@
 			{
 				"occPercent": 0,
 				"type": "ACTIVITY_ITEM",
-				"id": "act18d0_token_page",
+				"id": "act18d0_token_page_rep_1",
 				"dropType": 8
 			},
 			{

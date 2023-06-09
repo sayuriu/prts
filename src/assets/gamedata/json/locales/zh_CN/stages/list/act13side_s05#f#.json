@@ -2,19 +2,20 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "FOUR_STAR",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "main_02-08",
-			"completeState": 2
+			"completeState": "PASS"
 		},
 		{
 			"stageId": "act13side_s05",
-			"completeState": 3
+			"completeState": "COMPLETE"
 		}
 	],
 	"stageId": "act13side_s05#f#",
 	"levelId": "Activities/act13side/level_act13side_sub-1-5",
-	"zoneId": "act13side_zone3",
+	"zoneId": "act13sre_zone3",
 	"code": "NL-S-5",
 	"name": "无胄盟据点",
 	"description": "<@lv.fs>附加条件：</>\\n 莫尼克及其手下与罗伊及其手下的攻击速度上升",
@@ -48,7 +49,7 @@
 	"isHardPredefined": false,
 	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
-	"appearanceStyle": 0,
+	"appearanceStyle": "MAIN_NORMAL",
 	"stageDropInfo": {
 		"firstPassRewards": null,
 		"firstCompleteRewards": null,
@@ -58,19 +59,25 @@
 			{
 				"type": "DIAMOND",
 				"id": "4002",
-				"dropType": 8
+				"dropType": "COMPLETE"
 			}
 		],
 		"displayDetailRewards": [
 			{
-				"occPercent": 0,
+				"occPercent": "ALWAYS",
 				"type": "DIAMOND",
 				"id": "4002",
-				"dropType": 8
+				"dropType": "COMPLETE"
 			}
 		]
 	},
+	"canUseCharm": false,
+	"canUseTech": false,
+	"canUseTrapTool": false,
+	"canUseBattlePerformance": false,
 	"startButtonOverrideId": null,
 	"isStagePatch": false,
-	"mainStageId": "act13side_s01"
+	"mainStageId": "act13side_s01",
+	"extraCondition": null,
+	"extraInfo": null
 }

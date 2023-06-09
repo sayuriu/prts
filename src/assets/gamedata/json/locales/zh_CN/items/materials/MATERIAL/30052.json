@@ -6,15 +6,15 @@
 	"iconId": "MTL_SL_KETONE2",
 	"overrideBkg": null,
 	"stackIconId": null,
-	"sortId": 100034,
+	"sortId": 100048,
 	"usage": "少量的工业用有机化合物。可用于多种强化场合，也常作为制造站合成项目的原料。",
 	"obtainApproach": null,
 	"classifyType": "MATERIAL",
 	"itemType": "MATERIAL",
 	"stageDropList": [
 		{
-			"stageId": "act14side_04",
-			"occPer": "ALMOST"
+			"stageId": "act20side_05",
+			"occPer": "ALWAYS"
 		},
 		{
 			"stageId": "act10d5_03",
@@ -53,7 +53,7 @@
 			"occPer": "ALMOST"
 		},
 		{
-			"stageId": "a001_04",
+			"stageId": "act14side_04",
 			"occPer": "ALMOST"
 		},
 		{
@@ -65,31 +65,35 @@
 			"occPer": "ALWAYS"
 		},
 		{
+			"stageId": "act19side_05",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "a001_04",
+			"occPer": "ALMOST"
+		},
+		{
+			"stageId": "act13mini_05",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "act22side_04",
+			"occPer": "ALMOST"
+		},
+		{
+			"stageId": "act23side_05",
+			"occPer": "ALMOST"
+		},
+		{
+			"stageId": "act25side_05",
+			"occPer": "OFTEN"
+		},
+		{
 			"stageId": "act4d0_03",
 			"occPer": "ALMOST"
 		},
 		{
-			"stageId": "sub_07-1-2",
-			"occPer": "ALMOST"
-		},
-		{
-			"stageId": "sub_06-2-1",
-			"occPer": "ALMOST"
-		},
-		{
-			"stageId": "main_08-08",
-			"occPer": "USUAL"
-		},
-		{
-			"stageId": "main_07-16",
-			"occPer": "USUAL"
-		},
-		{
-			"stageId": "main_07-10",
-			"occPer": "USUAL"
-		},
-		{
-			"stageId": "main_06-14",
+			"stageId": "sub_02-01",
 			"occPer": "USUAL"
 		},
 		{
@@ -97,8 +101,36 @@
 			"occPer": "ALWAYS"
 		},
 		{
-			"stageId": "sub_02-01",
+			"stageId": "sub_06-2-1",
+			"occPer": "ALMOST"
+		},
+		{
+			"stageId": "main_06-14",
 			"occPer": "USUAL"
+		},
+		{
+			"stageId": "main_07-10",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "sub_07-1-2",
+			"occPer": "ALMOST"
+		},
+		{
+			"stageId": "main_07-16",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "main_08-08",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "main_10-08",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "tough_10-08",
+			"occPer": "ALWAYS"
 		}
 	],
 	"buildingProductList": [

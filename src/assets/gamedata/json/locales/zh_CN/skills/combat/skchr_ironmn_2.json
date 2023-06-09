@@ -1,0 +1,347 @@
+{
+	"skillId": "skchr_ironmn_2",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "高效补给",
+			"rangeId": null,
+			"description": "携带此技能时：装置使一名我方干员每3.5秒获得<@ba.vup>1</>点技力\\n攻击力<@ba.vup>+{atk:0%}</>，防御力<@ba.vup>+{def:0%}</>，攻击所有阻挡的敌人，装置强化为每<@ba.vup>{fake_interval}</>秒使目标获得<@ba.vup>1</>点技力但生命流失翻倍。\\n<@ba.rem>技能结束时获得一个装置</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 65,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_ironmn_2",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.1,
+					"valueStr": null
+				},
+				{
+					"key": "def",
+					"value": 0.1,
+					"valueStr": null
+				},
+				{
+					"key": "fake_interval",
+					"value": 3,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "高效补给",
+			"rangeId": null,
+			"description": "携带此技能时：装置使一名我方干员每3.5秒获得<@ba.vup>1</>点技力\\n攻击力<@ba.vup>+{atk:0%}</>，防御力<@ba.vup>+{def:0%}</>，攻击所有阻挡的敌人，装置强化为每<@ba.vup>{fake_interval}</>秒使目标获得<@ba.vup>1</>点技力但生命流失翻倍。\\n<@ba.rem>技能结束时获得一个装置</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 65,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_ironmn_2",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.15,
+					"valueStr": null
+				},
+				{
+					"key": "def",
+					"value": 0.15,
+					"valueStr": null
+				},
+				{
+					"key": "fake_interval",
+					"value": 3,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "高效补给",
+			"rangeId": null,
+			"description": "携带此技能时：装置使一名我方干员每3.5秒获得<@ba.vup>1</>点技力\\n攻击力<@ba.vup>+{atk:0%}</>，防御力<@ba.vup>+{def:0%}</>，攻击所有阻挡的敌人，装置强化为每<@ba.vup>{fake_interval}</>秒使目标获得<@ba.vup>1</>点技力但生命流失翻倍。\\n<@ba.rem>技能结束时获得一个装置</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 65,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_ironmn_2",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.2,
+					"valueStr": null
+				},
+				{
+					"key": "def",
+					"value": 0.2,
+					"valueStr": null
+				},
+				{
+					"key": "fake_interval",
+					"value": 3,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "高效补给",
+			"rangeId": null,
+			"description": "携带此技能时：装置使一名我方干员每3.5秒获得<@ba.vup>1</>点技力\\n攻击力<@ba.vup>+{atk:0%}</>，防御力<@ba.vup>+{def:0%}</>，攻击所有阻挡的敌人，装置强化为每<@ba.vup>{fake_interval}</>秒使目标获得<@ba.vup>1</>点技力但生命流失翻倍。\\n<@ba.rem>技能结束时获得一个装置</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 60,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_ironmn_2",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.25,
+					"valueStr": null
+				},
+				{
+					"key": "def",
+					"value": 0.25,
+					"valueStr": null
+				},
+				{
+					"key": "fake_interval",
+					"value": 2.5,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "高效补给",
+			"rangeId": null,
+			"description": "携带此技能时：装置使一名我方干员每3.5秒获得<@ba.vup>1</>点技力\\n攻击力<@ba.vup>+{atk:0%}</>，防御力<@ba.vup>+{def:0%}</>，攻击所有阻挡的敌人，装置强化为每<@ba.vup>{fake_interval}</>秒使目标获得<@ba.vup>1</>点技力但生命流失翻倍。\\n<@ba.rem>技能结束时获得一个装置</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 60,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_ironmn_2",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.3,
+					"valueStr": null
+				},
+				{
+					"key": "def",
+					"value": 0.3,
+					"valueStr": null
+				},
+				{
+					"key": "fake_interval",
+					"value": 2.5,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "高效补给",
+			"rangeId": null,
+			"description": "携带此技能时：装置使一名我方干员每3.5秒获得<@ba.vup>1</>点技力\\n攻击力<@ba.vup>+{atk:0%}</>，防御力<@ba.vup>+{def:0%}</>，攻击所有阻挡的敌人，装置强化为每<@ba.vup>{fake_interval}</>秒使目标获得<@ba.vup>1</>点技力但生命流失翻倍。\\n<@ba.rem>技能结束时获得一个装置</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 60,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_ironmn_2",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.35,
+					"valueStr": null
+				},
+				{
+					"key": "def",
+					"value": 0.35,
+					"valueStr": null
+				},
+				{
+					"key": "fake_interval",
+					"value": 2.5,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "高效补给",
+			"rangeId": null,
+			"description": "携带此技能时：装置使一名我方干员每3.5秒获得<@ba.vup>1</>点技力\\n攻击力<@ba.vup>+{atk:0%}</>，防御力<@ba.vup>+{def:0%}</>，攻击所有阻挡的敌人，装置强化为每<@ba.vup>{fake_interval}</>秒使目标获得<@ba.vup>1</>点技力但生命流失翻倍。\\n<@ba.rem>技能结束时获得一个装置</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 55,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_ironmn_2",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.4,
+					"valueStr": null
+				},
+				{
+					"key": "def",
+					"value": 0.4,
+					"valueStr": null
+				},
+				{
+					"key": "fake_interval",
+					"value": 2,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "高效补给",
+			"rangeId": null,
+			"description": "携带此技能时：装置使一名我方干员每3.5秒获得<@ba.vup>1</>点技力\\n攻击力<@ba.vup>+{atk:0%}</>，防御力<@ba.vup>+{def:0%}</>，攻击所有阻挡的敌人，装置强化为每<@ba.vup>{fake_interval}</>秒使目标获得<@ba.vup>1</>点技力但生命流失翻倍。\\n<@ba.rem>技能结束时获得一个装置</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 53,
+				"initSp": 25,
+				"increment": 1
+			},
+			"prefabId": "skchr_ironmn_2",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.45,
+					"valueStr": null
+				},
+				{
+					"key": "def",
+					"value": 0.45,
+					"valueStr": null
+				},
+				{
+					"key": "fake_interval",
+					"value": 2,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "高效补给",
+			"rangeId": null,
+			"description": "携带此技能时：装置使一名我方干员每3.5秒获得<@ba.vup>1</>点技力\\n攻击力<@ba.vup>+{atk:0%}</>，防御力<@ba.vup>+{def:0%}</>，攻击所有阻挡的敌人，装置强化为每<@ba.vup>{fake_interval}</>秒使目标获得<@ba.vup>1</>点技力但生命流失翻倍。\\n<@ba.rem>技能结束时获得一个装置</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 51,
+				"initSp": 25,
+				"increment": 1
+			},
+			"prefabId": "skchr_ironmn_2",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.5,
+					"valueStr": null
+				},
+				{
+					"key": "def",
+					"value": 0.5,
+					"valueStr": null
+				},
+				{
+					"key": "fake_interval",
+					"value": 2,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "高效补给",
+			"rangeId": null,
+			"description": "携带此技能时：装置使一名我方干员每3.5秒获得<@ba.vup>1</>点技力\\n攻击力<@ba.vup>+{atk:0%}</>，防御力<@ba.vup>+{def:0%}</>，攻击所有阻挡的敌人，装置强化为每<@ba.vup>{fake_interval}</>秒使目标获得<@ba.vup>1</>点技力但生命流失翻倍。\\n<@ba.rem>技能结束时获得一个装置</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 50,
+				"initSp": 25,
+				"increment": 1
+			},
+			"prefabId": "skchr_ironmn_2",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.6,
+					"valueStr": null
+				},
+				{
+					"key": "def",
+					"value": 0.6,
+					"valueStr": null
+				},
+				{
+					"key": "fake_interval",
+					"value": 2,
+					"valueStr": null
+				}
+			]
+		}
+	]
+}

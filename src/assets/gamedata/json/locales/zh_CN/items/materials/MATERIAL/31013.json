@@ -6,12 +6,16 @@
 	"iconId": "MTL_SL_PGEL3",
 	"overrideBkg": null,
 	"stackIconId": null,
-	"sortId": 100037,
+	"sortId": 100017,
 	"usage": "一种高强度的可塑性材料。可用于多种强化场合，也常作为制造站合成项目的原料。",
 	"obtainApproach": null,
 	"classifyType": "MATERIAL",
 	"itemType": "MATERIAL",
 	"stageDropList": [
+		{
+			"stageId": "act20side_08",
+			"occPer": "USUAL"
+		},
 		{
 			"stageId": "act16side_08",
 			"occPer": "USUAL"
@@ -34,6 +38,30 @@
 		},
 		{
 			"stageId": "main_08-16",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_10-02",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "tough_10-02",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_11-10",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "tough_11-10",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_12-04",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "tough_12-04",
 			"occPer": "OFTEN"
 		},
 		{

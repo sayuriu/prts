@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act18d0_tr01",
@@ -10,7 +11,7 @@
 	],
 	"stageId": "act18d0_02",
 	"levelId": "Activities/act18d0/level_act18d0_02",
-	"zoneId": "act18d0_zone1",
+	"zoneId": "act10sre_zone1",
 	"code": "WD-2",
 	"name": "オアシスの霹靂",
 	"description": "ケルシーは生存者と共に徒歩で広いオアシスにたどり着いた。多くの動物が水を求めてここに訪れる。当然、水を必要としない敵偵察ドローンもついてくる。\n<@lv.item><可動式戦術格納庫></>必要に応じて随時ドローンを射出し、敵傭兵チームの作戦支援を行える",
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {
@@ -57,22 +59,12 @@
 			},
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act18d0_token_page",
+				"id": "act18d0_token_page_rep_1",
 				"dropType": 8
 			},
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act18d0_token_page",
-				"dropType": 2
-			},
-			{
-				"type": "MATERIAL",
-				"id": "30031",
-				"dropType": 2
-			},
-			{
-				"type": "MATERIAL",
-				"id": "30061",
+				"id": "act18d0_token_page_rep_1",
 				"dropType": 2
 			},
 			{
@@ -83,16 +75,6 @@
 			{
 				"type": "MATERIAL",
 				"id": "30051",
-				"dropType": 2
-			},
-			{
-				"type": "MATERIAL",
-				"id": "30021",
-				"dropType": 2
-			},
-			{
-				"type": "MATERIAL",
-				"id": "30011",
 				"dropType": 2
 			},
 			{
@@ -111,25 +93,13 @@
 			{
 				"occPercent": 0,
 				"type": "ACTIVITY_ITEM",
-				"id": "act18d0_token_page",
+				"id": "act18d0_token_page_rep_1",
 				"dropType": 8
 			},
 			{
 				"occPercent": 0,
 				"type": "ACTIVITY_ITEM",
-				"id": "act18d0_token_page",
-				"dropType": 2
-			},
-			{
-				"occPercent": 2,
-				"type": "MATERIAL",
-				"id": "30031",
-				"dropType": 2
-			},
-			{
-				"occPercent": 3,
-				"type": "MATERIAL",
-				"id": "30061",
+				"id": "act18d0_token_page_rep_1",
 				"dropType": 2
 			},
 			{
@@ -142,18 +112,6 @@
 				"occPercent": 3,
 				"type": "MATERIAL",
 				"id": "30051",
-				"dropType": 2
-			},
-			{
-				"occPercent": 2,
-				"type": "MATERIAL",
-				"id": "30021",
-				"dropType": 2
-			},
-			{
-				"occPercent": 1,
-				"type": "MATERIAL",
-				"id": "30011",
 				"dropType": 2
 			},
 			{

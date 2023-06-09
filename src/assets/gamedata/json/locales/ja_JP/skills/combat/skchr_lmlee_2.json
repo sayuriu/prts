@@ -1,0 +1,437 @@
+{
+	"skillId": "skchr_lmlee_2",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "辟邪除災",
+			"rangeId": null,
+			"description": "パッシブ：攻撃速度<@ba.vup>+{attack_speed}</>\nアクティブ：敵1体をマークして、味方から攻撃されやすくする。<@ba.vup>{paper_duration}</>秒後マークが爆発して周囲一定範囲内の敵全員にリーの攻撃力の<@ba.vup>{default_atk_scale:0%}</>の術ダメージを与える。マークの継続時間内に対象が攻撃を受ける度に、爆発の与ダメージがリーの攻撃力の<@ba.vup>{factor_atk_scale:0%}</>増加する（最大<@ba.vup>{max_stack_cnt}</>回分まで増加し、上限に達するか対象が撃破されると、マークが即座に爆発する）",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 12,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_lmlee_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "default_atk_scale",
+					"value": 2
+				},
+				{
+					"key": "factor_atk_scale",
+					"value": 0.05
+				},
+				{
+					"key": "max_stack_cnt",
+					"value": 20
+				},
+				{
+					"key": "taunt_level",
+					"value": 1
+				},
+				{
+					"key": "paper_duration",
+					"value": 5
+				},
+				{
+					"key": "attack_speed",
+					"value": 10
+				}
+			]
+		},
+		{
+			"name": "辟邪除災",
+			"rangeId": null,
+			"description": "パッシブ：攻撃速度<@ba.vup>+{attack_speed}</>\nアクティブ：敵1体をマークして、味方から攻撃されやすくする。<@ba.vup>{paper_duration}</>秒後マークが爆発して周囲一定範囲内の敵全員にリーの攻撃力の<@ba.vup>{default_atk_scale:0%}</>の術ダメージを与える。マークの継続時間内に対象が攻撃を受ける度に、爆発の与ダメージがリーの攻撃力の<@ba.vup>{factor_atk_scale:0%}</>増加する（最大<@ba.vup>{max_stack_cnt}</>回分まで増加し、上限に達するか対象が撃破されると、マークが即座に爆発する）",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 12,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_lmlee_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "default_atk_scale",
+					"value": 2.1
+				},
+				{
+					"key": "factor_atk_scale",
+					"value": 0.05
+				},
+				{
+					"key": "max_stack_cnt",
+					"value": 20
+				},
+				{
+					"key": "taunt_level",
+					"value": 1
+				},
+				{
+					"key": "paper_duration",
+					"value": 5
+				},
+				{
+					"key": "attack_speed",
+					"value": 10
+				}
+			]
+		},
+		{
+			"name": "辟邪除災",
+			"rangeId": null,
+			"description": "パッシブ：攻撃速度<@ba.vup>+{attack_speed}</>\nアクティブ：敵1体をマークして、味方から攻撃されやすくする。<@ba.vup>{paper_duration}</>秒後マークが爆発して周囲一定範囲内の敵全員にリーの攻撃力の<@ba.vup>{default_atk_scale:0%}</>の術ダメージを与える。マークの継続時間内に対象が攻撃を受ける度に、爆発の与ダメージがリーの攻撃力の<@ba.vup>{factor_atk_scale:0%}</>増加する（最大<@ba.vup>{max_stack_cnt}</>回分まで増加し、上限に達するか対象が撃破されると、マークが即座に爆発する）",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 12,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_lmlee_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "default_atk_scale",
+					"value": 2.2
+				},
+				{
+					"key": "factor_atk_scale",
+					"value": 0.05
+				},
+				{
+					"key": "max_stack_cnt",
+					"value": 20
+				},
+				{
+					"key": "taunt_level",
+					"value": 1
+				},
+				{
+					"key": "paper_duration",
+					"value": 5
+				},
+				{
+					"key": "attack_speed",
+					"value": 10
+				}
+			]
+		},
+		{
+			"name": "辟邪除災",
+			"rangeId": null,
+			"description": "パッシブ：攻撃速度<@ba.vup>+{attack_speed}</>\nアクティブ：敵1体をマークして、味方から攻撃されやすくする。<@ba.vup>{paper_duration}</>秒後マークが爆発して周囲一定範囲内の敵全員にリーの攻撃力の<@ba.vup>{default_atk_scale:0%}</>の術ダメージを与える。マークの継続時間内に対象が攻撃を受ける度に、爆発の与ダメージがリーの攻撃力の<@ba.vup>{factor_atk_scale:0%}</>増加する（最大<@ba.vup>{max_stack_cnt}</>回分まで増加し、上限に達するか対象が撃破されると、マークが即座に爆発する）",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 11,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_lmlee_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "default_atk_scale",
+					"value": 2.3
+				},
+				{
+					"key": "factor_atk_scale",
+					"value": 0.1
+				},
+				{
+					"key": "max_stack_cnt",
+					"value": 20
+				},
+				{
+					"key": "taunt_level",
+					"value": 1
+				},
+				{
+					"key": "paper_duration",
+					"value": 5
+				},
+				{
+					"key": "attack_speed",
+					"value": 15
+				}
+			]
+		},
+		{
+			"name": "辟邪除災",
+			"rangeId": null,
+			"description": "パッシブ：攻撃速度<@ba.vup>+{attack_speed}</>\nアクティブ：敵1体をマークして、味方から攻撃されやすくする。<@ba.vup>{paper_duration}</>秒後マークが爆発して周囲一定範囲内の敵全員にリーの攻撃力の<@ba.vup>{default_atk_scale:0%}</>の術ダメージを与える。マークの継続時間内に対象が攻撃を受ける度に、爆発の与ダメージがリーの攻撃力の<@ba.vup>{factor_atk_scale:0%}</>増加する（最大<@ba.vup>{max_stack_cnt}</>回分まで増加し、上限に達するか対象が撃破されると、マークが即座に爆発する）",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 11,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_lmlee_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "default_atk_scale",
+					"value": 2.4
+				},
+				{
+					"key": "factor_atk_scale",
+					"value": 0.1
+				},
+				{
+					"key": "max_stack_cnt",
+					"value": 20
+				},
+				{
+					"key": "taunt_level",
+					"value": 1
+				},
+				{
+					"key": "paper_duration",
+					"value": 5
+				},
+				{
+					"key": "attack_speed",
+					"value": 15
+				}
+			]
+		},
+		{
+			"name": "辟邪除災",
+			"rangeId": null,
+			"description": "パッシブ：攻撃速度<@ba.vup>+{attack_speed}</>\nアクティブ：敵1体をマークして、味方から攻撃されやすくする。<@ba.vup>{paper_duration}</>秒後マークが爆発して周囲一定範囲内の敵全員にリーの攻撃力の<@ba.vup>{default_atk_scale:0%}</>の術ダメージを与える。マークの継続時間内に対象が攻撃を受ける度に、爆発の与ダメージがリーの攻撃力の<@ba.vup>{factor_atk_scale:0%}</>増加する（最大<@ba.vup>{max_stack_cnt}</>回分まで増加し、上限に達するか対象が撃破されると、マークが即座に爆発する）",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 11,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_lmlee_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "default_atk_scale",
+					"value": 2.5
+				},
+				{
+					"key": "factor_atk_scale",
+					"value": 0.1
+				},
+				{
+					"key": "max_stack_cnt",
+					"value": 20
+				},
+				{
+					"key": "taunt_level",
+					"value": 1
+				},
+				{
+					"key": "paper_duration",
+					"value": 5
+				},
+				{
+					"key": "attack_speed",
+					"value": 15
+				}
+			]
+		},
+		{
+			"name": "辟邪除災",
+			"rangeId": null,
+			"description": "パッシブ：攻撃速度<@ba.vup>+{attack_speed}</>\nアクティブ：敵1体をマークして、味方から攻撃されやすくする。<@ba.vup>{paper_duration}</>秒後マークが爆発して周囲一定範囲内の敵全員にリーの攻撃力の<@ba.vup>{default_atk_scale:0%}</>の術ダメージを与える。マークの継続時間内に対象が攻撃を受ける度に、爆発の与ダメージがリーの攻撃力の<@ba.vup>{factor_atk_scale:0%}</>増加する（最大<@ba.vup>{max_stack_cnt}</>回分まで増加し、上限に達するか対象が撃破されると、マークが即座に爆発する）",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 10,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_lmlee_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "default_atk_scale",
+					"value": 2.6
+				},
+				{
+					"key": "factor_atk_scale",
+					"value": 0.15
+				},
+				{
+					"key": "max_stack_cnt",
+					"value": 25
+				},
+				{
+					"key": "taunt_level",
+					"value": 1
+				},
+				{
+					"key": "paper_duration",
+					"value": 5
+				},
+				{
+					"key": "attack_speed",
+					"value": 20
+				}
+			]
+		},
+		{
+			"name": "辟邪除災",
+			"rangeId": null,
+			"description": "パッシブ：攻撃速度<@ba.vup>+{attack_speed}</>\nアクティブ：敵1体をマークして、味方から攻撃されやすくする。<@ba.vup>{paper_duration}</>秒後マークが爆発して周囲一定範囲内の敵全員にリーの攻撃力の<@ba.vup>{default_atk_scale:0%}</>の術ダメージを与える。マークの継続時間内に対象が攻撃を受ける度に、爆発の与ダメージがリーの攻撃力の<@ba.vup>{factor_atk_scale:0%}</>増加する（最大<@ba.vup>{max_stack_cnt}</>回分まで増加し、上限に達するか対象が撃破されると、マークが即座に爆発する）",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 9,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_lmlee_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "default_atk_scale",
+					"value": 2.7
+				},
+				{
+					"key": "factor_atk_scale",
+					"value": 0.15
+				},
+				{
+					"key": "max_stack_cnt",
+					"value": 25
+				},
+				{
+					"key": "taunt_level",
+					"value": 1
+				},
+				{
+					"key": "paper_duration",
+					"value": 5
+				},
+				{
+					"key": "attack_speed",
+					"value": 20
+				}
+			]
+		},
+		{
+			"name": "辟邪除災",
+			"rangeId": null,
+			"description": "パッシブ：攻撃速度<@ba.vup>+{attack_speed}</>\nアクティブ：敵1体をマークして、味方から攻撃されやすくする。<@ba.vup>{paper_duration}</>秒後マークが爆発して周囲一定範囲内の敵全員にリーの攻撃力の<@ba.vup>{default_atk_scale:0%}</>の術ダメージを与える。マークの継続時間内に対象が攻撃を受ける度に、爆発の与ダメージがリーの攻撃力の<@ba.vup>{factor_atk_scale:0%}</>増加する（最大<@ba.vup>{max_stack_cnt}</>回分まで増加し、上限に達するか対象が撃破されると、マークが即座に爆発する）",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 8,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_lmlee_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "default_atk_scale",
+					"value": 2.8
+				},
+				{
+					"key": "factor_atk_scale",
+					"value": 0.15
+				},
+				{
+					"key": "max_stack_cnt",
+					"value": 25
+				},
+				{
+					"key": "taunt_level",
+					"value": 1
+				},
+				{
+					"key": "paper_duration",
+					"value": 5
+				},
+				{
+					"key": "attack_speed",
+					"value": 20
+				}
+			]
+		},
+		{
+			"name": "辟邪除災",
+			"rangeId": null,
+			"description": "パッシブ：攻撃速度<@ba.vup>+{attack_speed}</>\nアクティブ：敵1体をマークして、味方から攻撃されやすくする。<@ba.vup>{paper_duration}</>秒後マークが爆発して周囲一定範囲内の敵全員にリーの攻撃力の<@ba.vup>{default_atk_scale:0%}</>の術ダメージを与える。マークの継続時間内に対象が攻撃を受ける度に、爆発の与ダメージがリーの攻撃力の<@ba.vup>{factor_atk_scale:0%}</>増加する（最大<@ba.vup>{max_stack_cnt}</>回分まで増加し、上限に達するか対象が撃破されると、マークが即座に爆発する）",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 7,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_lmlee_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "default_atk_scale",
+					"value": 3
+				},
+				{
+					"key": "factor_atk_scale",
+					"value": 0.2
+				},
+				{
+					"key": "max_stack_cnt",
+					"value": 30
+				},
+				{
+					"key": "taunt_level",
+					"value": 1
+				},
+				{
+					"key": "paper_duration",
+					"value": 5
+				},
+				{
+					"key": "attack_speed",
+					"value": 30
+				}
+			]
+		}
+	]
+}

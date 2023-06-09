@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act13d5_ex05",
@@ -10,10 +11,10 @@
 	],
 	"stageId": "act13d5_ex06",
 	"levelId": "Activities/ACT13D5/level_act13d5_ex06",
-	"zoneId": "act13d5_zone2",
+	"zoneId": "act7sre_zone2",
 	"code": "MN-EX-6",
 	"name": "폭탄미궁",
-	"description": "일부 경기장에선 모든 폭탄과 장애물의 위치가 관중의 투표로 결정되는 소름끼치는 규칙을 채택하고 있다. 이건 기사들이 자존심을 버리는 경기… 아니, 이미 경기와는 아무 상관없나. 돈은 확실히 많이 주니까.\n<@lv.item><방해지뢰></>폭발 시 주변의 모든 적에게 대량의 대미지 및 15초간 받는 대미지 증가",
+	"description": "일부 경기장에선 모든 폭탄과 장애물의 위치가 관중의 투표로 결정되는 소름끼치는 규칙을 채택하고 있다. 이건 기사들이 자존심을 버리는 경기… 아니, 이미 경기와는 아무 상관없나. 돈은 확실히 많이 주니까.\n<@lv.item><방해지뢰></> 폭발 시 주변의 모든 적에게 대량의 대미지 및 15초간 받는 대미지 증가",
 	"hardStagedId": "act13d5_ex06#f#",
 	"dangerLevel": "2차 정예화 Lv.20",
 	"dangerPoint": -1,
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {
@@ -52,7 +54,7 @@
 		"displayRewards": [
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act13d5_token_securities",
+				"id": "act13d5_token_securities_rep_1",
 				"dropType": 8
 			},
 			{
@@ -65,7 +67,7 @@
 			{
 				"occPercent": 0,
 				"type": "ACTIVITY_ITEM",
-				"id": "act13d5_token_securities",
+				"id": "act13d5_token_securities_rep_1",
 				"dropType": 8
 			},
 			{

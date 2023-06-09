@@ -6,12 +6,20 @@
 	"iconId": "MTL_SL_BOSS3",
 	"overrideBkg": null,
 	"stackIconId": null,
-	"sortId": 100017,
+	"sortId": 100031,
 	"usage": "최신식 기계장치. 제조소에서 합성 재료로 쓰이며 각종 강화에 사용된다.",
 	"obtainApproach": null,
 	"classifyType": "MATERIAL",
 	"itemType": "MATERIAL",
 	"stageDropList": [
+		{
+			"stageId": "act12mini_08",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "act15side_06",
+			"occPer": "USUAL"
+		},
 		{
 			"stageId": "act18d3_09",
 			"occPer": "USUAL"
@@ -46,6 +54,22 @@
 		},
 		{
 			"stageId": "main_09-08",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_11-06",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_11-18",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "tough_11-06",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "tough_11-18",
 			"occPer": "OFTEN"
 		}
 	],

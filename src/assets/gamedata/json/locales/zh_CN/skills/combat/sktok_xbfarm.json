@@ -1,0 +1,25 @@
+{
+	"skillId": "sktok_xbfarm",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "稻谷种植",
+			"rangeId": null,
+			"description": "放置后每天产出一定数量的<稻谷>（同类建筑最多放置12个）",
+			"skillType": "PASSIVE",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 0,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": "sktok_empty",
+			"duration": -1,
+			"blackboard": []
+		}
+	]
+}

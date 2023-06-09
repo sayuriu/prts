@@ -1,0 +1,43 @@
+{
+	"skillId": "sktok_xbroadblock",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "阻断道路",
+			"rangeId": null,
+			"description": "I级：部署后可以阻止敌人前进路线使其绕路",
+			"skillType": "PASSIVE",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 0,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": "sktok_empty",
+			"duration": -1,
+			"blackboard": []
+		},
+		{
+			"name": "阻断道路",
+			"rangeId": null,
+			"description": "II级：更加坚固，部署后可以阻止敌人前进路线使其绕路且自身获得<$ba.camou>迷彩</>效果",
+			"skillType": "PASSIVE",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 0,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": "sktok_empty",
+			"duration": -1,
+			"blackboard": []
+		}
+	]
+}

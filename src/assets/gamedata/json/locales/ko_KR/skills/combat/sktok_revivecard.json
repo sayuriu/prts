@@ -1,0 +1,38 @@
+{
+	"skillId": "sktok_revivecard",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "리콜",
+			"rangeId": null,
+			"description": "배치 시 <@ba.vup>정비 구역</>에서 무작위로 <@ba.vup>{range_num}</>명 선별, 그중 <@ba.vup>0-{can_select_num}</>명을 준비 구역으로 이동\n<@ba.rem>발동 후 소멸(이번 전투에서 다시 출현하지 않음)</>",
+			"skillType": 2,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "sktok_revivecard",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "value",
+					"value": 3
+				},
+				{
+					"key": "range_num",
+					"value": 4
+				},
+				{
+					"key": "can_select_num",
+					"value": 2
+				}
+			]
+		}
+	]
+}

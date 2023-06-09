@@ -1,0 +1,41 @@
+{
+	"skillId": "sktok_cdshieldb",
+	"iconId": "sktok_cdshield",
+	"hidden": false,
+	"levels": [
+		{
+			"name": "镀膜",
+			"rangeId": null,
+			"description": "为前方的干员添加相当于其生命上限<@ba.vup>{shield_scale:0%}</>的<$ba.barrier>屏障</>",
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 20,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "sktok_cdshieldb",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "trigger_time",
+					"value": 3,
+					"valueStr": null
+				},
+				{
+					"key": "shield_scale",
+					"value": 1,
+					"valueStr": null
+				},
+				{
+					"key": "block_cnt",
+					"value": 0,
+					"valueStr": null
+				}
+			]
+		}
+	]
+}

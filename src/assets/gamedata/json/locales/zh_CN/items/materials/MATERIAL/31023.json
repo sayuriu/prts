@@ -6,15 +6,15 @@
 	"iconId": "MTL_SL_IAM3",
 	"overrideBkg": null,
 	"stackIconId": null,
-	"sortId": 100039,
+	"sortId": 100015,
 	"usage": "电子工业用特殊高熔点合金。可用于多种强化场合，也常作为制造站合成项目的原料。",
 	"obtainApproach": null,
 	"classifyType": "MATERIAL",
 	"itemType": "MATERIAL",
 	"stageDropList": [
 		{
-			"stageId": "act14side_06",
-			"occPer": "USUAL"
+			"stageId": "act7d5_06",
+			"occPer": "OFTEN"
 		},
 		{
 			"stageId": "act16d5_08",
@@ -25,8 +25,16 @@
 			"occPer": "USUAL"
 		},
 		{
-			"stageId": "act7d5_06",
-			"occPer": "OFTEN"
+			"stageId": "act14side_06",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "act19side_08",
+			"occPer": "ALMOST"
+		},
+		{
+			"stageId": "act25side_10",
+			"occPer": "ALMOST"
 		},
 		{
 			"stageId": "main_06-11",
@@ -41,11 +49,43 @@
 			"occPer": "OFTEN"
 		},
 		{
-			"stageId": "sub_03-3-1",
+			"stageId": "main_10-12",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "tough_10-12",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_11-02",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "tough_11-02",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_11-12",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "tough_11-12",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_12-10",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "tough_12-10",
 			"occPer": "OFTEN"
 		},
 		{
 			"stageId": "sub_05-4-2",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "sub_03-3-1",
 			"occPer": "OFTEN"
 		}
 	],

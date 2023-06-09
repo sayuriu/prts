@@ -6,7 +6,7 @@
 	"iconId": "MTL_SL_OC4",
 	"overrideBkg": null,
 	"stackIconId": null,
-	"sortId": 100041,
+	"sortId": 100012,
 	"usage": "重要的源石工业材料，可用于多种强化场合，是制作源石晶体单元的基础元件。",
 	"obtainApproach": null,
 	"classifyType": "MATERIAL",
@@ -14,6 +14,22 @@
 	"stageDropList": [
 		{
 			"stageId": "main_08-13",
+			"occPer": "SOMETIMES"
+		},
+		{
+			"stageId": "main_12-02",
+			"occPer": "SOMETIMES"
+		},
+		{
+			"stageId": "tough_12-02",
+			"occPer": "SOMETIMES"
+		},
+		{
+			"stageId": "main_12-17",
+			"occPer": "SOMETIMES"
+		},
+		{
+			"stageId": "tough_12-17",
 			"occPer": "SOMETIMES"
 		},
 		{

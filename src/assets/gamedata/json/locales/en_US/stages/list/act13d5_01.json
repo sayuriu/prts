@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act13d5_st01",
@@ -10,7 +11,7 @@
 	],
 	"stageId": "act13d5_01",
 	"levelId": "Activities/ACT13D5/level_act13d5_01",
-	"zoneId": "act13d5_zone1",
+	"zoneId": "act7sre_zone1",
 	"code": "MN-1",
 	"name": "Ellen Select Technology Co.",
 	"description": "Always providing you the latest products in tech! Build your life, together with Ellen Select! Ellen Select Technology Co., the companion of the era. Multiple drone models at 5% off for a limited time only, please visit the official website! \n<@lv.item><Originium Jetstream></>Continuously generates currents of airflow. Operators deployed downstream/upstream will deal increased/decreased damage; Enemies moving downstream/upstream will have increased/decreased Movement Speed.",
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {
@@ -52,12 +54,12 @@
 		"displayRewards": [
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act13d5_token_securities",
+				"id": "act13d5_token_securities_rep_1",
 				"dropType": 8
 			},
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act13d5_token_securities",
+				"id": "act13d5_token_securities_rep_1",
 				"dropType": 2
 			},
 			{
@@ -80,13 +82,13 @@
 			{
 				"occPercent": 0,
 				"type": "ACTIVITY_ITEM",
-				"id": "act13d5_token_securities",
+				"id": "act13d5_token_securities_rep_1",
 				"dropType": 8
 			},
 			{
 				"occPercent": 0,
 				"type": "ACTIVITY_ITEM",
-				"id": "act13d5_token_securities",
+				"id": "act13d5_token_securities_rep_1",
 				"dropType": 2
 			},
 			{

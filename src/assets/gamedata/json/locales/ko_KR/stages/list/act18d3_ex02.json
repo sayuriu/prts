@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act18d3_ex01",
@@ -10,7 +11,7 @@
 	],
 	"stageId": "act18d3_ex02",
 	"levelId": "Activities/act18d3/level_act18d3_ex02",
-	"zoneId": "act18d3_zone2",
+	"zoneId": "act11sre_zone2",
 	"code": "SV-EX-2",
 	"name": "빠른 실패",
 	"description": "육지에 기어 올라온 시테러는 거의 보기 드물지만, 올라온 극소수는 팔다리가 매우 빨리 자란다…… 빠른 이동을 위해서가 아니라, 단지 먹잇감을 낚아채기 위해.",
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {
@@ -52,7 +54,7 @@
 		"displayRewards": [
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act18d3_token_record",
+				"id": "act18d3_token_record_rep_1",
 				"dropType": 8
 			},
 			{
@@ -65,7 +67,7 @@
 			{
 				"occPercent": 0,
 				"type": "ACTIVITY_ITEM",
-				"id": "act18d3_token_record",
+				"id": "act18d3_token_record_rep_1",
 				"dropType": 8
 			},
 			{

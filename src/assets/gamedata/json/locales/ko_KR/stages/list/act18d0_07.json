@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act18d0_06",
@@ -10,7 +11,7 @@
 	],
 	"stageId": "act18d0_07",
 	"levelId": "Activities/act18d0/level_act18d0_07",
-	"zoneId": "act18d0_zone1",
+	"zoneId": "act10sre_zone1",
 	"code": "WD-7",
 	"name": "고향",
 	"description": "가난뱅이와 노숙자는 사라진 부자의 유산에 몸을 맡겼고, 고용된 킬러도 달빛 아래 호시탐탐 그걸 노렸다. 전투는 여명까지 이어졌고, 이신은 고개 들어 별을 쳐다보았다. 새벽바람은 쌀쌀했다. 초라한 자신의 집이긴 하지만 그래도 그는 몹시 그리워 했었다.\n<@lv.item><이동식 전술 격납고></> 수요에 따라 수시로 드론을 띄워 적군 용병팀의 작전을 지원한다.",
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {
@@ -52,12 +54,12 @@
 		"displayRewards": [
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act18d0_token_page",
+				"id": "act18d0_token_page_rep_1",
 				"dropType": 8
 			},
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act18d0_token_page",
+				"id": "act18d0_token_page_rep_1",
 				"dropType": 2
 			},
 			{
@@ -75,13 +77,13 @@
 			{
 				"occPercent": 0,
 				"type": "ACTIVITY_ITEM",
-				"id": "act18d0_token_page",
+				"id": "act18d0_token_page_rep_1",
 				"dropType": 8
 			},
 			{
 				"occPercent": 0,
 				"type": "ACTIVITY_ITEM",
-				"id": "act18d0_token_page",
+				"id": "act18d0_token_page_rep_1",
 				"dropType": 2
 			},
 			{

@@ -2,7 +2,9 @@
 	"name": "メカ・カワウソ",
 	"description": null,
 	"canUseGeneralPotentialItem": true,
-	"potentialItemId": "",
+	"canUseActivityPotentialItem": false,
+	"potentialItemId": null,
+	"activityPotentialItemId": null,
 	"nationId": null,
 	"groupId": null,
 	"teamId": null,
@@ -49,7 +51,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -74,7 +78,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -107,7 +113,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -132,7 +140,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -165,7 +175,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -190,7 +202,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -279,7 +293,7 @@
 					},
 					"requiredPotentialRank": 0,
 					"prefabKey": "1",
-					"name": "機械川獺操縦",
+					"name": null,
 					"description": "機械川獺を攻撃した敵の攻撃速度-10",
 					"rangeId": null,
 					"blackboard": [
@@ -300,7 +314,7 @@
 					},
 					"requiredPotentialRank": 0,
 					"prefabKey": "1",
-					"name": "機械川獺改良",
+					"name": null,
 					"description": "機械川獺を攻撃した敵の攻撃速度-25",
 					"rangeId": null,
 					"blackboard": [
@@ -321,7 +335,7 @@
 					},
 					"requiredPotentialRank": 0,
 					"prefabKey": "1",
-					"name": "機械川獺拡張",
+					"name": null,
 					"description": "機械川獺を攻撃した敵の攻撃速度-25",
 					"rangeId": null,
 					"blackboard": [

@@ -1,0 +1,347 @@
+{
+	"skillId": "skchr_ines_1",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "淬影突袭",
+			"rangeId": null,
+			"description": "下次攻击使目标<@ba.vup>{bleed_duration}</>秒内每秒受到相当于伊内丝攻击力<@ba.vup>{bleed_atk_scale:0%}</>的法术伤害（不叠加），并获得<@ba.vup>{cost}</>点部署费用",
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WHEN_ATTACK",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 5,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_ines_1",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "cost",
+					"value": 2,
+					"valueStr": null
+				},
+				{
+					"key": "bleed_atk_scale",
+					"value": 0.25,
+					"valueStr": null
+				},
+				{
+					"key": "bleed_duration",
+					"value": 3,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "淬影突袭",
+			"rangeId": null,
+			"description": "下次攻击使目标<@ba.vup>{bleed_duration}</>秒内每秒受到相当于伊内丝攻击力<@ba.vup>{bleed_atk_scale:0%}</>的法术伤害（不叠加），并获得<@ba.vup>{cost}</>点部署费用",
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WHEN_ATTACK",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 5,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_ines_1",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "cost",
+					"value": 2,
+					"valueStr": null
+				},
+				{
+					"key": "bleed_atk_scale",
+					"value": 0.3,
+					"valueStr": null
+				},
+				{
+					"key": "bleed_duration",
+					"value": 3,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "淬影突袭",
+			"rangeId": null,
+			"description": "下次攻击使目标<@ba.vup>{bleed_duration}</>秒内每秒受到相当于伊内丝攻击力<@ba.vup>{bleed_atk_scale:0%}</>的法术伤害（不叠加），并获得<@ba.vup>{cost}</>点部署费用",
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WHEN_ATTACK",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 5,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_ines_1",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "cost",
+					"value": 2,
+					"valueStr": null
+				},
+				{
+					"key": "bleed_atk_scale",
+					"value": 0.35,
+					"valueStr": null
+				},
+				{
+					"key": "bleed_duration",
+					"value": 3,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "淬影突袭",
+			"rangeId": null,
+			"description": "下次攻击使目标<@ba.vup>{bleed_duration}</>秒内每秒受到相当于伊内丝攻击力<@ba.vup>{bleed_atk_scale:0%}</>的法术伤害（不叠加），并获得<@ba.vup>{cost}</>点部署费用",
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WHEN_ATTACK",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 4,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_ines_1",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "cost",
+					"value": 2,
+					"valueStr": null
+				},
+				{
+					"key": "bleed_atk_scale",
+					"value": 0.4,
+					"valueStr": null
+				},
+				{
+					"key": "bleed_duration",
+					"value": 3,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "淬影突袭",
+			"rangeId": null,
+			"description": "下次攻击使目标<@ba.vup>{bleed_duration}</>秒内每秒受到相当于伊内丝攻击力<@ba.vup>{bleed_atk_scale:0%}</>的法术伤害（不叠加），并获得<@ba.vup>{cost}</>点部署费用",
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WHEN_ATTACK",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 4,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_ines_1",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "cost",
+					"value": 2,
+					"valueStr": null
+				},
+				{
+					"key": "bleed_atk_scale",
+					"value": 0.45,
+					"valueStr": null
+				},
+				{
+					"key": "bleed_duration",
+					"value": 3,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "淬影突袭",
+			"rangeId": null,
+			"description": "下次攻击使目标<@ba.vup>{bleed_duration}</>秒内每秒受到相当于伊内丝攻击力<@ba.vup>{bleed_atk_scale:0%}</>的法术伤害（不叠加），并获得<@ba.vup>{cost}</>点部署费用",
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WHEN_ATTACK",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 4,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_ines_1",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "cost",
+					"value": 2,
+					"valueStr": null
+				},
+				{
+					"key": "bleed_atk_scale",
+					"value": 0.5,
+					"valueStr": null
+				},
+				{
+					"key": "bleed_duration",
+					"value": 3,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "淬影突袭",
+			"rangeId": null,
+			"description": "下次攻击使目标<@ba.vup>{bleed_duration}</>秒内每秒受到相当于伊内丝攻击力<@ba.vup>{bleed_atk_scale:0%}</>的法术伤害（不叠加），并获得<@ba.vup>{cost}</>点部署费用",
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WHEN_ATTACK",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 3,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_ines_1",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "cost",
+					"value": 2,
+					"valueStr": null
+				},
+				{
+					"key": "bleed_atk_scale",
+					"value": 0.55,
+					"valueStr": null
+				},
+				{
+					"key": "bleed_duration",
+					"value": 3,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "淬影突袭",
+			"rangeId": null,
+			"description": "下次攻击使目标<@ba.vup>{bleed_duration}</>秒内每秒受到相当于伊内丝攻击力<@ba.vup>{bleed_atk_scale:0%}</>的法术伤害（不叠加），并获得<@ba.vup>{cost}</>点部署费用",
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WHEN_ATTACK",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 3,
+				"initSp": 1,
+				"increment": 1
+			},
+			"prefabId": "skchr_ines_1",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "cost",
+					"value": 2,
+					"valueStr": null
+				},
+				{
+					"key": "bleed_atk_scale",
+					"value": 0.65,
+					"valueStr": null
+				},
+				{
+					"key": "bleed_duration",
+					"value": 3,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "淬影突袭",
+			"rangeId": null,
+			"description": "下次攻击使目标<@ba.vup>{bleed_duration}</>秒内每秒受到相当于伊内丝攻击力<@ba.vup>{bleed_atk_scale:0%}</>的法术伤害（不叠加），并获得<@ba.vup>{cost}</>点部署费用",
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WHEN_ATTACK",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 3,
+				"initSp": 2,
+				"increment": 1
+			},
+			"prefabId": "skchr_ines_1",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "cost",
+					"value": 2,
+					"valueStr": null
+				},
+				{
+					"key": "bleed_atk_scale",
+					"value": 0.7,
+					"valueStr": null
+				},
+				{
+					"key": "bleed_duration",
+					"value": 3,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "淬影突袭",
+			"rangeId": null,
+			"description": "下次攻击使目标<@ba.vup>{bleed_duration}</>秒内每秒受到相当于伊内丝攻击力<@ba.vup>{bleed_atk_scale:0%}</>的法术伤害（不叠加），并获得<@ba.vup>{cost}</>点部署费用",
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WHEN_ATTACK",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 3,
+				"initSp": 3,
+				"increment": 1
+			},
+			"prefabId": "skchr_ines_1",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "cost",
+					"value": 2,
+					"valueStr": null
+				},
+				{
+					"key": "bleed_atk_scale",
+					"value": 0.8,
+					"valueStr": null
+				},
+				{
+					"key": "bleed_duration",
+					"value": 3,
+					"valueStr": null
+				}
+			]
+		}
+	]
+}

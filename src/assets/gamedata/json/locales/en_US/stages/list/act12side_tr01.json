@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act12side_st01",
@@ -10,10 +11,10 @@
 	],
 	"stageId": "act12side_tr01",
 	"levelId": "Activities/ACT12SIDE/level_act12side_tr01",
-	"zoneId": "act12side_zone1",
+	"zoneId": "act12sre_zone1",
 	"code": "DH-TR-1",
 	"name": "Just Arrived",
-	"description": "When arriving at an unfamiliar place, it's always better to have a local guide one around. \n<@lv.item><High Tide></> Unable to deploy on flooded tiles. Allied units and enemies in the water will be affected by 'Erosion': Allied units have reduced ASPD, continually receive Corrosion Damage and receive additional Corrosion Damage when attacked; Enemies have reduced ASPD and Movement Speed, and continually lose HP",
+	"description": "When arriving at an unfamiliar place, it's always better to have a local guide one around. \n<@lv.item><High Tide></>Unable to deploy on flooded tiles. Allied units and enemies in the water will suffer from 'Erosion': Allied units have reduced ASPD, continually receive Corrosion Damage and receive additional Corrosion Damage when attacked; Enemies have reduced ASPD and Movement Speed, and continually lose HP",
 	"hardStagedId": null,
 	"dangerLevel": null,
 	"dangerPoint": -1,
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": true,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 3,
 	"stageDropInfo": {

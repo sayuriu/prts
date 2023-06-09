@@ -6,7 +6,7 @@
 	"iconId": "MTL_SL_RMA7024",
 	"overrideBkg": null,
 	"stackIconId": null,
-	"sortId": 100010,
+	"sortId": 100024,
 	"usage": "A highly sensitive mineral with outstanding conductivity. Can be used for a variety of upgrades and the synthesis of D32 Steel.",
 	"obtainApproach": null,
 	"classifyType": "MATERIAL",
@@ -18,6 +18,22 @@
 		},
 		{
 			"stageId": "main_06-13",
+			"occPer": "SOMETIMES"
+		},
+		{
+			"stageId": "main_10-04",
+			"occPer": "SOMETIMES"
+		},
+		{
+			"stageId": "main_11-04",
+			"occPer": "SOMETIMES"
+		},
+		{
+			"stageId": "tough_10-04",
+			"occPer": "SOMETIMES"
+		},
+		{
+			"stageId": "tough_11-04",
 			"occPer": "SOMETIMES"
 		}
 	],

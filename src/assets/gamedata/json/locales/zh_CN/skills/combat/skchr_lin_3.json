@@ -1,0 +1,297 @@
+{
+	"skillId": "skchr_lin_3",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "流光乍裂",
+			"rangeId": "x-2",
+			"description": "攻击力<@ba.vup>+{atk:0%}</>，攻击范围与琉璃璧的破碎伤害范围<@ba.vup>扩大</>，琉璃璧破碎的伤害阈值提升至<@ba.vup>{talent_scale}</>倍，每次攻击若击倒敌人则使身上的琉璃璧破碎并立刻生成\\n<@ba.rem>可主动关闭技能（期间可随时停止技能）</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 60,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_lin_3",
+			"duration": 24,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.9,
+					"valueStr": null
+				},
+				{
+					"key": "talent_scale",
+					"value": 1.5,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "流光乍裂",
+			"rangeId": "x-2",
+			"description": "攻击力<@ba.vup>+{atk:0%}</>，攻击范围与琉璃璧的破碎伤害范围<@ba.vup>扩大</>，琉璃璧破碎的伤害阈值提升至<@ba.vup>{talent_scale}</>倍，每次攻击若击倒敌人则使身上的琉璃璧破碎并立刻生成\\n<@ba.rem>可主动关闭技能（期间可随时停止技能）</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 59,
+				"initSp": 12,
+				"increment": 1
+			},
+			"prefabId": "skchr_lin_3",
+			"duration": 24,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 1,
+					"valueStr": null
+				},
+				{
+					"key": "talent_scale",
+					"value": 1.5,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "流光乍裂",
+			"rangeId": "x-2",
+			"description": "攻击力<@ba.vup>+{atk:0%}</>，攻击范围与琉璃璧的破碎伤害范围<@ba.vup>扩大</>，琉璃璧破碎的伤害阈值提升至<@ba.vup>{talent_scale}</>倍，每次攻击若击倒敌人则使身上的琉璃璧破碎并立刻生成\\n<@ba.rem>可主动关闭技能（期间可随时停止技能）</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 58,
+				"initSp": 14,
+				"increment": 1
+			},
+			"prefabId": "skchr_lin_3",
+			"duration": 24,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 1.1,
+					"valueStr": null
+				},
+				{
+					"key": "talent_scale",
+					"value": 1.5,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "流光乍裂",
+			"rangeId": "x-2",
+			"description": "攻击力<@ba.vup>+{atk:0%}</>，攻击范围与琉璃璧的破碎伤害范围<@ba.vup>扩大</>，琉璃璧破碎的伤害阈值提升至<@ba.vup>{talent_scale}</>倍，每次攻击若击倒敌人则使身上的琉璃璧破碎并立刻生成\\n<@ba.rem>可主动关闭技能（期间可随时停止技能）</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 56,
+				"initSp": 16,
+				"increment": 1
+			},
+			"prefabId": "skchr_lin_3",
+			"duration": 26,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 1.25,
+					"valueStr": null
+				},
+				{
+					"key": "talent_scale",
+					"value": 2,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "流光乍裂",
+			"rangeId": "x-2",
+			"description": "攻击力<@ba.vup>+{atk:0%}</>，攻击范围与琉璃璧的破碎伤害范围<@ba.vup>扩大</>，琉璃璧破碎的伤害阈值提升至<@ba.vup>{talent_scale}</>倍，每次攻击若击倒敌人则使身上的琉璃璧破碎并立刻生成\\n<@ba.rem>可主动关闭技能（期间可随时停止技能）</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 55,
+				"initSp": 18,
+				"increment": 1
+			},
+			"prefabId": "skchr_lin_3",
+			"duration": 26,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 1.35,
+					"valueStr": null
+				},
+				{
+					"key": "talent_scale",
+					"value": 2,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "流光乍裂",
+			"rangeId": "x-2",
+			"description": "攻击力<@ba.vup>+{atk:0%}</>，攻击范围与琉璃璧的破碎伤害范围<@ba.vup>扩大</>，琉璃璧破碎的伤害阈值提升至<@ba.vup>{talent_scale}</>倍，每次攻击若击倒敌人则使身上的琉璃璧破碎并立刻生成\\n<@ba.rem>可主动关闭技能（期间可随时停止技能）</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 54,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_lin_3",
+			"duration": 26,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 1.45,
+					"valueStr": null
+				},
+				{
+					"key": "talent_scale",
+					"value": 2,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "流光乍裂",
+			"rangeId": "x-2",
+			"description": "攻击力<@ba.vup>+{atk:0%}</>，攻击范围与琉璃璧的破碎伤害范围<@ba.vup>扩大</>，琉璃璧破碎的伤害阈值提升至<@ba.vup>{talent_scale}</>倍，每次攻击若击倒敌人则使身上的琉璃璧破碎并立刻生成\\n<@ba.rem>可主动关闭技能（期间可随时停止技能）</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 52,
+				"initSp": 22,
+				"increment": 1
+			},
+			"prefabId": "skchr_lin_3",
+			"duration": 28,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 1.6,
+					"valueStr": null
+				},
+				{
+					"key": "talent_scale",
+					"value": 2.5,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "流光乍裂",
+			"rangeId": "x-2",
+			"description": "攻击力<@ba.vup>+{atk:0%}</>，攻击范围与琉璃璧的破碎伤害范围<@ba.vup>扩大</>，琉璃璧破碎的伤害阈值提升至<@ba.vup>{talent_scale}</>倍，每次攻击若击倒敌人则使身上的琉璃璧破碎并立刻生成\\n<@ba.rem>可主动关闭技能（期间可随时停止技能）</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 50,
+				"initSp": 24,
+				"increment": 1
+			},
+			"prefabId": "skchr_lin_3",
+			"duration": 28,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 1.75,
+					"valueStr": null
+				},
+				{
+					"key": "talent_scale",
+					"value": 2.5,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "流光乍裂",
+			"rangeId": "x-2",
+			"description": "攻击力<@ba.vup>+{atk:0%}</>，攻击范围与琉璃璧的破碎伤害范围<@ba.vup>扩大</>，琉璃璧破碎的伤害阈值提升至<@ba.vup>{talent_scale}</>倍，每次攻击若击倒敌人则使身上的琉璃璧破碎并立刻生成\\n<@ba.rem>可主动关闭技能（期间可随时停止技能）</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 50,
+				"initSp": 28,
+				"increment": 1
+			},
+			"prefabId": "skchr_lin_3",
+			"duration": 28,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 1.85,
+					"valueStr": null
+				},
+				{
+					"key": "talent_scale",
+					"value": 2.5,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "流光乍裂",
+			"rangeId": "x-2",
+			"description": "攻击力<@ba.vup>+{atk:0%}</>，攻击范围与琉璃璧的破碎伤害范围<@ba.vup>扩大</>，琉璃璧破碎的伤害阈值提升至<@ba.vup>{talent_scale}</>倍，每次攻击若击倒敌人则使身上的琉璃璧破碎并立刻生成\\n<@ba.rem>可主动关闭技能（期间可随时停止技能）</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 50,
+				"initSp": 30,
+				"increment": 1
+			},
+			"prefabId": "skchr_lin_3",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 2,
+					"valueStr": null
+				},
+				{
+					"key": "talent_scale",
+					"value": 3,
+					"valueStr": null
+				}
+			]
+		}
+	]
+}

@@ -2,15 +2,16 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "main_01-10",
-			"completeState": 2
+			"completeState": "PASS"
 		}
 	],
 	"stageId": "act18d3_01",
 	"levelId": "Activities/act18d3/level_act18d3_01",
-	"zoneId": "act18d3_zone1",
+	"zoneId": "act11sre_zone1",
 	"code": "SV-1",
 	"name": "闯入者",
 	"description": "赏金猎人和深海猎人是两种东西，她却一直用另一个身份来麻痹自己。她终归不是。",
@@ -44,7 +45,7 @@
 	"isHardPredefined": false,
 	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
-	"appearanceStyle": 0,
+	"appearanceStyle": "MAIN_NORMAL",
 	"stageDropInfo": {
 		"firstPassRewards": null,
 		"firstCompleteRewards": null,
@@ -54,118 +55,124 @@
 			{
 				"type": "FURN",
 				"id": "furni_abyssal_decal_01",
-				"dropType": 8
+				"dropType": "COMPLETE"
 			},
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act18d3_token_record",
-				"dropType": 8
+				"id": "act18d3_token_record_rep_1",
+				"dropType": "COMPLETE"
 			},
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act18d3_token_record",
-				"dropType": 2
+				"id": "act18d3_token_record_rep_1",
+				"dropType": "NORMAL"
 			},
 			{
 				"type": "MATERIAL",
 				"id": "30031",
-				"dropType": 2
+				"dropType": "NORMAL"
 			},
 			{
 				"type": "MATERIAL",
 				"id": "30061",
-				"dropType": 2
+				"dropType": "NORMAL"
 			},
 			{
 				"type": "MATERIAL",
 				"id": "30041",
-				"dropType": 2
+				"dropType": "NORMAL"
 			},
 			{
 				"type": "MATERIAL",
 				"id": "30051",
-				"dropType": 2
+				"dropType": "NORMAL"
 			},
 			{
 				"type": "MATERIAL",
 				"id": "30021",
-				"dropType": 2
+				"dropType": "NORMAL"
 			},
 			{
 				"type": "MATERIAL",
 				"id": "30011",
-				"dropType": 2
+				"dropType": "NORMAL"
 			},
 			{
 				"type": "DIAMOND",
 				"id": "4002",
-				"dropType": 8
+				"dropType": "COMPLETE"
 			}
 		],
 		"displayDetailRewards": [
 			{
-				"occPercent": 0,
+				"occPercent": "ALWAYS",
 				"type": "FURN",
 				"id": "furni_abyssal_decal_01",
-				"dropType": 8
+				"dropType": "COMPLETE"
 			},
 			{
-				"occPercent": 0,
+				"occPercent": "ALWAYS",
 				"type": "ACTIVITY_ITEM",
-				"id": "act18d3_token_record",
-				"dropType": 8
+				"id": "act18d3_token_record_rep_1",
+				"dropType": "COMPLETE"
 			},
 			{
-				"occPercent": 0,
+				"occPercent": "ALWAYS",
 				"type": "ACTIVITY_ITEM",
-				"id": "act18d3_token_record",
-				"dropType": 2
+				"id": "act18d3_token_record_rep_1",
+				"dropType": "NORMAL"
 			},
 			{
-				"occPercent": 2,
+				"occPercent": "USUAL",
 				"type": "MATERIAL",
 				"id": "30031",
-				"dropType": 2
+				"dropType": "NORMAL"
 			},
 			{
-				"occPercent": 3,
+				"occPercent": "OFTEN",
 				"type": "MATERIAL",
 				"id": "30061",
-				"dropType": 2
+				"dropType": "NORMAL"
 			},
 			{
-				"occPercent": 3,
+				"occPercent": "OFTEN",
 				"type": "MATERIAL",
 				"id": "30041",
-				"dropType": 2
+				"dropType": "NORMAL"
 			},
 			{
-				"occPercent": 3,
+				"occPercent": "OFTEN",
 				"type": "MATERIAL",
 				"id": "30051",
-				"dropType": 2
+				"dropType": "NORMAL"
 			},
 			{
-				"occPercent": 2,
+				"occPercent": "USUAL",
 				"type": "MATERIAL",
 				"id": "30021",
-				"dropType": 2
+				"dropType": "NORMAL"
 			},
 			{
-				"occPercent": 1,
+				"occPercent": "ALMOST",
 				"type": "MATERIAL",
 				"id": "30011",
-				"dropType": 2
+				"dropType": "NORMAL"
 			},
 			{
-				"occPercent": 0,
+				"occPercent": "ALWAYS",
 				"type": "DIAMOND",
 				"id": "4002",
-				"dropType": 8
+				"dropType": "COMPLETE"
 			}
 		]
 	},
+	"canUseCharm": false,
+	"canUseTech": false,
+	"canUseTrapTool": false,
+	"canUseBattlePerformance": false,
 	"startButtonOverrideId": null,
 	"isStagePatch": false,
-	"mainStageId": "act18d3_01"
+	"mainStageId": "act18d3_01",
+	"extraCondition": null,
+	"extraInfo": null
 }

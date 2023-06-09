@@ -7,10 +7,10 @@
 			"name": "失温症",
 			"rangeId": null,
 			"description": "攻击速度<@ba.vup>+{attack_speed}</>，同时攻击<@ba.vup>{max_target}</>个敌人；范围内所有敌人的<$ba.frozen>冻结</>延长至技能结束，且技能结束时对所有<$ba.frozen>冻结</>的敌人造成<@ba.vup>{atk_scale:0%}</>的法术伤害并结束<$ba.frozen>冻结</>；优先攻击未<$ba.frozen>冻结</>的单位",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 50,
@@ -22,15 +22,18 @@
 			"blackboard": [
 				{
 					"key": "atk_scale",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				},
 				{
 					"key": "attack_speed",
-					"value": 120
+					"value": 120,
+					"valueStr": null
 				},
 				{
 					"key": "max_target",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				}
 			]
 		},
@@ -38,10 +41,10 @@
 			"name": "失温症",
 			"rangeId": null,
 			"description": "攻击速度<@ba.vup>+{attack_speed}</>，同时攻击<@ba.vup>{max_target}</>个敌人；范围内所有敌人的<$ba.frozen>冻结</>延长至技能结束，且技能结束时对所有<$ba.frozen>冻结</>的敌人造成<@ba.vup>{atk_scale:0%}</>的法术伤害并结束<$ba.frozen>冻结</>；优先攻击未<$ba.frozen>冻结</>的单位",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 49,
@@ -53,15 +56,18 @@
 			"blackboard": [
 				{
 					"key": "atk_scale",
-					"value": 2.3
+					"value": 2.3,
+					"valueStr": null
 				},
 				{
 					"key": "attack_speed",
-					"value": 120
+					"value": 120,
+					"valueStr": null
 				},
 				{
 					"key": "max_target",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				}
 			]
 		},
@@ -69,10 +75,10 @@
 			"name": "失温症",
 			"rangeId": null,
 			"description": "攻击速度<@ba.vup>+{attack_speed}</>，同时攻击<@ba.vup>{max_target}</>个敌人；范围内所有敌人的<$ba.frozen>冻结</>延长至技能结束，且技能结束时对所有<$ba.frozen>冻结</>的敌人造成<@ba.vup>{atk_scale:0%}</>的法术伤害并结束<$ba.frozen>冻结</>；优先攻击未<$ba.frozen>冻结</>的单位",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 48,
@@ -84,15 +90,18 @@
 			"blackboard": [
 				{
 					"key": "atk_scale",
-					"value": 2.7
+					"value": 2.7,
+					"valueStr": null
 				},
 				{
 					"key": "attack_speed",
-					"value": 120
+					"value": 120,
+					"valueStr": null
 				},
 				{
 					"key": "max_target",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				}
 			]
 		},
@@ -100,10 +109,10 @@
 			"name": "失温症",
 			"rangeId": null,
 			"description": "攻击速度<@ba.vup>+{attack_speed}</>，同时攻击<@ba.vup>{max_target}</>个敌人；范围内所有敌人的<$ba.frozen>冻结</>延长至技能结束，且技能结束时对所有<$ba.frozen>冻结</>的敌人造成<@ba.vup>{atk_scale:0%}</>的法术伤害并结束<$ba.frozen>冻结</>；优先攻击未<$ba.frozen>冻结</>的单位",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 47,
@@ -115,15 +124,18 @@
 			"blackboard": [
 				{
 					"key": "atk_scale",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				},
 				{
 					"key": "attack_speed",
-					"value": 120
+					"value": 120,
+					"valueStr": null
 				},
 				{
 					"key": "max_target",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				}
 			]
 		},
@@ -131,10 +143,10 @@
 			"name": "失温症",
 			"rangeId": null,
 			"description": "攻击速度<@ba.vup>+{attack_speed}</>，同时攻击<@ba.vup>{max_target}</>个敌人；范围内所有敌人的<$ba.frozen>冻结</>延长至技能结束，且技能结束时对所有<$ba.frozen>冻结</>的敌人造成<@ba.vup>{atk_scale:0%}</>的法术伤害并结束<$ba.frozen>冻结</>；优先攻击未<$ba.frozen>冻结</>的单位",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 46,
@@ -146,15 +158,18 @@
 			"blackboard": [
 				{
 					"key": "atk_scale",
-					"value": 3.3
+					"value": 3.3,
+					"valueStr": null
 				},
 				{
 					"key": "attack_speed",
-					"value": 120
+					"value": 120,
+					"valueStr": null
 				},
 				{
 					"key": "max_target",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				}
 			]
 		},
@@ -162,10 +177,10 @@
 			"name": "失温症",
 			"rangeId": null,
 			"description": "攻击速度<@ba.vup>+{attack_speed}</>，同时攻击<@ba.vup>{max_target}</>个敌人；范围内所有敌人的<$ba.frozen>冻结</>延长至技能结束，且技能结束时对所有<$ba.frozen>冻结</>的敌人造成<@ba.vup>{atk_scale:0%}</>的法术伤害并结束<$ba.frozen>冻结</>；优先攻击未<$ba.frozen>冻结</>的单位",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 45,
@@ -177,15 +192,18 @@
 			"blackboard": [
 				{
 					"key": "atk_scale",
-					"value": 3.7
+					"value": 3.7,
+					"valueStr": null
 				},
 				{
 					"key": "attack_speed",
-					"value": 120
+					"value": 120,
+					"valueStr": null
 				},
 				{
 					"key": "max_target",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				}
 			]
 		},
@@ -193,10 +211,10 @@
 			"name": "失温症",
 			"rangeId": null,
 			"description": "攻击速度<@ba.vup>+{attack_speed}</>，同时攻击<@ba.vup>{max_target}</>个敌人；范围内所有敌人的<$ba.frozen>冻结</>延长至技能结束，且技能结束时对所有<$ba.frozen>冻结</>的敌人造成<@ba.vup>{atk_scale:0%}</>的法术伤害并结束<$ba.frozen>冻结</>；优先攻击未<$ba.frozen>冻结</>的单位",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 44,
@@ -208,15 +226,18 @@
 			"blackboard": [
 				{
 					"key": "atk_scale",
-					"value": 4
+					"value": 4,
+					"valueStr": null
 				},
 				{
 					"key": "attack_speed",
-					"value": 122
+					"value": 122,
+					"valueStr": null
 				},
 				{
 					"key": "max_target",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				}
 			]
 		},
@@ -224,10 +245,10 @@
 			"name": "失温症",
 			"rangeId": null,
 			"description": "攻击速度<@ba.vup>+{attack_speed}</>，同时攻击<@ba.vup>{max_target}</>个敌人；范围内所有敌人的<$ba.frozen>冻结</>延长至技能结束，且技能结束时对所有<$ba.frozen>冻结</>的敌人造成<@ba.vup>{atk_scale:0%}</>的法术伤害并结束<$ba.frozen>冻结</>；优先攻击未<$ba.frozen>冻结</>的单位",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 43,
@@ -239,15 +260,18 @@
 			"blackboard": [
 				{
 					"key": "atk_scale",
-					"value": 4.5
+					"value": 4.5,
+					"valueStr": null
 				},
 				{
 					"key": "attack_speed",
-					"value": 124
+					"value": 124,
+					"valueStr": null
 				},
 				{
 					"key": "max_target",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				}
 			]
 		},
@@ -255,10 +279,10 @@
 			"name": "失温症",
 			"rangeId": null,
 			"description": "攻击速度<@ba.vup>+{attack_speed}</>，同时攻击<@ba.vup>{max_target}</>个敌人；范围内所有敌人的<$ba.frozen>冻结</>延长至技能结束，且技能结束时对所有<$ba.frozen>冻结</>的敌人造成<@ba.vup>{atk_scale:0%}</>的法术伤害并结束<$ba.frozen>冻结</>；优先攻击未<$ba.frozen>冻结</>的单位",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 42,
@@ -270,15 +294,18 @@
 			"blackboard": [
 				{
 					"key": "atk_scale",
-					"value": 5
+					"value": 5,
+					"valueStr": null
 				},
 				{
 					"key": "attack_speed",
-					"value": 126
+					"value": 126,
+					"valueStr": null
 				},
 				{
 					"key": "max_target",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				}
 			]
 		},
@@ -286,10 +313,10 @@
 			"name": "失温症",
 			"rangeId": null,
 			"description": "攻击速度<@ba.vup>+{attack_speed}</>，同时攻击<@ba.vup>{max_target}</>个敌人；范围内所有敌人的<$ba.frozen>冻结</>延长至技能结束，且技能结束时对所有<$ba.frozen>冻结</>的敌人造成<@ba.vup>{atk_scale:0%}</>的法术伤害并结束<$ba.frozen>冻结</>；优先攻击未<$ba.frozen>冻结</>的单位",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 40,
@@ -301,15 +328,18 @@
 			"blackboard": [
 				{
 					"key": "atk_scale",
-					"value": 6
+					"value": 6,
+					"valueStr": null
 				},
 				{
 					"key": "attack_speed",
-					"value": 130
+					"value": 130,
+					"valueStr": null
 				},
 				{
 					"key": "max_target",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				}
 			]
 		}

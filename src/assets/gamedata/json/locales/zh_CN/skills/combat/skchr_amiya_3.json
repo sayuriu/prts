@@ -7,10 +7,10 @@
 			"name": "奇美拉",
 			"rangeId": "3-4",
 			"description": "攻击力<@ba.vup>+{atk:0%}</>，生命上限<@ba.vup>+{max_hp:0%}</>，攻击范围<@ba.vup>扩大</>，伤害类型变为<@ba.vup>真实</>\\n<@ba.rem>技能结束后阿米娅强制退出战场</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 120,
@@ -22,11 +22,13 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "max_hp",
-					"value": 0.25
+					"value": 0.25,
+					"valueStr": null
 				}
 			]
 		},
@@ -34,10 +36,10 @@
 			"name": "奇美拉",
 			"rangeId": "3-4",
 			"description": "攻击力<@ba.vup>+{atk:0%}</>，生命上限<@ba.vup>+{max_hp:0%}</>，攻击范围<@ba.vup>扩大</>，伤害类型变为<@ba.vup>真实</>\\n<@ba.rem>技能结束后阿米娅强制退出战场</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 120,
@@ -49,11 +51,13 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 1.1
+					"value": 1.1,
+					"valueStr": null
 				},
 				{
 					"key": "max_hp",
-					"value": 0.25
+					"value": 0.25,
+					"valueStr": null
 				}
 			]
 		},
@@ -61,10 +65,10 @@
 			"name": "奇美拉",
 			"rangeId": "3-4",
 			"description": "攻击力<@ba.vup>+{atk:0%}</>，生命上限<@ba.vup>+{max_hp:0%}</>，攻击范围<@ba.vup>扩大</>，伤害类型变为<@ba.vup>真实</>\\n<@ba.rem>技能结束后阿米娅强制退出战场</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 120,
@@ -76,11 +80,13 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 1.2
+					"value": 1.2,
+					"valueStr": null
 				},
 				{
 					"key": "max_hp",
-					"value": 0.25
+					"value": 0.25,
+					"valueStr": null
 				}
 			]
 		},
@@ -88,10 +94,10 @@
 			"name": "奇美拉",
 			"rangeId": "3-4",
 			"description": "攻击力<@ba.vup>+{atk:0%}</>，生命上限<@ba.vup>+{max_hp:0%}</>，攻击范围<@ba.vup>扩大</>，伤害类型变为<@ba.vup>真实</>\\n<@ba.rem>技能结束后阿米娅强制退出战场</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 120,
@@ -103,11 +109,13 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 1.3
+					"value": 1.3,
+					"valueStr": null
 				},
 				{
 					"key": "max_hp",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				}
 			]
 		},
@@ -115,10 +123,10 @@
 			"name": "奇美拉",
 			"rangeId": "3-4",
 			"description": "攻击力<@ba.vup>+{atk:0%}</>，生命上限<@ba.vup>+{max_hp:0%}</>，攻击范围<@ba.vup>扩大</>，伤害类型变为<@ba.vup>真实</>\\n<@ba.rem>技能结束后阿米娅强制退出战场</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 120,
@@ -130,11 +138,13 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 1.4
+					"value": 1.4,
+					"valueStr": null
 				},
 				{
 					"key": "max_hp",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				}
 			]
 		},
@@ -142,10 +152,10 @@
 			"name": "奇美拉",
 			"rangeId": "3-4",
 			"description": "攻击力<@ba.vup>+{atk:0%}</>，生命上限<@ba.vup>+{max_hp:0%}</>，攻击范围<@ba.vup>扩大</>，伤害类型变为<@ba.vup>真实</>\\n<@ba.rem>技能结束后阿米娅强制退出战场</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 120,
@@ -157,11 +167,13 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 1.5
+					"value": 1.5,
+					"valueStr": null
 				},
 				{
 					"key": "max_hp",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				}
 			]
 		},
@@ -169,10 +181,10 @@
 			"name": "奇美拉",
 			"rangeId": "3-4",
 			"description": "攻击力<@ba.vup>+{atk:0%}</>，生命上限<@ba.vup>+{max_hp:0%}</>，攻击范围<@ba.vup>扩大</>，伤害类型变为<@ba.vup>真实</>\\n<@ba.rem>技能结束后阿米娅强制退出战场</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 120,
@@ -184,11 +196,13 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 1.6
+					"value": 1.6,
+					"valueStr": null
 				},
 				{
 					"key": "max_hp",
-					"value": 0.75
+					"value": 0.75,
+					"valueStr": null
 				}
 			]
 		},
@@ -196,10 +210,10 @@
 			"name": "奇美拉",
 			"rangeId": "3-4",
 			"description": "攻击力<@ba.vup>+{atk:0%}</>，生命上限<@ba.vup>+{max_hp:0%}</>，攻击范围<@ba.vup>扩大</>，伤害类型变为<@ba.vup>真实</>\\n<@ba.rem>技能结束后阿米娅强制退出战场</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 120,
@@ -211,11 +225,13 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 1.8
+					"value": 1.8,
+					"valueStr": null
 				},
 				{
 					"key": "max_hp",
-					"value": 0.75
+					"value": 0.75,
+					"valueStr": null
 				}
 			]
 		},
@@ -223,10 +239,10 @@
 			"name": "奇美拉",
 			"rangeId": "3-4",
 			"description": "攻击力<@ba.vup>+{atk:0%}</>，生命上限<@ba.vup>+{max_hp:0%}</>，攻击范围<@ba.vup>扩大</>，伤害类型变为<@ba.vup>真实</>\\n<@ba.rem>技能结束后阿米娅强制退出战场</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 120,
@@ -238,11 +254,13 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				},
 				{
 					"key": "max_hp",
-					"value": 0.75
+					"value": 0.75,
+					"valueStr": null
 				}
 			]
 		},
@@ -250,10 +268,10 @@
 			"name": "奇美拉",
 			"rangeId": "3-4",
 			"description": "攻击力<@ba.vup>+{atk:0%}</>，生命上限<@ba.vup>+{max_hp:0%}</>，攻击范围<@ba.vup>扩大</>，伤害类型变为<@ba.vup>真实</>\\n<@ba.rem>技能结束后阿米娅强制退出战场</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 120,
@@ -265,11 +283,13 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 2.3
+					"value": 2.3,
+					"valueStr": null
 				},
 				{
 					"key": "max_hp",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		}

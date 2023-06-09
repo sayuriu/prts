@@ -2,14 +2,15 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act1lock_c-01",
-			"completeState": 2
+			"completeState": "PASS"
 		},
 		{
 			"stageId": "act1lock_a-04",
-			"completeState": 2
+			"completeState": "PASS"
 		}
 	],
 	"stageId": "act1lock_b-04",
@@ -48,7 +49,7 @@
 	"isHardPredefined": false,
 	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
-	"appearanceStyle": 0,
+	"appearanceStyle": "MAIN_NORMAL",
 	"stageDropInfo": {
 		"firstPassRewards": null,
 		"firstCompleteRewards": null,
@@ -58,30 +59,36 @@
 			{
 				"type": "ACTIVITY_ITEM",
 				"id": "act1lock_point_reward",
-				"dropType": 8
+				"dropType": "COMPLETE"
 			},
 			{
 				"type": "DIAMOND",
 				"id": "4002",
-				"dropType": 8
+				"dropType": "COMPLETE"
 			}
 		],
 		"displayDetailRewards": [
 			{
-				"occPercent": 0,
+				"occPercent": "ALWAYS",
 				"type": "ACTIVITY_ITEM",
 				"id": "act1lock_point_reward",
-				"dropType": 8
+				"dropType": "COMPLETE"
 			},
 			{
-				"occPercent": 0,
+				"occPercent": "ALWAYS",
 				"type": "DIAMOND",
 				"id": "4002",
-				"dropType": 8
+				"dropType": "COMPLETE"
 			}
 		]
 	},
+	"canUseCharm": false,
+	"canUseTech": false,
+	"canUseTrapTool": false,
+	"canUseBattlePerformance": false,
 	"startButtonOverrideId": null,
 	"isStagePatch": false,
-	"mainStageId": "act1lock_a-01"
+	"mainStageId": "act1lock_a-01",
+	"extraCondition": null,
+	"extraInfo": null
 }

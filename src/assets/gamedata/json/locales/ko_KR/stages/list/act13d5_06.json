@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act13d5_05",
@@ -10,10 +11,10 @@
 	],
 	"stageId": "act13d5_06",
 	"levelId": "Activities/ACT13D5/level_act13d5_06",
-	"zoneId": "act13d5_zone1",
+	"zoneId": "act7sre_zone1",
 	"code": "MN-6",
 	"name": "블루이어 와인셀러",
-	"description": "엄선된 컬럼비아산 수입 보리, 스포츠로 지세우는 밤을 블루이어 와인셀러의 맥주가 함께합니다! 채소 절임, 베이컨, 쥬얼, 세 가지 새로운 맛 출시!\n<@lv.item><발리스타></>주기적으로 아군에게 화살을 발사하여 물리 대미지를 준다.",
+	"description": "엄선된 컬럼비아산 수입 보리, 스포츠로 지세우는 밤을 블루이어 와인셀러의 맥주가 함께합니다! 채소 절임, 베이컨, 쥬얼, 세 가지 새로운 맛 출시!\n<@lv.item><발리스타></> 주기적으로 아군에게 화살을 발사하여 물리 대미지를 준다",
 	"hardStagedId": null,
 	"dangerLevel": "1차 정예화 Lv.50",
 	"dangerPoint": -1,
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {
@@ -52,12 +54,12 @@
 		"displayRewards": [
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act13d5_token_securities",
+				"id": "act13d5_token_securities_rep_1",
 				"dropType": 8
 			},
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act13d5_token_securities",
+				"id": "act13d5_token_securities_rep_1",
 				"dropType": 2
 			},
 			{
@@ -75,13 +77,13 @@
 			{
 				"occPercent": 0,
 				"type": "ACTIVITY_ITEM",
-				"id": "act13d5_token_securities",
+				"id": "act13d5_token_securities_rep_1",
 				"dropType": 8
 			},
 			{
 				"occPercent": 0,
 				"type": "ACTIVITY_ITEM",
-				"id": "act13d5_token_securities",
+				"id": "act13d5_token_securities_rep_1",
 				"dropType": 2
 			},
 			{

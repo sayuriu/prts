@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "main_01-10",
@@ -10,10 +11,10 @@
 	],
 	"stageId": "act12side_s01",
 	"levelId": "Activities/ACT12SIDE/level_act12side_sub-1-1",
-	"zoneId": "act12side_zone3",
+	"zoneId": "act12sre_zone3",
 	"code": "DH-S-1",
 	"name": "Curious Coincidences",
-	"description": "Hoshiguma and Swire prepare to deal with the gangsters in front of them, unaware that Ch'en is also investigating these people. \n<@lv.item><High Tide></> Unable to deploy on flooded tiles. Allied units and enemies in the water will be affected by 'Erosion'\n<@lv.rem>Condition:</> All enemies have greatly increased base stats",
+	"description": "Hoshiguma and Swire prepare to deal with the gangsters in front of them, unaware that Ch'en is also investigating these people. \n<@lv.item><High Tide></>Unable to deploy on flooded tiles. Allied units and enemies in the water will suffer from 'Erosion'\n<@lv.rem>Condition:</>All enemies have greatly increased base stats",
 	"hardStagedId": "act12side_s01#f#",
 	"dangerLevel": "-",
 	"dangerPoint": -1,
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {

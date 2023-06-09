@@ -1,0 +1,36 @@
+{
+	"skillId": "sktok_btauntcard",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "晶化",
+			"rangeId": null,
+			"description": "可以<@ba.vup>被我方攻击</>，25秒后对攻击范围内的所有我方单位造成<@ba.vup>{damage}</>点<@ba.vup>真实</>伤害并<$ba.stun>晕眩</><@ba.vup>{stun}</>秒\\n被摧毁后，从<@ba.vup>预备区</>随机检视<@ba.vup>4名</>单位，可选择<@ba.vup>0-1</>名单位使其消失（本场战斗不再出现）且转换为<@ba.vup>15张</>调用凭证。\\n<@ba.rem>触发后自身消失（本场战斗不再出现）</>",
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 25,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "sktok_btauntcard",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "damage",
+					"value": 1000,
+					"valueStr": null
+				},
+				{
+					"key": "stun",
+					"value": 5,
+					"valueStr": null
+				}
+			]
+		}
+	]
+}

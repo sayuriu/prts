@@ -1,0 +1,317 @@
+{
+	"skillId": "skchr_totter_2",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "砕虹の勁弩",
+			"rangeId": null,
+			"description": "攻撃速度<@ba.vup>+{attack_speed}</>、攻撃対象数<@ba.vup>+2</>、攻撃対象が1体のみの場合、その対象に攻撃力の<@ba.vup>{attack@s2c.atk_scale:0%}</>の物理ダメージを与える",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 55,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_totter_2",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "attack_speed",
+					"value": 5
+				},
+				{
+					"key": "attack@s2c.atk_scale",
+					"value": 1.8
+				},
+				{
+					"key": "attack@s2n.max_target",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "砕虹の勁弩",
+			"rangeId": null,
+			"description": "攻撃速度<@ba.vup>+{attack_speed}</>、攻撃対象数<@ba.vup>+2</>、攻撃対象が1体のみの場合、その対象に攻撃力の<@ba.vup>{attack@s2c.atk_scale:0%}</>の物理ダメージを与える",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 54,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_totter_2",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "attack_speed",
+					"value": 10
+				},
+				{
+					"key": "attack@s2c.atk_scale",
+					"value": 1.85
+				},
+				{
+					"key": "attack@s2n.max_target",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "砕虹の勁弩",
+			"rangeId": null,
+			"description": "攻撃速度<@ba.vup>+{attack_speed}</>、攻撃対象数<@ba.vup>+2</>、攻撃対象が1体のみの場合、その対象に攻撃力の<@ba.vup>{attack@s2c.atk_scale:0%}</>の物理ダメージを与える",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 53,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_totter_2",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "attack_speed",
+					"value": 15
+				},
+				{
+					"key": "attack@s2c.atk_scale",
+					"value": 1.9
+				},
+				{
+					"key": "attack@s2n.max_target",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "砕虹の勁弩",
+			"rangeId": null,
+			"description": "攻撃速度<@ba.vup>+{attack_speed}</>、攻撃対象数<@ba.vup>+2</>、攻撃対象が1体のみの場合、その対象に攻撃力の<@ba.vup>{attack@s2c.atk_scale:0%}</>の物理ダメージを与える",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 50,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_totter_2",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "attack_speed",
+					"value": 20
+				},
+				{
+					"key": "attack@s2c.atk_scale",
+					"value": 1.95
+				},
+				{
+					"key": "attack@s2n.max_target",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "砕虹の勁弩",
+			"rangeId": null,
+			"description": "攻撃速度<@ba.vup>+{attack_speed}</>、攻撃対象数<@ba.vup>+2</>、攻撃対象が1体のみの場合、その対象に攻撃力の<@ba.vup>{attack@s2c.atk_scale:0%}</>の物理ダメージを与える",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 49,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_totter_2",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "attack_speed",
+					"value": 25
+				},
+				{
+					"key": "attack@s2c.atk_scale",
+					"value": 2
+				},
+				{
+					"key": "attack@s2n.max_target",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "砕虹の勁弩",
+			"rangeId": null,
+			"description": "攻撃速度<@ba.vup>+{attack_speed}</>、攻撃対象数<@ba.vup>+2</>、攻撃対象が1体のみの場合、その対象に攻撃力の<@ba.vup>{attack@s2c.atk_scale:0%}</>の物理ダメージを与える",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 48,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_totter_2",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "attack_speed",
+					"value": 30
+				},
+				{
+					"key": "attack@s2c.atk_scale",
+					"value": 2.05
+				},
+				{
+					"key": "attack@s2n.max_target",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "砕虹の勁弩",
+			"rangeId": null,
+			"description": "攻撃速度<@ba.vup>+{attack_speed}</>、攻撃対象数<@ba.vup>+2</>、攻撃対象が1体のみの場合、その対象に攻撃力の<@ba.vup>{attack@s2c.atk_scale:0%}</>の物理ダメージを与える",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 45,
+				"initSp": 25,
+				"increment": 1
+			},
+			"prefabId": "skchr_totter_2",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "attack_speed",
+					"value": 35
+				},
+				{
+					"key": "attack@s2c.atk_scale",
+					"value": 2.1
+				},
+				{
+					"key": "attack@s2n.max_target",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "砕虹の勁弩",
+			"rangeId": null,
+			"description": "攻撃速度<@ba.vup>+{attack_speed}</>、攻撃対象数<@ba.vup>+2</>、攻撃対象が1体のみの場合、その対象に攻撃力の<@ba.vup>{attack@s2c.atk_scale:0%}</>の物理ダメージを与える",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 43,
+				"initSp": 25,
+				"increment": 1
+			},
+			"prefabId": "skchr_totter_2",
+			"duration": 27,
+			"blackboard": [
+				{
+					"key": "attack_speed",
+					"value": 40
+				},
+				{
+					"key": "attack@s2c.atk_scale",
+					"value": 2.15
+				},
+				{
+					"key": "attack@s2n.max_target",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "砕虹の勁弩",
+			"rangeId": null,
+			"description": "攻撃速度<@ba.vup>+{attack_speed}</>、攻撃対象数<@ba.vup>+2</>、攻撃対象が1体のみの場合、その対象に攻撃力の<@ba.vup>{attack@s2c.atk_scale:0%}</>の物理ダメージを与える",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 42,
+				"initSp": 25,
+				"increment": 1
+			},
+			"prefabId": "skchr_totter_2",
+			"duration": 28,
+			"blackboard": [
+				{
+					"key": "attack_speed",
+					"value": 45
+				},
+				{
+					"key": "attack@s2c.atk_scale",
+					"value": 2.2
+				},
+				{
+					"key": "attack@s2n.max_target",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "砕虹の勁弩",
+			"rangeId": null,
+			"description": "攻撃速度<@ba.vup>+{attack_speed}</>、攻撃対象数<@ba.vup>+2</>、攻撃対象が1体のみの場合、その対象に攻撃力の<@ba.vup>{attack@s2c.atk_scale:0%}</>の物理ダメージを与える",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 40,
+				"initSp": 25,
+				"increment": 1
+			},
+			"prefabId": "skchr_totter_2",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "attack_speed",
+					"value": 50
+				},
+				{
+					"key": "attack@s2c.atk_scale",
+					"value": 2.25
+				},
+				{
+					"key": "attack@s2n.max_target",
+					"value": 3
+				}
+			]
+		}
+	]
+}

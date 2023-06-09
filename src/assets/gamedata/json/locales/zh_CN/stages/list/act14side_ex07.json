@@ -2,15 +2,16 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act14side_ex06",
-			"completeState": 2
+			"completeState": "PASS"
 		}
 	],
 	"stageId": "act14side_ex07",
 	"levelId": "Activities/ACT14SIDE/level_act14side_ex07",
-	"zoneId": "act14side_zone2",
+	"zoneId": "act14sre_zone2",
 	"code": "BI-EX-7",
 	"name": "闷杀",
 	"description": "巧妙地诱导和堵截对手的路线，再凌厉的攻势也会在你的设计下逐一消弭。\\n<@lv.item><冰面></>对其上的单位施加“寒冷”，增加被冻结敌人在其上的位移距离\\n<@lv.item><降雪></>周期性对所有单位施加寒冷\\n<@lv.item><障碍物></>部署以后可以阻挡敌人的行进路线",
@@ -44,7 +45,7 @@
 	"isHardPredefined": false,
 	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
-	"appearanceStyle": 0,
+	"appearanceStyle": "MAIN_NORMAL",
 	"stageDropInfo": {
 		"firstPassRewards": null,
 		"firstCompleteRewards": null,
@@ -53,31 +54,37 @@
 		"displayRewards": [
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act14side_token_stone",
-				"dropType": 8
+				"id": "act14side_token_stone_rep_1",
+				"dropType": "COMPLETE"
 			},
 			{
 				"type": "DIAMOND",
 				"id": "4002",
-				"dropType": 8
+				"dropType": "COMPLETE"
 			}
 		],
 		"displayDetailRewards": [
 			{
-				"occPercent": 0,
+				"occPercent": "ALWAYS",
 				"type": "ACTIVITY_ITEM",
-				"id": "act14side_token_stone",
-				"dropType": 8
+				"id": "act14side_token_stone_rep_1",
+				"dropType": "COMPLETE"
 			},
 			{
-				"occPercent": 0,
+				"occPercent": "ALWAYS",
 				"type": "DIAMOND",
 				"id": "4002",
-				"dropType": 8
+				"dropType": "COMPLETE"
 			}
 		]
 	},
+	"canUseCharm": false,
+	"canUseTech": false,
+	"canUseTrapTool": false,
+	"canUseBattlePerformance": false,
 	"startButtonOverrideId": null,
 	"isStagePatch": false,
-	"mainStageId": "act14side_ex01"
+	"mainStageId": "act14side_ex01",
+	"extraCondition": null,
+	"extraInfo": null
 }

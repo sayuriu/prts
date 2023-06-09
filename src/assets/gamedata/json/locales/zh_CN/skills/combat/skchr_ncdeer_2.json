@@ -7,10 +7,10 @@
 			"name": "仙山去远",
 			"rangeId": null,
 			"description": "攻击速度<@ba.vup>+{attack_speed}</>，自身获得<@ba.vup>{prob:0%}</>的远程物理抵挡，天赋的触发条件变为<@ba.vup>{talent@hp_ratio:0%}</>生命时触发",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 50,
@@ -22,15 +22,18 @@
 			"blackboard": [
 				{
 					"key": "attack_speed",
-					"value": 10
+					"value": 10,
+					"valueStr": null
 				},
 				{
 					"key": "talent@hp_ratio",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "prob",
-					"value": 0.3
+					"value": 0.3,
+					"valueStr": null
 				}
 			]
 		},
@@ -38,10 +41,10 @@
 			"name": "仙山去远",
 			"rangeId": null,
 			"description": "攻击速度<@ba.vup>+{attack_speed}</>，自身获得<@ba.vup>{prob:0%}</>的远程物理抵挡，天赋的触发条件变为<@ba.vup>{talent@hp_ratio:0%}</>生命时触发",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 50,
@@ -53,15 +56,18 @@
 			"blackboard": [
 				{
 					"key": "attack_speed",
-					"value": 14
+					"value": 14,
+					"valueStr": null
 				},
 				{
 					"key": "talent@hp_ratio",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "prob",
-					"value": 0.3
+					"value": 0.3,
+					"valueStr": null
 				}
 			]
 		},
@@ -69,10 +75,10 @@
 			"name": "仙山去远",
 			"rangeId": null,
 			"description": "攻击速度<@ba.vup>+{attack_speed}</>，自身获得<@ba.vup>{prob:0%}</>的远程物理抵挡，天赋的触发条件变为<@ba.vup>{talent@hp_ratio:0%}</>生命时触发",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 50,
@@ -84,15 +90,18 @@
 			"blackboard": [
 				{
 					"key": "attack_speed",
-					"value": 18
+					"value": 18,
+					"valueStr": null
 				},
 				{
 					"key": "talent@hp_ratio",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "prob",
-					"value": 0.3
+					"value": 0.3,
+					"valueStr": null
 				}
 			]
 		},
@@ -100,10 +109,10 @@
 			"name": "仙山去远",
 			"rangeId": null,
 			"description": "攻击速度<@ba.vup>+{attack_speed}</>，自身获得<@ba.vup>{prob:0%}</>的远程物理抵挡，天赋的触发条件变为<@ba.vup>{talent@hp_ratio:0%}</>生命时触发",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 45,
@@ -115,15 +124,18 @@
 			"blackboard": [
 				{
 					"key": "attack_speed",
-					"value": 22
+					"value": 22,
+					"valueStr": null
 				},
 				{
 					"key": "talent@hp_ratio",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "prob",
-					"value": 0.4
+					"value": 0.4,
+					"valueStr": null
 				}
 			]
 		},
@@ -131,10 +143,10 @@
 			"name": "仙山去远",
 			"rangeId": null,
 			"description": "攻击速度<@ba.vup>+{attack_speed}</>，自身获得<@ba.vup>{prob:0%}</>的远程物理抵挡，天赋的触发条件变为<@ba.vup>{talent@hp_ratio:0%}</>生命时触发",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 45,
@@ -146,15 +158,18 @@
 			"blackboard": [
 				{
 					"key": "attack_speed",
-					"value": 26
+					"value": 26,
+					"valueStr": null
 				},
 				{
 					"key": "talent@hp_ratio",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "prob",
-					"value": 0.4
+					"value": 0.4,
+					"valueStr": null
 				}
 			]
 		},
@@ -162,10 +177,10 @@
 			"name": "仙山去远",
 			"rangeId": null,
 			"description": "攻击速度<@ba.vup>+{attack_speed}</>，自身获得<@ba.vup>{prob:0%}</>的远程物理抵挡，天赋的触发条件变为<@ba.vup>{talent@hp_ratio:0%}</>生命时触发",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 45,
@@ -177,15 +192,18 @@
 			"blackboard": [
 				{
 					"key": "attack_speed",
-					"value": 30
+					"value": 30,
+					"valueStr": null
 				},
 				{
 					"key": "talent@hp_ratio",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "prob",
-					"value": 0.4
+					"value": 0.4,
+					"valueStr": null
 				}
 			]
 		},
@@ -193,10 +211,10 @@
 			"name": "仙山去远",
 			"rangeId": null,
 			"description": "攻击速度<@ba.vup>+{attack_speed}</>，自身获得<@ba.vup>{prob:0%}</>的远程物理抵挡，天赋的触发条件变为<@ba.vup>{talent@hp_ratio:0%}</>生命时触发",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 40,
@@ -208,15 +226,18 @@
 			"blackboard": [
 				{
 					"key": "attack_speed",
-					"value": 35
+					"value": 35,
+					"valueStr": null
 				},
 				{
 					"key": "talent@hp_ratio",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "prob",
-					"value": 0.4
+					"value": 0.4,
+					"valueStr": null
 				}
 			]
 		},
@@ -224,10 +245,10 @@
 			"name": "仙山去远",
 			"rangeId": null,
 			"description": "攻击速度<@ba.vup>+{attack_speed}</>，自身获得<@ba.vup>{prob:0%}</>的远程物理抵挡，天赋的触发条件变为<@ba.vup>{talent@hp_ratio:0%}</>生命时触发",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 40,
@@ -239,15 +260,18 @@
 			"blackboard": [
 				{
 					"key": "attack_speed",
-					"value": 40
+					"value": 40,
+					"valueStr": null
 				},
 				{
 					"key": "talent@hp_ratio",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "prob",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				}
 			]
 		},
@@ -255,10 +279,10 @@
 			"name": "仙山去远",
 			"rangeId": null,
 			"description": "攻击速度<@ba.vup>+{attack_speed}</>，自身获得<@ba.vup>{prob:0%}</>的远程物理抵挡，天赋的触发条件变为<@ba.vup>{talent@hp_ratio:0%}</>生命时触发",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 40,
@@ -270,15 +294,18 @@
 			"blackboard": [
 				{
 					"key": "attack_speed",
-					"value": 45
+					"value": 45,
+					"valueStr": null
 				},
 				{
 					"key": "talent@hp_ratio",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "prob",
-					"value": 0.6
+					"value": 0.6,
+					"valueStr": null
 				}
 			]
 		},
@@ -286,10 +313,10 @@
 			"name": "仙山去远",
 			"rangeId": null,
 			"description": "攻击速度<@ba.vup>+{attack_speed}</>，自身获得<@ba.vup>{prob:0%}</>的远程物理抵挡，天赋的触发条件变为<@ba.vup>{talent@hp_ratio:0%}</>生命时触发",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 40,
@@ -301,15 +328,18 @@
 			"blackboard": [
 				{
 					"key": "attack_speed",
-					"value": 50
+					"value": 50,
+					"valueStr": null
 				},
 				{
 					"key": "talent@hp_ratio",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "prob",
-					"value": 0.7
+					"value": 0.7,
+					"valueStr": null
 				}
 			]
 		}

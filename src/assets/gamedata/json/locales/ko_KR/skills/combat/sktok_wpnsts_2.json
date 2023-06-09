@@ -1,0 +1,30 @@
+{
+	"skillId": "sktok_wpnsts_2",
+	"iconId": "sktok_wpnsts",
+	"hidden": false,
+	"levels": [
+		{
+			"name": "라테라노식 아이스크림",
+			"rangeId": "x-1",
+			"description": "주변 모든 아군의 SP가 <@ba.vup>2</>초당 <@ba.vup>1</>씩 회복\n적에게 빼앗기면 주변의 모든 아군에 <@ba.vup>1000</>의 마법 대미지를 입히고, <@ba.vup>5</>초간 <$ba.stun>기절</>시킨다.",
+			"skillType": 0,
+			"durationType": 0,
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 0,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": "sktok_wpnsts_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "hp_recovery_per_sec",
+					"value": 75
+				}
+			]
+		}
+	]
+}

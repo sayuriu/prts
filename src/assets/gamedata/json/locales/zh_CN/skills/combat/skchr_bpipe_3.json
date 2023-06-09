@@ -7,10 +7,10 @@
 			"name": "闭膛连发",
 			"rangeId": null,
 			"description": "攻击间隔<@ba.vdown>增大</>，阻挡数<@ba.vup>+{block_cnt}</>，攻击力和防御力<@ba.vup>+{atk:0%}</>，攻击变为<@ba.vup>三连击</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 40,
@@ -22,19 +22,23 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.3
+					"value": 0.3,
+					"valueStr": null
 				},
 				{
 					"key": "def",
-					"value": 0.3
+					"value": 0.3,
+					"valueStr": null
 				},
 				{
 					"key": "base_attack_time",
-					"value": 0.7
+					"value": 0.7,
+					"valueStr": null
 				},
 				{
 					"key": "block_cnt",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -42,10 +46,10 @@
 			"name": "闭膛连发",
 			"rangeId": null,
 			"description": "攻击间隔<@ba.vdown>增大</>，阻挡数<@ba.vup>+{block_cnt}</>，攻击力和防御力<@ba.vup>+{atk:0%}</>，攻击变为<@ba.vup>三连击</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 40,
@@ -57,19 +61,23 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.4
+					"value": 0.4,
+					"valueStr": null
 				},
 				{
 					"key": "def",
-					"value": 0.4
+					"value": 0.4,
+					"valueStr": null
 				},
 				{
 					"key": "base_attack_time",
-					"value": 0.7
+					"value": 0.7,
+					"valueStr": null
 				},
 				{
 					"key": "block_cnt",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -77,10 +85,10 @@
 			"name": "闭膛连发",
 			"rangeId": null,
 			"description": "攻击间隔<@ba.vdown>增大</>，阻挡数<@ba.vup>+{block_cnt}</>，攻击力和防御力<@ba.vup>+{atk:0%}</>，攻击变为<@ba.vup>三连击</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 40,
@@ -92,19 +100,23 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				},
 				{
 					"key": "def",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				},
 				{
 					"key": "base_attack_time",
-					"value": 0.7
+					"value": 0.7,
+					"valueStr": null
 				},
 				{
 					"key": "block_cnt",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -112,10 +124,10 @@
 			"name": "闭膛连发",
 			"rangeId": null,
 			"description": "攻击间隔<@ba.vdown>增大</>，阻挡数<@ba.vup>+{block_cnt}</>，攻击力和防御力<@ba.vup>+{atk:0%}</>，攻击变为<@ba.vup>三连击</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 40,
@@ -127,19 +139,23 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.6
+					"value": 0.6,
+					"valueStr": null
 				},
 				{
 					"key": "def",
-					"value": 0.6
+					"value": 0.6,
+					"valueStr": null
 				},
 				{
 					"key": "base_attack_time",
-					"value": 0.7
+					"value": 0.7,
+					"valueStr": null
 				},
 				{
 					"key": "block_cnt",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -147,10 +163,10 @@
 			"name": "闭膛连发",
 			"rangeId": null,
 			"description": "攻击间隔<@ba.vdown>增大</>，阻挡数<@ba.vup>+{block_cnt}</>，攻击力和防御力<@ba.vup>+{atk:0%}</>，攻击变为<@ba.vup>三连击</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 40,
@@ -162,19 +178,23 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.7
+					"value": 0.7,
+					"valueStr": null
 				},
 				{
 					"key": "def",
-					"value": 0.7
+					"value": 0.7,
+					"valueStr": null
 				},
 				{
 					"key": "base_attack_time",
-					"value": 0.7
+					"value": 0.7,
+					"valueStr": null
 				},
 				{
 					"key": "block_cnt",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -182,10 +202,10 @@
 			"name": "闭膛连发",
 			"rangeId": null,
 			"description": "攻击间隔<@ba.vdown>增大</>，阻挡数<@ba.vup>+{block_cnt}</>，攻击力和防御力<@ba.vup>+{atk:0%}</>，攻击变为<@ba.vup>三连击</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 40,
@@ -197,19 +217,23 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.8
+					"value": 0.8,
+					"valueStr": null
 				},
 				{
 					"key": "def",
-					"value": 0.8
+					"value": 0.8,
+					"valueStr": null
 				},
 				{
 					"key": "base_attack_time",
-					"value": 0.7
+					"value": 0.7,
+					"valueStr": null
 				},
 				{
 					"key": "block_cnt",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -217,10 +241,10 @@
 			"name": "闭膛连发",
 			"rangeId": null,
 			"description": "攻击间隔<@ba.vdown>增大</>，阻挡数<@ba.vup>+{block_cnt}</>，攻击力和防御力<@ba.vup>+{atk:0%}</>，攻击变为<@ba.vup>三连击</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 40,
@@ -232,19 +256,23 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.9
+					"value": 0.9,
+					"valueStr": null
 				},
 				{
 					"key": "def",
-					"value": 0.9
+					"value": 0.9,
+					"valueStr": null
 				},
 				{
 					"key": "base_attack_time",
-					"value": 0.7
+					"value": 0.7,
+					"valueStr": null
 				},
 				{
 					"key": "block_cnt",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -252,10 +280,10 @@
 			"name": "闭膛连发",
 			"rangeId": null,
 			"description": "攻击间隔<@ba.vdown>增大</>，阻挡数<@ba.vup>+{block_cnt}</>，攻击力和防御力<@ba.vup>+{atk:0%}</>，攻击变为<@ba.vup>三连击</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 40,
@@ -267,19 +295,23 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "def",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "base_attack_time",
-					"value": 0.7
+					"value": 0.7,
+					"valueStr": null
 				},
 				{
 					"key": "block_cnt",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -287,10 +319,10 @@
 			"name": "闭膛连发",
 			"rangeId": null,
 			"description": "攻击间隔<@ba.vdown>增大</>，阻挡数<@ba.vup>+{block_cnt}</>，攻击力和防御力<@ba.vup>+{atk:0%}</>，攻击变为<@ba.vup>三连击</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 40,
@@ -302,19 +334,23 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 1.1
+					"value": 1.1,
+					"valueStr": null
 				},
 				{
 					"key": "def",
-					"value": 1.1
+					"value": 1.1,
+					"valueStr": null
 				},
 				{
 					"key": "base_attack_time",
-					"value": 0.7
+					"value": 0.7,
+					"valueStr": null
 				},
 				{
 					"key": "block_cnt",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -322,10 +358,10 @@
 			"name": "闭膛连发",
 			"rangeId": null,
 			"description": "攻击间隔<@ba.vdown>增大</>，阻挡数<@ba.vup>+{block_cnt}</>，攻击力和防御力<@ba.vup>+{atk:0%}</>，攻击变为<@ba.vup>三连击</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 40,
@@ -337,19 +373,23 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 1.2
+					"value": 1.2,
+					"valueStr": null
 				},
 				{
 					"key": "def",
-					"value": 1.2
+					"value": 1.2,
+					"valueStr": null
 				},
 				{
 					"key": "base_attack_time",
-					"value": 0.7
+					"value": 0.7,
+					"valueStr": null
 				},
 				{
 					"key": "block_cnt",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		}

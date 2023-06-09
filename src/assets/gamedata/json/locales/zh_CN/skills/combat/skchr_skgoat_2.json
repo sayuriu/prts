@@ -7,10 +7,10 @@
 			"name": "流沙化",
 			"rangeId": null,
 			"description": "<@ba.vdown>停止攻击</>；攻击范围内的敌方单位每<@ba.vup>{interval:0.0}</>秒受到一次<$ba.sluggish>停顿</>效果",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 60,
@@ -22,11 +22,13 @@
 			"blackboard": [
 				{
 					"key": "interval",
-					"value": 1.8
+					"value": 1.8,
+					"valueStr": null
 				},
 				{
 					"key": "sluggish",
-					"value": 0.8
+					"value": 0.8,
+					"valueStr": null
 				}
 			]
 		},
@@ -34,10 +36,10 @@
 			"name": "流沙化",
 			"rangeId": null,
 			"description": "<@ba.vdown>停止攻击</>；攻击范围内的敌方单位每<@ba.vup>{interval:0.0}</>秒受到一次<$ba.sluggish>停顿</>效果",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 58,
@@ -49,11 +51,13 @@
 			"blackboard": [
 				{
 					"key": "interval",
-					"value": 1.8
+					"value": 1.8,
+					"valueStr": null
 				},
 				{
 					"key": "sluggish",
-					"value": 0.8
+					"value": 0.8,
+					"valueStr": null
 				}
 			]
 		},
@@ -61,10 +65,10 @@
 			"name": "流沙化",
 			"rangeId": null,
 			"description": "<@ba.vdown>停止攻击</>；攻击范围内的敌方单位每<@ba.vup>{interval:0.0}</>秒受到一次<$ba.sluggish>停顿</>效果",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 56,
@@ -76,11 +80,13 @@
 			"blackboard": [
 				{
 					"key": "interval",
-					"value": 1.8
+					"value": 1.8,
+					"valueStr": null
 				},
 				{
 					"key": "sluggish",
-					"value": 0.8
+					"value": 0.8,
+					"valueStr": null
 				}
 			]
 		},
@@ -88,10 +94,10 @@
 			"name": "流沙化",
 			"rangeId": null,
 			"description": "<@ba.vdown>停止攻击</>；攻击范围内的敌方单位每<@ba.vup>{interval:0.0}</>秒受到一次<$ba.sluggish>停顿</>效果",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 54,
@@ -103,11 +109,13 @@
 			"blackboard": [
 				{
 					"key": "interval",
-					"value": 1.7
+					"value": 1.7,
+					"valueStr": null
 				},
 				{
 					"key": "sluggish",
-					"value": 0.8
+					"value": 0.8,
+					"valueStr": null
 				}
 			]
 		},
@@ -115,10 +123,10 @@
 			"name": "流沙化",
 			"rangeId": null,
 			"description": "<@ba.vdown>停止攻击</>；攻击范围内的敌方单位每<@ba.vup>{interval:0.0}</>秒受到一次<$ba.sluggish>停顿</>效果",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 52,
@@ -130,11 +138,13 @@
 			"blackboard": [
 				{
 					"key": "interval",
-					"value": 1.7
+					"value": 1.7,
+					"valueStr": null
 				},
 				{
 					"key": "sluggish",
-					"value": 0.8
+					"value": 0.8,
+					"valueStr": null
 				}
 			]
 		},
@@ -142,10 +152,10 @@
 			"name": "流沙化",
 			"rangeId": null,
 			"description": "<@ba.vdown>停止攻击</>；攻击范围内的敌方单位每<@ba.vup>{interval:0.0}</>秒受到一次<$ba.sluggish>停顿</>效果",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 50,
@@ -157,11 +167,13 @@
 			"blackboard": [
 				{
 					"key": "interval",
-					"value": 1.7
+					"value": 1.7,
+					"valueStr": null
 				},
 				{
 					"key": "sluggish",
-					"value": 0.8
+					"value": 0.8,
+					"valueStr": null
 				}
 			]
 		},
@@ -169,10 +181,10 @@
 			"name": "流沙化",
 			"rangeId": null,
 			"description": "<@ba.vdown>停止攻击</>；攻击范围内的敌方单位每<@ba.vup>{interval:0.0}</>秒受到一次<$ba.sluggish>停顿</>效果",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 48,
@@ -184,11 +196,13 @@
 			"blackboard": [
 				{
 					"key": "interval",
-					"value": 1.6
+					"value": 1.6,
+					"valueStr": null
 				},
 				{
 					"key": "sluggish",
-					"value": 0.8
+					"value": 0.8,
+					"valueStr": null
 				}
 			]
 		},
@@ -196,10 +210,10 @@
 			"name": "流沙化",
 			"rangeId": null,
 			"description": "<@ba.vdown>停止攻击</>；攻击范围内的敌方单位每<@ba.vup>{interval:0.0}</>秒受到一次<$ba.sluggish>停顿</>效果",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 46,
@@ -211,11 +225,13 @@
 			"blackboard": [
 				{
 					"key": "interval",
-					"value": 1.55
+					"value": 1.55,
+					"valueStr": null
 				},
 				{
 					"key": "sluggish",
-					"value": 0.8
+					"value": 0.8,
+					"valueStr": null
 				}
 			]
 		},
@@ -223,10 +239,10 @@
 			"name": "流沙化",
 			"rangeId": null,
 			"description": "<@ba.vdown>停止攻击</>；攻击范围内的敌方单位每<@ba.vup>{interval:0.0}</>秒受到一次<$ba.sluggish>停顿</>效果",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 44,
@@ -238,11 +254,13 @@
 			"blackboard": [
 				{
 					"key": "interval",
-					"value": 1.5
+					"value": 1.5,
+					"valueStr": null
 				},
 				{
 					"key": "sluggish",
-					"value": 0.8
+					"value": 0.8,
+					"valueStr": null
 				}
 			]
 		},
@@ -250,10 +268,10 @@
 			"name": "流沙化",
 			"rangeId": null,
 			"description": "<@ba.vdown>停止攻击</>；攻击范围内的敌方单位每<@ba.vup>{interval:0.0}</>秒受到一次<$ba.sluggish>停顿</>效果",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 40,
@@ -265,11 +283,13 @@
 			"blackboard": [
 				{
 					"key": "interval",
-					"value": 1.4
+					"value": 1.4,
+					"valueStr": null
 				},
 				{
 					"key": "sluggish",
-					"value": 0.8
+					"value": 0.8,
+					"valueStr": null
 				}
 			]
 		}

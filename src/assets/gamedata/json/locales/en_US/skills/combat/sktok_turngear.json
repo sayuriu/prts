@@ -1,0 +1,25 @@
+{
+	"skillId": "sktok_turngear",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "Self-Driving Cart, This Way!",
+			"rangeId": null,
+			"description": "Makes passing <@ba.vup>Self-Driving Carts</> change direction to match the deployment direction of this unit, and briefly increases their Movement Speed",
+			"skillType": 0,
+			"durationType": 0,
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 0,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": null,
+			"duration": -1,
+			"blackboard": []
+		}
+	]
+}

@@ -1,0 +1,347 @@
+{
+	"skillId": "skchr_totter_2",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "破虹",
+			"rangeId": null,
+			"description": "攻击速度<@ba.vup>+{attack_speed}</>，每次攻击额外攻击<@ba.vup>2</>个目标，仅攻击到一个敌人时对其造成相当于攻击力<@ba.vup>{attack@s2c.atk_scale:0%}</>的物理伤害",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 55,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_totter_2",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "attack_speed",
+					"value": 5,
+					"valueStr": null
+				},
+				{
+					"key": "attack@s2c.atk_scale",
+					"value": 1.8,
+					"valueStr": null
+				},
+				{
+					"key": "attack@s2n.max_target",
+					"value": 3,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "破虹",
+			"rangeId": null,
+			"description": "攻击速度<@ba.vup>+{attack_speed}</>，每次攻击额外攻击<@ba.vup>2</>个目标，仅攻击到一个敌人时对其造成相当于攻击力<@ba.vup>{attack@s2c.atk_scale:0%}</>的物理伤害",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 54,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_totter_2",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "attack_speed",
+					"value": 10,
+					"valueStr": null
+				},
+				{
+					"key": "attack@s2c.atk_scale",
+					"value": 1.85,
+					"valueStr": null
+				},
+				{
+					"key": "attack@s2n.max_target",
+					"value": 3,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "破虹",
+			"rangeId": null,
+			"description": "攻击速度<@ba.vup>+{attack_speed}</>，每次攻击额外攻击<@ba.vup>2</>个目标，仅攻击到一个敌人时对其造成相当于攻击力<@ba.vup>{attack@s2c.atk_scale:0%}</>的物理伤害",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 53,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_totter_2",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "attack_speed",
+					"value": 15,
+					"valueStr": null
+				},
+				{
+					"key": "attack@s2c.atk_scale",
+					"value": 1.9,
+					"valueStr": null
+				},
+				{
+					"key": "attack@s2n.max_target",
+					"value": 3,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "破虹",
+			"rangeId": null,
+			"description": "攻击速度<@ba.vup>+{attack_speed}</>，每次攻击额外攻击<@ba.vup>2</>个目标，仅攻击到一个敌人时对其造成相当于攻击力<@ba.vup>{attack@s2c.atk_scale:0%}</>的物理伤害",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 50,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_totter_2",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "attack_speed",
+					"value": 20,
+					"valueStr": null
+				},
+				{
+					"key": "attack@s2c.atk_scale",
+					"value": 1.95,
+					"valueStr": null
+				},
+				{
+					"key": "attack@s2n.max_target",
+					"value": 3,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "破虹",
+			"rangeId": null,
+			"description": "攻击速度<@ba.vup>+{attack_speed}</>，每次攻击额外攻击<@ba.vup>2</>个目标，仅攻击到一个敌人时对其造成相当于攻击力<@ba.vup>{attack@s2c.atk_scale:0%}</>的物理伤害",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 49,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_totter_2",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "attack_speed",
+					"value": 25,
+					"valueStr": null
+				},
+				{
+					"key": "attack@s2c.atk_scale",
+					"value": 2,
+					"valueStr": null
+				},
+				{
+					"key": "attack@s2n.max_target",
+					"value": 3,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "破虹",
+			"rangeId": null,
+			"description": "攻击速度<@ba.vup>+{attack_speed}</>，每次攻击额外攻击<@ba.vup>2</>个目标，仅攻击到一个敌人时对其造成相当于攻击力<@ba.vup>{attack@s2c.atk_scale:0%}</>的物理伤害",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 48,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_totter_2",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "attack_speed",
+					"value": 30,
+					"valueStr": null
+				},
+				{
+					"key": "attack@s2c.atk_scale",
+					"value": 2.05,
+					"valueStr": null
+				},
+				{
+					"key": "attack@s2n.max_target",
+					"value": 3,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "破虹",
+			"rangeId": null,
+			"description": "攻击速度<@ba.vup>+{attack_speed}</>，每次攻击额外攻击<@ba.vup>2</>个目标，仅攻击到一个敌人时对其造成相当于攻击力<@ba.vup>{attack@s2c.atk_scale:0%}</>的物理伤害",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 45,
+				"initSp": 25,
+				"increment": 1
+			},
+			"prefabId": "skchr_totter_2",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "attack_speed",
+					"value": 35,
+					"valueStr": null
+				},
+				{
+					"key": "attack@s2c.atk_scale",
+					"value": 2.1,
+					"valueStr": null
+				},
+				{
+					"key": "attack@s2n.max_target",
+					"value": 3,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "破虹",
+			"rangeId": null,
+			"description": "攻击速度<@ba.vup>+{attack_speed}</>，每次攻击额外攻击<@ba.vup>2</>个目标，仅攻击到一个敌人时对其造成相当于攻击力<@ba.vup>{attack@s2c.atk_scale:0%}</>的物理伤害",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 43,
+				"initSp": 25,
+				"increment": 1
+			},
+			"prefabId": "skchr_totter_2",
+			"duration": 27,
+			"blackboard": [
+				{
+					"key": "attack_speed",
+					"value": 40,
+					"valueStr": null
+				},
+				{
+					"key": "attack@s2c.atk_scale",
+					"value": 2.15,
+					"valueStr": null
+				},
+				{
+					"key": "attack@s2n.max_target",
+					"value": 3,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "破虹",
+			"rangeId": null,
+			"description": "攻击速度<@ba.vup>+{attack_speed}</>，每次攻击额外攻击<@ba.vup>2</>个目标，仅攻击到一个敌人时对其造成相当于攻击力<@ba.vup>{attack@s2c.atk_scale:0%}</>的物理伤害",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 42,
+				"initSp": 25,
+				"increment": 1
+			},
+			"prefabId": "skchr_totter_2",
+			"duration": 28,
+			"blackboard": [
+				{
+					"key": "attack_speed",
+					"value": 45,
+					"valueStr": null
+				},
+				{
+					"key": "attack@s2c.atk_scale",
+					"value": 2.2,
+					"valueStr": null
+				},
+				{
+					"key": "attack@s2n.max_target",
+					"value": 3,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "破虹",
+			"rangeId": null,
+			"description": "攻击速度<@ba.vup>+{attack_speed}</>，每次攻击额外攻击<@ba.vup>2</>个目标，仅攻击到一个敌人时对其造成相当于攻击力<@ba.vup>{attack@s2c.atk_scale:0%}</>的物理伤害",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 40,
+				"initSp": 25,
+				"increment": 1
+			},
+			"prefabId": "skchr_totter_2",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "attack_speed",
+					"value": 50,
+					"valueStr": null
+				},
+				{
+					"key": "attack@s2c.atk_scale",
+					"value": 2.25,
+					"valueStr": null
+				},
+				{
+					"key": "attack@s2n.max_target",
+					"value": 3,
+					"valueStr": null
+				}
+			]
+		}
+	]
+}

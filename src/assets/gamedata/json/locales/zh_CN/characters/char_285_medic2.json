@@ -2,7 +2,10 @@
 	"name": "Lancet-2",
 	"description": "恢复友方单位生命，且不受<@ba.kw>部署数量</>限制，但再部署时间极长",
 	"canUseGeneralPotentialItem": false,
+	"canUseActivityPotentialItem": false,
 	"potentialItemId": "p_char_285_medic2",
+	"activityPotentialItemId": null,
+	"classicPotentialItemId": null,
 	"nationId": "rhodes",
 	"groupId": null,
 	"teamId": null,
@@ -11,6 +14,7 @@
 	"appellation": "Lancet-2",
 	"position": "RANGED",
 	"tagList": [
+		"支援机械",
 		"治疗"
 	],
 	"itemUsage": "罗德岛医疗机器人Lancet-2，被工程师可露希尔派遣来执行战地医疗任务。",
@@ -19,7 +23,7 @@
 	"isNotObtainable": false,
 	"isSpChar": false,
 	"maxPotentialLevel": 5,
-	"rarity": 0,
+	"rarity": "TIER_1",
 	"profession": "MEDIC",
 	"subProfessionId": "physician",
 	"trait": null,
@@ -52,7 +56,8 @@
 						"stunImmune": false,
 						"silenceImmune": false,
 						"sleepImmune": false,
-						"frozenImmune": false
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -78,7 +83,8 @@
 						"stunImmune": false,
 						"silenceImmune": false,
 						"sleepImmune": false,
-						"frozenImmune": false
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -91,7 +97,7 @@
 			"candidates": [
 				{
 					"unlockCondition": {
-						"phase": 0,
+						"phase": "PHASE_0",
 						"level": 1
 					},
 					"requiredPotentialRank": 0,
@@ -102,13 +108,14 @@
 					"blackboard": [
 						{
 							"key": "value",
-							"value": 200
+							"value": 200,
+							"valueStr": null
 						}
 					]
 				},
 				{
 					"unlockCondition": {
-						"phase": 0,
+						"phase": "PHASE_0",
 						"level": 1
 					},
 					"requiredPotentialRank": 1,
@@ -119,13 +126,14 @@
 					"blackboard": [
 						{
 							"key": "value",
-							"value": 260
+							"value": 260,
+							"valueStr": null
 						}
 					]
 				},
 				{
 					"unlockCondition": {
-						"phase": 0,
+						"phase": "PHASE_0",
 						"level": 1
 					},
 					"requiredPotentialRank": 2,
@@ -136,13 +144,14 @@
 					"blackboard": [
 						{
 							"key": "value",
-							"value": 320
+							"value": 320,
+							"valueStr": null
 						}
 					]
 				},
 				{
 					"unlockCondition": {
-						"phase": 0,
+						"phase": "PHASE_0",
 						"level": 1
 					},
 					"requiredPotentialRank": 3,
@@ -153,13 +162,14 @@
 					"blackboard": [
 						{
 							"key": "value",
-							"value": 380
+							"value": 380,
+							"valueStr": null
 						}
 					]
 				},
 				{
 					"unlockCondition": {
-						"phase": 0,
+						"phase": "PHASE_0",
 						"level": 1
 					},
 					"requiredPotentialRank": 4,
@@ -170,13 +180,14 @@
 					"blackboard": [
 						{
 							"key": "value",
-							"value": 440
+							"value": 440,
+							"valueStr": null
 						}
 					]
 				},
 				{
 					"unlockCondition": {
-						"phase": 0,
+						"phase": "PHASE_0",
 						"level": 1
 					},
 					"requiredPotentialRank": 5,
@@ -187,7 +198,8 @@
 					"blackboard": [
 						{
 							"key": "value",
-							"value": 500
+							"value": 500,
+							"valueStr": null
 						}
 					]
 				}
@@ -196,31 +208,31 @@
 	],
 	"potentialRanks": [
 		{
-			"type": 1,
+			"type": "CUSTOM",
 			"description": "天赋效果加强",
 			"buff": null,
 			"equivalentCost": null
 		},
 		{
-			"type": 1,
+			"type": "CUSTOM",
 			"description": "天赋效果加强",
 			"buff": null,
 			"equivalentCost": null
 		},
 		{
-			"type": 1,
+			"type": "CUSTOM",
 			"description": "天赋效果加强",
 			"buff": null,
 			"equivalentCost": null
 		},
 		{
-			"type": 1,
+			"type": "CUSTOM",
 			"description": "天赋效果加强",
 			"buff": null,
 			"equivalentCost": null
 		},
 		{
-			"type": 1,
+			"type": "CUSTOM",
 			"description": "天赋效果加强",
 			"buff": null,
 			"equivalentCost": null
@@ -250,7 +262,8 @@
 				"stunImmune": false,
 				"silenceImmune": false,
 				"sleepImmune": false,
-				"frozenImmune": false
+				"frozenImmune": false,
+				"levitateImmune": false
 			}
 		},
 		{
@@ -276,7 +289,8 @@
 				"stunImmune": false,
 				"silenceImmune": false,
 				"sleepImmune": false,
-				"frozenImmune": false
+				"frozenImmune": false,
+				"levitateImmune": false
 			}
 		}
 	],

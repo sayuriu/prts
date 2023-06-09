@@ -1,0 +1,90 @@
+{
+	"stageType": "ACTIVITY",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
+	"unlockCondition": [
+		{
+			"stageId": "act21side_s03",
+			"completeState": "PASS"
+		}
+	],
+	"stageId": "act21side_s04",
+	"levelId": "Activities/ACT21side/level_act21side_sub-1-4",
+	"zoneId": "act21side_zone3",
+	"code": "IS-S-4",
+	"name": "悬赏",
+	"description": "家族的秩序不容挑衅。\\n <@lv.item><血债账簿></>“血债帐款”累计满后，所有敌人获得加强，并召唤出“家族暗影灭迹人” \\n<@lv.rem>额外条件：</>敌人最大生命值，防御力与攻击力提升",
+	"hardStagedId": "act21side_s04#f#",
+	"dangerLevel": "-",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_IS_OldCity",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 20,
+	"apFailReturn": 19,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": 0,
+	"expGain": 200,
+	"goldGain": 200,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 19,
+	"completeFavor": 20,
+	"slProgress": 0,
+	"displayMainItem": null,
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": "MAIN_NORMAL",
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act21side_token_permesso",
+				"dropType": "COMPLETE"
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": "COMPLETE"
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": "ALWAYS",
+				"type": "ACTIVITY_ITEM",
+				"id": "act21side_token_permesso",
+				"dropType": "COMPLETE"
+			},
+			{
+				"occPercent": "ALWAYS",
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": "COMPLETE"
+			}
+		]
+	},
+	"canUseCharm": false,
+	"canUseTech": false,
+	"canUseTrapTool": false,
+	"canUseBattlePerformance": false,
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "act21side_s01",
+	"extraCondition": null,
+	"extraInfo": null
+}

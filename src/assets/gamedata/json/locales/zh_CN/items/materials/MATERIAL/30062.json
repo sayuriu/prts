@@ -1,67 +1,23 @@
 {
 	"itemId": "30062",
 	"name": "装置",
-	"description": "一套相对完整的装置，含有大量密集的可用电子元件。为了迎合轻便实用的设计，主板寸土寸金的空间被塞的满满当当。",
+	"description": "一套相对完整的装置，含有大量密集的可用电子元件。为了迎合轻便实用的设计，主板寸土寸金的空间被塞得满满当当。",
 	"rarity": 1,
 	"iconId": "MTL_SL_BOSS2",
 	"overrideBkg": null,
 	"stackIconId": null,
-	"sortId": 100018,
+	"sortId": 100032,
 	"usage": "收缴来的常规机械装置，可用于多种强化场合，也常作为制造站合成项目的原料。",
 	"obtainApproach": null,
 	"classifyType": "MATERIAL",
 	"itemType": "MATERIAL",
 	"stageDropList": [
 		{
-			"stageId": "act7mini_03",
-			"occPer": "USUAL"
-		},
-		{
-			"stageId": "act11d0_05",
+			"stageId": "act19side_05",
 			"occPer": "OFTEN"
 		},
 		{
-			"stageId": "act12d0_05",
-			"occPer": "OFTEN"
-		},
-		{
-			"stageId": "act13d0_05",
-			"occPer": "USUAL"
-		},
-		{
-			"stageId": "act13d5_04",
-			"occPer": "OFTEN"
-		},
-		{
-			"stageId": "act15d0_05",
-			"occPer": "OFTEN"
-		},
-		{
-			"stageId": "act15d5_05",
-			"occPer": "USUAL"
-		},
-		{
-			"stageId": "act16d5_05",
-			"occPer": "OFTEN"
-		},
-		{
-			"stageId": "act17d0_06",
-			"occPer": "USUAL"
-		},
-		{
-			"stageId": "act18d0_05",
-			"occPer": "USUAL"
-		},
-		{
-			"stageId": "act6d5_05",
-			"occPer": "ALMOST"
-		},
-		{
-			"stageId": "act8mini_03",
-			"occPer": "USUAL"
-		},
-		{
-			"stageId": "act9mini_03",
+			"stageId": "act16side_04",
 			"occPer": "USUAL"
 		},
 		{
@@ -69,19 +25,103 @@
 			"occPer": "ALMOST"
 		},
 		{
-			"stageId": "act16side_04",
+			"stageId": "act9mini_03",
 			"occPer": "USUAL"
+		},
+		{
+			"stageId": "act8mini_03",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "act7mini_03",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "act18d0_05",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "act18side_03",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "act17d0_06",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "act15d5_05",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "act15d0_05",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "act13d5_04",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "act13d0_05",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "act12d0_05",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "act11d0_05",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "act16d5_05",
+			"occPer": "OFTEN"
 		},
 		{
 			"stageId": "act9d0_05",
 			"occPer": "OFTEN"
 		},
 		{
-			"stageId": "main_09-02",
+			"stageId": "act6d5_05",
+			"occPer": "ALMOST"
+		},
+		{
+			"stageId": "act11mini_05",
+			"occPer": "ALMOST"
+		},
+		{
+			"stageId": "act20side_06",
+			"occPer": "ALMOST"
+		},
+		{
+			"stageId": "act20side_04",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "act12mini_05",
+			"occPer": "ALMOST"
+		},
+		{
+			"stageId": "act23side_06",
 			"occPer": "USUAL"
 		},
 		{
-			"stageId": "main_08-09",
+			"stageId": "act23side_05",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "act25side_07",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "act25side_04",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "act19side_03",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "main_01-12",
 			"occPer": "USUAL"
 		},
 		{
@@ -89,8 +129,20 @@
 			"occPer": "USUAL"
 		},
 		{
-			"stageId": "main_01-12",
+			"stageId": "main_08-09",
 			"occPer": "USUAL"
+		},
+		{
+			"stageId": "main_09-02",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "main_10-03",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "tough_10-03",
+			"occPer": "OFTEN"
 		},
 		{
 			"stageId": "sub_05-3-1",

@@ -1,0 +1,397 @@
+{
+	"skillId": "skchr_mlyss_2",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "生态耦合",
+			"rangeId": null,
+			"description": "立即获得<@ba.vup>{cost}</>点费用，自身与流形攻击力<@ba.vup>+{atk:0%}</>，若流形为近战复制体时，每秒回复<@ba.vup>{hp_recovery_per_sec_by_max_hp_ratio:0%}</>的生命值，获得<@ba.vup>{damage_resistance:0%}</>的<$ba.protect>庇护</>，若为远程复制体时，攻击变为<@ba.vup>二</>连击，随机攻击范围内的目标",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 45,
+				"initSp": 5,
+				"increment": 1
+			},
+			"prefabId": "skchr_mlyss_2",
+			"duration": 15,
+			"blackboard": [
+				{
+					"key": "cost",
+					"value": 12,
+					"valueStr": null
+				},
+				{
+					"key": "atk",
+					"value": 0.1,
+					"valueStr": null
+				},
+				{
+					"key": "damage_resistance",
+					"value": 0.1,
+					"valueStr": null
+				},
+				{
+					"key": "hp_recovery_per_sec_by_max_hp_ratio",
+					"value": 0.01,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "生态耦合",
+			"rangeId": null,
+			"description": "立即获得<@ba.vup>{cost}</>点费用，自身与流形攻击力<@ba.vup>+{atk:0%}</>，若流形为近战复制体时，每秒回复<@ba.vup>{hp_recovery_per_sec_by_max_hp_ratio:0%}</>的生命值，获得<@ba.vup>{damage_resistance:0%}</>的<$ba.protect>庇护</>，若为远程复制体时，攻击变为<@ba.vup>二</>连击，随机攻击范围内的目标",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 44,
+				"initSp": 5,
+				"increment": 1
+			},
+			"prefabId": "skchr_mlyss_2",
+			"duration": 15,
+			"blackboard": [
+				{
+					"key": "cost",
+					"value": 12,
+					"valueStr": null
+				},
+				{
+					"key": "atk",
+					"value": 0.14,
+					"valueStr": null
+				},
+				{
+					"key": "damage_resistance",
+					"value": 0.1,
+					"valueStr": null
+				},
+				{
+					"key": "hp_recovery_per_sec_by_max_hp_ratio",
+					"value": 0.01,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "生态耦合",
+			"rangeId": null,
+			"description": "立即获得<@ba.vup>{cost}</>点费用，自身与流形攻击力<@ba.vup>+{atk:0%}</>，若流形为近战复制体时，每秒回复<@ba.vup>{hp_recovery_per_sec_by_max_hp_ratio:0%}</>的生命值，获得<@ba.vup>{damage_resistance:0%}</>的<$ba.protect>庇护</>，若为远程复制体时，攻击变为<@ba.vup>二</>连击，随机攻击范围内的目标",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 43,
+				"initSp": 5,
+				"increment": 1
+			},
+			"prefabId": "skchr_mlyss_2",
+			"duration": 15,
+			"blackboard": [
+				{
+					"key": "cost",
+					"value": 12,
+					"valueStr": null
+				},
+				{
+					"key": "atk",
+					"value": 0.18,
+					"valueStr": null
+				},
+				{
+					"key": "damage_resistance",
+					"value": 0.1,
+					"valueStr": null
+				},
+				{
+					"key": "hp_recovery_per_sec_by_max_hp_ratio",
+					"value": 0.01,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "生态耦合",
+			"rangeId": null,
+			"description": "立即获得<@ba.vup>{cost}</>点费用，自身与流形攻击力<@ba.vup>+{atk:0%}</>，若流形为近战复制体时，每秒回复<@ba.vup>{hp_recovery_per_sec_by_max_hp_ratio:0%}</>的生命值，获得<@ba.vup>{damage_resistance:0%}</>的<$ba.protect>庇护</>，若为远程复制体时，攻击变为<@ba.vup>二</>连击，随机攻击范围内的目标",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 42,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_mlyss_2",
+			"duration": 15,
+			"blackboard": [
+				{
+					"key": "cost",
+					"value": 13,
+					"valueStr": null
+				},
+				{
+					"key": "atk",
+					"value": 0.22,
+					"valueStr": null
+				},
+				{
+					"key": "damage_resistance",
+					"value": 0.15,
+					"valueStr": null
+				},
+				{
+					"key": "hp_recovery_per_sec_by_max_hp_ratio",
+					"value": 0.02,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "生态耦合",
+			"rangeId": null,
+			"description": "立即获得<@ba.vup>{cost}</>点费用，自身与流形攻击力<@ba.vup>+{atk:0%}</>，若流形为近战复制体时，每秒回复<@ba.vup>{hp_recovery_per_sec_by_max_hp_ratio:0%}</>的生命值，获得<@ba.vup>{damage_resistance:0%}</>的<$ba.protect>庇护</>，若为远程复制体时，攻击变为<@ba.vup>二</>连击，随机攻击范围内的目标",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 41,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_mlyss_2",
+			"duration": 15,
+			"blackboard": [
+				{
+					"key": "cost",
+					"value": 13,
+					"valueStr": null
+				},
+				{
+					"key": "atk",
+					"value": 0.26,
+					"valueStr": null
+				},
+				{
+					"key": "damage_resistance",
+					"value": 0.15,
+					"valueStr": null
+				},
+				{
+					"key": "hp_recovery_per_sec_by_max_hp_ratio",
+					"value": 0.02,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "生态耦合",
+			"rangeId": null,
+			"description": "立即获得<@ba.vup>{cost}</>点费用，自身与流形攻击力<@ba.vup>+{atk:0%}</>，若流形为近战复制体时，每秒回复<@ba.vup>{hp_recovery_per_sec_by_max_hp_ratio:0%}</>的生命值，获得<@ba.vup>{damage_resistance:0%}</>的<$ba.protect>庇护</>，若为远程复制体时，攻击变为<@ba.vup>二</>连击，随机攻击范围内的目标",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 40,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_mlyss_2",
+			"duration": 15,
+			"blackboard": [
+				{
+					"key": "cost",
+					"value": 13,
+					"valueStr": null
+				},
+				{
+					"key": "atk",
+					"value": 0.3,
+					"valueStr": null
+				},
+				{
+					"key": "damage_resistance",
+					"value": 0.15,
+					"valueStr": null
+				},
+				{
+					"key": "hp_recovery_per_sec_by_max_hp_ratio",
+					"value": 0.02,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "生态耦合",
+			"rangeId": null,
+			"description": "立即获得<@ba.vup>{cost}</>点费用，自身与流形攻击力<@ba.vup>+{atk:0%}</>，若流形为近战复制体时，每秒回复<@ba.vup>{hp_recovery_per_sec_by_max_hp_ratio:0%}</>的生命值，获得<@ba.vup>{damage_resistance:0%}</>的<$ba.protect>庇护</>，若为远程复制体时，攻击变为<@ba.vup>二</>连击，随机攻击范围内的目标",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 39,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_mlyss_2",
+			"duration": 15,
+			"blackboard": [
+				{
+					"key": "cost",
+					"value": 14,
+					"valueStr": null
+				},
+				{
+					"key": "atk",
+					"value": 0.35,
+					"valueStr": null
+				},
+				{
+					"key": "damage_resistance",
+					"value": 0.2,
+					"valueStr": null
+				},
+				{
+					"key": "hp_recovery_per_sec_by_max_hp_ratio",
+					"value": 0.03,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "生态耦合",
+			"rangeId": null,
+			"description": "立即获得<@ba.vup>{cost}</>点费用，自身与流形攻击力<@ba.vup>+{atk:0%}</>，若流形为近战复制体时，每秒回复<@ba.vup>{hp_recovery_per_sec_by_max_hp_ratio:0%}</>的生命值，获得<@ba.vup>{damage_resistance:0%}</>的<$ba.protect>庇护</>，若为远程复制体时，攻击变为<@ba.vup>二</>连击，随机攻击范围内的目标",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 38,
+				"initSp": 16,
+				"increment": 1
+			},
+			"prefabId": "skchr_mlyss_2",
+			"duration": 15,
+			"blackboard": [
+				{
+					"key": "cost",
+					"value": 14,
+					"valueStr": null
+				},
+				{
+					"key": "atk",
+					"value": 0.4,
+					"valueStr": null
+				},
+				{
+					"key": "damage_resistance",
+					"value": 0.2,
+					"valueStr": null
+				},
+				{
+					"key": "hp_recovery_per_sec_by_max_hp_ratio",
+					"value": 0.04,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "生态耦合",
+			"rangeId": null,
+			"description": "立即获得<@ba.vup>{cost}</>点费用，自身与流形攻击力<@ba.vup>+{atk:0%}</>，若流形为近战复制体时，每秒回复<@ba.vup>{hp_recovery_per_sec_by_max_hp_ratio:0%}</>的生命值，获得<@ba.vup>{damage_resistance:0%}</>的<$ba.protect>庇护</>，若为远程复制体时，攻击变为<@ba.vup>二</>连击，随机攻击范围内的目标",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 37,
+				"initSp": 17,
+				"increment": 1
+			},
+			"prefabId": "skchr_mlyss_2",
+			"duration": 15,
+			"blackboard": [
+				{
+					"key": "cost",
+					"value": 14,
+					"valueStr": null
+				},
+				{
+					"key": "atk",
+					"value": 0.45,
+					"valueStr": null
+				},
+				{
+					"key": "damage_resistance",
+					"value": 0.25,
+					"valueStr": null
+				},
+				{
+					"key": "hp_recovery_per_sec_by_max_hp_ratio",
+					"value": 0.04,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "生态耦合",
+			"rangeId": null,
+			"description": "立即获得<@ba.vup>{cost}</>点费用，自身与流形攻击力<@ba.vup>+{atk:0%}</>，若流形为近战复制体时，每秒回复<@ba.vup>{hp_recovery_per_sec_by_max_hp_ratio:0%}</>的生命值，获得<@ba.vup>{damage_resistance:0%}</>的<$ba.protect>庇护</>，若为远程复制体时，攻击变为<@ba.vup>二</>连击，随机攻击范围内的目标",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 35,
+				"initSp": 18,
+				"increment": 1
+			},
+			"prefabId": "skchr_mlyss_2",
+			"duration": 15,
+			"blackboard": [
+				{
+					"key": "cost",
+					"value": 15,
+					"valueStr": null
+				},
+				{
+					"key": "atk",
+					"value": 0.5,
+					"valueStr": null
+				},
+				{
+					"key": "damage_resistance",
+					"value": 0.25,
+					"valueStr": null
+				},
+				{
+					"key": "hp_recovery_per_sec_by_max_hp_ratio",
+					"value": 0.05,
+					"valueStr": null
+				}
+			]
+		}
+	]
+}

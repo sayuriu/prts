@@ -7,10 +7,10 @@
 			"name": "全景过载摄像",
 			"rangeId": null,
 			"description": "立即获得一个摄影车，所有摄影车的侦查范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>，防御力<@ba.vup>+{def:0%}</>，法术抗性<@ba.vup>+{magic_resistance}</>\\n<@ba.rem>技能结束后所有摄影车<$ba.stun>晕眩</>{stun}秒</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 30,
@@ -22,27 +22,33 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				},
 				{
 					"key": "def",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				},
 				{
 					"key": "magic_resistance",
-					"value": 10
+					"value": 10,
+					"valueStr": null
 				},
 				{
 					"key": "stun",
-					"value": 5
+					"value": 5,
+					"valueStr": null
 				},
 				{
 					"key": "talent_range_flag",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "cnt",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -50,10 +56,10 @@
 			"name": "全景过载摄像",
 			"rangeId": null,
 			"description": "立即获得一个摄影车，所有摄影车的侦查范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>，防御力<@ba.vup>+{def:0%}</>，法术抗性<@ba.vup>+{magic_resistance}</>\\n<@ba.rem>技能结束后所有摄影车<$ba.stun>晕眩</>{stun}秒</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 30,
@@ -65,27 +71,33 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.55
+					"value": 0.55,
+					"valueStr": null
 				},
 				{
 					"key": "def",
-					"value": 0.55
+					"value": 0.55,
+					"valueStr": null
 				},
 				{
 					"key": "magic_resistance",
-					"value": 10
+					"value": 10,
+					"valueStr": null
 				},
 				{
 					"key": "stun",
-					"value": 5
+					"value": 5,
+					"valueStr": null
 				},
 				{
 					"key": "talent_range_flag",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "cnt",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -93,10 +105,10 @@
 			"name": "全景过载摄像",
 			"rangeId": null,
 			"description": "立即获得一个摄影车，所有摄影车的侦查范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>，防御力<@ba.vup>+{def:0%}</>，法术抗性<@ba.vup>+{magic_resistance}</>\\n<@ba.rem>技能结束后所有摄影车<$ba.stun>晕眩</>{stun}秒</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 30,
@@ -108,27 +120,33 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.6
+					"value": 0.6,
+					"valueStr": null
 				},
 				{
 					"key": "def",
-					"value": 0.6
+					"value": 0.6,
+					"valueStr": null
 				},
 				{
 					"key": "magic_resistance",
-					"value": 10
+					"value": 10,
+					"valueStr": null
 				},
 				{
 					"key": "stun",
-					"value": 5
+					"value": 5,
+					"valueStr": null
 				},
 				{
 					"key": "talent_range_flag",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "cnt",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -136,10 +154,10 @@
 			"name": "全景过载摄像",
 			"rangeId": null,
 			"description": "立即获得一个摄影车，所有摄影车的侦查范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>，防御力<@ba.vup>+{def:0%}</>，法术抗性<@ba.vup>+{magic_resistance}</>\\n<@ba.rem>技能结束后所有摄影车<$ba.stun>晕眩</>{stun}秒</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 30,
@@ -151,27 +169,33 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.65
+					"value": 0.65,
+					"valueStr": null
 				},
 				{
 					"key": "def",
-					"value": 0.65
+					"value": 0.65,
+					"valueStr": null
 				},
 				{
 					"key": "magic_resistance",
-					"value": 10
+					"value": 10,
+					"valueStr": null
 				},
 				{
 					"key": "stun",
-					"value": 5
+					"value": 5,
+					"valueStr": null
 				},
 				{
 					"key": "talent_range_flag",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "cnt",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -179,10 +203,10 @@
 			"name": "全景过载摄像",
 			"rangeId": null,
 			"description": "立即获得一个摄影车，所有摄影车的侦查范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>，防御力<@ba.vup>+{def:0%}</>，法术抗性<@ba.vup>+{magic_resistance}</>\\n<@ba.rem>技能结束后所有摄影车<$ba.stun>晕眩</>{stun}秒</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 30,
@@ -194,27 +218,33 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.7
+					"value": 0.7,
+					"valueStr": null
 				},
 				{
 					"key": "def",
-					"value": 0.7
+					"value": 0.7,
+					"valueStr": null
 				},
 				{
 					"key": "magic_resistance",
-					"value": 10
+					"value": 10,
+					"valueStr": null
 				},
 				{
 					"key": "stun",
-					"value": 5
+					"value": 5,
+					"valueStr": null
 				},
 				{
 					"key": "talent_range_flag",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "cnt",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -222,10 +252,10 @@
 			"name": "全景过载摄像",
 			"rangeId": null,
 			"description": "立即获得一个摄影车，所有摄影车的侦查范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>，防御力<@ba.vup>+{def:0%}</>，法术抗性<@ba.vup>+{magic_resistance}</>\\n<@ba.rem>技能结束后所有摄影车<$ba.stun>晕眩</>{stun}秒</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 30,
@@ -237,27 +267,33 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.75
+					"value": 0.75,
+					"valueStr": null
 				},
 				{
 					"key": "def",
-					"value": 0.75
+					"value": 0.75,
+					"valueStr": null
 				},
 				{
 					"key": "magic_resistance",
-					"value": 10
+					"value": 10,
+					"valueStr": null
 				},
 				{
 					"key": "stun",
-					"value": 5
+					"value": 5,
+					"valueStr": null
 				},
 				{
 					"key": "talent_range_flag",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "cnt",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -265,10 +301,10 @@
 			"name": "全景过载摄像",
 			"rangeId": null,
 			"description": "立即获得一个摄影车，所有摄影车的侦查范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>，防御力<@ba.vup>+{def:0%}</>，法术抗性<@ba.vup>+{magic_resistance}</>\\n<@ba.rem>技能结束后所有摄影车<$ba.stun>晕眩</>{stun}秒</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 30,
@@ -280,27 +316,33 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.8
+					"value": 0.8,
+					"valueStr": null
 				},
 				{
 					"key": "def",
-					"value": 0.8
+					"value": 0.8,
+					"valueStr": null
 				},
 				{
 					"key": "magic_resistance",
-					"value": 15
+					"value": 15,
+					"valueStr": null
 				},
 				{
 					"key": "stun",
-					"value": 5
+					"value": 5,
+					"valueStr": null
 				},
 				{
 					"key": "talent_range_flag",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "cnt",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -308,10 +350,10 @@
 			"name": "全景过载摄像",
 			"rangeId": null,
 			"description": "立即获得一个摄影车，所有摄影车的侦查范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>，防御力<@ba.vup>+{def:0%}</>，法术抗性<@ba.vup>+{magic_resistance}</>\\n<@ba.rem>技能结束后所有摄影车<$ba.stun>晕眩</>{stun}秒</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 30,
@@ -323,27 +365,33 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.95
+					"value": 0.95,
+					"valueStr": null
 				},
 				{
 					"key": "def",
-					"value": 0.95
+					"value": 0.95,
+					"valueStr": null
 				},
 				{
 					"key": "magic_resistance",
-					"value": 15
+					"value": 15,
+					"valueStr": null
 				},
 				{
 					"key": "stun",
-					"value": 5
+					"value": 5,
+					"valueStr": null
 				},
 				{
 					"key": "talent_range_flag",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "cnt",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -351,10 +399,10 @@
 			"name": "全景过载摄像",
 			"rangeId": null,
 			"description": "立即获得一个摄影车，所有摄影车的侦查范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>，防御力<@ba.vup>+{def:0%}</>，法术抗性<@ba.vup>+{magic_resistance}</>\\n<@ba.rem>技能结束后所有摄影车<$ba.stun>晕眩</>{stun}秒</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 30,
@@ -366,27 +414,33 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 1.1
+					"value": 1.1,
+					"valueStr": null
 				},
 				{
 					"key": "def",
-					"value": 1.1
+					"value": 1.1,
+					"valueStr": null
 				},
 				{
 					"key": "magic_resistance",
-					"value": 15
+					"value": 15,
+					"valueStr": null
 				},
 				{
 					"key": "stun",
-					"value": 5
+					"value": 5,
+					"valueStr": null
 				},
 				{
 					"key": "talent_range_flag",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "cnt",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -394,10 +448,10 @@
 			"name": "全景过载摄像",
 			"rangeId": null,
 			"description": "立即获得一个摄影车，所有摄影车的侦查范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>，防御力<@ba.vup>+{def:0%}</>，法术抗性<@ba.vup>+{magic_resistance}</>\\n<@ba.rem>技能结束后所有摄影车<$ba.stun>晕眩</>{stun}秒</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 30,
@@ -409,27 +463,33 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 1.3
+					"value": 1.3,
+					"valueStr": null
 				},
 				{
 					"key": "def",
-					"value": 1.3
+					"value": 1.3,
+					"valueStr": null
 				},
 				{
 					"key": "magic_resistance",
-					"value": 20
+					"value": 20,
+					"valueStr": null
 				},
 				{
 					"key": "stun",
-					"value": 5
+					"value": 5,
+					"valueStr": null
 				},
 				{
 					"key": "talent_range_flag",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "cnt",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		}

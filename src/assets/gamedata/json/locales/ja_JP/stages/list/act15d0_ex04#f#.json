@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "FOUR_STAR",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "main_02-08",
@@ -14,10 +15,10 @@
 	],
 	"stageId": "act15d0_ex04#f#",
 	"levelId": "Activities/ACT15D0/level_act15d0_ex04",
-	"zoneId": "act15d0_zone2",
+	"zoneId": "act8sre_zone2",
 	"code": "MB-EX-4",
 	"name": "監獄の廊下",
-	"description": "<@lv.fs>制限：</>\n<巨漢囚人>の攻撃速度が上昇",
+	"description": "<@lv.fs>制限：</>\n<重罪巨漢囚人>の攻撃速度が大幅に上昇",
 	"hardStagedId": null,
 	"dangerLevel": "-",
 	"dangerPoint": -1,
@@ -46,6 +47,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {

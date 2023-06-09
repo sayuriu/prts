@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "FOUR_STAR",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "main_02-08",
@@ -14,10 +15,10 @@
 	],
 	"stageId": "act13d5_ex05#f#",
 	"levelId": "Activities/ACT13D5/level_act13d5_ex05",
-	"zoneId": "act13d5_zone2",
+	"zoneId": "act7sre_zone2",
 	"code": "MN-EX-5",
 	"name": "소리없는 합창",
-	"description": "<@lv.fs>제한조건:</>\n처음 시작 시 적이 두 대의 '축음기'를 점령하고 있음",
+	"description": "<@lv.fs>제한 조건:</>\n전투 시작 후 적이 '축음기' 2대 점령",
 	"hardStagedId": null,
 	"dangerLevel": "-",
 	"dangerPoint": -1,
@@ -46,6 +47,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {

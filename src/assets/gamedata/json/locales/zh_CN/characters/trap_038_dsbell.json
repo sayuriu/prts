@@ -2,7 +2,10 @@
 	"name": "应急救治设施",
 	"description": "周围四格存在我方单位或<自动维护机器>时激活",
 	"canUseGeneralPotentialItem": true,
-	"potentialItemId": "",
+	"canUseActivityPotentialItem": false,
+	"potentialItemId": null,
+	"activityPotentialItemId": null,
+	"classicPotentialItemId": null,
 	"nationId": null,
 	"groupId": null,
 	"teamId": null,
@@ -17,7 +20,7 @@
 	"isNotObtainable": false,
 	"isSpChar": false,
 	"maxPotentialLevel": 0,
-	"rarity": 0,
+	"rarity": "TIER_1",
 	"profession": "TRAP",
 	"subProfessionId": "notchar2",
 	"trait": null,
@@ -50,7 +53,8 @@
 						"stunImmune": false,
 						"silenceImmune": false,
 						"sleepImmune": false,
-						"frozenImmune": false
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -76,7 +80,8 @@
 						"stunImmune": false,
 						"silenceImmune": false,
 						"sleepImmune": false,
-						"frozenImmune": false
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -90,7 +95,7 @@
 			"overrideTokenKey": null,
 			"levelUpCostCond": [],
 			"unlockCond": {
-				"phase": 0,
+				"phase": "PHASE_0",
 				"level": 1
 			}
 		}
@@ -100,7 +105,7 @@
 			"candidates": [
 				{
 					"unlockCondition": {
-						"phase": 0,
+						"phase": "PHASE_0",
 						"level": 1
 					},
 					"requiredPotentialRank": 0,
@@ -111,7 +116,8 @@
 					"blackboard": [
 						{
 							"key": "ep_recovery_per_sec",
-							"value": 25
+							"value": 25,
+							"valueStr": null
 						}
 					]
 				}
@@ -121,7 +127,7 @@
 			"candidates": [
 				{
 					"unlockCondition": {
-						"phase": 0,
+						"phase": "PHASE_0",
 						"level": 1
 					},
 					"requiredPotentialRank": 0,
@@ -132,7 +138,8 @@
 					"blackboard": [
 						{
 							"key": "ep_recovery_per_sec",
-							"value": 75
+							"value": 75,
+							"valueStr": null
 						}
 					]
 				}

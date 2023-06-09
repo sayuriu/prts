@@ -1,0 +1,83 @@
+{
+	"stageType": "ACTIVITY",
+	"difficulty": "FOUR_STAR",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
+	"unlockCondition": [
+		{
+			"stageId": "main_02-08",
+			"completeState": "PASS"
+		},
+		{
+			"stageId": "act19side_ex07",
+			"completeState": "COMPLETE"
+		}
+	],
+	"stageId": "act19side_ex07#f#",
+	"levelId": "Activities/act19side/level_act19side_ex07",
+	"zoneId": "act19side_zone2",
+	"code": "DV-EX-7",
+	"name": "筛选方法",
+	"description": "<@lv.fs>附加条件：</>\\n多萝西获得隐匿",
+	"hardStagedId": null,
+	"dangerLevel": "-",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_DV_Headquarters",
+	"canPractice": true,
+	"canBattleReplay": false,
+	"apCost": 20,
+	"apFailReturn": 10,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 0,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 3,
+	"dailyStageDifficulty": 0,
+	"expGain": 200,
+	"goldGain": 200,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 10,
+	"completeFavor": 20,
+	"slProgress": 0,
+	"displayMainItem": null,
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": "MAIN_NORMAL",
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": "COMPLETE"
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": "ALWAYS",
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": "COMPLETE"
+			}
+		]
+	},
+	"canUseCharm": false,
+	"canUseTech": false,
+	"canUseTrapTool": false,
+	"canUseBattlePerformance": false,
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "act19side_ex01",
+	"extraCondition": null,
+	"extraInfo": null
+}

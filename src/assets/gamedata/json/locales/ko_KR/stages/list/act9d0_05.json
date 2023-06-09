@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act9d0_04",
@@ -13,7 +14,7 @@
 	"zoneId": "act17d5_zone1",
 	"code": "DM-5",
 	"name": "깃발",
-	"description": "쓰러짓 깃발은 가치가 전혀 없지만, 어떤 사람들의 눈엔 분쟁을 뜻하는 이 천 조각이 한 번도 세워진 적이 없는 것처럼 보일 것이다.\n<@lv.item><오리지늄 기류 발생 장치></> 기류의 순풍/역풍 여부에 따라 배치된 오퍼레이터의 공격력 및 적의 이동 속도가 상승/감소한다.",
+	"description": "쓰러진 깃발은 가치가 전혀 없지만, 어떤 사람들의 눈엔 분쟁을 뜻하는 이 천 조각이 한 번도 세워진 적이 없는 것처럼 보일 것이다.\n<@lv.item><오리지늄 기류 발생 장치></> 기류의 순풍/역풍 여부에 따라 배치된 오퍼레이터의 공격력 및 적의 이동 속도가 상승/감소한다.",
 	"hardStagedId": null,
 	"dangerLevel": "1차 정예화 Lv.35",
 	"dangerPoint": -1,
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {

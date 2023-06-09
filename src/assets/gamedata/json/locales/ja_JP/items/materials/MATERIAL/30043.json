@@ -6,12 +6,16 @@
 	"iconId": "MTL_SL_IRON3",
 	"overrideBkg": null,
 	"stackIconId": null,
-	"sortId": 100029,
+	"sortId": 100043,
 	"usage": "とても珍しい工業材料。昇進やスキル強化に必要な素材。",
 	"obtainApproach": null,
 	"classifyType": "MATERIAL",
 	"itemType": "MATERIAL",
 	"stageDropList": [
+		{
+			"stageId": "act9mini_06",
+			"occPer": "OFTEN"
+		},
 		{
 			"stageId": "act15d0_08",
 			"occPer": "USUAL"
@@ -46,6 +50,22 @@
 		},
 		{
 			"stageId": "main_09-15",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_10-10",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_11-09",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "tough_10-10",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "tough_11-09",
 			"occPer": "OFTEN"
 		},
 		{

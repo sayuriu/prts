@@ -6,7 +6,7 @@
 	"iconId": "MTL_SL_ALCOHOL2",
 	"overrideBkg": null,
 	"stackIconId": null,
-	"sortId": 100004,
+	"sortId": 100018,
 	"usage": "A flaky organic compound. Can be used for a variety of upgrades and the synthesis of Bipolar Nanoflake.",
 	"obtainApproach": null,
 	"classifyType": "MATERIAL",
@@ -26,6 +26,22 @@
 		},
 		{
 			"stageId": "main_09-07",
+			"occPer": "SOMETIMES"
+		},
+		{
+			"stageId": "main_10-13",
+			"occPer": "SOMETIMES"
+		},
+		{
+			"stageId": "main_11-11",
+			"occPer": "SOMETIMES"
+		},
+		{
+			"stageId": "tough_10-13",
+			"occPer": "SOMETIMES"
+		},
+		{
+			"stageId": "tough_11-11",
 			"occPer": "SOMETIMES"
 		}
 	],

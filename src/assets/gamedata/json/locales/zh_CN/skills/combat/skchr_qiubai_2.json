@@ -1,0 +1,397 @@
+{
+	"skillId": "skchr_qiubai_2",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "承影",
+			"rangeId": "4-1",
+			"description": "对前方范围内的地面敌人造成攻击力<@ba.vup>{sword_begin_atk_scale:0%}</>的法术伤害；攻击范围<@ba.vup>改变</>，攻击力<@ba.vup>+{atk:0%}</>，攻击范围内的地面敌人<$ba.sluggish>停顿</>；技能结束时对范围内的地面敌人造成攻击力<@ba.vup>{sword_end_atk_scale:0%}</>的物理伤害",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WHEN_ATTACK",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 14,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_qiubai_2",
+			"duration": 5,
+			"blackboard": [
+				{
+					"key": "sword_begin_atk_scale",
+					"value": 1.5,
+					"valueStr": null
+				},
+				{
+					"key": "sword_end_atk_scale",
+					"value": 1.5,
+					"valueStr": null
+				},
+				{
+					"key": "atk",
+					"value": 0.6,
+					"valueStr": null
+				},
+				{
+					"key": "sword_end_duration",
+					"value": 4.88,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "承影",
+			"rangeId": "4-1",
+			"description": "对前方范围内的地面敌人造成攻击力<@ba.vup>{sword_begin_atk_scale:0%}</>的法术伤害；攻击范围<@ba.vup>改变</>，攻击力<@ba.vup>+{atk:0%}</>，攻击范围内的地面敌人<$ba.sluggish>停顿</>；技能结束时对范围内的地面敌人造成攻击力<@ba.vup>{sword_end_atk_scale:0%}</>的物理伤害",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WHEN_ATTACK",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 14,
+				"initSp": 1,
+				"increment": 1
+			},
+			"prefabId": "skchr_qiubai_2",
+			"duration": 5,
+			"blackboard": [
+				{
+					"key": "sword_begin_atk_scale",
+					"value": 1.65,
+					"valueStr": null
+				},
+				{
+					"key": "sword_end_atk_scale",
+					"value": 1.65,
+					"valueStr": null
+				},
+				{
+					"key": "atk",
+					"value": 0.65,
+					"valueStr": null
+				},
+				{
+					"key": "sword_end_duration",
+					"value": 4.88,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "承影",
+			"rangeId": "4-1",
+			"description": "对前方范围内的地面敌人造成攻击力<@ba.vup>{sword_begin_atk_scale:0%}</>的法术伤害；攻击范围<@ba.vup>改变</>，攻击力<@ba.vup>+{atk:0%}</>，攻击范围内的地面敌人<$ba.sluggish>停顿</>；技能结束时对范围内的地面敌人造成攻击力<@ba.vup>{sword_end_atk_scale:0%}</>的物理伤害",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WHEN_ATTACK",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 14,
+				"initSp": 2,
+				"increment": 1
+			},
+			"prefabId": "skchr_qiubai_2",
+			"duration": 5,
+			"blackboard": [
+				{
+					"key": "sword_begin_atk_scale",
+					"value": 1.8,
+					"valueStr": null
+				},
+				{
+					"key": "sword_end_atk_scale",
+					"value": 1.8,
+					"valueStr": null
+				},
+				{
+					"key": "atk",
+					"value": 0.7,
+					"valueStr": null
+				},
+				{
+					"key": "sword_end_duration",
+					"value": 4.88,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "承影",
+			"rangeId": "4-1",
+			"description": "对前方范围内的地面敌人造成攻击力<@ba.vup>{sword_begin_atk_scale:0%}</>的法术伤害；攻击范围<@ba.vup>改变</>，攻击力<@ba.vup>+{atk:0%}</>，攻击范围内的地面敌人<$ba.sluggish>停顿</>；技能结束时对范围内的地面敌人造成攻击力<@ba.vup>{sword_end_atk_scale:0%}</>的物理伤害",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WHEN_ATTACK",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 13,
+				"initSp": 2,
+				"increment": 1
+			},
+			"prefabId": "skchr_qiubai_2",
+			"duration": 5,
+			"blackboard": [
+				{
+					"key": "sword_begin_atk_scale",
+					"value": 1.95,
+					"valueStr": null
+				},
+				{
+					"key": "sword_end_atk_scale",
+					"value": 1.95,
+					"valueStr": null
+				},
+				{
+					"key": "atk",
+					"value": 0.75,
+					"valueStr": null
+				},
+				{
+					"key": "sword_end_duration",
+					"value": 4.88,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "承影",
+			"rangeId": "4-1",
+			"description": "对前方范围内的地面敌人造成攻击力<@ba.vup>{sword_begin_atk_scale:0%}</>的法术伤害；攻击范围<@ba.vup>改变</>，攻击力<@ba.vup>+{atk:0%}</>，攻击范围内的地面敌人<$ba.sluggish>停顿</>；技能结束时对范围内的地面敌人造成攻击力<@ba.vup>{sword_end_atk_scale:0%}</>的物理伤害",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WHEN_ATTACK",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 13,
+				"initSp": 3,
+				"increment": 1
+			},
+			"prefabId": "skchr_qiubai_2",
+			"duration": 5,
+			"blackboard": [
+				{
+					"key": "sword_begin_atk_scale",
+					"value": 2.1,
+					"valueStr": null
+				},
+				{
+					"key": "sword_end_atk_scale",
+					"value": 2.1,
+					"valueStr": null
+				},
+				{
+					"key": "atk",
+					"value": 0.8,
+					"valueStr": null
+				},
+				{
+					"key": "sword_end_duration",
+					"value": 4.88,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "承影",
+			"rangeId": "4-1",
+			"description": "对前方范围内的地面敌人造成攻击力<@ba.vup>{sword_begin_atk_scale:0%}</>的法术伤害；攻击范围<@ba.vup>改变</>，攻击力<@ba.vup>+{atk:0%}</>，攻击范围内的地面敌人<$ba.sluggish>停顿</>；技能结束时对范围内的地面敌人造成攻击力<@ba.vup>{sword_end_atk_scale:0%}</>的物理伤害",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WHEN_ATTACK",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 13,
+				"initSp": 4,
+				"increment": 1
+			},
+			"prefabId": "skchr_qiubai_2",
+			"duration": 5,
+			"blackboard": [
+				{
+					"key": "sword_begin_atk_scale",
+					"value": 2.25,
+					"valueStr": null
+				},
+				{
+					"key": "sword_end_atk_scale",
+					"value": 2.25,
+					"valueStr": null
+				},
+				{
+					"key": "atk",
+					"value": 0.85,
+					"valueStr": null
+				},
+				{
+					"key": "sword_end_duration",
+					"value": 4.88,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "承影",
+			"rangeId": "4-1",
+			"description": "对前方范围内的地面敌人造成攻击力<@ba.vup>{sword_begin_atk_scale:0%}</>的法术伤害；攻击范围<@ba.vup>改变</>，攻击力<@ba.vup>+{atk:0%}</>，攻击范围内的地面敌人<$ba.sluggish>停顿</>；技能结束时对范围内的地面敌人造成攻击力<@ba.vup>{sword_end_atk_scale:0%}</>的物理伤害",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WHEN_ATTACK",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 12,
+				"initSp": 4,
+				"increment": 1
+			},
+			"prefabId": "skchr_qiubai_2",
+			"duration": 5,
+			"blackboard": [
+				{
+					"key": "sword_begin_atk_scale",
+					"value": 2.4,
+					"valueStr": null
+				},
+				{
+					"key": "sword_end_atk_scale",
+					"value": 2.4,
+					"valueStr": null
+				},
+				{
+					"key": "atk",
+					"value": 0.9,
+					"valueStr": null
+				},
+				{
+					"key": "sword_end_duration",
+					"value": 4.88,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "承影",
+			"rangeId": "4-1",
+			"description": "对前方范围内的地面敌人造成攻击力<@ba.vup>{sword_begin_atk_scale:0%}</>的法术伤害；攻击范围<@ba.vup>改变</>，攻击力<@ba.vup>+{atk:0%}</>，攻击范围内的地面敌人<$ba.sluggish>停顿</>；技能结束时对范围内的地面敌人造成攻击力<@ba.vup>{sword_end_atk_scale:0%}</>的物理伤害",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WHEN_ATTACK",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 11,
+				"initSp": 4,
+				"increment": 1
+			},
+			"prefabId": "skchr_qiubai_2",
+			"duration": 5,
+			"blackboard": [
+				{
+					"key": "sword_begin_atk_scale",
+					"value": 2.6,
+					"valueStr": null
+				},
+				{
+					"key": "sword_end_atk_scale",
+					"value": 2.6,
+					"valueStr": null
+				},
+				{
+					"key": "atk",
+					"value": 1,
+					"valueStr": null
+				},
+				{
+					"key": "sword_end_duration",
+					"value": 4.88,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "承影",
+			"rangeId": "4-1",
+			"description": "对前方范围内的地面敌人造成攻击力<@ba.vup>{sword_begin_atk_scale:0%}</>的法术伤害；攻击范围<@ba.vup>改变</>，攻击力<@ba.vup>+{atk:0%}</>，攻击范围内的地面敌人<$ba.sluggish>停顿</>；技能结束时对范围内的地面敌人造成攻击力<@ba.vup>{sword_end_atk_scale:0%}</>的物理伤害",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WHEN_ATTACK",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 11,
+				"initSp": 5,
+				"increment": 1
+			},
+			"prefabId": "skchr_qiubai_2",
+			"duration": 5,
+			"blackboard": [
+				{
+					"key": "sword_begin_atk_scale",
+					"value": 2.8,
+					"valueStr": null
+				},
+				{
+					"key": "sword_end_atk_scale",
+					"value": 2.8,
+					"valueStr": null
+				},
+				{
+					"key": "atk",
+					"value": 1.2,
+					"valueStr": null
+				},
+				{
+					"key": "sword_end_duration",
+					"value": 4.88,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "承影",
+			"rangeId": "4-1",
+			"description": "对前方范围内的地面敌人造成攻击力<@ba.vup>{sword_begin_atk_scale:0%}</>的法术伤害；攻击范围<@ba.vup>改变</>，攻击力<@ba.vup>+{atk:0%}</>，攻击范围内的地面敌人<$ba.sluggish>停顿</>；技能结束时对范围内的地面敌人造成攻击力<@ba.vup>{sword_end_atk_scale:0%}</>的物理伤害",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WHEN_ATTACK",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 10,
+				"initSp": 5,
+				"increment": 1
+			},
+			"prefabId": "skchr_qiubai_2",
+			"duration": 5,
+			"blackboard": [
+				{
+					"key": "sword_begin_atk_scale",
+					"value": 3,
+					"valueStr": null
+				},
+				{
+					"key": "sword_end_atk_scale",
+					"value": 3,
+					"valueStr": null
+				},
+				{
+					"key": "atk",
+					"value": 1.4,
+					"valueStr": null
+				},
+				{
+					"key": "sword_end_duration",
+					"value": 4.88,
+					"valueStr": null
+				}
+			]
+		}
+	]
+}

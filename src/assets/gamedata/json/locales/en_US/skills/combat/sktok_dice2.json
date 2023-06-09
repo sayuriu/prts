@@ -1,0 +1,62 @@
+{
+	"skillId": "sktok_dice2",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "Roll A Die",
+			"rangeId": null,
+			"description": null,
+			"skillType": 2,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "sktok_dice2",
+			"duration": 15,
+			"blackboard": [
+				{
+					"key": "dice_interval[0].duration",
+					"value": 15
+				},
+				{
+					"key": "dice_interval[0].attack_speed",
+					"value": -20
+				},
+				{
+					"key": "dice_interval[0].move_speed",
+					"value": -0.5
+				},
+				{
+					"key": "dice_interval[1].duration",
+					"value": 15
+				},
+				{
+					"key": "dice_interval[1].attack_speed",
+					"value": -30
+				},
+				{
+					"key": "dice_interval[1].move_speed",
+					"value": -0.7
+				},
+				{
+					"key": "dice_interval[2].duration",
+					"value": 15
+				},
+				{
+					"key": "dice_interval[2].attack_speed",
+					"value": -40
+				},
+				{
+					"key": "dice_interval[2].move_speed",
+					"value": -0.8
+				}
+			]
+		}
+	]
+}

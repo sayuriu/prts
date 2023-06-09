@@ -1,0 +1,357 @@
+{
+	"skillId": "skchr_provs_2",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "Prevailing Argument",
+			"rangeId": "y-2",
+			"description": "Deal <@ba.vup>{atk_scale:0%}</> ATK as Arts damage to all units within range, causing them to become <$ba.sluggish>Slowed</> and silenced for <@ba.vup>{sluggish} sec</>, then reduce own attack interval",
+			"skillType": 1,
+			"durationType": 2,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 30,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_provs_2",
+			"duration": 6,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 2
+				},
+				{
+					"key": "sluggish",
+					"value": 6
+				},
+				{
+					"key": "silence",
+					"value": 6
+				},
+				{
+					"key": "base_attack_time",
+					"value": -0.8
+				}
+			]
+		},
+		{
+			"name": "Prevailing Argument",
+			"rangeId": "y-2",
+			"description": "Deal <@ba.vup>{atk_scale:0%}</> ATK as Arts damage to all units within range, causing them to become <$ba.sluggish>Slowed</> and silenced for <@ba.vup>{sluggish} sec</>, then reduce own attack interval",
+			"skillType": 1,
+			"durationType": 2,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 30,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_provs_2",
+			"duration": 6,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 2.1
+				},
+				{
+					"key": "sluggish",
+					"value": 6
+				},
+				{
+					"key": "silence",
+					"value": 6
+				},
+				{
+					"key": "base_attack_time",
+					"value": -0.8
+				}
+			]
+		},
+		{
+			"name": "Prevailing Argument",
+			"rangeId": "y-2",
+			"description": "Deal <@ba.vup>{atk_scale:0%}</> ATK as Arts damage to all units within range, causing them to become <$ba.sluggish>Slowed</> and silenced for <@ba.vup>{sluggish} sec</>, then reduce own attack interval",
+			"skillType": 1,
+			"durationType": 2,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 30,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_provs_2",
+			"duration": 6,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 2.3
+				},
+				{
+					"key": "sluggish",
+					"value": 6
+				},
+				{
+					"key": "silence",
+					"value": 6
+				},
+				{
+					"key": "base_attack_time",
+					"value": -0.8
+				}
+			]
+		},
+		{
+			"name": "Prevailing Argument",
+			"rangeId": "y-2",
+			"description": "Deal <@ba.vup>{atk_scale:0%}</> ATK as Arts damage to all units within range, causing them to become <$ba.sluggish>Slowed</> and silenced for <@ba.vup>{sluggish} sec</>, then further reduce own attack interval",
+			"skillType": 1,
+			"durationType": 2,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 30,
+				"initSp": 5,
+				"increment": 1
+			},
+			"prefabId": "skchr_provs_2",
+			"duration": 6,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 2.5
+				},
+				{
+					"key": "sluggish",
+					"value": 6
+				},
+				{
+					"key": "silence",
+					"value": 6
+				},
+				{
+					"key": "base_attack_time",
+					"value": -0.9
+				}
+			]
+		},
+		{
+			"name": "Prevailing Argument",
+			"rangeId": "y-2",
+			"description": "Deal <@ba.vup>{atk_scale:0%}</> ATK as Arts damage to all units within range, causing them to become <$ba.sluggish>Slowed</> and silenced for <@ba.vup>{sluggish} sec</>, then further reduce own attack interval",
+			"skillType": 1,
+			"durationType": 2,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 30,
+				"initSp": 5,
+				"increment": 1
+			},
+			"prefabId": "skchr_provs_2",
+			"duration": 6,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 2.6
+				},
+				{
+					"key": "sluggish",
+					"value": 6
+				},
+				{
+					"key": "silence",
+					"value": 6
+				},
+				{
+					"key": "base_attack_time",
+					"value": -0.9
+				}
+			]
+		},
+		{
+			"name": "Prevailing Argument",
+			"rangeId": "y-2",
+			"description": "Deal <@ba.vup>{atk_scale:0%}</> ATK as Arts damage to all units within range, causing them to become <$ba.sluggish>Slowed</> and silenced for <@ba.vup>{sluggish} sec</>, then further reduce own attack interval",
+			"skillType": 1,
+			"durationType": 2,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 30,
+				"initSp": 5,
+				"increment": 1
+			},
+			"prefabId": "skchr_provs_2",
+			"duration": 6,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 2.7
+				},
+				{
+					"key": "sluggish",
+					"value": 6
+				},
+				{
+					"key": "silence",
+					"value": 6
+				},
+				{
+					"key": "base_attack_time",
+					"value": -0.9
+				}
+			]
+		},
+		{
+			"name": "Prevailing Argument",
+			"rangeId": "y-2",
+			"description": "Deal <@ba.vup>{atk_scale:0%}</> ATK as Arts damage to all units within range, causing them to become <$ba.sluggish>Slowed</> and silenced for <@ba.vup>{sluggish} sec</>, then reduce own attack interval even further",
+			"skillType": 1,
+			"durationType": 2,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 25,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_provs_2",
+			"duration": 7,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 2.8
+				},
+				{
+					"key": "sluggish",
+					"value": 7
+				},
+				{
+					"key": "silence",
+					"value": 7
+				},
+				{
+					"key": "base_attack_time",
+					"value": -1
+				}
+			]
+		},
+		{
+			"name": "Prevailing Argument",
+			"rangeId": "y-2",
+			"description": "Deal <@ba.vup>{atk_scale:0%}</> ATK as Arts damage to all units within range, causing them to become <$ba.sluggish>Slowed</> and silenced for <@ba.vup>{sluggish} sec</>, then reduce own attack interval even further",
+			"skillType": 1,
+			"durationType": 2,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 25,
+				"initSp": 12,
+				"increment": 1
+			},
+			"prefabId": "skchr_provs_2",
+			"duration": 8,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 3
+				},
+				{
+					"key": "sluggish",
+					"value": 8
+				},
+				{
+					"key": "silence",
+					"value": 8
+				},
+				{
+					"key": "base_attack_time",
+					"value": -1
+				}
+			]
+		},
+		{
+			"name": "Prevailing Argument",
+			"rangeId": "y-2",
+			"description": "Deal <@ba.vup>{atk_scale:0%}</> ATK as Arts damage to all units within range, causing them to become <$ba.sluggish>Slowed</> and silenced for <@ba.vup>{sluggish} sec</>, then reduce own attack interval even further",
+			"skillType": 1,
+			"durationType": 2,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 25,
+				"initSp": 12,
+				"increment": 1
+			},
+			"prefabId": "skchr_provs_2",
+			"duration": 9,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 3.2
+				},
+				{
+					"key": "sluggish",
+					"value": 9
+				},
+				{
+					"key": "silence",
+					"value": 9
+				},
+				{
+					"key": "base_attack_time",
+					"value": -1
+				}
+			]
+		},
+		{
+			"name": "Prevailing Argument",
+			"rangeId": "y-2",
+			"description": "Deal <@ba.vup>{atk_scale:0%}</> ATK as Arts damage to all units within range, causing them to become <$ba.sluggish>Slowed</> and silenced for <@ba.vup>{sluggish} sec</>, then reduce own attack interval significantly",
+			"skillType": 1,
+			"durationType": 2,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 25,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_provs_2",
+			"duration": 10,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 3.5
+				},
+				{
+					"key": "sluggish",
+					"value": 10
+				},
+				{
+					"key": "silence",
+					"value": 10
+				},
+				{
+					"key": "base_attack_time",
+					"value": -1.1
+				}
+			]
+		}
+	]
+}

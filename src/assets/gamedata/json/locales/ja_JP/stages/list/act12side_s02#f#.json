@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "FOUR_STAR",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "main_02-08",
@@ -14,7 +15,7 @@
 	],
 	"stageId": "act12side_s02#f#",
 	"levelId": "Activities/ACT12SIDE/level_act12side_sub-1-2",
-	"zoneId": "act12side_zone3",
+	"zoneId": "act12sre_zone3",
 	"code": "DH-S-2",
 	"name": "龍争鼠闘",
 	"description": "<@lv.fs>制限：</><無人爆弾ボート改>のHP減少速度が大幅に低下、全ての敵のステータスが大幅に上昇",
@@ -46,6 +47,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {

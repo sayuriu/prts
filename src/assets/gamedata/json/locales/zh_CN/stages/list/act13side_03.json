@@ -2,15 +2,16 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act13side_02",
-			"completeState": 2
+			"completeState": "PASS"
 		}
 	],
 	"stageId": "act13side_03",
 	"levelId": "Activities/act13side/level_act13side_03",
-	"zoneId": "act13side_zone1",
+	"zoneId": "act13sre_zone1",
 	"code": "NL-3",
 	"name": "筹备着",
 	"description": "准备攀登高山的人，与准备猎杀凶兽的人，他们的心境各不相同，但对于未知的反抗却如出一辙。\\n<@lv.item><城市霓虹></>可以提供初始视野，使用后视野范围扩大",
@@ -44,7 +45,7 @@
 	"isHardPredefined": false,
 	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
-	"appearanceStyle": 0,
+	"appearanceStyle": "MAIN_NORMAL",
 	"stageDropInfo": {
 		"firstPassRewards": null,
 		"firstCompleteRewards": null,
@@ -53,108 +54,114 @@
 		"displayRewards": [
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act13side_token_model",
-				"dropType": 8
+				"id": "act13side_token_model_rep_1",
+				"dropType": "COMPLETE"
 			},
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act13side_token_model",
-				"dropType": 2
+				"id": "act13side_token_model_rep_1",
+				"dropType": "NORMAL"
 			},
 			{
 				"type": "MATERIAL",
 				"id": "30031",
-				"dropType": 2
+				"dropType": "NORMAL"
 			},
 			{
 				"type": "MATERIAL",
 				"id": "30061",
-				"dropType": 2
+				"dropType": "NORMAL"
 			},
 			{
 				"type": "MATERIAL",
 				"id": "30041",
-				"dropType": 2
+				"dropType": "NORMAL"
 			},
 			{
 				"type": "MATERIAL",
 				"id": "30051",
-				"dropType": 2
+				"dropType": "NORMAL"
 			},
 			{
 				"type": "MATERIAL",
 				"id": "30021",
-				"dropType": 2
+				"dropType": "NORMAL"
 			},
 			{
 				"type": "MATERIAL",
 				"id": "30011",
-				"dropType": 2
+				"dropType": "NORMAL"
 			},
 			{
 				"type": "DIAMOND",
 				"id": "4002",
-				"dropType": 8
+				"dropType": "COMPLETE"
 			}
 		],
 		"displayDetailRewards": [
 			{
-				"occPercent": 0,
+				"occPercent": "ALWAYS",
 				"type": "ACTIVITY_ITEM",
-				"id": "act13side_token_model",
-				"dropType": 8
+				"id": "act13side_token_model_rep_1",
+				"dropType": "COMPLETE"
 			},
 			{
-				"occPercent": 0,
+				"occPercent": "ALWAYS",
 				"type": "ACTIVITY_ITEM",
-				"id": "act13side_token_model",
-				"dropType": 2
+				"id": "act13side_token_model_rep_1",
+				"dropType": "NORMAL"
 			},
 			{
-				"occPercent": 3,
+				"occPercent": "OFTEN",
 				"type": "MATERIAL",
 				"id": "30031",
-				"dropType": 2
+				"dropType": "NORMAL"
 			},
 			{
-				"occPercent": 3,
+				"occPercent": "OFTEN",
 				"type": "MATERIAL",
 				"id": "30061",
-				"dropType": 2
+				"dropType": "NORMAL"
 			},
 			{
-				"occPercent": 3,
+				"occPercent": "OFTEN",
 				"type": "MATERIAL",
 				"id": "30041",
-				"dropType": 2
+				"dropType": "NORMAL"
 			},
 			{
-				"occPercent": 3,
+				"occPercent": "OFTEN",
 				"type": "MATERIAL",
 				"id": "30051",
-				"dropType": 2
+				"dropType": "NORMAL"
 			},
 			{
-				"occPercent": 3,
+				"occPercent": "OFTEN",
 				"type": "MATERIAL",
 				"id": "30021",
-				"dropType": 2
+				"dropType": "NORMAL"
 			},
 			{
-				"occPercent": 2,
+				"occPercent": "USUAL",
 				"type": "MATERIAL",
 				"id": "30011",
-				"dropType": 2
+				"dropType": "NORMAL"
 			},
 			{
-				"occPercent": 0,
+				"occPercent": "ALWAYS",
 				"type": "DIAMOND",
 				"id": "4002",
-				"dropType": 8
+				"dropType": "COMPLETE"
 			}
 		]
 	},
+	"canUseCharm": false,
+	"canUseTech": false,
+	"canUseTrapTool": false,
+	"canUseBattlePerformance": false,
 	"startButtonOverrideId": null,
 	"isStagePatch": false,
-	"mainStageId": "act13side_st01"
+	"mainStageId": "act13side_st01",
+	"extraCondition": null,
+	"extraInfo": null
 }

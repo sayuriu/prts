@@ -6,8 +6,9 @@
 		{
 			"name": "跡無",
 			"rangeId": null,
-			"description": "攻撃範囲内の味方の物理回避と術回避+<@ba.vup>{prob:0%}</>、敵の<$ba.invisible>ステルス</>状態を無効にする",
+			"description": "攻撃範囲内の味方の物理回避と術回避<@ba.vup>+{attack@prob:0%}</>、敵の<$ba.invisible>ステルス</>状態を無効にする",
 			"skillType": 1,
+			"durationType": 0,
 			"spData": {
 				"spType": 1,
 				"levelUpCost": null,
@@ -20,7 +21,7 @@
 			"duration": 25,
 			"blackboard": [
 				{
-					"key": "prob",
+					"key": "attack@prob",
 					"value": 0.25
 				}
 			]
@@ -28,8 +29,9 @@
 		{
 			"name": "跡無",
 			"rangeId": null,
-			"description": "攻撃範囲内の味方の物理回避と術回避+<@ba.vup>{prob:0%}</>、敵の<$ba.invisible>ステルス</>状態を無効にする",
+			"description": "攻撃範囲内の味方の物理回避と術回避<@ba.vup>+{attack@prob:0%}</>、敵の<$ba.invisible>ステルス</>状態を無効にする",
 			"skillType": 1,
+			"durationType": 0,
 			"spData": {
 				"spType": 1,
 				"levelUpCost": null,
@@ -42,7 +44,7 @@
 			"duration": 26,
 			"blackboard": [
 				{
-					"key": "prob",
+					"key": "attack@prob",
 					"value": 0.25
 				}
 			]
@@ -50,8 +52,9 @@
 		{
 			"name": "跡無",
 			"rangeId": null,
-			"description": "攻撃範囲内の味方の物理回避と術回避+<@ba.vup>{prob:0%}</>、敵の<$ba.invisible>ステルス</>状態を無効にする",
+			"description": "攻撃範囲内の味方の物理回避と術回避<@ba.vup>+{attack@prob:0%}</>、敵の<$ba.invisible>ステルス</>状態を無効にする",
 			"skillType": 1,
+			"durationType": 0,
 			"spData": {
 				"spType": 1,
 				"levelUpCost": null,
@@ -64,7 +67,7 @@
 			"duration": 27,
 			"blackboard": [
 				{
-					"key": "prob",
+					"key": "attack@prob",
 					"value": 0.25
 				}
 			]
@@ -72,8 +75,9 @@
 		{
 			"name": "跡無",
 			"rangeId": null,
-			"description": "攻撃範囲内の味方の物理回避と術回避+<@ba.vup>{prob:0%}</>、敵の<$ba.invisible>ステルス</>状態を無効にする",
+			"description": "攻撃範囲内の味方の物理回避と術回避<@ba.vup>+{attack@prob:0%}</>、敵の<$ba.invisible>ステルス</>状態を無効にする",
 			"skillType": 1,
+			"durationType": 0,
 			"spData": {
 				"spType": 1,
 				"levelUpCost": null,
@@ -86,7 +90,7 @@
 			"duration": 28,
 			"blackboard": [
 				{
-					"key": "prob",
+					"key": "attack@prob",
 					"value": 0.28
 				}
 			]
@@ -94,8 +98,9 @@
 		{
 			"name": "跡無",
 			"rangeId": null,
-			"description": "攻撃範囲内の味方の物理回避と術回避+<@ba.vup>{prob:0%}</>、敵の<$ba.invisible>ステルス</>状態を無効にする",
+			"description": "攻撃範囲内の味方の物理回避と術回避<@ba.vup>+{attack@prob:0%}</>、敵の<$ba.invisible>ステルス</>状態を無効にする",
 			"skillType": 1,
+			"durationType": 0,
 			"spData": {
 				"spType": 1,
 				"levelUpCost": null,
@@ -108,7 +113,7 @@
 			"duration": 29,
 			"blackboard": [
 				{
-					"key": "prob",
+					"key": "attack@prob",
 					"value": 0.28
 				}
 			]
@@ -116,8 +121,9 @@
 		{
 			"name": "跡無",
 			"rangeId": null,
-			"description": "攻撃範囲内の味方の物理回避と術回避+<@ba.vup>{prob:0%}</>、敵の<$ba.invisible>ステルス</>状態を無効にする",
+			"description": "攻撃範囲内の味方の物理回避と術回避<@ba.vup>+{attack@prob:0%}</>、敵の<$ba.invisible>ステルス</>状態を無効にする",
 			"skillType": 1,
+			"durationType": 0,
 			"spData": {
 				"spType": 1,
 				"levelUpCost": null,
@@ -130,7 +136,7 @@
 			"duration": 30,
 			"blackboard": [
 				{
-					"key": "prob",
+					"key": "attack@prob",
 					"value": 0.28
 				}
 			]
@@ -138,8 +144,9 @@
 		{
 			"name": "跡無",
 			"rangeId": null,
-			"description": "攻撃範囲内の味方の物理回避と術回避+<@ba.vup>{prob:0%}</>、敵の<$ba.invisible>ステルス</>状態を無効にする",
+			"description": "攻撃範囲内の味方の物理回避と術回避<@ba.vup>+{attack@prob:0%}</>、敵の<$ba.invisible>ステルス</>状態を無効にする",
 			"skillType": 1,
+			"durationType": 0,
 			"spData": {
 				"spType": 1,
 				"levelUpCost": null,
@@ -152,7 +159,7 @@
 			"duration": 31,
 			"blackboard": [
 				{
-					"key": "prob",
+					"key": "attack@prob",
 					"value": 0.31
 				}
 			]
@@ -160,8 +167,9 @@
 		{
 			"name": "跡無",
 			"rangeId": null,
-			"description": "攻撃範囲内の味方の物理回避と術回避+<@ba.vup>{prob:0%}</>、敵の<$ba.invisible>ステルス</>状態を無効にする",
+			"description": "攻撃範囲内の味方の物理回避と術回避<@ba.vup>+{attack@prob:0%}</>、敵の<$ba.invisible>ステルス</>状態を無効にする",
 			"skillType": 1,
+			"durationType": 0,
 			"spData": {
 				"spType": 1,
 				"levelUpCost": null,
@@ -174,7 +182,7 @@
 			"duration": 32,
 			"blackboard": [
 				{
-					"key": "prob",
+					"key": "attack@prob",
 					"value": 0.32
 				}
 			]
@@ -182,8 +190,9 @@
 		{
 			"name": "跡無",
 			"rangeId": null,
-			"description": "攻撃範囲内の味方の物理回避と術回避+<@ba.vup>{prob:0%}</>、敵の<$ba.invisible>ステルス</>状態を無効にする",
+			"description": "攻撃範囲内の味方の物理回避と術回避<@ba.vup>+{attack@prob:0%}</>、敵の<$ba.invisible>ステルス</>状態を無効にする",
 			"skillType": 1,
+			"durationType": 0,
 			"spData": {
 				"spType": 1,
 				"levelUpCost": null,
@@ -196,7 +205,7 @@
 			"duration": 33,
 			"blackboard": [
 				{
-					"key": "prob",
+					"key": "attack@prob",
 					"value": 0.33
 				}
 			]
@@ -204,8 +213,9 @@
 		{
 			"name": "跡無",
 			"rangeId": null,
-			"description": "攻撃範囲内の味方の物理回避と術回避+<@ba.vup>{prob:0%}</>、敵の<$ba.invisible>ステルス</>状態を無効にする",
+			"description": "攻撃範囲内の味方の物理回避と術回避<@ba.vup>+{attack@prob:0%}</>、敵の<$ba.invisible>ステルス</>状態を無効にする",
 			"skillType": 1,
+			"durationType": 0,
 			"spData": {
 				"spType": 1,
 				"levelUpCost": null,
@@ -218,7 +228,7 @@
 			"duration": 35,
 			"blackboard": [
 				{
-					"key": "prob",
+					"key": "attack@prob",
 					"value": 0.35
 				}
 			]

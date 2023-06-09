@@ -2,7 +2,10 @@
 	"name": "“冰淇淋机”",
 	"description": "不容易受到攻击，每秒回复75点生命值",
 	"canUseGeneralPotentialItem": true,
-	"potentialItemId": "",
+	"canUseActivityPotentialItem": false,
+	"potentialItemId": null,
+	"activityPotentialItemId": null,
+	"classicPotentialItemId": null,
 	"nationId": null,
 	"groupId": null,
 	"teamId": null,
@@ -17,7 +20,7 @@
 	"isNotObtainable": false,
 	"isSpChar": false,
 	"maxPotentialLevel": 0,
-	"rarity": 0,
+	"rarity": "TIER_1",
 	"profession": "TRAP",
 	"subProfessionId": "notchar2",
 	"trait": null,
@@ -50,7 +53,8 @@
 						"stunImmune": false,
 						"silenceImmune": false,
 						"sleepImmune": false,
-						"frozenImmune": false
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -76,7 +80,8 @@
 						"stunImmune": false,
 						"silenceImmune": false,
 						"sleepImmune": false,
-						"frozenImmune": false
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -90,7 +95,7 @@
 			"overrideTokenKey": null,
 			"levelUpCostCond": [],
 			"unlockCond": {
-				"phase": 0,
+				"phase": "PHASE_0",
 				"level": 1
 			}
 		},
@@ -100,7 +105,7 @@
 			"overrideTokenKey": null,
 			"levelUpCostCond": [],
 			"unlockCond": {
-				"phase": 0,
+				"phase": "PHASE_0",
 				"level": 1
 			}
 		}
@@ -110,7 +115,7 @@
 			"candidates": [
 				{
 					"unlockCondition": {
-						"phase": 0,
+						"phase": "PHASE_0",
 						"level": 1
 					},
 					"requiredPotentialRank": 0,
@@ -121,31 +126,38 @@
 					"blackboard": [
 						{
 							"key": "wpnsts_t_1[ally].sp",
-							"value": 1
+							"value": 1,
+							"valueStr": null
 						},
 						{
 							"key": "wpnsts_t_1[ally].interval",
-							"value": 2
+							"value": 2,
+							"valueStr": null
 						},
 						{
 							"key": "wpnsts_t_1[enemy].sp",
-							"value": 1
+							"value": 1,
+							"valueStr": null
 						},
 						{
 							"key": "wpnsts_t_1[enemy].interval",
-							"value": 2
+							"value": 2,
+							"valueStr": null
 						},
 						{
 							"key": "duration",
-							"value": 20
+							"value": 20,
+							"valueStr": null
 						},
 						{
 							"key": "stun",
-							"value": 5
+							"value": 5,
+							"valueStr": null
 						},
 						{
 							"key": "blast_damage",
-							"value": 1000
+							"value": 1000,
+							"valueStr": null
 						}
 					]
 				}

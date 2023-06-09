@@ -1,0 +1,117 @@
+{
+	"stageType": "ACTIVITY",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
+	"unlockCondition": [
+		{
+			"stageId": "act20side_04",
+			"completeState": 2
+		}
+	],
+	"stageId": "act20side_05",
+	"levelId": "Activities/ACT20SIDE/level_act20side_05",
+	"zoneId": "act20side_zone1",
+	"code": "IC-5",
+	"name": "전속력 돌진",
+	"description": "“결승선 앞에서는 속도를 적당히 줄일 줄 알아야 한다. 자신을 위해서라도.”\n<@lv.item><자율차 출발점></> 배치 코스트를 소모하여 자율차 한 대 발사\n<@lv.item><자율차 트랙></> 통과하는 자율차의 방향 전환",
+	"hardStagedId": null,
+	"dangerLevel": "1차 정예화 Lv.40",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_IC_Square",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 15,
+	"apFailReturn": 14,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": 0,
+	"expGain": 150,
+	"goldGain": 150,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 14,
+	"completeFavor": 15,
+	"slProgress": 0,
+	"displayMainItem": null,
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 0,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act20side_token_book",
+				"dropType": 8
+			},
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act20side_token_book",
+				"dropType": 2
+			},
+			{
+				"type": "MATERIAL",
+				"id": "30052",
+				"dropType": 2
+			},
+			{
+				"type": "MATERIAL",
+				"id": "30012",
+				"dropType": 2
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 0,
+				"type": "ACTIVITY_ITEM",
+				"id": "act20side_token_book",
+				"dropType": 8
+			},
+			{
+				"occPercent": 0,
+				"type": "ACTIVITY_ITEM",
+				"id": "act20side_token_book",
+				"dropType": 2
+			},
+			{
+				"occPercent": 0,
+				"type": "MATERIAL",
+				"id": "30052",
+				"dropType": 2
+			},
+			{
+				"occPercent": 0,
+				"type": "MATERIAL",
+				"id": "30012",
+				"dropType": 2
+			},
+			{
+				"occPercent": 0,
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		]
+	},
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "act20side_st01"
+}

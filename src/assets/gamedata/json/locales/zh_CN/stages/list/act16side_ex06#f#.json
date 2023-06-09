@@ -2,19 +2,20 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "FOUR_STAR",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "main_02-08",
-			"completeState": 2
+			"completeState": "PASS"
 		},
 		{
 			"stageId": "act16side_ex06",
-			"completeState": 3
+			"completeState": "COMPLETE"
 		}
 	],
 	"stageId": "act16side_ex06#f#",
 	"levelId": "Activities/act16side/level_act16side_ex06",
-	"zoneId": "act16side_zone2",
+	"zoneId": "act16sre_zone2",
 	"code": "GA-EX-6",
 	"name": "奶油冰淇淋",
 	"description": "<@lv.fs>附加条件：</>\\n队伍里只能编入最多8个干员",
@@ -48,7 +49,7 @@
 	"isHardPredefined": false,
 	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
-	"appearanceStyle": 0,
+	"appearanceStyle": "MAIN_NORMAL",
 	"stageDropInfo": {
 		"firstPassRewards": null,
 		"firstCompleteRewards": null,
@@ -58,19 +59,25 @@
 			{
 				"type": "DIAMOND",
 				"id": "4002",
-				"dropType": 8
+				"dropType": "COMPLETE"
 			}
 		],
 		"displayDetailRewards": [
 			{
-				"occPercent": 0,
+				"occPercent": "ALWAYS",
 				"type": "DIAMOND",
 				"id": "4002",
-				"dropType": 8
+				"dropType": "COMPLETE"
 			}
 		]
 	},
+	"canUseCharm": false,
+	"canUseTech": false,
+	"canUseTrapTool": false,
+	"canUseBattlePerformance": false,
 	"startButtonOverrideId": null,
 	"isStagePatch": false,
-	"mainStageId": "act16side_ex01"
+	"mainStageId": "act16side_ex01",
+	"extraCondition": null,
+	"extraInfo": null
 }

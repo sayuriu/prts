@@ -1,0 +1,347 @@
+{
+	"skillId": "skchr_lunacu_2",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "伏击之影",
+			"rangeId": null,
+			"description": "攻击速度<@ba.vup>+{attack_speed}</>；获得<@ba.vup>{lunacu_s_2[start_cam].start_cam_duration}</>秒<$ba.camou>迷彩</>，技能期间击倒敌人后获得<@ba.vup>{lunacu_s_2[cam].cam_duration}</>秒<$ba.camou>迷彩</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 60,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_lunacu_2",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "attack_speed",
+					"value": 70,
+					"valueStr": null
+				},
+				{
+					"key": "lunacu_s_2[cam].cam_duration",
+					"value": 6,
+					"valueStr": null
+				},
+				{
+					"key": "lunacu_s_2[start_cam].start_cam_duration",
+					"value": 3,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "伏击之影",
+			"rangeId": null,
+			"description": "攻击速度<@ba.vup>+{attack_speed}</>；获得<@ba.vup>{lunacu_s_2[start_cam].start_cam_duration}</>秒<$ba.camou>迷彩</>，技能期间击倒敌人后获得<@ba.vup>{lunacu_s_2[cam].cam_duration}</>秒<$ba.camou>迷彩</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 59,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_lunacu_2",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "attack_speed",
+					"value": 75,
+					"valueStr": null
+				},
+				{
+					"key": "lunacu_s_2[cam].cam_duration",
+					"value": 6,
+					"valueStr": null
+				},
+				{
+					"key": "lunacu_s_2[start_cam].start_cam_duration",
+					"value": 3,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "伏击之影",
+			"rangeId": null,
+			"description": "攻击速度<@ba.vup>+{attack_speed}</>；获得<@ba.vup>{lunacu_s_2[start_cam].start_cam_duration}</>秒<$ba.camou>迷彩</>，技能期间击倒敌人后获得<@ba.vup>{lunacu_s_2[cam].cam_duration}</>秒<$ba.camou>迷彩</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 58,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_lunacu_2",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "attack_speed",
+					"value": 80,
+					"valueStr": null
+				},
+				{
+					"key": "lunacu_s_2[cam].cam_duration",
+					"value": 6,
+					"valueStr": null
+				},
+				{
+					"key": "lunacu_s_2[start_cam].start_cam_duration",
+					"value": 3,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "伏击之影",
+			"rangeId": null,
+			"description": "攻击速度<@ba.vup>+{attack_speed}</>；获得<@ba.vup>{lunacu_s_2[start_cam].start_cam_duration}</>秒<$ba.camou>迷彩</>，技能期间击倒敌人后获得<@ba.vup>{lunacu_s_2[cam].cam_duration}</>秒<$ba.camou>迷彩</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 57,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_lunacu_2",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "attack_speed",
+					"value": 90,
+					"valueStr": null
+				},
+				{
+					"key": "lunacu_s_2[cam].cam_duration",
+					"value": 6,
+					"valueStr": null
+				},
+				{
+					"key": "lunacu_s_2[start_cam].start_cam_duration",
+					"value": 4,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "伏击之影",
+			"rangeId": null,
+			"description": "攻击速度<@ba.vup>+{attack_speed}</>；获得<@ba.vup>{lunacu_s_2[start_cam].start_cam_duration}</>秒<$ba.camou>迷彩</>，技能期间击倒敌人后获得<@ba.vup>{lunacu_s_2[cam].cam_duration}</>秒<$ba.camou>迷彩</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 56,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_lunacu_2",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "attack_speed",
+					"value": 95,
+					"valueStr": null
+				},
+				{
+					"key": "lunacu_s_2[cam].cam_duration",
+					"value": 6,
+					"valueStr": null
+				},
+				{
+					"key": "lunacu_s_2[start_cam].start_cam_duration",
+					"value": 4,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "伏击之影",
+			"rangeId": null,
+			"description": "攻击速度<@ba.vup>+{attack_speed}</>；获得<@ba.vup>{lunacu_s_2[start_cam].start_cam_duration}</>秒<$ba.camou>迷彩</>，技能期间击倒敌人后获得<@ba.vup>{lunacu_s_2[cam].cam_duration}</>秒<$ba.camou>迷彩</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 55,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_lunacu_2",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "attack_speed",
+					"value": 100,
+					"valueStr": null
+				},
+				{
+					"key": "lunacu_s_2[cam].cam_duration",
+					"value": 6,
+					"valueStr": null
+				},
+				{
+					"key": "lunacu_s_2[start_cam].start_cam_duration",
+					"value": 4,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "伏击之影",
+			"rangeId": null,
+			"description": "攻击速度<@ba.vup>+{attack_speed}</>；获得<@ba.vup>{lunacu_s_2[start_cam].start_cam_duration}</>秒<$ba.camou>迷彩</>，技能期间击倒敌人后获得<@ba.vup>{lunacu_s_2[cam].cam_duration}</>秒<$ba.camou>迷彩</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 54,
+				"initSp": 25,
+				"increment": 1
+			},
+			"prefabId": "skchr_lunacu_2",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "attack_speed",
+					"value": 110,
+					"valueStr": null
+				},
+				{
+					"key": "lunacu_s_2[cam].cam_duration",
+					"value": 7,
+					"valueStr": null
+				},
+				{
+					"key": "lunacu_s_2[start_cam].start_cam_duration",
+					"value": 5,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "伏击之影",
+			"rangeId": null,
+			"description": "攻击速度<@ba.vup>+{attack_speed}</>；获得<@ba.vup>{lunacu_s_2[start_cam].start_cam_duration}</>秒<$ba.camou>迷彩</>，技能期间击倒敌人后获得<@ba.vup>{lunacu_s_2[cam].cam_duration}</>秒<$ba.camou>迷彩</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 53,
+				"initSp": 27,
+				"increment": 1
+			},
+			"prefabId": "skchr_lunacu_2",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "attack_speed",
+					"value": 120,
+					"valueStr": null
+				},
+				{
+					"key": "lunacu_s_2[cam].cam_duration",
+					"value": 7,
+					"valueStr": null
+				},
+				{
+					"key": "lunacu_s_2[start_cam].start_cam_duration",
+					"value": 6,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "伏击之影",
+			"rangeId": null,
+			"description": "攻击速度<@ba.vup>+{attack_speed}</>；获得<@ba.vup>{lunacu_s_2[start_cam].start_cam_duration}</>秒<$ba.camou>迷彩</>，技能期间击倒敌人后获得<@ba.vup>{lunacu_s_2[cam].cam_duration}</>秒<$ba.camou>迷彩</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 52,
+				"initSp": 29,
+				"increment": 1
+			},
+			"prefabId": "skchr_lunacu_2",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "attack_speed",
+					"value": 130,
+					"valueStr": null
+				},
+				{
+					"key": "lunacu_s_2[cam].cam_duration",
+					"value": 7,
+					"valueStr": null
+				},
+				{
+					"key": "lunacu_s_2[start_cam].start_cam_duration",
+					"value": 7,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "伏击之影",
+			"rangeId": null,
+			"description": "攻击速度<@ba.vup>+{attack_speed}</>；获得<@ba.vup>{lunacu_s_2[start_cam].start_cam_duration}</>秒<$ba.camou>迷彩</>，技能期间击倒敌人后获得<@ba.vup>{lunacu_s_2[cam].cam_duration}</>秒<$ba.camou>迷彩</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 50,
+				"initSp": 30,
+				"increment": 1
+			},
+			"prefabId": "skchr_lunacu_2",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "attack_speed",
+					"value": 140,
+					"valueStr": null
+				},
+				{
+					"key": "lunacu_s_2[cam].cam_duration",
+					"value": 8,
+					"valueStr": null
+				},
+				{
+					"key": "lunacu_s_2[start_cam].start_cam_duration",
+					"value": 8,
+					"valueStr": null
+				}
+			]
+		}
+	]
+}

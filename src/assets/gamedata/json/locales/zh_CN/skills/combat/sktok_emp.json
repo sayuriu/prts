@@ -7,10 +7,10 @@
 			"name": "EMP爆炸",
 			"rangeId": "x-4",
 			"description": "消耗<@ba.vup>{cost}</>点部署费用，立即对周围所有敌人造成伤害，并使全部命中目标<$ba.stun>晕眩</><@ba.vup>{stun}</>秒",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 5,
@@ -22,11 +22,13 @@
 			"blackboard": [
 				{
 					"key": "stun",
-					"value": 7
+					"value": 7,
+					"valueStr": null
 				},
 				{
 					"key": "cost",
-					"value": 10
+					"value": 10,
+					"valueStr": null
 				}
 			]
 		},
@@ -34,10 +36,10 @@
 			"name": "EMP爆炸",
 			"rangeId": "x-4",
 			"description": "消耗<@ba.vup>{cost}</>点部署费用，立即对周围所有敌人造成伤害，并使全部命中目标<$ba.stun>晕眩</><@ba.vup>{stun}</>秒",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 5,
@@ -49,11 +51,13 @@
 			"blackboard": [
 				{
 					"key": "stun",
-					"value": 15
+					"value": 15,
+					"valueStr": null
 				},
 				{
 					"key": "cost",
-					"value": 10
+					"value": 10,
+					"valueStr": null
 				}
 			]
 		}

@@ -1,0 +1,84 @@
+{
+	"stageType": "ACTIVITY",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
+	"unlockCondition": [
+		{
+			"stageId": "act21side_s04",
+			"completeState": 2
+		}
+	],
+	"stageId": "act21side_s05",
+	"levelId": "Activities/ACT21side/level_act21side_sub-1-5",
+	"zoneId": "act21side_zone3",
+	"code": "IS-S-5",
+	"name": "懺悔",
+	"description": "薄いピッツァを飲み込んで、雨を受け罪を洗い流す。雑念を捨てて、雨期が終わる日に陽光が無事皆を照らしてくれることを祈るとしよう。\n<@lv.item><血債の帳簿></>「血債」が最大まで溜まると、敵全員が強化され、「マフィアの一流掃除人」が現れる。\n<@lv.rem><特殊条件></><狼主>の防御力が上昇。",
+	"hardStagedId": "act21side_s05#f#",
+	"dangerLevel": "-",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_IS_OldCity",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 25,
+	"apFailReturn": 24,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": 0,
+	"expGain": 250,
+	"goldGain": 250,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 24,
+	"completeFavor": 25,
+	"slProgress": 0,
+	"displayMainItem": null,
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 0,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act21side_token_permesso",
+				"dropType": 8
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 0,
+				"type": "ACTIVITY_ITEM",
+				"id": "act21side_token_permesso",
+				"dropType": 8
+			},
+			{
+				"occPercent": 0,
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		]
+	},
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "act21side_s01"
+}

@@ -2,15 +2,16 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act16side_08",
-			"completeState": 2
+			"completeState": "PASS"
 		}
 	],
 	"stageId": "act16side_ex01",
 	"levelId": "Activities/act16side/level_act16side_ex01",
-	"zoneId": "act16side_zone2",
+	"zoneId": "act16sre_zone2",
 	"code": "GA-EX-1",
 	"name": "巧克力曲奇",
 	"description": "年轻的萨科塔总是喜欢不走寻常路，或许可以给他们上一课。",
@@ -44,7 +45,7 @@
 	"isHardPredefined": false,
 	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
-	"appearanceStyle": 0,
+	"appearanceStyle": "MAIN_NORMAL",
 	"stageDropInfo": {
 		"firstPassRewards": null,
 		"firstCompleteRewards": null,
@@ -53,31 +54,37 @@
 		"displayRewards": [
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act16side_token_bolt",
-				"dropType": 8
+				"id": "act16side_token_bolt_rep_1",
+				"dropType": "COMPLETE"
 			},
 			{
 				"type": "DIAMOND",
 				"id": "4002",
-				"dropType": 8
+				"dropType": "COMPLETE"
 			}
 		],
 		"displayDetailRewards": [
 			{
-				"occPercent": 0,
+				"occPercent": "ALWAYS",
 				"type": "ACTIVITY_ITEM",
-				"id": "act16side_token_bolt",
-				"dropType": 8
+				"id": "act16side_token_bolt_rep_1",
+				"dropType": "COMPLETE"
 			},
 			{
-				"occPercent": 0,
+				"occPercent": "ALWAYS",
 				"type": "DIAMOND",
 				"id": "4002",
-				"dropType": 8
+				"dropType": "COMPLETE"
 			}
 		]
 	},
+	"canUseCharm": false,
+	"canUseTech": false,
+	"canUseTrapTool": false,
+	"canUseBattlePerformance": false,
 	"startButtonOverrideId": null,
 	"isStagePatch": false,
-	"mainStageId": "act16side_ex01"
+	"mainStageId": "act16side_ex01",
+	"extraCondition": null,
+	"extraInfo": null
 }

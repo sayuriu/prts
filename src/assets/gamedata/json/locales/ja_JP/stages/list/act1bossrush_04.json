@@ -1,0 +1,68 @@
+{
+	"stageType": "ACTIVITY",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
+	"unlockCondition": [
+		{
+			"stageId": "act1bossrush_01",
+			"completeState": 2
+		},
+		{
+			"stageId": "act1bossrush_02",
+			"completeState": 2
+		},
+		{
+			"stageId": "act1bossrush_03",
+			"completeState": 2
+		}
+	],
+	"stageId": "act1bossrush_04",
+	"levelId": "Activities/ACT1BOSSRUSH/level_bossrush1_04",
+	"zoneId": "act1bossrush_zone1",
+	"code": "TN-4",
+	"name": "理念の戦",
+	"description": "駆け引きに一発逆転は付き物だが、信仰のぶつかり合いに和解の道はない。\n\n<color=#FFA300><危険区域></color>危険区域に配置されているオペレーターは、次WAVEへ遷移する際自動的に撤退する\n\n<color=#FFA300><実体プログラム></color>クリア済みのWAVEに再挑戦した場合に起動可能。起動するとそのWAVE中にオペレーターが大幅に強化される",
+	"hardStagedId": null,
+	"dangerLevel": "-",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_bossrush",
+	"canPractice": false,
+	"canBattleReplay": false,
+	"apCost": 0,
+	"apFailReturn": 0,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 0,
+	"diamondOnceDrop": 0,
+	"practiceTicketCost": -1,
+	"dailyStageDifficulty": 0,
+	"expGain": 0,
+	"goldGain": 0,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 0,
+	"completeFavor": 0,
+	"slProgress": 0,
+	"displayMainItem": null,
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 0,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [],
+		"displayDetailRewards": []
+	},
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "act1bossrush_01"
+}

@@ -2,6 +2,7 @@
 	"stageType": "SUB",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "hard_08-03",
@@ -13,7 +14,7 @@
 	"zoneId": "main_8",
 	"code": "H8-4",
 	"name": "狂夜作戦-4",
-	"description": "「神々」それは傲慢で、恐ろしいもの。\n<@lv.item><エネルギー聚合体></>四方に火の玉を放ち、命中した味方ユニットに攻撃で確定ダメージと【灼熱の息吹】（1秒ごとに確定ダメージを付与する。ダメージ量は次第増加、レジスト可能）を付与\n<@lv.item><ウルサス民間人></>敵に倒された時、耐久値が減少",
+	"description": "「神々」それは傲慢で、恐ろしいもの。\n<@lv.item><エネルギー聚合体></>四方に火の玉を放ち、命中した味方ユニットに術ダメージを与え、【灼熱の息吹】状態（状態中のユニットは1秒ごとに確定ダメージを受ける。ダメージ量は上昇し続け、レジスト可能）を付与\n<@lv.item><ウルサス民間人></>敵に倒された時、耐久値が減少",
 	"hardStagedId": null,
 	"dangerLevel": "-",
 	"dangerPoint": -1,
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 4,
 	"stageDropInfo": {

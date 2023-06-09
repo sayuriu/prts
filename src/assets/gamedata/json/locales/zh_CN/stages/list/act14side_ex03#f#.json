@@ -2,19 +2,20 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "FOUR_STAR",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "main_02-08",
-			"completeState": 2
+			"completeState": "PASS"
 		},
 		{
 			"stageId": "act14side_ex03",
-			"completeState": 3
+			"completeState": "COMPLETE"
 		}
 	],
 	"stageId": "act14side_ex03#f#",
 	"levelId": "Activities/ACT14SIDE/level_act14side_ex03",
-	"zoneId": "act14side_zone2",
+	"zoneId": "act14sre_zone2",
 	"code": "BI-EX-3",
 	"name": "吃过路兵",
 	"description": "<@lv.fs>附加条件：</>\\n所有敌人的攻击速度提升",
@@ -48,7 +49,7 @@
 	"isHardPredefined": false,
 	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
-	"appearanceStyle": 0,
+	"appearanceStyle": "MAIN_NORMAL",
 	"stageDropInfo": {
 		"firstPassRewards": null,
 		"firstCompleteRewards": null,
@@ -58,19 +59,25 @@
 			{
 				"type": "DIAMOND",
 				"id": "4002",
-				"dropType": 8
+				"dropType": "COMPLETE"
 			}
 		],
 		"displayDetailRewards": [
 			{
-				"occPercent": 0,
+				"occPercent": "ALWAYS",
 				"type": "DIAMOND",
 				"id": "4002",
-				"dropType": 8
+				"dropType": "COMPLETE"
 			}
 		]
 	},
+	"canUseCharm": false,
+	"canUseTech": false,
+	"canUseTrapTool": false,
+	"canUseBattlePerformance": false,
 	"startButtonOverrideId": null,
 	"isStagePatch": false,
-	"mainStageId": "act14side_ex01"
+	"mainStageId": "act14side_ex01",
+	"extraCondition": null,
+	"extraInfo": null
 }

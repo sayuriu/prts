@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act18d0_ex07",
@@ -10,7 +11,7 @@
 	],
 	"stageId": "act18d0_ex08",
 	"levelId": "Activities/act18d0/level_act18d0_ex08",
-	"zoneId": "act18d0_zone2",
+	"zoneId": "act10sre_zone2",
 	"code": "WD-EX-8",
 	"name": "제국의 그림자처럼",
 	"description": "우르수스가 히포그리프의 통치를 무너뜨린 지도 어언 천 년, 제국의 빛났던 시절은 험준한 산들과 고층빌딩을 스치며 지나갔다. 하지만 대지의 드넓은 그림자 위에 뿌려진 황제의 은혜, 그것은 곧 우르수스의 깊은 의지였다.",
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {
@@ -52,7 +54,7 @@
 		"displayRewards": [
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act18d0_token_page",
+				"id": "act18d0_token_page_rep_1",
 				"dropType": 8
 			},
 			{
@@ -65,7 +67,7 @@
 			{
 				"occPercent": 0,
 				"type": "ACTIVITY_ITEM",
-				"id": "act18d0_token_page",
+				"id": "act18d0_token_page_rep_1",
 				"dropType": 8
 			},
 			{

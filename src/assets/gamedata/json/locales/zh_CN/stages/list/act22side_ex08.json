@@ -1,0 +1,90 @@
+{
+	"stageType": "ACTIVITY",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
+	"unlockCondition": [
+		{
+			"stageId": "act22side_ex07",
+			"completeState": "PASS"
+		}
+	],
+	"stageId": "act22side_ex08",
+	"levelId": "Activities/act22side/level_act22side_ex08",
+	"zoneId": "act22side_zone2",
+	"code": "FC-EX-8",
+	"name": "她的火焰",
+	"description": "直到她能够面对自己的命运。\\n<@lv.item><沼泽地段></>置于其中的干员攻击速度逐渐降低，经过的敌人攻击速度和移动速度逐渐降低\\n<@lv.item><芦苇丛></>置于其中的干员获得\"迷彩\"",
+	"hardStagedId": "act22side_ex08#f#",
+	"dangerLevel": "精英2 LV.30",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_FC_Reed",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 20,
+	"apFailReturn": 19,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": 0,
+	"expGain": 200,
+	"goldGain": 200,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 19,
+	"completeFavor": 20,
+	"slProgress": 0,
+	"displayMainItem": null,
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": "MAIN_NORMAL",
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act22side_token_manuscript",
+				"dropType": "COMPLETE"
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": "COMPLETE"
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": "ALWAYS",
+				"type": "ACTIVITY_ITEM",
+				"id": "act22side_token_manuscript",
+				"dropType": "COMPLETE"
+			},
+			{
+				"occPercent": "ALWAYS",
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": "COMPLETE"
+			}
+		]
+	},
+	"canUseCharm": false,
+	"canUseTech": false,
+	"canUseTrapTool": false,
+	"canUseBattlePerformance": false,
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "act22side_ex01",
+	"extraCondition": null,
+	"extraInfo": null
+}

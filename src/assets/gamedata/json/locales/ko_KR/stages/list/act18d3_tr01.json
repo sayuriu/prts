@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act18d3_01",
@@ -10,7 +11,7 @@
 	],
 	"stageId": "act18d3_tr01",
 	"levelId": "Activities/act18d3/level_act18d3_tr01",
-	"zoneId": "act18d3_zone1",
+	"zoneId": "act11sre_zone1",
 	"code": "SV-TR-1",
 	"name": "악화된 통증",
 	"description": "신경 손상에 어떻게 대처할 것인지 배워보도록 하자.\n<@lv.item><응급처치 시설></> 활성화 시 주변 아군 유닛의 누적된 신경 손상을 지속해서 치료한다.",
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": true,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 3,
 	"stageDropInfo": {

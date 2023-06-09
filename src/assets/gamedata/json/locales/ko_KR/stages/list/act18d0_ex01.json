@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act18d0_st02",
@@ -10,10 +11,10 @@
 	],
 	"stageId": "act18d0_ex01",
 	"levelId": "Activities/act18d0/level_act18d0_ex01",
-	"zoneId": "act18d0_zone2",
+	"zoneId": "act10sre_zone2",
 	"code": "WD-EX-1",
 	"name": "짐승 무리 전술",
-	"description": "'사냥개'란 생물이 어디서 어떻게 나왔는지는 아무도 모르지만, 볼리바르인은 가정 먼저 그것을 군사 작전에 이용했다. 잘 훈련된 사냥개는 전투에서 큰 도움이 된다.\n<@lv.item><이동식 전술 격납고></> 수요에 따라 수시로 드론을 띄워 적군 용병팀의 작전을 지원한다.",
+	"description": "사냥개'란 생물이 어디서 어떻게 나왔는지는 아무도 모르지만, 볼리바르인은 가정 먼저 그것을 군사 작전에 이용했다. 잘 훈련된 사냥개는 전투에서 큰 도움이 된다.\n<@lv.item><이동식 전술 격납고></> 수요에 따라 수시로 드론을 띄워 적군 용병팀의 작전을 지원한다.",
 	"hardStagedId": "act18d0_ex01#f#",
 	"dangerLevel": "1차 정예화 Lv.40",
 	"dangerPoint": -1,
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {
@@ -52,7 +54,7 @@
 		"displayRewards": [
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act18d0_token_page",
+				"id": "act18d0_token_page_rep_1",
 				"dropType": 8
 			},
 			{
@@ -65,7 +67,7 @@
 			{
 				"occPercent": 0,
 				"type": "ACTIVITY_ITEM",
-				"id": "act18d0_token_page",
+				"id": "act18d0_token_page_rep_1",
 				"dropType": 8
 			},
 			{

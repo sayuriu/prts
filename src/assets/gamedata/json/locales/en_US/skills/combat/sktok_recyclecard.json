@@ -1,0 +1,34 @@
+{
+	"skillId": "sktok_recyclecard",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "Withdraw",
+			"rangeId": "1-1",
+			"description": "On deployment, immediately return the Operator in front to the Deployment Waiting Zone. The returned Operator gains Redeployment Time <@ba.vup>-95%</>, DP cost <@ba.vup>{value}</> and retains all equipped Tactical Equipment upon their next deployment.\n<@ba.rem>After activation, this unit disappears (will not appear again in this battle)</>",
+			"skillType": 2,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "sktok_recyclecard",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "respawn_time",
+					"value": 0.05
+				},
+				{
+					"key": "value",
+					"value": -30
+				}
+			]
+		}
+	]
+}

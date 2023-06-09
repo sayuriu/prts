@@ -1,0 +1,79 @@
+{
+	"stageType": "MAIN",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "ALL",
+	"unlockCondition": [
+		{
+			"stageId": "easy_10-02",
+			"completeState": "PASS"
+		}
+	],
+	"stageId": "tr_20",
+	"levelId": "Obt/Training/level_training_20",
+	"zoneId": "main_10",
+	"code": "TR-20",
+	"name": "城墙之下",
+	"description": "伦蒂尼姆城防炮模拟试验。炮火能摧毁一切，因此这座要塞从未陷落。\\n<@lv.item><伦蒂尼姆城防副炮></>充能完成时，对场上阻挡数最高的我方单位周围造成不分敌我的真实伤害",
+	"hardStagedId": null,
+	"dangerLevel": "-",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_VC_harbor",
+	"canPractice": false,
+	"canBattleReplay": false,
+	"apCost": 0,
+	"apFailReturn": 0,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 0,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": -1,
+	"dailyStageDifficulty": -1,
+	"expGain": 0,
+	"goldGain": 0,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 0,
+	"completeFavor": 0,
+	"slProgress": 186,
+	"displayMainItem": "",
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": true,
+	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": "TRAINING",
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": "COMPLETE"
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": "ALWAYS",
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": "COMPLETE"
+			}
+		]
+	},
+	"canUseCharm": false,
+	"canUseTech": false,
+	"canUseTrapTool": false,
+	"canUseBattlePerformance": false,
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "tr_20",
+	"extraCondition": null,
+	"extraInfo": null
+}

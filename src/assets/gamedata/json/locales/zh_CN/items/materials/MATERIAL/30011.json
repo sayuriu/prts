@@ -6,27 +6,79 @@
 	"iconId": "MTL_SL_G1",
 	"overrideBkg": null,
 	"stackIconId": null,
-	"sortId": 100015,
+	"sortId": 100029,
 	"usage": "从地表开采出的岩石，可用于多种强化场合，也常作为制造站合成项目的原料。",
 	"obtainApproach": null,
 	"classifyType": "MATERIAL",
 	"itemType": "MATERIAL",
 	"stageDropList": [
 		{
+			"stageId": "act16side_03",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "act10mini_02",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "act10mini_03",
+			"occPer": "ALMOST"
+		},
+		{
+			"stageId": "act10mini_04",
+			"occPer": "ALMOST"
+		},
+		{
+			"stageId": "act15side_01",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "act15side_02",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "act15side_03",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "act14side_01",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "act14side_02",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "act14side_03",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "act13side_01",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "act13side_02",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "act13side_03",
+			"occPer": "USUAL"
+		},
+		{
 			"stageId": "act9mini_01",
 			"occPer": "ALWAYS"
 		},
 		{
+			"stageId": "act10mini_01",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "act18d3_01",
+			"occPer": "ALMOST"
+		},
+		{
 			"stageId": "act18d3_03",
 			"occPer": "ALWAYS"
-		},
-		{
-			"stageId": "act18d0_01",
-			"occPer": "ALMOST"
-		},
-		{
-			"stageId": "act18d0_02",
-			"occPer": "ALMOST"
 		},
 		{
 			"stageId": "act17d0_01",
@@ -81,19 +133,63 @@
 			"occPer": "ALMOST"
 		},
 		{
-			"stageId": "act18d3_01",
-			"occPer": "ALMOST"
+			"stageId": "act4d0_02",
+			"occPer": "ALWAYS"
 		},
 		{
 			"stageId": "a001_01",
 			"occPer": "ALWAYS"
 		},
 		{
-			"stageId": "act13side_03",
+			"stageId": "act16side_01",
 			"occPer": "USUAL"
 		},
 		{
-			"stageId": "act16side_01",
+			"stageId": "act25side_01",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "act25side_02",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "act25side_03",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "act14mini_01",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "act14mini_02",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "act14mini_03",
+			"occPer": "ALMOST"
+		},
+		{
+			"stageId": "act14mini_04",
+			"occPer": "ALMOST"
+		},
+		{
+			"stageId": "act23side_01",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "act23side_02",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "act23side_03",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "act22side_01",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "act22side_02",
 			"occPer": "USUAL"
 		},
 		{
@@ -101,67 +197,71 @@
 			"occPer": "USUAL"
 		},
 		{
-			"stageId": "act16side_03",
+			"stageId": "act13mini_01",
 			"occPer": "USUAL"
 		},
 		{
-			"stageId": "act10mini_01",
-			"occPer": "USUAL"
-		},
-		{
-			"stageId": "act10mini_02",
-			"occPer": "USUAL"
-		},
-		{
-			"stageId": "act10mini_03",
+			"stageId": "act13mini_03",
 			"occPer": "ALMOST"
 		},
 		{
-			"stageId": "act4d0_02",
-			"occPer": "ALWAYS"
-		},
-		{
-			"stageId": "act10mini_04",
+			"stageId": "act13mini_04",
 			"occPer": "ALMOST"
 		},
 		{
-			"stageId": "act15side_02",
+			"stageId": "act12mini_01",
 			"occPer": "USUAL"
 		},
 		{
-			"stageId": "act15side_03",
+			"stageId": "act12mini_02",
 			"occPer": "USUAL"
 		},
 		{
-			"stageId": "act14side_01",
+			"stageId": "act12mini_03",
+			"occPer": "ALMOST"
+		},
+		{
+			"stageId": "act12mini_04",
+			"occPer": "ALMOST"
+		},
+		{
+			"stageId": "act20side_01",
 			"occPer": "USUAL"
 		},
 		{
-			"stageId": "act14side_02",
+			"stageId": "act20side_02",
 			"occPer": "USUAL"
 		},
 		{
-			"stageId": "act14side_03",
-			"occPer": "USUAL"
-		},
-		{
-			"stageId": "act13side_01",
-			"occPer": "USUAL"
-		},
-		{
-			"stageId": "act13side_02",
-			"occPer": "USUAL"
-		},
-		{
-			"stageId": "act15side_01",
-			"occPer": "USUAL"
-		},
-		{
-			"stageId": "sub_02-05",
+			"stageId": "act11mini_04",
 			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "act19side_01",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "act19side_02",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "act18side_01",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "act18side_02",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "act13mini_02",
+			"occPer": "USUAL"
 		},
 		{
 			"stageId": "main_00-09",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "sub_02-05",
 			"occPer": "ALWAYS"
 		}
 	],

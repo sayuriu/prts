@@ -1,0 +1,25 @@
+{
+	"skillId": "sktok_bgarms_1",
+	"iconId": "sktok_bgarms",
+	"hidden": false,
+	"levels": [
+		{
+			"name": "研究成功",
+			"rangeId": null,
+			"description": "範囲内の実験産物を吸収してSPを回復し、SPが最大値に到達する時に起動する",
+			"skillType": 2,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 100,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": "sktok_bgarms_1",
+			"duration": 0,
+			"blackboard": []
+		}
+	]
+}

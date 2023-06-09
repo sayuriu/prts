@@ -1,0 +1,31 @@
+{
+	"skillId": "sktok_cdcredit",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "自适应补给",
+			"rangeId": null,
+			"description": "技能生效时获得等同于我方小队总干员数量的调用凭证",
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 60,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "sktok_cdcredit",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "cnt",
+					"value": 1,
+					"valueStr": null
+				}
+			]
+		}
+	]
+}

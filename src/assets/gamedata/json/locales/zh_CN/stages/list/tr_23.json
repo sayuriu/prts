@@ -1,0 +1,79 @@
+{
+	"stageType": "MAIN",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "ALL",
+	"unlockCondition": [
+		{
+			"stageId": "easy_12-06",
+			"completeState": "PASS"
+		}
+	],
+	"stageId": "tr_23",
+	"levelId": "Obt/Training/level_training_23",
+	"zoneId": "main_12",
+	"code": "TR-23",
+	"name": "恶魔诱惑",
+	"description": "“空腹三天的饥民得到了恶魔赏赐的毒苹果，大快朵颐的诱惑能压过他对即刻死亡的恐惧吗？”\\n我方费用上限大幅降低\\n<@lv.item><街头应急储备></>被摧毁后获得一定费用及费用上限",
+	"hardStagedId": null,
+	"dangerLevel": "-",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_VC_street2",
+	"canPractice": false,
+	"canBattleReplay": false,
+	"apCost": 0,
+	"apFailReturn": 0,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 0,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": -1,
+	"dailyStageDifficulty": -1,
+	"expGain": 0,
+	"goldGain": 0,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 0,
+	"completeFavor": 0,
+	"slProgress": 233,
+	"displayMainItem": "",
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": true,
+	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": "TRAINING",
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": "COMPLETE"
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": "ALWAYS",
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": "COMPLETE"
+			}
+		]
+	},
+	"canUseCharm": false,
+	"canUseTech": false,
+	"canUseTrapTool": false,
+	"canUseBattlePerformance": false,
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "tr_23",
+	"extraCondition": null,
+	"extraInfo": null
+}

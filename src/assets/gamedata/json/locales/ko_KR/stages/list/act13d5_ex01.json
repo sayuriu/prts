@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act13d5_08",
@@ -10,10 +11,10 @@
 	],
 	"stageId": "act13d5_ex01",
 	"levelId": "Activities/ACT13D5/level_act13d5_ex01",
-	"zoneId": "act13d5_zone2",
+	"zoneId": "act7sre_zone2",
 	"code": "MN-EX-1",
 	"name": "통신 테스트",
-	"description": "글룸핀서의 탈주를 막기 위해 일부 경기장에 설치한 장치지만, 종종 기사들이 다치곤한다.\n<@lv.item><미에슈코 코일></>공격 범위 내에 다른 미에슈코 코일이 있을 경우 활성화 효과를 얻는다",
+	"description": "글룸핀서의 탈주를 막기 위해 일부 경기장에 설치한 장치지만, 종종 기사들이 다치곤한다.\n<@lv.item><미에슈코 코일></> 공격 범위 내에 다른 미에슈코 코일이 있을 경우 활성화 효과를 얻는다",
 	"hardStagedId": "act13d5_ex01#f#",
 	"dangerLevel": "1차 정예화 Lv.40",
 	"dangerPoint": -1,
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {
@@ -52,7 +54,7 @@
 		"displayRewards": [
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act13d5_token_securities",
+				"id": "act13d5_token_securities_rep_1",
 				"dropType": 8
 			},
 			{
@@ -65,7 +67,7 @@
 			{
 				"occPercent": 0,
 				"type": "ACTIVITY_ITEM",
-				"id": "act13d5_token_securities",
+				"id": "act13d5_token_securities_rep_1",
 				"dropType": 8
 			},
 			{

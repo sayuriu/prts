@@ -6,12 +6,20 @@
 	"iconId": "MTL_SL_BOSS3",
 	"overrideBkg": null,
 	"stackIconId": null,
-	"sortId": 100017,
+	"sortId": 100031,
 	"usage": "押収した最新式のデバイス。昇進やスキル強化に必要な素材。",
 	"obtainApproach": null,
 	"classifyType": "MATERIAL",
 	"itemType": "MATERIAL",
 	"stageDropList": [
+		{
+			"stageId": "act12mini_08",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "act15side_06",
+			"occPer": "USUAL"
+		},
 		{
 			"stageId": "act18d3_09",
 			"occPer": "USUAL"
@@ -46,6 +54,22 @@
 		},
 		{
 			"stageId": "main_09-08",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_11-06",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_11-18",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "tough_11-06",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "tough_11-18",
 			"occPer": "OFTEN"
 		}
 	],

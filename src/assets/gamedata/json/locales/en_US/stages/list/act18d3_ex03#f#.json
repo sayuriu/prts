@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "FOUR_STAR",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "main_02-08",
@@ -14,10 +15,10 @@
 	],
 	"stageId": "act18d3_ex03#f#",
 	"levelId": "Activities/act18d3/level_act18d3_ex03",
-	"zoneId": "act18d3_zone2",
+	"zoneId": "act11sre_zone2",
 	"code": "SV-EX-3",
 	"name": "Instrument of Castigation",
-	"description": "<@lv.fs>Condition:</>\nAllied units have reduced HP.",
+	"description": "<@lv.fs>Condition:</>\nAllied units have reduced Max HP.",
 	"hardStagedId": null,
 	"dangerLevel": "-",
 	"dangerPoint": -1,
@@ -46,6 +47,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {

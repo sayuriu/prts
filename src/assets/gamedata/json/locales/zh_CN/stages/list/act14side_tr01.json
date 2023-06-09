@@ -2,15 +2,16 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "main_01-10",
-			"completeState": 2
+			"completeState": "PASS"
 		}
 	],
 	"stageId": "act14side_tr01",
 	"levelId": "Activities/ACT14SIDE/level_act14side_tr01",
-	"zoneId": "act14side_zone1",
+	"zoneId": "act14sre_zone1",
 	"code": "BI-TR-1",
 	"name": "小心地滑",
 	"description": "冰块之间的摩擦系数非常小，让你的对手切身体会这一点。\\n<@lv.item><冰面></>对其上的单位施加“寒冷”，增加被冻结敌人在其上的位移距离\\n<@lv.item><降雪></>周期性对所有单位施加寒冷",
@@ -44,7 +45,7 @@
 	"isHardPredefined": false,
 	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
-	"appearanceStyle": 3,
+	"appearanceStyle": "TRAINING",
 	"stageDropInfo": {
 		"firstPassRewards": null,
 		"firstCompleteRewards": null,
@@ -54,19 +55,25 @@
 			{
 				"type": "DIAMOND",
 				"id": "4002",
-				"dropType": 8
+				"dropType": "COMPLETE"
 			}
 		],
 		"displayDetailRewards": [
 			{
-				"occPercent": 0,
+				"occPercent": "ALWAYS",
 				"type": "DIAMOND",
 				"id": "4002",
-				"dropType": 8
+				"dropType": "COMPLETE"
 			}
 		]
 	},
+	"canUseCharm": false,
+	"canUseTech": false,
+	"canUseTrapTool": false,
+	"canUseBattlePerformance": false,
 	"startButtonOverrideId": null,
 	"isStagePatch": false,
-	"mainStageId": "act14side_tr01"
+	"mainStageId": "act14side_tr01",
+	"extraCondition": null,
+	"extraInfo": null
 }

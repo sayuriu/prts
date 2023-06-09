@@ -7,10 +7,10 @@
 			"name": "铁意六合",
 			"rangeId": null,
 			"description": "下次攻击会把目标往攻击方向<@ba.vup>小力地</>推动，<@ba.vup>{duration}秒</>内命中目标的移动速度<@ba.vup>-{-move_speed:0%}</>",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 6,
@@ -22,15 +22,18 @@
 			"blackboard": [
 				{
 					"key": "duration",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				},
 				{
 					"key": "move_speed",
-					"value": -0.15
+					"value": -0.15,
+					"valueStr": null
 				},
 				{
 					"key": "force",
-					"value": 0
+					"value": 0,
+					"valueStr": null
 				}
 			]
 		},
@@ -38,10 +41,10 @@
 			"name": "铁意六合",
 			"rangeId": null,
 			"description": "下次攻击会把目标往攻击方向<@ba.vup>小力地</>推动，<@ba.vup>{duration}秒</>内命中目标的移动速度<@ba.vup>-{-move_speed:0%}</>",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 6,
@@ -53,15 +56,18 @@
 			"blackboard": [
 				{
 					"key": "duration",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				},
 				{
 					"key": "move_speed",
-					"value": -0.16
+					"value": -0.16,
+					"valueStr": null
 				},
 				{
 					"key": "force",
-					"value": 0
+					"value": 0,
+					"valueStr": null
 				}
 			]
 		},
@@ -69,10 +75,10 @@
 			"name": "铁意六合",
 			"rangeId": null,
 			"description": "下次攻击会把目标往攻击方向<@ba.vup>小力地</>推动，<@ba.vup>{duration}秒</>内命中目标的移动速度<@ba.vup>-{-move_speed:0%}</>",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 6,
@@ -84,15 +90,18 @@
 			"blackboard": [
 				{
 					"key": "duration",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				},
 				{
 					"key": "move_speed",
-					"value": -0.17
+					"value": -0.17,
+					"valueStr": null
 				},
 				{
 					"key": "force",
-					"value": 0
+					"value": 0,
+					"valueStr": null
 				}
 			]
 		},
@@ -100,10 +109,10 @@
 			"name": "铁意六合",
 			"rangeId": null,
 			"description": "下次攻击会把目标往攻击方向<@ba.vup>中等力度地</>推动，<@ba.vup>{duration}秒</>内命中目标的移动速度<@ba.vup>-{-move_speed:0%}</>",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 6,
@@ -115,15 +124,18 @@
 			"blackboard": [
 				{
 					"key": "duration",
-					"value": 4
+					"value": 4,
+					"valueStr": null
 				},
 				{
 					"key": "move_speed",
-					"value": -0.18
+					"value": -0.18,
+					"valueStr": null
 				},
 				{
 					"key": "force",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -131,10 +143,10 @@
 			"name": "铁意六合",
 			"rangeId": null,
 			"description": "下次攻击会把目标往攻击方向<@ba.vup>中等力度地</>推动，<@ba.vup>{duration}秒</>内命中目标的移动速度<@ba.vup>-{-move_speed:0%}</>",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 6,
@@ -146,15 +158,18 @@
 			"blackboard": [
 				{
 					"key": "duration",
-					"value": 4
+					"value": 4,
+					"valueStr": null
 				},
 				{
 					"key": "move_speed",
-					"value": -0.19
+					"value": -0.19,
+					"valueStr": null
 				},
 				{
 					"key": "force",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -162,10 +177,10 @@
 			"name": "铁意六合",
 			"rangeId": null,
 			"description": "下次攻击会把目标往攻击方向<@ba.vup>中等力度地</>推动，<@ba.vup>{duration}秒</>内命中目标的移动速度<@ba.vup>-{-move_speed:0%}</>",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 6,
@@ -177,15 +192,18 @@
 			"blackboard": [
 				{
 					"key": "duration",
-					"value": 4
+					"value": 4,
+					"valueStr": null
 				},
 				{
 					"key": "move_speed",
-					"value": -0.2
+					"value": -0.2,
+					"valueStr": null
 				},
 				{
 					"key": "force",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -193,10 +211,10 @@
 			"name": "铁意六合",
 			"rangeId": null,
 			"description": "下次攻击会把目标往攻击方向<@ba.vup>中等力度地</>推动，<@ba.vup>{duration}秒</>内命中目标的移动速度<@ba.vup>-{-move_speed:0%}</>",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 6,
@@ -208,15 +226,18 @@
 			"blackboard": [
 				{
 					"key": "duration",
-					"value": 4
+					"value": 4,
+					"valueStr": null
 				},
 				{
 					"key": "move_speed",
-					"value": -0.21
+					"value": -0.21,
+					"valueStr": null
 				},
 				{
 					"key": "force",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -224,10 +245,10 @@
 			"name": "铁意六合",
 			"rangeId": null,
 			"description": "下次攻击会把目标往攻击方向<@ba.vup>中等力度地</>推动，<@ba.vup>{duration}秒</>内命中目标的移动速度<@ba.vup>-{-move_speed:0%}</>",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 5,
@@ -239,15 +260,18 @@
 			"blackboard": [
 				{
 					"key": "duration",
-					"value": 5
+					"value": 5,
+					"valueStr": null
 				},
 				{
 					"key": "move_speed",
-					"value": -0.24
+					"value": -0.24,
+					"valueStr": null
 				},
 				{
 					"key": "force",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -255,10 +279,10 @@
 			"name": "铁意六合",
 			"rangeId": null,
 			"description": "下次攻击会把目标往攻击方向<@ba.vup>中等力度地</>推动，<@ba.vup>{duration}秒</>内命中目标的移动速度<@ba.vup>-{-move_speed:0%}</>",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 5,
@@ -270,15 +294,18 @@
 			"blackboard": [
 				{
 					"key": "duration",
-					"value": 5
+					"value": 5,
+					"valueStr": null
 				},
 				{
 					"key": "move_speed",
-					"value": -0.27
+					"value": -0.27,
+					"valueStr": null
 				},
 				{
 					"key": "force",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -286,10 +313,10 @@
 			"name": "铁意六合",
 			"rangeId": null,
 			"description": "下次攻击会把目标往攻击方向<@ba.vup>较大力地</>推动，<@ba.vup>{duration}秒</>内命中目标的移动速度<@ba.vup>-{-move_speed:0%}</>",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 5,
@@ -301,15 +328,18 @@
 			"blackboard": [
 				{
 					"key": "duration",
-					"value": 5
+					"value": 5,
+					"valueStr": null
 				},
 				{
 					"key": "move_speed",
-					"value": -0.3
+					"value": -0.3,
+					"valueStr": null
 				},
 				{
 					"key": "force",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				}
 			]
 		}

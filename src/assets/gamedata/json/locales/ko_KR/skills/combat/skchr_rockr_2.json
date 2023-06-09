@@ -1,0 +1,357 @@
+{
+	"skillId": "skchr_rockr_2",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "스스로 진 멍에",
+			"rangeId": null,
+			"description": "공격 속도 <@ba.vup>+{attack_speed}</>, 공중 유닛으로 지정된 적을 공격\n<$ba.overdrive>과부하</>: 특성 중의 공중 유닛 대미지 상한이 <@ba.vup>{scale}</>배까지 상승, 공격력 <@ba.vup>+{atk:0%}</>, 스킬 종료 후 과부하 지속 시간만큼 <$ba.stun>기절</>\n<@ba.rem>공중 유닛은 적을 지정한 뒤 적을 처치 또는 스킬이 종료되어야 오퍼레이터에게 복귀, 수동 종료 가능</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 50,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_rockr_2",
+			"duration": 40,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.3
+				},
+				{
+					"key": "attack_speed",
+					"value": 30
+				},
+				{
+					"key": "attack@cnt",
+					"value": 0
+				},
+				{
+					"key": "scale",
+					"value": 1.5
+				}
+			]
+		},
+		{
+			"name": "스스로 진 멍에",
+			"rangeId": null,
+			"description": "공격 속도 <@ba.vup>+{attack_speed}</>, 공중 유닛으로 지정된 적을 공격\n<$ba.overdrive>과부하</>: 특성 중의 공중 유닛 대미지 상한이 <@ba.vup>{scale}</>배까지 상승, 공격력 <@ba.vup>+{atk:0%}</>, 스킬 종료 후 과부하 지속 시간만큼 <$ba.stun>기절</>\n<@ba.rem>공중 유닛은 적을 지정한 뒤 적을 처치 또는 스킬이 종료되어야 오퍼레이터에게 복귀, 수동 종료 가능</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 48,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_rockr_2",
+			"duration": 40,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.3
+				},
+				{
+					"key": "attack_speed",
+					"value": 35
+				},
+				{
+					"key": "attack@cnt",
+					"value": 0
+				},
+				{
+					"key": "scale",
+					"value": 1.5
+				}
+			]
+		},
+		{
+			"name": "스스로 진 멍에",
+			"rangeId": null,
+			"description": "공격 속도 <@ba.vup>+{attack_speed}</>, 공중 유닛으로 지정된 적을 공격\n<$ba.overdrive>과부하</>: 특성 중의 공중 유닛 대미지 상한이 <@ba.vup>{scale}</>배까지 상승, 공격력 <@ba.vup>+{atk:0%}</>, 스킬 종료 후 과부하 지속 시간만큼 <$ba.stun>기절</>\n<@ba.rem>공중 유닛은 적을 지정한 뒤 적을 처치 또는 스킬이 종료되어야 오퍼레이터에게 복귀, 수동 종료 가능</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 46,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_rockr_2",
+			"duration": 40,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.3
+				},
+				{
+					"key": "attack_speed",
+					"value": 40
+				},
+				{
+					"key": "attack@cnt",
+					"value": 0
+				},
+				{
+					"key": "scale",
+					"value": 1.5
+				}
+			]
+		},
+		{
+			"name": "스스로 진 멍에",
+			"rangeId": null,
+			"description": "공격 속도 <@ba.vup>+{attack_speed}</>, 공중 유닛으로 지정된 적을 공격\n<$ba.overdrive>과부하</>: 특성 중의 공중 유닛 대미지 상한이 <@ba.vup>{scale}</>배까지 상승, 공격력 <@ba.vup>+{atk:0%}</>, 스킬 종료 후 과부하 지속 시간만큼 <$ba.stun>기절</>\n<@ba.rem>공중 유닛은 적을 지정한 뒤 적을 처치 또는 스킬이 종료되어야 오퍼레이터에게 복귀, 수동 종료 가능</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 45,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_rockr_2",
+			"duration": 40,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.4
+				},
+				{
+					"key": "attack_speed",
+					"value": 45
+				},
+				{
+					"key": "attack@cnt",
+					"value": 0
+				},
+				{
+					"key": "scale",
+					"value": 1.6
+				}
+			]
+		},
+		{
+			"name": "스스로 진 멍에",
+			"rangeId": null,
+			"description": "공격 속도 <@ba.vup>+{attack_speed}</>, 공중 유닛으로 지정된 적을 공격\n<$ba.overdrive>과부하</>: 특성 중의 공중 유닛 대미지 상한이 <@ba.vup>{scale}</>배까지 상승, 공격력 <@ba.vup>+{atk:0%}</>, 스킬 종료 후 과부하 지속 시간만큼 <$ba.stun>기절</>\n<@ba.rem>공중 유닛은 적을 지정한 뒤 적을 처치 또는 스킬이 종료되어야 오퍼레이터에게 복귀, 수동 종료 가능</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 43,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_rockr_2",
+			"duration": 40,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.4
+				},
+				{
+					"key": "attack_speed",
+					"value": 50
+				},
+				{
+					"key": "attack@cnt",
+					"value": 0
+				},
+				{
+					"key": "scale",
+					"value": 1.6
+				}
+			]
+		},
+		{
+			"name": "스스로 진 멍에",
+			"rangeId": null,
+			"description": "공격 속도 <@ba.vup>+{attack_speed}</>, 공중 유닛으로 지정된 적을 공격\n<$ba.overdrive>과부하</>: 특성 중의 공중 유닛 대미지 상한이 <@ba.vup>{scale}</>배까지 상승, 공격력 <@ba.vup>+{atk:0%}</>, 스킬 종료 후 과부하 지속 시간만큼 <$ba.stun>기절</>\n<@ba.rem>공중 유닛은 적을 지정한 뒤 적을 처치 또는 스킬이 종료되어야 오퍼레이터에게 복귀, 수동 종료 가능</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 41,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_rockr_2",
+			"duration": 40,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.4
+				},
+				{
+					"key": "attack_speed",
+					"value": 55
+				},
+				{
+					"key": "attack@cnt",
+					"value": 0
+				},
+				{
+					"key": "scale",
+					"value": 1.6
+				}
+			]
+		},
+		{
+			"name": "스스로 진 멍에",
+			"rangeId": null,
+			"description": "공격 속도 <@ba.vup>+{attack_speed}</>, 공중 유닛으로 지정된 적을 공격\n<$ba.overdrive>과부하</>: 특성 중의 공중 유닛 대미지 상한이 <@ba.vup>{scale}</>배까지 상승, 공격력 <@ba.vup>+{atk:0%}</>, 스킬 종료 후 과부하 지속 시간만큼 <$ba.stun>기절</>\n<@ba.rem>공중 유닛은 적을 지정한 뒤 적을 처치 또는 스킬이 종료되어야 오퍼레이터에게 복귀, 수동 종료 가능</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 40,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_rockr_2",
+			"duration": 40,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.5
+				},
+				{
+					"key": "attack_speed",
+					"value": 60
+				},
+				{
+					"key": "attack@cnt",
+					"value": 0
+				},
+				{
+					"key": "scale",
+					"value": 1.7
+				}
+			]
+		},
+		{
+			"name": "스스로 진 멍에",
+			"rangeId": null,
+			"description": "공격 속도 <@ba.vup>+{attack_speed}</>, 공중 유닛으로 지정된 적을 공격\n<$ba.overdrive>과부하</>: 특성 중의 공중 유닛 대미지 상한이 <@ba.vup>{scale}</>배까지 상승, 공격력 <@ba.vup>+{atk:0%}</>, 스킬 종료 후 과부하 지속 시간만큼 <$ba.stun>기절</>\n<@ba.rem>공중 유닛은 적을 지정한 뒤 적을 처치 또는 스킬이 종료되어야 오퍼레이터에게 복귀, 수동 종료 가능</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 40,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_rockr_2",
+			"duration": 40,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.5
+				},
+				{
+					"key": "attack_speed",
+					"value": 65
+				},
+				{
+					"key": "attack@cnt",
+					"value": 0
+				},
+				{
+					"key": "scale",
+					"value": 1.8
+				}
+			]
+		},
+		{
+			"name": "스스로 진 멍에",
+			"rangeId": null,
+			"description": "공격 속도 <@ba.vup>+{attack_speed}</>, 공중 유닛으로 지정된 적을 공격\n<$ba.overdrive>과부하</>: 특성 중의 공중 유닛 대미지 상한이 <@ba.vup>{scale}</>배까지 상승, 공격력 <@ba.vup>+{atk:0%}</>, 스킬 종료 후 과부하 지속 시간만큼 <$ba.stun>기절</>\n<@ba.rem>공중 유닛은 적을 지정한 뒤 적을 처치 또는 스킬이 종료되어야 오퍼레이터에게 복귀, 수동 종료 가능</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 40,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_rockr_2",
+			"duration": 40,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.5
+				},
+				{
+					"key": "attack_speed",
+					"value": 70
+				},
+				{
+					"key": "attack@cnt",
+					"value": 0
+				},
+				{
+					"key": "scale",
+					"value": 1.9
+				}
+			]
+		},
+		{
+			"name": "스스로 진 멍에",
+			"rangeId": null,
+			"description": "공격 속도 <@ba.vup>+{attack_speed}</>, 공중 유닛으로 지정된 적을 공격\n<$ba.overdrive>과부하</>: 특성 중의 공중 유닛 대미지 상한이 <@ba.vup>{scale}</>배까지 상승, 공격력 <@ba.vup>+{atk:0%}</>, 스킬 종료 후 과부하 지속 시간만큼 <$ba.stun>기절</>\n<@ba.rem>공중 유닛은 적을 지정한 뒤 적을 처치 또는 스킬이 종료되어야 오퍼레이터에게 복귀, 수동 종료 가능</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 40,
+				"initSp": 25,
+				"increment": 1
+			},
+			"prefabId": "skchr_rockr_2",
+			"duration": 40,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.5
+				},
+				{
+					"key": "attack_speed",
+					"value": 80
+				},
+				{
+					"key": "attack@cnt",
+					"value": 0
+				},
+				{
+					"key": "scale",
+					"value": 2
+				}
+			]
+		}
+	]
+}

@@ -2,10 +2,11 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "a001_05",
-			"completeState": 2
+			"completeState": "PASS"
 		}
 	],
 	"stageId": "a001_06",
@@ -44,7 +45,7 @@
 	"isHardPredefined": false,
 	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
-	"appearanceStyle": 0,
+	"appearanceStyle": "MAIN_NORMAL",
 	"stageDropInfo": {
 		"firstPassRewards": null,
 		"firstCompleteRewards": null,
@@ -54,52 +55,58 @@
 			{
 				"type": "FURN",
 				"id": "furni_pizza_chair_R_01",
-				"dropType": 1
+				"dropType": "ONCE"
 			},
 			{
 				"type": "ACTIVITY_ITEM",
 				"id": "act1d0_token_gold_rep_1",
-				"dropType": 2
+				"dropType": "NORMAL"
 			},
 			{
 				"type": "MATERIAL",
 				"id": "30093",
-				"dropType": 2
+				"dropType": "NORMAL"
 			},
 			{
 				"type": "DIAMOND",
 				"id": "4002",
-				"dropType": 8
+				"dropType": "COMPLETE"
 			}
 		],
 		"displayDetailRewards": [
 			{
-				"occPercent": 0,
+				"occPercent": "ALWAYS",
 				"type": "FURN",
 				"id": "furni_pizza_chair_R_01",
-				"dropType": 1
+				"dropType": "ONCE"
 			},
 			{
-				"occPercent": 0,
+				"occPercent": "ALWAYS",
 				"type": "ACTIVITY_ITEM",
 				"id": "act1d0_token_gold_rep_1",
-				"dropType": 2
+				"dropType": "NORMAL"
 			},
 			{
-				"occPercent": 3,
+				"occPercent": "OFTEN",
 				"type": "MATERIAL",
 				"id": "30093",
-				"dropType": 2
+				"dropType": "NORMAL"
 			},
 			{
-				"occPercent": 0,
+				"occPercent": "ALWAYS",
 				"type": "DIAMOND",
 				"id": "4002",
-				"dropType": 8
+				"dropType": "COMPLETE"
 			}
 		]
 	},
+	"canUseCharm": false,
+	"canUseTech": false,
+	"canUseTrapTool": false,
+	"canUseBattlePerformance": false,
 	"startButtonOverrideId": null,
 	"isStagePatch": false,
-	"mainStageId": "a001_01"
+	"mainStageId": "a001_01",
+	"extraCondition": null,
+	"extraInfo": null
 }

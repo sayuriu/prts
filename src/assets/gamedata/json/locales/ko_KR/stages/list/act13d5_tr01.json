@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act13d5_01",
@@ -10,10 +11,10 @@
 	],
 	"stageId": "act13d5_tr01",
 	"levelId": "Activities/ACT13D5/level_act13d5_tr01",
-	"zoneId": "act13d5_zone1",
+	"zoneId": "act7sre_zone1",
 	"code": "MN-TR-1",
 	"name": "모의 경기",
-	"description": "기사 스포츠 팁: 경기 규칙을 적절히 이용하십시오.\n<@lv.item><미에슈코 코일></>공격 범위 내 다른 미에슈코 코일이 있을 경우 활성화 효과를 얻는다 ",
+	"description": "기사 스포츠 팁: 경기 규칙을 적절히 이용하십시오.\n<@lv.item><미에슈코 코일></> 공격 범위 내 다른 미에슈코 코일이 있을 경우 활성화 효과를 얻는다",
 	"hardStagedId": null,
 	"dangerLevel": "-",
 	"dangerPoint": -1,
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": true,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 3,
 	"stageDropInfo": {

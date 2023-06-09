@@ -1,0 +1,317 @@
+{
+	"skillId": "skchr_lolxh_2",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "Broken Blade",
+			"rangeId": null,
+			"description": "ATK <@ba.vup>+{atk:0%}</>, ranged attacks no longer reduce ATK, target 1 more enemy, and add an additional attack that ignores <@ba.vup>{attack@def_penetrate_fixed}</> enemy DEF when target HP is below 50%",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 45,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_lolxh_2",
+			"duration": 15,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.1
+				},
+				{
+					"key": "attack@hp_ratio",
+					"value": 0.5
+				},
+				{
+					"key": "attack@def_penetrate_fixed",
+					"value": 100
+				}
+			]
+		},
+		{
+			"name": "Broken Blade",
+			"rangeId": null,
+			"description": "ATK <@ba.vup>+{atk:0%}</>, ranged attacks no longer reduce ATK, target 1 more enemy, and add an additional attack that ignores <@ba.vup>{attack@def_penetrate_fixed}</> enemy DEF when target HP is below 50%",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 45,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_lolxh_2",
+			"duration": 15,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.15
+				},
+				{
+					"key": "attack@hp_ratio",
+					"value": 0.5
+				},
+				{
+					"key": "attack@def_penetrate_fixed",
+					"value": 110
+				}
+			]
+		},
+		{
+			"name": "Broken Blade",
+			"rangeId": null,
+			"description": "ATK <@ba.vup>+{atk:0%}</>, ranged attacks no longer reduce ATK, target 1 more enemy, and add an additional attack that ignores <@ba.vup>{attack@def_penetrate_fixed}</> enemy DEF when target HP is below 50%",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 45,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_lolxh_2",
+			"duration": 15,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.2
+				},
+				{
+					"key": "attack@hp_ratio",
+					"value": 0.5
+				},
+				{
+					"key": "attack@def_penetrate_fixed",
+					"value": 120
+				}
+			]
+		},
+		{
+			"name": "Broken Blade",
+			"rangeId": null,
+			"description": "ATK <@ba.vup>+{atk:0%}</>, ranged attacks no longer reduce ATK, target 1 more enemy, and add an additional attack that ignores <@ba.vup>{attack@def_penetrate_fixed}</> enemy DEF when target HP is below 50%",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 43,
+				"initSp": 5,
+				"increment": 1
+			},
+			"prefabId": "skchr_lolxh_2",
+			"duration": 17,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.25
+				},
+				{
+					"key": "attack@hp_ratio",
+					"value": 0.5
+				},
+				{
+					"key": "attack@def_penetrate_fixed",
+					"value": 130
+				}
+			]
+		},
+		{
+			"name": "Broken Blade",
+			"rangeId": null,
+			"description": "ATK <@ba.vup>+{atk:0%}</>, ranged attacks no longer reduce ATK, target 1 more enemy, and add an additional attack that ignores <@ba.vup>{attack@def_penetrate_fixed}</> enemy DEF when target HP is below 50%",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 43,
+				"initSp": 5,
+				"increment": 1
+			},
+			"prefabId": "skchr_lolxh_2",
+			"duration": 17,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.3
+				},
+				{
+					"key": "attack@hp_ratio",
+					"value": 0.5
+				},
+				{
+					"key": "attack@def_penetrate_fixed",
+					"value": 140
+				}
+			]
+		},
+		{
+			"name": "Broken Blade",
+			"rangeId": null,
+			"description": "ATK <@ba.vup>+{atk:0%}</>, ranged attacks no longer reduce ATK, target 1 more enemy, and add an additional attack that ignores <@ba.vup>{attack@def_penetrate_fixed}</> enemy DEF when target HP is below 50%",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 43,
+				"initSp": 5,
+				"increment": 1
+			},
+			"prefabId": "skchr_lolxh_2",
+			"duration": 17,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.35
+				},
+				{
+					"key": "attack@hp_ratio",
+					"value": 0.5
+				},
+				{
+					"key": "attack@def_penetrate_fixed",
+					"value": 150
+				}
+			]
+		},
+		{
+			"name": "Broken Blade",
+			"rangeId": null,
+			"description": "ATK <@ba.vup>+{atk:0%}</>, ranged attacks no longer reduce ATK, target 1 more enemy, and add an additional attack that ignores <@ba.vup>{attack@def_penetrate_fixed}</> enemy DEF when target HP is below 50%",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 40,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_lolxh_2",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.4
+				},
+				{
+					"key": "attack@hp_ratio",
+					"value": 0.5
+				},
+				{
+					"key": "attack@def_penetrate_fixed",
+					"value": 160
+				}
+			]
+		},
+		{
+			"name": "Broken Blade",
+			"rangeId": null,
+			"description": "ATK <@ba.vup>+{atk:0%}</>, ranged attacks no longer reduce ATK, target 1 more enemy, and add an additional attack that ignores <@ba.vup>{attack@def_penetrate_fixed}</> enemy DEF when target HP is below 50%",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 39,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_lolxh_2",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.5
+				},
+				{
+					"key": "attack@hp_ratio",
+					"value": 0.5
+				},
+				{
+					"key": "attack@def_penetrate_fixed",
+					"value": 170
+				}
+			]
+		},
+		{
+			"name": "Broken Blade",
+			"rangeId": null,
+			"description": "ATK <@ba.vup>+{atk:0%}</>, ranged attacks no longer reduce ATK, target 1 more enemy, and add an additional attack that ignores <@ba.vup>{attack@def_penetrate_fixed}</> enemy DEF when target HP is below 50%",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 37,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_lolxh_2",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.6
+				},
+				{
+					"key": "attack@hp_ratio",
+					"value": 0.5
+				},
+				{
+					"key": "attack@def_penetrate_fixed",
+					"value": 180
+				}
+			]
+		},
+		{
+			"name": "Broken Blade",
+			"rangeId": null,
+			"description": "ATK <@ba.vup>+{atk:0%}</>, ranged attacks no longer reduce ATK, target 1 more enemy, and add an additional attack that ignores <@ba.vup>{attack@def_penetrate_fixed}</> enemy DEF when target HP is below 50%",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 35,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_lolxh_2",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.7
+				},
+				{
+					"key": "attack@hp_ratio",
+					"value": 0.5
+				},
+				{
+					"key": "attack@def_penetrate_fixed",
+					"value": 200
+				}
+			]
+		}
+	]
+}

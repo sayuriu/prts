@@ -1,0 +1,34 @@
+{
+	"skillId": "sktok_airbomb",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "펑!",
+			"rangeId": "x-4",
+			"description": "주위의 적을 <@ba.vup>많이</> 밀어낸다",
+			"skillType": 0,
+			"durationType": 0,
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 0,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": "sktok_airbomb",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "attack@duration",
+					"value": 1.5
+				},
+				{
+					"key": "attack@force",
+					"value": 3
+				}
+			]
+		}
+	]
+}

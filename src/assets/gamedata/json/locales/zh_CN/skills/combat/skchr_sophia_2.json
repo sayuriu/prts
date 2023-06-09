@@ -6,11 +6,11 @@
 		{
 			"name": "鞭刃",
 			"rangeId": null,
-			"description": "天赋效果提升至<@ba.vup>{talent_scale}</>倍；攻击力<@ba.vup>+{atk:0%}</>，攻击范围<@ba.vup>+{ABILITY_RANGE_FORWARD_EXTEND}格</>，阻挡数<@ba.vup>+{block_cnt}</>，同时攻击阻挡的所有敌人",
-			"skillType": 1,
-			"durationType": 0,
+			"description": "第一天赋效果提升至<@ba.vup>{talent_scale}</>倍；攻击力<@ba.vup>+{atk:0%}</>，攻击范围<@ba.vup>+{ABILITY_RANGE_FORWARD_EXTEND}格</>，阻挡数<@ba.vup>+{block_cnt}</>，同时攻击阻挡的所有敌人",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 70,
@@ -22,30 +22,34 @@
 			"blackboard": [
 				{
 					"key": "talent_scale",
-					"value": 1.1
+					"value": 1.1,
+					"valueStr": null
 				},
 				{
 					"key": "atk",
-					"value": 0.25
+					"value": 0.25,
+					"valueStr": null
 				},
 				{
 					"key": "ability_range_forward_extend",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "block_cnt",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
 		{
 			"name": "鞭刃",
 			"rangeId": null,
-			"description": "天赋效果提升至<@ba.vup>{talent_scale}</>倍；攻击力<@ba.vup>+{atk:0%}</>，攻击范围<@ba.vup>+{ABILITY_RANGE_FORWARD_EXTEND}格</>，阻挡数<@ba.vup>+{block_cnt}</>，同时攻击阻挡的所有敌人",
-			"skillType": 1,
-			"durationType": 0,
+			"description": "第一天赋效果提升至<@ba.vup>{talent_scale}</>倍；攻击力<@ba.vup>+{atk:0%}</>，攻击范围<@ba.vup>+{ABILITY_RANGE_FORWARD_EXTEND}格</>，阻挡数<@ba.vup>+{block_cnt}</>，同时攻击阻挡的所有敌人",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 69,
@@ -57,30 +61,34 @@
 			"blackboard": [
 				{
 					"key": "talent_scale",
-					"value": 1.2
+					"value": 1.2,
+					"valueStr": null
 				},
 				{
 					"key": "atk",
-					"value": 0.25
+					"value": 0.25,
+					"valueStr": null
 				},
 				{
 					"key": "ability_range_forward_extend",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "block_cnt",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
 		{
 			"name": "鞭刃",
 			"rangeId": null,
-			"description": "天赋效果提升至<@ba.vup>{talent_scale}</>倍；攻击力<@ba.vup>+{atk:0%}</>，攻击范围<@ba.vup>+{ABILITY_RANGE_FORWARD_EXTEND}格</>，阻挡数<@ba.vup>+{block_cnt}</>，同时攻击阻挡的所有敌人",
-			"skillType": 1,
-			"durationType": 0,
+			"description": "第一天赋效果提升至<@ba.vup>{talent_scale}</>倍；攻击力<@ba.vup>+{atk:0%}</>，攻击范围<@ba.vup>+{ABILITY_RANGE_FORWARD_EXTEND}格</>，阻挡数<@ba.vup>+{block_cnt}</>，同时攻击阻挡的所有敌人",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 68,
@@ -92,30 +100,34 @@
 			"blackboard": [
 				{
 					"key": "talent_scale",
-					"value": 1.3
+					"value": 1.3,
+					"valueStr": null
 				},
 				{
 					"key": "atk",
-					"value": 0.25
+					"value": 0.25,
+					"valueStr": null
 				},
 				{
 					"key": "ability_range_forward_extend",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "block_cnt",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
 		{
 			"name": "鞭刃",
 			"rangeId": null,
-			"description": "天赋效果提升至<@ba.vup>{talent_scale}</>倍；攻击力<@ba.vup>+{atk:0%}</>，攻击范围<@ba.vup>+{ABILITY_RANGE_FORWARD_EXTEND}格</>，阻挡数<@ba.vup>+{block_cnt}</>，同时攻击阻挡的所有敌人",
-			"skillType": 1,
-			"durationType": 0,
+			"description": "第一天赋效果提升至<@ba.vup>{talent_scale}</>倍；攻击力<@ba.vup>+{atk:0%}</>，攻击范围<@ba.vup>+{ABILITY_RANGE_FORWARD_EXTEND}格</>，阻挡数<@ba.vup>+{block_cnt}</>，同时攻击阻挡的所有敌人",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 67,
@@ -127,30 +139,34 @@
 			"blackboard": [
 				{
 					"key": "talent_scale",
-					"value": 1.4
+					"value": 1.4,
+					"valueStr": null
 				},
 				{
 					"key": "atk",
-					"value": 0.3
+					"value": 0.3,
+					"valueStr": null
 				},
 				{
 					"key": "ability_range_forward_extend",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "block_cnt",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
 		{
 			"name": "鞭刃",
 			"rangeId": null,
-			"description": "天赋效果提升至<@ba.vup>{talent_scale}</>倍；攻击力<@ba.vup>+{atk:0%}</>，攻击范围<@ba.vup>+{ABILITY_RANGE_FORWARD_EXTEND}格</>，阻挡数<@ba.vup>+{block_cnt}</>，同时攻击阻挡的所有敌人",
-			"skillType": 1,
-			"durationType": 0,
+			"description": "第一天赋效果提升至<@ba.vup>{talent_scale}</>倍；攻击力<@ba.vup>+{atk:0%}</>，攻击范围<@ba.vup>+{ABILITY_RANGE_FORWARD_EXTEND}格</>，阻挡数<@ba.vup>+{block_cnt}</>，同时攻击阻挡的所有敌人",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 66,
@@ -162,30 +178,34 @@
 			"blackboard": [
 				{
 					"key": "talent_scale",
-					"value": 1.5
+					"value": 1.5,
+					"valueStr": null
 				},
 				{
 					"key": "atk",
-					"value": 0.3
+					"value": 0.3,
+					"valueStr": null
 				},
 				{
 					"key": "ability_range_forward_extend",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "block_cnt",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
 		{
 			"name": "鞭刃",
 			"rangeId": null,
-			"description": "天赋效果提升至<@ba.vup>{talent_scale}</>倍；攻击力<@ba.vup>+{atk:0%}</>，攻击范围<@ba.vup>+{ABILITY_RANGE_FORWARD_EXTEND}格</>，阻挡数<@ba.vup>+{block_cnt}</>，同时攻击阻挡的所有敌人",
-			"skillType": 1,
-			"durationType": 0,
+			"description": "第一天赋效果提升至<@ba.vup>{talent_scale}</>倍；攻击力<@ba.vup>+{atk:0%}</>，攻击范围<@ba.vup>+{ABILITY_RANGE_FORWARD_EXTEND}格</>，阻挡数<@ba.vup>+{block_cnt}</>，同时攻击阻挡的所有敌人",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 65,
@@ -197,30 +217,34 @@
 			"blackboard": [
 				{
 					"key": "talent_scale",
-					"value": 1.6
+					"value": 1.6,
+					"valueStr": null
 				},
 				{
 					"key": "atk",
-					"value": 0.3
+					"value": 0.3,
+					"valueStr": null
 				},
 				{
 					"key": "ability_range_forward_extend",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "block_cnt",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
 		{
 			"name": "鞭刃",
 			"rangeId": null,
-			"description": "天赋效果提升至<@ba.vup>{talent_scale}</>倍；攻击力<@ba.vup>+{atk:0%}</>，攻击范围<@ba.vup>+{ABILITY_RANGE_FORWARD_EXTEND}格</>，阻挡数<@ba.vup>+{block_cnt}</>，同时攻击阻挡的所有敌人",
-			"skillType": 1,
-			"durationType": 0,
+			"description": "第一天赋效果提升至<@ba.vup>{talent_scale}</>倍；攻击力<@ba.vup>+{atk:0%}</>，攻击范围<@ba.vup>+{ABILITY_RANGE_FORWARD_EXTEND}格</>，阻挡数<@ba.vup>+{block_cnt}</>，同时攻击阻挡的所有敌人",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 64,
@@ -232,30 +256,34 @@
 			"blackboard": [
 				{
 					"key": "talent_scale",
-					"value": 1.7
+					"value": 1.7,
+					"valueStr": null
 				},
 				{
 					"key": "atk",
-					"value": 0.35
+					"value": 0.35,
+					"valueStr": null
 				},
 				{
 					"key": "ability_range_forward_extend",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "block_cnt",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
 		{
 			"name": "鞭刃",
 			"rangeId": null,
-			"description": "天赋效果提升至<@ba.vup>{talent_scale}</>倍；攻击力<@ba.vup>+{atk:0%}</>，攻击范围<@ba.vup>+{ABILITY_RANGE_FORWARD_EXTEND}格</>，阻挡数<@ba.vup>+{block_cnt}</>，同时攻击阻挡的所有敌人",
-			"skillType": 1,
-			"durationType": 0,
+			"description": "第一天赋效果提升至<@ba.vup>{talent_scale}</>倍；攻击力<@ba.vup>+{atk:0%}</>，攻击范围<@ba.vup>+{ABILITY_RANGE_FORWARD_EXTEND}格</>，阻挡数<@ba.vup>+{block_cnt}</>，同时攻击阻挡的所有敌人",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 63,
@@ -267,30 +295,34 @@
 			"blackboard": [
 				{
 					"key": "talent_scale",
-					"value": 1.8
+					"value": 1.8,
+					"valueStr": null
 				},
 				{
 					"key": "atk",
-					"value": 0.4
+					"value": 0.4,
+					"valueStr": null
 				},
 				{
 					"key": "ability_range_forward_extend",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "block_cnt",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
 		{
 			"name": "鞭刃",
 			"rangeId": null,
-			"description": "天赋效果提升至<@ba.vup>{talent_scale}</>倍；攻击力<@ba.vup>+{atk:0%}</>，攻击范围<@ba.vup>+{ABILITY_RANGE_FORWARD_EXTEND}格</>，阻挡数<@ba.vup>+{block_cnt}</>，同时攻击阻挡的所有敌人",
-			"skillType": 1,
-			"durationType": 0,
+			"description": "第一天赋效果提升至<@ba.vup>{talent_scale}</>倍；攻击力<@ba.vup>+{atk:0%}</>，攻击范围<@ba.vup>+{ABILITY_RANGE_FORWARD_EXTEND}格</>，阻挡数<@ba.vup>+{block_cnt}</>，同时攻击阻挡的所有敌人",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 62,
@@ -302,30 +334,34 @@
 			"blackboard": [
 				{
 					"key": "talent_scale",
-					"value": 1.9
+					"value": 1.9,
+					"valueStr": null
 				},
 				{
 					"key": "atk",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				},
 				{
 					"key": "ability_range_forward_extend",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "block_cnt",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
 		{
 			"name": "鞭刃",
 			"rangeId": null,
-			"description": "天赋效果提升至<@ba.vup>{talent_scale}</>倍；攻击力<@ba.vup>+{atk:0%}</>，攻击范围<@ba.vup>+{ABILITY_RANGE_FORWARD_EXTEND}格</>，阻挡数<@ba.vup>+{block_cnt}</>，同时攻击阻挡的所有敌人",
-			"skillType": 1,
-			"durationType": 0,
+			"description": "第一天赋效果提升至<@ba.vup>{talent_scale}</>倍；攻击力<@ba.vup>+{atk:0%}</>，攻击范围<@ba.vup>+{ABILITY_RANGE_FORWARD_EXTEND}格</>，阻挡数<@ba.vup>+{block_cnt}</>，同时攻击阻挡的所有敌人",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 60,
@@ -337,19 +373,23 @@
 			"blackboard": [
 				{
 					"key": "talent_scale",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				},
 				{
 					"key": "atk",
-					"value": 0.6
+					"value": 0.6,
+					"valueStr": null
 				},
 				{
 					"key": "ability_range_forward_extend",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "block_cnt",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		}

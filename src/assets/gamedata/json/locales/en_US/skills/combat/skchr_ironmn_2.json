@@ -1,0 +1,317 @@
+{
+	"skillId": "skchr_ironmn_2",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "Efficient Resupply",
+			"rangeId": null,
+			"description": "When this skill is equipped: Device gives an ally Operator <@ba.vup>1</> SP every 3.5s.\nATK<@ba.vup>+{atk:0%}</>, DEF <@ba.vup>+{def:0%}</>, and attack all blocked enemies. Device boosted to grant <@ba.vup>1</>SP every <@ba.vup>{fake_interval}</>s, but HP loss is doubled.\n<@ba.rem>Gain 1 device when skill expires</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 65,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_ironmn_2",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.1
+				},
+				{
+					"key": "def",
+					"value": 0.1
+				},
+				{
+					"key": "fake_interval",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "Efficient Resupply",
+			"rangeId": null,
+			"description": "When this skill is equipped: Device gives an ally Operator <@ba.vup>1</> SP every 3.5s.\nATK<@ba.vup>+{atk:0%}</>, DEF <@ba.vup>+{def:0%}</>, and attack all blocked enemies. Device boosted to grant <@ba.vup>1</>SP every <@ba.vup>{fake_interval}</>s, but HP loss is doubled.\n<@ba.rem>Gain 1 device when skill expires</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 65,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_ironmn_2",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.15
+				},
+				{
+					"key": "def",
+					"value": 0.15
+				},
+				{
+					"key": "fake_interval",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "Efficient Resupply",
+			"rangeId": null,
+			"description": "When this skill is equipped: Device gives an ally Operator <@ba.vup>1</> SP every 3.5s.\nATK<@ba.vup>+{atk:0%}</>, DEF <@ba.vup>+{def:0%}</>, and attack all blocked enemies. Device boosted to grant <@ba.vup>1</>SP every <@ba.vup>{fake_interval}</>s, but HP loss is doubled.\n<@ba.rem>Gain 1 device when skill expires</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 65,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_ironmn_2",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.2
+				},
+				{
+					"key": "def",
+					"value": 0.2
+				},
+				{
+					"key": "fake_interval",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "Efficient Resupply",
+			"rangeId": null,
+			"description": "When this skill is equipped: Device gives an ally Operator <@ba.vup>1</> SP every 3.5s.\nATK<@ba.vup>+{atk:0%}</>, DEF <@ba.vup>+{def:0%}</>, and attack all blocked enemies. Device boosted to grant <@ba.vup>1</>SP every <@ba.vup>{fake_interval}</>s, but HP loss is doubled.\n<@ba.rem>Gain 1 device when skill expires</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 60,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_ironmn_2",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.25
+				},
+				{
+					"key": "def",
+					"value": 0.25
+				},
+				{
+					"key": "fake_interval",
+					"value": 2.5
+				}
+			]
+		},
+		{
+			"name": "Efficient Resupply",
+			"rangeId": null,
+			"description": "When this skill is equipped: Device gives an ally Operator <@ba.vup>1</> SP every 3.5s.\nATK<@ba.vup>+{atk:0%}</>, DEF <@ba.vup>+{def:0%}</>, and attack all blocked enemies. Device boosted to grant <@ba.vup>1</>SP every <@ba.vup>{fake_interval}</>s, but HP loss is doubled.\n<@ba.rem>Gain 1 device when skill expires</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 60,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_ironmn_2",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.3
+				},
+				{
+					"key": "def",
+					"value": 0.3
+				},
+				{
+					"key": "fake_interval",
+					"value": 2.5
+				}
+			]
+		},
+		{
+			"name": "Efficient Resupply",
+			"rangeId": null,
+			"description": "When this skill is equipped: Device gives an ally Operator <@ba.vup>1</> SP every 3.5s.\nATK<@ba.vup>+{atk:0%}</>, DEF <@ba.vup>+{def:0%}</>, and attack all blocked enemies. Device boosted to grant <@ba.vup>1</>SP every <@ba.vup>{fake_interval}</>s, but HP loss is doubled.\n<@ba.rem>Gain 1 device when skill expires</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 60,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_ironmn_2",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.35
+				},
+				{
+					"key": "def",
+					"value": 0.35
+				},
+				{
+					"key": "fake_interval",
+					"value": 2.5
+				}
+			]
+		},
+		{
+			"name": "Efficient Resupply",
+			"rangeId": null,
+			"description": "When this skill is equipped: Device gives an ally Operator <@ba.vup>1</> SP every 3.5s.\nATK<@ba.vup>+{atk:0%}</>, DEF <@ba.vup>+{def:0%}</>, and attack all blocked enemies. Device boosted to grant <@ba.vup>1</>SP every <@ba.vup>{fake_interval}</>s, but HP loss is doubled.\n<@ba.rem>Gain 1 device when skill expires</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 55,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_ironmn_2",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.4
+				},
+				{
+					"key": "def",
+					"value": 0.4
+				},
+				{
+					"key": "fake_interval",
+					"value": 2
+				}
+			]
+		},
+		{
+			"name": "Efficient Resupply",
+			"rangeId": null,
+			"description": "When this skill is equipped: Device gives an ally Operator <@ba.vup>1</> SP every 3.5s.\nATK<@ba.vup>+{atk:0%}</>, DEF <@ba.vup>+{def:0%}</>, and attack all blocked enemies. Device boosted to grant <@ba.vup>1</>SP every <@ba.vup>{fake_interval}</>s, but HP loss is doubled.\n<@ba.rem>Gain 1 device when skill expires</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 53,
+				"initSp": 25,
+				"increment": 1
+			},
+			"prefabId": "skchr_ironmn_2",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.45
+				},
+				{
+					"key": "def",
+					"value": 0.45
+				},
+				{
+					"key": "fake_interval",
+					"value": 2
+				}
+			]
+		},
+		{
+			"name": "Efficient Resupply",
+			"rangeId": null,
+			"description": "When this skill is equipped: Device gives an ally Operator <@ba.vup>1</> SP every 3.5s.\nATK<@ba.vup>+{atk:0%}</>, DEF <@ba.vup>+{def:0%}</>, and attack all blocked enemies. Device boosted to grant <@ba.vup>1</>SP every <@ba.vup>{fake_interval}</>s, but HP loss is doubled.\n<@ba.rem>Gain 1 device when skill expires</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 51,
+				"initSp": 25,
+				"increment": 1
+			},
+			"prefabId": "skchr_ironmn_2",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.5
+				},
+				{
+					"key": "def",
+					"value": 0.5
+				},
+				{
+					"key": "fake_interval",
+					"value": 2
+				}
+			]
+		},
+		{
+			"name": "Efficient Resupply",
+			"rangeId": null,
+			"description": "When this skill is equipped: Device gives an ally Operator <@ba.vup>1</> SP every 3.5s.\nATK<@ba.vup>+{atk:0%}</>, DEF <@ba.vup>+{def:0%}</>, and attack all blocked enemies. Device boosted to grant <@ba.vup>1</>SP every <@ba.vup>{fake_interval}</>s, but HP loss is doubled.\n<@ba.rem>Gain 1 device when skill expires</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 50,
+				"initSp": 25,
+				"increment": 1
+			},
+			"prefabId": "skchr_ironmn_2",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.6
+				},
+				{
+					"key": "def",
+					"value": 0.6
+				},
+				{
+					"key": "fake_interval",
+					"value": 2
+				}
+			]
+		}
+	]
+}

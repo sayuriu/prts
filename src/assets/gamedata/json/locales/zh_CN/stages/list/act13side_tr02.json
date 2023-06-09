@@ -2,15 +2,16 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act13side_st02",
-			"completeState": 2
+			"completeState": "PASS"
 		}
 	],
 	"stageId": "act13side_tr02",
 	"levelId": "Activities/act13side/level_act13side_tr02",
-	"zoneId": "act13side_zone1",
+	"zoneId": "act13sre_zone1",
 	"code": "NL-TR-2",
 	"name": "骑士流氓",
 	"description": "对事物的喜爱总会激起人们的原始欲望，在这其中，暴力是最显眼的一份子。小心这些极端的骑士爱好者，他们什么都做得出来。\\n<@lv.item><骑士之徽></>使用后可以永久提供某一格地块的视野",
@@ -44,7 +45,7 @@
 	"isHardPredefined": false,
 	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
-	"appearanceStyle": 3,
+	"appearanceStyle": "TRAINING",
 	"stageDropInfo": {
 		"firstPassRewards": null,
 		"firstCompleteRewards": null,
@@ -54,19 +55,25 @@
 			{
 				"type": "DIAMOND",
 				"id": "4002",
-				"dropType": 8
+				"dropType": "COMPLETE"
 			}
 		],
 		"displayDetailRewards": [
 			{
-				"occPercent": 0,
+				"occPercent": "ALWAYS",
 				"type": "DIAMOND",
 				"id": "4002",
-				"dropType": 8
+				"dropType": "COMPLETE"
 			}
 		]
 	},
+	"canUseCharm": false,
+	"canUseTech": false,
+	"canUseTrapTool": false,
+	"canUseBattlePerformance": false,
 	"startButtonOverrideId": null,
 	"isStagePatch": false,
-	"mainStageId": "act13side_st01"
+	"mainStageId": "act13side_st01",
+	"extraCondition": null,
+	"extraInfo": null
 }

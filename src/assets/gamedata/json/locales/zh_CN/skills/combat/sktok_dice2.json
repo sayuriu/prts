@@ -1,0 +1,71 @@
+{
+	"skillId": "sktok_dice2",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "掷骰",
+			"rangeId": null,
+			"description": null,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "sktok_dice2",
+			"duration": 15,
+			"blackboard": [
+				{
+					"key": "dice_interval[0].duration",
+					"value": 15,
+					"valueStr": null
+				},
+				{
+					"key": "dice_interval[0].attack_speed",
+					"value": -20,
+					"valueStr": null
+				},
+				{
+					"key": "dice_interval[0].move_speed",
+					"value": -0.5,
+					"valueStr": null
+				},
+				{
+					"key": "dice_interval[1].duration",
+					"value": 15,
+					"valueStr": null
+				},
+				{
+					"key": "dice_interval[1].attack_speed",
+					"value": -30,
+					"valueStr": null
+				},
+				{
+					"key": "dice_interval[1].move_speed",
+					"value": -0.7,
+					"valueStr": null
+				},
+				{
+					"key": "dice_interval[2].duration",
+					"value": 15,
+					"valueStr": null
+				},
+				{
+					"key": "dice_interval[2].attack_speed",
+					"value": -40,
+					"valueStr": null
+				},
+				{
+					"key": "dice_interval[2].move_speed",
+					"value": -0.8,
+					"valueStr": null
+				}
+			]
+		}
+	]
+}

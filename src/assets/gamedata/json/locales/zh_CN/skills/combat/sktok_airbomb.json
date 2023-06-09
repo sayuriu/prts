@@ -7,8 +7,8 @@
 			"name": "砰！",
 			"rangeId": "x-4",
 			"description": "将周围的敌人<@ba.vup>较大力地</>推开",
-			"skillType": 0,
-			"durationType": 0,
+			"skillType": "PASSIVE",
+			"durationType": "PASSIVE",
 			"spData": {
 				"spType": 8,
 				"levelUpCost": null,
@@ -22,11 +22,13 @@
 			"blackboard": [
 				{
 					"key": "attack@duration",
-					"value": 1.5
+					"value": 1.5,
+					"valueStr": null
 				},
 				{
 					"key": "attack@force",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				}
 			]
 		}

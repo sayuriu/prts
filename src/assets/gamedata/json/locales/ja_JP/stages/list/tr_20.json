@@ -1,0 +1,73 @@
+{
+	"stageType": "MAIN",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "ALL",
+	"unlockCondition": [
+		{
+			"stageId": "easy_10-02",
+			"completeState": 2
+		}
+	],
+	"stageId": "tr_20",
+	"levelId": "Obt/Training/level_training_20",
+	"zoneId": "main_10",
+	"code": "TR-20",
+	"name": "城壁の下",
+	"description": "ロンディニウム都市防衛砲のシミュレーションテスト。砲火が全てを滅ぼす、ゆえにこの要塞は陥落したことがないのだ。\n<@lv.item><ロンディニウム都市防衛副砲></>チャージ完了時、ブロック数が最も多い味方ユニットを中心とした一定範囲内の敵味方全員に確定ダメージを与える。",
+	"hardStagedId": null,
+	"dangerLevel": "-",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_VC_harbor",
+	"canPractice": false,
+	"canBattleReplay": false,
+	"apCost": 0,
+	"apFailReturn": 0,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 0,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": -1,
+	"dailyStageDifficulty": -1,
+	"expGain": 0,
+	"goldGain": 0,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 0,
+	"completeFavor": 0,
+	"slProgress": 186,
+	"displayMainItem": "",
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": true,
+	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 3,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 0,
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		]
+	},
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "tr_20"
+}

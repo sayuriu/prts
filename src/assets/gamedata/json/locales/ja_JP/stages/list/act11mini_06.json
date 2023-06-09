@@ -1,0 +1,154 @@
+{
+	"stageType": "ACTIVITY",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
+	"unlockCondition": [
+		{
+			"stageId": "act11mini_05",
+			"completeState": 2
+		}
+	],
+	"stageId": "act11mini_06",
+	"levelId": "Activities/act11mini/level_act11mini_06",
+	"zoneId": "act11mini_zone1",
+	"code": "TC-6",
+	"name": "波濤を越えて",
+	"description": "奴らは波間を渡ってくるが、情けをかけて岸に上げてはいけない。\n<@lv.item><深水区域></>配置不可。敵の攻撃速度と移動速度が低下し、HPが減少し続ける\n<@lv.item><障害物></>敵の進行ルートを遮る",
+	"hardStagedId": "act11mini_06#f#",
+	"dangerLevel": "昇進2 LV.10",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_Bolivar_sea",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 15,
+	"apFailReturn": 14,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": 0,
+	"expGain": 150,
+	"goldGain": 150,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 14,
+	"completeFavor": 15,
+	"slProgress": 0,
+	"displayMainItem": null,
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 0,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act11mini_token_card",
+				"dropType": 8
+			},
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act11mini_token_card",
+				"dropType": 3
+			},
+			{
+				"type": "MATERIAL",
+				"id": "30012",
+				"dropType": 2
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 0,
+				"type": "ACTIVITY_ITEM",
+				"id": "act11mini_token_card",
+				"dropType": 8
+			},
+			{
+				"occPercent": 0,
+				"type": "ACTIVITY_ITEM",
+				"id": "act11mini_token_card",
+				"dropType": 3
+			},
+			{
+				"occPercent": 0,
+				"type": "MATERIAL",
+				"id": "30012",
+				"dropType": 2
+			},
+			{
+				"occPercent": 4,
+				"type": "MATERIAL",
+				"id": "30021",
+				"dropType": 4
+			},
+			{
+				"occPercent": 4,
+				"type": "MATERIAL",
+				"id": "30041",
+				"dropType": 4
+			},
+			{
+				"occPercent": 4,
+				"type": "MATERIAL",
+				"id": "30051",
+				"dropType": 4
+			},
+			{
+				"occPercent": 4,
+				"type": "CARD_EXP",
+				"id": "2001",
+				"dropType": 4
+			},
+			{
+				"occPercent": 4,
+				"type": "MATERIAL",
+				"id": "30022",
+				"dropType": 4
+			},
+			{
+				"occPercent": 4,
+				"type": "MATERIAL",
+				"id": "30042",
+				"dropType": 4
+			},
+			{
+				"occPercent": 4,
+				"type": "MATERIAL",
+				"id": "30052",
+				"dropType": 4
+			},
+			{
+				"occPercent": 4,
+				"type": "CARD_EXP",
+				"id": "2002",
+				"dropType": 4
+			},
+			{
+				"occPercent": 0,
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		]
+	},
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "act11mini_01"
+}

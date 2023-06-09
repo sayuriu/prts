@@ -2,7 +2,9 @@
 	"name": "マゼラン",
 	"description": "敵に<@ba.kw>術ダメージ</>を与える\n<@ba.kw>召喚ユニット</>を使用可能",
 	"canUseGeneralPotentialItem": true,
+	"canUseActivityPotentialItem": false,
 	"potentialItemId": "p_char_248_mgllan",
+	"activityPotentialItemId": null,
 	"nationId": "columbia",
 	"groupId": "rhine",
 	"teamId": null,
@@ -53,7 +55,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -78,7 +82,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -111,7 +117,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -136,7 +144,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -185,7 +195,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -210,7 +222,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -495,7 +509,7 @@
 					"requiredPotentialRank": 0,
 					"prefabKey": "1",
 					"name": "支援ドローン・DDF",
-					"description": "支援ドローンを召喚可能(ブロック数0、召喚上限数3、最大同時配置可能数3)。スキルチェンジで機能変更。",
+					"description": "支援ドローンを3体配置可能（最大3体まで同時配置可能）、スキルによって性能変化",
 					"rangeId": null,
 					"blackboard": [
 						{
@@ -512,7 +526,7 @@
 					"requiredPotentialRank": 0,
 					"prefabKey": "1",
 					"name": "支援ドローン・DDF",
-					"description": "支援ドローンを召喚可能(ブロック数0、召喚上限数4、最大同時配置可能数3)。スキルチェンジで機能変更。",
+					"description": "支援ドローンを4体配置可能（最大3体まで同時配置可能）、スキルによって性能変化",
 					"rangeId": null,
 					"blackboard": [
 						{
@@ -529,7 +543,7 @@
 					"requiredPotentialRank": 0,
 					"prefabKey": "1",
 					"name": "支援ドローン・DDF",
-					"description": "支援ドローンを召喚可能(ブロック数0、召喚上限数5、最大同時配置可能数3)。スキルチェンジで機能変更。",
+					"description": "支援ドローンを5体配置可能（最大3体まで同時配置可能）、スキルによって性能変化",
 					"rangeId": null,
 					"blackboard": [
 						{
@@ -596,7 +610,7 @@
 	"potentialRanks": [
 		{
 			"type": 0,
-			"description": "コスト-1",
+			"description": "配置コスト-1",
 			"buff": {
 				"attributes": {
 					"abnormalFlags": null,
@@ -671,7 +685,7 @@
 		},
 		{
 			"type": 0,
-			"description": "コスト-1",
+			"description": "配置コスト-1",
 			"buff": {
 				"attributes": {
 					"abnormalFlags": null,
@@ -716,7 +730,9 @@
 				"baseForceLevel": 0,
 				"stunImmune": false,
 				"silenceImmune": false,
-				"sleepImmune": false
+				"sleepImmune": false,
+				"frozenImmune": false,
+				"levitateImmune": false
 			}
 		},
 		{
@@ -741,7 +757,9 @@
 				"baseForceLevel": 0,
 				"stunImmune": false,
 				"silenceImmune": false,
-				"sleepImmune": false
+				"sleepImmune": false,
+				"frozenImmune": false,
+				"levitateImmune": false
 			}
 		}
 	],

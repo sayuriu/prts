@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act15d5_02",
@@ -13,7 +14,7 @@
 	"zoneId": "act15d5_zone1",
 	"code": "BH-3",
 	"name": "致命的誤り",
-	"description": "空中からは目立つエリアが目視できるが、あれを降下点にするつもりならば、最悪の選択と言えるだろう。\n<@lv.item><活性源石></>配置した味方及び通過した敵は継続してダメージを受けるが攻撃力と攻撃速度が大幅に上昇する。。\n<@lv.item><障害物></>ウルサス民間人と闘士タルラの進攻ルートを遮る。味方の攻撃によって破壊可能。",
+	"description": "空中からは目立つエリアが目視できるが、あれを降下点にするつもりならば、最悪の選択と言えるだろう。\n<@lv.item><活性源石></>配置した味方及び通過した敵は継続してダメージを受けるが攻撃力と攻撃速度が大幅に上昇する。\n<@lv.item><障害物></>ウルサス民間人と闘士タルラの進攻ルートを遮る。味方の攻撃によって破壊可能。",
 	"hardStagedId": "act15d5_03#f#",
 	"dangerLevel": "昇進1 LV.35",
 	"dangerPoint": -1,
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {

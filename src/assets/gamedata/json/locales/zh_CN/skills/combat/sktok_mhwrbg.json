@@ -1,0 +1,25 @@
+{
+	"skillId": "sktok_mhwrbg",
+	"iconId": "sktok_mhwrbg",
+	"hidden": false,
+	"levels": [
+		{
+			"name": "滞空牵引无人机",
+			"rangeId": null,
+			"description": "可部署至我方干员所在位置，之后可再次指定另一位置，使该干员快速移动至此处",
+			"skillType": "PASSIVE",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "sktok_mhwrbg",
+			"duration": -1,
+			"blackboard": []
+		}
+	]
+}

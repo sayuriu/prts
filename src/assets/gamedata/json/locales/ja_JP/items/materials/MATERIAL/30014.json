@@ -6,7 +6,7 @@
 	"iconId": "MTL_SL_G4",
 	"overrideBkg": null,
 	"stackIconId": null,
-	"sortId": 100012,
+	"sortId": 100026,
 	"usage": "地表から採掘された鉱石の大きな塊が精錬された物質。昇進やスキル強化に必要な素材。融合剤の原料にも用いられる。",
 	"obtainApproach": null,
 	"classifyType": "MATERIAL",
@@ -26,6 +26,14 @@
 		},
 		{
 			"stageId": "main_09-11",
+			"occPer": "SOMETIMES"
+		},
+		{
+			"stageId": "main_11-16",
+			"occPer": "SOMETIMES"
+		},
+		{
+			"stageId": "tough_11-16",
 			"occPer": "SOMETIMES"
 		}
 	],

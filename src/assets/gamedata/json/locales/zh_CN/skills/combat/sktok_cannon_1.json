@@ -7,10 +7,10 @@
 			"name": "脉冲束流",
 			"rangeId": "x-5",
 			"description": "相邻范围内每存在一个我方单位，每秒回复<@ba.vup>1</>点技力；相邻的我方单位防御力下降<@ba.vup>50%</>，更容易受到敌方攻击；消耗<@ba.vup>{cost}</>点部署费用，对<@ba.vup>下层测试区</>的敌人造成<@ba.vup>5000</>点真实伤害并使其<$ba.stun>晕眩</><@ba.vup>7</>秒",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 50,
@@ -22,7 +22,8 @@
 			"blackboard": [
 				{
 					"key": "cost",
-					"value": 10
+					"value": 10,
+					"valueStr": null
 				}
 			]
 		}

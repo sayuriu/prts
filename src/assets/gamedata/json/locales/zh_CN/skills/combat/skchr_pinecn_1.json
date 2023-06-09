@@ -7,10 +7,10 @@
 			"name": "RMA长钉",
 			"rangeId": null,
 			"description": "立即以<@ba.vup>{atk_scale:0%}</>的攻击力进行一次攻击，无视敌人<@ba.vup>{def_penetrate_fixed}</>的防御力\\n<@ba.rem>可充能{cnt}次</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 12,
@@ -22,15 +22,18 @@
 			"blackboard": [
 				{
 					"key": "atk_scale",
-					"value": 1.5
+					"value": 1.5,
+					"valueStr": null
 				},
 				{
 					"key": "def_penetrate_fixed",
-					"value": 150
+					"value": 150,
+					"valueStr": null
 				},
 				{
 					"key": "cnt",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -38,10 +41,10 @@
 			"name": "RMA长钉",
 			"rangeId": null,
 			"description": "立即以<@ba.vup>{atk_scale:0%}</>的攻击力进行一次攻击，无视敌人<@ba.vup>{def_penetrate_fixed}</>的防御力\\n<@ba.rem>可充能{cnt}次</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 12,
@@ -53,15 +56,18 @@
 			"blackboard": [
 				{
 					"key": "atk_scale",
-					"value": 1.55
+					"value": 1.55,
+					"valueStr": null
 				},
 				{
 					"key": "def_penetrate_fixed",
-					"value": 160
+					"value": 160,
+					"valueStr": null
 				},
 				{
 					"key": "cnt",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -69,10 +75,10 @@
 			"name": "RMA长钉",
 			"rangeId": null,
 			"description": "立即以<@ba.vup>{atk_scale:0%}</>的攻击力进行一次攻击，无视敌人<@ba.vup>{def_penetrate_fixed}</>的防御力\\n<@ba.rem>可充能{cnt}次</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 12,
@@ -84,15 +90,18 @@
 			"blackboard": [
 				{
 					"key": "atk_scale",
-					"value": 1.6
+					"value": 1.6,
+					"valueStr": null
 				},
 				{
 					"key": "def_penetrate_fixed",
-					"value": 170
+					"value": 170,
+					"valueStr": null
 				},
 				{
 					"key": "cnt",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -100,10 +109,10 @@
 			"name": "RMA长钉",
 			"rangeId": null,
 			"description": "立即以<@ba.vup>{atk_scale:0%}</>的攻击力进行一次攻击，无视敌人<@ba.vup>{def_penetrate_fixed}</>的防御力\\n<@ba.rem>可充能{cnt}次</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 2,
 				"spCost": 11,
@@ -115,15 +124,18 @@
 			"blackboard": [
 				{
 					"key": "atk_scale",
-					"value": 1.65
+					"value": 1.65,
+					"valueStr": null
 				},
 				{
 					"key": "def_penetrate_fixed",
-					"value": 180
+					"value": 180,
+					"valueStr": null
 				},
 				{
 					"key": "cnt",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				}
 			]
 		},
@@ -131,10 +143,10 @@
 			"name": "RMA长钉",
 			"rangeId": null,
 			"description": "立即以<@ba.vup>{atk_scale:0%}</>的攻击力进行一次攻击，无视敌人<@ba.vup>{def_penetrate_fixed}</>的防御力\\n<@ba.rem>可充能{cnt}次</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 2,
 				"spCost": 11,
@@ -146,15 +158,18 @@
 			"blackboard": [
 				{
 					"key": "atk_scale",
-					"value": 1.7
+					"value": 1.7,
+					"valueStr": null
 				},
 				{
 					"key": "def_penetrate_fixed",
-					"value": 190
+					"value": 190,
+					"valueStr": null
 				},
 				{
 					"key": "cnt",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				}
 			]
 		},
@@ -162,10 +177,10 @@
 			"name": "RMA长钉",
 			"rangeId": null,
 			"description": "立即以<@ba.vup>{atk_scale:0%}</>的攻击力进行一次攻击，无视敌人<@ba.vup>{def_penetrate_fixed}</>的防御力\\n<@ba.rem>可充能{cnt}次</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 2,
 				"spCost": 11,
@@ -177,15 +192,18 @@
 			"blackboard": [
 				{
 					"key": "atk_scale",
-					"value": 1.75
+					"value": 1.75,
+					"valueStr": null
 				},
 				{
 					"key": "def_penetrate_fixed",
-					"value": 200
+					"value": 200,
+					"valueStr": null
 				},
 				{
 					"key": "cnt",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				}
 			]
 		},
@@ -193,10 +211,10 @@
 			"name": "RMA长钉",
 			"rangeId": null,
 			"description": "立即以<@ba.vup>{atk_scale:0%}</>的攻击力进行一次攻击，无视敌人<@ba.vup>{def_penetrate_fixed}</>的防御力\\n<@ba.rem>可充能{cnt}次</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 3,
 				"spCost": 10,
@@ -208,15 +226,18 @@
 			"blackboard": [
 				{
 					"key": "atk_scale",
-					"value": 1.8
+					"value": 1.8,
+					"valueStr": null
 				},
 				{
 					"key": "def_penetrate_fixed",
-					"value": 210
+					"value": 210,
+					"valueStr": null
 				},
 				{
 					"key": "cnt",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				}
 			]
 		},
@@ -224,10 +245,10 @@
 			"name": "RMA长钉",
 			"rangeId": null,
 			"description": "立即以<@ba.vup>{atk_scale:0%}</>的攻击力进行一次攻击，无视敌人<@ba.vup>{def_penetrate_fixed}</>的防御力\\n<@ba.rem>可充能{cnt}次</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 3,
 				"spCost": 10,
@@ -239,15 +260,18 @@
 			"blackboard": [
 				{
 					"key": "atk_scale",
-					"value": 1.85
+					"value": 1.85,
+					"valueStr": null
 				},
 				{
 					"key": "def_penetrate_fixed",
-					"value": 220
+					"value": 220,
+					"valueStr": null
 				},
 				{
 					"key": "cnt",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				}
 			]
 		},
@@ -255,10 +279,10 @@
 			"name": "RMA长钉",
 			"rangeId": null,
 			"description": "立即以<@ba.vup>{atk_scale:0%}</>的攻击力进行一次攻击，无视敌人<@ba.vup>{def_penetrate_fixed}</>的防御力\\n<@ba.rem>可充能{cnt}次</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 3,
 				"spCost": 10,
@@ -270,15 +294,18 @@
 			"blackboard": [
 				{
 					"key": "atk_scale",
-					"value": 1.9
+					"value": 1.9,
+					"valueStr": null
 				},
 				{
 					"key": "def_penetrate_fixed",
-					"value": 230
+					"value": 230,
+					"valueStr": null
 				},
 				{
 					"key": "cnt",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				}
 			]
 		},
@@ -286,10 +313,10 @@
 			"name": "RMA长钉",
 			"rangeId": null,
 			"description": "立即以<@ba.vup>{atk_scale:0%}</>的攻击力进行一次攻击，无视敌人<@ba.vup>{def_penetrate_fixed}</>的防御力\\n<@ba.rem>可充能{cnt}次</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 3,
 				"spCost": 9,
@@ -301,15 +328,18 @@
 			"blackboard": [
 				{
 					"key": "atk_scale",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				},
 				{
 					"key": "def_penetrate_fixed",
-					"value": 250
+					"value": 250,
+					"valueStr": null
 				},
 				{
 					"key": "cnt",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				}
 			]
 		}

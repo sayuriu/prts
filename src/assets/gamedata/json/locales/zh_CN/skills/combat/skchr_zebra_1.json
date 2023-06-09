@@ -7,10 +7,10 @@
 			"name": "应急迷彩",
 			"rangeId": "x-4",
 			"description": "下一次攻击会使周围血量不足一半的一名友方干员获得<$ba.camou>迷彩</>并每秒恢复<@ba.vup>{HP_RECOVERY_PER_SEC}</>点生命，持续<@ba.vup>{duration}</>秒（不会对已有该技能效果的干员重复释放）\\n<@ba.rem>可充能{cnt}次</>",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 7,
@@ -22,11 +22,13 @@
 			"blackboard": [
 				{
 					"key": "hp_recovery_per_sec",
-					"value": 30
+					"value": 30,
+					"valueStr": null
 				},
 				{
 					"key": "cnt",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -34,10 +36,10 @@
 			"name": "应急迷彩",
 			"rangeId": "x-4",
 			"description": "下一次攻击会使周围血量不足一半的一名友方干员获得<$ba.camou>迷彩</>并每秒恢复<@ba.vup>{HP_RECOVERY_PER_SEC}</>点生命，持续<@ba.vup>{duration}</>秒（不会对已有该技能效果的干员重复释放）\\n<@ba.rem>可充能{cnt}次</>",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 7,
@@ -49,11 +51,13 @@
 			"blackboard": [
 				{
 					"key": "hp_recovery_per_sec",
-					"value": 33
+					"value": 33,
+					"valueStr": null
 				},
 				{
 					"key": "cnt",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -61,10 +65,10 @@
 			"name": "应急迷彩",
 			"rangeId": "x-4",
 			"description": "下一次攻击会使周围血量不足一半的一名友方干员获得<$ba.camou>迷彩</>并每秒恢复<@ba.vup>{HP_RECOVERY_PER_SEC}</>点生命，持续<@ba.vup>{duration}</>秒（不会对已有该技能效果的干员重复释放）\\n<@ba.rem>可充能{cnt}次</>",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 7,
@@ -76,11 +80,13 @@
 			"blackboard": [
 				{
 					"key": "hp_recovery_per_sec",
-					"value": 36
+					"value": 36,
+					"valueStr": null
 				},
 				{
 					"key": "cnt",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -88,10 +94,10 @@
 			"name": "应急迷彩",
 			"rangeId": "x-4",
 			"description": "下一次攻击会使周围血量不足一半的一名友方干员获得<$ba.camou>迷彩</>并每秒恢复<@ba.vup>{HP_RECOVERY_PER_SEC}</>点生命，持续<@ba.vup>{duration}</>秒（不会对已有该技能效果的干员重复释放）\\n<@ba.rem>可充能{cnt}次</>",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 6,
@@ -103,11 +109,13 @@
 			"blackboard": [
 				{
 					"key": "hp_recovery_per_sec",
-					"value": 40
+					"value": 40,
+					"valueStr": null
 				},
 				{
 					"key": "cnt",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -115,10 +123,10 @@
 			"name": "应急迷彩",
 			"rangeId": "x-4",
 			"description": "下一次攻击会使周围血量不足一半的一名友方干员获得<$ba.camou>迷彩</>并每秒恢复<@ba.vup>{HP_RECOVERY_PER_SEC}</>点生命，持续<@ba.vup>{duration}</>秒（不会对已有该技能效果的干员重复释放）\\n<@ba.rem>可充能{cnt}次</>",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 6,
@@ -130,11 +138,13 @@
 			"blackboard": [
 				{
 					"key": "hp_recovery_per_sec",
-					"value": 43
+					"value": 43,
+					"valueStr": null
 				},
 				{
 					"key": "cnt",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -142,10 +152,10 @@
 			"name": "应急迷彩",
 			"rangeId": "x-4",
 			"description": "下一次攻击会使周围血量不足一半的一名友方干员获得<$ba.camou>迷彩</>并每秒恢复<@ba.vup>{HP_RECOVERY_PER_SEC}</>点生命，持续<@ba.vup>{duration}</>秒（不会对已有该技能效果的干员重复释放）\\n<@ba.rem>可充能{cnt}次</>",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 6,
@@ -157,11 +167,13 @@
 			"blackboard": [
 				{
 					"key": "hp_recovery_per_sec",
-					"value": 46
+					"value": 46,
+					"valueStr": null
 				},
 				{
 					"key": "cnt",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -169,10 +181,10 @@
 			"name": "应急迷彩",
 			"rangeId": "x-4",
 			"description": "下一次攻击会使周围血量不足一半的一名友方干员获得<$ba.camou>迷彩</>并每秒恢复<@ba.vup>{HP_RECOVERY_PER_SEC}</>点生命，持续<@ba.vup>{duration}</>秒（不会对已有该技能效果的干员重复释放）\\n<@ba.rem>可充能{cnt}次</>",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 5,
@@ -184,11 +196,13 @@
 			"blackboard": [
 				{
 					"key": "hp_recovery_per_sec",
-					"value": 50
+					"value": 50,
+					"valueStr": null
 				},
 				{
 					"key": "cnt",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -196,10 +210,10 @@
 			"name": "应急迷彩",
 			"rangeId": "x-4",
 			"description": "下一次攻击会使周围血量不足一半的一名友方干员获得<$ba.camou>迷彩</>并每秒恢复<@ba.vup>{HP_RECOVERY_PER_SEC}</>点生命，持续<@ba.vup>{duration}</>秒（不会对已有该技能效果的干员重复释放）\\n<@ba.rem>可充能{cnt}次</>",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 2,
 				"spCost": 5,
@@ -211,11 +225,13 @@
 			"blackboard": [
 				{
 					"key": "hp_recovery_per_sec",
-					"value": 55
+					"value": 55,
+					"valueStr": null
 				},
 				{
 					"key": "cnt",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				}
 			]
 		},
@@ -223,10 +239,10 @@
 			"name": "应急迷彩",
 			"rangeId": "x-4",
 			"description": "下一次攻击会使周围血量不足一半的一名友方干员获得<$ba.camou>迷彩</>并每秒恢复<@ba.vup>{HP_RECOVERY_PER_SEC}</>点生命，持续<@ba.vup>{duration}</>秒（不会对已有该技能效果的干员重复释放）\\n<@ba.rem>可充能{cnt}次</>",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 2,
 				"spCost": 5,
@@ -238,11 +254,13 @@
 			"blackboard": [
 				{
 					"key": "hp_recovery_per_sec",
-					"value": 60
+					"value": 60,
+					"valueStr": null
 				},
 				{
 					"key": "cnt",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				}
 			]
 		},
@@ -250,10 +268,10 @@
 			"name": "应急迷彩",
 			"rangeId": "x-4",
 			"description": "下一次攻击会使周围血量不足一半的一名友方干员获得<$ba.camou>迷彩</>并每秒恢复<@ba.vup>{HP_RECOVERY_PER_SEC}</>点生命，持续<@ba.vup>{duration}</>秒（不会对已有该技能效果的干员重复释放）\\n<@ba.rem>可充能{cnt}次</>",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 2,
 				"spCost": 4,
@@ -265,11 +283,13 @@
 			"blackboard": [
 				{
 					"key": "hp_recovery_per_sec",
-					"value": 70
+					"value": 70,
+					"valueStr": null
 				},
 				{
 					"key": "cnt",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				}
 			]
 		}

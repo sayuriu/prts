@@ -8,6 +8,7 @@
 			"rangeId": null,
 			"description": "攻撃力<@ba.vup>+{atk:0%}</>、攻撃時、攻撃範囲内に{attack@projectile_life_time}秒間水域を生成する。水域の範囲内にいる敵全員の移動速度<@ba.vup>{attack@move_speed:0%}</>、防御力<@ba.vup>{attack@def}</>（同一対象への効果は重複しない）\n<$ba.charged>オーバーチャージ</>追加効果：装弾数が{attack@another_trigger_time}発になる\n<@ba.rem>合計{attack@trigger_time}発の水弾を撃ち切るとスキルが終了（手動でスキルを停止可能）</>",
 			"skillType": 1,
+			"durationType": 0,
 			"spData": {
 				"spType": 1,
 				"levelUpCost": null,
@@ -42,10 +43,6 @@
 				{
 					"key": "attack@another_trigger_time",
 					"value": 20
-				},
-				{
-					"key": "atk_scale",
-					"value": 1.5
 				}
 			]
 		},
@@ -54,6 +51,7 @@
 			"rangeId": null,
 			"description": "攻撃力<@ba.vup>+{atk:0%}</>、攻撃時、攻撃範囲内に{attack@projectile_life_time}秒間水域を生成する。水域の範囲内にいる敵全員の移動速度<@ba.vup>{attack@move_speed:0%}</>、防御力<@ba.vup>{attack@def}</>（同一対象への効果は重複しない）\n<$ba.charged>オーバーチャージ</>追加効果：装弾数が{attack@another_trigger_time}発になる\n<@ba.rem>合計{attack@trigger_time}発の水弾を撃ち切るとスキルが終了（手動でスキルを停止可能）</>",
 			"skillType": 1,
+			"durationType": 0,
 			"spData": {
 				"spType": 1,
 				"levelUpCost": null,
@@ -88,10 +86,6 @@
 				{
 					"key": "attack@another_trigger_time",
 					"value": 20
-				},
-				{
-					"key": "atk_scale",
-					"value": 1.5
 				}
 			]
 		},
@@ -100,6 +94,7 @@
 			"rangeId": null,
 			"description": "攻撃力<@ba.vup>+{atk:0%}</>、攻撃時、攻撃範囲内に{attack@projectile_life_time}秒間水域を生成する。水域の範囲内にいる敵全員の移動速度<@ba.vup>{attack@move_speed:0%}</>、防御力<@ba.vup>{attack@def}</>（同一対象への効果は重複しない）\n<$ba.charged>オーバーチャージ</>追加効果：装弾数が{attack@another_trigger_time}発になる\n<@ba.rem>合計{attack@trigger_time}発の水弾を撃ち切るとスキルが終了（手動でスキルを停止可能）</>",
 			"skillType": 1,
+			"durationType": 0,
 			"spData": {
 				"spType": 1,
 				"levelUpCost": null,
@@ -134,10 +129,6 @@
 				{
 					"key": "attack@another_trigger_time",
 					"value": 20
-				},
-				{
-					"key": "atk_scale",
-					"value": 1.5
 				}
 			]
 		},
@@ -146,6 +137,7 @@
 			"rangeId": null,
 			"description": "攻撃力<@ba.vup>+{atk:0%}</>、攻撃時、攻撃範囲内に{attack@projectile_life_time}秒間水域を生成する。水域の範囲内にいる敵全員の移動速度<@ba.vup>{attack@move_speed:0%}</>、防御力<@ba.vup>{attack@def}</>（同一対象への効果は重複しない）\n<$ba.charged>オーバーチャージ</>追加効果：装弾数が{attack@another_trigger_time}発になる\n<@ba.rem>合計{attack@trigger_time}発の水弾を撃ち切るとスキルが終了（手動でスキルを停止可能）</>",
 			"skillType": 1,
+			"durationType": 0,
 			"spData": {
 				"spType": 1,
 				"levelUpCost": null,
@@ -180,10 +172,6 @@
 				{
 					"key": "attack@another_trigger_time",
 					"value": 20
-				},
-				{
-					"key": "atk_scale",
-					"value": 1.5
 				}
 			]
 		},
@@ -192,6 +180,7 @@
 			"rangeId": null,
 			"description": "攻撃力<@ba.vup>+{atk:0%}</>、攻撃時、攻撃範囲内に{attack@projectile_life_time}秒間水域を生成する。水域の範囲内にいる敵全員の移動速度<@ba.vup>{attack@move_speed:0%}</>、防御力<@ba.vup>{attack@def}</>（同一対象への効果は重複しない）\n<$ba.charged>オーバーチャージ</>追加効果：装弾数が{attack@another_trigger_time}発になる\n<@ba.rem>合計{attack@trigger_time}発の水弾を撃ち切るとスキルが終了（手動でスキルを停止可能）</>",
 			"skillType": 1,
+			"durationType": 0,
 			"spData": {
 				"spType": 1,
 				"levelUpCost": null,
@@ -226,10 +215,6 @@
 				{
 					"key": "attack@another_trigger_time",
 					"value": 20
-				},
-				{
-					"key": "atk_scale",
-					"value": 1.5
 				}
 			]
 		},
@@ -238,6 +223,7 @@
 			"rangeId": null,
 			"description": "攻撃力<@ba.vup>+{atk:0%}</>、攻撃時、攻撃範囲内に{attack@projectile_life_time}秒間水域を生成する。水域の範囲内にいる敵全員の移動速度<@ba.vup>{attack@move_speed:0%}</>、防御力<@ba.vup>{attack@def}</>（同一対象への効果は重複しない）\n<$ba.charged>オーバーチャージ</>追加効果：装弾数が{attack@another_trigger_time}発になる\n<@ba.rem>合計{attack@trigger_time}発の水弾を撃ち切るとスキルが終了（手動でスキルを停止可能）</>",
 			"skillType": 1,
+			"durationType": 0,
 			"spData": {
 				"spType": 1,
 				"levelUpCost": null,
@@ -272,10 +258,6 @@
 				{
 					"key": "attack@another_trigger_time",
 					"value": 20
-				},
-				{
-					"key": "atk_scale",
-					"value": 1.5
 				}
 			]
 		},
@@ -284,6 +266,7 @@
 			"rangeId": null,
 			"description": "攻撃力<@ba.vup>+{atk:0%}</>、攻撃時、攻撃範囲内に{attack@projectile_life_time}秒間水域を生成する。水域の範囲内にいる敵全員の移動速度<@ba.vup>{attack@move_speed:0%}</>、防御力<@ba.vup>{attack@def}</>（同一対象への効果は重複しない）\n<$ba.charged>オーバーチャージ</>追加効果：装弾数が{attack@another_trigger_time}発になる\n<@ba.rem>合計{attack@trigger_time}発の水弾を撃ち切るとスキルが終了（手動でスキルを停止可能）</>",
 			"skillType": 1,
+			"durationType": 0,
 			"spData": {
 				"spType": 1,
 				"levelUpCost": null,
@@ -318,10 +301,6 @@
 				{
 					"key": "attack@another_trigger_time",
 					"value": 20
-				},
-				{
-					"key": "atk_scale",
-					"value": 1.5
 				}
 			]
 		},
@@ -330,6 +309,7 @@
 			"rangeId": null,
 			"description": "攻撃力<@ba.vup>+{atk:0%}</>、攻撃時、攻撃範囲内に{attack@projectile_life_time}秒間水域を生成する。水域の範囲内にいる敵全員の移動速度<@ba.vup>{attack@move_speed:0%}</>、防御力<@ba.vup>{attack@def}</>（同一対象への効果は重複しない）\n<$ba.charged>オーバーチャージ</>追加効果：装弾数が{attack@another_trigger_time}発になる\n<@ba.rem>合計{attack@trigger_time}発の水弾を撃ち切るとスキルが終了（手動でスキルを停止可能）</>",
 			"skillType": 1,
+			"durationType": 0,
 			"spData": {
 				"spType": 1,
 				"levelUpCost": null,
@@ -364,10 +344,6 @@
 				{
 					"key": "attack@another_trigger_time",
 					"value": 20
-				},
-				{
-					"key": "atk_scale",
-					"value": 1.5
 				}
 			]
 		},
@@ -376,6 +352,7 @@
 			"rangeId": null,
 			"description": "攻撃力<@ba.vup>+{atk:0%}</>、攻撃時、攻撃範囲内に{attack@projectile_life_time}秒間水域を生成する。水域の範囲内にいる敵全員の移動速度<@ba.vup>{attack@move_speed:0%}</>、防御力<@ba.vup>{attack@def}</>（同一対象への効果は重複しない）\n<$ba.charged>オーバーチャージ</>追加効果：装弾数が{attack@another_trigger_time}発になる\n<@ba.rem>合計{attack@trigger_time}発の水弾を撃ち切るとスキルが終了（手動でスキルを停止可能）</>",
 			"skillType": 1,
+			"durationType": 0,
 			"spData": {
 				"spType": 1,
 				"levelUpCost": null,
@@ -410,10 +387,6 @@
 				{
 					"key": "attack@another_trigger_time",
 					"value": 20
-				},
-				{
-					"key": "atk_scale",
-					"value": 1.5
 				}
 			]
 		},
@@ -422,6 +395,7 @@
 			"rangeId": null,
 			"description": "攻撃力<@ba.vup>+{atk:0%}</>、攻撃時、攻撃範囲内に{attack@projectile_life_time}秒間水域を生成する。水域の範囲内にいる敵全員の移動速度<@ba.vup>{attack@move_speed:0%}</>、防御力<@ba.vup>{attack@def}</>（同一対象への効果は重複しない）\n<$ba.charged>オーバーチャージ</>追加効果：装弾数が{attack@another_trigger_time}発になる\n<@ba.rem>合計{attack@trigger_time}発の水弾を撃ち切るとスキルが終了（手動でスキルを停止可能）</>",
 			"skillType": 1,
+			"durationType": 0,
 			"spData": {
 				"spType": 1,
 				"levelUpCost": null,
@@ -456,10 +430,6 @@
 				{
 					"key": "attack@another_trigger_time",
 					"value": 20
-				},
-				{
-					"key": "atk_scale",
-					"value": 1.5
 				}
 			]
 		}

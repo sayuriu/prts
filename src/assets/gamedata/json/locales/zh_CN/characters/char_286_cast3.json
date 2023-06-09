@@ -2,7 +2,10 @@
 	"name": "Castle-3",
 	"description": "能够阻挡一个敌人，且不受<@ba.kw>部署数量</>限制，但再部署时间极长",
 	"canUseGeneralPotentialItem": false,
+	"canUseActivityPotentialItem": false,
 	"potentialItemId": "p_char_286_cast3",
+	"activityPotentialItemId": null,
+	"classicPotentialItemId": null,
 	"nationId": "rhodes",
 	"groupId": null,
 	"teamId": null,
@@ -11,6 +14,7 @@
 	"appellation": "Castle-3",
 	"position": "MELEE",
 	"tagList": [
+		"支援机械",
 		"支援"
 	],
 	"itemUsage": "罗德岛近卫机器人Castle-3，被工程师可露希尔派遣来执行战地作战任务。",
@@ -19,7 +23,7 @@
 	"isNotObtainable": false,
 	"isSpChar": false,
 	"maxPotentialLevel": 5,
-	"rarity": 0,
+	"rarity": "TIER_1",
 	"profession": "WARRIOR",
 	"subProfessionId": "fearless",
 	"trait": null,
@@ -52,7 +56,8 @@
 						"stunImmune": false,
 						"silenceImmune": false,
 						"sleepImmune": false,
-						"frozenImmune": false
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -78,7 +83,8 @@
 						"stunImmune": false,
 						"silenceImmune": false,
 						"sleepImmune": false,
-						"frozenImmune": false
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -91,7 +97,7 @@
 			"candidates": [
 				{
 					"unlockCondition": {
-						"phase": 0,
+						"phase": "PHASE_0",
 						"level": 1
 					},
 					"requiredPotentialRank": 0,
@@ -102,21 +108,24 @@
 					"blackboard": [
 						{
 							"key": "duration",
-							"value": 10
+							"value": 10,
+							"valueStr": null
 						},
 						{
 							"key": "atk",
-							"value": 0.1
+							"value": 0.1,
+							"valueStr": null
 						},
 						{
 							"key": "def",
-							"value": 0.1
+							"value": 0.1,
+							"valueStr": null
 						}
 					]
 				},
 				{
 					"unlockCondition": {
-						"phase": 0,
+						"phase": "PHASE_0",
 						"level": 1
 					},
 					"requiredPotentialRank": 1,
@@ -127,21 +136,24 @@
 					"blackboard": [
 						{
 							"key": "duration",
-							"value": 12
+							"value": 12,
+							"valueStr": null
 						},
 						{
 							"key": "atk",
-							"value": 0.12
+							"value": 0.12,
+							"valueStr": null
 						},
 						{
 							"key": "def",
-							"value": 0.12
+							"value": 0.12,
+							"valueStr": null
 						}
 					]
 				},
 				{
 					"unlockCondition": {
-						"phase": 0,
+						"phase": "PHASE_0",
 						"level": 1
 					},
 					"requiredPotentialRank": 2,
@@ -152,21 +164,24 @@
 					"blackboard": [
 						{
 							"key": "duration",
-							"value": 14
+							"value": 14,
+							"valueStr": null
 						},
 						{
 							"key": "atk",
-							"value": 0.14
+							"value": 0.14,
+							"valueStr": null
 						},
 						{
 							"key": "def",
-							"value": 0.14
+							"value": 0.14,
+							"valueStr": null
 						}
 					]
 				},
 				{
 					"unlockCondition": {
-						"phase": 0,
+						"phase": "PHASE_0",
 						"level": 1
 					},
 					"requiredPotentialRank": 3,
@@ -177,21 +192,24 @@
 					"blackboard": [
 						{
 							"key": "duration",
-							"value": 16
+							"value": 16,
+							"valueStr": null
 						},
 						{
 							"key": "atk",
-							"value": 0.16
+							"value": 0.16,
+							"valueStr": null
 						},
 						{
 							"key": "def",
-							"value": 0.16
+							"value": 0.16,
+							"valueStr": null
 						}
 					]
 				},
 				{
 					"unlockCondition": {
-						"phase": 0,
+						"phase": "PHASE_0",
 						"level": 1
 					},
 					"requiredPotentialRank": 4,
@@ -202,21 +220,24 @@
 					"blackboard": [
 						{
 							"key": "duration",
-							"value": 18
+							"value": 18,
+							"valueStr": null
 						},
 						{
 							"key": "atk",
-							"value": 0.18
+							"value": 0.18,
+							"valueStr": null
 						},
 						{
 							"key": "def",
-							"value": 0.18
+							"value": 0.18,
+							"valueStr": null
 						}
 					]
 				},
 				{
 					"unlockCondition": {
-						"phase": 0,
+						"phase": "PHASE_0",
 						"level": 1
 					},
 					"requiredPotentialRank": 5,
@@ -227,15 +248,18 @@
 					"blackboard": [
 						{
 							"key": "duration",
-							"value": 20
+							"value": 20,
+							"valueStr": null
 						},
 						{
 							"key": "atk",
-							"value": 0.2
+							"value": 0.2,
+							"valueStr": null
 						},
 						{
 							"key": "def",
-							"value": 0.2
+							"value": 0.2,
+							"valueStr": null
 						}
 					]
 				}
@@ -244,31 +268,31 @@
 	],
 	"potentialRanks": [
 		{
-			"type": 1,
+			"type": "CUSTOM",
 			"description": "天赋效果加强",
 			"buff": null,
 			"equivalentCost": null
 		},
 		{
-			"type": 1,
+			"type": "CUSTOM",
 			"description": "天赋效果加强",
 			"buff": null,
 			"equivalentCost": null
 		},
 		{
-			"type": 1,
+			"type": "CUSTOM",
 			"description": "天赋效果加强",
 			"buff": null,
 			"equivalentCost": null
 		},
 		{
-			"type": 1,
+			"type": "CUSTOM",
 			"description": "天赋效果加强",
 			"buff": null,
 			"equivalentCost": null
 		},
 		{
-			"type": 1,
+			"type": "CUSTOM",
 			"description": "天赋效果加强",
 			"buff": null,
 			"equivalentCost": null
@@ -298,7 +322,8 @@
 				"stunImmune": false,
 				"silenceImmune": false,
 				"sleepImmune": false,
-				"frozenImmune": false
+				"frozenImmune": false,
+				"levitateImmune": false
 			}
 		},
 		{
@@ -324,7 +349,8 @@
 				"stunImmune": false,
 				"silenceImmune": false,
 				"sleepImmune": false,
-				"frozenImmune": false
+				"frozenImmune": false,
+				"levitateImmune": false
 			}
 		}
 	],

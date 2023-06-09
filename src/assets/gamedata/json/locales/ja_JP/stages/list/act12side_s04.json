@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act12side_s03",
@@ -10,7 +11,7 @@
 	],
 	"stageId": "act12side_s04",
 	"levelId": "Activities/ACT12SIDE/level_act12side_sub-1-4",
-	"zoneId": "act12side_zone3",
+	"zoneId": "act12sre_zone3",
 	"code": "DH-S-4",
 	"name": "最終捜査",
 	"description": "なじみの相棒がいて、捜査が非常にスムーズに進んでいる。敵は龍門近衛局特別督察隊の前隊長と精鋭の相手にはならないだろう。\n<@lv.item><満ち潮></>海水に沈んだマスへの配置不可。海水に浸かったユニットは敵味方関係なく【水蝕】状態になる\n<@lv.rem><特殊条件></>【水蝕】が味方ユニットに与える攻撃速度低下効果が増大し、侵蝕ダメージが上昇。全ての敵のステータスが大幅に上昇し、与える侵蝕ダメージも上昇する",
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {

@@ -7,10 +7,10 @@
 			"name": "高压喷射",
 			"rangeId": "x-4",
 			"description": "使周围范围内的敌人移动速度<@ba.vup>-60%</>",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 5,
@@ -22,7 +22,8 @@
 			"blackboard": [
 				{
 					"key": "move_speed",
-					"value": 0.4
+					"value": 0.4,
+					"valueStr": null
 				}
 			]
 		}

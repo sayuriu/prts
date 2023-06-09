@@ -6,7 +6,7 @@
 	"iconId": "MTL_SL_BOSS4",
 	"overrideBkg": null,
 	"stackIconId": null,
-	"sortId": 100016,
+	"sortId": 100030,
 	"usage": "An advanced mechanical device captured from Reunion. Can be used for a variety of upgrades and the synthesis of Bipolar Nanoflake.",
 	"obtainApproach": null,
 	"classifyType": "MATERIAL",
@@ -18,6 +18,14 @@
 		},
 		{
 			"stageId": "main_07-07",
+			"occPer": "SOMETIMES"
+		},
+		{
+			"stageId": "main_11-18",
+			"occPer": "SOMETIMES"
+		},
+		{
+			"stageId": "tough_11-18",
 			"occPer": "SOMETIMES"
 		}
 	],

@@ -6,7 +6,7 @@
 	"iconId": "MTL_SL_G4",
 	"overrideBkg": null,
 	"stackIconId": null,
-	"sortId": 100012,
+	"sortId": 100026,
 	"usage": "지표면에서 채굴된 커다란 광석 덩어리를 제련한 것으로, 제조소에서 합성 재료로 쓰이며 각종 강화에 사용된다.",
 	"obtainApproach": null,
 	"classifyType": "MATERIAL",
@@ -26,6 +26,14 @@
 		},
 		{
 			"stageId": "main_09-11",
+			"occPer": "SOMETIMES"
+		},
+		{
+			"stageId": "main_11-16",
+			"occPer": "SOMETIMES"
+		},
+		{
+			"stageId": "tough_11-16",
 			"occPer": "SOMETIMES"
 		}
 	],

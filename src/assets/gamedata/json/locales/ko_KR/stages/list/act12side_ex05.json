@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act12side_ex04",
@@ -10,7 +11,7 @@
 	],
 	"stageId": "act12side_ex05",
 	"levelId": "Activities/ACT12SIDE/level_act12side_ex05",
-	"zoneId": "act12side_zone2",
+	"zoneId": "act12sre_zone2",
 	"code": "DH-EX-5",
 	"name": "해변 전망대",
 	"description": "이빨까지 무장한 밀수범들은 아무도 자신을 못 건드린다고 생각하지만, 린 위시아는 그렇게 생각하지 않는다.\n<@lv.item><밀물></> 침수된 지역에 배치할 수 없으며 적군과 아군 모두 '수식' 상태에 빠진다. 수식: 아군의 공격 속도 저하, 지속적인 침식 피해를 입으며, 피격 시 침식 피해를 추가로 입는다. 적군의 공격 속도 및 이동 속도 저하, 지속해서 HP를 잃는다",
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {

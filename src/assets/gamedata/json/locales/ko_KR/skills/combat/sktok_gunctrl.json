@@ -1,0 +1,61 @@
+{
+	"skillId": "sktok_gunctrl",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "포격",
+			"rangeId": null,
+			"description": "-",
+			"skillType": 2,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 120,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "sktok_gunctrl",
+			"duration": -1,
+			"blackboard": []
+		},
+		{
+			"name": "포격",
+			"rangeId": null,
+			"description": "-",
+			"skillType": 2,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 90,
+				"initSp": 40,
+				"increment": 1
+			},
+			"prefabId": "sktok_gunctrl",
+			"duration": -1,
+			"blackboard": []
+		},
+		{
+			"name": "포격",
+			"rangeId": null,
+			"description": "-",
+			"skillType": 2,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 120,
+				"initSp": 60,
+				"increment": 1
+			},
+			"prefabId": "sktok_gunctrl",
+			"duration": -1,
+			"blackboard": []
+		}
+	]
+}

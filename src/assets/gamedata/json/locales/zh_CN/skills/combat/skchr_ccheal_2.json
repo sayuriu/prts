@@ -7,10 +7,10 @@
 			"name": "活力再生·广域",
 			"rangeId": null,
 			"description": "立即为攻击范围内所有友方单位增加一个增益，每秒持续恢复相当于嘉维尔攻击力<@ba.vup>{heal_scale:0%}</>（血量低于一半时为<@ba.vup>{heal_scale_2:0%}</>）的生命，持续<@ba.vup>{duration}</>秒",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 60,
@@ -22,23 +22,28 @@
 			"blackboard": [
 				{
 					"key": "heal_scale",
-					"value": 0.15
+					"value": 0.15,
+					"valueStr": null
 				},
 				{
 					"key": "heal_scale_2",
-					"value": 0.38
+					"value": 0.38,
+					"valueStr": null
 				},
 				{
 					"key": "hp_ratio",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				},
 				{
 					"key": "interval",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 7
+					"value": 7,
+					"valueStr": null
 				}
 			]
 		},
@@ -46,10 +51,10 @@
 			"name": "活力再生·广域",
 			"rangeId": null,
 			"description": "立即为攻击范围内所有友方单位增加一个增益，每秒持续恢复相当于嘉维尔攻击力<@ba.vup>{heal_scale:0%}</>（血量低于一半时为<@ba.vup>{heal_scale_2:0%}</>）的生命，持续<@ba.vup>{duration}</>秒",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 60,
@@ -61,23 +66,28 @@
 			"blackboard": [
 				{
 					"key": "heal_scale",
-					"value": 0.16
+					"value": 0.16,
+					"valueStr": null
 				},
 				{
 					"key": "heal_scale_2",
-					"value": 0.4
+					"value": 0.4,
+					"valueStr": null
 				},
 				{
 					"key": "hp_ratio",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				},
 				{
 					"key": "interval",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 7
+					"value": 7,
+					"valueStr": null
 				}
 			]
 		},
@@ -85,10 +95,10 @@
 			"name": "活力再生·广域",
 			"rangeId": null,
 			"description": "立即为攻击范围内所有友方单位增加一个增益，每秒持续恢复相当于嘉维尔攻击力<@ba.vup>{heal_scale:0%}</>（血量低于一半时为<@ba.vup>{heal_scale_2:0%}</>）的生命，持续<@ba.vup>{duration}</>秒",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 60,
@@ -100,23 +110,28 @@
 			"blackboard": [
 				{
 					"key": "heal_scale",
-					"value": 0.17
+					"value": 0.17,
+					"valueStr": null
 				},
 				{
 					"key": "heal_scale_2",
-					"value": 0.42
+					"value": 0.42,
+					"valueStr": null
 				},
 				{
 					"key": "hp_ratio",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				},
 				{
 					"key": "interval",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 7
+					"value": 7,
+					"valueStr": null
 				}
 			]
 		},
@@ -124,10 +139,10 @@
 			"name": "活力再生·广域",
 			"rangeId": null,
 			"description": "立即为攻击范围内所有友方单位增加一个增益，每秒持续恢复相当于嘉维尔攻击力<@ba.vup>{heal_scale:0%}</>（血量低于一半时为<@ba.vup>{heal_scale_2:0%}</>）的生命，持续<@ba.vup>{duration}</>秒",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 60,
@@ -139,23 +154,28 @@
 			"blackboard": [
 				{
 					"key": "heal_scale",
-					"value": 0.18
+					"value": 0.18,
+					"valueStr": null
 				},
 				{
 					"key": "heal_scale_2",
-					"value": 0.44
+					"value": 0.44,
+					"valueStr": null
 				},
 				{
 					"key": "hp_ratio",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				},
 				{
 					"key": "interval",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 7
+					"value": 7,
+					"valueStr": null
 				}
 			]
 		},
@@ -163,10 +183,10 @@
 			"name": "活力再生·广域",
 			"rangeId": null,
 			"description": "立即为攻击范围内所有友方单位增加一个增益，每秒持续恢复相当于嘉维尔攻击力<@ba.vup>{heal_scale:0%}</>（血量低于一半时为<@ba.vup>{heal_scale_2:0%}</>）的生命，持续<@ba.vup>{duration}</>秒",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 60,
@@ -178,23 +198,28 @@
 			"blackboard": [
 				{
 					"key": "heal_scale",
-					"value": 0.19
+					"value": 0.19,
+					"valueStr": null
 				},
 				{
 					"key": "heal_scale_2",
-					"value": 0.46
+					"value": 0.46,
+					"valueStr": null
 				},
 				{
 					"key": "hp_ratio",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				},
 				{
 					"key": "interval",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 7
+					"value": 7,
+					"valueStr": null
 				}
 			]
 		},
@@ -202,10 +227,10 @@
 			"name": "活力再生·广域",
 			"rangeId": null,
 			"description": "立即为攻击范围内所有友方单位增加一个增益，每秒持续恢复相当于嘉维尔攻击力<@ba.vup>{heal_scale:0%}</>（血量低于一半时为<@ba.vup>{heal_scale_2:0%}</>）的生命，持续<@ba.vup>{duration}</>秒",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 60,
@@ -217,23 +242,28 @@
 			"blackboard": [
 				{
 					"key": "heal_scale",
-					"value": 0.2
+					"value": 0.2,
+					"valueStr": null
 				},
 				{
 					"key": "heal_scale_2",
-					"value": 0.48
+					"value": 0.48,
+					"valueStr": null
 				},
 				{
 					"key": "hp_ratio",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				},
 				{
 					"key": "interval",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 7
+					"value": 7,
+					"valueStr": null
 				}
 			]
 		},
@@ -241,10 +271,10 @@
 			"name": "活力再生·广域",
 			"rangeId": null,
 			"description": "立即为攻击范围内所有友方单位增加一个增益，每秒持续恢复相当于嘉维尔攻击力<@ba.vup>{heal_scale:0%}</>（血量低于一半时为<@ba.vup>{heal_scale_2:0%}</>）的生命，持续<@ba.vup>{duration}</>秒",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 60,
@@ -256,23 +286,28 @@
 			"blackboard": [
 				{
 					"key": "heal_scale",
-					"value": 0.21
+					"value": 0.21,
+					"valueStr": null
 				},
 				{
 					"key": "heal_scale_2",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				},
 				{
 					"key": "hp_ratio",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				},
 				{
 					"key": "interval",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 7
+					"value": 7,
+					"valueStr": null
 				}
 			]
 		},
@@ -280,10 +315,10 @@
 			"name": "活力再生·广域",
 			"rangeId": null,
 			"description": "立即为攻击范围内所有友方单位增加一个增益，每秒持续恢复相当于嘉维尔攻击力<@ba.vup>{heal_scale:0%}</>（血量低于一半时为<@ba.vup>{heal_scale_2:0%}</>）的生命，持续<@ba.vup>{duration}</>秒",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 60,
@@ -295,23 +330,28 @@
 			"blackboard": [
 				{
 					"key": "heal_scale",
-					"value": 0.24
+					"value": 0.24,
+					"valueStr": null
 				},
 				{
 					"key": "heal_scale_2",
-					"value": 0.6
+					"value": 0.6,
+					"valueStr": null
 				},
 				{
 					"key": "hp_ratio",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				},
 				{
 					"key": "interval",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 8
+					"value": 8,
+					"valueStr": null
 				}
 			]
 		},
@@ -319,10 +359,10 @@
 			"name": "活力再生·广域",
 			"rangeId": null,
 			"description": "立即为攻击范围内所有友方单位增加一个增益，每秒持续恢复相当于嘉维尔攻击力<@ba.vup>{heal_scale:0%}</>（血量低于一半时为<@ba.vup>{heal_scale_2:0%}</>）的生命，持续<@ba.vup>{duration}</>秒",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 60,
@@ -334,23 +374,28 @@
 			"blackboard": [
 				{
 					"key": "heal_scale",
-					"value": 0.27
+					"value": 0.27,
+					"valueStr": null
 				},
 				{
 					"key": "heal_scale_2",
-					"value": 0.7
+					"value": 0.7,
+					"valueStr": null
 				},
 				{
 					"key": "hp_ratio",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				},
 				{
 					"key": "interval",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 9
+					"value": 9,
+					"valueStr": null
 				}
 			]
 		},
@@ -358,10 +403,10 @@
 			"name": "活力再生·广域",
 			"rangeId": null,
 			"description": "立即为攻击范围内所有友方单位增加一个增益，每秒持续恢复相当于嘉维尔攻击力<@ba.vup>{heal_scale:0%}</>（血量低于一半时为<@ba.vup>{heal_scale_2:0%}</>）的生命，持续<@ba.vup>{duration}</>秒",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 60,
@@ -373,23 +418,28 @@
 			"blackboard": [
 				{
 					"key": "heal_scale",
-					"value": 0.3
+					"value": 0.3,
+					"valueStr": null
 				},
 				{
 					"key": "heal_scale_2",
-					"value": 0.8
+					"value": 0.8,
+					"valueStr": null
 				},
 				{
 					"key": "hp_ratio",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				},
 				{
 					"key": "interval",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 10
+					"value": 10,
+					"valueStr": null
 				}
 			]
 		}

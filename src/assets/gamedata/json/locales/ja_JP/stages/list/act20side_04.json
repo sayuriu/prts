@@ -1,0 +1,117 @@
+{
+	"stageType": "ACTIVITY",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
+	"unlockCondition": [
+		{
+			"stageId": "act20side_03",
+			"completeState": 2
+		}
+	],
+	"stageId": "act20side_04",
+	"levelId": "Activities/ACT20SIDE/level_act20side_04",
+	"zoneId": "act20side_zone1",
+	"code": "IC-4",
+	"name": "「どでかい水たまり」",
+	"description": "地上と同じように、ゼルウェルツァでも、別れは永遠の別れを意味する。異なるのは、ドゥリン人は今後もっと素晴らしい出会いがあると信じていることだ。\n<@lv.item><セルカースターター></>コストを消費して起動すると、セルカーを一台発進させられる。\n<@lv.item><ターンテーブル></>通過したセルカーの方向を変える",
+	"hardStagedId": null,
+	"dangerLevel": "昇進1 LV.30",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_IC_Street",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 12,
+	"apFailReturn": 11,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": 0,
+	"expGain": 120,
+	"goldGain": 120,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 11,
+	"completeFavor": 12,
+	"slProgress": 0,
+	"displayMainItem": null,
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 0,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act20side_token_book",
+				"dropType": 8
+			},
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act20side_token_book",
+				"dropType": 2
+			},
+			{
+				"type": "MATERIAL",
+				"id": "30022",
+				"dropType": 2
+			},
+			{
+				"type": "MATERIAL",
+				"id": "30062",
+				"dropType": 2
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 0,
+				"type": "ACTIVITY_ITEM",
+				"id": "act20side_token_book",
+				"dropType": 8
+			},
+			{
+				"occPercent": 0,
+				"type": "ACTIVITY_ITEM",
+				"id": "act20side_token_book",
+				"dropType": 2
+			},
+			{
+				"occPercent": 0,
+				"type": "MATERIAL",
+				"id": "30022",
+				"dropType": 2
+			},
+			{
+				"occPercent": 3,
+				"type": "MATERIAL",
+				"id": "30062",
+				"dropType": 2
+			},
+			{
+				"occPercent": 0,
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		]
+	},
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "act20side_st01"
+}

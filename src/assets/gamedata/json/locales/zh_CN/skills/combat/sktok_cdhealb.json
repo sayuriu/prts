@@ -1,0 +1,36 @@
+{
+	"skillId": "sktok_cdhealb",
+	"iconId": "sktok_cdheal",
+	"hidden": false,
+	"levels": [
+		{
+			"name": "便携式医疗设备",
+			"rangeId": null,
+			"description": "部署后，从<@ba.vup>预备区</>随机检视<@ba.vup>{range_num}名</>单位，可选择<@ba.vup>0-{can_select_num}名</>单位调度至待部署区，并令场上所有医疗干员获得其职业的战术装备",
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "sktok_cdhealb",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "range_num",
+					"value": 4,
+					"valueStr": null
+				},
+				{
+					"key": "can_select_num",
+					"value": 2,
+					"valueStr": null
+				}
+			]
+		}
+	]
+}

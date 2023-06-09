@@ -7,10 +7,10 @@
 			"name": "暴风雪",
 			"rangeId": null,
 			"description": "-",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 0,
@@ -22,23 +22,28 @@
 			"blackboard": [
 				{
 					"key": "cold",
-					"value": 5
+					"value": 5,
+					"valueStr": null
 				},
 				{
 					"key": "freeze",
-					"value": 5
+					"value": 5,
+					"valueStr": null
 				},
 				{
 					"key": "interval",
-					"value": 10
+					"value": 10,
+					"valueStr": null
 				},
 				{
 					"key": "force",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "skill_max_trigger_time",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		}

@@ -1,0 +1,397 @@
+{
+	"skillId": "skchr_lumen_3",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "灯火不灭",
+			"rangeId": null,
+			"description": "攻击力<@ba.vup>+{atk:0%}</>，攻击速度<@ba.vup>+{attack_speed}</>，优先治疗处于<$ba.debuff>异常状态</>中的单位；只在治疗<$ba.debuff>异常状态</>中的单位时会消耗子弹，使该次治疗量提升至攻击力的<@ba.vup>{heal_scale:0%}</>并解除目标所受的<$ba.debuff>异常状态</>\\n<@ba.rem>攻击装有<@ba.vup>{attack@trigger_time}</>发子弹，打完后技能结束（期间可随时停止技能）</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 65,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_lumen_3",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "attack_speed",
+					"value": 10,
+					"valueStr": null
+				},
+				{
+					"key": "heal_scale",
+					"value": 1.2,
+					"valueStr": null
+				},
+				{
+					"key": "attack@trigger_time",
+					"value": 3,
+					"valueStr": null
+				},
+				{
+					"key": "atk",
+					"value": 0.2,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "灯火不灭",
+			"rangeId": null,
+			"description": "攻击力<@ba.vup>+{atk:0%}</>，攻击速度<@ba.vup>+{attack_speed}</>，优先治疗处于<$ba.debuff>异常状态</>中的单位；只在治疗<$ba.debuff>异常状态</>中的单位时会消耗子弹，使该次治疗量提升至攻击力的<@ba.vup>{heal_scale:0%}</>并解除目标所受的<$ba.debuff>异常状态</>\\n<@ba.rem>攻击装有<@ba.vup>{attack@trigger_time}</>发子弹，打完后技能结束（期间可随时停止技能）</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 64,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_lumen_3",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "attack_speed",
+					"value": 10,
+					"valueStr": null
+				},
+				{
+					"key": "heal_scale",
+					"value": 1.25,
+					"valueStr": null
+				},
+				{
+					"key": "attack@trigger_time",
+					"value": 3,
+					"valueStr": null
+				},
+				{
+					"key": "atk",
+					"value": 0.23,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "灯火不灭",
+			"rangeId": null,
+			"description": "攻击力<@ba.vup>+{atk:0%}</>，攻击速度<@ba.vup>+{attack_speed}</>，优先治疗处于<$ba.debuff>异常状态</>中的单位；只在治疗<$ba.debuff>异常状态</>中的单位时会消耗子弹，使该次治疗量提升至攻击力的<@ba.vup>{heal_scale:0%}</>并解除目标所受的<$ba.debuff>异常状态</>\\n<@ba.rem>攻击装有<@ba.vup>{attack@trigger_time}</>发子弹，打完后技能结束（期间可随时停止技能）</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 63,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_lumen_3",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "attack_speed",
+					"value": 10,
+					"valueStr": null
+				},
+				{
+					"key": "heal_scale",
+					"value": 1.3,
+					"valueStr": null
+				},
+				{
+					"key": "attack@trigger_time",
+					"value": 4,
+					"valueStr": null
+				},
+				{
+					"key": "atk",
+					"value": 0.26,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "灯火不灭",
+			"rangeId": null,
+			"description": "攻击力<@ba.vup>+{atk:0%}</>，攻击速度<@ba.vup>+{attack_speed}</>，优先治疗处于<$ba.debuff>异常状态</>中的单位；只在治疗<$ba.debuff>异常状态</>中的单位时会消耗子弹，使该次治疗量提升至攻击力的<@ba.vup>{heal_scale:0%}</>并解除目标所受的<$ba.debuff>异常状态</>\\n<@ba.rem>攻击装有<@ba.vup>{attack@trigger_time}</>发子弹，打完后技能结束（期间可随时停止技能）</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 61,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_lumen_3",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "attack_speed",
+					"value": 20,
+					"valueStr": null
+				},
+				{
+					"key": "heal_scale",
+					"value": 1.35,
+					"valueStr": null
+				},
+				{
+					"key": "attack@trigger_time",
+					"value": 4,
+					"valueStr": null
+				},
+				{
+					"key": "atk",
+					"value": 0.3,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "灯火不灭",
+			"rangeId": null,
+			"description": "攻击力<@ba.vup>+{atk:0%}</>，攻击速度<@ba.vup>+{attack_speed}</>，优先治疗处于<$ba.debuff>异常状态</>中的单位；只在治疗<$ba.debuff>异常状态</>中的单位时会消耗子弹，使该次治疗量提升至攻击力的<@ba.vup>{heal_scale:0%}</>并解除目标所受的<$ba.debuff>异常状态</>\\n<@ba.rem>攻击装有<@ba.vup>{attack@trigger_time}</>发子弹，打完后技能结束（期间可随时停止技能）</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 60,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_lumen_3",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "attack_speed",
+					"value": 20,
+					"valueStr": null
+				},
+				{
+					"key": "heal_scale",
+					"value": 1.4,
+					"valueStr": null
+				},
+				{
+					"key": "attack@trigger_time",
+					"value": 5,
+					"valueStr": null
+				},
+				{
+					"key": "atk",
+					"value": 0.33,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "灯火不灭",
+			"rangeId": null,
+			"description": "攻击力<@ba.vup>+{atk:0%}</>，攻击速度<@ba.vup>+{attack_speed}</>，优先治疗处于<$ba.debuff>异常状态</>中的单位；只在治疗<$ba.debuff>异常状态</>中的单位时会消耗子弹，使该次治疗量提升至攻击力的<@ba.vup>{heal_scale:0%}</>并解除目标所受的<$ba.debuff>异常状态</>\\n<@ba.rem>攻击装有<@ba.vup>{attack@trigger_time}</>发子弹，打完后技能结束（期间可随时停止技能）</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 59,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_lumen_3",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "attack_speed",
+					"value": 20,
+					"valueStr": null
+				},
+				{
+					"key": "heal_scale",
+					"value": 1.45,
+					"valueStr": null
+				},
+				{
+					"key": "attack@trigger_time",
+					"value": 5,
+					"valueStr": null
+				},
+				{
+					"key": "atk",
+					"value": 0.36,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "灯火不灭",
+			"rangeId": null,
+			"description": "攻击力<@ba.vup>+{atk:0%}</>，攻击速度<@ba.vup>+{attack_speed}</>，优先治疗处于<$ba.debuff>异常状态</>中的单位；只在治疗<$ba.debuff>异常状态</>中的单位时会消耗子弹，使该次治疗量提升至攻击力的<@ba.vup>{heal_scale:0%}</>并解除目标所受的<$ba.debuff>异常状态</>\\n<@ba.rem>攻击装有<@ba.vup>{attack@trigger_time}</>发子弹，打完后技能结束（期间可随时停止技能）</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 57,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_lumen_3",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "attack_speed",
+					"value": 20,
+					"valueStr": null
+				},
+				{
+					"key": "heal_scale",
+					"value": 1.5,
+					"valueStr": null
+				},
+				{
+					"key": "attack@trigger_time",
+					"value": 6,
+					"valueStr": null
+				},
+				{
+					"key": "atk",
+					"value": 0.4,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "灯火不灭",
+			"rangeId": null,
+			"description": "攻击力<@ba.vup>+{atk:0%}</>，攻击速度<@ba.vup>+{attack_speed}</>，优先治疗处于<$ba.debuff>异常状态</>中的单位；只在治疗<$ba.debuff>异常状态</>中的单位时会消耗子弹，使该次治疗量提升至攻击力的<@ba.vup>{heal_scale:0%}</>并解除目标所受的<$ba.debuff>异常状态</>\\n<@ba.rem>攻击装有<@ba.vup>{attack@trigger_time}</>发子弹，打完后技能结束（期间可随时停止技能）</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 55,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_lumen_3",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "attack_speed",
+					"value": 30,
+					"valueStr": null
+				},
+				{
+					"key": "heal_scale",
+					"value": 1.7,
+					"valueStr": null
+				},
+				{
+					"key": "attack@trigger_time",
+					"value": 6,
+					"valueStr": null
+				},
+				{
+					"key": "atk",
+					"value": 0.45,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "灯火不灭",
+			"rangeId": null,
+			"description": "攻击力<@ba.vup>+{atk:0%}</>，攻击速度<@ba.vup>+{attack_speed}</>，优先治疗处于<$ba.debuff>异常状态</>中的单位；只在治疗<$ba.debuff>异常状态</>中的单位时会消耗子弹，使该次治疗量提升至攻击力的<@ba.vup>{heal_scale:0%}</>并解除目标所受的<$ba.debuff>异常状态</>\\n<@ba.rem>攻击装有<@ba.vup>{attack@trigger_time}</>发子弹，打完后技能结束（期间可随时停止技能）</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 53,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_lumen_3",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "attack_speed",
+					"value": 30,
+					"valueStr": null
+				},
+				{
+					"key": "heal_scale",
+					"value": 1.85,
+					"valueStr": null
+				},
+				{
+					"key": "attack@trigger_time",
+					"value": 7,
+					"valueStr": null
+				},
+				{
+					"key": "atk",
+					"value": 0.5,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "灯火不灭",
+			"rangeId": null,
+			"description": "攻击力<@ba.vup>+{atk:0%}</>，攻击速度<@ba.vup>+{attack_speed}</>，优先治疗处于<$ba.debuff>异常状态</>中的单位；只在治疗<$ba.debuff>异常状态</>中的单位时会消耗子弹，使该次治疗量提升至攻击力的<@ba.vup>{heal_scale:0%}</>并解除目标所受的<$ba.debuff>异常状态</>\\n<@ba.rem>攻击装有<@ba.vup>{attack@trigger_time}</>发子弹，打完后技能结束（期间可随时停止技能）</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 50,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_lumen_3",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "attack_speed",
+					"value": 30,
+					"valueStr": null
+				},
+				{
+					"key": "heal_scale",
+					"value": 2,
+					"valueStr": null
+				},
+				{
+					"key": "attack@trigger_time",
+					"value": 8,
+					"valueStr": null
+				},
+				{
+					"key": "atk",
+					"value": 0.55,
+					"valueStr": null
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"skillId": "sktok_bgarmn_1",
+	"iconId": "sktok_bgarmn",
+	"hidden": false,
+	"levels": [
+		{
+			"name": "연구 성공",
+			"rangeId": null,
+			"description": "범위 내의 실험 산물을 흡수하여 SP 회복, 전부 회복 후 가동한다",
+			"skillType": 2,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 100,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": "sktok_bgarmn_1",
+			"duration": 0,
+			"blackboard": []
+		}
+	]
+}

@@ -1,0 +1,930 @@
+{
+	"name": "フィアメッタ",
+	"description": "敵に<@ba.kw>範囲物理ダメージ</>を与える",
+	"canUseGeneralPotentialItem": true,
+	"canUseActivityPotentialItem": false,
+	"potentialItemId": "p_char_300_phenxi",
+	"activityPotentialItemId": null,
+	"nationId": "laterano",
+	"groupId": null,
+	"teamId": null,
+	"displayNumber": "LT11",
+	"tokenKey": null,
+	"appellation": "Fiammetta",
+	"position": "RANGED",
+	"tagList": [
+		"火力"
+	],
+	"itemUsage": "ラテラーノ公証人役場高級特派員フィアメッタ。目標を定めたら最後まで諦めない。",
+	"itemDesc": "彼女にコードネームを聞くべからず。さもなくば仕事の合間で始末されるだろう。",
+	"itemObtainApproach": "人材募集",
+	"isNotObtainable": false,
+	"isSpChar": false,
+	"maxPotentialLevel": 5,
+	"rarity": 5,
+	"profession": "SNIPER",
+	"subProfessionId": "aoesniper",
+	"trait": null,
+	"phases": [
+		{
+			"characterPrefabKey": "char_300_phenxi",
+			"rangeId": "3-3",
+			"maxLevel": 50,
+			"attributesKeyFrames": [
+				{
+					"level": 1,
+					"data": {
+						"maxHp": 985,
+						"atk": 375,
+						"def": 80,
+						"magicResistance": 0,
+						"cost": 25,
+						"blockCnt": 1,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 2.8,
+						"respawnTime": 70,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
+					}
+				},
+				{
+					"level": 50,
+					"data": {
+						"maxHp": 1232,
+						"atk": 536,
+						"def": 104,
+						"magicResistance": 0,
+						"cost": 25,
+						"blockCnt": 1,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 2.8,
+						"respawnTime": 70,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
+					}
+				}
+			],
+			"evolveCost": null
+		},
+		{
+			"characterPrefabKey": "char_300_phenxi",
+			"rangeId": "3-8",
+			"maxLevel": 80,
+			"attributesKeyFrames": [
+				{
+					"level": 1,
+					"data": {
+						"maxHp": 1232,
+						"atk": 536,
+						"def": 104,
+						"magicResistance": 0,
+						"cost": 27,
+						"blockCnt": 1,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 2.8,
+						"respawnTime": 70,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
+					}
+				},
+				{
+					"level": 80,
+					"data": {
+						"maxHp": 1540,
+						"atk": 671,
+						"def": 132,
+						"magicResistance": 0,
+						"cost": 27,
+						"blockCnt": 1,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 2.8,
+						"respawnTime": 70,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
+					}
+				}
+			],
+			"evolveCost": [
+				{
+					"id": "3241",
+					"count": 5,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30062",
+					"count": 6,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30022",
+					"count": 4,
+					"type": "MATERIAL"
+				}
+			]
+		},
+		{
+			"characterPrefabKey": "char_300_phenxi",
+			"rangeId": "3-10",
+			"maxLevel": 90,
+			"attributesKeyFrames": [
+				{
+					"level": 1,
+					"data": {
+						"maxHp": 1540,
+						"atk": 671,
+						"def": 132,
+						"magicResistance": 0,
+						"cost": 29,
+						"blockCnt": 1,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 2.8,
+						"respawnTime": 70,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
+					}
+				},
+				{
+					"level": 90,
+					"data": {
+						"maxHp": 1926,
+						"atk": 861,
+						"def": 156,
+						"magicResistance": 0,
+						"cost": 29,
+						"blockCnt": 1,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 2.8,
+						"respawnTime": 70,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
+					}
+				}
+			],
+			"evolveCost": [
+				{
+					"id": "3243",
+					"count": 4,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30145",
+					"count": 3,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30094",
+					"count": 6,
+					"type": "MATERIAL"
+				}
+			]
+		}
+	],
+	"skills": [
+		{
+			"skillId": "skchr_phenxi_1",
+			"overridePrefabKey": null,
+			"overrideTokenKey": null,
+			"levelUpCostCond": [
+				{
+					"unlockCond": {
+						"phase": 2,
+						"level": 1
+					},
+					"lvlUpTime": 28800,
+					"levelUpCost": [
+						{
+							"id": "3303",
+							"count": 8,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30094",
+							"count": 4,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30073",
+							"count": 7,
+							"type": "MATERIAL"
+						}
+					]
+				},
+				{
+					"unlockCond": {
+						"phase": 2,
+						"level": 1
+					},
+					"lvlUpTime": 57600,
+					"levelUpCost": [
+						{
+							"id": "3303",
+							"count": 12,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30054",
+							"count": 4,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "31054",
+							"count": 8,
+							"type": "MATERIAL"
+						}
+					]
+				},
+				{
+					"unlockCond": {
+						"phase": 2,
+						"level": 1
+					},
+					"lvlUpTime": 86400,
+					"levelUpCost": [
+						{
+							"id": "3303",
+							"count": 15,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30145",
+							"count": 6,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30094",
+							"count": 4,
+							"type": "MATERIAL"
+						}
+					]
+				}
+			],
+			"unlockCond": {
+				"phase": 0,
+				"level": 1
+			}
+		},
+		{
+			"skillId": "skchr_phenxi_2",
+			"overridePrefabKey": null,
+			"overrideTokenKey": null,
+			"levelUpCostCond": [
+				{
+					"unlockCond": {
+						"phase": 2,
+						"level": 1
+					},
+					"lvlUpTime": 28800,
+					"levelUpCost": [
+						{
+							"id": "3303",
+							"count": 8,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30104",
+							"count": 3,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30083",
+							"count": 9,
+							"type": "MATERIAL"
+						}
+					]
+				},
+				{
+					"unlockCond": {
+						"phase": 2,
+						"level": 1
+					},
+					"lvlUpTime": 57600,
+					"levelUpCost": [
+						{
+							"id": "3303",
+							"count": 12,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30064",
+							"count": 3,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30044",
+							"count": 6,
+							"type": "MATERIAL"
+						}
+					]
+				},
+				{
+					"unlockCond": {
+						"phase": 2,
+						"level": 1
+					},
+					"lvlUpTime": 86400,
+					"levelUpCost": [
+						{
+							"id": "3303",
+							"count": 15,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30125",
+							"count": 6,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30074",
+							"count": 5,
+							"type": "MATERIAL"
+						}
+					]
+				}
+			],
+			"unlockCond": {
+				"phase": 1,
+				"level": 1
+			}
+		},
+		{
+			"skillId": "skchr_phenxi_3",
+			"overridePrefabKey": null,
+			"overrideTokenKey": null,
+			"levelUpCostCond": [
+				{
+					"unlockCond": {
+						"phase": 2,
+						"level": 1
+					},
+					"lvlUpTime": 28800,
+					"levelUpCost": [
+						{
+							"id": "3303",
+							"count": 8,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "31034",
+							"count": 4,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "31013",
+							"count": 3,
+							"type": "MATERIAL"
+						}
+					]
+				},
+				{
+					"unlockCond": {
+						"phase": 2,
+						"level": 1
+					},
+					"lvlUpTime": 57600,
+					"levelUpCost": [
+						{
+							"id": "3303",
+							"count": 12,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30074",
+							"count": 4,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30054",
+							"count": 8,
+							"type": "MATERIAL"
+						}
+					]
+				},
+				{
+					"unlockCond": {
+						"phase": 2,
+						"level": 1
+					},
+					"lvlUpTime": 86400,
+					"levelUpCost": [
+						{
+							"id": "3303",
+							"count": 15,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30115",
+							"count": 6,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30084",
+							"count": 7,
+							"type": "MATERIAL"
+						}
+					]
+				}
+			],
+			"unlockCond": {
+				"phase": 2,
+				"level": 1
+			}
+		}
+	],
+	"talents": [
+		{
+			"candidates": [
+				{
+					"unlockCondition": {
+						"phase": 0,
+						"level": 1
+					},
+					"requiredPotentialRank": 0,
+					"prefabKey": "1",
+					"name": "苦難陳述",
+					"description": "HPが徐々に減少（この効果でHPは0にならない）。HPが最大値の50％以上で攻撃力+15%の<$ba.strong>勇猛</>状態を付与する。HPが80％以上の場合、効果値倍増",
+					"rangeId": null,
+					"blackboard": [
+						{
+							"key": "interval",
+							"value": 0.1
+						},
+						{
+							"key": "hp_ratio",
+							"value": 0.005
+						},
+						{
+							"key": "phenxi_t_1[peak_1].peak_performance.atk",
+							"value": 0.15
+						},
+						{
+							"key": "phenxi_t_1[peak_1].peak_performance.hp_ratio",
+							"value": 0.5
+						},
+						{
+							"key": "phenxi_t_1[peak_2].peak_performance.atk",
+							"value": 0.3
+						},
+						{
+							"key": "phenxi_t_1[peak_2].peak_performance.hp_ratio",
+							"value": 0.8
+						}
+					]
+				},
+				{
+					"unlockCondition": {
+						"phase": 1,
+						"level": 1
+					},
+					"requiredPotentialRank": 0,
+					"prefabKey": "1",
+					"name": "苦難陳述",
+					"description": "HPが徐々に減少（この効果でHPは0にならない）。HPが最大値の50％以上で攻撃力+20%の<$ba.strong>勇猛</>状態を付与する。HPが80％以上の場合、攻撃力上昇の効果値倍増",
+					"rangeId": null,
+					"blackboard": [
+						{
+							"key": "interval",
+							"value": 0.1
+						},
+						{
+							"key": "hp_ratio",
+							"value": 0.005
+						},
+						{
+							"key": "phenxi_t_1[peak_1].peak_performance.atk",
+							"value": 0.2
+						},
+						{
+							"key": "phenxi_t_1[peak_1].peak_performance.hp_ratio",
+							"value": 0.5
+						},
+						{
+							"key": "phenxi_t_1[peak_2].peak_performance.atk",
+							"value": 0.4
+						},
+						{
+							"key": "phenxi_t_1[peak_2].peak_performance.hp_ratio",
+							"value": 0.8
+						}
+					]
+				},
+				{
+					"unlockCondition": {
+						"phase": 2,
+						"level": 1
+					},
+					"requiredPotentialRank": 0,
+					"prefabKey": "1",
+					"name": "苦難陳述",
+					"description": "HPが徐々に減少（この効果でHPは0にならない）。HPが最大値の50％以上で攻撃力+25%の<$ba.strong>勇猛</>状態を付与する。HPが80％以上の場合、攻撃力上昇の効果値倍増",
+					"rangeId": null,
+					"blackboard": [
+						{
+							"key": "interval",
+							"value": 0.1
+						},
+						{
+							"key": "hp_ratio",
+							"value": 0.005
+						},
+						{
+							"key": "phenxi_t_1[peak_1].peak_performance.atk",
+							"value": 0.25
+						},
+						{
+							"key": "phenxi_t_1[peak_1].peak_performance.hp_ratio",
+							"value": 0.5
+						},
+						{
+							"key": "phenxi_t_1[peak_2].peak_performance.atk",
+							"value": 0.5
+						},
+						{
+							"key": "phenxi_t_1[peak_2].peak_performance.hp_ratio",
+							"value": 0.8
+						}
+					]
+				}
+			]
+		},
+		{
+			"candidates": [
+				{
+					"unlockCondition": {
+						"phase": 2,
+						"level": 1
+					},
+					"requiredPotentialRank": 0,
+					"prefabKey": "2",
+					"name": "終焉宣告",
+					"description": "スキル未発動時、攻撃速度+27",
+					"rangeId": null,
+					"blackboard": [
+						{
+							"key": "attack_speed",
+							"value": 27
+						}
+					]
+				},
+				{
+					"unlockCondition": {
+						"phase": 2,
+						"level": 1
+					},
+					"requiredPotentialRank": 4,
+					"prefabKey": "2",
+					"name": "終焉宣告",
+					"description": "スキル未発動時、攻撃速度+30<@ba.talpu>（+3）</>",
+					"rangeId": null,
+					"blackboard": [
+						{
+							"key": "attack_speed",
+							"value": 30
+						}
+					]
+				}
+			]
+		}
+	],
+	"potentialRanks": [
+		{
+			"type": 0,
+			"description": "配置コスト-1",
+			"buff": {
+				"attributes": {
+					"abnormalFlags": null,
+					"abnormalImmunes": null,
+					"abnormalAntis": null,
+					"abnormalCombos": null,
+					"abnormalComboImmunes": null,
+					"attributeModifiers": [
+						{
+							"attributeType": 4,
+							"formulaItem": 0,
+							"value": -1,
+							"loadFromBlackboard": false,
+							"fetchBaseValueFromSourceEntity": false
+						}
+					]
+				}
+			},
+			"equivalentCost": null
+		},
+		{
+			"type": 0,
+			"description": "再配置時間-4秒",
+			"buff": {
+				"attributes": {
+					"abnormalFlags": null,
+					"abnormalImmunes": null,
+					"abnormalAntis": null,
+					"abnormalCombos": null,
+					"abnormalComboImmunes": null,
+					"attributeModifiers": [
+						{
+							"attributeType": 21,
+							"formulaItem": 0,
+							"value": -4,
+							"loadFromBlackboard": false,
+							"fetchBaseValueFromSourceEntity": false
+						}
+					]
+				}
+			},
+			"equivalentCost": null
+		},
+		{
+			"type": 0,
+			"description": "攻撃力+35",
+			"buff": {
+				"attributes": {
+					"abnormalFlags": null,
+					"abnormalImmunes": null,
+					"abnormalAntis": null,
+					"abnormalCombos": null,
+					"abnormalComboImmunes": null,
+					"attributeModifiers": [
+						{
+							"attributeType": 1,
+							"formulaItem": 0,
+							"value": 35,
+							"loadFromBlackboard": false,
+							"fetchBaseValueFromSourceEntity": false
+						}
+					]
+				}
+			},
+			"equivalentCost": null
+		},
+		{
+			"type": 1,
+			"description": "第二素質強化",
+			"buff": null,
+			"equivalentCost": null
+		},
+		{
+			"type": 0,
+			"description": "配置コスト-1",
+			"buff": {
+				"attributes": {
+					"abnormalFlags": null,
+					"abnormalImmunes": null,
+					"abnormalAntis": null,
+					"abnormalCombos": null,
+					"abnormalComboImmunes": null,
+					"attributeModifiers": [
+						{
+							"attributeType": 4,
+							"formulaItem": 0,
+							"value": -1,
+							"loadFromBlackboard": false,
+							"fetchBaseValueFromSourceEntity": false
+						}
+					]
+				}
+			},
+			"equivalentCost": null
+		}
+	],
+	"favorKeyFrames": [
+		{
+			"level": 0,
+			"data": {
+				"maxHp": 0,
+				"atk": 0,
+				"def": 0,
+				"magicResistance": 0,
+				"cost": 0,
+				"blockCnt": 0,
+				"moveSpeed": 0,
+				"attackSpeed": 0,
+				"baseAttackTime": 0,
+				"respawnTime": 0,
+				"hpRecoveryPerSec": 0,
+				"spRecoveryPerSec": 0,
+				"maxDeployCount": 0,
+				"maxDeckStackCnt": 0,
+				"tauntLevel": 0,
+				"massLevel": 0,
+				"baseForceLevel": 0,
+				"stunImmune": false,
+				"silenceImmune": false,
+				"sleepImmune": false,
+				"frozenImmune": false,
+				"levitateImmune": false
+			}
+		},
+		{
+			"level": 50,
+			"data": {
+				"maxHp": 0,
+				"atk": 100,
+				"def": 0,
+				"magicResistance": 0,
+				"cost": 0,
+				"blockCnt": 0,
+				"moveSpeed": 0,
+				"attackSpeed": 0,
+				"baseAttackTime": 0,
+				"respawnTime": 0,
+				"hpRecoveryPerSec": 0,
+				"spRecoveryPerSec": 0,
+				"maxDeployCount": 0,
+				"maxDeckStackCnt": 0,
+				"tauntLevel": 0,
+				"massLevel": 0,
+				"baseForceLevel": 0,
+				"stunImmune": false,
+				"silenceImmune": false,
+				"sleepImmune": false,
+				"frozenImmune": false,
+				"levitateImmune": false
+			}
+		}
+	],
+	"allSkillLvlup": [
+		{
+			"unlockCond": {
+				"phase": 0,
+				"level": 1
+			},
+			"lvlUpCost": [
+				{
+					"id": "3301",
+					"count": 5,
+					"type": "MATERIAL"
+				}
+			]
+		},
+		{
+			"unlockCond": {
+				"phase": 0,
+				"level": 1
+			},
+			"lvlUpCost": [
+				{
+					"id": "3301",
+					"count": 5,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30011",
+					"count": 6,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30061",
+					"count": 4,
+					"type": "MATERIAL"
+				}
+			]
+		},
+		{
+			"unlockCond": {
+				"phase": 0,
+				"level": 1
+			},
+			"lvlUpCost": [
+				{
+					"id": "3302",
+					"count": 8,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30022",
+					"count": 5,
+					"type": "MATERIAL"
+				}
+			]
+		},
+		{
+			"unlockCond": {
+				"phase": 1,
+				"level": 1
+			},
+			"lvlUpCost": [
+				{
+					"id": "3302",
+					"count": 8,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30032",
+					"count": 4,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30042",
+					"count": 4,
+					"type": "MATERIAL"
+				}
+			]
+		},
+		{
+			"unlockCond": {
+				"phase": 1,
+				"level": 1
+			},
+			"lvlUpCost": [
+				{
+					"id": "3302",
+					"count": 8,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "31013",
+					"count": 5,
+					"type": "MATERIAL"
+				}
+			]
+		},
+		{
+			"unlockCond": {
+				"phase": 1,
+				"level": 1
+			},
+			"lvlUpCost": [
+				{
+					"id": "3303",
+					"count": 8,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "31023",
+					"count": 4,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30083",
+					"count": 5,
+					"type": "MATERIAL"
+				}
+			]
+		}
+	]
+}

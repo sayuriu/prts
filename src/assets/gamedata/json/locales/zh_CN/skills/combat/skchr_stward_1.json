@@ -7,10 +7,10 @@
 			"name": "强力击·α型",
 			"rangeId": null,
 			"description": "下次攻击的攻击力提高至<@ba.vup>{atk_scale:0%}</>",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 2,
+				"spType": "INCREASE_WHEN_ATTACK",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 5,
@@ -22,7 +22,8 @@
 			"blackboard": [
 				{
 					"key": "atk_scale",
-					"value": 1.5
+					"value": 1.5,
+					"valueStr": null
 				}
 			]
 		},
@@ -30,10 +31,10 @@
 			"name": "强力击·α型",
 			"rangeId": null,
 			"description": "下次攻击的攻击力提高至<@ba.vup>{atk_scale:0%}</>",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 2,
+				"spType": "INCREASE_WHEN_ATTACK",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 5,
@@ -45,7 +46,8 @@
 			"blackboard": [
 				{
 					"key": "atk_scale",
-					"value": 1.55
+					"value": 1.55,
+					"valueStr": null
 				}
 			]
 		},
@@ -53,10 +55,10 @@
 			"name": "强力击·α型",
 			"rangeId": null,
 			"description": "下次攻击的攻击力提高至<@ba.vup>{atk_scale:0%}</>",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 2,
+				"spType": "INCREASE_WHEN_ATTACK",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 5,
@@ -68,7 +70,8 @@
 			"blackboard": [
 				{
 					"key": "atk_scale",
-					"value": 1.6
+					"value": 1.6,
+					"valueStr": null
 				}
 			]
 		},
@@ -76,10 +79,10 @@
 			"name": "强力击·α型",
 			"rangeId": null,
 			"description": "下次攻击的攻击力提高至<@ba.vup>{atk_scale:0%}</>",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 2,
+				"spType": "INCREASE_WHEN_ATTACK",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 4,
@@ -91,7 +94,8 @@
 			"blackboard": [
 				{
 					"key": "atk_scale",
-					"value": 1.7
+					"value": 1.7,
+					"valueStr": null
 				}
 			]
 		},
@@ -99,10 +103,10 @@
 			"name": "强力击·α型",
 			"rangeId": null,
 			"description": "下次攻击的攻击力提高至<@ba.vup>{atk_scale:0%}</>",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 2,
+				"spType": "INCREASE_WHEN_ATTACK",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 4,
@@ -114,7 +118,8 @@
 			"blackboard": [
 				{
 					"key": "atk_scale",
-					"value": 1.75
+					"value": 1.75,
+					"valueStr": null
 				}
 			]
 		},
@@ -122,10 +127,10 @@
 			"name": "强力击·α型",
 			"rangeId": null,
 			"description": "下次攻击的攻击力提高至<@ba.vup>{atk_scale:0%}</>",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 2,
+				"spType": "INCREASE_WHEN_ATTACK",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 4,
@@ -137,7 +142,8 @@
 			"blackboard": [
 				{
 					"key": "atk_scale",
-					"value": 1.8
+					"value": 1.8,
+					"valueStr": null
 				}
 			]
 		},
@@ -145,10 +151,10 @@
 			"name": "强力击·α型",
 			"rangeId": null,
 			"description": "下次攻击的攻击力提高至<@ba.vup>{atk_scale:0%}</>",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 2,
+				"spType": "INCREASE_WHEN_ATTACK",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 4,
@@ -160,7 +166,8 @@
 			"blackboard": [
 				{
 					"key": "atk_scale",
-					"value": 1.9
+					"value": 1.9,
+					"valueStr": null
 				}
 			]
 		}

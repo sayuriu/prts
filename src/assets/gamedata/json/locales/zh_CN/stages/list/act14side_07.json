@@ -2,15 +2,16 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act14side_06",
-			"completeState": 2
+			"completeState": "PASS"
 		}
 	],
 	"stageId": "act14side_07",
 	"levelId": "Activities/ACT14SIDE/level_act14side_07",
-	"zoneId": "act14side_zone1",
+	"zoneId": "act14sre_zone1",
 	"code": "BI-7",
 	"name": "破冰",
 	"description": "有人渴望制造永恒的凝滞，就会有人渴望打破现状。\\n<@lv.item><冰面></>对其上的单位施加“寒冷”，增加被冻结敌人在其上的位移距离\\n<@lv.item><降雪></>周期性对所有单位施加寒冷",
@@ -44,7 +45,7 @@
 	"isHardPredefined": false,
 	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
-	"appearanceStyle": 0,
+	"appearanceStyle": "MAIN_NORMAL",
 	"stageDropInfo": {
 		"firstPassRewards": null,
 		"firstCompleteRewards": null,
@@ -53,53 +54,59 @@
 		"displayRewards": [
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act14side_token_stone",
-				"dropType": 8
+				"id": "act14side_token_stone_rep_1",
+				"dropType": "COMPLETE"
 			},
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act14side_token_stone",
-				"dropType": 2
+				"id": "act14side_token_stone_rep_1",
+				"dropType": "NORMAL"
 			},
 			{
 				"type": "MATERIAL",
 				"id": "30033",
-				"dropType": 2
+				"dropType": "NORMAL"
 			},
 			{
 				"type": "DIAMOND",
 				"id": "4002",
-				"dropType": 8
+				"dropType": "COMPLETE"
 			}
 		],
 		"displayDetailRewards": [
 			{
-				"occPercent": 0,
+				"occPercent": "ALWAYS",
 				"type": "ACTIVITY_ITEM",
-				"id": "act14side_token_stone",
-				"dropType": 8
+				"id": "act14side_token_stone_rep_1",
+				"dropType": "COMPLETE"
 			},
 			{
-				"occPercent": 0,
+				"occPercent": "ALWAYS",
 				"type": "ACTIVITY_ITEM",
-				"id": "act14side_token_stone",
-				"dropType": 2
+				"id": "act14side_token_stone_rep_1",
+				"dropType": "NORMAL"
 			},
 			{
-				"occPercent": 1,
+				"occPercent": "ALMOST",
 				"type": "MATERIAL",
 				"id": "30033",
-				"dropType": 2
+				"dropType": "NORMAL"
 			},
 			{
-				"occPercent": 0,
+				"occPercent": "ALWAYS",
 				"type": "DIAMOND",
 				"id": "4002",
-				"dropType": 8
+				"dropType": "COMPLETE"
 			}
 		]
 	},
+	"canUseCharm": false,
+	"canUseTech": false,
+	"canUseTrapTool": false,
+	"canUseBattlePerformance": false,
 	"startButtonOverrideId": null,
 	"isStagePatch": false,
-	"mainStageId": "act14side_tr01"
+	"mainStageId": "act14side_tr01",
+	"extraCondition": null,
+	"extraInfo": null
 }

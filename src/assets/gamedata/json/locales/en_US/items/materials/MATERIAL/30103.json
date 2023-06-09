@@ -6,18 +6,34 @@
 	"iconId": "MTL_SL_RMA7012",
 	"overrideBkg": null,
 	"stackIconId": null,
-	"sortId": 100011,
+	"sortId": 100025,
 	"usage": "A sensitive mineral with high conductivity. Can be used for a variety of upgrades and for production in the Factory.",
 	"obtainApproach": null,
 	"classifyType": "MATERIAL",
 	"itemType": "MATERIAL",
 	"stageDropList": [
 		{
+			"stageId": "act12d0_08",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "act18d0_08",
+			"occPer": "USUAL"
+		},
+		{
 			"stageId": "act7mini_05",
 			"occPer": "OFTEN"
 		},
 		{
-			"stageId": "act18d0_08",
+			"stageId": "act15side_08",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "act11mini_08",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "act20side_09",
 			"occPer": "USUAL"
 		},
 		{
@@ -25,27 +41,7 @@
 			"occPer": "OFTEN"
 		},
 		{
-			"stageId": "act12d0_08",
-			"occPer": "USUAL"
-		},
-		{
 			"stageId": "main_02-10",
-			"occPer": "OFTEN"
-		},
-		{
-			"stageId": "main_04-09",
-			"occPer": "OFTEN"
-		},
-		{
-			"stageId": "main_05-09",
-			"occPer": "OFTEN"
-		},
-		{
-			"stageId": "main_06-13",
-			"occPer": "OFTEN"
-		},
-		{
-			"stageId": "main_07-08",
 			"occPer": "OFTEN"
 		},
 		{
@@ -53,7 +49,39 @@
 			"occPer": "OFTEN"
 		},
 		{
+			"stageId": "main_07-08",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_06-13",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_05-09",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_04-09",
+			"occPer": "OFTEN"
+		},
+		{
 			"stageId": "main_09-17",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_11-04",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_10-04",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "tough_11-04",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "tough_10-04",
 			"occPer": "OFTEN"
 		}
 	],

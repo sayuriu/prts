@@ -1,0 +1,25 @@
+{
+	"skillId": "sktok_recodr_1",
+	"iconId": "sktok_recodr",
+	"hidden": false,
+	"levels": [
+		{
+			"name": "实体程式",
+			"rangeId": null,
+			"description": "本波次内，我方干员的攻击力、防御力和最大生命值大幅提升。<@ba.rem>通过本波次后再次进入关卡时可以开启</>",
+			"skillType": "PASSIVE",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "sktok_recodr_1",
+			"duration": 0,
+			"blackboard": []
+		}
+	]
+}

@@ -1,0 +1,38 @@
+{
+	"skillId": "sktok_revivecard",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "召還",
+			"rangeId": null,
+			"description": "配置後、<@ba.vup>休憩エリア</>からランダムに<@ba.vup>{range_num}名</>のユニットをピックアップし、そのうち<@ba.vup>0-{can_select_num}名</>のユニットを選択して配置待機エリアに召集することができる。\n<@ba.rem>発動後このユニットは消滅する（この戦闘ではもう出現しない）</>",
+			"skillType": 2,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "sktok_revivecard",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "value",
+					"value": 3
+				},
+				{
+					"key": "range_num",
+					"value": 4
+				},
+				{
+					"key": "can_select_num",
+					"value": 2
+				}
+			]
+		}
+	]
+}

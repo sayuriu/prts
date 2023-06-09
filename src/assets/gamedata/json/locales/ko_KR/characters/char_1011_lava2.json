@@ -2,7 +2,9 @@
 	"name": "라바 더 퍼거토리",
 	"description": "일반 공격으로 적에게 <@ba.kw>광역 마법 대미지</>",
 	"canUseGeneralPotentialItem": true,
+	"canUseActivityPotentialItem": false,
 	"potentialItemId": "p_char_1011_lava2",
+	"activityPotentialItemId": null,
 	"nationId": "rhodes",
 	"groupId": null,
 	"teamId": null,
@@ -51,7 +53,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -76,7 +80,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -109,7 +115,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -134,7 +142,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -183,7 +193,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -208,7 +220,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -410,7 +424,7 @@
 					"requiredPotentialRank": 0,
 					"prefabKey": "1",
 					"name": "주술 전선",
-					"description": "첫 배치 즉시 SP 15 획득, 전장에 배치된 경우 기타 [캐스터] 오퍼레이터는 배치 즉시 SP +2",
+					"description": "첫 배치 즉시 SP +15, 매번 배치 시 전장에 있는 [캐스터] 오퍼레이터의 SP +2, 전장에 배치된 경우 기타 [캐스터] 오퍼레이터는 배치 즉시 SP +2",
 					"rangeId": null,
 					"blackboard": [
 						{
@@ -431,7 +445,7 @@
 					"requiredPotentialRank": 4,
 					"prefabKey": "1",
 					"name": "주술 전선",
-					"description": "첫 배치 즉시 SP 20<@ba.talpu>(+5)</> 획득, 전장에 배치된 경우 기타 [캐스터] 오퍼레이터는 배치 즉시 SP +3<@ba.talpu>(+1)</>",
+					"description": "첫 배치 즉시 SP +20<@ba.talpu>(+5)</>, 매번 배치 시 전장에 있는 [캐스터] 오퍼레이터의 SP +3<@ba.talpu>(+1)</>, 전장에 배치된 경우 기타 [캐스터] 오퍼레이터는 배치 즉시 SP +3<@ba.talpu>(+1)</>",
 					"rangeId": null,
 					"blackboard": [
 						{
@@ -452,7 +466,7 @@
 					"requiredPotentialRank": 0,
 					"prefabKey": "1",
 					"name": "주술 전선",
-					"description": "첫 배치 즉시 SP 30 획득, 전장에 배치된 경우 기타 [캐스터] 오퍼레이터는 배치 즉시 SP +4",
+					"description": "첫 배치 즉시 SP +30, 매번 배치 시 전장에 있는 [캐스터] 오퍼레이터의 SP +4, 전장에 배치된 경우 기타 [캐스터] 오퍼레이터는 배치 즉시 SP +4",
 					"rangeId": null,
 					"blackboard": [
 						{
@@ -473,7 +487,7 @@
 					"requiredPotentialRank": 4,
 					"prefabKey": "1",
 					"name": "주술 전선",
-					"description": "첫 배치 즉시 SP 35<@ba.talpu>(+5)</> 획득, 전장에 배치된 경우 기타 [캐스터] 오퍼레이터는 배치 즉시 SP +5<@ba.talpu>(+1)</>",
+					"description": "첫 배치 즉시 SP +35<@ba.talpu>(+5)</>, 매번 배치 시 전장에 있는 [캐스터] 오퍼레이터의 SP +5<@ba.talpu>(+1)</>, 전장에 배치된 경우 기타 [캐스터] 오퍼레이터는 배치 즉시 SP +5<@ba.talpu>(+1)</>",
 					"rangeId": null,
 					"blackboard": [
 						{
@@ -612,7 +626,9 @@
 				"baseForceLevel": 0,
 				"stunImmune": false,
 				"silenceImmune": false,
-				"sleepImmune": false
+				"sleepImmune": false,
+				"frozenImmune": false,
+				"levitateImmune": false
 			}
 		},
 		{
@@ -637,7 +653,9 @@
 				"baseForceLevel": 0,
 				"stunImmune": false,
 				"silenceImmune": false,
-				"sleepImmune": false
+				"sleepImmune": false,
+				"frozenImmune": false,
+				"levitateImmune": false
 			}
 		}
 	],

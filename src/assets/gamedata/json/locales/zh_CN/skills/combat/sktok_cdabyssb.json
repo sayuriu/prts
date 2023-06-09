@@ -1,0 +1,41 @@
+{
+	"skillId": "sktok_cdabyssb",
+	"iconId": "sktok_cdabyss",
+	"hidden": false,
+	"levels": [
+		{
+			"name": "阿戈尔示波器",
+			"rangeId": null,
+			"description": "从预备区随机检视4名单位，选择最多2名消失，并令场上所有深海猎人干员获得其职业的战术装备；若场上没有深海干员则改为从预备区随机调度一名深海猎人干员。之后20秒内全场所有被深海猎人阻挡的敌人陷入<$ba.stun>晕眩</>",
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "sktok_cdabyssb",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "range_num",
+					"value": 4,
+					"valueStr": null
+				},
+				{
+					"key": "can_select_num",
+					"value": 2,
+					"valueStr": null
+				},
+				{
+					"key": "stun",
+					"value": 20,
+					"valueStr": null
+				}
+			]
+		}
+	]
+}

@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act18d3_06",
@@ -10,7 +11,7 @@
 	],
 	"stageId": "act18d3_07",
 	"levelId": "Activities/act18d3/level_act18d3_07",
-	"zoneId": "act18d3_zone1",
+	"zoneId": "act11sre_zone1",
 	"code": "SV-7",
 	"name": "수호자",
 	"description": "별이 총총한 하늘 아래 자신이 있어야 할 곳을 되찾아.\n<@lv.item><응급처치 시설></> 활성화 시 주변 아군 유닛의 누적된 신경 손상을 지속해서 치료한다.",
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {
@@ -52,12 +54,12 @@
 		"displayRewards": [
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act18d3_token_record",
+				"id": "act18d3_token_record_rep_1",
 				"dropType": 8
 			},
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act18d3_token_record",
+				"id": "act18d3_token_record_rep_1",
 				"dropType": 2
 			},
 			{
@@ -75,13 +77,13 @@
 			{
 				"occPercent": 0,
 				"type": "ACTIVITY_ITEM",
-				"id": "act18d3_token_record",
+				"id": "act18d3_token_record_rep_1",
 				"dropType": 8
 			},
 			{
 				"occPercent": 0,
 				"type": "ACTIVITY_ITEM",
-				"id": "act18d3_token_record",
+				"id": "act18d3_token_record_rep_1",
 				"dropType": 2
 			},
 			{

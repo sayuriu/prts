@@ -6,12 +6,16 @@
 	"iconId": "MTL_SL_IRON3",
 	"overrideBkg": null,
 	"stackIconId": null,
-	"sortId": 100029,
+	"sortId": 100043,
 	"usage": "珍贵的工业材料。可用于多种强化场合，也常作为制造站合成项目的原料。",
 	"obtainApproach": null,
 	"classifyType": "MATERIAL",
 	"itemType": "MATERIAL",
 	"stageDropList": [
+		{
+			"stageId": "act22side_06",
+			"occPer": "USUAL"
+		},
 		{
 			"stageId": "act9mini_06",
 			"occPer": "OFTEN"
@@ -50,6 +54,22 @@
 		},
 		{
 			"stageId": "main_09-15",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_10-10",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "tough_10-10",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_11-09",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "tough_11-09",
 			"occPer": "OFTEN"
 		},
 		{

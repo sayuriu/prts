@@ -2,7 +2,9 @@
 	"name": "거울 속의 환영",
 	"description": null,
 	"canUseGeneralPotentialItem": true,
-	"potentialItemId": "",
+	"canUseActivityPotentialItem": false,
+	"potentialItemId": null,
+	"activityPotentialItemId": null,
 	"nationId": null,
 	"groupId": null,
 	"teamId": null,
@@ -49,7 +51,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -74,7 +78,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -107,7 +113,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -132,7 +140,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -165,7 +175,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -190,7 +202,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -314,7 +328,7 @@
 					},
 					"requiredPotentialRank": 0,
 					"prefabKey": "#",
-					"name": "거울 속의 환영",
+					"name": null,
 					"description": "자신과 같은 스킬을 가진 환영을 1개 사용 (환영은 독립적인 재배치 시간을 갖는다)",
 					"rangeId": null,
 					"blackboard": []
@@ -326,7 +340,7 @@
 					},
 					"requiredPotentialRank": 0,
 					"prefabKey": "#",
-					"name": "거울 속의 환영",
+					"name": null,
 					"description": "자신과 같은 스킬을 가진 환영을 1개 사용 (환영은 독립적인 재배치 시간을 갖는다)",
 					"rangeId": null,
 					"blackboard": []
@@ -342,7 +356,7 @@
 					},
 					"requiredPotentialRank": 0,
 					"prefabKey": "2",
-					"name": "환영에 정통한 자",
+					"name": null,
 					"description": "환영의 재배치 시간 -10초",
 					"rangeId": null,
 					"blackboard": [
@@ -379,7 +393,9 @@
 				"baseForceLevel": 0,
 				"stunImmune": false,
 				"silenceImmune": false,
-				"sleepImmune": false
+				"sleepImmune": false,
+				"frozenImmune": false,
+				"levitateImmune": false
 			}
 		},
 		{
@@ -404,7 +420,9 @@
 				"baseForceLevel": 0,
 				"stunImmune": false,
 				"silenceImmune": false,
-				"sleepImmune": false
+				"sleepImmune": false,
+				"frozenImmune": false,
+				"levitateImmune": false
 			}
 		}
 	],

@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act18d0_ex04",
@@ -10,7 +11,7 @@
 	],
 	"stageId": "act18d0_ex05",
 	"levelId": "Activities/act18d0/level_act18d0_ex05",
-	"zoneId": "act18d0_zone2",
+	"zoneId": "act10sre_zone2",
 	"code": "WD-EX-5",
 	"name": "十字砲火支援",
 	"description": "戦場は地形が複雑だ。十字砲火に晒された戦況ならば、よく訓練された……あの……隣にいる敵が見えないのか？一番遠い標的を狙わずにはいられないのか？\n<@lv.item><可動式戦術格納庫></>必要に応じて随時ドローンを射出し、敵傭兵チームの作戦支援を行える",
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {
@@ -52,7 +54,7 @@
 		"displayRewards": [
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act18d0_token_page",
+				"id": "act18d0_token_page_rep_1",
 				"dropType": 8
 			},
 			{
@@ -65,7 +67,7 @@
 			{
 				"occPercent": 0,
 				"type": "ACTIVITY_ITEM",
-				"id": "act18d0_token_page",
+				"id": "act18d0_token_page_rep_1",
 				"dropType": 8
 			},
 			{

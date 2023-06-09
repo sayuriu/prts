@@ -1,0 +1,30 @@
+{
+	"skillId": "sktok_slowfd",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "High-Pressure Spray",
+			"rangeId": "x-4",
+			"description": "Slows the Movement Speed of enemies within range by <@ba.vup>60%</>",
+			"skillType": 2,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 5,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "sktok_slowfd",
+			"duration": 60,
+			"blackboard": [
+				{
+					"key": "move_speed",
+					"value": 0.4
+				}
+			]
+		}
+	]
+}

@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act16d5_ex04",
@@ -10,7 +11,7 @@
 	],
 	"stageId": "act16d5_ex05",
 	"levelId": "Activities/act16d5/level_act16d5_ex05",
-	"zoneId": "act16d5_zone2",
+	"zoneId": "act9sre_zone2",
 	"code": "WR-EX-5",
 	"name": "잔도",
 	"description": "고풍스러운 공간에서 석양의 추억을 밟는다. 만약 현실 속 염국에 두었다면 기념 촬영의 성지가 됐을지도 모른다.\n<@lv.item><명암 인장></> 배치된 오퍼레이터는 명암 속성 획득\n<@lv.item><조석 인장></> 적이 처음 지나간 후 속성 변화",
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {
@@ -52,7 +54,7 @@
 		"displayRewards": [
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act16d5_token_inker",
+				"id": "act16d5_token_inker_rep_1",
 				"dropType": 8
 			},
 			{
@@ -65,7 +67,7 @@
 			{
 				"occPercent": 0,
 				"type": "ACTIVITY_ITEM",
-				"id": "act16d5_token_inker",
+				"id": "act16d5_token_inker_rep_1",
 				"dropType": 8
 			},
 			{

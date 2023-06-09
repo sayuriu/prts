@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act12side_09",
@@ -10,7 +11,7 @@
 	],
 	"stageId": "act12side_ex01",
 	"levelId": "Activities/ACT12SIDE/level_act12side_ex01",
-	"zoneId": "act12side_zone2",
+	"zoneId": "act12sre_zone2",
 	"code": "DH-EX-1",
 	"name": "8번 번화가",
 	"description": "판초는 실패했지만, 이 도시에는 아직도 수많은 죄악이 숨어있다. 경기가 끝나고 첸은 남은 시간 동안 무법자들을 상대할 계획이다.",
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {

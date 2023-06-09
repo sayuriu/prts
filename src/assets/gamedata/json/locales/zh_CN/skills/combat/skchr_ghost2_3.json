@@ -1,0 +1,447 @@
+{
+	"skillId": "skchr_ghost2_3",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "生存的重压",
+			"rangeId": null,
+			"description": "攻击间隔<@ba.vdown>延长</>，攻击所有阻挡的敌人，攻击力<@ba.vup>+{atk:0%}</>，生命上限<@ba.vup>+{max_hp:0%}</>，攻击生命比例高于或等于自身的敌人时额外造成一次攻击力<@ba.vup>{attack@atk_scale_ex:0%}</>的物理伤害，否则自身流失<@ba.vdown>{attack@hp_ratio:0%}</>生命",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 50,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_ghost2_3",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 1.3,
+					"valueStr": null
+				},
+				{
+					"key": "max_hp",
+					"value": 1,
+					"valueStr": null
+				},
+				{
+					"key": "attack@atk_scale_ex",
+					"value": 0.4,
+					"valueStr": null
+				},
+				{
+					"key": "base_attack_time",
+					"value": 1,
+					"valueStr": null
+				},
+				{
+					"key": "attack@hp_ratio",
+					"value": 0.03,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "生存的重压",
+			"rangeId": null,
+			"description": "攻击间隔<@ba.vdown>延长</>，攻击所有阻挡的敌人，攻击力<@ba.vup>+{atk:0%}</>，生命上限<@ba.vup>+{max_hp:0%}</>，攻击生命比例高于或等于自身的敌人时额外造成一次攻击力<@ba.vup>{attack@atk_scale_ex:0%}</>的物理伤害，否则自身流失<@ba.vdown>{attack@hp_ratio:0%}</>生命",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 50,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_ghost2_3",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 1.4,
+					"valueStr": null
+				},
+				{
+					"key": "max_hp",
+					"value": 1.1,
+					"valueStr": null
+				},
+				{
+					"key": "attack@atk_scale_ex",
+					"value": 0.4,
+					"valueStr": null
+				},
+				{
+					"key": "base_attack_time",
+					"value": 1,
+					"valueStr": null
+				},
+				{
+					"key": "attack@hp_ratio",
+					"value": 0.03,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "生存的重压",
+			"rangeId": null,
+			"description": "攻击间隔<@ba.vdown>延长</>，攻击所有阻挡的敌人，攻击力<@ba.vup>+{atk:0%}</>，生命上限<@ba.vup>+{max_hp:0%}</>，攻击生命比例高于或等于自身的敌人时额外造成一次攻击力<@ba.vup>{attack@atk_scale_ex:0%}</>的物理伤害，否则自身流失<@ba.vdown>{attack@hp_ratio:0%}</>生命",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 50,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_ghost2_3",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 1.6,
+					"valueStr": null
+				},
+				{
+					"key": "max_hp",
+					"value": 1.2,
+					"valueStr": null
+				},
+				{
+					"key": "attack@atk_scale_ex",
+					"value": 0.4,
+					"valueStr": null
+				},
+				{
+					"key": "base_attack_time",
+					"value": 1,
+					"valueStr": null
+				},
+				{
+					"key": "attack@hp_ratio",
+					"value": 0.03,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "生存的重压",
+			"rangeId": null,
+			"description": "攻击间隔<@ba.vdown>延长</>，攻击所有阻挡的敌人，攻击力<@ba.vup>+{atk:0%}</>，生命上限<@ba.vup>+{max_hp:0%}</>，攻击生命比例高于或等于自身的敌人时额外造成一次攻击力<@ba.vup>{attack@atk_scale_ex:0%}</>的物理伤害，否则自身流失<@ba.vdown>{attack@hp_ratio:0%}</>生命",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 45,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_ghost2_3",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 1.7,
+					"valueStr": null
+				},
+				{
+					"key": "max_hp",
+					"value": 1.3,
+					"valueStr": null
+				},
+				{
+					"key": "attack@atk_scale_ex",
+					"value": 0.5,
+					"valueStr": null
+				},
+				{
+					"key": "base_attack_time",
+					"value": 1,
+					"valueStr": null
+				},
+				{
+					"key": "attack@hp_ratio",
+					"value": 0.03,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "生存的重压",
+			"rangeId": null,
+			"description": "攻击间隔<@ba.vdown>延长</>，攻击所有阻挡的敌人，攻击力<@ba.vup>+{atk:0%}</>，生命上限<@ba.vup>+{max_hp:0%}</>，攻击生命比例高于或等于自身的敌人时额外造成一次攻击力<@ba.vup>{attack@atk_scale_ex:0%}</>的物理伤害，否则自身流失<@ba.vdown>{attack@hp_ratio:0%}</>生命",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 45,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_ghost2_3",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 1.8,
+					"valueStr": null
+				},
+				{
+					"key": "max_hp",
+					"value": 1.4,
+					"valueStr": null
+				},
+				{
+					"key": "attack@atk_scale_ex",
+					"value": 0.5,
+					"valueStr": null
+				},
+				{
+					"key": "base_attack_time",
+					"value": 1,
+					"valueStr": null
+				},
+				{
+					"key": "attack@hp_ratio",
+					"value": 0.03,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "生存的重压",
+			"rangeId": null,
+			"description": "攻击间隔<@ba.vdown>延长</>，攻击所有阻挡的敌人，攻击力<@ba.vup>+{atk:0%}</>，生命上限<@ba.vup>+{max_hp:0%}</>，攻击生命比例高于或等于自身的敌人时额外造成一次攻击力<@ba.vup>{attack@atk_scale_ex:0%}</>的物理伤害，否则自身流失<@ba.vdown>{attack@hp_ratio:0%}</>生命",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 45,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_ghost2_3",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 1.9,
+					"valueStr": null
+				},
+				{
+					"key": "max_hp",
+					"value": 1.5,
+					"valueStr": null
+				},
+				{
+					"key": "attack@atk_scale_ex",
+					"value": 0.5,
+					"valueStr": null
+				},
+				{
+					"key": "base_attack_time",
+					"value": 1,
+					"valueStr": null
+				},
+				{
+					"key": "attack@hp_ratio",
+					"value": 0.03,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "生存的重压",
+			"rangeId": null,
+			"description": "攻击间隔<@ba.vdown>延长</>，攻击所有阻挡的敌人，攻击力<@ba.vup>+{atk:0%}</>，生命上限<@ba.vup>+{max_hp:0%}</>，攻击生命比例高于或等于自身的敌人时额外造成一次攻击力<@ba.vup>{attack@atk_scale_ex:0%}</>的物理伤害，否则自身流失<@ba.vdown>{attack@hp_ratio:0%}</>生命",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 40,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_ghost2_3",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 2,
+					"valueStr": null
+				},
+				{
+					"key": "max_hp",
+					"value": 1.6,
+					"valueStr": null
+				},
+				{
+					"key": "attack@atk_scale_ex",
+					"value": 0.6,
+					"valueStr": null
+				},
+				{
+					"key": "base_attack_time",
+					"value": 1,
+					"valueStr": null
+				},
+				{
+					"key": "attack@hp_ratio",
+					"value": 0.03,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "生存的重压",
+			"rangeId": null,
+			"description": "攻击间隔<@ba.vdown>延长</>，攻击所有阻挡的敌人，攻击力<@ba.vup>+{atk:0%}</>，生命上限<@ba.vup>+{max_hp:0%}</>，攻击生命比例高于或等于自身的敌人时额外造成一次攻击力<@ba.vup>{attack@atk_scale_ex:0%}</>的物理伤害，否则自身流失<@ba.vdown>{attack@hp_ratio:0%}</>生命",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 40,
+				"initSp": 25,
+				"increment": 1
+			},
+			"prefabId": "skchr_ghost2_3",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 2.2,
+					"valueStr": null
+				},
+				{
+					"key": "max_hp",
+					"value": 1.7,
+					"valueStr": null
+				},
+				{
+					"key": "attack@atk_scale_ex",
+					"value": 0.7,
+					"valueStr": null
+				},
+				{
+					"key": "base_attack_time",
+					"value": 1,
+					"valueStr": null
+				},
+				{
+					"key": "attack@hp_ratio",
+					"value": 0.03,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "生存的重压",
+			"rangeId": null,
+			"description": "攻击间隔<@ba.vdown>延长</>，攻击所有阻挡的敌人，攻击力<@ba.vup>+{atk:0%}</>，生命上限<@ba.vup>+{max_hp:0%}</>，攻击生命比例高于或等于自身的敌人时额外造成一次攻击力<@ba.vup>{attack@atk_scale_ex:0%}</>的物理伤害，否则自身流失<@ba.vdown>{attack@hp_ratio:0%}</>生命",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 40,
+				"initSp": 25,
+				"increment": 1
+			},
+			"prefabId": "skchr_ghost2_3",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 2.4,
+					"valueStr": null
+				},
+				{
+					"key": "max_hp",
+					"value": 1.85,
+					"valueStr": null
+				},
+				{
+					"key": "attack@atk_scale_ex",
+					"value": 0.7,
+					"valueStr": null
+				},
+				{
+					"key": "base_attack_time",
+					"value": 1,
+					"valueStr": null
+				},
+				{
+					"key": "attack@hp_ratio",
+					"value": 0.03,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "生存的重压",
+			"rangeId": null,
+			"description": "攻击间隔<@ba.vdown>延长</>，攻击所有阻挡的敌人，攻击力<@ba.vup>+{atk:0%}</>，生命上限<@ba.vup>+{max_hp:0%}</>，攻击生命比例高于或等于自身的敌人时额外造成一次攻击力<@ba.vup>{attack@atk_scale_ex:0%}</>的物理伤害，否则自身流失<@ba.vdown>{attack@hp_ratio:0%}</>生命",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 40,
+				"initSp": 25,
+				"increment": 1
+			},
+			"prefabId": "skchr_ghost2_3",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 2.6,
+					"valueStr": null
+				},
+				{
+					"key": "max_hp",
+					"value": 2,
+					"valueStr": null
+				},
+				{
+					"key": "attack@atk_scale_ex",
+					"value": 0.7,
+					"valueStr": null
+				},
+				{
+					"key": "base_attack_time",
+					"value": 1,
+					"valueStr": null
+				},
+				{
+					"key": "attack@hp_ratio",
+					"value": 0.03,
+					"valueStr": null
+				}
+			]
+		}
+	]
+}

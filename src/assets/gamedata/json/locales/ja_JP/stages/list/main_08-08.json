@@ -2,6 +2,7 @@
 	"stageType": "MAIN",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "main_08-07",
@@ -13,7 +14,7 @@
 	"zoneId": "main_8",
 	"code": "R8-8",
 	"name": "無情に傾く「人心」",
-	"description": "伝説に向かって自らを証明しようとするのなら、自らをより<@lv.sp>完璧に近づける</>しかない。凡人のみが血を流し、高尚な者のみが中傷を受けるのだ。\n<@lv.item><道路障害物></>ウルサス民間人と闘士タルラの前進を阻害する。味方の攻撃によって破壊できる。\n<@lv.item><ウルサス民間人></>敵に倒された時、耐久値が減少",
+	"description": "伝説に向かって自らを証明しようとするのなら、自らをより<@lv.sp>完璧に近づける</>しかない。凡人のみが血を流し、高尚な者のみが中傷を受けるのだ。\n<@lv.item><道路障害物></>ウルサス民間人と闘士タルラの前進を阻害する。味方の攻撃によって破壊できる。\n<@lv.item><闘士タルラ></>敵に倒された時、耐久値が減少",
 	"hardStagedId": "main_08-08#f#",
 	"dangerLevel": "昇進2 LV.25",
 	"dangerPoint": -1,
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {

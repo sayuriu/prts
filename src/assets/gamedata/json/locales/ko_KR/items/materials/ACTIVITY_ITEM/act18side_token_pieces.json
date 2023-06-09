@@ -1,0 +1,49 @@
+{
+	"itemId": "act18side_token_pieces",
+	"name": "악보 원고",
+	"description": "오선보에는 각종 음표들이 난잡하게 그려져 있다. 오로지 원작자만이 그 속에 숨은 영감을 캐치해낼 수 있다.",
+	"rarity": 4,
+	"iconId": "act18side_token_pieces",
+	"overrideBkg": null,
+	"stackIconId": null,
+	"sortId": -10000,
+	"usage": "휘몰아치는 영감 속에서 헤엄치는 음악가는 원고를 어디에 두었는지 자주 잊어버린다. 원고를 정리해서 돌려주면 신곡 하나쯤은 받을 수 있을지도 모른다.",
+	"obtainApproach": "이벤트 스테이지 드랍, 이벤트 임무 획득",
+	"classifyType": "NONE",
+	"itemType": "ACTIVITY_ITEM",
+	"stageDropList": [
+		{
+			"stageId": "act18side_01",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "act18side_02",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "act18side_03",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "act18side_04",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "act18side_05",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "act18side_06",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "act18side_07",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "act18side_08",
+			"occPer": "ALWAYS"
+		}
+	],
+	"buildingProductList": []
+}

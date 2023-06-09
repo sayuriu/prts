@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act16d5_tr01",
@@ -10,7 +11,7 @@
 	],
 	"stageId": "act16d5_02",
 	"levelId": "Activities/act16d5/level_act16d5_02",
-	"zoneId": "act16d5_zone1",
+	"zoneId": "act9sre_zone1",
 	"code": "WR-2",
 	"name": "Ink Spirits",
 	"description": "These small, frightful creatures seem to have no end... are they frightful?\n<@lv.item><Mark of Hui and Ming></> Operators deployed on it will earn a Hui-Ming attribute.",
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {
@@ -57,12 +59,12 @@
 			},
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act16d5_token_inker",
+				"id": "act16d5_token_inker_rep_1",
 				"dropType": 8
 			},
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act16d5_token_inker",
+				"id": "act16d5_token_inker_rep_1",
 				"dropType": 2
 			},
 			{
@@ -91,13 +93,13 @@
 			{
 				"occPercent": 0,
 				"type": "ACTIVITY_ITEM",
-				"id": "act16d5_token_inker",
+				"id": "act16d5_token_inker_rep_1",
 				"dropType": 8
 			},
 			{
 				"occPercent": 0,
 				"type": "ACTIVITY_ITEM",
-				"id": "act16d5_token_inker",
+				"id": "act16d5_token_inker_rep_1",
 				"dropType": 2
 			},
 			{

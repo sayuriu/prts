@@ -1,0 +1,34 @@
+{
+	"skillId": "sktok_paras",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "Propagate",
+			"rangeId": null,
+			"description": "After deployment, spawns <@ba.vup>{cnt}</> <@ba.vup>Fluorescent Originium Slug(s)</>",
+			"skillType": 0,
+			"durationType": 0,
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": "sktok_paras",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "cnt",
+					"value": 2
+				},
+				{
+					"key": "offset_bound",
+					"value": 0.3
+				}
+			]
+		}
+	]
+}

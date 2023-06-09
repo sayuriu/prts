@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act15d0_ex07",
@@ -10,7 +11,7 @@
 	],
 	"stageId": "act15d0_ex08",
 	"levelId": "Activities/ACT15D0/level_act15d0_ex08",
-	"zoneId": "act15d0_zone2",
+	"zoneId": "act8sre_zone2",
 	"code": "MB-EX-8",
 	"name": "선착순",
 	"description": "소심한 죄수는 빈 방에 숨지만, 이는 늘 더 비참한 결과를 초래한다.\n<@lv.item><구속 장치></> 범위 내 해방된 적 구속",
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {
@@ -52,7 +54,7 @@
 		"displayRewards": [
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act15d0_token_ironSheet",
+				"id": "act15d0_token_ironSheet_rep_1",
 				"dropType": 8
 			},
 			{
@@ -65,7 +67,7 @@
 			{
 				"occPercent": 0,
 				"type": "ACTIVITY_ITEM",
-				"id": "act15d0_token_ironSheet",
+				"id": "act15d0_token_ironSheet_rep_1",
 				"dropType": 8
 			},
 			{

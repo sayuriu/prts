@@ -1,0 +1,25 @@
+{
+	"skillId": "sktok_wfactory",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "抽水",
+			"rangeId": null,
+			"description": "可以采集<清澈水域>上的<清水>",
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 20,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "sktok_wfactory",
+			"duration": -1,
+			"blackboard": []
+		}
+	]
+}

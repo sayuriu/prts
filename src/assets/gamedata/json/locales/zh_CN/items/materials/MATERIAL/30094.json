@@ -6,7 +6,7 @@
 	"iconId": "MTL_SL_PG2",
 	"overrideBkg": null,
 	"stackIconId": null,
-	"sortId": 100008,
+	"sortId": 100022,
 	"usage": "用于精加工武器零件的高级研磨石。可用于多种强化场合，也常作为制作D32钢的原料之一。",
 	"obtainApproach": null,
 	"classifyType": "MATERIAL",
@@ -18,6 +18,14 @@
 		},
 		{
 			"stageId": "main_07-15",
+			"occPer": "SOMETIMES"
+		},
+		{
+			"stageId": "main_12-07",
+			"occPer": "SOMETIMES"
+		},
+		{
+			"stageId": "tough_12-07",
 			"occPer": "SOMETIMES"
 		}
 	],

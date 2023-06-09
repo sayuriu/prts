@@ -6,11 +6,11 @@
 		{
 			"name": "水流环",
 			"rangeId": null,
-			"description": "立即进行一次治疗并使目标获得一个持续<@ba.vup>{duration}</>秒的护盾（可以吸收相当于图耶攻击力<@ba.vup>{atk_scale:0%}</>的伤害）",
-			"skillType": 1,
-			"durationType": 0,
+			"description": "立即进行一次治疗并使目标获得一个持续<@ba.vup>{duration}</>秒的<$ba.barrier>屏障</>（可以吸收相当于图耶攻击力<@ba.vup>{atk_scale:0%}</>的伤害）",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 15,
@@ -22,22 +22,24 @@
 			"blackboard": [
 				{
 					"key": "atk_scale",
-					"value": 1.25
+					"value": 1.25,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				}
 			]
 		},
 		{
 			"name": "水流环",
 			"rangeId": null,
-			"description": "立即进行一次治疗并使目标获得一个持续<@ba.vup>{duration}</>秒的护盾（可以吸收相当于图耶攻击力<@ba.vup>{atk_scale:0%}</>的伤害）",
-			"skillType": 1,
-			"durationType": 0,
+			"description": "立即进行一次治疗并使目标获得一个持续<@ba.vup>{duration}</>秒的<$ba.barrier>屏障</>（可以吸收相当于图耶攻击力<@ba.vup>{atk_scale:0%}</>的伤害）",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 15,
@@ -49,22 +51,24 @@
 			"blackboard": [
 				{
 					"key": "atk_scale",
-					"value": 1.3
+					"value": 1.3,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				}
 			]
 		},
 		{
 			"name": "水流环",
 			"rangeId": null,
-			"description": "立即进行一次治疗并使目标获得一个持续<@ba.vup>{duration}</>秒的护盾（可以吸收相当于图耶攻击力<@ba.vup>{atk_scale:0%}</>的伤害）",
-			"skillType": 1,
-			"durationType": 0,
+			"description": "立即进行一次治疗并使目标获得一个持续<@ba.vup>{duration}</>秒的<$ba.barrier>屏障</>（可以吸收相当于图耶攻击力<@ba.vup>{atk_scale:0%}</>的伤害）",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 15,
@@ -76,22 +80,24 @@
 			"blackboard": [
 				{
 					"key": "atk_scale",
-					"value": 1.35
+					"value": 1.35,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				}
 			]
 		},
 		{
 			"name": "水流环",
 			"rangeId": null,
-			"description": "立即进行一次治疗并使目标获得一个持续<@ba.vup>{duration}</>秒的护盾（可以吸收相当于图耶攻击力<@ba.vup>{atk_scale:0%}</>的伤害）",
-			"skillType": 1,
-			"durationType": 0,
+			"description": "立即进行一次治疗并使目标获得一个持续<@ba.vup>{duration}</>秒的<$ba.barrier>屏障</>（可以吸收相当于图耶攻击力<@ba.vup>{atk_scale:0%}</>的伤害）",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 14,
@@ -103,22 +109,24 @@
 			"blackboard": [
 				{
 					"key": "atk_scale",
-					"value": 1.4
+					"value": 1.4,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				}
 			]
 		},
 		{
 			"name": "水流环",
 			"rangeId": null,
-			"description": "立即进行一次治疗并使目标获得一个持续<@ba.vup>{duration}</>秒的护盾（可以吸收相当于图耶攻击力<@ba.vup>{atk_scale:0%}</>的伤害）",
-			"skillType": 1,
-			"durationType": 0,
+			"description": "立即进行一次治疗并使目标获得一个持续<@ba.vup>{duration}</>秒的<$ba.barrier>屏障</>（可以吸收相当于图耶攻击力<@ba.vup>{atk_scale:0%}</>的伤害）",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 14,
@@ -130,22 +138,24 @@
 			"blackboard": [
 				{
 					"key": "atk_scale",
-					"value": 1.45
+					"value": 1.45,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				}
 			]
 		},
 		{
 			"name": "水流环",
 			"rangeId": null,
-			"description": "立即进行一次治疗并使目标获得一个持续<@ba.vup>{duration}</>秒的护盾（可以吸收相当于图耶攻击力<@ba.vup>{atk_scale:0%}</>的伤害）",
-			"skillType": 1,
-			"durationType": 0,
+			"description": "立即进行一次治疗并使目标获得一个持续<@ba.vup>{duration}</>秒的<$ba.barrier>屏障</>（可以吸收相当于图耶攻击力<@ba.vup>{atk_scale:0%}</>的伤害）",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 14,
@@ -157,22 +167,24 @@
 			"blackboard": [
 				{
 					"key": "atk_scale",
-					"value": 1.5
+					"value": 1.5,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				}
 			]
 		},
 		{
 			"name": "水流环",
 			"rangeId": null,
-			"description": "立即进行一次治疗并使目标获得一个持续<@ba.vup>{duration}</>秒的护盾（可以吸收相当于图耶攻击力<@ba.vup>{atk_scale:0%}</>的伤害）",
-			"skillType": 1,
-			"durationType": 0,
+			"description": "立即进行一次治疗并使目标获得一个持续<@ba.vup>{duration}</>秒的<$ba.barrier>屏障</>（可以吸收相当于图耶攻击力<@ba.vup>{atk_scale:0%}</>的伤害）",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 13,
@@ -184,22 +196,24 @@
 			"blackboard": [
 				{
 					"key": "atk_scale",
-					"value": 1.6
+					"value": 1.6,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 4
+					"value": 4,
+					"valueStr": null
 				}
 			]
 		},
 		{
 			"name": "水流环",
 			"rangeId": null,
-			"description": "立即进行一次治疗并使目标获得一个持续<@ba.vup>{duration}</>秒的护盾（可以吸收相当于图耶攻击力<@ba.vup>{atk_scale:0%}</>的伤害）",
-			"skillType": 1,
-			"durationType": 0,
+			"description": "立即进行一次治疗并使目标获得一个持续<@ba.vup>{duration}</>秒的<$ba.barrier>屏障</>（可以吸收相当于图耶攻击力<@ba.vup>{atk_scale:0%}</>的伤害）",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 13,
@@ -211,22 +225,24 @@
 			"blackboard": [
 				{
 					"key": "atk_scale",
-					"value": 1.7
+					"value": 1.7,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 4
+					"value": 4,
+					"valueStr": null
 				}
 			]
 		},
 		{
 			"name": "水流环",
 			"rangeId": null,
-			"description": "立即进行一次治疗并使目标获得一个持续<@ba.vup>{duration}</>秒的护盾（可以吸收相当于图耶攻击力<@ba.vup>{atk_scale:0%}</>的伤害）",
-			"skillType": 1,
-			"durationType": 0,
+			"description": "立即进行一次治疗并使目标获得一个持续<@ba.vup>{duration}</>秒的<$ba.barrier>屏障</>（可以吸收相当于图耶攻击力<@ba.vup>{atk_scale:0%}</>的伤害）",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 13,
@@ -238,22 +254,24 @@
 			"blackboard": [
 				{
 					"key": "atk_scale",
-					"value": 1.8
+					"value": 1.8,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 4
+					"value": 4,
+					"valueStr": null
 				}
 			]
 		},
 		{
 			"name": "水流环",
 			"rangeId": null,
-			"description": "立即进行一次治疗并使目标获得一个持续<@ba.vup>{duration}</>秒的护盾（可以吸收相当于图耶攻击力<@ba.vup>{atk_scale:0%}</>的伤害）",
-			"skillType": 1,
-			"durationType": 0,
+			"description": "立即进行一次治疗并使目标获得一个持续<@ba.vup>{duration}</>秒的<$ba.barrier>屏障</>（可以吸收相当于图耶攻击力<@ba.vup>{atk_scale:0%}</>的伤害）",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 12,
@@ -265,11 +283,13 @@
 			"blackboard": [
 				{
 					"key": "atk_scale",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 5
+					"value": 5,
+					"valueStr": null
 				}
 			]
 		}

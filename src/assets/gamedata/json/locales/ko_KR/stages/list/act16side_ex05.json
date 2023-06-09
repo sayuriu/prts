@@ -1,0 +1,84 @@
+{
+	"stageType": "ACTIVITY",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
+	"unlockCondition": [
+		{
+			"stageId": "act16side_ex04",
+			"completeState": 2
+		}
+	],
+	"stageId": "act16side_ex05",
+	"levelId": "Activities/act16side/level_act16side_ex05",
+	"zoneId": "act16side_zone2",
+	"code": "GA-EX-5",
+	"name": "롤케이크",
+	"description": "때로는 디저트를 얻었을 때의 성취감을 위해 디저트 가게들은 일부러 고객에게 난제를 던져준다고 한다. 그들의 디저트가 확실히 그럴 가치가 있기를.\n<@lv.item><'젤라토 머신'></> 아군, 적군 모두 점령할 수 있으며, 활성화되면 주변 유닛의 SP 회복",
+	"hardStagedId": "act16side_ex05#f#",
+	"dangerLevel": "2차 정예화 Lv.10",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_GA_Roof",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 15,
+	"apFailReturn": 14,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": 0,
+	"expGain": 150,
+	"goldGain": 150,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 14,
+	"completeFavor": 15,
+	"slProgress": 0,
+	"displayMainItem": null,
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 0,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act16side_token_bolt",
+				"dropType": 8
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 0,
+				"type": "ACTIVITY_ITEM",
+				"id": "act16side_token_bolt",
+				"dropType": 8
+			},
+			{
+				"occPercent": 0,
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		]
+	},
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "act16side_ex01"
+}

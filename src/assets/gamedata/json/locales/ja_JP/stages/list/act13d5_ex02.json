@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act13d5_ex01",
@@ -10,7 +11,7 @@
 	],
 	"stageId": "act13d5_ex02",
 	"levelId": "Activities/ACT13D5/level_act13d5_ex02",
-	"zoneId": "act13d5_zone2",
+	"zoneId": "act7sre_zone2",
 	"code": "MN-EX-2",
 	"name": "氷河スタジアム",
 	"description": "この競技場は暑さ対策完備の構造となっており、観客は涼みながら観戦できる他、より複雑な試合を楽しむことができる。サーミ出身の寒頭騎士はかつてこの競技場で豪腕を振るった。\n<@lv.item><草むら></>配置した味方は敵遠距離攻撃の対象にならない。\n<@lv.item><源石氷晶></>一定時間ごとに周囲を【寒冷】状態にする衝撃波を放出。",
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {
@@ -57,7 +59,7 @@
 			},
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act13d5_token_securities",
+				"id": "act13d5_token_securities_rep_1",
 				"dropType": 8
 			},
 			{
@@ -76,7 +78,7 @@
 			{
 				"occPercent": 0,
 				"type": "ACTIVITY_ITEM",
-				"id": "act13d5_token_securities",
+				"id": "act13d5_token_securities_rep_1",
 				"dropType": 8
 			},
 			{

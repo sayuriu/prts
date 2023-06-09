@@ -1,0 +1,25 @@
+{
+	"skillId": "sktok_mlyss_wtrman_1",
+	"iconId": "sktok_mlyss_wtrman",
+	"hidden": false,
+	"levels": [
+		{
+			"name": "流形",
+			"rangeId": null,
+			"description": "可复制待部署区一名干员，若为远程时获得特性每攻击<@ba.vup>10</>次在周围四格可部署位分裂自身（持续<@ba.vup>25</>秒），近战时每次攻击<$ba.steal>偷取</>敌方<@ba.vup>10</>点攻击力与防御力（最高<@ba.vup>250</>点，复制后重置）",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 100,
+				"initSp": 95,
+				"increment": 1
+			},
+			"prefabId": "sktok_mlyss_wtrman_1",
+			"duration": 20,
+			"blackboard": []
+		}
+	]
+}

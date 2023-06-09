@@ -1,0 +1,77 @@
+{
+	"stageType": "ACTIVITY",
+	"difficulty": "FOUR_STAR",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
+	"unlockCondition": [
+		{
+			"stageId": "main_02-08",
+			"completeState": 2
+		},
+		{
+			"stageId": "act15side_ex04",
+			"completeState": 3
+		}
+	],
+	"stageId": "act15side_ex04#f#",
+	"levelId": "Activities/ACT15side/level_act15side_ex04",
+	"zoneId": "act15side_zone2",
+	"code": "IW-EX-4",
+	"name": "茶棚",
+	"description": "<@lv.fs>制限：</>\n味方ユニットの最大HP減少",
+	"hardStagedId": null,
+	"dangerLevel": "-",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_IW_Town",
+	"canPractice": true,
+	"canBattleReplay": false,
+	"apCost": 15,
+	"apFailReturn": 7,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 0,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 3,
+	"dailyStageDifficulty": 0,
+	"expGain": 150,
+	"goldGain": 150,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 7,
+	"completeFavor": 15,
+	"slProgress": 0,
+	"displayMainItem": null,
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 0,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 0,
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		]
+	},
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "act15side_ex01"
+}

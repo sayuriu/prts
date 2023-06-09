@@ -1,0 +1,497 @@
+{
+	"skillId": "skchr_greyy2_2",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "晨曦信标",
+			"rangeId": null,
+			"description": "朝目标所在的位置发射一个雷电球，雷电球每<@ba.vup>{interval}</>秒对周围所有敌人造成一次相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害并有<@ba.vup>{prob:0%}</>的概率造成<@ba.vup>{sluggish}</>秒的<$ba.sluggish>停顿</>，持续<@ba.vup>{projectile_delay_time}</>秒\\n<@ba.rem>可充能{ct}次</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 30,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_greyy2_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 0.8,
+					"valueStr": null
+				},
+				{
+					"key": "projectile_delay_time",
+					"value": 6,
+					"valueStr": null
+				},
+				{
+					"key": "ct",
+					"value": 2,
+					"valueStr": null
+				},
+				{
+					"key": "interval",
+					"value": 1.5,
+					"valueStr": null
+				},
+				{
+					"key": "sluggish",
+					"value": 1.4,
+					"valueStr": null
+				},
+				{
+					"key": "prob",
+					"value": 0.4,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "晨曦信标",
+			"rangeId": null,
+			"description": "朝目标所在的位置发射一个雷电球，雷电球每<@ba.vup>{interval}</>秒对周围所有敌人造成一次相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害并有<@ba.vup>{prob:0%}</>的概率造成<@ba.vup>{sluggish}</>秒的<$ba.sluggish>停顿</>，持续<@ba.vup>{projectile_delay_time}</>秒\\n<@ba.rem>可充能{ct}次</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 30,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_greyy2_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 0.85,
+					"valueStr": null
+				},
+				{
+					"key": "projectile_delay_time",
+					"value": 6,
+					"valueStr": null
+				},
+				{
+					"key": "ct",
+					"value": 2,
+					"valueStr": null
+				},
+				{
+					"key": "interval",
+					"value": 1.5,
+					"valueStr": null
+				},
+				{
+					"key": "sluggish",
+					"value": 1.4,
+					"valueStr": null
+				},
+				{
+					"key": "prob",
+					"value": 0.4,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "晨曦信标",
+			"rangeId": null,
+			"description": "朝目标所在的位置发射一个雷电球，雷电球每<@ba.vup>{interval}</>秒对周围所有敌人造成一次相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害并有<@ba.vup>{prob:0%}</>的概率造成<@ba.vup>{sluggish}</>秒的<$ba.sluggish>停顿</>，持续<@ba.vup>{projectile_delay_time}</>秒\\n<@ba.rem>可充能{ct}次</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 30,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_greyy2_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 0.9,
+					"valueStr": null
+				},
+				{
+					"key": "projectile_delay_time",
+					"value": 6,
+					"valueStr": null
+				},
+				{
+					"key": "ct",
+					"value": 2,
+					"valueStr": null
+				},
+				{
+					"key": "interval",
+					"value": 1.5,
+					"valueStr": null
+				},
+				{
+					"key": "sluggish",
+					"value": 1.4,
+					"valueStr": null
+				},
+				{
+					"key": "prob",
+					"value": 0.4,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "晨曦信标",
+			"rangeId": null,
+			"description": "朝目标所在的位置发射一个雷电球，雷电球每<@ba.vup>{interval}</>秒对周围所有敌人造成一次相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害并有<@ba.vup>{prob:0%}</>的概率造成<@ba.vup>{sluggish}</>秒的<$ba.sluggish>停顿</>，持续<@ba.vup>{projectile_delay_time}</>秒\\n<@ba.rem>可充能{ct}次</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 30,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_greyy2_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 0.95,
+					"valueStr": null
+				},
+				{
+					"key": "projectile_delay_time",
+					"value": 8,
+					"valueStr": null
+				},
+				{
+					"key": "ct",
+					"value": 2,
+					"valueStr": null
+				},
+				{
+					"key": "interval",
+					"value": 1.5,
+					"valueStr": null
+				},
+				{
+					"key": "sluggish",
+					"value": 1.4,
+					"valueStr": null
+				},
+				{
+					"key": "prob",
+					"value": 0.4,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "晨曦信标",
+			"rangeId": null,
+			"description": "朝目标所在的位置发射一个雷电球，雷电球每<@ba.vup>{interval}</>秒对周围所有敌人造成一次相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害并有<@ba.vup>{prob:0%}</>的概率造成<@ba.vup>{sluggish}</>秒的<$ba.sluggish>停顿</>，持续<@ba.vup>{projectile_delay_time}</>秒\\n<@ba.rem>可充能{ct}次</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 30,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_greyy2_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 1,
+					"valueStr": null
+				},
+				{
+					"key": "projectile_delay_time",
+					"value": 8,
+					"valueStr": null
+				},
+				{
+					"key": "ct",
+					"value": 2,
+					"valueStr": null
+				},
+				{
+					"key": "interval",
+					"value": 1.5,
+					"valueStr": null
+				},
+				{
+					"key": "sluggish",
+					"value": 1.4,
+					"valueStr": null
+				},
+				{
+					"key": "prob",
+					"value": 0.4,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "晨曦信标",
+			"rangeId": null,
+			"description": "朝目标所在的位置发射一个雷电球，雷电球每<@ba.vup>{interval}</>秒对周围所有敌人造成一次相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害并有<@ba.vup>{prob:0%}</>的概率造成<@ba.vup>{sluggish}</>秒的<$ba.sluggish>停顿</>，持续<@ba.vup>{projectile_delay_time}</>秒\\n<@ba.rem>可充能{ct}次</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 30,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_greyy2_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 1.05,
+					"valueStr": null
+				},
+				{
+					"key": "projectile_delay_time",
+					"value": 8,
+					"valueStr": null
+				},
+				{
+					"key": "ct",
+					"value": 2,
+					"valueStr": null
+				},
+				{
+					"key": "interval",
+					"value": 1.5,
+					"valueStr": null
+				},
+				{
+					"key": "sluggish",
+					"value": 1.4,
+					"valueStr": null
+				},
+				{
+					"key": "prob",
+					"value": 0.4,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "晨曦信标",
+			"rangeId": null,
+			"description": "朝目标所在的位置发射一个雷电球，雷电球每<@ba.vup>{interval}</>秒对周围所有敌人造成一次相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害并有<@ba.vup>{prob:0%}</>的概率造成<@ba.vup>{sluggish}</>秒的<$ba.sluggish>停顿</>，持续<@ba.vup>{projectile_delay_time}</>秒\\n<@ba.rem>可充能{ct}次</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 29,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_greyy2_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 1.1,
+					"valueStr": null
+				},
+				{
+					"key": "projectile_delay_time",
+					"value": 10,
+					"valueStr": null
+				},
+				{
+					"key": "ct",
+					"value": 2,
+					"valueStr": null
+				},
+				{
+					"key": "interval",
+					"value": 1.5,
+					"valueStr": null
+				},
+				{
+					"key": "sluggish",
+					"value": 1.4,
+					"valueStr": null
+				},
+				{
+					"key": "prob",
+					"value": 0.4,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "晨曦信标",
+			"rangeId": null,
+			"description": "朝目标所在的位置发射一个雷电球，雷电球每<@ba.vup>{interval}</>秒对周围所有敌人造成一次相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害并有<@ba.vup>{prob:0%}</>的概率造成<@ba.vup>{sluggish}</>秒的<$ba.sluggish>停顿</>，持续<@ba.vup>{projectile_delay_time}</>秒\\n<@ba.rem>可充能{ct}次</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 28,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_greyy2_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 1.2,
+					"valueStr": null
+				},
+				{
+					"key": "projectile_delay_time",
+					"value": 10,
+					"valueStr": null
+				},
+				{
+					"key": "ct",
+					"value": 2,
+					"valueStr": null
+				},
+				{
+					"key": "interval",
+					"value": 1.5,
+					"valueStr": null
+				},
+				{
+					"key": "sluggish",
+					"value": 1.4,
+					"valueStr": null
+				},
+				{
+					"key": "prob",
+					"value": 0.4,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "晨曦信标",
+			"rangeId": null,
+			"description": "朝目标所在的位置发射一个雷电球，雷电球每<@ba.vup>{interval}</>秒对周围所有敌人造成一次相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害并有<@ba.vup>{prob:0%}</>的概率造成<@ba.vup>{sluggish}</>秒的<$ba.sluggish>停顿</>，持续<@ba.vup>{projectile_delay_time}</>秒\\n<@ba.rem>可充能{ct}次</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 27,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_greyy2_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 1.25,
+					"valueStr": null
+				},
+				{
+					"key": "projectile_delay_time",
+					"value": 10,
+					"valueStr": null
+				},
+				{
+					"key": "ct",
+					"value": 2,
+					"valueStr": null
+				},
+				{
+					"key": "interval",
+					"value": 1.5,
+					"valueStr": null
+				},
+				{
+					"key": "sluggish",
+					"value": 1.5,
+					"valueStr": null
+				},
+				{
+					"key": "prob",
+					"value": 0.4,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "晨曦信标",
+			"rangeId": null,
+			"description": "朝目标所在的位置发射一个雷电球，雷电球每<@ba.vup>{interval}</>秒对周围所有敌人造成一次相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害并有<@ba.vup>{prob:0%}</>的概率造成<@ba.vup>{sluggish}</>秒的<$ba.sluggish>停顿</>，持续<@ba.vup>{projectile_delay_time}</>秒\\n<@ba.rem>可充能{ct}次</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 25,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_greyy2_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 1.3,
+					"valueStr": null
+				},
+				{
+					"key": "projectile_delay_time",
+					"value": 12,
+					"valueStr": null
+				},
+				{
+					"key": "ct",
+					"value": 2,
+					"valueStr": null
+				},
+				{
+					"key": "interval",
+					"value": 1.5,
+					"valueStr": null
+				},
+				{
+					"key": "sluggish",
+					"value": 1.6,
+					"valueStr": null
+				},
+				{
+					"key": "prob",
+					"value": 0.4,
+					"valueStr": null
+				}
+			]
+		}
+	]
+}

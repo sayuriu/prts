@@ -1,0 +1,36 @@
+{
+	"skillId": "sktok_cdbeacona",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "阻断波长",
+			"rangeId": null,
+			"description": "立即获得15点调用凭证，【丛林用示踪信标】周围的敌人<$ba.sluggish>停顿</>，持续10秒",
+			"skillType": "PASSIVE",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 0,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": "sktok_cdbeacona",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "gold_num",
+					"value": 15,
+					"valueStr": null
+				},
+				{
+					"key": "trigger_duration",
+					"value": 10,
+					"valueStr": null
+				}
+			]
+		}
+	]
+}

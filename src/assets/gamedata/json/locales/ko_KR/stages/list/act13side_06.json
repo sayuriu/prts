@@ -1,0 +1,117 @@
+{
+	"stageType": "ACTIVITY",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
+	"unlockCondition": [
+		{
+			"stageId": "act13side_05",
+			"completeState": 2
+		}
+	],
+	"stageId": "act13side_06",
+	"levelId": "Activities/act13side/level_act13side_06",
+	"zoneId": "act13sre_zone1",
+	"code": "NL-6",
+	"name": "포위된 자",
+	"description": "전사는 적에게 포위되고, 시민이 도시에 포위되며, 도시는 끝없는 황야에 포위된다.\n<@lv.item><기사 훈장></> 시야 한 칸 영구적으로 확보\n<@lv.rem>일부 등장 캐릭터 사용 불가</>",
+	"hardStagedId": null,
+	"dangerLevel": "1차 정예화 Lv.50",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_Kazimierz_Street",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 15,
+	"apFailReturn": 14,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": 0,
+	"expGain": 150,
+	"goldGain": 150,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 14,
+	"completeFavor": 15,
+	"slProgress": 0,
+	"displayMainItem": null,
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 0,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act13side_token_model_rep_1",
+				"dropType": 8
+			},
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act13side_token_model_rep_1",
+				"dropType": 2
+			},
+			{
+				"type": "MATERIAL",
+				"id": "30042",
+				"dropType": 2
+			},
+			{
+				"type": "MATERIAL",
+				"id": "30012",
+				"dropType": 2
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 0,
+				"type": "ACTIVITY_ITEM",
+				"id": "act13side_token_model_rep_1",
+				"dropType": 8
+			},
+			{
+				"occPercent": 0,
+				"type": "ACTIVITY_ITEM",
+				"id": "act13side_token_model_rep_1",
+				"dropType": 2
+			},
+			{
+				"occPercent": 0,
+				"type": "MATERIAL",
+				"id": "30042",
+				"dropType": 2
+			},
+			{
+				"occPercent": 0,
+				"type": "MATERIAL",
+				"id": "30012",
+				"dropType": 2
+			},
+			{
+				"occPercent": 0,
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		]
+	},
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "act13side_st01"
+}

@@ -1,0 +1,25 @@
+{
+	"skillId": "sktok_cdbeacon",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "示踪信标",
+			"rangeId": null,
+			"description": "容易受到我方攻击，被我方干员攻击时，为其回复1点技力，并提高目标的攻击速度",
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 25,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": null,
+			"duration": -1,
+			"blackboard": []
+		}
+	]
+}

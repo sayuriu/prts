@@ -1,0 +1,30 @@
+{
+	"skillId": "sktok_wpnsts_1",
+	"iconId": "sktok_wpnsts",
+	"hidden": false,
+	"levels": [
+		{
+			"name": "Laterano-Style Gelato",
+			"rangeId": "x-1",
+			"description": "Restores <@ba.vup>1</> SP to nearby allies every <@ba.vup>2</> seconds; \nAfter being captured, immediately inflicts <@ba.vup>1000</> Arts Damage to nearby allies and <$ba.stun>stuns</> them for <@ba.vup>5</> seconds",
+			"skillType": 0,
+			"durationType": 0,
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 0,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": "sktok_wpnsts_1",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "hp_recovery_per_sec",
+					"value": 75
+				}
+			]
+		}
+	]
+}

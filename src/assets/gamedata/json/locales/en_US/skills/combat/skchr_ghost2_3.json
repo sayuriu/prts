@@ -1,0 +1,397 @@
+{
+	"skillId": "skchr_ghost2_3",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "The Pressure to Survive",
+			"rangeId": null,
+			"description": "Attack interval <@ba.vdown>increases</>, attacks all blocked enemies, ATK <@ba.vup>+{atk:0%}</>, Max HP <@ba.vup>+{max_hp:0%}</>; deal <@ba.vup>{attack@atk_scale_ex:0%}</> ATK as extra Physical damage when attacking enemies with HP percentage equal to or higher than self, otherwise lose <@ba.vdown>{attack@hp_ratio:0%}</> of HP",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 50,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_ghost2_3",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 1.3
+				},
+				{
+					"key": "max_hp",
+					"value": 1
+				},
+				{
+					"key": "attack@atk_scale_ex",
+					"value": 0.4
+				},
+				{
+					"key": "base_attack_time",
+					"value": 1
+				},
+				{
+					"key": "attack@hp_ratio",
+					"value": 0.03
+				}
+			]
+		},
+		{
+			"name": "The Pressure to Survive",
+			"rangeId": null,
+			"description": "Attack interval <@ba.vdown>increases</>, attacks all blocked enemies, ATK <@ba.vup>+{atk:0%}</>, Max HP <@ba.vup>+{max_hp:0%}</>; deal <@ba.vup>{attack@atk_scale_ex:0%}</> ATK as extra Physical damage when attacking enemies with HP percentage equal to or higher than self, otherwise lose <@ba.vdown>{attack@hp_ratio:0%}</> of HP",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 50,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_ghost2_3",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 1.4
+				},
+				{
+					"key": "max_hp",
+					"value": 1.1
+				},
+				{
+					"key": "attack@atk_scale_ex",
+					"value": 0.4
+				},
+				{
+					"key": "base_attack_time",
+					"value": 1
+				},
+				{
+					"key": "attack@hp_ratio",
+					"value": 0.03
+				}
+			]
+		},
+		{
+			"name": "The Pressure to Survive",
+			"rangeId": null,
+			"description": "Attack interval <@ba.vdown>increases</>, attacks all blocked enemies, ATK <@ba.vup>+{atk:0%}</>, Max HP <@ba.vup>+{max_hp:0%}</>; deal <@ba.vup>{attack@atk_scale_ex:0%}</> ATK as extra Physical damage when attacking enemies with HP percentage equal to or higher than self, otherwise lose <@ba.vdown>{attack@hp_ratio:0%}</> of HP",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 50,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_ghost2_3",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 1.6
+				},
+				{
+					"key": "max_hp",
+					"value": 1.2
+				},
+				{
+					"key": "attack@atk_scale_ex",
+					"value": 0.4
+				},
+				{
+					"key": "base_attack_time",
+					"value": 1
+				},
+				{
+					"key": "attack@hp_ratio",
+					"value": 0.03
+				}
+			]
+		},
+		{
+			"name": "The Pressure to Survive",
+			"rangeId": null,
+			"description": "Attack interval <@ba.vdown>increases</>, attacks all blocked enemies, ATK <@ba.vup>+{atk:0%}</>, Max HP <@ba.vup>+{max_hp:0%}</>; deal <@ba.vup>{attack@atk_scale_ex:0%}</> ATK as extra Physical damage when attacking enemies with HP percentage equal to or higher than self, otherwise lose <@ba.vdown>{attack@hp_ratio:0%}</> of HP",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 45,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_ghost2_3",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 1.7
+				},
+				{
+					"key": "max_hp",
+					"value": 1.3
+				},
+				{
+					"key": "attack@atk_scale_ex",
+					"value": 0.5
+				},
+				{
+					"key": "base_attack_time",
+					"value": 1
+				},
+				{
+					"key": "attack@hp_ratio",
+					"value": 0.03
+				}
+			]
+		},
+		{
+			"name": "The Pressure to Survive",
+			"rangeId": null,
+			"description": "Attack interval <@ba.vdown>increases</>, attacks all blocked enemies, ATK <@ba.vup>+{atk:0%}</>, Max HP <@ba.vup>+{max_hp:0%}</>; deal <@ba.vup>{attack@atk_scale_ex:0%}</> ATK as extra Physical damage when attacking enemies with HP percentage equal to or higher than self, otherwise lose <@ba.vdown>{attack@hp_ratio:0%}</> of HP",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 45,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_ghost2_3",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 1.8
+				},
+				{
+					"key": "max_hp",
+					"value": 1.4
+				},
+				{
+					"key": "attack@atk_scale_ex",
+					"value": 0.5
+				},
+				{
+					"key": "base_attack_time",
+					"value": 1
+				},
+				{
+					"key": "attack@hp_ratio",
+					"value": 0.03
+				}
+			]
+		},
+		{
+			"name": "The Pressure to Survive",
+			"rangeId": null,
+			"description": "Attack interval <@ba.vdown>increases</>, attacks all blocked enemies, ATK <@ba.vup>+{atk:0%}</>, Max HP <@ba.vup>+{max_hp:0%}</>; deal <@ba.vup>{attack@atk_scale_ex:0%}</> ATK as extra Physical damage when attacking enemies with HP percentage equal to or higher than self, otherwise lose <@ba.vdown>{attack@hp_ratio:0%}</> of HP",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 45,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_ghost2_3",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 1.9
+				},
+				{
+					"key": "max_hp",
+					"value": 1.5
+				},
+				{
+					"key": "attack@atk_scale_ex",
+					"value": 0.5
+				},
+				{
+					"key": "base_attack_time",
+					"value": 1
+				},
+				{
+					"key": "attack@hp_ratio",
+					"value": 0.03
+				}
+			]
+		},
+		{
+			"name": "The Pressure to Survive",
+			"rangeId": null,
+			"description": "Attack interval <@ba.vdown>increases</>, attacks all blocked enemies, ATK <@ba.vup>+{atk:0%}</>, Max HP <@ba.vup>+{max_hp:0%}</>; deal <@ba.vup>{attack@atk_scale_ex:0%}</> ATK as extra Physical damage when attacking enemies with HP percentage equal to or higher than self, otherwise lose <@ba.vdown>{attack@hp_ratio:0%}</> of HP",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 40,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_ghost2_3",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 2
+				},
+				{
+					"key": "max_hp",
+					"value": 1.6
+				},
+				{
+					"key": "attack@atk_scale_ex",
+					"value": 0.6
+				},
+				{
+					"key": "base_attack_time",
+					"value": 1
+				},
+				{
+					"key": "attack@hp_ratio",
+					"value": 0.03
+				}
+			]
+		},
+		{
+			"name": "The Pressure to Survive",
+			"rangeId": null,
+			"description": "Attack interval <@ba.vdown>increases</>, attacks all blocked enemies, ATK <@ba.vup>+{atk:0%}</>, Max HP <@ba.vup>+{max_hp:0%}</>; deal <@ba.vup>{attack@atk_scale_ex:0%}</> ATK as extra Physical damage when attacking enemies with HP percentage equal to or higher than self, otherwise lose <@ba.vdown>{attack@hp_ratio:0%}</> of HP",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 40,
+				"initSp": 25,
+				"increment": 1
+			},
+			"prefabId": "skchr_ghost2_3",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 2.2
+				},
+				{
+					"key": "max_hp",
+					"value": 1.7
+				},
+				{
+					"key": "attack@atk_scale_ex",
+					"value": 0.7
+				},
+				{
+					"key": "base_attack_time",
+					"value": 1
+				},
+				{
+					"key": "attack@hp_ratio",
+					"value": 0.03
+				}
+			]
+		},
+		{
+			"name": "The Pressure to Survive",
+			"rangeId": null,
+			"description": "Attack interval <@ba.vdown>increases</>, attacks all blocked enemies, ATK <@ba.vup>+{atk:0%}</>, Max HP <@ba.vup>+{max_hp:0%}</>; deal <@ba.vup>{attack@atk_scale_ex:0%}</> ATK as extra Physical damage when attacking enemies with HP percentage equal to or higher than self, otherwise lose <@ba.vdown>{attack@hp_ratio:0%}</> of HP",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 40,
+				"initSp": 25,
+				"increment": 1
+			},
+			"prefabId": "skchr_ghost2_3",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 2.4
+				},
+				{
+					"key": "max_hp",
+					"value": 1.85
+				},
+				{
+					"key": "attack@atk_scale_ex",
+					"value": 0.7
+				},
+				{
+					"key": "base_attack_time",
+					"value": 1
+				},
+				{
+					"key": "attack@hp_ratio",
+					"value": 0.03
+				}
+			]
+		},
+		{
+			"name": "The Pressure to Survive",
+			"rangeId": null,
+			"description": "Attack interval <@ba.vdown>increases</>, attacks all blocked enemies, ATK <@ba.vup>+{atk:0%}</>, Max HP <@ba.vup>+{max_hp:0%}</>; deal <@ba.vup>{attack@atk_scale_ex:0%}</> ATK as extra Physical damage when attacking enemies with HP percentage equal to or higher than self, otherwise lose <@ba.vdown>{attack@hp_ratio:0%}</> of HP",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 40,
+				"initSp": 25,
+				"increment": 1
+			},
+			"prefabId": "skchr_ghost2_3",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 2.6
+				},
+				{
+					"key": "max_hp",
+					"value": 2
+				},
+				{
+					"key": "attack@atk_scale_ex",
+					"value": 0.7
+				},
+				{
+					"key": "base_attack_time",
+					"value": 1
+				},
+				{
+					"key": "attack@hp_ratio",
+					"value": 0.03
+				}
+			]
+		}
+	]
+}

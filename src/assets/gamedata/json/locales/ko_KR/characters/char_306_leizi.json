@@ -2,7 +2,9 @@
 	"name": "레이즈",
 	"description": "공격 시 <@ba.kw>마법 대미지</> 부여, 공격이 <@ba.kw>3</>명의 적에게 튕기며, 튕길 때마다 대미지가 15%씩 감소, 동시에 일시적인 <$ba.sluggish>정지</> 효과 부여",
 	"canUseGeneralPotentialItem": true,
+	"canUseActivityPotentialItem": false,
 	"potentialItemId": "p_char_306_leizi",
+	"activityPotentialItemId": null,
 	"nationId": "yan",
 	"groupId": null,
 	"teamId": null,
@@ -94,7 +96,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -119,7 +123,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -152,7 +158,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -177,7 +185,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -226,7 +236,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -251,7 +263,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -453,7 +467,7 @@
 					"requiredPotentialRank": 0,
 					"prefabKey": "1",
 					"name": "막힘 없는 흐름",
-					"description": "저지 당하고 있지 않은 적을 공격할 때 공격력 10% 상승",
+					"description": "저지 당하고 있지 않은 적을 공격할 때 공격력이 110%까지 상승",
 					"rangeId": null,
 					"blackboard": [
 						{
@@ -470,7 +484,7 @@
 					"requiredPotentialRank": 4,
 					"prefabKey": "1",
 					"name": "막힘 없는 흐름",
-					"description": "저지 당하고 있지 않은 적을 공격할 때 공격력 13%<@ba.talpu>(+3%）</> 상승",
+					"description": "저지 당하고 있지 않은 적을 공격할 때 공격력이 113%<@ba.talpu>(+3%)</>까지 상승",
 					"rangeId": null,
 					"blackboard": [
 						{
@@ -487,7 +501,7 @@
 					"requiredPotentialRank": 0,
 					"prefabKey": "1",
 					"name": "막힘 없는 흐름",
-					"description": "저지 당하고 있지 않은 적을 공격할 때 공격력 20% 상승",
+					"description": "저지 당하고 있지 않은 적을 공격할 때 공격력이 120%까지 상승",
 					"rangeId": null,
 					"blackboard": [
 						{
@@ -504,7 +518,7 @@
 					"requiredPotentialRank": 4,
 					"prefabKey": "1",
 					"name": "막힘 없는 흐름",
-					"description": "저지 당하고 있지 않은 적을 공격할 때 공격력 23%<@ba.talpu>(+3%）</> 상승",
+					"description": "저지 당하고 있지 않은 적을 공격할 때 공격력이 123%<@ba.talpu>(+3%)</>까지 상승",
 					"rangeId": null,
 					"blackboard": [
 						{
@@ -639,7 +653,9 @@
 				"baseForceLevel": 0,
 				"stunImmune": false,
 				"silenceImmune": false,
-				"sleepImmune": false
+				"sleepImmune": false,
+				"frozenImmune": false,
+				"levitateImmune": false
 			}
 		},
 		{
@@ -664,7 +680,9 @@
 				"baseForceLevel": 0,
 				"stunImmune": false,
 				"silenceImmune": false,
-				"sleepImmune": false
+				"sleepImmune": false,
+				"frozenImmune": false,
+				"levitateImmune": false
 			}
 		}
 	],

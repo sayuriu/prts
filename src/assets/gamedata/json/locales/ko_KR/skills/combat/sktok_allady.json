@@ -1,0 +1,42 @@
+{
+	"skillId": "sktok_allady",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "알레데일의 가호",
+			"rangeId": null,
+			"description": "배치 후 목표와 목표 주변의 아군 유닛에 대미지 1000을 흡수하는 <$ba.barrier>보호막</> 시전",
+			"skillType": 2,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 5,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "sktok_allady",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "dynamic",
+					"value": 1000
+				},
+				{
+					"key": "shield_duration",
+					"value": 10
+				},
+				{
+					"key": "attack@dynamic",
+					"value": 1000
+				},
+				{
+					"key": "attack@shield_duration",
+					"value": 10
+				}
+			]
+		}
+	]
+}

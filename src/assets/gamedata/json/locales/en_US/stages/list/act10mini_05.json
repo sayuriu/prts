@@ -1,0 +1,148 @@
+{
+	"stageType": "ACTIVITY",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
+	"unlockCondition": [
+		{
+			"stageId": "act10mini_04",
+			"completeState": 2
+		}
+	],
+	"stageId": "act10mini_05",
+	"levelId": "Activities/act10mini/level_act10mini_05",
+	"zoneId": "act10mini_zone1",
+	"code": "TB-5",
+	"name": "Rib Soup Alley",
+	"description": "The biggest Sarkaz settlement in the Boil. Not the safest part of town.\n<@lv.item><Sandstorm></>Allied units caught inside the sandstorm will have reduced ATK, continuously take damage over time, and have extended redeployment time; Enemy units will instead be slowed.\n<@lv.item><Active Originium></>Operators deployed on it and enemies who have passed it will take constant damage, but their ATK and ASPD will be increased significantly.",
+	"hardStagedId": "act10mini_05#f#",
+	"dangerLevel": "Elite 2 Lv. 1",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_OOD_03",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 15,
+	"apFailReturn": 14,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": 0,
+	"expGain": 150,
+	"goldGain": 150,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 14,
+	"completeFavor": 15,
+	"slProgress": 0,
+	"displayMainItem": null,
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 0,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act10mini_token_ticket",
+				"dropType": 8
+			},
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act10mini_token_ticket",
+				"dropType": 3
+			},
+			{
+				"type": "MATERIAL",
+				"id": "30042",
+				"dropType": 2
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 0,
+				"type": "ACTIVITY_ITEM",
+				"id": "act10mini_token_ticket",
+				"dropType": 8
+			},
+			{
+				"occPercent": 0,
+				"type": "ACTIVITY_ITEM",
+				"id": "act10mini_token_ticket",
+				"dropType": 3
+			},
+			{
+				"occPercent": 0,
+				"type": "MATERIAL",
+				"id": "30042",
+				"dropType": 2
+			},
+			{
+				"occPercent": 3,
+				"type": "MATERIAL",
+				"id": "30011",
+				"dropType": 4
+			},
+			{
+				"occPercent": 4,
+				"type": "MATERIAL",
+				"id": "30031",
+				"dropType": 4
+			},
+			{
+				"occPercent": 4,
+				"type": "MATERIAL",
+				"id": "30061",
+				"dropType": 4
+			},
+			{
+				"occPercent": 4,
+				"type": "MATERIAL",
+				"id": "3003",
+				"dropType": 4
+			},
+			{
+				"occPercent": 3,
+				"type": "MATERIAL",
+				"id": "30012",
+				"dropType": 4
+			},
+			{
+				"occPercent": 4,
+				"type": "MATERIAL",
+				"id": "30032",
+				"dropType": 4
+			},
+			{
+				"occPercent": 4,
+				"type": "MATERIAL",
+				"id": "30062",
+				"dropType": 4
+			},
+			{
+				"occPercent": 0,
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		]
+	},
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "act10mini_01"
+}

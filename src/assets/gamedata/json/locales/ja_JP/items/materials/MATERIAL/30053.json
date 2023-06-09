@@ -6,12 +6,20 @@
 	"iconId": "MTL_SL_KETONE3",
 	"overrideBkg": null,
 	"stackIconId": null,
-	"sortId": 100033,
+	"sortId": 100047,
 	"usage": "ある程度の量の工業用有機化合物。昇進やスキル強化に必要な素材。",
 	"obtainApproach": null,
 	"classifyType": "MATERIAL",
 	"itemType": "MATERIAL",
 	"stageDropList": [
+		{
+			"stageId": "act20side_07",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "act11mini_07",
+			"occPer": "USUAL"
+		},
 		{
 			"stageId": "act18d0_07",
 			"occPer": "USUAL"
@@ -55,6 +63,14 @@
 		{
 			"stageId": "main_08-17",
 			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_10-03",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "tough_10-03",
+			"occPer": "USUAL"
 		},
 		{
 			"stageId": "sub_09-1-1",

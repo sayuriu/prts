@@ -1,0 +1,149 @@
+{
+	"stageType": "MAIN",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "TOUGH",
+	"unlockCondition": [
+		{
+			"stageId": "tough_10-05",
+			"completeState": 2
+		}
+	],
+	"stageId": "tough_10-06",
+	"levelId": "Obt/Main/level_tough_10-06",
+	"zoneId": "main_10",
+	"code": "10-7",
+	"name": "이어지는 아픔",
+	"description": "금속 부품을 용접해 만든 거대한 기계지만, 타격을 받을 때마다 뼈와 근육을 다친다.\n<@lv.item><런디니움 수성 부포></> 에너지 공급이 끝나면 저지 가능 수가 가장 높은 오퍼레이터 및 주변에 피아식별 없이 트루 대미지를 입힌다\n<@lv.fs>환경 조건:</>\n지형 및 등장하는 적이 변경",
+	"hardStagedId": null,
+	"dangerLevel": "-",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_VC_factory",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 24,
+	"apFailReturn": 23,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": -1,
+	"expGain": 240,
+	"goldGain": 240,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 23,
+	"completeFavor": 24,
+	"slProgress": 0,
+	"displayMainItem": "30083",
+	"hilightMark": true,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 0,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "MATERIAL",
+				"id": "30083",
+				"dropType": 2
+			},
+			{
+				"type": "MATERIAL",
+				"id": "30084",
+				"dropType": 3
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 3,
+				"type": "MATERIAL",
+				"id": "30083",
+				"dropType": 2
+			},
+			{
+				"occPercent": 4,
+				"type": "MATERIAL",
+				"id": "30084",
+				"dropType": 3
+			},
+			{
+				"occPercent": 3,
+				"type": "MATERIAL",
+				"id": "30011",
+				"dropType": 4
+			},
+			{
+				"occPercent": 4,
+				"type": "MATERIAL",
+				"id": "30061",
+				"dropType": 4
+			},
+			{
+				"occPercent": 3,
+				"type": "MATERIAL",
+				"id": "30012",
+				"dropType": 4
+			},
+			{
+				"occPercent": 4,
+				"type": "MATERIAL",
+				"id": "30062",
+				"dropType": 4
+			},
+			{
+				"occPercent": 4,
+				"type": "MATERIAL",
+				"id": "30013",
+				"dropType": 4
+			},
+			{
+				"occPercent": 4,
+				"type": "MATERIAL",
+				"id": "30063",
+				"dropType": 4
+			},
+			{
+				"occPercent": 4,
+				"type": "MATERIAL",
+				"id": "30073",
+				"dropType": 4
+			},
+			{
+				"occPercent": 4,
+				"type": "MATERIAL",
+				"id": "31013",
+				"dropType": 4
+			},
+			{
+				"occPercent": 4,
+				"type": "MATERIAL",
+				"id": "3003",
+				"dropType": 4
+			},
+			{
+				"occPercent": 0,
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		]
+	},
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "tough_10-06"
+}

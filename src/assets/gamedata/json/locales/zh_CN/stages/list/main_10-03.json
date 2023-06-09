@@ -1,0 +1,100 @@
+{
+	"stageType": "MAIN",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NORMAL",
+	"unlockCondition": [
+		{
+			"stageId": "main_10-02",
+			"completeState": "PASS"
+		},
+		{
+			"stageId": "tr_20",
+			"completeState": "PASS"
+		}
+	],
+	"stageId": "main_10-03",
+	"levelId": "Obt/Main/level_main_10-03",
+	"zoneId": "main_10",
+	"code": "10-4",
+	"name": "鸣铳示警",
+	"description": "人们死死抓住的日常生活，只在一声巨响中便会熔化。\\n<@lv.item><伦蒂尼姆城防副炮></>能量充满时，对场上阻挡数最高的我方单位周围造成无视敌我的大量真实伤害",
+	"hardStagedId": null,
+	"dangerLevel": "精英2 LV.1",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_VC_harbor",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 21,
+	"apFailReturn": 20,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": -1,
+	"expGain": 210,
+	"goldGain": 210,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 20,
+	"completeFavor": 21,
+	"slProgress": 187,
+	"displayMainItem": "30053",
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": "MAIN_NORMAL",
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "MATERIAL",
+				"id": "30053",
+				"dropType": "NORMAL"
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": "COMPLETE"
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": "USUAL",
+				"type": "MATERIAL",
+				"id": "30053",
+				"dropType": "NORMAL"
+			},
+			{
+				"occPercent": "OFTEN",
+				"type": "MATERIAL",
+				"id": "30062",
+				"dropType": "NORMAL"
+			},
+			{
+				"occPercent": "ALWAYS",
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": "COMPLETE"
+			}
+		]
+	},
+	"canUseCharm": false,
+	"canUseTech": false,
+	"canUseTrapTool": false,
+	"canUseBattlePerformance": false,
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "main_10-03",
+	"extraCondition": null,
+	"extraInfo": null
+}

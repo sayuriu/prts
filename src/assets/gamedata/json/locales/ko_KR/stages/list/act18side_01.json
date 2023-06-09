@@ -1,0 +1,161 @@
+{
+	"stageType": "ACTIVITY",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
+	"unlockCondition": [
+		{
+			"stageId": "act18side_tr01",
+			"completeState": 2
+		}
+	],
+	"stageId": "act18side_01",
+	"levelId": "Activities/act18side/level_act18side_01",
+	"zoneId": "act18side_zone1",
+	"code": "LE-1",
+	"name": "트리치 트라치 폴카",
+	"description": "어디서나 볼 수 있는 유쾌한 잡담과 함께 쾌적한 분위기가 길거리 곳곳에 만개한다.\n<@lv.item><폐에너지 간섭></> SP 자연 회복 속도 저하\n<@lv.item><리포밍 플럭스></> 아군 오퍼레이터의 SP 자연 회복 속도 상승",
+	"hardStagedId": null,
+	"dangerLevel": "1차 정예화 Lv.1",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_LE1",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 9,
+	"apFailReturn": 8,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": 0,
+	"expGain": 90,
+	"goldGain": 90,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 8,
+	"completeFavor": 9,
+	"slProgress": 0,
+	"displayMainItem": null,
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 0,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act18side_token_pieces",
+				"dropType": 8
+			},
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act18side_token_pieces",
+				"dropType": 2
+			},
+			{
+				"type": "MATERIAL",
+				"id": "30031",
+				"dropType": 2
+			},
+			{
+				"type": "MATERIAL",
+				"id": "30061",
+				"dropType": 2
+			},
+			{
+				"type": "MATERIAL",
+				"id": "30041",
+				"dropType": 2
+			},
+			{
+				"type": "MATERIAL",
+				"id": "30051",
+				"dropType": 2
+			},
+			{
+				"type": "MATERIAL",
+				"id": "30021",
+				"dropType": 2
+			},
+			{
+				"type": "MATERIAL",
+				"id": "30011",
+				"dropType": 2
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 0,
+				"type": "ACTIVITY_ITEM",
+				"id": "act18side_token_pieces",
+				"dropType": 8
+			},
+			{
+				"occPercent": 0,
+				"type": "ACTIVITY_ITEM",
+				"id": "act18side_token_pieces",
+				"dropType": 2
+			},
+			{
+				"occPercent": 3,
+				"type": "MATERIAL",
+				"id": "30031",
+				"dropType": 2
+			},
+			{
+				"occPercent": 3,
+				"type": "MATERIAL",
+				"id": "30061",
+				"dropType": 2
+			},
+			{
+				"occPercent": 3,
+				"type": "MATERIAL",
+				"id": "30041",
+				"dropType": 2
+			},
+			{
+				"occPercent": 3,
+				"type": "MATERIAL",
+				"id": "30051",
+				"dropType": 2
+			},
+			{
+				"occPercent": 3,
+				"type": "MATERIAL",
+				"id": "30021",
+				"dropType": 2
+			},
+			{
+				"occPercent": 2,
+				"type": "MATERIAL",
+				"id": "30011",
+				"dropType": 2
+			},
+			{
+				"occPercent": 0,
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		]
+	},
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "act18side_st01"
+}

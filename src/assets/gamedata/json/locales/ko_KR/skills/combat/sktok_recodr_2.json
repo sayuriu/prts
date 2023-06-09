@@ -1,0 +1,38 @@
+{
+	"skillId": "sktok_recodr_2",
+	"iconId": "sktok_recodr",
+	"hidden": false,
+	"levels": [
+		{
+			"name": "실체화 모듈",
+			"rangeId": null,
+			"description": "이번 웨이브 동안 아군 오퍼레이터의 공격력, 방어력, 최대 HP 대폭 상승. <@ba.rem>이번 웨이브 종료 시 효과 상실</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 15,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "sktok_recodr_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 2
+				},
+				{
+					"key": "def",
+					"value": 2
+				},
+				{
+					"key": "max_hp",
+					"value": 2
+				}
+			]
+		}
+	]
+}

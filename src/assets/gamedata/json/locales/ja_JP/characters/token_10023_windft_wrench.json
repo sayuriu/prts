@@ -1,0 +1,524 @@
+{
+	"name": "高信頼性バッテリー",
+	"description": "配置後、前方1マスにいる【術師】または【補助】に攻撃支援効果を付与する（数秒間継続）",
+	"canUseGeneralPotentialItem": true,
+	"canUseActivityPotentialItem": false,
+	"potentialItemId": null,
+	"activityPotentialItemId": null,
+	"nationId": null,
+	"groupId": null,
+	"teamId": null,
+	"displayNumber": null,
+	"tokenKey": null,
+	"appellation": "Reliable Battery",
+	"position": "ALL",
+	"tagList": null,
+	"itemUsage": null,
+	"itemDesc": null,
+	"itemObtainApproach": null,
+	"isNotObtainable": false,
+	"isSpChar": false,
+	"maxPotentialLevel": 0,
+	"rarity": 4,
+	"profession": "TOKEN",
+	"subProfessionId": "notchar1",
+	"trait": {
+		"candidates": [
+			{
+				"unlockCondition": {
+					"phase": 0,
+					"level": 1
+				},
+				"requiredPotentialRank": 0,
+				"blackboard": [],
+				"overrideDescripton": "配置後、前方1マスにいる【術師】または【補助】に攻撃支援効果を付与する（20秒間継続）",
+				"prefabKey": null,
+				"rangeId": null
+			},
+			{
+				"unlockCondition": {
+					"phase": 1,
+					"level": 1
+				},
+				"requiredPotentialRank": 0,
+				"blackboard": [],
+				"overrideDescripton": "配置後、前方1マスにいる【術師】または【補助】に攻撃支援効果を付与する（30秒間継続）",
+				"prefabKey": null,
+				"rangeId": null
+			},
+			{
+				"unlockCondition": {
+					"phase": 2,
+					"level": 1
+				},
+				"requiredPotentialRank": 0,
+				"blackboard": [],
+				"overrideDescripton": "配置後、前方1マスにいる【術師】または【補助】に攻撃支援効果を付与する（30秒間継続）",
+				"prefabKey": null,
+				"rangeId": null
+			}
+		]
+	},
+	"phases": [
+		{
+			"characterPrefabKey": "token_10023_windft_wrench",
+			"rangeId": "1-1",
+			"maxLevel": 50,
+			"attributesKeyFrames": [
+				{
+					"level": 1,
+					"data": {
+						"maxHp": 100,
+						"atk": 100,
+						"def": 0,
+						"magicResistance": 0,
+						"cost": 5,
+						"blockCnt": 0,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 1,
+						"respawnTime": 15,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 2,
+						"maxDeckStackCnt": 3,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
+					}
+				},
+				{
+					"level": 50,
+					"data": {
+						"maxHp": 100,
+						"atk": 100,
+						"def": 0,
+						"magicResistance": 0,
+						"cost": 5,
+						"blockCnt": 0,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 1,
+						"respawnTime": 15,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 2,
+						"maxDeckStackCnt": 3,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
+					}
+				}
+			],
+			"evolveCost": null
+		},
+		{
+			"characterPrefabKey": "token_10023_windft_wrench",
+			"rangeId": "1-1",
+			"maxLevel": 70,
+			"attributesKeyFrames": [
+				{
+					"level": 1,
+					"data": {
+						"maxHp": 100,
+						"atk": 100,
+						"def": 0,
+						"magicResistance": 0,
+						"cost": 5,
+						"blockCnt": 0,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 1,
+						"respawnTime": 15,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 2,
+						"maxDeckStackCnt": 3,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
+					}
+				},
+				{
+					"level": 70,
+					"data": {
+						"maxHp": 100,
+						"atk": 100,
+						"def": 0,
+						"magicResistance": 0,
+						"cost": 5,
+						"blockCnt": 0,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 1,
+						"respawnTime": 15,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 2,
+						"maxDeckStackCnt": 3,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
+					}
+				}
+			],
+			"evolveCost": null
+		},
+		{
+			"characterPrefabKey": "token_10023_windft_wrench",
+			"rangeId": "1-1",
+			"maxLevel": 80,
+			"attributesKeyFrames": [
+				{
+					"level": 1,
+					"data": {
+						"maxHp": 100,
+						"atk": 100,
+						"def": 0,
+						"magicResistance": 0,
+						"cost": 5,
+						"blockCnt": 0,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 1,
+						"respawnTime": 15,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 2,
+						"maxDeckStackCnt": 3,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
+					}
+				},
+				{
+					"level": 80,
+					"data": {
+						"maxHp": 100,
+						"atk": 100,
+						"def": 0,
+						"magicResistance": 0,
+						"cost": 5,
+						"blockCnt": 0,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 1,
+						"respawnTime": 15,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 2,
+						"maxDeckStackCnt": 3,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
+					}
+				}
+			],
+			"evolveCost": null
+		}
+	],
+	"skills": [
+		{
+			"skillId": "sktok_windft_wrench_1",
+			"overridePrefabKey": null,
+			"overrideTokenKey": null,
+			"levelUpCostCond": [
+				{
+					"unlockCond": {
+						"phase": 2,
+						"level": 1
+					},
+					"lvlUpTime": 0,
+					"levelUpCost": null
+				},
+				{
+					"unlockCond": {
+						"phase": 2,
+						"level": 1
+					},
+					"lvlUpTime": 0,
+					"levelUpCost": null
+				},
+				{
+					"unlockCond": {
+						"phase": 2,
+						"level": 1
+					},
+					"lvlUpTime": 0,
+					"levelUpCost": null
+				}
+			],
+			"unlockCond": {
+				"phase": 0,
+				"level": 1
+			}
+		},
+		{
+			"skillId": "sktok_windft_wrench_2",
+			"overridePrefabKey": null,
+			"overrideTokenKey": null,
+			"levelUpCostCond": [
+				{
+					"unlockCond": {
+						"phase": 2,
+						"level": 1
+					},
+					"lvlUpTime": 0,
+					"levelUpCost": null
+				},
+				{
+					"unlockCond": {
+						"phase": 2,
+						"level": 1
+					},
+					"lvlUpTime": 0,
+					"levelUpCost": null
+				},
+				{
+					"unlockCond": {
+						"phase": 2,
+						"level": 1
+					},
+					"lvlUpTime": 0,
+					"levelUpCost": null
+				}
+			],
+			"unlockCond": {
+				"phase": 1,
+				"level": 1
+			}
+		}
+	],
+	"talents": [
+		{
+			"candidates": [
+				{
+					"unlockCondition": {
+						"phase": 0,
+						"level": 1
+					},
+					"requiredPotentialRank": 0,
+					"prefabKey": "1",
+					"name": null,
+					"description": "-",
+					"rangeId": null,
+					"blackboard": [
+						{
+							"key": "cnt",
+							"value": 2
+						},
+						{
+							"key": "atk",
+							"value": 0.05
+						},
+						{
+							"key": "duration",
+							"value": 20
+						}
+					]
+				},
+				{
+					"unlockCondition": {
+						"phase": 0,
+						"level": 1
+					},
+					"requiredPotentialRank": 4,
+					"prefabKey": "1",
+					"name": null,
+					"description": "-",
+					"rangeId": null,
+					"blackboard": [
+						{
+							"key": "cnt",
+							"value": 2
+						},
+						{
+							"key": "atk",
+							"value": 0.07
+						},
+						{
+							"key": "duration",
+							"value": 20
+						}
+					]
+				},
+				{
+					"unlockCondition": {
+						"phase": 1,
+						"level": 1
+					},
+					"requiredPotentialRank": 0,
+					"prefabKey": "1",
+					"name": null,
+					"description": "-",
+					"rangeId": null,
+					"blackboard": [
+						{
+							"key": "cnt",
+							"value": 3
+						},
+						{
+							"key": "atk",
+							"value": 0.1
+						},
+						{
+							"key": "duration",
+							"value": 30
+						}
+					]
+				},
+				{
+					"unlockCondition": {
+						"phase": 1,
+						"level": 1
+					},
+					"requiredPotentialRank": 4,
+					"prefabKey": "1",
+					"name": null,
+					"description": "-",
+					"rangeId": null,
+					"blackboard": [
+						{
+							"key": "cnt",
+							"value": 3
+						},
+						{
+							"key": "atk",
+							"value": 0.12
+						},
+						{
+							"key": "duration",
+							"value": 30
+						}
+					]
+				},
+				{
+					"unlockCondition": {
+						"phase": 2,
+						"level": 1
+					},
+					"requiredPotentialRank": 0,
+					"prefabKey": "1",
+					"name": null,
+					"description": "-",
+					"rangeId": null,
+					"blackboard": [
+						{
+							"key": "cnt",
+							"value": 3
+						},
+						{
+							"key": "atk",
+							"value": 0.15
+						},
+						{
+							"key": "duration",
+							"value": 30
+						}
+					]
+				},
+				{
+					"unlockCondition": {
+						"phase": 2,
+						"level": 1
+					},
+					"requiredPotentialRank": 4,
+					"prefabKey": "1",
+					"name": null,
+					"description": "-",
+					"rangeId": null,
+					"blackboard": [
+						{
+							"key": "cnt",
+							"value": 3
+						},
+						{
+							"key": "atk",
+							"value": 0.17
+						},
+						{
+							"key": "duration",
+							"value": 30
+						}
+					]
+				}
+			]
+		}
+	],
+	"potentialRanks": [],
+	"favorKeyFrames": null,
+	"allSkillLvlup": [
+		{
+			"unlockCond": {
+				"phase": 0,
+				"level": 1
+			},
+			"lvlUpCost": null
+		},
+		{
+			"unlockCond": {
+				"phase": 0,
+				"level": 1
+			},
+			"lvlUpCost": null
+		},
+		{
+			"unlockCond": {
+				"phase": 0,
+				"level": 1
+			},
+			"lvlUpCost": null
+		},
+		{
+			"unlockCond": {
+				"phase": 1,
+				"level": 1
+			},
+			"lvlUpCost": null
+		},
+		{
+			"unlockCond": {
+				"phase": 1,
+				"level": 1
+			},
+			"lvlUpCost": null
+		},
+		{
+			"unlockCond": {
+				"phase": 1,
+				"level": 1
+			},
+			"lvlUpCost": null
+		}
+	]
+}

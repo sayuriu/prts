@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act18d0_04",
@@ -10,7 +11,7 @@
 	],
 	"stageId": "act18d0_st01",
 	"levelId": null,
-	"zoneId": "act18d0_zone1",
+	"zoneId": "act10sre_zone1",
 	"code": "WD-ST-1",
 	"name": "パインリリー",
 	"description": "花の数輪が咲くか枯れるかを気にする土などどこにもない――大地は何も気に止めない。大地は全てを受け入れる。",
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": true,
 	"appearanceStyle": 0,
 	"stageDropInfo": {

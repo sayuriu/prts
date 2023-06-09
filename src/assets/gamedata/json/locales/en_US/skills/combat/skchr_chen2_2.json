@@ -8,6 +8,7 @@
 			"rangeId": null,
 			"description": "ATK <@ba.vup>+{atk:0%}</>, attacks create a layer of sticky liquid within Attack Range that lasts for {attack@projectile_life_time} seconds. Ground enemies passing over the sticky liquid have Movement Speed <@ba.vup>{attack@move_speed:0%}</> and DEF <@ba.vup>{attack@def}</> (Does not stack). <$ba.charged>Charged</> effect: Changes to {attack@another_trigger_time} ammo\n<@ba.rem>Skill activation grants {attack@trigger_time} ammo and the skill ends when all ammo is used (Can manually deactivate skill)</>",
 			"skillType": 1,
+			"durationType": 0,
 			"spData": {
 				"spType": 1,
 				"levelUpCost": null,
@@ -42,10 +43,6 @@
 				{
 					"key": "attack@another_trigger_time",
 					"value": 20
-				},
-				{
-					"key": "atk_scale",
-					"value": 1.5
 				}
 			]
 		},
@@ -54,6 +51,7 @@
 			"rangeId": null,
 			"description": "ATK <@ba.vup>+{atk:0%}</>, attacks create a layer of sticky liquid within Attack Range that lasts for {attack@projectile_life_time} seconds. Ground enemies passing over the sticky liquid have Movement Speed <@ba.vup>{attack@move_speed:0%}</> and DEF <@ba.vup>{attack@def}</> (Does not stack). <$ba.charged>Charged</> effect: Changes to {attack@another_trigger_time} ammo\n<@ba.rem>Skill activation grants {attack@trigger_time} ammo and the skill ends when all ammo is used (Can manually deactivate skill)</>",
 			"skillType": 1,
+			"durationType": 0,
 			"spData": {
 				"spType": 1,
 				"levelUpCost": null,
@@ -88,10 +86,6 @@
 				{
 					"key": "attack@another_trigger_time",
 					"value": 20
-				},
-				{
-					"key": "atk_scale",
-					"value": 1.5
 				}
 			]
 		},
@@ -100,6 +94,7 @@
 			"rangeId": null,
 			"description": "ATK <@ba.vup>+{atk:0%}</>, attacks create a layer of sticky liquid within Attack Range that lasts for {attack@projectile_life_time} seconds. Ground enemies passing over the sticky liquid have Movement Speed <@ba.vup>{attack@move_speed:0%}</> and DEF <@ba.vup>{attack@def}</> (Does not stack). <$ba.charged>Charged</> effect: Changes to {attack@another_trigger_time} ammo\n<@ba.rem>Skill activation grants {attack@trigger_time} ammo and the skill ends when all ammo is used (Can manually deactivate skill)</>",
 			"skillType": 1,
+			"durationType": 0,
 			"spData": {
 				"spType": 1,
 				"levelUpCost": null,
@@ -134,10 +129,6 @@
 				{
 					"key": "attack@another_trigger_time",
 					"value": 20
-				},
-				{
-					"key": "atk_scale",
-					"value": 1.5
 				}
 			]
 		},
@@ -146,6 +137,7 @@
 			"rangeId": null,
 			"description": "ATK <@ba.vup>+{atk:0%}</>, attacks create a layer of sticky liquid within Attack Range that lasts for {attack@projectile_life_time} seconds. Ground enemies passing over the sticky liquid have Movement Speed <@ba.vup>{attack@move_speed:0%}</> and DEF <@ba.vup>{attack@def}</> (Does not stack). <$ba.charged>Charged</> effect: Changes to {attack@another_trigger_time} ammo\n<@ba.rem>Skill activation grants {attack@trigger_time} ammo and the skill ends when all ammo is used (Can manually deactivate skill)</>",
 			"skillType": 1,
+			"durationType": 0,
 			"spData": {
 				"spType": 1,
 				"levelUpCost": null,
@@ -180,10 +172,6 @@
 				{
 					"key": "attack@another_trigger_time",
 					"value": 20
-				},
-				{
-					"key": "atk_scale",
-					"value": 1.5
 				}
 			]
 		},
@@ -192,6 +180,7 @@
 			"rangeId": null,
 			"description": "ATK <@ba.vup>+{atk:0%}</>, attacks create a layer of sticky liquid within Attack Range that lasts for {attack@projectile_life_time} seconds. Ground enemies passing over the sticky liquid have Movement Speed <@ba.vup>{attack@move_speed:0%}</> and DEF <@ba.vup>{attack@def}</> (Does not stack). <$ba.charged>Charged</> effect: Changes to {attack@another_trigger_time} ammo\n<@ba.rem>Skill activation grants {attack@trigger_time} ammo and the skill ends when all ammo is used (Can manually deactivate skill)</>",
 			"skillType": 1,
+			"durationType": 0,
 			"spData": {
 				"spType": 1,
 				"levelUpCost": null,
@@ -226,10 +215,6 @@
 				{
 					"key": "attack@another_trigger_time",
 					"value": 20
-				},
-				{
-					"key": "atk_scale",
-					"value": 1.5
 				}
 			]
 		},
@@ -238,6 +223,7 @@
 			"rangeId": null,
 			"description": "ATK <@ba.vup>+{atk:0%}</>, attacks create a layer of sticky liquid within Attack Range that lasts for {attack@projectile_life_time} seconds. Ground enemies passing over the sticky liquid have Movement Speed <@ba.vup>{attack@move_speed:0%}</> and DEF <@ba.vup>{attack@def}</> (Does not stack). <$ba.charged>Charged</> effect: Changes to {attack@another_trigger_time} ammo\n<@ba.rem>Skill activation grants {attack@trigger_time} ammo and the skill ends when all ammo is used (Can manually deactivate skill)</>",
 			"skillType": 1,
+			"durationType": 0,
 			"spData": {
 				"spType": 1,
 				"levelUpCost": null,
@@ -272,10 +258,6 @@
 				{
 					"key": "attack@another_trigger_time",
 					"value": 20
-				},
-				{
-					"key": "atk_scale",
-					"value": 1.5
 				}
 			]
 		},
@@ -284,6 +266,7 @@
 			"rangeId": null,
 			"description": "ATK <@ba.vup>+{atk:0%}</>, attacks create a layer of sticky liquid within Attack Range that lasts for {attack@projectile_life_time} seconds. Ground enemies passing over the sticky liquid have Movement Speed <@ba.vup>{attack@move_speed:0%}</> and DEF <@ba.vup>{attack@def}</> (Does not stack). <$ba.charged>Charged</> effect: Changes to {attack@another_trigger_time} ammo\n<@ba.rem>Skill activation grants {attack@trigger_time} ammo and the skill ends when all ammo is used (Can manually deactivate skill)</>",
 			"skillType": 1,
+			"durationType": 0,
 			"spData": {
 				"spType": 1,
 				"levelUpCost": null,
@@ -318,10 +301,6 @@
 				{
 					"key": "attack@another_trigger_time",
 					"value": 20
-				},
-				{
-					"key": "atk_scale",
-					"value": 1.5
 				}
 			]
 		},
@@ -330,6 +309,7 @@
 			"rangeId": null,
 			"description": "ATK <@ba.vup>+{atk:0%}</>, attacks create a layer of sticky liquid within Attack Range that lasts for {attack@projectile_life_time} seconds. Ground enemies passing over the sticky liquid have Movement Speed <@ba.vup>{attack@move_speed:0%}</> and DEF <@ba.vup>{attack@def}</> (Does not stack). <$ba.charged>Charged</> effect: Changes to {attack@another_trigger_time} ammo\n<@ba.rem>Skill activation grants {attack@trigger_time} ammo and the skill ends when all ammo is used (Can manually deactivate skill)</>",
 			"skillType": 1,
+			"durationType": 0,
 			"spData": {
 				"spType": 1,
 				"levelUpCost": null,
@@ -364,10 +344,6 @@
 				{
 					"key": "attack@another_trigger_time",
 					"value": 20
-				},
-				{
-					"key": "atk_scale",
-					"value": 1.5
 				}
 			]
 		},
@@ -376,6 +352,7 @@
 			"rangeId": null,
 			"description": "ATK <@ba.vup>+{atk:0%}</>, attacks create a layer of sticky liquid within Attack Range that lasts for {attack@projectile_life_time} seconds. Ground enemies passing over the sticky liquid have Movement Speed <@ba.vup>{attack@move_speed:0%}</> and DEF <@ba.vup>{attack@def}</> (Does not stack). <$ba.charged>Charged</> effect: Changes to {attack@another_trigger_time} ammo\n<@ba.rem>Skill activation grants {attack@trigger_time} ammo and the skill ends when all ammo is used (Can manually deactivate skill)</>",
 			"skillType": 1,
+			"durationType": 0,
 			"spData": {
 				"spType": 1,
 				"levelUpCost": null,
@@ -410,10 +387,6 @@
 				{
 					"key": "attack@another_trigger_time",
 					"value": 20
-				},
-				{
-					"key": "atk_scale",
-					"value": 1.5
 				}
 			]
 		},
@@ -422,6 +395,7 @@
 			"rangeId": null,
 			"description": "ATK <@ba.vup>+{atk:0%}</>, attacks create a layer of sticky liquid within Attack Range that lasts for {attack@projectile_life_time} seconds. Ground enemies passing over the sticky liquid have Movement Speed <@ba.vup>{attack@move_speed:0%}</> and DEF <@ba.vup>{attack@def}</> (Does not stack). <$ba.charged>Charged</> effect: Changes to {attack@another_trigger_time} ammo\n<@ba.rem>Skill activation grants {attack@trigger_time} ammo and the skill ends when all ammo is used (Can manually deactivate skill)</>",
 			"skillType": 1,
+			"durationType": 0,
 			"spData": {
 				"spType": 1,
 				"levelUpCost": null,
@@ -456,10 +430,6 @@
 				{
 					"key": "attack@another_trigger_time",
 					"value": 20
-				},
-				{
-					"key": "atk_scale",
-					"value": 1.5
 				}
 			]
 		}

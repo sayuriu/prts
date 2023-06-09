@@ -1,0 +1,84 @@
+{
+	"stageType": "ACTIVITY",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
+	"unlockCondition": [
+		{
+			"stageId": "act14side_ex07",
+			"completeState": 2
+		}
+	],
+	"stageId": "act14side_ex08",
+	"levelId": "Activities/ACT14SIDE/level_act14side_ex08",
+	"zoneId": "act14side_zone2",
+	"code": "BI-EX-8",
+	"name": "퀸스 갬빗",
+	"description": "상대는 이미 최강의 수를 위해 길을 열어 놓았다. 극치에 다다른 힘과 전투기술에 맞서 당신은 어떻게 반격할 것인가?\n<@lv.item><얼음판></> 위에 있는 유닛에 '냉기' 효과 부여, 빙결된 적의 이동 거리 증가\n<@lv.item><강설></> 주기적으로 모든 유닛에 냉기 효과 부여",
+	"hardStagedId": "act14side_ex08#f#",
+	"dangerLevel": "2차 정예화 Lv.30",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_BI",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 20,
+	"apFailReturn": 19,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": 0,
+	"expGain": 200,
+	"goldGain": 200,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 19,
+	"completeFavor": 20,
+	"slProgress": 0,
+	"displayMainItem": null,
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 0,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act14side_token_stone",
+				"dropType": 8
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 0,
+				"type": "ACTIVITY_ITEM",
+				"id": "act14side_token_stone",
+				"dropType": 8
+			},
+			{
+				"occPercent": 0,
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		]
+	},
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "act14side_ex01"
+}

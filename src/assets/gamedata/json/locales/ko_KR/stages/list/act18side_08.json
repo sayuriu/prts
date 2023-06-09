@@ -1,0 +1,95 @@
+{
+	"stageType": "ACTIVITY",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
+	"unlockCondition": [
+		{
+			"stageId": "act18side_07",
+			"completeState": 2
+		}
+	],
+	"stageId": "act18side_08",
+	"levelId": "Activities/act18side/level_act18side_08",
+	"zoneId": "act18side_zone1",
+	"code": "LE-8",
+	"name": "운명",
+	"description": "그는 문득, 자기 목을 조르는 게 자신의 두 손이라는 걸 깨달았다. \n<@lv.item><폐에너지 간섭></> SP 자연 회복 속도 저하\n<@lv.item><리포밍 플럭스></> 아군 오퍼레이터의 SP 자연 회복 속도 상승",
+	"hardStagedId": null,
+	"dangerLevel": "2차 정예화 Lv.20",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_LE2",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 10,
+	"apFailReturn": 9,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": 0,
+	"expGain": 100,
+	"goldGain": 100,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 9,
+	"completeFavor": 10,
+	"slProgress": 0,
+	"displayMainItem": null,
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 0,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act18side_token_pieces",
+				"dropType": 8
+			},
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act18side_token_pieces",
+				"dropType": 2
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 0,
+				"type": "ACTIVITY_ITEM",
+				"id": "act18side_token_pieces",
+				"dropType": 8
+			},
+			{
+				"occPercent": 0,
+				"type": "ACTIVITY_ITEM",
+				"id": "act18side_token_pieces",
+				"dropType": 2
+			},
+			{
+				"occPercent": 0,
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		]
+	},
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "act18side_st01"
+}

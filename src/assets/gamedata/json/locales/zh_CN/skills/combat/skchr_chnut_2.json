@@ -1,0 +1,297 @@
+{
+	"skillId": "skchr_chnut_2",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "厚土迸发",
+			"rangeId": "3-2",
+			"description": "攻击范围<@ba.vdown>缩小</>，攻击速度<@ba.vup>+{attack_speed}</>，连续治疗同一目标时，治疗量和<$ba.dt.element>元素损伤</>回复量提高至<@ba.vup>{attack@heal_continuously_scale:0%}</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 90,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_chnut_2",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "attack_speed",
+					"value": 80,
+					"valueStr": null
+				},
+				{
+					"key": "attack@heal_continuously_scale",
+					"value": 1.05,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "厚土迸发",
+			"rangeId": "3-2",
+			"description": "攻击范围<@ba.vdown>缩小</>，攻击速度<@ba.vup>+{attack_speed}</>，连续治疗同一目标时，治疗量和<$ba.dt.element>元素损伤</>回复量提高至<@ba.vup>{attack@heal_continuously_scale:0%}</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 88,
+				"initSp": 21,
+				"increment": 1
+			},
+			"prefabId": "skchr_chnut_2",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "attack_speed",
+					"value": 80,
+					"valueStr": null
+				},
+				{
+					"key": "attack@heal_continuously_scale",
+					"value": 1.1,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "厚土迸发",
+			"rangeId": "3-2",
+			"description": "攻击范围<@ba.vdown>缩小</>，攻击速度<@ba.vup>+{attack_speed}</>，连续治疗同一目标时，治疗量和<$ba.dt.element>元素损伤</>回复量提高至<@ba.vup>{attack@heal_continuously_scale:0%}</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 86,
+				"initSp": 22,
+				"increment": 1
+			},
+			"prefabId": "skchr_chnut_2",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "attack_speed",
+					"value": 80,
+					"valueStr": null
+				},
+				{
+					"key": "attack@heal_continuously_scale",
+					"value": 1.15,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "厚土迸发",
+			"rangeId": "3-2",
+			"description": "攻击范围<@ba.vdown>缩小</>，攻击速度<@ba.vup>+{attack_speed}</>，连续治疗同一目标时，治疗量和<$ba.dt.element>元素损伤</>回复量提高至<@ba.vup>{attack@heal_continuously_scale:0%}</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 82,
+				"initSp": 25,
+				"increment": 1
+			},
+			"prefabId": "skchr_chnut_2",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "attack_speed",
+					"value": 90,
+					"valueStr": null
+				},
+				{
+					"key": "attack@heal_continuously_scale",
+					"value": 1.2,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "厚土迸发",
+			"rangeId": "3-2",
+			"description": "攻击范围<@ba.vdown>缩小</>，攻击速度<@ba.vup>+{attack_speed}</>，连续治疗同一目标时，治疗量和<$ba.dt.element>元素损伤</>回复量提高至<@ba.vup>{attack@heal_continuously_scale:0%}</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 80,
+				"initSp": 26,
+				"increment": 1
+			},
+			"prefabId": "skchr_chnut_2",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "attack_speed",
+					"value": 90,
+					"valueStr": null
+				},
+				{
+					"key": "attack@heal_continuously_scale",
+					"value": 1.2,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "厚土迸发",
+			"rangeId": "3-2",
+			"description": "攻击范围<@ba.vdown>缩小</>，攻击速度<@ba.vup>+{attack_speed}</>，连续治疗同一目标时，治疗量和<$ba.dt.element>元素损伤</>回复量提高至<@ba.vup>{attack@heal_continuously_scale:0%}</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 78,
+				"initSp": 27,
+				"increment": 1
+			},
+			"prefabId": "skchr_chnut_2",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "attack_speed",
+					"value": 90,
+					"valueStr": null
+				},
+				{
+					"key": "attack@heal_continuously_scale",
+					"value": 1.3,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "厚土迸发",
+			"rangeId": "3-2",
+			"description": "攻击范围<@ba.vdown>缩小</>，攻击速度<@ba.vup>+{attack_speed}</>，连续治疗同一目标时，治疗量和<$ba.dt.element>元素损伤</>回复量提高至<@ba.vup>{attack@heal_continuously_scale:0%}</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 74,
+				"initSp": 30,
+				"increment": 1
+			},
+			"prefabId": "skchr_chnut_2",
+			"duration": 35,
+			"blackboard": [
+				{
+					"key": "attack_speed",
+					"value": 100,
+					"valueStr": null
+				},
+				{
+					"key": "attack@heal_continuously_scale",
+					"value": 1.35,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "厚土迸发",
+			"rangeId": "3-2",
+			"description": "攻击范围<@ba.vdown>缩小</>，攻击速度<@ba.vup>+{attack_speed}</>，连续治疗同一目标时，治疗量和<$ba.dt.element>元素损伤</>回复量提高至<@ba.vup>{attack@heal_continuously_scale:0%}</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 72,
+				"initSp": 34,
+				"increment": 1
+			},
+			"prefabId": "skchr_chnut_2",
+			"duration": 35,
+			"blackboard": [
+				{
+					"key": "attack_speed",
+					"value": 110,
+					"valueStr": null
+				},
+				{
+					"key": "attack@heal_continuously_scale",
+					"value": 1.4,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "厚土迸发",
+			"rangeId": "3-2",
+			"description": "攻击范围<@ba.vdown>缩小</>，攻击速度<@ba.vup>+{attack_speed}</>，连续治疗同一目标时，治疗量和<$ba.dt.element>元素损伤</>回复量提高至<@ba.vup>{attack@heal_continuously_scale:0%}</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 72,
+				"initSp": 36,
+				"increment": 1
+			},
+			"prefabId": "skchr_chnut_2",
+			"duration": 35,
+			"blackboard": [
+				{
+					"key": "attack_speed",
+					"value": 110,
+					"valueStr": null
+				},
+				{
+					"key": "attack@heal_continuously_scale",
+					"value": 1.45,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "厚土迸发",
+			"rangeId": "3-2",
+			"description": "攻击范围<@ba.vdown>缩小</>，攻击速度<@ba.vup>+{attack_speed}</>，连续治疗同一目标时，治疗量和<$ba.dt.element>元素损伤</>回复量提高至<@ba.vup>{attack@heal_continuously_scale:0%}</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 70,
+				"initSp": 40,
+				"increment": 1
+			},
+			"prefabId": "skchr_chnut_2",
+			"duration": 35,
+			"blackboard": [
+				{
+					"key": "attack_speed",
+					"value": 130,
+					"valueStr": null
+				},
+				{
+					"key": "attack@heal_continuously_scale",
+					"value": 1.5,
+					"valueStr": null
+				}
+			]
+		}
+	]
+}

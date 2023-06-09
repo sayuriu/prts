@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act15d0_08",
@@ -10,7 +11,7 @@
 	],
 	"stageId": "act15d0_st02",
 	"levelId": null,
-	"zoneId": "act15d0_zone1",
+	"zoneId": "act8sre_zone1",
 	"code": "MB-ST-2",
 	"name": "정확한 대가",
 	"description": "적어도 그 대가는 스스로 만족할 것이다.",
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": true,
 	"appearanceStyle": 0,
 	"stageDropInfo": {

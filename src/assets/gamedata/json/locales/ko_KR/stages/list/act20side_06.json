@@ -1,0 +1,117 @@
+{
+	"stageType": "ACTIVITY",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
+	"unlockCondition": [
+		{
+			"stageId": "act20side_05",
+			"completeState": 2
+		}
+	],
+	"stageId": "act20side_06",
+	"levelId": "Activities/ACT20SIDE/level_act20side_06",
+	"zoneId": "act20side_zone1",
+	"code": "IC-6",
+	"name": "투쟁-도피 반응",
+	"description": "자신과 상관없는 전장에는 발을 들여놓지 말고, 자신이 짊어져야 할 책임은 피할 수 없다.\n<@lv.item><자율차 출발점></> 배치 코스트를 소모하여 자율차 한 대 발사\n<@lv.item><자율차 트랙></> 통과하는 자율차의 방향 전환\n<@lv.item>어떤 오퍼레이터든 자유로운 위치에 배치 가능</>",
+	"hardStagedId": null,
+	"dangerLevel": "1차 정예화 Lv.60",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_IC_Square",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 15,
+	"apFailReturn": 14,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": 0,
+	"expGain": 150,
+	"goldGain": 150,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 14,
+	"completeFavor": 15,
+	"slProgress": 0,
+	"displayMainItem": null,
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 0,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act20side_token_book",
+				"dropType": 8
+			},
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act20side_token_book",
+				"dropType": 2
+			},
+			{
+				"type": "MATERIAL",
+				"id": "30062",
+				"dropType": 2
+			},
+			{
+				"type": "MATERIAL",
+				"id": "30042",
+				"dropType": 2
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 0,
+				"type": "ACTIVITY_ITEM",
+				"id": "act20side_token_book",
+				"dropType": 8
+			},
+			{
+				"occPercent": 0,
+				"type": "ACTIVITY_ITEM",
+				"id": "act20side_token_book",
+				"dropType": 2
+			},
+			{
+				"occPercent": 1,
+				"type": "MATERIAL",
+				"id": "30062",
+				"dropType": 2
+			},
+			{
+				"occPercent": 2,
+				"type": "MATERIAL",
+				"id": "30042",
+				"dropType": 2
+			},
+			{
+				"occPercent": 0,
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		]
+	},
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "act20side_st01"
+}

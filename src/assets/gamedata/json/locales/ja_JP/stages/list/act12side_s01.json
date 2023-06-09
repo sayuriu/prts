@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "main_01-10",
@@ -10,7 +11,7 @@
 	],
 	"stageId": "act12side_s01",
 	"levelId": "Activities/ACT12SIDE/level_act12side_sub-1-1",
-	"zoneId": "act12side_zone3",
+	"zoneId": "act12sre_zone3",
 	"code": "DH-S-1",
 	"name": "すれ違い",
 	"description": "ホシグマとスワイヤーは目の前にいるならず者たちを片付けようとしているが、それがチェンが追ってる相手だとは知らない。\n<@lv.item><満ち潮></>海水に沈んだマスへの配置不可。海水に浸かったユニットは敵味方関係なく【水蝕】状態になる\n<@lv.rem><特殊条件></>全ての敵のステータスが大幅に上昇",
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {

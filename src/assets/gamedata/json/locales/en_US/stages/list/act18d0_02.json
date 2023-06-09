@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act18d0_tr01",
@@ -10,7 +11,7 @@
 	],
 	"stageId": "act18d0_02",
 	"levelId": "Activities/act18d0/level_act18d0_02",
-	"zoneId": "act18d0_zone1",
+	"zoneId": "act10sre_zone1",
 	"code": "WD-2",
 	"name": "A Bolt From the Blue Oasis",
 	"description": "Kal'tsit and the survivors travel on foot to a large oasis, where many animals come to slake their thirst. Of course, enemy scouting drones are here too, things that are much less reliant on water.\n<@lv.item><Mobile Tactical Hangar></> Deploys drones as needed to assist enemy combatants.",
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {
@@ -57,22 +59,12 @@
 			},
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act18d0_token_page",
+				"id": "act18d0_token_page_rep_1",
 				"dropType": 8
 			},
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act18d0_token_page",
-				"dropType": 2
-			},
-			{
-				"type": "MATERIAL",
-				"id": "30031",
-				"dropType": 2
-			},
-			{
-				"type": "MATERIAL",
-				"id": "30061",
+				"id": "act18d0_token_page_rep_1",
 				"dropType": 2
 			},
 			{
@@ -83,16 +75,6 @@
 			{
 				"type": "MATERIAL",
 				"id": "30051",
-				"dropType": 2
-			},
-			{
-				"type": "MATERIAL",
-				"id": "30021",
-				"dropType": 2
-			},
-			{
-				"type": "MATERIAL",
-				"id": "30011",
 				"dropType": 2
 			},
 			{
@@ -111,25 +93,13 @@
 			{
 				"occPercent": 0,
 				"type": "ACTIVITY_ITEM",
-				"id": "act18d0_token_page",
+				"id": "act18d0_token_page_rep_1",
 				"dropType": 8
 			},
 			{
 				"occPercent": 0,
 				"type": "ACTIVITY_ITEM",
-				"id": "act18d0_token_page",
-				"dropType": 2
-			},
-			{
-				"occPercent": 2,
-				"type": "MATERIAL",
-				"id": "30031",
-				"dropType": 2
-			},
-			{
-				"occPercent": 3,
-				"type": "MATERIAL",
-				"id": "30061",
+				"id": "act18d0_token_page_rep_1",
 				"dropType": 2
 			},
 			{
@@ -142,18 +112,6 @@
 				"occPercent": 3,
 				"type": "MATERIAL",
 				"id": "30051",
-				"dropType": 2
-			},
-			{
-				"occPercent": 2,
-				"type": "MATERIAL",
-				"id": "30021",
-				"dropType": 2
-			},
-			{
-				"occPercent": 1,
-				"type": "MATERIAL",
-				"id": "30011",
 				"dropType": 2
 			},
 			{

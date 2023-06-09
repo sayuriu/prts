@@ -7,10 +7,10 @@
 			"name": "锚击",
 			"rangeId": null,
 			"description": "下次攻击额外造成一次相当于攻击力<@ba.vup>{kirara_s_1.atk_scale:0%}</>的法术伤害",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 2,
+				"spType": "INCREASE_WHEN_ATTACK",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 4,
@@ -22,7 +22,8 @@
 			"blackboard": [
 				{
 					"key": "kirara_s_1.atk_scale",
-					"value": 0.75
+					"value": 0.75,
+					"valueStr": null
 				}
 			]
 		},
@@ -30,10 +31,10 @@
 			"name": "锚击",
 			"rangeId": null,
 			"description": "下次攻击额外造成一次相当于攻击力<@ba.vup>{kirara_s_1.atk_scale:0%}</>的法术伤害",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 2,
+				"spType": "INCREASE_WHEN_ATTACK",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 4,
@@ -45,7 +46,8 @@
 			"blackboard": [
 				{
 					"key": "kirara_s_1.atk_scale",
-					"value": 0.8
+					"value": 0.8,
+					"valueStr": null
 				}
 			]
 		},
@@ -53,10 +55,10 @@
 			"name": "锚击",
 			"rangeId": null,
 			"description": "下次攻击额外造成一次相当于攻击力<@ba.vup>{kirara_s_1.atk_scale:0%}</>的法术伤害",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 2,
+				"spType": "INCREASE_WHEN_ATTACK",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 4,
@@ -68,7 +70,8 @@
 			"blackboard": [
 				{
 					"key": "kirara_s_1.atk_scale",
-					"value": 0.85
+					"value": 0.85,
+					"valueStr": null
 				}
 			]
 		},
@@ -76,10 +79,10 @@
 			"name": "锚击",
 			"rangeId": null,
 			"description": "下次攻击额外造成一次相当于攻击力<@ba.vup>{kirara_s_1.atk_scale:0%}</>的法术伤害",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 2,
+				"spType": "INCREASE_WHEN_ATTACK",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 4,
@@ -91,7 +94,8 @@
 			"blackboard": [
 				{
 					"key": "kirara_s_1.atk_scale",
-					"value": 0.9
+					"value": 0.9,
+					"valueStr": null
 				}
 			]
 		},
@@ -99,10 +103,10 @@
 			"name": "锚击",
 			"rangeId": null,
 			"description": "下次攻击额外造成一次相当于攻击力<@ba.vup>{kirara_s_1.atk_scale:0%}</>的法术伤害",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 2,
+				"spType": "INCREASE_WHEN_ATTACK",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 4,
@@ -114,7 +118,8 @@
 			"blackboard": [
 				{
 					"key": "kirara_s_1.atk_scale",
-					"value": 0.95
+					"value": 0.95,
+					"valueStr": null
 				}
 			]
 		},
@@ -122,10 +127,10 @@
 			"name": "锚击",
 			"rangeId": null,
 			"description": "下次攻击额外造成一次相当于攻击力<@ba.vup>{kirara_s_1.atk_scale:0%}</>的法术伤害",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 2,
+				"spType": "INCREASE_WHEN_ATTACK",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 4,
@@ -137,7 +142,8 @@
 			"blackboard": [
 				{
 					"key": "kirara_s_1.atk_scale",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -145,10 +151,10 @@
 			"name": "锚击",
 			"rangeId": null,
 			"description": "下次攻击额外造成一次相当于攻击力<@ba.vup>{kirara_s_1.atk_scale:0%}</>的法术伤害",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 2,
+				"spType": "INCREASE_WHEN_ATTACK",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 3,
@@ -160,7 +166,8 @@
 			"blackboard": [
 				{
 					"key": "kirara_s_1.atk_scale",
-					"value": 1.1
+					"value": 1.1,
+					"valueStr": null
 				}
 			]
 		},
@@ -168,10 +175,10 @@
 			"name": "锚击",
 			"rangeId": null,
 			"description": "下次攻击额外造成一次相当于攻击力<@ba.vup>{kirara_s_1.atk_scale:0%}</>的法术伤害",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 2,
+				"spType": "INCREASE_WHEN_ATTACK",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 3,
@@ -183,7 +190,8 @@
 			"blackboard": [
 				{
 					"key": "kirara_s_1.atk_scale",
-					"value": 1.2
+					"value": 1.2,
+					"valueStr": null
 				}
 			]
 		},
@@ -191,10 +199,10 @@
 			"name": "锚击",
 			"rangeId": null,
 			"description": "下次攻击额外造成一次相当于攻击力<@ba.vup>{kirara_s_1.atk_scale:0%}</>的法术伤害",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 2,
+				"spType": "INCREASE_WHEN_ATTACK",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 3,
@@ -206,7 +214,8 @@
 			"blackboard": [
 				{
 					"key": "kirara_s_1.atk_scale",
-					"value": 1.3
+					"value": 1.3,
+					"valueStr": null
 				}
 			]
 		},
@@ -214,10 +223,10 @@
 			"name": "锚击",
 			"rangeId": null,
 			"description": "下次攻击额外造成一次相当于攻击力<@ba.vup>{kirara_s_1.atk_scale:0%}</>的法术伤害",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 2,
+				"spType": "INCREASE_WHEN_ATTACK",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 2,
@@ -229,7 +238,8 @@
 			"blackboard": [
 				{
 					"key": "kirara_s_1.atk_scale",
-					"value": 1.5
+					"value": 1.5,
+					"valueStr": null
 				}
 			]
 		}

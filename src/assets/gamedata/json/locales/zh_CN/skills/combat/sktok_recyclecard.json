@@ -1,0 +1,36 @@
+{
+	"skillId": "sktok_recyclecard",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "蓄锐",
+			"rangeId": "1-1",
+			"description": "部署后，使身前一名干员立即返回待部署区且再部署时间<@ba.vup>-95%</>、部署费用<@ba.vup>{value}</>且下次部署时保留所有已继承的战术装备。\\n<@ba.rem>触发后自身消失（本场战斗不再出现）</>",
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "sktok_recyclecard",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "respawn_time",
+					"value": 0.05,
+					"valueStr": null
+				},
+				{
+					"key": "value",
+					"value": -30,
+					"valueStr": null
+				}
+			]
+		}
+	]
+}

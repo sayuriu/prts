@@ -1,0 +1,79 @@
+{
+	"stageType": "SUB",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "TOUGH",
+	"unlockCondition": [
+		{
+			"stageId": "tough_12-18",
+			"completeState": "PASS"
+		}
+	],
+	"stageId": "hard_12-01",
+	"levelId": "Obt/Hard/level_hard_12-01",
+	"zoneId": "main_12",
+	"code": "H12-1",
+	"name": "惊霆行动-1",
+	"description": "“谁说只有炮火所及之处才是战场？”\\n我方费用上限大幅降低\\n<@lv.item><街头应急储备></>被摧毁后获得一定费用及费用上限\\n<@lv.fs>“变形者集群”附加能力：</>攻击造成更多的侵蚀损伤",
+	"hardStagedId": null,
+	"dangerLevel": "-",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_VC_street2",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 10,
+	"apFailReturn": 9,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": -1,
+	"expGain": 100,
+	"goldGain": 100,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 9,
+	"completeFavor": 10,
+	"slProgress": 0,
+	"displayMainItem": "",
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": "HIGH_DIFFICULTY",
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": "COMPLETE"
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": "ALWAYS",
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": "COMPLETE"
+			}
+		]
+	},
+	"canUseCharm": false,
+	"canUseTech": false,
+	"canUseTrapTool": false,
+	"canUseBattlePerformance": false,
+	"startButtonOverrideId": "HIGH_DIFFICULTY",
+	"isStagePatch": false,
+	"mainStageId": "tough_12-18",
+	"extraCondition": null,
+	"extraInfo": null
+}

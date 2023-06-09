@@ -2,6 +2,7 @@
 	"stageType": "MAIN",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "main_08-16",
@@ -13,7 +14,7 @@
 	"zoneId": "main_8",
 	"code": "JT8-3",
 	"name": "烈炎の中で「邁進」",
-	"description": "06:26:33 <@lv.sp>剣を以て炎を裂き</>、現在を以て過去を下し、自我を以て混沌なる乱象に立ち向かう。憤怒なればこそ、断じて妥協を拒む。憤怒なればこそ、沈黙を良しとせぬ。\n<@lv.item><エネルギー聚合体></>四方に火の玉を放ち、命中した味方ユニットに攻撃で確定ダメージと【灼熱の息吹】（1秒ごとに確定ダメージを付与する。ダメージ量は時間経過とともに増加、レジスト可能）を付与",
+	"description": "06:26:33 <@lv.sp>剣を以て炎を裂き</>、現在を以て過去を下し、自我を以て混沌なる乱象に立ち向かう。憤怒なればこそ、断じて妥協を拒む。憤怒なればこそ、沈黙を良しとせぬ。\n<@lv.item><エネルギー聚合体></>四方に火の玉を放ち、命中した味方ユニットに攻撃で術ダメージと【灼熱の息吹】（1秒ごとに確定ダメージを付与する。ダメージ量は時間経過とともに増加、レジスト可能）を付与",
 	"hardStagedId": "main_08-17#f#",
 	"dangerLevel": "昇進2 LV.40",
 	"dangerPoint": -1,
@@ -42,6 +43,7 @@
 	"bossMark": true,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {
@@ -126,6 +128,12 @@
 				"occPercent": 4,
 				"type": "MATERIAL",
 				"id": "31023",
+				"dropType": 4
+			},
+			{
+				"occPercent": 4,
+				"type": "MATERIAL",
+				"id": "31063",
 				"dropType": 4
 			},
 			{

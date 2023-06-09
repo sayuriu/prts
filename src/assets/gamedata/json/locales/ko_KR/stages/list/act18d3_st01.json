@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act18d3_07",
@@ -10,7 +11,7 @@
 	],
 	"stageId": "act18d3_st01",
 	"levelId": null,
-	"zoneId": "act18d3_zone1",
+	"zoneId": "act11sre_zone1",
 	"code": "SV-ST-1",
 	"name": "악몽에서 깨어나",
 	"description": "울부짖는 파도 속에서 한 차례의 처참한 전투가 바다를 붉게 물들였다. 해변에서 깨어난 그녀는 생존자가 자신뿐이라고 생각했다. 하지만 그녀는 틀렸다.",
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": true,
 	"appearanceStyle": 0,
 	"stageDropInfo": {

@@ -2,19 +2,20 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "FOUR_STAR",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "main_02-08",
-			"completeState": 2
+			"completeState": "PASS"
 		},
 		{
 			"stageId": "act13side_s02",
-			"completeState": 3
+			"completeState": "COMPLETE"
 		}
 	],
 	"stageId": "act13side_s02#f#",
 	"levelId": "Activities/act13side/level_act13side_sub-1-2",
-	"zoneId": "act13side_zone3",
+	"zoneId": "act13sre_zone3",
 	"code": "NL-S-2",
 	"name": "冠军街道",
 	"description": "<@lv.fs>附加条件：</>\\n骑士之徽数量减少，所有敌人基础属性提升",
@@ -48,7 +49,7 @@
 	"isHardPredefined": false,
 	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
-	"appearanceStyle": 0,
+	"appearanceStyle": "MAIN_NORMAL",
 	"stageDropInfo": {
 		"firstPassRewards": null,
 		"firstCompleteRewards": null,
@@ -58,19 +59,25 @@
 			{
 				"type": "DIAMOND",
 				"id": "4002",
-				"dropType": 8
+				"dropType": "COMPLETE"
 			}
 		],
 		"displayDetailRewards": [
 			{
-				"occPercent": 0,
+				"occPercent": "ALWAYS",
 				"type": "DIAMOND",
 				"id": "4002",
-				"dropType": 8
+				"dropType": "COMPLETE"
 			}
 		]
 	},
+	"canUseCharm": false,
+	"canUseTech": false,
+	"canUseTrapTool": false,
+	"canUseBattlePerformance": false,
 	"startButtonOverrideId": null,
 	"isStagePatch": false,
-	"mainStageId": "act13side_s01"
+	"mainStageId": "act13side_s01",
+	"extraCondition": null,
+	"extraInfo": null
 }

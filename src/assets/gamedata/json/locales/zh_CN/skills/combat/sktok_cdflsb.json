@@ -1,0 +1,25 @@
+{
+	"skillId": "sktok_cdflsb",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "劣质闪光弹",
+			"rangeId": null,
+			"description": "被调用时，自毁并<$ba.stun>晕眩</>所有我方高台单位8秒",
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 25,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": null,
+			"duration": -1,
+			"blackboard": []
+		}
+	]
+}

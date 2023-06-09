@@ -6,26 +6,62 @@
 	"iconId": "MTL_SL_RUSH1",
 	"overrideBkg": null,
 	"stackIconId": null,
-	"sortId": 100023,
+	"sortId": 100037,
 	"usage": "Ester used in industrial production. Can be used for a variety of upgrades and for production in the Factory.",
 	"obtainApproach": null,
 	"classifyType": "MATERIAL",
 	"itemType": "MATERIAL",
 	"stageDropList": [
 		{
+			"stageId": "act10mini_03",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "act15side_01",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "act15side_02",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "act15side_03",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "act14side_01",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "act14side_02",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "act14side_03",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "act13side_01",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "act13side_02",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "act13side_03",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "act10mini_04",
+			"occPer": "USUAL"
+		},
+		{
 			"stageId": "act18d3_01",
 			"occPer": "USUAL"
 		},
 		{
-			"stageId": "act18d3_02",
-			"occPer": "USUAL"
-		},
-		{
 			"stageId": "act18d0_01",
-			"occPer": "USUAL"
-		},
-		{
-			"stageId": "act18d0_02",
 			"occPer": "USUAL"
 		},
 		{
@@ -61,6 +97,10 @@
 			"occPer": "ALWAYS"
 		},
 		{
+			"stageId": "act18d3_02",
+			"occPer": "USUAL"
+		},
+		{
 			"stageId": "act6d5_01",
 			"occPer": "ALWAYS"
 		},
@@ -69,11 +109,95 @@
 			"occPer": "ALWAYS"
 		},
 		{
-			"stageId": "main_00-11",
+			"stageId": "act10mini_01",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "act13mini_01",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "act13mini_02",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "act13mini_03",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "act13mini_04",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "act12mini_01",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "act12mini_02",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "act12mini_03",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "act12mini_04",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "act10mini_02",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "act19side_01",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "act20side_01",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "act20side_02",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "act11mini_01",
+			"occPer": "ALMOST"
+		},
+		{
+			"stageId": "act11mini_03",
 			"occPer": "ALWAYS"
 		},
 		{
+			"stageId": "act18side_01",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "act18side_02",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "act16side_01",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "act16side_02",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "act16side_03",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "act19side_02",
+			"occPer": "OFTEN"
+		},
+		{
 			"stageId": "sub_02-07",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "main_00-11",
 			"occPer": "ALWAYS"
 		}
 	],

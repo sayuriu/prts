@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act12side_st02",
@@ -10,12 +11,12 @@
 	],
 	"stageId": "act12side_04",
 	"levelId": "Activities/ACT12SIDE/level_act12side_04",
-	"zoneId": "act12side_zone1",
+	"zoneId": "act12sre_zone1",
 	"code": "DH-4",
 	"name": "Triathlon",
-	"description": "A game requires rules, yet what the audience most wishes for tends to be that which breaks the rules. \n<@lv.item><High Tide></> Unable to deploy on flooded tiles. Allied units and enemies in the water will be affected by 'Erosion': Allied units have reduced ASPD, continually receive Corrosion Damage and receive additional Corrosion Damage when attacked; Enemies have reduced ASPD and Movement Speed, and continually lose HP",
+	"description": "A game requires rules, yet what the audience most wishes for tends to be that which breaks the rules. \n<@lv.item><High Tide></>Unable to deploy on flooded tiles. Allied units and enemies in the water will suffer from 'Erosion': Allied units have reduced ASPD, continually receive Corrosion Damage and receive additional Corrosion Damage when attacked; Enemies have reduced ASPD and Movement Speed, and continually lose HP",
 	"hardStagedId": null,
-	"dangerLevel": "Elite 1 Lv. 20",
+	"dangerLevel": "Elite 1 Lv.20",
 	"dangerPoint": -1,
 	"loadingPicId": "loading_Bolivar_sea",
 	"canPractice": true,
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {

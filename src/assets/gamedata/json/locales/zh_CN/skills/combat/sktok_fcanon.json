@@ -7,10 +7,10 @@
 			"name": "开炮！",
 			"rangeId": "1-1",
 			"description": "向前方射出一发炮弹，碰到第一名我方干员时造成范围物理伤害",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 7,
@@ -22,11 +22,13 @@
 			"blackboard": [
 				{
 					"key": "atk_scale",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "range_radius",
-					"value": 1.25
+					"value": 1.25,
+					"valueStr": null
 				}
 			]
 		}

@@ -1,0 +1,46 @@
+{
+	"skillId": "sktok_salecard",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "临调",
+			"rangeId": null,
+			"description": "部署后，从<@ba.vup>预备区</>随机检视<@ba.vup>{range_num}名</>单位，可选择<@ba.vup>0-{can_select_num}名</>单位使其消失（本场战斗不再出现）且转换为<@ba.vup>{sell_card_gold}</>调用凭证。\\n<@ba.rem>触发后自身消失（本场战斗不再出现）</>",
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "sktok_salecard",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "value",
+					"value": 1,
+					"valueStr": null
+				},
+				{
+					"key": "range_num",
+					"value": 4,
+					"valueStr": null
+				},
+				{
+					"key": "can_select_num",
+					"value": 2,
+					"valueStr": null
+				},
+				{
+					"key": "sell_card_gold",
+					"value": 15,
+					"valueStr": null
+				}
+			]
+		}
+	]
+}

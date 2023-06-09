@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act12side_04",
@@ -10,10 +11,10 @@
 	],
 	"stageId": "act12side_05",
 	"levelId": "Activities/ACT12SIDE/level_act12side_05",
-	"zoneId": "act12side_zone1",
+	"zoneId": "act12sre_zone1",
 	"code": "DH-5",
 	"name": "Winding Path to Victory",
-	"description": "Some take shortcuts for the sake of victory, while others have no choice but to do so. \n<@lv.item><High Tide></> Unable to deploy on flooded tiles. Allied units and enemies in the water will be affected by 'Erosion': Allied units have reduced ASPD, continually receive Corrosion Damage and receive additional Corrosion Damage when attacked; Enemies have reduced ASPD and Movement Speed, and continually lose HP",
+	"description": "Some take shortcuts for the sake of victory, while others have no choice but to do so. \n<@lv.item><High Tide></>Unable to deploy on flooded tiles. Allied units and enemies in the water will suffer from 'Erosion': Allied units have reduced ASPD, continually receive Corrosion Damage and receive additional Corrosion Damage when attacked; Enemies have reduced ASPD and Movement Speed, and continually lose HP",
 	"hardStagedId": null,
 	"dangerLevel": "Elite 1 Lv. 40",
 	"dangerPoint": -1,
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {

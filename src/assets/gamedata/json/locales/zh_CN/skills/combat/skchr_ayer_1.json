@@ -7,10 +7,10 @@
 			"name": "多导向散射弹丸",
 			"rangeId": null,
 			"description": "下次攻击对攻击范围内最多<@ba.vup>{max_target}</>名敌人造成攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害，并使目标<$ba.sluggish>停顿</><@ba.vup>{sluggish:0.0}</>秒",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 2,
+				"spType": "INCREASE_WHEN_ATTACK",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 6,
@@ -22,15 +22,18 @@
 			"blackboard": [
 				{
 					"key": "atk_scale",
-					"value": 1.1
+					"value": 1.1,
+					"valueStr": null
 				},
 				{
 					"key": "sluggish",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "max_target",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				}
 			]
 		},
@@ -38,10 +41,10 @@
 			"name": "多导向散射弹丸",
 			"rangeId": null,
 			"description": "下次攻击对攻击范围内最多<@ba.vup>{max_target}</>名敌人造成攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害，并使目标<$ba.sluggish>停顿</><@ba.vup>{sluggish:0.0}</>秒",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 2,
+				"spType": "INCREASE_WHEN_ATTACK",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 6,
@@ -53,15 +56,18 @@
 			"blackboard": [
 				{
 					"key": "atk_scale",
-					"value": 1.15
+					"value": 1.15,
+					"valueStr": null
 				},
 				{
 					"key": "sluggish",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "max_target",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				}
 			]
 		},
@@ -69,10 +75,10 @@
 			"name": "多导向散射弹丸",
 			"rangeId": null,
 			"description": "下次攻击对攻击范围内最多<@ba.vup>{max_target}</>名敌人造成攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害，并使目标<$ba.sluggish>停顿</><@ba.vup>{sluggish:0.0}</>秒",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 2,
+				"spType": "INCREASE_WHEN_ATTACK",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 6,
@@ -84,15 +90,18 @@
 			"blackboard": [
 				{
 					"key": "atk_scale",
-					"value": 1.2
+					"value": 1.2,
+					"valueStr": null
 				},
 				{
 					"key": "sluggish",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "max_target",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				}
 			]
 		},
@@ -100,10 +109,10 @@
 			"name": "多导向散射弹丸",
 			"rangeId": null,
 			"description": "下次攻击对攻击范围内最多<@ba.vup>{max_target}</>名敌人造成攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害，并使目标<$ba.sluggish>停顿</><@ba.vup>{sluggish:0.0}</>秒",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 2,
+				"spType": "INCREASE_WHEN_ATTACK",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 5,
@@ -115,15 +124,18 @@
 			"blackboard": [
 				{
 					"key": "atk_scale",
-					"value": 1.25
+					"value": 1.25,
+					"valueStr": null
 				},
 				{
 					"key": "sluggish",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "max_target",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				}
 			]
 		},
@@ -131,10 +143,10 @@
 			"name": "多导向散射弹丸",
 			"rangeId": null,
 			"description": "下次攻击对攻击范围内最多<@ba.vup>{max_target}</>名敌人造成攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害，并使目标<$ba.sluggish>停顿</><@ba.vup>{sluggish:0.0}</>秒",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 2,
+				"spType": "INCREASE_WHEN_ATTACK",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 5,
@@ -146,15 +158,18 @@
 			"blackboard": [
 				{
 					"key": "atk_scale",
-					"value": 1.3
+					"value": 1.3,
+					"valueStr": null
 				},
 				{
 					"key": "sluggish",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "max_target",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				}
 			]
 		},
@@ -162,10 +177,10 @@
 			"name": "多导向散射弹丸",
 			"rangeId": null,
 			"description": "下次攻击对攻击范围内最多<@ba.vup>{max_target}</>名敌人造成攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害，并使目标<$ba.sluggish>停顿</><@ba.vup>{sluggish:0.0}</>秒",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 2,
+				"spType": "INCREASE_WHEN_ATTACK",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 5,
@@ -177,15 +192,18 @@
 			"blackboard": [
 				{
 					"key": "atk_scale",
-					"value": 1.35
+					"value": 1.35,
+					"valueStr": null
 				},
 				{
 					"key": "sluggish",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "max_target",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				}
 			]
 		},
@@ -193,10 +211,10 @@
 			"name": "多导向散射弹丸",
 			"rangeId": null,
 			"description": "下次攻击对攻击范围内最多<@ba.vup>{max_target}</>名敌人造成攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害，并使目标<$ba.sluggish>停顿</><@ba.vup>{sluggish:0.0}</>秒",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 2,
+				"spType": "INCREASE_WHEN_ATTACK",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 4,
@@ -208,15 +226,18 @@
 			"blackboard": [
 				{
 					"key": "atk_scale",
-					"value": 1.4
+					"value": 1.4,
+					"valueStr": null
 				},
 				{
 					"key": "sluggish",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "max_target",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				}
 			]
 		},
@@ -224,10 +245,10 @@
 			"name": "多导向散射弹丸",
 			"rangeId": null,
 			"description": "下次攻击对攻击范围内最多<@ba.vup>{max_target}</>名敌人造成攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害，并使目标<$ba.sluggish>停顿</><@ba.vup>{sluggish:0.0}</>秒",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 2,
+				"spType": "INCREASE_WHEN_ATTACK",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 4,
@@ -239,15 +260,18 @@
 			"blackboard": [
 				{
 					"key": "atk_scale",
-					"value": 1.45
+					"value": 1.45,
+					"valueStr": null
 				},
 				{
 					"key": "sluggish",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "max_target",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				}
 			]
 		},
@@ -255,10 +279,10 @@
 			"name": "多导向散射弹丸",
 			"rangeId": null,
 			"description": "下次攻击对攻击范围内最多<@ba.vup>{max_target}</>名敌人造成攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害，并使目标<$ba.sluggish>停顿</><@ba.vup>{sluggish:0.0}</>秒",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 2,
+				"spType": "INCREASE_WHEN_ATTACK",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 4,
@@ -270,15 +294,18 @@
 			"blackboard": [
 				{
 					"key": "atk_scale",
-					"value": 1.5
+					"value": 1.5,
+					"valueStr": null
 				},
 				{
 					"key": "sluggish",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "max_target",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				}
 			]
 		},
@@ -286,10 +313,10 @@
 			"name": "多导向散射弹丸",
 			"rangeId": null,
 			"description": "下次攻击对攻击范围内最多<@ba.vup>{max_target}</>名敌人造成攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害，并使目标<$ba.sluggish>停顿</><@ba.vup>{sluggish:0.0}</>秒",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 2,
+				"spType": "INCREASE_WHEN_ATTACK",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 3,
@@ -301,15 +328,18 @@
 			"blackboard": [
 				{
 					"key": "atk_scale",
-					"value": 1.6
+					"value": 1.6,
+					"valueStr": null
 				},
 				{
 					"key": "sluggish",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "max_target",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				}
 			]
 		}

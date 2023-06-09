@@ -7,8 +7,8 @@
 			"name": "天然隐蔽",
 			"rangeId": "x-5",
 			"description": "相邻的我方单位防御<@ba.vup>提升</>；被<罗德岛临时雇员>清理后成为可部署的远程位",
-			"skillType": 0,
-			"durationType": 0,
+			"skillType": "PASSIVE",
+			"durationType": "PASSIVE",
 			"spData": {
 				"spType": 8,
 				"levelUpCost": null,
@@ -22,7 +22,8 @@
 			"blackboard": [
 				{
 					"key": "def",
-					"value": 150
+					"value": 150,
+					"valueStr": null
 				}
 			]
 		}

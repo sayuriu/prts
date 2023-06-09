@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act15d0_03",
@@ -10,7 +11,7 @@
 	],
 	"stageId": "act15d0_st01",
 	"levelId": null,
-	"zoneId": "act15d0_zone1",
+	"zoneId": "act8sre_zone1",
 	"code": "MB-ST-1",
 	"name": "초대",
 	"description": "초대하는 목적이 꼭 상대방을 자기 편에 끌어들이려는 것만 있는 건 아니다.",
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": true,
 	"appearanceStyle": 0,
 	"stageDropInfo": {

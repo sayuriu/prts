@@ -7,10 +7,10 @@
 			"name": "开启阀门",
 			"rangeId": "x-4",
 			"description": "开启时，攻击范围内所有我方单位每秒受到<@ba.vup>120</>点真实伤害",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 30,
@@ -22,7 +22,8 @@
 			"blackboard": [
 				{
 					"key": "attack@damage",
-					"value": 120
+					"value": 120,
+					"valueStr": null
 				}
 			]
 		}

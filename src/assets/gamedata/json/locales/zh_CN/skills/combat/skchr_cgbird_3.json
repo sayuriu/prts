@@ -7,10 +7,10 @@
 			"name": "圣域",
 			"rangeId": "y-4",
 			"description": "攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>，攻击范围内的友方单位法术抗性<@ba.vup>+{magic_resistance:0%}</>并获得<@ba.vup>{prob:0%}</>的法术闪避",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 120,
@@ -22,15 +22,18 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.3
+					"value": 0.3,
+					"valueStr": null
 				},
 				{
 					"key": "magic_resistance",
-					"value": 0.75
+					"value": 0.75,
+					"valueStr": null
 				},
 				{
 					"key": "prob",
-					"value": 0.1
+					"value": 0.1,
+					"valueStr": null
 				}
 			]
 		},
@@ -38,10 +41,10 @@
 			"name": "圣域",
 			"rangeId": "y-4",
 			"description": "攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>，攻击范围内的友方单位法术抗性<@ba.vup>+{magic_resistance:0%}</>并获得<@ba.vup>{prob:0%}</>的法术闪避",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 120,
@@ -53,15 +56,18 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.3
+					"value": 0.3,
+					"valueStr": null
 				},
 				{
 					"key": "magic_resistance",
-					"value": 0.8
+					"value": 0.8,
+					"valueStr": null
 				},
 				{
 					"key": "prob",
-					"value": 0.1
+					"value": 0.1,
+					"valueStr": null
 				}
 			]
 		},
@@ -69,10 +75,10 @@
 			"name": "圣域",
 			"rangeId": "y-4",
 			"description": "攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>，攻击范围内的友方单位法术抗性<@ba.vup>+{magic_resistance:0%}</>并获得<@ba.vup>{prob:0%}</>的法术闪避",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 120,
@@ -84,15 +90,18 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.3
+					"value": 0.3,
+					"valueStr": null
 				},
 				{
 					"key": "magic_resistance",
-					"value": 0.85
+					"value": 0.85,
+					"valueStr": null
 				},
 				{
 					"key": "prob",
-					"value": 0.1
+					"value": 0.1,
+					"valueStr": null
 				}
 			]
 		},
@@ -100,10 +109,10 @@
 			"name": "圣域",
 			"rangeId": "y-4",
 			"description": "攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>，攻击范围内的友方单位法术抗性<@ba.vup>+{magic_resistance:0%}</>并获得<@ba.vup>{prob:0%}</>的法术闪避",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 120,
@@ -115,15 +124,18 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.4
+					"value": 0.4,
+					"valueStr": null
 				},
 				{
 					"key": "magic_resistance",
-					"value": 0.9
+					"value": 0.9,
+					"valueStr": null
 				},
 				{
 					"key": "prob",
-					"value": 0.15
+					"value": 0.15,
+					"valueStr": null
 				}
 			]
 		},
@@ -131,10 +143,10 @@
 			"name": "圣域",
 			"rangeId": "y-4",
 			"description": "攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>，攻击范围内的友方单位法术抗性<@ba.vup>+{magic_resistance:0%}</>并获得<@ba.vup>{prob:0%}</>的法术闪避",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 120,
@@ -146,15 +158,18 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.4
+					"value": 0.4,
+					"valueStr": null
 				},
 				{
 					"key": "magic_resistance",
-					"value": 0.95
+					"value": 0.95,
+					"valueStr": null
 				},
 				{
 					"key": "prob",
-					"value": 0.15
+					"value": 0.15,
+					"valueStr": null
 				}
 			]
 		},
@@ -162,10 +177,10 @@
 			"name": "圣域",
 			"rangeId": "y-4",
 			"description": "攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>，攻击范围内的友方单位法术抗性<@ba.vup>+{magic_resistance:0%}</>并获得<@ba.vup>{prob:0%}</>的法术闪避",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 120,
@@ -177,15 +192,18 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.4
+					"value": 0.4,
+					"valueStr": null
 				},
 				{
 					"key": "magic_resistance",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "prob",
-					"value": 0.15
+					"value": 0.15,
+					"valueStr": null
 				}
 			]
 		},
@@ -193,10 +211,10 @@
 			"name": "圣域",
 			"rangeId": "y-4",
 			"description": "攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>，攻击范围内的友方单位法术抗性<@ba.vup>+{magic_resistance:0%}</>并获得<@ba.vup>{prob:0%}</>的法术闪避",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 120,
@@ -208,15 +226,18 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				},
 				{
 					"key": "magic_resistance",
-					"value": 1.05
+					"value": 1.05,
+					"valueStr": null
 				},
 				{
 					"key": "prob",
-					"value": 0.2
+					"value": 0.2,
+					"valueStr": null
 				}
 			]
 		},
@@ -224,10 +245,10 @@
 			"name": "圣域",
 			"rangeId": "y-4",
 			"description": "攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>，攻击范围内的友方单位法术抗性<@ba.vup>+{magic_resistance:0%}</>并获得<@ba.vup>{prob:0%}</>的法术闪避",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 120,
@@ -239,15 +260,18 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.6
+					"value": 0.6,
+					"valueStr": null
 				},
 				{
 					"key": "magic_resistance",
-					"value": 1.2
+					"value": 1.2,
+					"valueStr": null
 				},
 				{
 					"key": "prob",
-					"value": 0.2
+					"value": 0.2,
+					"valueStr": null
 				}
 			]
 		},
@@ -255,10 +279,10 @@
 			"name": "圣域",
 			"rangeId": "y-4",
 			"description": "攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>，攻击范围内的友方单位法术抗性<@ba.vup>+{magic_resistance:0%}</>并获得<@ba.vup>{prob:0%}</>的法术闪避",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 120,
@@ -270,15 +294,18 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.7
+					"value": 0.7,
+					"valueStr": null
 				},
 				{
 					"key": "magic_resistance",
-					"value": 1.35
+					"value": 1.35,
+					"valueStr": null
 				},
 				{
 					"key": "prob",
-					"value": 0.2
+					"value": 0.2,
+					"valueStr": null
 				}
 			]
 		},
@@ -286,10 +313,10 @@
 			"name": "圣域",
 			"rangeId": "y-4",
 			"description": "攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>，攻击范围内的友方单位法术抗性<@ba.vup>+{magic_resistance:0%}</>并获得<@ba.vup>{prob:0%}</>的法术闪避",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 120,
@@ -301,15 +328,18 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.8
+					"value": 0.8,
+					"valueStr": null
 				},
 				{
 					"key": "magic_resistance",
-					"value": 1.5
+					"value": 1.5,
+					"valueStr": null
 				},
 				{
 					"key": "prob",
-					"value": 0.25
+					"value": 0.25,
+					"valueStr": null
 				}
 			]
 		}

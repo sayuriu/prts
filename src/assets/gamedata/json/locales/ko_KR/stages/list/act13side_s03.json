@@ -1,0 +1,88 @@
+{
+	"stageType": "ACTIVITY",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
+	"unlockCondition": [
+		{
+			"stageId": "act13side_s01",
+			"completeState": 2
+		},
+		{
+			"stageId": "act13side_s02",
+			"completeState": 2
+		}
+	],
+	"stageId": "act13side_s03",
+	"levelId": "Activities/act13side/level_act13side_sub-1-3",
+	"zoneId": "act13sre_zone3",
+	"code": "NL-S-3",
+	"name": "노바 주둔지",
+	"description": "노바 기사단 본부가 이곳에 있으며, 양초의 기사가 공무를 볼 때 이곳을 방문하곤 한다. 그녀가 오면, 찬란했던 네온사인은 온데간데없이 사라지고, 촛불만 남아 하늘거리며 반짝인다.\n<@lv.item><네온사인></> 기본적인 시야를 확보할 수 있으며, 가동 시 시야 범위 확대\n<@lv.rem>추가 조건:</> 희미한 빛의 공격 범위 대폭 확대",
+	"hardStagedId": "act13side_s03#f#",
+	"dangerLevel": "-",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_Kazimierz_Street",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 20,
+	"apFailReturn": 19,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": 0,
+	"expGain": 200,
+	"goldGain": 200,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 19,
+	"completeFavor": 20,
+	"slProgress": 0,
+	"displayMainItem": null,
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 0,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act13side_token_model_rep_1",
+				"dropType": 8
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 0,
+				"type": "ACTIVITY_ITEM",
+				"id": "act13side_token_model_rep_1",
+				"dropType": 8
+			},
+			{
+				"occPercent": 0,
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		]
+	},
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "act13side_s01"
+}

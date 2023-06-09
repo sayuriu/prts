@@ -7,10 +7,10 @@
 			"name": "启动！",
 			"rangeId": null,
 			"description": "消耗<@ba.vup>{cost}</>点部署费用，防御力<@ba.vup>+{def:0%}</>，法术抗性<@ba.vup>+{magic_resistance}</>，每秒回复10点生命，部署干员单位数<@ba.vup>+{value}</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 120,
@@ -22,23 +22,28 @@
 			"blackboard": [
 				{
 					"key": "value",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "def",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				},
 				{
 					"key": "magic_resistance",
-					"value": 20
+					"value": 20,
+					"valueStr": null
 				},
 				{
 					"key": "hp_recovery_per_sec",
-					"value": 10
+					"value": 10,
+					"valueStr": null
 				},
 				{
 					"key": "cost",
-					"value": 20
+					"value": 20,
+					"valueStr": null
 				}
 			]
 		}

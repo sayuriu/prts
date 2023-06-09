@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act16d5_09",
@@ -10,7 +11,7 @@
 	],
 	"stageId": "act16d5_10",
 	"levelId": "Activities/act16d5/level_act16d5_10",
-	"zoneId": "act16d5_zone1",
+	"zoneId": "act9sre_zone1",
 	"code": "WR-10",
 	"name": "시",
 	"description": "그녀는 자신의 오래된 영혼을 그림에 가두고 제멋대로 자신의 역사를 털어놓았다.\n<@lv.item><명암 인장></> 배치된 오퍼레이터는 명암 속성 획득\n<@lv.item><개량형 양자폭죽></> 주변 4칸의 적에게 마법 대미지, 효과 범위 내 명암 속성 변화",
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {
@@ -52,12 +54,12 @@
 		"displayRewards": [
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act16d5_token_inker",
+				"id": "act16d5_token_inker_rep_1",
 				"dropType": 8
 			},
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act16d5_token_inker",
+				"id": "act16d5_token_inker_rep_1",
 				"dropType": 2
 			},
 			{
@@ -75,13 +77,13 @@
 			{
 				"occPercent": 0,
 				"type": "ACTIVITY_ITEM",
-				"id": "act16d5_token_inker",
+				"id": "act16d5_token_inker_rep_1",
 				"dropType": 8
 			},
 			{
 				"occPercent": 0,
 				"type": "ACTIVITY_ITEM",
-				"id": "act16d5_token_inker",
+				"id": "act16d5_token_inker_rep_1",
 				"dropType": 2
 			},
 			{

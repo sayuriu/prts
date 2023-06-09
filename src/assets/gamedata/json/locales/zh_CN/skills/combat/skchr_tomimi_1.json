@@ -5,12 +5,12 @@
 	"levels": [
 		{
 			"name": "部族技艺",
-			"rangeId": "1-2",
+			"rangeId": null,
 			"description": "攻击速度<@ba.vup>+{attack_speed}</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 40,
@@ -22,18 +22,19 @@
 			"blackboard": [
 				{
 					"key": "attack_speed",
-					"value": 30
+					"value": 30,
+					"valueStr": null
 				}
 			]
 		},
 		{
 			"name": "部族技艺",
-			"rangeId": "1-2",
+			"rangeId": null,
 			"description": "攻击速度<@ba.vup>+{attack_speed}</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 40,
@@ -45,18 +46,19 @@
 			"blackboard": [
 				{
 					"key": "attack_speed",
-					"value": 35
+					"value": 35,
+					"valueStr": null
 				}
 			]
 		},
 		{
 			"name": "部族技艺",
-			"rangeId": "1-2",
+			"rangeId": null,
 			"description": "攻击速度<@ba.vup>+{attack_speed}</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 40,
@@ -68,18 +70,19 @@
 			"blackboard": [
 				{
 					"key": "attack_speed",
-					"value": 40
+					"value": 40,
+					"valueStr": null
 				}
 			]
 		},
 		{
 			"name": "部族技艺",
-			"rangeId": "1-2",
+			"rangeId": null,
 			"description": "攻击速度<@ba.vup>+{attack_speed}</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 35,
@@ -91,18 +94,19 @@
 			"blackboard": [
 				{
 					"key": "attack_speed",
-					"value": 45
+					"value": 45,
+					"valueStr": null
 				}
 			]
 		},
 		{
 			"name": "部族技艺",
-			"rangeId": "1-2",
+			"rangeId": null,
 			"description": "攻击速度<@ba.vup>+{attack_speed}</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 35,
@@ -114,18 +118,19 @@
 			"blackboard": [
 				{
 					"key": "attack_speed",
-					"value": 50
+					"value": 50,
+					"valueStr": null
 				}
 			]
 		},
 		{
 			"name": "部族技艺",
-			"rangeId": "1-2",
+			"rangeId": null,
 			"description": "攻击速度<@ba.vup>+{attack_speed}</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 35,
@@ -137,18 +142,19 @@
 			"blackboard": [
 				{
 					"key": "attack_speed",
-					"value": 55
+					"value": 55,
+					"valueStr": null
 				}
 			]
 		},
 		{
 			"name": "部族技艺",
-			"rangeId": "1-2",
+			"rangeId": null,
 			"description": "攻击速度<@ba.vup>+{attack_speed}</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 32,
@@ -160,18 +166,19 @@
 			"blackboard": [
 				{
 					"key": "attack_speed",
-					"value": 60
+					"value": 60,
+					"valueStr": null
 				}
 			]
 		},
 		{
 			"name": "部族技艺",
-			"rangeId": "1-2",
+			"rangeId": null,
 			"description": "攻击速度<@ba.vup>+{attack_speed}</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 32,
@@ -183,18 +190,19 @@
 			"blackboard": [
 				{
 					"key": "attack_speed",
-					"value": 70
+					"value": 70,
+					"valueStr": null
 				}
 			]
 		},
 		{
 			"name": "部族技艺",
-			"rangeId": "1-2",
+			"rangeId": null,
 			"description": "攻击速度<@ba.vup>+{attack_speed}</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 32,
@@ -206,18 +214,19 @@
 			"blackboard": [
 				{
 					"key": "attack_speed",
-					"value": 80
+					"value": 80,
+					"valueStr": null
 				}
 			]
 		},
 		{
 			"name": "部族技艺",
-			"rangeId": "1-2",
+			"rangeId": null,
 			"description": "攻击速度<@ba.vup>+{attack_speed}</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 30,
@@ -229,7 +238,8 @@
 			"blackboard": [
 				{
 					"key": "attack_speed",
-					"value": 90
+					"value": 90,
+					"valueStr": null
 				}
 			]
 		}

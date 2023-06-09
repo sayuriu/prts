@@ -1,0 +1,34 @@
+{
+	"skillId": "sktok_bbombcard",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "爆発",
+			"rangeId": null,
+			"description": "準備エリアから移った時爆発し、味方全員に<@ba.vup>{damage}</>の<@ba.vup>確定</>ダメージを与え、<@ba.vup>{stun}</>秒間<$ba.stun>スタン</>させる",
+			"skillType": 0,
+			"durationType": 0,
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 0,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": null,
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "damage",
+					"value": 500
+				},
+				{
+					"key": "stun",
+					"value": 5
+				}
+			]
+		}
+	]
+}

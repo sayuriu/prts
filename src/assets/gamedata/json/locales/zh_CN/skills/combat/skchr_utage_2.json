@@ -7,8 +7,8 @@
 			"name": "落地斩·破门",
 			"rangeId": null,
 			"description": "部署后立即流失<@ba.vdown>{hp_ratio:0%}</>当前生命，并在<@ba.vup>{duration}</>秒内攻击力<@ba.vup>+{atk:0%}</>，伤害类型变为<@ba.vup>法术</>",
-			"skillType": 0,
-			"durationType": 0,
+			"skillType": "PASSIVE",
+			"durationType": "PASSIVE",
 			"spData": {
 				"spType": 8,
 				"levelUpCost": null,
@@ -22,19 +22,23 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 13
+					"value": 13,
+					"valueStr": null
 				},
 				{
 					"key": "hp_ratio",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				},
 				{
 					"key": "respawn_time",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -42,8 +46,8 @@
 			"name": "落地斩·破门",
 			"rangeId": null,
 			"description": "部署后立即流失<@ba.vdown>{hp_ratio:0%}</>当前生命，并在<@ba.vup>{duration}</>秒内攻击力<@ba.vup>+{atk:0%}</>，伤害类型变为<@ba.vup>法术</>",
-			"skillType": 0,
-			"durationType": 0,
+			"skillType": "PASSIVE",
+			"durationType": "PASSIVE",
 			"spData": {
 				"spType": 8,
 				"levelUpCost": null,
@@ -57,19 +61,23 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.55
+					"value": 0.55,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 13
+					"value": 13,
+					"valueStr": null
 				},
 				{
 					"key": "hp_ratio",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				},
 				{
 					"key": "respawn_time",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -77,8 +85,8 @@
 			"name": "落地斩·破门",
 			"rangeId": null,
 			"description": "部署后立即流失<@ba.vdown>{hp_ratio:0%}</>当前生命，并在<@ba.vup>{duration}</>秒内攻击力<@ba.vup>+{atk:0%}</>，伤害类型变为<@ba.vup>法术</>",
-			"skillType": 0,
-			"durationType": 0,
+			"skillType": "PASSIVE",
+			"durationType": "PASSIVE",
 			"spData": {
 				"spType": 8,
 				"levelUpCost": null,
@@ -92,19 +100,23 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.6
+					"value": 0.6,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 13
+					"value": 13,
+					"valueStr": null
 				},
 				{
 					"key": "hp_ratio",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				},
 				{
 					"key": "respawn_time",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -112,8 +124,8 @@
 			"name": "落地斩·破门",
 			"rangeId": null,
 			"description": "部署后立即流失<@ba.vdown>{hp_ratio:0%}</>当前生命，并在<@ba.vup>{duration}</>秒内攻击力<@ba.vup>+{atk:0%}</>，伤害类型变为<@ba.vup>法术</>",
-			"skillType": 0,
-			"durationType": 0,
+			"skillType": "PASSIVE",
+			"durationType": "PASSIVE",
 			"spData": {
 				"spType": 8,
 				"levelUpCost": null,
@@ -127,19 +139,23 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.65
+					"value": 0.65,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 14
+					"value": 14,
+					"valueStr": null
 				},
 				{
 					"key": "hp_ratio",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				},
 				{
 					"key": "respawn_time",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -147,8 +163,8 @@
 			"name": "落地斩·破门",
 			"rangeId": null,
 			"description": "部署后立即流失<@ba.vdown>{hp_ratio:0%}</>当前生命，并在<@ba.vup>{duration}</>秒内攻击力<@ba.vup>+{atk:0%}</>，伤害类型变为<@ba.vup>法术</>",
-			"skillType": 0,
-			"durationType": 0,
+			"skillType": "PASSIVE",
+			"durationType": "PASSIVE",
 			"spData": {
 				"spType": 8,
 				"levelUpCost": null,
@@ -162,19 +178,23 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.7
+					"value": 0.7,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 14
+					"value": 14,
+					"valueStr": null
 				},
 				{
 					"key": "hp_ratio",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				},
 				{
 					"key": "respawn_time",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -182,8 +202,8 @@
 			"name": "落地斩·破门",
 			"rangeId": null,
 			"description": "部署后立即流失<@ba.vdown>{hp_ratio:0%}</>当前生命，并在<@ba.vup>{duration}</>秒内攻击力<@ba.vup>+{atk:0%}</>，伤害类型变为<@ba.vup>法术</>",
-			"skillType": 0,
-			"durationType": 0,
+			"skillType": "PASSIVE",
+			"durationType": "PASSIVE",
 			"spData": {
 				"spType": 8,
 				"levelUpCost": null,
@@ -197,19 +217,23 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.75
+					"value": 0.75,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 14
+					"value": 14,
+					"valueStr": null
 				},
 				{
 					"key": "hp_ratio",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				},
 				{
 					"key": "respawn_time",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -217,8 +241,8 @@
 			"name": "落地斩·破门",
 			"rangeId": null,
 			"description": "部署后立即流失<@ba.vdown>{hp_ratio:0%}</>当前生命，并在<@ba.vup>{duration}</>秒内攻击力<@ba.vup>+{atk:0%}</>，伤害类型变为<@ba.vup>法术</>",
-			"skillType": 0,
-			"durationType": 0,
+			"skillType": "PASSIVE",
+			"durationType": "PASSIVE",
 			"spData": {
 				"spType": 8,
 				"levelUpCost": null,
@@ -232,19 +256,23 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.8
+					"value": 0.8,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 15
+					"value": 15,
+					"valueStr": null
 				},
 				{
 					"key": "hp_ratio",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				},
 				{
 					"key": "respawn_time",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -252,8 +280,8 @@
 			"name": "落地斩·破门",
 			"rangeId": null,
 			"description": "部署后立即流失<@ba.vdown>{hp_ratio:0%}</>当前生命，并在<@ba.vup>{duration}</>秒内攻击力<@ba.vup>+{atk:0%}</>，伤害类型变为<@ba.vup>法术</>",
-			"skillType": 0,
-			"durationType": 0,
+			"skillType": "PASSIVE",
+			"durationType": "PASSIVE",
 			"spData": {
 				"spType": 8,
 				"levelUpCost": null,
@@ -267,19 +295,23 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.9
+					"value": 0.9,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 15
+					"value": 15,
+					"valueStr": null
 				},
 				{
 					"key": "hp_ratio",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				},
 				{
 					"key": "respawn_time",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -287,8 +319,8 @@
 			"name": "落地斩·破门",
 			"rangeId": null,
 			"description": "部署后立即流失<@ba.vdown>{hp_ratio:0%}</>当前生命，并在<@ba.vup>{duration}</>秒内攻击力<@ba.vup>+{atk:0%}</>，伤害类型变为<@ba.vup>法术</>",
-			"skillType": 0,
-			"durationType": 0,
+			"skillType": "PASSIVE",
+			"durationType": "PASSIVE",
 			"spData": {
 				"spType": 8,
 				"levelUpCost": null,
@@ -302,19 +334,23 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 15
+					"value": 15,
+					"valueStr": null
 				},
 				{
 					"key": "hp_ratio",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				},
 				{
 					"key": "respawn_time",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -322,8 +358,8 @@
 			"name": "落地斩·破门",
 			"rangeId": null,
 			"description": "部署后立即流失<@ba.vdown>{hp_ratio:0%}</>当前生命，并在<@ba.vup>{duration}</>秒内攻击力<@ba.vup>+{atk:0%}</>，伤害类型变为<@ba.vup>法术</>",
-			"skillType": 0,
-			"durationType": 0,
+			"skillType": "PASSIVE",
+			"durationType": "PASSIVE",
 			"spData": {
 				"spType": 8,
 				"levelUpCost": null,
@@ -337,19 +373,23 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 1.1
+					"value": 1.1,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 16
+					"value": 16,
+					"valueStr": null
 				},
 				{
 					"key": "hp_ratio",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				},
 				{
 					"key": "respawn_time",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		}

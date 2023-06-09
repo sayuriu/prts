@@ -2,7 +2,10 @@
 	"name": "宴",
 	"description": "不成为其他角色的治疗目标，每次攻击到敌人后回复自身<@ba.kw>{value}</>生命",
 	"canUseGeneralPotentialItem": true,
+	"canUseActivityPotentialItem": false,
 	"potentialItemId": "p_char_337_utage",
+	"activityPotentialItemId": null,
+	"classicPotentialItemId": "class_p_char_337_utage",
 	"nationId": "higashi",
 	"groupId": null,
 	"teamId": null,
@@ -20,21 +23,22 @@
 	"isNotObtainable": false,
 	"isSpChar": false,
 	"maxPotentialLevel": 5,
-	"rarity": 3,
+	"rarity": "TIER_4",
 	"profession": "WARRIOR",
 	"subProfessionId": "musha",
 	"trait": {
 		"candidates": [
 			{
 				"unlockCondition": {
-					"phase": 0,
+					"phase": "PHASE_0",
 					"level": 1
 				},
 				"requiredPotentialRank": 0,
 				"blackboard": [
 					{
 						"key": "value",
-						"value": 30
+						"value": 30,
+						"valueStr": null
 					}
 				],
 				"overrideDescripton": "不成为其他角色的治疗目标，每次攻击到敌人后回复自身<@ba.kw>{value}</>生命（精英1后更新）",
@@ -43,14 +47,15 @@
 			},
 			{
 				"unlockCondition": {
-					"phase": 1,
+					"phase": "PHASE_1",
 					"level": 1
 				},
 				"requiredPotentialRank": 0,
 				"blackboard": [
 					{
 						"key": "value",
-						"value": 50
+						"value": 50,
+						"valueStr": null
 					}
 				],
 				"overrideDescripton": "不成为其他角色的治疗目标，每次攻击到敌人后回复自身<@ba.kw>{value}</>生命（精英2后更新）",
@@ -59,14 +64,15 @@
 			},
 			{
 				"unlockCondition": {
-					"phase": 2,
+					"phase": "PHASE_2",
 					"level": 1
 				},
 				"requiredPotentialRank": 0,
 				"blackboard": [
 					{
 						"key": "value",
-						"value": 70
+						"value": 70,
+						"valueStr": null
 					}
 				],
 				"overrideDescripton": "不成为其他角色的治疗目标，每次攻击到敌人后回复自身<@ba.kw>{value}</>生命",
@@ -104,7 +110,8 @@
 						"stunImmune": false,
 						"silenceImmune": false,
 						"sleepImmune": false,
-						"frozenImmune": false
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -130,7 +137,8 @@
 						"stunImmune": false,
 						"silenceImmune": false,
 						"sleepImmune": false,
-						"frozenImmune": false
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -164,7 +172,8 @@
 						"stunImmune": false,
 						"silenceImmune": false,
 						"sleepImmune": false,
-						"frozenImmune": false
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -190,7 +199,8 @@
 						"stunImmune": false,
 						"silenceImmune": false,
 						"sleepImmune": false,
-						"frozenImmune": false
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -240,7 +250,8 @@
 						"stunImmune": false,
 						"silenceImmune": false,
 						"sleepImmune": false,
-						"frozenImmune": false
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -266,7 +277,8 @@
 						"stunImmune": false,
 						"silenceImmune": false,
 						"sleepImmune": false,
-						"frozenImmune": false
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -297,7 +309,7 @@
 			"levelUpCostCond": [
 				{
 					"unlockCond": {
-						"phase": 2,
+						"phase": "PHASE_2",
 						"level": 1
 					},
 					"lvlUpTime": 28800,
@@ -321,7 +333,7 @@
 				},
 				{
 					"unlockCond": {
-						"phase": 2,
+						"phase": "PHASE_2",
 						"level": 1
 					},
 					"lvlUpTime": 57600,
@@ -345,7 +357,7 @@
 				},
 				{
 					"unlockCond": {
-						"phase": 2,
+						"phase": "PHASE_2",
 						"level": 1
 					},
 					"lvlUpTime": 86400,
@@ -369,7 +381,7 @@
 				}
 			],
 			"unlockCond": {
-				"phase": 0,
+				"phase": "PHASE_0",
 				"level": 1
 			}
 		},
@@ -380,7 +392,7 @@
 			"levelUpCostCond": [
 				{
 					"unlockCond": {
-						"phase": 2,
+						"phase": "PHASE_2",
 						"level": 1
 					},
 					"lvlUpTime": 28800,
@@ -404,7 +416,7 @@
 				},
 				{
 					"unlockCond": {
-						"phase": 2,
+						"phase": "PHASE_2",
 						"level": 1
 					},
 					"lvlUpTime": 57600,
@@ -428,7 +440,7 @@
 				},
 				{
 					"unlockCond": {
-						"phase": 2,
+						"phase": "PHASE_2",
 						"level": 1
 					},
 					"lvlUpTime": 86400,
@@ -452,7 +464,7 @@
 				}
 			],
 			"unlockCond": {
-				"phase": 1,
+				"phase": "PHASE_1",
 				"level": 1
 			}
 		}
@@ -462,88 +474,70 @@
 			"candidates": [
 				{
 					"unlockCondition": {
-						"phase": 0,
+						"phase": "PHASE_0",
 						"level": 1
 					},
 					"requiredPotentialRank": 0,
 					"prefabKey": "1",
 					"name": "认真模式",
-					"description": "根据已损失的生命值，提高攻击速度（损失50%生命值时达到最大可提升攻击速度50）",
+					"description": "在场时，自身获得最高+50攻击速度的<$ba.berserk>坚忍</>（损失50%生命值时达到最大加成）",
 					"rangeId": null,
 					"blackboard": [
 						{
 							"key": "min_attack_speed",
-							"value": 50
-						},
-						{
-							"key": "max_attack_speed",
-							"value": 0
-						},
-						{
-							"key": "max_hp_ratio",
-							"value": 1
+							"value": 50,
+							"valueStr": null
 						},
 						{
 							"key": "min_hp_ratio",
-							"value": 0.5
+							"value": 0.5,
+							"valueStr": null
 						}
 					]
 				},
 				{
 					"unlockCondition": {
-						"phase": 1,
+						"phase": "PHASE_1",
 						"level": 1
 					},
 					"requiredPotentialRank": 0,
 					"prefabKey": "1",
 					"name": "认真模式",
-					"description": "根据已损失的生命值，提高攻击速度（损失60%生命值时达到最大可提升攻击速度75）",
+					"description": "在场时，自身获得最高+75攻击速度的<$ba.berserk>坚忍</>（损失60%生命值时达到最大加成）",
 					"rangeId": null,
 					"blackboard": [
 						{
 							"key": "min_attack_speed",
-							"value": 75
-						},
-						{
-							"key": "max_attack_speed",
-							"value": 0
-						},
-						{
-							"key": "max_hp_ratio",
-							"value": 1
+							"value": 75,
+							"valueStr": null
 						},
 						{
 							"key": "min_hp_ratio",
-							"value": 0.4
+							"value": 0.4,
+							"valueStr": null
 						}
 					]
 				},
 				{
 					"unlockCondition": {
-						"phase": 2,
+						"phase": "PHASE_2",
 						"level": 1
 					},
 					"requiredPotentialRank": 0,
 					"prefabKey": "1",
 					"name": "认真模式",
-					"description": "根据已损失的生命值，提高攻击速度（损失70%生命值时达到最大可提升攻击速度100）",
+					"description": "在场时，自身获得最高+100攻击速度的<$ba.berserk>坚忍</>（损失70%生命值时达到最大加成）",
 					"rangeId": null,
 					"blackboard": [
 						{
 							"key": "min_attack_speed",
-							"value": 100
-						},
-						{
-							"key": "max_attack_speed",
-							"value": 0
-						},
-						{
-							"key": "max_hp_ratio",
-							"value": 1
+							"value": 100,
+							"valueStr": null
 						},
 						{
 							"key": "min_hp_ratio",
-							"value": 0.3
+							"value": 0.3,
+							"valueStr": null
 						}
 					]
 				}
@@ -552,7 +546,7 @@
 	],
 	"potentialRanks": [
 		{
-			"type": 0,
+			"type": "BUFF",
 			"description": "部署费用-1",
 			"buff": {
 				"attributes": {
@@ -563,8 +557,8 @@
 					"abnormalComboImmunes": null,
 					"attributeModifiers": [
 						{
-							"attributeType": 4,
-							"formulaItem": 0,
+							"attributeType": "COST",
+							"formulaItem": "ADDITION",
 							"value": -1,
 							"loadFromBlackboard": false,
 							"fetchBaseValueFromSourceEntity": false
@@ -575,7 +569,7 @@
 			"equivalentCost": null
 		},
 		{
-			"type": 0,
+			"type": "BUFF",
 			"description": "再部署时间-4秒",
 			"buff": {
 				"attributes": {
@@ -586,8 +580,8 @@
 					"abnormalComboImmunes": null,
 					"attributeModifiers": [
 						{
-							"attributeType": 21,
-							"formulaItem": 0,
+							"attributeType": "RESPAWN_TIME",
+							"formulaItem": "ADDITION",
 							"value": -4,
 							"loadFromBlackboard": false,
 							"fetchBaseValueFromSourceEntity": false
@@ -598,7 +592,7 @@
 			"equivalentCost": null
 		},
 		{
-			"type": 0,
+			"type": "BUFF",
 			"description": "攻击力+23",
 			"buff": {
 				"attributes": {
@@ -609,8 +603,8 @@
 					"abnormalComboImmunes": null,
 					"attributeModifiers": [
 						{
-							"attributeType": 1,
-							"formulaItem": 0,
+							"attributeType": "ATK",
+							"formulaItem": "ADDITION",
 							"value": 23,
 							"loadFromBlackboard": false,
 							"fetchBaseValueFromSourceEntity": false
@@ -621,7 +615,7 @@
 			"equivalentCost": null
 		},
 		{
-			"type": 0,
+			"type": "BUFF",
 			"description": "再部署时间-6秒",
 			"buff": {
 				"attributes": {
@@ -632,8 +626,8 @@
 					"abnormalComboImmunes": null,
 					"attributeModifiers": [
 						{
-							"attributeType": 21,
-							"formulaItem": 0,
+							"attributeType": "RESPAWN_TIME",
+							"formulaItem": "ADDITION",
 							"value": -6,
 							"loadFromBlackboard": false,
 							"fetchBaseValueFromSourceEntity": false
@@ -644,7 +638,7 @@
 			"equivalentCost": null
 		},
 		{
-			"type": 0,
+			"type": "BUFF",
 			"description": "部署费用-1",
 			"buff": {
 				"attributes": {
@@ -655,8 +649,8 @@
 					"abnormalComboImmunes": null,
 					"attributeModifiers": [
 						{
-							"attributeType": 4,
-							"formulaItem": 0,
+							"attributeType": "COST",
+							"formulaItem": "ADDITION",
 							"value": -1,
 							"loadFromBlackboard": false,
 							"fetchBaseValueFromSourceEntity": false
@@ -691,7 +685,8 @@
 				"stunImmune": false,
 				"silenceImmune": false,
 				"sleepImmune": false,
-				"frozenImmune": false
+				"frozenImmune": false,
+				"levitateImmune": false
 			}
 		},
 		{
@@ -717,14 +712,15 @@
 				"stunImmune": false,
 				"silenceImmune": false,
 				"sleepImmune": false,
-				"frozenImmune": false
+				"frozenImmune": false,
+				"levitateImmune": false
 			}
 		}
 	],
 	"allSkillLvlup": [
 		{
 			"unlockCond": {
-				"phase": 0,
+				"phase": "PHASE_0",
 				"level": 1
 			},
 			"lvlUpCost": [
@@ -737,7 +733,7 @@
 		},
 		{
 			"unlockCond": {
-				"phase": 0,
+				"phase": "PHASE_0",
 				"level": 1
 			},
 			"lvlUpCost": [
@@ -755,7 +751,7 @@
 		},
 		{
 			"unlockCond": {
-				"phase": 0,
+				"phase": "PHASE_0",
 				"level": 1
 			},
 			"lvlUpCost": [
@@ -773,7 +769,7 @@
 		},
 		{
 			"unlockCond": {
-				"phase": 1,
+				"phase": "PHASE_1",
 				"level": 1
 			},
 			"lvlUpCost": [
@@ -791,7 +787,7 @@
 		},
 		{
 			"unlockCond": {
-				"phase": 1,
+				"phase": "PHASE_1",
 				"level": 1
 			},
 			"lvlUpCost": [
@@ -809,7 +805,7 @@
 		},
 		{
 			"unlockCond": {
-				"phase": 1,
+				"phase": "PHASE_1",
 				"level": 1
 			},
 			"lvlUpCost": [

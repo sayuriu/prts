@@ -2,6 +2,7 @@
 	"stageType": "CAMPAIGN",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "main_02-08",
@@ -13,7 +14,7 @@
 	"zoneId": "camp_zone_7",
 	"code": "サルゴン",
 	"name": "ロングスプリング郊外",
-	"description": "「展望タワー33」事件のあと、「レッドラベル」の傭兵が残った源石変異生物を操ってロドスの捜査の目をかいくぐりった。これらの生物が他の地区にたどり着いてしまえば、惨劇が起きるのは想像に難くない。根絶やしにすべし。\n<@lv.rem><特殊条件></>コストが自動回復しない\n<@lv.item><砂嵐></>砂嵐の中に晒された味方は攻撃力が低下し、HPが減少し続け、再配置時間が上昇する。砂嵐中の敵の移動速度が低下する。",
+	"description": "「展望タワー33」事件のあと、「レッドラベル」の傭兵が残った源石変異生物を操ってロドスの捜査の目をかいくぐった。これらの生物が他の地区にたどり着いてしまえば、惨劇が起きるのは想像に難くない。根絶やしにすべし。\n<@lv.rem><特殊条件></>コストが自動回復しない\n<@lv.item><砂嵐></>砂嵐の中に晒された味方は攻撃力が低下し、HPが減少し続け、再配置時間が上昇する。砂嵐中の敵の移動速度が低下する。",
 	"hardStagedId": null,
 	"dangerLevel": "-",
 	"dangerPoint": -1,
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {

@@ -6,12 +6,20 @@
 	"iconId": "MTL_SL_IAM3",
 	"overrideBkg": null,
 	"stackIconId": null,
-	"sortId": 100039,
+	"sortId": 100015,
 	"usage": "전자공업용 특수 고융점 합금. 다양한 강화 용도로 쓰이며, 주로 제조소에서 합성 원료로 쓰인다.",
 	"obtainApproach": null,
 	"classifyType": "MATERIAL",
 	"itemType": "MATERIAL",
 	"stageDropList": [
+		{
+			"stageId": "act19side_08",
+			"occPer": "ALMOST"
+		},
+		{
+			"stageId": "act14side_06",
+			"occPer": "USUAL"
+		},
 		{
 			"stageId": "act16d5_08",
 			"occPer": "USUAL"
@@ -34,6 +42,30 @@
 		},
 		{
 			"stageId": "main_09-10",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_10-12",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_11-02",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_11-12",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "tough_10-12",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "tough_11-02",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "tough_11-12",
 			"occPer": "OFTEN"
 		},
 		{

@@ -7,10 +7,10 @@
 			"name": "固守家园",
 			"rangeId": null,
 			"description": "阻挡数<@ba.vup>+{block_cnt}</>，防御力<@ba.vup>+{def:0%}</>，获得<$ba.buffres>抵抗</>\\n<@ba.rem>技能结束后自身<$ba.stun>晕眩</>{stun}秒</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 28,
@@ -22,19 +22,23 @@
 			"blackboard": [
 				{
 					"key": "def",
-					"value": 0.6
+					"value": 0.6,
+					"valueStr": null
 				},
 				{
 					"key": "block_cnt",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				},
 				{
 					"key": "stun",
-					"value": 5
+					"value": 5,
+					"valueStr": null
 				},
 				{
 					"key": "one_minus_status_resistance",
-					"value": -0.5
+					"value": -0.5,
+					"valueStr": null
 				}
 			]
 		},
@@ -42,10 +46,10 @@
 			"name": "固守家园",
 			"rangeId": null,
 			"description": "阻挡数<@ba.vup>+{block_cnt}</>，防御力<@ba.vup>+{def:0%}</>，获得<$ba.buffres>抵抗</>\\n<@ba.rem>技能结束后自身<$ba.stun>晕眩</>{stun}秒</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 28,
@@ -57,19 +61,23 @@
 			"blackboard": [
 				{
 					"key": "def",
-					"value": 0.8
+					"value": 0.8,
+					"valueStr": null
 				},
 				{
 					"key": "block_cnt",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				},
 				{
 					"key": "stun",
-					"value": 5
+					"value": 5,
+					"valueStr": null
 				},
 				{
 					"key": "one_minus_status_resistance",
-					"value": -0.5
+					"value": -0.5,
+					"valueStr": null
 				}
 			]
 		},
@@ -77,10 +85,10 @@
 			"name": "固守家园",
 			"rangeId": null,
 			"description": "阻挡数<@ba.vup>+{block_cnt}</>，防御力<@ba.vup>+{def:0%}</>，获得<$ba.buffres>抵抗</>\\n<@ba.rem>技能结束后自身<$ba.stun>晕眩</>{stun}秒</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 26,
@@ -92,19 +100,23 @@
 			"blackboard": [
 				{
 					"key": "def",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "block_cnt",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				},
 				{
 					"key": "stun",
-					"value": 5
+					"value": 5,
+					"valueStr": null
 				},
 				{
 					"key": "one_minus_status_resistance",
-					"value": -0.5
+					"value": -0.5,
+					"valueStr": null
 				}
 			]
 		},
@@ -112,10 +124,10 @@
 			"name": "固守家园",
 			"rangeId": null,
 			"description": "阻挡数<@ba.vup>+{block_cnt}</>，防御力<@ba.vup>+{def:0%}</>，获得<$ba.buffres>抵抗</>\\n<@ba.rem>技能结束后自身<$ba.stun>晕眩</>{stun}秒</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 26,
@@ -127,19 +139,23 @@
 			"blackboard": [
 				{
 					"key": "def",
-					"value": 1.2
+					"value": 1.2,
+					"valueStr": null
 				},
 				{
 					"key": "block_cnt",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				},
 				{
 					"key": "stun",
-					"value": 5
+					"value": 5,
+					"valueStr": null
 				},
 				{
 					"key": "one_minus_status_resistance",
-					"value": -0.5
+					"value": -0.5,
+					"valueStr": null
 				}
 			]
 		},
@@ -147,10 +163,10 @@
 			"name": "固守家园",
 			"rangeId": null,
 			"description": "阻挡数<@ba.vup>+{block_cnt}</>，防御力<@ba.vup>+{def:0%}</>，获得<$ba.buffres>抵抗</>\\n<@ba.rem>技能结束后自身<$ba.stun>晕眩</>{stun}秒</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 24,
@@ -162,19 +178,23 @@
 			"blackboard": [
 				{
 					"key": "def",
-					"value": 1.4
+					"value": 1.4,
+					"valueStr": null
 				},
 				{
 					"key": "block_cnt",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				},
 				{
 					"key": "stun",
-					"value": 5
+					"value": 5,
+					"valueStr": null
 				},
 				{
 					"key": "one_minus_status_resistance",
-					"value": -0.5
+					"value": -0.5,
+					"valueStr": null
 				}
 			]
 		},
@@ -182,10 +202,10 @@
 			"name": "固守家园",
 			"rangeId": null,
 			"description": "阻挡数<@ba.vup>+{block_cnt}</>，防御力<@ba.vup>+{def:0%}</>，获得<$ba.buffres>抵抗</>\\n<@ba.rem>技能结束后自身<$ba.stun>晕眩</>{stun}秒</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 24,
@@ -197,19 +217,23 @@
 			"blackboard": [
 				{
 					"key": "def",
-					"value": 1.6
+					"value": 1.6,
+					"valueStr": null
 				},
 				{
 					"key": "block_cnt",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				},
 				{
 					"key": "stun",
-					"value": 5
+					"value": 5,
+					"valueStr": null
 				},
 				{
 					"key": "one_minus_status_resistance",
-					"value": -0.5
+					"value": -0.5,
+					"valueStr": null
 				}
 			]
 		},
@@ -217,10 +241,10 @@
 			"name": "固守家园",
 			"rangeId": null,
 			"description": "阻挡数<@ba.vup>+{block_cnt}</>，防御力<@ba.vup>+{def:0%}</>，获得<$ba.buffres>抵抗</>\\n<@ba.rem>技能结束后自身<$ba.stun>晕眩</>{stun}秒</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 22,
@@ -232,19 +256,23 @@
 			"blackboard": [
 				{
 					"key": "def",
-					"value": 1.8
+					"value": 1.8,
+					"valueStr": null
 				},
 				{
 					"key": "block_cnt",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				},
 				{
 					"key": "stun",
-					"value": 5
+					"value": 5,
+					"valueStr": null
 				},
 				{
 					"key": "one_minus_status_resistance",
-					"value": -0.5
+					"value": -0.5,
+					"valueStr": null
 				}
 			]
 		},
@@ -252,10 +280,10 @@
 			"name": "固守家园",
 			"rangeId": null,
 			"description": "阻挡数<@ba.vup>+{block_cnt}</>，防御力<@ba.vup>+{def:0%}</>，获得<$ba.buffres>抵抗</>\\n<@ba.rem>技能结束后自身<$ba.stun>晕眩</>{stun}秒</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 22,
@@ -267,19 +295,23 @@
 			"blackboard": [
 				{
 					"key": "def",
-					"value": 1.9
+					"value": 1.9,
+					"valueStr": null
 				},
 				{
 					"key": "block_cnt",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				},
 				{
 					"key": "stun",
-					"value": 5
+					"value": 5,
+					"valueStr": null
 				},
 				{
 					"key": "one_minus_status_resistance",
-					"value": -0.5
+					"value": -0.5,
+					"valueStr": null
 				}
 			]
 		},
@@ -287,10 +319,10 @@
 			"name": "固守家园",
 			"rangeId": null,
 			"description": "阻挡数<@ba.vup>+{block_cnt}</>，防御力<@ba.vup>+{def:0%}</>，获得<$ba.buffres>抵抗</>\\n<@ba.rem>技能结束后自身<$ba.stun>晕眩</>{stun}秒</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 20,
@@ -302,19 +334,23 @@
 			"blackboard": [
 				{
 					"key": "def",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				},
 				{
 					"key": "block_cnt",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				},
 				{
 					"key": "stun",
-					"value": 5
+					"value": 5,
+					"valueStr": null
 				},
 				{
 					"key": "one_minus_status_resistance",
-					"value": -0.5
+					"value": -0.5,
+					"valueStr": null
 				}
 			]
 		},
@@ -322,10 +358,10 @@
 			"name": "固守家园",
 			"rangeId": null,
 			"description": "阻挡数<@ba.vup>+{block_cnt}</>，防御力<@ba.vup>+{def:0%}</>，获得<$ba.buffres>抵抗</>\\n<@ba.rem>技能结束后自身<$ba.stun>晕眩</>{stun}秒</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 20,
@@ -337,19 +373,23 @@
 			"blackboard": [
 				{
 					"key": "def",
-					"value": 2.1
+					"value": 2.1,
+					"valueStr": null
 				},
 				{
 					"key": "block_cnt",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				},
 				{
 					"key": "stun",
-					"value": 5
+					"value": 5,
+					"valueStr": null
 				},
 				{
 					"key": "one_minus_status_resistance",
-					"value": -0.5
+					"value": -0.5,
+					"valueStr": null
 				}
 			]
 		}

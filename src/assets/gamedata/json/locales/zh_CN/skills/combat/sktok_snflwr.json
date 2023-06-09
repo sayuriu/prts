@@ -1,0 +1,25 @@
+{
+	"skillId": "sktok_snflwr",
+	"iconId": "sktok_snflwr",
+	"hidden": false,
+	"levels": [
+		{
+			"name": "全自动划账",
+			"rangeId": null,
+			"description": "每隔一定时间扣除1点部署费用",
+			"skillType": "PASSIVE",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": "sktok_snflwr",
+			"duration": 0,
+			"blackboard": []
+		}
+	]
+}

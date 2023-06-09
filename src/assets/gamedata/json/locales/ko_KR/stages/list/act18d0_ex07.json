@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act18d0_ex06",
@@ -10,7 +11,7 @@
 	],
 	"stageId": "act18d0_ex07",
 	"levelId": "Activities/act18d0/level_act18d0_ex07",
-	"zoneId": "act18d0_zone2",
+	"zoneId": "act10sre_zone2",
 	"code": "WD-EX-7",
 	"name": "훈련 만전",
 	"description": "크, 크흠! 용병으로서 훌륭한 소질은 꼭 체계화된 훈련과 직결된 것이라고 할 수는 없다고 본다. 전쟁터야말로 용병의 능력을 증명하는 곳이다.\n<@lv.item><이동식 전술 격납고></> 수요에 따라 수시로 드론을 띄워 적군 용병팀의 작전을 지원한다.",
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {
@@ -52,7 +54,7 @@
 		"displayRewards": [
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act18d0_token_page",
+				"id": "act18d0_token_page_rep_1",
 				"dropType": 8
 			},
 			{
@@ -65,7 +67,7 @@
 			{
 				"occPercent": 0,
 				"type": "ACTIVITY_ITEM",
-				"id": "act18d0_token_page",
+				"id": "act18d0_token_page_rep_1",
 				"dropType": 8
 			},
 			{

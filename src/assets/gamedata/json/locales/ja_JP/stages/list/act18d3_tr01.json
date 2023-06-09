@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act18d3_01",
@@ -10,7 +11,7 @@
 	],
 	"stageId": "act18d3_tr01",
 	"levelId": "Activities/act18d3/level_act18d3_tr01",
-	"zoneId": "act18d3_zone1",
+	"zoneId": "act11sre_zone1",
 	"code": "SV-TR-1",
 	"name": "痛みの増幅",
 	"description": "神経ダメージへの対応を学ぶ。\n<@lv.item><応急治療施設></>起動中に周囲の味方に蓄積された神経ダメージを治療し続ける",
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": true,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 3,
 	"stageDropInfo": {

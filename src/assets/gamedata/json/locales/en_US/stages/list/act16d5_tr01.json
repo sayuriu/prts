@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act16d5_01",
@@ -10,7 +11,7 @@
 	],
 	"stageId": "act16d5_tr01",
 	"levelId": "Activities/act16d5/level_act16d5_tr01",
-	"zoneId": "act16d5_zone1",
+	"zoneId": "act9sre_zone1",
 	"code": "WR-TR-1",
 	"name": "Sleep Talking",
 	"description": "In her dream, Lava consulted Nian on how to deal with Dusk... but before Nian spilled the beans, Lava woke up. What a shame.\n<@lv.item><Mark of Hui and Ming></> Operators deployed on it will earn a Hui-Ming attribute.",
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": true,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 3,
 	"stageDropInfo": {

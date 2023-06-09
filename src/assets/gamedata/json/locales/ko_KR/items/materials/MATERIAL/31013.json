@@ -6,12 +6,20 @@
 	"iconId": "MTL_SL_PGEL3",
 	"overrideBkg": null,
 	"stackIconId": null,
-	"sortId": 100037,
+	"sortId": 100017,
 	"usage": "고강도 가소성 재료. 다양한 강화 용도로 쓰이며, 주로 제조소에서 합성 원료로 쓰인다.",
 	"obtainApproach": null,
 	"classifyType": "MATERIAL",
 	"itemType": "MATERIAL",
 	"stageDropList": [
+		{
+			"stageId": "act20side_08",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "act16side_08",
+			"occPer": "USUAL"
+		},
 		{
 			"stageId": "act13d5_06",
 			"occPer": "USUAL"
@@ -30,6 +38,22 @@
 		},
 		{
 			"stageId": "main_08-16",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_10-02",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_11-10",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "tough_10-02",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "tough_11-10",
 			"occPer": "OFTEN"
 		},
 		{

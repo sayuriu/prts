@@ -84,9 +84,9 @@ export class OperatorUtilsService {
 		for (const { key, value } of blackboard)
 			out = out.replace(
                 new RegExp(`\{(-)?(${escapeRegExp(key)})(:0(%|\.0[f%]?)?)?\}`, 'ig'),
-            //match key
+                //match key
                 (_1, isNegative, _key, _4, isDecimal, floatOrPercent) => {
-                    let num = (`${floatOrPercent}` + `${isDecimal}`).includes('%') ?
+                    const num = (`${floatOrPercent}` + `${isDecimal}`).includes('%') ?
                         Number((value * 100 * (isNegative ? -1 : 1)).toFixed(2)).valueOf().toString() + '%':
                         Number((value * (isNegative ? -1 : 1)).toFixed(2)).toString();
                     return `<span class="ak-numeric" key="${key}">${num}</span>`;

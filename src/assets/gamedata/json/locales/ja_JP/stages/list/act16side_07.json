@@ -1,0 +1,106 @@
+{
+	"stageType": "ACTIVITY",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
+	"unlockCondition": [
+		{
+			"stageId": "act16side_06",
+			"completeState": 2
+		}
+	],
+	"stageId": "act16side_07",
+	"levelId": "Activities/act16side/level_act16side_07",
+	"zoneId": "act16side_zone1",
+	"code": "GA-7",
+	"name": "光と影",
+	"description": "彼は滑稽さとやりきれなさと怒りと困惑と虚しさを感じた。\n<@lv.item><「ジェラート供給所」></>制御権を奪取した陣営の設備となり、周囲の味方のSPを回復する。",
+	"hardStagedId": null,
+	"dangerLevel": "昇進1 LV.60",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_GA_Roof",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 21,
+	"apFailReturn": 20,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": 0,
+	"expGain": 210,
+	"goldGain": 210,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 20,
+	"completeFavor": 21,
+	"slProgress": 0,
+	"displayMainItem": null,
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 0,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act16side_token_bolt",
+				"dropType": 8
+			},
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act16side_token_bolt",
+				"dropType": 2
+			},
+			{
+				"type": "MATERIAL",
+				"id": "30073",
+				"dropType": 2
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 0,
+				"type": "ACTIVITY_ITEM",
+				"id": "act16side_token_bolt",
+				"dropType": 8
+			},
+			{
+				"occPercent": 0,
+				"type": "ACTIVITY_ITEM",
+				"id": "act16side_token_bolt",
+				"dropType": 2
+			},
+			{
+				"occPercent": 1,
+				"type": "MATERIAL",
+				"id": "30073",
+				"dropType": 2
+			},
+			{
+				"occPercent": 0,
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		]
+	},
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "act16side_st01"
+}

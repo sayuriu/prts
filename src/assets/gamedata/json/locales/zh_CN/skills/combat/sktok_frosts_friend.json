@@ -7,10 +7,10 @@
 			"name": "寒潮",
 			"rangeId": "x-1",
 			"description": "发射一道寒霜冲击波，使周围敌方单位陷入<$ba.cold>寒冷</>状态{cold}秒",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 15,
@@ -22,7 +22,8 @@
 			"blackboard": [
 				{
 					"key": "cold",
-					"value": 10
+					"value": 10,
+					"valueStr": null
 				}
 			]
 		}

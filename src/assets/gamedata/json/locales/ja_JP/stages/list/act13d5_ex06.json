@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act13d5_ex05",
@@ -10,7 +11,7 @@
 	],
 	"stageId": "act13d5_ex06",
 	"levelId": "Activities/ACT13D5/level_act13d5_ex06",
-	"zoneId": "act13d5_zone2",
+	"zoneId": "act7sre_zone2",
 	"code": "MN-EX-6",
 	"name": "爆弾迷宮",
 	"description": "この競技場は爆弾と障害物の位置が観客投票によって決定されるという身の毛もよだつレギュレーションを採用している。これは騎士の尊厳を著しく損なう競技……いや、もはや競技とは呼べないだろう。しかしながら、莫大な金が動くこともまた事実だ。\n<@lv.item><妨害地雷></>爆発時に周囲の敵全員に大ダメージを与え、さらに15秒間被ダメージ量が上昇する効果を与える。",
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {
@@ -52,7 +54,7 @@
 		"displayRewards": [
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act13d5_token_securities",
+				"id": "act13d5_token_securities_rep_1",
 				"dropType": 8
 			},
 			{
@@ -65,7 +67,7 @@
 			{
 				"occPercent": 0,
 				"type": "ACTIVITY_ITEM",
-				"id": "act13d5_token_securities",
+				"id": "act13d5_token_securities_rep_1",
 				"dropType": 8
 			},
 			{

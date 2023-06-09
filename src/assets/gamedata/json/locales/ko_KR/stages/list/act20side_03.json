@@ -1,0 +1,117 @@
+{
+	"stageType": "ACTIVITY",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
+	"unlockCondition": [
+		{
+			"stageId": "act20side_tr01",
+			"completeState": 2
+		}
+	],
+	"stageId": "act20side_03",
+	"levelId": "Activities/ACT20SIDE/level_act20side_03",
+	"zoneId": "act20side_zone1",
+	"code": "IC-3",
+	"name": "기담괴론",
+	"description": "돔, 로봇, 문화 차이, '그레이트 아쿠아핏'…… 그리고 자율차, 다른 곳에선 이렇게까지 자랑이 심한 사람들을 찾기 힘들다.\n<@lv.item><자율차 출발점></> 배치 코스트를 소모하여 자율차 한 대 발사\n<@lv.item><자율차 트랙></> 통과하는 자율차의 방향 전환",
+	"hardStagedId": null,
+	"dangerLevel": "1차 정예화 Lv.30",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_IC_Street",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 12,
+	"apFailReturn": 11,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": 0,
+	"expGain": 120,
+	"goldGain": 120,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 11,
+	"completeFavor": 12,
+	"slProgress": 0,
+	"displayMainItem": null,
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 0,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act20side_token_book",
+				"dropType": 8
+			},
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act20side_token_book",
+				"dropType": 2
+			},
+			{
+				"type": "MATERIAL",
+				"id": "30012",
+				"dropType": 2
+			},
+			{
+				"type": "MATERIAL",
+				"id": "30032",
+				"dropType": 2
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 0,
+				"type": "ACTIVITY_ITEM",
+				"id": "act20side_token_book",
+				"dropType": 8
+			},
+			{
+				"occPercent": 0,
+				"type": "ACTIVITY_ITEM",
+				"id": "act20side_token_book",
+				"dropType": 2
+			},
+			{
+				"occPercent": 0,
+				"type": "MATERIAL",
+				"id": "30012",
+				"dropType": 2
+			},
+			{
+				"occPercent": 2,
+				"type": "MATERIAL",
+				"id": "30032",
+				"dropType": 2
+			},
+			{
+				"occPercent": 0,
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		]
+	},
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "act20side_st01"
+}

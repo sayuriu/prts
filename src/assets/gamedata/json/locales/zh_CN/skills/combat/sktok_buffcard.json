@@ -1,0 +1,31 @@
+{
+	"skillId": "sktok_buffcard",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "升格",
+			"rangeId": "1-1",
+			"description": "部署后，使身前一名干员获得如下效果：立即获得<@ba.kw>2件</>本职业的<@ba.kw>战术装备</>（部署效果无法触发）。\\n<@ba.rem>触发后自身消失（本场战斗不再出现）</>",
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "sktok_buffcard",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "cnt",
+					"value": 2,
+					"valueStr": null
+				}
+			]
+		}
+	]
+}

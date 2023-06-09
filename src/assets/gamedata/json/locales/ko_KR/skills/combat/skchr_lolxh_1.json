@@ -1,0 +1,277 @@
+{
+	"skillId": "skchr_lolxh_1",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "꼬리의 잔상",
+			"rangeId": "x-5",
+			"description": "<@ba.rem>초기 상태와 다음 상태 간 전환 가능:</>\n공격 범위가 주변 <@ba.rem>4칸</>으로 변경, 물리 회피 <@ba.vup>{prob:0%}</> 획득, 저지 중인 모든 적 공격",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 10,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_lolxh_1",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "prob",
+					"value": 0.2
+				},
+				{
+					"key": "attack_speed",
+					"value": 0
+				}
+			]
+		},
+		{
+			"name": "꼬리의 잔상",
+			"rangeId": "x-5",
+			"description": "<@ba.rem>초기 상태와 다음 상태 간 전환 가능:</>\n공격 범위가 주변 <@ba.rem>4칸</>으로 변경, 물리 회피 <@ba.vup>{prob:0%}</> 획득, 저지 중인 모든 적 공격",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 10,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_lolxh_1",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "prob",
+					"value": 0.25
+				},
+				{
+					"key": "attack_speed",
+					"value": 0
+				}
+			]
+		},
+		{
+			"name": "꼬리의 잔상",
+			"rangeId": "x-5",
+			"description": "<@ba.rem>초기 상태와 다음 상태 간 전환 가능:</>\n공격 범위가 주변 <@ba.rem>4칸</>으로 변경, 물리 회피 <@ba.vup>{prob:0%}</> 획득, 저지 중인 모든 적 공격",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 10,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_lolxh_1",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "prob",
+					"value": 0.3
+				},
+				{
+					"key": "attack_speed",
+					"value": 0
+				}
+			]
+		},
+		{
+			"name": "꼬리의 잔상",
+			"rangeId": "x-5",
+			"description": "<@ba.rem>초기 상태와 다음 상태 간 전환 가능:</>\n공격 범위가 주변 <@ba.rem>4칸</>으로 변경, 공격 속도 <@ba.vup>+{attack_speed}</>, 물리 회피 <@ba.vup>{prob:0%}</> 획득, 저지하고 있는 모든 적 동시에 공격",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 10,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_lolxh_1",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "prob",
+					"value": 0.3
+				},
+				{
+					"key": "attack_speed",
+					"value": 10
+				}
+			]
+		},
+		{
+			"name": "꼬리의 잔상",
+			"rangeId": "x-5",
+			"description": "<@ba.rem>초기 상태와 다음 상태 간 전환 가능:</>\n공격 범위가 주변 <@ba.rem>4칸</>으로 변경, 공격 속도 <@ba.vup>+{attack_speed}</>, 물리 회피 <@ba.vup>{prob:0%}</> 획득, 저지하고 있는 모든 적 동시에 공격",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 10,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_lolxh_1",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "prob",
+					"value": 0.3
+				},
+				{
+					"key": "attack_speed",
+					"value": 15
+				}
+			]
+		},
+		{
+			"name": "꼬리의 잔상",
+			"rangeId": "x-5",
+			"description": "<@ba.rem>초기 상태와 다음 상태 간 전환 가능:</>\n공격 범위가 주변 <@ba.rem>4칸</>으로 변경, 공격 속도 <@ba.vup>+{attack_speed}</>, 물리 회피 <@ba.vup>{prob:0%}</> 획득, 저지하고 있는 모든 적 동시에 공격",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 10,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_lolxh_1",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "prob",
+					"value": 0.3
+				},
+				{
+					"key": "attack_speed",
+					"value": 20
+				}
+			]
+		},
+		{
+			"name": "꼬리의 잔상",
+			"rangeId": "x-5",
+			"description": "<@ba.rem>초기 상태와 다음 상태 간 전환 가능:</>\n공격 범위가 주변 <@ba.rem>4칸</>으로 변경, 공격 속도 <@ba.vup>+{attack_speed}</>, 물리 회피 <@ba.vup>{prob:0%}</> 획득, 저지하고 있는 모든 적 동시에 공격",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 10,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_lolxh_1",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "prob",
+					"value": 0.35
+				},
+				{
+					"key": "attack_speed",
+					"value": 25
+				}
+			]
+		},
+		{
+			"name": "꼬리의 잔상",
+			"rangeId": "x-5",
+			"description": "<@ba.rem>초기 상태와 다음 상태 간 전환 가능:</>\n공격 범위가 주변 <@ba.rem>4칸</>으로 변경, 공격 속도 <@ba.vup>+{attack_speed}</>, 물리 회피 <@ba.vup>{prob:0%}</> 획득, 저지하고 있는 모든 적 동시에 공격",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 10,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_lolxh_1",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "prob",
+					"value": 0.35
+				},
+				{
+					"key": "attack_speed",
+					"value": 30
+				}
+			]
+		},
+		{
+			"name": "꼬리의 잔상",
+			"rangeId": "x-5",
+			"description": "<@ba.rem>초기 상태와 다음 상태 간 전환 가능:</>\n공격 범위가 주변 <@ba.rem>4칸</>으로 변경, 공격 속도 <@ba.vup>+{attack_speed}</>, 물리 회피 <@ba.vup>{prob:0%}</> 획득, 저지하고 있는 모든 적 동시에 공격",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 10,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_lolxh_1",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "prob",
+					"value": 0.35
+				},
+				{
+					"key": "attack_speed",
+					"value": 35
+				}
+			]
+		},
+		{
+			"name": "꼬리의 잔상",
+			"rangeId": "x-5",
+			"description": "<@ba.rem>초기 상태와 다음 상태 간 전환 가능:</>\n공격 범위가 주변 <@ba.rem>4칸</>으로 변경, 공격 속도 <@ba.vup>+{attack_speed}</>, 물리 회피 <@ba.vup>{prob:0%}</> 획득, 저지하고 있는 모든 적 동시에 공격",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 10,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_lolxh_1",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "prob",
+					"value": 0.45
+				},
+				{
+					"key": "attack_speed",
+					"value": 40
+				}
+			]
+		}
+	]
+}

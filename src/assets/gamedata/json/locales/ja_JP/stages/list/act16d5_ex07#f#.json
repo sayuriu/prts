@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "FOUR_STAR",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "main_02-08",
@@ -14,10 +15,10 @@
 	],
 	"stageId": "act16d5_ex07#f#",
 	"levelId": "Activities/act16d5/level_act16d5_ex07",
-	"zoneId": "act16d5_zone2",
+	"zoneId": "act9sre_zone2",
 	"code": "WR-EX-7",
 	"name": "迷路",
-	"description": "<@lv.fs>制限：</>\nオペレーター配置不可エリアが9箇所増加。",
+	"description": "<@lv.fs>制限：</>\nマップ上の9つのマスが配置不可に",
 	"hardStagedId": null,
 	"dangerLevel": "-",
 	"dangerPoint": -1,
@@ -46,6 +47,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {

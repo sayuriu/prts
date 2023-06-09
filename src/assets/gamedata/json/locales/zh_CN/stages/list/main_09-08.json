@@ -2,10 +2,11 @@
 	"stageType": "MAIN",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NORMAL",
 	"unlockCondition": [
 		{
 			"stageId": "main_09-07",
-			"completeState": 2
+			"completeState": "PASS"
 		}
 	],
 	"stageId": "main_09-08",
@@ -44,7 +45,7 @@
 	"isHardPredefined": false,
 	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
-	"appearanceStyle": 0,
+	"appearanceStyle": "MAIN_NORMAL",
 	"stageDropInfo": {
 		"firstPassRewards": null,
 		"firstCompleteRewards": null,
@@ -54,96 +55,108 @@
 			{
 				"type": "MATERIAL",
 				"id": "30063",
-				"dropType": 2
+				"dropType": "NORMAL"
 			},
 			{
 				"type": "DIAMOND",
 				"id": "4002",
-				"dropType": 8
+				"dropType": "COMPLETE"
 			}
 		],
 		"displayDetailRewards": [
 			{
-				"occPercent": 3,
+				"occPercent": "OFTEN",
 				"type": "MATERIAL",
 				"id": "30063",
-				"dropType": 2
+				"dropType": "NORMAL"
 			},
 			{
-				"occPercent": 4,
+				"occPercent": "SOMETIMES",
 				"type": "MATERIAL",
 				"id": "30021",
-				"dropType": 4
+				"dropType": "ADDITIONAL"
 			},
 			{
-				"occPercent": 4,
+				"occPercent": "SOMETIMES",
 				"type": "MATERIAL",
 				"id": "30041",
-				"dropType": 4
+				"dropType": "ADDITIONAL"
 			},
 			{
-				"occPercent": 4,
+				"occPercent": "SOMETIMES",
 				"type": "CARD_EXP",
 				"id": "2001",
-				"dropType": 4
+				"dropType": "ADDITIONAL"
 			},
 			{
-				"occPercent": 4,
+				"occPercent": "SOMETIMES",
 				"type": "MATERIAL",
 				"id": "30022",
-				"dropType": 4
+				"dropType": "ADDITIONAL"
 			},
 			{
-				"occPercent": 4,
+				"occPercent": "SOMETIMES",
 				"type": "MATERIAL",
 				"id": "30042",
-				"dropType": 4
+				"dropType": "ADDITIONAL"
 			},
 			{
-				"occPercent": 4,
+				"occPercent": "SOMETIMES",
 				"type": "CARD_EXP",
 				"id": "2002",
-				"dropType": 4
+				"dropType": "ADDITIONAL"
 			},
 			{
-				"occPercent": 4,
+				"occPercent": "SOMETIMES",
 				"type": "MATERIAL",
 				"id": "30023",
-				"dropType": 4
+				"dropType": "ADDITIONAL"
 			},
 			{
-				"occPercent": 4,
+				"occPercent": "SOMETIMES",
 				"type": "MATERIAL",
 				"id": "30043",
-				"dropType": 4
+				"dropType": "ADDITIONAL"
 			},
 			{
-				"occPercent": 4,
+				"occPercent": "SOMETIMES",
 				"type": "MATERIAL",
 				"id": "30083",
-				"dropType": 4
+				"dropType": "ADDITIONAL"
 			},
 			{
-				"occPercent": 4,
+				"occPercent": "SOMETIMES",
 				"type": "MATERIAL",
 				"id": "31023",
-				"dropType": 4
+				"dropType": "ADDITIONAL"
 			},
 			{
-				"occPercent": 4,
+				"occPercent": "SOMETIMES",
+				"type": "MATERIAL",
+				"id": "31063",
+				"dropType": "ADDITIONAL"
+			},
+			{
+				"occPercent": "SOMETIMES",
 				"type": "CARD_EXP",
 				"id": "2003",
-				"dropType": 4
+				"dropType": "ADDITIONAL"
 			},
 			{
-				"occPercent": 0,
+				"occPercent": "ALWAYS",
 				"type": "DIAMOND",
 				"id": "4002",
-				"dropType": 8
+				"dropType": "COMPLETE"
 			}
 		]
 	},
+	"canUseCharm": false,
+	"canUseTech": false,
+	"canUseTrapTool": false,
+	"canUseBattlePerformance": false,
 	"startButtonOverrideId": null,
 	"isStagePatch": false,
-	"mainStageId": "main_09-08"
+	"mainStageId": "main_09-08",
+	"extraCondition": null,
+	"extraInfo": null
 }

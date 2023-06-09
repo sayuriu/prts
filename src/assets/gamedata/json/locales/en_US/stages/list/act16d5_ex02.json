@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act16d5_ex01",
@@ -10,7 +11,7 @@
 	],
 	"stageId": "act16d5_ex02",
 	"levelId": "Activities/act16d5/level_act16d5_ex02",
-	"zoneId": "act16d5_zone2",
+	"zoneId": "act9sre_zone2",
 	"code": "WR-EX-2",
 	"name": " Envious Hate",
 	"description": "Truthfully, some have almost never had a feeling like it, but out of the many complex emotions she's seen, it's undoubtedly the one most liable to madden and intoxicate.\n<@lv.item><Mark of Hui and Ming></> Operators deployed on it will earn a Hui-Ming attribute.",
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {
@@ -52,7 +54,7 @@
 		"displayRewards": [
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act16d5_token_inker",
+				"id": "act16d5_token_inker_rep_1",
 				"dropType": 8
 			},
 			{
@@ -65,7 +67,7 @@
 			{
 				"occPercent": 0,
 				"type": "ACTIVITY_ITEM",
-				"id": "act16d5_token_inker",
+				"id": "act16d5_token_inker_rep_1",
 				"dropType": 8
 			},
 			{

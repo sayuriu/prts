@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act13d5_ex07",
@@ -10,7 +11,7 @@
 	],
 	"stageId": "act13d5_ex08",
 	"levelId": "Activities/ACT13D5/level_act13d5_ex08",
-	"zoneId": "act13d5_zone2",
+	"zoneId": "act7sre_zone2",
 	"code": "MN-EX-8",
 	"name": "Ancient Duel",
 	"description": "An ancient battlefield preserved in some arenas. Wishing to re-enact the competitive battles of the ancient knights, the opponents are monsters of desire and urbanity. Glory, glory ceased to exist long ago. \n<@lv.item><Medical Rune></>Operators deployed on this tile will restore HP over time\n<@lv.rem>Tiles do not have ranged/melee restrictions</>",
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {
@@ -52,7 +54,7 @@
 		"displayRewards": [
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act13d5_token_securities",
+				"id": "act13d5_token_securities_rep_1",
 				"dropType": 8
 			},
 			{
@@ -65,7 +67,7 @@
 			{
 				"occPercent": 0,
 				"type": "ACTIVITY_ITEM",
-				"id": "act13d5_token_securities",
+				"id": "act13d5_token_securities_rep_1",
 				"dropType": 8
 			},
 			{

@@ -1,0 +1,437 @@
+{
+	"skillId": "skchr_texas2_3",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "Torrential Sword Rain",
+			"rangeId": "x-4",
+			"description": "After deployment, immediately deals <@ba.vup>{appear.atk_scale:0%}</> ATK as Arts damage twice to all surrounding enemies and <$ba.stun>Stuns</> them for <@ba.vup>{appear.stun}</> seconds, then releases a Sword Rain at up to <@ba.vup>{max_target}</> different targets within range every second that deals <@ba.vup>{atk_scale:0%}</> ATK as Arts damage and <$ba.stun>Stuns</> for <@ba.vup>{stun}</> seconds",
+			"skillType": 0,
+			"durationType": 0,
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_texas2_3",
+			"duration": 6,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 0.7
+				},
+				{
+					"key": "stun",
+					"value": 0.2
+				},
+				{
+					"key": "max_target",
+					"value": 2
+				},
+				{
+					"key": "texas2_s_3[sword].interval",
+					"value": 1
+				},
+				{
+					"key": "appear.atk_scale",
+					"value": 1
+				},
+				{
+					"key": "appear.stun",
+					"value": 1
+				}
+			]
+		},
+		{
+			"name": "Torrential Sword Rain",
+			"rangeId": "x-4",
+			"description": "After deployment, immediately deals <@ba.vup>{appear.atk_scale:0%}</> ATK as Arts damage twice to all surrounding enemies and <$ba.stun>Stuns</> them for <@ba.vup>{appear.stun}</> seconds, then releases a Sword Rain at up to <@ba.vup>{max_target}</> different targets within range every second that deals <@ba.vup>{atk_scale:0%}</> ATK as Arts damage and <$ba.stun>Stuns</> for <@ba.vup>{stun}</> seconds",
+			"skillType": 0,
+			"durationType": 0,
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_texas2_3",
+			"duration": 6,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 0.75
+				},
+				{
+					"key": "stun",
+					"value": 0.2
+				},
+				{
+					"key": "max_target",
+					"value": 2
+				},
+				{
+					"key": "texas2_s_3[sword].interval",
+					"value": 1
+				},
+				{
+					"key": "appear.atk_scale",
+					"value": 1.05
+				},
+				{
+					"key": "appear.stun",
+					"value": 1
+				}
+			]
+		},
+		{
+			"name": "Torrential Sword Rain",
+			"rangeId": "x-4",
+			"description": "After deployment, immediately deals <@ba.vup>{appear.atk_scale:0%}</> ATK as Arts damage twice to all surrounding enemies and <$ba.stun>Stuns</> them for <@ba.vup>{appear.stun}</> seconds, then releases a Sword Rain at up to <@ba.vup>{max_target}</> different targets within range every second that deals <@ba.vup>{atk_scale:0%}</> ATK as Arts damage and <$ba.stun>Stuns</> for <@ba.vup>{stun}</> seconds",
+			"skillType": 0,
+			"durationType": 0,
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_texas2_3",
+			"duration": 6,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 0.8
+				},
+				{
+					"key": "stun",
+					"value": 0.2
+				},
+				{
+					"key": "max_target",
+					"value": 2
+				},
+				{
+					"key": "texas2_s_3[sword].interval",
+					"value": 1
+				},
+				{
+					"key": "appear.atk_scale",
+					"value": 1.1
+				},
+				{
+					"key": "appear.stun",
+					"value": 1
+				}
+			]
+		},
+		{
+			"name": "Torrential Sword Rain",
+			"rangeId": "x-4",
+			"description": "After deployment, immediately deals <@ba.vup>{appear.atk_scale:0%}</> ATK as Arts damage twice to all surrounding enemies and <$ba.stun>Stuns</> them for <@ba.vup>{appear.stun}</> seconds, then releases a Sword Rain at up to <@ba.vup>{max_target}</> different targets within range every second that deals <@ba.vup>{atk_scale:0%}</> ATK as Arts damage and <$ba.stun>Stuns</> for <@ba.vup>{stun}</> seconds",
+			"skillType": 0,
+			"durationType": 0,
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_texas2_3",
+			"duration": 6,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 0.85
+				},
+				{
+					"key": "stun",
+					"value": 0.2
+				},
+				{
+					"key": "max_target",
+					"value": 2
+				},
+				{
+					"key": "texas2_s_3[sword].interval",
+					"value": 1
+				},
+				{
+					"key": "appear.atk_scale",
+					"value": 1.15
+				},
+				{
+					"key": "appear.stun",
+					"value": 1.5
+				}
+			]
+		},
+		{
+			"name": "Torrential Sword Rain",
+			"rangeId": "x-4",
+			"description": "After deployment, immediately deals <@ba.vup>{appear.atk_scale:0%}</> ATK as Arts damage twice to all surrounding enemies and <$ba.stun>Stuns</> them for <@ba.vup>{appear.stun}</> seconds, then releases a Sword Rain at up to <@ba.vup>{max_target}</> different targets within range every second that deals <@ba.vup>{atk_scale:0%}</> ATK as Arts damage and <$ba.stun>Stuns</> for <@ba.vup>{stun}</> seconds",
+			"skillType": 0,
+			"durationType": 0,
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_texas2_3",
+			"duration": 6,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 0.9
+				},
+				{
+					"key": "stun",
+					"value": 0.2
+				},
+				{
+					"key": "max_target",
+					"value": 2
+				},
+				{
+					"key": "texas2_s_3[sword].interval",
+					"value": 1
+				},
+				{
+					"key": "appear.atk_scale",
+					"value": 1.2
+				},
+				{
+					"key": "appear.stun",
+					"value": 1.5
+				}
+			]
+		},
+		{
+			"name": "Torrential Sword Rain",
+			"rangeId": "x-4",
+			"description": "After deployment, immediately deals <@ba.vup>{appear.atk_scale:0%}</> ATK as Arts damage twice to all surrounding enemies and <$ba.stun>Stuns</> them for <@ba.vup>{appear.stun}</> seconds, then releases a Sword Rain at up to <@ba.vup>{max_target}</> different targets within range every second that deals <@ba.vup>{atk_scale:0%}</> ATK as Arts damage and <$ba.stun>Stuns</> for <@ba.vup>{stun}</> seconds",
+			"skillType": 0,
+			"durationType": 0,
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_texas2_3",
+			"duration": 6,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 0.95
+				},
+				{
+					"key": "stun",
+					"value": 0.2
+				},
+				{
+					"key": "max_target",
+					"value": 2
+				},
+				{
+					"key": "texas2_s_3[sword].interval",
+					"value": 1
+				},
+				{
+					"key": "appear.atk_scale",
+					"value": 1.25
+				},
+				{
+					"key": "appear.stun",
+					"value": 1.5
+				}
+			]
+		},
+		{
+			"name": "Torrential Sword Rain",
+			"rangeId": "x-4",
+			"description": "After deployment, immediately deals <@ba.vup>{appear.atk_scale:0%}</> ATK as Arts damage twice to all surrounding enemies and <$ba.stun>Stuns</> them for <@ba.vup>{appear.stun}</> seconds, then releases a Sword Rain at up to <@ba.vup>{max_target}</> different targets within range every second that deals <@ba.vup>{atk_scale:0%}</> ATK as Arts damage and <$ba.stun>Stuns</> for <@ba.vup>{stun}</> seconds",
+			"skillType": 0,
+			"durationType": 0,
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_texas2_3",
+			"duration": 7,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 1
+				},
+				{
+					"key": "stun",
+					"value": 0.2
+				},
+				{
+					"key": "max_target",
+					"value": 3
+				},
+				{
+					"key": "texas2_s_3[sword].interval",
+					"value": 1
+				},
+				{
+					"key": "appear.atk_scale",
+					"value": 1.3
+				},
+				{
+					"key": "appear.stun",
+					"value": 1.5
+				}
+			]
+		},
+		{
+			"name": "Torrential Sword Rain",
+			"rangeId": "x-4",
+			"description": "After deployment, immediately deals <@ba.vup>{appear.atk_scale:0%}</> ATK as Arts damage twice to all surrounding enemies and <$ba.stun>Stuns</> them for <@ba.vup>{appear.stun}</> seconds, then releases a Sword Rain at up to <@ba.vup>{max_target}</> different targets within range every second that deals <@ba.vup>{atk_scale:0%}</> ATK as Arts damage and <$ba.stun>Stuns</> for <@ba.vup>{stun}</> seconds",
+			"skillType": 0,
+			"durationType": 0,
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_texas2_3",
+			"duration": 7,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 1.1
+				},
+				{
+					"key": "stun",
+					"value": 0.2
+				},
+				{
+					"key": "max_target",
+					"value": 3
+				},
+				{
+					"key": "texas2_s_3[sword].interval",
+					"value": 1
+				},
+				{
+					"key": "appear.atk_scale",
+					"value": 1.35
+				},
+				{
+					"key": "appear.stun",
+					"value": 2
+				}
+			]
+		},
+		{
+			"name": "Torrential Sword Rain",
+			"rangeId": "x-4",
+			"description": "After deployment, immediately deals <@ba.vup>{appear.atk_scale:0%}</> ATK as Arts damage twice to all surrounding enemies and <$ba.stun>Stuns</> them for <@ba.vup>{appear.stun}</> seconds, then releases a Sword Rain at up to <@ba.vup>{max_target}</> different targets within range every second that deals <@ba.vup>{atk_scale:0%}</> ATK as Arts damage and <$ba.stun>Stuns</> for <@ba.vup>{stun}</> seconds",
+			"skillType": 0,
+			"durationType": 0,
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_texas2_3",
+			"duration": 8,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 1.2
+				},
+				{
+					"key": "stun",
+					"value": 0.2
+				},
+				{
+					"key": "max_target",
+					"value": 3
+				},
+				{
+					"key": "texas2_s_3[sword].interval",
+					"value": 1
+				},
+				{
+					"key": "appear.atk_scale",
+					"value": 1.5
+				},
+				{
+					"key": "appear.stun",
+					"value": 2
+				}
+			]
+		},
+		{
+			"name": "Torrential Sword Rain",
+			"rangeId": "x-4",
+			"description": "After deployment, immediately deals <@ba.vup>{appear.atk_scale:0%}</> ATK as Arts damage twice to all surrounding enemies and <$ba.stun>Stuns</> them for <@ba.vup>{appear.stun}</> seconds, then releases a Sword Rain at up to <@ba.vup>{max_target}</> different targets within range every second that deals <@ba.vup>{atk_scale:0%}</> ATK as Arts damage and <$ba.stun>Stuns</> for <@ba.vup>{stun}</> seconds",
+			"skillType": 0,
+			"durationType": 0,
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_texas2_3",
+			"duration": 8,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 1.3
+				},
+				{
+					"key": "stun",
+					"value": 0.2
+				},
+				{
+					"key": "max_target",
+					"value": 4
+				},
+				{
+					"key": "texas2_s_3[sword].interval",
+					"value": 1
+				},
+				{
+					"key": "appear.atk_scale",
+					"value": 1.65
+				},
+				{
+					"key": "appear.stun",
+					"value": 2
+				}
+			]
+		}
+	]
+}

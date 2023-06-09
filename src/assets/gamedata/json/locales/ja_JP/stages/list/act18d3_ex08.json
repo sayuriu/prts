@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act18d3_ex07",
@@ -10,7 +11,7 @@
 	],
 	"stageId": "act18d3_ex08",
 	"levelId": "Activities/act18d3/level_act18d3_ex08",
-	"zoneId": "act18d3_zone2",
+	"zoneId": "act11sre_zone2",
 	"code": "SV-EX-8",
 	"name": "自由意志",
 	"description": "深海教会の信徒は最終的に海の怪物へと転化する。その可能性はハンターたちも想像したことはあった。しかしそれらの過程全てが、はっきりした意識のもと、自らの意思で進行することは全くの予想外だったようだ。\n<@lv.item><応急治療施設></>起動中に周囲の味方に蓄積された神経ダメージを治療し続ける",
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {
@@ -52,7 +54,7 @@
 		"displayRewards": [
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act18d3_token_record",
+				"id": "act18d3_token_record_rep_1",
 				"dropType": 8
 			},
 			{
@@ -65,7 +67,7 @@
 			{
 				"occPercent": 0,
 				"type": "ACTIVITY_ITEM",
-				"id": "act18d3_token_record",
+				"id": "act18d3_token_record_rep_1",
 				"dropType": 8
 			},
 			{

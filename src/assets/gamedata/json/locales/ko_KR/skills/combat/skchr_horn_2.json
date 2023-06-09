@@ -1,0 +1,397 @@
+{
+	"skillId": "skchr_horn_2",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "폭풍의 호령",
+			"rangeId": null,
+			"description": "공격 시 공격력의 <@ba.vup>{attack@s2.atk_scale:0%}</>에 해당하는 스플래시 물리 대미지를 입힌다\n<$ba.overdrive>과부하</>: 공격 시 공격력의 <@ba.vup>{attack@s2.magic_atk_scale:0%}</>에 해당하는 스플래시 <@ba.vup>마법</> 대미지를 추가로 입히며, 스킬을 수동 종료 시 나머지 탄약을 전부 발사하고 HP가 <@ba.vdown>{attack@s2.hp_ratio:0%}</> 감소\n<@ba.rem>스킬 발동 시 탄약 10발 장전, 수동 종료 가능</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 35,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_horn_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "attack@s2.atk_scale",
+					"value": 1.3
+				},
+				{
+					"key": "attack@s2.magic_atk_scale",
+					"value": 0.3
+				},
+				{
+					"key": "attack@s2.hp_ratio",
+					"value": 0.6
+				},
+				{
+					"key": "attack@s2.trigger_time",
+					"value": 10
+				},
+				{
+					"key": "hp_ratio",
+					"value": 0.6
+				}
+			]
+		},
+		{
+			"name": "폭풍의 호령",
+			"rangeId": null,
+			"description": "공격 시 공격력의 <@ba.vup>{attack@s2.atk_scale:0%}</>에 해당하는 스플래시 물리 대미지를 입힌다\n<$ba.overdrive>과부하</>: 공격 시 공격력의 <@ba.vup>{attack@s2.magic_atk_scale:0%}</>에 해당하는 스플래시 <@ba.vup>마법</> 대미지를 추가로 입히며, 스킬을 수동 종료 시 나머지 탄약을 전부 발사하고 HP가 <@ba.vdown>{attack@s2.hp_ratio:0%}</> 감소\n<@ba.rem>스킬 발동 시 탄약 10발 장전, 수동 종료 가능</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 35,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_horn_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "attack@s2.atk_scale",
+					"value": 1.4
+				},
+				{
+					"key": "attack@s2.magic_atk_scale",
+					"value": 0.3
+				},
+				{
+					"key": "attack@s2.hp_ratio",
+					"value": 0.6
+				},
+				{
+					"key": "attack@s2.trigger_time",
+					"value": 10
+				},
+				{
+					"key": "hp_ratio",
+					"value": 0.6
+				}
+			]
+		},
+		{
+			"name": "폭풍의 호령",
+			"rangeId": null,
+			"description": "공격 시 공격력의 <@ba.vup>{attack@s2.atk_scale:0%}</>에 해당하는 스플래시 물리 대미지를 입힌다\n<$ba.overdrive>과부하</>: 공격 시 공격력의 <@ba.vup>{attack@s2.magic_atk_scale:0%}</>에 해당하는 스플래시 <@ba.vup>마법</> 대미지를 추가로 입히며, 스킬을 수동 종료 시 나머지 탄약을 전부 발사하고 HP가 <@ba.vdown>{attack@s2.hp_ratio:0%}</> 감소\n<@ba.rem>스킬 발동 시 탄약 10발 장전, 수동 종료 가능</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 35,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_horn_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "attack@s2.atk_scale",
+					"value": 1.5
+				},
+				{
+					"key": "attack@s2.magic_atk_scale",
+					"value": 0.3
+				},
+				{
+					"key": "attack@s2.hp_ratio",
+					"value": 0.6
+				},
+				{
+					"key": "attack@s2.trigger_time",
+					"value": 10
+				},
+				{
+					"key": "hp_ratio",
+					"value": 0.6
+				}
+			]
+		},
+		{
+			"name": "폭풍의 호령",
+			"rangeId": null,
+			"description": "공격 시 공격력의 <@ba.vup>{attack@s2.atk_scale:0%}</>에 해당하는 스플래시 물리 대미지를 입힌다\n<$ba.overdrive>과부하</>: 공격 시 공격력의 <@ba.vup>{attack@s2.magic_atk_scale:0%}</>에 해당하는 스플래시 <@ba.vup>마법</> 대미지를 추가로 입히며, 스킬을 수동 종료 시 나머지 탄약을 전부 발사하고 HP가 <@ba.vdown>{attack@s2.hp_ratio:0%}</> 감소\n<@ba.rem>스킬 발동 시 탄약 10발 장전, 수동 종료 가능</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 30,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_horn_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "attack@s2.atk_scale",
+					"value": 1.6
+				},
+				{
+					"key": "attack@s2.magic_atk_scale",
+					"value": 0.35
+				},
+				{
+					"key": "attack@s2.hp_ratio",
+					"value": 0.6
+				},
+				{
+					"key": "attack@s2.trigger_time",
+					"value": 10
+				},
+				{
+					"key": "hp_ratio",
+					"value": 0.6
+				}
+			]
+		},
+		{
+			"name": "폭풍의 호령",
+			"rangeId": null,
+			"description": "공격 시 공격력의 <@ba.vup>{attack@s2.atk_scale:0%}</>에 해당하는 스플래시 물리 대미지를 입힌다\n<$ba.overdrive>과부하</>: 공격 시 공격력의 <@ba.vup>{attack@s2.magic_atk_scale:0%}</>에 해당하는 스플래시 <@ba.vup>마법</> 대미지를 추가로 입히며, 스킬을 수동 종료 시 나머지 탄약을 전부 발사하고 HP가 <@ba.vdown>{attack@s2.hp_ratio:0%}</> 감소\n<@ba.rem>스킬 발동 시 탄약 10발 장전, 수동 종료 가능</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 30,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_horn_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "attack@s2.atk_scale",
+					"value": 1.7
+				},
+				{
+					"key": "attack@s2.magic_atk_scale",
+					"value": 0.35
+				},
+				{
+					"key": "attack@s2.hp_ratio",
+					"value": 0.6
+				},
+				{
+					"key": "attack@s2.trigger_time",
+					"value": 10
+				},
+				{
+					"key": "hp_ratio",
+					"value": 0.6
+				}
+			]
+		},
+		{
+			"name": "폭풍의 호령",
+			"rangeId": null,
+			"description": "공격 시 공격력의 <@ba.vup>{attack@s2.atk_scale:0%}</>에 해당하는 스플래시 물리 대미지를 입힌다\n<$ba.overdrive>과부하</>: 공격 시 공격력의 <@ba.vup>{attack@s2.magic_atk_scale:0%}</>에 해당하는 스플래시 <@ba.vup>마법</> 대미지를 추가로 입히며, 스킬을 수동 종료 시 나머지 탄약을 전부 발사하고 HP가 <@ba.vdown>{attack@s2.hp_ratio:0%}</> 감소\n<@ba.rem>스킬 발동 시 탄약 10발 장전, 수동 종료 가능</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 30,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_horn_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "attack@s2.atk_scale",
+					"value": 1.8
+				},
+				{
+					"key": "attack@s2.magic_atk_scale",
+					"value": 0.35
+				},
+				{
+					"key": "attack@s2.hp_ratio",
+					"value": 0.6
+				},
+				{
+					"key": "attack@s2.trigger_time",
+					"value": 10
+				},
+				{
+					"key": "hp_ratio",
+					"value": 0.6
+				}
+			]
+		},
+		{
+			"name": "폭풍의 호령",
+			"rangeId": null,
+			"description": "공격 시 공격력의 <@ba.vup>{attack@s2.atk_scale:0%}</>에 해당하는 스플래시 물리 대미지를 입힌다\n<$ba.overdrive>과부하</>: 공격 시 공격력의 <@ba.vup>{attack@s2.magic_atk_scale:0%}</>에 해당하는 스플래시 <@ba.vup>마법</> 대미지를 추가로 입히며, 스킬을 수동 종료 시 나머지 탄약을 전부 발사하고 HP가 <@ba.vdown>{attack@s2.hp_ratio:0%}</> 감소\n<@ba.rem>스킬 발동 시 탄약 10발 장전, 수동 종료 가능</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 28,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_horn_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "attack@s2.atk_scale",
+					"value": 1.9
+				},
+				{
+					"key": "attack@s2.magic_atk_scale",
+					"value": 0.4
+				},
+				{
+					"key": "attack@s2.hp_ratio",
+					"value": 0.6
+				},
+				{
+					"key": "attack@s2.trigger_time",
+					"value": 10
+				},
+				{
+					"key": "hp_ratio",
+					"value": 0.6
+				}
+			]
+		},
+		{
+			"name": "폭풍의 호령",
+			"rangeId": null,
+			"description": "공격 시 공격력의 <@ba.vup>{attack@s2.atk_scale:0%}</>에 해당하는 스플래시 물리 대미지를 입힌다\n<$ba.overdrive>과부하</>: 공격 시 공격력의 <@ba.vup>{attack@s2.magic_atk_scale:0%}</>에 해당하는 스플래시 <@ba.vup>마법</> 대미지를 추가로 입히며, 스킬을 수동 종료 시 나머지 탄약을 전부 발사하고 HP가 <@ba.vdown>{attack@s2.hp_ratio:0%}</> 감소\n<@ba.rem>스킬 발동 시 탄약 10발 장전, 수동 종료 가능</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 27,
+				"initSp": 18,
+				"increment": 1
+			},
+			"prefabId": "skchr_horn_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "attack@s2.atk_scale",
+					"value": 2
+				},
+				{
+					"key": "attack@s2.magic_atk_scale",
+					"value": 0.5
+				},
+				{
+					"key": "attack@s2.hp_ratio",
+					"value": 0.6
+				},
+				{
+					"key": "attack@s2.trigger_time",
+					"value": 10
+				},
+				{
+					"key": "hp_ratio",
+					"value": 0.6
+				}
+			]
+		},
+		{
+			"name": "폭풍의 호령",
+			"rangeId": null,
+			"description": "공격 시 공격력의 <@ba.vup>{attack@s2.atk_scale:0%}</>에 해당하는 스플래시 물리 대미지를 입힌다\n<$ba.overdrive>과부하</>: 공격 시 공격력의 <@ba.vup>{attack@s2.magic_atk_scale:0%}</>에 해당하는 스플래시 <@ba.vup>마법</> 대미지를 추가로 입히며, 스킬을 수동 종료 시 나머지 탄약을 전부 발사하고 HP가 <@ba.vdown>{attack@s2.hp_ratio:0%}</> 감소\n<@ba.rem>스킬 발동 시 탄약 10발 장전, 수동 종료 가능</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 26,
+				"initSp": 18,
+				"increment": 1
+			},
+			"prefabId": "skchr_horn_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "attack@s2.atk_scale",
+					"value": 2.2
+				},
+				{
+					"key": "attack@s2.magic_atk_scale",
+					"value": 0.5
+				},
+				{
+					"key": "attack@s2.hp_ratio",
+					"value": 0.6
+				},
+				{
+					"key": "attack@s2.trigger_time",
+					"value": 10
+				},
+				{
+					"key": "hp_ratio",
+					"value": 0.6
+				}
+			]
+		},
+		{
+			"name": "폭풍의 호령",
+			"rangeId": null,
+			"description": "공격 시 공격력의 <@ba.vup>{attack@s2.atk_scale:0%}</>에 해당하는 스플래시 물리 대미지를 입힌다\n<$ba.overdrive>과부하</>: 공격 시 공격력의 <@ba.vup>{attack@s2.magic_atk_scale:0%}</>에 해당하는 스플래시 <@ba.vup>마법</> 대미지를 추가로 입히며, 스킬을 수동 종료 시 나머지 탄약을 전부 발사하고 HP가 <@ba.vdown>{attack@s2.hp_ratio:0%}</> 감소\n<@ba.rem>스킬 발동 시 탄약 10발 장전, 수동 종료 가능</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 25,
+				"initSp": 18,
+				"increment": 1
+			},
+			"prefabId": "skchr_horn_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "attack@s2.atk_scale",
+					"value": 2.4
+				},
+				{
+					"key": "attack@s2.magic_atk_scale",
+					"value": 0.6
+				},
+				{
+					"key": "attack@s2.hp_ratio",
+					"value": 0.6
+				},
+				{
+					"key": "attack@s2.trigger_time",
+					"value": 10
+				},
+				{
+					"key": "hp_ratio",
+					"value": 0.6
+				}
+			]
+		}
+	]
+}

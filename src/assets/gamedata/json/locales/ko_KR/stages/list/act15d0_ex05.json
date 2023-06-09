@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act15d0_ex04",
@@ -10,7 +11,7 @@
 	],
 	"stageId": "act15d0_ex05",
 	"levelId": "Activities/ACT15D0/level_act15d0_ex05",
-	"zoneId": "act15d0_zone2",
+	"zoneId": "act8sre_zone2",
 	"code": "MB-EX-5",
 	"name": "앞뒤로 만난 적",
 	"description": "감옥에는 수많은 강자가 있다. 그들을 건드리기 전에 마음의 준비를 해야 한다.\n<@lv.item><구속 장치></> 범위 내 해방된 적 구속",
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {
@@ -52,7 +54,7 @@
 		"displayRewards": [
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act15d0_token_ironSheet",
+				"id": "act15d0_token_ironSheet_rep_1",
 				"dropType": 8
 			},
 			{
@@ -65,7 +67,7 @@
 			{
 				"occPercent": 0,
 				"type": "ACTIVITY_ITEM",
-				"id": "act15d0_token_ironSheet",
+				"id": "act15d0_token_ironSheet_rep_1",
 				"dropType": 8
 			},
 			{

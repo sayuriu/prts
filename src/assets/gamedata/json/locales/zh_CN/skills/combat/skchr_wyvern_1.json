@@ -7,10 +7,10 @@
 			"name": "冲锋号令·援军",
 			"rangeId": null,
 			"description": "获得<@ba.vup>{cost}</>点部署费用，攻击力<@ba.vup>+{atk:0%}</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 25,
@@ -22,11 +22,13 @@
 			"blackboard": [
 				{
 					"key": "cost",
-					"value": 6
+					"value": 6,
+					"valueStr": null
 				},
 				{
 					"key": "atk",
-					"value": 0.05
+					"value": 0.05,
+					"valueStr": null
 				}
 			]
 		},
@@ -34,10 +36,10 @@
 			"name": "冲锋号令·援军",
 			"rangeId": null,
 			"description": "获得<@ba.vup>{cost}</>点部署费用，攻击力<@ba.vup>+{atk:0%}</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 25,
@@ -49,11 +51,13 @@
 			"blackboard": [
 				{
 					"key": "cost",
-					"value": 6
+					"value": 6,
+					"valueStr": null
 				},
 				{
 					"key": "atk",
-					"value": 0.1
+					"value": 0.1,
+					"valueStr": null
 				}
 			]
 		},
@@ -61,10 +65,10 @@
 			"name": "冲锋号令·援军",
 			"rangeId": null,
 			"description": "获得<@ba.vup>{cost}</>点部署费用，攻击力<@ba.vup>+{atk:0%}</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 25,
@@ -76,11 +80,13 @@
 			"blackboard": [
 				{
 					"key": "cost",
-					"value": 6
+					"value": 6,
+					"valueStr": null
 				},
 				{
 					"key": "atk",
-					"value": 0.15
+					"value": 0.15,
+					"valueStr": null
 				}
 			]
 		},
@@ -88,10 +94,10 @@
 			"name": "冲锋号令·援军",
 			"rangeId": null,
 			"description": "获得<@ba.vup>{cost}</>点部署费用，攻击力<@ba.vup>+{atk:0%}</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 23,
@@ -103,11 +109,13 @@
 			"blackboard": [
 				{
 					"key": "cost",
-					"value": 6
+					"value": 6,
+					"valueStr": null
 				},
 				{
 					"key": "atk",
-					"value": 0.2
+					"value": 0.2,
+					"valueStr": null
 				}
 			]
 		},
@@ -115,10 +123,10 @@
 			"name": "冲锋号令·援军",
 			"rangeId": null,
 			"description": "获得<@ba.vup>{cost}</>点部署费用，攻击力<@ba.vup>+{atk:0%}</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 22,
@@ -130,11 +138,13 @@
 			"blackboard": [
 				{
 					"key": "cost",
-					"value": 6
+					"value": 6,
+					"valueStr": null
 				},
 				{
 					"key": "atk",
-					"value": 0.25
+					"value": 0.25,
+					"valueStr": null
 				}
 			]
 		},
@@ -142,10 +152,10 @@
 			"name": "冲锋号令·援军",
 			"rangeId": null,
 			"description": "获得<@ba.vup>{cost}</>点部署费用，攻击力<@ba.vup>+{atk:0%}</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 21,
@@ -157,11 +167,13 @@
 			"blackboard": [
 				{
 					"key": "cost",
-					"value": 6
+					"value": 6,
+					"valueStr": null
 				},
 				{
 					"key": "atk",
-					"value": 0.3
+					"value": 0.3,
+					"valueStr": null
 				}
 			]
 		},
@@ -169,10 +181,10 @@
 			"name": "冲锋号令·援军",
 			"rangeId": null,
 			"description": "获得<@ba.vup>{cost}</>点部署费用，攻击力<@ba.vup>+{atk:0%}</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 20,
@@ -184,11 +196,13 @@
 			"blackboard": [
 				{
 					"key": "cost",
-					"value": 6
+					"value": 6,
+					"valueStr": null
 				},
 				{
 					"key": "atk",
-					"value": 0.35
+					"value": 0.35,
+					"valueStr": null
 				}
 			]
 		}

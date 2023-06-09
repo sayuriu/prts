@@ -2,9 +2,10 @@
 	"stageType": "MAIN",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "ALL",
 	"unlockCondition": [
 		{
-			"stageId": "main_09-05",
+			"stageId": "easy_09-05",
 			"completeState": 2
 		}
 	],
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": true,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 3,
 	"stageDropInfo": {

@@ -6,15 +6,15 @@
 	"iconId": "MTL_SL_STRG2",
 	"overrideBkg": null,
 	"stackIconId": null,
-	"sortId": 100026,
+	"sortId": 100040,
 	"usage": "공장에서 생산된 소량의 포도당. 제조소에서 합성 재료로 쓰이며 각종 강화에 사용된다.",
 	"obtainApproach": null,
 	"classifyType": "MATERIAL",
 	"itemType": "MATERIAL",
 	"stageDropList": [
 		{
-			"stageId": "act18d3_03",
-			"occPer": "ALWAYS"
+			"stageId": "act14side_05",
+			"occPer": "USUAL"
 		},
 		{
 			"stageId": "act9d0_05",
@@ -49,8 +49,8 @@
 			"occPer": "USUAL"
 		},
 		{
-			"stageId": "a001_03",
-			"occPer": "USUAL"
+			"stageId": "act18d3_03",
+			"occPer": "ALWAYS"
 		},
 		{
 			"stageId": "act7mini_02",
@@ -61,8 +61,44 @@
 			"occPer": "ALMOST"
 		},
 		{
+			"stageId": "act9mini_04",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "act13side_05",
+			"occPer": "USUAL"
+		},
+		{
 			"stageId": "act6d5_04",
 			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "a001_03",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "act16side_05",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "act18side_04",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "act20side_04",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "act19side_04",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "act13mini_06",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "act15side_05",
+			"occPer": "USUAL"
 		},
 		{
 			"stageId": "main_08-05",
@@ -83,6 +119,14 @@
 		{
 			"stageId": "main_02-02",
 			"occPer": "ALMOST"
+		},
+		{
+			"stageId": "main_11-02",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "tough_11-02",
+			"occPer": "USUAL"
 		},
 		{
 			"stageId": "sub_05-2-2",

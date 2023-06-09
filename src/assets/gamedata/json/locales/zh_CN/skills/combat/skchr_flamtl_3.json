@@ -7,10 +7,10 @@
 			"name": "焰心",
 			"rangeId": null,
 			"description": "技能持续时间内逐渐获得<@ba.vup>{value}</>点部署费用，攻击间隔<@ba.vup>缩短</>，攻击力<@ba.vup>+{atk:0%}</>，阻挡数<@ba.vup>+{block_cnt}</>，获得<@ba.vup>{prob:0%}</>的物理和法术闪避",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 22,
@@ -22,27 +22,33 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.3
+					"value": 0.3,
+					"valueStr": null
 				},
 				{
 					"key": "cost",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "prob",
-					"value": 0.6
+					"value": 0.6,
+					"valueStr": null
 				},
 				{
 					"key": "base_attack_time",
-					"value": 0.7
+					"value": 0.7,
+					"valueStr": null
 				},
 				{
 					"key": "block_cnt",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "value",
-					"value": 8
+					"value": 8,
+					"valueStr": null
 				}
 			]
 		},
@@ -50,10 +56,10 @@
 			"name": "焰心",
 			"rangeId": null,
 			"description": "技能持续时间内逐渐获得<@ba.vup>{value}</>点部署费用，攻击间隔<@ba.vup>缩短</>，攻击力<@ba.vup>+{atk:0%}</>，阻挡数<@ba.vup>+{block_cnt}</>，获得<@ba.vup>{prob:0%}</>的物理和法术闪避",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 22,
@@ -65,27 +71,33 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.35
+					"value": 0.35,
+					"valueStr": null
 				},
 				{
 					"key": "cost",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "prob",
-					"value": 0.6
+					"value": 0.6,
+					"valueStr": null
 				},
 				{
 					"key": "base_attack_time",
-					"value": 0.7
+					"value": 0.7,
+					"valueStr": null
 				},
 				{
 					"key": "block_cnt",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "value",
-					"value": 8
+					"value": 8,
+					"valueStr": null
 				}
 			]
 		},
@@ -93,10 +105,10 @@
 			"name": "焰心",
 			"rangeId": null,
 			"description": "技能持续时间内逐渐获得<@ba.vup>{value}</>点部署费用，攻击间隔<@ba.vup>缩短</>，攻击力<@ba.vup>+{atk:0%}</>，阻挡数<@ba.vup>+{block_cnt}</>，获得<@ba.vup>{prob:0%}</>的物理和法术闪避",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 21,
@@ -108,27 +120,33 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.4
+					"value": 0.4,
+					"valueStr": null
 				},
 				{
 					"key": "cost",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "prob",
-					"value": 0.6
+					"value": 0.6,
+					"valueStr": null
 				},
 				{
 					"key": "base_attack_time",
-					"value": 0.7
+					"value": 0.7,
+					"valueStr": null
 				},
 				{
 					"key": "block_cnt",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "value",
-					"value": 8
+					"value": 8,
+					"valueStr": null
 				}
 			]
 		},
@@ -136,10 +154,10 @@
 			"name": "焰心",
 			"rangeId": null,
 			"description": "技能持续时间内逐渐获得<@ba.vup>{value}</>点部署费用，攻击间隔<@ba.vup>缩短</>，攻击力<@ba.vup>+{atk:0%}</>，阻挡数<@ba.vup>+{block_cnt}</>，获得<@ba.vup>{prob:0%}</>的物理和法术闪避",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 21,
@@ -151,27 +169,33 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.45
+					"value": 0.45,
+					"valueStr": null
 				},
 				{
 					"key": "cost",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "prob",
-					"value": 0.6
+					"value": 0.6,
+					"valueStr": null
 				},
 				{
 					"key": "base_attack_time",
-					"value": 0.7
+					"value": 0.7,
+					"valueStr": null
 				},
 				{
 					"key": "block_cnt",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "value",
-					"value": 8
+					"value": 8,
+					"valueStr": null
 				}
 			]
 		},
@@ -179,10 +203,10 @@
 			"name": "焰心",
 			"rangeId": null,
 			"description": "技能持续时间内逐渐获得<@ba.vup>{value}</>点部署费用，攻击间隔<@ba.vup>缩短</>，攻击力<@ba.vup>+{atk:0%}</>，阻挡数<@ba.vup>+{block_cnt}</>，获得<@ba.vup>{prob:0%}</>的物理和法术闪避",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 20,
@@ -194,27 +218,33 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				},
 				{
 					"key": "cost",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "prob",
-					"value": 0.6
+					"value": 0.6,
+					"valueStr": null
 				},
 				{
 					"key": "base_attack_time",
-					"value": 0.7
+					"value": 0.7,
+					"valueStr": null
 				},
 				{
 					"key": "block_cnt",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "value",
-					"value": 8
+					"value": 8,
+					"valueStr": null
 				}
 			]
 		},
@@ -222,10 +252,10 @@
 			"name": "焰心",
 			"rangeId": null,
 			"description": "技能持续时间内逐渐获得<@ba.vup>{value}</>点部署费用，攻击间隔<@ba.vup>缩短</>，攻击力<@ba.vup>+{atk:0%}</>，阻挡数<@ba.vup>+{block_cnt}</>，获得<@ba.vup>{prob:0%}</>的物理和法术闪避",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 20,
@@ -237,27 +267,33 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.55
+					"value": 0.55,
+					"valueStr": null
 				},
 				{
 					"key": "cost",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "prob",
-					"value": 0.6
+					"value": 0.6,
+					"valueStr": null
 				},
 				{
 					"key": "base_attack_time",
-					"value": 0.7
+					"value": 0.7,
+					"valueStr": null
 				},
 				{
 					"key": "block_cnt",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "value",
-					"value": 8
+					"value": 8,
+					"valueStr": null
 				}
 			]
 		},
@@ -265,10 +301,10 @@
 			"name": "焰心",
 			"rangeId": null,
 			"description": "技能持续时间内逐渐获得<@ba.vup>{value}</>点部署费用，攻击间隔<@ba.vup>缩短</>，攻击力<@ba.vup>+{atk:0%}</>，阻挡数<@ba.vup>+{block_cnt}</>，获得<@ba.vup>{prob:0%}</>的物理和法术闪避",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 19,
@@ -280,27 +316,33 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.6
+					"value": 0.6,
+					"valueStr": null
 				},
 				{
 					"key": "cost",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "prob",
-					"value": 0.8
+					"value": 0.8,
+					"valueStr": null
 				},
 				{
 					"key": "base_attack_time",
-					"value": 0.7
+					"value": 0.7,
+					"valueStr": null
 				},
 				{
 					"key": "block_cnt",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "value",
-					"value": 8
+					"value": 8,
+					"valueStr": null
 				}
 			]
 		},
@@ -308,10 +350,10 @@
 			"name": "焰心",
 			"rangeId": null,
 			"description": "技能持续时间内逐渐获得<@ba.vup>{value}</>点部署费用，攻击间隔<@ba.vup>缩短</>，攻击力<@ba.vup>+{atk:0%}</>，阻挡数<@ba.vup>+{block_cnt}</>，获得<@ba.vup>{prob:0%}</>的物理和法术闪避",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 18,
@@ -323,27 +365,33 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.7
+					"value": 0.7,
+					"valueStr": null
 				},
 				{
 					"key": "cost",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "prob",
-					"value": 0.8
+					"value": 0.8,
+					"valueStr": null
 				},
 				{
 					"key": "base_attack_time",
-					"value": 0.7
+					"value": 0.7,
+					"valueStr": null
 				},
 				{
 					"key": "block_cnt",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "value",
-					"value": 8
+					"value": 8,
+					"valueStr": null
 				}
 			]
 		},
@@ -351,10 +399,10 @@
 			"name": "焰心",
 			"rangeId": null,
 			"description": "技能持续时间内逐渐获得<@ba.vup>{value}</>点部署费用，攻击间隔<@ba.vup>缩短</>，攻击力<@ba.vup>+{atk:0%}</>，阻挡数<@ba.vup>+{block_cnt}</>，获得<@ba.vup>{prob:0%}</>的物理和法术闪避",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 17,
@@ -366,27 +414,33 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.8
+					"value": 0.8,
+					"valueStr": null
 				},
 				{
 					"key": "cost",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "prob",
-					"value": 0.8
+					"value": 0.8,
+					"valueStr": null
 				},
 				{
 					"key": "base_attack_time",
-					"value": 0.7
+					"value": 0.7,
+					"valueStr": null
 				},
 				{
 					"key": "block_cnt",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "value",
-					"value": 8
+					"value": 8,
+					"valueStr": null
 				}
 			]
 		},
@@ -394,10 +448,10 @@
 			"name": "焰心",
 			"rangeId": null,
 			"description": "技能持续时间内逐渐获得<@ba.vup>{value}</>点部署费用，攻击间隔<@ba.vup>缩短</>，攻击力<@ba.vup>+{atk:0%}</>，阻挡数<@ba.vup>+{block_cnt}</>，获得<@ba.vup>{prob:0%}</>的物理和法术闪避",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 16,
@@ -409,27 +463,33 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.9
+					"value": 0.9,
+					"valueStr": null
 				},
 				{
 					"key": "cost",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "prob",
-					"value": 0.8
+					"value": 0.8,
+					"valueStr": null
 				},
 				{
 					"key": "base_attack_time",
-					"value": 0.7
+					"value": 0.7,
+					"valueStr": null
 				},
 				{
 					"key": "block_cnt",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "value",
-					"value": 8
+					"value": 8,
+					"valueStr": null
 				}
 			]
 		}

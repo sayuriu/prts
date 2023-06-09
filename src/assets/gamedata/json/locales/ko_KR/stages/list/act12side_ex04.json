@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act12side_ex03",
@@ -10,7 +11,7 @@
 	],
 	"stageId": "act12side_ex04",
 	"levelId": "Activities/ACT12SIDE/level_act12side_ex04",
-	"zoneId": "act12side_zone2",
+	"zoneId": "act12sre_zone2",
 	"code": "DH-EX-4",
 	"name": "하구",
 	"description": "뒤로는 백사장과 인파, 앞에는 뚫고 들어가려는 무법자들. 어떻게 해야 할지 뻔하다.\n<@lv.item><깊은 수역></> 해당 지역에 배치할 수 없으며, 적의 공격 속도 및 이동 속도 저하, 지속해서 HP를 잃는다\n<@lv.item><특제 수상 플랫폼></> 깊은 수역에 설치하여 그 위에 유닛을 배치할 수 있지만, 배치한 유닛이 퇴각하면 플랫폼도 파괴된다",
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {

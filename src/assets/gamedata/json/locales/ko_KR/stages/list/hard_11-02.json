@@ -1,0 +1,73 @@
+{
+	"stageType": "SUB",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "TOUGH",
+	"unlockCondition": [
+		{
+			"stageId": "hard_11-01",
+			"completeState": 2
+		}
+	],
+	"stageId": "hard_11-02",
+	"levelId": "Obt/Hard/level_hard_11-02",
+	"zoneId": "main_11",
+	"code": "H11-2",
+	"name": "더스트 작전-2",
+	"description": "기사는 마음속의 명예를 지키며, 자신을 가로막는 모든 이들을 향해 돌격한다.\n<@lv.item><부식된 고목></> 파괴되거나 또는 모든 적을 처치하면 나흐체러르 추종자로 변경\n<@lv.fs>'마지막 증기 기사' 추가 능력:</>\n[증기 증압] 시전하는 동안 받는 대미지 감소, 종료 후 더 이상 기절하지 않음",
+	"hardStagedId": null,
+	"dangerLevel": "-",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_VC_tomb",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 10,
+	"apFailReturn": 9,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": -1,
+	"expGain": 100,
+	"goldGain": 100,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 9,
+	"completeFavor": 10,
+	"slProgress": 0,
+	"displayMainItem": "",
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 4,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 0,
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		]
+	},
+	"startButtonOverrideId": "HIGH_DIFFICULTY",
+	"isStagePatch": false,
+	"mainStageId": "tough_11-18"
+}

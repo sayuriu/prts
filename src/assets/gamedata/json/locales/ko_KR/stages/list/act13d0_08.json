@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act13d0_07",
@@ -13,7 +14,7 @@
 	"zoneId": "act13d0_zone1",
 	"code": "FA-8",
 	"name": "난공불락",
-	"description": "사람은 언제나 연약하지. 신경 쓸 것 없다. 방어하기 힘들다면, 공격을 더하면 되니까.\n<@lv.item><부식된 지면></>해당 위치에 배치된 아군의 방어력 절반 감소\n<@lv.item><발리스타></>주기적으로 아군에게 화살을 발사하여 물리 대미지를 준다",
+	"description": "사람은 언제나 연약하지. 신경 쓸 것 없다. 방어하기 힘들다면, 공격을 더하면 되니까.\n<@lv.item><부식된 지표면></> 해당 지형에 배치한 아군의 방어력 절반 감소\n<@lv.item><발리스타></>주기적으로 아군에게 화살을 발사하여 물리 대미지를 준다",
 	"hardStagedId": "act13d0_08#f#",
 	"dangerLevel": "2차 정예화 Lv.40",
 	"dangerPoint": -1,
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {

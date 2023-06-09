@@ -7,8 +7,8 @@
 			"name": "列阵！",
 			"rangeId": null,
 			"description": "更容易受到敌方的攻击",
-			"skillType": 0,
-			"durationType": 0,
+			"skillType": "PASSIVE",
+			"durationType": "PASSIVE",
 			"spData": {
 				"spType": 8,
 				"levelUpCost": null,
@@ -22,7 +22,8 @@
 			"blackboard": [
 				{
 					"key": "taunt_level",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		}

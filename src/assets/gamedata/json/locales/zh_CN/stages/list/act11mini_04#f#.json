@@ -1,0 +1,94 @@
+{
+	"stageType": "ACTIVITY",
+	"difficulty": "FOUR_STAR",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
+	"unlockCondition": [
+		{
+			"stageId": "main_02-08",
+			"completeState": "PASS"
+		},
+		{
+			"stageId": "act11mini_04",
+			"completeState": "COMPLETE"
+		}
+	],
+	"stageId": "act11mini_04#f#",
+	"levelId": "Activities/act11mini/level_act11mini_04",
+	"zoneId": "act11mini_zone1",
+	"code": "TC-4",
+	"name": "最后的青金",
+	"description": "<@lv.fs>附加条件：</>\\n罗伊和莫妮克攻击速度提升",
+	"hardStagedId": null,
+	"dangerLevel": "-",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_Kazimierz_Street",
+	"canPractice": true,
+	"canBattleReplay": false,
+	"apCost": 12,
+	"apFailReturn": 6,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 0,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 3,
+	"dailyStageDifficulty": 0,
+	"expGain": 120,
+	"goldGain": 120,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 6,
+	"completeFavor": 12,
+	"slProgress": 0,
+	"displayMainItem": null,
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": "MAIN_NORMAL",
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act11mini_token_card",
+				"dropType": "ONCE"
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": "COMPLETE"
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": "ALWAYS",
+				"type": "ACTIVITY_ITEM",
+				"id": "act11mini_token_card",
+				"dropType": "ONCE"
+			},
+			{
+				"occPercent": "ALWAYS",
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": "COMPLETE"
+			}
+		]
+	},
+	"canUseCharm": false,
+	"canUseTech": false,
+	"canUseTrapTool": false,
+	"canUseBattlePerformance": false,
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "act11mini_01",
+	"extraCondition": null,
+	"extraInfo": null
+}

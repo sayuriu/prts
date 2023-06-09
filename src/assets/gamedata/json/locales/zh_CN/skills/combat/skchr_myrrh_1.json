@@ -7,10 +7,10 @@
 			"name": "二重治疗",
 			"rangeId": null,
 			"description": "下次治疗可以恢复相当于攻击力<@ba.vup>{heal_scale:0%}</>的生命，并额外治疗一名单位\\n<@ba.rem>可充能{ct}次</>",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 10,
@@ -22,11 +22,13 @@
 			"blackboard": [
 				{
 					"key": "heal_scale",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "ct",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -34,10 +36,10 @@
 			"name": "二重治疗",
 			"rangeId": null,
 			"description": "下次治疗可以恢复相当于攻击力<@ba.vup>{heal_scale:0%}</>的生命，并额外治疗一名单位\\n<@ba.rem>可充能{ct}次</>",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 10,
@@ -49,11 +51,13 @@
 			"blackboard": [
 				{
 					"key": "heal_scale",
-					"value": 1.02
+					"value": 1.02,
+					"valueStr": null
 				},
 				{
 					"key": "ct",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -61,10 +65,10 @@
 			"name": "二重治疗",
 			"rangeId": null,
 			"description": "下次治疗可以恢复相当于攻击力<@ba.vup>{heal_scale:0%}</>的生命，并额外治疗一名单位\\n<@ba.rem>可充能{ct}次</>",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 10,
@@ -76,11 +80,13 @@
 			"blackboard": [
 				{
 					"key": "heal_scale",
-					"value": 1.04
+					"value": 1.04,
+					"valueStr": null
 				},
 				{
 					"key": "ct",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -88,10 +94,10 @@
 			"name": "二重治疗",
 			"rangeId": null,
 			"description": "下次治疗可以恢复相当于攻击力<@ba.vup>{heal_scale:0%}</>的生命，并额外治疗一名单位\\n<@ba.rem>可充能{ct}次</>",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 2,
 				"spCost": 9,
@@ -103,11 +109,13 @@
 			"blackboard": [
 				{
 					"key": "heal_scale",
-					"value": 1.06
+					"value": 1.06,
+					"valueStr": null
 				},
 				{
 					"key": "ct",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				}
 			]
 		},
@@ -115,10 +123,10 @@
 			"name": "二重治疗",
 			"rangeId": null,
 			"description": "下次治疗可以恢复相当于攻击力<@ba.vup>{heal_scale:0%}</>的生命，并额外治疗一名单位\\n<@ba.rem>可充能{ct}次</>",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 2,
 				"spCost": 9,
@@ -130,11 +138,13 @@
 			"blackboard": [
 				{
 					"key": "heal_scale",
-					"value": 1.08
+					"value": 1.08,
+					"valueStr": null
 				},
 				{
 					"key": "ct",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				}
 			]
 		},
@@ -142,10 +152,10 @@
 			"name": "二重治疗",
 			"rangeId": null,
 			"description": "下次治疗可以恢复相当于攻击力<@ba.vup>{heal_scale:0%}</>的生命，并额外治疗一名单位\\n<@ba.rem>可充能{ct}次</>",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 2,
 				"spCost": 9,
@@ -157,11 +167,13 @@
 			"blackboard": [
 				{
 					"key": "heal_scale",
-					"value": 1.1
+					"value": 1.1,
+					"valueStr": null
 				},
 				{
 					"key": "ct",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				}
 			]
 		},
@@ -169,10 +181,10 @@
 			"name": "二重治疗",
 			"rangeId": null,
 			"description": "下次治疗可以恢复相当于攻击力<@ba.vup>{heal_scale:0%}</>的生命，并额外治疗一名单位\\n<@ba.rem>可充能{ct}次</>",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 3,
 				"spCost": 9,
@@ -184,11 +196,13 @@
 			"blackboard": [
 				{
 					"key": "heal_scale",
-					"value": 1.12
+					"value": 1.12,
+					"valueStr": null
 				},
 				{
 					"key": "ct",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				}
 			]
 		},
@@ -196,10 +210,10 @@
 			"name": "二重治疗",
 			"rangeId": null,
 			"description": "下次治疗可以恢复相当于攻击力<@ba.vup>{heal_scale:0%}</>的生命，并额外治疗一名单位\\n<@ba.rem>可充能{ct}次</>",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 3,
 				"spCost": 8,
@@ -211,11 +225,13 @@
 			"blackboard": [
 				{
 					"key": "heal_scale",
-					"value": 1.16
+					"value": 1.16,
+					"valueStr": null
 				},
 				{
 					"key": "ct",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				}
 			]
 		},
@@ -223,10 +239,10 @@
 			"name": "二重治疗",
 			"rangeId": null,
 			"description": "下次治疗可以恢复相当于攻击力<@ba.vup>{heal_scale:0%}</>的生命，并额外治疗一名单位\\n<@ba.rem>可充能{ct}次</>",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 3,
 				"spCost": 8,
@@ -238,11 +254,13 @@
 			"blackboard": [
 				{
 					"key": "heal_scale",
-					"value": 1.2
+					"value": 1.2,
+					"valueStr": null
 				},
 				{
 					"key": "ct",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				}
 			]
 		},
@@ -250,10 +268,10 @@
 			"name": "二重治疗",
 			"rangeId": null,
 			"description": "下次治疗可以恢复相当于攻击力<@ba.vup>{heal_scale:0%}</>的生命，并额外治疗一名单位\\n<@ba.rem>可充能{ct}次</>",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 3,
 				"spCost": 8,
@@ -265,11 +283,13 @@
 			"blackboard": [
 				{
 					"key": "heal_scale",
-					"value": 1.25
+					"value": 1.25,
+					"valueStr": null
 				},
 				{
 					"key": "ct",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				}
 			]
 		}

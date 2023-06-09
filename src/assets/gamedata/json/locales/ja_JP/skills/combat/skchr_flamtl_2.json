@@ -1,0 +1,437 @@
+{
+	"skillId": "skchr_flamtl_2",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "「レッドパイン」",
+			"rangeId": "x-1",
+			"description": "所持コスト<@ba.vup>+{cost}</>\n周囲一定範囲内の敵最大6体に<@ba.vup>2回連続</>で攻撃力の<@ba.vup>{atk_scale:0%}</>の物理ダメージを与え、<@ba.vup>{stun}</>秒間<$ba.stun>スタン</>させる。効果範囲内の味方全員に<@ba.vup>{flamtl_s_2.duration}</>秒間物理回避<@ba.vup>+{flamtl_s_2.prob:0%}</>の効果を付与する",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 40,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_flamtl_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "cost",
+					"value": 10
+				},
+				{
+					"key": "atk_scale",
+					"value": 1.5
+				},
+				{
+					"key": "stun",
+					"value": 0.5
+				},
+				{
+					"key": "max_target",
+					"value": 6
+				},
+				{
+					"key": "flamtl_s_2.prob",
+					"value": 0.35
+				},
+				{
+					"key": "flamtl_s_2.duration",
+					"value": 10
+				}
+			]
+		},
+		{
+			"name": "「レッドパイン」",
+			"rangeId": "x-1",
+			"description": "所持コスト<@ba.vup>+{cost}</>\n周囲一定範囲内の敵最大6体に<@ba.vup>2回連続</>で攻撃力の<@ba.vup>{atk_scale:0%}</>の物理ダメージを与え、<@ba.vup>{stun}</>秒間<$ba.stun>スタン</>させる。効果範囲内の味方全員に<@ba.vup>{flamtl_s_2.duration}</>秒間物理回避<@ba.vup>+{flamtl_s_2.prob:0%}</>の効果を付与する",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 40,
+				"initSp": 21,
+				"increment": 1
+			},
+			"prefabId": "skchr_flamtl_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "cost",
+					"value": 10
+				},
+				{
+					"key": "atk_scale",
+					"value": 1.6
+				},
+				{
+					"key": "stun",
+					"value": 0.5
+				},
+				{
+					"key": "max_target",
+					"value": 6
+				},
+				{
+					"key": "flamtl_s_2.prob",
+					"value": 0.35
+				},
+				{
+					"key": "flamtl_s_2.duration",
+					"value": 10
+				}
+			]
+		},
+		{
+			"name": "「レッドパイン」",
+			"rangeId": "x-1",
+			"description": "所持コスト<@ba.vup>+{cost}</>\n周囲一定範囲内の敵最大6体に<@ba.vup>2回連続</>で攻撃力の<@ba.vup>{atk_scale:0%}</>の物理ダメージを与え、<@ba.vup>{stun}</>秒間<$ba.stun>スタン</>させる。効果範囲内の味方全員に<@ba.vup>{flamtl_s_2.duration}</>秒間物理回避<@ba.vup>+{flamtl_s_2.prob:0%}</>の効果を付与する",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 40,
+				"initSp": 22,
+				"increment": 1
+			},
+			"prefabId": "skchr_flamtl_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "cost",
+					"value": 10
+				},
+				{
+					"key": "atk_scale",
+					"value": 1.7
+				},
+				{
+					"key": "stun",
+					"value": 0.5
+				},
+				{
+					"key": "max_target",
+					"value": 6
+				},
+				{
+					"key": "flamtl_s_2.prob",
+					"value": 0.35
+				},
+				{
+					"key": "flamtl_s_2.duration",
+					"value": 10
+				}
+			]
+		},
+		{
+			"name": "「レッドパイン」",
+			"rangeId": "x-1",
+			"description": "所持コスト<@ba.vup>+{cost}</>\n周囲一定範囲内の敵最大6体に<@ba.vup>2回連続</>で攻撃力の<@ba.vup>{atk_scale:0%}</>の物理ダメージを与え、<@ba.vup>{stun}</>秒間<$ba.stun>スタン</>させる。効果範囲内の味方全員に<@ba.vup>{flamtl_s_2.duration}</>秒間物理回避<@ba.vup>+{flamtl_s_2.prob:0%}</>の効果を付与する",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 40,
+				"initSp": 23,
+				"increment": 1
+			},
+			"prefabId": "skchr_flamtl_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "cost",
+					"value": 11
+				},
+				{
+					"key": "atk_scale",
+					"value": 1.8
+				},
+				{
+					"key": "stun",
+					"value": 0.5
+				},
+				{
+					"key": "max_target",
+					"value": 6
+				},
+				{
+					"key": "flamtl_s_2.prob",
+					"value": 0.4
+				},
+				{
+					"key": "flamtl_s_2.duration",
+					"value": 10
+				}
+			]
+		},
+		{
+			"name": "「レッドパイン」",
+			"rangeId": "x-1",
+			"description": "所持コスト<@ba.vup>+{cost}</>\n周囲一定範囲内の敵最大6体に<@ba.vup>2回連続</>で攻撃力の<@ba.vup>{atk_scale:0%}</>の物理ダメージを与え、<@ba.vup>{stun}</>秒間<$ba.stun>スタン</>させる。効果範囲内の味方全員に<@ba.vup>{flamtl_s_2.duration}</>秒間物理回避<@ba.vup>+{flamtl_s_2.prob:0%}</>の効果を付与する",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 40,
+				"initSp": 24,
+				"increment": 1
+			},
+			"prefabId": "skchr_flamtl_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "cost",
+					"value": 11
+				},
+				{
+					"key": "atk_scale",
+					"value": 1.9
+				},
+				{
+					"key": "stun",
+					"value": 0.5
+				},
+				{
+					"key": "max_target",
+					"value": 6
+				},
+				{
+					"key": "flamtl_s_2.prob",
+					"value": 0.4
+				},
+				{
+					"key": "flamtl_s_2.duration",
+					"value": 10
+				}
+			]
+		},
+		{
+			"name": "「レッドパイン」",
+			"rangeId": "x-1",
+			"description": "所持コスト<@ba.vup>+{cost}</>\n周囲一定範囲内の敵最大6体に<@ba.vup>2回連続</>で攻撃力の<@ba.vup>{atk_scale:0%}</>の物理ダメージを与え、<@ba.vup>{stun}</>秒間<$ba.stun>スタン</>させる。効果範囲内の味方全員に<@ba.vup>{flamtl_s_2.duration}</>秒間物理回避<@ba.vup>+{flamtl_s_2.prob:0%}</>の効果を付与する",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 40,
+				"initSp": 25,
+				"increment": 1
+			},
+			"prefabId": "skchr_flamtl_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "cost",
+					"value": 11
+				},
+				{
+					"key": "atk_scale",
+					"value": 2
+				},
+				{
+					"key": "stun",
+					"value": 0.5
+				},
+				{
+					"key": "max_target",
+					"value": 6
+				},
+				{
+					"key": "flamtl_s_2.prob",
+					"value": 0.4
+				},
+				{
+					"key": "flamtl_s_2.duration",
+					"value": 10
+				}
+			]
+		},
+		{
+			"name": "「レッドパイン」",
+			"rangeId": "x-1",
+			"description": "所持コスト<@ba.vup>+{cost}</>\n周囲一定範囲内の敵最大6体に<@ba.vup>2回連続</>で攻撃力の<@ba.vup>{atk_scale:0%}</>の物理ダメージを与え、<@ba.vup>{stun}</>秒間<$ba.stun>スタン</>させる。効果範囲内の味方全員に<@ba.vup>{flamtl_s_2.duration}</>秒間物理回避<@ba.vup>+{flamtl_s_2.prob:0%}</>の効果を付与する",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 40,
+				"initSp": 26,
+				"increment": 1
+			},
+			"prefabId": "skchr_flamtl_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "cost",
+					"value": 12
+				},
+				{
+					"key": "atk_scale",
+					"value": 2.1
+				},
+				{
+					"key": "stun",
+					"value": 0.5
+				},
+				{
+					"key": "max_target",
+					"value": 6
+				},
+				{
+					"key": "flamtl_s_2.prob",
+					"value": 0.45
+				},
+				{
+					"key": "flamtl_s_2.duration",
+					"value": 10
+				}
+			]
+		},
+		{
+			"name": "「レッドパイン」",
+			"rangeId": "x-1",
+			"description": "所持コスト<@ba.vup>+{cost}</>\n周囲一定範囲内の敵最大6体に<@ba.vup>2回連続</>で攻撃力の<@ba.vup>{atk_scale:0%}</>の物理ダメージを与え、<@ba.vup>{stun}</>秒間<$ba.stun>スタン</>させる。効果範囲内の味方全員に<@ba.vup>{flamtl_s_2.duration}</>秒間物理回避<@ba.vup>+{flamtl_s_2.prob:0%}</>の効果を付与する",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 40,
+				"initSp": 27,
+				"increment": 1
+			},
+			"prefabId": "skchr_flamtl_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "cost",
+					"value": 12
+				},
+				{
+					"key": "atk_scale",
+					"value": 2.2
+				},
+				{
+					"key": "stun",
+					"value": 0.5
+				},
+				{
+					"key": "max_target",
+					"value": 6
+				},
+				{
+					"key": "flamtl_s_2.prob",
+					"value": 0.45
+				},
+				{
+					"key": "flamtl_s_2.duration",
+					"value": 10
+				}
+			]
+		},
+		{
+			"name": "「レッドパイン」",
+			"rangeId": "x-1",
+			"description": "所持コスト<@ba.vup>+{cost}</>\n周囲一定範囲内の敵最大6体に<@ba.vup>2回連続</>で攻撃力の<@ba.vup>{atk_scale:0%}</>の物理ダメージを与え、<@ba.vup>{stun}</>秒間<$ba.stun>スタン</>させる。効果範囲内の味方全員に<@ba.vup>{flamtl_s_2.duration}</>秒間物理回避<@ba.vup>+{flamtl_s_2.prob:0%}</>の効果を付与する",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 40,
+				"initSp": 28,
+				"increment": 1
+			},
+			"prefabId": "skchr_flamtl_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "cost",
+					"value": 12
+				},
+				{
+					"key": "atk_scale",
+					"value": 2.3
+				},
+				{
+					"key": "stun",
+					"value": 0.5
+				},
+				{
+					"key": "max_target",
+					"value": 6
+				},
+				{
+					"key": "flamtl_s_2.prob",
+					"value": 0.5
+				},
+				{
+					"key": "flamtl_s_2.duration",
+					"value": 10
+				}
+			]
+		},
+		{
+			"name": "「レッドパイン」",
+			"rangeId": "x-1",
+			"description": "所持コスト<@ba.vup>+{cost}</>\n周囲一定範囲内の敵最大6体に<@ba.vup>2回連続</>で攻撃力の<@ba.vup>{atk_scale:0%}</>の物理ダメージを与え、<@ba.vup>{stun}</>秒間<$ba.stun>スタン</>させる。効果範囲内の味方全員に<@ba.vup>{flamtl_s_2.duration}</>秒間物理回避<@ba.vup>+{flamtl_s_2.prob:0%}</>の効果を付与する",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 40,
+				"initSp": 30,
+				"increment": 1
+			},
+			"prefabId": "skchr_flamtl_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "cost",
+					"value": 13
+				},
+				{
+					"key": "atk_scale",
+					"value": 2.4
+				},
+				{
+					"key": "stun",
+					"value": 0.5
+				},
+				{
+					"key": "max_target",
+					"value": 6
+				},
+				{
+					"key": "flamtl_s_2.prob",
+					"value": 0.5
+				},
+				{
+					"key": "flamtl_s_2.duration",
+					"value": 10
+				}
+			]
+		}
+	]
+}

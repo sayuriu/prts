@@ -2,7 +2,10 @@
 	"name": "森蚺",
 	"description": "只有阻挡敌人时才能够回复技力",
 	"canUseGeneralPotentialItem": true,
+	"canUseActivityPotentialItem": false,
 	"potentialItemId": "p_char_416_zumama",
+	"activityPotentialItemId": null,
+	"classicPotentialItemId": null,
 	"nationId": "sargon",
 	"groupId": null,
 	"teamId": null,
@@ -21,7 +24,7 @@
 	"isNotObtainable": false,
 	"isSpChar": false,
 	"maxPotentialLevel": 5,
-	"rarity": 5,
+	"rarity": "TIER_6",
 	"profession": "TANK",
 	"subProfessionId": "duelist",
 	"trait": null,
@@ -54,7 +57,8 @@
 						"stunImmune": false,
 						"silenceImmune": false,
 						"sleepImmune": false,
-						"frozenImmune": false
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -80,7 +84,8 @@
 						"stunImmune": false,
 						"silenceImmune": false,
 						"sleepImmune": false,
-						"frozenImmune": false
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -114,7 +119,8 @@
 						"stunImmune": false,
 						"silenceImmune": false,
 						"sleepImmune": false,
-						"frozenImmune": false
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -140,7 +146,8 @@
 						"stunImmune": false,
 						"silenceImmune": false,
 						"sleepImmune": false,
-						"frozenImmune": false
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -190,7 +197,8 @@
 						"stunImmune": false,
 						"silenceImmune": false,
 						"sleepImmune": false,
-						"frozenImmune": false
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -216,7 +224,8 @@
 						"stunImmune": false,
 						"silenceImmune": false,
 						"sleepImmune": false,
-						"frozenImmune": false
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -247,7 +256,7 @@
 			"levelUpCostCond": [
 				{
 					"unlockCond": {
-						"phase": 2,
+						"phase": "PHASE_2",
 						"level": 1
 					},
 					"lvlUpTime": 28800,
@@ -271,7 +280,7 @@
 				},
 				{
 					"unlockCond": {
-						"phase": 2,
+						"phase": "PHASE_2",
 						"level": 1
 					},
 					"lvlUpTime": 57600,
@@ -295,7 +304,7 @@
 				},
 				{
 					"unlockCond": {
-						"phase": 2,
+						"phase": "PHASE_2",
 						"level": 1
 					},
 					"lvlUpTime": 86400,
@@ -319,7 +328,7 @@
 				}
 			],
 			"unlockCond": {
-				"phase": 0,
+				"phase": "PHASE_0",
 				"level": 1
 			}
 		},
@@ -330,7 +339,7 @@
 			"levelUpCostCond": [
 				{
 					"unlockCond": {
-						"phase": 2,
+						"phase": "PHASE_2",
 						"level": 1
 					},
 					"lvlUpTime": 28800,
@@ -354,7 +363,7 @@
 				},
 				{
 					"unlockCond": {
-						"phase": 2,
+						"phase": "PHASE_2",
 						"level": 1
 					},
 					"lvlUpTime": 57600,
@@ -378,7 +387,7 @@
 				},
 				{
 					"unlockCond": {
-						"phase": 2,
+						"phase": "PHASE_2",
 						"level": 1
 					},
 					"lvlUpTime": 86400,
@@ -402,7 +411,7 @@
 				}
 			],
 			"unlockCond": {
-				"phase": 1,
+				"phase": "PHASE_1",
 				"level": 1
 			}
 		},
@@ -413,7 +422,7 @@
 			"levelUpCostCond": [
 				{
 					"unlockCond": {
-						"phase": 2,
+						"phase": "PHASE_2",
 						"level": 1
 					},
 					"lvlUpTime": 28800,
@@ -437,7 +446,7 @@
 				},
 				{
 					"unlockCond": {
-						"phase": 2,
+						"phase": "PHASE_2",
 						"level": 1
 					},
 					"lvlUpTime": 57600,
@@ -461,7 +470,7 @@
 				},
 				{
 					"unlockCond": {
-						"phase": 2,
+						"phase": "PHASE_2",
 						"level": 1
 					},
 					"lvlUpTime": 86400,
@@ -485,7 +494,7 @@
 				}
 			],
 			"unlockCond": {
-				"phase": 2,
+				"phase": "PHASE_2",
 				"level": 1
 			}
 		}
@@ -495,101 +504,113 @@
 			"candidates": [
 				{
 					"unlockCondition": {
-						"phase": 1,
+						"phase": "PHASE_1",
 						"level": 1
 					},
 					"requiredPotentialRank": 0,
 					"prefabKey": "1",
 					"name": "勇冠三军",
-					"description": "生命值高于一半时，攻击力造成108%伤害；生命值不高于一半时，获得10%的<$ba.protect>庇护</>",
+					"description": "生命值高于一半时，攻击造成108%伤害；生命值不高于一半时，获得10%的<$ba.protect>庇护</>",
 					"rangeId": null,
 					"blackboard": [
 						{
 							"key": "hp_ratio",
-							"value": 0.5
+							"value": 0.5,
+							"valueStr": null
 						},
 						{
 							"key": "damage_resistance",
-							"value": 0.1
+							"value": 0.1,
+							"valueStr": null
 						},
 						{
 							"key": "atk_scale",
-							"value": 1.08
+							"value": 1.08,
+							"valueStr": null
 						}
 					]
 				},
 				{
 					"unlockCondition": {
-						"phase": 1,
+						"phase": "PHASE_1",
 						"level": 1
 					},
 					"requiredPotentialRank": 4,
 					"prefabKey": "1",
 					"name": "勇冠三军",
-					"description": "生命值高于一半时，攻击力造成110%<@ba.talpu>（+2%）</>伤害；生命值不高于一半时，获得12%<@ba.talpu>（+2%）</>的<$ba.protect>庇护</>",
+					"description": "生命值高于一半时，攻击造成110%<@ba.talpu>（+2%）</>伤害；生命值不高于一半时，获得12%<@ba.talpu>（+2%）</>的<$ba.protect>庇护</>",
 					"rangeId": null,
 					"blackboard": [
 						{
 							"key": "hp_ratio",
-							"value": 0.5
+							"value": 0.5,
+							"valueStr": null
 						},
 						{
 							"key": "damage_resistance",
-							"value": 0.12
+							"value": 0.12,
+							"valueStr": null
 						},
 						{
 							"key": "atk_scale",
-							"value": 1.1
+							"value": 1.1,
+							"valueStr": null
 						}
 					]
 				},
 				{
 					"unlockCondition": {
-						"phase": 2,
+						"phase": "PHASE_2",
 						"level": 1
 					},
 					"requiredPotentialRank": 0,
 					"prefabKey": "1",
 					"name": "勇冠三军",
-					"description": "生命值高于一半时，攻击力造成115%伤害；生命值不高于一半时，获得20%的<$ba.protect>庇护</>",
+					"description": "生命值高于一半时，攻击造成115%伤害；生命值不高于一半时，获得20%的<$ba.protect>庇护</>",
 					"rangeId": null,
 					"blackboard": [
 						{
 							"key": "hp_ratio",
-							"value": 0.5
+							"value": 0.5,
+							"valueStr": null
 						},
 						{
 							"key": "damage_resistance",
-							"value": 0.2
+							"value": 0.2,
+							"valueStr": null
 						},
 						{
 							"key": "atk_scale",
-							"value": 1.15
+							"value": 1.15,
+							"valueStr": null
 						}
 					]
 				},
 				{
 					"unlockCondition": {
-						"phase": 2,
+						"phase": "PHASE_2",
 						"level": 1
 					},
 					"requiredPotentialRank": 4,
 					"prefabKey": "1",
 					"name": "勇冠三军",
-					"description": "生命值高于一半时，攻击力造成117%<@ba.talpu>（+2%）</>伤害；生命值不高于一半时，获得22%<@ba.talpu>（+2%）</>的<$ba.protect>庇护</>",
+					"description": "生命值高于一半时，攻击造成117%<@ba.talpu>（+2%）</>伤害；生命值不高于一半时，获得22%<@ba.talpu>（+2%）</>的<$ba.protect>庇护</>",
 					"rangeId": null,
 					"blackboard": [
 						{
 							"key": "hp_ratio",
-							"value": 0.5
+							"value": 0.5,
+							"valueStr": null
 						},
 						{
 							"key": "damage_resistance",
-							"value": 0.22
+							"value": 0.22,
+							"valueStr": null
 						},
 						{
 							"key": "atk_scale",
-							"value": 1.17
+							"value": 1.17,
+							"valueStr": null
 						}
 					]
 				}
@@ -599,7 +620,7 @@
 			"candidates": [
 				{
 					"unlockCondition": {
-						"phase": 2,
+						"phase": "PHASE_2",
 						"level": 1
 					},
 					"requiredPotentialRank": 0,
@@ -610,7 +631,8 @@
 					"blackboard": [
 						{
 							"key": "sp_recovery_per_sec",
-							"value": 0.2
+							"value": 0.2,
+							"valueStr": null
 						}
 					]
 				}
@@ -619,7 +641,7 @@
 	],
 	"potentialRanks": [
 		{
-			"type": 0,
+			"type": "BUFF",
 			"description": "部署费用-1",
 			"buff": {
 				"attributes": {
@@ -630,8 +652,8 @@
 					"abnormalComboImmunes": null,
 					"attributeModifiers": [
 						{
-							"attributeType": 4,
-							"formulaItem": 0,
+							"attributeType": "COST",
+							"formulaItem": "ADDITION",
 							"value": -1,
 							"loadFromBlackboard": false,
 							"fetchBaseValueFromSourceEntity": false
@@ -642,7 +664,7 @@
 			"equivalentCost": null
 		},
 		{
-			"type": 0,
+			"type": "BUFF",
 			"description": "再部署时间-4秒",
 			"buff": {
 				"attributes": {
@@ -653,8 +675,8 @@
 					"abnormalComboImmunes": null,
 					"attributeModifiers": [
 						{
-							"attributeType": 21,
-							"formulaItem": 0,
+							"attributeType": "RESPAWN_TIME",
+							"formulaItem": "ADDITION",
 							"value": -4,
 							"loadFromBlackboard": false,
 							"fetchBaseValueFromSourceEntity": false
@@ -665,7 +687,7 @@
 			"equivalentCost": null
 		},
 		{
-			"type": 0,
+			"type": "BUFF",
 			"description": "防御力+27",
 			"buff": {
 				"attributes": {
@@ -676,8 +698,8 @@
 					"abnormalComboImmunes": null,
 					"attributeModifiers": [
 						{
-							"attributeType": 2,
-							"formulaItem": 0,
+							"attributeType": "DEF",
+							"formulaItem": "ADDITION",
 							"value": 27,
 							"loadFromBlackboard": false,
 							"fetchBaseValueFromSourceEntity": false
@@ -688,13 +710,13 @@
 			"equivalentCost": null
 		},
 		{
-			"type": 1,
+			"type": "CUSTOM",
 			"description": "第一天赋效果增强",
 			"buff": null,
 			"equivalentCost": null
 		},
 		{
-			"type": 0,
+			"type": "BUFF",
 			"description": "部署费用-1",
 			"buff": {
 				"attributes": {
@@ -705,8 +727,8 @@
 					"abnormalComboImmunes": null,
 					"attributeModifiers": [
 						{
-							"attributeType": 4,
-							"formulaItem": 0,
+							"attributeType": "COST",
+							"formulaItem": "ADDITION",
 							"value": -1,
 							"loadFromBlackboard": false,
 							"fetchBaseValueFromSourceEntity": false
@@ -741,7 +763,8 @@
 				"stunImmune": false,
 				"silenceImmune": false,
 				"sleepImmune": false,
-				"frozenImmune": false
+				"frozenImmune": false,
+				"levitateImmune": false
 			}
 		},
 		{
@@ -767,14 +790,15 @@
 				"stunImmune": false,
 				"silenceImmune": false,
 				"sleepImmune": false,
-				"frozenImmune": false
+				"frozenImmune": false,
+				"levitateImmune": false
 			}
 		}
 	],
 	"allSkillLvlup": [
 		{
 			"unlockCond": {
-				"phase": 0,
+				"phase": "PHASE_0",
 				"level": 1
 			},
 			"lvlUpCost": [
@@ -787,7 +811,7 @@
 		},
 		{
 			"unlockCond": {
-				"phase": 0,
+				"phase": "PHASE_0",
 				"level": 1
 			},
 			"lvlUpCost": [
@@ -810,7 +834,7 @@
 		},
 		{
 			"unlockCond": {
-				"phase": 0,
+				"phase": "PHASE_0",
 				"level": 1
 			},
 			"lvlUpCost": [
@@ -828,7 +852,7 @@
 		},
 		{
 			"unlockCond": {
-				"phase": 1,
+				"phase": "PHASE_1",
 				"level": 1
 			},
 			"lvlUpCost": [
@@ -851,7 +875,7 @@
 		},
 		{
 			"unlockCond": {
-				"phase": 1,
+				"phase": "PHASE_1",
 				"level": 1
 			},
 			"lvlUpCost": [
@@ -869,7 +893,7 @@
 		},
 		{
 			"unlockCond": {
-				"phase": 1,
+				"phase": "PHASE_1",
 				"level": 1
 			},
 			"lvlUpCost": [

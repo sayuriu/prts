@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act18d3_09",
@@ -10,7 +11,7 @@
 	],
 	"stageId": "act18d3_st02",
 	"levelId": null,
-	"zoneId": "act18d3_zone1",
+	"zoneId": "act11sre_zone1",
 	"code": "SV-ST-2",
 	"name": "가까스로 탈출",
 	"description": "문제도 해결 못 하고, 친구도 사귀지 못했으며 적도 잡지 못했다. 결국은 아직 시작에 불과하다.",
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": true,
 	"appearanceStyle": 0,
 	"stageDropInfo": {

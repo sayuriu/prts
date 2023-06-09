@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act16d5_ex07",
@@ -10,7 +11,7 @@
 	],
 	"stageId": "act16d5_ex08",
 	"levelId": "Activities/act16d5/level_act16d5_ex08",
-	"zoneId": "act16d5_zone2",
+	"zoneId": "act9sre_zone2",
 	"code": "WR-EX-8",
 	"name": "Rule",
 	"description": "One draws one's bound, and the greater, the freer. To bind in a circle, warily minding the human realm, is her freedom too.\n<@lv.item><Two-Step Firecracker mk2></> Deals Arts damage to enemies in the surrounding four tiles, changing Hui-Ming attributes within its range.\n<@lv.item><Mark of Dusk and Dawn></> On first passing through, enemies will change attribute.",
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {
@@ -52,7 +54,7 @@
 		"displayRewards": [
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act16d5_token_inker",
+				"id": "act16d5_token_inker_rep_1",
 				"dropType": 8
 			},
 			{
@@ -65,7 +67,7 @@
 			{
 				"occPercent": 0,
 				"type": "ACTIVITY_ITEM",
-				"id": "act16d5_token_inker",
+				"id": "act16d5_token_inker_rep_1",
 				"dropType": 8
 			},
 			{

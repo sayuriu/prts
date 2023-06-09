@@ -1,0 +1,25 @@
+{
+	"skillId": "sktok_turngear",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "自走车定向！",
+			"rangeId": null,
+			"description": "使经过的<@ba.vup>自走车</>改为向自身部署方向移动，并使其移动速度短暂提升",
+			"skillType": "PASSIVE",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 0,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": null,
+			"duration": -1,
+			"blackboard": []
+		}
+	]
+}

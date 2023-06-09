@@ -7,10 +7,10 @@
 			"name": "启动禁锢！",
 			"rangeId": "3-15",
 			"description": "消耗<@ba.vup>{cost}</>点部署费用，使范围内目标<$ba.stun>晕眩</><@ba.vup>{stun}</>秒，并立即进入禁锢状态（不会重置禁锢状态敌人的攻击计数）",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 25,
@@ -22,11 +22,13 @@
 			"blackboard": [
 				{
 					"key": "stun",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				},
 				{
 					"key": "cost",
-					"value": 5
+					"value": 5,
+					"valueStr": null
 				}
 			]
 		}

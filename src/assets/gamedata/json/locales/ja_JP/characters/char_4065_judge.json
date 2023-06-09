@@ -1,0 +1,977 @@
+{
+	"name": "ペナンス",
+	"description": "味方からの治療効果を<@ba.kw>受けない</>",
+	"canUseGeneralPotentialItem": true,
+	"canUseActivityPotentialItem": false,
+	"potentialItemId": "p_char_4065_judge",
+	"activityPotentialItemId": null,
+	"nationId": "siracusa",
+	"groupId": null,
+	"teamId": null,
+	"displayNumber": "SR35",
+	"tokenKey": null,
+	"appellation": "Penance",
+	"position": "MELEE",
+	"tagList": [
+		"生存",
+		"火力"
+	],
+	"itemUsage": "シラクーザの元都市裁判官。彼女は今も、法の正義を堅持したいと考えている。",
+	"itemDesc": "茨の道を行け。かつてない道を切り拓くのだ。",
+	"itemObtainApproach": "人材募集",
+	"isNotObtainable": false,
+	"isSpChar": false,
+	"maxPotentialLevel": 5,
+	"rarity": 5,
+	"profession": "TANK",
+	"subProfessionId": "unyield",
+	"trait": null,
+	"phases": [
+		{
+			"characterPrefabKey": "char_4065_judge",
+			"rangeId": "1-1",
+			"maxLevel": 50,
+			"attributesKeyFrames": [
+				{
+					"level": 1,
+					"data": {
+						"maxHp": 1732,
+						"atk": 368,
+						"def": 234,
+						"magicResistance": 10,
+						"cost": 32,
+						"blockCnt": 2,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 1.6,
+						"respawnTime": 70,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
+					}
+				},
+				{
+					"level": 50,
+					"data": {
+						"maxHp": 2279,
+						"atk": 512,
+						"def": 355,
+						"magicResistance": 10,
+						"cost": 32,
+						"blockCnt": 2,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 1.6,
+						"respawnTime": 70,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
+					}
+				}
+			],
+			"evolveCost": null
+		},
+		{
+			"characterPrefabKey": "char_4065_judge",
+			"rangeId": "1-1",
+			"maxLevel": 80,
+			"attributesKeyFrames": [
+				{
+					"level": 1,
+					"data": {
+						"maxHp": 2279,
+						"atk": 512,
+						"def": 355,
+						"magicResistance": 10,
+						"cost": 34,
+						"blockCnt": 3,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 1.6,
+						"respawnTime": 70,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
+					}
+				},
+				{
+					"level": 80,
+					"data": {
+						"maxHp": 2960,
+						"atk": 683,
+						"def": 474,
+						"magicResistance": 10,
+						"cost": 34,
+						"blockCnt": 3,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 1.6,
+						"respawnTime": 70,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
+					}
+				}
+			],
+			"evolveCost": [
+				{
+					"id": "3231",
+					"count": 5,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30062",
+					"count": 6,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30042",
+					"count": 3,
+					"type": "MATERIAL"
+				}
+			]
+		},
+		{
+			"characterPrefabKey": "char_4065_judge",
+			"rangeId": "1-1",
+			"maxLevel": 90,
+			"attributesKeyFrames": [
+				{
+					"level": 1,
+					"data": {
+						"maxHp": 2960,
+						"atk": 683,
+						"def": 474,
+						"magicResistance": 10,
+						"cost": 36,
+						"blockCnt": 3,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 1.6,
+						"respawnTime": 70,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
+					}
+				},
+				{
+					"level": 90,
+					"data": {
+						"maxHp": 4055,
+						"atk": 876,
+						"def": 616,
+						"magicResistance": 10,
+						"cost": 36,
+						"blockCnt": 3,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 1.6,
+						"respawnTime": 70,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
+					}
+				}
+			],
+			"evolveCost": [
+				{
+					"id": "3233",
+					"count": 4,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30135",
+					"count": 4,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30074",
+					"count": 8,
+					"type": "MATERIAL"
+				}
+			]
+		}
+	],
+	"skills": [
+		{
+			"skillId": "skchr_judge_1",
+			"overridePrefabKey": null,
+			"overrideTokenKey": null,
+			"levelUpCostCond": [
+				{
+					"unlockCond": {
+						"phase": 2,
+						"level": 1
+					},
+					"lvlUpTime": 28800,
+					"levelUpCost": [
+						{
+							"id": "3303",
+							"count": 8,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "31024",
+							"count": 4,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30043",
+							"count": 6,
+							"type": "MATERIAL"
+						}
+					]
+				},
+				{
+					"unlockCond": {
+						"phase": 2,
+						"level": 1
+					},
+					"lvlUpTime": 57600,
+					"levelUpCost": [
+						{
+							"id": "3303",
+							"count": 12,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "31064",
+							"count": 4,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "31044",
+							"count": 8,
+							"type": "MATERIAL"
+						}
+					]
+				},
+				{
+					"unlockCond": {
+						"phase": 2,
+						"level": 1
+					},
+					"lvlUpTime": 86400,
+					"levelUpCost": [
+						{
+							"id": "3303",
+							"count": 15,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30135",
+							"count": 6,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30064",
+							"count": 4,
+							"type": "MATERIAL"
+						}
+					]
+				}
+			],
+			"unlockCond": {
+				"phase": 0,
+				"level": 1
+			}
+		},
+		{
+			"skillId": "skchr_judge_2",
+			"overridePrefabKey": null,
+			"overrideTokenKey": null,
+			"levelUpCostCond": [
+				{
+					"unlockCond": {
+						"phase": 2,
+						"level": 1
+					},
+					"lvlUpTime": 28800,
+					"levelUpCost": [
+						{
+							"id": "3303",
+							"count": 8,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "31014",
+							"count": 4,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30103",
+							"count": 6,
+							"type": "MATERIAL"
+						}
+					]
+				},
+				{
+					"unlockCond": {
+						"phase": 2,
+						"level": 1
+					},
+					"lvlUpTime": 57600,
+					"levelUpCost": [
+						{
+							"id": "3303",
+							"count": 12,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30084",
+							"count": 4,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30104",
+							"count": 7,
+							"type": "MATERIAL"
+						}
+					]
+				},
+				{
+					"unlockCond": {
+						"phase": 2,
+						"level": 1
+					},
+					"lvlUpTime": 86400,
+					"levelUpCost": [
+						{
+							"id": "3303",
+							"count": 15,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30145",
+							"count": 6,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "31064",
+							"count": 4,
+							"type": "MATERIAL"
+						}
+					]
+				}
+			],
+			"unlockCond": {
+				"phase": 1,
+				"level": 1
+			}
+		},
+		{
+			"skillId": "skchr_judge_3",
+			"overridePrefabKey": null,
+			"overrideTokenKey": null,
+			"levelUpCostCond": [
+				{
+					"unlockCond": {
+						"phase": 2,
+						"level": 1
+					},
+					"lvlUpTime": 28800,
+					"levelUpCost": [
+						{
+							"id": "3303",
+							"count": 8,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30044",
+							"count": 4,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30073",
+							"count": 4,
+							"type": "MATERIAL"
+						}
+					]
+				},
+				{
+					"unlockCond": {
+						"phase": 2,
+						"level": 1
+					},
+					"lvlUpTime": 57600,
+					"levelUpCost": [
+						{
+							"id": "3303",
+							"count": 12,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30054",
+							"count": 4,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30084",
+							"count": 7,
+							"type": "MATERIAL"
+						}
+					]
+				},
+				{
+					"unlockCond": {
+						"phase": 2,
+						"level": 1
+					},
+					"lvlUpTime": 86400,
+					"levelUpCost": [
+						{
+							"id": "3303",
+							"count": 15,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "30155",
+							"count": 6,
+							"type": "MATERIAL"
+						},
+						{
+							"id": "31014",
+							"count": 4,
+							"type": "MATERIAL"
+						}
+					]
+				}
+			],
+			"unlockCond": {
+				"phase": 2,
+				"level": 1
+			}
+		}
+	],
+	"talents": [
+		{
+			"candidates": [
+				{
+					"unlockCondition": {
+						"phase": 0,
+						"level": 1
+					},
+					"requiredPotentialRank": 0,
+					"prefabKey": "1",
+					"name": "法の番人",
+					"description": "配置後、最大HPの30%までの被ダメージを吸収可能な<$ba.barrier>バリア</>を獲得",
+					"rangeId": null,
+					"blackboard": [
+						{
+							"key": "max_hp_ratio",
+							"value": 3
+						},
+						{
+							"key": "kill_hp_ratio",
+							"value": 0
+						},
+						{
+							"key": "born_hp_ratio",
+							"value": 0.3
+						},
+						{
+							"key": "higher_effect_hp_ratio",
+							"value": 1
+						}
+					]
+				},
+				{
+					"unlockCondition": {
+						"phase": 0,
+						"level": 1
+					},
+					"requiredPotentialRank": 2,
+					"prefabKey": "1",
+					"name": "法の番人",
+					"description": "配置後、最大HPの35%<@ba.talpu>（+5%）</>までの被ダメージを吸収可能な<$ba.barrier>バリア</>を獲得",
+					"rangeId": null,
+					"blackboard": [
+						{
+							"key": "max_hp_ratio",
+							"value": 3
+						},
+						{
+							"key": "kill_hp_ratio",
+							"value": 0
+						},
+						{
+							"key": "born_hp_ratio",
+							"value": 0.35
+						},
+						{
+							"key": "higher_effect_hp_ratio",
+							"value": 1
+						}
+					]
+				},
+				{
+					"unlockCondition": {
+						"phase": 1,
+						"level": 1
+					},
+					"requiredPotentialRank": 0,
+					"prefabKey": "1",
+					"name": "法の番人",
+					"description": "配置後、最大HPの30%までの被ダメージを吸収可能な<$ba.barrier>バリア</>を獲得し、敵を倒す度自身の最大HPの6%までの被ダメージを吸収可能な<$ba.barrier>バリア</>を獲得（効果値が最大HPの300％まで重複可能）",
+					"rangeId": null,
+					"blackboard": [
+						{
+							"key": "max_hp_ratio",
+							"value": 3
+						},
+						{
+							"key": "kill_hp_ratio",
+							"value": 0.06
+						},
+						{
+							"key": "born_hp_ratio",
+							"value": 0.3
+						},
+						{
+							"key": "higher_effect_hp_ratio",
+							"value": 1
+						}
+					]
+				},
+				{
+					"unlockCondition": {
+						"phase": 1,
+						"level": 1
+					},
+					"requiredPotentialRank": 2,
+					"prefabKey": "1",
+					"name": "法の番人",
+					"description": "配置後、最大HPの35%<@ba.talpu>（+5%）</>までの被ダメージを吸収可能な<$ba.barrier>バリア</>を獲得し、敵を倒す度自身の最大HPの6%までの被ダメージを吸収可能な<$ba.barrier>バリア</>を獲得（効果値が最大HPの300％まで重複可能）",
+					"rangeId": null,
+					"blackboard": [
+						{
+							"key": "max_hp_ratio",
+							"value": 3
+						},
+						{
+							"key": "kill_hp_ratio",
+							"value": 0.06
+						},
+						{
+							"key": "born_hp_ratio",
+							"value": 0.35
+						},
+						{
+							"key": "higher_effect_hp_ratio",
+							"value": 1
+						}
+					]
+				},
+				{
+					"unlockCondition": {
+						"phase": 2,
+						"level": 1
+					},
+					"requiredPotentialRank": 0,
+					"prefabKey": "1",
+					"name": "法の番人",
+					"description": "配置後、最大HPの50％までの被ダメージを吸収可能な<$ba.barrier>バリア</>を獲得し、敵を倒す度自身の最大HPの10%までの被ダメージを吸収可能な<$ba.barrier>バリア</>を獲得（効果値が最大HPの300％まで重複可能）",
+					"rangeId": null,
+					"blackboard": [
+						{
+							"key": "max_hp_ratio",
+							"value": 3
+						},
+						{
+							"key": "kill_hp_ratio",
+							"value": 0.1
+						},
+						{
+							"key": "born_hp_ratio",
+							"value": 0.5
+						},
+						{
+							"key": "higher_effect_hp_ratio",
+							"value": 1
+						}
+					]
+				},
+				{
+					"unlockCondition": {
+						"phase": 2,
+						"level": 1
+					},
+					"requiredPotentialRank": 2,
+					"prefabKey": "1",
+					"name": "法の番人",
+					"description": "配置後、最大HPの55%<@ba.talpu>（+5%）</>までの被ダメージを吸収可能な<$ba.barrier>バリア</>を獲得し、敵を倒す度自身の最大HPの10%までの被ダメージを吸収可能な<$ba.barrier>バリア</>を獲得（効果値が最大HPの300％まで重複可能）",
+					"rangeId": null,
+					"blackboard": [
+						{
+							"key": "max_hp_ratio",
+							"value": 3
+						},
+						{
+							"key": "kill_hp_ratio",
+							"value": 0.1
+						},
+						{
+							"key": "born_hp_ratio",
+							"value": 0.55
+						},
+						{
+							"key": "higher_effect_hp_ratio",
+							"value": 1
+						}
+					]
+				}
+			]
+		},
+		{
+			"candidates": [
+				{
+					"unlockCondition": {
+						"phase": 2,
+						"level": 1
+					},
+					"requiredPotentialRank": 0,
+					"prefabKey": "2",
+					"name": "茨纏う身",
+					"description": "自身により獲得する<$ba.barrier>バリア</>の存続期間中、攻撃される度ペナンスの攻撃力の50％の術ダメージで攻撃者に反撃",
+					"rangeId": null,
+					"blackboard": [
+						{
+							"key": "atk_scale",
+							"value": 0.5
+						}
+					]
+				},
+				{
+					"unlockCondition": {
+						"phase": 2,
+						"level": 1
+					},
+					"requiredPotentialRank": 4,
+					"prefabKey": "2",
+					"name": "茨纏う身",
+					"description": "自身により獲得する<$ba.barrier>バリア</>の存続期間中、攻撃される度ペナンスの攻撃力の53％<@ba.talpu>（+3%）</>の術ダメージで攻撃者に反撃",
+					"rangeId": null,
+					"blackboard": [
+						{
+							"key": "atk_scale",
+							"value": 0.53
+						}
+					]
+				}
+			]
+		}
+	],
+	"potentialRanks": [
+		{
+			"type": 0,
+			"description": "配置コスト-1",
+			"buff": {
+				"attributes": {
+					"abnormalFlags": null,
+					"abnormalImmunes": null,
+					"abnormalAntis": null,
+					"abnormalCombos": null,
+					"abnormalComboImmunes": null,
+					"attributeModifiers": [
+						{
+							"attributeType": 4,
+							"formulaItem": 0,
+							"value": -1,
+							"loadFromBlackboard": false,
+							"fetchBaseValueFromSourceEntity": false
+						}
+					]
+				}
+			},
+			"equivalentCost": null
+		},
+		{
+			"type": 1,
+			"description": "第一素質強化",
+			"buff": null,
+			"equivalentCost": null
+		},
+		{
+			"type": 0,
+			"description": "攻撃力+28",
+			"buff": {
+				"attributes": {
+					"abnormalFlags": null,
+					"abnormalImmunes": null,
+					"abnormalAntis": null,
+					"abnormalCombos": null,
+					"abnormalComboImmunes": null,
+					"attributeModifiers": [
+						{
+							"attributeType": 1,
+							"formulaItem": 0,
+							"value": 28,
+							"loadFromBlackboard": false,
+							"fetchBaseValueFromSourceEntity": false
+						}
+					]
+				}
+			},
+			"equivalentCost": null
+		},
+		{
+			"type": 1,
+			"description": "第二素質強化",
+			"buff": null,
+			"equivalentCost": null
+		},
+		{
+			"type": 0,
+			"description": "配置コスト-1",
+			"buff": {
+				"attributes": {
+					"abnormalFlags": null,
+					"abnormalImmunes": null,
+					"abnormalAntis": null,
+					"abnormalCombos": null,
+					"abnormalComboImmunes": null,
+					"attributeModifiers": [
+						{
+							"attributeType": 4,
+							"formulaItem": 0,
+							"value": -1,
+							"loadFromBlackboard": false,
+							"fetchBaseValueFromSourceEntity": false
+						}
+					]
+				}
+			},
+			"equivalentCost": null
+		}
+	],
+	"favorKeyFrames": [
+		{
+			"level": 0,
+			"data": {
+				"maxHp": 0,
+				"atk": 0,
+				"def": 0,
+				"magicResistance": 0,
+				"cost": 0,
+				"blockCnt": 0,
+				"moveSpeed": 0,
+				"attackSpeed": 0,
+				"baseAttackTime": 0,
+				"respawnTime": 0,
+				"hpRecoveryPerSec": 0,
+				"spRecoveryPerSec": 0,
+				"maxDeployCount": 0,
+				"maxDeckStackCnt": 0,
+				"tauntLevel": 0,
+				"massLevel": 0,
+				"baseForceLevel": 0,
+				"stunImmune": false,
+				"silenceImmune": false,
+				"sleepImmune": false,
+				"frozenImmune": false,
+				"levitateImmune": false
+			}
+		},
+		{
+			"level": 50,
+			"data": {
+				"maxHp": 600,
+				"atk": 40,
+				"def": 0,
+				"magicResistance": 0,
+				"cost": 0,
+				"blockCnt": 0,
+				"moveSpeed": 0,
+				"attackSpeed": 0,
+				"baseAttackTime": 0,
+				"respawnTime": 0,
+				"hpRecoveryPerSec": 0,
+				"spRecoveryPerSec": 0,
+				"maxDeployCount": 0,
+				"maxDeckStackCnt": 0,
+				"tauntLevel": 0,
+				"massLevel": 0,
+				"baseForceLevel": 0,
+				"stunImmune": false,
+				"silenceImmune": false,
+				"sleepImmune": false,
+				"frozenImmune": false,
+				"levitateImmune": false
+			}
+		}
+	],
+	"allSkillLvlup": [
+		{
+			"unlockCond": {
+				"phase": 0,
+				"level": 1
+			},
+			"lvlUpCost": [
+				{
+					"id": "3301",
+					"count": 5,
+					"type": "MATERIAL"
+				}
+			]
+		},
+		{
+			"unlockCond": {
+				"phase": 0,
+				"level": 1
+			},
+			"lvlUpCost": [
+				{
+					"id": "3301",
+					"count": 5,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30011",
+					"count": 6,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30061",
+					"count": 4,
+					"type": "MATERIAL"
+				}
+			]
+		},
+		{
+			"unlockCond": {
+				"phase": 0,
+				"level": 1
+			},
+			"lvlUpCost": [
+				{
+					"id": "3302",
+					"count": 8,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30022",
+					"count": 5,
+					"type": "MATERIAL"
+				}
+			]
+		},
+		{
+			"unlockCond": {
+				"phase": 1,
+				"level": 1
+			},
+			"lvlUpCost": [
+				{
+					"id": "3302",
+					"count": 8,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30032",
+					"count": 4,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30042",
+					"count": 4,
+					"type": "MATERIAL"
+				}
+			]
+		},
+		{
+			"unlockCond": {
+				"phase": 1,
+				"level": 1
+			},
+			"lvlUpCost": [
+				{
+					"id": "3302",
+					"count": 8,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30093",
+					"count": 5,
+					"type": "MATERIAL"
+				}
+			]
+		},
+		{
+			"unlockCond": {
+				"phase": 1,
+				"level": 1
+			},
+			"lvlUpCost": [
+				{
+					"id": "3303",
+					"count": 8,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30083",
+					"count": 5,
+					"type": "MATERIAL"
+				},
+				{
+					"id": "30053",
+					"count": 3,
+					"type": "MATERIAL"
+				}
+			]
+		}
+	]
+}

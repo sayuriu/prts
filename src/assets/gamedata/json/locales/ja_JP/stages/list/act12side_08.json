@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act12side_07",
@@ -10,7 +11,7 @@
 	],
 	"stageId": "act12side_08",
 	"levelId": "Activities/ACT12SIDE/level_act12side_08",
-	"zoneId": "act12side_zone1",
+	"zoneId": "act12sre_zone1",
 	"code": "DH-8",
 	"name": "ゴールを目指せ",
 	"description": "スワイヤーはチェンやリン・ユーシャの安否を気にかけているが、二人が事を余計に大きくしないかの方がより心配である。\n<@lv.item><深水区域></>配置不可。敵の攻撃速度と移動速度が低下し、HPが減少し続ける\n<@lv.item><特設ボート></>深水区域に設置することが可能。設置したマスにユニットを配置することができる。配置したユニットが撤退する時に破壊される",
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {

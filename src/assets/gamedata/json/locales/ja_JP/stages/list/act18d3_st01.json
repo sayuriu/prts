@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act18d3_07",
@@ -10,10 +11,10 @@
 	],
 	"stageId": "act18d3_st01",
 	"levelId": null,
-	"zoneId": "act18d3_zone1",
+	"zoneId": "act11sre_zone1",
 	"code": "SV-ST-1",
 	"name": "呼び起こされし悪夢",
-	"description": "怒り狂うの荒波の下で繰り広げられた激しい戦闘は、海一面を赤く染めた。海岸で目を覚ました彼女は、生存者は自分ひとりと判断したようだが、それは思い違いだった。",
+	"description": "怒り狂う荒波の下で繰り広げられた激しい戦闘は、海一面を赤く染めた。海岸で目を覚ました彼女は、生存者は自分ひとりと判断したようだが、それは思い違いだった。",
 	"hardStagedId": null,
 	"dangerLevel": "-",
 	"dangerPoint": -1,
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": true,
 	"appearanceStyle": 0,
 	"stageDropInfo": {

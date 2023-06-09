@@ -1,0 +1,83 @@
+{
+	"stageType": "ACTIVITY",
+	"difficulty": "FOUR_STAR",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
+	"unlockCondition": [
+		{
+			"stageId": "act24side_ex06",
+			"completeState": "PASS"
+		},
+		{
+			"stageId": "act24side_ex06",
+			"completeState": "COMPLETE"
+		}
+	],
+	"stageId": "act24side_ex06#f#",
+	"levelId": "Activities/act24side/level_act24side_ex06",
+	"zoneId": "act24side_zone2",
+	"code": "CF-EX-6",
+	"name": "登高必经险途",
+	"description": "<@lv.mhtx>唯有接近顶点的强者才能通过此考验。</>\\n<@lv.mhfs>附加条件：</>\\n<@lv.mhtx>迅猛锋羽兽生命值与攻击力提升，战场中的15个位置无法部署我方单位</>",
+	"hardStagedId": null,
+	"dangerLevel": "精英2 LV.30",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_CF_Village",
+	"canPractice": true,
+	"canBattleReplay": false,
+	"apCost": 15,
+	"apFailReturn": 7,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 0,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 3,
+	"dailyStageDifficulty": 0,
+	"expGain": 150,
+	"goldGain": 150,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 7,
+	"completeFavor": 15,
+	"slProgress": 0,
+	"displayMainItem": null,
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": "MAIN_NORMAL",
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": "COMPLETE"
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": "ALWAYS",
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": "COMPLETE"
+			}
+		]
+	},
+	"canUseCharm": false,
+	"canUseTech": false,
+	"canUseTrapTool": true,
+	"canUseBattlePerformance": false,
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "act24side_ex01",
+	"extraCondition": null,
+	"extraInfo": null
+}

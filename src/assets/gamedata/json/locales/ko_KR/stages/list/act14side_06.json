@@ -1,0 +1,106 @@
+{
+	"stageType": "ACTIVITY",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
+	"unlockCondition": [
+		{
+			"stageId": "act14side_st03",
+			"completeState": 2
+		}
+	],
+	"stageId": "act14side_06",
+	"levelId": "Activities/ACT14SIDE/level_act14side_06",
+	"zoneId": "act14side_zone1",
+	"code": "BI-6",
+	"name": "갈림길",
+	"description": "타인이 닦아 놓은 평탄한 길을 걷는 걸 누구나 다 좋아하는 건 아니다.\n<@lv.item><방향 전환 얼음판></> 위에 있는 유닛에 '냉기' 효과 부여, 적의 이동 방향을 전환\n<@lv.item><살을 에는 찬바람></> 강설 시 모든 적을 특정 방향으로 밀어낸다",
+	"hardStagedId": null,
+	"dangerLevel": "1차 정예화 Lv.40",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_BI",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 15,
+	"apFailReturn": 14,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": 0,
+	"expGain": 150,
+	"goldGain": 150,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 14,
+	"completeFavor": 15,
+	"slProgress": 0,
+	"displayMainItem": null,
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 0,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act14side_token_stone",
+				"dropType": 8
+			},
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act14side_token_stone",
+				"dropType": 2
+			},
+			{
+				"type": "MATERIAL",
+				"id": "31023",
+				"dropType": 2
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 0,
+				"type": "ACTIVITY_ITEM",
+				"id": "act14side_token_stone",
+				"dropType": 8
+			},
+			{
+				"occPercent": 0,
+				"type": "ACTIVITY_ITEM",
+				"id": "act14side_token_stone",
+				"dropType": 2
+			},
+			{
+				"occPercent": 2,
+				"type": "MATERIAL",
+				"id": "31023",
+				"dropType": 2
+			},
+			{
+				"occPercent": 0,
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		]
+	},
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "act14side_tr01"
+}

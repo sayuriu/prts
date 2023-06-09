@@ -7,10 +7,10 @@
 			"name": "发射弩箭",
 			"rangeId": "1-1",
 			"description": "向前方射出一支弩箭，对碰到的第一名我方干员造成物理伤害",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 5,
@@ -22,7 +22,8 @@
 			"blackboard": [
 				{
 					"key": "atk_scale",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		}

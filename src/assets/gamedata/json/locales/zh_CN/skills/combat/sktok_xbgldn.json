@@ -1,0 +1,61 @@
+{
+	"skillId": "sktok_xbgldn",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "冶铸",
+			"rangeId": null,
+			"description": "I级：放置后，可以用<清水>与<铁矿石>来合成<粗制赤金>（同类建筑最多放置1个）",
+			"skillType": "PASSIVE",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 0,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": "sktok_empty",
+			"duration": -1,
+			"blackboard": []
+		},
+		{
+			"name": "冶铸",
+			"rangeId": null,
+			"description": "II级：放置后，可以用<清水>与<铁矿石>来合成更多<粗制赤金>（同类建筑最多放置1个）",
+			"skillType": "PASSIVE",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 0,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": "sktok_empty",
+			"duration": -1,
+			"blackboard": []
+		},
+		{
+			"name": "冶铸",
+			"rangeId": null,
+			"description": "III级：放置后，可以用<清水>与<铁矿石>来合成大量<粗制赤金>（同类建筑最多放置1个）",
+			"skillType": "PASSIVE",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 0,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": "sktok_empty",
+			"duration": -1,
+			"blackboard": []
+		}
+	]
+}

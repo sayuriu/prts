@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act15d0_ex05",
@@ -10,10 +11,10 @@
 	],
 	"stageId": "act15d0_ex06",
 	"levelId": "Activities/ACT15D0/level_act15d0_ex06",
-	"zoneId": "act15d0_zone2",
+	"zoneId": "act8sre_zone2",
 	"code": "MB-EX-6",
 	"name": "Factory",
-	"description": "To be honest, group fights don't break out often in the factory, but when they do, they often turn into all-out wars. \n<@lv.item><Imprisonment Device></>Imprisons freed enemies within its effect area.\n<@lv.item><Roadblock></>Deploy to block the enemy's route.",
+	"description": "To be honest, group fights don't break out often in the factory, but when they do, they often turn into all-out wars. \n<@lv.item><Imprisonment Device></> Imprisons freed enemies within its effect area \n<@lv.item><Roadblock></> Deploy to block the enemy's route",
 	"hardStagedId": "act15d0_ex06#f#",
 	"dangerLevel": "Elite 2 Lv. 20",
 	"dangerPoint": -1,
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {
@@ -52,7 +54,7 @@
 		"displayRewards": [
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act15d0_token_ironSheet",
+				"id": "act15d0_token_ironSheet_rep_1",
 				"dropType": 8
 			},
 			{
@@ -65,7 +67,7 @@
 			{
 				"occPercent": 0,
 				"type": "ACTIVITY_ITEM",
-				"id": "act15d0_token_ironSheet",
+				"id": "act15d0_token_ironSheet_rep_1",
 				"dropType": 8
 			},
 			{

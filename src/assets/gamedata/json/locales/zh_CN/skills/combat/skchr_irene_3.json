@@ -1,0 +1,447 @@
+{
+	"skillId": "skchr_irene_3",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "判决",
+			"rangeId": "x-1",
+			"description": "对周围所有地面敌人造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害并使其<$ba.levitate>浮空</><@ba.vup>{levitate}</>秒，然后快速轰击<@ba.vup>{multi_times}</>次，每次对随机目标周围小范围内所有敌人造成相当于攻击力<@ba.vup>{multi_atk_scale:0%}</>的物理伤害",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WHEN_ATTACK",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 34,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_irene_3",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 2,
+					"valueStr": null
+				},
+				{
+					"key": "levitate",
+					"value": 2,
+					"valueStr": null
+				},
+				{
+					"key": "multi_atk_scale",
+					"value": 1.8,
+					"valueStr": null
+				},
+				{
+					"key": "multi_times",
+					"value": 8,
+					"valueStr": null
+				},
+				{
+					"key": "multi_hit_interval",
+					"value": 0.375,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "判决",
+			"rangeId": "x-1",
+			"description": "对周围所有地面敌人造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害并使其<$ba.levitate>浮空</><@ba.vup>{levitate}</>秒，然后快速轰击<@ba.vup>{multi_times}</>次，每次对随机目标周围小范围内所有敌人造成相当于攻击力<@ba.vup>{multi_atk_scale:0%}</>的物理伤害",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WHEN_ATTACK",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 34,
+				"initSp": 4,
+				"increment": 1
+			},
+			"prefabId": "skchr_irene_3",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 2,
+					"valueStr": null
+				},
+				{
+					"key": "levitate",
+					"value": 2,
+					"valueStr": null
+				},
+				{
+					"key": "multi_atk_scale",
+					"value": 1.9,
+					"valueStr": null
+				},
+				{
+					"key": "multi_times",
+					"value": 8,
+					"valueStr": null
+				},
+				{
+					"key": "multi_hit_interval",
+					"value": 0.375,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "判决",
+			"rangeId": "x-1",
+			"description": "对周围所有地面敌人造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害并使其<$ba.levitate>浮空</><@ba.vup>{levitate}</>秒，然后快速轰击<@ba.vup>{multi_times}</>次，每次对随机目标周围小范围内所有敌人造成相当于攻击力<@ba.vup>{multi_atk_scale:0%}</>的物理伤害",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WHEN_ATTACK",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 34,
+				"initSp": 8,
+				"increment": 1
+			},
+			"prefabId": "skchr_irene_3",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 2,
+					"valueStr": null
+				},
+				{
+					"key": "levitate",
+					"value": 2,
+					"valueStr": null
+				},
+				{
+					"key": "multi_atk_scale",
+					"value": 2,
+					"valueStr": null
+				},
+				{
+					"key": "multi_times",
+					"value": 8,
+					"valueStr": null
+				},
+				{
+					"key": "multi_hit_interval",
+					"value": 0.375,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "判决",
+			"rangeId": "x-1",
+			"description": "对周围所有地面敌人造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害并使其<$ba.levitate>浮空</><@ba.vup>{levitate}</>秒，然后快速轰击<@ba.vup>{multi_times}</>次，每次对随机目标周围小范围内所有敌人造成相当于攻击力<@ba.vup>{multi_atk_scale:0%}</>的物理伤害",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WHEN_ATTACK",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 32,
+				"initSp": 8,
+				"increment": 1
+			},
+			"prefabId": "skchr_irene_3",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 2.5,
+					"valueStr": null
+				},
+				{
+					"key": "levitate",
+					"value": 2,
+					"valueStr": null
+				},
+				{
+					"key": "multi_atk_scale",
+					"value": 2,
+					"valueStr": null
+				},
+				{
+					"key": "multi_times",
+					"value": 10,
+					"valueStr": null
+				},
+				{
+					"key": "multi_hit_interval",
+					"value": 0.3,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "判决",
+			"rangeId": "x-1",
+			"description": "对周围所有地面敌人造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害并使其<$ba.levitate>浮空</><@ba.vup>{levitate}</>秒，然后快速轰击<@ba.vup>{multi_times}</>次，每次对随机目标周围小范围内所有敌人造成相当于攻击力<@ba.vup>{multi_atk_scale:0%}</>的物理伤害",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WHEN_ATTACK",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 32,
+				"initSp": 12,
+				"increment": 1
+			},
+			"prefabId": "skchr_irene_3",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 2.5,
+					"valueStr": null
+				},
+				{
+					"key": "levitate",
+					"value": 2,
+					"valueStr": null
+				},
+				{
+					"key": "multi_atk_scale",
+					"value": 2.1,
+					"valueStr": null
+				},
+				{
+					"key": "multi_times",
+					"value": 10,
+					"valueStr": null
+				},
+				{
+					"key": "multi_hit_interval",
+					"value": 0.3,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "判决",
+			"rangeId": "x-1",
+			"description": "对周围所有地面敌人造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害并使其<$ba.levitate>浮空</><@ba.vup>{levitate}</>秒，然后快速轰击<@ba.vup>{multi_times}</>次，每次对随机目标周围小范围内所有敌人造成相当于攻击力<@ba.vup>{multi_atk_scale:0%}</>的物理伤害",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WHEN_ATTACK",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 32,
+				"initSp": 16,
+				"increment": 1
+			},
+			"prefabId": "skchr_irene_3",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 2.5,
+					"valueStr": null
+				},
+				{
+					"key": "levitate",
+					"value": 2,
+					"valueStr": null
+				},
+				{
+					"key": "multi_atk_scale",
+					"value": 2.2,
+					"valueStr": null
+				},
+				{
+					"key": "multi_times",
+					"value": 10,
+					"valueStr": null
+				},
+				{
+					"key": "multi_hit_interval",
+					"value": 0.3,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "判决",
+			"rangeId": "x-1",
+			"description": "对周围所有地面敌人造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害并使其<$ba.levitate>浮空</><@ba.vup>{levitate}</>秒，然后快速轰击<@ba.vup>{multi_times}</>次，每次对随机目标周围小范围内所有敌人造成相当于攻击力<@ba.vup>{multi_atk_scale:0%}</>的物理伤害",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WHEN_ATTACK",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 30,
+				"initSp": 16,
+				"increment": 1
+			},
+			"prefabId": "skchr_irene_3",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 2.5,
+					"valueStr": null
+				},
+				{
+					"key": "levitate",
+					"value": 3,
+					"valueStr": null
+				},
+				{
+					"key": "multi_atk_scale",
+					"value": 2.3,
+					"valueStr": null
+				},
+				{
+					"key": "multi_times",
+					"value": 10,
+					"valueStr": null
+				},
+				{
+					"key": "multi_hit_interval",
+					"value": 0.3,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "判决",
+			"rangeId": "x-1",
+			"description": "对周围所有地面敌人造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害并使其<$ba.levitate>浮空</><@ba.vup>{levitate}</>秒，然后快速轰击<@ba.vup>{multi_times}</>次，每次对随机目标周围小范围内所有敌人造成相当于攻击力<@ba.vup>{multi_atk_scale:0%}</>的物理伤害",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WHEN_ATTACK",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 28,
+				"initSp": 16,
+				"increment": 1
+			},
+			"prefabId": "skchr_irene_3",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 3,
+					"valueStr": null
+				},
+				{
+					"key": "levitate",
+					"value": 3,
+					"valueStr": null
+				},
+				{
+					"key": "multi_atk_scale",
+					"value": 2.3,
+					"valueStr": null
+				},
+				{
+					"key": "multi_times",
+					"value": 12,
+					"valueStr": null
+				},
+				{
+					"key": "multi_hit_interval",
+					"value": 0.25,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "判决",
+			"rangeId": "x-1",
+			"description": "对周围所有地面敌人造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害并使其<$ba.levitate>浮空</><@ba.vup>{levitate}</>秒，然后快速轰击<@ba.vup>{multi_times}</>次，每次对随机目标周围小范围内所有敌人造成相当于攻击力<@ba.vup>{multi_atk_scale:0%}</>的物理伤害",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WHEN_ATTACK",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 26,
+				"initSp": 16,
+				"increment": 1
+			},
+			"prefabId": "skchr_irene_3",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 3,
+					"valueStr": null
+				},
+				{
+					"key": "levitate",
+					"value": 3,
+					"valueStr": null
+				},
+				{
+					"key": "multi_atk_scale",
+					"value": 2.4,
+					"valueStr": null
+				},
+				{
+					"key": "multi_times",
+					"value": 12,
+					"valueStr": null
+				},
+				{
+					"key": "multi_hit_interval",
+					"value": 0.25,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "判决",
+			"rangeId": "x-1",
+			"description": "对周围所有地面敌人造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害并使其<$ba.levitate>浮空</><@ba.vup>{levitate}</>秒，然后快速轰击<@ba.vup>{multi_times}</>次，每次对随机目标周围小范围内所有敌人造成相当于攻击力<@ba.vup>{multi_atk_scale:0%}</>的物理伤害",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WHEN_ATTACK",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 24,
+				"initSp": 16,
+				"increment": 1
+			},
+			"prefabId": "skchr_irene_3",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 3,
+					"valueStr": null
+				},
+				{
+					"key": "levitate",
+					"value": 4,
+					"valueStr": null
+				},
+				{
+					"key": "multi_atk_scale",
+					"value": 2.5,
+					"valueStr": null
+				},
+				{
+					"key": "multi_times",
+					"value": 12,
+					"valueStr": null
+				},
+				{
+					"key": "multi_hit_interval",
+					"value": 0.25,
+					"valueStr": null
+				}
+			]
+		}
+	]
+}

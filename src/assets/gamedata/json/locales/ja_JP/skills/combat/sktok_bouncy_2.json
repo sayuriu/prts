@@ -1,0 +1,25 @@
+{
+	"skillId": "sktok_bouncy_2",
+	"iconId": "sktok_bouncy",
+	"hidden": false,
+	"levels": [
+		{
+			"name": "聖徒の御手・清掃モード",
+			"rangeId": null,
+			"description": "配置方向に「聖徒の御手」を放ち、触れた敵にダメージとスタンを与え、経路上の「溟痕」を取り除く",
+			"skillType": 0,
+			"durationType": 0,
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": "sktok_bouncy_2",
+			"duration": -1,
+			"blackboard": []
+		}
+	]
+}

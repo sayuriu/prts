@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act13d5_ex03",
@@ -10,7 +11,7 @@
 	],
 	"stageId": "act13d5_ex04",
 	"levelId": "Activities/ACT13D5/level_act13d5_ex04",
-	"zoneId": "act13d5_zone2",
+	"zoneId": "act7sre_zone2",
 	"code": "MN-EX-4",
 	"name": "左から右から",
 	"description": "この競技場は両陣営にとって公正公平な構造に見えるが、いざ戦いとなれば、多勢が無勢をいたぶるだけだろう。\n<@lv.item><防護エリア></>配置した味方の防御力が上昇する。\n<@lv.item><特殊戦術地点></>配置した味方は敵を強制移動する時の力が強くなる。",
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {
@@ -52,7 +54,7 @@
 		"displayRewards": [
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act13d5_token_securities",
+				"id": "act13d5_token_securities_rep_1",
 				"dropType": 8
 			},
 			{
@@ -65,7 +67,7 @@
 			{
 				"occPercent": 0,
 				"type": "ACTIVITY_ITEM",
-				"id": "act13d5_token_securities",
+				"id": "act13d5_token_securities_rep_1",
 				"dropType": 8
 			},
 			{

@@ -7,10 +7,10 @@
 			"name": "剑走偏锋",
 			"rangeId": "2-3",
 			"description": "攻击范围<@ba.vup>扩大</>，同时攻击<@ba.vup>2</>名敌人，每次攻击造成相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害，<$ba.charged>蓄力</>额外效果：改为同时攻击<@ba.vup>3</>名敌人，持续时间延长为<@ba.vup>{enhance_duration}</>秒\\n<@ba.rem>可主动关闭技能（期间可随时停止技能）</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 2,
 				"spCost": 30,
@@ -22,19 +22,23 @@
 			"blackboard": [
 				{
 					"key": "attack@atk_scale",
-					"value": 1.4
+					"value": 1.4,
+					"valueStr": null
 				},
 				{
 					"key": "enhance_duration",
-					"value": 30
+					"value": 30,
+					"valueStr": null
 				},
 				{
 					"key": "attack@plus_max_target",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				},
 				{
 					"key": "attack@plus_atk_scale",
-					"value": 1.4
+					"value": 1.4,
+					"valueStr": null
 				}
 			]
 		},
@@ -42,10 +46,10 @@
 			"name": "剑走偏锋",
 			"rangeId": "2-3",
 			"description": "攻击范围<@ba.vup>扩大</>，同时攻击<@ba.vup>2</>名敌人，每次攻击造成相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害，<$ba.charged>蓄力</>额外效果：改为同时攻击<@ba.vup>3</>名敌人，持续时间延长为<@ba.vup>{enhance_duration}</>秒\\n<@ba.rem>可主动关闭技能（期间可随时停止技能）</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 2,
 				"spCost": 30,
@@ -57,19 +61,23 @@
 			"blackboard": [
 				{
 					"key": "attack@atk_scale",
-					"value": 1.5
+					"value": 1.5,
+					"valueStr": null
 				},
 				{
 					"key": "enhance_duration",
-					"value": 30
+					"value": 30,
+					"valueStr": null
 				},
 				{
 					"key": "attack@plus_max_target",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				},
 				{
 					"key": "attack@plus_atk_scale",
-					"value": 1.5
+					"value": 1.5,
+					"valueStr": null
 				}
 			]
 		},
@@ -77,10 +85,10 @@
 			"name": "剑走偏锋",
 			"rangeId": "2-3",
 			"description": "攻击范围<@ba.vup>扩大</>，同时攻击<@ba.vup>2</>名敌人，每次攻击造成相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害，<$ba.charged>蓄力</>额外效果：改为同时攻击<@ba.vup>3</>名敌人，持续时间延长为<@ba.vup>{enhance_duration}</>秒\\n<@ba.rem>可主动关闭技能（期间可随时停止技能）</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 2,
 				"spCost": 30,
@@ -92,19 +100,23 @@
 			"blackboard": [
 				{
 					"key": "attack@atk_scale",
-					"value": 1.6
+					"value": 1.6,
+					"valueStr": null
 				},
 				{
 					"key": "enhance_duration",
-					"value": 30
+					"value": 30,
+					"valueStr": null
 				},
 				{
 					"key": "attack@plus_max_target",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				},
 				{
 					"key": "attack@plus_atk_scale",
-					"value": 1.6
+					"value": 1.6,
+					"valueStr": null
 				}
 			]
 		},
@@ -112,10 +124,10 @@
 			"name": "剑走偏锋",
 			"rangeId": "2-3",
 			"description": "攻击范围<@ba.vup>扩大</>，同时攻击<@ba.vup>2</>名敌人，每次攻击造成相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害，<$ba.charged>蓄力</>额外效果：改为同时攻击<@ba.vup>3</>名敌人，持续时间延长为<@ba.vup>{enhance_duration}</>秒\\n<@ba.rem>可主动关闭技能（期间可随时停止技能）</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 2,
 				"spCost": 25,
@@ -127,19 +139,23 @@
 			"blackboard": [
 				{
 					"key": "attack@atk_scale",
-					"value": 1.7
+					"value": 1.7,
+					"valueStr": null
 				},
 				{
 					"key": "enhance_duration",
-					"value": 30
+					"value": 30,
+					"valueStr": null
 				},
 				{
 					"key": "attack@plus_max_target",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				},
 				{
 					"key": "attack@plus_atk_scale",
-					"value": 1.7
+					"value": 1.7,
+					"valueStr": null
 				}
 			]
 		},
@@ -147,10 +163,10 @@
 			"name": "剑走偏锋",
 			"rangeId": "2-3",
 			"description": "攻击范围<@ba.vup>扩大</>，同时攻击<@ba.vup>2</>名敌人，每次攻击造成相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害，<$ba.charged>蓄力</>额外效果：改为同时攻击<@ba.vup>3</>名敌人，持续时间延长为<@ba.vup>{enhance_duration}</>秒\\n<@ba.rem>可主动关闭技能（期间可随时停止技能）</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 2,
 				"spCost": 25,
@@ -162,19 +178,23 @@
 			"blackboard": [
 				{
 					"key": "attack@atk_scale",
-					"value": 1.8
+					"value": 1.8,
+					"valueStr": null
 				},
 				{
 					"key": "enhance_duration",
-					"value": 30
+					"value": 30,
+					"valueStr": null
 				},
 				{
 					"key": "attack@plus_max_target",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				},
 				{
 					"key": "attack@plus_atk_scale",
-					"value": 1.8
+					"value": 1.8,
+					"valueStr": null
 				}
 			]
 		},
@@ -182,10 +202,10 @@
 			"name": "剑走偏锋",
 			"rangeId": "2-3",
 			"description": "攻击范围<@ba.vup>扩大</>，同时攻击<@ba.vup>2</>名敌人，每次攻击造成相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害，<$ba.charged>蓄力</>额外效果：改为同时攻击<@ba.vup>3</>名敌人，持续时间延长为<@ba.vup>{enhance_duration}</>秒\\n<@ba.rem>可主动关闭技能（期间可随时停止技能）</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 2,
 				"spCost": 25,
@@ -197,19 +217,23 @@
 			"blackboard": [
 				{
 					"key": "attack@atk_scale",
-					"value": 1.9
+					"value": 1.9,
+					"valueStr": null
 				},
 				{
 					"key": "enhance_duration",
-					"value": 30
+					"value": 30,
+					"valueStr": null
 				},
 				{
 					"key": "attack@plus_max_target",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				},
 				{
 					"key": "attack@plus_atk_scale",
-					"value": 1.9
+					"value": 1.9,
+					"valueStr": null
 				}
 			]
 		},
@@ -217,10 +241,10 @@
 			"name": "剑走偏锋",
 			"rangeId": "2-3",
 			"description": "攻击范围<@ba.vup>扩大</>，同时攻击<@ba.vup>2</>名敌人，每次攻击造成相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害，<$ba.charged>蓄力</>额外效果：改为同时攻击<@ba.vup>3</>名敌人，持续时间延长为<@ba.vup>{enhance_duration}</>秒\\n<@ba.rem>可主动关闭技能（期间可随时停止技能）</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 2,
 				"spCost": 20,
@@ -232,19 +256,23 @@
 			"blackboard": [
 				{
 					"key": "attack@atk_scale",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				},
 				{
 					"key": "enhance_duration",
-					"value": 30
+					"value": 30,
+					"valueStr": null
 				},
 				{
 					"key": "attack@plus_max_target",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				},
 				{
 					"key": "attack@plus_atk_scale",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				}
 			]
 		},
@@ -252,10 +280,10 @@
 			"name": "剑走偏锋",
 			"rangeId": "2-3",
 			"description": "攻击范围<@ba.vup>扩大</>，同时攻击<@ba.vup>2</>名敌人，每次攻击造成相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害，<$ba.charged>蓄力</>额外效果：改为同时攻击<@ba.vup>3</>名敌人，持续时间延长为<@ba.vup>{enhance_duration}</>秒\\n<@ba.rem>可主动关闭技能（期间可随时停止技能）</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 2,
 				"spCost": 20,
@@ -267,19 +295,23 @@
 			"blackboard": [
 				{
 					"key": "attack@atk_scale",
-					"value": 2.1
+					"value": 2.1,
+					"valueStr": null
 				},
 				{
 					"key": "enhance_duration",
-					"value": 30
+					"value": 30,
+					"valueStr": null
 				},
 				{
 					"key": "attack@plus_max_target",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				},
 				{
 					"key": "attack@plus_atk_scale",
-					"value": 2.1
+					"value": 2.1,
+					"valueStr": null
 				}
 			]
 		},
@@ -287,10 +319,10 @@
 			"name": "剑走偏锋",
 			"rangeId": "2-3",
 			"description": "攻击范围<@ba.vup>扩大</>，同时攻击<@ba.vup>2</>名敌人，每次攻击造成相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害，<$ba.charged>蓄力</>额外效果：改为同时攻击<@ba.vup>3</>名敌人，持续时间延长为<@ba.vup>{enhance_duration}</>秒\\n<@ba.rem>可主动关闭技能（期间可随时停止技能）</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 2,
 				"spCost": 20,
@@ -302,19 +334,23 @@
 			"blackboard": [
 				{
 					"key": "attack@atk_scale",
-					"value": 2.2
+					"value": 2.2,
+					"valueStr": null
 				},
 				{
 					"key": "enhance_duration",
-					"value": 30
+					"value": 30,
+					"valueStr": null
 				},
 				{
 					"key": "attack@plus_max_target",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				},
 				{
 					"key": "attack@plus_atk_scale",
-					"value": 2.2
+					"value": 2.2,
+					"valueStr": null
 				}
 			]
 		},
@@ -322,10 +358,10 @@
 			"name": "剑走偏锋",
 			"rangeId": "2-3",
 			"description": "攻击范围<@ba.vup>扩大</>，同时攻击<@ba.vup>2</>名敌人，每次攻击造成相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害，<$ba.charged>蓄力</>额外效果：改为同时攻击<@ba.vup>3</>名敌人，持续时间延长为<@ba.vup>{enhance_duration}</>秒\\n<@ba.rem>可主动关闭技能（期间可随时停止技能）</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 2,
 				"spCost": 20,
@@ -337,19 +373,23 @@
 			"blackboard": [
 				{
 					"key": "attack@atk_scale",
-					"value": 2.3
+					"value": 2.3,
+					"valueStr": null
 				},
 				{
 					"key": "enhance_duration",
-					"value": 30
+					"value": 30,
+					"valueStr": null
 				},
 				{
 					"key": "attack@plus_max_target",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				},
 				{
 					"key": "attack@plus_atk_scale",
-					"value": 2.3
+					"value": 2.3,
+					"valueStr": null
 				}
 			]
 		}

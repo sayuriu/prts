@@ -1,0 +1,277 @@
+{
+	"skillId": "skchr_bgsnow_2",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "요약",
+			"rangeId": "3-1",
+			"description": "패시브 효과: 해당 스킬 선택 시 '타자기'의 재배치 시간이 <@ba.vup>{respawn_time:0%}</>까지 단축\n액티브 발동: 즉시 전방에 3회 공격, 회당 공격력의 <@ba.vup>{atk_scale:0%}</>에 해당하는 물리 대미지를 입힌다\n<@ba.rem>1회 충전 가능</>",
+			"skillType": 1,
+			"durationType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 12,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_bgsnow_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 1.6
+				},
+				{
+					"key": "respawn_time",
+					"value": 0.7
+				}
+			]
+		},
+		{
+			"name": "요약",
+			"rangeId": "3-1",
+			"description": "패시브 효과: 해당 스킬 선택 시 '타자기'의 재배치 시간이 <@ba.vup>{respawn_time:0%}</>까지 단축\n액티브 발동: 즉시 전방에 3회 공격, 회당 공격력의 <@ba.vup>{atk_scale:0%}</>에 해당하는 물리 대미지를 입힌다\n<@ba.rem>1회 충전 가능</>",
+			"skillType": 1,
+			"durationType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 12,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_bgsnow_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 1.65
+				},
+				{
+					"key": "respawn_time",
+					"value": 0.7
+				}
+			]
+		},
+		{
+			"name": "요약",
+			"rangeId": "3-1",
+			"description": "패시브 효과: 해당 스킬 선택 시 '타자기'의 재배치 시간이 <@ba.vup>{respawn_time:0%}</>까지 단축\n액티브 발동: 즉시 전방에 3회 공격, 회당 공격력의 <@ba.vup>{atk_scale:0%}</>에 해당하는 물리 대미지를 입힌다\n<@ba.rem>1회 충전 가능</>",
+			"skillType": 1,
+			"durationType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 12,
+				"initSp": 3,
+				"increment": 1
+			},
+			"prefabId": "skchr_bgsnow_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 1.7
+				},
+				{
+					"key": "respawn_time",
+					"value": 0.7
+				}
+			]
+		},
+		{
+			"name": "요약",
+			"rangeId": "3-1",
+			"description": "패시브 효과: 해당 스킬 선택 시 '타자기'의 재배치 시간이 <@ba.vup>{respawn_time:0%}</>까지 단축\n액티브 발동: 즉시 전방으로 3회 공격하며, 회당 공격력의 <@ba.vup>{atk_scale:0%}</>에 해당하는 물리 대미지를 입힌다\n<@ba.rem>2회 충전 가능</>",
+			"skillType": 1,
+			"durationType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 11,
+				"initSp": 3,
+				"increment": 1
+			},
+			"prefabId": "skchr_bgsnow_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 1.8
+				},
+				{
+					"key": "respawn_time",
+					"value": 0.65
+				}
+			]
+		},
+		{
+			"name": "요약",
+			"rangeId": "3-1",
+			"description": "패시브 효과: 해당 스킬 선택 시 '타자기'의 재배치 시간이 <@ba.vup>{respawn_time:0%}</>까지 단축\n액티브 발동: 즉시 전방으로 3회 공격하며, 회당 공격력의 <@ba.vup>{atk_scale:0%}</>에 해당하는 물리 대미지를 입힌다\n<@ba.rem>2회 충전 가능</>",
+			"skillType": 1,
+			"durationType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 11,
+				"initSp": 3,
+				"increment": 1
+			},
+			"prefabId": "skchr_bgsnow_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 1.85
+				},
+				{
+					"key": "respawn_time",
+					"value": 0.65
+				}
+			]
+		},
+		{
+			"name": "요약",
+			"rangeId": "3-1",
+			"description": "패시브 효과: 해당 스킬 선택 시 '타자기'의 재배치 시간이 <@ba.vup>{respawn_time:0%}</>까지 단축\n액티브 발동: 즉시 전방으로 3회 공격하며, 회당 공격력의 <@ba.vup>{atk_scale:0%}</>에 해당하는 물리 대미지를 입힌다\n<@ba.rem>2회 충전 가능</>",
+			"skillType": 1,
+			"durationType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 11,
+				"initSp": 6,
+				"increment": 1
+			},
+			"prefabId": "skchr_bgsnow_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 1.9
+				},
+				{
+					"key": "respawn_time",
+					"value": 0.65
+				}
+			]
+		},
+		{
+			"name": "요약",
+			"rangeId": "3-1",
+			"description": "패시브 효과: 해당 스킬 선택 시 '타자기'의 재배치 시간이 <@ba.vup>{respawn_time:0%}</>까지 단축\n액티브 발동: 즉시 전방으로 3회 공격하며, 회당 공격력의 <@ba.vup>{atk_scale:0%}</>에 해당하는 물리 대미지를 입힌다\n<@ba.rem>2회 충전 가능</>",
+			"skillType": 1,
+			"durationType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 10,
+				"initSp": 6,
+				"increment": 1
+			},
+			"prefabId": "skchr_bgsnow_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 2
+				},
+				{
+					"key": "respawn_time",
+					"value": 0.6
+				}
+			]
+		},
+		{
+			"name": "요약",
+			"rangeId": "3-1",
+			"description": "패시브 효과: 해당 스킬 선택 시 '타자기'의 재배치 시간이 <@ba.vup>{respawn_time:0%}</>까지 단축\n액티브 발동: 즉시 전방으로 3회 공격하며, 회당 공격력의 <@ba.vup>{atk_scale:0%}</>에 해당하는 물리 대미지를 입힌다\n<@ba.rem>2회 충전 가능</>",
+			"skillType": 1,
+			"durationType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 10,
+				"initSp": 6,
+				"increment": 1
+			},
+			"prefabId": "skchr_bgsnow_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 2.1
+				},
+				{
+					"key": "respawn_time",
+					"value": 0.6
+				}
+			]
+		},
+		{
+			"name": "요약",
+			"rangeId": "3-1",
+			"description": "패시브 효과: 해당 스킬 선택 시 '타자기'의 재배치 시간이 <@ba.vup>{respawn_time:0%}</>까지 단축\n액티브 발동: 즉시 전방으로 3회 공격하며, 회당 공격력의 <@ba.vup>{atk_scale:0%}</>에 해당하는 물리 대미지를 입힌다\n<@ba.rem>2회 충전 가능</>",
+			"skillType": 1,
+			"durationType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 10,
+				"initSp": 9,
+				"increment": 1
+			},
+			"prefabId": "skchr_bgsnow_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 2.2
+				},
+				{
+					"key": "respawn_time",
+					"value": 0.6
+				}
+			]
+		},
+		{
+			"name": "요약",
+			"rangeId": "3-1",
+			"description": "패시브 효과: 해당 스킬 선택 시 '타자기'의 재배치 시간이 <@ba.vup>{respawn_time:0%}</>까지 단축\n액티브 발동: 즉시 전방으로 3회 공격하며, 회당 공격력의 <@ba.vup>{atk_scale:0%}</>에 해당하는 물리 대미지를 입힌다\n<@ba.rem>2회 충전 가능</>",
+			"skillType": 1,
+			"durationType": 1,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 9,
+				"initSp": 9,
+				"increment": 1
+			},
+			"prefabId": "skchr_bgsnow_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 2.3
+				},
+				{
+					"key": "respawn_time",
+					"value": 0.5
+				}
+			]
+		}
+	]
+}

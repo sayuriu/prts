@@ -7,10 +7,10 @@
 			"name": "铳口收束",
 			"rangeId": null,
 			"description": "攻击力<@ba.vup>+{atk:0%}</>，攻击时对攻击范围内的所有敌人应用特性加成",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 45,
@@ -22,7 +22,8 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.2
+					"value": 0.2,
+					"valueStr": null
 				}
 			]
 		},
@@ -30,10 +31,10 @@
 			"name": "铳口收束",
 			"rangeId": null,
 			"description": "攻击力<@ba.vup>+{atk:0%}</>，攻击时对攻击范围内的所有敌人应用特性加成",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 45,
@@ -45,7 +46,8 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.25
+					"value": 0.25,
+					"valueStr": null
 				}
 			]
 		},
@@ -53,10 +55,10 @@
 			"name": "铳口收束",
 			"rangeId": null,
 			"description": "攻击力<@ba.vup>+{atk:0%}</>，攻击时对攻击范围内的所有敌人应用特性加成",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 45,
@@ -68,7 +70,8 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.3
+					"value": 0.3,
+					"valueStr": null
 				}
 			]
 		},
@@ -76,10 +79,10 @@
 			"name": "铳口收束",
 			"rangeId": null,
 			"description": "攻击力<@ba.vup>+{atk:0%}</>，攻击时对攻击范围内的所有敌人应用特性加成",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 45,
@@ -91,7 +94,8 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.35
+					"value": 0.35,
+					"valueStr": null
 				}
 			]
 		},
@@ -99,10 +103,10 @@
 			"name": "铳口收束",
 			"rangeId": null,
 			"description": "攻击力<@ba.vup>+{atk:0%}</>，攻击时对攻击范围内的所有敌人应用特性加成",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 45,
@@ -114,7 +118,8 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.4
+					"value": 0.4,
+					"valueStr": null
 				}
 			]
 		},
@@ -122,10 +127,10 @@
 			"name": "铳口收束",
 			"rangeId": null,
 			"description": "攻击力<@ba.vup>+{atk:0%}</>，攻击时对攻击范围内的所有敌人应用特性加成",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 45,
@@ -137,7 +142,8 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.45
+					"value": 0.45,
+					"valueStr": null
 				}
 			]
 		},
@@ -145,10 +151,10 @@
 			"name": "铳口收束",
 			"rangeId": null,
 			"description": "攻击力<@ba.vup>+{atk:0%}</>，攻击时对攻击范围内的所有敌人应用特性加成",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 45,
@@ -160,7 +166,8 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				}
 			]
 		},
@@ -168,10 +175,10 @@
 			"name": "铳口收束",
 			"rangeId": null,
 			"description": "攻击力<@ba.vup>+{atk:0%}</>，攻击时对攻击范围内的所有敌人应用特性加成",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 45,
@@ -183,7 +190,8 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.55
+					"value": 0.55,
+					"valueStr": null
 				}
 			]
 		},
@@ -191,10 +199,10 @@
 			"name": "铳口收束",
 			"rangeId": null,
 			"description": "攻击力<@ba.vup>+{atk:0%}</>，攻击时对攻击范围内的所有敌人应用特性加成",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 45,
@@ -206,7 +214,8 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.6
+					"value": 0.6,
+					"valueStr": null
 				}
 			]
 		},
@@ -214,10 +223,10 @@
 			"name": "铳口收束",
 			"rangeId": null,
 			"description": "攻击力<@ba.vup>+{atk:0%}</>，攻击时对攻击范围内的所有敌人应用特性加成",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 45,
@@ -229,7 +238,8 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.7
+					"value": 0.7,
+					"valueStr": null
 				}
 			]
 		}

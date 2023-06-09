@@ -1,0 +1,437 @@
+{
+	"skillId": "skchr_texas2_3",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "ロヴェーショ",
+			"rangeId": "x-4",
+			"description": "配置後周囲にいる敵全員に2回連続で攻撃力の<@ba.vup>{appear.atk_scale:0%}</>の術ダメージを与え、対象を<@ba.vup>{appear.stun}</>秒間<$ba.stun>スタン</>させる。その後、1秒ごとに効果範囲内の敵最大<@ba.vup>{max_target}</>体を対象に剣雨を放ち、攻撃力の<@ba.vup>{atk_scale:0%}</>の術ダメージを与え、<@ba.vup>{stun}</>秒間<$ba.stun>スタン</>させる",
+			"skillType": 0,
+			"durationType": 0,
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_texas2_3",
+			"duration": 6,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 0.7
+				},
+				{
+					"key": "stun",
+					"value": 0.2
+				},
+				{
+					"key": "max_target",
+					"value": 2
+				},
+				{
+					"key": "texas2_s_3[sword].interval",
+					"value": 1
+				},
+				{
+					"key": "appear.atk_scale",
+					"value": 1
+				},
+				{
+					"key": "appear.stun",
+					"value": 1
+				}
+			]
+		},
+		{
+			"name": "ロヴェーショ",
+			"rangeId": "x-4",
+			"description": "配置後周囲にいる敵全員に2回連続で攻撃力の<@ba.vup>{appear.atk_scale:0%}</>の術ダメージを与え、対象を<@ba.vup>{appear.stun}</>秒間<$ba.stun>スタン</>させる。その後、1秒ごとに効果範囲内の敵最大<@ba.vup>{max_target}</>体を対象に剣雨を放ち、攻撃力の<@ba.vup>{atk_scale:0%}</>の術ダメージを与え、<@ba.vup>{stun}</>秒間<$ba.stun>スタン</>させる",
+			"skillType": 0,
+			"durationType": 0,
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_texas2_3",
+			"duration": 6,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 0.75
+				},
+				{
+					"key": "stun",
+					"value": 0.2
+				},
+				{
+					"key": "max_target",
+					"value": 2
+				},
+				{
+					"key": "texas2_s_3[sword].interval",
+					"value": 1
+				},
+				{
+					"key": "appear.atk_scale",
+					"value": 1.05
+				},
+				{
+					"key": "appear.stun",
+					"value": 1
+				}
+			]
+		},
+		{
+			"name": "ロヴェーショ",
+			"rangeId": "x-4",
+			"description": "配置後周囲にいる敵全員に2回連続で攻撃力の<@ba.vup>{appear.atk_scale:0%}</>の術ダメージを与え、対象を<@ba.vup>{appear.stun}</>秒間<$ba.stun>スタン</>させる。その後、1秒ごとに効果範囲内の敵最大<@ba.vup>{max_target}</>体を対象に剣雨を放ち、攻撃力の<@ba.vup>{atk_scale:0%}</>の術ダメージを与え、<@ba.vup>{stun}</>秒間<$ba.stun>スタン</>させる",
+			"skillType": 0,
+			"durationType": 0,
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_texas2_3",
+			"duration": 6,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 0.8
+				},
+				{
+					"key": "stun",
+					"value": 0.2
+				},
+				{
+					"key": "max_target",
+					"value": 2
+				},
+				{
+					"key": "texas2_s_3[sword].interval",
+					"value": 1
+				},
+				{
+					"key": "appear.atk_scale",
+					"value": 1.1
+				},
+				{
+					"key": "appear.stun",
+					"value": 1
+				}
+			]
+		},
+		{
+			"name": "ロヴェーショ",
+			"rangeId": "x-4",
+			"description": "配置後周囲にいる敵全員に2回連続で攻撃力の<@ba.vup>{appear.atk_scale:0%}</>の術ダメージを与え、対象を<@ba.vup>{appear.stun}</>秒間<$ba.stun>スタン</>させる。その後、1秒ごとに効果範囲内の敵最大<@ba.vup>{max_target}</>体を対象に剣雨を放ち、攻撃力の<@ba.vup>{atk_scale:0%}</>の術ダメージを与え、<@ba.vup>{stun}</>秒間<$ba.stun>スタン</>させる",
+			"skillType": 0,
+			"durationType": 0,
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_texas2_3",
+			"duration": 6,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 0.85
+				},
+				{
+					"key": "stun",
+					"value": 0.2
+				},
+				{
+					"key": "max_target",
+					"value": 2
+				},
+				{
+					"key": "texas2_s_3[sword].interval",
+					"value": 1
+				},
+				{
+					"key": "appear.atk_scale",
+					"value": 1.15
+				},
+				{
+					"key": "appear.stun",
+					"value": 1.5
+				}
+			]
+		},
+		{
+			"name": "ロヴェーショ",
+			"rangeId": "x-4",
+			"description": "配置後周囲にいる敵全員に2回連続で攻撃力の<@ba.vup>{appear.atk_scale:0%}</>の術ダメージを与え、対象を<@ba.vup>{appear.stun}</>秒間<$ba.stun>スタン</>させる。その後、1秒ごとに効果範囲内の敵最大<@ba.vup>{max_target}</>体を対象に剣雨を放ち、攻撃力の<@ba.vup>{atk_scale:0%}</>の術ダメージを与え、<@ba.vup>{stun}</>秒間<$ba.stun>スタン</>させる",
+			"skillType": 0,
+			"durationType": 0,
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_texas2_3",
+			"duration": 6,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 0.9
+				},
+				{
+					"key": "stun",
+					"value": 0.2
+				},
+				{
+					"key": "max_target",
+					"value": 2
+				},
+				{
+					"key": "texas2_s_3[sword].interval",
+					"value": 1
+				},
+				{
+					"key": "appear.atk_scale",
+					"value": 1.2
+				},
+				{
+					"key": "appear.stun",
+					"value": 1.5
+				}
+			]
+		},
+		{
+			"name": "ロヴェーショ",
+			"rangeId": "x-4",
+			"description": "配置後周囲にいる敵全員に2回連続で攻撃力の<@ba.vup>{appear.atk_scale:0%}</>の術ダメージを与え、対象を<@ba.vup>{appear.stun}</>秒間<$ba.stun>スタン</>させる。その後、1秒ごとに効果範囲内の敵最大<@ba.vup>{max_target}</>体を対象に剣雨を放ち、攻撃力の<@ba.vup>{atk_scale:0%}</>の術ダメージを与え、<@ba.vup>{stun}</>秒間<$ba.stun>スタン</>させる",
+			"skillType": 0,
+			"durationType": 0,
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_texas2_3",
+			"duration": 6,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 0.95
+				},
+				{
+					"key": "stun",
+					"value": 0.2
+				},
+				{
+					"key": "max_target",
+					"value": 2
+				},
+				{
+					"key": "texas2_s_3[sword].interval",
+					"value": 1
+				},
+				{
+					"key": "appear.atk_scale",
+					"value": 1.25
+				},
+				{
+					"key": "appear.stun",
+					"value": 1.5
+				}
+			]
+		},
+		{
+			"name": "ロヴェーショ",
+			"rangeId": "x-4",
+			"description": "配置後周囲にいる敵全員に2回連続で攻撃力の<@ba.vup>{appear.atk_scale:0%}</>の術ダメージを与え、対象を<@ba.vup>{appear.stun}</>秒間<$ba.stun>スタン</>させる。その後、1秒ごとに効果範囲内の敵最大<@ba.vup>{max_target}</>体を対象に剣雨を放ち、攻撃力の<@ba.vup>{atk_scale:0%}</>の術ダメージを与え、<@ba.vup>{stun}</>秒間<$ba.stun>スタン</>させる",
+			"skillType": 0,
+			"durationType": 0,
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_texas2_3",
+			"duration": 7,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 1
+				},
+				{
+					"key": "stun",
+					"value": 0.2
+				},
+				{
+					"key": "max_target",
+					"value": 3
+				},
+				{
+					"key": "texas2_s_3[sword].interval",
+					"value": 1
+				},
+				{
+					"key": "appear.atk_scale",
+					"value": 1.3
+				},
+				{
+					"key": "appear.stun",
+					"value": 1.5
+				}
+			]
+		},
+		{
+			"name": "ロヴェーショ",
+			"rangeId": "x-4",
+			"description": "配置後周囲にいる敵全員に2回連続で攻撃力の<@ba.vup>{appear.atk_scale:0%}</>の術ダメージを与え、対象を<@ba.vup>{appear.stun}</>秒間<$ba.stun>スタン</>させる。その後、1秒ごとに効果範囲内の敵最大<@ba.vup>{max_target}</>体を対象に剣雨を放ち、攻撃力の<@ba.vup>{atk_scale:0%}</>の術ダメージを与え、<@ba.vup>{stun}</>秒間<$ba.stun>スタン</>させる",
+			"skillType": 0,
+			"durationType": 0,
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_texas2_3",
+			"duration": 7,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 1.1
+				},
+				{
+					"key": "stun",
+					"value": 0.2
+				},
+				{
+					"key": "max_target",
+					"value": 3
+				},
+				{
+					"key": "texas2_s_3[sword].interval",
+					"value": 1
+				},
+				{
+					"key": "appear.atk_scale",
+					"value": 1.35
+				},
+				{
+					"key": "appear.stun",
+					"value": 2
+				}
+			]
+		},
+		{
+			"name": "ロヴェーショ",
+			"rangeId": "x-4",
+			"description": "配置後周囲にいる敵全員に2回連続で攻撃力の<@ba.vup>{appear.atk_scale:0%}</>の術ダメージを与え、対象を<@ba.vup>{appear.stun}</>秒間<$ba.stun>スタン</>させる。その後、1秒ごとに効果範囲内の敵最大<@ba.vup>{max_target}</>体を対象に剣雨を放ち、攻撃力の<@ba.vup>{atk_scale:0%}</>の術ダメージを与え、<@ba.vup>{stun}</>秒間<$ba.stun>スタン</>させる",
+			"skillType": 0,
+			"durationType": 0,
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_texas2_3",
+			"duration": 8,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 1.2
+				},
+				{
+					"key": "stun",
+					"value": 0.2
+				},
+				{
+					"key": "max_target",
+					"value": 3
+				},
+				{
+					"key": "texas2_s_3[sword].interval",
+					"value": 1
+				},
+				{
+					"key": "appear.atk_scale",
+					"value": 1.5
+				},
+				{
+					"key": "appear.stun",
+					"value": 2
+				}
+			]
+		},
+		{
+			"name": "ロヴェーショ",
+			"rangeId": "x-4",
+			"description": "配置後周囲にいる敵全員に2回連続で攻撃力の<@ba.vup>{appear.atk_scale:0%}</>の術ダメージを与え、対象を<@ba.vup>{appear.stun}</>秒間<$ba.stun>スタン</>させる。その後、1秒ごとに効果範囲内の敵最大<@ba.vup>{max_target}</>体を対象に剣雨を放ち、攻撃力の<@ba.vup>{atk_scale:0%}</>の術ダメージを与え、<@ba.vup>{stun}</>秒間<$ba.stun>スタン</>させる",
+			"skillType": 0,
+			"durationType": 0,
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_texas2_3",
+			"duration": 8,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 1.3
+				},
+				{
+					"key": "stun",
+					"value": 0.2
+				},
+				{
+					"key": "max_target",
+					"value": 4
+				},
+				{
+					"key": "texas2_s_3[sword].interval",
+					"value": 1
+				},
+				{
+					"key": "appear.atk_scale",
+					"value": 1.65
+				},
+				{
+					"key": "appear.stun",
+					"value": 2
+				}
+			]
+		}
+	]
+}

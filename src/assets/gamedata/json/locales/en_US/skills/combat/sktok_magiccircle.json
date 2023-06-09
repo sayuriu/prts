@@ -1,0 +1,25 @@
+{
+	"skillId": "sktok_magiccircle",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "Tuning",
+			"rangeId": null,
+			"description": "When activated and an operator is deployed on top, forms a new <@ba.kw>Realigned Flux</>",
+			"skillType": 2,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 20,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "sktok_magiccircle",
+			"duration": -1,
+			"blackboard": []
+		}
+	]
+}

@@ -130,7 +130,7 @@ export class OperatorInfoAreaComponent implements OnInit, OnChanges
 
 	async init()
 	{
-		this.currentOp = Object.assign(await this.manager.getCharData(this.opId as CHAR_NAME), { id: this.opId });
+		this.currentOp = Object.assign((await this.manager.getCharData(this.opId as CHAR_NAME))!, { id: this.opId });
 		this.currentOpCN = await this.manager.getCharData(this.opId as CHAR_NAME, 'zh_CN') as Operator;
         await this.fetchOpSkills();
         //! title

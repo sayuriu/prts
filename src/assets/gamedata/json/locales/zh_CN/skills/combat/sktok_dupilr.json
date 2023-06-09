@@ -7,8 +7,8 @@
 			"name": "支柱坍塌",
 			"rangeId": "2-2",
 			"description": "被击倒后，对倒下两格造成真实伤害与晕眩并使范围内的我方单位强制撤退，并在可部署地块上生成阻挡路线的<战场废墟>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
 				"spType": 8,
 				"levelUpCost": null,
@@ -22,7 +22,8 @@
 			"blackboard": [
 				{
 					"key": "stun",
-					"value": 10
+					"value": 10,
+					"valueStr": null
 				}
 			]
 		}

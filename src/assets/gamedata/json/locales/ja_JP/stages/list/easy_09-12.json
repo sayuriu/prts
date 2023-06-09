@@ -1,0 +1,84 @@
+{
+	"stageType": "MAIN",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "EASY",
+	"unlockCondition": [
+		{
+			"stageId": "easy_sub_09-1-1",
+			"completeState": 2
+		}
+	],
+	"stageId": "easy_09-12",
+	"levelId": "Obt/Main/level_easy_09-12",
+	"zoneId": "main_9",
+	"code": "9-14",
+	"name": "旗は風に揺れて",
+	"description": "吹き荒れる嵐の中、ある者は頑として持ち場を守り、ある者は身を挺して立ち向かう。\n<@lv.item><脆い石柱></>隣接する味方ユニットの攻撃で倒壊させることができる。倒壊した方向2マスの対象に確定ダメージを与え、敵の進行を阻む瓦礫を生成する。\n<@lv.ez>環境要素：</>\n全ての味方ユニットの最大HPと攻撃力が大幅に上昇、再配置時間が短縮、初期コストが増加",
+	"hardStagedId": null,
+	"dangerLevel": "-",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_VC_hillock2",
+	"canPractice": false,
+	"canBattleReplay": false,
+	"apCost": 0,
+	"apFailReturn": 0,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 0,
+	"diamondOnceDrop": 0,
+	"practiceTicketCost": -1,
+	"dailyStageDifficulty": -1,
+	"expGain": 0,
+	"goldGain": 0,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 0,
+	"completeFavor": 0,
+	"slProgress": 0,
+	"displayMainItem": "",
+	"hilightMark": true,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 0,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "MATERIAL",
+				"id": "31033",
+				"dropType": 8
+			},
+			{
+				"type": "GOLD",
+				"id": "4001",
+				"dropType": 8
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 0,
+				"type": "MATERIAL",
+				"id": "31033",
+				"dropType": 8
+			},
+			{
+				"occPercent": 0,
+				"type": "GOLD",
+				"id": "4001",
+				"dropType": 8
+			}
+		]
+	},
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "easy_09-12"
+}

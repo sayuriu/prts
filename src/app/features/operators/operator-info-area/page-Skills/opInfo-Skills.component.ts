@@ -113,7 +113,7 @@ implements OnInit, OnChanges, OnDestroy, AfterViewChecked {
 
     sortSkillBlackboard(skill: Nullable<CharCombatSkill>) {
         if (!skill?.levels?.length) return [];
-        return skill.levels[this.currentCombatSkillLevel.value].blackboard.sort((a, b) => {
+        return skill.levels[this.currentCombatSkillLevel.value ?? 0].blackboard.sort((a, b) => {
             if (a.key < b.key) return -1;
             if (a.key > b.key) return 1;
             return 0;
@@ -132,14 +132,14 @@ implements OnInit, OnChanges, OnDestroy, AfterViewChecked {
             new Array(...this.currentOperatorSkills),
             (skill, index) => {
                 if (!skill) return '{@NO_PROCESS}The wielder has refused to disclose this art.'
-                this.currentSkillRanges[index] = this.createSkillRangeTable(skill!.levels[this.currentCombatSkillLevel.value]) ?? [[], [0, 0]];
-                const currentSkillLevel = skill.levels[this.currentCombatSkillLevel.value];
+                this.currentSkillRanges[index] = this.createSkillRangeTable(skill!.levels[this.currentCombatSkillLevel.value ?? 0]) ?? [[], [0, 0]];
+                const currentSkillLevel = skill.levels[this.currentCombatSkillLevel.value ?? 0];
                 if (!currentSkillLevel.description)
                     return '{@NO_PROCESS}The wielder has refused to disclose this art.'
                 return currentSkillLevel.description;
             },
             {
-                blackboardCB: (skill) => skill?.levels[this.currentCombatSkillLevel.value]?.blackboard ?? []
+                blackboardCB: (skill) => skill?.levels[this.currentCombatSkillLevel.value ?? 0]?.blackboard ?? []
             },
         ).then(out => {
             this.currentSkillDescriptions = out;
@@ -162,13 +162,13 @@ implements OnInit, OnChanges, OnDestroy, AfterViewChecked {
         {
             if (event.deltaY < 0)
             {
-                if (this.currentCombatSkillLevel.value + 1 > this.currentOperatorSkills[this.currentSkillIndex]!.levels.length - 1) return;
-                this.currentCombatSkillLevel.setValue(this.currentCombatSkillLevel.value + 1);
+                if ((this.currentCombatSkillLevel.value ?? 0) + 1 > this.currentOperatorSkills[this.currentSkillIndex]!.levels.length - 1) return;
+                this.currentCombatSkillLevel.setValue((this.currentCombatSkillLevel.value ?? 0) + 1);
             }
             else if (event.deltaY > 0)
             {
-                if (this.currentCombatSkillLevel.value - 1 < 0) return;
-                this.currentCombatSkillLevel.setValue(this.currentCombatSkillLevel.value - 1);
+                if ((this.currentCombatSkillLevel.value ?? 0) - 1 < 0) return;
+                this.currentCombatSkillLevel.setValue((this.currentCombatSkillLevel.value ?? 0) - 1);
             }
         }
         else this.currentCombatSkillLevel.setValue(input.valueAsNumber);

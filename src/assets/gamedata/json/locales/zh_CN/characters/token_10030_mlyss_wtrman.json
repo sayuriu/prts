@@ -1,0 +1,442 @@
+{
+	"name": "流形",
+	"description": "初始攻击造成法术伤害，可部署在缪尔赛思攻击范围内的高台或低地位置",
+	"canUseGeneralPotentialItem": true,
+	"canUseActivityPotentialItem": false,
+	"potentialItemId": null,
+	"activityPotentialItemId": null,
+	"classicPotentialItemId": null,
+	"nationId": null,
+	"groupId": null,
+	"teamId": null,
+	"displayNumber": null,
+	"tokenKey": null,
+	"appellation": "Flowing Shape",
+	"position": "ALL",
+	"tagList": null,
+	"itemUsage": null,
+	"itemDesc": null,
+	"itemObtainApproach": null,
+	"isNotObtainable": false,
+	"isSpChar": false,
+	"maxPotentialLevel": 0,
+	"rarity": "TIER_6",
+	"profession": "TOKEN",
+	"subProfessionId": "notchar1",
+	"trait": null,
+	"phases": [
+		{
+			"characterPrefabKey": "token_10030_mlyss_wtrman",
+			"rangeId": "0-1",
+			"maxLevel": 50,
+			"attributesKeyFrames": [
+				{
+					"level": 1,
+					"data": {
+						"maxHp": 910,
+						"atk": 121,
+						"def": 117,
+						"magicResistance": 0,
+						"cost": 0,
+						"blockCnt": 0,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 1.5,
+						"respawnTime": 10,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
+					}
+				},
+				{
+					"level": 50,
+					"data": {
+						"maxHp": 1183,
+						"atk": 173,
+						"def": 157,
+						"magicResistance": 0,
+						"cost": 0,
+						"blockCnt": 0,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 1.5,
+						"respawnTime": 10,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
+					}
+				}
+			],
+			"evolveCost": null
+		},
+		{
+			"characterPrefabKey": "token_10030_mlyss_wtrman",
+			"rangeId": "0-1",
+			"maxLevel": 80,
+			"attributesKeyFrames": [
+				{
+					"level": 1,
+					"data": {
+						"maxHp": 1246,
+						"atk": 179,
+						"def": 162,
+						"magicResistance": 0,
+						"cost": 0,
+						"blockCnt": 0,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 1.5,
+						"respawnTime": 10,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
+					}
+				},
+				{
+					"level": 80,
+					"data": {
+						"maxHp": 1520,
+						"atk": 239,
+						"def": 203,
+						"magicResistance": 0,
+						"cost": 0,
+						"blockCnt": 0,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 1.5,
+						"respawnTime": 10,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
+					}
+				}
+			],
+			"evolveCost": null
+		},
+		{
+			"characterPrefabKey": "token_10030_mlyss_wtrman",
+			"rangeId": "0-1",
+			"maxLevel": 90,
+			"attributesKeyFrames": [
+				{
+					"level": 1,
+					"data": {
+						"maxHp": 1600,
+						"atk": 247,
+						"def": 210,
+						"magicResistance": 0,
+						"cost": 0,
+						"blockCnt": 0,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 1.5,
+						"respawnTime": 10,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
+					}
+				},
+				{
+					"level": 90,
+					"data": {
+						"maxHp": 2000,
+						"atk": 302,
+						"def": 257,
+						"magicResistance": 0,
+						"cost": 0,
+						"blockCnt": 0,
+						"moveSpeed": 1,
+						"attackSpeed": 100,
+						"baseAttackTime": 1.5,
+						"respawnTime": 10,
+						"hpRecoveryPerSec": 0,
+						"spRecoveryPerSec": 1,
+						"maxDeployCount": 1,
+						"maxDeckStackCnt": 0,
+						"tauntLevel": 0,
+						"massLevel": 0,
+						"baseForceLevel": 0,
+						"stunImmune": false,
+						"silenceImmune": false,
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
+					}
+				}
+			],
+			"evolveCost": null
+		}
+	],
+	"skills": [
+		{
+			"skillId": "sktok_mlyss_wtrman_1",
+			"overridePrefabKey": null,
+			"overrideTokenKey": null,
+			"levelUpCostCond": [],
+			"unlockCond": {
+				"phase": "PHASE_0",
+				"level": 1
+			}
+		},
+		{
+			"skillId": "sktok_mlyss_wtrman_2",
+			"overridePrefabKey": null,
+			"overrideTokenKey": null,
+			"levelUpCostCond": [],
+			"unlockCond": {
+				"phase": "PHASE_1",
+				"level": 1
+			}
+		},
+		{
+			"skillId": "sktok_mlyss_wtrman_3",
+			"overridePrefabKey": null,
+			"overrideTokenKey": null,
+			"levelUpCostCond": [],
+			"unlockCond": {
+				"phase": "PHASE_2",
+				"level": 1
+			}
+		}
+	],
+	"talents": [
+		{
+			"candidates": [
+				{
+					"unlockCondition": {
+						"phase": "PHASE_0",
+						"level": 1
+					},
+					"requiredPotentialRank": 0,
+					"prefabKey": "1",
+					"name": null,
+					"description": "技能开启时复制目标50%的生命值、攻击力、防御力、法抗，以及阻挡数、攻击间隔、攻击范围、初始伤害类型（不攻击、治疗类型则不继承）",
+					"rangeId": null,
+					"blackboard": [
+						{
+							"key": "interval",
+							"value": 30,
+							"valueStr": null
+						},
+						{
+							"key": "block_cnt",
+							"value": 1,
+							"valueStr": null
+						},
+						{
+							"key": "scale",
+							"value": 0.5,
+							"valueStr": null
+						}
+					]
+				},
+				{
+					"unlockCondition": {
+						"phase": "PHASE_1",
+						"level": 1
+					},
+					"requiredPotentialRank": 0,
+					"prefabKey": "1",
+					"name": null,
+					"description": "技能开启时复制目标70%的生命值、攻击力、防御力、法抗，以及阻挡数、攻击间隔、攻击范围、初始伤害类型（不攻击、治疗类型则不继承）",
+					"rangeId": null,
+					"blackboard": [
+						{
+							"key": "interval",
+							"value": 28,
+							"valueStr": null
+						},
+						{
+							"key": "block_cnt",
+							"value": 1,
+							"valueStr": null
+						},
+						{
+							"key": "scale",
+							"value": 0.7,
+							"valueStr": null
+						}
+					]
+				},
+				{
+					"unlockCondition": {
+						"phase": "PHASE_2",
+						"level": 1
+					},
+					"requiredPotentialRank": 0,
+					"prefabKey": "1",
+					"name": null,
+					"description": "技能开启时复制目标90%的生命值、攻击力、防御力、法抗，以及阻挡数、攻击间隔、攻击范围、初始伤害类型（不攻击、治疗类型则不继承）",
+					"rangeId": null,
+					"blackboard": [
+						{
+							"key": "interval",
+							"value": 25,
+							"valueStr": null
+						},
+						{
+							"key": "block_cnt",
+							"value": 1,
+							"valueStr": null
+						},
+						{
+							"key": "scale",
+							"value": 0.9,
+							"valueStr": null
+						}
+					]
+				}
+			]
+		},
+		{
+			"candidates": [
+				{
+					"unlockCondition": {
+						"phase": "PHASE_0",
+						"level": 1
+					},
+					"requiredPotentialRank": 0,
+					"prefabKey": "2",
+					"name": null,
+					"description": null,
+					"rangeId": null,
+					"blackboard": [
+						{
+							"key": "steal_atk",
+							"value": 10,
+							"valueStr": null
+						},
+						{
+							"key": "steal_atk_max",
+							"value": 250,
+							"valueStr": null
+						},
+						{
+							"key": "steal_def",
+							"value": 10,
+							"valueStr": null
+						},
+						{
+							"key": "steal_def_max",
+							"value": 250,
+							"valueStr": null
+						},
+						{
+							"key": "mlyss_wtrman_t_2[range].max_stack_cnt",
+							"value": 10,
+							"valueStr": null
+						},
+						{
+							"key": "interval",
+							"value": 25,
+							"valueStr": null
+						}
+					]
+				}
+			]
+		}
+	],
+	"potentialRanks": [],
+	"favorKeyFrames": [
+		{
+			"level": 0,
+			"data": {
+				"maxHp": 0,
+				"atk": 0,
+				"def": 0,
+				"magicResistance": 0,
+				"cost": 0,
+				"blockCnt": 0,
+				"moveSpeed": 0,
+				"attackSpeed": 0,
+				"baseAttackTime": 0,
+				"respawnTime": 0,
+				"hpRecoveryPerSec": 0,
+				"spRecoveryPerSec": 0,
+				"maxDeployCount": 0,
+				"maxDeckStackCnt": 0,
+				"tauntLevel": 0,
+				"massLevel": 0,
+				"baseForceLevel": 0,
+				"stunImmune": false,
+				"silenceImmune": false,
+				"sleepImmune": false,
+				"frozenImmune": false,
+				"levitateImmune": false
+			}
+		},
+		{
+			"level": 50,
+			"data": {
+				"maxHp": 0,
+				"atk": 0,
+				"def": 0,
+				"magicResistance": 0,
+				"cost": 0,
+				"blockCnt": 0,
+				"moveSpeed": 0,
+				"attackSpeed": 0,
+				"baseAttackTime": 0,
+				"respawnTime": 0,
+				"hpRecoveryPerSec": 0,
+				"spRecoveryPerSec": 0,
+				"maxDeployCount": 0,
+				"maxDeckStackCnt": 0,
+				"tauntLevel": 0,
+				"massLevel": 0,
+				"baseForceLevel": 0,
+				"stunImmune": false,
+				"silenceImmune": false,
+				"sleepImmune": false,
+				"frozenImmune": false,
+				"levitateImmune": false
+			}
+		}
+	],
+	"allSkillLvlup": []
+}

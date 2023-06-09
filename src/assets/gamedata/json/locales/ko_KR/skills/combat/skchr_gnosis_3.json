@@ -1,0 +1,317 @@
+{
+	"skillId": "skchr_gnosis_3",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "저체온증",
+			"rangeId": null,
+			"description": "공격 속도 <@ba.vup>+{attack_speed}</>, 동시에 <@ba.vup>{max_target}</>명의 적 공격, 범위 내 모든 적의 <$ba.frozen>빙결</> 상태가 스킬이 종료될 때까지 연장, 스킬 종료 시 모든 <$ba.frozen>빙결</>된 적에게 <@ba.vup>{atk_scale:0%}</>의 마법 대미지를 입히고 <$ba.frozen>빙결</> 상태 종료, <$ba.frozen>빙결</>되지 않은 적 우선으로 공격",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 50,
+				"initSp": 25,
+				"increment": 1
+			},
+			"prefabId": "skchr_gnosis_3",
+			"duration": 9,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 2
+				},
+				{
+					"key": "attack_speed",
+					"value": 120
+				},
+				{
+					"key": "max_target",
+					"value": 2
+				}
+			]
+		},
+		{
+			"name": "저체온증",
+			"rangeId": null,
+			"description": "공격 속도 <@ba.vup>+{attack_speed}</>, 동시에 <@ba.vup>{max_target}</>명의 적 공격, 범위 내 모든 적의 <$ba.frozen>빙결</> 상태가 스킬이 종료될 때까지 연장, 스킬 종료 시 모든 <$ba.frozen>빙결</>된 적에게 <@ba.vup>{atk_scale:0%}</>의 마법 대미지를 입히고 <$ba.frozen>빙결</> 상태 종료, <$ba.frozen>빙결</>되지 않은 적 우선으로 공격",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 49,
+				"initSp": 25,
+				"increment": 1
+			},
+			"prefabId": "skchr_gnosis_3",
+			"duration": 9,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 2.3
+				},
+				{
+					"key": "attack_speed",
+					"value": 120
+				},
+				{
+					"key": "max_target",
+					"value": 2
+				}
+			]
+		},
+		{
+			"name": "저체온증",
+			"rangeId": null,
+			"description": "공격 속도 <@ba.vup>+{attack_speed}</>, 동시에 <@ba.vup>{max_target}</>명의 적 공격, 범위 내 모든 적의 <$ba.frozen>빙결</> 상태가 스킬이 종료될 때까지 연장, 스킬 종료 시 모든 <$ba.frozen>빙결</>된 적에게 <@ba.vup>{atk_scale:0%}</>의 마법 대미지를 입히고 <$ba.frozen>빙결</> 상태 종료, <$ba.frozen>빙결</>되지 않은 적 우선으로 공격",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 48,
+				"initSp": 25,
+				"increment": 1
+			},
+			"prefabId": "skchr_gnosis_3",
+			"duration": 9,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 2.7
+				},
+				{
+					"key": "attack_speed",
+					"value": 120
+				},
+				{
+					"key": "max_target",
+					"value": 2
+				}
+			]
+		},
+		{
+			"name": "저체온증",
+			"rangeId": null,
+			"description": "공격 속도 <@ba.vup>+{attack_speed}</>, 동시에 <@ba.vup>{max_target}</>명의 적 공격, 범위 내 모든 적의 <$ba.frozen>빙결</> 상태가 스킬이 종료될 때까지 연장, 스킬 종료 시 모든 <$ba.frozen>빙결</>된 적에게 <@ba.vup>{atk_scale:0%}</>의 마법 대미지를 입히고 <$ba.frozen>빙결</> 상태 종료, <$ba.frozen>빙결</>되지 않은 적 우선으로 공격",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 47,
+				"initSp": 25,
+				"increment": 1
+			},
+			"prefabId": "skchr_gnosis_3",
+			"duration": 9,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 3
+				},
+				{
+					"key": "attack_speed",
+					"value": 120
+				},
+				{
+					"key": "max_target",
+					"value": 2
+				}
+			]
+		},
+		{
+			"name": "저체온증",
+			"rangeId": null,
+			"description": "공격 속도 <@ba.vup>+{attack_speed}</>, 동시에 <@ba.vup>{max_target}</>명의 적 공격, 범위 내 모든 적의 <$ba.frozen>빙결</> 상태가 스킬이 종료될 때까지 연장, 스킬 종료 시 모든 <$ba.frozen>빙결</>된 적에게 <@ba.vup>{atk_scale:0%}</>의 마법 대미지를 입히고 <$ba.frozen>빙결</> 상태 종료, <$ba.frozen>빙결</>되지 않은 적 우선으로 공격",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 46,
+				"initSp": 25,
+				"increment": 1
+			},
+			"prefabId": "skchr_gnosis_3",
+			"duration": 9,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 3.3
+				},
+				{
+					"key": "attack_speed",
+					"value": 120
+				},
+				{
+					"key": "max_target",
+					"value": 2
+				}
+			]
+		},
+		{
+			"name": "저체온증",
+			"rangeId": null,
+			"description": "공격 속도 <@ba.vup>+{attack_speed}</>, 동시에 <@ba.vup>{max_target}</>명의 적 공격, 범위 내 모든 적의 <$ba.frozen>빙결</> 상태가 스킬이 종료될 때까지 연장, 스킬 종료 시 모든 <$ba.frozen>빙결</>된 적에게 <@ba.vup>{atk_scale:0%}</>의 마법 대미지를 입히고 <$ba.frozen>빙결</> 상태 종료, <$ba.frozen>빙결</>되지 않은 적 우선으로 공격",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 45,
+				"initSp": 25,
+				"increment": 1
+			},
+			"prefabId": "skchr_gnosis_3",
+			"duration": 9,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 3.7
+				},
+				{
+					"key": "attack_speed",
+					"value": 120
+				},
+				{
+					"key": "max_target",
+					"value": 2
+				}
+			]
+		},
+		{
+			"name": "저체온증",
+			"rangeId": null,
+			"description": "공격 속도 <@ba.vup>+{attack_speed}</>, 동시에 <@ba.vup>{max_target}</>명의 적 공격, 범위 내 모든 적의 <$ba.frozen>빙결</> 상태가 스킬이 종료될 때까지 연장, 스킬 종료 시 모든 <$ba.frozen>빙결</>된 적에게 <@ba.vup>{atk_scale:0%}</>의 마법 대미지를 입히고 <$ba.frozen>빙결</> 상태 종료, <$ba.frozen>빙결</>되지 않은 적 우선으로 공격",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 44,
+				"initSp": 25,
+				"increment": 1
+			},
+			"prefabId": "skchr_gnosis_3",
+			"duration": 10,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 4
+				},
+				{
+					"key": "attack_speed",
+					"value": 122
+				},
+				{
+					"key": "max_target",
+					"value": 2
+				}
+			]
+		},
+		{
+			"name": "저체온증",
+			"rangeId": null,
+			"description": "공격 속도 <@ba.vup>+{attack_speed}</>, 동시에 <@ba.vup>{max_target}</>명의 적 공격, 범위 내 모든 적의 <$ba.frozen>빙결</> 상태가 스킬이 종료될 때까지 연장, 스킬 종료 시 모든 <$ba.frozen>빙결</>된 적에게 <@ba.vup>{atk_scale:0%}</>의 마법 대미지를 입히고 <$ba.frozen>빙결</> 상태 종료, <$ba.frozen>빙결</>되지 않은 적 우선으로 공격",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 43,
+				"initSp": 25,
+				"increment": 1
+			},
+			"prefabId": "skchr_gnosis_3",
+			"duration": 11,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 4.5
+				},
+				{
+					"key": "attack_speed",
+					"value": 124
+				},
+				{
+					"key": "max_target",
+					"value": 2
+				}
+			]
+		},
+		{
+			"name": "저체온증",
+			"rangeId": null,
+			"description": "공격 속도 <@ba.vup>+{attack_speed}</>, 동시에 <@ba.vup>{max_target}</>명의 적 공격, 범위 내 모든 적의 <$ba.frozen>빙결</> 상태가 스킬이 종료될 때까지 연장, 스킬 종료 시 모든 <$ba.frozen>빙결</>된 적에게 <@ba.vup>{atk_scale:0%}</>의 마법 대미지를 입히고 <$ba.frozen>빙결</> 상태 종료, <$ba.frozen>빙결</>되지 않은 적 우선으로 공격",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 42,
+				"initSp": 25,
+				"increment": 1
+			},
+			"prefabId": "skchr_gnosis_3",
+			"duration": 12,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 5
+				},
+				{
+					"key": "attack_speed",
+					"value": 126
+				},
+				{
+					"key": "max_target",
+					"value": 2
+				}
+			]
+		},
+		{
+			"name": "저체온증",
+			"rangeId": null,
+			"description": "공격 속도 <@ba.vup>+{attack_speed}</>, 동시에 <@ba.vup>{max_target}</>명의 적 공격, 범위 내 모든 적의 <$ba.frozen>빙결</> 상태가 스킬이 종료될 때까지 연장, 스킬 종료 시 모든 <$ba.frozen>빙결</>된 적에게 <@ba.vup>{atk_scale:0%}</>의 마법 대미지를 입히고 <$ba.frozen>빙결</> 상태 종료, <$ba.frozen>빙결</>되지 않은 적 우선으로 공격",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 40,
+				"initSp": 25,
+				"increment": 1
+			},
+			"prefabId": "skchr_gnosis_3",
+			"duration": 13,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 6
+				},
+				{
+					"key": "attack_speed",
+					"value": 130
+				},
+				{
+					"key": "max_target",
+					"value": 2
+				}
+			]
+		}
+	]
+}

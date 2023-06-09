@@ -1,0 +1,42 @@
+{
+	"skillId": "sktok_allady",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "アラデルの衛護",
+			"rangeId": null,
+			"description": "配置後、対象と周囲にいる味方全員に1000までの被ダメージを吸収可能な<$ba.barrier>バリア</>を付与する",
+			"skillType": 2,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 5,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "sktok_allady",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "dynamic",
+					"value": 1000
+				},
+				{
+					"key": "shield_duration",
+					"value": 10
+				},
+				{
+					"key": "attack@dynamic",
+					"value": 1000
+				},
+				{
+					"key": "attack@shield_duration",
+					"value": 10
+				}
+			]
+		}
+	]
+}

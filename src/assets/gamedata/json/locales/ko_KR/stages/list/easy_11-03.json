@@ -1,0 +1,84 @@
+{
+	"stageType": "MAIN",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "EASY",
+	"unlockCondition": [
+		{
+			"stageId": "easy_11-02",
+			"completeState": 2
+		}
+	],
+	"stageId": "easy_11-03",
+	"levelId": "Obt/Main/level_easy_11-03",
+	"zoneId": "main_11",
+	"code": "11-3",
+	"name": "피어오르는 증기",
+	"description": "고집스러운 건 사람이 아니라, 삶이고, 살아있는 것이며, 돌이킬 수 없는 잃은 것들이다.\n<@lv.ez>환경 조건:</>\n아군 유닛 HP와 공격력 대폭 증가, 재배치 시간 감소, 초기 코스트 증가",
+	"hardStagedId": null,
+	"dangerLevel": "-",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_VC_street",
+	"canPractice": false,
+	"canBattleReplay": false,
+	"apCost": 0,
+	"apFailReturn": 0,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 0,
+	"diamondOnceDrop": 0,
+	"practiceTicketCost": -1,
+	"dailyStageDifficulty": -1,
+	"expGain": 0,
+	"goldGain": 0,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 0,
+	"completeFavor": 0,
+	"slProgress": 0,
+	"displayMainItem": "",
+	"hilightMark": true,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 0,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "MATERIAL",
+				"id": "31063",
+				"dropType": 8
+			},
+			{
+				"type": "GOLD",
+				"id": "4001",
+				"dropType": 8
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 0,
+				"type": "MATERIAL",
+				"id": "31063",
+				"dropType": 8
+			},
+			{
+				"occPercent": 0,
+				"type": "GOLD",
+				"id": "4001",
+				"dropType": 8
+			}
+		]
+	},
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "easy_11-03"
+}

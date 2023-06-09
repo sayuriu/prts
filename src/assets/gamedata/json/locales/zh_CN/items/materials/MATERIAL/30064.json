@@ -6,7 +6,7 @@
 	"iconId": "MTL_SL_BOSS4",
 	"overrideBkg": null,
 	"stackIconId": null,
-	"sortId": 100016,
+	"sortId": 100030,
 	"usage": "收缴来的高等机械装置，可用于多种强化场合，也常作为制作双极纳米片的原料之一。",
 	"obtainApproach": null,
 	"classifyType": "MATERIAL",
@@ -18,6 +18,14 @@
 		},
 		{
 			"stageId": "main_07-07",
+			"occPer": "SOMETIMES"
+		},
+		{
+			"stageId": "main_11-18",
+			"occPer": "SOMETIMES"
+		},
+		{
+			"stageId": "tough_11-18",
 			"occPer": "SOMETIMES"
 		}
 	],

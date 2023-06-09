@@ -2,15 +2,16 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act16side_ex05",
-			"completeState": 2
+			"completeState": "PASS"
 		}
 	],
 	"stageId": "act16side_ex06",
 	"levelId": "Activities/act16side/level_act16side_ex06",
-	"zoneId": "act16side_zone2",
+	"zoneId": "act16sre_zone2",
 	"code": "GA-EX-6",
 	"name": "奶油冰淇淋",
 	"description": "传说，拉特兰有一家可遇不可求的甜品店，其中的甜筒是绝品，至今依然有无数萨科塔在大街小巷中寻找这家店。",
@@ -44,7 +45,7 @@
 	"isHardPredefined": false,
 	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
-	"appearanceStyle": 0,
+	"appearanceStyle": "MAIN_NORMAL",
 	"stageDropInfo": {
 		"firstPassRewards": null,
 		"firstCompleteRewards": null,
@@ -53,31 +54,37 @@
 		"displayRewards": [
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act16side_token_bolt",
-				"dropType": 8
+				"id": "act16side_token_bolt_rep_1",
+				"dropType": "COMPLETE"
 			},
 			{
 				"type": "DIAMOND",
 				"id": "4002",
-				"dropType": 8
+				"dropType": "COMPLETE"
 			}
 		],
 		"displayDetailRewards": [
 			{
-				"occPercent": 0,
+				"occPercent": "ALWAYS",
 				"type": "ACTIVITY_ITEM",
-				"id": "act16side_token_bolt",
-				"dropType": 8
+				"id": "act16side_token_bolt_rep_1",
+				"dropType": "COMPLETE"
 			},
 			{
-				"occPercent": 0,
+				"occPercent": "ALWAYS",
 				"type": "DIAMOND",
 				"id": "4002",
-				"dropType": 8
+				"dropType": "COMPLETE"
 			}
 		]
 	},
+	"canUseCharm": false,
+	"canUseTech": false,
+	"canUseTrapTool": false,
+	"canUseBattlePerformance": false,
 	"startButtonOverrideId": null,
 	"isStagePatch": false,
-	"mainStageId": "act16side_ex01"
+	"mainStageId": "act16side_ex01",
+	"extraCondition": null,
+	"extraInfo": null
 }

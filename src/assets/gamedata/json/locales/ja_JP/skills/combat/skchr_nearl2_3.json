@@ -1,0 +1,357 @@
+{
+	"skillId": "skchr_nearl2_3",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "大地を照らす烈陽",
+			"rangeId": "2-1",
+			"description": "隣接4マス範囲内の地上配置可能マスに「ブレイジング・サン」を1本召喚し、その隣接4マス以内の敵全員に耀騎士ニアールの攻撃力の<@ba.vup>{value:0%}</>の確定ダメージを与え、<@ba.vup>{value2}</>秒間<$ba.stun>スタン</>させる\n自身の攻撃範囲<@ba.vup>拡大</>、攻撃力<@ba.vup>+{atk:0%}</>、防御力<@ba.vup>+{def:0%}</>、自身もしくは「ブレイジング・サン」にブロックされている敵への通常攻撃が<@ba.vup>確定</>ダメージを与えるようになる",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 60,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_nearl2_3",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.4
+				},
+				{
+					"key": "def",
+					"value": 0.2
+				},
+				{
+					"key": "value",
+					"value": 0.8
+				},
+				{
+					"key": "value2",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "大地を照らす烈陽",
+			"rangeId": "2-1",
+			"description": "隣接4マス範囲内の地上配置可能マスに「ブレイジング・サン」を1本召喚し、その隣接4マス以内の敵全員に耀騎士ニアールの攻撃力の<@ba.vup>{value:0%}</>の確定ダメージを与え、<@ba.vup>{value2}</>秒間<$ba.stun>スタン</>させる\n自身の攻撃範囲<@ba.vup>拡大</>、攻撃力<@ba.vup>+{atk:0%}</>、防御力<@ba.vup>+{def:0%}</>、自身もしくは「ブレイジング・サン」にブロックされている敵への通常攻撃が<@ba.vup>確定</>ダメージを与えるようになる",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 60,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_nearl2_3",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.5
+				},
+				{
+					"key": "def",
+					"value": 0.25
+				},
+				{
+					"key": "value",
+					"value": 0.8
+				},
+				{
+					"key": "value2",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "大地を照らす烈陽",
+			"rangeId": "2-1",
+			"description": "隣接4マス範囲内の地上配置可能マスに「ブレイジング・サン」を1本召喚し、その隣接4マス以内の敵全員に耀騎士ニアールの攻撃力の<@ba.vup>{value:0%}</>の確定ダメージを与え、<@ba.vup>{value2}</>秒間<$ba.stun>スタン</>させる\n自身の攻撃範囲<@ba.vup>拡大</>、攻撃力<@ba.vup>+{atk:0%}</>、防御力<@ba.vup>+{def:0%}</>、自身もしくは「ブレイジング・サン」にブロックされている敵への通常攻撃が<@ba.vup>確定</>ダメージを与えるようになる",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 60,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_nearl2_3",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.6
+				},
+				{
+					"key": "def",
+					"value": 0.3
+				},
+				{
+					"key": "value",
+					"value": 0.8
+				},
+				{
+					"key": "value2",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "大地を照らす烈陽",
+			"rangeId": "2-1",
+			"description": "隣接4マス範囲内の地上配置可能マスに「ブレイジング・サン」を1本召喚し、その隣接4マス以内の敵全員に耀騎士ニアールの攻撃力の<@ba.vup>{value:0%}</>の確定ダメージを与え、<@ba.vup>{value2}</>秒間<$ba.stun>スタン</>させる\n自身の攻撃範囲<@ba.vup>拡大</>、攻撃力<@ba.vup>+{atk:0%}</>、防御力<@ba.vup>+{def:0%}</>、自身もしくは「ブレイジング・サン」にブロックされている敵への通常攻撃が<@ba.vup>確定</>ダメージを与えるようになる",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 55,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_nearl2_3",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.7
+				},
+				{
+					"key": "def",
+					"value": 0.4
+				},
+				{
+					"key": "value",
+					"value": 0.9
+				},
+				{
+					"key": "value2",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "大地を照らす烈陽",
+			"rangeId": "2-1",
+			"description": "隣接4マス範囲内の地上配置可能マスに「ブレイジング・サン」を1本召喚し、その隣接4マス以内の敵全員に耀騎士ニアールの攻撃力の<@ba.vup>{value:0%}</>の確定ダメージを与え、<@ba.vup>{value2}</>秒間<$ba.stun>スタン</>させる\n自身の攻撃範囲<@ba.vup>拡大</>、攻撃力<@ba.vup>+{atk:0%}</>、防御力<@ba.vup>+{def:0%}</>、自身もしくは「ブレイジング・サン」にブロックされている敵への通常攻撃が<@ba.vup>確定</>ダメージを与えるようになる",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 55,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_nearl2_3",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.8
+				},
+				{
+					"key": "def",
+					"value": 0.5
+				},
+				{
+					"key": "value",
+					"value": 0.9
+				},
+				{
+					"key": "value2",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "大地を照らす烈陽",
+			"rangeId": "2-1",
+			"description": "隣接4マス範囲内の地上配置可能マスに「ブレイジング・サン」を1本召喚し、その隣接4マス以内の敵全員に耀騎士ニアールの攻撃力の<@ba.vup>{value:0%}</>の確定ダメージを与え、<@ba.vup>{value2}</>秒間<$ba.stun>スタン</>させる\n自身の攻撃範囲<@ba.vup>拡大</>、攻撃力<@ba.vup>+{atk:0%}</>、防御力<@ba.vup>+{def:0%}</>、自身もしくは「ブレイジング・サン」にブロックされている敵への通常攻撃が<@ba.vup>確定</>ダメージを与えるようになる",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 55,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_nearl2_3",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.9
+				},
+				{
+					"key": "def",
+					"value": 0.6
+				},
+				{
+					"key": "value",
+					"value": 0.9
+				},
+				{
+					"key": "value2",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "大地を照らす烈陽",
+			"rangeId": "2-1",
+			"description": "隣接4マス範囲内の地上配置可能マスに「ブレイジング・サン」を1本召喚し、その隣接4マス以内の敵全員に耀騎士ニアールの攻撃力の<@ba.vup>{value:0%}</>の確定ダメージを与え、<@ba.vup>{value2}</>秒間<$ba.stun>スタン</>させる\n自身の攻撃範囲<@ba.vup>拡大</>、攻撃力<@ba.vup>+{atk:0%}</>、防御力<@ba.vup>+{def:0%}</>、自身もしくは「ブレイジング・サン」にブロックされている敵への通常攻撃が<@ba.vup>確定</>ダメージを与えるようになる",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 50,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_nearl2_3",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 1
+				},
+				{
+					"key": "def",
+					"value": 0.7
+				},
+				{
+					"key": "value",
+					"value": 1
+				},
+				{
+					"key": "value2",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "大地を照らす烈陽",
+			"rangeId": "2-1",
+			"description": "隣接4マス範囲内の地上配置可能マスに「ブレイジング・サン」を1本召喚し、その隣接4マス以内の敵全員に耀騎士ニアールの攻撃力の<@ba.vup>{value:0%}</>の確定ダメージを与え、<@ba.vup>{value2}</>秒間<$ba.stun>スタン</>させる\n自身の攻撃範囲<@ba.vup>拡大</>、攻撃力<@ba.vup>+{atk:0%}</>、防御力<@ba.vup>+{def:0%}</>、自身もしくは「ブレイジング・サン」にブロックされている敵への通常攻撃が<@ba.vup>確定</>ダメージを与えるようになる",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 47,
+				"initSp": 25,
+				"increment": 1
+			},
+			"prefabId": "skchr_nearl2_3",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 1.1
+				},
+				{
+					"key": "def",
+					"value": 0.8
+				},
+				{
+					"key": "value",
+					"value": 1.1
+				},
+				{
+					"key": "value2",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "大地を照らす烈陽",
+			"rangeId": "2-1",
+			"description": "隣接4マス範囲内の地上配置可能マスに「ブレイジング・サン」を1本召喚し、その隣接4マス以内の敵全員に耀騎士ニアールの攻撃力の<@ba.vup>{value:0%}</>の確定ダメージを与え、<@ba.vup>{value2}</>秒間<$ba.stun>スタン</>させる\n自身の攻撃範囲<@ba.vup>拡大</>、攻撃力<@ba.vup>+{atk:0%}</>、防御力<@ba.vup>+{def:0%}</>、自身もしくは「ブレイジング・サン」にブロックされている敵への通常攻撃が<@ba.vup>確定</>ダメージを与えるようになる",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 44,
+				"initSp": 25,
+				"increment": 1
+			},
+			"prefabId": "skchr_nearl2_3",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 1.25
+				},
+				{
+					"key": "def",
+					"value": 0.9
+				},
+				{
+					"key": "value",
+					"value": 1.1
+				},
+				{
+					"key": "value2",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "大地を照らす烈陽",
+			"rangeId": "2-1",
+			"description": "隣接4マス範囲内の地上配置可能マスに「ブレイジング・サン」を1本召喚し、その隣接4マス以内の敵全員に耀騎士ニアールの攻撃力の<@ba.vup>{value:0%}</>の確定ダメージを与え、<@ba.vup>{value2}</>秒間<$ba.stun>スタン</>させる\n自身の攻撃範囲<@ba.vup>拡大</>、攻撃力<@ba.vup>+{atk:0%}</>、防御力<@ba.vup>+{def:0%}</>、自身もしくは「ブレイジング・サン」にブロックされている敵への通常攻撃が<@ba.vup>確定</>ダメージを与えるようになる",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 40,
+				"initSp": 25,
+				"increment": 1
+			},
+			"prefabId": "skchr_nearl2_3",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 1.4
+				},
+				{
+					"key": "def",
+					"value": 1
+				},
+				{
+					"key": "value",
+					"value": 1.1
+				},
+				{
+					"key": "value2",
+					"value": 3
+				}
+			]
+		}
+	]
+}

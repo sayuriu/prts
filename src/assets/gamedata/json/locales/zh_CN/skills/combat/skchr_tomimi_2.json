@@ -5,12 +5,12 @@
 	"levels": [
 		{
 			"name": "嘉维尔保护方案",
-			"rangeId": "1-2",
+			"rangeId": null,
 			"description": "每次攻击有<@ba.vup>{attack@tomimi_s_2.prob:0%}</>的概率随机触发下列效果之一：目标<$ba.stun>晕眩</><@ba.vup>{attack@tomimi_s_2.stun}</>秒；当次攻击力提升至<@ba.vup>{attack@tomimi_s_2.atk_scale:0%}</>；当次攻击造成群体伤害",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 40,
@@ -22,34 +22,39 @@
 			"blackboard": [
 				{
 					"key": "attack@tomimi_s_2.stun",
-					"value": 0.6
+					"value": 0.6,
+					"valueStr": null
 				},
 				{
 					"key": "attack@tomimi_s_2.atk_scale",
-					"value": 1.7
+					"value": 1.7,
+					"valueStr": null
 				},
 				{
 					"key": "attack@tomimi_s_2.prob",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				},
 				{
 					"key": "base_attack_time",
-					"value": 0
+					"value": 0,
+					"valueStr": null
 				},
 				{
 					"key": "atk",
-					"value": 0
+					"value": 0,
+					"valueStr": null
 				}
 			]
 		},
 		{
 			"name": "嘉维尔保护方案",
-			"rangeId": "1-2",
+			"rangeId": null,
 			"description": "每次攻击有<@ba.vup>{attack@tomimi_s_2.prob:0%}</>的概率随机触发下列效果之一：目标<$ba.stun>晕眩</><@ba.vup>{attack@tomimi_s_2.stun}</>秒；当次攻击力提升至<@ba.vup>{attack@tomimi_s_2.atk_scale:0%}</>；当次攻击造成群体伤害",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 39,
@@ -61,34 +66,39 @@
 			"blackboard": [
 				{
 					"key": "attack@tomimi_s_2.stun",
-					"value": 0.6
+					"value": 0.6,
+					"valueStr": null
 				},
 				{
 					"key": "attack@tomimi_s_2.atk_scale",
-					"value": 1.7
+					"value": 1.7,
+					"valueStr": null
 				},
 				{
 					"key": "attack@tomimi_s_2.prob",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				},
 				{
 					"key": "base_attack_time",
-					"value": 0
+					"value": 0,
+					"valueStr": null
 				},
 				{
 					"key": "atk",
-					"value": 0
+					"value": 0,
+					"valueStr": null
 				}
 			]
 		},
 		{
 			"name": "嘉维尔保护方案",
-			"rangeId": "1-2",
+			"rangeId": null,
 			"description": "每次攻击有<@ba.vup>{attack@tomimi_s_2.prob:0%}</>的概率随机触发下列效果之一：目标<$ba.stun>晕眩</><@ba.vup>{attack@tomimi_s_2.stun}</>秒；当次攻击力提升至<@ba.vup>{attack@tomimi_s_2.atk_scale:0%}</>；当次攻击造成群体伤害",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 38,
@@ -100,34 +110,39 @@
 			"blackboard": [
 				{
 					"key": "attack@tomimi_s_2.stun",
-					"value": 0.6
+					"value": 0.6,
+					"valueStr": null
 				},
 				{
 					"key": "attack@tomimi_s_2.atk_scale",
-					"value": 1.7
+					"value": 1.7,
+					"valueStr": null
 				},
 				{
 					"key": "attack@tomimi_s_2.prob",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				},
 				{
 					"key": "base_attack_time",
-					"value": 0
+					"value": 0,
+					"valueStr": null
 				},
 				{
 					"key": "atk",
-					"value": 0
+					"value": 0,
+					"valueStr": null
 				}
 			]
 		},
 		{
 			"name": "嘉维尔保护方案",
-			"rangeId": "1-2",
+			"rangeId": null,
 			"description": "每次攻击有<@ba.vup>{attack@tomimi_s_2.prob:0%}</>的概率随机触发下列效果之一：目标<$ba.stun>晕眩</><@ba.vup>{attack@tomimi_s_2.stun}</>秒；当次攻击力提升至<@ba.vup>{attack@tomimi_s_2.atk_scale:0%}</>；当次攻击造成群体伤害",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 37,
@@ -139,34 +154,39 @@
 			"blackboard": [
 				{
 					"key": "attack@tomimi_s_2.stun",
-					"value": 0.9
+					"value": 0.9,
+					"valueStr": null
 				},
 				{
 					"key": "attack@tomimi_s_2.atk_scale",
-					"value": 1.8
+					"value": 1.8,
+					"valueStr": null
 				},
 				{
 					"key": "attack@tomimi_s_2.prob",
-					"value": 0.6
+					"value": 0.6,
+					"valueStr": null
 				},
 				{
 					"key": "base_attack_time",
-					"value": 0
+					"value": 0,
+					"valueStr": null
 				},
 				{
 					"key": "atk",
-					"value": 0
+					"value": 0,
+					"valueStr": null
 				}
 			]
 		},
 		{
 			"name": "嘉维尔保护方案",
-			"rangeId": "1-2",
+			"rangeId": null,
 			"description": "每次攻击有<@ba.vup>{attack@tomimi_s_2.prob:0%}</>的概率随机触发下列效果之一：目标<$ba.stun>晕眩</><@ba.vup>{attack@tomimi_s_2.stun}</>秒；当次攻击力提升至<@ba.vup>{attack@tomimi_s_2.atk_scale:0%}</>；当次攻击造成群体伤害",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 36,
@@ -178,34 +198,39 @@
 			"blackboard": [
 				{
 					"key": "attack@tomimi_s_2.stun",
-					"value": 0.9
+					"value": 0.9,
+					"valueStr": null
 				},
 				{
 					"key": "attack@tomimi_s_2.atk_scale",
-					"value": 1.8
+					"value": 1.8,
+					"valueStr": null
 				},
 				{
 					"key": "attack@tomimi_s_2.prob",
-					"value": 0.6
+					"value": 0.6,
+					"valueStr": null
 				},
 				{
 					"key": "base_attack_time",
-					"value": 0
+					"value": 0,
+					"valueStr": null
 				},
 				{
 					"key": "atk",
-					"value": 0
+					"value": 0,
+					"valueStr": null
 				}
 			]
 		},
 		{
 			"name": "嘉维尔保护方案",
-			"rangeId": "1-2",
+			"rangeId": null,
 			"description": "每次攻击有<@ba.vup>{attack@tomimi_s_2.prob:0%}</>的概率随机触发下列效果之一：目标<$ba.stun>晕眩</><@ba.vup>{attack@tomimi_s_2.stun}</>秒；当次攻击力提升至<@ba.vup>{attack@tomimi_s_2.atk_scale:0%}</>；当次攻击造成群体伤害",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 35,
@@ -217,34 +242,39 @@
 			"blackboard": [
 				{
 					"key": "attack@tomimi_s_2.stun",
-					"value": 0.9
+					"value": 0.9,
+					"valueStr": null
 				},
 				{
 					"key": "attack@tomimi_s_2.atk_scale",
-					"value": 1.8
+					"value": 1.8,
+					"valueStr": null
 				},
 				{
 					"key": "attack@tomimi_s_2.prob",
-					"value": 0.6
+					"value": 0.6,
+					"valueStr": null
 				},
 				{
 					"key": "base_attack_time",
-					"value": 0
+					"value": 0,
+					"valueStr": null
 				},
 				{
 					"key": "atk",
-					"value": 0
+					"value": 0,
+					"valueStr": null
 				}
 			]
 		},
 		{
 			"name": "嘉维尔保护方案",
-			"rangeId": "1-2",
+			"rangeId": null,
 			"description": "每次攻击有<@ba.vup>{attack@tomimi_s_2.prob:0%}</>的概率随机触发下列效果之一：目标<$ba.stun>晕眩</><@ba.vup>{attack@tomimi_s_2.stun}</>秒；当次攻击力提升至<@ba.vup>{attack@tomimi_s_2.atk_scale:0%}</>；当次攻击造成群体伤害",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 34,
@@ -256,34 +286,39 @@
 			"blackboard": [
 				{
 					"key": "attack@tomimi_s_2.stun",
-					"value": 1.2
+					"value": 1.2,
+					"valueStr": null
 				},
 				{
 					"key": "attack@tomimi_s_2.atk_scale",
-					"value": 1.9
+					"value": 1.9,
+					"valueStr": null
 				},
 				{
 					"key": "attack@tomimi_s_2.prob",
-					"value": 0.7
+					"value": 0.7,
+					"valueStr": null
 				},
 				{
 					"key": "base_attack_time",
-					"value": 0
+					"value": 0,
+					"valueStr": null
 				},
 				{
 					"key": "atk",
-					"value": 0
+					"value": 0,
+					"valueStr": null
 				}
 			]
 		},
 		{
 			"name": "嘉维尔保护方案",
-			"rangeId": "1-2",
+			"rangeId": null,
 			"description": "每次攻击有<@ba.vup>{attack@tomimi_s_2.prob:0%}</>的概率随机触发下列效果之一：目标<$ba.stun>晕眩</><@ba.vup>{attack@tomimi_s_2.stun}</>秒；当次攻击力提升至<@ba.vup>{attack@tomimi_s_2.atk_scale:0%}</>；当次攻击造成群体伤害",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 33,
@@ -295,34 +330,39 @@
 			"blackboard": [
 				{
 					"key": "attack@tomimi_s_2.stun",
-					"value": 1.2
+					"value": 1.2,
+					"valueStr": null
 				},
 				{
 					"key": "attack@tomimi_s_2.atk_scale",
-					"value": 2.05
+					"value": 2.05,
+					"valueStr": null
 				},
 				{
 					"key": "attack@tomimi_s_2.prob",
-					"value": 0.8
+					"value": 0.8,
+					"valueStr": null
 				},
 				{
 					"key": "base_attack_time",
-					"value": 0
+					"value": 0,
+					"valueStr": null
 				},
 				{
 					"key": "atk",
-					"value": 0
+					"value": 0,
+					"valueStr": null
 				}
 			]
 		},
 		{
 			"name": "嘉维尔保护方案",
-			"rangeId": "1-2",
+			"rangeId": null,
 			"description": "每次攻击有<@ba.vup>{attack@tomimi_s_2.prob:0%}</>的概率随机触发下列效果之一：目标<$ba.stun>晕眩</><@ba.vup>{attack@tomimi_s_2.stun}</>秒；当次攻击力提升至<@ba.vup>{attack@tomimi_s_2.atk_scale:0%}</>；当次攻击造成群体伤害",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 32,
@@ -334,34 +374,39 @@
 			"blackboard": [
 				{
 					"key": "attack@tomimi_s_2.stun",
-					"value": 1.2
+					"value": 1.2,
+					"valueStr": null
 				},
 				{
 					"key": "attack@tomimi_s_2.atk_scale",
-					"value": 2.2
+					"value": 2.2,
+					"valueStr": null
 				},
 				{
 					"key": "attack@tomimi_s_2.prob",
-					"value": 0.9
+					"value": 0.9,
+					"valueStr": null
 				},
 				{
 					"key": "base_attack_time",
-					"value": 0
+					"value": 0,
+					"valueStr": null
 				},
 				{
 					"key": "atk",
-					"value": 0
+					"value": 0,
+					"valueStr": null
 				}
 			]
 		},
 		{
 			"name": "嘉维尔保护方案",
-			"rangeId": "1-2",
+			"rangeId": null,
 			"description": "每次攻击有<@ba.vup>{attack@tomimi_s_2.prob:0%}</>的概率随机触发下列效果之一：目标<$ba.stun>晕眩</><@ba.vup>{attack@tomimi_s_2.stun}</>秒；当次攻击力提升至<@ba.vup>{attack@tomimi_s_2.atk_scale:0%}</>；当次攻击造成群体伤害",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 30,
@@ -373,23 +418,28 @@
 			"blackboard": [
 				{
 					"key": "attack@tomimi_s_2.stun",
-					"value": 1.6
+					"value": 1.6,
+					"valueStr": null
 				},
 				{
 					"key": "attack@tomimi_s_2.atk_scale",
-					"value": 2.2
+					"value": 2.2,
+					"valueStr": null
 				},
 				{
 					"key": "attack@tomimi_s_2.prob",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "base_attack_time",
-					"value": 0
+					"value": 0,
+					"valueStr": null
 				},
 				{
 					"key": "atk",
-					"value": 0
+					"value": 0,
+					"valueStr": null
 				}
 			]
 		}

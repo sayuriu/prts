@@ -1,0 +1,46 @@
+{
+	"skillId": "sktok_peacokfool",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "Conviction Mode!",
+			"rangeId": null,
+			"description": "More Dakka! (Releases more bullets, increasing the ASPD of this unit and nearby allies.)",
+			"skillType": 2,
+			"durationType": 0,
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 40,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": "sktok_peacokfool",
+			"duration": 45,
+			"blackboard": [
+				{
+					"key": "attack@times",
+					"value": 1
+				},
+				{
+					"key": "attack@projectilenum",
+					"value": 3
+				},
+				{
+					"key": "attack@peroffset",
+					"value": 0.4
+				},
+				{
+					"key": "attack_speed",
+					"value": 50
+				},
+				{
+					"key": "atk",
+					"value": 0
+				}
+			]
+		}
+	]
+}

@@ -2,7 +2,9 @@
 	"name": "위슬래시",
 	"description": "<@ba.kw>비교적 먼 곳의 적</>도 공격 가능, 저지하지 않은 적 공격 시 공격력이 120%까지 상승",
 	"canUseGeneralPotentialItem": true,
+	"canUseActivityPotentialItem": false,
 	"potentialItemId": "p_char_265_sophia",
+	"activityPotentialItemId": null,
 	"nationId": "kazimierz",
 	"groupId": null,
 	"teamId": null,
@@ -71,7 +73,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -96,7 +100,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -129,7 +135,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -154,7 +162,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -203,7 +213,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -228,7 +240,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -459,7 +473,7 @@
 					"requiredPotentialRank": 4,
 					"prefabKey": "1",
 					"name": "닦달",
-					"description": "배치되어 있을 때 저지 가능 수 3 이상인 아군 근거리 오퍼레이터의 공격 속도 +4<@ba.talpu>(+2）</>, 방어 +6%<@ba.talpu>(+2%）</>",
+					"description": "배치되어 있을 때 저지 가능 수 3 이상인 아군 근거리 오퍼레이터의 공격 속도 +4<@ba.talpu>(+2)</>, 방어 +6%<@ba.talpu>(+2%)</>",
 					"rangeId": null,
 					"blackboard": [
 						{
@@ -575,7 +589,7 @@
 					"requiredPotentialRank": 4,
 					"prefabKey": "1",
 					"name": "닦달",
-					"description": "배치되어 있을 때 저지 가능 수 3 이상인 아군 근거리 오퍼레이터의 공격 속도 +8<@ba.talpu>(+2)</>, 방어 +14%(+2%)</> ",
+					"description": "배치되어 있을 때 저지 가능 수 3 이상인 아군 근거리 오퍼레이터의 공격 속도 +8<@ba.talpu>(+2)</>, 방어 +14%<@ba.talpu>(+2%)</> ",
 					"rangeId": null,
 					"blackboard": [
 						{
@@ -722,7 +736,9 @@
 				"baseForceLevel": 0,
 				"stunImmune": false,
 				"silenceImmune": false,
-				"sleepImmune": false
+				"sleepImmune": false,
+				"frozenImmune": false,
+				"levitateImmune": false
 			}
 		},
 		{
@@ -747,7 +763,9 @@
 				"baseForceLevel": 0,
 				"stunImmune": false,
 				"silenceImmune": false,
-				"sleepImmune": false
+				"sleepImmune": false,
+				"frozenImmune": false,
+				"levitateImmune": false
 			}
 		}
 	],

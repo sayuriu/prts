@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act13d5_06",
@@ -10,10 +11,10 @@
 	],
 	"stageId": "act13d5_07",
 	"levelId": "Activities/ACT13D5/level_act13d5_07",
-	"zoneId": "act13d5_zone1",
+	"zoneId": "act7sre_zone1",
 	"code": "MN-7",
 	"name": "미에슈코 그룹",
-	"description": "\"도시를 내 손 안에.\" 카시미어의 공사 청부업체 '미에슈코 그룹'이 세상에 문명을 전파합니다.\n<@lv.item><거대 버섯></>인접한 아군 유닛 방어 상승",
+	"description": "“도시를 내 손 안에.” 카시미어의 공사 청부업체 '미에슈코 그룹'이 세상에 문명을 전파합니다.\n<@lv.item><거대 버섯></> 인접한 아군 유닛 방어 상승",
 	"hardStagedId": null,
 	"dangerLevel": "1차 정예화 Lv.70",
 	"dangerPoint": -1,
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {
@@ -57,12 +59,12 @@
 			},
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act13d5_token_securities",
+				"id": "act13d5_token_securities_rep_1",
 				"dropType": 8
 			},
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act13d5_token_securities",
+				"id": "act13d5_token_securities_rep_1",
 				"dropType": 2
 			},
 			{
@@ -86,13 +88,13 @@
 			{
 				"occPercent": 0,
 				"type": "ACTIVITY_ITEM",
-				"id": "act13d5_token_securities",
+				"id": "act13d5_token_securities_rep_1",
 				"dropType": 8
 			},
 			{
 				"occPercent": 0,
 				"type": "ACTIVITY_ITEM",
-				"id": "act13d5_token_securities",
+				"id": "act13d5_token_securities_rep_1",
 				"dropType": 2
 			},
 			{

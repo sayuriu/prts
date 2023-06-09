@@ -2,6 +2,7 @@
 	"stageType": "MAIN",
 	"difficulty": "FOUR_STAR",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "main_02-08",
@@ -17,7 +18,7 @@
 	"zoneId": "main_8",
 	"code": "R8-11",
 	"name": "国土覆う「黒雪」",
-	"description": "<@lv.fs>制限：</>\n<帝国精鋭先鋒>と<帝国歴戦精鋭>の攻撃力と最大HPが上昇。 ",
+	"description": "<@lv.fs>制限：</>\n<帝国精鋭先鋒>と<帝国歴戦先鋒>の攻撃力と最大HPが上昇。",
 	"hardStagedId": null,
 	"dangerLevel": "-",
 	"dangerPoint": -1,
@@ -46,6 +47,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {

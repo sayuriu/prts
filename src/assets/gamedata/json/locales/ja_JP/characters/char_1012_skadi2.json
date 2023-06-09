@@ -2,7 +2,9 @@
 	"name": "濁心スカジ",
 	"description": "攻撃しない\n攻撃範囲内の味方全員の<@ba.kw>HP</>を継続回復(1秒ごとに攻撃力の10%回復)\n自身は<$ba.inspire>鼓舞</>状態の効果を受けない",
 	"canUseGeneralPotentialItem": true,
+	"canUseActivityPotentialItem": false,
 	"potentialItemId": "p_char_1012_skadi2",
+	"activityPotentialItemId": null,
 	"nationId": "egir",
 	"groupId": null,
 	"teamId": null,
@@ -72,7 +74,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -97,7 +101,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -130,7 +136,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -155,7 +163,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -204,7 +214,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -229,7 +241,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -514,7 +528,7 @@
 					"requiredPotentialRank": 0,
 					"prefabKey": "1",
 					"name": "太古の血族",
-					"description": "「スカジのシーボーン」を1体召喚可能（配置から15秒後強制退場）。シーボーンの攻撃範囲を自身の追加攻撃範囲と見なす",
+					"description": "「スカジのシーボーン」を配置可能（配置から15秒後強制退場、再配置可能）。シーボーンの攻撃範囲を自身の追加攻撃範囲と見なす",
 					"rangeId": null,
 					"blackboard": [
 						{
@@ -531,7 +545,7 @@
 					"requiredPotentialRank": 0,
 					"prefabKey": "1",
 					"name": "太古の血族",
-					"description": "「スカジのシーボーン」を1体召喚可能（配置から25秒後強制退場）。シーボーンの攻撃範囲を自身の追加攻撃範囲と見なす",
+					"description": "「スカジのシーボーン」を配置可能（配置から25秒後強制退場）。シーボーンの攻撃範囲を自身の追加攻撃範囲と見なす",
 					"rangeId": null,
 					"blackboard": [
 						{
@@ -592,7 +606,7 @@
 	"potentialRanks": [
 		{
 			"type": 0,
-			"description": "コスト-1",
+			"description": "配置コスト-1",
 			"buff": {
 				"attributes": {
 					"abnormalFlags": null,
@@ -667,7 +681,7 @@
 		},
 		{
 			"type": 0,
-			"description": "コスト-1",
+			"description": "配置コスト-1",
 			"buff": {
 				"attributes": {
 					"abnormalFlags": null,
@@ -712,7 +726,9 @@
 				"baseForceLevel": 0,
 				"stunImmune": false,
 				"silenceImmune": false,
-				"sleepImmune": false
+				"sleepImmune": false,
+				"frozenImmune": false,
+				"levitateImmune": false
 			}
 		},
 		{
@@ -737,7 +753,9 @@
 				"baseForceLevel": 0,
 				"stunImmune": false,
 				"silenceImmune": false,
-				"sleepImmune": false
+				"sleepImmune": false,
+				"frozenImmune": false,
+				"levitateImmune": false
 			}
 		}
 	],

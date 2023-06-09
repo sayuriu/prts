@@ -1,0 +1,447 @@
+{
+	"skillId": "skchr_humus_2",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "高效处理",
+			"rangeId": null,
+			"description": "技能持续时间内阻挡数<@ba.vup>+1</>，生命值高于<@ba.vup>{humus_s_2[peak_1].peak_performance.hp_ratio:0%}</>时，获得<@ba.vup>+{humus_s_2[peak_1].peak_performance.atk:0%}</>攻击力的<$ba.strong>精力充沛</>；高于<@ba.vup>{humus_s_2[peak_2].peak_performance.hp_ratio:0%}</>时效果翻倍",
+			"skillType": "MANUAL",
+			"durationType": "LIMITED",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 55,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_humus_2",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "humus_s_2[peak_1].peak_performance.atk",
+					"value": 0.15,
+					"valueStr": null
+				},
+				{
+					"key": "humus_s_2[peak_1].peak_performance.hp_ratio",
+					"value": 0.5,
+					"valueStr": null
+				},
+				{
+					"key": "humus_s_2[peak_2].peak_performance.atk",
+					"value": 0.3,
+					"valueStr": null
+				},
+				{
+					"key": "humus_s_2[peak_2].peak_performance.hp_ratio",
+					"value": 0.8,
+					"valueStr": null
+				},
+				{
+					"key": "block_cnt",
+					"value": 1,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "高效处理",
+			"rangeId": null,
+			"description": "技能持续时间内阻挡数<@ba.vup>+1</>，生命值高于<@ba.vup>{humus_s_2[peak_1].peak_performance.hp_ratio:0%}</>时，获得<@ba.vup>+{humus_s_2[peak_1].peak_performance.atk:0%}</>攻击力的<$ba.strong>精力充沛</>；高于<@ba.vup>{humus_s_2[peak_2].peak_performance.hp_ratio:0%}</>时效果翻倍",
+			"skillType": "MANUAL",
+			"durationType": "LIMITED",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 55,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_humus_2",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "humus_s_2[peak_1].peak_performance.atk",
+					"value": 0.18,
+					"valueStr": null
+				},
+				{
+					"key": "humus_s_2[peak_1].peak_performance.hp_ratio",
+					"value": 0.5,
+					"valueStr": null
+				},
+				{
+					"key": "humus_s_2[peak_2].peak_performance.atk",
+					"value": 0.36,
+					"valueStr": null
+				},
+				{
+					"key": "humus_s_2[peak_2].peak_performance.hp_ratio",
+					"value": 0.8,
+					"valueStr": null
+				},
+				{
+					"key": "block_cnt",
+					"value": 1,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "高效处理",
+			"rangeId": null,
+			"description": "技能持续时间内阻挡数<@ba.vup>+1</>，生命值高于<@ba.vup>{humus_s_2[peak_1].peak_performance.hp_ratio:0%}</>时，获得<@ba.vup>+{humus_s_2[peak_1].peak_performance.atk:0%}</>攻击力的<$ba.strong>精力充沛</>；高于<@ba.vup>{humus_s_2[peak_2].peak_performance.hp_ratio:0%}</>时效果翻倍",
+			"skillType": "MANUAL",
+			"durationType": "LIMITED",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 55,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_humus_2",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "humus_s_2[peak_1].peak_performance.atk",
+					"value": 0.21,
+					"valueStr": null
+				},
+				{
+					"key": "humus_s_2[peak_1].peak_performance.hp_ratio",
+					"value": 0.5,
+					"valueStr": null
+				},
+				{
+					"key": "humus_s_2[peak_2].peak_performance.atk",
+					"value": 0.42,
+					"valueStr": null
+				},
+				{
+					"key": "humus_s_2[peak_2].peak_performance.hp_ratio",
+					"value": 0.8,
+					"valueStr": null
+				},
+				{
+					"key": "block_cnt",
+					"value": 1,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "高效处理",
+			"rangeId": null,
+			"description": "技能持续时间内阻挡数<@ba.vup>+1</>，生命值高于<@ba.vup>{humus_s_2[peak_1].peak_performance.hp_ratio:0%}</>时，获得<@ba.vup>+{humus_s_2[peak_1].peak_performance.atk:0%}</>攻击力的<$ba.strong>精力充沛</>；高于<@ba.vup>{humus_s_2[peak_2].peak_performance.hp_ratio:0%}</>时效果翻倍",
+			"skillType": "MANUAL",
+			"durationType": "LIMITED",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 50,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_humus_2",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "humus_s_2[peak_1].peak_performance.atk",
+					"value": 0.25,
+					"valueStr": null
+				},
+				{
+					"key": "humus_s_2[peak_1].peak_performance.hp_ratio",
+					"value": 0.5,
+					"valueStr": null
+				},
+				{
+					"key": "humus_s_2[peak_2].peak_performance.atk",
+					"value": 0.5,
+					"valueStr": null
+				},
+				{
+					"key": "humus_s_2[peak_2].peak_performance.hp_ratio",
+					"value": 0.8,
+					"valueStr": null
+				},
+				{
+					"key": "block_cnt",
+					"value": 1,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "高效处理",
+			"rangeId": null,
+			"description": "技能持续时间内阻挡数<@ba.vup>+1</>，生命值高于<@ba.vup>{humus_s_2[peak_1].peak_performance.hp_ratio:0%}</>时，获得<@ba.vup>+{humus_s_2[peak_1].peak_performance.atk:0%}</>攻击力的<$ba.strong>精力充沛</>；高于<@ba.vup>{humus_s_2[peak_2].peak_performance.hp_ratio:0%}</>时效果翻倍",
+			"skillType": "MANUAL",
+			"durationType": "LIMITED",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 50,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_humus_2",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "humus_s_2[peak_1].peak_performance.atk",
+					"value": 0.28,
+					"valueStr": null
+				},
+				{
+					"key": "humus_s_2[peak_1].peak_performance.hp_ratio",
+					"value": 0.5,
+					"valueStr": null
+				},
+				{
+					"key": "humus_s_2[peak_2].peak_performance.atk",
+					"value": 0.56,
+					"valueStr": null
+				},
+				{
+					"key": "humus_s_2[peak_2].peak_performance.hp_ratio",
+					"value": 0.8,
+					"valueStr": null
+				},
+				{
+					"key": "block_cnt",
+					"value": 1,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "高效处理",
+			"rangeId": null,
+			"description": "技能持续时间内阻挡数<@ba.vup>+1</>，生命值高于<@ba.vup>{humus_s_2[peak_1].peak_performance.hp_ratio:0%}</>时，获得<@ba.vup>+{humus_s_2[peak_1].peak_performance.atk:0%}</>攻击力的<$ba.strong>精力充沛</>；高于<@ba.vup>{humus_s_2[peak_2].peak_performance.hp_ratio:0%}</>时效果翻倍",
+			"skillType": "MANUAL",
+			"durationType": "LIMITED",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 50,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_humus_2",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "humus_s_2[peak_1].peak_performance.atk",
+					"value": 0.32,
+					"valueStr": null
+				},
+				{
+					"key": "humus_s_2[peak_1].peak_performance.hp_ratio",
+					"value": 0.5,
+					"valueStr": null
+				},
+				{
+					"key": "humus_s_2[peak_2].peak_performance.atk",
+					"value": 0.64,
+					"valueStr": null
+				},
+				{
+					"key": "humus_s_2[peak_2].peak_performance.hp_ratio",
+					"value": 0.8,
+					"valueStr": null
+				},
+				{
+					"key": "block_cnt",
+					"value": 1,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "高效处理",
+			"rangeId": null,
+			"description": "技能持续时间内阻挡数<@ba.vup>+1</>，生命值高于<@ba.vup>{humus_s_2[peak_1].peak_performance.hp_ratio:0%}</>时，获得<@ba.vup>+{humus_s_2[peak_1].peak_performance.atk:0%}</>攻击力的<$ba.strong>精力充沛</>；高于<@ba.vup>{humus_s_2[peak_2].peak_performance.hp_ratio:0%}</>时效果翻倍",
+			"skillType": "MANUAL",
+			"durationType": "LIMITED",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 45,
+				"initSp": 25,
+				"increment": 1
+			},
+			"prefabId": "skchr_humus_2",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "humus_s_2[peak_1].peak_performance.atk",
+					"value": 0.36,
+					"valueStr": null
+				},
+				{
+					"key": "humus_s_2[peak_1].peak_performance.hp_ratio",
+					"value": 0.5,
+					"valueStr": null
+				},
+				{
+					"key": "humus_s_2[peak_2].peak_performance.atk",
+					"value": 0.72,
+					"valueStr": null
+				},
+				{
+					"key": "humus_s_2[peak_2].peak_performance.hp_ratio",
+					"value": 0.8,
+					"valueStr": null
+				},
+				{
+					"key": "block_cnt",
+					"value": 1,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "高效处理",
+			"rangeId": null,
+			"description": "技能持续时间内阻挡数<@ba.vup>+1</>，生命值高于<@ba.vup>{humus_s_2[peak_1].peak_performance.hp_ratio:0%}</>时，获得<@ba.vup>+{humus_s_2[peak_1].peak_performance.atk:0%}</>攻击力的<$ba.strong>精力充沛</>；高于<@ba.vup>{humus_s_2[peak_2].peak_performance.hp_ratio:0%}</>时效果翻倍",
+			"skillType": "MANUAL",
+			"durationType": "LIMITED",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 45,
+				"initSp": 26,
+				"increment": 1
+			},
+			"prefabId": "skchr_humus_2",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "humus_s_2[peak_1].peak_performance.atk",
+					"value": 0.39,
+					"valueStr": null
+				},
+				{
+					"key": "humus_s_2[peak_1].peak_performance.hp_ratio",
+					"value": 0.5,
+					"valueStr": null
+				},
+				{
+					"key": "humus_s_2[peak_2].peak_performance.atk",
+					"value": 0.78,
+					"valueStr": null
+				},
+				{
+					"key": "humus_s_2[peak_2].peak_performance.hp_ratio",
+					"value": 0.8,
+					"valueStr": null
+				},
+				{
+					"key": "block_cnt",
+					"value": 1,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "高效处理",
+			"rangeId": null,
+			"description": "技能持续时间内阻挡数<@ba.vup>+1</>，生命值高于<@ba.vup>{humus_s_2[peak_1].peak_performance.hp_ratio:0%}</>时，获得<@ba.vup>+{humus_s_2[peak_1].peak_performance.atk:0%}</>攻击力的<$ba.strong>精力充沛</>；高于<@ba.vup>{humus_s_2[peak_2].peak_performance.hp_ratio:0%}</>时效果翻倍",
+			"skillType": "MANUAL",
+			"durationType": "LIMITED",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 45,
+				"initSp": 28,
+				"increment": 1
+			},
+			"prefabId": "skchr_humus_2",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "humus_s_2[peak_1].peak_performance.atk",
+					"value": 0.42,
+					"valueStr": null
+				},
+				{
+					"key": "humus_s_2[peak_1].peak_performance.hp_ratio",
+					"value": 0.5,
+					"valueStr": null
+				},
+				{
+					"key": "humus_s_2[peak_2].peak_performance.atk",
+					"value": 0.84,
+					"valueStr": null
+				},
+				{
+					"key": "humus_s_2[peak_2].peak_performance.hp_ratio",
+					"value": 0.8,
+					"valueStr": null
+				},
+				{
+					"key": "block_cnt",
+					"value": 1,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "高效处理",
+			"rangeId": null,
+			"description": "技能持续时间内阻挡数<@ba.vup>+1</>，生命值高于<@ba.vup>{humus_s_2[peak_1].peak_performance.hp_ratio:0%}</>时，获得<@ba.vup>+{humus_s_2[peak_1].peak_performance.atk:0%}</>攻击力的<$ba.strong>精力充沛</>；高于<@ba.vup>{humus_s_2[peak_2].peak_performance.hp_ratio:0%}</>时效果翻倍",
+			"skillType": "MANUAL",
+			"durationType": "LIMITED",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 45,
+				"initSp": 30,
+				"increment": 1
+			},
+			"prefabId": "skchr_humus_2",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "humus_s_2[peak_1].peak_performance.atk",
+					"value": 0.45,
+					"valueStr": null
+				},
+				{
+					"key": "humus_s_2[peak_1].peak_performance.hp_ratio",
+					"value": 0.5,
+					"valueStr": null
+				},
+				{
+					"key": "humus_s_2[peak_2].peak_performance.atk",
+					"value": 0.9,
+					"valueStr": null
+				},
+				{
+					"key": "humus_s_2[peak_2].peak_performance.hp_ratio",
+					"value": 0.8,
+					"valueStr": null
+				},
+				{
+					"key": "block_cnt",
+					"value": 1,
+					"valueStr": null
+				}
+			]
+		}
+	]
+}

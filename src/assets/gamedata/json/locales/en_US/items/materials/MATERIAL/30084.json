@@ -6,7 +6,7 @@
 	"iconId": "MTL_SL_MANGANESE2",
 	"overrideBkg": null,
 	"stackIconId": null,
-	"sortId": 100006,
+	"sortId": 100020,
 	"usage": "A metal ore used for metallurgy. Can be used for a variety of upgrades and the synthesis of D32 Steel.",
 	"obtainApproach": null,
 	"classifyType": "MATERIAL",
@@ -26,6 +26,14 @@
 		},
 		{
 			"stageId": "main_09-13",
+			"occPer": "SOMETIMES"
+		},
+		{
+			"stageId": "main_10-06",
+			"occPer": "SOMETIMES"
+		},
+		{
+			"stageId": "tough_10-06",
 			"occPer": "SOMETIMES"
 		}
 	],

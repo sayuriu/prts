@@ -7,10 +7,10 @@
 			"name": "森廻",
 			"rangeId": null,
 			"description": "停止攻击，天赋的触发条件变为<@ba.vup>{talent@hp_ratio:0%}</>生命且<$ba.protect>庇护</>效果提升至<@ba.vup>{talent_scale}</>倍，每秒恢复攻击范围内友军相当于月禾攻击力<@ba.vup>{attack@atk_to_hp_recovery_ratio:0%}</>的生命",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 57,
@@ -22,15 +22,18 @@
 			"blackboard": [
 				{
 					"key": "talent@hp_ratio",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				},
 				{
 					"key": "talent_scale",
-					"value": 1.4
+					"value": 1.4,
+					"valueStr": null
 				},
 				{
 					"key": "attack@atk_to_hp_recovery_ratio",
-					"value": 0.06
+					"value": 0.06,
+					"valueStr": null
 				}
 			]
 		},
@@ -38,10 +41,10 @@
 			"name": "森廻",
 			"rangeId": null,
 			"description": "停止攻击，天赋的触发条件变为<@ba.vup>{talent@hp_ratio:0%}</>生命且<$ba.protect>庇护</>效果提升至<@ba.vup>{talent_scale}</>倍，每秒恢复攻击范围内友军相当于月禾攻击力<@ba.vup>{attack@atk_to_hp_recovery_ratio:0%}</>的生命",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 56,
@@ -53,15 +56,18 @@
 			"blackboard": [
 				{
 					"key": "talent@hp_ratio",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				},
 				{
 					"key": "talent_scale",
-					"value": 1.5
+					"value": 1.5,
+					"valueStr": null
 				},
 				{
 					"key": "attack@atk_to_hp_recovery_ratio",
-					"value": 0.06
+					"value": 0.06,
+					"valueStr": null
 				}
 			]
 		},
@@ -69,10 +75,10 @@
 			"name": "森廻",
 			"rangeId": null,
 			"description": "停止攻击，天赋的触发条件变为<@ba.vup>{talent@hp_ratio:0%}</>生命且<$ba.protect>庇护</>效果提升至<@ba.vup>{talent_scale}</>倍，每秒恢复攻击范围内友军相当于月禾攻击力<@ba.vup>{attack@atk_to_hp_recovery_ratio:0%}</>的生命",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 55,
@@ -84,15 +90,18 @@
 			"blackboard": [
 				{
 					"key": "talent@hp_ratio",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				},
 				{
 					"key": "talent_scale",
-					"value": 1.6
+					"value": 1.6,
+					"valueStr": null
 				},
 				{
 					"key": "attack@atk_to_hp_recovery_ratio",
-					"value": 0.06
+					"value": 0.06,
+					"valueStr": null
 				}
 			]
 		},
@@ -100,10 +109,10 @@
 			"name": "森廻",
 			"rangeId": null,
 			"description": "停止攻击，天赋的触发条件变为<@ba.vup>{talent@hp_ratio:0%}</>生命且<$ba.protect>庇护</>效果提升至<@ba.vup>{talent_scale}</>倍，每秒恢复攻击范围内友军相当于月禾攻击力<@ba.vup>{attack@atk_to_hp_recovery_ratio:0%}</>的生命",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 54,
@@ -115,15 +124,18 @@
 			"blackboard": [
 				{
 					"key": "talent@hp_ratio",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				},
 				{
 					"key": "talent_scale",
-					"value": 1.7
+					"value": 1.7,
+					"valueStr": null
 				},
 				{
 					"key": "attack@atk_to_hp_recovery_ratio",
-					"value": 0.08
+					"value": 0.08,
+					"valueStr": null
 				}
 			]
 		},
@@ -131,10 +143,10 @@
 			"name": "森廻",
 			"rangeId": null,
 			"description": "停止攻击，天赋的触发条件变为<@ba.vup>{talent@hp_ratio:0%}</>生命且<$ba.protect>庇护</>效果提升至<@ba.vup>{talent_scale}</>倍，每秒恢复攻击范围内友军相当于月禾攻击力<@ba.vup>{attack@atk_to_hp_recovery_ratio:0%}</>的生命",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 53,
@@ -146,15 +158,18 @@
 			"blackboard": [
 				{
 					"key": "talent@hp_ratio",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				},
 				{
 					"key": "talent_scale",
-					"value": 1.8
+					"value": 1.8,
+					"valueStr": null
 				},
 				{
 					"key": "attack@atk_to_hp_recovery_ratio",
-					"value": 0.08
+					"value": 0.08,
+					"valueStr": null
 				}
 			]
 		},
@@ -162,10 +177,10 @@
 			"name": "森廻",
 			"rangeId": null,
 			"description": "停止攻击，天赋的触发条件变为<@ba.vup>{talent@hp_ratio:0%}</>生命且<$ba.protect>庇护</>效果提升至<@ba.vup>{talent_scale}</>倍，每秒恢复攻击范围内友军相当于月禾攻击力<@ba.vup>{attack@atk_to_hp_recovery_ratio:0%}</>的生命",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 52,
@@ -177,15 +192,18 @@
 			"blackboard": [
 				{
 					"key": "talent@hp_ratio",
-					"value": 0.5
+					"value": 0.5,
+					"valueStr": null
 				},
 				{
 					"key": "talent_scale",
-					"value": 1.9
+					"value": 1.9,
+					"valueStr": null
 				},
 				{
 					"key": "attack@atk_to_hp_recovery_ratio",
-					"value": 0.08
+					"value": 0.08,
+					"valueStr": null
 				}
 			]
 		},
@@ -193,10 +211,10 @@
 			"name": "森廻",
 			"rangeId": null,
 			"description": "停止攻击，天赋的触发条件变为<@ba.vup>{talent@hp_ratio:0%}</>生命且<$ba.protect>庇护</>效果提升至<@ba.vup>{talent_scale}</>倍，每秒恢复攻击范围内友军相当于月禾攻击力<@ba.vup>{attack@atk_to_hp_recovery_ratio:0%}</>的生命",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 51,
@@ -208,15 +226,18 @@
 			"blackboard": [
 				{
 					"key": "talent@hp_ratio",
-					"value": 0.55
+					"value": 0.55,
+					"valueStr": null
 				},
 				{
 					"key": "talent_scale",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				},
 				{
 					"key": "attack@atk_to_hp_recovery_ratio",
-					"value": 0.1
+					"value": 0.1,
+					"valueStr": null
 				}
 			]
 		},
@@ -224,10 +245,10 @@
 			"name": "森廻",
 			"rangeId": null,
 			"description": "停止攻击，天赋的触发条件变为<@ba.vup>{talent@hp_ratio:0%}</>生命且<$ba.protect>庇护</>效果提升至<@ba.vup>{talent_scale}</>倍，每秒恢复攻击范围内友军相当于月禾攻击力<@ba.vup>{attack@atk_to_hp_recovery_ratio:0%}</>的生命",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 50,
@@ -239,15 +260,18 @@
 			"blackboard": [
 				{
 					"key": "talent@hp_ratio",
-					"value": 0.55
+					"value": 0.55,
+					"valueStr": null
 				},
 				{
 					"key": "talent_scale",
-					"value": 2.1
+					"value": 2.1,
+					"valueStr": null
 				},
 				{
 					"key": "attack@atk_to_hp_recovery_ratio",
-					"value": 0.1
+					"value": 0.1,
+					"valueStr": null
 				}
 			]
 		},
@@ -255,10 +279,10 @@
 			"name": "森廻",
 			"rangeId": null,
 			"description": "停止攻击，天赋的触发条件变为<@ba.vup>{talent@hp_ratio:0%}</>生命且<$ba.protect>庇护</>效果提升至<@ba.vup>{talent_scale}</>倍，每秒恢复攻击范围内友军相当于月禾攻击力<@ba.vup>{attack@atk_to_hp_recovery_ratio:0%}</>的生命",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 49,
@@ -270,15 +294,18 @@
 			"blackboard": [
 				{
 					"key": "talent@hp_ratio",
-					"value": 0.55
+					"value": 0.55,
+					"valueStr": null
 				},
 				{
 					"key": "talent_scale",
-					"value": 2.2
+					"value": 2.2,
+					"valueStr": null
 				},
 				{
 					"key": "attack@atk_to_hp_recovery_ratio",
-					"value": 0.12
+					"value": 0.12,
+					"valueStr": null
 				}
 			]
 		},
@@ -286,10 +313,10 @@
 			"name": "森廻",
 			"rangeId": null,
 			"description": "停止攻击，天赋的触发条件变为<@ba.vup>{talent@hp_ratio:0%}</>生命且<$ba.protect>庇护</>效果提升至<@ba.vup>{talent_scale}</>倍，每秒恢复攻击范围内友军相当于月禾攻击力<@ba.vup>{attack@atk_to_hp_recovery_ratio:0%}</>的生命",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 48,
@@ -301,15 +328,18 @@
 			"blackboard": [
 				{
 					"key": "talent@hp_ratio",
-					"value": 0.6
+					"value": 0.6,
+					"valueStr": null
 				},
 				{
 					"key": "talent_scale",
-					"value": 2.3
+					"value": 2.3,
+					"valueStr": null
 				},
 				{
 					"key": "attack@atk_to_hp_recovery_ratio",
-					"value": 0.12
+					"value": 0.12,
+					"valueStr": null
 				}
 			]
 		}

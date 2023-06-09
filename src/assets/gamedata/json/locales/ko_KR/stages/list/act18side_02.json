@@ -1,0 +1,161 @@
+{
+	"stageType": "ACTIVITY",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
+	"unlockCondition": [
+		{
+			"stageId": "act18side_01",
+			"completeState": 2
+		}
+	],
+	"stageId": "act18side_02",
+	"levelId": "Activities/act18side/level_act18side_02",
+	"zoneId": "act18side_zone1",
+	"code": "LE-2",
+	"name": "열정, 또는 비창",
+	"description": "이런 일은 너무나도 많이 일어났다. 그녀는 비창을 마음속 깊이 묻었고, 그녀의 열정은 나날이 커져간다.\n<@lv.item><폐에너지 간섭></> SP 자연 회복 속도 저하\n<@lv.item><리포밍 플럭스></> 아군 오퍼레이터의 SP 자연 회복 속도 상승",
+	"hardStagedId": null,
+	"dangerLevel": "1차 정예화 Lv.20",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_LE1",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 9,
+	"apFailReturn": 8,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": 0,
+	"expGain": 90,
+	"goldGain": 90,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 8,
+	"completeFavor": 9,
+	"slProgress": 0,
+	"displayMainItem": null,
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 0,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act18side_token_pieces",
+				"dropType": 8
+			},
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act18side_token_pieces",
+				"dropType": 2
+			},
+			{
+				"type": "MATERIAL",
+				"id": "30031",
+				"dropType": 2
+			},
+			{
+				"type": "MATERIAL",
+				"id": "30061",
+				"dropType": 2
+			},
+			{
+				"type": "MATERIAL",
+				"id": "30041",
+				"dropType": 2
+			},
+			{
+				"type": "MATERIAL",
+				"id": "30051",
+				"dropType": 2
+			},
+			{
+				"type": "MATERIAL",
+				"id": "30021",
+				"dropType": 2
+			},
+			{
+				"type": "MATERIAL",
+				"id": "30011",
+				"dropType": 2
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 0,
+				"type": "ACTIVITY_ITEM",
+				"id": "act18side_token_pieces",
+				"dropType": 8
+			},
+			{
+				"occPercent": 0,
+				"type": "ACTIVITY_ITEM",
+				"id": "act18side_token_pieces",
+				"dropType": 2
+			},
+			{
+				"occPercent": 3,
+				"type": "MATERIAL",
+				"id": "30031",
+				"dropType": 2
+			},
+			{
+				"occPercent": 3,
+				"type": "MATERIAL",
+				"id": "30061",
+				"dropType": 2
+			},
+			{
+				"occPercent": 3,
+				"type": "MATERIAL",
+				"id": "30041",
+				"dropType": 2
+			},
+			{
+				"occPercent": 3,
+				"type": "MATERIAL",
+				"id": "30051",
+				"dropType": 2
+			},
+			{
+				"occPercent": 3,
+				"type": "MATERIAL",
+				"id": "30021",
+				"dropType": 2
+			},
+			{
+				"occPercent": 2,
+				"type": "MATERIAL",
+				"id": "30011",
+				"dropType": 2
+			},
+			{
+				"occPercent": 0,
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		]
+	},
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "act18side_st01"
+}

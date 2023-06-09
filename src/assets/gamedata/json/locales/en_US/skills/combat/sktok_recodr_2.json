@@ -1,0 +1,38 @@
+{
+	"skillId": "sktok_recodr_2",
+	"iconId": "sktok_recodr",
+	"hidden": false,
+	"levels": [
+		{
+			"name": "Entitative Program",
+			"rangeId": null,
+			"description": "During this wave, friendly Operators have significantly increased ATK, DEF, and Max HP. <@ba.rem>This effect expires after the end of this wave</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 15,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "sktok_recodr_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 2
+				},
+				{
+					"key": "def",
+					"value": 2
+				},
+				{
+					"key": "max_hp",
+					"value": 2
+				}
+			]
+		}
+	]
+}

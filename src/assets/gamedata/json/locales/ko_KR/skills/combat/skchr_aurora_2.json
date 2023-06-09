@@ -1,0 +1,357 @@
+{
+	"skillId": "skchr_aurora_2",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "인공 강설",
+			"rangeId": null,
+			"description": "공격 딜레이 <@ba.vdown>매우 약간 증가</>, 공격력 <@ba.vup>+{atk:0%}</>, 공격 시 목표에게 <@ba.vup>{attack@cold}</>초 동안의 <$ba.cold>냉기</> 효과를 주며, 목표가 이미 <$ba.frozen>빙결</> 상태인 경우, 이번 공격의 공격력이 <@ba.vup>{atk_scale:0%}</>까지 상승\n<@ba.rem>공격 시 9발의 탄약이 장전되고 탄약을 소진하면 스킬이 종료 (수동 종료 가능)</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 26,
+				"initSp": 8,
+				"increment": 1
+			},
+			"prefabId": "skchr_aurora_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.3
+				},
+				{
+					"key": "base_attack_time",
+					"value": 0.25
+				},
+				{
+					"key": "attack@cold",
+					"value": 2.5
+				},
+				{
+					"key": "atk_scale",
+					"value": 2
+				}
+			]
+		},
+		{
+			"name": "인공 강설",
+			"rangeId": null,
+			"description": "공격 딜레이 <@ba.vdown>매우 약간 증가</>, 공격력 <@ba.vup>+{atk:0%}</>, 공격 시 목표에게 <@ba.vup>{attack@cold}</>초 동안의 <$ba.cold>냉기</> 효과를 주며, 목표가 이미 <$ba.frozen>빙결</> 상태인 경우, 이번 공격의 공격력이 <@ba.vup>{atk_scale:0%}</>까지 상승\n<@ba.rem>공격 시 9발의 탄약이 장전되고 탄약을 소진하면 스킬이 종료 (수동 종료 가능)</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 26,
+				"initSp": 8,
+				"increment": 1
+			},
+			"prefabId": "skchr_aurora_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.35
+				},
+				{
+					"key": "base_attack_time",
+					"value": 0.25
+				},
+				{
+					"key": "attack@cold",
+					"value": 2.5
+				},
+				{
+					"key": "atk_scale",
+					"value": 2
+				}
+			]
+		},
+		{
+			"name": "인공 강설",
+			"rangeId": null,
+			"description": "공격 딜레이 <@ba.vdown>매우 약간 증가</>, 공격력 <@ba.vup>+{atk:0%}</>, 공격 시 목표에게 <@ba.vup>{attack@cold}</>초 동안의 <$ba.cold>냉기</> 효과를 주며, 목표가 이미 <$ba.frozen>빙결</> 상태인 경우, 이번 공격의 공격력이 <@ba.vup>{atk_scale:0%}</>까지 상승\n<@ba.rem>공격 시 9발의 탄약이 장전되고 탄약을 소진하면 스킬이 종료 (수동 종료 가능)</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 24,
+				"initSp": 8,
+				"increment": 1
+			},
+			"prefabId": "skchr_aurora_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.4
+				},
+				{
+					"key": "base_attack_time",
+					"value": 0.25
+				},
+				{
+					"key": "attack@cold",
+					"value": 2.5
+				},
+				{
+					"key": "atk_scale",
+					"value": 2
+				}
+			]
+		},
+		{
+			"name": "인공 강설",
+			"rangeId": null,
+			"description": "공격 딜레이 <@ba.vdown>매우 약간 증가</>, 공격력 <@ba.vup>+{atk:0%}</>, 공격 시 목표에게 <@ba.vup>{attack@cold}</>초 동안의 <$ba.cold>냉기</> 효과를 주며, 목표가 이미 <$ba.frozen>빙결</> 상태인 경우, 이번 공격의 공격력이 <@ba.vup>{atk_scale:0%}</>까지 상승\n<@ba.rem>공격 시 9발의 탄약이 장전되고 탄약을 소진하면 스킬이 종료 (수동 종료 가능)</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 24,
+				"initSp": 9,
+				"increment": 1
+			},
+			"prefabId": "skchr_aurora_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.45
+				},
+				{
+					"key": "base_attack_time",
+					"value": 0.25
+				},
+				{
+					"key": "attack@cold",
+					"value": 2.5
+				},
+				{
+					"key": "atk_scale",
+					"value": 2.5
+				}
+			]
+		},
+		{
+			"name": "인공 강설",
+			"rangeId": null,
+			"description": "공격 딜레이 <@ba.vdown>매우 약간 증가</>, 공격력 <@ba.vup>+{atk:0%}</>, 공격 시 목표에게 <@ba.vup>{attack@cold}</>초 동안의 <$ba.cold>냉기</> 효과를 주며, 목표가 이미 <$ba.frozen>빙결</> 상태인 경우, 이번 공격의 공격력이 <@ba.vup>{atk_scale:0%}</>까지 상승\n<@ba.rem>공격 시 9발의 탄약이 장전되고 탄약을 소진하면 스킬이 종료 (수동 종료 가능)</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 22,
+				"initSp": 9,
+				"increment": 1
+			},
+			"prefabId": "skchr_aurora_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.5
+				},
+				{
+					"key": "base_attack_time",
+					"value": 0.25
+				},
+				{
+					"key": "attack@cold",
+					"value": 2.5
+				},
+				{
+					"key": "atk_scale",
+					"value": 2.5
+				}
+			]
+		},
+		{
+			"name": "인공 강설",
+			"rangeId": null,
+			"description": "공격 딜레이 <@ba.vdown>매우 약간 증가</>, 공격력 <@ba.vup>+{atk:0%}</>, 공격 시 목표에게 <@ba.vup>{attack@cold}</>초 동안의 <$ba.cold>냉기</> 효과를 주며, 목표가 이미 <$ba.frozen>빙결</> 상태인 경우, 이번 공격의 공격력이 <@ba.vup>{atk_scale:0%}</>까지 상승\n<@ba.rem>공격 시 9발의 탄약이 장전되고 탄약을 소진하면 스킬이 종료 (수동 종료 가능)</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 22,
+				"initSp": 9,
+				"increment": 1
+			},
+			"prefabId": "skchr_aurora_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.55
+				},
+				{
+					"key": "base_attack_time",
+					"value": 0.25
+				},
+				{
+					"key": "attack@cold",
+					"value": 2.5
+				},
+				{
+					"key": "atk_scale",
+					"value": 2.5
+				}
+			]
+		},
+		{
+			"name": "인공 강설",
+			"rangeId": null,
+			"description": "공격 딜레이 <@ba.vdown>매우 약간 증가</>, 공격력 <@ba.vup>+{atk:0%}</>, 공격 시 목표에게 <@ba.vup>{attack@cold}</>초 동안의 <$ba.cold>냉기</> 효과를 주며, 목표가 이미 <$ba.frozen>빙결</> 상태인 경우, 이번 공격의 공격력이 <@ba.vup>{atk_scale:0%}</>까지 상승\n<@ba.rem>공격 시 9발의 탄약이 장전되고 탄약을 소진하면 스킬이 종료 (수동 종료 가능)</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 20,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_aurora_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.6
+				},
+				{
+					"key": "base_attack_time",
+					"value": 0.25
+				},
+				{
+					"key": "attack@cold",
+					"value": 2.5
+				},
+				{
+					"key": "atk_scale",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "인공 강설",
+			"rangeId": null,
+			"description": "공격 딜레이 <@ba.vdown>매우 약간 증가</>, 공격력 <@ba.vup>+{atk:0%}</>, 공격 시 목표에게 <@ba.vup>{attack@cold}</>초 동안의 <$ba.cold>냉기</> 효과를 주며, 목표가 이미 <$ba.frozen>빙결</> 상태인 경우, 이번 공격의 공격력이 <@ba.vup>{atk_scale:0%}</>까지 상승\n<@ba.rem>공격 시 9발의 탄약이 장전되고 탄약을 소진하면 스킬이 종료 (수동 종료 가능)</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 20,
+				"initSp": 11,
+				"increment": 1
+			},
+			"prefabId": "skchr_aurora_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.65
+				},
+				{
+					"key": "base_attack_time",
+					"value": 0.25
+				},
+				{
+					"key": "attack@cold",
+					"value": 2.5
+				},
+				{
+					"key": "atk_scale",
+					"value": 3.1
+				}
+			]
+		},
+		{
+			"name": "인공 강설",
+			"rangeId": null,
+			"description": "공격 딜레이 <@ba.vdown>매우 약간 증가</>, 공격력 <@ba.vup>+{atk:0%}</>, 공격 시 목표에게 <@ba.vup>{attack@cold}</>초 동안의 <$ba.cold>냉기</> 효과를 주며, 목표가 이미 <$ba.frozen>빙결</> 상태인 경우, 이번 공격의 공격력이 <@ba.vup>{atk_scale:0%}</>까지 상승\n<@ba.rem>공격 시 9발의 탄약이 장전되고 탄약을 소진하면 스킬이 종료 (수동 종료 가능)</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 20,
+				"initSp": 12,
+				"increment": 1
+			},
+			"prefabId": "skchr_aurora_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.7
+				},
+				{
+					"key": "base_attack_time",
+					"value": 0.25
+				},
+				{
+					"key": "attack@cold",
+					"value": 2.5
+				},
+				{
+					"key": "atk_scale",
+					"value": 3.2
+				}
+			]
+		},
+		{
+			"name": "인공 강설",
+			"rangeId": null,
+			"description": "공격 딜레이 <@ba.vdown>매우 약간 증가</>, 공격력 <@ba.vup>+{atk:0%}</>, 공격 시 목표에게 <@ba.vup>{attack@cold}</>초 동안의 <$ba.cold>냉기</> 효과를 주며, 목표가 이미 <$ba.frozen>빙결</> 상태인 경우, 이번 공격의 공격력이 <@ba.vup>{atk_scale:0%}</>까지 상승\n<@ba.rem>공격 시 9발의 탄약이 장전되고 탄약을 소진하면 스킬이 종료 (수동 종료 가능)</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 20,
+				"initSp": 13,
+				"increment": 1
+			},
+			"prefabId": "skchr_aurora_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.75
+				},
+				{
+					"key": "base_attack_time",
+					"value": 0.25
+				},
+				{
+					"key": "attack@cold",
+					"value": 2.5
+				},
+				{
+					"key": "atk_scale",
+					"value": 3.3
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,74 @@
+{
+	"stageType": "ACTIVITY",
+	"difficulty": "FOUR_STAR",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
+	"unlockCondition": [
+		{
+			"stageId": "act17side_ex08",
+			"completeState": 3
+		}
+	],
+	"stageId": "act17side_ex08#f#",
+	"levelId": "Activities/act17side/level_act17side_ex08",
+	"zoneId": "act17side_zone4",
+	"code": "SN-EX-8",
+	"name": "静謐の断章",
+	"description": "<@lv.fs>制限：</>\n<「ディヴィニティエンド」、大群の意思>のHP、攻撃力、防御力が上昇",
+	"hardStagedId": null,
+	"dangerLevel": "-",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_SN_Boat",
+	"canPractice": true,
+	"canBattleReplay": false,
+	"apCost": 20,
+	"apFailReturn": 10,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 0,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 3,
+	"dailyStageDifficulty": 0,
+	"expGain": 200,
+	"goldGain": 200,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 10,
+	"completeFavor": 20,
+	"slProgress": 0,
+	"displayMainItem": null,
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 0,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 0,
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		]
+	},
+	"canUseTech": true,
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "act17side_ex01"
+}

@@ -1,0 +1,56 @@
+{
+	"skillId": "sktok_xbfato3",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "采集",
+			"rangeId": null,
+			"description": "生产<采集专员>来采集<杂木林>、<巨大岩石>、<奇异矿脉>，更擅长采集<奇异矿脉>，最多生产4台",
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 10,
+				"initSp": 5,
+				"increment": 1
+			},
+			"prefabId": "sktok_xbfato3",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "cost",
+					"value": 0,
+					"valueStr": null
+				},
+				{
+					"key": "enemy_key",
+					"value": 0,
+					"valueStr": "enemy_7008_wrkwrk"
+				},
+				{
+					"key": "max_cnt",
+					"value": 4,
+					"valueStr": null
+				},
+				{
+					"key": "sandbox_res_collector.hp_ratio[wood]",
+					"value": 0.08,
+					"valueStr": null
+				},
+				{
+					"key": "sandbox_res_collector.hp_ratio[stone]",
+					"value": 0.06,
+					"valueStr": null
+				},
+				{
+					"key": "sandbox_res_collector.hp_ratio[iron]",
+					"value": 0.05,
+					"valueStr": null
+				}
+			]
+		}
+	]
+}

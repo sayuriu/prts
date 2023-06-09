@@ -7,10 +7,10 @@
 			"name": "强化加固",
 			"rangeId": null,
 			"description": "部署后对前方一个<土石结构>进行<@ba.vup>加固</>，<@ba.vup>10</>秒后自动撤退。用于强化建筑墙体的施工材料，会有热心的本地人帮忙搭建。",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 100,
@@ -22,11 +22,13 @@
 			"blackboard": [
 				{
 					"key": "sp",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "interval",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		}

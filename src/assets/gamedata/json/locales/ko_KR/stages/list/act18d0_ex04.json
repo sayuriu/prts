@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act18d0_ex03",
@@ -10,7 +11,7 @@
 	],
 	"stageId": "act18d0_ex04",
 	"levelId": "Activities/act18d0/level_act18d0_ex04",
-	"zoneId": "act18d0_zone2",
+	"zoneId": "act10sre_zone2",
 	"code": "WD-EX-4",
 	"name": "문을 부수고 들어가다",
 	"description": "일반적으로 잘 훈련된 용병은 돌격할 때 사전에 계획한 전술에 따라 치밀하게 움직이…… 으잉? 야, 사냥개는? 왜 석궁병이 먼저 투입됐어? 디펜더는 또 어디 가고?? 왜 전열에 한 명뿐인 거야?!\n<@lv.item><이동식 전술 격납고></> 수요에 따라 수시로 드론을 띄워 적군 용병팀의 작전을 지원한다.",
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {
@@ -52,7 +54,7 @@
 		"displayRewards": [
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act18d0_token_page",
+				"id": "act18d0_token_page_rep_1",
 				"dropType": 8
 			},
 			{
@@ -65,7 +67,7 @@
 			{
 				"occPercent": 0,
 				"type": "ACTIVITY_ITEM",
-				"id": "act18d0_token_page",
+				"id": "act18d0_token_page_rep_1",
 				"dropType": 8
 			},
 			{

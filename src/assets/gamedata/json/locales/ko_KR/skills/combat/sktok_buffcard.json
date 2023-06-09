@@ -1,0 +1,30 @@
+{
+	"skillId": "sktok_buffcard",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "격상",
+			"rangeId": "1-1",
+			"description": "배치 시 전방에 있는 오퍼레이터 1명은 자기 포지션의 <@ba.kw>전술 장비</> <@ba.kw>2</>개 획득 (배치 효과 발동 불가)\n<@ba.rem>발동 후 소멸(이번 전투에서 다시 출현하지 않음)</>",
+			"skillType": 2,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "sktok_buffcard",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "cnt",
+					"value": 2
+				}
+			]
+		}
+	]
+}

@@ -6,7 +6,7 @@
 	"iconId": "MTL_SL_PLCF",
 	"overrideBkg": null,
 	"stackIconId": null,
-	"sortId": 100045,
+	"sortId": 100008,
 	"usage": "여러 가지 활성 용제를 배합해 만든 원액. 고급 강화에 사용된다.",
 	"obtainApproach": null,
 	"classifyType": "MATERIAL",
@@ -14,6 +14,14 @@
 	"stageDropList": [
 		{
 			"stageId": "main_09-05",
+			"occPer": "SOMETIMES"
+		},
+		{
+			"stageId": "main_11-14",
+			"occPer": "SOMETIMES"
+		},
+		{
+			"stageId": "tough_11-14",
 			"occPer": "SOMETIMES"
 		}
 	],

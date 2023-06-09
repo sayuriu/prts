@@ -6,15 +6,15 @@
 	"iconId": "MTL_SL_KETONE2",
 	"overrideBkg": null,
 	"stackIconId": null,
-	"sortId": 100034,
+	"sortId": 100048,
 	"usage": "A small amount of industrial organic compound. Can be used for a variety of upgrades and for production in the Factory.",
 	"obtainApproach": null,
 	"classifyType": "MATERIAL",
 	"itemType": "MATERIAL",
 	"stageDropList": [
 		{
-			"stageId": "act18d3_04",
-			"occPer": "ALMOST"
+			"stageId": "act10mini_06",
+			"occPer": "ALWAYS"
 		},
 		{
 			"stageId": "act10d5_03",
@@ -45,12 +45,40 @@
 			"occPer": "ALMOST"
 		},
 		{
-			"stageId": "a001_04",
+			"stageId": "act18d3_04",
+			"occPer": "ALMOST"
+		},
+		{
+			"stageId": "act13side_05",
+			"occPer": "ALMOST"
+		},
+		{
+			"stageId": "act14side_04",
+			"occPer": "ALMOST"
+		},
+		{
+			"stageId": "act15side_04",
 			"occPer": "ALMOST"
 		},
 		{
 			"stageId": "act4d0_03",
 			"occPer": "ALMOST"
+		},
+		{
+			"stageId": "a001_04",
+			"occPer": "ALMOST"
+		},
+		{
+			"stageId": "act19side_05",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "act13mini_05",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "act20side_05",
+			"occPer": "ALWAYS"
 		},
 		{
 			"stageId": "sub_07-1-2",
@@ -83,6 +111,14 @@
 		{
 			"stageId": "sub_02-01",
 			"occPer": "USUAL"
+		},
+		{
+			"stageId": "main_10-08",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "tough_10-08",
+			"occPer": "ALWAYS"
 		}
 	],
 	"buildingProductList": [

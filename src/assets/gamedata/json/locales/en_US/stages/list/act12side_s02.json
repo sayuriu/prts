@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act12side_s01",
@@ -10,10 +11,10 @@
 	],
 	"stageId": "act12side_s02",
 	"levelId": "Activities/ACT12SIDE/level_act12side_sub-1-2",
-	"zoneId": "act12side_zone3",
+	"zoneId": "act12sre_zone3",
 	"code": "DH-S-2",
 	"name": "Battle of the Dragon and Mouse",
-	"description": "Based on Lin Yühsia's understanding, it's completely acceptable here to hit first and ask questions later. She'd been planning to do so anyway. \n<@lv.item><High Tide></> Unable to deploy on flooded tiles. Allied units and enemies in the water will be affected by 'Erosion'\n<@lv.rem>Condition:</> Allied units and enemies receive increased Corrosion Damage under 'Erosion', and Unmanned Heavy Explosive Boats lose HP at a decreased rate",
+	"description": "Based on Lin Yühsia's understanding, it's completely acceptable here to hit first and ask questions later. She'd been planning to do so anyway. \n<@lv.item><High Tide></>Unable to deploy on flooded tiles. Allied units and enemies in the water will suffer from 'Erosion'\n<@lv.rem>Condition:</>Increased 'Erosion' damage, and Unmanned Heavy Explosive Boats lose HP at a decreased rate",
 	"hardStagedId": "act12side_s02#f#",
 	"dangerLevel": "-",
 	"dangerPoint": -1,
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {

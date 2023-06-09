@@ -1,0 +1,31 @@
+{
+	"skillId": "sktok_cdbeaconb",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "干扰波长",
+			"rangeId": null,
+			"description": "立即进行一次干员调用，【丛林用示踪信标】周围的敌人获得100%的<$ba.fragile>脆弱</>效果，持续10秒",
+			"skillType": "PASSIVE",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 0,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": "sktok_cdbeaconb",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "trigger_duration",
+					"value": 10,
+					"valueStr": null
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,34 @@
+{
+	"skillId": "sktok_dancdol",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "カーテンコール",
+			"rangeId": "x-4",
+			"description": "周囲の味方全員の攻撃力<@ba.vdown>-25%</>、確定ダメージを受け続ける",
+			"skillType": 0,
+			"durationType": 0,
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 0,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": "sktok_dancdol",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 0.5
+				},
+				{
+					"key": "interval",
+					"value": 0.5
+				}
+			]
+		}
+	]
+}

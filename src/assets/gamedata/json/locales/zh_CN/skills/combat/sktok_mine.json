@@ -7,10 +7,10 @@
 			"name": "触爆",
 			"rangeId": null,
 			"description": "启动后敌人经过时会触发爆炸，对周围所有敌人造成<@ba.vup>{damage}</>真实伤害，并在<@ba.vup>{duration}</>秒内使其受到的伤害<@ba.vup>+50%</>",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 25,
@@ -22,15 +22,18 @@
 			"blackboard": [
 				{
 					"key": "damage",
-					"value": 2000
+					"value": 2000,
+					"valueStr": null
 				},
 				{
 					"key": "damage_scale",
-					"value": 1.5
+					"value": 1.5,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 15
+					"value": 15,
+					"valueStr": null
 				}
 			]
 		}

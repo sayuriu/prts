@@ -1,0 +1,317 @@
+{
+	"skillId": "skchr_gnosis_3",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "ハイポサーミア",
+			"rangeId": null,
+			"description": "攻撃速度<@ba.vup>+{attack_speed}</>、通常攻撃が敵最大<@ba.vup>{max_target}</>体を同時に攻撃可能になり、<$ba.frozen>凍結</>状態ではない敵を優先して攻撃する。攻撃範囲内の敵全員の<$ba.frozen>凍結</>状態の継続時間がスキル終了時まで延長し、スキル終了時<$ba.frozen>凍結</>状態の敵全員に攻撃力の<@ba.vup>{atk_scale:0%}</>の術ダメージを与え、<$ba.frozen>凍結</>状態を解除する",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 50,
+				"initSp": 25,
+				"increment": 1
+			},
+			"prefabId": "skchr_gnosis_3",
+			"duration": 9,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 2
+				},
+				{
+					"key": "attack_speed",
+					"value": 120
+				},
+				{
+					"key": "max_target",
+					"value": 2
+				}
+			]
+		},
+		{
+			"name": "ハイポサーミア",
+			"rangeId": null,
+			"description": "攻撃速度<@ba.vup>+{attack_speed}</>、通常攻撃が敵最大<@ba.vup>{max_target}</>体を同時に攻撃可能になり、<$ba.frozen>凍結</>状態ではない敵を優先して攻撃する。攻撃範囲内の敵全員の<$ba.frozen>凍結</>状態の継続時間がスキル終了時まで延長し、スキル終了時<$ba.frozen>凍結</>状態の敵全員に攻撃力の<@ba.vup>{atk_scale:0%}</>の術ダメージを与え、<$ba.frozen>凍結</>状態を解除する",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 49,
+				"initSp": 25,
+				"increment": 1
+			},
+			"prefabId": "skchr_gnosis_3",
+			"duration": 9,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 2.3
+				},
+				{
+					"key": "attack_speed",
+					"value": 120
+				},
+				{
+					"key": "max_target",
+					"value": 2
+				}
+			]
+		},
+		{
+			"name": "ハイポサーミア",
+			"rangeId": null,
+			"description": "攻撃速度<@ba.vup>+{attack_speed}</>、通常攻撃が敵最大<@ba.vup>{max_target}</>体を同時に攻撃可能になり、<$ba.frozen>凍結</>状態ではない敵を優先して攻撃する。攻撃範囲内の敵全員の<$ba.frozen>凍結</>状態の継続時間がスキル終了時まで延長し、スキル終了時<$ba.frozen>凍結</>状態の敵全員に攻撃力の<@ba.vup>{atk_scale:0%}</>の術ダメージを与え、<$ba.frozen>凍結</>状態を解除する",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 48,
+				"initSp": 25,
+				"increment": 1
+			},
+			"prefabId": "skchr_gnosis_3",
+			"duration": 9,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 2.7
+				},
+				{
+					"key": "attack_speed",
+					"value": 120
+				},
+				{
+					"key": "max_target",
+					"value": 2
+				}
+			]
+		},
+		{
+			"name": "ハイポサーミア",
+			"rangeId": null,
+			"description": "攻撃速度<@ba.vup>+{attack_speed}</>、通常攻撃が敵最大<@ba.vup>{max_target}</>体を同時に攻撃可能になり、<$ba.frozen>凍結</>状態ではない敵を優先して攻撃する。攻撃範囲内の敵全員の<$ba.frozen>凍結</>状態の継続時間がスキル終了時まで延長し、スキル終了時<$ba.frozen>凍結</>状態の敵全員に攻撃力の<@ba.vup>{atk_scale:0%}</>の術ダメージを与え、<$ba.frozen>凍結</>状態を解除する",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 47,
+				"initSp": 25,
+				"increment": 1
+			},
+			"prefabId": "skchr_gnosis_3",
+			"duration": 9,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 3
+				},
+				{
+					"key": "attack_speed",
+					"value": 120
+				},
+				{
+					"key": "max_target",
+					"value": 2
+				}
+			]
+		},
+		{
+			"name": "ハイポサーミア",
+			"rangeId": null,
+			"description": "攻撃速度<@ba.vup>+{attack_speed}</>、通常攻撃が敵最大<@ba.vup>{max_target}</>体を同時に攻撃可能になり、<$ba.frozen>凍結</>状態ではない敵を優先して攻撃する。攻撃範囲内の敵全員の<$ba.frozen>凍結</>状態の継続時間がスキル終了時まで延長し、スキル終了時<$ba.frozen>凍結</>状態の敵全員に攻撃力の<@ba.vup>{atk_scale:0%}</>の術ダメージを与え、<$ba.frozen>凍結</>状態を解除する",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 46,
+				"initSp": 25,
+				"increment": 1
+			},
+			"prefabId": "skchr_gnosis_3",
+			"duration": 9,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 3.3
+				},
+				{
+					"key": "attack_speed",
+					"value": 120
+				},
+				{
+					"key": "max_target",
+					"value": 2
+				}
+			]
+		},
+		{
+			"name": "ハイポサーミア",
+			"rangeId": null,
+			"description": "攻撃速度<@ba.vup>+{attack_speed}</>、通常攻撃が敵最大<@ba.vup>{max_target}</>体を同時に攻撃可能になり、<$ba.frozen>凍結</>状態ではない敵を優先して攻撃する。攻撃範囲内の敵全員の<$ba.frozen>凍結</>状態の継続時間がスキル終了時まで延長し、スキル終了時<$ba.frozen>凍結</>状態の敵全員に攻撃力の<@ba.vup>{atk_scale:0%}</>の術ダメージを与え、<$ba.frozen>凍結</>状態を解除する",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 45,
+				"initSp": 25,
+				"increment": 1
+			},
+			"prefabId": "skchr_gnosis_3",
+			"duration": 9,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 3.7
+				},
+				{
+					"key": "attack_speed",
+					"value": 120
+				},
+				{
+					"key": "max_target",
+					"value": 2
+				}
+			]
+		},
+		{
+			"name": "ハイポサーミア",
+			"rangeId": null,
+			"description": "攻撃速度<@ba.vup>+{attack_speed}</>、通常攻撃が敵最大<@ba.vup>{max_target}</>体を同時に攻撃可能になり、<$ba.frozen>凍結</>状態ではない敵を優先して攻撃する。攻撃範囲内の敵全員の<$ba.frozen>凍結</>状態の継続時間がスキル終了時まで延長し、スキル終了時<$ba.frozen>凍結</>状態の敵全員に攻撃力の<@ba.vup>{atk_scale:0%}</>の術ダメージを与え、<$ba.frozen>凍結</>状態を解除する",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 44,
+				"initSp": 25,
+				"increment": 1
+			},
+			"prefabId": "skchr_gnosis_3",
+			"duration": 10,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 4
+				},
+				{
+					"key": "attack_speed",
+					"value": 122
+				},
+				{
+					"key": "max_target",
+					"value": 2
+				}
+			]
+		},
+		{
+			"name": "ハイポサーミア",
+			"rangeId": null,
+			"description": "攻撃速度<@ba.vup>+{attack_speed}</>、通常攻撃が敵最大<@ba.vup>{max_target}</>体を同時に攻撃可能になり、<$ba.frozen>凍結</>状態ではない敵を優先して攻撃する。攻撃範囲内の敵全員の<$ba.frozen>凍結</>状態の継続時間がスキル終了時まで延長し、スキル終了時<$ba.frozen>凍結</>状態の敵全員に攻撃力の<@ba.vup>{atk_scale:0%}</>の術ダメージを与え、<$ba.frozen>凍結</>状態を解除する",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 43,
+				"initSp": 25,
+				"increment": 1
+			},
+			"prefabId": "skchr_gnosis_3",
+			"duration": 11,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 4.5
+				},
+				{
+					"key": "attack_speed",
+					"value": 124
+				},
+				{
+					"key": "max_target",
+					"value": 2
+				}
+			]
+		},
+		{
+			"name": "ハイポサーミア",
+			"rangeId": null,
+			"description": "攻撃速度<@ba.vup>+{attack_speed}</>、通常攻撃が敵最大<@ba.vup>{max_target}</>体を同時に攻撃可能になり、<$ba.frozen>凍結</>状態ではない敵を優先して攻撃する。攻撃範囲内の敵全員の<$ba.frozen>凍結</>状態の継続時間がスキル終了時まで延長し、スキル終了時<$ba.frozen>凍結</>状態の敵全員に攻撃力の<@ba.vup>{atk_scale:0%}</>の術ダメージを与え、<$ba.frozen>凍結</>状態を解除する",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 42,
+				"initSp": 25,
+				"increment": 1
+			},
+			"prefabId": "skchr_gnosis_3",
+			"duration": 12,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 5
+				},
+				{
+					"key": "attack_speed",
+					"value": 126
+				},
+				{
+					"key": "max_target",
+					"value": 2
+				}
+			]
+		},
+		{
+			"name": "ハイポサーミア",
+			"rangeId": null,
+			"description": "攻撃速度<@ba.vup>+{attack_speed}</>、通常攻撃が敵最大<@ba.vup>{max_target}</>体を同時に攻撃可能になり、<$ba.frozen>凍結</>状態ではない敵を優先して攻撃する。攻撃範囲内の敵全員の<$ba.frozen>凍結</>状態の継続時間がスキル終了時まで延長し、スキル終了時<$ba.frozen>凍結</>状態の敵全員に攻撃力の<@ba.vup>{atk_scale:0%}</>の術ダメージを与え、<$ba.frozen>凍結</>状態を解除する",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 40,
+				"initSp": 25,
+				"increment": 1
+			},
+			"prefabId": "skchr_gnosis_3",
+			"duration": 13,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 6
+				},
+				{
+					"key": "attack_speed",
+					"value": 130
+				},
+				{
+					"key": "max_target",
+					"value": 2
+				}
+			]
+		}
+	]
+}

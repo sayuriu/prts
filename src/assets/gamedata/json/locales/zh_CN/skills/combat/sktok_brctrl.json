@@ -1,0 +1,25 @@
+{
+	"skillId": "sktok_brctrl",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "实体程式控制端",
+			"rangeId": null,
+			"description": null,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "sktok_brctrl",
+			"duration": 0,
+			"blackboard": []
+		}
+	]
+}

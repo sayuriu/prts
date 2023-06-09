@@ -7,10 +7,10 @@
 			"name": "治愈云雾",
 			"rangeId": null,
 			"description": "下次治疗的治疗量和<$ba.dt.element>元素损伤</>回复量提升至<@ba.vup>{heal_scale:0%}</>，优先治疗<$ba.dt.element>元素损伤</>最严重的目标\\n<@ba.rem>可以充能{cnt}次</>",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 6,
@@ -22,15 +22,18 @@
 			"blackboard": [
 				{
 					"key": "heal_scale",
-					"value": 1.2
+					"value": 1.2,
+					"valueStr": null
 				},
 				{
 					"key": "ep_heal_ratio",
-					"value": 0.6
+					"value": 0.6,
+					"valueStr": null
 				},
 				{
 					"key": "cnt",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -38,10 +41,10 @@
 			"name": "治愈云雾",
 			"rangeId": null,
 			"description": "下次治疗的治疗量和<$ba.dt.element>元素损伤</>回复量提升至<@ba.vup>{heal_scale:0%}</>，优先治疗<$ba.dt.element>元素损伤</>最严重的目标\\n<@ba.rem>可以充能{cnt}次</>",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 6,
@@ -53,15 +56,18 @@
 			"blackboard": [
 				{
 					"key": "heal_scale",
-					"value": 1.25
+					"value": 1.25,
+					"valueStr": null
 				},
 				{
 					"key": "ep_heal_ratio",
-					"value": 0.625
+					"value": 0.625,
+					"valueStr": null
 				},
 				{
 					"key": "cnt",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -69,10 +75,10 @@
 			"name": "治愈云雾",
 			"rangeId": null,
 			"description": "下次治疗的治疗量和<$ba.dt.element>元素损伤</>回复量提升至<@ba.vup>{heal_scale:0%}</>，优先治疗<$ba.dt.element>元素损伤</>最严重的目标\\n<@ba.rem>可以充能{cnt}次</>",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 6,
@@ -84,15 +90,18 @@
 			"blackboard": [
 				{
 					"key": "heal_scale",
-					"value": 1.3
+					"value": 1.3,
+					"valueStr": null
 				},
 				{
 					"key": "ep_heal_ratio",
-					"value": 0.65
+					"value": 0.65,
+					"valueStr": null
 				},
 				{
 					"key": "cnt",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -100,10 +109,10 @@
 			"name": "治愈云雾",
 			"rangeId": null,
 			"description": "下次治疗的治疗量和<$ba.dt.element>元素损伤</>回复量提升至<@ba.vup>{heal_scale:0%}</>，优先治疗<$ba.dt.element>元素损伤</>最严重的目标\\n<@ba.rem>可以充能{cnt}次</>",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 5,
@@ -115,15 +124,18 @@
 			"blackboard": [
 				{
 					"key": "heal_scale",
-					"value": 1.35
+					"value": 1.35,
+					"valueStr": null
 				},
 				{
 					"key": "ep_heal_ratio",
-					"value": 0.675
+					"value": 0.675,
+					"valueStr": null
 				},
 				{
 					"key": "cnt",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -131,10 +143,10 @@
 			"name": "治愈云雾",
 			"rangeId": null,
 			"description": "下次治疗的治疗量和<$ba.dt.element>元素损伤</>回复量提升至<@ba.vup>{heal_scale:0%}</>，优先治疗<$ba.dt.element>元素损伤</>最严重的目标\\n<@ba.rem>可以充能{cnt}次</>",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 5,
@@ -146,15 +158,18 @@
 			"blackboard": [
 				{
 					"key": "heal_scale",
-					"value": 1.4
+					"value": 1.4,
+					"valueStr": null
 				},
 				{
 					"key": "ep_heal_ratio",
-					"value": 0.7
+					"value": 0.7,
+					"valueStr": null
 				},
 				{
 					"key": "cnt",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -162,10 +177,10 @@
 			"name": "治愈云雾",
 			"rangeId": null,
 			"description": "下次治疗的治疗量和<$ba.dt.element>元素损伤</>回复量提升至<@ba.vup>{heal_scale:0%}</>，优先治疗<$ba.dt.element>元素损伤</>最严重的目标\\n<@ba.rem>可以充能{cnt}次</>",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 5,
@@ -177,15 +192,18 @@
 			"blackboard": [
 				{
 					"key": "heal_scale",
-					"value": 1.45
+					"value": 1.45,
+					"valueStr": null
 				},
 				{
 					"key": "ep_heal_ratio",
-					"value": 0.725
+					"value": 0.725,
+					"valueStr": null
 				},
 				{
 					"key": "cnt",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -193,10 +211,10 @@
 			"name": "治愈云雾",
 			"rangeId": null,
 			"description": "下次治疗的治疗量和<$ba.dt.element>元素损伤</>回复量提升至<@ba.vup>{heal_scale:0%}</>，优先治疗<$ba.dt.element>元素损伤</>最严重的目标\\n<@ba.rem>可以充能{cnt}次</>",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 5,
@@ -208,15 +226,18 @@
 			"blackboard": [
 				{
 					"key": "heal_scale",
-					"value": 1.5
+					"value": 1.5,
+					"valueStr": null
 				},
 				{
 					"key": "ep_heal_ratio",
-					"value": 0.75
+					"value": 0.75,
+					"valueStr": null
 				},
 				{
 					"key": "cnt",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -224,10 +245,10 @@
 			"name": "治愈云雾",
 			"rangeId": null,
 			"description": "下次治疗的治疗量和<$ba.dt.element>元素损伤</>回复量提升至<@ba.vup>{heal_scale:0%}</>，优先治疗<$ba.dt.element>元素损伤</>最严重的目标\\n<@ba.rem>可以充能{cnt}次</>",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 2,
 				"spCost": 4,
@@ -239,15 +260,18 @@
 			"blackboard": [
 				{
 					"key": "heal_scale",
-					"value": 1.6
+					"value": 1.6,
+					"valueStr": null
 				},
 				{
 					"key": "ep_heal_ratio",
-					"value": 0.8
+					"value": 0.8,
+					"valueStr": null
 				},
 				{
 					"key": "cnt",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				}
 			]
 		},
@@ -255,10 +279,10 @@
 			"name": "治愈云雾",
 			"rangeId": null,
 			"description": "下次治疗的治疗量和<$ba.dt.element>元素损伤</>回复量提升至<@ba.vup>{heal_scale:0%}</>，优先治疗<$ba.dt.element>元素损伤</>最严重的目标\\n<@ba.rem>可以充能{cnt}次</>",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 2,
 				"spCost": 4,
@@ -270,15 +294,18 @@
 			"blackboard": [
 				{
 					"key": "heal_scale",
-					"value": 1.7
+					"value": 1.7,
+					"valueStr": null
 				},
 				{
 					"key": "ep_heal_ratio",
-					"value": 0.85
+					"value": 0.85,
+					"valueStr": null
 				},
 				{
 					"key": "cnt",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				}
 			]
 		},
@@ -286,10 +313,10 @@
 			"name": "治愈云雾",
 			"rangeId": null,
 			"description": "下次治疗的治疗量和<$ba.dt.element>元素损伤</>回复量提升至<@ba.vup>{heal_scale:0%}</>，优先治疗<$ba.dt.element>元素损伤</>最严重的目标\\n<@ba.rem>可以充能{cnt}次</>",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 2,
 				"spCost": 3,
@@ -301,15 +328,18 @@
 			"blackboard": [
 				{
 					"key": "heal_scale",
-					"value": 1.8
+					"value": 1.8,
+					"valueStr": null
 				},
 				{
 					"key": "ep_heal_ratio",
-					"value": 0.9
+					"value": 0.9,
+					"valueStr": null
 				},
 				{
 					"key": "cnt",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				}
 			]
 		}

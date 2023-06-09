@@ -1,0 +1,42 @@
+{
+	"skillId": "sktok_salecard",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "Retreat",
+			"rangeId": null,
+			"description": "On deployment, view a random selection of <@ba.vup>{range_num}</> units from the <@ba.vup>Preparation Area</> and select <@ba.vup>0-{can_select_num}</> units to be removed (will not appear again in this battle) and converted into <@ba.vup>{sell_card_gold}</> Transfer Permits.\n<@ba.rem>After activation, this unit disappears (will not appear again in this battle)</>",
+			"skillType": 2,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "sktok_salecard",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "value",
+					"value": 1
+				},
+				{
+					"key": "range_num",
+					"value": 4
+				},
+				{
+					"key": "can_select_num",
+					"value": 2
+				},
+				{
+					"key": "sell_card_gold",
+					"value": 15
+				}
+			]
+		}
+	]
+}

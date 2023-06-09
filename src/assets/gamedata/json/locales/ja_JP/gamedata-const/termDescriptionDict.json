@@ -17,17 +17,17 @@
 	"ba.buffres": {
 		"termId": "ba.buffres",
 		"termName": "レジスト",
-		"description": "<$ba.stun>スタン</>、<$ba.cold>寒冷</>、<$ba.frozen>凍結</>の継続時間が50%減少（同名の状態は重複不可）"
+		"description": "<$ba.stun>スタン</>、<$ba.cold>寒冷</>、<$ba.frozen>凍結</>などの状態異常の継続時間が50%減少(同名の状態は重複不可)"
 	},
 	"ba.invisible": {
 		"termId": "ba.invisible",
 		"termName": "ステルス",
-		"description": "未ブロック時敵の攻撃の対象にならない"
+		"description": "未ブロック時、攻撃の対象にならない"
 	},
 	"ba.camou": {
 		"termId": "ba.camou",
 		"termName": "迷彩",
-		"description": "未ブロック時敵の通常攻撃の対象にならない（範囲攻撃のダメージは無効化できない）"
+		"description": "未ブロック時、通常攻撃の対象にならない（範囲攻撃のダメージは無効化できない）"
 	},
 	"ba.fragile": {
 		"termId": "ba.fragile",
@@ -52,7 +52,7 @@
 	"ba.frozen": {
 		"termId": "ba.frozen",
 		"termName": "凍結",
-		"description": "移動、攻撃およびスキル発動不可（<$ba.cold>寒冷</>状態から派生）"
+		"description": "移動、攻撃およびスキル発動不可（<$ba.cold>寒冷</>状態から派生）。凍結状態の敵の術耐性-15"
 	},
 	"ba.sleep": {
 		"termId": "ba.sleep",
@@ -96,7 +96,7 @@
 	},
 	"ba.float": {
 		"termId": "ba.float",
-		"termName": "飛行",
+		"termName": "低空浮揚",
 		"description": "ブロック不可、近距離攻撃の対象にされない"
 	},
 	"ba.refraction": {
@@ -107,62 +107,142 @@
 	"ba.dt.element": {
 		"termId": "ba.dt.element",
 		"termName": "元素ダメージ",
-		"description": "以下のダメージ種類を含む：\n<$ba.dt.neural>神経ダメージ</>、<$ba.dt.erosion>侵蝕ダメージ</>、<$ba.dt.burning>灼熱ダメージ</>"
+		"description": "以下のダメージ種類を含む：<$ba.dt.neural>神経ダメージ</>、<$ba.dt.erosion>侵蝕ダメージ</>、<$ba.dt.burning>灼熱ダメージ</>、<$ba.dt.apoptosis>壊死ダメージ</>"
+	},
+	"ba.overdrive": {
+		"termId": "ba.overdrive",
+		"termName": "オーバードライブ",
+		"description": "スキル発動中は二段階のスキルゲージが存在し、スキルが後半にさしかかると追加効果を発動する"
+	},
+	"ba.dt.apoptosis": {
+		"termId": "ba.dt.apoptosis",
+		"termName": "壊死ダメージ",
+		"description": "壊死ダメージが累計1000に達すると、15秒間スキルが発動できなくなり、1秒ごとにSPを1失い、100の術ダメージを受ける"
+	},
+	"ba.debuff": {
+		"termId": "ba.debuff",
+		"termName": "状態異常",
+		"description": "以下の状態異常種類を含む：<$ba.stun>スタン</>、<$ba.cold>寒冷</>、<$ba.frozen>凍結</>など"
+	},
+	"ba.levitate": {
+		"termId": "ba.levitate",
+		"termName": "浮遊",
+		"description": "飛行ユニットとなり、移動、攻撃、スキル発動不能となる。重量ランクが4以上のユニットに対しては効果時間が50%減少"
+	},
+	"ba.physhield": {
+		"termId": "ba.physhield",
+		"termName": "対物理シールド",
+		"description": "ダメージを受けるとき、対物理シールドを1枚消耗することによって物理ダメージを1回ガード可能"
+	},
+	"ba.magicfragile": {
+		"termId": "ba.magicfragile",
+		"termName": "対術脆弱",
+		"description": "術の被ダメージが効果値分上昇（同名の状態は効果値が高いほうのみ適用）"
+	},
+	"ba.dying": {
+		"termId": "ba.dying",
+		"termName": "重傷",
+		"description": "移動速度が低下、ブロックされなくなり、10秒後そのまま消滅する。倒すと攻撃者に一定のSPを回復させる"
+	},
+	"ba.barrier": {
+		"termId": "ba.barrier",
+		"termName": "バリア",
+		"description": "被ダメージを一定値まで無効化可能"
 	},
 	"cc.bd_A_1": {
 		"termId": "cc.bd_A_1",
 		"termName": "念力",
-		"description": "付与可能オペレーター：\nロスモンティス"
+		"description": "当該基地スキルを持つオペレーター：\nロスモンティス"
 	},
 	"cc.bd_A_2": {
 		"termId": "cc.bd_A_2",
 		"termName": "意識実体",
-		"description": "付与可能オペレーター：\nロスモンティス"
+		"description": "当該基地スキルを持つオペレーター：\nロスモンティス"
+	},
+	"cc.bd_B_1": {
+		"termId": "cc.bd_B_1",
+		"termName": "彷徨う旋律",
+		"description": "当該基地スキルを持つオペレーター：\nエーベンホルツ"
+	},
+	"cc.bd_B_2": {
+		"termId": "cc.bd_B_2",
+		"termName": "茫然たる和声",
+		"description": "当該基地スキルを持つオペレーター：\nエーベンホルツ"
 	},
 	"cc.bd_A": {
 		"termId": "cc.bd_A",
 		"termName": "思念連鎖",
-		"description": "スキル<$cc.bd_A_1><@cc.rem>念力</></>、<$cc.bd_A_2><@cc.rem>意識実体</></>に影響する\n付与可能オペレーター：\nロスモンティス"
+		"description": "スキル<$cc.bd_A_1><@cc.rem>念力</></>、<$cc.bd_A_2><@cc.rem>意識実体</></>に影響する\n以下のオペレーターが持つ基地スキルにより付与可能：\nロスモンティス"
+	},
+	"cc.bd_B": {
+		"termId": "cc.bd_B",
+		"termName": "静かなる共鳴",
+		"description": "スキル<$cc.bd_B_1><@cc.rem>彷徨う旋律</></>、<$cc.bd_B_2><@cc.rem>茫然たる和声</></>に影響する\n以下のオペレーターが持つ基地スキルにより付与可能：\nエーベンホルツ"
 	},
 	"cc.bd_a1": {
 		"termId": "cc.bd_a1",
 		"termName": "知覚情報",
-		"description": "スキル<$cc.bd_A><@cc.rem>思念連鎖</></>に影響する\n付与可能オペレーター：\nロスモンティス、ウィスパーレイン、シー、アイリス"
+		"description": "<$cc.bd_A><@cc.rem>思念連鎖</></>、<$cc.bd_B><@cc.rem>静かなる共鳴</></>と関連するスキルに影響する\n付与可能オペレーター：\nロスモンティス、エーベンホルツ、ウィスパーレイン、シー、リィン、アイリス、ツェルニー"
 	},
 	"cc.bd_b1": {
 		"termId": "cc.bd_b1",
 		"termName": "俗世の憂",
-		"description": "付与可能オペレーター：\nシー、ウユウ、マルベリー"
+		"description": "以下のオペレーターが持つ基地スキルから提供される：\nシー、リィン、ウユウ、マルベリー"
 	},
 	"cc.bd_ash": {
 		"termId": "cc.bd_ash",
 		"termName": "情報備蓄",
-		"description": "付与可能オペレーター：\nAsh"
+		"description": "以下のオペレーターが持つ基地スキルから提供される：\nAsh"
 	},
 	"cc.bd_tachanka": {
 		"termId": "cc.bd_tachanka",
 		"termName": "ウルサスドリンク",
-		"description": "付与可能オペレーター：\nTachanka"
+		"description": "以下のオペレーターが持つ基地スキルから提供される：\nTachanka"
+	},
+	"cc.bd_malist": {
+		"termId": "cc.bd_malist",
+		"termName": "建設ロボット",
+		"description": "以下のオペレーターが持つ基地スキルから提供される：\nミニマリスト"
 	},
 	"cc.bd_a1_a1": {
 		"termId": "cc.bd_a1_a1",
 		"termName": "記憶の欠片",
-		"description": "スキル<$cc.bd_a1><@cc.rem>知覚情報</></>に影響する\n付与可能オペレーター：\nウィスパーレイン"
+		"description": "<$cc.bd_a1><@cc.rem>知覚情報</></>と関連する変量に影響する\n付与可能オペレーター：\nウィスパーレイン"
 	},
 	"cc.bd_a1_a2": {
 		"termId": "cc.bd_a1_a2",
 		"termName": "夢",
-		"description": "スキル<$cc.bd_a1><@cc.rem>知覚情報</></>に影響する\n付与可能オペレーター：\nアイリス"
+		"description": "<$cc.bd_a1><@cc.rem>知覚情報</></>と関連する変量に影響する\n付与可能オペレーター：\nアイリス"
+	},
+	"cc.bd_a1_a3": {
+		"termId": "cc.bd_a1_a3",
+		"termName": "小節",
+		"description": "<$cc.bd_a1><@cc.rem>知覚情報</></>と関連する変量に影響する\n付与可能オペレーター：\nツェルニー"
+	},
+	"cc.bd.costdrop": {
+		"termId": "cc.bd.costdrop",
+		"termName": "体力減少分",
+		"description": "オペレーターの最大体力と現在体力の差分"
 	},
 	"cc.m.var1": {
 		"termId": "cc.m.var1",
 		"termName": "再利用",
-		"description": "付与可能オペレーター：\nヴァーミル"
+		"description": "当該基地スキルを持つオペレーター：\nヴァーミル"
 	},
 	"cc.m.var2": {
 		"termId": "cc.m.var2",
 		"termName": "コンビネーション",
-		"description": "付与可能オペレーター：\nワイフー"
+		"description": "当該基地スキルを持つオペレーター：\nワイフー"
+	},
+	"cc.t.snsant1": {
+		"termId": "cc.t.snsant1",
+		"termName": "天性の努力家α",
+		"description": "当該基地スキルを持つオペレーター：\nスノーズント"
+	},
+	"cc.t.snsant2": {
+		"termId": "cc.t.snsant2",
+		"termName": "天性の努力家β",
+		"description": "当該基地スキルを持つオペレーター：\nスノーズント"
 	},
 	"cc.g.lgd": {
 		"termId": "cc.g.lgd",
@@ -172,7 +252,7 @@
 	"cc.g.lda": {
 		"termId": "cc.g.lda",
 		"termName": "リー探偵事務所",
-		"description": "対象オペレーター：\nア、ウン、ワイフー"
+		"description": "対象オペレーター：\nリー、ア、ウン、ワイフー"
 	},
 	"cc.g.ussg": {
 		"termId": "cc.g.ussg",
@@ -187,12 +267,27 @@
 	"cc.g.sp": {
 		"termId": "cc.g.sp",
 		"termName": "異格",
-		"description": "対象オペレーター：\n炎獄ラヴァ、濁心スカジ、遊龍チェン"
+		"description": "すべての異格オペレーターが対象"
 	},
 	"cc.g.abyssal": {
 		"termId": "cc.g.abyssal",
 		"termName": "アビサル",
 		"description": "対象オペレーター：\nグレイディーア、スカジ、スペクター、アンドレアナ"
+	},
+	"cc.g.psk": {
+		"termId": "cc.g.psk",
+		"termName": "レッドパイン騎士団",
+		"description": "対象オペレーター：\nフレイムテイル、ファートゥース、アッシュロック、ワイルドメイン、ジャスティスナイト"
+	},
+	"cc.g.karlan": {
+		"termId": "cc.g.karlan",
+		"termName": "カランド貿易",
+		"description": "対象オペレーター：\nシルバーアッシュ、ノーシス、プラマニクス、クリフハート、マッターホルン、クーリエ、イェラ、オーロラ"
+	},
+	"cc.g.sui": {
+		"termId": "cc.g.sui",
+		"termName": "歳",
+		"description": "対象オペレーター：\nニェン、シー、リィン"
 	},
 	"cc.c.abyssal2_1": {
 		"termId": "cc.c.abyssal2_1",
@@ -209,6 +304,26 @@
 		"termName": "特殊加算制限",
 		"description": "<$cc.m.var2><@cc.rem>コンビネーション</></>より優先適用、重複不可\n<$cc.m.pow1><@cc.rem>自動化α</></>、<$cc.m.pow2><@cc.rem>自動化β</></>、<$cc.m.pow3><@cc.rem>シードラゴン</></>と重複不可、「製造効率を０にする」の効果が優先適用"
 	},
+	"cc.c.room1": {
+		"termId": "cc.c.room1",
+		"termName": "一部の施設",
+		"description": "対象施設：\n発電所、事務室、応接室"
+	},
+	"cc.c.room2": {
+		"termId": "cc.c.room2",
+		"termName": "他の施設",
+		"description": "対象施設：\n発電所、製造所、貿易所、事務室、応接室"
+	},
+	"cc.c.skill": {
+		"termId": "cc.c.skill",
+		"termName": "一部のスキル",
+		"description": "対象スキル：\n腹心、S.W.E.E.P.、おやつネット、執行協定、影武者、責任感、ボディガード、小さなリーダー、独善"
+	},
+	"cc.t.strong2": {
+		"termId": "cc.t.strong2",
+		"termName": "特殊加算制限",
+		"description": "<$cc.t.snsant1><@cc.rem>天性の努力家α</></>、<$cc.t.snsant2><@cc.rem>天性の努力家β</></>が単体で有効になっている場合、効果は重複せず、本スキルの効果が優先的に適用される\n <$cc.t.snsant1><@cc.rem>天性の努力家α</></>、<$cc.t.snsant2><@cc.rem>天性の努力家β</></>の効果が他のスキルと重複して有効になっている場合、本スキルの効果が重複後の効果値に適用される"
+	},
 	"cc.m.pow1": {
 		"termId": "cc.m.pow1",
 		"termName": "自動化α",
@@ -224,14 +339,54 @@
 		"termName": "シードラゴン",
 		"description": "付与可能オペレーター：\nウィーディ"
 	},
-	"cc.t.line_gold": {
-		"termId": "cc.t.line_gold",
+	"cc.t.flow_gold": {
+		"termId": "cc.t.flow_gold",
 		"termName": "純金生産ライン",
 		"description": "<@cc.kw>純金</>を製造中の<@cc.kw>製造所</><@cc.kw>1</>つにつき、純金生産ライン<@cc.kw>+1</>"
+	},
+	"cc.w.ncdeer1": {
+		"termId": "cc.w.ncdeer1",
+		"termName": "因果",
+		"description": "体力消費が<@cc.kw>4</>以下の素材を加工して副産物が産出されなかった場合、消費した体力<@cc.kw>1</>につき、<@cc.kw>因果</>+1"
+	},
+	"cc.w.ncdeer2": {
+		"termId": "cc.w.ncdeer2",
+		"termName": "応報",
+		"description": "体力消費が<@cc.kw>8</>の素材を加工して副産物が産出されなかった場合、消費した体力<@cc.kw>1</>につき、<@cc.kw>応報</>+1"
 	},
 	"cc.sk.manu1": {
 		"termId": "cc.sk.manu1",
 		"termName": "標準化系スキル",
 		"description": "対象スキル：\n標準化α、標準化β"
+	},
+	"cc.sk.manu2": {
+		"termId": "cc.sk.manu2",
+		"termName": "ラインテク系スキル",
+		"description": "対象スキル：\nラインテクα 、ラインテクβ "
+	},
+	"cc.sk.manu3": {
+		"termId": "cc.sk.manu3",
+		"termName": "レッドパイン系スキル",
+		"description": "対象スキル：\nレッドパインα、レッドパインβ"
+	},
+	"cc.tag.op": {
+		"termId": "cc.tag.op",
+		"termName": "作業用プラットフォーム",
+		"description": "対象オペレーター：\nLancet-2、Castle-3、THRM-EX、ジャスティスナイト"
+	},
+	"cc.tag.knight": {
+		"termId": "cc.tag.knight",
+		"termName": "騎士",
+		"description": "対象オペレーター：\nニアール、耀騎士ニアール、ブレミシャイン、ウィスラッシュ、フレイムテイル、ファートゥース、アッシュロック、ワイルドメイン、ジャスティスナイト、グラベル"
+	},
+	"cc.tag.durin": {
+		"termId": "cc.tag.durin",
+		"termName": "ドゥリン族",
+		"description": "対象オペレーター：\nミニマリスト、テンニンカ、チェストナット、ドゥリン"
+	},
+	"cc.gvial": {
+		"termId": "cc.gvial",
+		"termName": "ガヴィル",
+		"description": "対象オペレーター：\n百錬ガヴィル、ガヴィル"
 	}
 }

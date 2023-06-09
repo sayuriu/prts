@@ -7,10 +7,10 @@
 			"name": "武力模式",
 			"rangeId": null,
 			"description": "阻挡数<@ba.vdown>-1</>，攻击间隔略微<@ba.vdown>增大</>，攻击力<@ba.vup>+{atk:0%}</>，每次攻击恢复自身最大生命值的<@ba.vup>{hp_ratio:0%}</>，同时攻击阻挡的所有敌人",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 50,
@@ -22,19 +22,23 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.65
+					"value": 0.65,
+					"valueStr": null
 				},
 				{
 					"key": "base_attack_time",
-					"value": 0.4
+					"value": 0.4,
+					"valueStr": null
 				},
 				{
 					"key": "hp_ratio",
-					"value": 0.05
+					"value": 0.05,
+					"valueStr": null
 				},
 				{
 					"key": "block_cnt",
-					"value": -1
+					"value": -1,
+					"valueStr": null
 				}
 			]
 		},
@@ -42,10 +46,10 @@
 			"name": "武力模式",
 			"rangeId": null,
 			"description": "阻挡数<@ba.vdown>-1</>，攻击间隔略微<@ba.vdown>增大</>，攻击力<@ba.vup>+{atk:0%}</>，每次攻击恢复自身最大生命值的<@ba.vup>{hp_ratio:0%}</>，同时攻击阻挡的所有敌人",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 50,
@@ -57,19 +61,23 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.7
+					"value": 0.7,
+					"valueStr": null
 				},
 				{
 					"key": "base_attack_time",
-					"value": 0.4
+					"value": 0.4,
+					"valueStr": null
 				},
 				{
 					"key": "hp_ratio",
-					"value": 0.05
+					"value": 0.05,
+					"valueStr": null
 				},
 				{
 					"key": "block_cnt",
-					"value": -1
+					"value": -1,
+					"valueStr": null
 				}
 			]
 		},
@@ -77,10 +85,10 @@
 			"name": "武力模式",
 			"rangeId": null,
 			"description": "阻挡数<@ba.vdown>-1</>，攻击间隔略微<@ba.vdown>增大</>，攻击力<@ba.vup>+{atk:0%}</>，每次攻击恢复自身最大生命值的<@ba.vup>{hp_ratio:0%}</>，同时攻击阻挡的所有敌人",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 50,
@@ -92,19 +100,23 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.75
+					"value": 0.75,
+					"valueStr": null
 				},
 				{
 					"key": "base_attack_time",
-					"value": 0.4
+					"value": 0.4,
+					"valueStr": null
 				},
 				{
 					"key": "hp_ratio",
-					"value": 0.05
+					"value": 0.05,
+					"valueStr": null
 				},
 				{
 					"key": "block_cnt",
-					"value": -1
+					"value": -1,
+					"valueStr": null
 				}
 			]
 		},
@@ -112,10 +124,10 @@
 			"name": "武力模式",
 			"rangeId": null,
 			"description": "阻挡数<@ba.vdown>-1</>，攻击间隔略微<@ba.vdown>增大</>，攻击力<@ba.vup>+{atk:0%}</>，每次攻击恢复自身最大生命值的<@ba.vup>{hp_ratio:0%}</>，同时攻击阻挡的所有敌人",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 50,
@@ -127,19 +139,23 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.85
+					"value": 0.85,
+					"valueStr": null
 				},
 				{
 					"key": "base_attack_time",
-					"value": 0.4
+					"value": 0.4,
+					"valueStr": null
 				},
 				{
 					"key": "hp_ratio",
-					"value": 0.06
+					"value": 0.06,
+					"valueStr": null
 				},
 				{
 					"key": "block_cnt",
-					"value": -1
+					"value": -1,
+					"valueStr": null
 				}
 			]
 		},
@@ -147,10 +163,10 @@
 			"name": "武力模式",
 			"rangeId": null,
 			"description": "阻挡数<@ba.vdown>-1</>，攻击间隔略微<@ba.vdown>增大</>，攻击力<@ba.vup>+{atk:0%}</>，每次攻击恢复自身最大生命值的<@ba.vup>{hp_ratio:0%}</>，同时攻击阻挡的所有敌人",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 50,
@@ -162,19 +178,23 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.9
+					"value": 0.9,
+					"valueStr": null
 				},
 				{
 					"key": "base_attack_time",
-					"value": 0.4
+					"value": 0.4,
+					"valueStr": null
 				},
 				{
 					"key": "hp_ratio",
-					"value": 0.06
+					"value": 0.06,
+					"valueStr": null
 				},
 				{
 					"key": "block_cnt",
-					"value": -1
+					"value": -1,
+					"valueStr": null
 				}
 			]
 		},
@@ -182,10 +202,10 @@
 			"name": "武力模式",
 			"rangeId": null,
 			"description": "阻挡数<@ba.vdown>-1</>，攻击间隔略微<@ba.vdown>增大</>，攻击力<@ba.vup>+{atk:0%}</>，每次攻击恢复自身最大生命值的<@ba.vup>{hp_ratio:0%}</>，同时攻击阻挡的所有敌人",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 50,
@@ -197,19 +217,23 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.95
+					"value": 0.95,
+					"valueStr": null
 				},
 				{
 					"key": "base_attack_time",
-					"value": 0.4
+					"value": 0.4,
+					"valueStr": null
 				},
 				{
 					"key": "hp_ratio",
-					"value": 0.06
+					"value": 0.06,
+					"valueStr": null
 				},
 				{
 					"key": "block_cnt",
-					"value": -1
+					"value": -1,
+					"valueStr": null
 				}
 			]
 		},
@@ -217,10 +241,10 @@
 			"name": "武力模式",
 			"rangeId": null,
 			"description": "阻挡数<@ba.vdown>-1</>，攻击间隔略微<@ba.vdown>增大</>，攻击力<@ba.vup>+{atk:0%}</>，每次攻击恢复自身最大生命值的<@ba.vup>{hp_ratio:0%}</>，同时攻击阻挡的所有敌人",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 50,
@@ -232,19 +256,23 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 1.05
+					"value": 1.05,
+					"valueStr": null
 				},
 				{
 					"key": "base_attack_time",
-					"value": 0.4
+					"value": 0.4,
+					"valueStr": null
 				},
 				{
 					"key": "hp_ratio",
-					"value": 0.07
+					"value": 0.07,
+					"valueStr": null
 				},
 				{
 					"key": "block_cnt",
-					"value": -1
+					"value": -1,
+					"valueStr": null
 				}
 			]
 		},
@@ -252,10 +280,10 @@
 			"name": "武力模式",
 			"rangeId": null,
 			"description": "阻挡数<@ba.vdown>-1</>，攻击间隔略微<@ba.vdown>增大</>，攻击力<@ba.vup>+{atk:0%}</>，每次攻击恢复自身最大生命值的<@ba.vup>{hp_ratio:0%}</>，同时攻击阻挡的所有敌人",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 50,
@@ -267,19 +295,23 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 1.2
+					"value": 1.2,
+					"valueStr": null
 				},
 				{
 					"key": "base_attack_time",
-					"value": 0.4
+					"value": 0.4,
+					"valueStr": null
 				},
 				{
 					"key": "hp_ratio",
-					"value": 0.08
+					"value": 0.08,
+					"valueStr": null
 				},
 				{
 					"key": "block_cnt",
-					"value": -1
+					"value": -1,
+					"valueStr": null
 				}
 			]
 		},
@@ -287,10 +319,10 @@
 			"name": "武力模式",
 			"rangeId": null,
 			"description": "阻挡数<@ba.vdown>-1</>，攻击间隔略微<@ba.vdown>增大</>，攻击力<@ba.vup>+{atk:0%}</>，每次攻击恢复自身最大生命值的<@ba.vup>{hp_ratio:0%}</>，同时攻击阻挡的所有敌人",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 50,
@@ -302,19 +334,23 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 1.35
+					"value": 1.35,
+					"valueStr": null
 				},
 				{
 					"key": "base_attack_time",
-					"value": 0.4
+					"value": 0.4,
+					"valueStr": null
 				},
 				{
 					"key": "hp_ratio",
-					"value": 0.09
+					"value": 0.09,
+					"valueStr": null
 				},
 				{
 					"key": "block_cnt",
-					"value": -1
+					"value": -1,
+					"valueStr": null
 				}
 			]
 		},
@@ -322,10 +358,10 @@
 			"name": "武力模式",
 			"rangeId": null,
 			"description": "阻挡数<@ba.vdown>-1</>，攻击间隔略微<@ba.vdown>增大</>，攻击力<@ba.vup>+{atk:0%}</>，每次攻击恢复自身最大生命值的<@ba.vup>{hp_ratio:0%}</>，同时攻击阻挡的所有敌人",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 50,
@@ -337,19 +373,23 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 1.5
+					"value": 1.5,
+					"valueStr": null
 				},
 				{
 					"key": "base_attack_time",
-					"value": 0.4
+					"value": 0.4,
+					"valueStr": null
 				},
 				{
 					"key": "hp_ratio",
-					"value": 0.1
+					"value": 0.1,
+					"valueStr": null
 				},
 				{
 					"key": "block_cnt",
-					"value": -1
+					"value": -1,
+					"valueStr": null
 				}
 			]
 		}

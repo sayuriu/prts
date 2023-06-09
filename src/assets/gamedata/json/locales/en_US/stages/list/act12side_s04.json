@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act12side_s03",
@@ -10,10 +11,10 @@
 	],
 	"stageId": "act12side_s04",
 	"levelId": "Activities/ACT12SIDE/level_act12side_sub-1-4",
-	"zoneId": "act12side_zone3",
+	"zoneId": "act12sre_zone3",
 	"code": "DH-S-4",
 	"name": "Final Investigation",
-	"description": "The investigation goes well with the presence of old comrades. It seems the former superintendent and elites of the L.G.D. are unstoppable. \n<@lv.item><High Tide></> Unable to deploy on flooded tiles. Allied units and enemies in the water will be affected by 'Erosion'\n<@lv.rem>Condition:</> All allied units receive increased Corrosion Damage under 'Erosion' and have further ASPD reduction; All enemies have greatly increased base stats and deal increased Corrosion Damage",
+	"description": "The investigation goes well with the presence of old comrades. It seems the former superintendent and elites of the L.G.D. are unstoppable. \n<@lv.item><High Tide></>Unable to deploy on flooded tiles. Allied units and enemies in the water will suffer from 'Erosion'\n<@lv.rem>Condition:</>All allied units receive increased Corrosion damage and have further ASPD reduction from 'Erosion'; All enemies have greatly increased base stats and deal increased Corrosion Damage",
 	"hardStagedId": "act12side_s04#f#",
 	"dangerLevel": "-",
 	"dangerPoint": -1,
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {

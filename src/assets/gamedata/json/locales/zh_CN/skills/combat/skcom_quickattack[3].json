@@ -7,10 +7,10 @@
 			"name": "迅捷打击·γ型",
 			"rangeId": null,
 			"description": "攻击力<@ba.vup>+{atk:0%}</>，攻击速度<@ba.vup>+{attack_speed}</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 45,
@@ -22,11 +22,13 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.2
+					"value": 0.2,
+					"valueStr": null
 				},
 				{
 					"key": "attack_speed",
-					"value": 20
+					"value": 20,
+					"valueStr": null
 				}
 			]
 		},
@@ -34,10 +36,10 @@
 			"name": "迅捷打击·γ型",
 			"rangeId": null,
 			"description": "攻击力<@ba.vup>+{atk:0%}</>，攻击速度<@ba.vup>+{attack_speed}</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 44,
@@ -49,11 +51,13 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.22
+					"value": 0.22,
+					"valueStr": null
 				},
 				{
 					"key": "attack_speed",
-					"value": 20
+					"value": 20,
+					"valueStr": null
 				}
 			]
 		},
@@ -61,10 +65,10 @@
 			"name": "迅捷打击·γ型",
 			"rangeId": null,
 			"description": "攻击力<@ba.vup>+{atk:0%}</>，攻击速度<@ba.vup>+{attack_speed}</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 43,
@@ -76,11 +80,13 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.24
+					"value": 0.24,
+					"valueStr": null
 				},
 				{
 					"key": "attack_speed",
-					"value": 20
+					"value": 20,
+					"valueStr": null
 				}
 			]
 		},
@@ -88,10 +94,10 @@
 			"name": "迅捷打击·γ型",
 			"rangeId": null,
 			"description": "攻击力<@ba.vup>+{atk:0%}</>，攻击速度<@ba.vup>+{attack_speed}</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 42,
@@ -103,11 +109,13 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.27
+					"value": 0.27,
+					"valueStr": null
 				},
 				{
 					"key": "attack_speed",
-					"value": 25
+					"value": 25,
+					"valueStr": null
 				}
 			]
 		},
@@ -115,10 +123,10 @@
 			"name": "迅捷打击·γ型",
 			"rangeId": null,
 			"description": "攻击力<@ba.vup>+{atk:0%}</>，攻击速度<@ba.vup>+{attack_speed}</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 41,
@@ -130,11 +138,13 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.29
+					"value": 0.29,
+					"valueStr": null
 				},
 				{
 					"key": "attack_speed",
-					"value": 25
+					"value": 25,
+					"valueStr": null
 				}
 			]
 		},
@@ -142,10 +152,10 @@
 			"name": "迅捷打击·γ型",
 			"rangeId": null,
 			"description": "攻击力<@ba.vup>+{atk:0%}</>，攻击速度<@ba.vup>+{attack_speed}</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 40,
@@ -157,11 +167,13 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.31
+					"value": 0.31,
+					"valueStr": null
 				},
 				{
 					"key": "attack_speed",
-					"value": 25
+					"value": 25,
+					"valueStr": null
 				}
 			]
 		},
@@ -169,10 +181,10 @@
 			"name": "迅捷打击·γ型",
 			"rangeId": null,
 			"description": "攻击力<@ba.vup>+{atk:0%}</>，攻击速度<@ba.vup>+{attack_speed}</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 39,
@@ -184,11 +196,13 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.34
+					"value": 0.34,
+					"valueStr": null
 				},
 				{
 					"key": "attack_speed",
-					"value": 35
+					"value": 35,
+					"valueStr": null
 				}
 			]
 		},
@@ -196,10 +210,10 @@
 			"name": "迅捷打击·γ型",
 			"rangeId": null,
 			"description": "攻击力<@ba.vup>+{atk:0%}</>，攻击速度<@ba.vup>+{attack_speed}</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 38,
@@ -211,11 +225,13 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.37
+					"value": 0.37,
+					"valueStr": null
 				},
 				{
 					"key": "attack_speed",
-					"value": 35
+					"value": 35,
+					"valueStr": null
 				}
 			]
 		},
@@ -223,10 +239,10 @@
 			"name": "迅捷打击·γ型",
 			"rangeId": null,
 			"description": "攻击力<@ba.vup>+{atk:0%}</>，攻击速度<@ba.vup>+{attack_speed}</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 37,
@@ -238,11 +254,13 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.4
+					"value": 0.4,
+					"valueStr": null
 				},
 				{
 					"key": "attack_speed",
-					"value": 35
+					"value": 35,
+					"valueStr": null
 				}
 			]
 		},
@@ -250,10 +268,10 @@
 			"name": "迅捷打击·γ型",
 			"rangeId": null,
 			"description": "攻击力<@ba.vup>+{atk:0%}</>，攻击速度<@ba.vup>+{attack_speed}</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 35,
@@ -265,11 +283,13 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.45
+					"value": 0.45,
+					"valueStr": null
 				},
 				{
 					"key": "attack_speed",
-					"value": 45
+					"value": 45,
+					"valueStr": null
 				}
 			]
 		}

@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act12side_08",
@@ -10,10 +11,10 @@
 	],
 	"stageId": "act12side_09",
 	"levelId": "Activities/ACT12SIDE/level_act12side_09",
-	"zoneId": "act12side_zone1",
+	"zoneId": "act12sre_zone1",
 	"code": "DH-9",
 	"name": "Mouse's Courage, Dragon's Might",
-	"description": "Drones continue fluttering about the sky and the show's broadcast doesn't stop. The danger is very real, yet it seems as insignificant as dust. Ladies and gentlemen, this is Dossoles. \n<@lv.item><Deep Water Zone></> Unable to deploy on these tiles. In this stage, enemies on these tiles lose HP at a greatly increased rate\n<@lv.item><Custom Floating Platform></> Can be deployed on Deep Water Zones, thereafter any unit can be deployed on that tile. The platform is destroyed when the deployed unit retreats",
+	"description": "Drones continue fluttering about the sky and the show's broadcast doesn't stop. The danger is very real, yet it seems as insignificant as dust. Ladies and gentlemen, this is Dossoles. \n<@lv.item><Deep Water Zone></>Unable to deploy on these tiles. In this stage, enemies on these tiles lose HP at a greatly increased rate\n<@lv.item><Custom Floating Platform></>Can be deployed on Deep Water Zones, thereafter any unit can be deployed on that tile. The platform is destroyed when the deployed unit retreats",
 	"hardStagedId": null,
 	"dangerLevel": "Elite 2 Lv. 10",
 	"dangerPoint": -1,
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {

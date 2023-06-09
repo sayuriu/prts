@@ -7,10 +7,10 @@
 			"name": "秘杖·微粒模式",
 			"rangeId": null,
 			"description": "攻击间隔<@ba.vup>极大幅度缩短</>，但每次攻击只能造成相当于攻击力<@ba.vdown>{damage_scale:0%}的法术伤害</>\\n<@ba.rem>技能未开启时无法普通攻击</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 20,
@@ -22,11 +22,13 @@
 			"blackboard": [
 				{
 					"key": "base_attack_time",
-					"value": 0.15
+					"value": 0.15,
+					"valueStr": null
 				},
 				{
 					"key": "damage_scale",
-					"value": 0.3
+					"value": 0.3,
+					"valueStr": null
 				}
 			]
 		},
@@ -34,10 +36,10 @@
 			"name": "秘杖·微粒模式",
 			"rangeId": null,
 			"description": "攻击间隔<@ba.vup>极大幅度缩短</>，但每次攻击只能造成相当于攻击力<@ba.vdown>{damage_scale:0%}的法术伤害</>\\n<@ba.rem>技能未开启时无法普通攻击</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 20,
@@ -49,11 +51,13 @@
 			"blackboard": [
 				{
 					"key": "base_attack_time",
-					"value": 0.15
+					"value": 0.15,
+					"valueStr": null
 				},
 				{
 					"key": "damage_scale",
-					"value": 0.3
+					"value": 0.3,
+					"valueStr": null
 				}
 			]
 		},
@@ -61,10 +65,10 @@
 			"name": "秘杖·微粒模式",
 			"rangeId": null,
 			"description": "攻击间隔<@ba.vup>极大幅度缩短</>，但每次攻击只能造成相当于攻击力<@ba.vdown>{damage_scale:0%}的法术伤害</>\\n<@ba.rem>技能未开启时无法普通攻击</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 20,
@@ -76,11 +80,13 @@
 			"blackboard": [
 				{
 					"key": "base_attack_time",
-					"value": 0.15
+					"value": 0.15,
+					"valueStr": null
 				},
 				{
 					"key": "damage_scale",
-					"value": 0.3
+					"value": 0.3,
+					"valueStr": null
 				}
 			]
 		},
@@ -88,10 +94,10 @@
 			"name": "秘杖·微粒模式",
 			"rangeId": null,
 			"description": "攻击间隔<@ba.vup>极大幅度缩短</>，但每次攻击只能造成相当于攻击力<@ba.vdown>{damage_scale:0%}的法术伤害</>\\n<@ba.rem>技能未开启时无法普通攻击</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 20,
@@ -103,11 +109,13 @@
 			"blackboard": [
 				{
 					"key": "base_attack_time",
-					"value": 0.15
+					"value": 0.15,
+					"valueStr": null
 				},
 				{
 					"key": "damage_scale",
-					"value": 0.35
+					"value": 0.35,
+					"valueStr": null
 				}
 			]
 		},
@@ -115,10 +123,10 @@
 			"name": "秘杖·微粒模式",
 			"rangeId": null,
 			"description": "攻击间隔<@ba.vup>极大幅度缩短</>，但每次攻击只能造成相当于攻击力<@ba.vdown>{damage_scale:0%}的法术伤害</>\\n<@ba.rem>技能未开启时无法普通攻击</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 20,
@@ -130,11 +138,13 @@
 			"blackboard": [
 				{
 					"key": "base_attack_time",
-					"value": 0.15
+					"value": 0.15,
+					"valueStr": null
 				},
 				{
 					"key": "damage_scale",
-					"value": 0.35
+					"value": 0.35,
+					"valueStr": null
 				}
 			]
 		},
@@ -142,10 +152,10 @@
 			"name": "秘杖·微粒模式",
 			"rangeId": null,
 			"description": "攻击间隔<@ba.vup>极大幅度缩短</>，但每次攻击只能造成相当于攻击力<@ba.vdown>{damage_scale:0%}的法术伤害</>\\n<@ba.rem>技能未开启时无法普通攻击</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 20,
@@ -157,11 +167,13 @@
 			"blackboard": [
 				{
 					"key": "base_attack_time",
-					"value": 0.15
+					"value": 0.15,
+					"valueStr": null
 				},
 				{
 					"key": "damage_scale",
-					"value": 0.35
+					"value": 0.35,
+					"valueStr": null
 				}
 			]
 		},
@@ -169,10 +181,10 @@
 			"name": "秘杖·微粒模式",
 			"rangeId": null,
 			"description": "攻击间隔<@ba.vup>极大幅度缩短</>，但每次攻击只能造成相当于攻击力<@ba.vdown>{damage_scale:0%}的法术伤害</>\\n<@ba.rem>技能未开启时无法普通攻击</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 20,
@@ -184,11 +196,13 @@
 			"blackboard": [
 				{
 					"key": "base_attack_time",
-					"value": 0.15
+					"value": 0.15,
+					"valueStr": null
 				},
 				{
 					"key": "damage_scale",
-					"value": 0.4
+					"value": 0.4,
+					"valueStr": null
 				}
 			]
 		},
@@ -196,10 +210,10 @@
 			"name": "秘杖·微粒模式",
 			"rangeId": null,
 			"description": "攻击间隔<@ba.vup>极大幅度缩短</>，但每次攻击只能造成相当于攻击力<@ba.vdown>{damage_scale:0%}的法术伤害</>\\n<@ba.rem>技能未开启时无法普通攻击</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 19,
@@ -211,11 +225,13 @@
 			"blackboard": [
 				{
 					"key": "base_attack_time",
-					"value": 0.15
+					"value": 0.15,
+					"valueStr": null
 				},
 				{
 					"key": "damage_scale",
-					"value": 0.4
+					"value": 0.4,
+					"valueStr": null
 				}
 			]
 		},
@@ -223,10 +239,10 @@
 			"name": "秘杖·微粒模式",
 			"rangeId": null,
 			"description": "攻击间隔<@ba.vup>极大幅度缩短</>，但每次攻击只能造成相当于攻击力<@ba.vdown>{damage_scale:0%}的法术伤害</>\\n<@ba.rem>技能未开启时无法普通攻击</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 18,
@@ -238,11 +254,13 @@
 			"blackboard": [
 				{
 					"key": "base_attack_time",
-					"value": 0.15
+					"value": 0.15,
+					"valueStr": null
 				},
 				{
 					"key": "damage_scale",
-					"value": 0.4
+					"value": 0.4,
+					"valueStr": null
 				}
 			]
 		},
@@ -250,10 +268,10 @@
 			"name": "秘杖·微粒模式",
 			"rangeId": null,
 			"description": "攻击间隔<@ba.vup>极大幅度缩短</>，但每次攻击只能造成相当于攻击力<@ba.vdown>{damage_scale:0%}的法术伤害</>\\n<@ba.rem>技能未开启时无法普通攻击</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 15,
@@ -265,11 +283,13 @@
 			"blackboard": [
 				{
 					"key": "base_attack_time",
-					"value": 0.15
+					"value": 0.15,
+					"valueStr": null
 				},
 				{
 					"key": "damage_scale",
-					"value": 0.45
+					"value": 0.45,
+					"valueStr": null
 				}
 			]
 		}

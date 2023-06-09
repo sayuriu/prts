@@ -1,0 +1,362 @@
+{
+	"skillId": "skchr_qiubai_3",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "问雪",
+			"rangeId": "3-1",
+			"description": "攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>，伤害类型变为法术，额外攻击2个目标，远程攻击不再降低伤害，每次攻击使自身攻击速度<@ba.vup>+{attack_speed}</>（最多叠加<@ba.vup>{max_stack_cnt}</>次）",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 64,
+				"initSp": 32,
+				"increment": 1
+			},
+			"prefabId": "skchr_qiubai_3",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.2,
+					"valueStr": null
+				},
+				{
+					"key": "attack_speed",
+					"value": 8,
+					"valueStr": null
+				},
+				{
+					"key": "max_stack_cnt",
+					"value": 4,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "问雪",
+			"rangeId": "3-1",
+			"description": "攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>，伤害类型变为法术，额外攻击2个目标，远程攻击不再降低伤害，每次攻击使自身攻击速度<@ba.vup>+{attack_speed}</>（最多叠加<@ba.vup>{max_stack_cnt}</>次）",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 63,
+				"initSp": 32,
+				"increment": 1
+			},
+			"prefabId": "skchr_qiubai_3",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.23,
+					"valueStr": null
+				},
+				{
+					"key": "attack_speed",
+					"value": 9,
+					"valueStr": null
+				},
+				{
+					"key": "max_stack_cnt",
+					"value": 4,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "问雪",
+			"rangeId": "3-1",
+			"description": "攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>，伤害类型变为法术，额外攻击2个目标，远程攻击不再降低伤害，每次攻击使自身攻击速度<@ba.vup>+{attack_speed}</>（最多叠加<@ba.vup>{max_stack_cnt}</>次）",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 62,
+				"initSp": 34,
+				"increment": 1
+			},
+			"prefabId": "skchr_qiubai_3",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.27,
+					"valueStr": null
+				},
+				{
+					"key": "attack_speed",
+					"value": 10,
+					"valueStr": null
+				},
+				{
+					"key": "max_stack_cnt",
+					"value": 4,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "问雪",
+			"rangeId": "3-1",
+			"description": "攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>，伤害类型变为法术，额外攻击2个目标，远程攻击不再降低伤害，每次攻击使自身攻击速度<@ba.vup>+{attack_speed}</>（最多叠加<@ba.vup>{max_stack_cnt}</>次）",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 61,
+				"initSp": 34,
+				"increment": 1
+			},
+			"prefabId": "skchr_qiubai_3",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.3,
+					"valueStr": null
+				},
+				{
+					"key": "attack_speed",
+					"value": 10,
+					"valueStr": null
+				},
+				{
+					"key": "max_stack_cnt",
+					"value": 5,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "问雪",
+			"rangeId": "3-1",
+			"description": "攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>，伤害类型变为法术，额外攻击2个目标，远程攻击不再降低伤害，每次攻击使自身攻击速度<@ba.vup>+{attack_speed}</>（最多叠加<@ba.vup>{max_stack_cnt}</>次）",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 60,
+				"initSp": 36,
+				"increment": 1
+			},
+			"prefabId": "skchr_qiubai_3",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.33,
+					"valueStr": null
+				},
+				{
+					"key": "attack_speed",
+					"value": 11,
+					"valueStr": null
+				},
+				{
+					"key": "max_stack_cnt",
+					"value": 5,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "问雪",
+			"rangeId": "3-1",
+			"description": "攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>，伤害类型变为法术，额外攻击2个目标，远程攻击不再降低伤害，每次攻击使自身攻击速度<@ba.vup>+{attack_speed}</>（最多叠加<@ba.vup>{max_stack_cnt}</>次）",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 59,
+				"initSp": 36,
+				"increment": 1
+			},
+			"prefabId": "skchr_qiubai_3",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.37,
+					"valueStr": null
+				},
+				{
+					"key": "attack_speed",
+					"value": 12,
+					"valueStr": null
+				},
+				{
+					"key": "max_stack_cnt",
+					"value": 5,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "问雪",
+			"rangeId": "3-1",
+			"description": "攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>，伤害类型变为法术，额外攻击2个目标，远程攻击不再降低伤害，每次攻击使自身攻击速度<@ba.vup>+{attack_speed}</>（最多叠加<@ba.vup>{max_stack_cnt}</>次）",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 58,
+				"initSp": 38,
+				"increment": 1
+			},
+			"prefabId": "skchr_qiubai_3",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.4,
+					"valueStr": null
+				},
+				{
+					"key": "attack_speed",
+					"value": 13,
+					"valueStr": null
+				},
+				{
+					"key": "max_stack_cnt",
+					"value": 6,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "问雪",
+			"rangeId": "3-1",
+			"description": "攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>，伤害类型变为法术，额外攻击2个目标，第一天赋的伤害提升至<@ba.vup>{talent_scale}</>倍，远程攻击不再降低伤害，每次攻击使自身攻击速度<@ba.vup>+{attack_speed}</>（最多叠加<@ba.vup>{max_stack_cnt}</>次）",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 57,
+				"initSp": 40,
+				"increment": 1
+			},
+			"prefabId": "skchr_qiubai_3",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.45,
+					"valueStr": null
+				},
+				{
+					"key": "attack_speed",
+					"value": 13,
+					"valueStr": null
+				},
+				{
+					"key": "max_stack_cnt",
+					"value": 6,
+					"valueStr": null
+				},
+				{
+					"key": "talent_scale",
+					"value": 1.5,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "问雪",
+			"rangeId": "3-1",
+			"description": "攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>，伤害类型变为法术，额外攻击2个目标，第一天赋的伤害提升至<@ba.vup>{talent_scale}</>倍，远程攻击不再降低伤害，每次攻击使自身攻击速度<@ba.vup>+{attack_speed}</>（最多叠加<@ba.vup>{max_stack_cnt}</>次）",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 56,
+				"initSp": 43,
+				"increment": 1
+			},
+			"prefabId": "skchr_qiubai_3",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.5,
+					"valueStr": null
+				},
+				{
+					"key": "attack_speed",
+					"value": 13,
+					"valueStr": null
+				},
+				{
+					"key": "max_stack_cnt",
+					"value": 7,
+					"valueStr": null
+				},
+				{
+					"key": "talent_scale",
+					"value": 1.75,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "问雪",
+			"rangeId": "3-1",
+			"description": "攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>，伤害类型变为法术，额外攻击2个目标，第一天赋的伤害提升至<@ba.vup>{talent_scale}</>倍，远程攻击不再降低伤害，每次攻击使自身攻击速度<@ba.vup>+{attack_speed}</>（最多叠加<@ba.vup>{max_stack_cnt}</>次）",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 55,
+				"initSp": 45,
+				"increment": 1
+			},
+			"prefabId": "skchr_qiubai_3",
+			"duration": 30,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.55,
+					"valueStr": null
+				},
+				{
+					"key": "attack_speed",
+					"value": 13,
+					"valueStr": null
+				},
+				{
+					"key": "max_stack_cnt",
+					"value": 8,
+					"valueStr": null
+				},
+				{
+					"key": "talent_scale",
+					"value": 2,
+					"valueStr": null
+				}
+			]
+		}
+	]
+}

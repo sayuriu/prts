@@ -1,0 +1,41 @@
+{
+	"skillId": "sktok_recodr_2",
+	"iconId": "sktok_recodr",
+	"hidden": false,
+	"levels": [
+		{
+			"name": "实体程式",
+			"rangeId": null,
+			"description": "本波次内，我方干员的攻击力、防御力和最大生命值大幅提升。<@ba.rem>本波次结束后失效</>",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 15,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "sktok_recodr_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 2,
+					"valueStr": null
+				},
+				{
+					"key": "def",
+					"value": 2,
+					"valueStr": null
+				},
+				{
+					"key": "max_hp",
+					"value": 2,
+					"valueStr": null
+				}
+			]
+		}
+	]
+}

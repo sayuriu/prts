@@ -2,7 +2,9 @@
 	"name": "글라우쿠스",
 	"description": "적에게 <@ba.kw>마법 대미지</>를 입히고 잠시 <$ba.sluggish>정지</> 효과를 준다",
 	"canUseGeneralPotentialItem": true,
+	"canUseActivityPotentialItem": false,
 	"potentialItemId": "p_char_326_glacus",
+	"activityPotentialItemId": null,
 	"nationId": "iberia",
 	"groupId": null,
 	"teamId": null,
@@ -71,7 +73,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -96,7 +100,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -129,7 +135,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -154,7 +162,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -203,7 +213,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -228,7 +240,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -430,7 +444,7 @@
 					"requiredPotentialRank": 0,
 					"prefabKey": "1",
 					"name": "역제 장치",
-					"description": "[드론] 유닛을 우선적으로 공격, [드론]을 공격 시 공격력 +25%",
+					"description": "[드론] 유닛을 우선적으로 공격, [드론]을 공격 시 공격력이 125%까지 상승",
 					"rangeId": null,
 					"blackboard": [
 						{
@@ -447,7 +461,7 @@
 					"requiredPotentialRank": 4,
 					"prefabKey": "1",
 					"name": "역제 장치",
-					"description": "[드론] 유닛을 우선적으로 공격, [드론]을 공격 시 공격력 +30%<@ba.talpu>(+5%)</>",
+					"description": "[드론] 유닛을 우선적으로 공격, [드론]을 공격 시 공격력이 130%<@ba.talpu>(+5%)</>까지 상승",
 					"rangeId": null,
 					"blackboard": [
 						{
@@ -464,7 +478,7 @@
 					"requiredPotentialRank": 0,
 					"prefabKey": "1",
 					"name": "역제 장치",
-					"description": "[드론] 유닛을 우선적으로 공격, [드론]을 공격 시 공격력 +50%",
+					"description": "[드론] 유닛을 우선적으로 공격, [드론]을 공격 시 공격력이 150%까지 상승",
 					"rangeId": null,
 					"blackboard": [
 						{
@@ -481,7 +495,7 @@
 					"requiredPotentialRank": 4,
 					"prefabKey": "1",
 					"name": "역제 장치",
-					"description": "[드론] 유닛을 우선적으로 공격, [드론]을 공격 시 공격력 +55%<@ba.talpu>(+5%)</>",
+					"description": "[드론] 유닛을 우선적으로 공격, [드론]을 공격 시 공격력이 155%<@ba.talpu>(+5%)</>까지 상승",
 					"rangeId": null,
 					"blackboard": [
 						{
@@ -616,7 +630,9 @@
 				"baseForceLevel": 0,
 				"stunImmune": false,
 				"silenceImmune": false,
-				"sleepImmune": false
+				"sleepImmune": false,
+				"frozenImmune": false,
+				"levitateImmune": false
 			}
 		},
 		{
@@ -641,7 +657,9 @@
 				"baseForceLevel": 0,
 				"stunImmune": false,
 				"silenceImmune": false,
-				"sleepImmune": false
+				"sleepImmune": false,
+				"frozenImmune": false,
+				"levitateImmune": false
 			}
 		}
 	],

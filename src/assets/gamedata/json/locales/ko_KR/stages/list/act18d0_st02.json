@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act18d0_08",
@@ -10,7 +11,7 @@
 	],
 	"stageId": "act18d0_st02",
 	"levelId": null,
-	"zoneId": "act18d0_zone1",
+	"zoneId": "act10sre_zone1",
 	"code": "WD-ST-2",
 	"name": "타향에서 온 손님",
 	"description": "젊은 시절의 여정에 대해 그는 최근처럼 감회가 많았던 적이 없었다. 지금까지도 가끔 막막함을 감출 수 없었다. 그토록 싫었던 사막이었지만, 단 한 번도 어디로 가야 할지 고민해본 적 없기 때문이다.",
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": true,
 	"appearanceStyle": 0,
 	"stageDropInfo": {

@@ -1,0 +1,38 @@
+{
+	"itemId": "31064",
+	"name": "上級転化塩",
+	"description": "安定した結晶体。飽和溶液を混合して結晶化させることで作られ、素材に対して多くの機能をもたらす。",
+	"rarity": 3,
+	"iconId": "MTL_SL_ZYK",
+	"overrideBkg": null,
+	"stackIconId": null,
+	"sortId": 100006,
+	"usage": "精錬処理を経た化合物結晶の塊。昇進やスキル強化に必要な素材。",
+	"obtainApproach": null,
+	"classifyType": "MATERIAL",
+	"itemType": "MATERIAL",
+	"stageDropList": [
+		{
+			"stageId": "main_11-03",
+			"occPer": "SOMETIMES"
+		},
+		{
+			"stageId": "main_11-13",
+			"occPer": "SOMETIMES"
+		},
+		{
+			"stageId": "tough_11-03",
+			"occPer": "SOMETIMES"
+		},
+		{
+			"stageId": "tough_11-13",
+			"occPer": "SOMETIMES"
+		}
+	],
+	"buildingProductList": [
+		{
+			"roomType": "WORKSHOP",
+			"formulaId": "61"
+		}
+	]
+}

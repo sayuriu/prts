@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act18d0_ex03",
@@ -10,12 +11,12 @@
 	],
 	"stageId": "act18d0_ex04",
 	"levelId": "Activities/act18d0/level_act18d0_ex04",
-	"zoneId": "act18d0_zone2",
+	"zoneId": "act10sre_zone2",
 	"code": "WD-EX-4",
 	"name": "Breaking In",
-	"description": "Generally speaking, well-trained mercenaries will act according to your timetables during an assault— W-Wait, where are your hounds? Why'd your crossbowmen go in first? Where are the defenders? How come there's only one person in your vanguard?!\n<@lv.item><Mobile Tactical Hangar></> Deploys drones as needed to assist enemy combatants.",
+	"description": "Generally speaking, well-trained mercenaries will act according to your timetables during an assault— W-Wait, where are your hounds? Why'd your snipers go in first? What about your armored units? How come there's only one person in your vanguard?!\n<@lv.item><Mobile Tactical Hangar></> Deploys drones as needed to assist enemy combatants.",
 	"hardStagedId": "act18d0_ex04#f#",
-	"dangerLevel": "Elite 1 Lv.70",
+	"dangerLevel": "Elite 1 Lv. 70",
 	"dangerPoint": -1,
 	"loadingPicId": "loading_OOD_02",
 	"canPractice": true,
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {
@@ -52,7 +54,7 @@
 		"displayRewards": [
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act18d0_token_page",
+				"id": "act18d0_token_page_rep_1",
 				"dropType": 8
 			},
 			{
@@ -65,7 +67,7 @@
 			{
 				"occPercent": 0,
 				"type": "ACTIVITY_ITEM",
-				"id": "act18d0_token_page",
+				"id": "act18d0_token_page_rep_1",
 				"dropType": 8
 			},
 			{

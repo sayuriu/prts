@@ -1,0 +1,84 @@
+{
+	"stageType": "ACTIVITY",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
+	"unlockCondition": [
+		{
+			"stageId": "act13side_ex07",
+			"completeState": 2
+		}
+	],
+	"stageId": "act13side_ex08",
+	"levelId": "Activities/act13side/level_act13side_ex08",
+	"zoneId": "act13sre_zone2",
+	"code": "NL-EX-8",
+	"name": "独占インタビュー",
+	"description": "血騎士の家の前で録音されたボイスデータを編集してインタビューにできないか？尺が足りない？じゃあこないだの演説を一部切って入れろ、急げ、ニアールのインタビューも作らにゃならないんだ。二本一緒に出すぞ。\n<@lv.item><都市のネオン></>隣接4マスの視野を確保する。起動すると確保できる視野の範囲が拡大する。",
+	"hardStagedId": "act13side_ex08#f#",
+	"dangerLevel": "昇進2 LV.30",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_Kazimierz_Street",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 20,
+	"apFailReturn": 19,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": 0,
+	"expGain": 200,
+	"goldGain": 200,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 19,
+	"completeFavor": 20,
+	"slProgress": 0,
+	"displayMainItem": null,
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 0,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act13side_token_model_rep_1",
+				"dropType": 8
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 0,
+				"type": "ACTIVITY_ITEM",
+				"id": "act13side_token_model_rep_1",
+				"dropType": 8
+			},
+			{
+				"occPercent": 0,
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		]
+	},
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "act13side_ex01"
+}

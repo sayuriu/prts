@@ -1,0 +1,347 @@
+{
+	"skillId": "skchr_heidi_1",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "虚构故事·怒士",
+			"rangeId": null,
+			"description": "攻击范围内所有友方单位阻挡数<@ba.vdown>-3</>，获得相当于海蒂<@ba.vup>{atk:0%}</>攻击力的<$ba.inspire>鼓舞</>效果",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 25,
+				"initSp": 4,
+				"increment": 1
+			},
+			"prefabId": "skchr_heidi_1",
+			"duration": 10,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.5,
+					"valueStr": null
+				},
+				{
+					"key": "block_cnt",
+					"value": -3,
+					"valueStr": null
+				},
+				{
+					"key": "attack@atk_to_hp_recovery_ratio",
+					"value": 0.1,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "虚构故事·怒士",
+			"rangeId": null,
+			"description": "攻击范围内所有友方单位阻挡数<@ba.vdown>-3</>，获得相当于海蒂<@ba.vup>{atk:0%}</>攻击力的<$ba.inspire>鼓舞</>效果",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 25,
+				"initSp": 5,
+				"increment": 1
+			},
+			"prefabId": "skchr_heidi_1",
+			"duration": 10,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.55,
+					"valueStr": null
+				},
+				{
+					"key": "block_cnt",
+					"value": -3,
+					"valueStr": null
+				},
+				{
+					"key": "attack@atk_to_hp_recovery_ratio",
+					"value": 0.1,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "虚构故事·怒士",
+			"rangeId": null,
+			"description": "攻击范围内所有友方单位阻挡数<@ba.vdown>-3</>，获得相当于海蒂<@ba.vup>{atk:0%}</>攻击力的<$ba.inspire>鼓舞</>效果",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 25,
+				"initSp": 6,
+				"increment": 1
+			},
+			"prefabId": "skchr_heidi_1",
+			"duration": 10,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.6,
+					"valueStr": null
+				},
+				{
+					"key": "block_cnt",
+					"value": -3,
+					"valueStr": null
+				},
+				{
+					"key": "attack@atk_to_hp_recovery_ratio",
+					"value": 0.1,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "虚构故事·怒士",
+			"rangeId": null,
+			"description": "攻击范围内所有友方单位阻挡数<@ba.vdown>-3</>，获得相当于海蒂<@ba.vup>{atk:0%}</>攻击力的<$ba.inspire>鼓舞</>效果",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 24,
+				"initSp": 7,
+				"increment": 1
+			},
+			"prefabId": "skchr_heidi_1",
+			"duration": 10,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.7,
+					"valueStr": null
+				},
+				{
+					"key": "block_cnt",
+					"value": -3,
+					"valueStr": null
+				},
+				{
+					"key": "attack@atk_to_hp_recovery_ratio",
+					"value": 0.1,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "虚构故事·怒士",
+			"rangeId": null,
+			"description": "攻击范围内所有友方单位阻挡数<@ba.vdown>-3</>，获得相当于海蒂<@ba.vup>{atk:0%}</>攻击力的<$ba.inspire>鼓舞</>效果",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 24,
+				"initSp": 8,
+				"increment": 1
+			},
+			"prefabId": "skchr_heidi_1",
+			"duration": 10,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.75,
+					"valueStr": null
+				},
+				{
+					"key": "block_cnt",
+					"value": -3,
+					"valueStr": null
+				},
+				{
+					"key": "attack@atk_to_hp_recovery_ratio",
+					"value": 0.1,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "虚构故事·怒士",
+			"rangeId": null,
+			"description": "攻击范围内所有友方单位阻挡数<@ba.vdown>-3</>，获得相当于海蒂<@ba.vup>{atk:0%}</>攻击力的<$ba.inspire>鼓舞</>效果",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 24,
+				"initSp": 9,
+				"increment": 1
+			},
+			"prefabId": "skchr_heidi_1",
+			"duration": 10,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.8,
+					"valueStr": null
+				},
+				{
+					"key": "block_cnt",
+					"value": -3,
+					"valueStr": null
+				},
+				{
+					"key": "attack@atk_to_hp_recovery_ratio",
+					"value": 0.1,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "虚构故事·怒士",
+			"rangeId": null,
+			"description": "攻击范围内所有友方单位阻挡数<@ba.vdown>-3</>，获得相当于海蒂<@ba.vup>{atk:0%}</>攻击力的<$ba.inspire>鼓舞</>效果",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 23,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_heidi_1",
+			"duration": 10,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 0.9,
+					"valueStr": null
+				},
+				{
+					"key": "block_cnt",
+					"value": -3,
+					"valueStr": null
+				},
+				{
+					"key": "attack@atk_to_hp_recovery_ratio",
+					"value": 0.1,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "虚构故事·怒士",
+			"rangeId": null,
+			"description": "攻击范围内所有友方单位阻挡数<@ba.vdown>-3</>，获得相当于海蒂<@ba.vup>{atk:0%}</>攻击力的<$ba.inspire>鼓舞</>效果",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 22,
+				"initSp": 11,
+				"increment": 1
+			},
+			"prefabId": "skchr_heidi_1",
+			"duration": 10,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 1,
+					"valueStr": null
+				},
+				{
+					"key": "block_cnt",
+					"value": -3,
+					"valueStr": null
+				},
+				{
+					"key": "attack@atk_to_hp_recovery_ratio",
+					"value": 0.1,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "虚构故事·怒士",
+			"rangeId": null,
+			"description": "攻击范围内所有友方单位阻挡数<@ba.vdown>-3</>，获得相当于海蒂<@ba.vup>{atk:0%}</>攻击力的<$ba.inspire>鼓舞</>效果",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 21,
+				"initSp": 11,
+				"increment": 1
+			},
+			"prefabId": "skchr_heidi_1",
+			"duration": 10,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 1.05,
+					"valueStr": null
+				},
+				{
+					"key": "block_cnt",
+					"value": -3,
+					"valueStr": null
+				},
+				{
+					"key": "attack@atk_to_hp_recovery_ratio",
+					"value": 0.1,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "虚构故事·怒士",
+			"rangeId": null,
+			"description": "攻击范围内所有友方单位阻挡数<@ba.vdown>-3</>，获得相当于海蒂<@ba.vup>{atk:0%}</>攻击力的<$ba.inspire>鼓舞</>效果",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 20,
+				"initSp": 12,
+				"increment": 1
+			},
+			"prefabId": "skchr_heidi_1",
+			"duration": 10,
+			"blackboard": [
+				{
+					"key": "atk",
+					"value": 1.1,
+					"valueStr": null
+				},
+				{
+					"key": "block_cnt",
+					"value": -3,
+					"valueStr": null
+				},
+				{
+					"key": "attack@atk_to_hp_recovery_ratio",
+					"value": 0.1,
+					"valueStr": null
+				}
+			]
+		}
+	]
+}

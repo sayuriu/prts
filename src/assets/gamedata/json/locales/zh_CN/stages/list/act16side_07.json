@@ -2,15 +2,16 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act16side_06",
-			"completeState": 2
+			"completeState": "PASS"
 		}
 	],
 	"stageId": "act16side_07",
 	"levelId": "Activities/act16side/level_act16side_07",
-	"zoneId": "act16side_zone1",
+	"zoneId": "act16sre_zone1",
 	"code": "GA-7",
 	"name": "光与影",
 	"description": "他感到可笑愤怒不堪迷茫空虚。\\n<@lv.item><“冰淇淋机”></>我方与敌方可夺取控制权，激活后回复周围友方单位技力",
@@ -44,7 +45,7 @@
 	"isHardPredefined": false,
 	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
-	"appearanceStyle": 0,
+	"appearanceStyle": "MAIN_NORMAL",
 	"stageDropInfo": {
 		"firstPassRewards": null,
 		"firstCompleteRewards": null,
@@ -53,53 +54,59 @@
 		"displayRewards": [
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act16side_token_bolt",
-				"dropType": 8
+				"id": "act16side_token_bolt_rep_1",
+				"dropType": "COMPLETE"
 			},
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act16side_token_bolt",
-				"dropType": 2
+				"id": "act16side_token_bolt_rep_1",
+				"dropType": "NORMAL"
 			},
 			{
 				"type": "MATERIAL",
 				"id": "30073",
-				"dropType": 2
+				"dropType": "NORMAL"
 			},
 			{
 				"type": "DIAMOND",
 				"id": "4002",
-				"dropType": 8
+				"dropType": "COMPLETE"
 			}
 		],
 		"displayDetailRewards": [
 			{
-				"occPercent": 0,
+				"occPercent": "ALWAYS",
 				"type": "ACTIVITY_ITEM",
-				"id": "act16side_token_bolt",
-				"dropType": 8
+				"id": "act16side_token_bolt_rep_1",
+				"dropType": "COMPLETE"
 			},
 			{
-				"occPercent": 0,
+				"occPercent": "ALWAYS",
 				"type": "ACTIVITY_ITEM",
-				"id": "act16side_token_bolt",
-				"dropType": 2
+				"id": "act16side_token_bolt_rep_1",
+				"dropType": "NORMAL"
 			},
 			{
-				"occPercent": 1,
+				"occPercent": "ALMOST",
 				"type": "MATERIAL",
 				"id": "30073",
-				"dropType": 2
+				"dropType": "NORMAL"
 			},
 			{
-				"occPercent": 0,
+				"occPercent": "ALWAYS",
 				"type": "DIAMOND",
 				"id": "4002",
-				"dropType": 8
+				"dropType": "COMPLETE"
 			}
 		]
 	},
+	"canUseCharm": false,
+	"canUseTech": false,
+	"canUseTrapTool": false,
+	"canUseBattlePerformance": false,
 	"startButtonOverrideId": null,
 	"isStagePatch": false,
-	"mainStageId": "act16side_st01"
+	"mainStageId": "act16side_st01",
+	"extraCondition": null,
+	"extraInfo": null
 }

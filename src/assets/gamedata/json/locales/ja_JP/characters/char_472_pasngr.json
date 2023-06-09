@@ -1,8 +1,10 @@
 {
 	"name": "パッセンジャー",
-	"description": "<@ba.kw>3</>体目まで跳躍していく<@ba.kw>術ダメージ</>を敵に与え、跳躍する度ダメージが15%減衰し、敵を一瞬<$ba.sluggish>足止め</>  ",
+	"description": "<@ba.kw>3</>体目まで跳躍していく<@ba.kw>術ダメージ</>を敵に与え、跳躍する度ダメージが15%減衰し、敵を一瞬<@ba.kw>足止め</>  ",
 	"canUseGeneralPotentialItem": true,
+	"canUseActivityPotentialItem": false,
 	"potentialItemId": "p_char_472_pasngr",
+	"activityPotentialItemId": null,
 	"nationId": "sargon",
 	"groupId": null,
 	"teamId": null,
@@ -40,7 +42,7 @@
 						"value": 0.5
 					}
 				],
-				"overrideDescripton": "<@ba.kw>{attack@max_target}</>体目まで跳躍していく<@ba.kw>術ダメージ</>を敵に与え、跳躍する度ダメージが15%減衰し、敵を一瞬<$ba.sluggish>足止め</>(昇進2で効果強化)  ",
+				"overrideDescripton": "<@ba.kw>{attack@max_target}</>体目まで跳躍していく<@ba.kw>術ダメージ</>を敵に与え、跳躍する度ダメージが15%減衰し、敵を一瞬<$ba.sluggish>足止め</>(昇進2で効果強化)",
 				"prefabKey": "-1",
 				"rangeId": null
 			},
@@ -60,7 +62,7 @@
 						"value": 0.5
 					}
 				],
-				"overrideDescripton": "<@ba.kw>{attack@max_target}</>体目まで跳躍していく<@ba.kw>術ダメージ</>を敵に与え、跳躍する度ダメージが15%減衰し、敵を一瞬<$ba.sluggish>足止め</>  ",
+				"overrideDescripton": "<@ba.kw>{attack@max_target}</>体目まで跳躍していく<@ba.kw>術ダメージ</>を敵に与え、跳躍する度ダメージが15%減衰し、敵を一瞬<$ba.sluggish>足止め</>",
 				"prefabKey": "-1",
 				"rangeId": null
 			}
@@ -94,7 +96,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -119,7 +123,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -152,7 +158,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -177,7 +185,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -226,7 +236,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -251,7 +263,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -672,7 +686,7 @@
 	"potentialRanks": [
 		{
 			"type": 0,
-			"description": "コスト-1",
+			"description": "配置コスト-1",
 			"buff": {
 				"attributes": {
 					"abnormalFlags": null,
@@ -724,7 +738,7 @@
 		},
 		{
 			"type": 0,
-			"description": "コスト-1",
+			"description": "配置コスト-1",
 			"buff": {
 				"attributes": {
 					"abnormalFlags": null,
@@ -775,7 +789,9 @@
 				"baseForceLevel": 0,
 				"stunImmune": false,
 				"silenceImmune": false,
-				"sleepImmune": false
+				"sleepImmune": false,
+				"frozenImmune": false,
+				"levitateImmune": false
 			}
 		},
 		{
@@ -800,7 +816,9 @@
 				"baseForceLevel": 0,
 				"stunImmune": false,
 				"silenceImmune": false,
-				"sleepImmune": false
+				"sleepImmune": false,
+				"frozenImmune": false,
+				"levitateImmune": false
 			}
 		}
 	],

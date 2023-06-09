@@ -7,10 +7,10 @@
 			"name": "风沙掩体",
 			"rangeId": null,
 			"description": "阻挡<@ba.vup>沙尘暴</>，加固后立即回复所有生命值、防御力<@ba.vup>+{def}</>且不再受到<@ba.vup>沙尘暴</>的伤害但可以被<高能源石炸弹>直接摧毁。",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 10,
@@ -22,11 +22,13 @@
 			"blackboard": [
 				{
 					"key": "hp_ratio",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "def",
-					"value": 400
+					"value": 400,
+					"valueStr": null
 				}
 			]
 		},
@@ -34,10 +36,10 @@
 			"name": "风沙掩体",
 			"rangeId": null,
 			"description": "加固状态：阻挡<@ba.vup>沙尘暴</>，不再受到<@ba.vup>沙尘暴</>的伤害但可以被<高能源石炸弹>直接摧毁。",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 10,
@@ -49,11 +51,13 @@
 			"blackboard": [
 				{
 					"key": "hp_ratio",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "def",
-					"value": 400
+					"value": 400,
+					"valueStr": null
 				}
 			]
 		}

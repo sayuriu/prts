@@ -7,10 +7,10 @@
 			"name": "食噬之印",
 			"rangeId": "x-2",
 			"description": "攻击范围<@ba.vup>扩大</>，攻击力逐渐增至<@ba.vup>+{atk:0%}</>\\n<$ba.charged>蓄力</>额外效果：每次攻击使目标受到来自卡涅利安的伤害提升<@ba.vup>{attack@damage_scale:0%}</>（最多叠加<@ba.vup>5</>次），持续至技能结束",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 2,
 				"spCost": 28,
@@ -22,11 +22,13 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.8
+					"value": 0.8,
+					"valueStr": null
 				},
 				{
 					"key": "attack@damage_scale",
-					"value": 0.2
+					"value": 0.2,
+					"valueStr": null
 				}
 			]
 		},
@@ -34,10 +36,10 @@
 			"name": "食噬之印",
 			"rangeId": "x-2",
 			"description": "攻击范围<@ba.vup>扩大</>，攻击力逐渐增至<@ba.vup>+{atk:0%}</>\\n<$ba.charged>蓄力</>额外效果：每次攻击使目标受到来自卡涅利安的伤害提升<@ba.vup>{attack@damage_scale:0%}</>（最多叠加<@ba.vup>5</>次），持续至技能结束",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 2,
 				"spCost": 28,
@@ -49,11 +51,13 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "attack@damage_scale",
-					"value": 0.2
+					"value": 0.2,
+					"valueStr": null
 				}
 			]
 		},
@@ -61,10 +65,10 @@
 			"name": "食噬之印",
 			"rangeId": "x-2",
 			"description": "攻击范围<@ba.vup>扩大</>，攻击力逐渐增至<@ba.vup>+{atk:0%}</>\\n<$ba.charged>蓄力</>额外效果：每次攻击使目标受到来自卡涅利安的伤害提升<@ba.vup>{attack@damage_scale:0%}</>（最多叠加<@ba.vup>5</>次），持续至技能结束",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 2,
 				"spCost": 28,
@@ -76,11 +80,13 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 1.2
+					"value": 1.2,
+					"valueStr": null
 				},
 				{
 					"key": "attack@damage_scale",
-					"value": 0.2
+					"value": 0.2,
+					"valueStr": null
 				}
 			]
 		},
@@ -88,10 +94,10 @@
 			"name": "食噬之印",
 			"rangeId": "x-2",
 			"description": "攻击范围<@ba.vup>扩大</>，攻击力逐渐增至<@ba.vup>+{atk:0%}</>\\n<$ba.charged>蓄力</>额外效果：每次攻击使目标受到来自卡涅利安的伤害提升<@ba.vup>{attack@damage_scale:0%}</>（最多叠加<@ba.vup>5</>次），持续至技能结束",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 2,
 				"spCost": 28,
@@ -103,11 +109,13 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 1.4
+					"value": 1.4,
+					"valueStr": null
 				},
 				{
 					"key": "attack@damage_scale",
-					"value": 0.2
+					"value": 0.2,
+					"valueStr": null
 				}
 			]
 		},
@@ -115,10 +123,10 @@
 			"name": "食噬之印",
 			"rangeId": "x-2",
 			"description": "攻击范围<@ba.vup>扩大</>，攻击力逐渐增至<@ba.vup>+{atk:0%}</>\\n<$ba.charged>蓄力</>额外效果：每次攻击使目标受到来自卡涅利安的伤害提升<@ba.vup>{attack@damage_scale:0%}</>（最多叠加<@ba.vup>5</>次），持续至技能结束",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 2,
 				"spCost": 28,
@@ -130,11 +138,13 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 1.6
+					"value": 1.6,
+					"valueStr": null
 				},
 				{
 					"key": "attack@damage_scale",
-					"value": 0.2
+					"value": 0.2,
+					"valueStr": null
 				}
 			]
 		},
@@ -142,10 +152,10 @@
 			"name": "食噬之印",
 			"rangeId": "x-2",
 			"description": "攻击范围<@ba.vup>扩大</>，攻击力逐渐增至<@ba.vup>+{atk:0%}</>\\n<$ba.charged>蓄力</>额外效果：每次攻击使目标受到来自卡涅利安的伤害提升<@ba.vup>{attack@damage_scale:0%}</>（最多叠加<@ba.vup>5</>次），持续至技能结束",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 2,
 				"spCost": 28,
@@ -157,11 +167,13 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 1.8
+					"value": 1.8,
+					"valueStr": null
 				},
 				{
 					"key": "attack@damage_scale",
-					"value": 0.2
+					"value": 0.2,
+					"valueStr": null
 				}
 			]
 		},
@@ -169,10 +181,10 @@
 			"name": "食噬之印",
 			"rangeId": "x-2",
 			"description": "攻击范围<@ba.vup>扩大</>，攻击力逐渐增至<@ba.vup>+{atk:0%}</>\\n<$ba.charged>蓄力</>额外效果：每次攻击使目标受到来自卡涅利安的伤害提升<@ba.vup>{attack@damage_scale:0%}</>（最多叠加<@ba.vup>5</>次），持续至技能结束",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 2,
 				"spCost": 28,
@@ -184,11 +196,13 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				},
 				{
 					"key": "attack@damage_scale",
-					"value": 0.2
+					"value": 0.2,
+					"valueStr": null
 				}
 			]
 		},
@@ -196,10 +210,10 @@
 			"name": "食噬之印",
 			"rangeId": "x-2",
 			"description": "攻击范围<@ba.vup>扩大</>，攻击力逐渐增至<@ba.vup>+{atk:0%}</>\\n<$ba.charged>蓄力</>额外效果：每次攻击使目标受到来自卡涅利安的伤害提升<@ba.vup>{attack@damage_scale:0%}</>（最多叠加<@ba.vup>5</>次），持续至技能结束",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 2,
 				"spCost": 28,
@@ -211,11 +225,13 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 2.2
+					"value": 2.2,
+					"valueStr": null
 				},
 				{
 					"key": "attack@damage_scale",
-					"value": 0.2
+					"value": 0.2,
+					"valueStr": null
 				}
 			]
 		},
@@ -223,10 +239,10 @@
 			"name": "食噬之印",
 			"rangeId": "x-2",
 			"description": "攻击范围<@ba.vup>扩大</>，攻击力逐渐增至<@ba.vup>+{atk:0%}</>\\n<$ba.charged>蓄力</>额外效果：每次攻击使目标受到来自卡涅利安的伤害提升<@ba.vup>{attack@damage_scale:0%}</>（最多叠加<@ba.vup>5</>次），持续至技能结束",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 2,
 				"spCost": 28,
@@ -238,11 +254,13 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 2.4
+					"value": 2.4,
+					"valueStr": null
 				},
 				{
 					"key": "attack@damage_scale",
-					"value": 0.2
+					"value": 0.2,
+					"valueStr": null
 				}
 			]
 		},
@@ -250,10 +268,10 @@
 			"name": "食噬之印",
 			"rangeId": "x-2",
 			"description": "攻击范围<@ba.vup>扩大</>，攻击力逐渐增至<@ba.vup>+{atk:0%}</>\\n<$ba.charged>蓄力</>额外效果：每次攻击使目标受到来自卡涅利安的伤害提升<@ba.vup>{attack@damage_scale:0%}</>（最多叠加<@ba.vup>5</>次），持续至技能结束",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 2,
 				"spCost": 28,
@@ -265,11 +283,13 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 2.8
+					"value": 2.8,
+					"valueStr": null
 				},
 				{
 					"key": "attack@damage_scale",
-					"value": 0.2
+					"value": 0.2,
+					"valueStr": null
 				}
 			]
 		}

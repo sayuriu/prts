@@ -1,0 +1,101 @@
+{
+	"stageType": "ACTIVITY",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
+	"unlockCondition": [
+		{
+			"stageId": "act19side_03",
+			"completeState": "PASS"
+		}
+	],
+	"stageId": "act19side_s01",
+	"levelId": "Activities/act19side/level_act19side_sub-1-1",
+	"zoneId": "act19side_zone1",
+	"code": "DV-S-1",
+	"name": "困心",
+	"description": "当她整理好心绪，做出决定。\\n<@lv.hdbg><R系列动力装甲></>吸收周围实验产物回复技力，技力满时激活。<@lv.hdbg>无法携带部分登场角色</>",
+	"hardStagedId": null,
+	"dangerLevel": "-",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_DV_Headquarters",
+	"canPractice": false,
+	"canBattleReplay": false,
+	"apCost": 0,
+	"apFailReturn": 0,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 0,
+	"diamondOnceDrop": 0,
+	"practiceTicketCost": -1,
+	"dailyStageDifficulty": 0,
+	"expGain": 0,
+	"goldGain": 0,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 0,
+	"completeFavor": 0,
+	"slProgress": 0,
+	"displayMainItem": null,
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": "MAIN_NORMAL",
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "FURN",
+				"id": "furni_rhineLab_incubator_01",
+				"dropType": "ONCE"
+			},
+			{
+				"type": "MATERIAL",
+				"id": "30094",
+				"dropType": "ONCE"
+			},
+			{
+				"type": "MATERIAL",
+				"id": "30054",
+				"dropType": "ONCE"
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": "ALWAYS",
+				"type": "FURN",
+				"id": "furni_rhineLab_incubator_01",
+				"dropType": "ONCE"
+			},
+			{
+				"occPercent": "ALWAYS",
+				"type": "MATERIAL",
+				"id": "30094",
+				"dropType": "ONCE"
+			},
+			{
+				"occPercent": "ALWAYS",
+				"type": "MATERIAL",
+				"id": "30054",
+				"dropType": "ONCE"
+			}
+		]
+	},
+	"canUseCharm": false,
+	"canUseTech": false,
+	"canUseTrapTool": false,
+	"canUseBattlePerformance": false,
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "act19side_st01",
+	"extraCondition": null,
+	"extraInfo": null
+}

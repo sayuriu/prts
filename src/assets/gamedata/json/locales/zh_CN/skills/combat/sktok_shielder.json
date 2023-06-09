@@ -1,0 +1,36 @@
+{
+	"skillId": "sktok_shielder",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "护盾提供",
+			"rangeId": null,
+			"description": "每隔一段时间为一位友方单位提供<$ba.barrier>屏障</>",
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 5,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "sktok_shielder",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "shield_scale",
+					"value": 0.1,
+					"valueStr": null
+				},
+				{
+					"key": "shield_scale_max",
+					"value": 2,
+					"valueStr": null
+				}
+			]
+		}
+	]
+}

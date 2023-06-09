@@ -1,0 +1,437 @@
+{
+	"skillId": "skchr_quartz_2",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "All-Out Clash",
+			"rangeId": null,
+			"description": "Increases damage taken by <@ba.vdown>{fake_damage:0%}</>, ASPD <@ba.vup>+{attack_speed}</>, each attack deals <@ba.vup>{attack@s2_atk_scale:0%}</> ATK as Physical damage and has a <@ba.vup>{attack@s2_buff_prob:0%}</> chance to <$ba.stun>Stun</> the target for <@ba.vup>{attack@s2_stun}</> seconds",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 55,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_quartz_2",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "damage_scale",
+					"value": 1.25
+				},
+				{
+					"key": "attack_speed",
+					"value": 35
+				},
+				{
+					"key": "attack@s2_atk_scale",
+					"value": 0.8
+				},
+				{
+					"key": "attack@s2_buff_prob",
+					"value": 0.25
+				},
+				{
+					"key": "attack@s2_stun",
+					"value": 2
+				},
+				{
+					"key": "fake_damage",
+					"value": 0.25
+				}
+			]
+		},
+		{
+			"name": "All-Out Clash",
+			"rangeId": null,
+			"description": "Increases damage taken by <@ba.vdown>{fake_damage:0%}</>, ASPD <@ba.vup>+{attack_speed}</>, each attack deals <@ba.vup>{attack@s2_atk_scale:0%}</> ATK as Physical damage and has a <@ba.vup>{attack@s2_buff_prob:0%}</> chance to <$ba.stun>Stun</> the target for <@ba.vup>{attack@s2_stun}</> seconds",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 55,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_quartz_2",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "damage_scale",
+					"value": 1.25
+				},
+				{
+					"key": "attack_speed",
+					"value": 40
+				},
+				{
+					"key": "attack@s2_atk_scale",
+					"value": 0.8
+				},
+				{
+					"key": "attack@s2_buff_prob",
+					"value": 0.25
+				},
+				{
+					"key": "attack@s2_stun",
+					"value": 2
+				},
+				{
+					"key": "fake_damage",
+					"value": 0.25
+				}
+			]
+		},
+		{
+			"name": "All-Out Clash",
+			"rangeId": null,
+			"description": "Increases damage taken by <@ba.vdown>{fake_damage:0%}</>, ASPD <@ba.vup>+{attack_speed}</>, each attack deals <@ba.vup>{attack@s2_atk_scale:0%}</> ATK as Physical damage and has a <@ba.vup>{attack@s2_buff_prob:0%}</> chance to <$ba.stun>Stun</> the target for <@ba.vup>{attack@s2_stun}</> seconds",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 55,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_quartz_2",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "damage_scale",
+					"value": 1.25
+				},
+				{
+					"key": "attack_speed",
+					"value": 45
+				},
+				{
+					"key": "attack@s2_atk_scale",
+					"value": 0.8
+				},
+				{
+					"key": "attack@s2_buff_prob",
+					"value": 0.25
+				},
+				{
+					"key": "attack@s2_stun",
+					"value": 2
+				},
+				{
+					"key": "fake_damage",
+					"value": 0.25
+				}
+			]
+		},
+		{
+			"name": "All-Out Clash",
+			"rangeId": null,
+			"description": "Increases damage taken by <@ba.vdown>{fake_damage:0%}</>, ASPD <@ba.vup>+{attack_speed}</>, each attack deals <@ba.vup>{attack@s2_atk_scale:0%}</> ATK as Physical damage and has a <@ba.vup>{attack@s2_buff_prob:0%}</> chance to <$ba.stun>Stun</> the target for <@ba.vup>{attack@s2_stun}</> seconds",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 50,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_quartz_2",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "damage_scale",
+					"value": 1.25
+				},
+				{
+					"key": "attack_speed",
+					"value": 50
+				},
+				{
+					"key": "attack@s2_atk_scale",
+					"value": 0.9
+				},
+				{
+					"key": "attack@s2_buff_prob",
+					"value": 0.25
+				},
+				{
+					"key": "attack@s2_stun",
+					"value": 2
+				},
+				{
+					"key": "fake_damage",
+					"value": 0.25
+				}
+			]
+		},
+		{
+			"name": "All-Out Clash",
+			"rangeId": null,
+			"description": "Increases damage taken by <@ba.vdown>{fake_damage:0%}</>, ASPD <@ba.vup>+{attack_speed}</>, each attack deals <@ba.vup>{attack@s2_atk_scale:0%}</> ATK as Physical damage and has a <@ba.vup>{attack@s2_buff_prob:0%}</> chance to <$ba.stun>Stun</> the target for <@ba.vup>{attack@s2_stun}</> seconds",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 50,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_quartz_2",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "damage_scale",
+					"value": 1.25
+				},
+				{
+					"key": "attack_speed",
+					"value": 55
+				},
+				{
+					"key": "attack@s2_atk_scale",
+					"value": 0.9
+				},
+				{
+					"key": "attack@s2_buff_prob",
+					"value": 0.25
+				},
+				{
+					"key": "attack@s2_stun",
+					"value": 2
+				},
+				{
+					"key": "fake_damage",
+					"value": 0.25
+				}
+			]
+		},
+		{
+			"name": "All-Out Clash",
+			"rangeId": null,
+			"description": "Increases damage taken by <@ba.vdown>{fake_damage:0%}</>, ASPD <@ba.vup>+{attack_speed}</>, each attack deals <@ba.vup>{attack@s2_atk_scale:0%}</> ATK as Physical damage and has a <@ba.vup>{attack@s2_buff_prob:0%}</> chance to <$ba.stun>Stun</> the target for <@ba.vup>{attack@s2_stun}</> seconds",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 50,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_quartz_2",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "damage_scale",
+					"value": 1.25
+				},
+				{
+					"key": "attack_speed",
+					"value": 60
+				},
+				{
+					"key": "attack@s2_atk_scale",
+					"value": 0.9
+				},
+				{
+					"key": "attack@s2_buff_prob",
+					"value": 0.25
+				},
+				{
+					"key": "attack@s2_stun",
+					"value": 2
+				},
+				{
+					"key": "fake_damage",
+					"value": 0.25
+				}
+			]
+		},
+		{
+			"name": "All-Out Clash",
+			"rangeId": null,
+			"description": "Increases damage taken by <@ba.vdown>{fake_damage:0%}</>, ASPD <@ba.vup>+{attack_speed}</>, each attack deals <@ba.vup>{attack@s2_atk_scale:0%}</> ATK as Physical damage and has a <@ba.vup>{attack@s2_buff_prob:0%}</> chance to <$ba.stun>Stun</> the target for <@ba.vup>{attack@s2_stun}</> seconds",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 45,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_quartz_2",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "damage_scale",
+					"value": 1.25
+				},
+				{
+					"key": "attack_speed",
+					"value": 65
+				},
+				{
+					"key": "attack@s2_atk_scale",
+					"value": 1
+				},
+				{
+					"key": "attack@s2_buff_prob",
+					"value": 0.25
+				},
+				{
+					"key": "attack@s2_stun",
+					"value": 2
+				},
+				{
+					"key": "fake_damage",
+					"value": 0.25
+				}
+			]
+		},
+		{
+			"name": "All-Out Clash",
+			"rangeId": null,
+			"description": "Increases damage taken by <@ba.vdown>{fake_damage:0%}</>, ASPD <@ba.vup>+{attack_speed}</>, each attack deals <@ba.vup>{attack@s2_atk_scale:0%}</> ATK as Physical damage and has a <@ba.vup>{attack@s2_buff_prob:0%}</> chance to <$ba.stun>Stun</> the target for <@ba.vup>{attack@s2_stun}</> seconds",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 45,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_quartz_2",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "damage_scale",
+					"value": 1.25
+				},
+				{
+					"key": "attack_speed",
+					"value": 70
+				},
+				{
+					"key": "attack@s2_atk_scale",
+					"value": 1
+				},
+				{
+					"key": "attack@s2_buff_prob",
+					"value": 0.25
+				},
+				{
+					"key": "attack@s2_stun",
+					"value": 2
+				},
+				{
+					"key": "fake_damage",
+					"value": 0.25
+				}
+			]
+		},
+		{
+			"name": "All-Out Clash",
+			"rangeId": null,
+			"description": "Increases damage taken by <@ba.vdown>{fake_damage:0%}</>, ASPD <@ba.vup>+{attack_speed}</>, each attack deals <@ba.vup>{attack@s2_atk_scale:0%}</> ATK as Physical damage and has a <@ba.vup>{attack@s2_buff_prob:0%}</> chance to <$ba.stun>Stun</> the target for <@ba.vup>{attack@s2_stun}</> seconds",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 45,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_quartz_2",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "damage_scale",
+					"value": 1.25
+				},
+				{
+					"key": "attack_speed",
+					"value": 75
+				},
+				{
+					"key": "attack@s2_atk_scale",
+					"value": 1
+				},
+				{
+					"key": "attack@s2_buff_prob",
+					"value": 0.25
+				},
+				{
+					"key": "attack@s2_stun",
+					"value": 2
+				},
+				{
+					"key": "fake_damage",
+					"value": 0.25
+				}
+			]
+		},
+		{
+			"name": "All-Out Clash",
+			"rangeId": null,
+			"description": "Increases damage taken by <@ba.vdown>{fake_damage:0%}</>, ASPD <@ba.vup>+{attack_speed}</>, each attack deals <@ba.vup>{attack@s2_atk_scale:0%}</> ATK as Physical damage and has a <@ba.vup>{attack@s2_buff_prob:0%}</> chance to <$ba.stun>Stun</> the target for <@ba.vup>{attack@s2_stun}</> seconds",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 40,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_quartz_2",
+			"duration": 20,
+			"blackboard": [
+				{
+					"key": "damage_scale",
+					"value": 1.25
+				},
+				{
+					"key": "attack_speed",
+					"value": 80
+				},
+				{
+					"key": "attack@s2_atk_scale",
+					"value": 1.2
+				},
+				{
+					"key": "attack@s2_buff_prob",
+					"value": 0.25
+				},
+				{
+					"key": "attack@s2_stun",
+					"value": 2
+				},
+				{
+					"key": "fake_damage",
+					"value": 0.25
+				}
+			]
+		}
+	]
+}

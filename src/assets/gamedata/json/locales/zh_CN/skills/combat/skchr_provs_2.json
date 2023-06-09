@@ -1,0 +1,397 @@
+{
+	"skillId": "skchr_provs_2",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "致胜立论",
+			"rangeId": "y-2",
+			"description": "对攻击范围内所有单位造成一次相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害使其<$ba.sluggish>停顿</>并失去特殊能力，持续<@ba.vup>{sluggish}秒</>，之后自身攻击间隔缩短",
+			"skillType": "MANUAL",
+			"durationType": "LIMITED",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 30,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_provs_2",
+			"duration": 6,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 2,
+					"valueStr": null
+				},
+				{
+					"key": "sluggish",
+					"value": 6,
+					"valueStr": null
+				},
+				{
+					"key": "silence",
+					"value": 6,
+					"valueStr": null
+				},
+				{
+					"key": "base_attack_time",
+					"value": -0.8,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "致胜立论",
+			"rangeId": "y-2",
+			"description": "对攻击范围内所有单位造成一次相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害使其<$ba.sluggish>停顿</>并失去特殊能力，持续<@ba.vup>{sluggish}秒</>，之后自身攻击间隔缩短",
+			"skillType": "MANUAL",
+			"durationType": "LIMITED",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 30,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_provs_2",
+			"duration": 6,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 2.1,
+					"valueStr": null
+				},
+				{
+					"key": "sluggish",
+					"value": 6,
+					"valueStr": null
+				},
+				{
+					"key": "silence",
+					"value": 6,
+					"valueStr": null
+				},
+				{
+					"key": "base_attack_time",
+					"value": -0.8,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "致胜立论",
+			"rangeId": "y-2",
+			"description": "对攻击范围内所有单位造成一次相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害使其<$ba.sluggish>停顿</>并失去特殊能力，持续<@ba.vup>{sluggish}秒</>，之后自身攻击间隔缩短",
+			"skillType": "MANUAL",
+			"durationType": "LIMITED",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 30,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_provs_2",
+			"duration": 6,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 2.3,
+					"valueStr": null
+				},
+				{
+					"key": "sluggish",
+					"value": 6,
+					"valueStr": null
+				},
+				{
+					"key": "silence",
+					"value": 6,
+					"valueStr": null
+				},
+				{
+					"key": "base_attack_time",
+					"value": -0.8,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "致胜立论",
+			"rangeId": "y-2",
+			"description": "对攻击范围内所有单位造成一次相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害使其<$ba.sluggish>停顿</>并失去特殊能力，持续<@ba.vup>{sluggish}秒</>，之后自身攻击间隔较大幅度缩短",
+			"skillType": "MANUAL",
+			"durationType": "LIMITED",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 30,
+				"initSp": 5,
+				"increment": 1
+			},
+			"prefabId": "skchr_provs_2",
+			"duration": 6,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 2.5,
+					"valueStr": null
+				},
+				{
+					"key": "sluggish",
+					"value": 6,
+					"valueStr": null
+				},
+				{
+					"key": "silence",
+					"value": 6,
+					"valueStr": null
+				},
+				{
+					"key": "base_attack_time",
+					"value": -0.9,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "致胜立论",
+			"rangeId": "y-2",
+			"description": "对攻击范围内所有单位造成一次相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害使其<$ba.sluggish>停顿</>并失去特殊能力，持续<@ba.vup>{sluggish}秒</>，之后自身攻击间隔较大幅度缩短",
+			"skillType": "MANUAL",
+			"durationType": "LIMITED",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 30,
+				"initSp": 5,
+				"increment": 1
+			},
+			"prefabId": "skchr_provs_2",
+			"duration": 6,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 2.6,
+					"valueStr": null
+				},
+				{
+					"key": "sluggish",
+					"value": 6,
+					"valueStr": null
+				},
+				{
+					"key": "silence",
+					"value": 6,
+					"valueStr": null
+				},
+				{
+					"key": "base_attack_time",
+					"value": -0.9,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "致胜立论",
+			"rangeId": "y-2",
+			"description": "对攻击范围内所有单位造成一次相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害使其<$ba.sluggish>停顿</>并失去特殊能力，持续<@ba.vup>{sluggish}秒</>，之后自身攻击间隔较大幅度缩短",
+			"skillType": "MANUAL",
+			"durationType": "LIMITED",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 30,
+				"initSp": 5,
+				"increment": 1
+			},
+			"prefabId": "skchr_provs_2",
+			"duration": 6,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 2.7,
+					"valueStr": null
+				},
+				{
+					"key": "sluggish",
+					"value": 6,
+					"valueStr": null
+				},
+				{
+					"key": "silence",
+					"value": 6,
+					"valueStr": null
+				},
+				{
+					"key": "base_attack_time",
+					"value": -0.9,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "致胜立论",
+			"rangeId": "y-2",
+			"description": "对攻击范围内所有单位造成一次相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害使其<$ba.sluggish>停顿</>并失去特殊能力，持续<@ba.vup>{sluggish}秒</>，之后自身攻击间隔大幅度缩短",
+			"skillType": "MANUAL",
+			"durationType": "LIMITED",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 25,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_provs_2",
+			"duration": 7,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 2.8,
+					"valueStr": null
+				},
+				{
+					"key": "sluggish",
+					"value": 7,
+					"valueStr": null
+				},
+				{
+					"key": "silence",
+					"value": 7,
+					"valueStr": null
+				},
+				{
+					"key": "base_attack_time",
+					"value": -1,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "致胜立论",
+			"rangeId": "y-2",
+			"description": "对攻击范围内所有单位造成一次相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害使其<$ba.sluggish>停顿</>并失去特殊能力，持续<@ba.vup>{sluggish}秒</>，之后自身攻击间隔大幅度缩短",
+			"skillType": "MANUAL",
+			"durationType": "LIMITED",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 25,
+				"initSp": 12,
+				"increment": 1
+			},
+			"prefabId": "skchr_provs_2",
+			"duration": 8,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 3,
+					"valueStr": null
+				},
+				{
+					"key": "sluggish",
+					"value": 8,
+					"valueStr": null
+				},
+				{
+					"key": "silence",
+					"value": 8,
+					"valueStr": null
+				},
+				{
+					"key": "base_attack_time",
+					"value": -1,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "致胜立论",
+			"rangeId": "y-2",
+			"description": "对攻击范围内所有单位造成一次相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害使其<$ba.sluggish>停顿</>并失去特殊能力，持续<@ba.vup>{sluggish}秒</>，之后自身攻击间隔大幅度缩短",
+			"skillType": "MANUAL",
+			"durationType": "LIMITED",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 25,
+				"initSp": 12,
+				"increment": 1
+			},
+			"prefabId": "skchr_provs_2",
+			"duration": 9,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 3.2,
+					"valueStr": null
+				},
+				{
+					"key": "sluggish",
+					"value": 9,
+					"valueStr": null
+				},
+				{
+					"key": "silence",
+					"value": 9,
+					"valueStr": null
+				},
+				{
+					"key": "base_attack_time",
+					"value": -1,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "致胜立论",
+			"rangeId": "y-2",
+			"description": "对攻击范围内所有单位造成一次相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害使其<$ba.sluggish>停顿</>并失去特殊能力，持续<@ba.vup>{sluggish}秒</>，之后自身攻击间隔极大幅度缩短",
+			"skillType": "MANUAL",
+			"durationType": "LIMITED",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 25,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_provs_2",
+			"duration": 10,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 3.5,
+					"valueStr": null
+				},
+				{
+					"key": "sluggish",
+					"value": 10,
+					"valueStr": null
+				},
+				{
+					"key": "silence",
+					"value": 10,
+					"valueStr": null
+				},
+				{
+					"key": "base_attack_time",
+					"value": -1.1,
+					"valueStr": null
+				}
+			]
+		}
+	]
+}

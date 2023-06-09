@@ -6,7 +6,7 @@
 	"iconId": "MTL_SL_RUSH4",
 	"overrideBkg": null,
 	"stackIconId": null,
-	"sortId": 100020,
+	"sortId": 100034,
 	"usage": "工业制造所需的成块聚酸酯，可用于多种强化场合，也常作为制造站合成项目的原料。",
 	"obtainApproach": null,
 	"classifyType": "MATERIAL",
@@ -22,6 +22,14 @@
 		},
 		{
 			"stageId": "main_09-06",
+			"occPer": "SOMETIMES"
+		},
+		{
+			"stageId": "main_12-16",
+			"occPer": "SOMETIMES"
+		},
+		{
+			"stageId": "tough_12-16",
 			"occPer": "SOMETIMES"
 		}
 	],

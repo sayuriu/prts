@@ -1,0 +1,30 @@
+{
+	"skillId": "sktok_garage_2",
+	"iconId": "sktok_garage",
+	"hidden": false,
+	"levels": [
+		{
+			"name": "セルカー発進！",
+			"rangeId": null,
+			"description": "起動後、配置方向に<@ba.vup>セルカー</>を発進させ続ける。セルカーを発進させるたびにコストを<@ba.vup>{cost}</>消費し、もう一度スキルを使うと停止する\n<@ba.rem>発進されたセルカーは直線に進み、通行不可のマスに進行すると離脱する。ターンテーブルや味方ユニットを通過する際には、対象の配置方向へと方向転換する（対象ごとに一回まで）</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 10,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "sktok_garage_2",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "cost",
+					"value": 3
+				}
+			]
+		}
+	]
+}

@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act15d0_ex03",
@@ -10,10 +11,10 @@
 	],
 	"stageId": "act15d0_ex04",
 	"levelId": "Activities/ACT15D0/level_act15d0_ex04",
-	"zoneId": "act15d0_zone2",
+	"zoneId": "act8sre_zone2",
 	"code": "MB-EX-4",
 	"name": "Prison Walkway",
-	"description": "Prisoners don't like making a battlefield out of the walkway because it's too narrow. However, beggars can't be choosers. \n<@lv.item><Imprisonment Device></>Imprisons freed enemies within its effect area.",
+	"description": "Prisoners don't like making a battlefield out of the walkway because it's too narrow. However, beggars can't be choosers. \n<@lv.item><Imprisonment Device></> Imprisons freed enemies within its effect area",
 	"hardStagedId": "act15d0_ex04#f#",
 	"dangerLevel": "Elite 1 Lv. 70",
 	"dangerPoint": -1,
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {
@@ -52,7 +54,7 @@
 		"displayRewards": [
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act15d0_token_ironSheet",
+				"id": "act15d0_token_ironSheet_rep_1",
 				"dropType": 8
 			},
 			{
@@ -65,7 +67,7 @@
 			{
 				"occPercent": 0,
 				"type": "ACTIVITY_ITEM",
-				"id": "act15d0_token_ironSheet",
+				"id": "act15d0_token_ironSheet_rep_1",
 				"dropType": 8
 			},
 			{

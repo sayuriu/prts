@@ -7,10 +7,10 @@
 			"name": "阻挡弹",
 			"rangeId": null,
 			"description": "攻击范围<@ba.vup>+{ability_range_forward_extend}格</>，且攻击会使目标<$ba.sluggish>停顿</><@ba.vup>{attack@sluggish}</>秒",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 35,
@@ -22,11 +22,13 @@
 			"blackboard": [
 				{
 					"key": "ability_range_forward_extend",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "attack@sluggish",
-					"value": 0.6
+					"value": 0.6,
+					"valueStr": null
 				}
 			]
 		},
@@ -34,10 +36,10 @@
 			"name": "阻挡弹",
 			"rangeId": null,
 			"description": "攻击范围<@ba.vup>+{ability_range_forward_extend}格</>，且攻击会使目标<$ba.sluggish>停顿</><@ba.vup>{attack@sluggish}</>秒",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 34,
@@ -49,11 +51,13 @@
 			"blackboard": [
 				{
 					"key": "ability_range_forward_extend",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "attack@sluggish",
-					"value": 0.6
+					"value": 0.6,
+					"valueStr": null
 				}
 			]
 		},
@@ -61,10 +65,10 @@
 			"name": "阻挡弹",
 			"rangeId": null,
 			"description": "攻击范围<@ba.vup>+{ability_range_forward_extend}格</>，且攻击会使目标<$ba.sluggish>停顿</><@ba.vup>{attack@sluggish}</>秒",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 33,
@@ -76,11 +80,13 @@
 			"blackboard": [
 				{
 					"key": "ability_range_forward_extend",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "attack@sluggish",
-					"value": 0.6
+					"value": 0.6,
+					"valueStr": null
 				}
 			]
 		},
@@ -88,10 +94,10 @@
 			"name": "阻挡弹",
 			"rangeId": null,
 			"description": "攻击范围<@ba.vup>+{ability_range_forward_extend}格</>，且攻击会使目标<$ba.sluggish>停顿</><@ba.vup>{attack@sluggish}</>秒",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 32,
@@ -103,11 +109,13 @@
 			"blackboard": [
 				{
 					"key": "ability_range_forward_extend",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "attack@sluggish",
-					"value": 0.7
+					"value": 0.7,
+					"valueStr": null
 				}
 			]
 		},
@@ -115,10 +123,10 @@
 			"name": "阻挡弹",
 			"rangeId": null,
 			"description": "攻击范围<@ba.vup>+{ability_range_forward_extend}格</>，且攻击会使目标<$ba.sluggish>停顿</><@ba.vup>{attack@sluggish}</>秒",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 31,
@@ -130,11 +138,13 @@
 			"blackboard": [
 				{
 					"key": "ability_range_forward_extend",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "attack@sluggish",
-					"value": 0.7
+					"value": 0.7,
+					"valueStr": null
 				}
 			]
 		},
@@ -142,10 +152,10 @@
 			"name": "阻挡弹",
 			"rangeId": null,
 			"description": "攻击范围<@ba.vup>+{ability_range_forward_extend}格</>，且攻击会使目标<$ba.sluggish>停顿</><@ba.vup>{attack@sluggish}</>秒",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 30,
@@ -157,11 +167,13 @@
 			"blackboard": [
 				{
 					"key": "ability_range_forward_extend",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "attack@sluggish",
-					"value": 0.7
+					"value": 0.7,
+					"valueStr": null
 				}
 			]
 		},
@@ -169,10 +181,10 @@
 			"name": "阻挡弹",
 			"rangeId": null,
 			"description": "攻击范围<@ba.vup>+{ability_range_forward_extend}格</>，且攻击会使目标<$ba.sluggish>停顿</><@ba.vup>{attack@sluggish}</>秒",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 29,
@@ -184,11 +196,13 @@
 			"blackboard": [
 				{
 					"key": "ability_range_forward_extend",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "attack@sluggish",
-					"value": 0.8
+					"value": 0.8,
+					"valueStr": null
 				}
 			]
 		},
@@ -196,10 +210,10 @@
 			"name": "阻挡弹",
 			"rangeId": null,
 			"description": "攻击范围<@ba.vup>+{ability_range_forward_extend}格</>，且攻击会使目标<$ba.sluggish>停顿</><@ba.vup>{attack@sluggish}</>秒",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 28,
@@ -211,11 +225,13 @@
 			"blackboard": [
 				{
 					"key": "ability_range_forward_extend",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "attack@sluggish",
-					"value": 0.8
+					"value": 0.8,
+					"valueStr": null
 				}
 			]
 		},
@@ -223,10 +239,10 @@
 			"name": "阻挡弹",
 			"rangeId": null,
 			"description": "攻击范围<@ba.vup>+{ability_range_forward_extend}格</>，且攻击会使目标<$ba.sluggish>停顿</><@ba.vup>{attack@sluggish}</>秒",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 27,
@@ -238,11 +254,13 @@
 			"blackboard": [
 				{
 					"key": "ability_range_forward_extend",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "attack@sluggish",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -250,10 +268,10 @@
 			"name": "阻挡弹",
 			"rangeId": null,
 			"description": "攻击范围<@ba.vup>+{ability_range_forward_extend}格</>，且攻击会使目标<$ba.sluggish>停顿</><@ba.vup>{attack@sluggish}</>秒",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 25,
@@ -265,11 +283,13 @@
 			"blackboard": [
 				{
 					"key": "ability_range_forward_extend",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "attack@sluggish",
-					"value": 1.2
+					"value": 1.2,
+					"valueStr": null
 				}
 			]
 		}

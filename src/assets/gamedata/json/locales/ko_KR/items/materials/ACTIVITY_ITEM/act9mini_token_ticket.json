@@ -1,0 +1,41 @@
+{
+	"itemId": "act9mini_token_ticket",
+	"name": "리시치 티켓",
+	"description": "어느 기사 귀족 가문이 운영하는 기업에서 발행한 기사 스포츠 복권. 하루아침에 벼락부자가 되거나 패가망신할 수 있다. 이 작은 티켓에 노름꾼들의 희노애락, 그리고 피와 눈물이 담겨있다.",
+	"rarity": 4,
+	"iconId": "act9mini_token_ticket",
+	"overrideBkg": null,
+	"stackIconId": null,
+	"sortId": -10000,
+	"usage": "피누스 실베스트리스 라벨이 새겨진 기사 스포츠 복권. 이 복권으로 교환소에서 해당하는 상금을 교환할 수 있다. 큰돈을 벌어보자!",
+	"obtainApproach": "이벤트 기간 동안 스테이지 한정 드랍",
+	"classifyType": "NONE",
+	"itemType": "ACTIVITY_ITEM",
+	"stageDropList": [
+		{
+			"stageId": "act9mini_01",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "act9mini_02",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "act9mini_03",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "act9mini_04",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "act9mini_05",
+			"occPer": "ALWAYS"
+		},
+		{
+			"stageId": "act9mini_06",
+			"occPer": "ALWAYS"
+		}
+	],
+	"buildingProductList": []
+}

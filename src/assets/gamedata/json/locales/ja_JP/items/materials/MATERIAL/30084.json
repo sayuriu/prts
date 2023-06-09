@@ -6,7 +6,7 @@
 	"iconId": "MTL_SL_MANGANESE2",
 	"overrideBkg": null,
 	"stackIconId": null,
-	"sortId": 100006,
+	"sortId": 100020,
 	"usage": "精製や製錬に用いられる金属鉱物。昇進やスキル強化に必要な素材。D32鋼の原料にも用いられる。",
 	"obtainApproach": null,
 	"classifyType": "MATERIAL",
@@ -26,6 +26,14 @@
 		},
 		{
 			"stageId": "main_09-13",
+			"occPer": "SOMETIMES"
+		},
+		{
+			"stageId": "main_10-06",
+			"occPer": "SOMETIMES"
+		},
+		{
+			"stageId": "tough_10-06",
 			"occPer": "SOMETIMES"
 		}
 	],

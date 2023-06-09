@@ -7,10 +7,10 @@
 			"name": "反击电弧",
 			"rangeId": null,
 			"description": "攻击间隔<@ba.vdown>增大</>，攻击力<@ba.vup>+{atk:0%}</>，每次攻击对最多<@ba.vup>{attack@max_target}</>个敌人造成<@ba.vup>法术伤害</>，并有<@ba.vup>{attack@buff_prob:0%}</>概率使命中目标<$ba.stun>晕眩</><@ba.vup>{attack@stun}</>秒\\n<@ba.rem>持续时间结束后雷蛇<$ba.stun>晕眩</>{stun}秒</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 4,
+				"spType": "INCREASE_WHEN_TAKEN_DAMAGE",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 44,
@@ -22,27 +22,33 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.85
+					"value": 0.85,
+					"valueStr": null
 				},
 				{
 					"key": "base_attack_time",
-					"value": 0.7
+					"value": 0.7,
+					"valueStr": null
 				},
 				{
 					"key": "attack@buff_prob",
-					"value": 0.1
+					"value": 0.1,
+					"valueStr": null
 				},
 				{
 					"key": "attack@stun",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "stun",
-					"value": 5
+					"value": 5,
+					"valueStr": null
 				},
 				{
 					"key": "attack@max_target",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				}
 			]
 		},
@@ -50,10 +56,10 @@
 			"name": "反击电弧",
 			"rangeId": null,
 			"description": "攻击间隔<@ba.vdown>增大</>，攻击力<@ba.vup>+{atk:0%}</>，每次攻击对最多<@ba.vup>{attack@max_target}</>个敌人造成<@ba.vup>法术伤害</>，并有<@ba.vup>{attack@buff_prob:0%}</>概率使命中目标<$ba.stun>晕眩</><@ba.vup>{attack@stun}</>秒\\n<@ba.rem>持续时间结束后雷蛇<$ba.stun>晕眩</>{stun}秒</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 4,
+				"spType": "INCREASE_WHEN_TAKEN_DAMAGE",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 43,
@@ -65,27 +71,33 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.9
+					"value": 0.9,
+					"valueStr": null
 				},
 				{
 					"key": "base_attack_time",
-					"value": 0.7
+					"value": 0.7,
+					"valueStr": null
 				},
 				{
 					"key": "attack@buff_prob",
-					"value": 0.1
+					"value": 0.1,
+					"valueStr": null
 				},
 				{
 					"key": "attack@stun",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "stun",
-					"value": 5
+					"value": 5,
+					"valueStr": null
 				},
 				{
 					"key": "attack@max_target",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				}
 			]
 		},
@@ -93,10 +105,10 @@
 			"name": "反击电弧",
 			"rangeId": null,
 			"description": "攻击间隔<@ba.vdown>增大</>，攻击力<@ba.vup>+{atk:0%}</>，每次攻击对最多<@ba.vup>{attack@max_target}</>个敌人造成<@ba.vup>法术伤害</>，并有<@ba.vup>{attack@buff_prob:0%}</>概率使命中目标<$ba.stun>晕眩</><@ba.vup>{attack@stun}</>秒\\n<@ba.rem>持续时间结束后雷蛇<$ba.stun>晕眩</>{stun}秒</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 4,
+				"spType": "INCREASE_WHEN_TAKEN_DAMAGE",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 42,
@@ -108,27 +120,33 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 0.95
+					"value": 0.95,
+					"valueStr": null
 				},
 				{
 					"key": "base_attack_time",
-					"value": 0.7
+					"value": 0.7,
+					"valueStr": null
 				},
 				{
 					"key": "attack@buff_prob",
-					"value": 0.1
+					"value": 0.1,
+					"valueStr": null
 				},
 				{
 					"key": "attack@stun",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "stun",
-					"value": 5
+					"value": 5,
+					"valueStr": null
 				},
 				{
 					"key": "attack@max_target",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				}
 			]
 		},
@@ -136,10 +154,10 @@
 			"name": "反击电弧",
 			"rangeId": null,
 			"description": "攻击间隔<@ba.vdown>增大</>，攻击力<@ba.vup>+{atk:0%}</>，每次攻击对最多<@ba.vup>{attack@max_target}</>个敌人造成<@ba.vup>法术伤害</>，并有<@ba.vup>{attack@buff_prob:0%}</>概率使命中目标<$ba.stun>晕眩</><@ba.vup>{attack@stun}</>秒\\n<@ba.rem>持续时间结束后雷蛇<$ba.stun>晕眩</>{stun}秒</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 4,
+				"spType": "INCREASE_WHEN_TAKEN_DAMAGE",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 41,
@@ -151,27 +169,33 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 1.05
+					"value": 1.05,
+					"valueStr": null
 				},
 				{
 					"key": "base_attack_time",
-					"value": 0.7
+					"value": 0.7,
+					"valueStr": null
 				},
 				{
 					"key": "attack@buff_prob",
-					"value": 0.15
+					"value": 0.15,
+					"valueStr": null
 				},
 				{
 					"key": "attack@stun",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "stun",
-					"value": 5
+					"value": 5,
+					"valueStr": null
 				},
 				{
 					"key": "attack@max_target",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				}
 			]
 		},
@@ -179,10 +203,10 @@
 			"name": "反击电弧",
 			"rangeId": null,
 			"description": "攻击间隔<@ba.vdown>增大</>，攻击力<@ba.vup>+{atk:0%}</>，每次攻击对最多<@ba.vup>{attack@max_target}</>个敌人造成<@ba.vup>法术伤害</>，并有<@ba.vup>{attack@buff_prob:0%}</>概率使命中目标<$ba.stun>晕眩</><@ba.vup>{attack@stun}</>秒\\n<@ba.rem>持续时间结束后雷蛇<$ba.stun>晕眩</>{stun}秒</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 4,
+				"spType": "INCREASE_WHEN_TAKEN_DAMAGE",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 40,
@@ -194,27 +218,33 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 1.1
+					"value": 1.1,
+					"valueStr": null
 				},
 				{
 					"key": "base_attack_time",
-					"value": 0.7
+					"value": 0.7,
+					"valueStr": null
 				},
 				{
 					"key": "attack@buff_prob",
-					"value": 0.15
+					"value": 0.15,
+					"valueStr": null
 				},
 				{
 					"key": "attack@stun",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "stun",
-					"value": 5
+					"value": 5,
+					"valueStr": null
 				},
 				{
 					"key": "attack@max_target",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				}
 			]
 		},
@@ -222,10 +252,10 @@
 			"name": "反击电弧",
 			"rangeId": null,
 			"description": "攻击间隔<@ba.vdown>增大</>，攻击力<@ba.vup>+{atk:0%}</>，每次攻击对最多<@ba.vup>{attack@max_target}</>个敌人造成<@ba.vup>法术伤害</>，并有<@ba.vup>{attack@buff_prob:0%}</>概率使命中目标<$ba.stun>晕眩</><@ba.vup>{attack@stun}</>秒\\n<@ba.rem>持续时间结束后雷蛇<$ba.stun>晕眩</>{stun}秒</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 4,
+				"spType": "INCREASE_WHEN_TAKEN_DAMAGE",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 39,
@@ -237,27 +267,33 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 1.15
+					"value": 1.15,
+					"valueStr": null
 				},
 				{
 					"key": "base_attack_time",
-					"value": 0.7
+					"value": 0.7,
+					"valueStr": null
 				},
 				{
 					"key": "attack@buff_prob",
-					"value": 0.15
+					"value": 0.15,
+					"valueStr": null
 				},
 				{
 					"key": "attack@stun",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "stun",
-					"value": 5
+					"value": 5,
+					"valueStr": null
 				},
 				{
 					"key": "attack@max_target",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				}
 			]
 		},
@@ -265,10 +301,10 @@
 			"name": "反击电弧",
 			"rangeId": null,
 			"description": "攻击间隔<@ba.vdown>增大</>，攻击力<@ba.vup>+{atk:0%}</>，每次攻击对最多<@ba.vup>{attack@max_target}</>个敌人造成<@ba.vup>法术伤害</>，并有<@ba.vup>{attack@buff_prob:0%}</>概率使命中目标<$ba.stun>晕眩</><@ba.vup>{attack@stun}</>秒\\n<@ba.rem>持续时间结束后雷蛇<$ba.stun>晕眩</>{stun}秒</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 4,
+				"spType": "INCREASE_WHEN_TAKEN_DAMAGE",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 38,
@@ -280,27 +316,33 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 1.25
+					"value": 1.25,
+					"valueStr": null
 				},
 				{
 					"key": "base_attack_time",
-					"value": 0.7
+					"value": 0.7,
+					"valueStr": null
 				},
 				{
 					"key": "attack@buff_prob",
-					"value": 0.2
+					"value": 0.2,
+					"valueStr": null
 				},
 				{
 					"key": "attack@stun",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "stun",
-					"value": 5
+					"value": 5,
+					"valueStr": null
 				},
 				{
 					"key": "attack@max_target",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				}
 			]
 		},
@@ -308,10 +350,10 @@
 			"name": "反击电弧",
 			"rangeId": null,
 			"description": "攻击间隔<@ba.vdown>增大</>，攻击力<@ba.vup>+{atk:0%}</>，每次攻击对最多<@ba.vup>{attack@max_target}</>个敌人造成<@ba.vup>法术伤害</>，并有<@ba.vup>{attack@buff_prob:0%}</>概率使命中目标<$ba.stun>晕眩</><@ba.vup>{attack@stun}</>秒\\n<@ba.rem>持续时间结束后雷蛇<$ba.stun>晕眩</>{stun}秒</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 4,
+				"spType": "INCREASE_WHEN_TAKEN_DAMAGE",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 37,
@@ -323,27 +365,33 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 1.5
+					"value": 1.5,
+					"valueStr": null
 				},
 				{
 					"key": "base_attack_time",
-					"value": 0.7
+					"value": 0.7,
+					"valueStr": null
 				},
 				{
 					"key": "attack@buff_prob",
-					"value": 0.2
+					"value": 0.2,
+					"valueStr": null
 				},
 				{
 					"key": "attack@stun",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "stun",
-					"value": 5
+					"value": 5,
+					"valueStr": null
 				},
 				{
 					"key": "attack@max_target",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				}
 			]
 		},
@@ -351,10 +399,10 @@
 			"name": "反击电弧",
 			"rangeId": null,
 			"description": "攻击间隔<@ba.vdown>增大</>，攻击力<@ba.vup>+{atk:0%}</>，每次攻击对最多<@ba.vup>{attack@max_target}</>个敌人造成<@ba.vup>法术伤害</>，并有<@ba.vup>{attack@buff_prob:0%}</>概率使命中目标<$ba.stun>晕眩</><@ba.vup>{attack@stun}</>秒\\n<@ba.rem>持续时间结束后雷蛇<$ba.stun>晕眩</>{stun}秒</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 4,
+				"spType": "INCREASE_WHEN_TAKEN_DAMAGE",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 36,
@@ -366,27 +414,33 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 1.75
+					"value": 1.75,
+					"valueStr": null
 				},
 				{
 					"key": "base_attack_time",
-					"value": 0.7
+					"value": 0.7,
+					"valueStr": null
 				},
 				{
 					"key": "attack@buff_prob",
-					"value": 0.2
+					"value": 0.2,
+					"valueStr": null
 				},
 				{
 					"key": "attack@stun",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "stun",
-					"value": 5
+					"value": 5,
+					"valueStr": null
 				},
 				{
 					"key": "attack@max_target",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				}
 			]
 		},
@@ -394,10 +448,10 @@
 			"name": "反击电弧",
 			"rangeId": null,
 			"description": "攻击间隔<@ba.vdown>增大</>，攻击力<@ba.vup>+{atk:0%}</>，每次攻击对最多<@ba.vup>{attack@max_target}</>个敌人造成<@ba.vup>法术伤害</>，并有<@ba.vup>{attack@buff_prob:0%}</>概率使命中目标<$ba.stun>晕眩</><@ba.vup>{attack@stun}</>秒\\n<@ba.rem>持续时间结束后雷蛇<$ba.stun>晕眩</>{stun}秒</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 4,
+				"spType": "INCREASE_WHEN_TAKEN_DAMAGE",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 34,
@@ -409,27 +463,33 @@
 			"blackboard": [
 				{
 					"key": "atk",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				},
 				{
 					"key": "base_attack_time",
-					"value": 0.7
+					"value": 0.7,
+					"valueStr": null
 				},
 				{
 					"key": "attack@buff_prob",
-					"value": 0.25
+					"value": 0.25,
+					"valueStr": null
 				},
 				{
 					"key": "attack@stun",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "stun",
-					"value": 5
+					"value": 5,
+					"valueStr": null
 				},
 				{
 					"key": "attack@max_target",
-					"value": 4
+					"value": 4,
+					"valueStr": null
 				}
 			]
 		}

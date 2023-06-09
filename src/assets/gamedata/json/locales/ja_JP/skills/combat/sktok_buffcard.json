@@ -1,0 +1,30 @@
+{
+	"skillId": "sktok_buffcard",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "強化",
+			"rangeId": "1-1",
+			"description": "配置後、前方のオペレーターが以下の効果を獲得する：自身の職業の<@ba.kw>戦術装備</>を<@ba.kw>2つ</>獲得（配置効果は発動しない）。\n<@ba.rem>発動後このユニットは消滅する（この戦闘ではもう出現しない）</>",
+			"skillType": 2,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "sktok_buffcard",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "cnt",
+					"value": 2
+				}
+			]
+		}
+	]
+}

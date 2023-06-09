@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act15d0_03",
@@ -10,7 +11,7 @@
 	],
 	"stageId": "act15d0_st01",
 	"levelId": null,
-	"zoneId": "act15d0_zone1",
+	"zoneId": "act8sre_zone1",
 	"code": "MB-ST-1",
 	"name": "招待",
 	"description": "招待するという行為は、相手をこちら側に招くことだけを目的にしているわけではないこともある。",
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": true,
 	"appearanceStyle": 0,
 	"stageDropInfo": {

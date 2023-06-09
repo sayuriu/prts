@@ -6,7 +6,7 @@
 	"iconId": "MTL_SL_RS",
 	"overrideBkg": null,
 	"stackIconId": null,
-	"sortId": 100043,
+	"sortId": 100010,
 	"usage": "특수 공예를 거쳐 만든 특수 도료. 고급 강화에 사용된다.",
 	"obtainApproach": null,
 	"classifyType": "MATERIAL",
@@ -18,6 +18,14 @@
 		},
 		{
 			"stageId": "main_09-16",
+			"occPer": "SOMETIMES"
+		},
+		{
+			"stageId": "main_11-07",
+			"occPer": "SOMETIMES"
+		},
+		{
+			"stageId": "tough_11-07",
 			"occPer": "SOMETIMES"
 		}
 	],

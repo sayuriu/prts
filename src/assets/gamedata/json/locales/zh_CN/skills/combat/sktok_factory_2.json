@@ -7,10 +7,10 @@
 			"name": "生产线",
 			"rangeId": null,
 			"description": "消耗<@ba.vup>{cost}</>点部署费用，部署一架二手无人机",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 50,
@@ -22,11 +22,13 @@
 			"blackboard": [
 				{
 					"key": "cost",
-					"value": 10
+					"value": 10,
+					"valueStr": null
 				},
 				{
 					"key": "branch_id",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				}
 			]
 		},
@@ -34,10 +36,10 @@
 			"name": "生产线",
 			"rangeId": null,
 			"description": "消耗<@ba.vup>{cost}</>点部署费用，部署一架二手无人机",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 50,
@@ -49,11 +51,13 @@
 			"blackboard": [
 				{
 					"key": "cost",
-					"value": 10
+					"value": 10,
+					"valueStr": null
 				},
 				{
 					"key": "branch_id",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				}
 			]
 		}

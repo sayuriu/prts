@@ -21,7 +21,7 @@ export const AvailableLocales = {
 	'ja_JP': true,
 	'ko_KR': true,
 	'zh_CN': true,
-	'zh_TW': true,
+	// 'zh_TW': true,
 };
 
 export type Locales = keyof typeof AvailableLocales;

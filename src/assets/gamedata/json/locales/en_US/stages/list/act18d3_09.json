@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act18d3_08",
@@ -10,12 +11,12 @@
 	],
 	"stageId": "act18d3_09",
 	"levelId": "Activities/act18d3/level_act18d3_09",
-	"zoneId": "act18d3_zone1",
+	"zoneId": "act11sre_zone1",
 	"code": "SV-9",
 	"name": "Believer",
 	"description": "He may be very smart, but he is also too paranoid. Taken together, that makes him not very smart. Compared to the boundless ocean, he is nothing.\n<@lv.item><Emergency Aid Building></> Once activated, continually treats surrounding units affected by Nervous Impairment.",
 	"hardStagedId": null,
-	"dangerLevel": "Elite 2 Lv.20",
+	"dangerLevel": "Elite 2 Lv. 20",
 	"dangerPoint": -1,
 	"loadingPicId": "loading_iberia",
 	"canPractice": true,
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {
@@ -52,12 +54,12 @@
 		"displayRewards": [
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act18d3_token_record",
+				"id": "act18d3_token_record_rep_1",
 				"dropType": 8
 			},
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act18d3_token_record",
+				"id": "act18d3_token_record_rep_1",
 				"dropType": 2
 			},
 			{
@@ -75,13 +77,13 @@
 			{
 				"occPercent": 0,
 				"type": "ACTIVITY_ITEM",
-				"id": "act18d3_token_record",
+				"id": "act18d3_token_record_rep_1",
 				"dropType": 8
 			},
 			{
 				"occPercent": 0,
 				"type": "ACTIVITY_ITEM",
-				"id": "act18d3_token_record",
+				"id": "act18d3_token_record_rep_1",
 				"dropType": 2
 			},
 			{

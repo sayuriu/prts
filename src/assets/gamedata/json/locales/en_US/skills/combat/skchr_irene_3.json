@@ -1,0 +1,397 @@
+{
+	"skillId": "skchr_irene_3",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "Judgment",
+			"rangeId": "x-1",
+			"description": "Deal <@ba.vup>{atk_scale:0%}</> ATK as Physical damage to all nearby ground enemies, and cause them to <$ba.levitate>Levitate </><@ba.vup>{levitate}</> seconds, then bombard <@ba.vup>{multi_times}</> times, each hit dealing <@ba.vup>{multi_atk_scale:0%}</> ATK as Physical damage to all enemies in a small area around a random target",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 2,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 34,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_irene_3",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 2
+				},
+				{
+					"key": "levitate",
+					"value": 2
+				},
+				{
+					"key": "multi_atk_scale",
+					"value": 1.8
+				},
+				{
+					"key": "multi_times",
+					"value": 8
+				},
+				{
+					"key": "multi_hit_interval",
+					"value": 0.375
+				}
+			]
+		},
+		{
+			"name": "Judgment",
+			"rangeId": "x-1",
+			"description": "Deal <@ba.vup>{atk_scale:0%}</> ATK as Physical damage to all nearby ground enemies, and cause them to <$ba.levitate>Levitate </><@ba.vup>{levitate}</> seconds, then bombard <@ba.vup>{multi_times}</> times, each hit dealing <@ba.vup>{multi_atk_scale:0%}</> ATK as Physical damage to all enemies in a small area around a random target",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 2,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 34,
+				"initSp": 4,
+				"increment": 1
+			},
+			"prefabId": "skchr_irene_3",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 2
+				},
+				{
+					"key": "levitate",
+					"value": 2
+				},
+				{
+					"key": "multi_atk_scale",
+					"value": 1.9
+				},
+				{
+					"key": "multi_times",
+					"value": 8
+				},
+				{
+					"key": "multi_hit_interval",
+					"value": 0.375
+				}
+			]
+		},
+		{
+			"name": "Judgment",
+			"rangeId": "x-1",
+			"description": "Deal <@ba.vup>{atk_scale:0%}</> ATK as Physical damage to all nearby ground enemies, and cause them to <$ba.levitate>Levitate </><@ba.vup>{levitate}</> seconds, then bombard <@ba.vup>{multi_times}</> times, each hit dealing <@ba.vup>{multi_atk_scale:0%}</> ATK as Physical damage to all enemies in a small area around a random target",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 2,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 34,
+				"initSp": 8,
+				"increment": 1
+			},
+			"prefabId": "skchr_irene_3",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 2
+				},
+				{
+					"key": "levitate",
+					"value": 2
+				},
+				{
+					"key": "multi_atk_scale",
+					"value": 2
+				},
+				{
+					"key": "multi_times",
+					"value": 8
+				},
+				{
+					"key": "multi_hit_interval",
+					"value": 0.375
+				}
+			]
+		},
+		{
+			"name": "Judgment",
+			"rangeId": "x-1",
+			"description": "Deal <@ba.vup>{atk_scale:0%}</> ATK as Physical damage to all nearby ground enemies, and cause them to <$ba.levitate>Levitate </><@ba.vup>{levitate}</> seconds, then bombard <@ba.vup>{multi_times}</> times, each hit dealing <@ba.vup>{multi_atk_scale:0%}</> ATK as Physical damage to all enemies in a small area around a random target",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 2,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 32,
+				"initSp": 8,
+				"increment": 1
+			},
+			"prefabId": "skchr_irene_3",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 2.5
+				},
+				{
+					"key": "levitate",
+					"value": 2
+				},
+				{
+					"key": "multi_atk_scale",
+					"value": 2
+				},
+				{
+					"key": "multi_times",
+					"value": 10
+				},
+				{
+					"key": "multi_hit_interval",
+					"value": 0.3
+				}
+			]
+		},
+		{
+			"name": "Judgment",
+			"rangeId": "x-1",
+			"description": "Deal <@ba.vup>{atk_scale:0%}</> ATK as Physical damage to all nearby ground enemies, and cause them to <$ba.levitate>Levitate </><@ba.vup>{levitate}</> seconds, then bombard <@ba.vup>{multi_times}</> times, each hit dealing <@ba.vup>{multi_atk_scale:0%}</> ATK as Physical damage to all enemies in a small area around a random target",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 2,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 32,
+				"initSp": 12,
+				"increment": 1
+			},
+			"prefabId": "skchr_irene_3",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 2.5
+				},
+				{
+					"key": "levitate",
+					"value": 2
+				},
+				{
+					"key": "multi_atk_scale",
+					"value": 2.1
+				},
+				{
+					"key": "multi_times",
+					"value": 10
+				},
+				{
+					"key": "multi_hit_interval",
+					"value": 0.3
+				}
+			]
+		},
+		{
+			"name": "Judgment",
+			"rangeId": "x-1",
+			"description": "Deal <@ba.vup>{atk_scale:0%}</> ATK as Physical damage to all nearby ground enemies, and cause them to <$ba.levitate>Levitate </><@ba.vup>{levitate}</> seconds, then bombard <@ba.vup>{multi_times}</> times, each hit dealing <@ba.vup>{multi_atk_scale:0%}</> ATK as Physical damage to all enemies in a small area around a random target",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 2,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 32,
+				"initSp": 16,
+				"increment": 1
+			},
+			"prefabId": "skchr_irene_3",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 2.5
+				},
+				{
+					"key": "levitate",
+					"value": 2
+				},
+				{
+					"key": "multi_atk_scale",
+					"value": 2.2
+				},
+				{
+					"key": "multi_times",
+					"value": 10
+				},
+				{
+					"key": "multi_hit_interval",
+					"value": 0.3
+				}
+			]
+		},
+		{
+			"name": "Judgment",
+			"rangeId": "x-1",
+			"description": "Deal <@ba.vup>{atk_scale:0%}</> ATK as Physical damage to all nearby ground enemies, and cause them to <$ba.levitate>Levitate </><@ba.vup>{levitate}</> seconds, then bombard <@ba.vup>{multi_times}</> times, each hit dealing <@ba.vup>{multi_atk_scale:0%}</> ATK as Physical damage to all enemies in a small area around a random target",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 2,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 30,
+				"initSp": 16,
+				"increment": 1
+			},
+			"prefabId": "skchr_irene_3",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 2.5
+				},
+				{
+					"key": "levitate",
+					"value": 3
+				},
+				{
+					"key": "multi_atk_scale",
+					"value": 2.3
+				},
+				{
+					"key": "multi_times",
+					"value": 10
+				},
+				{
+					"key": "multi_hit_interval",
+					"value": 0.3
+				}
+			]
+		},
+		{
+			"name": "Judgment",
+			"rangeId": "x-1",
+			"description": "Deal <@ba.vup>{atk_scale:0%}</> ATK as Physical damage to all nearby ground enemies, and cause them to <$ba.levitate>Levitate </><@ba.vup>{levitate}</> seconds, then bombard <@ba.vup>{multi_times}</> times, each hit dealing <@ba.vup>{multi_atk_scale:0%}</> ATK as Physical damage to all enemies in a small area around a random target",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 2,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 28,
+				"initSp": 16,
+				"increment": 1
+			},
+			"prefabId": "skchr_irene_3",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 3
+				},
+				{
+					"key": "levitate",
+					"value": 3
+				},
+				{
+					"key": "multi_atk_scale",
+					"value": 2.3
+				},
+				{
+					"key": "multi_times",
+					"value": 12
+				},
+				{
+					"key": "multi_hit_interval",
+					"value": 0.25
+				}
+			]
+		},
+		{
+			"name": "Judgment",
+			"rangeId": "x-1",
+			"description": "Deal <@ba.vup>{atk_scale:0%}</> ATK as Physical damage to all nearby ground enemies, and cause them to <$ba.levitate>Levitate </><@ba.vup>{levitate}</> seconds, then bombard <@ba.vup>{multi_times}</> times, each hit dealing <@ba.vup>{multi_atk_scale:0%}</> ATK as Physical damage to all enemies in a small area around a random target",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 2,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 26,
+				"initSp": 16,
+				"increment": 1
+			},
+			"prefabId": "skchr_irene_3",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 3
+				},
+				{
+					"key": "levitate",
+					"value": 3
+				},
+				{
+					"key": "multi_atk_scale",
+					"value": 2.4
+				},
+				{
+					"key": "multi_times",
+					"value": 12
+				},
+				{
+					"key": "multi_hit_interval",
+					"value": 0.25
+				}
+			]
+		},
+		{
+			"name": "Judgment",
+			"rangeId": "x-1",
+			"description": "Deal <@ba.vup>{atk_scale:0%}</> ATK as Physical damage to all nearby ground enemies, and cause them to <$ba.levitate>Levitate </><@ba.vup>{levitate}</> seconds, then bombard <@ba.vup>{multi_times}</> times, each hit dealing <@ba.vup>{multi_atk_scale:0%}</> ATK as Physical damage to all enemies in a small area around a random target",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 2,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 24,
+				"initSp": 16,
+				"increment": 1
+			},
+			"prefabId": "skchr_irene_3",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 3
+				},
+				{
+					"key": "levitate",
+					"value": 4
+				},
+				{
+					"key": "multi_atk_scale",
+					"value": 2.5
+				},
+				{
+					"key": "multi_times",
+					"value": 12
+				},
+				{
+					"key": "multi_hit_interval",
+					"value": 0.25
+				}
+			]
+		}
+	]
+}

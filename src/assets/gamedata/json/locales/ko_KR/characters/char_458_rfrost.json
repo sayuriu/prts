@@ -2,7 +2,9 @@
 	"name": "Frost",
 	"description": "전투를 지원하는 함정 사용 가능, 단 <@ba.kw>적이 있는</> 칸에는 함정 설치 불가",
 	"canUseGeneralPotentialItem": true,
+	"canUseActivityPotentialItem": false,
 	"potentialItemId": "p_char_458_rfrost",
+	"activityPotentialItemId": null,
 	"nationId": null,
 	"groupId": null,
 	"teamId": "rainbow",
@@ -37,7 +39,7 @@
 						"atk": 240,
 						"def": 64,
 						"magicResistance": 0,
-						"cost": 11,
+						"cost": 9,
 						"blockCnt": 1,
 						"moveSpeed": 1,
 						"attackSpeed": 100,
@@ -52,7 +54,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -62,7 +66,7 @@
 						"atk": 329,
 						"def": 98,
 						"magicResistance": 0,
-						"cost": 11,
+						"cost": 9,
 						"blockCnt": 1,
 						"moveSpeed": 1,
 						"attackSpeed": 100,
@@ -77,7 +81,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -95,7 +101,7 @@
 						"atk": 329,
 						"def": 98,
 						"magicResistance": 0,
-						"cost": 13,
+						"cost": 11,
 						"blockCnt": 1,
 						"moveSpeed": 1,
 						"attackSpeed": 100,
@@ -110,7 +116,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -120,7 +128,7 @@
 						"atk": 433,
 						"def": 130,
 						"magicResistance": 0,
-						"cost": 13,
+						"cost": 11,
 						"blockCnt": 1,
 						"moveSpeed": 1,
 						"attackSpeed": 100,
@@ -135,7 +143,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -169,7 +179,7 @@
 						"atk": 433,
 						"def": 130,
 						"magicResistance": 0,
-						"cost": 13,
+						"cost": 11,
 						"blockCnt": 1,
 						"moveSpeed": 1,
 						"attackSpeed": 100,
@@ -184,7 +194,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -194,7 +206,7 @@
 						"atk": 529,
 						"def": 157,
 						"magicResistance": 0,
-						"cost": 13,
+						"cost": 11,
 						"blockCnt": 1,
 						"moveSpeed": 1,
 						"attackSpeed": 100,
@@ -209,7 +221,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -631,7 +645,9 @@
 				"baseForceLevel": 0,
 				"stunImmune": false,
 				"silenceImmune": false,
-				"sleepImmune": false
+				"sleepImmune": false,
+				"frozenImmune": false,
+				"levitateImmune": false
 			}
 		},
 		{
@@ -656,7 +672,9 @@
 				"baseForceLevel": 0,
 				"stunImmune": false,
 				"silenceImmune": false,
-				"sleepImmune": false
+				"sleepImmune": false,
+				"frozenImmune": false,
+				"levitateImmune": false
 			}
 		}
 	],

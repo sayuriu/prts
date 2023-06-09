@@ -2,7 +2,9 @@
 	"name": "머드락",
 	"description": "아군의 치료를 <@ba.kw>받지 못한다</>",
 	"canUseGeneralPotentialItem": true,
+	"canUseActivityPotentialItem": false,
 	"potentialItemId": "p_char_311_mudrok",
+	"activityPotentialItemId": null,
 	"nationId": "rhodes",
 	"groupId": null,
 	"teamId": null,
@@ -53,7 +55,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -78,7 +82,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -111,7 +117,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -136,7 +144,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -185,7 +195,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -210,7 +222,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -495,7 +509,7 @@
 					"requiredPotentialRank": 0,
 					"prefabKey": "1",
 					"name": "비옥한 땅이 내린 육신",
-					"description": "9초마다 1스택 <$ba.shield>실드</> 획득(최대 2스택, 배치 즉시 1스택 획득), 실드가 한 스택 깨질 때마다 최대 HP의 15% 회복",
+					"description": "9초마다 1회 <$ba.shield>실드</> 획득(최대 2회, 배치 즉시 1회 획득), 실드가 1회 깨질 때마다 최대 HP의 15% 회복",
 					"rangeId": null,
 					"blackboard": [
 						{
@@ -524,7 +538,7 @@
 					"requiredPotentialRank": 4,
 					"prefabKey": "1",
 					"name": "비옥한 땅이 내린 육신",
-					"description": "9초마다 1스택 <$ba.shield>실드</> 획득(최대 2스택, 배치 즉시 1스택 획득), 실드가 한 스택 깨질 때마다 최대 HP의 17%<@ba.talpu>(+2%)</> 회복",
+					"description": "9초마다 1회 <$ba.shield>실드</> 획득(최대 2회, 배치 즉시 1회 획득), 실드가 1회 깨질 때마다 최대 HP의 17%<@ba.talpu>(+2%)</> 회복",
 					"rangeId": null,
 					"blackboard": [
 						{
@@ -553,7 +567,7 @@
 					"requiredPotentialRank": 0,
 					"prefabKey": "1",
 					"name": "비옥한 땅이 내린 육신",
-					"description": "9초마다 1스택 <$ba.shield>실드</> 획득(최대 2스택, 배치 즉시 1스택 획득), 실드가 한 스택 깨질 때마다 최대 HP의 20% 회복",
+					"description": "9초마다 1회 <$ba.shield>실드</> 획득(최대 2회, 배치 즉시 1회 획득), 실드가 1회 깨질 때마다 최대 HP의 20% 회복",
 					"rangeId": null,
 					"blackboard": [
 						{
@@ -582,7 +596,7 @@
 					"requiredPotentialRank": 4,
 					"prefabKey": "1",
 					"name": "비옥한 땅이 내린 육신",
-					"description": "9초마다 1스택 <$ba.shield>실드</> 획득(최대 2스택, 배치 즉시 1스택 획득), 실드가 한 스택 깨질 때마다 최대 HP의 22%<@ba.talpu>(+2%)</> 회복",
+					"description": "9초마다 1회 <$ba.shield>실드</> 획득(최대 2회, 배치 즉시 1회 획득), 실드가 1회 깨질 때마다 최대 HP의 22%<@ba.talpu>(+2%)</> 회복",
 					"rangeId": null,
 					"blackboard": [
 						{
@@ -611,7 +625,7 @@
 					"requiredPotentialRank": 0,
 					"prefabKey": "1",
 					"name": "비옥한 땅이 내린 육신",
-					"description": "9초마다 1스택 <$ba.shield>실드</> 획득(최대 3스택, 배치 즉시 1스택 획득), 실드가 한 스택 깨질 때마다 최대 HP의 20% 회복",
+					"description": "9초마다 1회 <$ba.shield>실드</> 획득(최대 3회, 배치 즉시 1회 획득), 실드가 1회 깨질 때마다 최대 HP의 20% 회복",
 					"rangeId": null,
 					"blackboard": [
 						{
@@ -640,7 +654,7 @@
 					"requiredPotentialRank": 4,
 					"prefabKey": "1",
 					"name": "비옥한 땅이 내린 육신",
-					"description": "9초마다 1스택 <$ba.shield>실드</> 획득(최대 3스택, 배치 즉시 1스택 획득), 실드가 한 스택 깨질 때마다 최대 HP의 22%<@ba.talpu>(+2%)</> 회복",
+					"description": "9초마다 1회 <$ba.shield>실드</> 획득(최대 3회, 배치 즉시 1회 획득), 실드가 1회 깨질 때마다 최대 HP의 22%<@ba.talpu>(+2%)</> 회복",
 					"rangeId": null,
 					"blackboard": [
 						{
@@ -808,7 +822,9 @@
 				"baseForceLevel": 0,
 				"stunImmune": false,
 				"silenceImmune": false,
-				"sleepImmune": false
+				"sleepImmune": false,
+				"frozenImmune": false,
+				"levitateImmune": false
 			}
 		},
 		{
@@ -833,7 +849,9 @@
 				"baseForceLevel": 0,
 				"stunImmune": false,
 				"silenceImmune": false,
-				"sleepImmune": false
+				"sleepImmune": false,
+				"frozenImmune": false,
+				"levitateImmune": false
 			}
 		}
 	],

@@ -1,0 +1,43 @@
+{
+	"skillId": "sktok_xbescp",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "建立通讯",
+			"rangeId": null,
+			"description": "I级：放置后，每局第9天后解锁跨域通讯（同类建筑最多放置1个）",
+			"skillType": "PASSIVE",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 0,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": "sktok_empty",
+			"duration": -1,
+			"blackboard": []
+		},
+		{
+			"name": "建立通讯",
+			"rangeId": null,
+			"description": "II级：放置后，每局第6天后解锁跨域通讯（同类建筑最多放置1个）",
+			"skillType": "PASSIVE",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 0,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": "sktok_empty",
+			"duration": -1,
+			"blackboard": []
+		}
+	]
+}

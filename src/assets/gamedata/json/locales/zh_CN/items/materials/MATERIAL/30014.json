@@ -6,7 +6,7 @@
 	"iconId": "MTL_SL_G4",
 	"overrideBkg": null,
 	"stackIconId": null,
-	"sortId": 100012,
+	"sortId": 100026,
 	"usage": "从地表开采出的岩石固块组提纯出的物质，可用于多种强化场合，也常作为制作聚合剂的原料之一。",
 	"obtainApproach": null,
 	"classifyType": "MATERIAL",
@@ -26,6 +26,22 @@
 		},
 		{
 			"stageId": "main_09-11",
+			"occPer": "SOMETIMES"
+		},
+		{
+			"stageId": "main_11-16",
+			"occPer": "SOMETIMES"
+		},
+		{
+			"stageId": "tough_11-16",
+			"occPer": "SOMETIMES"
+		},
+		{
+			"stageId": "main_12-13",
+			"occPer": "SOMETIMES"
+		},
+		{
+			"stageId": "tough_12-13",
 			"occPer": "SOMETIMES"
 		}
 	],

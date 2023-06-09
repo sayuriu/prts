@@ -1,0 +1,34 @@
+{
+	"skillId": "sktok_allydonq",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "Charge",
+			"rangeId": "1-1",
+			"description": "The next attack deals <@ba.vup>200%</> ATK as Physical damage and pushes the enemy away with great force",
+			"skillType": 2,
+			"durationType": 0,
+			"spData": {
+				"spType": 2,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 4,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "sktok_allydonq",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 2
+				},
+				{
+					"key": "force",
+					"value": 2
+				}
+			]
+		}
+	]
+}

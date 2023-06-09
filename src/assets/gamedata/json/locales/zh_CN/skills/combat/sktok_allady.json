@@ -1,0 +1,46 @@
+{
+	"skillId": "sktok_allady",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "阿勒黛的卫护",
+			"rangeId": null,
+			"description": "部署后，为目标及其周围的我方单位施加可吸收1000点伤害的<$ba.barrier>屏障</>",
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 5,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "sktok_allady",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "dynamic",
+					"value": 1000,
+					"valueStr": null
+				},
+				{
+					"key": "shield_duration",
+					"value": 10,
+					"valueStr": null
+				},
+				{
+					"key": "attack@dynamic",
+					"value": 1000,
+					"valueStr": null
+				},
+				{
+					"key": "attack@shield_duration",
+					"value": 10,
+					"valueStr": null
+				}
+			]
+		}
+	]
+}

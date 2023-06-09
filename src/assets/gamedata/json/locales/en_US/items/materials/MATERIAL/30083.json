@@ -6,7 +6,7 @@
 	"iconId": "MTL_SL_MANGANESE1",
 	"overrideBkg": null,
 	"stackIconId": null,
-	"sortId": 100007,
+	"sortId": 100021,
 	"usage": "A metal ore used for metallurgy. Can be used for a variety of upgrades and for production in the Factory.",
 	"obtainApproach": null,
 	"classifyType": "MATERIAL",
@@ -47,6 +47,22 @@
 		{
 			"stageId": "main_09-13",
 			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_10-06",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_10-14",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "tough_10-06",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "tough_10-14",
+			"occPer": "USUAL"
 		}
 	],
 	"buildingProductList": []

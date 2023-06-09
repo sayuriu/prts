@@ -1,0 +1,34 @@
+{
+	"skillId": "sktok_dancdol",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "레퍼토리 발표",
+			"rangeId": "x-4",
+			"description": "주변 아군의 공격력 <@ba.vdown>-25%</>, 계속해서 트루 대미지를 받는다",
+			"skillType": 0,
+			"durationType": 0,
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 0,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": "sktok_dancdol",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 0.5
+				},
+				{
+					"key": "interval",
+					"value": 0.5
+				}
+			]
+		}
+	]
+}

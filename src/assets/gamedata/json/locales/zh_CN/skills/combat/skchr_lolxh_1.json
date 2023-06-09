@@ -1,0 +1,297 @@
+{
+	"skillId": "skchr_lolxh_1",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "掠光尾影",
+			"rangeId": "x-5",
+			"description": "<@ba.rem>可以在下列状态和初始状态间切换：</>\\n攻击范围改为自身周围<@ba.rem>4格</>，获得<@ba.vup>{prob:0%}</>的物理闪避，同时攻击阻挡的所有敌人",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 10,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_lolxh_1",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "prob",
+					"value": 0.2,
+					"valueStr": null
+				},
+				{
+					"key": "attack_speed",
+					"value": 0,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "掠光尾影",
+			"rangeId": "x-5",
+			"description": "<@ba.rem>可以在下列状态和初始状态间切换：</>\\n攻击范围改为自身周围<@ba.rem>4格</>，获得<@ba.vup>{prob:0%}</>的物理闪避，同时攻击阻挡的所有敌人",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 10,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_lolxh_1",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "prob",
+					"value": 0.25,
+					"valueStr": null
+				},
+				{
+					"key": "attack_speed",
+					"value": 0,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "掠光尾影",
+			"rangeId": "x-5",
+			"description": "<@ba.rem>可以在下列状态和初始状态间切换：</>\\n攻击范围改为自身周围<@ba.rem>4格</>，获得<@ba.vup>{prob:0%}</>的物理闪避，同时攻击阻挡的所有敌人",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 10,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_lolxh_1",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "prob",
+					"value": 0.3,
+					"valueStr": null
+				},
+				{
+					"key": "attack_speed",
+					"value": 0,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "掠光尾影",
+			"rangeId": "x-5",
+			"description": "<@ba.rem>可以在下列状态和初始状态间切换：</>\\n攻击范围改为自身周围<@ba.rem>4格</>，攻击速度<@ba.vup>+{attack_speed}</>，获得<@ba.vup>{prob:0%}</>的物理闪避，同时攻击阻挡的所有敌人",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 10,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_lolxh_1",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "prob",
+					"value": 0.3,
+					"valueStr": null
+				},
+				{
+					"key": "attack_speed",
+					"value": 10,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "掠光尾影",
+			"rangeId": "x-5",
+			"description": "<@ba.rem>可以在下列状态和初始状态间切换：</>\\n攻击范围改为自身周围<@ba.rem>4格</>，攻击速度<@ba.vup>+{attack_speed}</>，获得<@ba.vup>{prob:0%}</>的物理闪避，同时攻击阻挡的所有敌人",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 10,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_lolxh_1",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "prob",
+					"value": 0.3,
+					"valueStr": null
+				},
+				{
+					"key": "attack_speed",
+					"value": 15,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "掠光尾影",
+			"rangeId": "x-5",
+			"description": "<@ba.rem>可以在下列状态和初始状态间切换：</>\\n攻击范围改为自身周围<@ba.rem>4格</>，攻击速度<@ba.vup>+{attack_speed}</>，获得<@ba.vup>{prob:0%}</>的物理闪避，同时攻击阻挡的所有敌人",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 10,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_lolxh_1",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "prob",
+					"value": 0.3,
+					"valueStr": null
+				},
+				{
+					"key": "attack_speed",
+					"value": 20,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "掠光尾影",
+			"rangeId": "x-5",
+			"description": "<@ba.rem>可以在下列状态和初始状态间切换：</>\\n攻击范围改为自身周围<@ba.rem>4格</>，攻击速度<@ba.vup>+{attack_speed}</>，获得<@ba.vup>{prob:0%}</>的物理闪避，同时攻击阻挡的所有敌人",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 10,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_lolxh_1",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "prob",
+					"value": 0.35,
+					"valueStr": null
+				},
+				{
+					"key": "attack_speed",
+					"value": 25,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "掠光尾影",
+			"rangeId": "x-5",
+			"description": "<@ba.rem>可以在下列状态和初始状态间切换：</>\\n攻击范围改为自身周围<@ba.rem>4格</>，攻击速度<@ba.vup>+{attack_speed}</>，获得<@ba.vup>{prob:0%}</>的物理闪避，同时攻击阻挡的所有敌人",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 10,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_lolxh_1",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "prob",
+					"value": 0.35,
+					"valueStr": null
+				},
+				{
+					"key": "attack_speed",
+					"value": 30,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "掠光尾影",
+			"rangeId": "x-5",
+			"description": "<@ba.rem>可以在下列状态和初始状态间切换：</>\\n攻击范围改为自身周围<@ba.rem>4格</>，攻击速度<@ba.vup>+{attack_speed}</>，获得<@ba.vup>{prob:0%}</>的物理闪避，同时攻击阻挡的所有敌人",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 10,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_lolxh_1",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "prob",
+					"value": 0.35,
+					"valueStr": null
+				},
+				{
+					"key": "attack_speed",
+					"value": 35,
+					"valueStr": null
+				}
+			]
+		},
+		{
+			"name": "掠光尾影",
+			"rangeId": "x-5",
+			"description": "<@ba.rem>可以在下列状态和初始状态间切换：</>\\n攻击范围改为自身周围<@ba.rem>4格</>，攻击速度<@ba.vup>+{attack_speed}</>，获得<@ba.vup>{prob:0%}</>的物理闪避，同时攻击阻挡的所有敌人",
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 10,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_lolxh_1",
+			"duration": 0,
+			"blackboard": [
+				{
+					"key": "prob",
+					"value": 0.45,
+					"valueStr": null
+				},
+				{
+					"key": "attack_speed",
+					"value": 40,
+					"valueStr": null
+				}
+			]
+		}
+	]
+}

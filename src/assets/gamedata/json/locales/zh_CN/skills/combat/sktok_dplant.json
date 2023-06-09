@@ -1,0 +1,25 @@
+{
+	"skillId": "sktok_dplant",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "抑制生长",
+			"rangeId": null,
+			"description": "清除范围内的花粉",
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": "INCREASE_WITH_TIME",
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "sktok_dplant",
+			"duration": 0,
+			"blackboard": []
+		}
+	]
+}

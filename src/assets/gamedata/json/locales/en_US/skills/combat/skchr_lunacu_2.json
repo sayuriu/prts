@@ -1,0 +1,317 @@
+{
+	"skillId": "skchr_lunacu_2",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "Umbral Ambush",
+			"rangeId": null,
+			"description": "Gains ASPD <@ba.vup>+{attack_speed}</> and <$ba.camou>Camouflage</> for <@ba.vup>{lunacu_s_2[start_cam].start_cam_duration}</> seconds; Defeating an enemy during this skill's duration grants <$ba.camou>Camouflage</> for <@ba.vup>{lunacu_s_2[cam].cam_duration}</> seconds",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 60,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_lunacu_2",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "attack_speed",
+					"value": 70
+				},
+				{
+					"key": "lunacu_s_2[cam].cam_duration",
+					"value": 6
+				},
+				{
+					"key": "lunacu_s_2[start_cam].start_cam_duration",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "Umbral Ambush",
+			"rangeId": null,
+			"description": "Gains ASPD <@ba.vup>+{attack_speed}</> and <$ba.camou>Camouflage</> for <@ba.vup>{lunacu_s_2[start_cam].start_cam_duration}</> seconds; Defeating an enemy during this skill's duration grants <$ba.camou>Camouflage</> for <@ba.vup>{lunacu_s_2[cam].cam_duration}</> seconds",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 59,
+				"initSp": 10,
+				"increment": 1
+			},
+			"prefabId": "skchr_lunacu_2",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "attack_speed",
+					"value": 75
+				},
+				{
+					"key": "lunacu_s_2[cam].cam_duration",
+					"value": 6
+				},
+				{
+					"key": "lunacu_s_2[start_cam].start_cam_duration",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "Umbral Ambush",
+			"rangeId": null,
+			"description": "Gains ASPD <@ba.vup>+{attack_speed}</> and <$ba.camou>Camouflage</> for <@ba.vup>{lunacu_s_2[start_cam].start_cam_duration}</> seconds; Defeating an enemy during this skill's duration grants <$ba.camou>Camouflage</> for <@ba.vup>{lunacu_s_2[cam].cam_duration}</> seconds",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 58,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_lunacu_2",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "attack_speed",
+					"value": 80
+				},
+				{
+					"key": "lunacu_s_2[cam].cam_duration",
+					"value": 6
+				},
+				{
+					"key": "lunacu_s_2[start_cam].start_cam_duration",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "Umbral Ambush",
+			"rangeId": null,
+			"description": "Gains ASPD <@ba.vup>+{attack_speed}</> and <$ba.camou>Camouflage</> for <@ba.vup>{lunacu_s_2[start_cam].start_cam_duration}</> seconds; Defeating an enemy during this skill's duration grants <$ba.camou>Camouflage</> for <@ba.vup>{lunacu_s_2[cam].cam_duration}</> seconds",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 57,
+				"initSp": 15,
+				"increment": 1
+			},
+			"prefabId": "skchr_lunacu_2",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "attack_speed",
+					"value": 90
+				},
+				{
+					"key": "lunacu_s_2[cam].cam_duration",
+					"value": 6
+				},
+				{
+					"key": "lunacu_s_2[start_cam].start_cam_duration",
+					"value": 4
+				}
+			]
+		},
+		{
+			"name": "Umbral Ambush",
+			"rangeId": null,
+			"description": "Gains ASPD <@ba.vup>+{attack_speed}</> and <$ba.camou>Camouflage</> for <@ba.vup>{lunacu_s_2[start_cam].start_cam_duration}</> seconds; Defeating an enemy during this skill's duration grants <$ba.camou>Camouflage</> for <@ba.vup>{lunacu_s_2[cam].cam_duration}</> seconds",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 56,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_lunacu_2",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "attack_speed",
+					"value": 95
+				},
+				{
+					"key": "lunacu_s_2[cam].cam_duration",
+					"value": 6
+				},
+				{
+					"key": "lunacu_s_2[start_cam].start_cam_duration",
+					"value": 4
+				}
+			]
+		},
+		{
+			"name": "Umbral Ambush",
+			"rangeId": null,
+			"description": "Gains ASPD <@ba.vup>+{attack_speed}</> and <$ba.camou>Camouflage</> for <@ba.vup>{lunacu_s_2[start_cam].start_cam_duration}</> seconds; Defeating an enemy during this skill's duration grants <$ba.camou>Camouflage</> for <@ba.vup>{lunacu_s_2[cam].cam_duration}</> seconds",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 55,
+				"initSp": 20,
+				"increment": 1
+			},
+			"prefabId": "skchr_lunacu_2",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "attack_speed",
+					"value": 100
+				},
+				{
+					"key": "lunacu_s_2[cam].cam_duration",
+					"value": 6
+				},
+				{
+					"key": "lunacu_s_2[start_cam].start_cam_duration",
+					"value": 4
+				}
+			]
+		},
+		{
+			"name": "Umbral Ambush",
+			"rangeId": null,
+			"description": "Gains ASPD <@ba.vup>+{attack_speed}</> and <$ba.camou>Camouflage</> for <@ba.vup>{lunacu_s_2[start_cam].start_cam_duration}</> seconds; Defeating an enemy during this skill's duration grants <$ba.camou>Camouflage</> for <@ba.vup>{lunacu_s_2[cam].cam_duration}</> seconds",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 54,
+				"initSp": 25,
+				"increment": 1
+			},
+			"prefabId": "skchr_lunacu_2",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "attack_speed",
+					"value": 110
+				},
+				{
+					"key": "lunacu_s_2[cam].cam_duration",
+					"value": 7
+				},
+				{
+					"key": "lunacu_s_2[start_cam].start_cam_duration",
+					"value": 5
+				}
+			]
+		},
+		{
+			"name": "Umbral Ambush",
+			"rangeId": null,
+			"description": "Gains ASPD <@ba.vup>+{attack_speed}</> and <$ba.camou>Camouflage</> for <@ba.vup>{lunacu_s_2[start_cam].start_cam_duration}</> seconds; Defeating an enemy during this skill's duration grants <$ba.camou>Camouflage</> for <@ba.vup>{lunacu_s_2[cam].cam_duration}</> seconds",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 53,
+				"initSp": 27,
+				"increment": 1
+			},
+			"prefabId": "skchr_lunacu_2",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "attack_speed",
+					"value": 120
+				},
+				{
+					"key": "lunacu_s_2[cam].cam_duration",
+					"value": 7
+				},
+				{
+					"key": "lunacu_s_2[start_cam].start_cam_duration",
+					"value": 6
+				}
+			]
+		},
+		{
+			"name": "Umbral Ambush",
+			"rangeId": null,
+			"description": "Gains ASPD <@ba.vup>+{attack_speed}</> and <$ba.camou>Camouflage</> for <@ba.vup>{lunacu_s_2[start_cam].start_cam_duration}</> seconds; Defeating an enemy during this skill's duration grants <$ba.camou>Camouflage</> for <@ba.vup>{lunacu_s_2[cam].cam_duration}</> seconds",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 52,
+				"initSp": 29,
+				"increment": 1
+			},
+			"prefabId": "skchr_lunacu_2",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "attack_speed",
+					"value": 130
+				},
+				{
+					"key": "lunacu_s_2[cam].cam_duration",
+					"value": 7
+				},
+				{
+					"key": "lunacu_s_2[start_cam].start_cam_duration",
+					"value": 7
+				}
+			]
+		},
+		{
+			"name": "Umbral Ambush",
+			"rangeId": null,
+			"description": "Gains ASPD <@ba.vup>+{attack_speed}</> and <$ba.camou>Camouflage</> for <@ba.vup>{lunacu_s_2[start_cam].start_cam_duration}</> seconds; Defeating an enemy during this skill's duration grants <$ba.camou>Camouflage</> for <@ba.vup>{lunacu_s_2[cam].cam_duration}</> seconds",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 50,
+				"initSp": 30,
+				"increment": 1
+			},
+			"prefabId": "skchr_lunacu_2",
+			"duration": 25,
+			"blackboard": [
+				{
+					"key": "attack_speed",
+					"value": 140
+				},
+				{
+					"key": "lunacu_s_2[cam].cam_duration",
+					"value": 8
+				},
+				{
+					"key": "lunacu_s_2[start_cam].start_cam_duration",
+					"value": 8
+				}
+			]
+		}
+	]
+}

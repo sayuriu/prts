@@ -2,7 +2,9 @@
 	"name": "メイクアップマシン",
 	"description": "配置後、前方の近距離マスにいる味方ユニットに防御支援効果を付与する（数秒間継続）",
 	"canUseGeneralPotentialItem": true,
-	"potentialItemId": "",
+	"canUseActivityPotentialItem": false,
+	"potentialItemId": null,
+	"activityPotentialItemId": null,
 	"nationId": null,
 	"groupId": null,
 	"teamId": null,
@@ -29,7 +31,7 @@
 				},
 				"requiredPotentialRank": 0,
 				"blackboard": [],
-				"overrideDescripton": "配置後、前方の近距離マスにいる味方ユニットに防御支援效果を付与する（15秒間継続）",
+				"overrideDescripton": "配置後、前方の近距離マスにいる味方ユニットに防御支援効果を付与する（15秒間継続）",
 				"prefabKey": null,
 				"rangeId": null
 			},
@@ -40,7 +42,7 @@
 				},
 				"requiredPotentialRank": 0,
 				"blackboard": [],
-				"overrideDescripton": "配置後、前方の近距離マスにいる味方ユニットに防御支援效果を付与する（25秒間継続）",
+				"overrideDescripton": "配置後、前方の近距離マスにいる味方ユニットに防御支援効果を付与する（25秒間継続）",
 				"prefabKey": null,
 				"rangeId": null
 			},
@@ -51,7 +53,7 @@
 				},
 				"requiredPotentialRank": 0,
 				"blackboard": [],
-				"overrideDescripton": "配置後、前方の近距離マスにいる味方ユニットに防御支援效果を付与する（25秒間継続）",
+				"overrideDescripton": "配置後、前方の近距離マスにいる味方ユニットに防御支援効果を付与する（25秒間継続）",
 				"prefabKey": null,
 				"rangeId": null
 			}
@@ -85,7 +87,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -110,7 +114,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -143,7 +149,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -168,7 +176,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],
@@ -201,7 +211,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				},
 				{
@@ -226,7 +238,9 @@
 						"baseForceLevel": 0,
 						"stunImmune": false,
 						"silenceImmune": false,
-						"sleepImmune": false
+						"sleepImmune": false,
+						"frozenImmune": false,
+						"levitateImmune": false
 					}
 				}
 			],

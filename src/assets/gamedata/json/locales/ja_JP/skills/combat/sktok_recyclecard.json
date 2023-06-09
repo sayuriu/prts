@@ -1,0 +1,34 @@
+{
+	"skillId": "sktok_recyclecard",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "温存",
+			"rangeId": "1-1",
+			"description": "配置後、前方のオペレーターを再配置時間<@ba.vup>-95%</>、配置コスト<@ba.vup>{value}</>の状態で即座に配置待機エリアに戻し、次回配置時はそれまで引き継いでいた全ての戦術装備を保持する。\n<@ba.rem>発動後このユニットは消滅する（この戦闘ではもう出現しない）</>",
+			"skillType": 2,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 1,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "sktok_recyclecard",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "respawn_time",
+					"value": 0.05
+				},
+				{
+					"key": "value",
+					"value": -30
+				}
+			]
+		}
+	]
+}

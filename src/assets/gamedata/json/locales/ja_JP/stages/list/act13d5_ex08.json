@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act13d5_ex07",
@@ -10,7 +11,7 @@
 	],
 	"stageId": "act13d5_ex08",
 	"levelId": "Activities/ACT13D5/level_act13d5_ex08",
-	"zoneId": "act13d5_zone2",
+	"zoneId": "act7sre_zone2",
 	"code": "MN-EX-8",
 	"name": "古の対決",
 	"description": "この競技場は古の戦場をそのまま採用しており、古くから伝わる決闘方式の試合が期待される。しかし今回の相手は、欲望の都市が造り出した怪物だった。栄光など、とうの昔に潰えた。\n<@lv.item><回復エリア></>配置した味方のHPが徐々に回復する。\n<@lv.rem>本作戦ではオペレーターは遠近の制限を受けず自由な位置に配置可能。</>",
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {
@@ -52,7 +54,7 @@
 		"displayRewards": [
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act13d5_token_securities",
+				"id": "act13d5_token_securities_rep_1",
 				"dropType": 8
 			},
 			{
@@ -65,7 +67,7 @@
 			{
 				"occPercent": 0,
 				"type": "ACTIVITY_ITEM",
-				"id": "act13d5_token_securities",
+				"id": "act13d5_token_securities_rep_1",
 				"dropType": 8
 			},
 			{

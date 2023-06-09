@@ -6,8 +6,9 @@
 		{
 			"name": "Frigid Tide",
 			"rangeId": "x-1",
-			"description": "Launches a frigid shockwave, inflicting the <$ba.cold>Cold</> status to enemy units hit for {freeze} seconds",
+			"description": "Launches a frigid shockwave, inflicting the <$ba.cold>Cold</> status to enemy units hit for {cold} seconds",
 			"skillType": 2,
+			"durationType": 0,
 			"spData": {
 				"spType": 1,
 				"levelUpCost": null,
@@ -20,7 +21,7 @@
 			"duration": 0,
 			"blackboard": [
 				{
-					"key": "freeze",
+					"key": "cold",
 					"value": 10
 				}
 			]

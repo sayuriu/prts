@@ -7,8 +7,8 @@
 			"name": "通电！",
 			"rangeId": "x-2",
 			"description": "激活：每<@ba.vup>{interval}</>秒激发电流对经过的敌人造成<@ba.vup>{attack@value}</>点法术伤害，并使其<$ba.sluggish>停顿</><@ba.vup>{attack@sluggish}</>秒",
-			"skillType": 0,
-			"durationType": 0,
+			"skillType": "PASSIVE",
+			"durationType": "PASSIVE",
 			"spData": {
 				"spType": 8,
 				"levelUpCost": null,
@@ -22,15 +22,18 @@
 			"blackboard": [
 				{
 					"key": "interval",
-					"value": 2.3
+					"value": 2.3,
+					"valueStr": null
 				},
 				{
 					"key": "attack@value",
-					"value": 250
+					"value": 250,
+					"valueStr": null
 				},
 				{
 					"key": "attack@sluggish",
-					"value": 1.5
+					"value": 1.5,
+					"valueStr": null
 				}
 			]
 		}

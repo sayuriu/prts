@@ -1,0 +1,25 @@
+{
+	"skillId": "sktok_xbbase",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "能源设备",
+			"rangeId": null,
+			"description": "注意防守！被击破后本局失败！",
+			"skillType": "PASSIVE",
+			"durationType": "PASSIVE",
+			"spData": {
+				"spType": 8,
+				"levelUpCost": null,
+				"maxChargeTime": 0,
+				"spCost": 0,
+				"initSp": 0,
+				"increment": 0
+			},
+			"prefabId": "sktok_empty",
+			"duration": -1,
+			"blackboard": []
+		}
+	]
+}

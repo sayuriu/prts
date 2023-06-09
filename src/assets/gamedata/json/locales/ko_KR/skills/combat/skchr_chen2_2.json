@@ -8,6 +8,7 @@
 			"rangeId": null,
 			"description": "공격력 <@ba.vup>+{atk:0%}</>, 매회 공격 시 범위 내에 {attack@projectile_life_time}초간 지속되는 점액을 생성하여 지상의 적이 지나갈 때 이동 속도 <@ba.vup>{attack@move_speed:0%}</>, 방어력 <@ba.vup>{attack@def}</>(중첩 불가). <$ba.charged>차지</>의 추가 효과: {attack@another_trigger_time}발의 탄약으로 변경\n<@ba.rem>공격 시 {attack@trigger_time}발의 탄약이 장전되고 탄약이 소진되면 스킬 종료 (수동 종료 가능)</>",
 			"skillType": 1,
+			"durationType": 0,
 			"spData": {
 				"spType": 1,
 				"levelUpCost": null,
@@ -42,10 +43,6 @@
 				{
 					"key": "attack@another_trigger_time",
 					"value": 20
-				},
-				{
-					"key": "atk_scale",
-					"value": 1.5
 				}
 			]
 		},
@@ -54,6 +51,7 @@
 			"rangeId": null,
 			"description": "공격력 <@ba.vup>+{atk:0%}</>, 매회 공격 시 범위 내에 {attack@projectile_life_time}초간 지속되는 점액을 생성하여 지상의 적이 지나갈 때 이동 속도 <@ba.vup>{attack@move_speed:0%}</>, 방어력 <@ba.vup>{attack@def}</>(중첩 불가). <$ba.charged>차지</>의 추가 효과: {attack@another_trigger_time}발의 탄약으로 변경\n<@ba.rem>공격 시 {attack@trigger_time}발의 탄약이 장전되고 탄약이 소진되면 스킬 종료 (수동 종료 가능)</>",
 			"skillType": 1,
+			"durationType": 0,
 			"spData": {
 				"spType": 1,
 				"levelUpCost": null,
@@ -88,10 +86,6 @@
 				{
 					"key": "attack@another_trigger_time",
 					"value": 20
-				},
-				{
-					"key": "atk_scale",
-					"value": 1.5
 				}
 			]
 		},
@@ -100,6 +94,7 @@
 			"rangeId": null,
 			"description": "공격력 <@ba.vup>+{atk:0%}</>, 매회 공격 시 범위 내에 {attack@projectile_life_time}초간 지속되는 점액을 생성하여 지상의 적이 지나갈 때 이동 속도 <@ba.vup>{attack@move_speed:0%}</>, 방어력 <@ba.vup>{attack@def}</>(중첩 불가). <$ba.charged>차지</>의 추가 효과: {attack@another_trigger_time}발의 탄약으로 변경\n<@ba.rem>공격 시 {attack@trigger_time}발의 탄약이 장전되고 탄약이 소진되면 스킬 종료 (수동 종료 가능)</>",
 			"skillType": 1,
+			"durationType": 0,
 			"spData": {
 				"spType": 1,
 				"levelUpCost": null,
@@ -134,10 +129,6 @@
 				{
 					"key": "attack@another_trigger_time",
 					"value": 20
-				},
-				{
-					"key": "atk_scale",
-					"value": 1.5
 				}
 			]
 		},
@@ -146,6 +137,7 @@
 			"rangeId": null,
 			"description": "공격력 <@ba.vup>+{atk:0%}</>, 매회 공격 시 범위 내에 {attack@projectile_life_time}초간 지속되는 점액을 생성하여 지상의 적이 지나갈 때 이동 속도 <@ba.vup>{attack@move_speed:0%}</>, 방어력 <@ba.vup>{attack@def}</>(중첩 불가). <$ba.charged>차지</>의 추가 효과: {attack@another_trigger_time}발의 탄약으로 변경\n<@ba.rem>공격 시 {attack@trigger_time}발의 탄약이 장전되고 탄약이 소진되면 스킬 종료 (수동 종료 가능)</>",
 			"skillType": 1,
+			"durationType": 0,
 			"spData": {
 				"spType": 1,
 				"levelUpCost": null,
@@ -180,10 +172,6 @@
 				{
 					"key": "attack@another_trigger_time",
 					"value": 20
-				},
-				{
-					"key": "atk_scale",
-					"value": 1.5
 				}
 			]
 		},
@@ -192,6 +180,7 @@
 			"rangeId": null,
 			"description": "공격력 <@ba.vup>+{atk:0%}</>, 매회 공격 시 범위 내에 {attack@projectile_life_time}초간 지속되는 점액을 생성하여 지상의 적이 지나갈 때 이동 속도 <@ba.vup>{attack@move_speed:0%}</>, 방어력 <@ba.vup>{attack@def}</>(중첩 불가). <$ba.charged>차지</>의 추가 효과: {attack@another_trigger_time}발의 탄약으로 변경\n<@ba.rem>공격 시 {attack@trigger_time}발의 탄약이 장전되고 탄약이 소진되면 스킬 종료 (수동 종료 가능)</>",
 			"skillType": 1,
+			"durationType": 0,
 			"spData": {
 				"spType": 1,
 				"levelUpCost": null,
@@ -226,10 +215,6 @@
 				{
 					"key": "attack@another_trigger_time",
 					"value": 20
-				},
-				{
-					"key": "atk_scale",
-					"value": 1.5
 				}
 			]
 		},
@@ -238,6 +223,7 @@
 			"rangeId": null,
 			"description": "공격력 <@ba.vup>+{atk:0%}</>, 매회 공격 시 범위 내에 {attack@projectile_life_time}초간 지속되는 점액을 생성하여 지상의 적이 지나갈 때 이동 속도 <@ba.vup>{attack@move_speed:0%}</>, 방어력 <@ba.vup>{attack@def}</>(중첩 불가). <$ba.charged>차지</>의 추가 효과: {attack@another_trigger_time}발의 탄약으로 변경\n<@ba.rem>공격 시 {attack@trigger_time}발의 탄약이 장전되고 탄약이 소진되면 스킬 종료 (수동 종료 가능)</>",
 			"skillType": 1,
+			"durationType": 0,
 			"spData": {
 				"spType": 1,
 				"levelUpCost": null,
@@ -272,10 +258,6 @@
 				{
 					"key": "attack@another_trigger_time",
 					"value": 20
-				},
-				{
-					"key": "atk_scale",
-					"value": 1.5
 				}
 			]
 		},
@@ -284,6 +266,7 @@
 			"rangeId": null,
 			"description": "공격력 <@ba.vup>+{atk:0%}</>, 매회 공격 시 범위 내에 {attack@projectile_life_time}초간 지속되는 점액을 생성하여 지상의 적이 지나갈 때 이동 속도 <@ba.vup>{attack@move_speed:0%}</>, 방어력 <@ba.vup>{attack@def}</>(중첩 불가). <$ba.charged>차지</>의 추가 효과: {attack@another_trigger_time}발의 탄약으로 변경\n<@ba.rem>공격 시 {attack@trigger_time}발의 탄약이 장전되고 탄약이 소진되면 스킬 종료 (수동 종료 가능)</>",
 			"skillType": 1,
+			"durationType": 0,
 			"spData": {
 				"spType": 1,
 				"levelUpCost": null,
@@ -318,10 +301,6 @@
 				{
 					"key": "attack@another_trigger_time",
 					"value": 20
-				},
-				{
-					"key": "atk_scale",
-					"value": 1.5
 				}
 			]
 		},
@@ -330,6 +309,7 @@
 			"rangeId": null,
 			"description": "공격력 <@ba.vup>+{atk:0%}</>, 매회 공격 시 범위 내에 {attack@projectile_life_time}초간 지속되는 점액을 생성하여 지상의 적이 지나갈 때 이동 속도 <@ba.vup>{attack@move_speed:0%}</>, 방어력 <@ba.vup>{attack@def}</>(중첩 불가). <$ba.charged>차지</>의 추가 효과: {attack@another_trigger_time}발의 탄약으로 변경\n<@ba.rem>공격 시 {attack@trigger_time}발의 탄약이 장전되고 탄약이 소진되면 스킬 종료 (수동 종료 가능)</>",
 			"skillType": 1,
+			"durationType": 0,
 			"spData": {
 				"spType": 1,
 				"levelUpCost": null,
@@ -364,10 +344,6 @@
 				{
 					"key": "attack@another_trigger_time",
 					"value": 20
-				},
-				{
-					"key": "atk_scale",
-					"value": 1.5
 				}
 			]
 		},
@@ -376,6 +352,7 @@
 			"rangeId": null,
 			"description": "공격력 <@ba.vup>+{atk:0%}</>, 매회 공격 시 범위 내에 {attack@projectile_life_time}초간 지속되는 점액을 생성하여 지상의 적이 지나갈 때 이동 속도 <@ba.vup>{attack@move_speed:0%}</>, 방어력 <@ba.vup>{attack@def}</>(중첩 불가). <$ba.charged>차지</>의 추가 효과: {attack@another_trigger_time}발의 탄약으로 변경\n<@ba.rem>공격 시 {attack@trigger_time}발의 탄약이 장전되고 탄약이 소진되면 스킬 종료 (수동 종료 가능)</>",
 			"skillType": 1,
+			"durationType": 0,
 			"spData": {
 				"spType": 1,
 				"levelUpCost": null,
@@ -410,10 +387,6 @@
 				{
 					"key": "attack@another_trigger_time",
 					"value": 20
-				},
-				{
-					"key": "atk_scale",
-					"value": 1.5
 				}
 			]
 		},
@@ -422,6 +395,7 @@
 			"rangeId": null,
 			"description": "공격력 <@ba.vup>+{atk:0%}</>, 매회 공격 시 범위 내에 {attack@projectile_life_time}초간 지속되는 점액을 생성하여 지상의 적이 지나갈 때 이동 속도 <@ba.vup>{attack@move_speed:0%}</>, 방어력 <@ba.vup>{attack@def}</>(중첩 불가). <$ba.charged>차지</>의 추가 효과: {attack@another_trigger_time}발의 탄약으로 변경\n<@ba.rem>공격 시 {attack@trigger_time}발의 탄약이 장전되고 탄약이 소진되면 스킬 종료 (수동 종료 가능)</>",
 			"skillType": 1,
+			"durationType": 0,
 			"spData": {
 				"spType": 1,
 				"levelUpCost": null,
@@ -456,10 +430,6 @@
 				{
 					"key": "attack@another_trigger_time",
 					"value": 20
-				},
-				{
-					"key": "atk_scale",
-					"value": 1.5
 				}
 			]
 		}

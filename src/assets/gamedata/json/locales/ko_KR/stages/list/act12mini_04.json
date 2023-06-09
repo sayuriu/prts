@@ -1,0 +1,161 @@
+{
+	"stageType": "ACTIVITY",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
+	"unlockCondition": [
+		{
+			"stageId": "act12mini_03",
+			"completeState": 2
+		}
+	],
+	"stageId": "act12mini_04",
+	"levelId": "Activities/act12mini/level_act12mini_04",
+	"zoneId": "act12mini_zone1",
+	"code": "AW-4",
+	"name": "서프라이즈",
+	"description": "준비되지 않은 자는 다가올 실패를 기다리고 있는 것과 진배없다. 손에 든 아이스크림을 꽉 쥐어라. 하늘에서 큰 선물이 떨어질지도 모르니.\n<@lv.item><'젤라토 머신'></> 아군, 적군 모두 점령할 수 있으며, 활성화되면 주변 유닛의 SP 회복",
+	"hardStagedId": "act12mini_04#f#",
+	"dangerLevel": "1차 정예화 Lv.70",
+	"dangerPoint": -1,
+	"loadingPicId": "loading_GA_Roof",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 12,
+	"apFailReturn": 11,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": 0,
+	"expGain": 120,
+	"goldGain": 120,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 11,
+	"completeFavor": 12,
+	"slProgress": 0,
+	"displayMainItem": null,
+	"hilightMark": false,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": 0,
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act12mini_token_component",
+				"dropType": 8
+			},
+			{
+				"type": "ACTIVITY_ITEM",
+				"id": "act12mini_token_component",
+				"dropType": 3
+			},
+			{
+				"type": "MATERIAL",
+				"id": "30031",
+				"dropType": 2
+			},
+			{
+				"type": "MATERIAL",
+				"id": "30061",
+				"dropType": 2
+			},
+			{
+				"type": "MATERIAL",
+				"id": "30041",
+				"dropType": 2
+			},
+			{
+				"type": "MATERIAL",
+				"id": "30051",
+				"dropType": 2
+			},
+			{
+				"type": "MATERIAL",
+				"id": "30021",
+				"dropType": 2
+			},
+			{
+				"type": "MATERIAL",
+				"id": "30011",
+				"dropType": 2
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": 0,
+				"type": "ACTIVITY_ITEM",
+				"id": "act12mini_token_component",
+				"dropType": 8
+			},
+			{
+				"occPercent": 0,
+				"type": "ACTIVITY_ITEM",
+				"id": "act12mini_token_component",
+				"dropType": 3
+			},
+			{
+				"occPercent": 2,
+				"type": "MATERIAL",
+				"id": "30031",
+				"dropType": 2
+			},
+			{
+				"occPercent": 3,
+				"type": "MATERIAL",
+				"id": "30061",
+				"dropType": 2
+			},
+			{
+				"occPercent": 3,
+				"type": "MATERIAL",
+				"id": "30041",
+				"dropType": 2
+			},
+			{
+				"occPercent": 3,
+				"type": "MATERIAL",
+				"id": "30051",
+				"dropType": 2
+			},
+			{
+				"occPercent": 2,
+				"type": "MATERIAL",
+				"id": "30021",
+				"dropType": 2
+			},
+			{
+				"occPercent": 1,
+				"type": "MATERIAL",
+				"id": "30011",
+				"dropType": 2
+			},
+			{
+				"occPercent": 0,
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": 8
+			}
+		]
+	},
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": "act12mini_01"
+}

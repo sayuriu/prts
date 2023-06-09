@@ -1,0 +1,90 @@
+{
+	"stageType": "DAILY",
+	"difficulty": "NORMAL",
+	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
+	"unlockCondition": [
+		{
+			"stageId": "wk_melee_5",
+			"completeState": "PASS"
+		}
+	],
+	"stageId": "wk_melee_6",
+	"levelId": "Obt/Weekly/level_weekly_melee_6",
+	"zoneId": "weekly_9",
+	"code": "CE-6",
+	"name": "实验原件押运",
+	"description": "以灵活的作战方式迎击敌人。\\n<@lv.rem>本次行动中部署费用回复缓慢，且干员布置不受近远程限制</>",
+	"hardStagedId": null,
+	"dangerLevel": "精英2 LV.20",
+	"dangerPoint": -1,
+	"loadingPicId": "loading2",
+	"canPractice": true,
+	"canBattleReplay": true,
+	"apCost": 36,
+	"apFailReturn": 35,
+	"etItemId": null,
+	"etCost": -1,
+	"etFailReturn": -1,
+	"etButtonStyle": null,
+	"apProtectTimes": 1,
+	"diamondOnceDrop": 1,
+	"practiceTicketCost": 1,
+	"dailyStageDifficulty": 6,
+	"expGain": 360,
+	"goldGain": 8325,
+	"loseExpGain": 0,
+	"loseGoldGain": 0,
+	"passFavor": 18,
+	"completeFavor": 36,
+	"slProgress": 0,
+	"displayMainItem": "4001",
+	"hilightMark": true,
+	"bossMark": false,
+	"isPredefined": false,
+	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
+	"isStoryOnly": false,
+	"appearanceStyle": "MAIN_NORMAL",
+	"stageDropInfo": {
+		"firstPassRewards": null,
+		"firstCompleteRewards": null,
+		"passRewards": null,
+		"completeRewards": null,
+		"displayRewards": [
+			{
+				"type": "GOLD",
+				"id": "4001",
+				"dropType": "NORMAL"
+			},
+			{
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": "COMPLETE"
+			}
+		],
+		"displayDetailRewards": [
+			{
+				"occPercent": "ALWAYS",
+				"type": "GOLD",
+				"id": "4001",
+				"dropType": "NORMAL"
+			},
+			{
+				"occPercent": "ALWAYS",
+				"type": "DIAMOND",
+				"id": "4002",
+				"dropType": "COMPLETE"
+			}
+		]
+	},
+	"canUseCharm": false,
+	"canUseTech": false,
+	"canUseTrapTool": false,
+	"canUseBattlePerformance": false,
+	"startButtonOverrideId": null,
+	"isStagePatch": false,
+	"mainStageId": null,
+	"extraCondition": null,
+	"extraInfo": null
+}

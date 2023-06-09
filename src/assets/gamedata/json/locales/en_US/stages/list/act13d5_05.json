@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act13d5_04",
@@ -10,10 +11,10 @@
 	],
 	"stageId": "act13d5_05",
 	"levelId": "Activities/ACT13D5/level_act13d5_05",
-	"zoneId": "act13d5_zone1",
+	"zoneId": "act7sre_zone1",
 	"code": "MN-5",
 	"name": "Słoma Food Co.",
-	"description": "A hundred supermarket chains across the country! Happiness lies with warm clothes and tasty food. Non-stop events during the Kazimierz Major! *New Pincerbeast food products released, give them a try*\n<@lv.item><Anti-Air Rune></>Operators deployed on this tile have slightly reduced ASPD but greatly increased ATK when attacking Aerial units.",
+	"description": "A hundred supermarket chains across the country! Happiness lies with warm clothes and tasty food. Non-stop events during the Kazimierz Major! *New gloompincer food products released, give them a try*\n<@lv.item><Anti-Air Rune></>Operators deployed on this tile have slightly reduced ASPD but their ATK against aerial units will be increased significantly.",
 	"hardStagedId": null,
 	"dangerLevel": "Elite 1 Lv. 40",
 	"dangerPoint": -1,
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {
@@ -57,12 +59,12 @@
 			},
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act13d5_token_securities",
+				"id": "act13d5_token_securities_rep_1",
 				"dropType": 8
 			},
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act13d5_token_securities",
+				"id": "act13d5_token_securities_rep_1",
 				"dropType": 2
 			},
 			{
@@ -91,13 +93,13 @@
 			{
 				"occPercent": 0,
 				"type": "ACTIVITY_ITEM",
-				"id": "act13d5_token_securities",
+				"id": "act13d5_token_securities_rep_1",
 				"dropType": 8
 			},
 			{
 				"occPercent": 0,
 				"type": "ACTIVITY_ITEM",
-				"id": "act13d5_token_securities",
+				"id": "act13d5_token_securities_rep_1",
 				"dropType": 2
 			},
 			{

@@ -7,10 +7,10 @@
 			"name": "液氮大炮",
 			"rangeId": "4-1",
 			"description": "立即发射一个压缩液氮炮，造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的群体法术伤害并将敌人<@ba.vup>中等力度地</>推开，令其<@ba.vup>{duration}</>秒内移动时受到正比于距离的<@ba.vup>真实</>伤害；<@ba.rem>如果蓄水炮在周围4格内的话也会同样进行发射</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 0,
@@ -22,31 +22,38 @@
 			"blackboard": [
 				{
 					"key": "force",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "stun",
-					"value": 0
+					"value": 0,
+					"valueStr": null
 				},
 				{
 					"key": "atk_scale",
-					"value": 2.6
+					"value": 2.6,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 4
+					"value": 4,
+					"valueStr": null
 				},
 				{
 					"key": "dist",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "value",
-					"value": 1200
+					"value": 1200,
+					"valueStr": null
 				},
 				{
 					"key": "interval",
-					"value": 0.066
+					"value": 0.066,
+					"valueStr": null
 				}
 			]
 		},
@@ -54,10 +61,10 @@
 			"name": "液氮大炮",
 			"rangeId": "4-1",
 			"description": "立即发射一个压缩液氮炮，造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的群体法术伤害并将敌人<@ba.vup>中等力度地</>推开，令其<@ba.vup>{duration}</>秒内移动时受到正比于距离的<@ba.vup>真实</>伤害；<@ba.rem>如果蓄水炮在周围4格内的话也会同样进行发射</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 0,
@@ -69,31 +76,38 @@
 			"blackboard": [
 				{
 					"key": "force",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "stun",
-					"value": 0
+					"value": 0,
+					"valueStr": null
 				},
 				{
 					"key": "atk_scale",
-					"value": 2.7
+					"value": 2.7,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 4
+					"value": 4,
+					"valueStr": null
 				},
 				{
 					"key": "dist",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "value",
-					"value": 1200
+					"value": 1200,
+					"valueStr": null
 				},
 				{
 					"key": "interval",
-					"value": 0.066
+					"value": 0.066,
+					"valueStr": null
 				}
 			]
 		},
@@ -101,10 +115,10 @@
 			"name": "液氮大炮",
 			"rangeId": "4-1",
 			"description": "立即发射一个压缩液氮炮，造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的群体法术伤害并将敌人<@ba.vup>中等力度地</>推开，令其<@ba.vup>{duration}</>秒内移动时受到正比于距离的<@ba.vup>真实</>伤害；<@ba.rem>如果蓄水炮在周围4格内的话也会同样进行发射</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 0,
@@ -116,31 +130,38 @@
 			"blackboard": [
 				{
 					"key": "force",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "stun",
-					"value": 0
+					"value": 0,
+					"valueStr": null
 				},
 				{
 					"key": "atk_scale",
-					"value": 2.8
+					"value": 2.8,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 4
+					"value": 4,
+					"valueStr": null
 				},
 				{
 					"key": "dist",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "value",
-					"value": 1200
+					"value": 1200,
+					"valueStr": null
 				},
 				{
 					"key": "interval",
-					"value": 0.066
+					"value": 0.066,
+					"valueStr": null
 				}
 			]
 		},
@@ -148,10 +169,10 @@
 			"name": "液氮大炮",
 			"rangeId": "4-1",
 			"description": "立即发射一个压缩液氮炮，造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的群体法术伤害并将敌人<@ba.vup>中等力度地</>推开，令其<@ba.vup>{duration}</>秒内移动时受到正比于距离的<@ba.vup>真实</>伤害；<@ba.rem>如果蓄水炮在周围4格内的话也会同样进行发射</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 0,
@@ -163,31 +184,38 @@
 			"blackboard": [
 				{
 					"key": "force",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "stun",
-					"value": 0
+					"value": 0,
+					"valueStr": null
 				},
 				{
 					"key": "atk_scale",
-					"value": 2.9
+					"value": 2.9,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 5
+					"value": 5,
+					"valueStr": null
 				},
 				{
 					"key": "dist",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "value",
-					"value": 1200
+					"value": 1200,
+					"valueStr": null
 				},
 				{
 					"key": "interval",
-					"value": 0.066
+					"value": 0.066,
+					"valueStr": null
 				}
 			]
 		},
@@ -195,10 +223,10 @@
 			"name": "液氮大炮",
 			"rangeId": "4-1",
 			"description": "立即发射一个压缩液氮炮，造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的群体法术伤害并将敌人<@ba.vup>中等力度地</>推开，令其<@ba.vup>{duration}</>秒内移动时受到正比于距离的<@ba.vup>真实</>伤害；<@ba.rem>如果蓄水炮在周围4格内的话也会同样进行发射</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 0,
@@ -210,31 +238,38 @@
 			"blackboard": [
 				{
 					"key": "force",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "stun",
-					"value": 0
+					"value": 0,
+					"valueStr": null
 				},
 				{
 					"key": "atk_scale",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 5
+					"value": 5,
+					"valueStr": null
 				},
 				{
 					"key": "dist",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "value",
-					"value": 1200
+					"value": 1200,
+					"valueStr": null
 				},
 				{
 					"key": "interval",
-					"value": 0.066
+					"value": 0.066,
+					"valueStr": null
 				}
 			]
 		},
@@ -242,10 +277,10 @@
 			"name": "液氮大炮",
 			"rangeId": "4-1",
 			"description": "立即发射一个压缩液氮炮，造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的群体法术伤害并将敌人<@ba.vup>中等力度地</>推开，令其<@ba.vup>{duration}</>秒内移动时受到正比于距离的<@ba.vup>真实</>伤害；<@ba.rem>如果蓄水炮在周围4格内的话也会同样进行发射</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 0,
@@ -257,31 +292,38 @@
 			"blackboard": [
 				{
 					"key": "force",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "stun",
-					"value": 0
+					"value": 0,
+					"valueStr": null
 				},
 				{
 					"key": "atk_scale",
-					"value": 3.1
+					"value": 3.1,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 5
+					"value": 5,
+					"valueStr": null
 				},
 				{
 					"key": "dist",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "value",
-					"value": 1200
+					"value": 1200,
+					"valueStr": null
 				},
 				{
 					"key": "interval",
-					"value": 0.066
+					"value": 0.066,
+					"valueStr": null
 				}
 			]
 		},
@@ -289,10 +331,10 @@
 			"name": "液氮大炮",
 			"rangeId": "4-1",
 			"description": "立即发射一个压缩液氮炮，造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的群体法术伤害并将敌人<@ba.vup>较大力地</>推开，令其<@ba.vup>{duration}</>秒内移动时受到正比于距离的<@ba.vup>真实</>伤害；<@ba.rem>如果蓄水炮在周围4格内的话也会同样进行发射</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 0,
@@ -304,31 +346,38 @@
 			"blackboard": [
 				{
 					"key": "force",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				},
 				{
 					"key": "stun",
-					"value": 0
+					"value": 0,
+					"valueStr": null
 				},
 				{
 					"key": "atk_scale",
-					"value": 3.2
+					"value": 3.2,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 6
+					"value": 6,
+					"valueStr": null
 				},
 				{
 					"key": "dist",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "value",
-					"value": 1200
+					"value": 1200,
+					"valueStr": null
 				},
 				{
 					"key": "interval",
-					"value": 0.066
+					"value": 0.066,
+					"valueStr": null
 				}
 			]
 		},
@@ -336,10 +385,10 @@
 			"name": "液氮大炮",
 			"rangeId": "4-1",
 			"description": "立即发射一个压缩液氮炮，造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的群体法术伤害并将敌人<@ba.vup>较大力地</>推开，令其<@ba.vup>{duration}</>秒内移动时受到正比于距离的<@ba.vup>真实</>伤害；<@ba.rem>如果蓄水炮在周围4格内的话也会同样进行发射</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 0,
@@ -351,31 +400,38 @@
 			"blackboard": [
 				{
 					"key": "force",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				},
 				{
 					"key": "stun",
-					"value": 0
+					"value": 0,
+					"valueStr": null
 				},
 				{
 					"key": "atk_scale",
-					"value": 3.3
+					"value": 3.3,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 6
+					"value": 6,
+					"valueStr": null
 				},
 				{
 					"key": "dist",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "value",
-					"value": 1200
+					"value": 1200,
+					"valueStr": null
 				},
 				{
 					"key": "interval",
-					"value": 0.066
+					"value": 0.066,
+					"valueStr": null
 				}
 			]
 		},
@@ -383,10 +439,10 @@
 			"name": "液氮大炮",
 			"rangeId": "4-1",
 			"description": "立即发射一个压缩液氮炮，造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的群体法术伤害并将敌人<@ba.vup>较大力地</>推开，令其<@ba.vup>{duration}</>秒内移动时受到正比于距离的<@ba.vup>真实</>伤害；<@ba.rem>如果蓄水炮在周围4格内的话也会同样进行发射</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 0,
@@ -398,31 +454,38 @@
 			"blackboard": [
 				{
 					"key": "force",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				},
 				{
 					"key": "stun",
-					"value": 0
+					"value": 0,
+					"valueStr": null
 				},
 				{
 					"key": "atk_scale",
-					"value": 3.4
+					"value": 3.4,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 7
+					"value": 7,
+					"valueStr": null
 				},
 				{
 					"key": "dist",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "value",
-					"value": 1200
+					"value": 1200,
+					"valueStr": null
 				},
 				{
 					"key": "interval",
-					"value": 0.066
+					"value": 0.066,
+					"valueStr": null
 				}
 			]
 		},
@@ -430,10 +493,10 @@
 			"name": "液氮大炮",
 			"rangeId": "4-1",
 			"description": "立即发射一个压缩液氮炮，造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的群体法术伤害并将敌人<@ba.vup>大力地</>推开，令其<@ba.vup>{duration}</>秒内移动时受到正比于距离的<@ba.vup>真实</>伤害；<@ba.rem>如果蓄水炮在周围4格内的话也会同样进行发射</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 0,
@@ -445,31 +508,38 @@
 			"blackboard": [
 				{
 					"key": "force",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				},
 				{
 					"key": "stun",
-					"value": 0
+					"value": 0,
+					"valueStr": null
 				},
 				{
 					"key": "atk_scale",
-					"value": 3.5
+					"value": 3.5,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 8
+					"value": 8,
+					"valueStr": null
 				},
 				{
 					"key": "dist",
-					"value": 1
+					"value": 1,
+					"valueStr": null
 				},
 				{
 					"key": "value",
-					"value": 1200
+					"value": 1200,
+					"valueStr": null
 				},
 				{
 					"key": "interval",
-					"value": 0.066
+					"value": 0.066,
+					"valueStr": null
 				}
 			]
 		}

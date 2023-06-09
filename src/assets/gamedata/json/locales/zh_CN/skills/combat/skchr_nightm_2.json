@@ -7,10 +7,10 @@
 			"name": "夜魇魔影",
 			"rangeId": null,
 			"description": "立即对攻击范围内最多<@ba.vup>{max_target}</>名敌人施加梦魇效果：\\n敌人的移动速度<@ba.vup>-{-move_speed:0%}</>，并令其在移动时受到正比于距离的<@ba.vup>真实</>伤害，持续<@ba.vup>{duration}</>秒",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 30,
@@ -22,23 +22,28 @@
 			"blackboard": [
 				{
 					"key": "move_speed",
-					"value": -0.6
+					"value": -0.6,
+					"valueStr": null
 				},
 				{
 					"key": "max_target",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				},
 				{
 					"key": "interval",
-					"value": 0.066
+					"value": 0.066,
+					"valueStr": null
 				},
 				{
 					"key": "value",
-					"value": 1200
+					"value": 1200,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 5
+					"value": 5,
+					"valueStr": null
 				}
 			]
 		},
@@ -46,10 +51,10 @@
 			"name": "夜魇魔影",
 			"rangeId": null,
 			"description": "立即对攻击范围内最多<@ba.vup>{max_target}</>名敌人施加梦魇效果：\\n敌人的移动速度<@ba.vup>-{-move_speed:0%}</>，并令其在移动时受到正比于距离的<@ba.vup>真实</>伤害，持续<@ba.vup>{duration}</>秒",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 29,
@@ -61,23 +66,28 @@
 			"blackboard": [
 				{
 					"key": "move_speed",
-					"value": -0.6
+					"value": -0.6,
+					"valueStr": null
 				},
 				{
 					"key": "max_target",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				},
 				{
 					"key": "interval",
-					"value": 0.066
+					"value": 0.066,
+					"valueStr": null
 				},
 				{
 					"key": "value",
-					"value": 1200
+					"value": 1200,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 5
+					"value": 5,
+					"valueStr": null
 				}
 			]
 		},
@@ -85,10 +95,10 @@
 			"name": "夜魇魔影",
 			"rangeId": null,
 			"description": "立即对攻击范围内最多<@ba.vup>{max_target}</>名敌人施加梦魇效果：\\n敌人的移动速度<@ba.vup>-{-move_speed:0%}</>，并令其在移动时受到正比于距离的<@ba.vup>真实</>伤害，持续<@ba.vup>{duration}</>秒",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 28,
@@ -100,23 +110,28 @@
 			"blackboard": [
 				{
 					"key": "move_speed",
-					"value": -0.6
+					"value": -0.6,
+					"valueStr": null
 				},
 				{
 					"key": "max_target",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				},
 				{
 					"key": "interval",
-					"value": 0.066
+					"value": 0.066,
+					"valueStr": null
 				},
 				{
 					"key": "value",
-					"value": 1200
+					"value": 1200,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 5
+					"value": 5,
+					"valueStr": null
 				}
 			]
 		},
@@ -124,10 +139,10 @@
 			"name": "夜魇魔影",
 			"rangeId": null,
 			"description": "立即对攻击范围内最多<@ba.vup>{max_target}</>名敌人施加梦魇效果：\\n敌人的移动速度<@ba.vup>-{-move_speed:0%}</>，并令其在移动时受到正比于距离的<@ba.vup>真实</>伤害，持续<@ba.vup>{duration}</>秒",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 27,
@@ -139,23 +154,28 @@
 			"blackboard": [
 				{
 					"key": "move_speed",
-					"value": -0.6
+					"value": -0.6,
+					"valueStr": null
 				},
 				{
 					"key": "max_target",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				},
 				{
 					"key": "interval",
-					"value": 0.066
+					"value": 0.066,
+					"valueStr": null
 				},
 				{
 					"key": "value",
-					"value": 1200
+					"value": 1200,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 6
+					"value": 6,
+					"valueStr": null
 				}
 			]
 		},
@@ -163,10 +183,10 @@
 			"name": "夜魇魔影",
 			"rangeId": null,
 			"description": "立即对攻击范围内最多<@ba.vup>{max_target}</>名敌人施加梦魇效果：\\n敌人的移动速度<@ba.vup>-{-move_speed:0%}</>，并令其在移动时受到正比于距离的<@ba.vup>真实</>伤害，持续<@ba.vup>{duration}</>秒",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 26,
@@ -178,23 +198,28 @@
 			"blackboard": [
 				{
 					"key": "move_speed",
-					"value": -0.6
+					"value": -0.6,
+					"valueStr": null
 				},
 				{
 					"key": "max_target",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				},
 				{
 					"key": "interval",
-					"value": 0.066
+					"value": 0.066,
+					"valueStr": null
 				},
 				{
 					"key": "value",
-					"value": 1200
+					"value": 1200,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 6
+					"value": 6,
+					"valueStr": null
 				}
 			]
 		},
@@ -202,10 +227,10 @@
 			"name": "夜魇魔影",
 			"rangeId": null,
 			"description": "立即对攻击范围内最多<@ba.vup>{max_target}</>名敌人施加梦魇效果：\\n敌人的移动速度<@ba.vup>-{-move_speed:0%}</>，并令其在移动时受到正比于距离的<@ba.vup>真实</>伤害，持续<@ba.vup>{duration}</>秒",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 25,
@@ -217,23 +242,28 @@
 			"blackboard": [
 				{
 					"key": "move_speed",
-					"value": -0.6
+					"value": -0.6,
+					"valueStr": null
 				},
 				{
 					"key": "max_target",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				},
 				{
 					"key": "interval",
-					"value": 0.066
+					"value": 0.066,
+					"valueStr": null
 				},
 				{
 					"key": "value",
-					"value": 1200
+					"value": 1200,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 6
+					"value": 6,
+					"valueStr": null
 				}
 			]
 		},
@@ -241,10 +271,10 @@
 			"name": "夜魇魔影",
 			"rangeId": null,
 			"description": "立即对攻击范围内最多<@ba.vup>{max_target}</>名敌人施加梦魇效果：\\n敌人的移动速度<@ba.vup>-{-move_speed:0%}</>，并令其在移动时受到正比于距离的<@ba.vup>真实</>伤害，持续<@ba.vup>{duration}</>秒",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 24,
@@ -256,23 +286,28 @@
 			"blackboard": [
 				{
 					"key": "move_speed",
-					"value": -0.6
+					"value": -0.6,
+					"valueStr": null
 				},
 				{
 					"key": "max_target",
-					"value": 3
+					"value": 3,
+					"valueStr": null
 				},
 				{
 					"key": "interval",
-					"value": 0.066
+					"value": 0.066,
+					"valueStr": null
 				},
 				{
 					"key": "value",
-					"value": 1200
+					"value": 1200,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 7
+					"value": 7,
+					"valueStr": null
 				}
 			]
 		},
@@ -280,10 +315,10 @@
 			"name": "夜魇魔影",
 			"rangeId": null,
 			"description": "立即对攻击范围内最多<@ba.vup>{max_target}</>名敌人施加梦魇效果：\\n敌人的移动速度<@ba.vup>-{-move_speed:0%}</>，并令其在移动时受到正比于距离的<@ba.vup>真实</>伤害，持续<@ba.vup>{duration}</>秒",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 23,
@@ -295,23 +330,28 @@
 			"blackboard": [
 				{
 					"key": "move_speed",
-					"value": -0.6
+					"value": -0.6,
+					"valueStr": null
 				},
 				{
 					"key": "max_target",
-					"value": 4
+					"value": 4,
+					"valueStr": null
 				},
 				{
 					"key": "interval",
-					"value": 0.066
+					"value": 0.066,
+					"valueStr": null
 				},
 				{
 					"key": "value",
-					"value": 1200
+					"value": 1200,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 8
+					"value": 8,
+					"valueStr": null
 				}
 			]
 		},
@@ -319,10 +359,10 @@
 			"name": "夜魇魔影",
 			"rangeId": null,
 			"description": "立即对攻击范围内最多<@ba.vup>{max_target}</>名敌人施加梦魇效果：\\n敌人的移动速度<@ba.vup>-{-move_speed:0%}</>，并令其在移动时受到正比于距离的<@ba.vup>真实</>伤害，持续<@ba.vup>{duration}</>秒",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 22,
@@ -334,23 +374,28 @@
 			"blackboard": [
 				{
 					"key": "move_speed",
-					"value": -0.6
+					"value": -0.6,
+					"valueStr": null
 				},
 				{
 					"key": "max_target",
-					"value": 4
+					"value": 4,
+					"valueStr": null
 				},
 				{
 					"key": "interval",
-					"value": 0.066
+					"value": 0.066,
+					"valueStr": null
 				},
 				{
 					"key": "value",
-					"value": 1200
+					"value": 1200,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 9
+					"value": 9,
+					"valueStr": null
 				}
 			]
 		},
@@ -358,10 +403,10 @@
 			"name": "夜魇魔影",
 			"rangeId": null,
 			"description": "立即对攻击范围内最多<@ba.vup>{max_target}</>名敌人施加梦魇效果：\\n敌人的移动速度<@ba.vup>-{-move_speed:0%}</>，并令其在移动时受到正比于距离的<@ba.vup>真实</>伤害，持续<@ba.vup>{duration}</>秒",
-			"skillType": 2,
-			"durationType": 0,
+			"skillType": "AUTO",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 20,
@@ -373,23 +418,28 @@
 			"blackboard": [
 				{
 					"key": "move_speed",
-					"value": -0.6
+					"value": -0.6,
+					"valueStr": null
 				},
 				{
 					"key": "max_target",
-					"value": 5
+					"value": 5,
+					"valueStr": null
 				},
 				{
 					"key": "interval",
-					"value": 0.066
+					"value": 0.066,
+					"valueStr": null
 				},
 				{
 					"key": "value",
-					"value": 1200
+					"value": 1200,
+					"valueStr": null
 				},
 				{
 					"key": "duration",
-					"value": 10
+					"value": 10,
+					"valueStr": null
 				}
 			]
 		}

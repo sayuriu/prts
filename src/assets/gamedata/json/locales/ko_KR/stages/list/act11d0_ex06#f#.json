@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "FOUR_STAR",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "main_02-08",
@@ -17,7 +18,7 @@
 	"zoneId": "act5sre_zone2",
 	"code": "TW-EX-6",
 	"name": "광장 전투",
-	"description": "<@lv.fs>제한 조건: </>\n전투 시작 시 '축음기' 2대가 적한테 점령. <마법 거대 석상>과  <머드락 소대 행동팀장>의 HP가 대폭 상승",
+	"description": "<@lv.fs>제한 조건:</>\n전투 시작 후 적이 '축음기' 2대 추가 점령, <마법 거대 석상>과 <머드락 소대 행동팀장>의 HP 대폭 상승",
 	"hardStagedId": null,
 	"dangerLevel": "-",
 	"dangerPoint": -1,
@@ -46,6 +47,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {

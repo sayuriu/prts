@@ -2,6 +2,7 @@
 	"stageType": "ACTIVITY",
 	"difficulty": "NORMAL",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NONE",
 	"unlockCondition": [
 		{
 			"stageId": "act13d5_03",
@@ -10,10 +11,10 @@
 	],
 	"stageId": "act13d5_04",
 	"levelId": "Activities/ACT13D5/level_act13d5_04",
-	"zoneId": "act13d5_zone1",
+	"zoneId": "act7sre_zone1",
 	"code": "MN-4",
 	"name": "글로리어스 실드 공업",
-	"description": "최신 오프로드 차량 '소리없는 폭력'이 지금 출시되었습니다! 한정 기간동안 '폭풍의 분노' 타입 차량용 화살 증정! 글로리어스 실드 사의 제품이 당신의 승리와 재앙 퇴치를 도와줄 겁니다!\n<@lv.item><온수 파이프></>일정 간격으로 파이프 위에 있는 아군 혹은 적군에게 대량의 대미지를 준다",
+	"description": "최신 오프로드 차량 '소리없는 폭력'이 지금 출시되었습니다! 한정 기간동안 '폭풍의 분노' 타입 차량용 화살 증정! 글로리어스 실드 사의 제품이 당신의 승리와 재앙 퇴치를 도와줄 겁니다!\n<@lv.item><온수 파이프></> 일정 간격으로 파이프 위에 있는 아군 혹은 적군에게 대량의 대미지를 준다",
 	"hardStagedId": null,
 	"dangerLevel": "1차 정예화 Lv.30",
 	"dangerPoint": -1,
@@ -42,6 +43,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {
@@ -52,12 +54,12 @@
 		"displayRewards": [
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act13d5_token_securities",
+				"id": "act13d5_token_securities_rep_1",
 				"dropType": 8
 			},
 			{
 				"type": "ACTIVITY_ITEM",
-				"id": "act13d5_token_securities",
+				"id": "act13d5_token_securities_rep_1",
 				"dropType": 2
 			},
 			{
@@ -80,13 +82,13 @@
 			{
 				"occPercent": 0,
 				"type": "ACTIVITY_ITEM",
-				"id": "act13d5_token_securities",
+				"id": "act13d5_token_securities_rep_1",
 				"dropType": 8
 			},
 			{
 				"occPercent": 0,
 				"type": "ACTIVITY_ITEM",
-				"id": "act13d5_token_securities",
+				"id": "act13d5_token_securities_rep_1",
 				"dropType": 2
 			},
 			{

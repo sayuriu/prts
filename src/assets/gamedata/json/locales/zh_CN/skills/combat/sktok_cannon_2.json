@@ -7,10 +7,10 @@
 			"name": "脉冲束流",
 			"rangeId": null,
 			"description": "消耗<@ba.vup>{cost}</>点部署费用，对攻击范围内所有敌人造成<@ba.vup>{damage}</>点真实伤害并使其<$ba.stun>晕眩</><@ba.vup>{stun}</>秒",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 50,
@@ -22,15 +22,18 @@
 			"blackboard": [
 				{
 					"key": "cost",
-					"value": 10
+					"value": 10,
+					"valueStr": null
 				},
 				{
 					"key": "damage",
-					"value": 5000
+					"value": 5000,
+					"valueStr": null
 				},
 				{
 					"key": "stun",
-					"value": 7
+					"value": 7,
+					"valueStr": null
 				}
 			]
 		}

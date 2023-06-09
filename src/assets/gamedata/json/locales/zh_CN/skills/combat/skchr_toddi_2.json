@@ -7,10 +7,10 @@
 			"name": "便携破城矢",
 			"rangeId": null,
 			"description": "攻击间隔稍微延长，发射龙矢对敌人造成相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害，击中目标后稍微延迟爆炸，对目标以及周围敌人造成相当于攻击力<@ba.vup>{attack@splash_atk_scale:0%}</>的物理伤害\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后技能结束（期间可随时停止技能）</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 50,
@@ -22,23 +22,28 @@
 			"blackboard": [
 				{
 					"key": "base_attack_time",
-					"value": 0.3
+					"value": 0.3,
+					"valueStr": null
 				},
 				{
 					"key": "attack@atk_scale",
-					"value": 1.5
+					"value": 1.5,
+					"valueStr": null
 				},
 				{
 					"key": "attack@splash_atk_scale",
-					"value": 0.6
+					"value": 0.6,
+					"valueStr": null
 				},
 				{
 					"key": "attack@trigger_time",
-					"value": 10
+					"value": 10,
+					"valueStr": null
 				},
 				{
 					"key": "attack@splash_projectile_delay_time",
-					"value": 1.5
+					"value": 1.5,
+					"valueStr": null
 				}
 			]
 		},
@@ -46,10 +51,10 @@
 			"name": "便携破城矢",
 			"rangeId": null,
 			"description": "攻击间隔稍微延长，发射龙矢对敌人造成相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害，击中目标后稍微延迟爆炸，对目标以及周围敌人造成相当于攻击力<@ba.vup>{attack@splash_atk_scale:0%}</>的物理伤害\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后技能结束（期间可随时停止技能）</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 49,
@@ -61,23 +66,28 @@
 			"blackboard": [
 				{
 					"key": "base_attack_time",
-					"value": 0.3
+					"value": 0.3,
+					"valueStr": null
 				},
 				{
 					"key": "attack@atk_scale",
-					"value": 1.6
+					"value": 1.6,
+					"valueStr": null
 				},
 				{
 					"key": "attack@splash_atk_scale",
-					"value": 0.6
+					"value": 0.6,
+					"valueStr": null
 				},
 				{
 					"key": "attack@trigger_time",
-					"value": 10
+					"value": 10,
+					"valueStr": null
 				},
 				{
 					"key": "attack@splash_projectile_delay_time",
-					"value": 1.5
+					"value": 1.5,
+					"valueStr": null
 				}
 			]
 		},
@@ -85,10 +95,10 @@
 			"name": "便携破城矢",
 			"rangeId": null,
 			"description": "攻击间隔稍微延长，发射龙矢对敌人造成相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害，击中目标后稍微延迟爆炸，对目标以及周围敌人造成相当于攻击力<@ba.vup>{attack@splash_atk_scale:0%}</>的物理伤害\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后技能结束（期间可随时停止技能）</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 48,
@@ -100,23 +110,28 @@
 			"blackboard": [
 				{
 					"key": "base_attack_time",
-					"value": 0.3
+					"value": 0.3,
+					"valueStr": null
 				},
 				{
 					"key": "attack@atk_scale",
-					"value": 1.7
+					"value": 1.7,
+					"valueStr": null
 				},
 				{
 					"key": "attack@splash_atk_scale",
-					"value": 0.6
+					"value": 0.6,
+					"valueStr": null
 				},
 				{
 					"key": "attack@trigger_time",
-					"value": 10
+					"value": 10,
+					"valueStr": null
 				},
 				{
 					"key": "attack@splash_projectile_delay_time",
-					"value": 1.5
+					"value": 1.5,
+					"valueStr": null
 				}
 			]
 		},
@@ -124,10 +139,10 @@
 			"name": "便携破城矢",
 			"rangeId": null,
 			"description": "攻击间隔稍微延长，发射龙矢对敌人造成相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害，击中目标后稍微延迟爆炸，对目标以及周围敌人造成相当于攻击力<@ba.vup>{attack@splash_atk_scale:0%}</>的物理伤害\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后技能结束（期间可随时停止技能）</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 47,
@@ -139,23 +154,28 @@
 			"blackboard": [
 				{
 					"key": "base_attack_time",
-					"value": 0.3
+					"value": 0.3,
+					"valueStr": null
 				},
 				{
 					"key": "attack@atk_scale",
-					"value": 1.8
+					"value": 1.8,
+					"valueStr": null
 				},
 				{
 					"key": "attack@splash_atk_scale",
-					"value": 0.65
+					"value": 0.65,
+					"valueStr": null
 				},
 				{
 					"key": "attack@trigger_time",
-					"value": 10
+					"value": 10,
+					"valueStr": null
 				},
 				{
 					"key": "attack@splash_projectile_delay_time",
-					"value": 1.5
+					"value": 1.5,
+					"valueStr": null
 				}
 			]
 		},
@@ -163,10 +183,10 @@
 			"name": "便携破城矢",
 			"rangeId": null,
 			"description": "攻击间隔稍微延长，发射龙矢对敌人造成相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害，击中目标后稍微延迟爆炸，对目标以及周围敌人造成相当于攻击力<@ba.vup>{attack@splash_atk_scale:0%}</>的物理伤害\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后技能结束（期间可随时停止技能）</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 46,
@@ -178,23 +198,28 @@
 			"blackboard": [
 				{
 					"key": "base_attack_time",
-					"value": 0.3
+					"value": 0.3,
+					"valueStr": null
 				},
 				{
 					"key": "attack@atk_scale",
-					"value": 1.9
+					"value": 1.9,
+					"valueStr": null
 				},
 				{
 					"key": "attack@splash_atk_scale",
-					"value": 0.65
+					"value": 0.65,
+					"valueStr": null
 				},
 				{
 					"key": "attack@trigger_time",
-					"value": 10
+					"value": 10,
+					"valueStr": null
 				},
 				{
 					"key": "attack@splash_projectile_delay_time",
-					"value": 1.5
+					"value": 1.5,
+					"valueStr": null
 				}
 			]
 		},
@@ -202,10 +227,10 @@
 			"name": "便携破城矢",
 			"rangeId": null,
 			"description": "攻击间隔稍微延长，发射龙矢对敌人造成相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害，击中目标后稍微延迟爆炸，对目标以及周围敌人造成相当于攻击力<@ba.vup>{attack@splash_atk_scale:0%}</>的物理伤害\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后技能结束（期间可随时停止技能）</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 45,
@@ -217,23 +242,28 @@
 			"blackboard": [
 				{
 					"key": "base_attack_time",
-					"value": 0.3
+					"value": 0.3,
+					"valueStr": null
 				},
 				{
 					"key": "attack@atk_scale",
-					"value": 2
+					"value": 2,
+					"valueStr": null
 				},
 				{
 					"key": "attack@splash_atk_scale",
-					"value": 0.65
+					"value": 0.65,
+					"valueStr": null
 				},
 				{
 					"key": "attack@trigger_time",
-					"value": 10
+					"value": 10,
+					"valueStr": null
 				},
 				{
 					"key": "attack@splash_projectile_delay_time",
-					"value": 1.5
+					"value": 1.5,
+					"valueStr": null
 				}
 			]
 		},
@@ -241,10 +271,10 @@
 			"name": "便携破城矢",
 			"rangeId": null,
 			"description": "攻击间隔稍微延长，发射龙矢对敌人造成相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害，击中目标后稍微延迟爆炸，对目标以及周围敌人造成相当于攻击力<@ba.vup>{attack@splash_atk_scale:0%}</>的物理伤害\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后技能结束（期间可随时停止技能）</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 44,
@@ -256,23 +286,28 @@
 			"blackboard": [
 				{
 					"key": "base_attack_time",
-					"value": 0.3
+					"value": 0.3,
+					"valueStr": null
 				},
 				{
 					"key": "attack@atk_scale",
-					"value": 2.1
+					"value": 2.1,
+					"valueStr": null
 				},
 				{
 					"key": "attack@splash_atk_scale",
-					"value": 0.7
+					"value": 0.7,
+					"valueStr": null
 				},
 				{
 					"key": "attack@trigger_time",
-					"value": 10
+					"value": 10,
+					"valueStr": null
 				},
 				{
 					"key": "attack@splash_projectile_delay_time",
-					"value": 1.5
+					"value": 1.5,
+					"valueStr": null
 				}
 			]
 		},
@@ -280,10 +315,10 @@
 			"name": "便携破城矢",
 			"rangeId": null,
 			"description": "攻击间隔稍微延长，发射龙矢对敌人造成相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害，击中目标后稍微延迟爆炸，对目标以及周围敌人造成相当于攻击力<@ba.vup>{attack@splash_atk_scale:0%}</>的物理伤害\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后技能结束（期间可随时停止技能）</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 43,
@@ -295,23 +330,28 @@
 			"blackboard": [
 				{
 					"key": "base_attack_time",
-					"value": 0.3
+					"value": 0.3,
+					"valueStr": null
 				},
 				{
 					"key": "attack@atk_scale",
-					"value": 2.2
+					"value": 2.2,
+					"valueStr": null
 				},
 				{
 					"key": "attack@splash_atk_scale",
-					"value": 0.7
+					"value": 0.7,
+					"valueStr": null
 				},
 				{
 					"key": "attack@trigger_time",
-					"value": 10
+					"value": 10,
+					"valueStr": null
 				},
 				{
 					"key": "attack@splash_projectile_delay_time",
-					"value": 1.5
+					"value": 1.5,
+					"valueStr": null
 				}
 			]
 		},
@@ -319,10 +359,10 @@
 			"name": "便携破城矢",
 			"rangeId": null,
 			"description": "攻击间隔稍微延长，发射龙矢对敌人造成相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害，击中目标后稍微延迟爆炸，对目标以及周围敌人造成相当于攻击力<@ba.vup>{attack@splash_atk_scale:0%}</>的物理伤害\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后技能结束（期间可随时停止技能）</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 42,
@@ -334,23 +374,28 @@
 			"blackboard": [
 				{
 					"key": "base_attack_time",
-					"value": 0.3
+					"value": 0.3,
+					"valueStr": null
 				},
 				{
 					"key": "attack@atk_scale",
-					"value": 2.3
+					"value": 2.3,
+					"valueStr": null
 				},
 				{
 					"key": "attack@splash_atk_scale",
-					"value": 0.7
+					"value": 0.7,
+					"valueStr": null
 				},
 				{
 					"key": "attack@trigger_time",
-					"value": 10
+					"value": 10,
+					"valueStr": null
 				},
 				{
 					"key": "attack@splash_projectile_delay_time",
-					"value": 1.5
+					"value": 1.5,
+					"valueStr": null
 				}
 			]
 		},
@@ -358,10 +403,10 @@
 			"name": "便携破城矢",
 			"rangeId": null,
 			"description": "攻击间隔稍微延长，发射龙矢对敌人造成相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害，击中目标后稍微延迟爆炸，对目标以及周围敌人造成相当于攻击力<@ba.vup>{attack@splash_atk_scale:0%}</>的物理伤害\\n<@ba.rem>攻击装有{attack@trigger_time}发弹药，打完后技能结束（期间可随时停止技能）</>",
-			"skillType": 1,
-			"durationType": 0,
+			"skillType": "MANUAL",
+			"durationType": "PASSIVE",
 			"spData": {
-				"spType": 1,
+				"spType": "INCREASE_WITH_TIME",
 				"levelUpCost": null,
 				"maxChargeTime": 1,
 				"spCost": 40,
@@ -373,23 +418,28 @@
 			"blackboard": [
 				{
 					"key": "base_attack_time",
-					"value": 0.3
+					"value": 0.3,
+					"valueStr": null
 				},
 				{
 					"key": "attack@atk_scale",
-					"value": 2.4
+					"value": 2.4,
+					"valueStr": null
 				},
 				{
 					"key": "attack@splash_atk_scale",
-					"value": 0.8
+					"value": 0.8,
+					"valueStr": null
 				},
 				{
 					"key": "attack@trigger_time",
-					"value": 10
+					"value": 10,
+					"valueStr": null
 				},
 				{
 					"key": "attack@splash_projectile_delay_time",
-					"value": 1.5
+					"value": 1.5,
+					"valueStr": null
 				}
 			]
 		}

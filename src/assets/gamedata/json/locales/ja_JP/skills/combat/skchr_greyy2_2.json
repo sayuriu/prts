@@ -1,0 +1,437 @@
+{
+	"skillId": "skchr_greyy2_2",
+	"iconId": null,
+	"hidden": false,
+	"levels": [
+		{
+			"name": "明けの明星",
+			"rangeId": null,
+			"description": "対象がいる位置に<@ba.vup>{projectile_delay_time}</>秒間継続するライトニングボールを1つ発射し、ライトニングボールは<@ba.vup>{interval}</>秒ごとに周囲の敵全員に攻撃力の<@ba.vup>{atk_scale:0%}</>の術ダメージを与え、<@ba.vup>{prob:0%}</>の確率で<@ba.vup>{sluggish}</>秒<$ba.sluggish>足止め</>する\n<@ba.rem>{ct}回チャージ可能</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 30,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_greyy2_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 0.8
+				},
+				{
+					"key": "projectile_delay_time",
+					"value": 6
+				},
+				{
+					"key": "ct",
+					"value": 2
+				},
+				{
+					"key": "interval",
+					"value": 1.5
+				},
+				{
+					"key": "sluggish",
+					"value": 1.4
+				},
+				{
+					"key": "prob",
+					"value": 0.4
+				}
+			]
+		},
+		{
+			"name": "明けの明星",
+			"rangeId": null,
+			"description": "対象がいる位置に<@ba.vup>{projectile_delay_time}</>秒間継続するライトニングボールを1つ発射し、ライトニングボールは<@ba.vup>{interval}</>秒ごとに周囲の敵全員に攻撃力の<@ba.vup>{atk_scale:0%}</>の術ダメージを与え、<@ba.vup>{prob:0%}</>の確率で<@ba.vup>{sluggish}</>秒<$ba.sluggish>足止め</>する\n<@ba.rem>{ct}回チャージ可能</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 30,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_greyy2_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 0.85
+				},
+				{
+					"key": "projectile_delay_time",
+					"value": 6
+				},
+				{
+					"key": "ct",
+					"value": 2
+				},
+				{
+					"key": "interval",
+					"value": 1.5
+				},
+				{
+					"key": "sluggish",
+					"value": 1.4
+				},
+				{
+					"key": "prob",
+					"value": 0.4
+				}
+			]
+		},
+		{
+			"name": "明けの明星",
+			"rangeId": null,
+			"description": "対象がいる位置に<@ba.vup>{projectile_delay_time}</>秒間継続するライトニングボールを1つ発射し、ライトニングボールは<@ba.vup>{interval}</>秒ごとに周囲の敵全員に攻撃力の<@ba.vup>{atk_scale:0%}</>の術ダメージを与え、<@ba.vup>{prob:0%}</>の確率で<@ba.vup>{sluggish}</>秒<$ba.sluggish>足止め</>する\n<@ba.rem>{ct}回チャージ可能</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 30,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_greyy2_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 0.9
+				},
+				{
+					"key": "projectile_delay_time",
+					"value": 6
+				},
+				{
+					"key": "ct",
+					"value": 2
+				},
+				{
+					"key": "interval",
+					"value": 1.5
+				},
+				{
+					"key": "sluggish",
+					"value": 1.4
+				},
+				{
+					"key": "prob",
+					"value": 0.4
+				}
+			]
+		},
+		{
+			"name": "明けの明星",
+			"rangeId": null,
+			"description": "対象がいる位置に<@ba.vup>{projectile_delay_time}</>秒間継続するライトニングボールを1つ発射し、ライトニングボールは<@ba.vup>{interval}</>秒ごとに周囲の敵全員に攻撃力の<@ba.vup>{atk_scale:0%}</>の術ダメージを与え、<@ba.vup>{prob:0%}</>の確率で<@ba.vup>{sluggish}</>秒<$ba.sluggish>足止め</>する\n<@ba.rem>{ct}回チャージ可能</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 30,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_greyy2_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 0.95
+				},
+				{
+					"key": "projectile_delay_time",
+					"value": 8
+				},
+				{
+					"key": "ct",
+					"value": 2
+				},
+				{
+					"key": "interval",
+					"value": 1.5
+				},
+				{
+					"key": "sluggish",
+					"value": 1.4
+				},
+				{
+					"key": "prob",
+					"value": 0.4
+				}
+			]
+		},
+		{
+			"name": "明けの明星",
+			"rangeId": null,
+			"description": "対象がいる位置に<@ba.vup>{projectile_delay_time}</>秒間継続するライトニングボールを1つ発射し、ライトニングボールは<@ba.vup>{interval}</>秒ごとに周囲の敵全員に攻撃力の<@ba.vup>{atk_scale:0%}</>の術ダメージを与え、<@ba.vup>{prob:0%}</>の確率で<@ba.vup>{sluggish}</>秒<$ba.sluggish>足止め</>する\n<@ba.rem>{ct}回チャージ可能</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 30,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_greyy2_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 1
+				},
+				{
+					"key": "projectile_delay_time",
+					"value": 8
+				},
+				{
+					"key": "ct",
+					"value": 2
+				},
+				{
+					"key": "interval",
+					"value": 1.5
+				},
+				{
+					"key": "sluggish",
+					"value": 1.4
+				},
+				{
+					"key": "prob",
+					"value": 0.4
+				}
+			]
+		},
+		{
+			"name": "明けの明星",
+			"rangeId": null,
+			"description": "対象がいる位置に<@ba.vup>{projectile_delay_time}</>秒間継続するライトニングボールを1つ発射し、ライトニングボールは<@ba.vup>{interval}</>秒ごとに周囲の敵全員に攻撃力の<@ba.vup>{atk_scale:0%}</>の術ダメージを与え、<@ba.vup>{prob:0%}</>の確率で<@ba.vup>{sluggish}</>秒<$ba.sluggish>足止め</>する\n<@ba.rem>{ct}回チャージ可能</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 30,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_greyy2_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 1.05
+				},
+				{
+					"key": "projectile_delay_time",
+					"value": 8
+				},
+				{
+					"key": "ct",
+					"value": 2
+				},
+				{
+					"key": "interval",
+					"value": 1.5
+				},
+				{
+					"key": "sluggish",
+					"value": 1.4
+				},
+				{
+					"key": "prob",
+					"value": 0.4
+				}
+			]
+		},
+		{
+			"name": "明けの明星",
+			"rangeId": null,
+			"description": "対象がいる位置に<@ba.vup>{projectile_delay_time}</>秒間継続するライトニングボールを1つ発射し、ライトニングボールは<@ba.vup>{interval}</>秒ごとに周囲の敵全員に攻撃力の<@ba.vup>{atk_scale:0%}</>の術ダメージを与え、<@ba.vup>{prob:0%}</>の確率で<@ba.vup>{sluggish}</>秒<$ba.sluggish>足止め</>する\n<@ba.rem>{ct}回チャージ可能</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 29,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_greyy2_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 1.1
+				},
+				{
+					"key": "projectile_delay_time",
+					"value": 10
+				},
+				{
+					"key": "ct",
+					"value": 2
+				},
+				{
+					"key": "interval",
+					"value": 1.5
+				},
+				{
+					"key": "sluggish",
+					"value": 1.4
+				},
+				{
+					"key": "prob",
+					"value": 0.4
+				}
+			]
+		},
+		{
+			"name": "明けの明星",
+			"rangeId": null,
+			"description": "対象がいる位置に<@ba.vup>{projectile_delay_time}</>秒間継続するライトニングボールを1つ発射し、ライトニングボールは<@ba.vup>{interval}</>秒ごとに周囲の敵全員に攻撃力の<@ba.vup>{atk_scale:0%}</>の術ダメージを与え、<@ba.vup>{prob:0%}</>の確率で<@ba.vup>{sluggish}</>秒<$ba.sluggish>足止め</>する\n<@ba.rem>{ct}回チャージ可能</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 28,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_greyy2_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 1.2
+				},
+				{
+					"key": "projectile_delay_time",
+					"value": 10
+				},
+				{
+					"key": "ct",
+					"value": 2
+				},
+				{
+					"key": "interval",
+					"value": 1.5
+				},
+				{
+					"key": "sluggish",
+					"value": 1.4
+				},
+				{
+					"key": "prob",
+					"value": 0.4
+				}
+			]
+		},
+		{
+			"name": "明けの明星",
+			"rangeId": null,
+			"description": "対象がいる位置に<@ba.vup>{projectile_delay_time}</>秒間継続するライトニングボールを1つ発射し、ライトニングボールは<@ba.vup>{interval}</>秒ごとに周囲の敵全員に攻撃力の<@ba.vup>{atk_scale:0%}</>の術ダメージを与え、<@ba.vup>{prob:0%}</>の確率で<@ba.vup>{sluggish}</>秒<$ba.sluggish>足止め</>する\n<@ba.rem>{ct}回チャージ可能</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 27,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_greyy2_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 1.25
+				},
+				{
+					"key": "projectile_delay_time",
+					"value": 10
+				},
+				{
+					"key": "ct",
+					"value": 2
+				},
+				{
+					"key": "interval",
+					"value": 1.5
+				},
+				{
+					"key": "sluggish",
+					"value": 1.5
+				},
+				{
+					"key": "prob",
+					"value": 0.4
+				}
+			]
+		},
+		{
+			"name": "明けの明星",
+			"rangeId": null,
+			"description": "対象がいる位置に<@ba.vup>{projectile_delay_time}</>秒間継続するライトニングボールを1つ発射し、ライトニングボールは<@ba.vup>{interval}</>秒ごとに周囲の敵全員に攻撃力の<@ba.vup>{atk_scale:0%}</>の術ダメージを与え、<@ba.vup>{prob:0%}</>の確率で<@ba.vup>{sluggish}</>秒<$ba.sluggish>足止め</>する\n<@ba.rem>{ct}回チャージ可能</>",
+			"skillType": 1,
+			"durationType": 0,
+			"spData": {
+				"spType": 1,
+				"levelUpCost": null,
+				"maxChargeTime": 2,
+				"spCost": 25,
+				"initSp": 0,
+				"increment": 1
+			},
+			"prefabId": "skchr_greyy2_2",
+			"duration": -1,
+			"blackboard": [
+				{
+					"key": "atk_scale",
+					"value": 1.3
+				},
+				{
+					"key": "projectile_delay_time",
+					"value": 12
+				},
+				{
+					"key": "ct",
+					"value": 2
+				},
+				{
+					"key": "interval",
+					"value": 1.5
+				},
+				{
+					"key": "sluggish",
+					"value": 1.6
+				},
+				{
+					"key": "prob",
+					"value": 0.4
+				}
+			]
+		}
+	]
+}

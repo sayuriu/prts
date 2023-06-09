@@ -6,31 +6,39 @@
 	"iconId": "MTL_SL_STRG3",
 	"overrideBkg": null,
 	"stackIconId": null,
-	"sortId": 100025,
+	"sortId": 100039,
 	"usage": "机械化制作的中等量糖块，可用于多种强化场合，也常作为制造站合成项目的原料。",
 	"obtainApproach": null,
 	"classifyType": "MATERIAL",
 	"itemType": "MATERIAL",
 	"stageDropList": [
 		{
-			"stageId": "act16side_06",
-			"occPer": "ALMOST"
-		},
-		{
-			"stageId": "act13side_08",
-			"occPer": "ALMOST"
+			"stageId": "act9d0_06",
+			"occPer": "USUAL"
 		},
 		{
 			"stageId": "act15d0_06",
 			"occPer": "USUAL"
 		},
 		{
-			"stageId": "act12d0_07",
+			"stageId": "act13side_08",
 			"occPer": "ALMOST"
 		},
 		{
-			"stageId": "act9d0_06",
-			"occPer": "USUAL"
+			"stageId": "act16side_06",
+			"occPer": "ALMOST"
+		},
+		{
+			"stageId": "act18side_05",
+			"occPer": "ALMOST"
+		},
+		{
+			"stageId": "act22side_05",
+			"occPer": "ALMOST"
+		},
+		{
+			"stageId": "act12d0_07",
+			"occPer": "ALMOST"
 		},
 		{
 			"stageId": "main_02-05",
@@ -58,6 +66,30 @@
 		},
 		{
 			"stageId": "main_09-04",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_10-09",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "tough_10-09",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "main_11-05",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "tough_11-05",
+			"occPer": "USUAL"
+		},
+		{
+			"stageId": "main_12-12",
+			"occPer": "OFTEN"
+		},
+		{
+			"stageId": "tough_12-12",
 			"occPer": "OFTEN"
 		}
 	],

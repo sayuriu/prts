@@ -2,7 +2,12 @@
 	"stageType": "MAIN",
 	"difficulty": "FOUR_STAR",
 	"performanceStageFlag": "NORMAL_STAGE",
+	"diffGroup": "NORMAL",
 	"unlockCondition": [
+		{
+			"stageId": "main_02-08",
+			"completeState": 2
+		},
 		{
 			"stageId": "main_09-05",
 			"completeState": 3
@@ -12,7 +17,7 @@
 	"levelId": "Obt/Main/level_main_09-05",
 	"zoneId": "main_9",
 	"code": "9-6",
-	"name": "「深水区域」",
+	"name": "ダブリン",
 	"description": "<@lv.fs>制限：</>\n全ての味方のブロック数-1",
 	"hardStagedId": null,
 	"dangerLevel": "-",
@@ -42,6 +47,7 @@
 	"bossMark": false,
 	"isPredefined": false,
 	"isHardPredefined": false,
+	"isSkillSelectablePredefined": false,
 	"isStoryOnly": false,
 	"appearanceStyle": 0,
 	"stageDropInfo": {
